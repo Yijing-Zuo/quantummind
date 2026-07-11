@@ -1,0 +1,41 @@
+id: AW-000923
+kind: context
+algorithm_id: AW-000923
+algorithm_name: (many more...)
+source_records:
+- access_status: metadata_only
+  digest: 4252c37aa43c98b4
+  extracted_facts:
+  - 'AlgorithmWiki row name: (many more...)'
+  - 'domain: computational_geometry'
+  - 'computational model: Real RAM'
+  - 'parameter definitions: n: number of line segments, h: number of points on the convex hull'
+  - 'precard summary: Given explicit geometric objects such as points, segments, or polygons, compute the requested geometric structure or witness set. Baseline: not stated. Bottleneck: geometric predicates, ordering events, and output-sensitive structure size dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000923:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for (many more...)
+  url: ''
+web_query_attempts:
+- method: search_plan
+  query: (many more...) algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: (many more...) algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: (many more...) problem definition
+  status: recorded
+- method: search_plan
+  query: (many more...) computational geometry algorithm
+  status: recorded
+- method: search_plan
+  query: (many more...) site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: (many more...) algorithm wiki
+  status: recorded
+extracted_problem_statement: '(many more...) is treated as a classical computational geometry task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with (many more...). Input semantics: Explicit geometric objects such as points, line segments, polygons, or planar subdivisions. Output semantics: The requested geometric structure, simplified curve, clipping result, intersection set, hull, or diagram.'
+extracted_algorithm_summary: '(many more...) is a computational geometry algorithm record. Classical complexity is not stated. The stated classical model is Real RAM. Public metadata/source text adds: (many more...) computational_geometry computational_geometry n: number of line segments, h: number of points on the convex hull Given explicit geometric objects such as points, segments, or polygons, compute the requested geometric structure or witness set.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

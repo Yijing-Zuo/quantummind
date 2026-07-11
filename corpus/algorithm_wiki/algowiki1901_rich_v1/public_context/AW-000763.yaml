@@ -1,0 +1,14 @@
+statement: 'Cholesky Decomposition is included as a named whole-algorithm context card for a classical matrix linear algebra task. The task is to analyze the classical input-output problem, not to certify an end-to-end improvement claim. Input semantics: One or more explicit matrices or linear systems over the stated arithmetic domain. Output semantics: A Cholesky factorization of the input positive-definite matrix. Classical algorithm summary: Cholesky Decomposition is a matrix linear algebra algorithm record. Classical complexity metadata: time O(n^2); space O(n^2). The stated classical model is Word/Real RAM. Public metadata/source text adds: Cholesky Decomposition matrix_linear_algebra matrix_linear_algebra n: dimension of matrix O(n^2) Given one or more explicit dense matrices over the stated arithmetic domain, compute the matrix or linear-algebraic output specified by the record. Classical steps or pseudocode-level structure: Apply the named arithmetic decomposition, elimination, or
+  multiplication recurrence to produce the requested matrix output. Classical complexity recorded for this row: time O(n^2); space O(n^2); computation model Word/Real RAM. Dominant bottleneck: arithmetic over dense or structured matrices and the cost of producing matrix-sized outputs. The useful review questions are whether the named structure exposes a smaller decision, witness, estimation, or algebraic subproblem; whether the full output size dominates any asymptotic gain; and whether the stated access model is realistic for the original input. Provenance is limited to AlgorithmWiki metadata and source-link facts; unresolved details are kept as ambiguities. Source-backed uncertainty or assumptions: No independent fetched public metadata source resolved this row beyond AlgorithmWiki metadata/source-link facts.'
+input_model: explicit_matrix_problem
+access_model: dense_matrix_access
+output_contract: full_classical_output
+promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+size_parameters:
+- 'Parameter definition: n: dimension of matrix'
+ambiguities:
+- No independent fetched public metadata source resolved this row beyond AlgorithmWiki metadata/source-link facts.
+- Some details are reconstructed from AlgorithmWiki metadata rather than an independently fetched full public description.
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.

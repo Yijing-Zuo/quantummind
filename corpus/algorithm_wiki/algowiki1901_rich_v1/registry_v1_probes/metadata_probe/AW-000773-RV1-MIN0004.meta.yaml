@@ -1,0 +1,63 @@
+probe_id: AW-000773-RV1-MIN0004
+algorithm_id: AW-000773-RV1-MIN0004
+canonical_name: Ocone minimum_finding_probe
+readiness: READY_PUBLIC_PROBE
+quality_score: 65
+parent_algorithm_id: AW-000773
+parent_algorithm_name: Ocone
+target_registry_primitive: quantum_minimum_finding
+probe_type: minimum_finding_probe
+source_card_type: probe
+source_card_paths:
+- corpus\algorithm_wiki\algowiki1901_rich_v1\public_context\AW-000773.yaml
+- corpus\algorithm_wiki\algowiki1901_rich_v1\public_probe\AW-000773-P0503.yaml
+source_metadata_paths:
+- corpus\algorithm_wiki\algowiki1901_rich_v1\metadata_probe\AW-000773-P0503.meta.yaml
+introduced_assumptions:
+- finite_candidate_set
+- total_ordered_objective
+- coherent_value_oracle
+required_promises:
+- finite_candidate_set
+- total_ordered_objective
+- coherent_objective_oracle
+original_input_model: explicit_optimization_problem
+original_access_model: coherent_boolean_oracle
+original_output_contract: one_witness
+probe_input_model: finite_candidate_set_problem
+probe_access_model: coherent_value_oracle
+probe_output_contract: argmin_item
+not_end_to_end_claim: true
+expected_authority: query_or_subroutine_hypothesis_only
+why_probe_is_scientifically_interesting: The source text supports an isolated minimum, best, closest, or objective-selection subproblem rather than a required full sorted output.
+why_probe_may_fail: The value oracle, objective ordering, or candidate indexing may be as hard as the original full optimization task.
+overgeneration_risk: medium
+source_records_used:
+- AW-000773:algorithm_wiki_metadata
+- crossref:201a59dd4cf2f083
+- skipped:9babbdffbb73cee1
+screening_decision_source:
+  screening_manifest: corpus\algorithm_wiki\algowiki1901_rich_v1\registry_v1_probes\manifests\registry_v1_screening.csv
+  decision: GENERATE_REGISTRY_V1_PROBE
+  opportunity_score: 6
+inferred_input_model: finite_candidate_set_problem
+inferred_access_model: coherent_value_oracle
+inferred_output_contract: argmin_item
+inferred_size_parameters:
+- 'Parameter definition: n: number of dimensions in state space'
+- 'N: finite candidate set size for the isolated minimum-selection subroutine.'
+inferred_promises:
+- finite_candidate_set
+- total_ordered_objective
+- coherent_objective_oracle
+- oracle_model_assumption
+inferred_ambiguities:
+- This is an assumption-bearing query/subroutine probe and is not an end-to-end speedup claim.
+- The objective oracle and candidate indexing are introduced assumptions requiring expert review.
+- The parent task may still require full output, preprocessing, or data-loading work outside this probe.
+source_count: 3
+source_quality: HIGH
+confidence_score: 65
+card_digest: e5137133bf74a47a
+extraction_version: algorithm-wiki-registry-v1-probe-v1
+root_dataset: corpus\algorithm_wiki\algowiki1901_rich_v1

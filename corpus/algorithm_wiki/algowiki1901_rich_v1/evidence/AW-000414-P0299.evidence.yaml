@@ -1,0 +1,75 @@
+id: AW-000414-P0299
+kind: probe
+algorithm_id: AW-000414
+algorithm_name: Miller and Myers
+source_records:
+- access_status: metadata_only
+  digest: 985a4fa3fd3f9161
+  extracted_facts:
+  - 'AlgorithmWiki row name: Miller and Myers'
+  - 'domain: string'
+  - 'time complexity: O(n(m-r))'
+  - 'space complexity: O(m^2)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: length of the longer input string, m: length of the shorter input string, r: length of the LCS'
+  - 'precard summary: Given one or more explicit strings, compute the matching, indexing, alignment, or transformation output targeted by the record. Baseline: time O(n(m-r)); space O(m^2). Bottleneck: string scanning, preprocessing tables, and reporting matches dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000414:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Miller and Myers
+  url: https://onlinelibrary.wiley.com/doi/abs/10.1002/spe.4380151102
+- access_status: fetched
+  digest: 5bf7a5588459f8de
+  extracted_facts:
+  - 'DOI title: A file comparison program'
+  - 'published year: 1985'
+  - 'container title: Software: Practice and Experience'
+  - 'abstract summary: Abstract This paper presents a simple method for computing a shortest sequence of insertion and deletion commands that converts one given file to another.'
+  reliability: HIGH
+  short_quote: Abstract This paper presents a simple method for computing a shortest sequence of insertion and deletion commands that converts one given file to another.
+  source_id: crossref:07e622148f663271
+  source_type: doi_metadata
+  title: A file comparison program
+  url: https://doi.org/10.1002/spe.4380151102
+- access_status: failed
+  digest: 5f40a2e83ad2a194
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:6d7c43a10cc59c7a
+  source_type: other_public_source
+  title: 'HTTP Error 403: Forbidden'
+  url: https://onlinelibrary.wiley.com/doi/abs/10.1002/spe.4380151102
+web_query_attempts:
+- method: search_plan
+  query: Miller and Myers algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Miller and Myers algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Miller and Myers problem definition
+  status: recorded
+- method: search_plan
+  query: Miller and Myers string algorithm
+  status: recorded
+- method: search_plan
+  query: Miller and Myers site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Miller and Myers algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://onlinelibrary.wiley.com/doi/abs/10.1002/spe.4380151102
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1002/spe.4380151102
+  status: fetched
+- method: source_link_html_metadata
+  query: https://onlinelibrary.wiley.com/doi/abs/10.1002/spe.4380151102
+  status: failed
+extracted_problem_statement: 'Miller and Myers is treated as a classical string task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Miller and Myers. Input semantics: One or more finite strings, sequences, patterns, or alphabets. Output semantics: Pattern occurrence positions, matches, or the associated string-search report.'
+extracted_algorithm_summary: 'Miller and Myers is a string algorithm record. Classical complexity metadata: time O(n(m-r)); space O(m^2). The stated classical model is Word RAM. Public metadata/source text adds: Miller and Myers string string n: length of the longer input string, m: length of the shorter input string, r: length of the LCS O(n(m-r)) Given one or more explicit strings, compute the matching, indexing, alignment, or transformation output targeted by the record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

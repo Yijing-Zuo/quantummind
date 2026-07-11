@@ -1,0 +1,71 @@
+id: AW-001416
+kind: context
+algorithm_id: AW-001416
+algorithm_name: Dadoun, Kirkpatrick [randomized]
+source_records:
+- access_status: metadata_only
+  digest: 751539195b97da00
+  extracted_facts:
+  - 'AlgorithmWiki row name: Dadoun, Kirkpatrick [randomized]'
+  - 'domain: randomized_sampling'
+  - 'time complexity: O(\log^2 n)'
+  - 'computational model: CREW PRAM'
+  - 'parameter definitions: n: number of points'
+  - 'precard summary: Given explicit input data and classical randomness as part of the algorithmic model, produce the sampled or estimated output described by the record. Baseline: time O(\log^2 n); work O(n \log^2 n); span/depth O(log^2 n); processors O(n). Bottleneck: sampling variance, success probability, and estimator precision dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001416:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Dadoun, Kirkpatrick [randomized]
+  url: https://dl.acm.org/doi/10.1145/41958.41980
+- access_status: skipped
+  digest: c4d8b9533ccac564
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:7c0bdd1e71ee1203
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1145/41958.41980
+- access_status: skipped
+  digest: 58433871e708f6c9
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:b4c6a6f686d7011a
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://dl.acm.org/doi/10.1145/41958.41980
+web_query_attempts:
+- method: search_plan
+  query: Dadoun, Kirkpatrick [randomized] algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Dadoun, Kirkpatrick [randomized] algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Dadoun, Kirkpatrick [randomized] problem definition
+  status: recorded
+- method: search_plan
+  query: Dadoun, Kirkpatrick [randomized] randomized sampling algorithm
+  status: recorded
+- method: search_plan
+  query: Dadoun, Kirkpatrick [randomized] site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Dadoun, Kirkpatrick [randomized] algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://dl.acm.org/doi/10.1145/41958.41980
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1145/41958.41980
+  status: skipped
+- method: source_link_html_metadata
+  query: https://dl.acm.org/doi/10.1145/41958.41980
+  status: skipped
+extracted_problem_statement: 'Dadoun, Kirkpatrick [randomized] is treated as a classical randomized sampling task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Dadoun, Kirkpatrick [randomized]. Input semantics: A probability model, data set, or sampler description together with requested estimator parameters. Output semantics: A sample, estimate, or approximate value with the stated randomized or statistical semantics.'
+extracted_algorithm_summary: 'Dadoun, Kirkpatrick [randomized] is a randomized sampling algorithm record. Classical complexity metadata: time O(\log^2 n); work O(n \log^2 n); span/depth O(log^2 n); processors O(n). The stated classical model is CREW PRAM. Public metadata/source text adds: Dadoun, Kirkpatrick [randomized] randomized_sampling randomized_sampling n: number of points O(\log^2 n) Given explicit input data and classical randomness as part of the algorithmic model, produce the sampled or estimated output described by the record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

@@ -1,0 +1,70 @@
+id: AW-000003
+kind: context
+algorithm_id: AW-000003
+algorithm_name: Klawe Mumey
+source_records:
+- access_status: metadata_only
+  digest: f35af332065baa24
+  extracted_facts:
+  - 'AlgorithmWiki row name: Klawe Mumey'
+  - 'domain: unknown'
+  - 'time complexity: O(n)'
+  - 'space complexity: O(n)'
+  - 'parameter definitions: n: number of elements'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000003:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Klawe Mumey
+  url: https://epubs.siam.org/doi/abs/10.1137/S0895480193256651?journalCode=sjdmec
+- access_status: fetched
+  digest: 2f7e2f9796eb8d05
+  extracted_facts:
+  - 'DOI title: Upper and Lower Bounds on Constructing Alphabetic Binary Trees'
+  - 'published year: 1995'
+  - 'container title: SIAM Journal on Discrete Mathematics'
+  reliability: HIGH
+  short_quote: ''
+  source_id: crossref:7bd682e5ae96bfc7
+  source_type: doi_metadata
+  title: Upper and Lower Bounds on Constructing Alphabetic Binary Trees
+  url: https://doi.org/10.1137/S0895480193256651
+- access_status: failed
+  digest: 0a4f41cab52a9b3a
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:8b3833950e09d544
+  source_type: publisher_abstract
+  title: 'HTTP Error 403: Forbidden'
+  url: https://epubs.siam.org/doi/abs/10.1137/S0895480193256651?journalCode=sjdmec
+web_query_attempts:
+- method: search_plan
+  query: Klawe Mumey algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Klawe Mumey algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Klawe Mumey problem definition
+  status: recorded
+- method: search_plan
+  query: Klawe Mumey site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Klawe Mumey algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://epubs.siam.org/doi/abs/10.1137/S0895480193256651?journalCode=sjdmec
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1137/S0895480193256651
+  status: fetched
+- method: source_link_html_metadata
+  query: https://epubs.siam.org/doi/abs/10.1137/S0895480193256651?journalCode=sjdmec
+  status: failed
+extracted_problem_statement: 'Klawe Mumey is treated as a classical data structures task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Klawe Mumey. Input semantics: A set of records plus update/query operations for the named data structure. Output semantics: A maintained data structure representation and answers to its supported queries.'
+extracted_algorithm_summary: 'Klawe Mumey is a data structures algorithm record. Classical complexity metadata: time O(n); space O(n). Public metadata/source text adds: Klawe Mumey unknown unknown n: number of elements O(n) No public-ready summary is available because the row lacks enough task semantics.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

@@ -1,0 +1,60 @@
+id: AW-000925
+kind: context
+algorithm_id: AW-000925
+algorithm_name: Multistep
+source_records:
+- access_status: metadata_only
+  digest: 425965e330e5ab38
+  extracted_facts:
+  - 'AlgorithmWiki row name: Multistep'
+  - 'domain: graph'
+  - 'time complexity: O(V^2+E)'
+  - 'space complexity: O(V+E) total'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: V: number of vertices, E: number of edges, p: number of processors'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(V^2+E); space O(V+E) total. Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000925:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Multistep
+  url: https://ieeexplore.ieee.org/abstract/document/6877288
+- access_status: fetched
+  digest: b569c0eaf4a42a7f
+  extracted_facts:
+  - 'source page title: BFS and Coloring-Based Parallel Algorithms for Strongly Connected Components and Related Problems | IEEE Conference Publication | IEEE Xplore'
+  - 'source page description: Finding the strongly connected components (SCCs) of a directed graph is a fundamental graph-theoretic problem.'
+  reliability: HIGH
+  short_quote: Finding the strongly connected components (SCCs) of a directed graph is a fundamental graph-theoretic problem.
+  source_id: source:093c3c7c266e4fa2
+  source_type: publisher_abstract
+  title: BFS and Coloring-Based Parallel Algorithms for Strongly Connected Components and Related Problems | IEEE Conference Publication | IEEE Xplore
+  url: https://ieeexplore.ieee.org/abstract/document/6877288
+web_query_attempts:
+- method: search_plan
+  query: Multistep algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Multistep algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Multistep problem definition
+  status: recorded
+- method: search_plan
+  query: Multistep graph algorithm
+  status: recorded
+- method: search_plan
+  query: Multistep site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Multistep algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://ieeexplore.ieee.org/abstract/document/6877288
+  status: recorded
+- method: source_link_html_metadata
+  query: https://ieeexplore.ieee.org/abstract/document/6877288
+  status: fetched
+extracted_problem_statement: 'Multistep is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Multistep. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'Multistep is a graph algorithm record. Classical complexity metadata: time O(V^2+E); space O(V+E) total. The stated classical model is Word RAM. Public metadata/source text adds: Multistep graph graph V: number of vertices, E: number of edges, p: number of processors O(V^2+E) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

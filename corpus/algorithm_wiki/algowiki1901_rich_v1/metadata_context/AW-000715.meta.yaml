@@ -1,0 +1,58 @@
+algorithm_family: unknown
+algorithm_id: AW-000715
+approximate: '0'
+approximation_factor: ''
+blind_name: Algorithm Wiki public task AW-000715
+canonical_name: "Sethi\u2013Ullman Algorithm"
+computational_model: Word RAM
+domain: unknown
+extracted_description: ''
+extraction_version: algorithm-wiki-rich-context-v1
+family: unknown
+inferred_access_model: offline_batch_queries
+inferred_ambiguities:
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.
+inferred_input_model: explicit_data_structure_problem
+inferred_output_contract: data_structure_output
+inferred_problem_statement: "Sethi\u2013Ullman Algorithm is treated as a classical data structures task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Sethi\u2013Ullman Algorithm. Input semantics: A set of records plus update/query operations for the named data structure. Output semantics: A maintained data structure representation and answers to its supported queries."
+inferred_promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+inferred_size_parameters:
+- 'Parameter definition: n: number of nodes in the tree'
+number_of_processors: ''
+page_digest: ''
+page_fetch_status: not_found
+page_url: ''
+parameter_definitions: 'n: number of nodes in the tree'
+problem_name: unknown
+quality_flags:
+- has_complexity_semantics
+- has_size_parameters
+- has_computational_model
+quality_score: 70
+randomized: '0'
+readiness: READY_PUBLIC_CONTEXT
+review_reasons:
+- missing_problem_statement
+- unknown_input_model
+- unknown_access_model
+- unknown_output_contract
+- insufficient_algorithm_level_structure
+source_link: https://dl.acm.org/doi/10.1145/321607.321620
+source_link_type: acm
+space_complexity: O(1)
+span_depth: ''
+time_complexity: O(n)
+variation: ''
+work: ''
+year: '1970'
+rich_card_kind: context
+source_records_used:
+- AW-000715:algorithm_wiki_metadata
+- crossref:ec6773bd53fedded
+- failed:786a203392388629
+source_count: 3
+source_quality: HIGH
+confidence_score: 70
+card_digest: 43f09693a285b8ef

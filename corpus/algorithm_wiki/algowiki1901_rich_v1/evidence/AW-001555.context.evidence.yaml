@@ -1,0 +1,45 @@
+id: AW-001555
+kind: context
+algorithm_id: AW-001555
+algorithm_name: Pettie, Ramachandran
+source_records:
+- access_status: metadata_only
+  digest: e7936be4a5a99a00
+  extracted_facts:
+  - 'AlgorithmWiki row name: Pettie, Ramachandran'
+  - 'domain: graph'
+  - 'time complexity: O(m/p + \log^2(n) \log*(n))'
+  - 'computational model: EREW PRAM'
+  - 'parameter definitions: n: number of nodes, m: number of edges'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(m/p + \log^2(n) \log*(n)); work O(m+n); span/depth O(m/p + log^2(n) log*(n)); processors p. Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001555:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Pettie, Ramachandran
+  url: https://www.cs.utexas.edu/users/vlr/papers/tr01-25.pdf
+web_query_attempts:
+- method: search_plan
+  query: Pettie, Ramachandran algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Pettie, Ramachandran algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Pettie, Ramachandran problem definition
+  status: recorded
+- method: search_plan
+  query: Pettie, Ramachandran graph algorithm
+  status: recorded
+- method: search_plan
+  query: Pettie, Ramachandran site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Pettie, Ramachandran algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://www.cs.utexas.edu/users/vlr/papers/tr01-25.pdf
+  status: recorded
+extracted_problem_statement: 'Pettie, Ramachandran is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Pettie, Ramachandran. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'Pettie, Ramachandran is a graph algorithm record. Classical complexity metadata: time O(m/p + \log^2(n) \log*(n)); work O(m+n); span/depth O(m/p + log^2(n) log*(n)); processors p. The stated classical model is EREW PRAM. Public metadata/source text adds: Pettie, Ramachandran graph graph n: number of nodes, m: number of edges O(m/p + \log^2(n) \log*(n)) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

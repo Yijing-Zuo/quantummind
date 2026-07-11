@@ -1,0 +1,14 @@
+statement: 'Paquet Tobin & Chaib-draa 2005 is included as a named whole-algorithm context card for a classical parallel algorithms task. The task is to analyze the classical input-output problem, not to certify an end-to-end improvement claim. Input semantics: A set of processes, request/release events, and shared-memory or message-passing assumptions. Output semantics: A protocol state sequence or decision granting safe critical-section access. Classical algorithm summary: Paquet Tobin & Chaib-draa 2005 is reconstructed as a classical parallel algorithms task. The source-backed title/name/fact record supports the task: coordinate process access to a critical section without simultaneous entry. Classical complexity recorded for this row: time not stated; space not stated; computation model not stated. Dominant bottleneck: Message or shared-variable access, waiting conditions, and fairness/progress constraints dominate. The useful review questions are whether the named structure exposes a
+  smaller decision, witness, estimation, or algebraic subproblem; whether the full output size dominates any asymptotic gain; and whether the stated access model is realistic for the original input. Provenance used for reconstruction includes public metadata or abstract sources such as DRAA; DRAA.'
+input_model: explicit_parallel_algorithm_problem
+access_model: explicit_input_instance
+output_contract: yes_no_decision
+promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+- classical_approximation_algorithm
+size_parameters:
+- 'n: primary input size parameter for the source-backed task.'
+ambiguities:
+- Some details are reconstructed from AlgorithmWiki metadata rather than an independently fetched full public description.
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.

@@ -1,0 +1,72 @@
+id: AW-000715
+kind: context
+algorithm_id: AW-000715
+algorithm_name: "Sethi\u2013Ullman Algorithm"
+source_records:
+- access_status: metadata_only
+  digest: 80aabe35f93b4ad7
+  extracted_facts:
+  - "AlgorithmWiki row name: Sethi\u2013Ullman Algorithm"
+  - 'domain: unknown'
+  - 'time complexity: O(n)'
+  - 'space complexity: O(1)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of nodes in the tree'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000715:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: "AlgorithmWiki metadata for Sethi\u2013Ullman Algorithm"
+  url: https://dl.acm.org/doi/10.1145/321607.321620
+- access_status: fetched
+  digest: 34e1e5fad0cb31a2
+  extracted_facts:
+  - 'DOI title: The Generation of Optimal Code for Arithmetic Expressions'
+  - 'published year: 1970'
+  - 'container title: Journal of the ACM'
+  - "abstract summary: \u2265 1 general purpose registers is considered."
+  reliability: HIGH
+  short_quote: "\u2265 1 general purpose registers is considered."
+  source_id: crossref:ec6773bd53fedded
+  source_type: doi_metadata
+  title: The Generation of Optimal Code for Arithmetic Expressions
+  url: https://doi.org/10.1145/321607.321620
+- access_status: failed
+  digest: abdeba0ce30a25d3
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:786a203392388629
+  source_type: publisher_abstract
+  title: 'HTTP Error 403: Forbidden'
+  url: https://dl.acm.org/doi/10.1145/321607.321620
+web_query_attempts:
+- method: search_plan
+  query: "Sethi\u2013Ullman Algorithm algorithm input output complexity"
+  status: recorded
+- method: search_plan
+  query: "Sethi\u2013Ullman Algorithm algorithm pseudocode"
+  status: recorded
+- method: search_plan
+  query: "Sethi\u2013Ullman Algorithm problem definition"
+  status: recorded
+- method: search_plan
+  query: "Sethi\u2013Ullman Algorithm site:nist.gov DADS"
+  status: recorded
+- method: search_plan
+  query: "Sethi\u2013Ullman Algorithm algorithm wiki"
+  status: recorded
+- method: search_plan
+  query: https://dl.acm.org/doi/10.1145/321607.321620
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1145/321607.321620
+  status: fetched
+- method: source_link_html_metadata
+  query: https://dl.acm.org/doi/10.1145/321607.321620
+  status: failed
+extracted_problem_statement: "Sethi\u2013Ullman Algorithm is treated as a classical data structures task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Sethi\u2013Ullman Algorithm. Input semantics: A set of records plus update/query operations for the named data structure. Output semantics: A maintained data structure representation and answers to its supported queries."
+extracted_algorithm_summary: "Sethi\u2013Ullman Algorithm is a data structures algorithm record. Classical complexity metadata: time O(n); space O(1). The stated classical model is Word RAM. Public metadata/source text adds: Sethi\u2013Ullman Algorithm unknown unknown n: number of nodes in the tree O(n) No public-ready summary is available because the row lacks enough task semantics."
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

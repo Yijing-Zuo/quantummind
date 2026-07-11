@@ -1,0 +1,14 @@
+statement: 'Coplanar facets merging - M.J. De Haemer and M.J. Zyda 1991 is included as a named whole-algorithm context card for a classical computational geometry task. The task is to analyze the classical input-output problem, not to certify an end-to-end improvement claim. Input semantics: A polygonal or triangular mesh with vertices, edges, faces, and simplification/error parameters. Output semantics: A simplified mesh, merged-facet representation, vertex-clustered mesh, or retiled surface. Classical algorithm summary: Coplanar facets merging - M.J. De Haemer and M.J. Zyda 1991 is reconstructed as a classical computational geometry task. The source-backed title/name/fact record supports the task: simplify or retile a geometric mesh while preserving selected shape properties. Classical complexity recorded for this row: time not stated; space not stated; computation model not stated. Dominant bottleneck: Geometric predicates, local error metrics, topology updates, and output mesh construction
+  dominate. The useful review questions are whether the named structure exposes a smaller decision, witness, estimation, or algebraic subproblem; whether the full output size dominates any asymptotic gain; and whether the stated access model is realistic for the original input. Provenance used for reconstruction includes public metadata or abstract sources such as An algorithm for LOD by merging near coplanar faces based on gauss sphere; An algorithm for LOD by merging near coplanar faces based on gauss sphere.'
+input_model: explicit_geometry_problem
+access_model: explicit_geometric_objects
+output_contract: full_solution
+promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+- classical_approximation_algorithm
+size_parameters:
+- 'n: primary input size parameter for the source-backed task.'
+ambiguities:
+- Some details are reconstructed from AlgorithmWiki metadata rather than an independently fetched full public description.
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.

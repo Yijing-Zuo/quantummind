@@ -1,0 +1,68 @@
+id: AW-000451
+kind: context_recovered
+algorithm_id: AW-000451
+algorithm_name: Naimi-Trehel's algorithm
+source_records:
+- access_status: metadata_only
+  digest: de0b1707615bb51c
+  extracted_facts:
+  - 'AlgorithmWiki row name: Naimi-Trehel''s algorithm'
+  - 'domain: unknown'
+  - 'time complexity: O(\log n)'
+  - 'space complexity: O(1) per process, O(n) total'
+  - 'parameter definitions: n: number of processes'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000451:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Naimi-Trehel's algorithm
+  url: https://www.sciencedirect.com/science/article/abs/pii/S0743731596900416
+- access_status: failed
+  digest: 8449763060badf8e
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:d57dc7ec900c04ce
+  source_type: publisher_abstract
+  title: 'HTTP Error 403: Forbidden'
+  url: https://www.sciencedirect.com/science/article/abs/pii/S0743731596900416
+- source_id: crossref_search:218aab9c222af1a2
+  url: https://doi.org/10.1093/ije/dyx087
+  title: Reply to Naimi
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: Reply to Naimi'
+  short_quote: ''
+  digest: 638316956367b7d2
+web_query_attempts:
+- query: '"Naimi-Trehel''s algorithm" algorithm'
+  method: search_plan
+  status: recorded
+- query: '"Naimi-Trehel''s algorithm" input output'
+  method: search_plan
+  status: recorded
+- query: '"Naimi-Trehel''s algorithm" time complexity'
+  method: search_plan
+  status: recorded
+- query: '"Naimi-Trehel''s algorithm" pseudocode'
+  method: search_plan
+  status: recorded
+- query: '"Naimi-Trehel''s algorithm" problem'
+  method: search_plan
+  status: recorded
+- query: '"Naimi-Trehel''s algorithm" PDF metadata abstract'
+  method: search_plan
+  status: recorded
+- query: https://www.sciencedirect.com/science/article/abs/pii/S0743731596900416
+  method: search_plan
+  status: recorded
+- query: Naimi-Trehel's algorithm algorithm
+  method: crossref_title_search
+  status: fetched
+extracted_problem_statement: 'Naimi-Trehel''s algorithm is reconstructed as a classical parallel algorithms task. Problem/task: coordinate process access to a critical section without simultaneous entry Input semantics: A set of processes, request/release events, and shared-memory or message-passing assumptions. Output semantics: A protocol state sequence or decision granting safe critical-section access.'
+extracted_algorithm_summary: 'Naimi-Trehel''s algorithm is treated as the named AlgorithmWiki variant for coordinate process access to a critical section without simultaneous entry Classical complexity metadata: time O(\log n); space O(1) per process, O(n) total. Public metadata/source title support includes Reply to Naimi.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

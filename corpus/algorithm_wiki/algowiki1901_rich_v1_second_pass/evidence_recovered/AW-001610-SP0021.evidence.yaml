@@ -1,0 +1,59 @@
+id: AW-001610-SP0021
+kind: probe_recovered
+algorithm_id: AW-001610
+algorithm_name: Silverman (multiple polynomial quadratic sieve)
+source_records:
+- access_status: metadata_only
+  digest: cb01a55c96fa27a4
+  extracted_facts:
+  - 'AlgorithmWiki row name: Silverman (multiple polynomial quadratic sieve)'
+  - 'domain: unknown'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001610:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Silverman (multiple polynomial quadratic sieve)
+  url: https://www.ams.org/journals/mcom/1987-48-177/S0025-5718-1987-0866119-8/S0025-5718-1987-0866119-8.pdf
+- source_id: crossref_search:5f4675bc8a709c69
+  url: https://doi.org/10.1090/s0025-5718-1987-0866119-8
+  title: The multiple polynomial quadratic sieve
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: The multiple polynomial quadratic sieve'
+  - "abstract summary: A modification, due to Peter Montgomery, of Pomerance\u2019s Quadratic Sieve for factoring large integers is discussed along with its implementation."
+  short_quote: "A modification, due to Peter Montgomery, of Pomerance\u2019s Quadratic Sieve for factoring large integers is discussed along with its implementation."
+  digest: d9bc1837a47f84df
+web_query_attempts:
+- query: '"Silverman (multiple polynomial quadratic sieve)" algorithm'
+  method: search_plan
+  status: recorded
+- query: '"Silverman (multiple polynomial quadratic sieve)" input output'
+  method: search_plan
+  status: recorded
+- query: '"Silverman (multiple polynomial quadratic sieve)" time complexity'
+  method: search_plan
+  status: recorded
+- query: '"Silverman (multiple polynomial quadratic sieve)" pseudocode'
+  method: search_plan
+  status: recorded
+- query: '"Silverman (multiple polynomial quadratic sieve)" problem'
+  method: search_plan
+  status: recorded
+- query: '"Silverman (multiple polynomial quadratic sieve)" PDF metadata abstract'
+  method: search_plan
+  status: recorded
+- query: https://www.ams.org/journals/mcom/1987-48-177/S0025-5718-1987-0866119-8/S0025-5718-1987-0866119-8.pdf
+  method: search_plan
+  status: recorded
+- query: Silverman (multiple polynomial quadratic sieve) algorithm
+  method: crossref_title_search
+  status: fetched
+- query: Silverman (multiple polynomial quadratic sieve) algorithm
+  method: wikipedia_summary_search
+  status: failed_or_not_relevant
+extracted_problem_statement: 'Silverman (multiple polynomial quadratic sieve) is reconstructed as a classical combinatorics task. Problem/task: find a nontrivial factorization of an integer Input semantics: An integer N represented with n bits and method-specific smoothness or search bounds. Output semantics: A nontrivial factor, a complete factorization, or a failure indication under the method assumptions.'
+extracted_algorithm_summary: 'Silverman (multiple polynomial quadratic sieve) is treated as the named AlgorithmWiki variant for find a nontrivial factorization of an integer Classical complexity metadata: work L_n[1/2,(9/8)^(1/2)] = exp((sqrt(9/8)+o(1)) * sqrt(ln n * ln ln n)); span/depth L_n[1/2,(9/8)^(1/2)] = exp((sqrt(9/8)+o(1)) * sqrt(ln n * ln ln n)). Public metadata/source title support includes The multiple polynomial quadratic sieve.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

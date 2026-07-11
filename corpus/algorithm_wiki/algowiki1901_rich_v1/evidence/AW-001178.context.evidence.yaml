@@ -1,0 +1,58 @@
+id: AW-001178
+kind: context
+algorithm_id: AW-001178
+algorithm_name: Chen, Chen (generalized)
+source_records:
+- access_status: metadata_only
+  digest: 96b8af4dd8c2651b
+  extracted_facts:
+  - 'AlgorithmWiki row name: Chen, Chen (generalized)'
+  - 'domain: sorting'
+  - 'time complexity: O(4^(k+1))'
+  - 'computational model: k-d reconfigurable mesh sorting network'
+  - 'parameter definitions: n: size of list, k: mesh dimensions (k>=4)'
+  - 'precard summary: Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model. Baseline: time O(4^(k+1)); work O(n^(1+1/(k-1))); span/depth O(1); processors O(n^(1+1/(k-1))). Bottleneck: comparison, distribution, and full-output movement costs dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001178:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Chen, Chen (generalized)
+  url: https://ieeexplore.ieee.org/document/286307/citations#citations
+- access_status: skipped
+  digest: 6e676d2cb30e0ae6
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:736ef078baca3bf0
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://ieeexplore.ieee.org/document/286307/citations#citations
+web_query_attempts:
+- method: search_plan
+  query: Chen, Chen (generalized) algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Chen, Chen (generalized) algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Chen, Chen (generalized) problem definition
+  status: recorded
+- method: search_plan
+  query: Chen, Chen (generalized) sorting algorithm
+  status: recorded
+- method: search_plan
+  query: Chen, Chen (generalized) site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Chen, Chen (generalized) algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://ieeexplore.ieee.org/document/286307/citations#citations
+  status: recorded
+- method: source_link_html_metadata
+  query: https://ieeexplore.ieee.org/document/286307/citations#citations
+  status: skipped
+extracted_problem_statement: 'Chen, Chen (generalized) is treated as a classical sorting task for rich AlgorithmWiki discovery. Problem/task: sort the input sequence using the named classical sorting method. Input semantics: A finite array or list of comparable keys or records. Output semantics: The same items returned in nondecreasing order, usually as a full reordered sequence.'
+extracted_algorithm_summary: 'Chen, Chen (generalized) is a sorting algorithm record. Classical complexity metadata: time O(4^(k+1)); work O(n^(1+1/(k-1))); span/depth O(1); processors O(n^(1+1/(k-1))). The stated classical model is k-d reconfigurable mesh sorting network. Public metadata/source text adds: Chen, Chen (generalized) sorting sorting n: size of list, k: mesh dimensions (k>=4) O(4^(k+1)) Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

@@ -1,0 +1,58 @@
+id: AW-001620
+kind: context
+algorithm_id: AW-001620
+algorithm_name: Galil
+source_records:
+- access_status: metadata_only
+  digest: 7e78344cbfced5c4
+  extracted_facts:
+  - 'AlgorithmWiki row name: Galil'
+  - 'domain: parallel_algorithms'
+  - 'time complexity: O(1)'
+  - 'computational model: CRCW PRAM'
+  - 'parameter definitions: n: length of text, m: length of pattern'
+  - 'precard summary: Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model. Baseline: time O(1); work O(n); span/depth O(1); processors O(n). Bottleneck: work, span, communication, and processor-count assumptions dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001620:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Galil
+  url: https://dl.acm.org/doi/pdf/10.1145/210332.210341
+- access_status: skipped
+  digest: 549ff66e4cb176ef
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:49c544d4cc0911a7
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1145/210332.210341
+web_query_attempts:
+- method: search_plan
+  query: Galil algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Galil algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Galil problem definition
+  status: recorded
+- method: search_plan
+  query: Galil parallel algorithms algorithm
+  status: recorded
+- method: search_plan
+  query: Galil site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Galil algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://dl.acm.org/doi/pdf/10.1145/210332.210341
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1145/210332.210341
+  status: skipped
+extracted_problem_statement: 'Galil is treated as a classical parallel algorithms task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Galil. Input semantics: The classical input instance named by the row, together with processor/work/span parameters when stated. Output semantics: Pattern occurrence positions, matches, or the associated string-search report.'
+extracted_algorithm_summary: 'Galil is a parallel algorithms algorithm record. Classical complexity metadata: time O(1); work O(n); span/depth O(1); processors O(n). The stated classical model is CRCW PRAM. Public metadata/source text adds: Galil parallel_algorithms parallel_algorithms n: length of text, m: length of pattern O(1) Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

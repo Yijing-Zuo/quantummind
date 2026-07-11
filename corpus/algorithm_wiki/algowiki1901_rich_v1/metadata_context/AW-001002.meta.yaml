@@ -1,0 +1,59 @@
+algorithm_family: data structures
+algorithm_id: AW-001002
+approximate: '0'
+approximation_factor: ''
+blind_name: Algorithm Wiki public task AW-001002
+canonical_name: Scapegoat Tree
+computational_model: Word RAM
+domain: data_structures
+extracted_description: ''
+extraction_version: algorithm-wiki-rich-context-v1
+family: data_structures
+inferred_access_model: offline_batch_queries
+inferred_ambiguities:
+- No independent fetched public metadata source resolved this row beyond AlgorithmWiki metadata/source-link facts.
+- Some details are reconstructed from AlgorithmWiki metadata rather than an independently fetched full public description.
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.
+inferred_input_model: explicit_data_structure_problem
+inferred_output_contract: data_structure_output
+inferred_problem_statement: 'Scapegoat Tree is treated as a classical data structures task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Scapegoat Tree. Input semantics: A set of records plus update/query operations for the named data structure. Output semantics: A maintained data structure representation and answers to its supported queries.'
+inferred_promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+inferred_size_parameters:
+- 'Parameter definition: n: number of nodes'
+number_of_processors: ''
+page_digest: ''
+page_fetch_status: not_found
+page_url: ''
+parameter_definitions: 'n: number of nodes'
+problem_name: data structures
+quality_flags:
+- domain_inferred
+- problem_statement_inferred
+- io_access_output_inferred
+- has_complexity_semantics
+- has_size_parameters
+- has_computational_model
+quality_score: 100
+randomized: '0'
+readiness: READY_PUBLIC_CONTEXT
+review_reasons:
+- A previous row has the same canonicalized algorithm name.
+source_link: https://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.138.4859
+source_link_type: citeseerx
+space_complexity: O(1)
+span_depth: ''
+time_complexity: O(n)
+variation: ''
+work: ''
+year: '1989'
+rich_card_kind: context
+source_records_used:
+- AW-001002:algorithm_wiki_metadata
+- skipped:f2101ec928871862
+- skipped:b93e967b06b21faa
+source_count: 3
+source_quality: HIGH
+confidence_score: 100
+card_digest: fa6b6821e8a93afa

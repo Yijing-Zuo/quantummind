@@ -1,0 +1,13 @@
+statement: 'Ocone is included as a named whole-algorithm context card for a classical optimization task. The task is to analyze the classical input-output problem, not to certify an end-to-end improvement claim. Input semantics: An explicit feasible-region, objective, scheduling, assignment, or knapsack-style instance. Output semantics: An optimal or approximate feasible solution with its objective value or schedule/assignment representation. Classical algorithm summary: Ocone is a optimization algorithm record. Classical complexity metadata: time O(n^2). Public metadata/source text adds: Ocone unknown unknown n: number of dimensions in state space O(n^2) No public-ready summary is available because the row lacks enough task semantics. Classical complexity recorded for this row: time O(n^2); space unknown; computation model not stated. Dominant bottleneck: dominant bottleneck remains uncertain from the available public source metadata. The useful review questions are whether the named structure
+  exposes a smaller decision, witness, estimation, or algebraic subproblem; whether the full output size dominates any asymptotic gain; and whether the stated access model is realistic for the original input. Provenance used for reconstruction includes public metadata or abstract sources such as Entropy Inequalities and Entropy Dynamics in Nonlinear Filtering of Diffusion Processes.'
+input_model: explicit_optimization_problem
+access_model: explicit_input_instance
+output_contract: estimate
+promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+size_parameters:
+- 'Parameter definition: n: number of dimensions in state space'
+ambiguities:
+- Some details are reconstructed from AlgorithmWiki metadata rather than an independently fetched full public description.
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.

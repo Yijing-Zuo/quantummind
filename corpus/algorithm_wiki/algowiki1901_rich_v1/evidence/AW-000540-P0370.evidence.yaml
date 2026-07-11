@@ -1,0 +1,49 @@
+id: AW-000540-P0370
+kind: probe
+algorithm_id: AW-000540
+algorithm_name: "Knuth\u2013Bendix algorithm"
+source_records:
+- access_status: metadata_only
+  digest: 4e2c7a4188c56916
+  extracted_facts:
+  - "AlgorithmWiki row name: Knuth\u2013Bendix algorithm"
+  - 'domain: string'
+  - 'time complexity: O(1.5^n n^2 \log n)'
+  - 'space complexity: O(ng)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of generators, g: order of group (possibly exponential in n), k: number of relations, c: maximum number of generators multiplied together in a relation'
+  - 'precard summary: Given one or more explicit strings, compute the matching, indexing, alignment, or transformation output targeted by the record. Baseline: time O(1.5^n n^2 \log n); space O(ng). Bottleneck: string scanning, preprocessing tables, and reporting matches dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000540:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: "AlgorithmWiki metadata for Knuth\u2013Bendix algorithm"
+  url: https://www.cs.tufts.edu/~nr/cs257/archive/don-knuth/knuth-bendix.pdf
+web_query_attempts:
+- method: search_plan
+  query: "Knuth\u2013Bendix algorithm algorithm input output complexity"
+  status: recorded
+- method: search_plan
+  query: "Knuth\u2013Bendix algorithm algorithm pseudocode"
+  status: recorded
+- method: search_plan
+  query: "Knuth\u2013Bendix algorithm problem definition"
+  status: recorded
+- method: search_plan
+  query: "Knuth\u2013Bendix algorithm string algorithm"
+  status: recorded
+- method: search_plan
+  query: "Knuth\u2013Bendix algorithm site:nist.gov DADS"
+  status: recorded
+- method: search_plan
+  query: "Knuth\u2013Bendix algorithm algorithm wiki"
+  status: recorded
+- method: search_plan
+  query: https://www.cs.tufts.edu/~nr/cs257/archive/don-knuth/knuth-bendix.pdf
+  status: recorded
+- method: wikipedia_summary_search
+  query: "Knuth\u2013Bendix algorithm algorithm"
+  status: failed_or_not_relevant
+extracted_problem_statement: "Knuth\u2013Bendix algorithm is treated as a classical string task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Knuth\u2013Bendix algorithm. Input semantics: One or more finite strings, sequences, patterns, or alphabets. Output semantics: Pattern occurrence positions, matches, or the associated string-search report."
+extracted_algorithm_summary: "Knuth\u2013Bendix algorithm is a string algorithm record. Classical complexity metadata: time O(1.5^n n^2 \\log n); space O(ng). The stated classical model is Word RAM. Public metadata/source text adds: Knuth\u2013Bendix algorithm string string n: number of generators, g: order of group (possibly exponential in n), k: number of relations, c: maximum number of generators multiplied together in a relation O(1.5^n n^2 \\log n) Given one or more explicit strings, compute the matching, indexing, alignment, or transformation output targeted by the record."
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

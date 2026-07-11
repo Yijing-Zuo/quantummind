@@ -1,0 +1,35 @@
+algorithm_id: AW-000960
+canonical_name: Steffensen's method
+enrichment_status: SECOND_PASS_INSUFFICIENT
+review_reasons:
+- No second-pass rule could identify source-backed task semantics.
+source_records:
+- access_status: metadata_only
+  digest: cd3d0a7cb53329bf
+  extracted_facts:
+  - 'AlgorithmWiki row name: Steffensen''s method'
+  - 'domain: unknown'
+  - 'time complexity: O(n_max)'
+  - 'space complexity: O(1)'
+  - 'computational model: Word/Real RAM'
+  - 'parameter definitions: epsilon: (additive) tolerance error, n_max: maximum number of iterations'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000960:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Steffensen's method
+  url: ''
+- source_id: crossref_search:65222d9cdd3c9f99
+  url: https://doi.org/10.1007/s10589-024-00583-7
+  title: Stochastic Steffensen method
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: Stochastic Steffensen method'
+  short_quote: ''
+  digest: f0d89cc6edfa8141
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

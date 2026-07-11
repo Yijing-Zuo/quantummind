@@ -1,0 +1,31 @@
+algorithm_id: AW-000364
+canonical_name: Vertex clustering - Hoppe H. DeRose T. 1993
+enrichment_status: SECOND_PASS_INSUFFICIENT
+review_reasons:
+- No second-pass rule could identify source-backed task semantics.
+source_records:
+- access_status: metadata_only
+  digest: 77d05d026fa58dbb
+  extracted_facts:
+  - 'AlgorithmWiki row name: Vertex clustering - Hoppe H. DeRose T. 1993'
+  - 'domain: unknown'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000364:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Vertex clustering - Hoppe H. DeRose T. 1993
+  url: ''
+- source_id: crossref_search:f624043c3c07622f
+  url: https://doi.org/10.1080/24751839.2019.1686683
+  title: A vertex-similarity clustering algorithm for community detection
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: A vertex-similarity clustering algorithm for community detection'
+  short_quote: ''
+  digest: 632a521961f242be
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

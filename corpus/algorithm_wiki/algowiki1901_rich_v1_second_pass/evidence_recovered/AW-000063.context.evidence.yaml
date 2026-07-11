@@ -1,0 +1,59 @@
+id: AW-000063
+kind: context_recovered
+algorithm_id: AW-000063
+algorithm_name: Naive Implementation
+source_records:
+- access_status: metadata_only
+  digest: 950308c952ed4174
+  extracted_facts:
+  - 'AlgorithmWiki row name: Naive Implementation'
+  - 'domain: unknown'
+  - 'time complexity: O(kn^2)'
+  - 'space complexity: O(1)'
+  - 'computational model: Real RAM'
+  - 'parameter definitions: n: number of points, k: dimension of space'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000063:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Naive Implementation
+  url: '-'
+- source_id: crossref_search:99a59972a7752708
+  url: https://doi.org/10.2991/aer.k.211106.030
+  title: Implementation of Naive Bayes Algorithm on Sentiment Analysis Application
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: Implementation of Naive Bayes Algorithm on Sentiment Analysis Application'
+  short_quote: ''
+  digest: 1b486de71c4275c1
+web_query_attempts:
+- query: '"Naive Implementation" algorithm'
+  method: search_plan
+  status: recorded
+- query: '"Naive Implementation" input output'
+  method: search_plan
+  status: recorded
+- query: '"Naive Implementation" time complexity'
+  method: search_plan
+  status: recorded
+- query: '"Naive Implementation" pseudocode'
+  method: search_plan
+  status: recorded
+- query: '"Naive Implementation" problem'
+  method: search_plan
+  status: recorded
+- query: '"Naive Implementation" PDF metadata abstract'
+  method: search_plan
+  status: recorded
+- query: '-'
+  method: search_plan
+  status: recorded
+- query: Naive Implementation algorithm
+  method: crossref_title_search
+  status: fetched
+extracted_problem_statement: 'Naive Implementation is reconstructed as a classical computational geometry task. Problem/task: compute a geometric structure or relation over a finite point set Input semantics: A finite set of points, dimension k when stated, and geometric predicate assumptions. Output semantics: A geometric witness, nearest/closest relation, hull, partition, or related structure supported by the named row.'
+extracted_algorithm_summary: 'Naive Implementation is treated as the named AlgorithmWiki variant for compute a geometric structure or relation over a finite point set Classical complexity metadata: time O(kn^2); space O(1). Public metadata/source title support includes Implementation of Naive Bayes Algorithm on Sentiment Analysis Application.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

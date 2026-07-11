@@ -1,0 +1,35 @@
+algorithm_id: AW-000439
+canonical_name: Hash join
+enrichment_status: SECOND_PASS_INSUFFICIENT
+review_reasons:
+- No second-pass rule could identify source-backed task semantics.
+source_records:
+- access_status: metadata_only
+  digest: cf2ea77194f5926c
+  extracted_facts:
+  - 'AlgorithmWiki row name: Hash join'
+  - 'domain: unknown'
+  - 'time complexity: O(n+m)'
+  - 'space complexity: O(n+m)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n, m: sizes of input tables'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000439:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Hash join
+  url: '-'
+- source_id: crossref_search:9a93bafec56e588c
+  url: https://doi.org/10.1109/paciia.2008.234
+  title: Progressive Hash-Merge Join Algorithm
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: Progressive Hash-Merge Join Algorithm'
+  short_quote: ''
+  digest: de56865b6a2b405e
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

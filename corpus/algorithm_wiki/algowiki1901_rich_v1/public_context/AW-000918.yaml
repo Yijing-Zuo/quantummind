@@ -1,0 +1,12 @@
+statement: 'Seidel''s Shelling Algorithm is included as a named whole-algorithm context card for a classical computational geometry task. The task is to analyze the classical input-output problem, not to certify an end-to-end improvement claim. Input semantics: Explicit geometric objects such as points, line segments, polygons, or planar subdivisions. Output semantics: The requested geometric structure, simplified curve, clipping result, intersection set, hull, or diagram. Classical algorithm summary: Seidel''s Shelling Algorithm is a computational geometry algorithm record. Classical complexity metadata: time O(n^2+f_1*log(n)). The stated classical model is Real RAM. Public metadata/source text adds: Seidel''s Shelling Algorithm computational_geometry computational_geometry n: number of line segments, h: number of points on the convex hull, f_1: number of facets on the convex hull (potentially \theta(n^{d/2}), f_2: number of subfacets on the convex hull O(n^2+f_1*log(n)) Given explicit
+  geometric objects such as points, segments, or polygons, compute the requested geometric structure or witness set. Classical complexity recorded for this row: time O(n^2+f_1*log(n)); space unknown; computation model Real RAM. Dominant bottleneck: geometric predicates, event ordering, and output-sensitive structure size. The useful review questions are whether the named structure exposes a smaller decision, witness, estimation, or algebraic subproblem; whether the full output size dominates any asymptotic gain; and whether the stated access model is realistic for the original input. Provenance used for reconstruction includes public metadata or abstract sources such as Constructing higher-dimensional convex hulls at logarithmic cost per face.'
+input_model: explicit_geometry_problem
+access_model: explicit_geometric_objects
+output_contract: full_solution
+promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+size_parameters:
+- 'Parameter definition: n: number of line segments, h: number of points on the convex hull, f_1: number of facets on the convex hull (potentially \theta(n^{d/2}), f_2: number of subfacets on the convex hull'
+ambiguities:
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.

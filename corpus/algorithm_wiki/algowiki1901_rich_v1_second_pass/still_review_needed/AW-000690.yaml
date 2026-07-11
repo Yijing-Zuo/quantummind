@@ -1,0 +1,35 @@
+algorithm_id: AW-000690
+canonical_name: "Tomas Feder, Nimrod Megiddoy, Serge A\x01 Plotki"
+enrichment_status: SECOND_PASS_INSUFFICIENT
+review_reasons:
+- No second-pass rule could identify source-backed task semantics.
+source_records:
+- access_status: metadata_only
+  digest: e9e94c4f85790d86
+  extracted_facts:
+  - "AlgorithmWiki row name: Tomas Feder, Nimrod Megiddoy, Serge A\x01 Plotki"
+  - 'domain: unknown'
+  - 'time complexity: O(n^{0.5})'
+  - 'space complexity: O(n^{0.5}) auxiliary per processor'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of men and number of women'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000690:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: "AlgorithmWiki metadata for Tomas Feder, Nimrod Megiddoy, Serge A\x01 Plotki"
+  url: http://theory.stanford.edu/~megiddo/pdf/soda94.pdf
+- source_id: crossref_search:8826929f74935b8c
+  url: https://doi.org/10.1163/2589-7802_dddo_nimrod
+  title: Nimrod
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: Nimrod'
+  short_quote: ''
+  digest: fa6133b168822216
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

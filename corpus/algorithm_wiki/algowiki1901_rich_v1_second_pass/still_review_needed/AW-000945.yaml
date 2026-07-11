@@ -1,0 +1,76 @@
+algorithm_id: AW-000945
+canonical_name: "Paturi, Pudl\xE1k, Saks, Zane (PPSZ) 2005"
+enrichment_status: SECOND_PASS_INSUFFICIENT
+review_reasons:
+- No second-pass rule could identify source-backed task semantics.
+source_records:
+- access_status: metadata_only
+  digest: ca6bd172f0958d13
+  extracted_facts:
+  - "AlgorithmWiki row name: Paturi, Pudl\xE1k, Saks, Zane (PPSZ) 2005"
+  - 'domain: unknown'
+  - 'time complexity: O^*(2^{n-cn/k})'
+  - 'space complexity: O(kn)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of clauses, k: number of variables per clause'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000945:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: "AlgorithmWiki metadata for Paturi, Pudl\xE1k, Saks, Zane (PPSZ) 2005"
+  url: https://dl.acm.org/doi/abs/10.1145/1066100.1066101
+- access_status: skipped
+  digest: d9b3a723faeabb8a
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:7cf15727a35bd635
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1145/1066100.1066101
+- access_status: skipped
+  digest: df7c6350c6ff1c83
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:6edefeaefd4e155b
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://dl.acm.org/doi/abs/10.1145/1066100.1066101
+- source_id: crossref:33d27456e2b71611
+  url: https://doi.org/10.1145/1066100.1066101
+  title: 'An improved exponential-time algorithm for
+
+    <i>k</i>
+
+    -SAT'
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: HIGH
+  extracted_facts:
+  - 'DOI title: An improved exponential-time algorithm for
+
+    <i>k</i>
+
+    -SAT'
+  - 'published year: 2005'
+  - 'container title: Journal of the ACM'
+  - 'abstract summary: We propose and analyze a simple new randomized algorithm, called ResolveSat, for finding satisfying assignments of Boolean formulas in conjunctive normal form.'
+  short_quote: We propose and analyze a simple new randomized algorithm, called ResolveSat, for finding satisfying assignments of Boolean formulas in conjunctive normal form.
+  digest: 00282a74fb5c4fed
+- source_id: crossref_search:0b18e1bdccf3f416
+  url: https://doi.org/10.1109/npc.2007.32
+  title: An optimal algorithm to fetch DHT routable
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: An optimal algorithm to fetch DHT routable'
+  short_quote: ''
+  digest: eac65bcac63f65f8
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

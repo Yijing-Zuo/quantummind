@@ -1,0 +1,36 @@
+algorithm_id: AW-000561
+canonical_name: Welford's Online algorithm
+enrichment_status: SECOND_PASS_INSUFFICIENT
+review_reasons:
+- No second-pass rule could identify source-backed task semantics.
+source_records:
+- access_status: metadata_only
+  digest: 4ca35fdca306ec1c
+  extracted_facts:
+  - 'AlgorithmWiki row name: Welford''s Online algorithm'
+  - 'domain: unknown'
+  - 'time complexity: O(n)'
+  - 'space complexity: O(1)'
+  - 'computational model: Word/Real RAM'
+  - 'parameter definitions: n: number of values'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000561:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Welford's Online algorithm
+  url: https://citeseerx.ist.psu.edu/pdf/946c0b839e5dcca3fcf5a39d07d9f6f7d67887e3
+- source_id: crossref_search:02accabb5df61d92
+  url: https://doi.org/10.24963/ijcai.2017/746
+  title: Online Algorithm Selection
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: Online Algorithm Selection'
+  - 'abstract summary: Algorithm selection approaches have achieved impressive performance improvements in many areas of AI.'
+  short_quote: Algorithm selection approaches have achieved impressive performance improvements in many areas of AI.
+  digest: 9f0e9b3b235038fa
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

@@ -1,0 +1,82 @@
+id: AW-000769
+kind: context_recovered
+algorithm_id: AW-000769
+algorithm_name: Zakai
+source_records:
+- access_status: metadata_only
+  digest: 502100d8fdae1d4b
+  extracted_facts:
+  - 'AlgorithmWiki row name: Zakai'
+  - 'domain: unknown'
+  - 'time complexity: O(n^3)'
+  - 'parameter definitions: n: number of dimensions in state space'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000769:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Zakai
+  url: https://link.springer.com/article/10.1007/BF00536382
+- access_status: fetched
+  digest: cbc6cb6408be0143
+  extracted_facts:
+  - 'DOI title: On the optimal filtering of diffusion processes'
+  - 'published year: 1969'
+  - "container title: Zeitschrift f\uFFFDr Wahrscheinlichkeitstheorie und Verwandte Gebiete"
+  reliability: HIGH
+  short_quote: ''
+  source_id: crossref:3d43ecb9da647c7e
+  source_type: doi_metadata
+  title: On the optimal filtering of diffusion processes
+  url: https://doi.org/10.1007/BF00536382
+- access_status: skipped
+  digest: 193b069538c3ebbd
+  extracted_facts:
+  - robots.txt disallowed fetch
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:a82b49d2d9b41f66
+  source_type: publisher_abstract
+  title: robots.txt disallowed fetch
+  url: https://link.springer.com/article/10.1007/BF00536382
+- source_id: crossref_search:3bf7d9e18f3d3d8a
+  url: https://doi.org/10.1007/bf00536382
+  title: On the optimal filtering of diffusion processes
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: On the optimal filtering of diffusion processes'
+  short_quote: ''
+  digest: 4940d80a2a2a66df
+web_query_attempts:
+- query: '"Zakai" algorithm'
+  method: search_plan
+  status: recorded
+- query: '"Zakai" input output'
+  method: search_plan
+  status: recorded
+- query: '"Zakai" time complexity'
+  method: search_plan
+  status: recorded
+- query: '"Zakai" pseudocode'
+  method: search_plan
+  status: recorded
+- query: '"Zakai" problem'
+  method: search_plan
+  status: recorded
+- query: '"Zakai" PDF metadata abstract'
+  method: search_plan
+  status: recorded
+- query: '"On the optimal filtering of diffusion processes" algorithm'
+  method: search_plan
+  status: recorded
+- query: https://link.springer.com/article/10.1007/BF00536382
+  method: search_plan
+  status: recorded
+- query: On the optimal filtering of diffusion processes algorithm
+  method: crossref_title_search
+  status: fetched
+extracted_problem_statement: 'Zakai is reconstructed as a classical parallel algorithms task. Problem/task: coordinate process access to a critical section without simultaneous entry Input semantics: A set of processes, request/release events, and shared-memory or message-passing assumptions. Output semantics: A protocol state sequence or decision granting safe critical-section access.'
+extracted_algorithm_summary: 'Zakai is treated as the named AlgorithmWiki variant for coordinate process access to a critical section without simultaneous entry Classical complexity metadata: time O(n^3). Public metadata/source title support includes On the optimal filtering of diffusion processes.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

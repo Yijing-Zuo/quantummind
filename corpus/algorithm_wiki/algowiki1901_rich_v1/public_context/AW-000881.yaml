@@ -1,0 +1,14 @@
+statement: 'O(n^2) Dynamic Programming is included as a named whole-algorithm context card for a classical dynamic programming task. The task is to analyze the classical input-output problem, not to certify an end-to-end improvement claim. Input semantics: An explicit optimization or recurrence instance with overlapping subproblems. Output semantics: The optimal value, witness, schedule, segmentation, or table-derived solution for the recurrence. Classical algorithm summary: O(n^2) Dynamic Programming is a dynamic programming algorithm record. Classical complexity metadata: time O(n^2); space O(n). The stated classical model is Word RAM. Public metadata/source text adds: O(n^2) Dynamic Programming dynamic_programming dynamic_programming n: number of tasks (intervals) O(n^2) Given an explicit instance with overlapping subproblem structure, compute the full classical solution or value targeted by the dynamic-programming recurrence. Classical steps or pseudocode-level structure: Define subproblems,
+  evaluate recurrence transitions, store table values, and reconstruct the requested value or witness when applicable. Classical complexity recorded for this row: time O(n^2); space O(n); computation model Word RAM. Dominant bottleneck: dominant bottleneck remains uncertain from the available public source metadata. The useful review questions are whether the named structure exposes a smaller decision, witness, estimation, or algebraic subproblem; whether the full output size dominates any asymptotic gain; and whether the stated access model is realistic for the original input. Provenance is limited to AlgorithmWiki metadata and source-link facts; unresolved details are kept as ambiguities. Source-backed uncertainty or assumptions: No independent fetched public metadata source resolved this row beyond AlgorithmWiki metadata/source-link facts.'
+input_model: explicit_dynamic_programming_problem
+access_model: offline_batch_queries
+output_contract: full_solution
+promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+size_parameters:
+- 'Parameter definition: n: number of tasks (intervals)'
+ambiguities:
+- No independent fetched public metadata source resolved this row beyond AlgorithmWiki metadata/source-link facts.
+- Some details are reconstructed from AlgorithmWiki metadata rather than an independently fetched full public description.
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.

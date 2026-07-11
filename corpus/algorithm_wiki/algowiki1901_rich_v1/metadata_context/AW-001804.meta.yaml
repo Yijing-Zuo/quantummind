@@ -1,0 +1,60 @@
+algorithm_family: parallel algorithms
+algorithm_id: AW-001804
+approximate: '0'
+approximation_factor: ''
+blind_name: Algorithm Wiki public task AW-001804
+canonical_name: Sanches, Soma, Yanasse
+computational_model: CREW PRAM
+domain: parallel_algorithms
+extracted_description: ''
+extraction_version: algorithm-wiki-rich-context-v1
+family: parallel_algorithms
+inferred_access_model: explicit_input_instance
+inferred_ambiguities:
+- No independent fetched public metadata source resolved this row beyond AlgorithmWiki metadata/source-link facts.
+- Some details are reconstructed from AlgorithmWiki metadata rather than an independently fetched full public description.
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.
+inferred_input_model: explicit_parallel_algorithm_problem
+inferred_output_contract: full_solution
+inferred_problem_statement: 'Sanches, Soma, Yanasse is treated as a classical parallel algorithms task for rich AlgorithmWiki discovery. Problem/task: solve a subset-sum or target-sum dynamic-programming/search problem. Input semantics: A finite set or multiset of integers with a target sum parameter. Output semantics: A decision result, feasible subset witness, count, or optimized subset value for the target-sum instance, depending on the row.'
+inferred_promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+- classical_parallel_model_recorded
+inferred_size_parameters:
+- "Parameter definition: n: the number of integers in the set, t: target sum, p: number of processors 1\u2264p\u22642^(n/2)/n and p is a power of 2"
+- p = stated number of processors (p)
+number_of_processors: p
+page_digest: ''
+page_fetch_status: not_found
+page_url: ''
+parameter_definitions: "n: the number of integers in the set, t: target sum, p: number of processors 1\u2264p\u22642^(n/2)/n and p is a power of 2"
+problem_name: parallel algorithms
+quality_flags:
+- domain_inferred
+- problem_statement_inferred
+- io_access_output_inferred
+- has_complexity_semantics
+- has_size_parameters
+- has_computational_model
+quality_score: 100
+randomized: '0'
+readiness: READY_PUBLIC_CONTEXT
+review_reasons:
+- insufficient_algorithm_level_structure
+source_link: https://www.sciencedirect.com/science/article/pii/S0377221705008258
+source_link_type: sciencedirect
+space_complexity: O(n)
+span_depth: O(n)
+time_complexity: O(2^(n/2)/p)
+variation: ''
+work: O(2^(n/2))
+year: '2007'
+rich_card_kind: context
+source_records_used:
+- AW-001804:algorithm_wiki_metadata
+- skipped:34ddabb3728b6396
+source_count: 2
+source_quality: HIGH
+confidence_score: 100
+card_digest: a40296bb15f7c64a

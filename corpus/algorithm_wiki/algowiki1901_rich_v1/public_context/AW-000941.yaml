@@ -1,0 +1,16 @@
+statement: 'GSAT is included as a named whole-algorithm context card for a classical optimization task. The task is to analyze the classical input-output problem, not to certify an end-to-end improvement claim. Input semantics: An explicit feasible-region, objective, scheduling, assignment, or knapsack-style instance. Output semantics: An optimal or approximate feasible solution with its objective value or schedule/assignment representation. Classical algorithm summary: GSAT is a optimization algorithm record. Classical complexity metadata: time O(n*mt*mf); space O(n). Public metadata/source text adds: GSAT optimization optimization n: number of variables, mt: maximum assignments tested, mf: maximum flips per assignment O(n*mt*mf) Given an explicit optimization instance, compute a feasible solution, schedule, assignment, or approximation with the stated classical guarantees. Classical complexity recorded for this row: time O(n*mt*mf); space O(n); computation model not stated. Dominant bottleneck:
+  dominant bottleneck remains uncertain from the available public source metadata. The useful review questions are whether the named structure exposes a smaller decision, witness, estimation, or algebraic subproblem; whether the full output size dominates any asymptotic gain; and whether the stated access model is realistic for the original input. Provenance is limited to AlgorithmWiki metadata and source-link facts; unresolved details are kept as ambiguities. Source-backed uncertainty or assumptions: The AlgorithmWiki row marks the classical method as randomized.; No independent fetched public metadata source resolved this row beyond AlgorithmWiki metadata/source-link facts.'
+input_model: explicit_optimization_problem
+access_model: explicit_input_instance
+output_contract: assignment_or_schedule
+promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+- classical_randomized_algorithm
+size_parameters:
+- 'Parameter definition: n: number of variables, mt: maximum assignments tested, mf: maximum flips per assignment'
+ambiguities:
+- The AlgorithmWiki row marks the classical method as randomized.
+- No independent fetched public metadata source resolved this row beyond AlgorithmWiki metadata/source-link facts.
+- Some details are reconstructed from AlgorithmWiki metadata rather than an independently fetched full public description.
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.

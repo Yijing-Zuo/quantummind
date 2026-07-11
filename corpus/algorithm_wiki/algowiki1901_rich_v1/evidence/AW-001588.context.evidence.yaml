@@ -1,0 +1,58 @@
+id: AW-001588
+kind: context
+algorithm_id: AW-001588
+algorithm_name: Savage
+source_records:
+- access_status: metadata_only
+  digest: 657dfa4913f7b786
+  extracted_facts:
+  - 'AlgorithmWiki row name: Savage'
+  - 'domain: graph'
+  - 'time complexity: O(\log^2(n))'
+  - 'computational model: SIMD-SM-R (CREW PRAM)'
+  - 'parameter definitions: n: number of vertices'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(\log^2(n)); work O(n^3*\log(n)); span/depth O(log^2(n)); processors n^3/log(n). Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001588:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Savage
+  url: https://apps.dtic.mil/sti/citations/ADA056888
+- access_status: skipped
+  digest: b59e2fe79ab26ac5
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:76e10e9a59c67c59
+  source_type: other_public_source
+  title: fetch budget exhausted
+  url: https://apps.dtic.mil/sti/citations/ADA056888
+web_query_attempts:
+- method: search_plan
+  query: Savage algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Savage algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Savage problem definition
+  status: recorded
+- method: search_plan
+  query: Savage graph algorithm
+  status: recorded
+- method: search_plan
+  query: Savage site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Savage algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://apps.dtic.mil/sti/citations/ADA056888
+  status: recorded
+- method: source_link_html_metadata
+  query: https://apps.dtic.mil/sti/citations/ADA056888
+  status: skipped
+extracted_problem_statement: 'Savage is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Savage. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'Savage is a graph algorithm record. Classical complexity metadata: time O(\log^2(n)); work O(n^3*\log(n)); span/depth O(log^2(n)); processors n^3/log(n). The stated classical model is SIMD-SM-R (CREW PRAM). Public metadata/source text adds: Savage graph graph n: number of vertices O(\log^2(n)) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

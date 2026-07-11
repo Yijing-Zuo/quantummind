@@ -1,0 +1,45 @@
+algorithm_id: AW-000418
+canonical_name: Hirsch
+enrichment_status: WEB_INSUFFICIENT
+review_reasons:
+- missing_concrete_problem_statement
+- unknown_input_model
+- unknown_output_contract
+- unknown_access_model
+source_records:
+- access_status: metadata_only
+  digest: e7672b42e16cf606
+  extracted_facts:
+  - 'AlgorithmWiki row name: Hirsch'
+  - 'domain: unknown'
+  - 'time complexity: O(1.239^n)'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000418:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Hirsch
+  url: https://dl.acm.org/doi/10.5555/314613.314838
+- access_status: failed
+  digest: 30c85d8204875123
+  extracted_facts:
+  - 'HTTP Error 404: Not Found'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:19eee43181abda57
+  source_type: doi_metadata
+  title: 'HTTP Error 404: Not Found'
+  url: https://doi.org/10.5555/314613.314838
+- access_status: failed
+  digest: 415ba8f677c15a8c
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:0f768f875f324d93
+  source_type: publisher_abstract
+  title: 'HTTP Error 403: Forbidden'
+  url: https://dl.acm.org/doi/10.5555/314613.314838
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

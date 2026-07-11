@@ -1,0 +1,34 @@
+algorithm_id: AW-000703
+canonical_name: Chen Ensembles of classifiers
+enrichment_status: SECOND_PASS_INSUFFICIENT
+review_reasons:
+- No second-pass rule could identify source-backed task semantics.
+source_records:
+- access_status: metadata_only
+  digest: 836a5e554ab9dea7
+  extracted_facts:
+  - 'AlgorithmWiki row name: Chen Ensembles of classifiers'
+  - 'domain: unknown'
+  - 'time complexity: O(n^2 \log n)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of records, k: number of features (can be up to O(\sqrt{n}))'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000703:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Chen Ensembles of classifiers
+  url: ''
+- source_id: crossref_search:2dcd9f65a207ea06
+  url: https://doi.org/10.1201/ebk1439826119-c10
+  title: Ensembles of Classifiers
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: Ensembles of Classifiers'
+  short_quote: ''
+  digest: cead9bd940249562
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

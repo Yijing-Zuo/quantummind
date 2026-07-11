@@ -1,0 +1,56 @@
+id: AW-000771
+kind: context
+algorithm_id: AW-000771
+algorithm_name: "Damiano Brigo Bernard Hanzon and Fran\xE7ois LeGland"
+source_records:
+- access_status: metadata_only
+  digest: febcb27283cc21c7
+  extracted_facts:
+  - "AlgorithmWiki row name: Damiano Brigo Bernard Hanzon and Fran\xE7ois LeGland"
+  - 'domain: unknown'
+  - 'time complexity: O(n^{2.45} \log n)'
+  - 'computational model: Word/Real RAM'
+  - 'parameter definitions: n: number of dimensions in state space'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000771:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: "AlgorithmWiki metadata for Damiano Brigo Bernard Hanzon and Fran\xE7ois LeGland"
+  url: https://ieeexplore.ieee.org/abstract/document/661075
+- access_status: fetched
+  digest: f14ad187cf42fedc
+  extracted_facts:
+  - 'source page title: A differential geometric approach to nonlinear filtering: the projection filter | IEEE Journals & Magazine | IEEE Xplore'
+  - 'source page description: This paper presents a new and systematic method of approximating exact nonlinear filters with finite dimensional filters, using the differential geometric appro'
+  reliability: HIGH
+  short_quote: This paper presents a new and systematic method of approximating exact nonlinear filters with finite dimensional filters, using the differential geometric appro
+  source_id: source:076a069d5970a71a
+  source_type: publisher_abstract
+  title: 'A differential geometric approach to nonlinear filtering: the projection filter | IEEE Journals & Magazine | IEEE Xplore'
+  url: https://ieeexplore.ieee.org/abstract/document/661075
+web_query_attempts:
+- method: search_plan
+  query: "Damiano Brigo Bernard Hanzon and Fran\xE7ois LeGland algorithm input output complexity"
+  status: recorded
+- method: search_plan
+  query: "Damiano Brigo Bernard Hanzon and Fran\xE7ois LeGland algorithm pseudocode"
+  status: recorded
+- method: search_plan
+  query: "Damiano Brigo Bernard Hanzon and Fran\xE7ois LeGland problem definition"
+  status: recorded
+- method: search_plan
+  query: "Damiano Brigo Bernard Hanzon and Fran\xE7ois LeGland site:nist.gov DADS"
+  status: recorded
+- method: search_plan
+  query: "Damiano Brigo Bernard Hanzon and Fran\xE7ois LeGland algorithm wiki"
+  status: recorded
+- method: search_plan
+  query: https://ieeexplore.ieee.org/abstract/document/661075
+  status: recorded
+- method: source_link_html_metadata
+  query: https://ieeexplore.ieee.org/abstract/document/661075
+  status: fetched
+extracted_problem_statement: "Damiano Brigo Bernard Hanzon and Fran\xE7ois LeGland is treated as a classical computational geometry task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Damiano Brigo Bernard Hanzon and Fran\xE7ois LeGland. Input semantics: Explicit geometric objects such as points, line segments, polygons, or planar subdivisions. Output semantics: The requested geometric structure, simplified curve, clipping result, intersection set, hull, or diagram."
+extracted_algorithm_summary: "Damiano Brigo Bernard Hanzon and Fran\xE7ois LeGland is a computational geometry algorithm record. Classical complexity metadata: time O(n^{2.45} \\log n). The stated classical model is Word/Real RAM. Public metadata/source text adds: Damiano Brigo Bernard Hanzon and Fran\xE7ois LeGland unknown unknown n: number of dimensions in state space O(n^{2.45} \\log n) No public-ready summary is available because the row lacks enough task semantics."
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

@@ -1,0 +1,14 @@
+statement: 'Connor, Kumar is included as a named whole-algorithm context card for a classical computational geometry task. The task is to analyze the classical input-output problem, not to certify an end-to-end improvement claim. Input semantics: A finite set of points, dimension k when stated, and geometric predicate assumptions. Output semantics: A geometric witness, nearest/closest relation, hull, partition, or related structure supported by the named row. Classical algorithm summary: Connor, Kumar is treated as the named AlgorithmWiki variant for compute a geometric structure or relation over a finite point set Classical complexity metadata: work O(nlogn + nk \log(k)); span/depth O(log n). Public metadata/source title support includes Connor. Classical complexity recorded for this row: time unknown; space unknown; computation model not stated. Dominant bottleneck: Distance/geometric predicate evaluation and output-sensitive structure size dominate. The useful review questions are whether
+  the named structure exposes a smaller decision, witness, estimation, or algebraic subproblem; whether the full output size dominates any asymptotic gain; and whether the stated access model is realistic for the original input. Provenance used for reconstruction includes public metadata or abstract sources such as Connor. Source-backed uncertainty or assumptions: The exact geometric output may need source review when the row is author-only.'
+input_model: explicit_geometry_problem
+access_model: explicit_geometric_objects
+output_contract: one_witness
+promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+size_parameters:
+- 'Parameter definition: n: number of points, k: number of neighbors'
+ambiguities:
+- The exact geometric output may need source review when the row is author-only.
+- Some details are reconstructed from AlgorithmWiki metadata rather than an independently fetched full public description.
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.

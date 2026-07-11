@@ -1,0 +1,13 @@
+case_id: QM-PB-004
+statement: "For a sparse well-conditioned matrix and prepared right-hand side, estimate an observable of the normalized solution state."
+input_model: "sparse linear system"
+access_model: sparse_matrix_oracle
+output_contract: state_or_expectation
+promises:
+  - sparse_matrix
+  - bounded_condition_number
+  - prepared_rhs
+size_parameters: [dimension, sparsity, condition_number, epsilon]
+ambiguities:
+  - full vector output is not requested
+

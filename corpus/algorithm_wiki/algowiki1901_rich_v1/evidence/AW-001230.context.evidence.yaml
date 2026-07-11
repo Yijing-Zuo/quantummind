@@ -1,0 +1,71 @@
+id: AW-001230
+kind: context
+algorithm_id: AW-001230
+algorithm_name: load balanced parallel merge sort - Jeon, Kim
+source_records:
+- access_status: metadata_only
+  digest: 220f3ea0f77d1eac
+  extracted_facts:
+  - 'AlgorithmWiki row name: load balanced parallel merge sort - Jeon, Kim'
+  - 'domain: sorting'
+  - 'time complexity: k_1 n/p log p + k_2 (n/p + delta) log p'
+  - 'computational model: PRAM'
+  - 'parameter definitions: n: size of list, p: number of processors, k_1: average time to transmit one key, k_2: average time per key to merge keys, delta: load imbalance / number of keys over n/p that a processor has to merge'
+  - 'precard summary: Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model. Baseline: time k_1 n/p log p + k_2 (n/p + delta) log p; work k_1 n \log p + k_2 (n + p \\delta) \log p; span/depth O(log n); processors p. Bottleneck: comparison, distribution, and full-output movement costs dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001230:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for load balanced parallel merge sort - Jeon, Kim
+  url: https://link.springer.com/article/10.1023/A:1021734202931
+- access_status: skipped
+  digest: a622194674a651da
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:cf3f00d00a58aeeb
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1023/A:1021734202931
+- access_status: skipped
+  digest: fe28e49a6e7aa024
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:42028b4dd60d980a
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://link.springer.com/article/10.1023/A:1021734202931
+web_query_attempts:
+- method: search_plan
+  query: load balanced parallel merge sort - Jeon, Kim algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: load balanced parallel merge sort - Jeon, Kim algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: load balanced parallel merge sort - Jeon, Kim problem definition
+  status: recorded
+- method: search_plan
+  query: load balanced parallel merge sort - Jeon, Kim sorting algorithm
+  status: recorded
+- method: search_plan
+  query: load balanced parallel merge sort - Jeon, Kim site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: load balanced parallel merge sort - Jeon, Kim algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://link.springer.com/article/10.1023/A:1021734202931
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1023/A:1021734202931
+  status: skipped
+- method: source_link_html_metadata
+  query: https://link.springer.com/article/10.1023/A:1021734202931
+  status: skipped
+extracted_problem_statement: 'load balanced parallel merge sort - Jeon, Kim is treated as a classical sorting task for rich AlgorithmWiki discovery. Problem/task: sort the input sequence using the named classical sorting method. Input semantics: A finite array or list of comparable keys or records. Output semantics: The same items returned in nondecreasing order, usually as a full reordered sequence.'
+extracted_algorithm_summary: 'load balanced parallel merge sort - Jeon, Kim is a sorting algorithm record. Classical complexity metadata: time k_1 n/p log p + k_2 (n/p + delta) log p; work k_1 n \log p + k_2 (n + p \\delta) \log p; span/depth O(log n); processors p. The stated classical model is PRAM. Public metadata/source text adds: l merge sort - Jeon, Kim sorting sorting n: size of list, p: number of processors, k_1: average time to transmit one key, k_2: average time per key to merge keys, delta: load imbalance / number of keys over n/p that a processor has to merge k_1 n/p log p + k_2 (n/p + delta) log p Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

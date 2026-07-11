@@ -1,0 +1,13 @@
+statement: 'Del Moral Pierre is included as a named whole-algorithm context card for a classical parallel algorithms task. The task is to analyze the classical input-output problem, not to certify an end-to-end improvement claim. Input semantics: A set of processes, request/release events, and shared-memory or message-passing assumptions. Output semantics: A protocol state sequence or decision granting safe critical-section access. Classical algorithm summary: Del Moral Pierre is treated as the named AlgorithmWiki variant for coordinate process access to a critical section without simultaneous entry Classical complexity metadata: time O(n^2). Public metadata/source title support includes Moral, Pablo del. Classical complexity recorded for this row: time O(n^2); space unknown; computation model Word/Real RAM. Dominant bottleneck: Message or shared-variable access, waiting conditions, and fairness/progress constraints dominate. The useful review questions are whether the named structure exposes
+  a smaller decision, witness, estimation, or algebraic subproblem; whether the full output size dominates any asymptotic gain; and whether the stated access model is realistic for the original input. Provenance used for reconstruction includes public metadata or abstract sources such as Moral, Pablo del.'
+input_model: explicit_parallel_algorithm_problem
+access_model: explicit_input_instance
+output_contract: yes_no_decision
+promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+size_parameters:
+- 'Parameter definition: n: number of dimensions in state space'
+ambiguities:
+- Some details are reconstructed from AlgorithmWiki metadata rather than an independently fetched full public description.
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.

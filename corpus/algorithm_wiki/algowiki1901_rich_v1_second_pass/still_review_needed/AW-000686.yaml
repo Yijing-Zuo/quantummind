@@ -1,0 +1,35 @@
+algorithm_id: AW-000686
+canonical_name: Unsworth C. Prosser P
+enrichment_status: SECOND_PASS_INSUFFICIENT
+review_reasons:
+- No second-pass rule could identify source-backed task semantics.
+source_records:
+- access_status: metadata_only
+  digest: e0aa4cc0f2cb1c4f
+  extracted_facts:
+  - 'AlgorithmWiki row name: Unsworth C. Prosser P'
+  - 'domain: unknown'
+  - 'time complexity: O(n^2)'
+  - 'space complexity: O(n^2)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of men and number of women'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000686:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Unsworth C. Prosser P
+  url: http://www.dcs.gla.ac.uk/~pat/roommates/distribution/papers/SM2N.pdf
+- source_id: crossref_search:fa0944a6f435dd38
+  url: https://doi.org/10.12987/9780300275025-017
+  title: Barry Unsworth
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: Barry Unsworth'
+  short_quote: ''
+  digest: 432b0a749844378f
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

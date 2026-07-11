@@ -1,0 +1,74 @@
+id: AW-000191
+kind: context
+algorithm_id: AW-000191
+algorithm_name: Couvreur
+source_records:
+- access_status: metadata_only
+  digest: 08959b9f40583340
+  extracted_facts:
+  - 'AlgorithmWiki row name: Couvreur'
+  - 'domain: graph'
+  - 'time complexity: O(V+E)'
+  - 'space complexity: O(V)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: V: number of vertices, E: number of edges'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(V+E); space O(V). Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000191:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Couvreur
+  url: https://link.springer.com/chapter/10.1007/3-540-48119-2_16
+- access_status: fetched
+  digest: 69d54713182741a6
+  extracted_facts:
+  - 'DOI title: On-the-fly Verification of Linear Temporal Logic'
+  - 'published year: 1999'
+  - 'container title: Lecture Notes in Computer Science'
+  reliability: HIGH
+  short_quote: ''
+  source_id: crossref:1bcd133a8b3caf0e
+  source_type: doi_metadata
+  title: On-the-fly Verification of Linear Temporal Logic
+  url: https://doi.org/10.1007/3-540-48119-2_16
+- access_status: skipped
+  digest: 6f497100b68e1d5c
+  extracted_facts:
+  - robots.txt disallowed fetch
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:6bd82db1ae7b37e0
+  source_type: publisher_abstract
+  title: robots.txt disallowed fetch
+  url: https://link.springer.com/chapter/10.1007/3-540-48119-2_16
+web_query_attempts:
+- method: search_plan
+  query: Couvreur algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Couvreur algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Couvreur problem definition
+  status: recorded
+- method: search_plan
+  query: Couvreur graph algorithm
+  status: recorded
+- method: search_plan
+  query: Couvreur site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Couvreur algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://link.springer.com/chapter/10.1007/3-540-48119-2_16
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1007/3-540-48119-2_16
+  status: fetched
+- method: source_link_html_metadata
+  query: https://link.springer.com/chapter/10.1007/3-540-48119-2_16
+  status: skipped
+extracted_problem_statement: 'Couvreur is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Couvreur. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'Couvreur is a graph algorithm record. Classical complexity metadata: time O(V+E); space O(V). The stated classical model is Word RAM. Public metadata/source text adds: Couvreur graph graph V: number of vertices, E: number of edges O(V+E) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

@@ -1,0 +1,66 @@
+algorithm_id: AW-000977
+canonical_name: Freund
+enrichment_status: SECOND_PASS_INSUFFICIENT
+review_reasons:
+- No second-pass rule could identify source-backed task semantics.
+source_records:
+- access_status: metadata_only
+  digest: 7193427248f3654a
+  extracted_facts:
+  - 'AlgorithmWiki row name: Freund'
+  - 'domain: unknown'
+  - 'time complexity: O(n^2*(log log n)/(log n))'
+  - 'computational model: Real RAM'
+  - 'parameter definitions: n: size of set'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000977:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Freund
+  url: https://link.springer.com/article/10.1007/s00453-015-0079-6
+- access_status: skipped
+  digest: 12f5330cf46f424e
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:b9e2ddf16c7b1ab0
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1007/s00453-015-0079-6
+- access_status: skipped
+  digest: e740e94d6a82942f
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:1b5040141f162b42
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://link.springer.com/article/10.1007/s00453-015-0079-6
+- source_id: crossref:be74ef150bf2252a
+  url: https://doi.org/10.1007/s00453-015-0079-6
+  title: Improved Subquadratic 3SUM
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: HIGH
+  extracted_facts:
+  - 'DOI title: Improved Subquadratic 3SUM'
+  - 'published year: 2017'
+  - 'container title: Algorithmica'
+  short_quote: ''
+  digest: 192a6348046e1f06
+- source_id: crossref_search:0b18e1bdccf3f416
+  url: https://doi.org/10.1109/npc.2007.32
+  title: An optimal algorithm to fetch DHT routable
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: An optimal algorithm to fetch DHT routable'
+  short_quote: ''
+  digest: eac65bcac63f65f8
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

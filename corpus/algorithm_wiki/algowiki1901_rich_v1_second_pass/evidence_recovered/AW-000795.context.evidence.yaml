@@ -1,0 +1,84 @@
+id: AW-000795
+kind: context_recovered
+algorithm_id: AW-000795
+algorithm_name: Leases (Cary G Gray and David R Cheriton)
+source_records:
+- access_status: metadata_only
+  digest: 7ebb2b5e572c3269
+  extracted_facts:
+  - 'AlgorithmWiki row name: Leases (Cary G Gray and David R Cheriton)'
+  - 'domain: unknown'
+  - 'time complexity: O(n)'
+  - 'space complexity: O(f)'
+  - 'parameter definitions: n: number of clients, f: number of files'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000795:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Leases (Cary G Gray and David R Cheriton)
+  url: https://dl.acm.org/doi/abs/10.1145/74851.74870
+- access_status: fetched
+  digest: 25a99047353699a3
+  extracted_facts:
+  - 'DOI title: Leases: an efficient fault-tolerant mechanism for distributed file cache consistency'
+  - 'published year: 1989'
+  - 'container title: ACM SIGOPS Operating Systems Review'
+  - 'abstract summary: Caching introduces the overhead and complexity of ensuring consistency, reducing some of its performance benefits.'
+  reliability: HIGH
+  short_quote: Caching introduces the overhead and complexity of ensuring consistency, reducing some of its performance benefits.
+  source_id: crossref:d5214a445da3caa7
+  source_type: doi_metadata
+  title: 'Leases: an efficient fault-tolerant mechanism for distributed file cache consistency'
+  url: https://doi.org/10.1145/74851.74870
+- access_status: failed
+  digest: 8b662fd7d6d464b6
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:8382168b030e917e
+  source_type: publisher_abstract
+  title: 'HTTP Error 403: Forbidden'
+  url: https://dl.acm.org/doi/abs/10.1145/74851.74870
+- source_id: crossref_search:e9be2c747bc7b350
+  url: https://doi.org/10.1145/74850.74870
+  title: 'Leases: an efficient fault-tolerant mechanism for distributed file cache consistency'
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: Leases: an efficient fault-tolerant mechanism for distributed file cache consistency'
+  short_quote: ''
+  digest: e08e4977e00c88dd
+web_query_attempts:
+- query: '"Leases (Cary G Gray and David R Cheriton)" algorithm'
+  method: search_plan
+  status: recorded
+- query: '"Leases (Cary G Gray and David R Cheriton)" input output'
+  method: search_plan
+  status: recorded
+- query: '"Leases (Cary G Gray and David R Cheriton)" time complexity'
+  method: search_plan
+  status: recorded
+- query: '"Leases (Cary G Gray and David R Cheriton)" pseudocode'
+  method: search_plan
+  status: recorded
+- query: '"Leases (Cary G Gray and David R Cheriton)" problem'
+  method: search_plan
+  status: recorded
+- query: '"Leases (Cary G Gray and David R Cheriton)" PDF metadata abstract'
+  method: search_plan
+  status: recorded
+- query: '"Leases: an efficient fault-tolerant mechanism for distributed file cache consistency" algorithm'
+  method: search_plan
+  status: recorded
+- query: https://dl.acm.org/doi/abs/10.1145/74851.74870
+  method: search_plan
+  status: recorded
+- query: 'Leases: an efficient fault-tolerant mechanism for distributed file cache consistency algorithm'
+  method: crossref_title_search
+  status: fetched
+extracted_problem_statement: 'Leases (Cary G Gray and David R Cheriton) is reconstructed as a classical image processing task. Problem/task: compute shaded/rendered image values from a geometric scene and illumination model Input semantics: Scene geometry, material parameters, lights, camera/view information, and image resolution. Output semantics: Rendered pixel colors or intermediate shading/visibility values.'
+extracted_algorithm_summary: 'Leases (Cary G Gray and David R Cheriton) is treated as the named AlgorithmWiki variant for compute shaded/rendered image values from a geometric scene and illumination model Classical complexity metadata: time O(n); space O(f). Public metadata/source title support includes Leases: an efficient fault-tolerant mechanism for distributed file cache consistency.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

@@ -1,0 +1,73 @@
+id: AW-000578
+kind: context
+algorithm_id: AW-000578
+algorithm_name: L Chang
+source_records:
+- access_status: metadata_only
+  digest: 70f979efaa24fdec
+  extracted_facts:
+  - 'AlgorithmWiki row name: L Chang'
+  - 'domain: graph'
+  - 'time complexity: O(V E^2 \log V)'
+  - 'space complexity: O(V)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: V: number of vertices in the larger of the two graphs, E: number of edges in the larger of the two graphs'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(V E^2 \log V); space O(V). Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000578:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for L Chang
+  url: https://doi.org/10.48550/arXiv.1709.06810
+- access_status: failed
+  digest: 73f77dec5a0f9e4e
+  extracted_facts:
+  - 'HTTP Error 404: Not Found'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:b0a3ba592cba14f9
+  source_type: doi_metadata
+  title: 'HTTP Error 404: Not Found'
+  url: https://doi.org/10.48550/arXiv.1709.06810
+- access_status: fetched
+  digest: 9f484e01d63da5d8
+  extracted_facts:
+  - 'source page title: [1709.06810] Efficient Graph Edit Distance Computation and Verification via Anchor-aware Lower Bound Estimation'
+  - 'source page description: Abstract page for arXiv paper 1709.06810: Efficient Graph Edit Distance Computation and Verification via Anchor-aware Lower Bound Estimation'
+  reliability: HIGH
+  short_quote: 'Abstract page for arXiv paper 1709.06810: Efficient Graph Edit Distance Computation and Verification via Anchor-aware Lower Bound Estimation'
+  source_id: source:c5bc5df336040c66
+  source_type: doi_metadata
+  title: '[1709.06810] Efficient Graph Edit Distance Computation and Verification via Anchor-aware Lower Bound Estimation'
+  url: https://doi.org/10.48550/arXiv.1709.06810
+web_query_attempts:
+- method: search_plan
+  query: L Chang algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: L Chang algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: L Chang problem definition
+  status: recorded
+- method: search_plan
+  query: L Chang graph algorithm
+  status: recorded
+- method: search_plan
+  query: L Chang site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: L Chang algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://doi.org/10.48550/arXiv.1709.06810
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.48550/arXiv.1709.06810
+  status: failed
+- method: source_link_html_metadata
+  query: https://doi.org/10.48550/arXiv.1709.06810
+  status: fetched
+extracted_problem_statement: 'L Chang is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with L Chang. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: An edit-distance value, alignment, or dynamic-programming table information for the input strings.'
+extracted_algorithm_summary: 'L Chang is a graph algorithm record. Classical complexity metadata: time O(V E^2 \log V); space O(V). The stated classical model is Word RAM. Public metadata/source text adds: L Chang graph graph V: number of vertices in the larger of the two graphs, E: number of edges in the larger of the two graphs O(V E^2 \log V) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

@@ -1,0 +1,56 @@
+algorithm_family: graph
+algorithm_id: AW-000161
+approximate: '0'
+approximation_factor: ''
+blind_name: Algorithm Wiki public task AW-000161
+canonical_name: Cheriyan et al.
+computational_model: Uniform-Cost RAM (is this the same as Word RAM)
+domain: graph
+extracted_description: ''
+extraction_version: algorithm-wiki-rich-context-v1
+family: graph
+inferred_access_model: adjacency_list_query
+inferred_ambiguities:
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.
+inferred_input_model: explicit_graph_problem
+inferred_output_contract: full_solution
+inferred_problem_statement: 'Cheriyan et al. is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Cheriyan et al.. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+inferred_promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+inferred_size_parameters:
+- 'Parameter definition: V: number of vertices, E: number of edges, U: maximum edge capacity'
+number_of_processors: ''
+page_digest: ''
+page_fetch_status: not_found
+page_url: ''
+parameter_definitions: 'V: number of vertices, E: number of edges, U: maximum edge capacity'
+problem_name: graph
+quality_flags:
+- domain_inferred
+- problem_statement_inferred
+- io_access_output_inferred
+- has_complexity_semantics
+- has_size_parameters
+- has_computational_model
+quality_score: 100
+randomized: '0'
+readiness: READY_PUBLIC_CONTEXT
+review_reasons: []
+source_link: https://link.springer.com/chapter/10.1007/BFb0032035
+source_link_type: unknown
+space_complexity: O(V + E)
+span_depth: ''
+time_complexity: O(V^3 / \log V)
+variation: ''
+work: ''
+year: '1990'
+rich_card_kind: context
+source_records_used:
+- AW-000161:algorithm_wiki_metadata
+- crossref:8878463769446480
+- skipped:62da5d68f5ba328e
+source_count: 3
+source_quality: HIGH
+confidence_score: 100
+card_digest: f140330a401864a8

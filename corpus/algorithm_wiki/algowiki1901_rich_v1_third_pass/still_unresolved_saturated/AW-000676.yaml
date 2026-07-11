@@ -1,0 +1,69 @@
+algorithm_id: AW-000676
+canonical_name: Miyake 2006
+enrichment_status: THIRD_PASS_SATURATED_INSUFFICIENT
+review_reasons:
+- After the configured source-family cycles, no source-backed concrete task, input semantics, output semantics, and conservative access model could be established.
+source_records:
+- access_status: metadata_only
+  digest: fb6272ef61f425e4
+  extracted_facts:
+  - 'AlgorithmWiki row name: Miyake 2006'
+  - 'domain: unknown'
+  - 'time complexity: O(n 2^n)'
+  - 'space complexity: O(2^n)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: length of input data'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000676:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Miyake 2006
+  url: https://www.semanticscholar.org/paper/Lossy-Data-Compression-over-Zq-by-LDPC-Code-Miyake/652f0438118898b63126f7261ec4cd2002ff0e0b
+- access_status: fetched
+  digest: 5b520ba8c966c569
+  extracted_facts:
+  - 'source page title: https://www.semanticscholar.org/paper/Lossy-Data-Compression-over-Zq-by-LDPC-Code-Miyake/652f0438118898b63126f7261ec4cd2002ff0e0b'
+  - 'source page description: In order to continue, we need to verify that you''re not a robot.'
+  reliability: LOW
+  short_quote: In order to continue, we need to verify that you're not a robot.
+  source_id: source:484e1c5be2815910
+  source_type: other_public_source
+  title: https://www.semanticscholar.org/paper/Lossy-Data-Compression-over-Zq-by-LDPC-Code-Miyake/652f0438118898b63126f7261ec4cd2002ff0e0b
+  url: https://www.semanticscholar.org/paper/Lossy-Data-Compression-over-Zq-by-LDPC-Code-Miyake/652f0438118898b63126f7261ec4cd2002ff0e0b
+- access_status: fetched
+  digest: 274480575648e354
+  extracted_facts:
+  - 'Crossref title-search result: Lossy Data Compression over Zq by LDPC Code'
+  reliability: MEDIUM
+  short_quote: ''
+  source_id: crossref_search:4ea45953b0e80296
+  source_type: doi_metadata
+  title: Lossy Data Compression over Zq by LDPC Code
+  url: https://doi.org/10.1109/isit.2006.261726
+- source_id: crossref_search:1c53ed9973ace512
+  url: https://doi.org/10.1515/9780520973152-012
+  title: "Transition: From My Journal\u2014Learning and Playing \u201CMiyake,\u201D May 8, 2006"
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - "Crossref title: Transition: From My Journal\u2014Learning and Playing \u201CMiyake,\u201D May 8, 2006"
+  - 'published year: 2019'
+  - 'container title: Louder and Faster'
+  short_quote: "Crossref title: Transition: From My Journal\u2014Learning and Playing \u201CMiyake,\u201D May 8, 2006 published year: 2019 container title: Louder and Faster"
+  digest: fef512abcc3d8bec
+- source_id: openalex:f5c376c03ab9069e
+  url: https://openalex.org/W2118607666
+  title: "Sensorimotor synchronization: A review of recent research (2006\u20132012)"
+  source_type: openalex
+  access_status: fetched
+  reliability: HIGH
+  extracted_facts:
+  - "OpenAlex title: Sensorimotor synchronization: A review of recent research (2006\u20132012)"
+  - 'publication year: 2013'
+  short_quote: "OpenAlex title: Sensorimotor synchronization: A review of recent research (2006\u20132012) publication year: 2013"
+  digest: e064348036740998
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

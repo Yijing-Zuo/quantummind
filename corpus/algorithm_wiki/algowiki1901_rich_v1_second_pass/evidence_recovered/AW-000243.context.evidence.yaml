@@ -1,0 +1,62 @@
+id: AW-000243
+kind: context_recovered
+algorithm_id: AW-000243
+algorithm_name: Quadratic sieve
+source_records:
+- access_status: metadata_only
+  digest: e63ca01a95ad9f02
+  extracted_facts:
+  - 'AlgorithmWiki row name: Quadratic sieve'
+  - 'domain: unknown'
+  - 'time complexity: O(e^{\sqrt{(1+o(1))n \log n}}), under assumption about numbers in a sequence behaving randomly in a given range'
+  - 'space complexity: O(n+(B/\log B)^2)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of bits in the integer, B: bound parameter'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000243:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Quadratic sieve
+  url: https://www.cs.umd.edu/users/gasarch/TOPICS/factoring/compare.pdf
+- source_id: crossref_search:6c7f894b37485d15
+  url: https://doi.org/10.1007/3-540-39757-4_17
+  title: The Quadratic Sieve Factoring Algorithm
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: The Quadratic Sieve Factoring Algorithm'
+  short_quote: ''
+  digest: 0be276b4b5a57608
+web_query_attempts:
+- query: '"Quadratic sieve" algorithm'
+  method: search_plan
+  status: recorded
+- query: '"Quadratic sieve" input output'
+  method: search_plan
+  status: recorded
+- query: '"Quadratic sieve" time complexity'
+  method: search_plan
+  status: recorded
+- query: '"Quadratic sieve" pseudocode'
+  method: search_plan
+  status: recorded
+- query: '"Quadratic sieve" problem'
+  method: search_plan
+  status: recorded
+- query: '"Quadratic sieve" PDF metadata abstract'
+  method: search_plan
+  status: recorded
+- query: https://www.cs.umd.edu/users/gasarch/TOPICS/factoring/compare.pdf
+  method: search_plan
+  status: recorded
+- query: Quadratic sieve algorithm
+  method: crossref_title_search
+  status: fetched
+- query: Quadratic sieve algorithm
+  method: wikipedia_summary_search
+  status: failed_or_not_relevant
+extracted_problem_statement: 'Quadratic sieve is reconstructed as a classical combinatorics task. Problem/task: find a nontrivial factorization of an integer Input semantics: An integer N represented with n bits and method-specific smoothness or search bounds. Output semantics: A nontrivial factor, a complete factorization, or a failure indication under the method assumptions.'
+extracted_algorithm_summary: 'Quadratic sieve is treated as the named AlgorithmWiki variant for find a nontrivial factorization of an integer Classical complexity metadata: time O(e^{\sqrt{(1+o(1))n \log n}}), under assumption about numbers in a sequence behaving randomly in a given range; space O(n+(B/\log B)^2). Public metadata/source title support includes The Quadratic Sieve Factoring Algorithm.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

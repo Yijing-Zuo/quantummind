@@ -1,0 +1,503 @@
+algorithm_id: AW-000864
+canonical_name: Secant method
+original_source_link: ''
+source_link_type: unknown
+previous_failure_reasons:
+- No second-pass rule could identify source-backed task semantics.
+previous_source_records:
+- access_status: metadata_only
+  digest: 32136ef9fdbab475
+  extracted_facts:
+  - 'AlgorithmWiki row name: Secant method'
+  - 'domain: unknown'
+  - 'time complexity: O(n_{max})'
+  - 'space complexity: O(1)'
+  - 'computational model: Word/Real RAM'
+  - 'parameter definitions: \epsilon: (additive) tolerance error, a, b: endpoint values, with b>a, n_{max}: maximum number of iterations'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000864:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Secant method
+  url: ''
+- access_status: fetched
+  digest: 4bc9d9a03927505f
+  extracted_facts:
+  - 'Crossref title-search result: Secant Method'
+  reliability: MEDIUM
+  short_quote: ''
+  source_id: crossref_search:f8a232c15535629b
+  source_type: doi_metadata
+  title: Secant Method
+  url: https://doi.org/10.1142/9789814405836_0004
+aliases_tried:
+- Secant method
+- Secant method algorithm
+- Secant method problem
+- Secant method pseudocode
+- Secant method time complexity
+- Secant Method
+- Secant Method algorithm
+- Secant Method complexity
+query_plan:
+- source_family: original_source
+  primary_query: Secant method
+  applicability: applicable
+  purpose: check the row's original source link without storing paywalled or PDF bodies
+- source_family: crossref
+  primary_query: Secant method
+  applicability: title-search-only
+  purpose: recover DOI title, venue, year, and abstract metadata where available
+- source_family: openalex
+  primary_query: Secant method
+  applicability: applicable
+  purpose: recover public work metadata and abstract-inverted-index summaries
+- source_family: semantic_scholar
+  primary_query: Secant method
+  applicability: applicable
+  purpose: recover CS paper metadata and abstracts without an API key
+- source_family: arxiv
+  primary_query: Secant method
+  applicability: title-search-only
+  purpose: recover arXiv title and abstract metadata
+- source_family: dblp
+  primary_query: Secant method
+  applicability: applicable
+  purpose: recover bibliographic title/venue metadata for CS publications
+- source_family: publisher_abstract
+  primary_query: Secant method
+  applicability: applicable
+  purpose: check accessible publisher abstract pages
+- source_family: citeseerx
+  primary_query: Secant method
+  applicability: applicable
+  purpose: record legacy CiteSeerX availability without full PDF storage
+- source_family: wikipedia
+  primary_query: Secant method
+  applicability: applicable
+  purpose: check public encyclopedia algorithm descriptions
+- source_family: wikidata
+  primary_query: Secant method
+  applicability: applicable
+  purpose: check public entity aliases/descriptions
+- source_family: nist_dads
+  primary_query: Secant method
+  applicability: applicable
+  purpose: check whether a DADS-style reference search is applicable
+- source_family: algorithm_wiki_local
+  primary_query: Secant method
+  applicability: applicable
+  purpose: reuse AlgorithmWiki metadata as provenance
+- source_family: the_algorithms
+  primary_query: Secant method
+  applicability: applicable
+  purpose: check exact public implementation/reference names when available
+- source_family: cp_algorithms
+  primary_query: Secant method
+  applicability: applicable
+  purpose: check exact public algorithm reference names when available
+- source_family: course_notes
+  primary_query: Secant method
+  applicability: applicable
+  purpose: record absence of configured course-notes search
+- source_family: general_web_search
+  primary_query: Secant method
+  applicability: applicable
+  purpose: record absence of a configured general web endpoint
+- source_family: local_previous_cache
+  primary_query: Secant method
+  applicability: applicable
+  purpose: reuse v1/second-pass fetched source records
+query_attempts:
+- &id001
+  cycle: 1
+  query: Secant method
+  source_family: algorithm_wiki_local
+  url_or_api_endpoint: ''
+  status: fetched
+  new_facts_added: 8
+  reason: local metadata
+- &id002
+  cycle: 1
+  query: Secant method
+  source_family: local_previous_cache
+  url_or_api_endpoint: ''
+  status: duplicate
+  new_facts_added: 0
+  reason: previous v1/second-pass sources reused
+- &id003
+  cycle: 1
+  query: Secant method
+  source_family: original_source
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: no original source link
+- &id004
+  cycle: 1
+  query: Secant method
+  source_family: crossref
+  url_or_api_endpoint: https://doi.org/10.1142/9789814405836_0004
+  status: fetched
+  new_facts_added: 5
+  reason: Crossref metadata/title search
+- &id005
+  cycle: 1
+  query: Secant method
+  source_family: arxiv
+  url_or_api_endpoint: https://export.arxiv.org/api/query?max_results=1&search_query=ti:%22Secant+method%22
+  status: no_result
+  new_facts_added: 0
+  reason: arXiv title search returned no usable entry
+- &id006
+  cycle: 1
+  query: Secant method
+  source_family: wikipedia
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: Wikipedia search returned no relevant page
+- &id007
+  cycle: 2
+  query: Secant method
+  source_family: openalex
+  url_or_api_endpoint: https://api.openalex.org/works?per-page=1&search=Secant+method
+  status: irrelevant
+  new_facts_added: 0
+  reason: OpenAlex work metadata
+- &id008
+  cycle: 2
+  query: Secant method
+  source_family: semantic_scholar
+  url_or_api_endpoint: https://api.semanticscholar.org/graph/v1/paper/search?limit=1&fields=title,abstract,year,url,externalIds&query=Secant+method
+  status: fetch_failed
+  new_facts_added: 0
+  reason: Semantic Scholar returned no usable paper
+- &id009
+  cycle: 2
+  query: Secant method
+  source_family: dblp
+  url_or_api_endpoint: https://dblp.org/search/publ/api?format=json&h=1&q=Secant+method
+  status: no_result
+  new_facts_added: 0
+  reason: DBLP returned no usable publication
+- &id010
+  cycle: 2
+  query: Secant method
+  source_family: publisher_abstract
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: no applicable publisher abstract URL
+- &id011
+  cycle: 2
+  query: Secant method
+  source_family: wikidata
+  url_or_api_endpoint: http://www.wikidata.org/entity/Q14915286
+  status: irrelevant
+  new_facts_added: 0
+  reason: Wikidata entity search
+- &id012
+  cycle: 3
+  query: Secant method
+  source_family: citeseerx
+  url_or_api_endpoint: ''
+  status: paywalled
+  new_facts_added: 0
+  reason: CiteSeerX link is PDF/legacy metadata; full PDF body skipped
+- &id013
+  cycle: 3
+  query: Secant method
+  source_family: nist_dads
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: NIST DADS has no reliable bulk search API in this environment
+- &id014
+  cycle: 3
+  query: Secant method
+  source_family: the_algorithms
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: TheAlgorithms search skipped unless a known exact reference is available
+- &id015
+  cycle: 3
+  query: Secant method
+  source_family: cp_algorithms
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: CP-Algorithms search skipped unless a known exact reference is available
+- &id016
+  cycle: 3
+  query: Secant method
+  source_family: course_notes
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: No configured public course-notes search endpoint
+- &id017
+  cycle: 3
+  query: Secant method
+  source_family: general_web_search
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: No configured general web search endpoint; Google Scholar scraping is not used
+source_attempts:
+- *id001
+- *id002
+- *id003
+- *id004
+- *id005
+- *id006
+- *id007
+- *id008
+- *id009
+- *id010
+- *id011
+- *id012
+- *id013
+- *id014
+- *id015
+- *id016
+- *id017
+discovered_sources:
+- source_id: crossref_search:770af8560bfbc2d1
+  url: https://doi.org/10.1142/9789814405836_0004
+  title: Secant Method
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title: Secant Method'
+  - 'published year: 2013'
+  - 'container title: Computational Methods in Nonlinear Analysis'
+  short_quote: 'Crossref title: Secant Method published year: 2013 container title: Computational Methods in Nonlinear Analysis'
+  digest: 5e08d5c9c32e751e
+- source_id: openalex:4e7657a3b7f34770
+  url: https://openalex.org/W2068484625
+  title: Numerical Methods for Unconstrained Optimization and Nonlinear Equations
+  source_type: openalex
+  access_status: fetched
+  reliability: HIGH
+  extracted_facts:
+  - 'OpenAlex title: Numerical Methods for Unconstrained Optimization and Nonlinear Equations'
+  - 'publication year: 1996'
+  - 'abstract summary: Preface 1. Introduction. Problems to be considered Characteristics of ''real-world'' problems Finite-precision arithmetic and measurement of error Exercises 2.'
+  short_quote: 'OpenAlex title: Numerical Methods for Unconstrained Optimization and Nonlinear Equations publication year: 1996 abstract summary: Preface 1. Introduction. Problems to be considered Characteristics of'
+  digest: 3d7a91f5cac761d7
+- source_id: wikidata:97156a11e9b8fc5f
+  url: http://www.wikidata.org/entity/Q14915286
+  title: secant method
+  source_type: wikidata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - secant method
+  - root-finding method
+  short_quote: secant method root-finding method
+  digest: 476cf5c1d42c6027
+discovered_facts:
+- fact_id: AW-000864-Fa205537f67
+  fact_type: alias
+  value: Secant method
+  source_id: AW-000864:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: AlgorithmWiki metadata
+- fact_id: AW-000864-F0dea63cbbe
+  fact_type: time_complexity
+  value: O(n_{max})
+  source_id: AW-000864:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: AlgorithmWiki metadata
+- fact_id: AW-000864-F9609f4c880
+  fact_type: space_complexity
+  value: O(1)
+  source_id: AW-000864:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: AlgorithmWiki metadata
+- fact_id: AW-000864-F52c4fc8d6b
+  fact_type: computation_model
+  value: Word/Real RAM
+  source_id: AW-000864:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: AlgorithmWiki metadata
+- fact_id: AW-000864-F183b4bbd48
+  fact_type: input_semantics
+  value: 'Parameter definitions: \epsilon: (additive) tolerance error, a, b: endpoint values, with b>a, n_{max}: maximum number of iterations'
+  source_id: AW-000864:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 75
+  conflict_status: weak
+  notes: AlgorithmWiki parameter metadata
+- fact_id: AW-000864-Fda9994937f
+  fact_type: source_title
+  value: AlgorithmWiki metadata for Secant method
+  source_id: AW-000864:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000864-F23b6bd12b0
+  fact_type: problem_definition
+  value: 'Source title indicates: AlgorithmWiki metadata for Secant method'
+  source_id: AW-000864:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: weak
+  notes: previous_source_record
+- fact_id: AW-000864-F1e9cb4240e
+  fact_type: problem_definition
+  value: 'AlgorithmWiki row name: Secant method'
+  source_id: AW-000864:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000864-F361a430f66
+  fact_type: problem_definition
+  value: 'domain: unknown'
+  source_id: AW-000864:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000864-F6664ba0701
+  fact_type: time_complexity
+  value: 'time complexity: O(n_{max})'
+  source_id: AW-000864:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000864-F04c164ecad
+  fact_type: space_complexity
+  value: 'space complexity: O(1)'
+  source_id: AW-000864:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000864-F87a5cf3252
+  fact_type: computation_model
+  value: 'computational model: Word/Real RAM'
+  source_id: AW-000864:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000864-F0b05f35b1d
+  fact_type: problem_definition
+  value: 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  source_id: AW-000864:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000864-F9a5f391729
+  fact_type: source_title
+  value: Secant Method
+  source_id: crossref_search:f8a232c15535629b
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000864-F303e5bf8c7
+  fact_type: problem_definition
+  value: 'Crossref title-search result: Secant Method'
+  source_id: crossref_search:f8a232c15535629b
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000864-F4be207dfd2
+  fact_type: authoritative_source_link
+  value: https://doi.org/10.1142/9789814405836_0004
+  source_id: crossref_search:f8a232c15535629b
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000864-Fae6bc5a44c
+  fact_type: problem_definition
+  value: 'Crossref title: Secant Method'
+  source_id: crossref_search:770af8560bfbc2d1
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: consistent
+  notes: crossref
+- fact_id: AW-000864-F46ce28b1fb
+  fact_type: problem_definition
+  value: 'published year: 2013'
+  source_id: crossref_search:770af8560bfbc2d1
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: consistent
+  notes: crossref
+- fact_id: AW-000864-F8902d87b46
+  fact_type: problem_definition
+  value: 'container title: Computational Methods in Nonlinear Analysis'
+  source_id: crossref_search:770af8560bfbc2d1
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: consistent
+  notes: crossref
+duplicate_sources:
+- source_id: AW-000864:algorithm_wiki_metadata
+  url: ''
+  title: AlgorithmWiki metadata for Secant method
+  source_type: algorithm_wiki
+  access_status: metadata_only
+  reliability: HIGH
+  extracted_facts:
+  - 'AlgorithmWiki row name: Secant method'
+  - 'domain: unknown'
+  - 'time complexity: O(n_{max})'
+  - 'space complexity: O(1)'
+  - 'computational model: Word/Real RAM'
+  - 'parameter definitions: \epsilon: (additive) tolerance error, a, b: endpoint values, with b>a, n_{max}: maximum number of iterations'
+  short_quote: ''
+  digest: 333e3323bc2fce1c
+failed_sources: []
+paywalled_or_skipped_sources: []
+source_families_covered:
+- algorithm_wiki_local
+- local_previous_cache
+- original_source
+- crossref
+- arxiv
+- wikipedia
+- openalex
+- semantic_scholar
+- dblp
+- publisher_abstract
+- wikidata
+- citeseerx
+- nist_dads
+- the_algorithms
+- cp_algorithms
+- course_notes
+- general_web_search
+cycles_completed: 3
+new_fact_count_by_cycle:
+- cycle: 1
+  new_facts: 3
+- cycle: 2
+  new_facts: 0
+- cycle: 3
+  new_facts: 0
+no_new_fact_streak: 2
+saturation_status: SATURATED_NO_RECOVERY
+final_reason: After the configured source-family cycles, no source-backed concrete task, input semantics, output semantics, and conservative access model could be established.
+next_manual_action: No automated action recommended; keep saturated certificate with unresolved row.

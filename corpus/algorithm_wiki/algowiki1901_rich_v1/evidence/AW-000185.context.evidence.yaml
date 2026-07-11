@@ -1,0 +1,49 @@
+id: AW-000185
+kind: context
+algorithm_id: AW-000185
+algorithm_name: Fleischer forward-backward (FB) algorithm
+source_records:
+- access_status: metadata_only
+  digest: 24990fdd2b2e7501
+  extracted_facts:
+  - 'AlgorithmWiki row name: Fleischer forward-backward (FB) algorithm'
+  - 'domain: graph'
+  - 'time complexity: O(E\log V+V)'
+  - 'space complexity: O(V+E)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: V: number of vertices, E: number of edges'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(E\log V+V); space O(V+E). Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000185:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Fleischer forward-backward (FB) algorithm
+  url: https://ldhulipala.github.io/readings/sequential-scc.pdf
+web_query_attempts:
+- method: search_plan
+  query: Fleischer forward-backward (FB) algorithm algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Fleischer forward-backward (FB) algorithm algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Fleischer forward-backward (FB) algorithm problem definition
+  status: recorded
+- method: search_plan
+  query: Fleischer forward-backward (FB) algorithm graph algorithm
+  status: recorded
+- method: search_plan
+  query: Fleischer forward-backward (FB) algorithm site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Fleischer forward-backward (FB) algorithm algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://ldhulipala.github.io/readings/sequential-scc.pdf
+  status: recorded
+- method: wikipedia_summary_search
+  query: Fleischer forward-backward (FB) algorithm algorithm
+  status: failed_or_not_relevant
+extracted_problem_statement: 'Fleischer forward-backward (FB) algorithm is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Fleischer forward-backward (FB) algorithm. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'Fleischer forward-backward (FB) algorithm is a graph algorithm record. Classical complexity metadata: time O(E\log V+V); space O(V+E). The stated classical model is Word RAM. Public metadata/source text adds: Fleischer forward-backward (FB) algorithm graph graph V: number of vertices, E: number of edges O(E\log V+V) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

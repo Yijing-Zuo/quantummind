@@ -1,0 +1,53 @@
+id: AW-000315
+kind: context_recovered
+algorithm_id: AW-000315
+algorithm_name: Sector-Based Culling
+source_records:
+- access_status: metadata_only
+  digest: a9fc27a3a9c3bebf
+  extracted_facts:
+  - 'AlgorithmWiki row name: Sector-Based Culling'
+  - 'domain: unknown'
+  - 'time complexity: O(n^2)'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000315:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Sector-Based Culling
+  url: ''
+- source_id: crossref_search:bc712014b94136a7
+  url: https://doi.org/10.1007/978-3-030-93049-3_26
+  title: Visual Odometer Algorithm Based on Dynamic Region Culling
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: Visual Odometer Algorithm Based on Dynamic Region Culling'
+  short_quote: ''
+  digest: 1189f508ac2d2d30
+web_query_attempts:
+- query: '"Sector-Based Culling" algorithm'
+  method: search_plan
+  status: recorded
+- query: '"Sector-Based Culling" input output'
+  method: search_plan
+  status: recorded
+- query: '"Sector-Based Culling" time complexity'
+  method: search_plan
+  status: recorded
+- query: '"Sector-Based Culling" pseudocode'
+  method: search_plan
+  status: recorded
+- query: '"Sector-Based Culling" problem'
+  method: search_plan
+  status: recorded
+- query: '"Sector-Based Culling" PDF metadata abstract'
+  method: search_plan
+  status: recorded
+- query: Sector-Based Culling algorithm
+  method: crossref_title_search
+  status: fetched
+extracted_problem_statement: 'Sector-Based Culling is reconstructed as a classical computational geometry task. Problem/task: discard scene objects that cannot contribute to a rendered view Input semantics: A scene/object set, view frustum or occlusion representation, and visibility thresholds. Output semantics: The subset of visible or potentially visible objects.'
+extracted_algorithm_summary: 'Sector-Based Culling is treated as the named AlgorithmWiki variant for discard scene objects that cannot contribute to a rendered view Classical complexity metadata: time O(n^2). Public metadata/source title support includes Visual Odometer Algorithm Based on Dynamic Region Culling.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

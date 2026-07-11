@@ -1,0 +1,59 @@
+algorithm_id: AW-000156
+canonical_name: Hashing
+blind_name: Algorithm Wiki public task AW-000156
+year: '1940'
+domain: unknown
+family: unknown
+variation: ''
+problem_name: unknown
+algorithm_family: unknown
+time_complexity: O(n)
+space_complexity: O(n)
+computational_model: Word RAM
+randomized: '0'
+approximate: '0'
+approximation_factor: ''
+parameter_definitions: 'n: size of list'
+span_depth: ''
+work: ''
+number_of_processors: ''
+source_link: '-'
+source_link_type: unknown
+page_url: ''
+page_fetch_status: not_found
+page_digest: ''
+extracted_description: ''
+inferred_problem_statement: 'Hashing is reconstructed as a classical data structures task. Problem/task: maintain a data structure supporting the named operations Input semantics: A set of records and operation sequence for insert, delete, query, or search operations. Output semantics: A maintained representation and answers to the supported queries.'
+inferred_input_model: explicit_data_structure_problem
+inferred_access_model: random_access_string
+inferred_output_contract: data_structure_output
+inferred_size_parameters:
+- 'Parameter definition: n: size of list'
+inferred_promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+inferred_ambiguities:
+- Some details are reconstructed from AlgorithmWiki metadata rather than an independently fetched full public description.
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.
+quality_score: 80
+quality_flags:
+- has_complexity_semantics
+- has_size_parameters
+- has_computational_model
+readiness: READY_PUBLIC_CONTEXT
+review_reasons:
+- missing_problem_statement
+- unknown_input_model
+- unknown_access_model
+- unknown_output_contract
+- insufficient_algorithm_level_structure
+extraction_version: algorithm-wiki-rich-second-pass-context-v1
+rich_card_kind: context_recovered
+source_records_used:
+- AW-000156:algorithm_wiki_metadata
+- crossref_search:d9115974e7741630
+source_count: 2
+source_quality: HIGH
+confidence_score: 80
+card_digest: 9650352eba9f6095
+second_pass_rule: data_structure

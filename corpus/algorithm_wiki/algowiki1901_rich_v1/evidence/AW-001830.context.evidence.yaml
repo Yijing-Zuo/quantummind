@@ -1,0 +1,58 @@
+id: AW-001830
+kind: context
+algorithm_id: AW-001830
+algorithm_name: Farach, Muthukrishnan (1)
+source_records:
+- access_status: metadata_only
+  digest: ec6e8e91e2f11d6f
+  extracted_facts:
+  - 'AlgorithmWiki row name: Farach, Muthukrishnan (1)'
+  - 'domain: string'
+  - 'time complexity: O(\log{d}+\log{n})'
+  - 'computational model: arbitrary CRCW PRAM'
+  - 'parameter definitions: d: dictionary size, n: input string length'
+  - 'precard summary: Given one or more explicit strings, compute the matching, indexing, alignment, or transformation output targeted by the record. Baseline: time O(\log{d}+\log{n}); work O(n); span/depth O(\log{d}+\log{n}); processors O(n/(\log{d}+\log{n}). Bottleneck: string scanning, preprocessing tables, and reporting matches dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001830:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Farach, Muthukrishnan (1)
+  url: https://dl.acm.org/doi/pdf/10.1145/215399.215451
+- access_status: skipped
+  digest: 9da01d9e00e97676
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:1fe443f2f5f48d3b
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1145/215399.215451
+web_query_attempts:
+- method: search_plan
+  query: Farach, Muthukrishnan (1) algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Farach, Muthukrishnan (1) algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Farach, Muthukrishnan (1) problem definition
+  status: recorded
+- method: search_plan
+  query: Farach, Muthukrishnan (1) string algorithm
+  status: recorded
+- method: search_plan
+  query: Farach, Muthukrishnan (1) site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Farach, Muthukrishnan (1) algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://dl.acm.org/doi/pdf/10.1145/215399.215451
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1145/215399.215451
+  status: skipped
+extracted_problem_statement: 'Farach, Muthukrishnan (1) is treated as a classical string task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Farach, Muthukrishnan (1). Input semantics: One or more finite strings, sequences, patterns, or alphabets. Output semantics: Pattern occurrence positions, matches, or the associated string-search report.'
+extracted_algorithm_summary: 'Farach, Muthukrishnan (1) is a string algorithm record. Classical complexity metadata: time O(\log{d}+\log{n}); work O(n); span/depth O(\log{d}+\log{n}); processors O(n/(\log{d}+\log{n}). The stated classical model is arbitrary CRCW PRAM. Public metadata/source text adds: Farach, Muthukrishnan (1) string string d: dictionary size, n: input string length O(\log{d}+\log{n}) Given one or more explicit strings, compute the matching, indexing, alignment, or transformation output targeted by the record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

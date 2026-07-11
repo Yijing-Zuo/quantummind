@@ -1,0 +1,56 @@
+id: AW-001006
+kind: context
+algorithm_id: AW-001006
+algorithm_name: Bayer, McCreight B-Tree
+source_records:
+- access_status: metadata_only
+  digest: 66b8935d07092ea6
+  extracted_facts:
+  - 'AlgorithmWiki row name: Bayer, McCreight B-Tree'
+  - 'domain: data_structures'
+  - 'time complexity: O(b*log(n)/log(b))'
+  - 'space complexity: O(1)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of nodes, b: branching factor'
+  - 'precard summary: Given an explicit collection of keys, items, or offline operations, construct or return the data-structure output targeted by the record. Baseline: time O(b*log(n)/log(b)); space O(1). Bottleneck: updates, queries, balancing, and stored representation size dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001006:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Bayer, McCreight B-Tree
+  url: ''
+- access_status: skipped
+  digest: e5a0595bfa376f95
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:485dca3f6140c778
+  source_type: wikipedia
+  title: fetch budget exhausted
+  url: https://en.wikipedia.org/wiki/Bayer%2C_McCreight_B-Tree
+web_query_attempts:
+- method: search_plan
+  query: Bayer, McCreight B-Tree algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Bayer, McCreight B-Tree algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Bayer, McCreight B-Tree problem definition
+  status: recorded
+- method: search_plan
+  query: Bayer, McCreight B-Tree data structures algorithm
+  status: recorded
+- method: search_plan
+  query: Bayer, McCreight B-Tree site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Bayer, McCreight B-Tree algorithm wiki
+  status: recorded
+- method: wikipedia_summary_search
+  query: Bayer, McCreight B-Tree algorithm
+  status: skipped
+extracted_problem_statement: 'Bayer, McCreight B-Tree is treated as a classical data structures task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Bayer, McCreight B-Tree. Input semantics: A set of records plus update/query operations for the named data structure. Output semantics: A maintained data structure representation and answers to its supported queries.'
+extracted_algorithm_summary: 'Bayer, McCreight B-Tree is a data structures algorithm record. Classical complexity metadata: time O(b*log(n)/log(b)); space O(1). The stated classical model is Word RAM. Public metadata/source text adds: Bayer, McCreight B-Tree data_structures data_structures n: number of nodes, b: branching factor O(b*log(n)/log(b)) Given an explicit collection of keys, items, or offline operations, construct or return the data-structure output targeted by the record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

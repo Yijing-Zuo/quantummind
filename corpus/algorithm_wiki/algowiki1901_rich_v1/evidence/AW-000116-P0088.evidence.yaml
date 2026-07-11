@@ -1,0 +1,74 @@
+id: AW-000116-P0088
+kind: probe
+algorithm_id: AW-000116
+algorithm_name: Dynamic Programming
+source_records:
+- access_status: metadata_only
+  digest: ca4849a35389f62a
+  extracted_facts:
+  - 'AlgorithmWiki row name: Dynamic Programming'
+  - 'domain: dynamic_programming'
+  - 'time complexity: O(Sn)'
+  - 'space complexity: O(Sn)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of coin denominations, S: sum to be made'
+  - 'precard summary: Given an explicit instance with overlapping subproblem structure, compute the full classical solution or value targeted by the dynamic-programming recurrence. Baseline: time O(Sn); space O(Sn). Bottleneck: subproblem count, transition evaluation, and table output dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000116:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Dynamic Programming
+  url: https://dl.acm.org/doi/10.1145/321864.321874
+- access_status: fetched
+  digest: 83b134ad798e180b
+  extracted_facts:
+  - 'DOI title: The Change-Making Problem'
+  - 'published year: 1975'
+  - 'container title: Journal of the ACM'
+  reliability: HIGH
+  short_quote: ''
+  source_id: crossref:685152092b985dad
+  source_type: doi_metadata
+  title: The Change-Making Problem
+  url: https://doi.org/10.1145/321864.321874
+- access_status: failed
+  digest: dd118fc15b06d022
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:e56a607c8dc1c876
+  source_type: publisher_abstract
+  title: 'HTTP Error 403: Forbidden'
+  url: https://dl.acm.org/doi/10.1145/321864.321874
+web_query_attempts:
+- method: search_plan
+  query: Dynamic Programming algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Dynamic Programming algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Dynamic Programming problem definition
+  status: recorded
+- method: search_plan
+  query: Dynamic Programming dynamic programming algorithm
+  status: recorded
+- method: search_plan
+  query: Dynamic Programming site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Dynamic Programming algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://dl.acm.org/doi/10.1145/321864.321874
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1145/321864.321874
+  status: fetched
+- method: source_link_html_metadata
+  query: https://dl.acm.org/doi/10.1145/321864.321874
+  status: failed
+extracted_problem_statement: 'Dynamic Programming is treated as a classical dynamic programming task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Dynamic Programming. Input semantics: An explicit optimization or recurrence instance with overlapping subproblems. Output semantics: The optimal value, witness, schedule, segmentation, or table-derived solution for the recurrence.'
+extracted_algorithm_summary: 'Dynamic Programming is a dynamic programming algorithm record. Classical complexity metadata: time O(Sn); space O(Sn). The stated classical model is Word RAM. Public metadata/source text adds: Dynamic Programming dynamic_programming dynamic_programming n: number of coin denominations, S: sum to be made O(Sn) Given an explicit instance with overlapping subproblem structure, compute the full classical solution or value targeted by the dynamic-programming recurrence.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

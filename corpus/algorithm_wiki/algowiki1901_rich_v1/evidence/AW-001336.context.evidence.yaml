@@ -1,0 +1,72 @@
+id: AW-001336
+kind: context
+algorithm_id: AW-001336
+algorithm_name: Peretz, Fischler
+source_records:
+- access_status: metadata_only
+  digest: a278b6ffccaffd98
+  extracted_facts:
+  - 'AlgorithmWiki row name: Peretz, Fischler'
+  - 'domain: graph'
+  - 'time complexity: O(V \log V)'
+  - 'space complexity: https://dl.acm.org/citation.cfm?id=290181'
+  - 'computational model: CREW PRAM'
+  - 'parameter definitions: V: number of vertices, E: number of edges, U: maximum edge capacity'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(V \log V); work O(V^3 \log V); span/depth O(V log V); processors O(V^2). Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001336:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Peretz, Fischler
+  url: https://dl.acm.org/doi/abs/10.1016/j.jpdc.2022.07.003
+- access_status: skipped
+  digest: fa010f45e5ec4509
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:24b71afa1700aea2
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1016/j.jpdc.2022.07.003
+- access_status: skipped
+  digest: 153473bb572c8075
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:9ad326db27d236ad
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://dl.acm.org/doi/abs/10.1016/j.jpdc.2022.07.003
+web_query_attempts:
+- method: search_plan
+  query: Peretz, Fischler algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Peretz, Fischler algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Peretz, Fischler problem definition
+  status: recorded
+- method: search_plan
+  query: Peretz, Fischler graph algorithm
+  status: recorded
+- method: search_plan
+  query: Peretz, Fischler site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Peretz, Fischler algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://dl.acm.org/doi/abs/10.1016/j.jpdc.2022.07.003
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1016/j.jpdc.2022.07.003
+  status: skipped
+- method: source_link_html_metadata
+  query: https://dl.acm.org/doi/abs/10.1016/j.jpdc.2022.07.003
+  status: skipped
+extracted_problem_statement: 'Peretz, Fischler is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Peretz, Fischler. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'Peretz, Fischler is a graph algorithm record. Classical complexity metadata: time O(V \log V); space https://dl.acm.org/citation.cfm?id=290181; work O(V^3 \log V); span/depth O(V log V); processors O(V^2). The stated classical model is CREW PRAM. Public metadata/source text adds: Peretz, Fischler graph graph V: number of vertices, E: number of edges, U: maximum edge capacity O(V \log V) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

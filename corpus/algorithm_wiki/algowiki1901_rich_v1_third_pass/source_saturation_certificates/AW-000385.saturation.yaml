@@ -1,0 +1,451 @@
+algorithm_id: AW-000385
+canonical_name: Shani Brafman & Shimony 2005
+original_source_link: ''
+source_link_type: unknown
+previous_failure_reasons:
+- No second-pass rule could identify source-backed task semantics.
+previous_source_records:
+- access_status: metadata_only
+  digest: 47af713359ecf3fa
+  extracted_facts:
+  - 'AlgorithmWiki row name: Shani Brafman & Shimony 2005'
+  - 'domain: unknown'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000385:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Shani Brafman & Shimony 2005
+  url: ''
+- access_status: fetched
+  digest: d7bead4643e193bd
+  extracted_facts:
+  - 'Crossref title-search result: Brafman, Jakov'
+  reliability: MEDIUM
+  short_quote: ''
+  source_id: crossref_search:f24c47ca7beff4bb
+  source_type: doi_metadata
+  title: Brafman, Jakov
+  url: https://doi.org/10.1515/hdao.2.094
+aliases_tried:
+- Shani Brafman & Shimony 2005
+- Shani Brafman & Shimony
+- Shani Brafman & Shimony 2005 algorithm
+- Shani Brafman & Shimony 2005 problem
+- Shani Brafman & Shimony 2005 pseudocode
+- Shani Brafman & Shimony 2005 time complexity
+- Brafman, Jakov
+- Brafman, Jakov algorithm
+- Brafman, Jakov complexity
+query_plan:
+- source_family: original_source
+  primary_query: Shani Brafman & Shimony 2005
+  applicability: applicable
+  purpose: check the row's original source link without storing paywalled or PDF bodies
+- source_family: crossref
+  primary_query: Shani Brafman & Shimony 2005
+  applicability: title-search-only
+  purpose: recover DOI title, venue, year, and abstract metadata where available
+- source_family: openalex
+  primary_query: Shani Brafman & Shimony 2005
+  applicability: applicable
+  purpose: recover public work metadata and abstract-inverted-index summaries
+- source_family: semantic_scholar
+  primary_query: Shani Brafman & Shimony 2005
+  applicability: applicable
+  purpose: recover CS paper metadata and abstracts without an API key
+- source_family: arxiv
+  primary_query: Shani Brafman & Shimony 2005
+  applicability: title-search-only
+  purpose: recover arXiv title and abstract metadata
+- source_family: dblp
+  primary_query: Shani Brafman & Shimony 2005
+  applicability: applicable
+  purpose: recover bibliographic title/venue metadata for CS publications
+- source_family: publisher_abstract
+  primary_query: Shani Brafman & Shimony 2005
+  applicability: applicable
+  purpose: check accessible publisher abstract pages
+- source_family: citeseerx
+  primary_query: Shani Brafman & Shimony 2005
+  applicability: applicable
+  purpose: record legacy CiteSeerX availability without full PDF storage
+- source_family: wikipedia
+  primary_query: Shani Brafman & Shimony 2005
+  applicability: applicable
+  purpose: check public encyclopedia algorithm descriptions
+- source_family: wikidata
+  primary_query: Shani Brafman & Shimony 2005
+  applicability: applicable
+  purpose: check public entity aliases/descriptions
+- source_family: nist_dads
+  primary_query: Shani Brafman & Shimony 2005
+  applicability: applicable
+  purpose: check whether a DADS-style reference search is applicable
+- source_family: algorithm_wiki_local
+  primary_query: Shani Brafman & Shimony 2005
+  applicability: applicable
+  purpose: reuse AlgorithmWiki metadata as provenance
+- source_family: the_algorithms
+  primary_query: Shani Brafman & Shimony 2005
+  applicability: applicable
+  purpose: check exact public implementation/reference names when available
+- source_family: cp_algorithms
+  primary_query: Shani Brafman & Shimony 2005
+  applicability: applicable
+  purpose: check exact public algorithm reference names when available
+- source_family: course_notes
+  primary_query: Shani Brafman & Shimony 2005
+  applicability: applicable
+  purpose: record absence of configured course-notes search
+- source_family: general_web_search
+  primary_query: Shani Brafman & Shimony 2005
+  applicability: applicable
+  purpose: record absence of a configured general web endpoint
+- source_family: local_previous_cache
+  primary_query: Shani Brafman & Shimony 2005
+  applicability: applicable
+  purpose: reuse v1/second-pass fetched source records
+query_attempts:
+- &id001
+  cycle: 1
+  query: Shani Brafman & Shimony 2005
+  source_family: algorithm_wiki_local
+  url_or_api_endpoint: ''
+  status: fetched
+  new_facts_added: 4
+  reason: local metadata
+- &id002
+  cycle: 1
+  query: Shani Brafman & Shimony 2005
+  source_family: local_previous_cache
+  url_or_api_endpoint: ''
+  status: duplicate
+  new_facts_added: 0
+  reason: previous v1/second-pass sources reused
+- &id003
+  cycle: 1
+  query: Shani Brafman & Shimony 2005
+  source_family: original_source
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: no original source link
+- &id004
+  cycle: 1
+  query: Shani Brafman & Shimony 2005
+  source_family: crossref
+  url_or_api_endpoint: https://doi.org/10.1515/hdao.2.094
+  status: irrelevant
+  new_facts_added: 0
+  reason: Crossref metadata/title search
+- &id005
+  cycle: 1
+  query: Shani Brafman & Shimony 2005
+  source_family: arxiv
+  url_or_api_endpoint: https://export.arxiv.org/api/query?max_results=1&search_query=ti:%22Shani+Brafman+%26+Shimony+2005%22
+  status: no_result
+  new_facts_added: 0
+  reason: arXiv title search returned no usable entry
+- &id006
+  cycle: 1
+  query: Shani Brafman & Shimony 2005
+  source_family: wikipedia
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: Wikipedia search returned no relevant page
+- &id007
+  cycle: 2
+  query: Shani Brafman & Shimony 2005
+  source_family: openalex
+  url_or_api_endpoint: https://api.openalex.org/works?per-page=1&search=Shani+Brafman+%26+Shimony+2005
+  status: fetched
+  new_facts_added: 6
+  reason: OpenAlex work metadata
+- &id008
+  cycle: 2
+  query: Shani Brafman & Shimony 2005
+  source_family: semantic_scholar
+  url_or_api_endpoint: https://api.semanticscholar.org/graph/v1/paper/search?limit=1&fields=title,abstract,year,url,externalIds&query=Shani+Brafman+%26+Shimony+2005
+  status: fetched
+  new_facts_added: 6
+  reason: Semantic Scholar paper metadata
+- &id009
+  cycle: 2
+  query: Shani Brafman & Shimony 2005
+  source_family: dblp
+  url_or_api_endpoint: https://dblp.org/search/publ/api?format=json&h=1&q=Shani+Brafman+%26+Shimony+2005
+  status: no_result
+  new_facts_added: 0
+  reason: DBLP returned no usable publication
+- &id010
+  cycle: 2
+  query: Shani Brafman & Shimony 2005
+  source_family: publisher_abstract
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: no applicable publisher abstract URL
+- &id011
+  cycle: 2
+  query: Shani Brafman & Shimony 2005
+  source_family: wikidata
+  url_or_api_endpoint: https://www.wikidata.org/w/api.php?action=wbsearchentities&language=en&format=json&limit=1&search=Shani+Brafman+%26+Shimony+2005
+  status: no_result
+  new_facts_added: 0
+  reason: Wikidata returned no entity
+source_attempts:
+- *id001
+- *id002
+- *id003
+- *id004
+- *id005
+- *id006
+- *id007
+- *id008
+- *id009
+- *id010
+- *id011
+discovered_sources:
+- source_id: crossref_search:f37121351d547d65
+  url: https://doi.org/10.1515/hdao.2.094
+  title: Brafman, Jakov
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title: Brafman, Jakov'
+  - 'published year: 2023'
+  - 'container title: Handbuch des Antisemitismus Online'
+  short_quote: 'Crossref title: Brafman, Jakov published year: 2023 container title: Handbuch des Antisemitismus Online'
+  digest: 20e454eb8ea650bf
+- source_id: openalex:efb3ff811ce44de0
+  url: https://openalex.org/W2144913588
+  title: Online Planning Algorithms for POMDPs
+  source_type: openalex
+  access_status: fetched
+  reliability: HIGH
+  extracted_facts:
+  - 'OpenAlex title: Online Planning Algorithms for POMDPs'
+  - 'publication year: 2008'
+  - 'abstract summary: Partially Observable Markov Decision Processes (POMDPs) provide a rich framework for sequential decision-making under uncertainty in stochastic domains.'
+  short_quote: 'OpenAlex title: Online Planning Algorithms for POMDPs publication year: 2008 abstract summary: Partially Observable Markov Decision Processes (POMDPs) provide a rich framework for sequential'
+  digest: 0db60f6b71d9e989
+- source_id: semantic_scholar:3db0a223665d3af0
+  url: https://www.semanticscholar.org/paper/f06bbe14d083e366512f4759b447e30d79da8eca
+  title: Model-Based Online Learning of POMDPs
+  source_type: semantic_scholar
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Semantic Scholar title: Model-Based Online Learning of POMDPs'
+  - 'published year: 2005'
+  - 'abstract summary: None'
+  short_quote: 'Semantic Scholar title: Model-Based Online Learning of POMDPs published year: 2005 abstract summary: None'
+  digest: 4e0f9c19c6e75c35
+discovered_facts:
+- fact_id: AW-000385-Fceee8b811c
+  fact_type: alias
+  value: Shani Brafman & Shimony 2005
+  source_id: AW-000385:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: AlgorithmWiki metadata
+- fact_id: AW-000385-F65d45941b2
+  fact_type: source_title
+  value: AlgorithmWiki metadata for Shani Brafman & Shimony 2005
+  source_id: AW-000385:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000385-F3842ea7a55
+  fact_type: problem_definition
+  value: 'Source title indicates: AlgorithmWiki metadata for Shani Brafman & Shimony 2005'
+  source_id: AW-000385:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: weak
+  notes: previous_source_record
+- fact_id: AW-000385-F615b0741d0
+  fact_type: problem_definition
+  value: 'AlgorithmWiki row name: Shani Brafman & Shimony 2005'
+  source_id: AW-000385:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000385-Fecd1f66977
+  fact_type: problem_definition
+  value: 'domain: unknown'
+  source_id: AW-000385:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000385-Fc10fd28290
+  fact_type: problem_definition
+  value: 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  source_id: AW-000385:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000385-F55d42a6400
+  fact_type: source_title
+  value: Brafman, Jakov
+  source_id: crossref_search:f24c47ca7beff4bb
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000385-Ffa84829a84
+  fact_type: problem_definition
+  value: 'Crossref title-search result: Brafman, Jakov'
+  source_id: crossref_search:f24c47ca7beff4bb
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000385-F5adea1950b
+  fact_type: authoritative_source_link
+  value: https://doi.org/10.1515/hdao.2.094
+  source_id: crossref_search:f24c47ca7beff4bb
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000385-F505b1060e6
+  fact_type: source_title
+  value: Online Planning Algorithms for POMDPs
+  source_id: openalex:efb3ff811ce44de0
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: openalex
+- fact_id: AW-000385-F4c724c0602
+  fact_type: problem_definition
+  value: 'Source title indicates: Online Planning Algorithms for POMDPs'
+  source_id: openalex:efb3ff811ce44de0
+  reliability: HIGH
+  confidence: 85
+  conflict_status: weak
+  notes: openalex
+- fact_id: AW-000385-Fd61030747f
+  fact_type: problem_definition
+  value: 'OpenAlex title: Online Planning Algorithms for POMDPs'
+  source_id: openalex:efb3ff811ce44de0
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: openalex
+- fact_id: AW-000385-F2b4c45b519
+  fact_type: problem_definition
+  value: 'publication year: 2008'
+  source_id: openalex:efb3ff811ce44de0
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: openalex
+- fact_id: AW-000385-F6bf46f3cbd
+  fact_type: problem_definition
+  value: 'abstract summary: Partially Observable Markov Decision Processes (POMDPs) provide a rich framework for sequential decision-making under uncertainty in stochastic domains.'
+  source_id: openalex:efb3ff811ce44de0
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: openalex
+- fact_id: AW-000385-F44fa1f16f0
+  fact_type: authoritative_source_link
+  value: https://openalex.org/W2144913588
+  source_id: openalex:efb3ff811ce44de0
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: openalex
+- fact_id: AW-000385-F7744277b18
+  fact_type: source_title
+  value: Model-Based Online Learning of POMDPs
+  source_id: semantic_scholar:3db0a223665d3af0
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: consistent
+  notes: semantic_scholar
+- fact_id: AW-000385-F43bfc3bbe0
+  fact_type: problem_definition
+  value: 'Source title indicates: Model-Based Online Learning of POMDPs'
+  source_id: semantic_scholar:3db0a223665d3af0
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: weak
+  notes: semantic_scholar
+- fact_id: AW-000385-Fe559ac4ac0
+  fact_type: problem_definition
+  value: 'Semantic Scholar title: Model-Based Online Learning of POMDPs'
+  source_id: semantic_scholar:3db0a223665d3af0
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: consistent
+  notes: semantic_scholar
+- fact_id: AW-000385-Fb648f0c397
+  fact_type: problem_definition
+  value: 'published year: 2005'
+  source_id: semantic_scholar:3db0a223665d3af0
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: consistent
+  notes: semantic_scholar
+- fact_id: AW-000385-F4bab2dd2e6
+  fact_type: problem_definition
+  value: 'abstract summary: None'
+  source_id: semantic_scholar:3db0a223665d3af0
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: consistent
+  notes: semantic_scholar
+- fact_id: AW-000385-F1a03461852
+  fact_type: authoritative_source_link
+  value: https://www.semanticscholar.org/paper/f06bbe14d083e366512f4759b447e30d79da8eca
+  source_id: semantic_scholar:3db0a223665d3af0
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: consistent
+  notes: semantic_scholar
+duplicate_sources:
+- source_id: AW-000385:algorithm_wiki_metadata
+  url: ''
+  title: AlgorithmWiki metadata for Shani Brafman & Shimony 2005
+  source_type: algorithm_wiki
+  access_status: metadata_only
+  reliability: HIGH
+  extracted_facts:
+  - 'AlgorithmWiki row name: Shani Brafman & Shimony 2005'
+  - 'domain: unknown'
+  short_quote: ''
+  digest: 946f8bc9335ba8e0
+failed_sources: []
+paywalled_or_skipped_sources: []
+source_families_covered:
+- algorithm_wiki_local
+- local_previous_cache
+- original_source
+- crossref
+- arxiv
+- wikipedia
+- openalex
+- semantic_scholar
+- dblp
+- publisher_abstract
+- wikidata
+cycles_completed: 2
+new_fact_count_by_cycle:
+- cycle: 1
+  new_facts: 0
+- cycle: 2
+  new_facts: 12
+no_new_fact_streak: 1
+saturation_status: RECOVERED_CONTEXT_AND_PROBE
+final_reason: Source-saturation pass found enough task, input, output, and access semantics for a context card.
+next_manual_action: Audit recovered card before any optional live analyze run.

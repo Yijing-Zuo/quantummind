@@ -1,0 +1,54 @@
+algorithm_id: AW-001265
+canonical_name: Kim, Choi, Bae
+enrichment_status: SECOND_PASS_INSUFFICIENT
+review_reasons:
+- No second-pass rule could identify source-backed task semantics.
+source_records:
+- access_status: metadata_only
+  digest: aee25e9a8f39b7e0
+  extracted_facts:
+  - 'AlgorithmWiki row name: Kim, Choi, Bae'
+  - 'domain: unknown'
+  - 'time complexity: O(n/p \log^2(n))'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001265:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Kim, Choi, Bae
+  url: https://dl.acm.org/doi/pdf/10.1145/3229710.3229730
+- access_status: skipped
+  digest: 243c2e425c0d728a
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:dee6a06dde79078d
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1145/3229710.3229730
+- source_id: crossref:c00bf10bbec22d6e
+  url: https://doi.org/10.1145/3229710.3229730
+  title: Efficient Parallel All-Pairs Shortest Paths Algorithm for Complex Graph Analysis
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: HIGH
+  extracted_facts:
+  - 'DOI title: Efficient Parallel All-Pairs Shortest Paths Algorithm for Complex Graph Analysis'
+  - 'published year: 2018'
+  - 'container title: Proceedings of the 47th International Conference on Parallel Processing Companion'
+  short_quote: ''
+  digest: 9324975c0d6a4751
+- source_id: crossref_search:0b18e1bdccf3f416
+  url: https://doi.org/10.1109/npc.2007.32
+  title: An optimal algorithm to fetch DHT routable
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: An optimal algorithm to fetch DHT routable'
+  short_quote: ''
+  digest: eac65bcac63f65f8
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

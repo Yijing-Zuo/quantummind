@@ -1,0 +1,58 @@
+id: AW-001303
+kind: context
+algorithm_id: AW-001303
+algorithm_name: Aggarwal & Park
+source_records:
+- access_status: metadata_only
+  digest: 5e0ccf8144f00d08
+  extracted_facts:
+  - 'AlgorithmWiki row name: Aggarwal & Park'
+  - 'domain: string'
+  - 'time complexity: O(\log m \log n)'
+  - 'computational model: CREW PRAM'
+  - 'parameter definitions: m: length of shorter string, n: length of longer string'
+  - 'precard summary: Given one or more explicit strings, compute the matching, indexing, alignment, or transformation output targeted by the record. Baseline: time O(\log m \log n); work O(mn \log n); span/depth O(log m log n); processors O(mn/log m). Bottleneck: string scanning, preprocessing tables, and reporting matches dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001303:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Aggarwal & Park
+  url: https://ieeexplore.ieee.org/document/21966
+- access_status: skipped
+  digest: 070fd22f7d33e8bf
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:fbdbc9a15f3cfb81
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://ieeexplore.ieee.org/document/21966
+web_query_attempts:
+- method: search_plan
+  query: Aggarwal & Park algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Aggarwal & Park algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Aggarwal & Park problem definition
+  status: recorded
+- method: search_plan
+  query: Aggarwal & Park string algorithm
+  status: recorded
+- method: search_plan
+  query: Aggarwal & Park site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Aggarwal & Park algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://ieeexplore.ieee.org/document/21966
+  status: recorded
+- method: source_link_html_metadata
+  query: https://ieeexplore.ieee.org/document/21966
+  status: skipped
+extracted_problem_statement: 'Aggarwal & Park is treated as a classical string task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Aggarwal & Park. Input semantics: One or more finite strings, sequences, patterns, or alphabets. Output semantics: Pattern occurrence positions, matches, or the associated string-search report.'
+extracted_algorithm_summary: 'Aggarwal & Park is a string algorithm record. Classical complexity metadata: time O(\log m \log n); work O(mn \log n); span/depth O(log m log n); processors O(mn/log m). The stated classical model is CREW PRAM. Public metadata/source text adds: Aggarwal & Park string string m: length of shorter string, n: length of longer string O(\log m \log n) Given one or more explicit strings, compute the matching, indexing, alignment, or transformation output targeted by the record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

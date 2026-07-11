@@ -1,0 +1,62 @@
+id: AW-000092-P0072
+kind: probe
+algorithm_id: AW-000092
+algorithm_name: "Ramer\u2013Douglas\u2013Peucker algorithm"
+source_records:
+- access_status: metadata_only
+  digest: 316227d260cee31e
+  extracted_facts:
+  - "AlgorithmWiki row name: Ramer\u2013Douglas\u2013Peucker algorithm"
+  - 'domain: computational_geometry'
+  - 'time complexity: O(n^2)'
+  - 'space complexity: O(n)'
+  - 'computational model: Real RAM'
+  - 'parameter definitions: n: number of points (n-1 line segments)'
+  - 'precard summary: Given explicit geometric objects such as points, segments, or polygons, compute the requested geometric structure or witness set. Baseline: time O(n^2); space O(n). Bottleneck: geometric predicates, ordering events, and output-sensitive structure size dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000092:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: "AlgorithmWiki metadata for Ramer\u2013Douglas\u2013Peucker algorithm"
+  url: https://www.sciencedirect.com/science/article/abs/pii/S0146664X72800170
+- access_status: failed
+  digest: e5e33d6823781e67
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:9c0cfd88bfca3463
+  source_type: publisher_abstract
+  title: 'HTTP Error 403: Forbidden'
+  url: https://www.sciencedirect.com/science/article/abs/pii/S0146664X72800170
+web_query_attempts:
+- method: search_plan
+  query: "Ramer\u2013Douglas\u2013Peucker algorithm algorithm input output complexity"
+  status: recorded
+- method: search_plan
+  query: "Ramer\u2013Douglas\u2013Peucker algorithm algorithm pseudocode"
+  status: recorded
+- method: search_plan
+  query: "Ramer\u2013Douglas\u2013Peucker algorithm problem definition"
+  status: recorded
+- method: search_plan
+  query: "Ramer\u2013Douglas\u2013Peucker algorithm computational geometry algorithm"
+  status: recorded
+- method: search_plan
+  query: "Ramer\u2013Douglas\u2013Peucker algorithm site:nist.gov DADS"
+  status: recorded
+- method: search_plan
+  query: "Ramer\u2013Douglas\u2013Peucker algorithm algorithm wiki"
+  status: recorded
+- method: search_plan
+  query: https://www.sciencedirect.com/science/article/abs/pii/S0146664X72800170
+  status: recorded
+- method: source_link_html_metadata
+  query: https://www.sciencedirect.com/science/article/abs/pii/S0146664X72800170
+  status: failed
+- method: wikipedia_summary_search
+  query: "Ramer\u2013Douglas\u2013Peucker algorithm algorithm"
+  status: failed_or_not_relevant
+extracted_problem_statement: "Ramer\u2013Douglas\u2013Peucker algorithm is treated as a classical computational geometry task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Ramer\u2013Douglas\u2013Peucker algorithm. Input semantics: Explicit geometric objects such as points, line segments, polygons, or planar subdivisions. Output semantics: The requested geometric structure, simplified curve, clipping result, intersection set, hull, or diagram."
+extracted_algorithm_summary: "Ramer\u2013Douglas\u2013Peucker algorithm is a computational geometry algorithm record. Classical complexity metadata: time O(n^2); space O(n). The stated classical model is Real RAM. Public metadata/source text adds: Ramer\u2013Douglas\u2013Peucker algorithm computational_geometry computational_geometry n: number of points (n-1 line segments) O(n^2) Given explicit geometric objects such as points, segments, or polygons, compute the requested geometric structure or witness set."
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

@@ -1,0 +1,58 @@
+id: AW-001523
+kind: context
+algorithm_id: AW-001523
+algorithm_name: Chong, Lam
+source_records:
+- access_status: metadata_only
+  digest: 4a5786ad9d3bf1db
+  extracted_facts:
+  - 'AlgorithmWiki row name: Chong, Lam'
+  - 'domain: graph'
+  - 'time complexity: O(\log n \log \log n)'
+  - 'computational model: EREW PRAM'
+  - 'parameter definitions: n: number of vertices, m: number of edges'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(\log n \log \log n); work O((n+m) \log n \log \log n); span/depth O(log n log log n); processors O(n+m). Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001523:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Chong, Lam
+  url: https://dl.acm.org/doi/pdf/10.5555/313559.313575
+- access_status: skipped
+  digest: 22abd8fd107a7d30
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:c1eab5eee62008df
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.5555/313559.313575
+web_query_attempts:
+- method: search_plan
+  query: Chong, Lam algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Chong, Lam algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Chong, Lam problem definition
+  status: recorded
+- method: search_plan
+  query: Chong, Lam graph algorithm
+  status: recorded
+- method: search_plan
+  query: Chong, Lam site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Chong, Lam algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://dl.acm.org/doi/pdf/10.5555/313559.313575
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.5555/313559.313575
+  status: skipped
+extracted_problem_statement: 'Chong, Lam is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Chong, Lam. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'Chong, Lam is a graph algorithm record. Classical complexity metadata: time O(\log n \log \log n); work O((n+m) \log n \log \log n); span/depth O(log n log log n); processors O(n+m). The stated classical model is EREW PRAM. Public metadata/source text adds: Chong, Lam graph graph n: number of vertices, m: number of edges O(\log n \log \log n) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

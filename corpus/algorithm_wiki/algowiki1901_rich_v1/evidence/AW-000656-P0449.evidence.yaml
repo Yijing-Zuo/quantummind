@@ -1,0 +1,72 @@
+id: AW-000656-P0449
+kind: probe
+algorithm_id: AW-000656
+algorithm_name: J. Chen L. Liu and W. Jia.
+source_records:
+- access_status: metadata_only
+  digest: b2ee50960d136e43
+  extracted_facts:
+  - 'AlgorithmWiki row name: J. Chen L. Liu and W. Jia.'
+  - 'domain: graph'
+  - 'time complexity: O(k 1.2192^k)'
+  - 'space complexity: O(k^3) auxiliary (potentially O(k^2))'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of vertices, m: number of edges, k: size of vertex cover (worst case O(n))'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(k 1.2192^k); space O(k^3) auxiliary (potentially O(k^2)). Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000656:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for J. Chen L. Liu and W. Jia.
+  url: https://onlinelibrary.wiley.com/doi/abs/10.1002/1097-0037(200007)35:4%3C253::AID-NET3%3E3.0.CO2-K
+- access_status: failed
+  digest: b0371e445be84340
+  extracted_facts:
+  - 'HTTP Error 404: Not Found'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:3372539397db8d89
+  source_type: doi_metadata
+  title: 'HTTP Error 404: Not Found'
+  url: https://doi.org/10.1002/1097-0037(200007)35:4
+- access_status: failed
+  digest: bad36a3ecda6801b
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:49ae761d64176a78
+  source_type: other_public_source
+  title: 'HTTP Error 403: Forbidden'
+  url: https://onlinelibrary.wiley.com/doi/abs/10.1002/1097-0037(200007)35:4%3C253::AID-NET3%3E3.0.CO2-K
+web_query_attempts:
+- method: search_plan
+  query: J. Chen L. Liu and W. Jia. algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: J. Chen L. Liu and W. Jia. algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: J. Chen L. Liu and W. Jia. problem definition
+  status: recorded
+- method: search_plan
+  query: J. Chen L. Liu and W. Jia. graph algorithm
+  status: recorded
+- method: search_plan
+  query: J. Chen L. Liu and W. Jia. site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: J. Chen L. Liu and W. Jia. algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://onlinelibrary.wiley.com/doi/abs/10.1002/1097-0037(200007)35:4%3C253::AID-NET3%3E3.0.CO2-K
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1002/1097-0037(200007)35:4
+  status: failed
+- method: source_link_html_metadata
+  query: https://onlinelibrary.wiley.com/doi/abs/10.1002/1097-0037(200007)35:4%3C253::AID-NET3%3E3.0.CO2-K
+  status: failed
+extracted_problem_statement: 'J. Chen L. Liu and W. Jia. is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with J. Chen L. Liu and W. Jia.. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'J. Chen L. Liu and W. Jia. is a graph algorithm record. Classical complexity metadata: time O(k 1.2192^k); space O(k^3) auxiliary (potentially O(k^2)). The stated classical model is Word RAM. Public metadata/source text adds: J. Chen L. Liu and W. Jia. graph graph n: number of vertices, m: number of edges, k: size of vertex cover (worst case O(n)) O(k 1.2192^k) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

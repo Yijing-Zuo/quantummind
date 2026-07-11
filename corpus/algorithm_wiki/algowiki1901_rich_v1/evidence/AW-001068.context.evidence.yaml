@@ -1,0 +1,58 @@
+id: AW-001068
+kind: context
+algorithm_id: AW-001068
+algorithm_name: Cyclic sort - Johnsson (1)
+source_records:
+- access_status: metadata_only
+  digest: f646714d8dd1f6a9
+  extracted_facts:
+  - 'AlgorithmWiki row name: Cyclic sort - Johnsson (1)'
+  - 'domain: sorting'
+  - 'time complexity: O(n \log n/p) when p<<n O(\log^2(n)) when n~=p'
+  - 'computational model: MIMD'
+  - 'parameter definitions: n: size of list, p: number of processors (power of 2)'
+  - 'precard summary: Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model. Baseline: time O(n \log n/p) when p<<n O(\log^2(n)) when n~=p; work O(np \log n/p) when p<<n O(nlog^2(n)) when n~=p; span/depth O(\log^2{n}); processors p. Bottleneck: comparison, distribution, and full-output movement costs dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001068:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Cyclic sort - Johnsson (1)
+  url: http://cs-www.cs.yale.edu/publications/techreports/tr439.pdf
+- access_status: skipped
+  digest: 8e9e9ee6d5452ad4
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:efd1dfae940417dd
+  source_type: wikipedia
+  title: fetch budget exhausted
+  url: https://en.wikipedia.org/wiki/Cyclic_sort_-_Johnsson_%281%29
+web_query_attempts:
+- method: search_plan
+  query: Cyclic sort - Johnsson (1) algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Cyclic sort - Johnsson (1) algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Cyclic sort - Johnsson (1) problem definition
+  status: recorded
+- method: search_plan
+  query: Cyclic sort - Johnsson (1) sorting algorithm
+  status: recorded
+- method: search_plan
+  query: Cyclic sort - Johnsson (1) site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Cyclic sort - Johnsson (1) algorithm wiki
+  status: recorded
+- method: search_plan
+  query: http://cs-www.cs.yale.edu/publications/techreports/tr439.pdf
+  status: recorded
+- method: wikipedia_summary_search
+  query: Cyclic sort - Johnsson (1) algorithm
+  status: skipped
+extracted_problem_statement: 'Cyclic sort - Johnsson (1) is treated as a classical sorting task for rich AlgorithmWiki discovery. Problem/task: sort the input sequence using the named classical sorting method. Input semantics: A finite array or list of comparable keys or records. Output semantics: The same items returned in nondecreasing order, usually as a full reordered sequence.'
+extracted_algorithm_summary: 'Cyclic sort - Johnsson (1) is a sorting algorithm record. Classical complexity metadata: time O(n \log n/p) when p<<n O(\log^2(n)) when n~=p; work O(np \log n/p) when p<<n O(nlog^2(n)) when n~=p; span/depth O(\log^2{n}); processors p. The stated classical model is MIMD. Public metadata/source text adds: Cyclic sort - Johnsson (1) sorting sorting n: size of list, p: number of processors (power of 2) O(n \log n/p) when p<<n O(\log^2(n)) when n~=p Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

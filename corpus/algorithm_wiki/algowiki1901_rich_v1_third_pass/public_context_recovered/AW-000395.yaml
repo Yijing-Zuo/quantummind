@@ -1,0 +1,14 @@
+statement: 'Maximum a Posteriori Occupancy Mapping is included as a named whole-algorithm context card for a classical numerical analysis task. The task is to analyze the classical input-output problem, not to certify an end-to-end improvement claim. Input semantics: Numerical observations, model parameters, tolerance requirements, and iteration or sample limits. Output semantics: An estimate with stated tolerance, fitted parameter, or numerical summary. Classical algorithm summary: Maximum a Posteriori Occupancy Mapping is reconstructed as a classical numerical analysis task. The source-backed title/name/fact record supports the task: estimate a numerical quantity from samples, measurements, or iterative updates. Classical complexity recorded for this row: time O(n^3); space not stated; computation model not stated. Dominant bottleneck: Sampling or iterative update cost, convergence, and precision control dominate. The useful review questions are whether the named structure exposes a smaller
+  decision, witness, estimation, or algebraic subproblem; whether the full output size dominates any asymptotic gain; and whether the stated access model is realistic for the original input. Provenance used for reconstruction includes public metadata or abstract sources such as Maximum a Posteriori Based Evolutionary Algorithm; Maximum A-Posteriori Estimation.'
+input_model: explicit_numerical_problem
+access_model: function_evaluation_oracle_classical
+output_contract: estimate
+promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+- classical_approximation_algorithm
+size_parameters:
+- 'n: primary input size parameter for the source-backed task.'
+ambiguities:
+- Some details are reconstructed from AlgorithmWiki metadata rather than an independently fetched full public description.
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.

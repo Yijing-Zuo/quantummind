@@ -1,0 +1,70 @@
+algorithm_id: AW-000489
+canonical_name: Bruun's FFT algorithm
+enrichment_status: THIRD_PASS_SATURATED_INSUFFICIENT
+review_reasons:
+- After the configured source-family cycles, no source-backed concrete task, input semantics, output semantics, and conservative access model could be established.
+source_records:
+- access_status: metadata_only
+  digest: e00543264f38e73d
+  extracted_facts:
+  - 'AlgorithmWiki row name: Bruun''s FFT algorithm'
+  - 'domain: unknown'
+  - 'time complexity: O(n \log n)'
+  - 'space complexity: O(n)'
+  - 'computational model: Word/Real RAM'
+  - 'parameter definitions: n: length of the input data set'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000489:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Bruun's FFT algorithm
+  url: https://ieeexplore.ieee.org/document/1163036/
+- access_status: fetched
+  digest: 07f43a72a3220f6a
+  extracted_facts:
+  - 'source page title: https://ieeexplore.ieee.org/document/1163036/'
+  - 'source page description: In order to continue, we need to verify that you''re not a robot.'
+  reliability: HIGH
+  short_quote: In order to continue, we need to verify that you're not a robot.
+  source_id: source:76ab9bcef6a2a859
+  source_type: publisher_abstract
+  title: https://ieeexplore.ieee.org/document/1163036/
+  url: https://ieeexplore.ieee.org/document/1163036/
+- access_status: fetched
+  digest: 222a42ae0c38909a
+  extracted_facts:
+  - 'Crossref title-search result: IEEExplore Digital Library'
+  reliability: MEDIUM
+  short_quote: ''
+  source_id: crossref_search:13f43f70ef6ea7df
+  source_type: doi_metadata
+  title: IEEExplore Digital Library
+  url: https://doi.org/10.5860/choice.47-6268
+- source_id: crossref_search:9971ca10b2d385ec
+  url: https://doi.org/10.1109/29.45572
+  title: New FFT structures based on the Bruun algorithm
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title: New FFT structures based on the Bruun algorithm'
+  - 'published year: 1990'
+  - 'container title: IEEE Transactions on Acoustics, Speech, and Signal Processing'
+  short_quote: 'Crossref title: New FFT structures based on the Bruun algorithm published year: 1990 container title: IEEE Transactions on Acoustics, Speech, and Signal Processing'
+  digest: 7637f5c94b81f8f5
+- source_id: openalex:b533a5d6cb7b8560
+  url: https://openalex.org/W2116670578
+  title: An efficient FFT algorithm for real-symmetric data
+  source_type: openalex
+  access_status: fetched
+  reliability: HIGH
+  extracted_facts:
+  - 'OpenAlex title: An efficient FFT algorithm for real-symmetric data'
+  - 'publication year: 1992'
+  - 'abstract summary: A very efficient algorithm for computing the discrete Fourier transform (DFT) of real-symmetric input is presented.'
+  short_quote: 'OpenAlex title: An efficient FFT algorithm for real-symmetric data publication year: 1992 abstract summary: A very efficient algorithm for computing the discrete Fourier transform'
+  digest: 94882107a228c9df
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

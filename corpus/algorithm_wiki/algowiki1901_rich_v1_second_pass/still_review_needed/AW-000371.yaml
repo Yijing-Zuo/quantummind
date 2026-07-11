@@ -1,0 +1,31 @@
+algorithm_id: AW-000371
+canonical_name: Simplification via intermediate hierarchical rep-resentation - He T. Hong L. Kaufman 1995
+enrichment_status: SECOND_PASS_INSUFFICIENT
+review_reasons:
+- No second-pass rule could identify source-backed task semantics.
+source_records:
+- access_status: metadata_only
+  digest: a9e850c0cfa67a17
+  extracted_facts:
+  - 'AlgorithmWiki row name: Simplification via intermediate hierarchical rep-resentation - He T. Hong L. Kaufman 1995'
+  - 'domain: unknown'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000371:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Simplification via intermediate hierarchical rep-resentation - He T. Hong L. Kaufman 1995
+  url: ''
+- source_id: crossref_search:961930e84b7d6b31
+  url: https://doi.org/10.1109/smi.2003.1199606
+  title: An intermediate level representation scheme for secondary features recognition and B-rep model simplification
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: An intermediate level representation scheme for secondary features recognition and B-rep model simplification'
+  short_quote: ''
+  digest: 35742a45eb3d325a
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

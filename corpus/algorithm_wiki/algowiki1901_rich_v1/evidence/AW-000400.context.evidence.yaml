@@ -1,0 +1,73 @@
+id: AW-000400
+kind: context
+algorithm_id: AW-000400
+algorithm_name: Spaghetti Sort Parallel Implementation
+source_records:
+- access_status: metadata_only
+  digest: 05ba4b603fd58132
+  extracted_facts:
+  - 'AlgorithmWiki row name: Spaghetti Sort Parallel Implementation'
+  - 'domain: sorting'
+  - 'time complexity: O(n)'
+  - 'space complexity: O(1) auxiliary per processor'
+  - 'parameter definitions: n: size of list'
+  - 'precard summary: Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model. Baseline: time O(n); space O(1) auxiliary per processor. Bottleneck: comparison, distribution, and full-output movement costs dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000400:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Spaghetti Sort Parallel Implementation
+  url: https://link.springer.com/chapter/10.1007/978-94-009-2794-0_11
+- access_status: fetched
+  digest: 33eb3b03ade17cd7
+  extracted_facts:
+  - 'DOI title: Two Non-Standard Paradigms for Computation: Analog Machines and Cellular Automata'
+  - 'published year: 1988'
+  - 'container title: Performance Limits in Communication Theory and Practice'
+  reliability: HIGH
+  short_quote: ''
+  source_id: crossref:4e418849156abd91
+  source_type: doi_metadata
+  title: 'Two Non-Standard Paradigms for Computation: Analog Machines and Cellular Automata'
+  url: https://doi.org/10.1007/978-94-009-2794-0_11
+- access_status: skipped
+  digest: 6a48c72c4d8fe341
+  extracted_facts:
+  - robots.txt disallowed fetch
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:8d4be306d0d5402d
+  source_type: publisher_abstract
+  title: robots.txt disallowed fetch
+  url: https://link.springer.com/chapter/10.1007/978-94-009-2794-0_11
+web_query_attempts:
+- method: search_plan
+  query: Spaghetti Sort Parallel Implementation algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Spaghetti Sort Parallel Implementation algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Spaghetti Sort Parallel Implementation problem definition
+  status: recorded
+- method: search_plan
+  query: Spaghetti Sort Parallel Implementation sorting algorithm
+  status: recorded
+- method: search_plan
+  query: Spaghetti Sort Parallel Implementation site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Spaghetti Sort Parallel Implementation algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://link.springer.com/chapter/10.1007/978-94-009-2794-0_11
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1007/978-94-009-2794-0_11
+  status: fetched
+- method: source_link_html_metadata
+  query: https://link.springer.com/chapter/10.1007/978-94-009-2794-0_11
+  status: skipped
+extracted_problem_statement: 'Spaghetti Sort Parallel Implementation is treated as a classical sorting task for rich AlgorithmWiki discovery. Problem/task: sort the input sequence using the named classical sorting method. Input semantics: A finite array or list of comparable keys or records. Output semantics: The same items returned in nondecreasing order, usually as a full reordered sequence.'
+extracted_algorithm_summary: 'Spaghetti Sort Parallel Implementation is a sorting algorithm record. Classical complexity metadata: time O(n); space O(1) auxiliary per processor. Public metadata/source text adds: Spaghetti Sort Parallel Implementation sorting sorting n: size of list O(n) Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

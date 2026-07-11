@@ -1,0 +1,68 @@
+id: AW-000265
+kind: context_recovered
+algorithm_id: AW-000265
+algorithm_name: Szymanski's algorithm
+source_records:
+- access_status: metadata_only
+  digest: 9a80b46cde8939b6
+  extracted_facts:
+  - 'AlgorithmWiki row name: Szymanski''s algorithm'
+  - 'domain: unknown'
+  - 'time complexity: O(n)'
+  - 'space complexity: O(1) per process, O(n) total'
+  - 'parameter definitions: n: number of processes'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000265:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Szymanski's algorithm
+  url: https://www.researchgate.net/publication/221235887_A_simple_solution_to_Lamport's_concurrent_programming_problem_with_linear_wait
+- access_status: failed
+  digest: 2618413035eaa6f4
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:abe1e84510c03e34
+  source_type: other_public_source
+  title: 'HTTP Error 403: Forbidden'
+  url: https://www.researchgate.net/publication/221235887_A_simple_solution_to_Lamport's_concurrent_programming_problem_with_linear_wait
+- source_id: crossref_search:0ebc130adaf317c6
+  url: https://doi.org/10.1007/978-3-030-56781-1_341
+  title: Szymanski, Heloisa
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: Szymanski, Heloisa'
+  short_quote: ''
+  digest: 4879f658d1bc4343
+web_query_attempts:
+- query: '"Szymanski''s algorithm" algorithm'
+  method: search_plan
+  status: recorded
+- query: '"Szymanski''s algorithm" input output'
+  method: search_plan
+  status: recorded
+- query: '"Szymanski''s algorithm" time complexity'
+  method: search_plan
+  status: recorded
+- query: '"Szymanski''s algorithm" pseudocode'
+  method: search_plan
+  status: recorded
+- query: '"Szymanski''s algorithm" problem'
+  method: search_plan
+  status: recorded
+- query: '"Szymanski''s algorithm" PDF metadata abstract'
+  method: search_plan
+  status: recorded
+- query: https://www.researchgate.net/publication/221235887_A_simple_solution_to_Lamport's_concurrent_programming_problem_with_linear_wait
+  method: search_plan
+  status: recorded
+- query: Szymanski's algorithm algorithm
+  method: crossref_title_search
+  status: fetched
+extracted_problem_statement: 'Szymanski''s algorithm is reconstructed as a classical parallel algorithms task. Problem/task: coordinate process access to a critical section without simultaneous entry Input semantics: A set of processes, request/release events, and shared-memory or message-passing assumptions. Output semantics: A protocol state sequence or decision granting safe critical-section access.'
+extracted_algorithm_summary: 'Szymanski''s algorithm is treated as the named AlgorithmWiki variant for coordinate process access to a critical section without simultaneous entry Classical complexity metadata: time O(n); space O(1) per process, O(n) total. Public metadata/source title support includes Szymanski, Heloisa.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

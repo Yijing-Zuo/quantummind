@@ -1,0 +1,35 @@
+algorithm_id: AW-000784
+canonical_name: The INDEGREE Algorithm
+enrichment_status: SECOND_PASS_INSUFFICIENT
+review_reasons:
+- No second-pass rule could identify source-backed task semantics.
+source_records:
+- access_status: metadata_only
+  digest: 86c07c9c6dec6965
+  extracted_facts:
+  - 'AlgorithmWiki row name: The INDEGREE Algorithm'
+  - 'domain: unknown'
+  - 'time complexity: O(mn)'
+  - 'space complexity: O(n)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of pages, m: number of hyperlinks'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000784:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for The INDEGREE Algorithm
+  url: https://www.w3.org/People/Massimo/papers/quest_hypersearch.pdf
+- source_id: crossref_search:127a1fb8a7edf9d7
+  url: https://doi.org/10.1109/iccais59597.2023.10382338
+  title: Distributed Indegree-weighted Kalman Consensus Filter Algorithm Against Packet-dropping
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: Distributed Indegree-weighted Kalman Consensus Filter Algorithm Against Packet-dropping'
+  short_quote: ''
+  digest: 5e29a11a1a40230a
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

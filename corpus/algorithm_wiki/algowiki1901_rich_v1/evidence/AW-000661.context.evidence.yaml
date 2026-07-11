@@ -1,0 +1,49 @@
+id: AW-000661
+kind: context
+algorithm_id: AW-000661
+algorithm_name: "Cocke\u2013Younger\u2013Kasami algorithm"
+source_records:
+- access_status: metadata_only
+  digest: 1f260d6d8314e9a9
+  extracted_facts:
+  - "AlgorithmWiki row name: Cocke\u2013Younger\u2013Kasami algorithm"
+  - 'domain: string'
+  - 'time complexity: O(n^3 |G|)'
+  - 'space complexity: O(n^2)'
+  - 'computational model: Double-tape TM'
+  - 'parameter definitions: n: input string length, |G|: size of grammar'
+  - 'precard summary: Given one or more explicit strings, compute the matching, indexing, alignment, or transformation output targeted by the record. Baseline: time O(n^3 |G|); space O(n^2). Bottleneck: string scanning, preprocessing tables, and reporting matches dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000661:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: "AlgorithmWiki metadata for Cocke\u2013Younger\u2013Kasami algorithm"
+  url: https://core.ac.uk/download/pdf/158319955.pdf
+web_query_attempts:
+- method: search_plan
+  query: "Cocke\u2013Younger\u2013Kasami algorithm algorithm input output complexity"
+  status: recorded
+- method: search_plan
+  query: "Cocke\u2013Younger\u2013Kasami algorithm algorithm pseudocode"
+  status: recorded
+- method: search_plan
+  query: "Cocke\u2013Younger\u2013Kasami algorithm problem definition"
+  status: recorded
+- method: search_plan
+  query: "Cocke\u2013Younger\u2013Kasami algorithm string algorithm"
+  status: recorded
+- method: search_plan
+  query: "Cocke\u2013Younger\u2013Kasami algorithm site:nist.gov DADS"
+  status: recorded
+- method: search_plan
+  query: "Cocke\u2013Younger\u2013Kasami algorithm algorithm wiki"
+  status: recorded
+- method: search_plan
+  query: https://core.ac.uk/download/pdf/158319955.pdf
+  status: recorded
+- method: wikipedia_summary_search
+  query: "Cocke\u2013Younger\u2013Kasami algorithm algorithm"
+  status: failed_or_not_relevant
+extracted_problem_statement: "Cocke\u2013Younger\u2013Kasami algorithm is treated as a classical string task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Cocke\u2013Younger\u2013Kasami algorithm. Input semantics: One or more finite strings, sequences, patterns, or alphabets. Output semantics: Pattern occurrence positions, matches, or the associated string-search report."
+extracted_algorithm_summary: "Cocke\u2013Younger\u2013Kasami algorithm is a string algorithm record. Classical complexity metadata: time O(n^3 |G|); space O(n^2). The stated classical model is Double-tape TM. Public metadata/source text adds: Cocke\u2013Younger\u2013Kasami algorithm string string n: input string length, |G|: size of grammar O(n^3 |G|) Given one or more explicit strings, compute the matching, indexing, alignment, or transformation output targeted by the record."
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

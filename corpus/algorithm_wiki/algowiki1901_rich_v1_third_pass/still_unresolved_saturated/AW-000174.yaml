@@ -1,0 +1,81 @@
+algorithm_id: AW-000174
+canonical_name: Harrow (Quantum)
+enrichment_status: THIRD_PASS_SATURATED_INSUFFICIENT
+review_reasons:
+- The row has partial metadata but still lacks one or more source-backed fields required for a public context card.
+source_records:
+- access_status: metadata_only
+  digest: cf0aede25c72a140
+  extracted_facts:
+  - 'AlgorithmWiki row name: Harrow (Quantum)'
+  - 'domain: matrix_linear_algebra'
+  - 'time complexity: O(k^2 \log n)'
+  - 'space complexity: O(\log n)'
+  - 'computational model: Quantum Computer'
+  - 'parameter definitions: n: number of variables and number of equations, m: number of nonzero entries in matrix, k: ratio between largest and smallest eigenvalues'
+  - 'precard summary: Given one or more explicit dense matrices over the stated arithmetic domain, compute the matrix or linear-algebraic output specified by the record. Baseline: time O(k^2 \log n); space O(\log n). Bottleneck: dense arithmetic and full matrix output dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000174:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Harrow (Quantum)
+  url: https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.103.150502
+- access_status: fetched
+  digest: f7f7c28da05f4016
+  extracted_facts:
+  - 'DOI title: Quantum Algorithm for Linear Systems of Equations'
+  - 'published year: 2009'
+  - 'container title: Physical Review Letters'
+  reliability: HIGH
+  short_quote: ''
+  source_id: crossref:94bcc127fc385cfb
+  source_type: doi_metadata
+  title: Quantum Algorithm for Linear Systems of Equations
+  url: https://doi.org/10.1103/PhysRevLett.103.150502
+- access_status: failed
+  digest: 27d13a8573513cc6
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:1887a4730f2f3587
+  source_type: other_public_source
+  title: 'HTTP Error 403: Forbidden'
+  url: https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.103.150502
+- access_status: fetched
+  digest: ab3503cbcff78771
+  extracted_facts:
+  - 'Crossref title-search result: Quantum Algorithm for Linear Systems of Equations'
+  reliability: MEDIUM
+  short_quote: ''
+  source_id: crossref_search:ac5f3a40d1563835
+  source_type: doi_metadata
+  title: Quantum Algorithm for Linear Systems of Equations
+  url: https://doi.org/10.1103/physrevlett.103.150502
+- source_id: openalex:17abf98ef3189a26
+  url: https://openalex.org/W1492999010
+  title: Quantum Algorithm for Linear Systems of Equations
+  source_type: openalex
+  access_status: fetched
+  reliability: HIGH
+  extracted_facts:
+  - 'OpenAlex title: Quantum Algorithm for Linear Systems of Equations'
+  - 'publication year: 2009'
+  - 'abstract summary: Solving linear systems of equations is a common problem that arises both on its own and as a subroutine in more complex problems: given a matrix $A$ and a vector $\stackrel{\ensuremath{\rightarrow}}{b}$, find a vector $\stackrel{\ensuremath{\rightarrow}}{x}$ such that $A\stackrel{\ensuremath{\rightarrow}}{x}=\stackrel{\ensuremath{\rightarrow}}{b}$.'
+  short_quote: 'OpenAlex title: Quantum Algorithm for Linear Systems of Equations publication year: 2009 abstract summary: Solving linear systems of equations is a common problem that'
+  digest: faccafd7606d0a45
+- source_id: semantic_scholar:ff89ff42b5e02f05
+  url: https://www.semanticscholar.org/paper/ed562f0c86c80f75a8b9ac7344567e8b44c8d643
+  title: Quantum algorithm for linear systems of equations.
+  source_type: semantic_scholar
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Semantic Scholar title: Quantum algorithm for linear systems of equations.'
+  - 'published year: 2008'
+  - 'abstract summary: Solving linear systems of equations is a common problem that arises both on its own and as a subroutine in more complex problems: given a matrix A and a vector b(-->), find a vector x(-->) such that Ax(-->) = b(-->).'
+  short_quote: 'Semantic Scholar title: Quantum algorithm for linear systems of equations. published year: 2008 abstract summary: Solving linear systems of equations is a common problem'
+  digest: f1cb6869fd794d75
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

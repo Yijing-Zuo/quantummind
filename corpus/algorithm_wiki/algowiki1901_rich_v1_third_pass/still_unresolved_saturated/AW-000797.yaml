@@ -1,0 +1,54 @@
+algorithm_id: AW-000797
+canonical_name: Tushar Deepak Chandra and Sam Toueg
+enrichment_status: THIRD_PASS_SATURATED_INSUFFICIENT
+review_reasons:
+- After the configured source-family cycles, no source-backed concrete task, input semantics, output semantics, and conservative access model could be established.
+source_records:
+- access_status: metadata_only
+  digest: 52ba1f7c9f1bc166
+  extracted_facts:
+  - 'AlgorithmWiki row name: Tushar Deepak Chandra and Sam Toueg'
+  - 'domain: unknown'
+  - 'time complexity: O(n)'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000797:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Tushar Deepak Chandra and Sam Toueg
+  url: https://www.cs.utexas.edu/~lorenzo/corsi/cs380d/papers/p225-chandra.pdf
+- access_status: fetched
+  digest: 2f70d3c5ad68d30f
+  extracted_facts:
+  - 'Crossref title-search result: Failure Detectors, 1996; Chandra, Toueg'
+  reliability: MEDIUM
+  short_quote: ''
+  source_id: crossref_search:6d70af710b3295ce
+  source_type: doi_metadata
+  title: Failure Detectors, 1996; Chandra, Toueg
+  url: https://doi.org/10.1007/springerreference_57659
+- source_id: skipped:e88d15302ce35600
+  url: https://www.cs.utexas.edu/~lorenzo/corsi/cs380d/papers/p225-chandra.pdf
+  title: public PDF body was not downloaded
+  source_type: original_source
+  access_status: skipped
+  reliability: LOW
+  extracted_facts:
+  - public PDF body was not downloaded
+  short_quote: public PDF body was not downloaded
+  digest: 2619037ff6ba79b6
+- source_id: crossref_search:8399d5e1800d8f56
+  url: https://doi.org/10.1007/springerreference_57659
+  title: Failure Detectors, 1996; Chandra, Toueg
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title: Failure Detectors, 1996; Chandra, Toueg'
+  - 'published year: 2011'
+  - 'container title: SpringerReference'
+  short_quote: 'Crossref title: Failure Detectors, 1996; Chandra, Toueg published year: 2011 container title: SpringerReference'
+  digest: 86f072281667e142
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

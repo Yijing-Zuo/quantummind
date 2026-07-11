@@ -1,0 +1,43 @@
+id: AW-000646
+kind: context
+algorithm_id: AW-000646
+algorithm_name: SSTF
+source_records:
+- access_status: metadata_only
+  digest: 709503e26cbd13e3
+  extracted_facts:
+  - 'AlgorithmWiki row name: SSTF'
+  - 'domain: unknown'
+  - 'time complexity: O(n \log n) with binary tree'
+  - 'space complexity: O(n)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of requests'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000646:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for SSTF
+  url: '-'
+web_query_attempts:
+- method: search_plan
+  query: SSTF algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: SSTF algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: SSTF problem definition
+  status: recorded
+- method: search_plan
+  query: SSTF site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: SSTF algorithm wiki
+  status: recorded
+- method: search_plan
+  query: '-'
+  status: recorded
+extracted_problem_statement: 'SSTF is treated as a classical data structures task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with SSTF. Input semantics: A set of records plus update/query operations for the named data structure. Output semantics: A maintained data structure representation and answers to its supported queries.'
+extracted_algorithm_summary: 'SSTF is a data structures algorithm record. Classical complexity metadata: time O(n \log n) with binary tree; space O(n). The stated classical model is Word RAM. Public metadata/source text adds: SSTF unknown unknown n: number of requests O(n \log n) with binary tree No public-ready summary is available because the row lacks enough task semantics.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

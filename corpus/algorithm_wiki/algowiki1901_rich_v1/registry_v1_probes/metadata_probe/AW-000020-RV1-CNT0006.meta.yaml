@@ -1,0 +1,63 @@
+probe_id: AW-000020-RV1-CNT0006
+algorithm_id: AW-000020-RV1-CNT0006
+canonical_name: Grigoryan counting_probe
+readiness: READY_PUBLIC_PROBE
+quality_score: 75
+parent_algorithm_id: AW-000020
+parent_algorithm_name: Grigoryan
+target_registry_primitive: quantum_counting
+probe_type: counting_probe
+source_card_type: probe
+source_card_paths:
+- corpus\algorithm_wiki\algowiki1901_rich_v1\public_context\AW-000020.yaml
+- corpus\algorithm_wiki\algowiki1901_rich_v1\public_probe\AW-000020-P0016.yaml
+source_metadata_paths:
+- corpus\algorithm_wiki\algowiki1901_rich_v1\metadata_probe\AW-000020-P0016.meta.yaml
+introduced_assumptions:
+- finite_search_space
+- coherent_boolean_oracle
+- count_precision_specified
+required_promises:
+- finite_search_space
+- coherent_boolean_oracle_available
+- count_precision_specified
+original_input_model: explicit_combinatorial_problem
+original_access_model: coherent_boolean_oracle
+original_output_contract: one_witness
+probe_input_model: marked_set_counting_problem
+probe_access_model: coherent_boolean_oracle
+probe_output_contract: additive_count_estimate
+not_end_to_end_claim: true
+expected_authority: query_or_subroutine_hypothesis_only
+why_probe_is_scientifically_interesting: The source text supports approximate cardinality, marked-fraction, frequency, or count estimation without requiring the full marked set as output.
+why_probe_may_fail: The task may require exact enumeration or outputting marked objects rather than only a count estimate.
+overgeneration_risk: medium
+source_records_used:
+- AW-000020:algorithm_wiki_metadata
+- arxiv:1912.05935
+- source:4c1c5da8d55f8915
+screening_decision_source:
+  screening_manifest: corpus\algorithm_wiki\algowiki1901_rich_v1\registry_v1_probes\manifests\registry_v1_screening.csv
+  decision: GENERATE_REGISTRY_V1_PROBE
+  opportunity_score: 8
+inferred_input_model: marked_set_counting_problem
+inferred_access_model: coherent_boolean_oracle
+inferred_output_contract: additive_count_estimate
+inferred_size_parameters:
+- 'Parameter definition: n: dimension of board, k: number of queens'
+- 'N, epsilon: finite search-space size and requested count-estimation precision.'
+inferred_promises:
+- finite_search_space
+- coherent_boolean_oracle_available
+- count_precision_specified
+- oracle_model_assumption
+inferred_ambiguities:
+- This is an assumption-bearing query/subroutine probe and is not an end-to-end speedup claim.
+- The marked-set predicate, finite search space, and count precision are introduced assumptions.
+- The parent task may require outputting marked objects or exact enumeration outside this probe.
+source_count: 3
+source_quality: HIGH
+confidence_score: 75
+card_digest: 565fd3cdcf3af38c
+extraction_version: algorithm-wiki-registry-v1-probe-v1
+root_dataset: corpus\algorithm_wiki\algowiki1901_rich_v1

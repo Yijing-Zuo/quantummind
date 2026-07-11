@@ -1,0 +1,35 @@
+algorithm_id: AW-000896
+canonical_name: Random
+enrichment_status: SECOND_PASS_INSUFFICIENT
+review_reasons:
+- No second-pass rule could identify source-backed task semantics.
+source_records:
+- access_status: metadata_only
+  digest: a49e5ecdb187b3a5
+  extracted_facts:
+  - 'AlgorithmWiki row name: Random'
+  - 'domain: unknown'
+  - 'time complexity: O(n)'
+  - 'space complexity: O(k)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of page requests, k: number of pages able to fit in cache'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000896:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Random
+  url: ''
+- source_id: crossref_search:2c84eef1488669e5
+  url: https://doi.org/10.7717/peerj-cs.2601/table-11
+  title: 'Algorithm 2: Random sampling algorithm.'
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: Algorithm 2: Random sampling algorithm.'
+  short_quote: ''
+  digest: 195892fc26a951fb
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

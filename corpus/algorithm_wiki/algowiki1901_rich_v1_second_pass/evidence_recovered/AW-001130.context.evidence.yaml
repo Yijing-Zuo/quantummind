@@ -1,0 +1,58 @@
+id: AW-001130
+kind: context_recovered
+algorithm_id: AW-001130
+algorithm_name: Wang, Chen, Lin
+source_records:
+- access_status: metadata_only
+  digest: 680a4fc1d330a0b0
+  extracted_facts:
+  - 'AlgorithmWiki row name: Wang, Chen, Lin'
+  - 'domain: unknown'
+  - 'time complexity: O(1)'
+  - 'computational model: processor array (with reconfigurable bus system)'
+  - 'parameter definitions: n: size of list'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001130:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Wang, Chen, Lin
+  url: https://scholars.lib.ntu.edu.tw/bitstream/123456789/118003/1/09.pdf
+- source_id: crossref_search:1fc3dac78ca3479e
+  url: https://doi.org/10.1093/benz/9780199773787.article.b00036756
+  title: Chen Lin
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: Chen Lin'
+  short_quote: ''
+  digest: 624df5cd082252ed
+web_query_attempts:
+- query: '"Wang, Chen, Lin" algorithm'
+  method: search_plan
+  status: recorded
+- query: '"Wang, Chen, Lin" input output'
+  method: search_plan
+  status: recorded
+- query: '"Wang, Chen, Lin" time complexity'
+  method: search_plan
+  status: recorded
+- query: '"Wang, Chen, Lin" pseudocode'
+  method: search_plan
+  status: recorded
+- query: '"Wang, Chen, Lin" problem'
+  method: search_plan
+  status: recorded
+- query: '"Wang, Chen, Lin" PDF metadata abstract'
+  method: search_plan
+  status: recorded
+- query: https://scholars.lib.ntu.edu.tw/bitstream/123456789/118003/1/09.pdf
+  method: search_plan
+  status: recorded
+- query: Wang, Chen, Lin algorithm
+  method: crossref_title_search
+  status: fetched
+extracted_problem_statement: 'Wang, Chen, Lin is reconstructed as a classical image processing task. Problem/task: compute shaded/rendered image values from a geometric scene and illumination model Input semantics: Scene geometry, material parameters, lights, camera/view information, and image resolution. Output semantics: Rendered pixel colors or intermediate shading/visibility values.'
+extracted_algorithm_summary: 'Wang, Chen, Lin is treated as the named AlgorithmWiki variant for compute shaded/rendered image values from a geometric scene and illumination model Classical complexity metadata: time O(1); work O(n^3); span/depth O(1). Public metadata/source title support includes Chen Lin.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

@@ -1,0 +1,45 @@
+id: AW-001311
+kind: context
+algorithm_id: AW-001311
+algorithm_name: Eswaran, RajaGopalan
+source_records:
+- access_status: metadata_only
+  digest: 66a28f7bfbb3649d
+  extracted_facts:
+  - 'AlgorithmWiki row name: Eswaran, RajaGopalan'
+  - 'domain: dynamic_programming'
+  - 'time complexity: O(|LCS(X,Y)|)'
+  - 'computational model: MPI'
+  - 'parameter definitions: L: number of identical character pairs , |LCS(X,Y)|: the length of the LCS of X, Y.'
+  - 'precard summary: Given an explicit instance with overlapping subproblem structure, compute the full classical solution or value targeted by the dynamic-programming recurrence. Baseline: time O(|LCS(X,Y)|); work O(L); span/depth O(|LCS(X,Y)|). Bottleneck: subproblem count, transition evaluation, and table output dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001311:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Eswaran, RajaGopalan
+  url: http://www.anale-informatica.tibiscus.ro/download/lucrari/8-1-11-Sumathy.pdf
+web_query_attempts:
+- method: search_plan
+  query: Eswaran, RajaGopalan algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Eswaran, RajaGopalan algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Eswaran, RajaGopalan problem definition
+  status: recorded
+- method: search_plan
+  query: Eswaran, RajaGopalan dynamic programming algorithm
+  status: recorded
+- method: search_plan
+  query: Eswaran, RajaGopalan site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Eswaran, RajaGopalan algorithm wiki
+  status: recorded
+- method: search_plan
+  query: http://www.anale-informatica.tibiscus.ro/download/lucrari/8-1-11-Sumathy.pdf
+  status: recorded
+extracted_problem_statement: 'Eswaran, RajaGopalan is treated as a classical dynamic programming task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Eswaran, RajaGopalan. Input semantics: An explicit optimization or recurrence instance with overlapping subproblems. Output semantics: The optimal value, witness, schedule, segmentation, or table-derived solution for the recurrence.'
+extracted_algorithm_summary: 'Eswaran, RajaGopalan is a dynamic programming algorithm record. Classical complexity metadata: time O(|LCS(X,Y)|); work O(L); span/depth O(|LCS(X,Y)|). The stated classical model is MPI. Public metadata/source text adds: Eswaran, RajaGopalan dynamic_programming dynamic_programming L: number of identical character pairs , |LCS(X,Y)|: the length of the LCS of X, Y.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

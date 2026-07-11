@@ -1,0 +1,19 @@
+case_id: QM-PB-009
+title: "Quantum Lower Bounds by Polynomials"
+authors: [Robert Beals, Harry Buhrman, Richard Cleve, Michele Mosca, Ronald de Wolf]
+year: 2001
+venue: "Journal of the ACM / arXiv"
+official_url: "https://arxiv.org/abs/quant-ph/9802049"
+result_location: "abstract symmetric-function bounds"
+result_type: lower_bound
+paraphrased_support: "The paper gives tight quantum query characterizations for symmetric Boolean functions and precise bounds for parity."
+problem_model: "parity query function"
+promise: "total Boolean function"
+access_model: bit_query_oracle
+output_contract: parity_bit
+classical_complexity: "CLASSICAL: Theta(N) bit queries"
+quantum_complexity: "QUERY: Theta(N) quantum queries for parity in the stated model"
+claim_scope: NONE
+caveats: [linear quantum query lower bound]
+source_status: PRIMARY_SOURCE_CHECKED
+

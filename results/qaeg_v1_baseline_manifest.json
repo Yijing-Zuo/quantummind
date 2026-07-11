@@ -1,0 +1,45 @@
+{
+  "baseline_id": "QAEG-v0.2-fdv1-2026-07-10",
+  "purpose": "Frozen integrity baseline for comparison with the independent QAEG-screen-v0.1 layer.",
+  "core_sha256": {
+    "src/quantummindlite/_graph_compile.py": "0DA73C004977E5DC87F5DD5AB311EF29699A29632948ABC5B3ADD67143F14838",
+    "src/quantummindlite/_graph_projection.py": "46B4485D432CB1CCB776A057B3A1DC7291D80A7D9E51919EBA99EAD42CE6F81D",
+    "src/quantummindlite/_graph_verify.py": "DEF5141297362DD13B801E4344BBFE9D96862719E1A0C9EE6196A41F3A6BD360",
+    "src/quantummindlite/graph.py": "6CF9D7CD8ACF8BB70C036C5E2D2891C4F8A15665DA0E689713779695FAF0012A"
+  },
+  "outputs": {
+    "results/fdv1_graph_summary.csv": {
+      "claim_accepted": 408,
+      "graph_fail": 1,
+      "graph_pass": 627,
+      "rows": 628,
+      "sha256": "1C2E3BCA44679F3E2F878AB676AE446A29CBF0183BBF5031636A287183212315"
+    },
+    "results/fdv1_graph_top9.csv": {
+      "rows": 9,
+      "sha256": "0AC716CA0536F2A0F4108B289BAA4474519C93B1EB20CD877393EFB82FC539DA"
+    },
+    "results/live_graph_summary.csv": {
+      "claim_accepted": 5,
+      "graph_fail": 0,
+      "graph_pass": 10,
+      "rows": 10,
+      "sha256": "3D5074D0D13A04817AAEFBE5E7956DF727DDE11A896D799A71E2AF0702F4C69D"
+    },
+    "results/live_graph_top.csv": {
+      "sha256": "A027571CF224C7841AF4951C61F39E4739F0CACC2B2B90E916EDF68844D3B147"
+    },
+    "results/review_graph_summary.csv": {
+      "claim_accepted": 106,
+      "graph_fail": 0,
+      "graph_pass": 106,
+      "rows": 106,
+      "sha256": "04A6D89D8ADA479D3A7343AD573CD1B7E530B455642AF277354C3DDF2F2EFC14"
+    },
+    "results/review_graph_top9.csv": {
+      "rows": 9,
+      "sha256": "10620522BCE324178678284E80B6A8F12C9E9998E77D946EEDE5721EE001BE3D"
+    }
+  },
+  "scope": "This manifest freezes Graph v1 integrity outputs only. It is not a model-quality or scientific-validity claim."
+}

@@ -1,0 +1,63 @@
+id: AW-000189-P0157
+kind: probe
+algorithm_id: AW-000189
+algorithm_name: "Lowe\u2019s Algorithm"
+source_records:
+- access_status: metadata_only
+  digest: 012fcbcf17920e5c
+  extracted_facts:
+  - "AlgorithmWiki row name: Lowe\u2019s Algorithm"
+  - 'domain: graph'
+  - 'time complexity: O(V^2)'
+  - 'space complexity: O(V) per processor'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: V: number of vertices, E: number of edges, p: number of processors'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(V^2); space O(V) per processor. Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000189:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: "AlgorithmWiki metadata for Lowe\u2019s Algorithm"
+  url: http://www.cs.ox.ac.uk/people/gavin.lowe/parallelDFS.html
+- access_status: fetched
+  digest: d852c9aa333405bd
+  extracted_facts:
+  - 'source page title: Concurrent Depth-First Search Algorithms'
+  - 'source page description: Department of Computer Science, person, Gavin Lowe'
+  reliability: LOW
+  short_quote: Department of Computer Science, person, Gavin Lowe
+  source_id: source:b265f9be64664130
+  source_type: other_public_source
+  title: Concurrent Depth-First Search Algorithms
+  url: http://www.cs.ox.ac.uk/people/gavin.lowe/parallelDFS.html
+web_query_attempts:
+- method: search_plan
+  query: "Lowe\u2019s Algorithm algorithm input output complexity"
+  status: recorded
+- method: search_plan
+  query: "Lowe\u2019s Algorithm algorithm pseudocode"
+  status: recorded
+- method: search_plan
+  query: "Lowe\u2019s Algorithm problem definition"
+  status: recorded
+- method: search_plan
+  query: "Lowe\u2019s Algorithm graph algorithm"
+  status: recorded
+- method: search_plan
+  query: "Lowe\u2019s Algorithm site:nist.gov DADS"
+  status: recorded
+- method: search_plan
+  query: "Lowe\u2019s Algorithm algorithm wiki"
+  status: recorded
+- method: search_plan
+  query: http://www.cs.ox.ac.uk/people/gavin.lowe/parallelDFS.html
+  status: recorded
+- method: source_link_html_metadata
+  query: http://www.cs.ox.ac.uk/people/gavin.lowe/parallelDFS.html
+  status: fetched
+- method: wikipedia_summary_search
+  query: "Lowe\u2019s Algorithm algorithm"
+  status: failed_or_not_relevant
+extracted_problem_statement: "Lowe\u2019s Algorithm is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Lowe\u2019s Algorithm. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result."
+extracted_algorithm_summary: "Lowe\u2019s Algorithm is a graph algorithm record. Classical complexity metadata: time O(V^2); space O(V) per processor. The stated classical model is Word RAM. Public metadata/source text adds: Lowe\u2019s Algorithm graph graph V: number of vertices, E: number of edges, p: number of processors O(V^2) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record."
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

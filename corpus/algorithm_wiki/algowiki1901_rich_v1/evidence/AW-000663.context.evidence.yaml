@@ -1,0 +1,46 @@
+id: AW-000663
+kind: context
+algorithm_id: AW-000663
+algorithm_name: Earley parser
+source_records:
+- access_status: metadata_only
+  digest: 93fa61547c547a30
+  extracted_facts:
+  - 'AlgorithmWiki row name: Earley parser'
+  - 'domain: string'
+  - 'time complexity: O(n^3)'
+  - 'space complexity: O(n^2)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: input string length'
+  - 'precard summary: Given one or more explicit strings, compute the matching, indexing, alignment, or transformation output targeted by the record. Baseline: time O(n^3); space O(n^2). Bottleneck: string scanning, preprocessing tables, and reporting matches dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000663:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Earley parser
+  url: https://web.archive.org/web/20040708052627/http://www-2.cs.cmu.edu/afs/cs.cmu.edu/project/cmt-55/lti/Courses/711/Class-notes/p94-earley.pdf
+web_query_attempts:
+- method: search_plan
+  query: Earley parser algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Earley parser algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Earley parser problem definition
+  status: recorded
+- method: search_plan
+  query: Earley parser string algorithm
+  status: recorded
+- method: search_plan
+  query: Earley parser site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Earley parser algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://web.archive.org/web/20040708052627/http://www-2.cs.cmu.edu/afs/cs.cmu.edu/project/cmt-55/lti/Courses/711/Class-notes/p94-earley.pdf
+  status: recorded
+extracted_problem_statement: 'Earley parser is treated as a classical string task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Earley parser. Input semantics: One or more finite strings, sequences, patterns, or alphabets. Output semantics: Pattern occurrence positions, matches, or the associated string-search report.'
+extracted_algorithm_summary: 'Earley parser is a string algorithm record. Classical complexity metadata: time O(n^3); space O(n^2). The stated classical model is Word RAM. Public metadata/source text adds: Earley parser string string n: input string length O(n^3) Given one or more explicit strings, compute the matching, indexing, alignment, or transformation output targeted by the record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

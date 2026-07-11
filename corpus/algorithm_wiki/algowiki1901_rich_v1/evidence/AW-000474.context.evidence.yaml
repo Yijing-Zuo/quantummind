@@ -1,0 +1,63 @@
+id: AW-000474
+kind: context
+algorithm_id: AW-000474
+algorithm_name: DP algorithm (Gilbert, Moore)
+source_records:
+- access_status: metadata_only
+  digest: b4030870774813d8
+  extracted_facts:
+  - 'AlgorithmWiki row name: DP algorithm (Gilbert, Moore)'
+  - 'domain: string'
+  - 'time complexity: O(n^3)'
+  - 'space complexity: O(n^2)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of elements'
+  - 'precard summary: Given one or more explicit strings, compute the matching, indexing, alignment, or transformation output targeted by the record. Baseline: time O(n^3); space O(n^2). Bottleneck: string scanning, preprocessing tables, and reporting matches dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000474:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for DP algorithm (Gilbert, Moore)
+  url: https://ieeexplore.ieee.org/document/6768523
+- access_status: fetched
+  digest: 8e87383a81e635b3
+  extracted_facts:
+  - 'source page title: https://ieeexplore.ieee.org/document/6768523'
+  - 'source page description: In order to continue, we need to verify that you''re not a robot.'
+  reliability: HIGH
+  short_quote: In order to continue, we need to verify that you're not a robot.
+  source_id: source:3a452c54f682c0b7
+  source_type: publisher_abstract
+  title: https://ieeexplore.ieee.org/document/6768523
+  url: https://ieeexplore.ieee.org/document/6768523
+web_query_attempts:
+- method: search_plan
+  query: DP algorithm (Gilbert, Moore) algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: DP algorithm (Gilbert, Moore) algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: DP algorithm (Gilbert, Moore) problem definition
+  status: recorded
+- method: search_plan
+  query: DP algorithm (Gilbert, Moore) string algorithm
+  status: recorded
+- method: search_plan
+  query: DP algorithm (Gilbert, Moore) site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: DP algorithm (Gilbert, Moore) algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://ieeexplore.ieee.org/document/6768523
+  status: recorded
+- method: source_link_html_metadata
+  query: https://ieeexplore.ieee.org/document/6768523
+  status: fetched
+- method: wikipedia_summary_search
+  query: DP algorithm (Gilbert, Moore) algorithm
+  status: failed_or_not_relevant
+extracted_problem_statement: 'DP algorithm (Gilbert, Moore) is treated as a classical string task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with DP algorithm (Gilbert, Moore). Input semantics: One or more finite strings, sequences, patterns, or alphabets. Output semantics: Pattern occurrence positions, matches, or the associated string-search report.'
+extracted_algorithm_summary: 'DP algorithm (Gilbert, Moore) is a string algorithm record. Classical complexity metadata: time O(n^3); space O(n^2). The stated classical model is Word RAM. Public metadata/source text adds: DP algorithm (Gilbert, Moore) string string n: number of elements O(n^3) Given one or more explicit strings, compute the matching, indexing, alignment, or transformation output targeted by the record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

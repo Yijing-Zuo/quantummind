@@ -1,0 +1,43 @@
+id: AW-000534-P0369
+kind: probe
+algorithm_id: AW-000534
+algorithm_name: Newton's method
+source_records:
+- access_status: metadata_only
+  digest: d850e2f075ecf110
+  extracted_facts:
+  - 'AlgorithmWiki row name: Newton''s method'
+  - 'domain: numerical_analysis'
+  - 'time complexity: O(n_{max})'
+  - 'space complexity: O(1)'
+  - 'computational model: Word/Real RAM'
+  - 'parameter definitions: \epsilon: (additive) tolerance error, n_{max}: maximum number of iterations'
+  - 'precard summary: Given explicit numeric parameters or a classical function-evaluation interface, compute the requested numerical value or approximation to the stated tolerance. Baseline: time O(n_{max}); space O(1). Bottleneck: precision, convergence, and function-evaluation costs dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000534:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Newton's method
+  url: ''
+web_query_attempts:
+- method: search_plan
+  query: Newton's method algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Newton's method algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Newton's method problem definition
+  status: recorded
+- method: search_plan
+  query: Newton's method numerical analysis algorithm
+  status: recorded
+- method: search_plan
+  query: Newton's method site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Newton's method algorithm wiki
+  status: recorded
+extracted_problem_statement: 'Newton''s method is treated as a classical numerical analysis task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Newton''s method. Input semantics: Numeric parameters, functions, samples, tolerances, or distributions for the stated numerical task. Output semantics: An exact or approximate numerical value, estimate, approximation, or fitted representation.'
+extracted_algorithm_summary: 'Newton''s method is a numerical analysis algorithm record. Classical complexity metadata: time O(n_{max}); space O(1). The stated classical model is Word/Real RAM. Public metadata/source text adds: Newton''s method numerical_analysis numerical_analysis \epsilon: (additive) tolerance error, n_{max}: maximum number of iterations O(n_{max}) Given explicit numeric parameters or a classical function-evaluation interface, compute the requested numerical value or approximation to the stated tolerance.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

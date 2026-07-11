@@ -1,0 +1,75 @@
+id: AW-000027
+kind: context
+algorithm_id: AW-000027
+algorithm_name: Intro Sort
+source_records:
+- access_status: metadata_only
+  digest: 3de1318e492c041b
+  extracted_facts:
+  - 'AlgorithmWiki row name: Intro Sort'
+  - 'domain: sorting'
+  - 'time complexity: O(n \log n)'
+  - 'space complexity: O(\log n)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: size of list'
+  - 'precard summary: Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model. Baseline: time O(n \log n); space O(\log n). Bottleneck: comparison, distribution, and full-output movement costs dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000027:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Intro Sort
+  url: https://onlinelibrary.wiley.com/doi/abs/10.1002/%28SICI%291097-024X%28199708%2927%3A8%3C983%3A%3AAID-SPE117%3E3.0.CO%3B2-%23
+- access_status: failed
+  digest: bb5b818cb6129de7
+  extracted_facts:
+  - 'HTTP Error 404: Not Found'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:9c3d4b42f1ce6b3c
+  source_type: doi_metadata
+  title: 'HTTP Error 404: Not Found'
+  url: https://doi.org/10.1002/(SICI)1097-024X(199708)27:8
+- access_status: failed
+  digest: 01a8fa4c29012472
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:b6a9914d44289210
+  source_type: other_public_source
+  title: 'HTTP Error 403: Forbidden'
+  url: https://onlinelibrary.wiley.com/doi/abs/10.1002/%28SICI%291097-024X%28199708%2927%3A8%3C983%3A%3AAID-SPE117%3E3.0.CO%3B2-%23
+web_query_attempts:
+- method: search_plan
+  query: Intro Sort algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Intro Sort algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Intro Sort problem definition
+  status: recorded
+- method: search_plan
+  query: Intro Sort sorting algorithm
+  status: recorded
+- method: search_plan
+  query: Intro Sort site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Intro Sort algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://onlinelibrary.wiley.com/doi/abs/10.1002/%28SICI%291097-024X%28199708%2927%3A8%3C983%3A%3AAID-SPE117%3E3.0.CO%3B2-%23
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1002/(SICI)1097-024X(199708)27:8
+  status: failed
+- method: source_link_html_metadata
+  query: https://onlinelibrary.wiley.com/doi/abs/10.1002/%28SICI%291097-024X%28199708%2927%3A8%3C983%3A%3AAID-SPE117%3E3.0.CO%3B2-%23
+  status: failed
+- method: wikipedia_summary_search
+  query: Intro Sort algorithm
+  status: failed_or_not_relevant
+extracted_problem_statement: 'Intro Sort is treated as a classical sorting task for rich AlgorithmWiki discovery. Problem/task: sort the input sequence using the named classical sorting method. Input semantics: A finite array or list of comparable keys or records. Output semantics: The same items returned in nondecreasing order, usually as a full reordered sequence.'
+extracted_algorithm_summary: 'Intro Sort is a sorting algorithm record. Classical complexity metadata: time O(n \log n); space O(\log n). The stated classical model is Word RAM. Public metadata/source text adds: Intro Sort sorting sorting n: size of list O(n \log n) Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

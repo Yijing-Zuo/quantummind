@@ -1,0 +1,58 @@
+id: AW-001049
+kind: context
+algorithm_id: AW-001049
+algorithm_name: odd-even sort - Hsiao and Menon (1)
+source_records:
+- access_status: metadata_only
+  digest: f4d3336720cd297b
+  extracted_facts:
+  - 'AlgorithmWiki row name: odd-even sort - Hsiao and Menon (1)'
+  - 'domain: sorting'
+  - 'time complexity: O(n/p \log{n/p} + n)'
+  - 'computational model: hardware sorter'
+  - 'parameter definitions: n: size of list, p: number of processors, n restricted (only) to memeory size of each processor = n/p'
+  - 'precard summary: Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model. Baseline: time O(n/p \log{n/p} + n); work O(n \log{n/p} + np); span/depth O(n); processors p. Bottleneck: comparison, distribution, and full-output movement costs dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001049:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for odd-even sort - Hsiao and Menon (1)
+  url: https://apps.dtic.mil/sti/citations/ADA090192
+- access_status: skipped
+  digest: 2c87693cd8a88673
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:e3ef6812e0f1b968
+  source_type: other_public_source
+  title: fetch budget exhausted
+  url: https://apps.dtic.mil/sti/citations/ADA090192
+web_query_attempts:
+- method: search_plan
+  query: odd-even sort - Hsiao and Menon (1) algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: odd-even sort - Hsiao and Menon (1) algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: odd-even sort - Hsiao and Menon (1) problem definition
+  status: recorded
+- method: search_plan
+  query: odd-even sort - Hsiao and Menon (1) sorting algorithm
+  status: recorded
+- method: search_plan
+  query: odd-even sort - Hsiao and Menon (1) site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: odd-even sort - Hsiao and Menon (1) algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://apps.dtic.mil/sti/citations/ADA090192
+  status: recorded
+- method: source_link_html_metadata
+  query: https://apps.dtic.mil/sti/citations/ADA090192
+  status: skipped
+extracted_problem_statement: 'odd-even sort - Hsiao and Menon (1) is treated as a classical sorting task for rich AlgorithmWiki discovery. Problem/task: sort the input sequence using the named classical sorting method. Input semantics: A finite array or list of comparable keys or records. Output semantics: The same items returned in nondecreasing order, usually as a full reordered sequence.'
+extracted_algorithm_summary: 'odd-even sort - Hsiao and Menon (1) is a sorting algorithm record. Classical complexity metadata: time O(n/p \log{n/p} + n); work O(n \log{n/p} + np); span/depth O(n); processors p. The stated classical model is hardware sorter. Public metadata/source text adds: odd-even sort - Hsiao and Menon (1) sorting sorting n: size of list, p: number of processors, n restricted (only) to memeory size of each processor = n/p O(n/p \log{n/p} + n) Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

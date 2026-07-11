@@ -1,0 +1,58 @@
+id: AW-001391
+kind: context
+algorithm_id: AW-001391
+algorithm_name: Vaidya
+source_records:
+- access_status: metadata_only
+  digest: 45c819c8c2596477
+  extracted_facts:
+  - 'AlgorithmWiki row name: Vaidya'
+  - 'domain: matrix_linear_algebra'
+  - 'time complexity: O((nd)^(1/4)(\log n)^3 L)'
+  - 'computational model: CRCW PRAM'
+  - 'parameter definitions: n: number of constraints, d: number of dimensions, L: log(det_max) + log(n+d) + log(c^T c + b^T b), omega: exponent on matrix multiplication'
+  - 'precard summary: Given one or more explicit dense matrices over the stated arithmetic domain, compute the matrix or linear-algebraic output specified by the record. Baseline: time O((nd)^(1/4)(\log n)^3 L); work O(((nd)^(1/4)(\log n)^3 L)(n^3 + d^(omega-1)n)); span/depth O((nd)^(1/4)(log n)^3 L); processors O(n^3 + d^(omega-1)n). Bottleneck: dense arithmetic and full matrix output dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001391:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Vaidya
+  url: https://ieeexplore.ieee.org/abstract/document/89579
+- access_status: skipped
+  digest: 260639ca2034dc72
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:80fd8241bccea8cc
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://ieeexplore.ieee.org/abstract/document/89579
+web_query_attempts:
+- method: search_plan
+  query: Vaidya algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Vaidya algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Vaidya problem definition
+  status: recorded
+- method: search_plan
+  query: Vaidya matrix linear algebra algorithm
+  status: recorded
+- method: search_plan
+  query: Vaidya site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Vaidya algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://ieeexplore.ieee.org/abstract/document/89579
+  status: recorded
+- method: source_link_html_metadata
+  query: https://ieeexplore.ieee.org/abstract/document/89579
+  status: skipped
+extracted_problem_statement: 'Vaidya is treated as a classical matrix linear algebra task for rich AlgorithmWiki discovery. Problem/task: multiply matrices using the named bilinear or algebraic multiplication method. Input semantics: One or more explicit matrices or linear systems over the stated arithmetic domain. Output semantics: The matrix product or bilinear multiplication output.'
+extracted_algorithm_summary: 'Vaidya is a matrix linear algebra algorithm record. Classical complexity metadata: time O((nd)^(1/4)(\log n)^3 L); work O(((nd)^(1/4)(\log n)^3 L)(n^3 + d^(omega-1)n)); span/depth O((nd)^(1/4)(log n)^3 L); processors O(n^3 + d^(omega-1)n). The stated classical model is CRCW PRAM. Public metadata/source text adds: Vaidya matrix_linear_algebra matrix_linear_algebra n: number of constraints, d: number of dimensions, L: log(det_max) + log(n+d) + log(c^T c + b^T b), omega: exponent on matrix multiplication O((nd)^(1/4)(\log n)^3 L) Given one or more explicit dense matrices over the stated arithmetic domain, compute the matrix or linear-algebraic output specified by the record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

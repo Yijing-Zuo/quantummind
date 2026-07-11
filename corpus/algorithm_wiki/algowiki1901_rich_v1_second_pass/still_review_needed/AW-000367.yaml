@@ -1,0 +1,31 @@
+algorithm_id: AW-000367
+canonical_name: Wavelet-based - D.J. Hebert and H-J. Kim 1995
+enrichment_status: SECOND_PASS_INSUFFICIENT
+review_reasons:
+- No second-pass rule could identify source-backed task semantics.
+source_records:
+- access_status: metadata_only
+  digest: aa58687ebd4dd9d3
+  extracted_facts:
+  - 'AlgorithmWiki row name: Wavelet-based - D.J. Hebert and H-J. Kim 1995'
+  - 'domain: unknown'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000367:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Wavelet-based - D.J. Hebert and H-J. Kim 1995
+  url: ''
+- source_id: crossref_search:89460390c5cd2558
+  url: https://doi.org/10.1109/glocom.1997.644331
+  title: Wavelet based adaptive equalization algorithm
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: Wavelet based adaptive equalization algorithm'
+  short_quote: ''
+  digest: 9c5f9a2d22664c64
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

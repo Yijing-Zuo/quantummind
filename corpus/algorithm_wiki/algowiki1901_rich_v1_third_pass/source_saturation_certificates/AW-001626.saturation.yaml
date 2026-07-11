@@ -1,0 +1,673 @@
+algorithm_id: AW-001626
+canonical_name: "Czumaj, Galil, G\u0105sieniec, Park, Plandowski (2)"
+original_source_link: https://dl.acm.org/doi/pdf/10.1145/225058.225289
+source_link_type: acm
+previous_failure_reasons:
+- No second-pass rule could identify source-backed task semantics.
+previous_source_records:
+- access_status: metadata_only
+  digest: d43cf0de76c74261
+  extracted_facts:
+  - "AlgorithmWiki row name: Czumaj, Galil, G\u0105sieniec, Park, Plandowski (2)"
+  - 'domain: unknown'
+  - 'time complexity: O(\log n)'
+  - 'computational model: hypercube (MIMD)'
+  - 'parameter definitions: n: length of text, m: length of pattern'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001626:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: "AlgorithmWiki metadata for Czumaj, Galil, G\u0105sieniec, Park, Plandowski (2)"
+  url: https://dl.acm.org/doi/pdf/10.1145/225058.225289
+- access_status: skipped
+  digest: 154d9f5cdf8ad291
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:9cb9d81b4f01381c
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1145/225058.225289
+- access_status: fetched
+  digest: b99588d9e7d8ec34
+  extracted_facts:
+  - 'DOI title: Work-time-optimal parallel algorithms for string problems'
+  - 'published year: 1995'
+  - 'container title: Proceedings of the twenty-seventh annual ACM symposium on Theory of computing - STOC ''95'
+  reliability: HIGH
+  short_quote: ''
+  source_id: crossref:15d4584a3c2b3216
+  source_type: doi_metadata
+  title: Work-time-optimal parallel algorithms for string problems
+  url: https://doi.org/10.1145/225058.225289
+- access_status: fetched
+  digest: eac65bcac63f65f8
+  extracted_facts:
+  - 'Crossref title-search result: An optimal algorithm to fetch DHT routable'
+  reliability: MEDIUM
+  short_quote: ''
+  source_id: crossref_search:0b18e1bdccf3f416
+  source_type: doi_metadata
+  title: An optimal algorithm to fetch DHT routable
+  url: https://doi.org/10.1109/npc.2007.32
+aliases_tried:
+- "Czumaj, Galil, G\u0105sieniec, Park, Plandowski (2)"
+- "Czumaj Galil G\u0105sieniec Park Plandowski"
+- "Czumaj, Galil, G\u0105sieniec, Park, Plandowski (2) algorithm"
+- "Czumaj, Galil, G\u0105sieniec, Park, Plandowski (2) problem"
+- "Czumaj, Galil, G\u0105sieniec, Park, Plandowski (2) pseudocode"
+- "Czumaj, Galil, G\u0105sieniec, Park, Plandowski (2) time complexity"
+- fetch budget exhausted
+- fetch budget exhausted algorithm
+- fetch budget exhausted complexity
+- Work-time-optimal parallel algorithms for string problems
+- Work-time-optimal parallel algorithms for string problems algorithm
+- Work-time-optimal parallel algorithms for string problems complexity
+query_plan:
+- source_family: original_source
+  primary_query: "Czumaj, Galil, G\u0105sieniec, Park, Plandowski (2)"
+  applicability: applicable
+  purpose: check the row's original source link without storing paywalled or PDF bodies
+- source_family: crossref
+  primary_query: "Czumaj, Galil, G\u0105sieniec, Park, Plandowski (2)"
+  applicability: applicable
+  purpose: recover DOI title, venue, year, and abstract metadata where available
+- source_family: openalex
+  primary_query: "Czumaj, Galil, G\u0105sieniec, Park, Plandowski (2)"
+  applicability: applicable
+  purpose: recover public work metadata and abstract-inverted-index summaries
+- source_family: semantic_scholar
+  primary_query: "Czumaj, Galil, G\u0105sieniec, Park, Plandowski (2)"
+  applicability: applicable
+  purpose: recover CS paper metadata and abstracts without an API key
+- source_family: arxiv
+  primary_query: "Czumaj, Galil, G\u0105sieniec, Park, Plandowski (2)"
+  applicability: title-search-only
+  purpose: recover arXiv title and abstract metadata
+- source_family: dblp
+  primary_query: "Czumaj, Galil, G\u0105sieniec, Park, Plandowski (2)"
+  applicability: applicable
+  purpose: recover bibliographic title/venue metadata for CS publications
+- source_family: publisher_abstract
+  primary_query: "Czumaj, Galil, G\u0105sieniec, Park, Plandowski (2)"
+  applicability: applicable
+  purpose: check accessible publisher abstract pages
+- source_family: citeseerx
+  primary_query: "Czumaj, Galil, G\u0105sieniec, Park, Plandowski (2)"
+  applicability: applicable
+  purpose: record legacy CiteSeerX availability without full PDF storage
+- source_family: wikipedia
+  primary_query: "Czumaj, Galil, G\u0105sieniec, Park, Plandowski (2)"
+  applicability: applicable
+  purpose: check public encyclopedia algorithm descriptions
+- source_family: wikidata
+  primary_query: "Czumaj, Galil, G\u0105sieniec, Park, Plandowski (2)"
+  applicability: applicable
+  purpose: check public entity aliases/descriptions
+- source_family: nist_dads
+  primary_query: "Czumaj, Galil, G\u0105sieniec, Park, Plandowski (2)"
+  applicability: applicable
+  purpose: check whether a DADS-style reference search is applicable
+- source_family: algorithm_wiki_local
+  primary_query: "Czumaj, Galil, G\u0105sieniec, Park, Plandowski (2)"
+  applicability: applicable
+  purpose: reuse AlgorithmWiki metadata as provenance
+- source_family: the_algorithms
+  primary_query: "Czumaj, Galil, G\u0105sieniec, Park, Plandowski (2)"
+  applicability: applicable
+  purpose: check exact public implementation/reference names when available
+- source_family: cp_algorithms
+  primary_query: "Czumaj, Galil, G\u0105sieniec, Park, Plandowski (2)"
+  applicability: applicable
+  purpose: check exact public algorithm reference names when available
+- source_family: course_notes
+  primary_query: "Czumaj, Galil, G\u0105sieniec, Park, Plandowski (2)"
+  applicability: applicable
+  purpose: record absence of configured course-notes search
+- source_family: general_web_search
+  primary_query: "Czumaj, Galil, G\u0105sieniec, Park, Plandowski (2)"
+  applicability: applicable
+  purpose: record absence of a configured general web endpoint
+- source_family: local_previous_cache
+  primary_query: "Czumaj, Galil, G\u0105sieniec, Park, Plandowski (2)"
+  applicability: applicable
+  purpose: reuse v1/second-pass fetched source records
+query_attempts:
+- &id001
+  cycle: 1
+  query: "Czumaj, Galil, G\u0105sieniec, Park, Plandowski (2)"
+  source_family: algorithm_wiki_local
+  url_or_api_endpoint: https://dl.acm.org/doi/pdf/10.1145/225058.225289
+  status: fetched
+  new_facts_added: 8
+  reason: local metadata
+- &id002
+  cycle: 1
+  query: "Czumaj, Galil, G\u0105sieniec, Park, Plandowski (2)"
+  source_family: local_previous_cache
+  url_or_api_endpoint: ''
+  status: duplicate
+  new_facts_added: 0
+  reason: previous v1/second-pass sources reused
+- &id003
+  cycle: 1
+  query: https://dl.acm.org/doi/pdf/10.1145/225058.225289
+  source_family: original_source
+  url_or_api_endpoint: https://dl.acm.org/doi/pdf/10.1145/225058.225289
+  status: paywalled
+  new_facts_added: 0
+  reason: PDF body skipped
+- &id004
+  cycle: 1
+  query: 10.1145/225058.225289
+  source_family: crossref
+  url_or_api_endpoint: https://doi.org/10.1145/225058.225289
+  status: fetched
+  new_facts_added: 6
+  reason: Crossref metadata/title search
+- &id005
+  cycle: 1
+  query: "Czumaj, Galil, G\u0105sieniec, Park, Plandowski (2)"
+  source_family: arxiv
+  url_or_api_endpoint: https://export.arxiv.org/api/query?max_results=1&search_query=ti:%22Czumaj%2C+Galil%2C+G%C4%85sieniec%2C+Park%2C+Plandowski+%282%29%22
+  status: no_result
+  new_facts_added: 0
+  reason: arXiv title search returned no usable entry
+- &id006
+  cycle: 1
+  query: "Czumaj, Galil, G\u0105sieniec, Park, Plandowski (2)"
+  source_family: wikipedia
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: Wikipedia search returned no relevant page
+- &id007
+  cycle: 2
+  query: 10.1145/225058.225289
+  source_family: openalex
+  url_or_api_endpoint: https://api.openalex.org/works/doi:10.1145%2F225058.225289
+  status: fetched
+  new_facts_added: 6
+  reason: OpenAlex work metadata
+- &id008
+  cycle: 2
+  query: 10.1145/225058.225289
+  source_family: semantic_scholar
+  url_or_api_endpoint: https://api.semanticscholar.org/graph/v1/paper/DOI:10.1145%2F225058.225289?fields=title,abstract,year,url,externalIds
+  status: fetch_failed
+  new_facts_added: 0
+  reason: Semantic Scholar returned no usable paper
+- &id009
+  cycle: 2
+  query: "Czumaj, Galil, G\u0105sieniec, Park, Plandowski (2)"
+  source_family: dblp
+  url_or_api_endpoint: https://dblp.org/search/publ/api?format=json&h=1&q=Czumaj%2C+Galil%2C+G%C4%85sieniec%2C+Park%2C+Plandowski+%282%29
+  status: no_result
+  new_facts_added: 0
+  reason: DBLP returned no usable publication
+- &id010
+  cycle: 2
+  query: https://dl.acm.org/doi/pdf/10.1145/225058.225289
+  source_family: original_source
+  url_or_api_endpoint: https://dl.acm.org/doi/pdf/10.1145/225058.225289
+  status: paywalled
+  new_facts_added: 0
+  reason: PDF body skipped
+- &id011
+  cycle: 2
+  query: "Czumaj, Galil, G\u0105sieniec, Park, Plandowski (2)"
+  source_family: wikidata
+  url_or_api_endpoint: https://www.wikidata.org/w/api.php?action=wbsearchentities&language=en&format=json&limit=1&search=Czumaj%2C+Galil%2C+G%C4%85sieniec%2C+Park%2C+Plandowski+%282%29
+  status: no_result
+  new_facts_added: 0
+  reason: Wikidata returned no entity
+- &id012
+  cycle: 3
+  query: "Czumaj, Galil, G\u0105sieniec, Park, Plandowski (2)"
+  source_family: citeseerx
+  url_or_api_endpoint: ''
+  status: paywalled
+  new_facts_added: 0
+  reason: CiteSeerX link is PDF/legacy metadata; full PDF body skipped
+- &id013
+  cycle: 3
+  query: "Czumaj, Galil, G\u0105sieniec, Park, Plandowski (2)"
+  source_family: nist_dads
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: NIST DADS has no reliable bulk search API in this environment
+- &id014
+  cycle: 3
+  query: "Czumaj, Galil, G\u0105sieniec, Park, Plandowski (2)"
+  source_family: the_algorithms
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: TheAlgorithms search skipped unless a known exact reference is available
+- &id015
+  cycle: 3
+  query: "Czumaj, Galil, G\u0105sieniec, Park, Plandowski (2)"
+  source_family: cp_algorithms
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: CP-Algorithms search skipped unless a known exact reference is available
+- &id016
+  cycle: 3
+  query: "Czumaj, Galil, G\u0105sieniec, Park, Plandowski (2)"
+  source_family: course_notes
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: No configured public course-notes search endpoint
+- &id017
+  cycle: 3
+  query: "Czumaj, Galil, G\u0105sieniec, Park, Plandowski (2)"
+  source_family: general_web_search
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: No configured general web search endpoint; Google Scholar scraping is not used
+- &id018
+  cycle: 4
+  query: 10.1145/225058.225289
+  source_family: crossref
+  url_or_api_endpoint: https://doi.org/10.1145/225058.225289
+  status: fetched
+  new_facts_added: 6
+  reason: Crossref metadata/title search
+- &id019
+  cycle: 4
+  query: 10.1145/225058.225289
+  source_family: openalex
+  url_or_api_endpoint: https://api.openalex.org/works/doi:10.1145%2F225058.225289
+  status: fetched
+  new_facts_added: 6
+  reason: OpenAlex work metadata
+- &id020
+  cycle: 4
+  query: 10.1145/225058.225289
+  source_family: semantic_scholar
+  url_or_api_endpoint: https://api.semanticscholar.org/graph/v1/paper/DOI:10.1145%2F225058.225289?fields=title,abstract,year,url,externalIds
+  status: fetch_failed
+  new_facts_added: 0
+  reason: Semantic Scholar returned no usable paper
+- &id021
+  cycle: 4
+  query: "Czumaj, Galil, G\u0105sieniec, Park, Plandowski (2)"
+  source_family: wikipedia
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: Wikipedia search returned no relevant page
+- &id022
+  cycle: 4
+  query: "Czumaj, Galil, G\u0105sieniec, Park, Plandowski (2)"
+  source_family: dblp
+  url_or_api_endpoint: https://dblp.org/search/publ/api?format=json&h=1&q=Czumaj%2C+Galil%2C+G%C4%85sieniec%2C+Park%2C+Plandowski+%282%29
+  status: no_result
+  new_facts_added: 0
+  reason: DBLP returned no usable publication
+source_attempts:
+- *id001
+- *id002
+- *id003
+- *id004
+- *id005
+- *id006
+- *id007
+- *id008
+- *id009
+- *id010
+- *id011
+- *id012
+- *id013
+- *id014
+- *id015
+- *id016
+- *id017
+- *id018
+- *id019
+- *id020
+- *id021
+- *id022
+discovered_sources:
+- &id023
+  source_id: skipped:873c721511b9e3a9
+  url: https://dl.acm.org/doi/pdf/10.1145/225058.225289
+  title: public PDF body was not downloaded
+  source_type: original_source
+  access_status: skipped
+  reliability: LOW
+  extracted_facts:
+  - public PDF body was not downloaded
+  short_quote: public PDF body was not downloaded
+  digest: 7949250b57aa564b
+- source_id: openalex:94f52eaa5ed2f962
+  url: https://openalex.org/W2080516655
+  title: Work-time-optimal parallel algorithms for string problems
+  source_type: openalex
+  access_status: fetched
+  reliability: HIGH
+  extracted_facts:
+  - 'OpenAlex title: Work-time-optimal parallel algorithms for string problems'
+  - 'publication year: 1995'
+  - 'abstract summary: A parallel algorithm is work-optimal if it uses the srrlallest possible work; a work-optimal algorithm is worktirne-optimal if it also uses the smallest possible time.'
+  short_quote: 'OpenAlex title: Work-time-optimal parallel algorithms for string problems publication year: 1995 abstract summary: A parallel algorithm is work-optimal if it uses the srrlallest possible'
+  digest: 57c4c611fde314c9
+discovered_facts:
+- fact_id: AW-001626-Ffa7877593f
+  fact_type: alias
+  value: "Czumaj, Galil, G\u0105sieniec, Park, Plandowski (2)"
+  source_id: AW-001626:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: AlgorithmWiki metadata
+- fact_id: AW-001626-F637242d924
+  fact_type: time_complexity
+  value: O(\log n)
+  source_id: AW-001626:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: AlgorithmWiki metadata
+- fact_id: AW-001626-F0e196b6c77
+  fact_type: computation_model
+  value: hypercube (MIMD)
+  source_id: AW-001626:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: AlgorithmWiki metadata
+- fact_id: AW-001626-F7d4cf0fbcb
+  fact_type: input_semantics
+  value: 'Parameter definitions: n: length of text, m: length of pattern'
+  source_id: AW-001626:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 75
+  conflict_status: weak
+  notes: AlgorithmWiki parameter metadata
+- fact_id: AW-001626-F2f3e870226
+  fact_type: authoritative_source_link
+  value: https://dl.acm.org/doi/pdf/10.1145/225058.225289
+  source_id: AW-001626:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 70
+  conflict_status: consistent
+  notes: Original source link from AlgorithmWiki metadata
+- fact_id: AW-001626-F2bc094d8fb
+  fact_type: source_title
+  value: "AlgorithmWiki metadata for Czumaj, Galil, G\u0105sieniec, Park, Plandowski (2)"
+  source_id: AW-001626:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-001626-F2bed3fd6c0
+  fact_type: problem_definition
+  value: "Source title indicates: AlgorithmWiki metadata for Czumaj, Galil, G\u0105sieniec, Park, Plandowski (2)"
+  source_id: AW-001626:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: weak
+  notes: previous_source_record
+- fact_id: AW-001626-Ffcb6ac6bfb
+  fact_type: problem_definition
+  value: "AlgorithmWiki row name: Czumaj, Galil, G\u0105sieniec, Park, Plandowski (2)"
+  source_id: AW-001626:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-001626-F4d409de78b
+  fact_type: problem_definition
+  value: 'domain: unknown'
+  source_id: AW-001626:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-001626-F0a8460723c
+  fact_type: time_complexity
+  value: 'time complexity: O(\log n)'
+  source_id: AW-001626:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-001626-F17d114ef1e
+  fact_type: computation_model
+  value: 'computational model: hypercube (MIMD)'
+  source_id: AW-001626:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-001626-F088396e53c
+  fact_type: problem_definition
+  value: 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  source_id: AW-001626:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-001626-F472db493a6
+  fact_type: source_title
+  value: fetch budget exhausted
+  source_id: skipped:9cb9d81b4f01381c
+  reliability: LOW
+  confidence: 45
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-001626-F0afe01eb66
+  fact_type: authoritative_source_link
+  value: https://doi.org/10.1145/225058.225289
+  source_id: skipped:9cb9d81b4f01381c
+  reliability: LOW
+  confidence: 45
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-001626-F1f5206ecca
+  fact_type: source_title
+  value: Work-time-optimal parallel algorithms for string problems
+  source_id: crossref:15d4584a3c2b3216
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-001626-F8ab3e9108a
+  fact_type: problem_definition
+  value: 'Source title indicates: Work-time-optimal parallel algorithms for string problems'
+  source_id: crossref:15d4584a3c2b3216
+  reliability: HIGH
+  confidence: 85
+  conflict_status: weak
+  notes: previous_source_record
+- fact_id: AW-001626-F7242ad305b
+  fact_type: problem_definition
+  value: 'DOI title: Work-time-optimal parallel algorithms for string problems'
+  source_id: crossref:15d4584a3c2b3216
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-001626-F2457f461ef
+  fact_type: problem_definition
+  value: 'published year: 1995'
+  source_id: crossref:15d4584a3c2b3216
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-001626-F212e6f57c1
+  fact_type: problem_definition
+  value: 'container title: Proceedings of the twenty-seventh annual ACM symposium on Theory of computing - STOC ''95'
+  source_id: crossref:15d4584a3c2b3216
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-001626-F07ef2586ce
+  fact_type: source_title
+  value: An optimal algorithm to fetch DHT routable
+  source_id: crossref_search:0b18e1bdccf3f416
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-001626-F2e2911bb49
+  fact_type: problem_definition
+  value: 'Source title indicates: An optimal algorithm to fetch DHT routable'
+  source_id: crossref_search:0b18e1bdccf3f416
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: weak
+  notes: previous_source_record
+- fact_id: AW-001626-Fb8080bd214
+  fact_type: problem_definition
+  value: 'Crossref title-search result: An optimal algorithm to fetch DHT routable'
+  source_id: crossref_search:0b18e1bdccf3f416
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-001626-Fbe5d46ce2e
+  fact_type: authoritative_source_link
+  value: https://doi.org/10.1109/npc.2007.32
+  source_id: crossref_search:0b18e1bdccf3f416
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-001626-Fff80033e9c
+  fact_type: problem_definition
+  value: 'OpenAlex title: Work-time-optimal parallel algorithms for string problems'
+  source_id: openalex:94f52eaa5ed2f962
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: openalex
+- fact_id: AW-001626-F26fc4e3a6f
+  fact_type: problem_definition
+  value: 'publication year: 1995'
+  source_id: openalex:94f52eaa5ed2f962
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: openalex
+- fact_id: AW-001626-F39aea51e33
+  fact_type: problem_definition
+  value: 'abstract summary: A parallel algorithm is work-optimal if it uses the srrlallest possible work; a work-optimal algorithm is worktirne-optimal if it also uses the smallest possible time.'
+  source_id: openalex:94f52eaa5ed2f962
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: openalex
+- fact_id: AW-001626-F9aba5f855d
+  fact_type: authoritative_source_link
+  value: https://openalex.org/W2080516655
+  source_id: openalex:94f52eaa5ed2f962
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: openalex
+duplicate_sources:
+- source_id: AW-001626:algorithm_wiki_metadata
+  url: https://dl.acm.org/doi/pdf/10.1145/225058.225289
+  title: "AlgorithmWiki metadata for Czumaj, Galil, G\u0105sieniec, Park, Plandowski (2)"
+  source_type: algorithm_wiki
+  access_status: metadata_only
+  reliability: HIGH
+  extracted_facts:
+  - "AlgorithmWiki row name: Czumaj, Galil, G\u0105sieniec, Park, Plandowski (2)"
+  - 'domain: unknown'
+  - 'time complexity: O(\log n)'
+  - 'computational model: hypercube (MIMD)'
+  - 'parameter definitions: n: length of text, m: length of pattern'
+  short_quote: ''
+  digest: 91feb0b1082d6039
+- source_id: crossref:15d4584a3c2b3216
+  url: https://doi.org/10.1145/225058.225289
+  title: Work-time-optimal parallel algorithms for string problems
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: HIGH
+  extracted_facts:
+  - 'DOI title: Work-time-optimal parallel algorithms for string problems'
+  - 'published year: 1995'
+  - 'container title: Proceedings of the twenty-seventh annual ACM symposium on Theory of computing - STOC ''95'
+  short_quote: ''
+  digest: b99588d9e7d8ec34
+- source_id: skipped:873c721511b9e3a9
+  url: https://dl.acm.org/doi/pdf/10.1145/225058.225289
+  title: public PDF body was not downloaded
+  source_type: original_source
+  access_status: skipped
+  reliability: LOW
+  extracted_facts:
+  - public PDF body was not downloaded
+  short_quote: public PDF body was not downloaded
+  digest: 7949250b57aa564b
+- source_id: crossref:15d4584a3c2b3216
+  url: https://doi.org/10.1145/225058.225289
+  title: Work-time-optimal parallel algorithms for string problems
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: HIGH
+  extracted_facts:
+  - 'DOI title: Work-time-optimal parallel algorithms for string problems'
+  - 'published year: 1995'
+  - 'container title: Proceedings of the twenty-seventh annual ACM symposium on Theory of computing - STOC ''95'
+  short_quote: ''
+  digest: b99588d9e7d8ec34
+- source_id: openalex:94f52eaa5ed2f962
+  url: https://openalex.org/W2080516655
+  title: Work-time-optimal parallel algorithms for string problems
+  source_type: openalex
+  access_status: fetched
+  reliability: HIGH
+  extracted_facts:
+  - 'OpenAlex title: Work-time-optimal parallel algorithms for string problems'
+  - 'publication year: 1995'
+  - 'abstract summary: A parallel algorithm is work-optimal if it uses the srrlallest possible work; a work-optimal algorithm is worktirne-optimal if it also uses the smallest possible time.'
+  short_quote: 'OpenAlex title: Work-time-optimal parallel algorithms for string problems publication year: 1995 abstract summary: A parallel algorithm is work-optimal if it uses the srrlallest possible'
+  digest: 57c4c611fde314c9
+failed_sources: []
+paywalled_or_skipped_sources:
+- *id023
+source_families_covered:
+- algorithm_wiki_local
+- local_previous_cache
+- original_source
+- crossref
+- arxiv
+- wikipedia
+- openalex
+- semantic_scholar
+- dblp
+- publisher_abstract
+- wikidata
+- citeseerx
+- nist_dads
+- the_algorithms
+- cp_algorithms
+- course_notes
+- general_web_search
+cycles_completed: 4
+new_fact_count_by_cycle:
+- cycle: 1
+  new_facts: 0
+- cycle: 2
+  new_facts: 4
+- cycle: 3
+  new_facts: 0
+- cycle: 4
+  new_facts: 0
+no_new_fact_streak: 2
+saturation_status: SATURATED_NO_RECOVERY
+final_reason: After the configured source-family cycles, no source-backed concrete task, input semantics, output semantics, and conservative access model could be established.
+next_manual_action: No automated action recommended; keep saturated certificate with unresolved row.

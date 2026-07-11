@@ -1,0 +1,46 @@
+id: AW-000447
+kind: context
+algorithm_id: AW-000447
+algorithm_name: Klein (section 5)
+source_records:
+- access_status: metadata_only
+  digest: 1a63f899fb79720a
+  extracted_facts:
+  - 'AlgorithmWiki row name: Klein (section 5)'
+  - 'domain: graph'
+  - 'time complexity: O(V^{4/3} \log V)'
+  - 'space complexity: O(V^{4/3})'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: V: number of vertices, E: number of edges'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(V^{4/3} \log V); space O(V^{4/3}). Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000447:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Klein (section 5)
+  url: http://theory.stanford.edu/~virgi/cs267/papers/planar-sssp.pdf
+web_query_attempts:
+- method: search_plan
+  query: Klein (section 5) algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Klein (section 5) algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Klein (section 5) problem definition
+  status: recorded
+- method: search_plan
+  query: Klein (section 5) graph algorithm
+  status: recorded
+- method: search_plan
+  query: Klein (section 5) site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Klein (section 5) algorithm wiki
+  status: recorded
+- method: search_plan
+  query: http://theory.stanford.edu/~virgi/cs267/papers/planar-sssp.pdf
+  status: recorded
+extracted_problem_statement: 'Klein (section 5) is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Klein (section 5). Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'Klein (section 5) is a graph algorithm record. Classical complexity metadata: time O(V^{4/3} \log V); space O(V^{4/3}). The stated classical model is Word RAM. Public metadata/source text adds: Klein (section 5) graph graph V: number of vertices, E: number of edges O(V^{4/3} \log V) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

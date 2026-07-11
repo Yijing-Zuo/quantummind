@@ -1,0 +1,427 @@
+algorithm_id: AW-000383
+canonical_name: McAllester & Singh 1999
+original_source_link: ''
+source_link_type: unknown
+previous_failure_reasons:
+- No second-pass rule could identify source-backed task semantics.
+previous_source_records:
+- access_status: metadata_only
+  digest: a3c2087f815f16d9
+  extracted_facts:
+  - 'AlgorithmWiki row name: McAllester & Singh 1999'
+  - 'domain: unknown'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000383:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for McAllester & Singh 1999
+  url: ''
+- access_status: fetched
+  digest: b285c6a4a95fba91
+  extracted_facts:
+  - 'Crossref title-search result: Review of Singh (1999): The Yearbook of South Asian Languages and Linguistics, 1999'
+  reliability: MEDIUM
+  short_quote: ''
+  source_id: crossref_search:d0741b99c208f727
+  source_type: doi_metadata
+  title: 'Review of Singh (1999): The Yearbook of South Asian Languages and Linguistics, 1999'
+  url: https://doi.org/10.1075/lplp.24.1.12stc
+aliases_tried:
+- McAllester & Singh 1999
+- McAllester & Singh
+- McAllester & Singh 1999 algorithm
+- McAllester & Singh 1999 problem
+- McAllester & Singh 1999 pseudocode
+- McAllester & Singh 1999 time complexity
+- 'Review of Singh (1999): The Yearbook of South Asian Languages and Linguistics, 1999'
+- 'Review of Singh (1999): The Yearbook of South Asian Languages and Linguistics, 1999 algorithm'
+- 'Review of Singh (1999): The Yearbook of South Asian Languages and Linguistics, 1999 complexity'
+query_plan:
+- source_family: original_source
+  primary_query: McAllester & Singh 1999
+  applicability: applicable
+  purpose: check the row's original source link without storing paywalled or PDF bodies
+- source_family: crossref
+  primary_query: McAllester & Singh 1999
+  applicability: title-search-only
+  purpose: recover DOI title, venue, year, and abstract metadata where available
+- source_family: openalex
+  primary_query: McAllester & Singh 1999
+  applicability: applicable
+  purpose: recover public work metadata and abstract-inverted-index summaries
+- source_family: semantic_scholar
+  primary_query: McAllester & Singh 1999
+  applicability: applicable
+  purpose: recover CS paper metadata and abstracts without an API key
+- source_family: arxiv
+  primary_query: McAllester & Singh 1999
+  applicability: title-search-only
+  purpose: recover arXiv title and abstract metadata
+- source_family: dblp
+  primary_query: McAllester & Singh 1999
+  applicability: applicable
+  purpose: recover bibliographic title/venue metadata for CS publications
+- source_family: publisher_abstract
+  primary_query: McAllester & Singh 1999
+  applicability: applicable
+  purpose: check accessible publisher abstract pages
+- source_family: citeseerx
+  primary_query: McAllester & Singh 1999
+  applicability: applicable
+  purpose: record legacy CiteSeerX availability without full PDF storage
+- source_family: wikipedia
+  primary_query: McAllester & Singh 1999
+  applicability: applicable
+  purpose: check public encyclopedia algorithm descriptions
+- source_family: wikidata
+  primary_query: McAllester & Singh 1999
+  applicability: applicable
+  purpose: check public entity aliases/descriptions
+- source_family: nist_dads
+  primary_query: McAllester & Singh 1999
+  applicability: applicable
+  purpose: check whether a DADS-style reference search is applicable
+- source_family: algorithm_wiki_local
+  primary_query: McAllester & Singh 1999
+  applicability: applicable
+  purpose: reuse AlgorithmWiki metadata as provenance
+- source_family: the_algorithms
+  primary_query: McAllester & Singh 1999
+  applicability: applicable
+  purpose: check exact public implementation/reference names when available
+- source_family: cp_algorithms
+  primary_query: McAllester & Singh 1999
+  applicability: applicable
+  purpose: check exact public algorithm reference names when available
+- source_family: course_notes
+  primary_query: McAllester & Singh 1999
+  applicability: applicable
+  purpose: record absence of configured course-notes search
+- source_family: general_web_search
+  primary_query: McAllester & Singh 1999
+  applicability: applicable
+  purpose: record absence of a configured general web endpoint
+- source_family: local_previous_cache
+  primary_query: McAllester & Singh 1999
+  applicability: applicable
+  purpose: reuse v1/second-pass fetched source records
+query_attempts:
+- &id001
+  cycle: 1
+  query: McAllester & Singh 1999
+  source_family: algorithm_wiki_local
+  url_or_api_endpoint: ''
+  status: fetched
+  new_facts_added: 4
+  reason: local metadata
+- &id002
+  cycle: 1
+  query: McAllester & Singh 1999
+  source_family: local_previous_cache
+  url_or_api_endpoint: ''
+  status: duplicate
+  new_facts_added: 0
+  reason: previous v1/second-pass sources reused
+- &id003
+  cycle: 1
+  query: McAllester & Singh 1999
+  source_family: original_source
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: no original source link
+- &id004
+  cycle: 1
+  query: McAllester & Singh 1999
+  source_family: crossref
+  url_or_api_endpoint: https://doi.org/10.1075/lplp.24.1.12stc
+  status: fetched
+  new_facts_added: 5
+  reason: Crossref metadata/title search
+- &id005
+  cycle: 1
+  query: McAllester & Singh 1999
+  source_family: arxiv
+  url_or_api_endpoint: https://export.arxiv.org/api/query?max_results=1&search_query=ti:%22McAllester+%26+Singh+1999%22
+  status: no_result
+  new_facts_added: 0
+  reason: arXiv title search returned no usable entry
+- &id006
+  cycle: 1
+  query: McAllester & Singh 1999
+  source_family: wikipedia
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: Wikipedia search returned no relevant page
+- &id007
+  cycle: 2
+  query: McAllester & Singh 1999
+  source_family: openalex
+  url_or_api_endpoint: https://api.openalex.org/works?per-page=1&search=McAllester+%26+Singh+1999
+  status: irrelevant
+  new_facts_added: 0
+  reason: OpenAlex work metadata
+- &id008
+  cycle: 2
+  query: McAllester & Singh 1999
+  source_family: semantic_scholar
+  url_or_api_endpoint: https://api.semanticscholar.org/graph/v1/paper/search?limit=1&fields=title,abstract,year,url,externalIds&query=McAllester+%26+Singh+1999
+  status: fetched
+  new_facts_added: 6
+  reason: Semantic Scholar paper metadata
+- &id009
+  cycle: 2
+  query: McAllester & Singh 1999
+  source_family: dblp
+  url_or_api_endpoint: https://dblp.org/search/publ/api?format=json&h=1&q=McAllester+%26+Singh+1999
+  status: no_result
+  new_facts_added: 0
+  reason: DBLP returned no usable publication
+- &id010
+  cycle: 2
+  query: McAllester & Singh 1999
+  source_family: publisher_abstract
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: no applicable publisher abstract URL
+- &id011
+  cycle: 2
+  query: McAllester & Singh 1999
+  source_family: wikidata
+  url_or_api_endpoint: https://www.wikidata.org/w/api.php?action=wbsearchentities&language=en&format=json&limit=1&search=McAllester+%26+Singh+1999
+  status: no_result
+  new_facts_added: 0
+  reason: Wikidata returned no entity
+source_attempts:
+- *id001
+- *id002
+- *id003
+- *id004
+- *id005
+- *id006
+- *id007
+- *id008
+- *id009
+- *id010
+- *id011
+discovered_sources:
+- source_id: crossref_search:7df79b4a902d7c72
+  url: https://doi.org/10.1075/lplp.24.1.12stc
+  title: 'Review of Singh (1999): The Yearbook of South Asian Languages and Linguistics, 1999'
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title: Review of Singh (1999): The Yearbook of South Asian Languages and Linguistics, 1999'
+  - 'published year: 2000'
+  - 'container title: Language Problems and Language Planning'
+  short_quote: 'Crossref title: Review of Singh (1999): The Yearbook of South Asian Languages and Linguistics, 1999 published year: 2000 container title: Language Problems and Language'
+  digest: 501093be861e3ebc
+- source_id: openalex:09f824971f024bdb
+  url: https://openalex.org/W2964227312
+  title: The Option-Critic Architecture
+  source_type: openalex
+  access_status: fetched
+  reliability: HIGH
+  extracted_facts:
+  - 'OpenAlex title: The Option-Critic Architecture'
+  - 'publication year: 2017'
+  - 'abstract summary: Temporal abstraction is key to scaling up learning and planning in reinforcement learning.'
+  short_quote: 'OpenAlex title: The Option-Critic Architecture publication year: 2017 abstract summary: Temporal abstraction is key to scaling up learning and planning in reinforcement learning.'
+  digest: 9641f29c165415d0
+- source_id: semantic_scholar:c7d10675d4d8858b
+  url: https://www.semanticscholar.org/paper/a20f0ce0616def7cc9a87446c228906cd5da093b
+  title: Policy Gradient Methods for Reinforcement Learning with Function Approximation
+  source_type: semantic_scholar
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Semantic Scholar title: Policy Gradient Methods for Reinforcement Learning with Function Approximation'
+  - 'published year: 1999'
+  - 'abstract summary: None'
+  short_quote: 'Semantic Scholar title: Policy Gradient Methods for Reinforcement Learning with Function Approximation published year: 1999 abstract summary: None'
+  digest: 2ea45bf17609a2c1
+discovered_facts:
+- fact_id: AW-000383-F486f1e8a8b
+  fact_type: alias
+  value: McAllester & Singh 1999
+  source_id: AW-000383:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: AlgorithmWiki metadata
+- fact_id: AW-000383-Ffa01e584c7
+  fact_type: source_title
+  value: AlgorithmWiki metadata for McAllester & Singh 1999
+  source_id: AW-000383:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000383-F207c728c05
+  fact_type: problem_definition
+  value: 'Source title indicates: AlgorithmWiki metadata for McAllester & Singh 1999'
+  source_id: AW-000383:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: weak
+  notes: previous_source_record
+- fact_id: AW-000383-Fb5dc83ca39
+  fact_type: problem_definition
+  value: 'AlgorithmWiki row name: McAllester & Singh 1999'
+  source_id: AW-000383:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000383-F5ba438bacc
+  fact_type: problem_definition
+  value: 'domain: unknown'
+  source_id: AW-000383:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000383-F2bf2c2661a
+  fact_type: problem_definition
+  value: 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  source_id: AW-000383:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000383-Ffc31a8b05e
+  fact_type: source_title
+  value: 'Review of Singh (1999): The Yearbook of South Asian Languages and Linguistics, 1999'
+  source_id: crossref_search:d0741b99c208f727
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000383-Fd3ed5e06e8
+  fact_type: problem_definition
+  value: 'Crossref title-search result: Review of Singh (1999): The Yearbook of South Asian Languages and Linguistics, 1999'
+  source_id: crossref_search:d0741b99c208f727
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000383-F1e86cd454a
+  fact_type: authoritative_source_link
+  value: https://doi.org/10.1075/lplp.24.1.12stc
+  source_id: crossref_search:d0741b99c208f727
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000383-F11dd30d44c
+  fact_type: problem_definition
+  value: 'Crossref title: Review of Singh (1999): The Yearbook of South Asian Languages and Linguistics, 1999'
+  source_id: crossref_search:7df79b4a902d7c72
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: consistent
+  notes: crossref
+- fact_id: AW-000383-F357f43a109
+  fact_type: problem_definition
+  value: 'published year: 2000'
+  source_id: crossref_search:7df79b4a902d7c72
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: consistent
+  notes: crossref
+- fact_id: AW-000383-F8db65e6364
+  fact_type: problem_definition
+  value: 'container title: Language Problems and Language Planning'
+  source_id: crossref_search:7df79b4a902d7c72
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: consistent
+  notes: crossref
+- fact_id: AW-000383-F46425a4e52
+  fact_type: source_title
+  value: Policy Gradient Methods for Reinforcement Learning with Function Approximation
+  source_id: semantic_scholar:c7d10675d4d8858b
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: consistent
+  notes: semantic_scholar
+- fact_id: AW-000383-F56601809e6
+  fact_type: problem_definition
+  value: 'Source title indicates: Policy Gradient Methods for Reinforcement Learning with Function Approximation'
+  source_id: semantic_scholar:c7d10675d4d8858b
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: weak
+  notes: semantic_scholar
+- fact_id: AW-000383-Fc9bcba3508
+  fact_type: problem_definition
+  value: 'Semantic Scholar title: Policy Gradient Methods for Reinforcement Learning with Function Approximation'
+  source_id: semantic_scholar:c7d10675d4d8858b
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: consistent
+  notes: semantic_scholar
+- fact_id: AW-000383-F9bc502a114
+  fact_type: problem_definition
+  value: 'published year: 1999'
+  source_id: semantic_scholar:c7d10675d4d8858b
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: consistent
+  notes: semantic_scholar
+- fact_id: AW-000383-F8e643e78eb
+  fact_type: problem_definition
+  value: 'abstract summary: None'
+  source_id: semantic_scholar:c7d10675d4d8858b
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: consistent
+  notes: semantic_scholar
+- fact_id: AW-000383-F5b476cbd36
+  fact_type: authoritative_source_link
+  value: https://www.semanticscholar.org/paper/a20f0ce0616def7cc9a87446c228906cd5da093b
+  source_id: semantic_scholar:c7d10675d4d8858b
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: consistent
+  notes: semantic_scholar
+duplicate_sources:
+- source_id: AW-000383:algorithm_wiki_metadata
+  url: ''
+  title: AlgorithmWiki metadata for McAllester & Singh 1999
+  source_type: algorithm_wiki
+  access_status: metadata_only
+  reliability: HIGH
+  extracted_facts:
+  - 'AlgorithmWiki row name: McAllester & Singh 1999'
+  - 'domain: unknown'
+  short_quote: ''
+  digest: 7d23ed8ef902b922
+failed_sources: []
+paywalled_or_skipped_sources: []
+source_families_covered:
+- algorithm_wiki_local
+- local_previous_cache
+- original_source
+- crossref
+- arxiv
+- wikipedia
+- openalex
+- semantic_scholar
+- dblp
+- publisher_abstract
+- wikidata
+cycles_completed: 2
+new_fact_count_by_cycle:
+- cycle: 1
+  new_facts: 3
+- cycle: 2
+  new_facts: 6
+no_new_fact_streak: 0
+saturation_status: RECOVERED_CONTEXT_AND_PROBE
+final_reason: Source-saturation pass found enough task, input, output, and access semantics for a context card.
+next_manual_action: Audit recovered card before any optional live analyze run.

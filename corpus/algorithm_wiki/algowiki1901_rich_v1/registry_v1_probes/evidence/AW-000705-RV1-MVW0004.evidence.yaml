@@ -1,0 +1,23 @@
+probe_id: AW-000705-RV1-MVW0004
+kind: registry_v1_probe
+parent_algorithm_id: AW-000705
+parent_algorithm_name: Ravikumar & Cohen Generative Models
+source_card_paths:
+- corpus\algorithm_wiki\algowiki1901_rich_v1\public_context\AW-000705.yaml
+- corpus\algorithm_wiki\algowiki1901_rich_v1\public_probe\AW-000705-P0474.yaml
+source_metadata_paths:
+- corpus\algorithm_wiki\algowiki1901_rich_v1\metadata_probe\AW-000705-P0474.meta.yaml
+source_records_used:
+- AW-000705:algorithm_wiki_metadata
+- arxiv:1207.4180
+- source:edf78c33e7e4d144
+short_paraphrased_support: 'Ravikumar & Cohen Generative Models Ravikumar & Cohen Generative Models is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Ravikumar & Cohen Generative Models. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: Pattern occurrence positions, matches, or the associated string-search report. Ravikumar & Cohen Generative Models is a graph algorithm record. Classical complexity metadata: time O(n^2 k); space O(k). The stated classical model is Word RAM. Public metadata/source text adds: Ravikumar & Cohen Generative Models unknown unknown n: number of records, k: number of features (can be up to O(\sqrt{n})) O(n^2 k) No public-ready summary is available because the row lacks enough task semantics. An explicit g'
+introduced_assumptions:
+- reversible_ergodic_markov_chain
+- coherent_markov_chain_walk_oracle
+- marked_fraction_and_spectral_gap_bounds
+limitations:
+- The probe is a public query/subroutine hypothesis only.
+- It does not assert a full original-algorithm speedup.
+- Oracle, promise, and data-representation costs require expert review.
+confirmation: Public provenance sidecar only; no evaluator label or private benchmark answer is encoded.

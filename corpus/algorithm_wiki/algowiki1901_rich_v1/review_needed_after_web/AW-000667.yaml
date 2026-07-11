@@ -1,0 +1,39 @@
+algorithm_id: AW-000667
+canonical_name: The Multistage Algorithm
+enrichment_status: WEB_INSUFFICIENT
+review_reasons:
+- missing_concrete_problem_statement
+- unknown_input_model
+- unknown_output_contract
+- unknown_access_model
+source_records:
+- access_status: metadata_only
+  digest: 79c12a3c9da24d31
+  extracted_facts:
+  - 'AlgorithmWiki row name: The Multistage Algorithm'
+  - 'domain: unknown'
+  - 'time complexity: O(n^2)'
+  - 'space complexity: O(n^2)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: total number of transactions (size of database)'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000667:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for The Multistage Algorithm
+  url: http://ilpubs.stanford.edu:8090/423/
+- access_status: fetched
+  digest: 753d13891d19f7bd
+  extracted_facts:
+  - 'source page title: Error - Stanford InfoLab Publication Server'
+  - 'source page description: Feel free to contact Stanford InfoLab Publication Server administration with details.'
+  reliability: MEDIUM
+  short_quote: Feel free to contact Stanford InfoLab Publication Server administration with details.
+  source_id: source:4eebe28161e6121e
+  source_type: textbook_or_course_notes
+  title: Error - Stanford InfoLab Publication Server
+  url: http://ilpubs.stanford.edu:8090/423/
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

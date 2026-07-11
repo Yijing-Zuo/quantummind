@@ -1,0 +1,67 @@
+probe_id: AW-000705-RV1-MVW0004
+algorithm_id: AW-000705-RV1-MVW0004
+canonical_name: Ravikumar & Cohen Generative Models marked_vertex_walk_probe
+readiness: READY_PUBLIC_PROBE
+quality_score: 80
+parent_algorithm_id: AW-000705
+parent_algorithm_name: Ravikumar & Cohen Generative Models
+target_registry_primitive: quantum_walk_marked_vertex_search
+probe_type: marked_vertex_walk_probe
+source_card_type: probe
+source_card_paths:
+- corpus\algorithm_wiki\algowiki1901_rich_v1\public_context\AW-000705.yaml
+- corpus\algorithm_wiki\algowiki1901_rich_v1\public_probe\AW-000705-P0474.yaml
+source_metadata_paths:
+- corpus\algorithm_wiki\algowiki1901_rich_v1\metadata_probe\AW-000705-P0474.meta.yaml
+introduced_assumptions:
+- reversible_ergodic_markov_chain
+- coherent_markov_chain_walk_oracle
+- marked_fraction_and_spectral_gap_bounds
+required_promises:
+- reversible_ergodic_markov_chain
+- efficient_marking_check
+- marked_vertex_exists
+- marked_fraction_lower_bound
+- spectral_gap_lower_bound
+original_input_model: explicit_graph_problem
+original_access_model: local_graph_transition_oracle
+original_output_contract: one_witness
+probe_input_model: marked_markov_chain_search_problem
+probe_access_model: coherent_markov_chain_walk_oracle
+probe_output_contract: one_marked_vertex
+not_end_to_end_claim: true
+expected_authority: query_or_subroutine_hypothesis_only
+why_probe_is_scientifically_interesting: The existing graph-walk probe already isolates local graph search; registry-v1 adds the stricter reversible-chain, marked-fraction, and spectral-gap assumptions.
+why_probe_may_fail: The reversible Markov-chain model, spectral gap, or marked fraction may not hold for the original graph process.
+overgeneration_risk: medium
+source_records_used:
+- AW-000705:algorithm_wiki_metadata
+- arxiv:1207.4180
+- source:edf78c33e7e4d144
+screening_decision_source:
+  screening_manifest: corpus\algorithm_wiki\algowiki1901_rich_v1\registry_v1_probes\manifests\registry_v1_screening.csv
+  decision: GENERATE_REGISTRY_V1_PROBE
+  opportunity_score: 9
+inferred_input_model: marked_markov_chain_search_problem
+inferred_access_model: coherent_markov_chain_walk_oracle
+inferred_output_contract: one_marked_vertex
+inferred_size_parameters:
+- 'Parameter definition: n: number of records, k: number of features (can be up to O(\sqrt{n}))'
+- 'N, delta, epsilon: chain size, spectral-gap lower bound, and marked-fraction lower bound.'
+inferred_promises:
+- reversible_ergodic_markov_chain
+- efficient_marking_check
+- marked_vertex_exists
+- marked_fraction_lower_bound
+- spectral_gap_lower_bound
+- oracle_model_assumption
+inferred_ambiguities:
+- This is an assumption-bearing query/subroutine probe and is not an end-to-end speedup claim.
+- The reversible-chain model, spectral gap, and marked fraction are introduced assumptions.
+- The parent graph task may require full traversal, full paths, preprocessing, or output reconstruction.
+source_count: 3
+source_quality: HIGH
+confidence_score: 80
+card_digest: 286877093f1d968c
+extraction_version: algorithm-wiki-registry-v1-probe-v1
+root_dataset: corpus\algorithm_wiki\algowiki1901_rich_v1

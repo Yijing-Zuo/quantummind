@@ -1,0 +1,35 @@
+algorithm_id: AW-001020
+canonical_name: Fredman
+enrichment_status: WEB_INSUFFICIENT
+review_reasons:
+- missing_concrete_problem_statement
+- unknown_input_model
+- unknown_output_contract
+- unknown_access_model
+source_records:
+- access_status: metadata_only
+  digest: 8aed6d324c709fa2
+  extracted_facts:
+  - 'AlgorithmWiki row name: Fredman'
+  - 'domain: unknown'
+  - 'time complexity: O(n^3(log log n/ log n)^{1/3})'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001020:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Fredman
+  url: https://epubs.siam.org/doi/pdf/10.1137/0205006
+- access_status: skipped
+  digest: 3ed7d32c189fdec8
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:7879ba23826693da
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1137/0205006
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

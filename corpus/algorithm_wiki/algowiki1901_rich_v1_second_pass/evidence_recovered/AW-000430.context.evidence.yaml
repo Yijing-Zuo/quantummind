@@ -1,0 +1,59 @@
+id: AW-000430
+kind: context_recovered
+algorithm_id: AW-000430
+algorithm_name: "Aho\u2013Corasick (AC) Algorithm"
+source_records:
+- access_status: metadata_only
+  digest: dc5eef533a68a4ec
+  extracted_facts:
+  - "AlgorithmWiki row name: Aho\u2013Corasick (AC) Algorithm"
+  - 'domain: unknown'
+  - 'time complexity: O(n + m + z)'
+  - 'space complexity: O(km)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: m: pattern length, n: length of searchable text, k: number of keywords, z: number of matches'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000430:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: "AlgorithmWiki metadata for Aho\u2013Corasick (AC) Algorithm"
+  url: https://cr.yp.to/bib/1975/aho.pdf
+- source_id: crossref_search:e48674a13bd80544
+  url: https://doi.org/10.1017/9781108756945.010
+  title: "The Aho\u2013Corasick Algorithm"
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - "Crossref title-search result: The Aho\u2013Corasick Algorithm"
+  short_quote: ''
+  digest: 813cd71375bc352e
+web_query_attempts:
+- query: "\"Aho\u2013Corasick (AC) Algorithm\" algorithm"
+  method: search_plan
+  status: recorded
+- query: "\"Aho\u2013Corasick (AC) Algorithm\" input output"
+  method: search_plan
+  status: recorded
+- query: "\"Aho\u2013Corasick (AC) Algorithm\" time complexity"
+  method: search_plan
+  status: recorded
+- query: "\"Aho\u2013Corasick (AC) Algorithm\" pseudocode"
+  method: search_plan
+  status: recorded
+- query: "\"Aho\u2013Corasick (AC) Algorithm\" problem"
+  method: search_plan
+  status: recorded
+- query: "\"Aho\u2013Corasick (AC) Algorithm\" PDF metadata abstract"
+  method: search_plan
+  status: recorded
+- query: https://cr.yp.to/bib/1975/aho.pdf
+  method: search_plan
+  status: recorded
+- query: "Aho\u2013Corasick (AC) Algorithm algorithm"
+  method: crossref_title_search
+  status: fetched
+extracted_problem_statement: "Aho\u2013Corasick (AC) Algorithm is reconstructed as a classical string task. Problem/task: find occurrences of a pattern in a text Input semantics: A finite text string, a finite pattern string, and alphabet/hash/preprocessing parameters when stated. Output semantics: One or more occurrence positions or a report that no occurrence exists."
+extracted_algorithm_summary: "Aho\u2013Corasick (AC) Algorithm is treated as the named AlgorithmWiki variant for find occurrences of a pattern in a text Classical complexity metadata: time O(n + m + z); space O(km). Public metadata/source title support includes The Aho\u2013Corasick Algorithm."
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

@@ -1,0 +1,32 @@
+algorithm_id: AW-000321
+canonical_name: H.W.Jensen 2001
+enrichment_status: SECOND_PASS_INSUFFICIENT
+review_reasons:
+- No second-pass rule could identify source-backed task semantics.
+source_records:
+- access_status: metadata_only
+  digest: a5aa2b1f488a92dd
+  extracted_facts:
+  - 'AlgorithmWiki row name: H.W.Jensen 2001'
+  - 'domain: unknown'
+  - 'time complexity: O(k^3 n)'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000321:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for H.W.Jensen 2001
+  url: ''
+- source_id: crossref_search:35c91c089aa20c54
+  url: https://doi.org/10.1007/s11024-005-5397-4
+  title: Jensen on Jensen
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: Jensen on Jensen'
+  short_quote: ''
+  digest: fcb6a84a20d51739
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

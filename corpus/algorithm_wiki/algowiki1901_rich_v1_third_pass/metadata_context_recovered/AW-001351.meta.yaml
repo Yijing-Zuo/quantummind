@@ -1,0 +1,62 @@
+algorithm_family: unknown
+algorithm_id: AW-001351
+approximate: '0'
+approximation_factor: ''
+blind_name: Algorithm Wiki public task AW-001351
+canonical_name: Solomonik, Demmel (Classical 2.5D)
+computational_model: synchronous communication
+domain: unknown
+extracted_description: ''
+extraction_version: algorithm-wiki-rich-third-pass-context-v1
+family: unknown
+inferred_access_model: random_access_string
+inferred_ambiguities:
+- Some details are reconstructed from AlgorithmWiki metadata rather than an independently fetched full public description.
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.
+inferred_input_model: explicit_data_structure_problem
+inferred_output_contract: data_structure_output
+inferred_problem_statement: 'Solomonik, Demmel (Classical 2.5D) is treated as a source-saturated AlgorithmWiki row for maintain a data structure supporting the named operations Input semantics: A set of records and operation sequence for insert, delete, query, or search operations. Output semantics: A maintained representation and answers to the supported queries.'
+inferred_promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+inferred_size_parameters:
+- p = stated number of processors (p)
+number_of_processors: p
+page_digest: ''
+page_fetch_status: not_found
+page_url: ''
+parameter_definitions: ''
+problem_name: unknown
+quality_flags:
+- has_complexity_semantics
+- has_size_parameters
+- has_computational_model
+quality_score: 100
+randomized: '0'
+readiness: READY_PUBLIC_CONTEXT
+review_reasons:
+- missing_problem_statement
+- unknown_input_model
+- unknown_access_model
+- unknown_output_contract
+- insufficient_algorithm_level_structure
+source_link: https://www2.eecs.berkeley.edu/Pubs/TechRpts/2011/EECS-2011-10.pdf
+source_link_type: pdf
+space_complexity: ''
+span_depth: O(n^3/p)
+time_complexity: O(n^3/p)
+variation: ''
+work: O(n^3)
+year: '2011'
+rich_card_kind: context_recovered
+source_records_used:
+- AW-001351:algorithm_wiki_metadata
+- crossref_search:651d8a1370e2c1b7
+- skipped:4e479823f10567c1
+- crossref_search:100e58fed52c64c6
+source_count: 4
+source_quality: HIGH
+confidence_score: 100
+card_digest: c7e9dbf33117dd71
+third_pass_rule: third_pass_reuse_data_structure
+saturation_status: RECOVERED_CONTEXT

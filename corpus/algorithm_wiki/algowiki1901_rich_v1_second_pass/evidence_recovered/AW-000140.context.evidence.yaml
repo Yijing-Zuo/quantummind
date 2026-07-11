@@ -1,0 +1,62 @@
+id: AW-000140
+kind: context_recovered
+algorithm_id: AW-000140
+algorithm_name: Bitap algorithm
+source_records:
+- access_status: metadata_only
+  digest: 9dedec8308f24c92
+  extracted_facts:
+  - 'AlgorithmWiki row name: Bitap algorithm'
+  - 'domain: unknown'
+  - 'time complexity: O(mn)'
+  - 'space complexity: O(m)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: m: pattern length, n: text length'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000140:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Bitap algorithm
+  url: https://iiif.library.cmu.edu/file/Newell_box00099_fld07561_doc0001/Newell_box00099_fld07561_doc0001.pdf
+- source_id: crossref_search:9e0b1f692916c5c6
+  url: https://doi.org/10.1007/978-981-96-9203-3_42
+  title: Optimization of the Bitap Algorithm for High-Performance Pattern Matching in DNA Sequences
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: Optimization of the Bitap Algorithm for High-Performance Pattern Matching in DNA Sequences'
+  short_quote: ''
+  digest: 0a18ef5613463061
+web_query_attempts:
+- query: '"Bitap algorithm" algorithm'
+  method: search_plan
+  status: recorded
+- query: '"Bitap algorithm" input output'
+  method: search_plan
+  status: recorded
+- query: '"Bitap algorithm" time complexity'
+  method: search_plan
+  status: recorded
+- query: '"Bitap algorithm" pseudocode'
+  method: search_plan
+  status: recorded
+- query: '"Bitap algorithm" problem'
+  method: search_plan
+  status: recorded
+- query: '"Bitap algorithm" PDF metadata abstract'
+  method: search_plan
+  status: recorded
+- query: https://iiif.library.cmu.edu/file/Newell_box00099_fld07561_doc0001/Newell_box00099_fld07561_doc0001.pdf
+  method: search_plan
+  status: recorded
+- query: Bitap algorithm algorithm
+  method: crossref_title_search
+  status: fetched
+- query: Bitap algorithm algorithm
+  method: wikipedia_summary_search
+  status: failed_or_not_relevant
+extracted_problem_statement: 'Bitap algorithm is reconstructed as a classical string task. Problem/task: find occurrences of a pattern in a text Input semantics: A finite text string, a finite pattern string, and alphabet/hash/preprocessing parameters when stated. Output semantics: One or more occurrence positions or a report that no occurrence exists.'
+extracted_algorithm_summary: 'Bitap algorithm is treated as the named AlgorithmWiki variant for find occurrences of a pattern in a text Classical complexity metadata: time O(mn); space O(m). Public metadata/source title support includes Optimization of the Bitap Algorithm for High-Performance Pattern Matching in DNA Sequences.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

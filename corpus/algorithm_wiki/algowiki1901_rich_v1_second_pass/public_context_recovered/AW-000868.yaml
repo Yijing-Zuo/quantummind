@@ -1,0 +1,13 @@
+statement: 'RC5 is included as a named whole-algorithm context card for a classical string task. The task is to analyze the classical input-output problem, not to certify an end-to-end improvement claim. Input semantics: A finite text string, a finite pattern string, and alphabet/hash/preprocessing parameters when stated. Output semantics: One or more occurrence positions or a report that no occurrence exists. Classical algorithm summary: RC5 is treated as the named AlgorithmWiki variant for find occurrences of a pattern in a text Classical complexity metadata: time O(n); space O(k+rw). Public metadata/source title support includes The RC5 encryption algorithm. Classical complexity recorded for this row: time O(n); space O(k+rw); computation model Word RAM. Dominant bottleneck: Text scanning, preprocessing tables or hashes, and match verification dominate. The useful review questions are whether the named structure exposes a smaller decision, witness, estimation, or algebraic subproblem;
+  whether the full output size dominates any asymptotic gain; and whether the stated access model is realistic for the original input. Provenance used for reconstruction includes public metadata or abstract sources such as The RC5 encryption algorithm; The RC5 encryption algorithm.'
+input_model: explicit_string_problem
+access_model: random_access_string
+output_contract: one_witness
+promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+size_parameters:
+- 'Parameter definition: n: text length (block size), k: key length, r: number of rounds, w: length of word'
+ambiguities:
+- Some details are reconstructed from AlgorithmWiki metadata rather than an independently fetched full public description.
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.

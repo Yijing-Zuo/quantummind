@@ -1,0 +1,20 @@
+case_id: QM-PB-007
+access_model: ordered_query_access
+output_contract: rank_or_position
+required_structure_ids: [ordered_search]
+expected_selected_primitive: ordered_search
+expected_speedup_class: CONSTANT_FACTOR_ONLY
+required_caveat_ids: [ordered_access_lower_bound]
+allowed_verdicts: [NEGATIVE]
+maximum_claim_scope: NONE
+expected_route: STOP
+forbidden_claim_ids: [unordered_search_speedup, asymptotic_class_change]
+evidence_mapping:
+  required_structure_ids: [hoyer_neerbek_shi_2002]
+  expected_selected_primitive: [hoyer_neerbek_shi_2002]
+  expected_speedup_class: [hoyer_neerbek_shi_2002]
+  required_caveat_ids: [hoyer_neerbek_shi_2002]
+  allowed_verdicts: [hoyer_neerbek_shi_2002]
+  maximum_claim_scope: [hoyer_neerbek_shi_2002]
+  expected_route: [hoyer_neerbek_shi_2002]
+  forbidden_claim_ids: [hoyer_neerbek_shi_2002]

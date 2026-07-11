@@ -1,0 +1,59 @@
+algorithm_id: AW-000702
+canonical_name: Gupta & Sarawagi CRF
+enrichment_status: SECOND_PASS_INSUFFICIENT
+review_reasons:
+- No second-pass rule could identify source-backed task semantics.
+source_records:
+- access_status: metadata_only
+  digest: 31a7c4be95491a99
+  extracted_facts:
+  - 'AlgorithmWiki row name: Gupta & Sarawagi CRF'
+  - 'domain: unknown'
+  - 'time complexity: O(n^3 k)'
+  - 'space complexity: O(nk)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of records, k: number of features (can be up to O(\sqrt{n}))'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000702:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Gupta & Sarawagi CRF
+  url: https://doi.org/10.14778/1687627.1687661
+- access_status: fetched
+  digest: 2b5ac7617fb44544
+  extracted_facts:
+  - 'DOI title: Answering table augmentation queries from unstructured lists on the web'
+  - 'published year: 2009'
+  - 'container title: Proceedings of the VLDB Endowment'
+  - 'abstract summary: We present the design of a system for assembling a table from a few example rows by harnessing the huge corpus of information-rich but unstructured lists on the web.'
+  reliability: HIGH
+  short_quote: We present the design of a system for assembling a table from a few example rows by harnessing the huge corpus of information-rich but
+  source_id: crossref:2acbed3fadaf19da
+  source_type: doi_metadata
+  title: Answering table augmentation queries from unstructured lists on the web
+  url: https://doi.org/10.14778/1687627.1687661
+- access_status: failed
+  digest: 478fe1f085c1f4c4
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:08889dea3f84d68a
+  source_type: doi_metadata
+  title: 'HTTP Error 403: Forbidden'
+  url: https://doi.org/10.14778/1687627.1687661
+- source_id: crossref_search:966ddbff67ebd1b0
+  url: https://doi.org/10.14778/1687627.1687661
+  title: Answering table augmentation queries from unstructured lists on the web
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: Answering table augmentation queries from unstructured lists on the web'
+  - 'abstract summary: We present the design of a system for assembling a table from a few example rows by harnessing the huge corpus of information-rich but unstructured lists on the web.'
+  short_quote: We present the design of a system for assembling a table from a few example rows by harnessing the huge corpus of information-rich but
+  digest: 7e8d058c6e804808
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

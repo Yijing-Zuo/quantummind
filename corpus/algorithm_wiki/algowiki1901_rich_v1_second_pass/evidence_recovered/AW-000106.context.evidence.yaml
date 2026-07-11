@@ -1,0 +1,62 @@
+id: AW-000106
+kind: context_recovered
+algorithm_id: AW-000106
+algorithm_name: Kadane's Algorithm
+source_records:
+- access_status: metadata_only
+  digest: 1b904819da557947
+  extracted_facts:
+  - 'AlgorithmWiki row name: Kadane''s Algorithm'
+  - 'domain: unknown'
+  - 'time complexity: O(n)'
+  - 'space complexity: O(1)'
+  - 'computational model: Word/Real RAM'
+  - 'parameter definitions: n: length of array'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000106:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Kadane's Algorithm
+  url: '-'
+- source_id: crossref_search:7471dbb34dcce68d
+  url: https://doi.org/10.1016/b0-08-043076-7/04718-5
+  title: Joseph B. Kadane, Statistics
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: Joseph B. Kadane, Statistics'
+  short_quote: ''
+  digest: 9dbf4eade43f5d96
+web_query_attempts:
+- query: '"Kadane''s Algorithm" algorithm'
+  method: search_plan
+  status: recorded
+- query: '"Kadane''s Algorithm" input output'
+  method: search_plan
+  status: recorded
+- query: '"Kadane''s Algorithm" time complexity'
+  method: search_plan
+  status: recorded
+- query: '"Kadane''s Algorithm" pseudocode'
+  method: search_plan
+  status: recorded
+- query: '"Kadane''s Algorithm" problem'
+  method: search_plan
+  status: recorded
+- query: '"Kadane''s Algorithm" PDF metadata abstract'
+  method: search_plan
+  status: recorded
+- query: '-'
+  method: search_plan
+  status: recorded
+- query: Kadane's Algorithm algorithm
+  method: crossref_title_search
+  status: fetched
+- query: Kadane's Algorithm algorithm
+  method: wikipedia_summary_search
+  status: failed_or_not_relevant
+extracted_problem_statement: 'Kadane''s Algorithm is reconstructed as a classical dynamic programming task. Problem/task: find a contiguous subarray with maximum sum Input semantics: A numeric array of length n. Output semantics: The maximum subarray value and optionally the interval attaining it.'
+extracted_algorithm_summary: 'Kadane''s Algorithm is treated as the named AlgorithmWiki variant for find a contiguous subarray with maximum sum Classical complexity metadata: time O(n); space O(1). Public metadata/source title support includes Joseph B. Kadane, Statistics.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

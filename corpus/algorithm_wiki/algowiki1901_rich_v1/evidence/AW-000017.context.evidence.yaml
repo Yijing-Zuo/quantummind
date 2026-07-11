@@ -1,0 +1,57 @@
+id: AW-000017
+kind: context
+algorithm_id: AW-000017
+algorithm_name: MotifSampler
+source_records:
+- access_status: metadata_only
+  digest: bfe7816330b53f95
+  extracted_facts:
+  - 'AlgorithmWiki row name: MotifSampler'
+  - 'domain: unknown'
+  - 'time complexity: O(nm)'
+  - 'space complexity: O(n + m)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of sequences, m: length of sequences'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000017:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for MotifSampler
+  url: https://www.ncbi.nlm.nih.gov/pubmed/12015892
+- access_status: fetched
+  digest: a109f458cc4a5208
+  extracted_facts:
+  - 'source page title: A Gibbs sampling method to detect overrepresented motifs in the upstream regions of coexpressed genes - PubMed'
+  - 'source page description: Microarray experiments can reveal important information about transcriptional regulation.'
+  reliability: LOW
+  short_quote: Microarray experiments can reveal important information about transcriptional regulation.
+  source_id: source:3733050a6e0fc191
+  source_type: other_public_source
+  title: A Gibbs sampling method to detect overrepresented motifs in the upstream regions of coexpressed genes - PubMed
+  url: https://www.ncbi.nlm.nih.gov/pubmed/12015892
+web_query_attempts:
+- method: search_plan
+  query: MotifSampler algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: MotifSampler algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: MotifSampler problem definition
+  status: recorded
+- method: search_plan
+  query: MotifSampler site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: MotifSampler algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://www.ncbi.nlm.nih.gov/pubmed/12015892
+  status: recorded
+- method: source_link_html_metadata
+  query: https://www.ncbi.nlm.nih.gov/pubmed/12015892
+  status: fetched
+extracted_problem_statement: 'MotifSampler is treated as a classical string task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with MotifSampler. Input semantics: One or more finite strings, sequences, patterns, or alphabets. Output semantics: The requested string matching, alignment, indexing, distance, or transformation result.'
+extracted_algorithm_summary: 'MotifSampler is a string algorithm record. Classical complexity metadata: time O(nm); space O(n + m). The stated classical model is Word RAM. Public metadata/source text adds: MotifSampler unknown unknown n: number of sequences, m: length of sequences O(nm) No public-ready summary is available because the row lacks enough task semantics.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

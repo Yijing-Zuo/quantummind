@@ -1,0 +1,12 @@
+statement: 'Serang is included as a named whole-algorithm context card for a classical data structures task. The task is to analyze the classical input-output problem, not to certify an end-to-end improvement claim. Input semantics: A finite set or multiset of integers with a target sum parameter. Output semantics: A decision result, feasible subset witness, count, or optimized subset value for the target-sum instance, depending on the row. Classical algorithm summary: Serang is a data structures algorithm record. Classical complexity metadata: time \tilde{O}(n \max(S)); space O(t\log t). Public metadata/source text adds: Serang unknown unknown n: number of elements in the set, S: the set, t: target sum \tilde{O}(n \max(S)) No public-ready summary is available because the row lacks enough task semantics. Classical complexity recorded for this row: time \tilde{O}(n \max(S)); space O(t\log t); computation model not stated. Dominant bottleneck: update/query costs, balancing, and representation
+  size. The useful review questions are whether the named structure exposes a smaller decision, witness, estimation, or algebraic subproblem; whether the full output size dominates any asymptotic gain; and whether the stated access model is realistic for the original input. Provenance used for reconstruction includes public metadata or abstract sources such as The Probabilistic Convolution Tree: Efficient Exact Bayesian Inference for Faster LC-MS/MS Protein Inference; The Probabilistic Convolution Tree: Efficient Exact Bayesian Inference for Faster LC-MS/MS Protein Inference | PLOS One.'
+input_model: explicit_combinatorial_problem
+access_model: offline_batch_queries
+output_contract: one_witness
+promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+size_parameters:
+- 'Parameter definition: n: number of elements in the set, S: the set, t: target sum'
+ambiguities:
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.

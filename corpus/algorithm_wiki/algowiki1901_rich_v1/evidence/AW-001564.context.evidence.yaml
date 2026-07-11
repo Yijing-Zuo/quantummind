@@ -1,0 +1,58 @@
+id: AW-001564
+kind: context
+algorithm_id: AW-001564
+algorithm_name: Tripathy, Ray
+source_records:
+- access_status: metadata_only
+  digest: 10e00e64bb3644ae
+  extracted_facts:
+  - 'AlgorithmWiki row name: Tripathy, Ray'
+  - 'domain: graph'
+  - 'time complexity: O(m*\log(n)/p)'
+  - 'computational model: multiprocessor system, shared memory'
+  - 'parameter definitions: n: number of nodes, m: number of edges, p: number of processors'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(m*\log(n)/p); work O(m*\log(n)); span/depth O(m*log(n)/p); processors p <=n. Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001564:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Tripathy, Ray
+  url: https://www.proquest.com/docview/1505018621
+- access_status: skipped
+  digest: ee7995d459eda7d0
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:22037d6296156924
+  source_type: other_public_source
+  title: fetch budget exhausted
+  url: https://www.proquest.com/docview/1505018621
+web_query_attempts:
+- method: search_plan
+  query: Tripathy, Ray algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Tripathy, Ray algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Tripathy, Ray problem definition
+  status: recorded
+- method: search_plan
+  query: Tripathy, Ray graph algorithm
+  status: recorded
+- method: search_plan
+  query: Tripathy, Ray site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Tripathy, Ray algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://www.proquest.com/docview/1505018621
+  status: recorded
+- method: source_link_html_metadata
+  query: https://www.proquest.com/docview/1505018621
+  status: skipped
+extracted_problem_statement: 'Tripathy, Ray is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Tripathy, Ray. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'Tripathy, Ray is a graph algorithm record. Classical complexity metadata: time O(m*\log(n)/p); work O(m*\log(n)); span/depth O(m*log(n)/p); processors p <=n. The stated classical model is multiprocessor system, shared memory. Public metadata/source text adds: Tripathy, Ray graph graph n: number of nodes, m: number of edges, p: number of processors O(m*\log(n)/p) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

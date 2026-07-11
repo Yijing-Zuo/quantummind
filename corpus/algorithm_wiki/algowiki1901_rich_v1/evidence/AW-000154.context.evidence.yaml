@@ -1,0 +1,62 @@
+id: AW-000154
+kind: context
+algorithm_id: AW-000154
+algorithm_name: Burst Sort
+source_records:
+- access_status: metadata_only
+  digest: 4fffb4c9b97efc5c
+  extracted_facts:
+  - 'AlgorithmWiki row name: Burst Sort'
+  - 'domain: sorting'
+  - 'time complexity: O(wn)'
+  - 'space complexity: O(wn)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: size of list, w: length of word'
+  - 'precard summary: Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model. Baseline: time O(wn); space O(wn). Bottleneck: comparison, distribution, and full-output movement costs dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000154:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Burst Sort
+  url: https://dl.acm.org/citation.cfm?doid=1005813.1041517
+- access_status: failed
+  digest: 70fcf69b6db20723
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:1eb2b7e8aedf0339
+  source_type: publisher_abstract
+  title: 'HTTP Error 403: Forbidden'
+  url: https://dl.acm.org/citation.cfm?doid=1005813.1041517
+web_query_attempts:
+- method: search_plan
+  query: Burst Sort algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Burst Sort algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Burst Sort problem definition
+  status: recorded
+- method: search_plan
+  query: Burst Sort sorting algorithm
+  status: recorded
+- method: search_plan
+  query: Burst Sort site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Burst Sort algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://dl.acm.org/citation.cfm?doid=1005813.1041517
+  status: recorded
+- method: source_link_html_metadata
+  query: https://dl.acm.org/citation.cfm?doid=1005813.1041517
+  status: failed
+- method: wikipedia_summary_search
+  query: Burst Sort algorithm
+  status: failed_or_not_relevant
+extracted_problem_statement: 'Burst Sort is treated as a classical sorting task for rich AlgorithmWiki discovery. Problem/task: sort the input sequence using the named classical sorting method. Input semantics: A finite array or list of comparable keys or records. Output semantics: The same items returned in nondecreasing order, usually as a full reordered sequence.'
+extracted_algorithm_summary: 'Burst Sort is a sorting algorithm record. Classical complexity metadata: time O(wn); space O(wn). The stated classical model is Word RAM. Public metadata/source text adds: Burst Sort sorting sorting n: size of list, w: length of word O(wn) Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

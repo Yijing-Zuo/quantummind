@@ -1,0 +1,46 @@
+id: AW-000177-P0138
+kind: probe
+algorithm_id: AW-000177
+algorithm_name: NIEVERGELT. J.. AND PREPARATA (Section 3)
+source_records:
+- access_status: metadata_only
+  digest: b0ec820ec88c46b4
+  extracted_facts:
+  - 'AlgorithmWiki row name: NIEVERGELT. J.. AND PREPARATA (Section 3)'
+  - 'domain: computational_geometry'
+  - 'time complexity: O(n \log n + k)'
+  - 'space complexity: O(n)'
+  - 'computational model: Real RAM'
+  - 'parameter definitions: n: number of line segments, k: number of points of intersection'
+  - 'precard summary: Given explicit geometric objects such as points, segments, or polygons, compute the requested geometric structure or witness set. Baseline: time O(n \log n + k); space O(n). Bottleneck: geometric predicates, ordering events, and output-sensitive structure size dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000177:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for NIEVERGELT. J.. AND PREPARATA (Section 3)
+  url: https://pdfs.semanticscholar.org/a571/cc92218132a1b0e65c2adbf663c79d015737.pdf
+web_query_attempts:
+- method: search_plan
+  query: NIEVERGELT. J.. AND PREPARATA (Section 3) algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: NIEVERGELT. J.. AND PREPARATA (Section 3) algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: NIEVERGELT. J.. AND PREPARATA (Section 3) problem definition
+  status: recorded
+- method: search_plan
+  query: NIEVERGELT. J.. AND PREPARATA (Section 3) computational geometry algorithm
+  status: recorded
+- method: search_plan
+  query: NIEVERGELT. J.. AND PREPARATA (Section 3) site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: NIEVERGELT. J.. AND PREPARATA (Section 3) algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://pdfs.semanticscholar.org/a571/cc92218132a1b0e65c2adbf663c79d015737.pdf
+  status: recorded
+extracted_problem_statement: 'NIEVERGELT. J.. AND PREPARATA (Section 3) is treated as a classical computational geometry task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with NIEVERGELT. J.. AND PREPARATA (Section 3). Input semantics: Explicit geometric objects such as points, line segments, polygons, or planar subdivisions. Output semantics: The requested geometric structure, simplified curve, clipping result, intersection set, hull, or diagram.'
+extracted_algorithm_summary: 'NIEVERGELT. J.. AND PREPARATA (Section 3) is a computational geometry algorithm record. Classical complexity metadata: time O(n \log n + k); space O(n). The stated classical model is Real RAM. Public metadata/source text adds: NIEVERGELT. J.. AND PREPARATA (Section 3) computational_geometry computational_geometry n: number of line segments, k: number of points of intersection O(n \log n + k) Given explicit geometric objects such as points, segments, or polygons, compute the requested geometric structure or witness set.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

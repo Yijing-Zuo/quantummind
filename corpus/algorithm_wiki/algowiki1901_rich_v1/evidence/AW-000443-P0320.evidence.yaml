@@ -1,0 +1,74 @@
+id: AW-000443-P0320
+kind: probe
+algorithm_id: AW-000443
+algorithm_name: Chandran and Hochbaum
+source_records:
+- access_status: metadata_only
+  digest: 795e226db6db81ed
+  extracted_facts:
+  - 'AlgorithmWiki row name: Chandran and Hochbaum'
+  - 'domain: graph'
+  - 'time complexity: O(\min(Vk, E)+\sqrt{k}\min(k^2, E))'
+  - 'space complexity: O(E)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: V: number of vertices, E: number of edges, (k: size of maximum matching)'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(\min(Vk, E)+\sqrt{k}\min(k^2, E)); space O(E). Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000443:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Chandran and Hochbaum
+  url: https://arxiv.org/abs/1105.1569
+- access_status: fetched
+  digest: d3f3bdf46879c1df
+  extracted_facts:
+  - 'arXiv title: Practical and theoretical improvements for bipartite matching using the pseudoflow algorithm'
+  - 'abstract summary: We show that the pseudoflow algorithm for maximum flow is particularly efficient for the bipartite matching problem both in theory and in practice.'
+  reliability: HIGH
+  short_quote: We show that the pseudoflow algorithm for maximum flow is particularly efficient for the bipartite matching problem both in theory and in practice.
+  source_id: arxiv:1105.1569
+  source_type: arxiv_abstract
+  title: Practical and theoretical improvements for bipartite matching using the pseudoflow algorithm
+  url: https://arxiv.org/abs/1105.1569
+- access_status: fetched
+  digest: 13081d654446678a
+  extracted_facts:
+  - 'source page title: [1105.1569] Practical and theoretical improvements for bipartite matching using the pseudoflow algorithm'
+  - 'source page description: Abstract page for arXiv paper 1105.1569: Practical and theoretical improvements for bipartite matching using the pseudoflow algorithm'
+  reliability: HIGH
+  short_quote: 'Abstract page for arXiv paper 1105.1569: Practical and theoretical improvements for bipartite matching using the pseudoflow algorithm'
+  source_id: source:ab1e631a691dd1ef
+  source_type: arxiv_abstract
+  title: '[1105.1569] Practical and theoretical improvements for bipartite matching using the pseudoflow algorithm'
+  url: https://arxiv.org/abs/1105.1569
+web_query_attempts:
+- method: search_plan
+  query: Chandran and Hochbaum algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Chandran and Hochbaum algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Chandran and Hochbaum problem definition
+  status: recorded
+- method: search_plan
+  query: Chandran and Hochbaum graph algorithm
+  status: recorded
+- method: search_plan
+  query: Chandran and Hochbaum site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Chandran and Hochbaum algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://arxiv.org/abs/1105.1569
+  status: recorded
+- method: arxiv_abstract_metadata
+  query: '1105.1569'
+  status: fetched
+- method: source_link_html_metadata
+  query: https://arxiv.org/abs/1105.1569
+  status: fetched
+extracted_problem_statement: 'Chandran and Hochbaum is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Chandran and Hochbaum. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: Pattern occurrence positions, matches, or the associated string-search report.'
+extracted_algorithm_summary: 'Chandran and Hochbaum is a graph algorithm record. Classical complexity metadata: time O(\min(Vk, E)+\sqrt{k}\min(k^2, E)); space O(E). The stated classical model is Word RAM. Public metadata/source text adds: Chandran and Hochbaum graph graph V: number of vertices, E: number of edges, (k: size of maximum matching) O(\min(Vk, E)+\sqrt{k}\min(k^2, E)) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

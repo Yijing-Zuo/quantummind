@@ -1,0 +1,17 @@
+statement: 'Ocone registry-v1 minimum-selection probe. This is an isolated query-model minimum-selection subroutine probe, not an end-to-end claim for the original algorithm. The represented task is to choose an argmin from a finite candidate set under a total ordered objective, using coherent value access introduced only for this probe. Source-backed parent context: An explicit feasible-region, objective, scheduling, assignment, or knapsack-style instance. An optimal or approximate feasible solution with its objective value or schedule/assignment representation. dominant bottleneck remains uncertain from the available public source metadata. Ocone search_witness_probe Ocone search-witness probe. This is a subroutine/query-model probe, not an end-to-end claim for the original algorithm. The probe asks whether a predicate over candidates can expose one valid witness, counterexample, path element, pattern occurrence, or feasible object. Original input context: An explicit feasible-region,
+  objective, scheduling, assignment, or knapsack-style instance. Origi It is not a full sorting, spanning-tree, shortest-path, nearest-neighbor-list, full optimization-output, or whole-algorithm speedup claim. Coherent value-oracle construction, objective encoding, and data-loading cost remain expert obligations.'
+input_model: finite_candidate_set_problem
+access_model: coherent_value_oracle
+output_contract: argmin_item
+promises:
+- finite_candidate_set
+- total_ordered_objective
+- coherent_objective_oracle
+- oracle_model_assumption
+size_parameters:
+- 'Parameter definition: n: number of dimensions in state space'
+- 'N: finite candidate set size for the isolated minimum-selection subroutine.'
+ambiguities:
+- This is an assumption-bearing query/subroutine probe and is not an end-to-end speedup claim.
+- The objective oracle and candidate indexing are introduced assumptions requiring expert review.
+- The parent task may still require full output, preprocessing, or data-loading work outside this probe.

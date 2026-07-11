@@ -1,0 +1,43 @@
+probe_id: AW-000017-P0014
+algorithm_id: AW-000017-P0014
+canonical_name: MotifSampler estimation_sampling_probe
+readiness: READY_PUBLIC_PROBE
+quality_score: 65
+probe_type: estimation_sampling_probe
+parent_algorithm_id: AW-000017
+parent_algorithm_name: MotifSampler
+source_records_used:
+- AW-000017:algorithm_wiki_metadata
+- source:3733050a6e0fc191
+introduced_assumptions:
+- coherent_estimation_oracle
+- bounded_random_variable
+- coherent_sampler
+missing_from_original_problem:
+- sampler reversibility
+- variance bound
+- query-to-runtime translation
+original_output_contract: full_solution
+probe_output_contract: additive_estimate
+not_end_to_end_claim: true
+expected_authority: query_or_subroutine_hypothesis_only
+why_probe_is_scientifically_interesting: Estimation tasks can expose query-level structure even when the full algorithm remains classical.
+why_probe_may_fail: Sampling or approximation may not be the bottleneck, or coherent access may be more expensive than the original method.
+inferred_input_model: explicit_string_problem
+inferred_access_model: coherent_estimation_oracle
+inferred_output_contract: additive_estimate
+inferred_size_parameters:
+- 'Parameter definition: n: number of sequences, m: length of sequences'
+inferred_promises:
+- bounded_random_variable
+- coherent_access
+- oracle_model_assumption
+inferred_ambiguities:
+- This probe is assumption-bearing and is not an end-to-end speedup claim.
+- variance bounds, coherent sampler construction, and tolerance mapping remain expert obligations
+- The parent context card and source records should be checked before live use.
+source_count: 2
+source_quality: HIGH
+confidence_score: 65
+card_digest: a744bd0d52795d2a
+extraction_version: algorithm-wiki-rich-probe-v1

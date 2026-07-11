@@ -1,0 +1,58 @@
+id: AW-001148
+kind: context
+algorithm_id: AW-001148
+algorithm_name: Matias, Vishkin (deterministic)
+source_records:
+- access_status: metadata_only
+  digest: d5368c1b67ac8132
+  extracted_facts:
+  - 'AlgorithmWiki row name: Matias, Vishkin (deterministic)'
+  - 'domain: parallel_algorithms'
+  - 'time complexity: O(\log{n})'
+  - 'computational model: min-CRCW PRAM'
+  - 'parameter definitions: n: size of list, integers in range 1..m'
+  - 'precard summary: Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model. Baseline: time O(\log{n}); work O(n \log{\log{m}}); span/depth O(\log{n}); processors n \log{\log{m}} / \log{n}. Bottleneck: work, span, communication, and processor-count assumptions dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001148:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Matias, Vishkin (deterministic)
+  url: https://www.sciencedirect.com/science/article/pii/019667749190034V
+- access_status: skipped
+  digest: 805a4d4f8c04b7df
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:3189f77a4ee6233e
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://www.sciencedirect.com/science/article/pii/019667749190034V
+web_query_attempts:
+- method: search_plan
+  query: Matias, Vishkin (deterministic) algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Matias, Vishkin (deterministic) algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Matias, Vishkin (deterministic) problem definition
+  status: recorded
+- method: search_plan
+  query: Matias, Vishkin (deterministic) parallel algorithms algorithm
+  status: recorded
+- method: search_plan
+  query: Matias, Vishkin (deterministic) site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Matias, Vishkin (deterministic) algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://www.sciencedirect.com/science/article/pii/019667749190034V
+  status: recorded
+- method: source_link_html_metadata
+  query: https://www.sciencedirect.com/science/article/pii/019667749190034V
+  status: skipped
+extracted_problem_statement: 'Matias, Vishkin (deterministic) is treated as a classical parallel algorithms task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Matias, Vishkin (deterministic). Input semantics: The classical input instance named by the row, together with processor/work/span parameters when stated. Output semantics: The same mathematical output as the underlying classical task, annotated by work/span when available.'
+extracted_algorithm_summary: 'Matias, Vishkin (deterministic) is a parallel algorithms algorithm record. Classical complexity metadata: time O(\log{n}); work O(n \log{\log{m}}); span/depth O(\log{n}); processors n \log{\log{m}} / \log{n}. The stated classical model is min-CRCW PRAM. Public metadata/source text adds: Matias, Vishkin (deterministic) parallel_algorithms parallel_algorithms n: size of list, integers in range 1..m O(\log{n}) Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

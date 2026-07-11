@@ -1,0 +1,43 @@
+id: AW-000770
+kind: context
+algorithm_id: AW-000770
+algorithm_name: Maybeck Peter S Extended Kalman Filter
+source_records:
+- access_status: metadata_only
+  digest: d09009a76c5beae1
+  extracted_facts:
+  - 'AlgorithmWiki row name: Maybeck Peter S Extended Kalman Filter'
+  - 'domain: image_processing'
+  - 'time complexity: O(n^2 \log^2 n)'
+  - 'space complexity: O(n^2)'
+  - 'computational model: Word/Real RAM'
+  - 'parameter definitions: n: number of dimensions in state space'
+  - 'precard summary: Given an explicit image or grid of pixel values, compute the transformed image, segmentation, or detected structure targeted by the record. Baseline: time O(n^2 \log^2 n); space O(n^2). Bottleneck: local neighborhood processing and writing image-sized outputs dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000770:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Maybeck Peter S Extended Kalman Filter
+  url: ''
+web_query_attempts:
+- method: search_plan
+  query: Maybeck Peter S Extended Kalman Filter algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Maybeck Peter S Extended Kalman Filter algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Maybeck Peter S Extended Kalman Filter problem definition
+  status: recorded
+- method: search_plan
+  query: Maybeck Peter S Extended Kalman Filter image processing algorithm
+  status: recorded
+- method: search_plan
+  query: Maybeck Peter S Extended Kalman Filter site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Maybeck Peter S Extended Kalman Filter algorithm wiki
+  status: recorded
+extracted_problem_statement: 'Maybeck Peter S Extended Kalman Filter is treated as a classical image processing task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Maybeck Peter S Extended Kalman Filter. Input semantics: An image, grid, point cloud, or signal representation with local or hierarchical processing parameters. Output semantics: A transformed image, segmentation, quantization, feature set, or detected structure.'
+extracted_algorithm_summary: 'Maybeck Peter S Extended Kalman Filter is a image processing algorithm record. Classical complexity metadata: time O(n^2 \log^2 n); space O(n^2). The stated classical model is Word/Real RAM. Public metadata/source text adds: Maybeck Peter S Extended Kalman Filter image_processing image_processing n: number of dimensions in state space O(n^2 \log^2 n) Given an explicit image or grid of pixel values, compute the transformed image, segmentation, or detected structure targeted by the record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

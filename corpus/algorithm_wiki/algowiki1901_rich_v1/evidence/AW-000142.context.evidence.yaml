@@ -1,0 +1,74 @@
+id: AW-000142
+kind: context
+algorithm_id: AW-000142
+algorithm_name: Quick Sort
+source_records:
+- access_status: metadata_only
+  digest: ac2c892cdd7c52f3
+  extracted_facts:
+  - 'AlgorithmWiki row name: Quick Sort'
+  - 'domain: sorting'
+  - 'time complexity: O(n^2)'
+  - 'space complexity: O(\log n)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: size of list'
+  - 'precard summary: Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model. Baseline: time O(n^2); space O(\log n). Bottleneck: comparison, distribution, and full-output movement costs dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000142:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Quick Sort
+  url: https://dl.acm.org/doi/10.1145/366622.366644
+- access_status: fetched
+  digest: 706a7113a554f56e
+  extracted_facts:
+  - 'DOI title: Algorithm 64: Quicksort'
+  - 'published year: 1961'
+  - 'container title: Communications of the ACM'
+  reliability: HIGH
+  short_quote: ''
+  source_id: crossref:babecd02d4890b5f
+  source_type: doi_metadata
+  title: 'Algorithm 64: Quicksort'
+  url: https://doi.org/10.1145/366622.366644
+- access_status: failed
+  digest: f5406d62d0111915
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:019c4ec4aeeb1937
+  source_type: publisher_abstract
+  title: 'HTTP Error 403: Forbidden'
+  url: https://dl.acm.org/doi/10.1145/366622.366644
+web_query_attempts:
+- method: search_plan
+  query: Quick Sort algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Quick Sort algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Quick Sort problem definition
+  status: recorded
+- method: search_plan
+  query: Quick Sort sorting algorithm
+  status: recorded
+- method: search_plan
+  query: Quick Sort site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Quick Sort algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://dl.acm.org/doi/10.1145/366622.366644
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1145/366622.366644
+  status: fetched
+- method: source_link_html_metadata
+  query: https://dl.acm.org/doi/10.1145/366622.366644
+  status: failed
+extracted_problem_statement: 'Quick Sort is treated as a classical sorting task for rich AlgorithmWiki discovery. Problem/task: sort the input sequence using the named classical sorting method. Input semantics: A finite array or list of comparable keys or records. Output semantics: The same items returned in nondecreasing order, usually as a full reordered sequence.'
+extracted_algorithm_summary: 'Quick Sort is a sorting algorithm record. Classical complexity metadata: time O(n^2); space O(\log n). The stated classical model is Word RAM. Public metadata/source text adds: Quick Sort sorting sorting n: size of list O(n^2) Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

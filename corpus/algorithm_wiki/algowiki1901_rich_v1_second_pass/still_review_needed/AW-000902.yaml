@@ -1,0 +1,47 @@
+algorithm_id: AW-000902
+canonical_name: ''
+enrichment_status: SECOND_PASS_INSUFFICIENT
+review_reasons:
+- No second-pass rule could identify source-backed task semantics.
+source_records:
+- access_status: metadata_only
+  digest: 7fead5f98a92d026
+  extracted_facts:
+  - 'domain: unknown'
+  - 'time complexity: O(n^3 / log^2.25 n)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: dimension of the two square matrices'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000902:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: 'AlgorithmWiki metadata for '
+  url: https://dl.acm.org/doi/pdf/10.1145/3186893, Theorem 1.4
+- access_status: fetched
+  digest: aa184117cb2dba7a
+  extracted_facts:
+  - 'DOI title: Subcubic Equivalences Between Path, Matrix, and Triangle Problems'
+  - 'published year: 2018'
+  - 'container title: Journal of the ACM'
+  - "abstract summary: \u2022The all-pairs shortest paths problem on weighted digraphs (APSP)."
+  reliability: HIGH
+  short_quote: "\u2022The all-pairs shortest paths problem on weighted digraphs (APSP)."
+  source_id: crossref:83a787cd3c0606aa
+  source_type: doi_metadata
+  title: Subcubic Equivalences Between Path, Matrix, and Triangle Problems
+  url: https://doi.org/10.1145/3186893
+- source_id: crossref_search:3aa3f56d8770f460
+  url: https://doi.org/10.1145/3186893
+  title: Subcubic Equivalences Between Path, Matrix, and Triangle Problems
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: Subcubic Equivalences Between Path, Matrix, and Triangle Problems'
+  - "abstract summary: \u2022The all-pairs shortest paths problem on weighted digraphs (APSP)."
+  short_quote: "\u2022The all-pairs shortest paths problem on weighted digraphs (APSP)."
+  digest: 5d538ee9789242d8
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

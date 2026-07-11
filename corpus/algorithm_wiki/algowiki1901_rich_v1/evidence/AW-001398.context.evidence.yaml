@@ -1,0 +1,72 @@
+id: AW-001398
+kind: context
+algorithm_id: AW-001398
+algorithm_name: Atallah, Goodrich (2)
+source_records:
+- access_status: metadata_only
+  digest: 19e6a0328b581e50
+  extracted_facts:
+  - 'AlgorithmWiki row name: Atallah, Goodrich (2)'
+  - 'domain: computational_geometry'
+  - 'time complexity: O(\log n \log \log n)'
+  - 'space complexity: O(n+k) total'
+  - 'computational model: CRCW PRAM'
+  - 'parameter definitions: n: number of line segments'
+  - 'precard summary: Given explicit geometric objects such as points, segments, or polygons, compute the requested geometric structure or witness set. Baseline: time O(\log n \log \log n); space O(n+k) total; work O(n \log n \log \log n); span/depth O(log n log log n); processors O(n). Bottleneck: geometric predicates, ordering events, and output-sensitive structure size dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001398:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Atallah, Goodrich (2)
+  url: https://dl.acm.org/doi/10.1145/10515.10539
+- access_status: skipped
+  digest: 1c6dd1e25e180189
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:d5dd7be0ac3ae96a
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1145/10515.10539
+- access_status: skipped
+  digest: e5b518ee805512e6
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:28fa9a79f0faca06
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://dl.acm.org/doi/10.1145/10515.10539
+web_query_attempts:
+- method: search_plan
+  query: Atallah, Goodrich (2) algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Atallah, Goodrich (2) algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Atallah, Goodrich (2) problem definition
+  status: recorded
+- method: search_plan
+  query: Atallah, Goodrich (2) computational geometry algorithm
+  status: recorded
+- method: search_plan
+  query: Atallah, Goodrich (2) site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Atallah, Goodrich (2) algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://dl.acm.org/doi/10.1145/10515.10539
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1145/10515.10539
+  status: skipped
+- method: source_link_html_metadata
+  query: https://dl.acm.org/doi/10.1145/10515.10539
+  status: skipped
+extracted_problem_statement: 'Atallah, Goodrich (2) is treated as a classical computational geometry task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Atallah, Goodrich (2). Input semantics: Explicit geometric objects such as points, line segments, polygons, or planar subdivisions. Output semantics: The requested geometric structure, simplified curve, clipping result, intersection set, hull, or diagram.'
+extracted_algorithm_summary: 'Atallah, Goodrich (2) is a computational geometry algorithm record. Classical complexity metadata: time O(\log n \log \log n); space O(n+k) total; work O(n \log n \log \log n); span/depth O(log n log log n); processors O(n). The stated classical model is CRCW PRAM. Public metadata/source text adds: Atallah, Goodrich (2) computational_geometry computational_geometry n: number of line segments O(\log n \log \log n) Given explicit geometric objects such as points, segments, or polygons, compute the requested geometric structure or witness set.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

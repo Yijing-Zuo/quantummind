@@ -1,0 +1,46 @@
+id: AW-001225
+kind: context
+algorithm_id: AW-001225
+algorithm_name: Gerbessiotis, Siniolakis
+source_records:
+- access_status: metadata_only
+  digest: d1eacec7c48e31b9
+  extracted_facts:
+  - 'AlgorithmWiki row name: Gerbessiotis, Siniolakis'
+  - 'domain: parallel_algorithms'
+  - 'time complexity: (1+2/\omeg_n) n \log{n}/p + O(n/p(\delta \log{\log{n}} +m^2 +\log{n}/ \log{n/p} + \log{n/p}/ \log^0.5{n}) + \log{n}\log{p}/ \log{n/p} + L\log{n} + L\log{n}\log{p}/ \log{n/p}) computation, O(L\log{n}\log{p}/\log{n/p} + L\log{n} + g n/p \log{n}/ \log{n/p} + g\log{n}\log{p}/ \log{n/p} + g\log{n} + n/p mg) communication if l=r, , (1-1/2^m)(1+2/\omega_n)n\log{n}/p + O(n/p \log^4{\log{n}} + n/p \log{n}/\log{n/p} + \log{n}\log{p}/\log{n/p} + L\log{n} + L\log{n}\log{p}/\log{n/p}) computation, O(gn/p \log^4{\log{n}} + L\log{n}\log{p}/\log{n/p} +L\log{n} + gn/p \log{n}/\log{n/p} + g\log{n}\log{p}/\log{n/p} + g\log{n}) communication if l=/r and N<=\log^{\log{\log{n}}}{n}'
+  - 'computational model: BSP'
+  - 'parameter definitions: n: number of ints in range [0,...R-1], p: number of processors, r=ceilling(lg R/ lg max{ceilling(n/p), t ceilling(log_t p)}), t: int 2<=t<=p'
+  - 'precard summary: Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model. Baseline: time (1+2/\omeg_n) n \log{n}/p + O(n/p(\delta \log{\log{n}} +m^2 +\log{n}/ \log{n/p} + \log{n/p}/ \log^0.5{n}) + \log{n}\log{p}/ \log{n/p} + L\log{n} + L\log{n}\log{p}/ \log{n/p}) computation, O(L\log{n}\log{p}/\log{n/p} + L\log{n} + g n/p \log{n}/ \log{n/p} + g\log{n}\log{p}/ \log{n/p} + g\log{n} + n/p mg) communication if l=r, , (1-1/2^m)(1+2/\omega_n)n\log{n}/p + O(n/p \log^4{\log{n}} + n/p \log{n}/\log{n/p} + \log{n}\log{p}/\log{n/p} + L\log{n} + L\log{n}\log{p}/\log{n/p}) computation, O(gn/p \log^4{\log{n}} + L\log{n}\log{p}/\log{n/p} +L\log{n} + gn/p \log{n}/\log{n/p} + g\log{n}\log{p}/\log{n/p} + g\log{n}) communication if l=/r and N<=\log^{\log{\log{n}}}{n}; processors p. Bottleneck: work, span, communication, and processor-count assumptions dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001225:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Gerbessiotis, Siniolakis
+  url: https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=a867d950e57eacf0da9dd17cc80073f124d438ce
+web_query_attempts:
+- method: search_plan
+  query: Gerbessiotis, Siniolakis algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Gerbessiotis, Siniolakis algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Gerbessiotis, Siniolakis problem definition
+  status: recorded
+- method: search_plan
+  query: Gerbessiotis, Siniolakis parallel algorithms algorithm
+  status: recorded
+- method: search_plan
+  query: Gerbessiotis, Siniolakis site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Gerbessiotis, Siniolakis algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=a867d950e57eacf0da9dd17cc80073f124d438ce
+  status: recorded
+extracted_problem_statement: 'Gerbessiotis, Siniolakis is treated as a classical parallel algorithms task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Gerbessiotis, Siniolakis. Input semantics: The classical input instance named by the row, together with processor/work/span parameters when stated. Output semantics: The same mathematical output as the underlying classical task, annotated by work/span when available.'
+extracted_algorithm_summary: 'Gerbessiotis, Siniolakis is a parallel algorithms algorithm record. Classical complexity metadata: time (1+2/\omeg_n) n \log{n}/p + O(n/p(\delta \log{\log{n}} +m^2 +\log{n}/ \log{n/p} + \log{n/p}/ \log^0.5{n}) + \log{n}\log{p}/ \log{n/p} + L\log{n} + L\log{n}\log{p}/ \log{n/p}) computation, O(L\log{n}\log{p}/\log{n/p} + L\log{n} + g n/p \log{n}/ \log{n/p} + g\log{n}\log{p}/ \log{n/p} + g\log{n} + n/p mg) communication if l=r, , (1-1/2^m)(1+2/\omega_n)n\log{n}/p + O(n/p \log^4{\log{n}} + n/p \log{n}/\log{n/p} + \log{n}\log{p}/\log{n/p} + L\log{n} + L\log{n}\log{p}/\log{n/p}) computation, O(gn/p \log^4{\log{n}} + L\log{n}\log{p}/\log{n/p} +L\log{n} + gn/p \log{n}/\log{n/p} + g\log{n}\log{p}/\log{n/p} + g\log{n}) communication if l=/r and N<=\log^{\log{\log{n}}}{n}; processors p. The stated classical model is BSP. Public metadata/source text adds: g{n/p} + \log{n}\log{p}/\log{n/p} + L\log{n} + L\log{n}\log{p}/\log{n/p}) computation, O(gn/p \log^4{\log{n}} + L\log{n}\log{p}/\log{n/p}
+  +L\log{n} + gn/p \log{n}/\log{n/p} + g\log{n}\log{p}/\log{n/p} + g\log{n}) communication if l=/r and N<=\log^{\log{\log{n}}}{n} Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

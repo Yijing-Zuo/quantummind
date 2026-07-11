@@ -1,0 +1,45 @@
+id: AW-001602
+kind: context
+algorithm_id: AW-001602
+algorithm_name: Wunderlich (continued fraction factoring)
+source_records:
+- access_status: metadata_only
+  digest: 47c1878d3b1a8f0a
+  extracted_facts:
+  - 'AlgorithmWiki row name: Wunderlich (continued fraction factoring)'
+  - 'domain: graph'
+  - 'time complexity: M^a / (r(a) a^2 log^2 M) / P'
+  - 'computational model: SIMD (ICL DAP)'
+  - 'parameter definitions: M: integer to be factorized, a = log x / log(sqrt(M)), x: the upper bound for the primes considered, r(a): Dickman''s function, P: number of processors'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time M^a / (r(a) a^2 log^2 M) / P; work M^a / (r(a) a^2 \log^2 M); span/depth M^a / (r(a) a^2 log^2 M) / P; processors P. Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001602:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Wunderlich (continued fraction factoring)
+  url: https://www.ams.org/journals/mcom/1985-44-169/S0025-5718-1985-0771047-0/S0025-5718-1985-0771047-0.pdf
+web_query_attempts:
+- method: search_plan
+  query: Wunderlich (continued fraction factoring) algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Wunderlich (continued fraction factoring) algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Wunderlich (continued fraction factoring) problem definition
+  status: recorded
+- method: search_plan
+  query: Wunderlich (continued fraction factoring) graph algorithm
+  status: recorded
+- method: search_plan
+  query: Wunderlich (continued fraction factoring) site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Wunderlich (continued fraction factoring) algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://www.ams.org/journals/mcom/1985-44-169/S0025-5718-1985-0771047-0/S0025-5718-1985-0771047-0.pdf
+  status: recorded
+extracted_problem_statement: 'Wunderlich (continued fraction factoring) is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Wunderlich (continued fraction factoring). Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'Wunderlich (continued fraction factoring) is a graph algorithm record. Classical complexity metadata: time M^a / (r(a) a^2 log^2 M) / P; work M^a / (r(a) a^2 \log^2 M); span/depth M^a / (r(a) a^2 log^2 M) / P; processors P. The stated classical model is SIMD (ICL DAP). Public metadata/source text adds: Wunderlich (continued fraction factoring) graph graph M: integer to be factorized, a = log x / log(sqrt(M)), x: the upper bound for the primes considered, r(a): Dickman''s function, P: number of processors M^a / (r(a) a^2 log^2 M) / P Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

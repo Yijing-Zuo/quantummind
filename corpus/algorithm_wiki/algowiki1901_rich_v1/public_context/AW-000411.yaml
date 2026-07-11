@@ -1,0 +1,12 @@
+statement: 'Apostolico and Guerra (Algorithm 2) is included as a named whole-algorithm context card for a classical string task. The task is to analyze the classical input-output problem, not to certify an end-to-end improvement claim. Input semantics: One or more finite strings, sequences, patterns, or alphabets. Output semantics: Pattern occurrence positions, matches, or the associated string-search report. Classical algorithm summary: Apostolico and Guerra (Algorithm 2) is a string algorithm record. Classical complexity metadata: time O(rm + sn + n \log s); space O(p + sn). The stated classical model is Word RAM. Public metadata/source text adds: Apostolico and Guerra (Algorithm 2) string string n: length of the longer input string, m: length of the shorter input string, r: length of the LCS, p: the number of dominant matches (AKA number of minimal candidates), i.e. Classical complexity recorded for this row: time O(rm + sn + n \log s); space O(p + sn); computation model Word RAM. Dominant
+  bottleneck: string scanning, dynamic-programming table size, preprocessing, and match reporting. The useful review questions are whether the named structure exposes a smaller decision, witness, estimation, or algebraic subproblem; whether the full output size dominates any asymptotic gain; and whether the stated access model is realistic for the original input. Provenance used for reconstruction includes public metadata or abstract sources such as The longest common subsequence problem revisited.'
+input_model: explicit_string_problem
+access_model: random_access_string
+output_contract: full_solution
+promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+size_parameters:
+- 'Parameter definition: n: length of the longer input string, m: length of the shorter input string, r: length of the LCS, p: the number of dominant matches (AKA number of minimal candidates), i.e. the total number of ordered pairs of positions at which the two sequences match, s: size of alphabet'
+ambiguities:
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.

@@ -1,0 +1,71 @@
+id: AW-001042
+kind: context
+algorithm_id: AW-001042
+algorithm_name: s^2-way merge sort - Thompson and Kung (1)
+source_records:
+- access_status: metadata_only
+  digest: 070805b8f2c86469
+  extracted_facts:
+  - 'AlgorithmWiki row name: s^2-way merge sort - Thompson and Kung (1)'
+  - 'domain: sorting'
+  - 'time complexity: O(n^0.5)'
+  - 'computational model: similar to ILLIAC IV machine, SIMD, mesh-connected array'
+  - 'parameter definitions: n: size of list (n=mxm, m assumed to be power of 2)'
+  - 'precard summary: Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model. Baseline: time O(n^0.5); work O(n^1.5); span/depth O(n^0.5); processors n. Bottleneck: comparison, distribution, and full-output movement costs dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001042:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for s^2-way merge sort - Thompson and Kung (1)
+  url: https://dl.acm.org/doi/abs/10.1145/359461.359481
+- access_status: skipped
+  digest: 3cf59187bef83b52
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:2deb336169211462
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1145/359461.359481
+- access_status: skipped
+  digest: 59c4e005f530f29e
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:a5a6d85ba0adf816
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://dl.acm.org/doi/abs/10.1145/359461.359481
+web_query_attempts:
+- method: search_plan
+  query: s^2-way merge sort - Thompson and Kung (1) algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: s^2-way merge sort - Thompson and Kung (1) algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: s^2-way merge sort - Thompson and Kung (1) problem definition
+  status: recorded
+- method: search_plan
+  query: s^2-way merge sort - Thompson and Kung (1) sorting algorithm
+  status: recorded
+- method: search_plan
+  query: s^2-way merge sort - Thompson and Kung (1) site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: s^2-way merge sort - Thompson and Kung (1) algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://dl.acm.org/doi/abs/10.1145/359461.359481
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1145/359461.359481
+  status: skipped
+- method: source_link_html_metadata
+  query: https://dl.acm.org/doi/abs/10.1145/359461.359481
+  status: skipped
+extracted_problem_statement: 's^2-way merge sort - Thompson and Kung (1) is treated as a classical sorting task for rich AlgorithmWiki discovery. Problem/task: sort the input sequence using the named classical sorting method. Input semantics: A finite array or list of comparable keys or records. Output semantics: The same items returned in nondecreasing order, usually as a full reordered sequence.'
+extracted_algorithm_summary: 's^2-way merge sort - Thompson and Kung (1) is a sorting algorithm record. Classical complexity metadata: time O(n^0.5); work O(n^1.5); span/depth O(n^0.5); processors n. The stated classical model is similar to ILLIAC IV machine, SIMD, mesh-connected array. Public metadata/source text adds: s^2-way merge sort - Thompson and Kung (1) sorting sorting n: size of list (n=mxm, m assumed to be power of 2) O(n^0.5) Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

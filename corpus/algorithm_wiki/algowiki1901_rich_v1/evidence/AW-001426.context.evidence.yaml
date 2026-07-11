@@ -1,0 +1,58 @@
+id: AW-001426
+kind: context
+algorithm_id: AW-001426
+algorithm_name: Amato, Goodrich, Ramos [randomized] (2)
+source_records:
+- access_status: metadata_only
+  digest: d10b6903bd887083
+  extracted_facts:
+  - 'AlgorithmWiki row name: Amato, Goodrich, Ramos [randomized] (2)'
+  - 'domain: computational_geometry'
+  - 'time complexity: O(n^(floor(d/2))+n \log n)'
+  - 'computational model: EREW PRAM'
+  - 'parameter definitions: n: number of line segments, h: number of points on the convex hull, d: number of dimensions'
+  - 'precard summary: Given explicit geometric objects such as points, segments, or polygons, compute the requested geometric structure or witness set. Baseline: time O(n^(floor(d/2))+n \log n); work O(n+n \log n); span/depth O(log n); processors O(n). Bottleneck: geometric predicates, ordering events, and output-sensitive structure size dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001426:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Amato, Goodrich, Ramos [randomized] (2)
+  url: https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=365724
+- access_status: skipped
+  digest: 9b71f005ecbce1d7
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:f3220f31f0f27ee3
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=365724
+web_query_attempts:
+- method: search_plan
+  query: Amato, Goodrich, Ramos [randomized] (2) algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Amato, Goodrich, Ramos [randomized] (2) algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Amato, Goodrich, Ramos [randomized] (2) problem definition
+  status: recorded
+- method: search_plan
+  query: Amato, Goodrich, Ramos [randomized] (2) computational geometry algorithm
+  status: recorded
+- method: search_plan
+  query: Amato, Goodrich, Ramos [randomized] (2) site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Amato, Goodrich, Ramos [randomized] (2) algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=365724
+  status: recorded
+- method: source_link_html_metadata
+  query: https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=365724
+  status: skipped
+extracted_problem_statement: 'Amato, Goodrich, Ramos [randomized] (2) is treated as a classical computational geometry task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Amato, Goodrich, Ramos [randomized] (2). Input semantics: Explicit geometric objects such as points, line segments, polygons, or planar subdivisions. Output semantics: The requested geometric structure, simplified curve, clipping result, intersection set, hull, or diagram.'
+extracted_algorithm_summary: 'Amato, Goodrich, Ramos [randomized] (2) is a computational geometry algorithm record. Classical complexity metadata: time O(n^(floor(d/2))+n \log n); work O(n+n \log n); span/depth O(log n); processors O(n). The stated classical model is EREW PRAM. Public metadata/source text adds: Amato, Goodrich, Ramos [randomized] (2) computational_geometry computational_geometry n: number of line segments, h: number of points on the convex hull, d: number of dimensions O(n^(floor(d/2))+n \log n) Given explicit geometric objects such as points, segments, or polygons, compute the requested geometric structure or witness set.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

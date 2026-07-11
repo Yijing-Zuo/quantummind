@@ -1,0 +1,60 @@
+id: AW-000889
+kind: context_recovered
+algorithm_id: AW-000889
+algorithm_name: Banker's Algorithm
+source_records:
+- access_status: metadata_only
+  digest: 6558f51288637a3a
+  extracted_facts:
+  - 'AlgorithmWiki row name: Banker''s Algorithm'
+  - 'domain: unknown'
+  - 'time complexity: O(mn^2)'
+  - 'space complexity: O(mn)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of processes, m: number of resource types'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000889:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Banker's Algorithm
+  url: https://www.cs.utexas.edu/users/EWD/ewd01xx/EWD108.PDF
+- source_id: crossref_search:2ed08b237584d4e4
+  url: https://doi.org/10.54209/jurnalkomputer.v12i02.22
+  title: Banker Algorithm Simulation Software
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: Banker Algorithm Simulation Software'
+  - 'abstract summary: Banker''s algorithm is an algorithm that models a bank in a small town dealing with a set of customers.'
+  short_quote: Banker's algorithm is an algorithm that models a bank in a small town dealing with a set of customers.
+  digest: 258de12b81b56fbb
+web_query_attempts:
+- query: '"Banker''s Algorithm" algorithm'
+  method: search_plan
+  status: recorded
+- query: '"Banker''s Algorithm" input output'
+  method: search_plan
+  status: recorded
+- query: '"Banker''s Algorithm" time complexity'
+  method: search_plan
+  status: recorded
+- query: '"Banker''s Algorithm" pseudocode'
+  method: search_plan
+  status: recorded
+- query: '"Banker''s Algorithm" problem'
+  method: search_plan
+  status: recorded
+- query: '"Banker''s Algorithm" PDF metadata abstract'
+  method: search_plan
+  status: recorded
+- query: https://www.cs.utexas.edu/users/EWD/ewd01xx/EWD108.PDF
+  method: search_plan
+  status: recorded
+- query: Banker's Algorithm algorithm
+  method: crossref_title_search
+  status: fetched
+extracted_problem_statement: 'Banker''s Algorithm is reconstructed as a classical parallel algorithms task. Problem/task: coordinate process access to a critical section without simultaneous entry Input semantics: A set of processes, request/release events, and shared-memory or message-passing assumptions. Output semantics: A protocol state sequence or decision granting safe critical-section access.'
+extracted_algorithm_summary: 'Banker''s Algorithm is treated as the named AlgorithmWiki variant for coordinate process access to a critical section without simultaneous entry Classical complexity metadata: time O(mn^2); space O(mn). Public metadata/source title support includes Banker Algorithm Simulation Software.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

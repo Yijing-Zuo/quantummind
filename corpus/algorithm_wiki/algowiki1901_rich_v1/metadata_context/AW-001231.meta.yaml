@@ -1,0 +1,58 @@
+algorithm_family: sorting
+algorithm_id: AW-001231
+approximate: ''
+approximation_factor: ''
+blind_name: Algorithm Wiki public task AW-001231
+canonical_name: Parallel Sorting by Exact Splitting (PSES) - Dian, Zhizhong
+computational_model: MIMD
+domain: sorting
+extracted_description: ''
+extraction_version: algorithm-wiki-rich-context-v1
+family: sorting
+inferred_access_model: random_access_array
+inferred_ambiguities:
+- No independent fetched public metadata source resolved this row beyond AlgorithmWiki metadata/source-link facts.
+- Some details are reconstructed from AlgorithmWiki metadata rather than an independently fetched full public description.
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.
+inferred_input_model: explicit_sequence_problem
+inferred_output_contract: full_sequence_output
+inferred_problem_statement: 'Parallel Sorting by Exact Splitting (PSES) - Dian, Zhizhong is treated as a classical sorting task for rich AlgorithmWiki discovery. Problem/task: sort the input sequence using the named classical sorting method. Input semantics: A finite array or list of comparable keys or records. Output semantics: The same items returned in nondecreasing order, usually as a full reordered sequence.'
+inferred_promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+inferred_size_parameters:
+- 'Parameter definition: n: size of list, p: number of processors'
+- p = stated number of processors (p)
+number_of_processors: p
+page_digest: ''
+page_fetch_status: not_found
+page_url: ''
+parameter_definitions: 'n: size of list, p: number of processors'
+problem_name: sorting
+quality_flags:
+- domain_inferred
+- problem_statement_inferred
+- io_access_output_inferred
+- has_complexity_semantics
+- has_size_parameters
+- has_computational_model
+quality_score: 100
+randomized: ''
+readiness: READY_PUBLIC_CONTEXT
+review_reasons: []
+source_link: https://ieeexplore.ieee.org/abstract/document/1300464
+source_link_type: unknown
+space_complexity: ''
+span_depth: O(n^0.5 \log^2{n^0.5})
+time_complexity: O(n/p \log{n/p} + p^2 \log{p}\log{n/2p} + n/p \log{p})
+variation: ''
+work: O(n\log{n/p} + p^2\log{p}\log{n/2p} + n\log{p}), 2(p-1)^2+4p(p-1)\log{n/2p} + p(p-1) +n) communication
+year: '2004'
+rich_card_kind: context
+source_records_used:
+- AW-001231:algorithm_wiki_metadata
+- skipped:407fb52a4cfaffe5
+source_count: 2
+source_quality: HIGH
+confidence_score: 100
+card_digest: 0c71f99a2f3ce3af

@@ -1,0 +1,85 @@
+id: AW-000353-TP0040
+kind: probe_recovered
+algorithm_id: AW-000353
+algorithm_name: Coplanar facets merging - Kalvin A. D. Cutting C. B. Haddad B. and Noz M. E. 1991
+source_records:
+- access_status: metadata_only
+  digest: f883571d416de352
+  extracted_facts:
+  - 'AlgorithmWiki row name: Coplanar facets merging - Kalvin A. D. Cutting C. B. Haddad B. and Noz M. E. 1991'
+  - 'domain: unknown'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000353:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Coplanar facets merging - Kalvin A. D. Cutting C. B. Haddad B. and Noz M. E. 1991
+  url: ''
+- access_status: fetched
+  digest: fc7c6603731b20b9
+  extracted_facts:
+  - 'Crossref title-search result: Noz'
+  reliability: MEDIUM
+  short_quote: ''
+  source_id: crossref_search:c8ddf820fedb8c8b
+  source_type: doi_metadata
+  title: Noz
+  url: https://doi.org/10.24894/sprengglossarium_n02878
+- source_id: crossref_search:bf8e2af72112f2f1
+  url: https://doi.org/10.24894/sprengglossarium_n02878
+  title: Noz
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title: Noz'
+  - 'published year: 2025'
+  - "container title: Johann Jakob Spreng, Allgemeines deutsches Glossarium. Historisch-etymologisches W\xF6rterbuch der deutschen Sprache online"
+  short_quote: "Crossref title: Noz published year: 2025 container title: Johann Jakob Spreng, Allgemeines deutsches Glossarium. Historisch-etymologisches W\xF6rterbuch der deutschen Sprache online"
+  digest: e7b5123bba7bbcee
+web_query_attempts:
+- cycle: 1
+  query: Coplanar facets merging - Kalvin A. D. Cutting C. B. Haddad B. and Noz M. E. 1991
+  source_family: algorithm_wiki_local
+  url_or_api_endpoint: ''
+  status: fetched
+  new_facts_added: 4
+  reason: local metadata
+- cycle: 1
+  query: Coplanar facets merging - Kalvin A. D. Cutting C. B. Haddad B. and Noz M. E. 1991
+  source_family: local_previous_cache
+  url_or_api_endpoint: ''
+  status: duplicate
+  new_facts_added: 0
+  reason: previous v1/second-pass sources reused
+- cycle: 1
+  query: Coplanar facets merging - Kalvin A. D. Cutting C. B. Haddad B. and Noz M. E. 1991
+  source_family: original_source
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: no original source link
+- cycle: 1
+  query: Coplanar facets merging - Kalvin A. D. Cutting C. B. Haddad B. and Noz M. E. 1991
+  source_family: crossref
+  url_or_api_endpoint: https://doi.org/10.24894/sprengglossarium_n02878
+  status: irrelevant
+  new_facts_added: 0
+  reason: Crossref metadata/title search
+- cycle: 1
+  query: Coplanar facets merging - Kalvin A. D. Cutting C. B. Haddad B. and Noz M. E. 1991
+  source_family: arxiv
+  url_or_api_endpoint: https://export.arxiv.org/api/query?max_results=1&search_query=ti:%22Coplanar+facets+merging+-+Kalvin+A.+D.+Cutting+C.+B.+Haddad+B.+and+Noz+M.+E.+1991%22
+  status: no_result
+  new_facts_added: 0
+  reason: arXiv title search returned no usable entry
+- cycle: 1
+  query: Coplanar facets merging - Kalvin A. D. Cutting C. B. Haddad B. and Noz M. E. 1991
+  source_family: wikipedia
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: Wikipedia search returned no relevant page
+extracted_problem_statement: 'Coplanar facets merging - Kalvin A. D. Cutting C. B. Haddad B. and Noz M. E. 1991 is treated as a source-saturated AlgorithmWiki row for simplify or retile a geometric mesh while preserving selected shape properties Input semantics: A polygonal or triangular mesh with vertices, edges, faces, and simplification/error parameters. Output semantics: A simplified mesh, merged-facet representation, vertex-clustered mesh, or retiled surface.'
+extracted_algorithm_summary: 'Coplanar facets merging - Kalvin A. D. Cutting C. B. Haddad B. and Noz M. E. 1991 is reconstructed as a classical computational geometry task. The source-backed title/name/fact record supports the task: simplify or retile a geometric mesh while preserving selected shape properties.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

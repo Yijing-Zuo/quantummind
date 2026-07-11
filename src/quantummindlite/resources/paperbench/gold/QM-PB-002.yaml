@@ -1,0 +1,20 @@
+case_id: QM-PB-002
+access_model: coherent_estimation_oracle
+output_contract: additive_estimate
+required_structure_ids: [bounded_mean_estimation]
+expected_selected_primitive: amplitude_estimation
+expected_speedup_class: ASYMPTOTIC
+required_caveat_ids: [coherent_access, precision_dependence]
+allowed_verdicts: [POSITIVE]
+maximum_claim_scope: QUERY
+expected_route: EXPERT_REVIEW
+forbidden_claim_ids: [end_to_end_speedup_proven, exact_counting_no_precision_cost]
+evidence_mapping:
+  required_structure_ids: [brassard_hoyer_mosca_tapp_2002]
+  expected_selected_primitive: [brassard_hoyer_mosca_tapp_2002]
+  expected_speedup_class: [brassard_hoyer_mosca_tapp_2002]
+  required_caveat_ids: [brassard_hoyer_mosca_tapp_2002]
+  allowed_verdicts: [brassard_hoyer_mosca_tapp_2002]
+  maximum_claim_scope: [brassard_hoyer_mosca_tapp_2002]
+  expected_route: [brassard_hoyer_mosca_tapp_2002]
+  forbidden_claim_ids: [brassard_hoyer_mosca_tapp_2002]

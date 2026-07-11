@@ -1,0 +1,58 @@
+id: AW-001577
+kind: context
+algorithm_id: AW-001577
+algorithm_name: Dhulipala, Blelloch, Shun (2)
+source_records:
+- access_status: metadata_only
+  digest: de9e5cfe62f07a2b
+  extracted_facts:
+  - 'AlgorithmWiki row name: Dhulipala, Blelloch, Shun (2)'
+  - 'domain: parallel_algorithms'
+  - 'time complexity: O(r_{src} + |E|) whp'
+  - 'computational model: work-depth CRCW'
+  - 'parameter definitions: r_{src}: eccentricity from src longest SP dist bet src and any reachable vertex v'
+  - 'precard summary: Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model. Baseline: time O(r_{src} + |E|) whp; work expected O(r_{src} \log |V|); span/depth O(r_{src} + |E|) whp. Bottleneck: work, span, communication, and processor-count assumptions dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001577:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Dhulipala, Blelloch, Shun (2)
+  url: https://dl.acm.org/doi/pdf/10.1145/3087556.3087580
+- access_status: skipped
+  digest: aab9cc49584de6c7
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:46ac7986aaa70665
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1145/3087556.3087580
+web_query_attempts:
+- method: search_plan
+  query: Dhulipala, Blelloch, Shun (2) algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Dhulipala, Blelloch, Shun (2) algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Dhulipala, Blelloch, Shun (2) problem definition
+  status: recorded
+- method: search_plan
+  query: Dhulipala, Blelloch, Shun (2) parallel algorithms algorithm
+  status: recorded
+- method: search_plan
+  query: Dhulipala, Blelloch, Shun (2) site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Dhulipala, Blelloch, Shun (2) algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://dl.acm.org/doi/pdf/10.1145/3087556.3087580
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1145/3087556.3087580
+  status: skipped
+extracted_problem_statement: 'Dhulipala, Blelloch, Shun (2) is treated as a classical parallel algorithms task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Dhulipala, Blelloch, Shun (2). Input semantics: The classical input instance named by the row, together with processor/work/span parameters when stated. Output semantics: The same mathematical output as the underlying classical task, annotated by work/span when available.'
+extracted_algorithm_summary: 'Dhulipala, Blelloch, Shun (2) is a parallel algorithms algorithm record. Classical complexity metadata: time O(r_{src} + |E|) whp; work expected O(r_{src} \log |V|); span/depth O(r_{src} + |E|) whp. The stated classical model is work-depth CRCW. Public metadata/source text adds: Dhulipala, Blelloch, Shun (2) parallel_algorithms parallel_algorithms r_{src}: eccentricity from src longest SP dist bet src and any reachable vertex v O(r_{src} + |E|) whp Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

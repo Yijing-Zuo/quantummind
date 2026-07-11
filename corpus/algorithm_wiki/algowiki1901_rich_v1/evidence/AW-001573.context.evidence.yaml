@@ -1,0 +1,45 @@
+id: AW-001573
+kind: context
+algorithm_id: AW-001573
+algorithm_name: Amato
+source_records:
+- access_status: metadata_only
+  digest: bb8864caeb82795c
+  extracted_facts:
+  - 'AlgorithmWiki row name: Amato'
+  - 'domain: parallel_algorithms'
+  - 'time complexity: O(\log^2 n)'
+  - 'computational model: EREW PRAM'
+  - 'parameter definitions: n: number of nodes, M(n): number of processors necessary to multiply two nxn integer matrices over a ring in O(log n) time'
+  - 'precard summary: Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model. Baseline: time O(\log^2 n); work M(n); span/depth O(log^2 n); processors M(n). Bottleneck: work, span, communication, and processor-count assumptions dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001573:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Amato
+  url: https://core.ac.uk/download/pdf/158320008.pdf
+web_query_attempts:
+- method: search_plan
+  query: Amato algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Amato algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Amato problem definition
+  status: recorded
+- method: search_plan
+  query: Amato parallel algorithms algorithm
+  status: recorded
+- method: search_plan
+  query: Amato site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Amato algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://core.ac.uk/download/pdf/158320008.pdf
+  status: recorded
+extracted_problem_statement: 'Amato is treated as a classical parallel algorithms task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Amato. Input semantics: The classical input instance named by the row, together with processor/work/span parameters when stated. Output semantics: The same mathematical output as the underlying classical task, annotated by work/span when available.'
+extracted_algorithm_summary: 'Amato is a parallel algorithms algorithm record. Classical complexity metadata: time O(\log^2 n); work M(n); span/depth O(log^2 n); processors M(n). The stated classical model is EREW PRAM. Public metadata/source text adds: Amato parallel_algorithms parallel_algorithms n: number of nodes, M(n): number of processors necessary to multiply two nxn integer matrices over a ring in O(log n) time O(\log^2 n) Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

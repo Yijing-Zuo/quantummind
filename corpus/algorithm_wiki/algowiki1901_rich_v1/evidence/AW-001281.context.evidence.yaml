@@ -1,0 +1,58 @@
+id: AW-001281
+kind: context
+algorithm_id: AW-001281
+algorithm_name: Kunapuli
+source_records:
+- access_status: metadata_only
+  digest: 47f5a667f38f65f7
+  extracted_facts:
+  - 'AlgorithmWiki row name: Kunapuli'
+  - 'domain: parallel_algorithms'
+  - 'time complexity: O(c)'
+  - 'computational model: Common CRCW PRAM'
+  - 'parameter definitions: n: size of list (real numbers), c: a constant'
+  - 'precard summary: Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model. Baseline: time O(c); work O(n^2 \log^c(n)); span/depth O(1); processors O(n^2 log^c(n)). Bottleneck: work, span, communication, and processor-count assumptions dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001281:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Kunapuli
+  url: https://www.proquest.com/docview/2760564135?fromopenview=true&pq-origsite=gscholar&parentSessionId=fzYBUp1qawX4RG%2BojNv7T8nMX1f%2BPbvngyjuJvA6luc%3D
+- access_status: skipped
+  digest: dc0a119e0ab6f9f1
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:9b27ceb3e06d0725
+  source_type: other_public_source
+  title: fetch budget exhausted
+  url: https://www.proquest.com/docview/2760564135?fromopenview=true&pq-origsite=gscholar&parentSessionId=fzYBUp1qawX4RG%2BojNv7T8nMX1f%2BPbvngyjuJvA6luc%3D
+web_query_attempts:
+- method: search_plan
+  query: Kunapuli algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Kunapuli algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Kunapuli problem definition
+  status: recorded
+- method: search_plan
+  query: Kunapuli parallel algorithms algorithm
+  status: recorded
+- method: search_plan
+  query: Kunapuli site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Kunapuli algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://www.proquest.com/docview/2760564135?fromopenview=true&pq-origsite=gscholar&parentSessionId=fzYBUp1qawX4RG%2BojNv7T8nMX1f%2BPbvngyjuJvA6luc%3D
+  status: recorded
+- method: source_link_html_metadata
+  query: https://www.proquest.com/docview/2760564135?fromopenview=true&pq-origsite=gscholar&parentSessionId=fzYBUp1qawX4RG%2BojNv7T8nMX1f%2BPbvngyjuJvA6luc%3D
+  status: skipped
+extracted_problem_statement: 'Kunapuli is treated as a classical parallel algorithms task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Kunapuli. Input semantics: The classical input instance named by the row, together with processor/work/span parameters when stated. Output semantics: The same mathematical output as the underlying classical task, annotated by work/span when available.'
+extracted_algorithm_summary: 'Kunapuli is a parallel algorithms algorithm record. Classical complexity metadata: time O(c); work O(n^2 \log^c(n)); span/depth O(1); processors O(n^2 log^c(n)). The stated classical model is Common CRCW PRAM. Public metadata/source text adds: Kunapuli parallel_algorithms parallel_algorithms n: size of list (real numbers), c: a constant O(c) Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

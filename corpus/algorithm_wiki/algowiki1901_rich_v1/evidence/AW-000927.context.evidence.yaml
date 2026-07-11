@@ -1,0 +1,59 @@
+id: AW-000927
+kind: context
+algorithm_id: AW-000927
+algorithm_name: Fredman & Tarjan
+source_records:
+- access_status: metadata_only
+  digest: 6eaaf869035f3ba7
+  extracted_facts:
+  - 'AlgorithmWiki row name: Fredman & Tarjan'
+  - 'domain: graph'
+  - "time complexity: O(E*beta(E, V)) where beta(m, n) = min(i such that log^(i)(n)\u2264m/n)"
+  - 'space complexity: O(E) auxiliary'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: V: number of vertices, E: number of edges, U: maximum edge weight'
+  - "precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(E*beta(E, V)) where beta(m, n) = min(i such that log^(i)(n)\u2264m/n); space O(E) auxiliary. Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates."
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000927:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Fredman & Tarjan
+  url: https://dl.acm.org/citation.cfm?id=28874
+- access_status: failed
+  digest: be80ca66779e4a05
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:cf1574d84c606ae7
+  source_type: publisher_abstract
+  title: 'HTTP Error 403: Forbidden'
+  url: https://dl.acm.org/citation.cfm?id=28874
+web_query_attempts:
+- method: search_plan
+  query: Fredman & Tarjan algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Fredman & Tarjan algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Fredman & Tarjan problem definition
+  status: recorded
+- method: search_plan
+  query: Fredman & Tarjan graph algorithm
+  status: recorded
+- method: search_plan
+  query: Fredman & Tarjan site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Fredman & Tarjan algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://dl.acm.org/citation.cfm?id=28874
+  status: recorded
+- method: source_link_html_metadata
+  query: https://dl.acm.org/citation.cfm?id=28874
+  status: failed
+extracted_problem_statement: 'Fredman & Tarjan is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Fredman & Tarjan. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: "Fredman & Tarjan is a graph algorithm record. Classical complexity metadata: time O(E*beta(E, V)) where beta(m, n) = min(i such that log^(i)(n)\u2264m/n); space O(E) auxiliary. The stated classical model is Word RAM. Public metadata/source text adds: Fredman & Tarjan graph graph V: number of vertices, E: number of edges, U: maximum edge weight O(E*beta(E, V)) where beta(m, n) = min(i such that log^(i)(n)\u2264m/n) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record."
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

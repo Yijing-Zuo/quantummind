@@ -1,0 +1,32 @@
+algorithm_id: AW-000307
+canonical_name: Spatio-temporal Geert Willems Tinne Tuytelaars and Luc van Gool (2008)
+enrichment_status: SECOND_PASS_INSUFFICIENT
+review_reasons:
+- No second-pass rule could identify source-backed task semantics.
+source_records:
+- access_status: metadata_only
+  digest: 066143984d708ce2
+  extracted_facts:
+  - 'AlgorithmWiki row name: Spatio-temporal Geert Willems Tinne Tuytelaars and Luc van Gool (2008)'
+  - 'domain: unknown'
+  - 'time complexity: O(n^2)'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000307:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Spatio-temporal Geert Willems Tinne Tuytelaars and Luc van Gool (2008)
+  url: ''
+- source_id: crossref_search:01a6aefae5088e41
+  url: https://doi.org/10.1093/benz/9780199773787.article.b00076856
+  title: Gool, Daniel van
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: Gool, Daniel van'
+  short_quote: ''
+  digest: 11cc062aa2a359f8
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

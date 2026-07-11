@@ -1,0 +1,32 @@
+algorithm_id: AW-000395
+canonical_name: Maximum a Posteriori Occupancy Mapping
+enrichment_status: SECOND_PASS_INSUFFICIENT
+review_reasons:
+- No second-pass rule could identify source-backed task semantics.
+source_records:
+- access_status: metadata_only
+  digest: 2d4a4d6cfb33270f
+  extracted_facts:
+  - 'AlgorithmWiki row name: Maximum a Posteriori Occupancy Mapping'
+  - 'domain: unknown'
+  - 'time complexity: O(n^3)'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000395:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Maximum a Posteriori Occupancy Mapping
+  url: ''
+- source_id: crossref_search:1c89dbcb40241526
+  url: https://doi.org/10.1007/978-3-319-95104-1_19
+  title: Maximum a Posteriori Based Evolutionary Algorithm
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: Maximum a Posteriori Based Evolutionary Algorithm'
+  short_quote: ''
+  digest: 4b1c22e033e887e1
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

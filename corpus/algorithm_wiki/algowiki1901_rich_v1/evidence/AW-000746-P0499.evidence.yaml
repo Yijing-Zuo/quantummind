@@ -1,0 +1,55 @@
+id: AW-000746-P0499
+kind: probe
+algorithm_id: AW-000746
+algorithm_name: SANDER P. V. SNYDER J. GORTER S. J. HOPPE 2001
+source_records:
+- access_status: metadata_only
+  digest: bb20951de34e576f
+  extracted_facts:
+  - 'AlgorithmWiki row name: SANDER P. V. SNYDER J. GORTER S. J. HOPPE 2001'
+  - 'domain: unknown'
+  - 'time complexity: O(n^2)'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000746:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for SANDER P. V. SNYDER J. GORTER S. J. HOPPE 2001
+  url: https://dl.acm.org/doi/pdf/10.1145/383259.383307
+- access_status: fetched
+  digest: 17dacee8fe7cb525
+  extracted_facts:
+  - 'DOI title: Texture mapping progressive meshes'
+  - 'published year: 2001'
+  - 'container title: Proceedings of the 28th annual conference on Computer graphics and interactive techniques'
+  reliability: HIGH
+  short_quote: ''
+  source_id: crossref:3099f537087e12b3
+  source_type: doi_metadata
+  title: Texture mapping progressive meshes
+  url: https://doi.org/10.1145/383259.383307
+web_query_attempts:
+- method: search_plan
+  query: SANDER P. V. SNYDER J. GORTER S. J. HOPPE 2001 algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: SANDER P. V. SNYDER J. GORTER S. J. HOPPE 2001 algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: SANDER P. V. SNYDER J. GORTER S. J. HOPPE 2001 problem definition
+  status: recorded
+- method: search_plan
+  query: SANDER P. V. SNYDER J. GORTER S. J. HOPPE 2001 site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: SANDER P. V. SNYDER J. GORTER S. J. HOPPE 2001 algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://dl.acm.org/doi/pdf/10.1145/383259.383307
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1145/383259.383307
+  status: fetched
+extracted_problem_statement: 'SANDER P. V. SNYDER J. GORTER S. J. HOPPE 2001 is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with SANDER P. V. SNYDER J. GORTER S. J. HOPPE 2001. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'SANDER P. V. SNYDER J. GORTER S. J. HOPPE 2001 is a graph algorithm record. Classical complexity metadata: time O(n^2). Public metadata/source text adds: SANDER P. V. SNYDER J. GORTER S. J. HOPPE 2001 unknown unknown O(n^2) No public-ready summary is available because the row lacks enough task semantics.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

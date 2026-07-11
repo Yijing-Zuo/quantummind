@@ -1,0 +1,60 @@
+algorithm_id: AW-000344
+canonical_name: topological watershed
+blind_name: Algorithm Wiki public task AW-000344
+year: '1997'
+domain: unknown
+family: unknown
+variation: ''
+problem_name: unknown
+algorithm_family: unknown
+time_complexity: O(n^2)
+space_complexity: ''
+computational_model: ''
+randomized: '0'
+approximate: '1'
+approximation_factor: ''
+parameter_definitions: ''
+span_depth: ''
+work: ''
+number_of_processors: ''
+source_link: ''
+source_link_type: unknown
+page_url: ''
+page_fetch_status: not_found
+page_digest: ''
+extracted_description: ''
+inferred_problem_statement: 'topological watershed is reconstructed as a classical image processing task. Problem/task: partition an image into coherent regions or labels Input semantics: An image grid with pixel intensities/features and model or merge/split parameters. Output semantics: A segmentation labeling, boundary set, or region hierarchy.'
+inferred_input_model: explicit_image_processing_problem
+inferred_access_model: explicit_input_instance
+inferred_output_contract: full_solution
+inferred_size_parameters:
+- 'n: primary input size parameter from the AlgorithmWiki complexity expression.'
+inferred_promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+- classical_approximation_algorithm
+inferred_ambiguities:
+- Some details are reconstructed from AlgorithmWiki metadata rather than an independently fetched full public description.
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.
+quality_score: 65
+quality_flags:
+- has_complexity_semantics
+- approximation_flag_preserved
+readiness: READY_PUBLIC_CONTEXT
+review_reasons:
+- missing_problem_statement
+- unknown_input_model
+- unknown_access_model
+- unknown_output_contract
+- missing_size_parameters
+- insufficient_algorithm_level_structure
+extraction_version: algorithm-wiki-rich-second-pass-context-v1
+rich_card_kind: context_recovered
+source_records_used:
+- AW-000344:algorithm_wiki_metadata
+- crossref_search:85fb7af32147c73b
+source_count: 2
+source_quality: HIGH
+confidence_score: 65
+card_digest: e0ee0d4f4a5074c0
+second_pass_rule: image_segmentation

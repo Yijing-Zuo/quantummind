@@ -1,0 +1,71 @@
+id: AW-001268
+kind: context
+algorithm_id: AW-001268
+algorithm_name: Histogram Sort with Sampling (HSS) - Harsh, Kale, Solomonik
+source_records:
+- access_status: metadata_only
+  digest: 961d076a311f9e7c
+  extracted_facts:
+  - 'AlgorithmWiki row name: Histogram Sort with Sampling (HSS) - Harsh, Kale, Solomonik'
+  - 'domain: sorting'
+  - 'time complexity: O(k) supersteps'
+  - 'computational model: BSP'
+  - 'parameter definitions: n: size of list, p: number of processors, k: number of rounds, epsilon: epsilon-balanced, normally O(1)'
+  - 'precard summary: Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model. Baseline: time O(k) supersteps; work O(kp(\log p/\epsilon)^(1/k)\log n) computational + O(kp(\log p/\epsilon)^(1/k)) communicstion; span/depth O(1) supersteps; processors p. Bottleneck: comparison, distribution, and full-output movement costs dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001268:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Histogram Sort with Sampling (HSS) - Harsh, Kale, Solomonik
+  url: https://dl.acm.org/doi/abs/10.1145/3323165.3323184?casa_token=OLHora1rGUwAAAAA:z0VGaR4DSjr1kzByhZhURzLjoje2SVXXD7YSGaQ7JiW6zeDLvp1Tis09aCFEuYcsEdJE1kK_xImXgg
+- access_status: skipped
+  digest: a20d10dffc416eeb
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:1b4a1306e25be8cc
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1145/3323165.3323184
+- access_status: skipped
+  digest: 6d1105001defa957
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:f15e7484d15f814c
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://dl.acm.org/doi/abs/10.1145/3323165.3323184?casa_token=OLHora1rGUwAAAAA:z0VGaR4DSjr1kzByhZhURzLjoje2SVXXD7YSGaQ7JiW6zeDLvp1Tis09aCFEuYcsEdJE1kK_xImXgg
+web_query_attempts:
+- method: search_plan
+  query: Histogram Sort with Sampling (HSS) - Harsh, Kale, Solomonik algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Histogram Sort with Sampling (HSS) - Harsh, Kale, Solomonik algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Histogram Sort with Sampling (HSS) - Harsh, Kale, Solomonik problem definition
+  status: recorded
+- method: search_plan
+  query: Histogram Sort with Sampling (HSS) - Harsh, Kale, Solomonik sorting algorithm
+  status: recorded
+- method: search_plan
+  query: Histogram Sort with Sampling (HSS) - Harsh, Kale, Solomonik site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Histogram Sort with Sampling (HSS) - Harsh, Kale, Solomonik algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://dl.acm.org/doi/abs/10.1145/3323165.3323184?casa_token=OLHora1rGUwAAAAA:z0VGaR4DSjr1kzByhZhURzLjoje2SVXXD7YSGaQ7JiW6zeDLvp1Tis09aCFEuYcsEdJE1kK_xImXgg
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1145/3323165.3323184
+  status: skipped
+- method: source_link_html_metadata
+  query: https://dl.acm.org/doi/abs/10.1145/3323165.3323184?casa_token=OLHora1rGUwAAAAA:z0VGaR4DSjr1kzByhZhURzLjoje2SVXXD7YSGaQ7JiW6zeDLvp1Tis09aCFEuYcsEdJE1kK_xImXgg
+  status: skipped
+extracted_problem_statement: 'Histogram Sort with Sampling (HSS) - Harsh, Kale, Solomonik is treated as a classical sorting task for rich AlgorithmWiki discovery. Problem/task: sort the input sequence using the named classical sorting method. Input semantics: A finite array or list of comparable keys or records. Output semantics: The same items returned in nondecreasing order, usually as a full reordered sequence.'
+extracted_algorithm_summary: 'Histogram Sort with Sampling (HSS) - Harsh, Kale, Solomonik is a sorting algorithm record. Classical complexity metadata: time O(k) supersteps; work O(kp(\log p/\epsilon)^(1/k)\log n) computational + O(kp(\log p/\epsilon)^(1/k)) communicstion; span/depth O(1) supersteps; processors p. The stated classical model is BSP. Public metadata/source text adds: Histogram Sort with Sampling (HSS) - Harsh, Kale, Solomonik sorting sorting n: size of list, p: number of processors, k: number of rounds, epsilon: epsilon-balanced, normally O(1) O(k) supersteps Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

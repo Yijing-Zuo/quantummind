@@ -1,0 +1,71 @@
+id: AW-000429-P0309
+kind: probe
+algorithm_id: AW-000429
+algorithm_name: Commentz-Walter Algorithm
+source_records:
+- access_status: metadata_only
+  digest: 843f62f3dabb9d67
+  extracted_facts:
+  - 'AlgorithmWiki row name: Commentz-Walter Algorithm'
+  - 'domain: unknown'
+  - 'time complexity: O(mn)'
+  - 'space complexity: O(km)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: m: pattern length, n: length of searchable text, k: number of keywords'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000429:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Commentz-Walter Algorithm
+  url: https://link.springer.com/chapter/10.1007/3-540-09510-1_10
+- access_status: fetched
+  digest: ae5e93ab0d8c5224
+  extracted_facts:
+  - 'DOI title: A string matching algorithm fast on the average'
+  - 'published year: 1979'
+  - 'container title: Lecture Notes in Computer Science'
+  reliability: HIGH
+  short_quote: ''
+  source_id: crossref:a1a3d3b84490c97b
+  source_type: doi_metadata
+  title: A string matching algorithm fast on the average
+  url: https://doi.org/10.1007/3-540-09510-1_10
+- access_status: skipped
+  digest: 1b617ad4757c85c0
+  extracted_facts:
+  - robots.txt disallowed fetch
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:5003d777e19dd234
+  source_type: publisher_abstract
+  title: robots.txt disallowed fetch
+  url: https://link.springer.com/chapter/10.1007/3-540-09510-1_10
+web_query_attempts:
+- method: search_plan
+  query: Commentz-Walter Algorithm algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Commentz-Walter Algorithm algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Commentz-Walter Algorithm problem definition
+  status: recorded
+- method: search_plan
+  query: Commentz-Walter Algorithm site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Commentz-Walter Algorithm algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://link.springer.com/chapter/10.1007/3-540-09510-1_10
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1007/3-540-09510-1_10
+  status: fetched
+- method: source_link_html_metadata
+  query: https://link.springer.com/chapter/10.1007/3-540-09510-1_10
+  status: skipped
+extracted_problem_statement: 'Commentz-Walter Algorithm is treated as a classical string task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Commentz-Walter Algorithm. Input semantics: One or more finite strings, sequences, patterns, or alphabets. Output semantics: Pattern occurrence positions, matches, or the associated string-search report.'
+extracted_algorithm_summary: 'Commentz-Walter Algorithm is a string algorithm record. Classical complexity metadata: time O(mn); space O(km). The stated classical model is Word RAM. Public metadata/source text adds: Commentz-Walter Algorithm unknown unknown m: pattern length, n: length of searchable text, k: number of keywords O(mn) No public-ready summary is available because the row lacks enough task semantics.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

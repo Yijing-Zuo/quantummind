@@ -1,0 +1,31 @@
+algorithm_id: AW-000353
+canonical_name: Coplanar facets merging - Kalvin A. D. Cutting C. B. Haddad B. and Noz M. E. 1991
+enrichment_status: SECOND_PASS_INSUFFICIENT
+review_reasons:
+- No second-pass rule could identify source-backed task semantics.
+source_records:
+- access_status: metadata_only
+  digest: f883571d416de352
+  extracted_facts:
+  - 'AlgorithmWiki row name: Coplanar facets merging - Kalvin A. D. Cutting C. B. Haddad B. and Noz M. E. 1991'
+  - 'domain: unknown'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000353:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Coplanar facets merging - Kalvin A. D. Cutting C. B. Haddad B. and Noz M. E. 1991
+  url: ''
+- source_id: crossref_search:c8ddf820fedb8c8b
+  url: https://doi.org/10.24894/sprengglossarium_n02878
+  title: Noz
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: Noz'
+  short_quote: ''
+  digest: fc7c6603731b20b9
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

@@ -1,0 +1,72 @@
+id: AW-001002
+kind: context
+algorithm_id: AW-001002
+algorithm_name: Scapegoat Tree
+source_records:
+- access_status: metadata_only
+  digest: eeae720158c0de19
+  extracted_facts:
+  - 'AlgorithmWiki row name: Scapegoat Tree'
+  - 'domain: data_structures'
+  - 'time complexity: O(n)'
+  - 'space complexity: O(1)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of nodes'
+  - 'precard summary: Given an explicit collection of keys, items, or offline operations, construct or return the data-structure output targeted by the record. Baseline: time O(n); space O(1). Bottleneck: updates, queries, balancing, and stored representation size dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001002:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Scapegoat Tree
+  url: https://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.138.4859
+- access_status: skipped
+  digest: f8d3d873f2851110
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:f2101ec928871862
+  source_type: textbook_or_course_notes
+  title: fetch budget exhausted
+  url: https://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.138.4859
+- access_status: skipped
+  digest: 74c3781e3fb277eb
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:b93e967b06b21faa
+  source_type: wikipedia
+  title: fetch budget exhausted
+  url: https://en.wikipedia.org/wiki/Scapegoat_Tree
+web_query_attempts:
+- method: search_plan
+  query: Scapegoat Tree algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Scapegoat Tree algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Scapegoat Tree problem definition
+  status: recorded
+- method: search_plan
+  query: Scapegoat Tree data structures algorithm
+  status: recorded
+- method: search_plan
+  query: Scapegoat Tree site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Scapegoat Tree algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.138.4859
+  status: recorded
+- method: source_link_html_metadata
+  query: https://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.138.4859
+  status: skipped
+- method: wikipedia_summary_search
+  query: Scapegoat Tree algorithm
+  status: skipped
+extracted_problem_statement: 'Scapegoat Tree is treated as a classical data structures task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Scapegoat Tree. Input semantics: A set of records plus update/query operations for the named data structure. Output semantics: A maintained data structure representation and answers to its supported queries.'
+extracted_algorithm_summary: 'Scapegoat Tree is a data structures algorithm record. Classical complexity metadata: time O(n); space O(1). The stated classical model is Word RAM. Public metadata/source text adds: Scapegoat Tree data_structures data_structures n: number of nodes O(n) Given an explicit collection of keys, items, or offline operations, construct or return the data-structure output targeted by the record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

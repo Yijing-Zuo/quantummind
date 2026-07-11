@@ -1,0 +1,58 @@
+id: AW-001170
+kind: context
+algorithm_id: AW-001170
+algorithm_name: Vaidyanathan, Hartmann, Varshney
+source_records:
+- access_status: metadata_only
+  digest: ad9a001823d3ea44
+  extracted_facts:
+  - 'AlgorithmWiki row name: Vaidyanathan, Hartmann, Varshney'
+  - 'domain: sorting'
+  - 'time complexity: O(t(n) \log{m})'
+  - 'computational model: PRAM'
+  - 'parameter definitions: n: size of list, m: size (in bits) of numbers (lower bounded by log(n) and upper bounded by poly of n), p(n) and t(n): number of processors and time needed for deterministic algo to sort n log(n)-bit numbers stably (integer sort) on the specific PRAM submodel'
+  - 'precard summary: Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model. Baseline: time O(t(n) \log{m}); work O(m t(n)p(n)/ \log{n}); span/depth O(t(n) \log{m}); processors mp(n)/( \log{n} \log{m}). Bottleneck: comparison, distribution, and full-output movement costs dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001170:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Vaidyanathan, Hartmann, Varshney
+  url: https://ieeexplore.ieee.org/abstract/document/262880
+- access_status: skipped
+  digest: 39de470c9e976aee
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:56608e09db5fb21b
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://ieeexplore.ieee.org/abstract/document/262880
+web_query_attempts:
+- method: search_plan
+  query: Vaidyanathan, Hartmann, Varshney algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Vaidyanathan, Hartmann, Varshney algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Vaidyanathan, Hartmann, Varshney problem definition
+  status: recorded
+- method: search_plan
+  query: Vaidyanathan, Hartmann, Varshney sorting algorithm
+  status: recorded
+- method: search_plan
+  query: Vaidyanathan, Hartmann, Varshney site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Vaidyanathan, Hartmann, Varshney algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://ieeexplore.ieee.org/abstract/document/262880
+  status: recorded
+- method: source_link_html_metadata
+  query: https://ieeexplore.ieee.org/abstract/document/262880
+  status: skipped
+extracted_problem_statement: 'Vaidyanathan, Hartmann, Varshney is treated as a classical sorting task for rich AlgorithmWiki discovery. Problem/task: sort the input sequence using the named classical sorting method. Input semantics: A finite array or list of comparable keys or records. Output semantics: The same items returned in nondecreasing order, usually as a full reordered sequence.'
+extracted_algorithm_summary: 'Vaidyanathan, Hartmann, Varshney is a sorting algorithm record. Classical complexity metadata: time O(t(n) \log{m}); work O(m t(n)p(n)/ \log{n}); span/depth O(t(n) \log{m}); processors mp(n)/( \log{n} \log{m}). The stated classical model is PRAM. Public metadata/source text adds: ting n: size of list, m: size (in bits) of numbers (lower bounded by log(n) and upper bounded by poly of n), p(n) and t(n): number of processors and time needed for deterministic algo to sort n log(n)-bit numbers stably (integer sort) on the specific PRAM submodel O(t(n) \log{m}) Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

@@ -1,0 +1,25 @@
+algorithm_id: AW-000747
+canonical_name: YAN J. Q. YANG X. SHI P. F 2006
+enrichment_status: WEB_INSUFFICIENT
+review_reasons:
+- missing_concrete_problem_statement
+- unknown_input_model
+- unknown_output_contract
+- unknown_access_model
+source_records:
+- access_status: metadata_only
+  digest: f43187bd2bbb812a
+  extracted_facts:
+  - 'AlgorithmWiki row name: YAN J. Q. YANG X. SHI P. F 2006'
+  - 'domain: unknown'
+  - 'time complexity: O(n^2)'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000747:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for YAN J. Q. YANG X. SHI P. F 2006
+  url: ''
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

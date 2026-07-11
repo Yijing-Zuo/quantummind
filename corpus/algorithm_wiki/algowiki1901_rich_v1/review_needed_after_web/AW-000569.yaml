@@ -1,0 +1,39 @@
+algorithm_id: AW-000569
+canonical_name: Brzozowski's algorithm
+enrichment_status: WEB_INSUFFICIENT
+review_reasons:
+- missing_concrete_problem_statement
+- unknown_input_model
+- unknown_output_contract
+- unknown_access_model
+source_records:
+- access_status: metadata_only
+  digest: 9c19023a579ca36b
+  extracted_facts:
+  - 'AlgorithmWiki row name: Brzozowski''s algorithm'
+  - 'domain: unknown'
+  - 'time complexity: O(2^n)'
+  - 'space complexity: O(2^n)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of states, k: size of alphabet'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000569:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Brzozowski's algorithm
+  url: https://www.semanticscholar.org/paper/Canonical-regular-expressions-and-minimal-state-for-Brzozowski/94def4233e1e8f15bab72e82708a03fd37233b14
+- access_status: fetched
+  digest: 940fa421ea800350
+  extracted_facts:
+  - 'source page title: https://www.semanticscholar.org/paper/Canonical-regular-expressions-and-minimal-state-for-Brzozowski/94def4233e1e8f15bab72e82708a03fd37233b14'
+  - 'source page description: In order to continue, we need to verify that you''re not a robot.'
+  reliability: LOW
+  short_quote: In order to continue, we need to verify that you're not a robot.
+  source_id: source:b8b1328a1e2812c0
+  source_type: other_public_source
+  title: https://www.semanticscholar.org/paper/Canonical-regular-expressions-and-minimal-state-for-Brzozowski/94def4233e1e8f15bab72e82708a03fd37233b14
+  url: https://www.semanticscholar.org/paper/Canonical-regular-expressions-and-minimal-state-for-Brzozowski/94def4233e1e8f15bab72e82708a03fd37233b14
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

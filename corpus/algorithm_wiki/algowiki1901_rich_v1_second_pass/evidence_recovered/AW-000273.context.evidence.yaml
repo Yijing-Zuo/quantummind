@@ -1,0 +1,68 @@
+id: AW-000273
+kind: context_recovered
+algorithm_id: AW-000273
+algorithm_name: Resource hierarchy solution
+source_records:
+- access_status: metadata_only
+  digest: 6079d3adb532de47
+  extracted_facts:
+  - 'AlgorithmWiki row name: Resource hierarchy solution'
+  - 'domain: unknown'
+  - 'time complexity: O(2^n)'
+  - 'space complexity: O(n)'
+  - 'parameter definitions: n: number of philosophers'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000273:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Resource hierarchy solution
+  url: https://books.google.com/books?id=pl4VJKQlcG4C&pg=PA323#v=onepage&q&f=false
+- access_status: skipped
+  digest: fd634222d9369cf1
+  extracted_facts:
+  - robots.txt disallowed fetch
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:9abd2527e81a3e7f
+  source_type: other_public_source
+  title: robots.txt disallowed fetch
+  url: https://books.google.com/books?id=pl4VJKQlcG4C&pg=PA323#v=onepage&q&f=false
+- source_id: crossref_search:4dd4fc2a27acadcd
+  url: https://doi.org/10.1109/icitbs.2019.00141
+  title: Grid Resource Scheduling Algorithm Based on Optimization Hierarchy
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: Grid Resource Scheduling Algorithm Based on Optimization Hierarchy'
+  short_quote: ''
+  digest: 71ce9a45c1397864
+web_query_attempts:
+- query: '"Resource hierarchy solution" algorithm'
+  method: search_plan
+  status: recorded
+- query: '"Resource hierarchy solution" input output'
+  method: search_plan
+  status: recorded
+- query: '"Resource hierarchy solution" time complexity'
+  method: search_plan
+  status: recorded
+- query: '"Resource hierarchy solution" pseudocode'
+  method: search_plan
+  status: recorded
+- query: '"Resource hierarchy solution" problem'
+  method: search_plan
+  status: recorded
+- query: '"Resource hierarchy solution" PDF metadata abstract'
+  method: search_plan
+  status: recorded
+- query: https://books.google.com/books?id=pl4VJKQlcG4C&pg=PA323#v=onepage&q&f=false
+  method: search_plan
+  status: recorded
+- query: Resource hierarchy solution algorithm
+  method: crossref_title_search
+  status: fetched
+extracted_problem_statement: 'Resource hierarchy solution is reconstructed as a classical parallel algorithms task. Problem/task: schedule resource acquisition to avoid unsafe dining-philosophers states Input semantics: A set of philosophers/processes and shared fork/resource constraints. Output semantics: A safe allocation or protocol schedule satisfying mutual exclusion/progress constraints.'
+extracted_algorithm_summary: 'Resource hierarchy solution is treated as the named AlgorithmWiki variant for schedule resource acquisition to avoid unsafe dining-philosophers states Classical complexity metadata: time O(2^n); space O(n). Public metadata/source title support includes Grid Resource Scheduling Algorithm Based on Optimization Hierarchy.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

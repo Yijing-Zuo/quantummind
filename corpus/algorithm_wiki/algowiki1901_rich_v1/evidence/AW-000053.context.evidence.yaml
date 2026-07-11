@@ -1,0 +1,46 @@
+id: AW-000053
+kind: context
+algorithm_id: AW-000053
+algorithm_name: Cholesky
+source_records:
+- access_status: metadata_only
+  digest: 8b7488b51c26b37a
+  extracted_facts:
+  - 'AlgorithmWiki row name: Cholesky'
+  - 'domain: matrix_linear_algebra'
+  - 'time complexity: O(n^3)'
+  - 'space complexity: O(n^2)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of variables and number of equations'
+  - 'precard summary: Given one or more explicit dense matrices over the stated arithmetic domain, compute the matrix or linear-algebraic output specified by the record. Baseline: time O(n^3); space O(n^2). Bottleneck: dense arithmetic and full matrix output dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000053:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Cholesky
+  url: '-'
+web_query_attempts:
+- method: search_plan
+  query: Cholesky algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Cholesky algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Cholesky problem definition
+  status: recorded
+- method: search_plan
+  query: Cholesky matrix linear algebra algorithm
+  status: recorded
+- method: search_plan
+  query: Cholesky site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Cholesky algorithm wiki
+  status: recorded
+- method: search_plan
+  query: '-'
+  status: recorded
+extracted_problem_statement: 'Cholesky is treated as a classical matrix linear algebra task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Cholesky. Input semantics: One or more explicit matrices or linear systems over the stated arithmetic domain. Output semantics: A Cholesky factorization of the input positive-definite matrix.'
+extracted_algorithm_summary: 'Cholesky is a matrix linear algebra algorithm record. Classical complexity metadata: time O(n^3); space O(n^2). The stated classical model is Word RAM. Public metadata/source text adds: Cholesky matrix_linear_algebra matrix_linear_algebra n: number of variables and number of equations O(n^3) Given one or more explicit dense matrices over the stated arithmetic domain, compute the matrix or linear-algebraic output specified by the record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

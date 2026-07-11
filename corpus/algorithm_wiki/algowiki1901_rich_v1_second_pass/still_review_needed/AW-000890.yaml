@@ -1,0 +1,35 @@
+algorithm_id: AW-000890
+canonical_name: The theoretically optimal page replacement algorithm
+enrichment_status: SECOND_PASS_INSUFFICIENT
+review_reasons:
+- No second-pass rule could identify source-backed task semantics.
+source_records:
+- access_status: metadata_only
+  digest: a3cb76d8a0d1cdc6
+  extracted_facts:
+  - 'AlgorithmWiki row name: The theoretically optimal page replacement algorithm'
+  - 'domain: unknown'
+  - 'time complexity: O(n^2)'
+  - 'space complexity: O(k)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of page requests, k: number of pages able to fit in cache'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000890:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for The theoretically optimal page replacement algorithm
+  url: ''
+- source_id: crossref_search:6bb262c960131d05
+  url: https://doi.org/10.1109/cisct.2019.8777407
+  title: Second Chance Page Replacement Algorithm with Optimal (SCAO)
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: Second Chance Page Replacement Algorithm with Optimal (SCAO)'
+  short_quote: ''
+  digest: 82eed100e3a32401
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

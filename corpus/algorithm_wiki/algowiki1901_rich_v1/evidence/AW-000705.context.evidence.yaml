@@ -1,0 +1,71 @@
+id: AW-000705
+kind: context
+algorithm_id: AW-000705
+algorithm_name: Ravikumar & Cohen Generative Models
+source_records:
+- access_status: metadata_only
+  digest: 8f307eea9cf93a24
+  extracted_facts:
+  - 'AlgorithmWiki row name: Ravikumar & Cohen Generative Models'
+  - 'domain: unknown'
+  - 'time complexity: O(n^2 k)'
+  - 'space complexity: O(k)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of records, k: number of features (can be up to O(\sqrt{n}))'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000705:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Ravikumar & Cohen Generative Models
+  url: https://arxiv.org/abs/1207.4180
+- access_status: fetched
+  digest: 97b12404a46a32b3
+  extracted_facts:
+  - 'arXiv title: A Hierarchical Graphical Model for Record Linkage'
+  - 'abstract summary: The task of matching co-referent records is known among other names as rocord linkage.'
+  reliability: HIGH
+  short_quote: The task of matching co-referent records is known among other names as rocord linkage.
+  source_id: arxiv:1207.4180
+  source_type: arxiv_abstract
+  title: A Hierarchical Graphical Model for Record Linkage
+  url: https://arxiv.org/abs/1207.4180
+- access_status: fetched
+  digest: 459ab144c5da4561
+  extracted_facts:
+  - 'source page title: [1207.4180] A Hierarchical Graphical Model for Record Linkage'
+  - 'source page description: Abstract page for arXiv paper 1207.4180: A Hierarchical Graphical Model for Record Linkage'
+  reliability: HIGH
+  short_quote: 'Abstract page for arXiv paper 1207.4180: A Hierarchical Graphical Model for Record Linkage'
+  source_id: source:edf78c33e7e4d144
+  source_type: arxiv_abstract
+  title: '[1207.4180] A Hierarchical Graphical Model for Record Linkage'
+  url: https://arxiv.org/abs/1207.4180
+web_query_attempts:
+- method: search_plan
+  query: Ravikumar & Cohen Generative Models algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Ravikumar & Cohen Generative Models algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Ravikumar & Cohen Generative Models problem definition
+  status: recorded
+- method: search_plan
+  query: Ravikumar & Cohen Generative Models site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Ravikumar & Cohen Generative Models algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://arxiv.org/abs/1207.4180
+  status: recorded
+- method: arxiv_abstract_metadata
+  query: '1207.4180'
+  status: fetched
+- method: source_link_html_metadata
+  query: https://arxiv.org/abs/1207.4180
+  status: fetched
+extracted_problem_statement: 'Ravikumar & Cohen Generative Models is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Ravikumar & Cohen Generative Models. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: Pattern occurrence positions, matches, or the associated string-search report.'
+extracted_algorithm_summary: 'Ravikumar & Cohen Generative Models is a graph algorithm record. Classical complexity metadata: time O(n^2 k); space O(k). The stated classical model is Word RAM. Public metadata/source text adds: Ravikumar & Cohen Generative Models unknown unknown n: number of records, k: number of features (can be up to O(\sqrt{n})) O(n^2 k) No public-ready summary is available because the row lacks enough task semantics.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

@@ -1,0 +1,58 @@
+algorithm_id: AW-000666
+canonical_name: The Algorithm of Park Chen and Yu (PCY)
+enrichment_status: SECOND_PASS_INSUFFICIENT
+review_reasons:
+- No second-pass rule could identify source-backed task semantics.
+source_records:
+- access_status: metadata_only
+  digest: 521a4630903c40fb
+  extracted_facts:
+  - 'AlgorithmWiki row name: The Algorithm of Park Chen and Yu (PCY)'
+  - 'domain: unknown'
+  - 'time complexity: O(n^2)'
+  - 'space complexity: O(n^2)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: total number of transactions (size of database)'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000666:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for The Algorithm of Park Chen and Yu (PCY)
+  url: https://dl.acm.org/doi/abs/10.1145/568271.223813
+- access_status: fetched
+  digest: e81e0f9a60d9a94e
+  extracted_facts:
+  - 'DOI title: An effective hash-based algorithm for mining association rules'
+  - 'published year: 1995'
+  - 'container title: ACM SIGMOD Record'
+  - 'abstract summary: In this paper, we examine the issue of mining association rules among items in a large database of sales transactions.'
+  reliability: HIGH
+  short_quote: In this paper, we examine the issue of mining association rules among items in a large database of sales transactions.
+  source_id: crossref:4cc983981a424589
+  source_type: doi_metadata
+  title: An effective hash-based algorithm for mining association rules
+  url: https://doi.org/10.1145/568271.223813
+- access_status: failed
+  digest: 9fcef8366af6cfac
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:c066130ac168f2ee
+  source_type: publisher_abstract
+  title: 'HTTP Error 403: Forbidden'
+  url: https://dl.acm.org/doi/abs/10.1145/568271.223813
+- source_id: crossref_search:bbdbd462ae7bd509
+  url: https://doi.org/10.1145/223784.223813
+  title: An effective hash-based algorithm for mining association rules
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: An effective hash-based algorithm for mining association rules'
+  short_quote: ''
+  digest: ddc5de5e07aa15f3
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

@@ -1,0 +1,46 @@
+id: AW-000481-P0353
+kind: probe
+algorithm_id: AW-000481
+algorithm_name: Edmonds
+source_records:
+- access_status: metadata_only
+  digest: 186f33f656705c84
+  extracted_facts:
+  - 'AlgorithmWiki row name: Edmonds'
+  - 'domain: graph'
+  - 'time complexity: O(mn^2)'
+  - 'space complexity: O(mn^2)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of vertices, m: number of edges'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(mn^2); space O(mn^2). Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000481:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Edmonds
+  url: https://nvlpubs.nist.gov/nistpubs/jres/69B/jresv69Bn1-2p125_A1b.pdf
+web_query_attempts:
+- method: search_plan
+  query: Edmonds algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Edmonds algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Edmonds problem definition
+  status: recorded
+- method: search_plan
+  query: Edmonds graph algorithm
+  status: recorded
+- method: search_plan
+  query: Edmonds site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Edmonds algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://nvlpubs.nist.gov/nistpubs/jres/69B/jresv69Bn1-2p125_A1b.pdf
+  status: recorded
+extracted_problem_statement: 'Edmonds is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Edmonds. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'Edmonds is a graph algorithm record. Classical complexity metadata: time O(mn^2); space O(mn^2). The stated classical model is Word RAM. Public metadata/source text adds: Edmonds graph graph n: number of vertices, m: number of edges O(mn^2) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

@@ -1,0 +1,32 @@
+algorithm_id: AW-000332
+canonical_name: Linda G. Shapiro and George C. Stockman (2001)
+enrichment_status: SECOND_PASS_INSUFFICIENT
+review_reasons:
+- No second-pass rule could identify source-backed task semantics.
+source_records:
+- access_status: metadata_only
+  digest: 3ba95e5dc10b900c
+  extracted_facts:
+  - 'AlgorithmWiki row name: Linda G. Shapiro and George C. Stockman (2001)'
+  - 'domain: unknown'
+  - 'time complexity: O(n^2)'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000332:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Linda G. Shapiro and George C. Stockman (2001)
+  url: ''
+- source_id: crossref_search:84da4b90c59fcd60
+  url: https://doi.org/10.1103/physrevlett.67.157
+  title: Stockman, Pandey, and George reply
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: Stockman, Pandey, and George reply'
+  short_quote: ''
+  digest: 2f28431053d141ea
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

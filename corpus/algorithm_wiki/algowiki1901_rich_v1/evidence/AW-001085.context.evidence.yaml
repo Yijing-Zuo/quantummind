@@ -1,0 +1,71 @@
+id: AW-001085
+kind: context
+algorithm_id: AW-001085
+algorithm_name: Kunde
+source_records:
+- access_status: metadata_only
+  digest: c9a1a8dbdaf68507
+  extracted_facts:
+  - 'AlgorithmWiki row name: Kunde'
+  - 'domain: sorting'
+  - 'time complexity: O(n^{1/3})'
+  - 'computational model: sorting network'
+  - 'parameter definitions: n: size of list'
+  - 'precard summary: Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model. Baseline: time O(n^{1/3}); work O(n^{4/3}); span/depth O(n^{1/3}); processors n. Bottleneck: comparison, distribution, and full-output movement costs dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001085:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Kunde
+  url: https://link.springer.com/chapter/10.1007/3-540-16811-7_187
+- access_status: skipped
+  digest: 2c526637356431bc
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:a98459890ac7affd
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1007/3-540-16811-7_187
+- access_status: skipped
+  digest: 3fbd24dbd2eebf41
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:16c0f8e718e4cbae
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://link.springer.com/chapter/10.1007/3-540-16811-7_187
+web_query_attempts:
+- method: search_plan
+  query: Kunde algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Kunde algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Kunde problem definition
+  status: recorded
+- method: search_plan
+  query: Kunde sorting algorithm
+  status: recorded
+- method: search_plan
+  query: Kunde site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Kunde algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://link.springer.com/chapter/10.1007/3-540-16811-7_187
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1007/3-540-16811-7_187
+  status: skipped
+- method: source_link_html_metadata
+  query: https://link.springer.com/chapter/10.1007/3-540-16811-7_187
+  status: skipped
+extracted_problem_statement: 'Kunde is treated as a classical sorting task for rich AlgorithmWiki discovery. Problem/task: sort the input sequence using the named classical sorting method. Input semantics: A finite array or list of comparable keys or records. Output semantics: The same items returned in nondecreasing order, usually as a full reordered sequence.'
+extracted_algorithm_summary: 'Kunde is a sorting algorithm record. Classical complexity metadata: time O(n^{1/3}); work O(n^{4/3}); span/depth O(n^{1/3}); processors n. The stated classical model is sorting network. Public metadata/source text adds: Kunde sorting sorting n: size of list O(n^{1/3}) Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

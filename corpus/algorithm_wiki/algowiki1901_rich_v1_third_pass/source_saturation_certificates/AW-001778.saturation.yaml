@@ -1,0 +1,665 @@
+algorithm_id: AW-001778
+canonical_name: Xu, Wang [FDPI]
+original_source_link: https://onlinelibrary.wiley.com/doi/full/10.1002/num.20556
+source_link_type: unknown
+previous_failure_reasons:
+- No second-pass rule could identify source-backed task semantics.
+previous_source_records:
+- access_status: metadata_only
+  digest: 876dbbda7813100a
+  extracted_facts:
+  - 'AlgorithmWiki row name: Xu, Wang [FDPI]'
+  - 'domain: unknown'
+  - 'computational model: MIMD'
+  - 'parameter definitions: n: dimension of grid (where grid is discretized)'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001778:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Xu, Wang [FDPI]
+  url: https://onlinelibrary.wiley.com/doi/full/10.1002/num.20556
+- access_status: skipped
+  digest: 2763ce96a92de2b8
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:c0bd82a67237f6b1
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1002/num.20556
+- access_status: skipped
+  digest: b36755751ccdcb28
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:c6875a14a1f1bfb4
+  source_type: other_public_source
+  title: fetch budget exhausted
+  url: https://onlinelibrary.wiley.com/doi/full/10.1002/num.20556
+- access_status: fetched
+  digest: a4bcded3e03aa52b
+  extracted_facts:
+  - 'DOI title: A new parallel iterative algorithm for solving 2D poisson equation'
+  - 'published year: 2011'
+  - 'container title: Numerical Methods for Partial Differential Equations'
+  reliability: HIGH
+  short_quote: ''
+  source_id: crossref:8d75084c183510b2
+  source_type: doi_metadata
+  title: A new parallel iterative algorithm for solving 2D poisson equation
+  url: https://doi.org/10.1002/num.20556
+- access_status: fetched
+  digest: eac65bcac63f65f8
+  extracted_facts:
+  - 'Crossref title-search result: An optimal algorithm to fetch DHT routable'
+  reliability: MEDIUM
+  short_quote: ''
+  source_id: crossref_search:0b18e1bdccf3f416
+  source_type: doi_metadata
+  title: An optimal algorithm to fetch DHT routable
+  url: https://doi.org/10.1109/npc.2007.32
+aliases_tried:
+- Xu, Wang [FDPI]
+- Xu Wang [FDPI]
+- Xu, Wang [FDPI] algorithm
+- Xu, Wang [FDPI] problem
+- Xu, Wang [FDPI] pseudocode
+- Xu, Wang [FDPI] time complexity
+- fetch budget exhausted
+- fetch budget exhausted algorithm
+- fetch budget exhausted complexity
+- A new parallel iterative algorithm for solving 2D poisson equation
+- A new parallel iterative algorithm for solving 2D poisson equation algorithm
+- A new parallel iterative algorithm for solving 2D poisson equation complexity
+query_plan:
+- source_family: original_source
+  primary_query: Xu, Wang [FDPI]
+  applicability: applicable
+  purpose: check the row's original source link without storing paywalled or PDF bodies
+- source_family: crossref
+  primary_query: Xu, Wang [FDPI]
+  applicability: applicable
+  purpose: recover DOI title, venue, year, and abstract metadata where available
+- source_family: openalex
+  primary_query: Xu, Wang [FDPI]
+  applicability: applicable
+  purpose: recover public work metadata and abstract-inverted-index summaries
+- source_family: semantic_scholar
+  primary_query: Xu, Wang [FDPI]
+  applicability: applicable
+  purpose: recover CS paper metadata and abstracts without an API key
+- source_family: arxiv
+  primary_query: Xu, Wang [FDPI]
+  applicability: title-search-only
+  purpose: recover arXiv title and abstract metadata
+- source_family: dblp
+  primary_query: Xu, Wang [FDPI]
+  applicability: applicable
+  purpose: recover bibliographic title/venue metadata for CS publications
+- source_family: publisher_abstract
+  primary_query: Xu, Wang [FDPI]
+  applicability: applicable
+  purpose: check accessible publisher abstract pages
+- source_family: citeseerx
+  primary_query: Xu, Wang [FDPI]
+  applicability: applicable
+  purpose: record legacy CiteSeerX availability without full PDF storage
+- source_family: wikipedia
+  primary_query: Xu, Wang [FDPI]
+  applicability: applicable
+  purpose: check public encyclopedia algorithm descriptions
+- source_family: wikidata
+  primary_query: Xu, Wang [FDPI]
+  applicability: applicable
+  purpose: check public entity aliases/descriptions
+- source_family: nist_dads
+  primary_query: Xu, Wang [FDPI]
+  applicability: applicable
+  purpose: check whether a DADS-style reference search is applicable
+- source_family: algorithm_wiki_local
+  primary_query: Xu, Wang [FDPI]
+  applicability: applicable
+  purpose: reuse AlgorithmWiki metadata as provenance
+- source_family: the_algorithms
+  primary_query: Xu, Wang [FDPI]
+  applicability: applicable
+  purpose: check exact public implementation/reference names when available
+- source_family: cp_algorithms
+  primary_query: Xu, Wang [FDPI]
+  applicability: applicable
+  purpose: check exact public algorithm reference names when available
+- source_family: course_notes
+  primary_query: Xu, Wang [FDPI]
+  applicability: applicable
+  purpose: record absence of configured course-notes search
+- source_family: general_web_search
+  primary_query: Xu, Wang [FDPI]
+  applicability: applicable
+  purpose: record absence of a configured general web endpoint
+- source_family: local_previous_cache
+  primary_query: Xu, Wang [FDPI]
+  applicability: applicable
+  purpose: reuse v1/second-pass fetched source records
+query_attempts:
+- &id001
+  cycle: 1
+  query: Xu, Wang [FDPI]
+  source_family: algorithm_wiki_local
+  url_or_api_endpoint: https://onlinelibrary.wiley.com/doi/full/10.1002/num.20556
+  status: fetched
+  new_facts_added: 7
+  reason: local metadata
+- &id002
+  cycle: 1
+  query: Xu, Wang [FDPI]
+  source_family: local_previous_cache
+  url_or_api_endpoint: ''
+  status: duplicate
+  new_facts_added: 0
+  reason: previous v1/second-pass sources reused
+- &id003
+  cycle: 1
+  query: https://onlinelibrary.wiley.com/doi/full/10.1002/num.20556
+  source_family: original_source
+  url_or_api_endpoint: https://onlinelibrary.wiley.com/doi/full/10.1002/num.20556
+  status: fetch_failed
+  new_facts_added: 0
+  reason: 'HTTP Error 403: Forbidden'
+- &id004
+  cycle: 1
+  query: 10.1002/num.20556
+  source_family: crossref
+  url_or_api_endpoint: https://doi.org/10.1002/num.20556
+  status: fetched
+  new_facts_added: 6
+  reason: Crossref metadata/title search
+- &id005
+  cycle: 1
+  query: Xu, Wang [FDPI]
+  source_family: arxiv
+  url_or_api_endpoint: https://export.arxiv.org/api/query?max_results=1&search_query=ti:%22Xu%2C+Wang+%5BFDPI%5D%22
+  status: no_result
+  new_facts_added: 0
+  reason: arXiv title search returned no usable entry
+- &id006
+  cycle: 1
+  query: Xu, Wang [FDPI]
+  source_family: wikipedia
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: Wikipedia search returned no relevant page
+- &id007
+  cycle: 2
+  query: 10.1002/num.20556
+  source_family: openalex
+  url_or_api_endpoint: https://api.openalex.org/works/doi:10.1002%2Fnum.20556
+  status: fetched
+  new_facts_added: 6
+  reason: OpenAlex work metadata
+- &id008
+  cycle: 2
+  query: 10.1002/num.20556
+  source_family: semantic_scholar
+  url_or_api_endpoint: https://api.semanticscholar.org/graph/v1/paper/DOI:10.1002%2Fnum.20556?fields=title,abstract,year,url,externalIds
+  status: fetch_failed
+  new_facts_added: 0
+  reason: Semantic Scholar returned no usable paper
+- &id009
+  cycle: 2
+  query: Xu, Wang [FDPI]
+  source_family: dblp
+  url_or_api_endpoint: https://dblp.org/search/publ/api?format=json&h=1&q=Xu%2C+Wang+%5BFDPI%5D
+  status: no_result
+  new_facts_added: 0
+  reason: DBLP returned no usable publication
+- &id010
+  cycle: 2
+  query: https://onlinelibrary.wiley.com/doi/full/10.1002/num.20556
+  source_family: original_source
+  url_or_api_endpoint: https://onlinelibrary.wiley.com/doi/full/10.1002/num.20556
+  status: fetch_failed
+  new_facts_added: 0
+  reason: 'HTTP Error 403: Forbidden'
+- &id011
+  cycle: 2
+  query: Xu, Wang [FDPI]
+  source_family: wikidata
+  url_or_api_endpoint: https://www.wikidata.org/w/api.php?action=wbsearchentities&language=en&format=json&limit=1&search=Xu%2C+Wang+%5BFDPI%5D
+  status: no_result
+  new_facts_added: 0
+  reason: Wikidata returned no entity
+- &id012
+  cycle: 3
+  query: Xu, Wang [FDPI]
+  source_family: citeseerx
+  url_or_api_endpoint: ''
+  status: paywalled
+  new_facts_added: 0
+  reason: CiteSeerX link is PDF/legacy metadata; full PDF body skipped
+- &id013
+  cycle: 3
+  query: Xu, Wang [FDPI]
+  source_family: nist_dads
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: NIST DADS has no reliable bulk search API in this environment
+- &id014
+  cycle: 3
+  query: Xu, Wang [FDPI]
+  source_family: the_algorithms
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: TheAlgorithms search skipped unless a known exact reference is available
+- &id015
+  cycle: 3
+  query: Xu, Wang [FDPI]
+  source_family: cp_algorithms
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: CP-Algorithms search skipped unless a known exact reference is available
+- &id016
+  cycle: 3
+  query: Xu, Wang [FDPI]
+  source_family: course_notes
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: No configured public course-notes search endpoint
+- &id017
+  cycle: 3
+  query: Xu, Wang [FDPI]
+  source_family: general_web_search
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: No configured general web search endpoint; Google Scholar scraping is not used
+- &id018
+  cycle: 4
+  query: 10.1002/num.20556
+  source_family: crossref
+  url_or_api_endpoint: https://doi.org/10.1002/num.20556
+  status: fetched
+  new_facts_added: 6
+  reason: Crossref metadata/title search
+- &id019
+  cycle: 4
+  query: 10.1002/num.20556
+  source_family: openalex
+  url_or_api_endpoint: https://api.openalex.org/works/doi:10.1002%2Fnum.20556
+  status: fetched
+  new_facts_added: 6
+  reason: OpenAlex work metadata
+- &id020
+  cycle: 4
+  query: 10.1002/num.20556
+  source_family: semantic_scholar
+  url_or_api_endpoint: https://api.semanticscholar.org/graph/v1/paper/DOI:10.1002%2Fnum.20556?fields=title,abstract,year,url,externalIds
+  status: fetch_failed
+  new_facts_added: 0
+  reason: Semantic Scholar returned no usable paper
+- &id021
+  cycle: 4
+  query: Xu, Wang [FDPI]
+  source_family: wikipedia
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: Wikipedia search returned no relevant page
+- &id022
+  cycle: 4
+  query: Xu, Wang [FDPI]
+  source_family: dblp
+  url_or_api_endpoint: https://dblp.org/search/publ/api?format=json&h=1&q=Xu%2C+Wang+%5BFDPI%5D
+  status: no_result
+  new_facts_added: 0
+  reason: DBLP returned no usable publication
+source_attempts:
+- *id001
+- *id002
+- *id003
+- *id004
+- *id005
+- *id006
+- *id007
+- *id008
+- *id009
+- *id010
+- *id011
+- *id012
+- *id013
+- *id014
+- *id015
+- *id016
+- *id017
+- *id018
+- *id019
+- *id020
+- *id021
+- *id022
+discovered_sources:
+- &id023
+  source_id: failed:b791fdd8a623bffa
+  url: https://onlinelibrary.wiley.com/doi/full/10.1002/num.20556
+  title: 'HTTP Error 403: Forbidden'
+  source_type: original_source
+  access_status: failed
+  reliability: LOW
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  short_quote: 'HTTP Error 403: Forbidden'
+  digest: 2a56d022f84cc223
+- source_id: openalex:f5929c922a89354b
+  url: https://openalex.org/W2086905810
+  title: A new parallel iterative algorithm for solving 2D poisson equation
+  source_type: openalex
+  access_status: fetched
+  reliability: HIGH
+  extracted_facts:
+  - 'OpenAlex title: A new parallel iterative algorithm for solving 2D poisson equation'
+  - 'publication year: 2009'
+  - 'abstract summary: In this article, a finite difference parallel iterative (FDPI) algorithm for solving 2D Poisson equation was presented.'
+  short_quote: 'OpenAlex title: A new parallel iterative algorithm for solving 2D poisson equation publication year: 2009 abstract summary: In this article, a finite difference parallel'
+  digest: 6653bdd85bec6336
+discovered_facts:
+- fact_id: AW-001778-F260f1359b1
+  fact_type: alias
+  value: Xu, Wang [FDPI]
+  source_id: AW-001778:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: AlgorithmWiki metadata
+- fact_id: AW-001778-F81e859b9e7
+  fact_type: computation_model
+  value: MIMD
+  source_id: AW-001778:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: AlgorithmWiki metadata
+- fact_id: AW-001778-F8fafcb8edf
+  fact_type: input_semantics
+  value: 'Parameter definitions: n: dimension of grid (where grid is discretized)'
+  source_id: AW-001778:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 75
+  conflict_status: weak
+  notes: AlgorithmWiki parameter metadata
+- fact_id: AW-001778-Fb92850a59e
+  fact_type: authoritative_source_link
+  value: https://onlinelibrary.wiley.com/doi/full/10.1002/num.20556
+  source_id: AW-001778:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 70
+  conflict_status: consistent
+  notes: Original source link from AlgorithmWiki metadata
+- fact_id: AW-001778-Fe43d0a4e4f
+  fact_type: source_title
+  value: AlgorithmWiki metadata for Xu, Wang [FDPI]
+  source_id: AW-001778:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-001778-F345d8883dd
+  fact_type: problem_definition
+  value: 'Source title indicates: AlgorithmWiki metadata for Xu, Wang [FDPI]'
+  source_id: AW-001778:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: weak
+  notes: previous_source_record
+- fact_id: AW-001778-F1f982617a9
+  fact_type: problem_definition
+  value: 'AlgorithmWiki row name: Xu, Wang [FDPI]'
+  source_id: AW-001778:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-001778-Fa4fceb1c0e
+  fact_type: problem_definition
+  value: 'domain: unknown'
+  source_id: AW-001778:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-001778-F7990d197a6
+  fact_type: computation_model
+  value: 'computational model: MIMD'
+  source_id: AW-001778:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-001778-F9dd96514e4
+  fact_type: problem_definition
+  value: 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  source_id: AW-001778:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-001778-F89d7fde3bb
+  fact_type: source_title
+  value: fetch budget exhausted
+  source_id: skipped:c0bd82a67237f6b1
+  reliability: LOW
+  confidence: 45
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-001778-Ff3500de578
+  fact_type: authoritative_source_link
+  value: https://doi.org/10.1002/num.20556
+  source_id: skipped:c0bd82a67237f6b1
+  reliability: LOW
+  confidence: 45
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-001778-F3ba6c1fd62
+  fact_type: source_title
+  value: A new parallel iterative algorithm for solving 2D poisson equation
+  source_id: crossref:8d75084c183510b2
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-001778-Fa163f69c21
+  fact_type: problem_definition
+  value: 'Source title indicates: A new parallel iterative algorithm for solving 2D poisson equation'
+  source_id: crossref:8d75084c183510b2
+  reliability: HIGH
+  confidence: 85
+  conflict_status: weak
+  notes: previous_source_record
+- fact_id: AW-001778-Fd63f5fb44c
+  fact_type: problem_definition
+  value: 'DOI title: A new parallel iterative algorithm for solving 2D poisson equation'
+  source_id: crossref:8d75084c183510b2
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-001778-F5dcf748e9d
+  fact_type: problem_definition
+  value: 'published year: 2011'
+  source_id: crossref:8d75084c183510b2
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-001778-F3023090ca3
+  fact_type: problem_definition
+  value: 'container title: Numerical Methods for Partial Differential Equations'
+  source_id: crossref:8d75084c183510b2
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-001778-F07ef2586ce
+  fact_type: source_title
+  value: An optimal algorithm to fetch DHT routable
+  source_id: crossref_search:0b18e1bdccf3f416
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-001778-F2e2911bb49
+  fact_type: problem_definition
+  value: 'Source title indicates: An optimal algorithm to fetch DHT routable'
+  source_id: crossref_search:0b18e1bdccf3f416
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: weak
+  notes: previous_source_record
+- fact_id: AW-001778-Fb8080bd214
+  fact_type: problem_definition
+  value: 'Crossref title-search result: An optimal algorithm to fetch DHT routable'
+  source_id: crossref_search:0b18e1bdccf3f416
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-001778-Fbe5d46ce2e
+  fact_type: authoritative_source_link
+  value: https://doi.org/10.1109/npc.2007.32
+  source_id: crossref_search:0b18e1bdccf3f416
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-001778-F952e00cc99
+  fact_type: problem_definition
+  value: 'OpenAlex title: A new parallel iterative algorithm for solving 2D poisson equation'
+  source_id: openalex:f5929c922a89354b
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: openalex
+- fact_id: AW-001778-Fc88eea532a
+  fact_type: problem_definition
+  value: 'publication year: 2009'
+  source_id: openalex:f5929c922a89354b
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: openalex
+- fact_id: AW-001778-Fa194dfd037
+  fact_type: problem_definition
+  value: 'abstract summary: In this article, a finite difference parallel iterative (FDPI) algorithm for solving 2D Poisson equation was presented.'
+  source_id: openalex:f5929c922a89354b
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: openalex
+- fact_id: AW-001778-F62c0ddf04c
+  fact_type: authoritative_source_link
+  value: https://openalex.org/W2086905810
+  source_id: openalex:f5929c922a89354b
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: openalex
+duplicate_sources:
+- source_id: AW-001778:algorithm_wiki_metadata
+  url: https://onlinelibrary.wiley.com/doi/full/10.1002/num.20556
+  title: AlgorithmWiki metadata for Xu, Wang [FDPI]
+  source_type: algorithm_wiki
+  access_status: metadata_only
+  reliability: HIGH
+  extracted_facts:
+  - 'AlgorithmWiki row name: Xu, Wang [FDPI]'
+  - 'domain: unknown'
+  - 'computational model: MIMD'
+  - 'parameter definitions: n: dimension of grid (where grid is discretized)'
+  short_quote: ''
+  digest: 4060f1746bf9a968
+- source_id: crossref:8d75084c183510b2
+  url: https://doi.org/10.1002/num.20556
+  title: A new parallel iterative algorithm for solving 2D poisson equation
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: HIGH
+  extracted_facts:
+  - 'DOI title: A new parallel iterative algorithm for solving 2D poisson equation'
+  - 'published year: 2011'
+  - 'container title: Numerical Methods for Partial Differential Equations'
+  short_quote: ''
+  digest: a4bcded3e03aa52b
+- source_id: failed:b791fdd8a623bffa
+  url: https://onlinelibrary.wiley.com/doi/full/10.1002/num.20556
+  title: 'HTTP Error 403: Forbidden'
+  source_type: original_source
+  access_status: failed
+  reliability: LOW
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  short_quote: 'HTTP Error 403: Forbidden'
+  digest: 2a56d022f84cc223
+- source_id: crossref:8d75084c183510b2
+  url: https://doi.org/10.1002/num.20556
+  title: A new parallel iterative algorithm for solving 2D poisson equation
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: HIGH
+  extracted_facts:
+  - 'DOI title: A new parallel iterative algorithm for solving 2D poisson equation'
+  - 'published year: 2011'
+  - 'container title: Numerical Methods for Partial Differential Equations'
+  short_quote: ''
+  digest: a4bcded3e03aa52b
+- source_id: openalex:f5929c922a89354b
+  url: https://openalex.org/W2086905810
+  title: A new parallel iterative algorithm for solving 2D poisson equation
+  source_type: openalex
+  access_status: fetched
+  reliability: HIGH
+  extracted_facts:
+  - 'OpenAlex title: A new parallel iterative algorithm for solving 2D poisson equation'
+  - 'publication year: 2009'
+  - 'abstract summary: In this article, a finite difference parallel iterative (FDPI) algorithm for solving 2D Poisson equation was presented.'
+  short_quote: 'OpenAlex title: A new parallel iterative algorithm for solving 2D poisson equation publication year: 2009 abstract summary: In this article, a finite difference parallel'
+  digest: 6653bdd85bec6336
+failed_sources:
+- *id023
+paywalled_or_skipped_sources: []
+source_families_covered:
+- algorithm_wiki_local
+- local_previous_cache
+- original_source
+- crossref
+- arxiv
+- wikipedia
+- openalex
+- semantic_scholar
+- dblp
+- publisher_abstract
+- wikidata
+- citeseerx
+- nist_dads
+- the_algorithms
+- cp_algorithms
+- course_notes
+- general_web_search
+cycles_completed: 4
+new_fact_count_by_cycle:
+- cycle: 1
+  new_facts: 0
+- cycle: 2
+  new_facts: 4
+- cycle: 3
+  new_facts: 0
+- cycle: 4
+  new_facts: 0
+no_new_fact_streak: 2
+saturation_status: SATURATED_NO_RECOVERY
+final_reason: After the configured source-family cycles, no source-backed concrete task, input semantics, output semantics, and conservative access model could be established.
+next_manual_action: No automated action recommended; keep saturated certificate with unresolved row.

@@ -1,0 +1,59 @@
+id: AW-000426
+kind: context_recovered
+algorithm_id: AW-000426
+algorithm_name: Quick-Skip Searching
+source_records:
+- access_status: metadata_only
+  digest: 0f49ee80fbc60520
+  extracted_facts:
+  - 'AlgorithmWiki row name: Quick-Skip Searching'
+  - 'domain: unknown'
+  - 'time complexity: O(mn)'
+  - 'space complexity: O(m)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: m: pattern length, n: length of searchable text'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000426:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Quick-Skip Searching
+  url: http://www.ijcte.org/papers/462-G1278.pdf
+- source_id: crossref_search:034448d5e5bde024
+  url: https://doi.org/10.1007/978-981-15-7345-3_21
+  title: Improved Skip Algorithm for Single Pattern Searching
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: Improved Skip Algorithm for Single Pattern Searching'
+  short_quote: ''
+  digest: 461fe1c7e16a4be8
+web_query_attempts:
+- query: '"Quick-Skip Searching" algorithm'
+  method: search_plan
+  status: recorded
+- query: '"Quick-Skip Searching" input output'
+  method: search_plan
+  status: recorded
+- query: '"Quick-Skip Searching" time complexity'
+  method: search_plan
+  status: recorded
+- query: '"Quick-Skip Searching" pseudocode'
+  method: search_plan
+  status: recorded
+- query: '"Quick-Skip Searching" problem'
+  method: search_plan
+  status: recorded
+- query: '"Quick-Skip Searching" PDF metadata abstract'
+  method: search_plan
+  status: recorded
+- query: http://www.ijcte.org/papers/462-G1278.pdf
+  method: search_plan
+  status: recorded
+- query: Quick-Skip Searching algorithm
+  method: crossref_title_search
+  status: fetched
+extracted_problem_statement: 'Quick-Skip Searching is reconstructed as a classical string task. Problem/task: find occurrences of a pattern in a text Input semantics: A finite text string, a finite pattern string, and alphabet/hash/preprocessing parameters when stated. Output semantics: One or more occurrence positions or a report that no occurrence exists.'
+extracted_algorithm_summary: 'Quick-Skip Searching is treated as the named AlgorithmWiki variant for find occurrences of a pattern in a text Classical complexity metadata: time O(mn); space O(m). Public metadata/source title support includes Improved Skip Algorithm for Single Pattern Searching.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

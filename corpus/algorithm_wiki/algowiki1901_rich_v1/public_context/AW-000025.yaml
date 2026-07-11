@@ -1,0 +1,14 @@
+statement: 'Merge Sort is included as a named whole-algorithm context card for a classical sorting task. The task is to analyze the classical input-output problem, not to certify an end-to-end improvement claim. Input semantics: A finite array or list of comparable keys or records. Output semantics: The same items returned in nondecreasing order, usually as a full reordered sequence. Classical algorithm summary: Merge Sort is a sorting algorithm record. Classical complexity metadata: time O(n \log n); space O(n). The stated classical model is Word RAM. Public metadata/source text adds: Merge Sort sorting sorting n: size of list O(n \log n) Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model. Classical steps or pseudocode-level structure: Compare, partition, merge, count, distribute, or otherwise reorder records according to the named sorting method. Classical complexity recorded for this row: time O(n
+  \log n); space O(n); computation model Word RAM. Dominant bottleneck: comparison/distribution work plus writing the full ordered sequence. The useful review questions are whether the named structure exposes a smaller decision, witness, estimation, or algebraic subproblem; whether the full output size dominates any asymptotic gain; and whether the stated access model is realistic for the original input. Provenance is limited to AlgorithmWiki metadata and source-link facts; unresolved details are kept as ambiguities. Source-backed uncertainty or assumptions: No independent fetched public metadata source resolved this row beyond AlgorithmWiki metadata/source-link facts.'
+input_model: explicit_sequence_problem
+access_model: random_access_array
+output_contract: full_sequence_output
+promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+size_parameters:
+- 'Parameter definition: n: size of list'
+ambiguities:
+- No independent fetched public metadata source resolved this row beyond AlgorithmWiki metadata/source-link facts.
+- Some details are reconstructed from AlgorithmWiki metadata rather than an independently fetched full public description.
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.

@@ -1,0 +1,1233 @@
+{
+  "duplicate_digest_group_count": 124,
+  "duplicate_digest_groups": {
+    "0053289310f467c2": [
+      "AW-001435.yaml",
+      "AW-001436.yaml",
+      "AW-001437.yaml"
+    ],
+    "01bade910d7e11ba": [
+      "AW-000509.yaml",
+      "AW-000510.yaml"
+    ],
+    "045e81064fd8e2c7": [
+      "AW-001483.yaml",
+      "AW-001484.yaml"
+    ],
+    "05225174d615f83f": [
+      "AW-001276.yaml",
+      "AW-001277.yaml"
+    ],
+    "06fbb26ff4cad536": [
+      "AW-001533.yaml",
+      "AW-001534.yaml"
+    ],
+    "0889a9e34377726b": [
+      "AW-001441.yaml",
+      "AW-001442.yaml",
+      "AW-001443.yaml"
+    ],
+    "08901fb946401212": [
+      "AW-001538.yaml",
+      "AW-001539.yaml"
+    ],
+    "0aef2e46aab34b94": [
+      "AW-000506.yaml",
+      "AW-000507.yaml",
+      "AW-000508.yaml"
+    ],
+    "0e164c321b3a2d95": [
+      "AW-000520.yaml",
+      "AW-000521.yaml"
+    ],
+    "131d5615fe1d9994": [
+      "AW-001479.yaml",
+      "AW-001480.yaml"
+    ],
+    "159f2083791e270e": [
+      "AW-001559.yaml",
+      "AW-001560.yaml"
+    ],
+    "167ec62badb567b0": [
+      "AW-001185.yaml",
+      "AW-001186.yaml"
+    ],
+    "178c9a207cbe7b4d": [
+      "AW-001161.yaml",
+      "AW-001162.yaml"
+    ],
+    "188a849641a5b50b": [
+      "AW-001521.yaml",
+      "AW-001522.yaml"
+    ],
+    "1d6972defb897237": [
+      "AW-001183.yaml",
+      "AW-001184.yaml"
+    ],
+    "21205f4ad05cf1e4": [
+      "AW-001489.yaml",
+      "AW-001490.yaml"
+    ],
+    "2236b7d61028d79a": [
+      "AW-001433.yaml",
+      "AW-001434.yaml"
+    ],
+    "22bbbf3886cab10c": [
+      "AW-001082.yaml",
+      "AW-001083.yaml"
+    ],
+    "22cc8c3429f28566": [
+      "AW-001540.yaml",
+      "AW-001541.yaml"
+    ],
+    "29c9bcf93d43a6f3": [
+      "AW-001447.yaml",
+      "AW-001448.yaml",
+      "AW-001449.yaml"
+    ],
+    "2bc11b3ce755bbbc": [
+      "AW-001525.yaml",
+      "AW-001526.yaml"
+    ],
+    "3192d02545b286af": [
+      "AW-000511.yaml",
+      "AW-000512.yaml",
+      "AW-000513.yaml"
+    ],
+    "32ec0863972e7781": [
+      "AW-001163.yaml",
+      "AW-001164.yaml"
+    ],
+    "373d75bceaf6818e": [
+      "AW-001719.yaml",
+      "AW-001720.yaml"
+    ],
+    "3792bdd1bb701056": [
+      "AW-001474.yaml",
+      "AW-001555.yaml",
+      "AW-001556.yaml"
+    ],
+    "38ac783e9c471db2": [
+      "AW-001513.yaml",
+      "AW-001514.yaml"
+    ],
+    "3aa4f83f778fab30": [
+      "AW-001506.yaml",
+      "AW-001507.yaml"
+    ],
+    "3b754c51772e43a1": [
+      "AW-001038.yaml",
+      "AW-001039.yaml"
+    ],
+    "3d282f29adfa86e8": [
+      "AW-001122.yaml",
+      "AW-001123.yaml"
+    ],
+    "3e47ada706fc74b5": [
+      "AW-001497.yaml",
+      "AW-001498.yaml"
+    ],
+    "47bb7242fc20f080": [
+      "AW-001475.yaml",
+      "AW-001476.yaml"
+    ],
+    "482b8e59d8e26e95": [
+      "AW-000527.yaml",
+      "AW-000528.yaml",
+      "AW-000529.yaml"
+    ],
+    "4b92a4f157b38948": [
+      "AW-001438.yaml",
+      "AW-001439.yaml",
+      "AW-001440.yaml"
+    ],
+    "4d1bee7a600a4b57": [
+      "AW-001725.yaml",
+      "AW-001726.yaml"
+    ],
+    "4ffb45e3e61f471b": [
+      "AW-001190.yaml",
+      "AW-001191.yaml"
+    ],
+    "50145ec939372238": [
+      "AW-001546.yaml",
+      "AW-001547.yaml"
+    ],
+    "511fa334f9ed0a70": [
+      "AW-001461.yaml",
+      "AW-001462.yaml"
+    ],
+    "538fcf2435a55599": [
+      "AW-000048.yaml",
+      "AW-000049.yaml",
+      "AW-000050.yaml",
+      "AW-000051.yaml",
+      "AW-000052.yaml"
+    ],
+    "54ed90d69f499239": [
+      "AW-000996.yaml",
+      "AW-001001.yaml"
+    ],
+    "5640959430258737": [
+      "AW-001471.yaml",
+      "AW-001523.yaml",
+      "AW-001524.yaml"
+    ],
+    "56f4450b897f589f": [
+      "AW-001445.yaml",
+      "AW-001446.yaml",
+      "AW-001481.yaml",
+      "AW-001482.yaml"
+    ],
+    "58e53559da138803": [
+      "AW-001165.yaml",
+      "AW-001166.yaml"
+    ],
+    "5ff9dff473f51802": [
+      "AW-001304.yaml",
+      "AW-001305.yaml"
+    ],
+    "62e1667702505ee9": [
+      "AW-000226.yaml",
+      "AW-000227.yaml"
+    ],
+    "63b24a6ae44cc10e": [
+      "AW-001223.yaml",
+      "AW-001224.yaml"
+    ],
+    "682503a98c36c803": [
+      "AW-001531.yaml",
+      "AW-001532.yaml"
+    ],
+    "6b19461d093fd381": [
+      "AW-000084.yaml",
+      "AW-000085.yaml"
+    ],
+    "6b2bf3e39cef3f6b": [
+      "AW-001145.yaml",
+      "AW-001146.yaml"
+    ],
+    "6d59625334287bf0": [
+      "AW-001036.yaml",
+      "AW-001037.yaml"
+    ],
+    "6d9f899214dc67eb": [
+      "AW-000994.yaml",
+      "AW-000999.yaml",
+      "AW-001004.yaml"
+    ],
+    "73efe7ed955ec55e": [
+      "AW-001529.yaml",
+      "AW-001530.yaml"
+    ],
+    "745f92c0a3b93ce7": [
+      "AW-001732.yaml",
+      "AW-001783.yaml"
+    ],
+    "77040807ae73651d": [
+      "AW-001553.yaml",
+      "AW-001554.yaml"
+    ],
+    "796d635aac126e64": [
+      "AW-001212.yaml",
+      "AW-001213.yaml"
+    ],
+    "797e2f0651dc2c36": [
+      "AW-000530.yaml",
+      "AW-000531.yaml"
+    ],
+    "799b861e17450ef2": [
+      "AW-000023.yaml",
+      "AW-000151.yaml"
+    ],
+    "7a4da2f45a3a0a6f": [
+      "AW-001493.yaml",
+      "AW-001494.yaml"
+    ],
+    "7c6abebe5c1cdfbb": [
+      "AW-000837.yaml",
+      "AW-000838.yaml"
+    ],
+    "7c836ed7a1c90e73": [
+      "AW-001544.yaml",
+      "AW-001545.yaml"
+    ],
+    "7f7f6072542b2df7": [
+      "AW-001574.yaml",
+      "AW-001575.yaml"
+    ],
+    "7f918166d1a3b23d": [
+      "AW-001561.yaml",
+      "AW-001562.yaml"
+    ],
+    "82317ce7d50e84b4": [
+      "AW-001517.yaml",
+      "AW-001518.yaml"
+    ],
+    "82359b41a38e6210": [
+      "AW-001087.yaml",
+      "AW-001088.yaml"
+    ],
+    "82cd431a86f3b803": [
+      "AW-000998.yaml",
+      "AW-001003.yaml",
+      "AW-001008.yaml"
+    ],
+    "849e36e84a4291f7": [
+      "AW-001073.yaml",
+      "AW-001074.yaml"
+    ],
+    "8afe05558a9bf10e": [
+      "AW-000231.yaml",
+      "AW-000232.yaml"
+    ],
+    "8b3c2af5e08c0374": [
+      "AW-001143.yaml",
+      "AW-001144.yaml"
+    ],
+    "8eb80e2a869b6571": [
+      "AW-001723.yaml",
+      "AW-001724.yaml"
+    ],
+    "9022b355a894785f": [
+      "AW-001527.yaml",
+      "AW-001528.yaml"
+    ],
+    "90f44794599bacf6": [
+      "AW-001147.yaml",
+      "AW-001148.yaml"
+    ],
+    "9353a320a876bc10": [
+      "AW-001714.yaml",
+      "AW-001715.yaml"
+    ],
+    "943ecfaf31645936": [
+      "AW-001108.yaml",
+      "AW-001109.yaml"
+    ],
+    "98b6c2391013b134": [
+      "AW-001188.yaml",
+      "AW-001189.yaml"
+    ],
+    "9b1b92e7acf4034c": [
+      "AW-000516.yaml",
+      "AW-000517.yaml"
+    ],
+    "9ba1bd34e493e2b3": [
+      "AW-001542.yaml",
+      "AW-001543.yaml"
+    ],
+    "a2046975938e3e60": [
+      "AW-001214.yaml",
+      "AW-001215.yaml"
+    ],
+    "a34083a48b591fa2": [
+      "AW-001742.yaml",
+      "AW-001785.yaml"
+    ],
+    "a3b6c2622b06a76b": [
+      "AW-001495.yaml",
+      "AW-001496.yaml"
+    ],
+    "a55f4df399383462": [
+      "AW-001508.yaml",
+      "AW-001509.yaml"
+    ],
+    "a55fce37480aec6f": [
+      "AW-001156.yaml",
+      "AW-001157.yaml"
+    ],
+    "a7ebb70ebbb4363b": [
+      "AW-000522.yaml",
+      "AW-000523.yaml",
+      "AW-000524.yaml",
+      "AW-000525.yaml",
+      "AW-000526.yaml"
+    ],
+    "a814a80a507f8f24": [
+      "AW-001511.yaml",
+      "AW-001512.yaml"
+    ],
+    "ab8a94951b1236bd": [
+      "AW-001103.yaml",
+      "AW-001104.yaml"
+    ],
+    "b0e844543e21fbd0": [
+      "AW-001070.yaml",
+      "AW-001071.yaml"
+    ],
+    "b1550f8496c4c64c": [
+      "AW-001120.yaml",
+      "AW-001121.yaml"
+    ],
+    "b72c39b233c1f0b9": [
+      "AW-000995.yaml",
+      "AW-001000.yaml",
+      "AW-001005.yaml"
+    ],
+    "b8a692e92045ec1b": [
+      "AW-001550.yaml",
+      "AW-001551.yaml"
+    ],
+    "bbc7a65e5dc290ca": [
+      "AW-001504.yaml",
+      "AW-001505.yaml"
+    ],
+    "bc013fc8988c1416": [
+      "AW-000518.yaml",
+      "AW-000519.yaml"
+    ],
+    "bc58b5e91b3fbf99": [
+      "AW-000223.yaml",
+      "AW-000224.yaml"
+    ],
+    "bce6d2404562f180": [
+      "AW-001710.yaml",
+      "AW-001711.yaml"
+    ],
+    "bd455b7b0becf1f7": [
+      "AW-001563.yaml",
+      "AW-001564.yaml"
+    ],
+    "bff5f380708c4a6b": [
+      "AW-001576.yaml",
+      "AW-001577.yaml"
+    ],
+    "c3338f639bbc5a88": [
+      "AW-000228.yaml",
+      "AW-000229.yaml"
+    ],
+    "c41b15957e38155a": [
+      "AW-001519.yaml",
+      "AW-001520.yaml"
+    ],
+    "c610f87201219f1c": [
+      "AW-001100.yaml",
+      "AW-001101.yaml"
+    ],
+    "c6185faf292e5a46": [
+      "AW-001770.yaml",
+      "AW-001771.yaml"
+    ],
+    "c69465c7be44b01c": [
+      "AW-001251.yaml",
+      "AW-001252.yaml"
+    ],
+    "c721603f871ae8de": [
+      "AW-001317.yaml",
+      "AW-001318.yaml"
+    ],
+    "c954c499d32e056f": [
+      "AW-001227.yaml",
+      "AW-001228.yaml"
+    ],
+    "cabef9d68fc205f7": [
+      "AW-001089.yaml",
+      "AW-001090.yaml"
+    ],
+    "d23d722be2f8d649": [
+      "AW-001279.yaml",
+      "AW-001280.yaml"
+    ],
+    "d30954b284661dd7": [
+      "AW-001485.yaml",
+      "AW-001486.yaml"
+    ],
+    "d55c16ce5f03b4d7": [
+      "AW-001137.yaml",
+      "AW-001138.yaml"
+    ],
+    "d6313553b57c0a11": [
+      "AW-001548.yaml",
+      "AW-001549.yaml"
+    ],
+    "d84a66a4757d05f0": [
+      "AW-001255.yaml",
+      "AW-001256.yaml"
+    ],
+    "d87c167e60d609c2": [
+      "AW-001744.yaml",
+      "AW-001787.yaml"
+    ],
+    "da27ddbe56da353c": [
+      "AW-001210.yaml",
+      "AW-001211.yaml"
+    ],
+    "db53ce6f7d5d9f94": [
+      "AW-001741.yaml",
+      "AW-001797.yaml"
+    ],
+    "ddb2872235f57384": [
+      "AW-001271.yaml",
+      "AW-001272.yaml"
+    ],
+    "dfd67791e9c964a1": [
+      "AW-001745.yaml",
+      "AW-001788.yaml"
+    ],
+    "e05044d8f64b70d6": [
+      "AW-001457.yaml",
+      "AW-001515.yaml",
+      "AW-001516.yaml"
+    ],
+    "e263262ab205cb9e": [
+      "AW-001139.yaml",
+      "AW-001140.yaml"
+    ],
+    "e421413d5cbcd6c9": [
+      "AW-001712.yaml",
+      "AW-001713.yaml"
+    ],
+    "e6b838dda147eebc": [
+      "AW-001491.yaml",
+      "AW-001492.yaml"
+    ],
+    "ebd8bce2934bede2": [
+      "AW-001273.yaml",
+      "AW-001274.yaml"
+    ],
+    "ed368d82a23ffa8a": [
+      "AW-001743.yaml",
+      "AW-001786.yaml"
+    ],
+    "f5da8c67a01b2ad4": [
+      "AW-001487.yaml",
+      "AW-001488.yaml"
+    ],
+    "f6c7386d7a37d88a": [
+      "AW-001499.yaml",
+      "AW-001500.yaml"
+    ],
+    "f790bfbd3ba28a06": [
+      "AW-001159.yaml",
+      "AW-001160.yaml"
+    ],
+    "f86b21da5b167b41": [
+      "AW-001717.yaml",
+      "AW-001718.yaml"
+    ],
+    "f9d2a504d2959e7a": [
+      "AW-001175.yaml",
+      "AW-001176.yaml"
+    ],
+    "fa6b6821e8a93afa": [
+      "AW-000997.yaml",
+      "AW-001002.yaml"
+    ],
+    "fe799208d5b50d84": [
+      "AW-001253.yaml",
+      "AW-001254.yaml"
+    ]
+  },
+  "errors": [],
+  "largest_duplicate_digest_group_size": 5,
+  "metadata_dir": "corpus\\algorithm_wiki\\algowiki1901_rich_v1\\metadata_context",
+  "min_ready": 900,
+  "mock_analyze": [
+    {
+      "card": "AW-001454.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1\\reports\\context_mock_validation_mock_analyze_runs\\qml-36b5828ad1f6"
+    },
+    {
+      "card": "AW-000470.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1\\reports\\context_mock_validation_mock_analyze_runs\\qml-984186c7775e"
+    },
+    {
+      "card": "AW-000184.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1\\reports\\context_mock_validation_mock_analyze_runs\\qml-455be93b2597"
+    },
+    {
+      "card": "AW-001139.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1\\reports\\context_mock_validation_mock_analyze_runs\\qml-f259c0b58102"
+    },
+    {
+      "card": "AW-001051.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1\\reports\\context_mock_validation_mock_analyze_runs\\qml-bb9dc0b1435a"
+    },
+    {
+      "card": "AW-001498.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1\\reports\\context_mock_validation_mock_analyze_runs\\qml-5b139f3f05d7"
+    },
+    {
+      "card": "AW-000229.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1\\reports\\context_mock_validation_mock_analyze_runs\\qml-149a97eacaec"
+    },
+    {
+      "card": "AW-001524.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1\\reports\\context_mock_validation_mock_analyze_runs\\qml-f1e7ffe27bc7"
+    },
+    {
+      "card": "AW-000572.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1\\reports\\context_mock_validation_mock_analyze_runs\\qml-88ee34d03373"
+    },
+    {
+      "card": "AW-001187.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1\\reports\\context_mock_validation_mock_analyze_runs\\qml-5b0f7b153dfb"
+    },
+    {
+      "card": "AW-001654.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1\\reports\\context_mock_validation_mock_analyze_runs\\qml-ff3947c2fe18"
+    },
+    {
+      "card": "AW-001768.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1\\reports\\context_mock_validation_mock_analyze_runs\\qml-ec40b0c57883"
+    },
+    {
+      "card": "AW-001698.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1\\reports\\context_mock_validation_mock_analyze_runs\\qml-913140f40956"
+    },
+    {
+      "card": "AW-000657.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1\\reports\\context_mock_validation_mock_analyze_runs\\qml-6bfb05c14e5a"
+    },
+    {
+      "card": "AW-000117.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1\\reports\\context_mock_validation_mock_analyze_runs\\qml-158dfe38951a"
+    },
+    {
+      "card": "AW-000582.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1\\reports\\context_mock_validation_mock_analyze_runs\\qml-9bbd54f4985d"
+    },
+    {
+      "card": "AW-000935.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1\\reports\\context_mock_validation_mock_analyze_runs\\qml-109725be320c"
+    },
+    {
+      "card": "AW-001238.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1\\reports\\context_mock_validation_mock_analyze_runs\\qml-165c3490d108"
+    },
+    {
+      "card": "AW-001834.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1\\reports\\context_mock_validation_mock_analyze_runs\\qml-379e6f12bb9e"
+    },
+    {
+      "card": "AW-000492.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1\\reports\\context_mock_validation_mock_analyze_runs\\qml-27bb1409066c"
+    },
+    {
+      "card": "AW-001347.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1\\reports\\context_mock_validation_mock_analyze_runs\\qml-82de010dc652"
+    },
+    {
+      "card": "AW-000563.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1\\reports\\context_mock_validation_mock_analyze_runs\\qml-d3f26e0d22ea"
+    },
+    {
+      "card": "AW-001711.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1\\reports\\context_mock_validation_mock_analyze_runs\\qml-706e228d3e38"
+    },
+    {
+      "card": "AW-000029.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1\\reports\\context_mock_validation_mock_analyze_runs\\qml-59570c4c29ef"
+    },
+    {
+      "card": "AW-001564.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1\\reports\\context_mock_validation_mock_analyze_runs\\qml-6287455dee78"
+    },
+    {
+      "card": "AW-000250.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1\\reports\\context_mock_validation_mock_analyze_runs\\qml-410c62ab4831"
+    },
+    {
+      "card": "AW-001632.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1\\reports\\context_mock_validation_mock_analyze_runs\\qml-e3211cf3b34d"
+    },
+    {
+      "card": "AW-001628.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1\\reports\\context_mock_validation_mock_analyze_runs\\qml-d408548a672e"
+    },
+    {
+      "card": "AW-000413.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1\\reports\\context_mock_validation_mock_analyze_runs\\qml-32f9e5e62976"
+    },
+    {
+      "card": "AW-001672.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1\\reports\\context_mock_validation_mock_analyze_runs\\qml-94ecbd9ff30f"
+    },
+    {
+      "card": "AW-001400.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1\\reports\\context_mock_validation_mock_analyze_runs\\qml-bffb9e3674f6"
+    },
+    {
+      "card": "AW-001084.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1\\reports\\context_mock_validation_mock_analyze_runs\\qml-87bf78baa31b"
+    },
+    {
+      "card": "AW-001212.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1\\reports\\context_mock_validation_mock_analyze_runs\\qml-c305100effca"
+    },
+    {
+      "card": "AW-000110.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1\\reports\\context_mock_validation_mock_analyze_runs\\qml-d8a5d1064ab1"
+    },
+    {
+      "card": "AW-001138.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1\\reports\\context_mock_validation_mock_analyze_runs\\qml-36e771dbc891"
+    },
+    {
+      "card": "AW-001007.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1\\reports\\context_mock_validation_mock_analyze_runs\\qml-2b4144c7ce24"
+    },
+    {
+      "card": "AW-000231.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1\\reports\\context_mock_validation_mock_analyze_runs\\qml-5a4333f1906c"
+    },
+    {
+      "card": "AW-001293.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1\\reports\\context_mock_validation_mock_analyze_runs\\qml-b8e8bb57b922"
+    },
+    {
+      "card": "AW-001494.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1\\reports\\context_mock_validation_mock_analyze_runs\\qml-a8709b164b10"
+    },
+    {
+      "card": "AW-001228.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1\\reports\\context_mock_validation_mock_analyze_runs\\qml-70451b47708a"
+    },
+    {
+      "card": "AW-001116.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1\\reports\\context_mock_validation_mock_analyze_runs\\qml-2db356b8e9ba"
+    },
+    {
+      "card": "AW-001678.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1\\reports\\context_mock_validation_mock_analyze_runs\\qml-216dbc7e368e"
+    },
+    {
+      "card": "AW-001377.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1\\reports\\context_mock_validation_mock_analyze_runs\\qml-eaddf5ec4f1c"
+    },
+    {
+      "card": "AW-001273.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1\\reports\\context_mock_validation_mock_analyze_runs\\qml-185021680e08"
+    },
+    {
+      "card": "AW-001726.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1\\reports\\context_mock_validation_mock_analyze_runs\\qml-719636a118c3"
+    },
+    {
+      "card": "AW-000139.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1\\reports\\context_mock_validation_mock_analyze_runs\\qml-29977460ab90"
+    },
+    {
+      "card": "AW-001623.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1\\reports\\context_mock_validation_mock_analyze_runs\\qml-b26a7fe6c633"
+    },
+    {
+      "card": "AW-001058.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1\\reports\\context_mock_validation_mock_analyze_runs\\qml-eee0d93c3fa1"
+    },
+    {
+      "card": "AW-001884.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1\\reports\\context_mock_validation_mock_analyze_runs\\qml-8e9e23e4e86d"
+    },
+    {
+      "card": "AW-001813.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1\\reports\\context_mock_validation_mock_analyze_runs\\qml-4615064992e4"
+    },
+    {
+      "card": "AW-001307.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1\\reports\\context_mock_validation_mock_analyze_runs\\qml-b6f2d44d8625"
+    },
+    {
+      "card": "AW-001132.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1\\reports\\context_mock_validation_mock_analyze_runs\\qml-79ecf16c99e0"
+    },
+    {
+      "card": "AW-001674.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1\\reports\\context_mock_validation_mock_analyze_runs\\qml-ab46563bade1"
+    },
+    {
+      "card": "AW-000107.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1\\reports\\context_mock_validation_mock_analyze_runs\\qml-073b184196ad"
+    },
+    {
+      "card": "AW-001036.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1\\reports\\context_mock_validation_mock_analyze_runs\\qml-8193ef816697"
+    },
+    {
+      "card": "AW-001317.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1\\reports\\context_mock_validation_mock_analyze_runs\\qml-3be554e3bfc4"
+    },
+    {
+      "card": "AW-001081.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1\\reports\\context_mock_validation_mock_analyze_runs\\qml-17451210cfea"
+    },
+    {
+      "card": "AW-001118.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1\\reports\\context_mock_validation_mock_analyze_runs\\qml-fb4a44707dd1"
+    },
+    {
+      "card": "AW-000822.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1\\reports\\context_mock_validation_mock_analyze_runs\\qml-ddf1fb0ad37b"
+    },
+    {
+      "card": "AW-001880.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1\\reports\\context_mock_validation_mock_analyze_runs\\qml-25898cc6f305"
+    },
+    {
+      "card": "AW-001780.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1\\reports\\context_mock_validation_mock_analyze_runs\\qml-67a7ce2f60b8"
+    },
+    {
+      "card": "AW-001222.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1\\reports\\context_mock_validation_mock_analyze_runs\\qml-2687886bebea"
+    },
+    {
+      "card": "AW-000677.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1\\reports\\context_mock_validation_mock_analyze_runs\\qml-fdd79e773910"
+    },
+    {
+      "card": "AW-001646.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1\\reports\\context_mock_validation_mock_analyze_runs\\qml-ca8464bba892"
+    },
+    {
+      "card": "AW-000517.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1\\reports\\context_mock_validation_mock_analyze_runs\\qml-0509e4a8b6e7"
+    },
+    {
+      "card": "AW-000141.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1\\reports\\context_mock_validation_mock_analyze_runs\\qml-512cdba358f2"
+    },
+    {
+      "card": "AW-001233.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1\\reports\\context_mock_validation_mock_analyze_runs\\qml-b08923525012"
+    },
+    {
+      "card": "AW-001868.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1\\reports\\context_mock_validation_mock_analyze_runs\\qml-5c1b137a7adf"
+    },
+    {
+      "card": "AW-001797.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1\\reports\\context_mock_validation_mock_analyze_runs\\qml-02986335864c"
+    },
+    {
+      "card": "AW-000271.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1\\reports\\context_mock_validation_mock_analyze_runs\\qml-545a004d5fda"
+    },
+    {
+      "card": "AW-000202.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1\\reports\\context_mock_validation_mock_analyze_runs\\qml-ef4ee062bcbc"
+    },
+    {
+      "card": "AW-001548.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1\\reports\\context_mock_validation_mock_analyze_runs\\qml-f7ee9b6fc827"
+    },
+    {
+      "card": "AW-001152.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1\\reports\\context_mock_validation_mock_analyze_runs\\qml-bfac5af8e377"
+    },
+    {
+      "card": "AW-000016.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1\\reports\\context_mock_validation_mock_analyze_runs\\qml-86fd2f634412"
+    },
+    {
+      "card": "AW-000806.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1\\reports\\context_mock_validation_mock_analyze_runs\\qml-ada4c0af13ed"
+    },
+    {
+      "card": "AW-000228.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1\\reports\\context_mock_validation_mock_analyze_runs\\qml-e49cb620d312"
+    },
+    {
+      "card": "AW-001269.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1\\reports\\context_mock_validation_mock_analyze_runs\\qml-d6c9561228ce"
+    },
+    {
+      "card": "AW-001122.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1\\reports\\context_mock_validation_mock_analyze_runs\\qml-0b595e7aee47"
+    },
+    {
+      "card": "AW-001769.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1\\reports\\context_mock_validation_mock_analyze_runs\\qml-c5c30998413f"
+    },
+    {
+      "card": "AW-001703.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1\\reports\\context_mock_validation_mock_analyze_runs\\qml-0d88a5ead981"
+    },
+    {
+      "card": "AW-000193.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1\\reports\\context_mock_validation_mock_analyze_runs\\qml-1b9f771be1e4"
+    },
+    {
+      "card": "AW-000049.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1\\reports\\context_mock_validation_mock_analyze_runs\\qml-c957dab49933"
+    },
+    {
+      "card": "AW-000254.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1\\reports\\context_mock_validation_mock_analyze_runs\\qml-29b8dfcf9f42"
+    },
+    {
+      "card": "AW-000472.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1\\reports\\context_mock_validation_mock_analyze_runs\\qml-4a5c582ae5b5"
+    },
+    {
+      "card": "AW-000580.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1\\reports\\context_mock_validation_mock_analyze_runs\\qml-1224a4690959"
+    },
+    {
+      "card": "AW-001710.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1\\reports\\context_mock_validation_mock_analyze_runs\\qml-54dd1029f625"
+    },
+    {
+      "card": "AW-001155.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1\\reports\\context_mock_validation_mock_analyze_runs\\qml-7a0e70f8a905"
+    },
+    {
+      "card": "AW-001062.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1\\reports\\context_mock_validation_mock_analyze_runs\\qml-02413ab571af"
+    },
+    {
+      "card": "AW-001411.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1\\reports\\context_mock_validation_mock_analyze_runs\\qml-cb8ed33bda85"
+    },
+    {
+      "card": "AW-001039.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1\\reports\\context_mock_validation_mock_analyze_runs\\qml-f9946bff6174"
+    },
+    {
+      "card": "AW-001722.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1\\reports\\context_mock_validation_mock_analyze_runs\\qml-55056d20c81e"
+    },
+    {
+      "card": "AW-001241.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1\\reports\\context_mock_validation_mock_analyze_runs\\qml-485bd98c5a71"
+    },
+    {
+      "card": "AW-000629.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1\\reports\\context_mock_validation_mock_analyze_runs\\qml-2c78b6d81565"
+    },
+    {
+      "card": "AW-000190.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1\\reports\\context_mock_validation_mock_analyze_runs\\qml-5a9ca7c3fbf1"
+    },
+    {
+      "card": "AW-001357.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1\\reports\\context_mock_validation_mock_analyze_runs\\qml-cb4210759f72"
+    },
+    {
+      "card": "AW-001748.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1\\reports\\context_mock_validation_mock_analyze_runs\\qml-67feb3e38aef"
+    },
+    {
+      "card": "AW-001046.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1\\reports\\context_mock_validation_mock_analyze_runs\\qml-9269331b3512"
+    },
+    {
+      "card": "AW-001578.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1\\reports\\context_mock_validation_mock_analyze_runs\\qml-08283ecaec19"
+    },
+    {
+      "card": "AW-001054.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1\\reports\\context_mock_validation_mock_analyze_runs\\qml-9d50b26bd419"
+    },
+    {
+      "card": "AW-001735.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1\\reports\\context_mock_validation_mock_analyze_runs\\qml-8721634cc1a7"
+    }
+  ],
+  "ok": true,
+  "public_dir": "corpus\\algorithm_wiki\\algowiki1901_rich_v1\\public_context",
+  "ready_cards": 1344,
+  "timestamp": "2026-06-28T15:57:00.197028+00:00",
+  "total_public_cards": 1356
+}

@@ -1,0 +1,45 @@
+id: AW-001374
+kind: context
+algorithm_id: AW-001374
+algorithm_name: Frigo, Leiserson, Prokop, Ramachandran
+source_records:
+- access_status: metadata_only
+  digest: 9a0e6e14638e892f
+  extracted_facts:
+  - 'AlgorithmWiki row name: Frigo, Leiserson, Prokop, Ramachandran'
+  - 'domain: parallel_algorithms'
+  - 'time complexity: O(mnk/p)'
+  - 'computational model: CREW PRAM'
+  - 'parameter definitions: m x k and k x n matrices'
+  - 'precard summary: Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model. Baseline: time O(mnk/p); work O(mnk); span/depth O(mnk/p); processors p. Bottleneck: work, span, communication, and processor-count assumptions dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001374:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Frigo, Leiserson, Prokop, Ramachandran
+  url: https://ieeexplore.ieee.org/iel5/6604/17631/00814600.pdf
+web_query_attempts:
+- method: search_plan
+  query: Frigo, Leiserson, Prokop, Ramachandran algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Frigo, Leiserson, Prokop, Ramachandran algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Frigo, Leiserson, Prokop, Ramachandran problem definition
+  status: recorded
+- method: search_plan
+  query: Frigo, Leiserson, Prokop, Ramachandran parallel algorithms algorithm
+  status: recorded
+- method: search_plan
+  query: Frigo, Leiserson, Prokop, Ramachandran site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Frigo, Leiserson, Prokop, Ramachandran algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://ieeexplore.ieee.org/iel5/6604/17631/00814600.pdf
+  status: recorded
+extracted_problem_statement: 'Frigo, Leiserson, Prokop, Ramachandran is treated as a classical parallel algorithms task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Frigo, Leiserson, Prokop, Ramachandran. Input semantics: The classical input instance named by the row, together with processor/work/span parameters when stated. Output semantics: The same mathematical output as the underlying classical task, annotated by work/span when available.'
+extracted_algorithm_summary: 'Frigo, Leiserson, Prokop, Ramachandran is a parallel algorithms algorithm record. Classical complexity metadata: time O(mnk/p); work O(mnk); span/depth O(mnk/p); processors p. The stated classical model is CREW PRAM. Public metadata/source text adds: Frigo, Leiserson, Prokop, Ramachandran parallel_algorithms parallel_algorithms m x k and k x n matrices O(mnk/p) Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

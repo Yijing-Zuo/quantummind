@@ -1,0 +1,61 @@
+algorithm_family: parallel algorithms
+algorithm_id: AW-001806
+approximate: '0'
+approximation_factor: ''
+blind_name: Algorithm Wiki public task AW-001806
+canonical_name: Li, Li, Li
+computational_model: EREW PRAM
+domain: parallel_algorithms
+extracted_description: ''
+extraction_version: algorithm-wiki-rich-context-v1
+family: parallel_algorithms
+inferred_access_model: explicit_input_instance
+inferred_ambiguities:
+- No independent fetched public metadata source resolved this row beyond AlgorithmWiki metadata/source-link facts.
+- Some details are reconstructed from AlgorithmWiki metadata rather than an independently fetched full public description.
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.
+inferred_input_model: explicit_parallel_algorithm_problem
+inferred_output_contract: full_solution
+inferred_problem_statement: 'Li, Li, Li is treated as a classical parallel algorithms task for rich AlgorithmWiki discovery. Problem/task: solve a subset-sum or target-sum dynamic-programming/search problem. Input semantics: A finite set or multiset of integers with a target sum parameter. Output semantics: A decision result, feasible subset witness, count, or optimized subset value for the target-sum instance, depending on the row.'
+inferred_promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+- classical_parallel_model_recorded
+inferred_size_parameters:
+- 'Parameter definition: n: the number of integers in the set, t: target sum, eps: processor parameter'
+- p = stated number of processors (O(2^(n(1-eps)/4)))
+number_of_processors: O(2^(n(1-eps)/4))
+page_digest: ''
+page_fetch_status: not_found
+page_url: ''
+parameter_definitions: 'n: the number of integers in the set, t: target sum, eps: processor parameter'
+problem_name: parallel algorithms
+quality_flags:
+- domain_inferred
+- problem_statement_inferred
+- io_access_output_inferred
+- has_complexity_semantics
+- has_size_parameters
+- has_computational_model
+quality_score: 100
+randomized: '0'
+readiness: READY_PUBLIC_CONTEXT
+review_reasons:
+- insufficient_algorithm_level_structure
+source_link: https://link.springer.com/article/10.1007/BF02973436
+source_link_type: unknown
+space_complexity: O(n)
+span_depth: O(2^(n/4))
+time_complexity: O(2^(n(1+eps)/4))
+variation: ''
+work: O(2^(n/2))
+year: '2008'
+rich_card_kind: context
+source_records_used:
+- AW-001806:algorithm_wiki_metadata
+- skipped:fb6a2abe9f38705e
+- skipped:9a1c07ed55d15c5f
+source_count: 3
+source_quality: HIGH
+confidence_score: 100
+card_digest: 30df615711901488

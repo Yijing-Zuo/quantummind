@@ -1,0 +1,35 @@
+algorithm_id: AW-000545
+canonical_name: Generalized expectation maximization (GEM) algorithm
+enrichment_status: SECOND_PASS_INSUFFICIENT
+review_reasons:
+- No second-pass rule could identify source-backed task semantics.
+source_records:
+- access_status: metadata_only
+  digest: 362db3e449427918
+  extracted_facts:
+  - 'AlgorithmWiki row name: Generalized expectation maximization (GEM) algorithm'
+  - 'domain: unknown'
+  - 'time complexity: O(n^4 \log^{1.5} n)'
+  - 'space complexity: O(n+r)'
+  - 'computational model: Real RAM'
+  - 'parameter definitions: n: number of observations in sample, r: number of parameters + latent variables'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000545:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Generalized expectation maximization (GEM) algorithm
+  url: https://web.eecs.umich.edu/~fessler/papers/files/jour/94/web/fessler-94-sag.pdf
+- source_id: crossref_search:38fdc5889ee45daa
+  url: https://doi.org/10.1109/78.324732
+  title: Space-alternating generalized expectation-maximization algorithm
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: Space-alternating generalized expectation-maximization algorithm'
+  short_quote: ''
+  digest: 50d377d1fcefb2f3
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

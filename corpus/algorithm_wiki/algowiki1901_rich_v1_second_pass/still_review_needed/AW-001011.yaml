@@ -1,0 +1,68 @@
+algorithm_id: AW-001011
+canonical_name: Lien
+enrichment_status: SECOND_PASS_INSUFFICIENT
+review_reasons:
+- No second-pass rule could identify source-backed task semantics.
+source_records:
+- access_status: metadata_only
+  digest: 9375406df80649c7
+  extracted_facts:
+  - 'AlgorithmWiki row name: Lien'
+  - 'domain: unknown'
+  - 'time complexity: O(k^2 n^2)'
+  - 'space complexity: O(k^2)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: k: number of multivalued dependencies, n: number of attributes (|U|)'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001011:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Lien
+  url: https://dl.acm.org/doi/abs/10.1145/319540.319546
+- access_status: skipped
+  digest: 069b6d43e0cc8074
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:a9cca05ae2ea1781
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1145/319540.319546
+- access_status: skipped
+  digest: 35981b6aa13a9b48
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:e13c33a4915e6138
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://dl.acm.org/doi/abs/10.1145/319540.319546
+- source_id: crossref:7cbfe855360fc6cb
+  url: https://doi.org/10.1145/319540.319546
+  title: Hierarchical schemata for relational databases
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: HIGH
+  extracted_facts:
+  - 'DOI title: Hierarchical schemata for relational databases'
+  - 'published year: 1981'
+  - 'container title: ACM Transactions on Database Systems'
+  - 'abstract summary: Most database design methods for the relational model produce a flat database, that is, a family of relations with no explicit interrelational connections.'
+  short_quote: Most database design methods for the relational model produce a flat database, that is, a family of relations with no explicit interrelational connections.
+  digest: f6fda629c783a6a6
+- source_id: crossref_search:0b18e1bdccf3f416
+  url: https://doi.org/10.1109/npc.2007.32
+  title: An optimal algorithm to fetch DHT routable
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: An optimal algorithm to fetch DHT routable'
+  short_quote: ''
+  digest: eac65bcac63f65f8
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

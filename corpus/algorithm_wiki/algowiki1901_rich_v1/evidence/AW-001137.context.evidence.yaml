@@ -1,0 +1,58 @@
+id: AW-001137
+kind: context
+algorithm_id: AW-001137
+algorithm_name: Chen (1)
+source_records:
+- access_status: metadata_only
+  digest: f06686576aeb6c26
+  extracted_facts:
+  - 'AlgorithmWiki row name: Chen (1)'
+  - 'domain: parallel_algorithms'
+  - 'time complexity: O(\log{n})'
+  - 'computational model: EREW PRAM'
+  - 'parameter definitions: n: number of integers (in range linear to n)'
+  - 'precard summary: Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model. Baseline: time O(\log{n}); work O(n); span/depth O(\log{n}); processors O(n/ \log{n}). Bottleneck: work, span, communication, and processor-count assumptions dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001137:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Chen (1)
+  url: https://link.springer.com/content/pdf/10.1007/3-540-53504-7_101.pdf
+- access_status: skipped
+  digest: f0b9ca4481d30c5f
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:9e8f03704f21e8bb
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1007/3-540-53504-7_101.pdf
+web_query_attempts:
+- method: search_plan
+  query: Chen (1) algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Chen (1) algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Chen (1) problem definition
+  status: recorded
+- method: search_plan
+  query: Chen (1) parallel algorithms algorithm
+  status: recorded
+- method: search_plan
+  query: Chen (1) site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Chen (1) algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://link.springer.com/content/pdf/10.1007/3-540-53504-7_101.pdf
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1007/3-540-53504-7_101.pdf
+  status: skipped
+extracted_problem_statement: 'Chen (1) is treated as a classical parallel algorithms task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Chen (1). Input semantics: The classical input instance named by the row, together with processor/work/span parameters when stated. Output semantics: The same mathematical output as the underlying classical task, annotated by work/span when available.'
+extracted_algorithm_summary: 'Chen (1) is a parallel algorithms algorithm record. Classical complexity metadata: time O(\log{n}); work O(n); span/depth O(\log{n}); processors O(n/ \log{n}). The stated classical model is EREW PRAM. Public metadata/source text adds: Chen (1) parallel_algorithms parallel_algorithms n: number of integers (in range linear to n) O(\log{n}) Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

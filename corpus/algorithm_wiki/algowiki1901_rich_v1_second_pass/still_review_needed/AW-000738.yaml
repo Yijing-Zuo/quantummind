@@ -1,0 +1,42 @@
+algorithm_id: AW-000738
+canonical_name: LEE Y. KIM H. S. LEE S 2002
+enrichment_status: SECOND_PASS_INSUFFICIENT
+review_reasons:
+- No second-pass rule could identify source-backed task semantics.
+source_records:
+- access_status: metadata_only
+  digest: c1132074eb39de0b
+  extracted_facts:
+  - 'AlgorithmWiki row name: LEE Y. KIM H. S. LEE S 2002'
+  - 'domain: unknown'
+  - 'time complexity: O(n \log^3 n)'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000738:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for LEE Y. KIM H. S. LEE S 2002
+  url: https://www.sciencedirect.com/science/article/abs/pii/S0097849302001231
+- access_status: failed
+  digest: 0674af3d701428c2
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:1e35e7abaa9114c7
+  source_type: publisher_abstract
+  title: 'HTTP Error 403: Forbidden'
+  url: https://www.sciencedirect.com/science/article/abs/pii/S0097849302001231
+- source_id: crossref_search:679885da7659aabd
+  url: https://doi.org/10.1093/benz/9780199773787.article.b00106456
+  title: Lee, Kim
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: Lee, Kim'
+  short_quote: ''
+  digest: 744defd8bfeef62b
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

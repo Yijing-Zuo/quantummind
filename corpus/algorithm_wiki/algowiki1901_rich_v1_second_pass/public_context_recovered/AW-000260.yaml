@@ -1,0 +1,13 @@
+statement: 'Harvey Hoeven Lecerf is included as a named whole-algorithm context card for a classical combinatorics task. The task is to analyze the classical input-output problem, not to certify an end-to-end improvement claim. Input semantics: Two integers represented by n-bit or n-limb strings. Output semantics: The exact product integer. Classical algorithm summary: Harvey Hoeven Lecerf is treated as the named AlgorithmWiki variant for multiply large integers Classical complexity metadata: time O(n \log n 2^{3 \log^*n}); space O(n) auxiliary. Public metadata/source title support includes Even faster integer multiplication. Classical complexity recorded for this row: time O(n \log n 2^{3 \log^*n}); space O(n) auxiliary; computation model Word RAM. Dominant bottleneck: Recursive splitting, convolution, carry propagation, and writing the full product dominate. The useful review questions are whether the named structure exposes a smaller decision, witness, estimation, or algebraic subproblem;
+  whether the full output size dominates any asymptotic gain; and whether the stated access model is realistic for the original input. Provenance used for reconstruction includes public metadata or abstract sources such as Even faster integer multiplication; [1407.3360] Even faster integer multiplication.'
+input_model: explicit_combinatorial_problem
+access_model: random_access_string
+output_contract: full_solution
+promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+size_parameters:
+- 'Parameter definition: n: length of one of the integers, in bits'
+ambiguities:
+- Some details are reconstructed from AlgorithmWiki metadata rather than an independently fetched full public description.
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.

@@ -1,0 +1,58 @@
+id: AW-001522
+kind: context
+algorithm_id: AW-001522
+algorithm_name: Suraweera, Bhattacharya
+source_records:
+- access_status: metadata_only
+  digest: ac2b244e1e059c6c
+  extracted_facts:
+  - 'AlgorithmWiki row name: Suraweera, Bhattacharya'
+  - 'domain: graph'
+  - 'time complexity: O(\log m)'
+  - 'computational model: PRAM-CRCW'
+  - 'parameter definitions: n: number of nodes, m: number of edges'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(\log m); work O(m \log m); span/depth O(log m); processors O(m). Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001522:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Suraweera, Bhattacharya
+  url: https://www.sciencedirect.com/science/article/pii/0020019093900196
+- access_status: skipped
+  digest: 94c8ca7053ddefe2
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:965841d3486aa1be
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://www.sciencedirect.com/science/article/pii/0020019093900196
+web_query_attempts:
+- method: search_plan
+  query: Suraweera, Bhattacharya algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Suraweera, Bhattacharya algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Suraweera, Bhattacharya problem definition
+  status: recorded
+- method: search_plan
+  query: Suraweera, Bhattacharya graph algorithm
+  status: recorded
+- method: search_plan
+  query: Suraweera, Bhattacharya site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Suraweera, Bhattacharya algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://www.sciencedirect.com/science/article/pii/0020019093900196
+  status: recorded
+- method: source_link_html_metadata
+  query: https://www.sciencedirect.com/science/article/pii/0020019093900196
+  status: skipped
+extracted_problem_statement: 'Suraweera, Bhattacharya is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Suraweera, Bhattacharya. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'Suraweera, Bhattacharya is a graph algorithm record. Classical complexity metadata: time O(\log m); work O(m \log m); span/depth O(log m); processors O(m). The stated classical model is PRAM-CRCW. Public metadata/source text adds: Suraweera, Bhattacharya graph graph n: number of nodes, m: number of edges O(\log m) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

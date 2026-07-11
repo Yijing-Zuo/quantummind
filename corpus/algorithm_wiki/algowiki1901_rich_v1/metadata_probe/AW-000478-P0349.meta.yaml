@@ -1,0 +1,43 @@
+probe_id: AW-000478-P0349
+algorithm_id: AW-000478-P0349
+canonical_name: de Prisco estimation_sampling_probe
+readiness: READY_PUBLIC_PROBE
+quality_score: 60
+probe_type: estimation_sampling_probe
+parent_algorithm_id: AW-000478
+parent_algorithm_name: de Prisco
+source_records_used:
+- AW-000478:algorithm_wiki_metadata
+- failed:82784982c6aa10c1
+introduced_assumptions:
+- coherent_estimation_oracle
+- bounded_random_variable
+- coherent_sampler
+missing_from_original_problem:
+- sampler reversibility
+- variance bound
+- query-to-runtime translation
+original_output_contract: estimate
+probe_output_contract: additive_estimate
+not_end_to_end_claim: true
+expected_authority: query_or_subroutine_hypothesis_only
+why_probe_is_scientifically_interesting: Estimation tasks can expose query-level structure even when the full algorithm remains classical.
+why_probe_may_fail: Sampling or approximation may not be the bottleneck, or coherent access may be more expensive than the original method.
+inferred_input_model: explicit_numerical_problem
+inferred_access_model: coherent_estimation_oracle
+inferred_output_contract: additive_estimate
+inferred_size_parameters:
+- 'Parameter definition: n: number of elements, H: entropy of the given distribution, p_0: first element, p_n: last element, p_{max}: largest element'
+inferred_promises:
+- bounded_random_variable
+- coherent_access
+- oracle_model_assumption
+inferred_ambiguities:
+- This probe is assumption-bearing and is not an end-to-end speedup claim.
+- variance bounds, coherent sampler construction, and tolerance mapping remain expert obligations
+- The parent context card and source records should be checked before live use.
+source_count: 2
+source_quality: HIGH
+confidence_score: 60
+card_digest: 1396f7129a0ed2c9
+extraction_version: algorithm-wiki-rich-probe-v1

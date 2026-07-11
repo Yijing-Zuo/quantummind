@@ -1,0 +1,63 @@
+id: AW-000218-P0203
+kind: probe
+algorithm_id: AW-000218
+algorithm_name: Gabow's algorithm
+source_records:
+- access_status: metadata_only
+  digest: 5d4f49327a8700b9
+  extracted_facts:
+  - 'AlgorithmWiki row name: Gabow''s algorithm'
+  - 'domain: graph'
+  - 'time complexity: O(E \log L/\log(2+(E/V)))'
+  - 'space complexity: O(V+E)'
+  - 'computational model: Word/Real RAM'
+  - 'parameter definitions: V: number of vertices, E: number of edges, L: maximum absolute value of edge cost'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(E \log L/\log(2+(E/V))); space O(V+E). Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000218:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Gabow's algorithm
+  url: https://ieeexplore.ieee.org/document/4568085
+- access_status: fetched
+  digest: e6e0ae430e626d99
+  extracted_facts:
+  - 'source page title: https://ieeexplore.ieee.org/document/4568085'
+  - 'source page description: In order to continue, we need to verify that you''re not a robot.'
+  reliability: HIGH
+  short_quote: In order to continue, we need to verify that you're not a robot.
+  source_id: source:6da02c065bf53801
+  source_type: publisher_abstract
+  title: https://ieeexplore.ieee.org/document/4568085
+  url: https://ieeexplore.ieee.org/document/4568085
+web_query_attempts:
+- method: search_plan
+  query: Gabow's algorithm algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Gabow's algorithm algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Gabow's algorithm problem definition
+  status: recorded
+- method: search_plan
+  query: Gabow's algorithm graph algorithm
+  status: recorded
+- method: search_plan
+  query: Gabow's algorithm site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Gabow's algorithm algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://ieeexplore.ieee.org/document/4568085
+  status: recorded
+- method: source_link_html_metadata
+  query: https://ieeexplore.ieee.org/document/4568085
+  status: fetched
+- method: wikipedia_summary_search
+  query: Gabow's algorithm algorithm
+  status: failed_or_not_relevant
+extracted_problem_statement: 'Gabow''s algorithm is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Gabow''s algorithm. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'Gabow''s algorithm is a graph algorithm record. Classical complexity metadata: time O(E \log L/\log(2+(E/V))); space O(V+E). The stated classical model is Word/Real RAM. Public metadata/source text adds: Gabow''s algorithm graph graph V: number of vertices, E: number of edges, L: maximum absolute value of edge cost O(E \log L/\log(2+(E/V))) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

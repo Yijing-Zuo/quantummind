@@ -1,0 +1,58 @@
+id: AW-001836
+kind: context
+algorithm_id: AW-001836
+algorithm_name: Edwards, Vishkin
+source_records:
+- access_status: metadata_only
+  digest: efe8d832f7126087
+  extracted_facts:
+  - 'AlgorithmWiki row name: Edwards, Vishkin'
+  - 'domain: string'
+  - 'time complexity: O(\log^2{n})'
+  - 'computational model: PRAM'
+  - 'parameter definitions: n: string length'
+  - 'precard summary: Given one or more explicit strings, compute the matching, indexing, alignment, or transformation output targeted by the record. Baseline: time O(\log^2{n}); work O(n); span/depth O(\log^2{n}); processors O(n/ \log^2{n}). Bottleneck: string scanning, preprocessing tables, and reporting matches dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001836:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Edwards, Vishkin
+  url: https://www.sciencedirect.com/science/article/pii/S0304397513007615
+- access_status: skipped
+  digest: 3b285d563b7180b4
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:25747d3a881b5b2d
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://www.sciencedirect.com/science/article/pii/S0304397513007615
+web_query_attempts:
+- method: search_plan
+  query: Edwards, Vishkin algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Edwards, Vishkin algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Edwards, Vishkin problem definition
+  status: recorded
+- method: search_plan
+  query: Edwards, Vishkin string algorithm
+  status: recorded
+- method: search_plan
+  query: Edwards, Vishkin site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Edwards, Vishkin algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://www.sciencedirect.com/science/article/pii/S0304397513007615
+  status: recorded
+- method: source_link_html_metadata
+  query: https://www.sciencedirect.com/science/article/pii/S0304397513007615
+  status: skipped
+extracted_problem_statement: 'Edwards, Vishkin is treated as a classical string task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Edwards, Vishkin. Input semantics: One or more finite strings, sequences, patterns, or alphabets. Output semantics: Pattern occurrence positions, matches, or the associated string-search report.'
+extracted_algorithm_summary: 'Edwards, Vishkin is a string algorithm record. Classical complexity metadata: time O(\log^2{n}); work O(n); span/depth O(\log^2{n}); processors O(n/ \log^2{n}). The stated classical model is PRAM. Public metadata/source text adds: Edwards, Vishkin string string n: string length O(\log^2{n}) Given one or more explicit strings, compute the matching, indexing, alignment, or transformation output targeted by the record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

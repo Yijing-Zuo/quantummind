@@ -1,0 +1,53 @@
+id: AW-000317
+kind: context_recovered
+algorithm_id: AW-000317
+algorithm_name: Contribution Culling
+source_records:
+- access_status: metadata_only
+  digest: 6b864a5b53bfabbd
+  extracted_facts:
+  - 'AlgorithmWiki row name: Contribution Culling'
+  - 'domain: unknown'
+  - 'time complexity: O(n^2)'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000317:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Contribution Culling
+  url: ''
+- source_id: crossref_search:f9010ed22a899a12
+  url: https://doi.org/10.1109/38.252595
+  title: Backface culling snags (rendering algorithm)
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: Backface culling snags (rendering algorithm)'
+  short_quote: ''
+  digest: 24a18216da224330
+web_query_attempts:
+- query: '"Contribution Culling" algorithm'
+  method: search_plan
+  status: recorded
+- query: '"Contribution Culling" input output'
+  method: search_plan
+  status: recorded
+- query: '"Contribution Culling" time complexity'
+  method: search_plan
+  status: recorded
+- query: '"Contribution Culling" pseudocode'
+  method: search_plan
+  status: recorded
+- query: '"Contribution Culling" problem'
+  method: search_plan
+  status: recorded
+- query: '"Contribution Culling" PDF metadata abstract'
+  method: search_plan
+  status: recorded
+- query: Contribution Culling algorithm
+  method: crossref_title_search
+  status: fetched
+extracted_problem_statement: 'Contribution Culling is reconstructed as a classical image processing task. Problem/task: compute shaded/rendered image values from a geometric scene and illumination model Input semantics: Scene geometry, material parameters, lights, camera/view information, and image resolution. Output semantics: Rendered pixel colors or intermediate shading/visibility values.'
+extracted_algorithm_summary: 'Contribution Culling is treated as the named AlgorithmWiki variant for compute shaded/rendered image values from a geometric scene and illumination model Classical complexity metadata: time O(n^2). Public metadata/source title support includes Backface culling snags (rendering algorithm).'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

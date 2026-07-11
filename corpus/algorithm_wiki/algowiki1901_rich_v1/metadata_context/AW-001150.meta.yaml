@@ -1,0 +1,63 @@
+algorithm_family: sorting
+algorithm_id: AW-001150
+approximate: '0'
+approximation_factor: ''
+blind_name: Algorithm Wiki public task AW-001150
+canonical_name: Parallel Quicksort - Chlebus, Vrt'o
+computational_model: CRCW PRAM
+domain: sorting
+extracted_description: ''
+extraction_version: algorithm-wiki-rich-context-v1
+family: sorting
+inferred_access_model: random_access_array
+inferred_ambiguities:
+- The AlgorithmWiki row marks the classical method as randomized.
+- No independent fetched public metadata source resolved this row beyond AlgorithmWiki metadata/source-link facts.
+- Some details are reconstructed from AlgorithmWiki metadata rather than an independently fetched full public description.
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.
+inferred_input_model: explicit_sequence_problem
+inferred_output_contract: full_sequence_output
+inferred_problem_statement: 'Parallel Quicksort - Chlebus, Vrt''o is treated as a classical sorting task for rich AlgorithmWiki discovery. Problem/task: sort the input sequence using the named classical sorting method. Input semantics: A finite array or list of comparable keys or records. Output semantics: The same items returned in nondecreasing order, usually as a full reordered sequence.'
+inferred_promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+- classical_randomized_algorithm
+- classical_parallel_model_recorded
+inferred_size_parameters:
+- 'Parameter definition: n: size of list'
+- p = stated number of processors (n)
+number_of_processors: n
+page_digest: ''
+page_fetch_status: not_found
+page_url: ''
+parameter_definitions: 'n: size of list'
+problem_name: sorting
+quality_flags:
+- domain_inferred
+- problem_statement_inferred
+- io_access_output_inferred
+- has_complexity_semantics
+- has_size_parameters
+- has_computational_model
+- randomized_flag_preserved
+quality_score: 100
+randomized: '1'
+readiness: READY_PUBLIC_CONTEXT
+review_reasons: []
+source_link: https://www.sciencedirect.com/science/article/pii/074373159190040G
+source_link_type: sciencedirect
+space_complexity: ''
+span_depth: O(\log{n}) expected
+time_complexity: O(\log{n}) w/ high probability
+variation: ''
+work: O(n \\log{n}) expected
+year: '1991'
+rich_card_kind: context
+source_records_used:
+- AW-001150:algorithm_wiki_metadata
+- skipped:9efe16a02afdba4a
+- skipped:32bcaf48baa1622f
+source_count: 3
+source_quality: HIGH
+confidence_score: 100
+card_digest: e03a28b53cb0ba3d

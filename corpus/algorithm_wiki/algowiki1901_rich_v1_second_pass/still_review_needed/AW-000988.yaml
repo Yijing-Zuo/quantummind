@@ -1,0 +1,66 @@
+algorithm_id: AW-000988
+canonical_name: Chan, Williams
+enrichment_status: SECOND_PASS_INSUFFICIENT
+review_reasons:
+- No second-pass rule could identify source-backed task semantics.
+source_records:
+- access_status: metadata_only
+  digest: f63146c2b54e67d5
+  extracted_facts:
+  - 'AlgorithmWiki row name: Chan, Williams'
+  - 'domain: unknown'
+  - 'time complexity: O(n^{(2-1/O(d/log(n)))})'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of vectors per set, d: dimension of each vector d = omega(log(n))'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000988:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Chan, Williams
+  url: https://epubs.siam.org/doi/abs/10.1137/1.9781611974331.ch87
+- access_status: skipped
+  digest: 70f8148ae2fdafa6
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:b272aaf0949be40e
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1137/1.9781611974331.ch87
+- access_status: skipped
+  digest: 71117b9cf3387cf6
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:22ad82dd502b5fba
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://epubs.siam.org/doi/abs/10.1137/1.9781611974331.ch87
+- source_id: crossref:b34bd561e27983fb
+  url: https://doi.org/10.1137/1.9781611974331.ch87
+  title: 'Deterministic APSP, Orthogonal Vectors, and More: Quickly Derandomizing Razborov-Smolensky'
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: HIGH
+  extracted_facts:
+  - 'DOI title: Deterministic APSP, Orthogonal Vectors, and More: Quickly Derandomizing Razborov-Smolensky'
+  - 'published year: 2016'
+  - 'container title: Proceedings of the Twenty-Seventh Annual ACM-SIAM Symposium on Discrete Algorithms'
+  short_quote: ''
+  digest: daaf4da9ee7853e3
+- source_id: crossref_search:0b18e1bdccf3f416
+  url: https://doi.org/10.1109/npc.2007.32
+  title: An optimal algorithm to fetch DHT routable
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: An optimal algorithm to fetch DHT routable'
+  short_quote: ''
+  digest: eac65bcac63f65f8
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

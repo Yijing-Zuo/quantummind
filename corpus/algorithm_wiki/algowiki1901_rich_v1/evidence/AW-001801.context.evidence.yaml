@@ -1,0 +1,72 @@
+id: AW-001801
+kind: context
+algorithm_id: AW-001801
+algorithm_name: "Djoki\u0107 et al [enumeration of subsets]"
+source_records:
+- access_status: metadata_only
+  digest: 23cee4b7571f43c6
+  extracted_facts:
+  - "AlgorithmWiki row name: Djoki\u0107 et al [enumeration of subsets]"
+  - 'domain: parallel_algorithms'
+  - 'time complexity: O(n*2^n/p)'
+  - 'space complexity: O(n)'
+  - 'computational model: (shared memory no communication)'
+  - "parameter definitions: n: the number of integers in the set, t: target sum, p: number of processors 1\u2264p\u22642^n"
+  - 'precard summary: Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model. Baseline: time O(n*2^n/p); space O(n); work O(n*2^n); span/depth O(n); processors p. Bottleneck: work, span, communication, and processor-count assumptions dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001801:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: "AlgorithmWiki metadata for Djoki\u0107 et al [enumeration of subsets]"
+  url: https://link.springer.com/chapter/10.1007/3-540-52921-7_57
+- access_status: skipped
+  digest: 7bee782201a0e4ff
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:1a1ad835a5dd59c3
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1007/3-540-52921-7_57
+- access_status: skipped
+  digest: dd09a4dc375a9a7f
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:6b0a0ea9c903a83c
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://link.springer.com/chapter/10.1007/3-540-52921-7_57
+web_query_attempts:
+- method: search_plan
+  query: "Djoki\u0107 et al [enumeration of subsets] algorithm input output complexity"
+  status: recorded
+- method: search_plan
+  query: "Djoki\u0107 et al [enumeration of subsets] algorithm pseudocode"
+  status: recorded
+- method: search_plan
+  query: "Djoki\u0107 et al [enumeration of subsets] problem definition"
+  status: recorded
+- method: search_plan
+  query: "Djoki\u0107 et al [enumeration of subsets] parallel algorithms algorithm"
+  status: recorded
+- method: search_plan
+  query: "Djoki\u0107 et al [enumeration of subsets] site:nist.gov DADS"
+  status: recorded
+- method: search_plan
+  query: "Djoki\u0107 et al [enumeration of subsets] algorithm wiki"
+  status: recorded
+- method: search_plan
+  query: https://link.springer.com/chapter/10.1007/3-540-52921-7_57
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1007/3-540-52921-7_57
+  status: skipped
+- method: source_link_html_metadata
+  query: https://link.springer.com/chapter/10.1007/3-540-52921-7_57
+  status: skipped
+extracted_problem_statement: "Djoki\u0107 et al [enumeration of subsets] is treated as a classical parallel algorithms task for rich AlgorithmWiki discovery. Problem/task: solve a subset-sum or target-sum dynamic-programming/search problem. Input semantics: A finite set or multiset of integers with a target sum parameter. Output semantics: A decision result, feasible subset witness, count, or optimized subset value for the target-sum instance, depending on the row."
+extracted_algorithm_summary: "Djoki\u0107 et al [enumeration of subsets] is a parallel algorithms algorithm record. Classical complexity metadata: time O(n*2^n/p); space O(n); work O(n*2^n); span/depth O(n); processors p. The stated classical model is (shared memory no communication). Public metadata/source text adds: Djoki\u0107 et al [enumeration of subsets] parallel_algorithms parallel_algorithms n: the number of integers in the set, t: target sum, p: number of processors 1\u2264p\u22642^n O(n*2^n/p) Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model."
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

@@ -1,0 +1,36 @@
+algorithm_id: AW-000902
+canonical_name: ''
+enrichment_status: READY_WEB_ENRICHED
+review_reasons:
+- missing_algorithm_name
+source_records:
+- access_status: metadata_only
+  digest: 7fead5f98a92d026
+  extracted_facts:
+  - 'domain: unknown'
+  - 'time complexity: O(n^3 / log^2.25 n)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: dimension of the two square matrices'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000902:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: 'AlgorithmWiki metadata for '
+  url: https://dl.acm.org/doi/pdf/10.1145/3186893, Theorem 1.4
+- access_status: fetched
+  digest: aa184117cb2dba7a
+  extracted_facts:
+  - 'DOI title: Subcubic Equivalences Between Path, Matrix, and Triangle Problems'
+  - 'published year: 2018'
+  - 'container title: Journal of the ACM'
+  - "abstract summary: \u2022The all-pairs shortest paths problem on weighted digraphs (APSP)."
+  reliability: HIGH
+  short_quote: "\u2022The all-pairs shortest paths problem on weighted digraphs (APSP)."
+  source_id: crossref:83a787cd3c0606aa
+  source_type: doi_metadata
+  title: Subcubic Equivalences Between Path, Matrix, and Triangle Problems
+  url: https://doi.org/10.1145/3186893
+extracted_problem_statement: 'is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: find a low-cost or shortest path in a graph or state-space search instance. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: A path, path cost, or predecessor structure connecting the requested graph states.'
+extracted_input_semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task.
+extracted_output_semantics: A path, path cost, or predecessor structure connecting the requested graph states.

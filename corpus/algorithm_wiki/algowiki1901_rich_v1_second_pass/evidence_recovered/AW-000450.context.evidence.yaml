@@ -1,0 +1,58 @@
+id: AW-000450
+kind: context_recovered
+algorithm_id: AW-000450
+algorithm_name: Peterson's algorithm
+source_records:
+- access_status: metadata_only
+  digest: 62ba86f61f8ad020
+  extracted_facts:
+  - 'AlgorithmWiki row name: Peterson''s algorithm'
+  - 'domain: unknown'
+  - 'time complexity: O(n)'
+  - 'space complexity: O(n) total'
+  - 'parameter definitions: n: number of processes'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000450:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Peterson's algorithm
+  url: https://zoo.cs.yale.edu/classes/cs323/doc/Peterson.pdf
+- source_id: crossref_search:0db125ba65593c5e
+  url: https://doi.org/10.1007/s00200-020-00464-6
+  title: "Peterson\u2013Gorenstein\u2013Zierler algorithm for differential convolutional codes"
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - "Crossref title-search result: Peterson\u2013Gorenstein\u2013Zierler algorithm for differential convolutional codes"
+  short_quote: ''
+  digest: cd5116c648c973a8
+web_query_attempts:
+- query: '"Peterson''s algorithm" algorithm'
+  method: search_plan
+  status: recorded
+- query: '"Peterson''s algorithm" input output'
+  method: search_plan
+  status: recorded
+- query: '"Peterson''s algorithm" time complexity'
+  method: search_plan
+  status: recorded
+- query: '"Peterson''s algorithm" pseudocode'
+  method: search_plan
+  status: recorded
+- query: '"Peterson''s algorithm" problem'
+  method: search_plan
+  status: recorded
+- query: '"Peterson''s algorithm" PDF metadata abstract'
+  method: search_plan
+  status: recorded
+- query: https://zoo.cs.yale.edu/classes/cs323/doc/Peterson.pdf
+  method: search_plan
+  status: recorded
+- query: Peterson's algorithm algorithm
+  method: crossref_title_search
+  status: fetched
+extracted_problem_statement: 'Peterson''s algorithm is reconstructed as a classical parallel algorithms task. Problem/task: coordinate process access to a critical section without simultaneous entry Input semantics: A set of processes, request/release events, and shared-memory or message-passing assumptions. Output semantics: A protocol state sequence or decision granting safe critical-section access.'
+extracted_algorithm_summary: "Peterson's algorithm is treated as the named AlgorithmWiki variant for coordinate process access to a critical section without simultaneous entry Classical complexity metadata: time O(n); space O(n) total. Public metadata/source title support includes Peterson\u2013Gorenstein\u2013Zierler algorithm for differential convolutional codes."
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

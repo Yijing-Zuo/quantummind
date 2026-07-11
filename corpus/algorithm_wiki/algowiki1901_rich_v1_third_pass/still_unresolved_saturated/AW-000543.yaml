@@ -1,0 +1,81 @@
+algorithm_id: AW-000543
+canonical_name: Parameter-expanded expectation maximization (PX-EM) algorithm
+enrichment_status: THIRD_PASS_SATURATED_INSUFFICIENT
+review_reasons:
+- After the configured source-family cycles, no source-backed concrete task, input semantics, output semantics, and conservative access model could be established.
+source_records:
+- access_status: metadata_only
+  digest: 9101542157289dc0
+  extracted_facts:
+  - 'AlgorithmWiki row name: Parameter-expanded expectation maximization (PX-EM) algorithm'
+  - 'domain: unknown'
+  - 'time complexity: O(n^3)'
+  - 'space complexity: O(n+r)'
+  - 'computational model: Real RAM'
+  - 'parameter definitions: n: number of observations in sample, r: number of parameters + latent variables'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000543:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Parameter-expanded expectation maximization (PX-EM) algorithm
+  url: https://www.jstor.org/stable/2337481
+- access_status: failed
+  digest: 43f95648efd5c0c2
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:297b320b64c54a58
+  source_type: other_public_source
+  title: 'HTTP Error 403: Forbidden'
+  url: https://www.jstor.org/stable/2337481
+- access_status: fetched
+  digest: 28d4972b15fb1efc
+  extracted_facts:
+  - "Crossref title-search result: Expectation\u2013Maximization (EM) Algorithm"
+  reliability: MEDIUM
+  short_quote: ''
+  source_id: crossref_search:778d34e4a2f14ece
+  source_type: doi_metadata
+  title: "Expectation\u2013Maximization (EM) Algorithm"
+  url: https://doi.org/10.1201/9781003104315-9
+- source_id: crossref_search:db576e61d2fa974b
+  url: https://doi.org/10.1201/9781003104315-9
+  title: "Expectation\u2013Maximization (EM) Algorithm"
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - "Crossref title: Expectation\u2013Maximization (EM) Algorithm"
+  - 'published year: 2025'
+  - 'container title: Applications of Big Data and Machine Learning in Galaxy Formation and Evolution'
+  short_quote: "Crossref title: Expectation\u2013Maximization (EM) Algorithm published year: 2025 container title: Applications of Big Data and Machine Learning in Galaxy Formation and Evolution"
+  digest: e8257a5e1bd6b54f
+- source_id: openalex:443eb4463b0357d7
+  url: https://openalex.org/W2098601118
+  title: Parameter Expansion for Data Augmentation
+  source_type: openalex
+  access_status: fetched
+  reliability: HIGH
+  extracted_facts:
+  - 'OpenAlex title: Parameter Expansion for Data Augmentation'
+  - 'publication year: 1999'
+  - 'abstract summary: Abstract Viewing the observed data of a statistical model as incomplete and augmenting its missing parts are useful for clarifying concepts and central to the invention of two well-known statistical algorithms: expectation-maximization (EM) and data augmentation.'
+  short_quote: 'OpenAlex title: Parameter Expansion for Data Augmentation publication year: 1999 abstract summary: Abstract Viewing the observed data of a statistical model as incomplete and'
+  digest: 666890de4111ac86
+- source_id: semantic_scholar:77386a58df9ed702
+  url: https://www.semanticscholar.org/paper/1609b14afa65b2658db679f1e7c64243018e70fa
+  title: Parameter Expanded Variational Bayesian Methods
+  source_type: semantic_scholar
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Semantic Scholar title: Parameter Expanded Variational Bayesian Methods'
+  - 'published year: 2006'
+  - 'abstract summary: None'
+  short_quote: 'Semantic Scholar title: Parameter Expanded Variational Bayesian Methods published year: 2006 abstract summary: None'
+  digest: 8641d78e277c9828
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

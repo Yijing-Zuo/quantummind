@@ -1,0 +1,46 @@
+id: AW-000692
+kind: context
+algorithm_id: AW-000692
+algorithm_name: Naive
+source_records:
+- access_status: metadata_only
+  digest: bcfe061e78f9fa1c
+  extracted_facts:
+  - 'AlgorithmWiki row name: Naive'
+  - 'domain: string'
+  - 'time complexity: O(n^2)'
+  - 'space complexity: O(n)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: length of string'
+  - 'precard summary: Given one or more explicit strings, compute the matching, indexing, alignment, or transformation output targeted by the record. Baseline: time O(n^2); space O(n). Bottleneck: string scanning, preprocessing tables, and reporting matches dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000692:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Naive
+  url: '-'
+web_query_attempts:
+- method: search_plan
+  query: Naive algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Naive algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Naive problem definition
+  status: recorded
+- method: search_plan
+  query: Naive string algorithm
+  status: recorded
+- method: search_plan
+  query: Naive site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Naive algorithm wiki
+  status: recorded
+- method: search_plan
+  query: '-'
+  status: recorded
+extracted_problem_statement: 'Naive is treated as a classical string task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Naive. Input semantics: One or more finite strings, sequences, patterns, or alphabets. Output semantics: Pattern occurrence positions, matches, or the associated string-search report.'
+extracted_algorithm_summary: 'Naive is a string algorithm record. Classical complexity metadata: time O(n^2); space O(n). The stated classical model is Word RAM. Public metadata/source text adds: Naive string string n: length of string O(n^2) Given one or more explicit strings, compute the matching, indexing, alignment, or transformation output targeted by the record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

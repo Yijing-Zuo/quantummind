@@ -1,0 +1,75 @@
+id: AW-000175-P0136
+kind: probe
+algorithm_id: AW-000175
+algorithm_name: Chazelle & Edelsbrunner
+source_records:
+- access_status: metadata_only
+  digest: d00f88ad7ed9a74d
+  extracted_facts:
+  - 'AlgorithmWiki row name: Chazelle & Edelsbrunner'
+  - 'domain: computational_geometry'
+  - 'time complexity: O(n \log n + k)'
+  - 'space complexity: O(n+k)'
+  - 'computational model: Real RAM'
+  - 'parameter definitions: n: number of line segments, k: number of points of intersection'
+  - 'precard summary: Given explicit geometric objects such as points, segments, or polygons, compute the requested geometric structure or witness set. Baseline: time O(n \log n + k); space O(n+k). Bottleneck: geometric predicates, ordering events, and output-sensitive structure size dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000175:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Chazelle & Edelsbrunner
+  url: https://dl.acm.org/doi/10.1145/147508.147511
+- access_status: fetched
+  digest: f473551d181d129c
+  extracted_facts:
+  - 'DOI title: An optimal algorithm for intersecting line segments in the plane'
+  - 'published year: 1992'
+  - 'container title: Journal of the ACM'
+  - 'abstract summary: line segments in the plane. This time complexity is easily shown to be optimal.'
+  reliability: HIGH
+  short_quote: line segments in the plane. This time complexity is easily shown to be optimal.
+  source_id: crossref:f3974f9df45ca6c6
+  source_type: doi_metadata
+  title: An optimal algorithm for intersecting line segments in the plane
+  url: https://doi.org/10.1145/147508.147511
+- access_status: failed
+  digest: 66a52df7df07c1a6
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:de408bb2482757fb
+  source_type: publisher_abstract
+  title: 'HTTP Error 403: Forbidden'
+  url: https://dl.acm.org/doi/10.1145/147508.147511
+web_query_attempts:
+- method: search_plan
+  query: Chazelle & Edelsbrunner algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Chazelle & Edelsbrunner algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Chazelle & Edelsbrunner problem definition
+  status: recorded
+- method: search_plan
+  query: Chazelle & Edelsbrunner computational geometry algorithm
+  status: recorded
+- method: search_plan
+  query: Chazelle & Edelsbrunner site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Chazelle & Edelsbrunner algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://dl.acm.org/doi/10.1145/147508.147511
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1145/147508.147511
+  status: fetched
+- method: source_link_html_metadata
+  query: https://dl.acm.org/doi/10.1145/147508.147511
+  status: failed
+extracted_problem_statement: 'Chazelle & Edelsbrunner is treated as a classical computational geometry task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Chazelle & Edelsbrunner. Input semantics: Explicit geometric objects such as points, line segments, polygons, or planar subdivisions. Output semantics: The requested geometric structure, simplified curve, clipping result, intersection set, hull, or diagram.'
+extracted_algorithm_summary: 'Chazelle & Edelsbrunner is a computational geometry algorithm record. Classical complexity metadata: time O(n \log n + k); space O(n+k). The stated classical model is Real RAM. Public metadata/source text adds: Chazelle & Edelsbrunner computational_geometry computational_geometry n: number of line segments, k: number of points of intersection O(n \log n + k) Given explicit geometric objects such as points, segments, or polygons, compute the requested geometric structure or witness set.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

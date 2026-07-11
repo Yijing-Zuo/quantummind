@@ -1,0 +1,14 @@
+statement: 'Randomized LU Decomposition estimation-sampling probe. This is a subroutine/query-model probe, not an end-to-end claim for the original algorithm. The probe reformulates the row as estimating the mean, probability, count, or numerical quantity of a bounded random variable. Original input context: One or more explicit matrices or linear systems over the stated arithmetic domain. Original output context: The requested matrix, decomposition, solution vector, or other linear-algebraic output. Original bottleneck noted for the rich context card: arithmetic over dense or structured matrices and the cost of producing matrix-sized outputs. The bounded variable and coherent sampler are introduced assumptions; any positive result would be query-level only. Coherent oracle construction, promise checking, and data-mapping cost remain expert obligations. The original algorithm may still have full-output, preprocessing, or data-loading barriers.'
+input_model: explicit_matrix_problem
+access_model: coherent_estimation_oracle
+output_contract: additive_estimate
+promises:
+- bounded_random_variable
+- coherent_access
+- oracle_model_assumption
+size_parameters:
+- 'Parameter definition: m: number of rows in input matrix, n: number of columns in input matrix, l: number of columns chosen to use in the decomposition (l \geq k), k: desired rank of decomposition'
+ambiguities:
+- This probe is assumption-bearing and is not an end-to-end speedup claim.
+- variance bounds, coherent sampler construction, and tolerance mapping remain expert obligations
+- The parent context card and source records should be checked before live use.

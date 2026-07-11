@@ -1,0 +1,74 @@
+id: AW-000912
+kind: context
+algorithm_id: AW-000912
+algorithm_name: Sorting with Fusion Trees
+source_records:
+- access_status: metadata_only
+  digest: fb70505be3a77190
+  extracted_facts:
+  - 'AlgorithmWiki row name: Sorting with Fusion Trees'
+  - 'domain: sorting'
+  - 'time complexity: O((n log n)/(log log n))'
+  - 'space complexity: O(n)'
+  - 'computational model: Word RAM (or unit-cost RAM, more generally)'
+  - 'parameter definitions: n: size of list'
+  - 'precard summary: Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model. Baseline: time O((n log n)/(log log n)); space O(n). Bottleneck: comparison, distribution, and full-output movement costs dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000912:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Sorting with Fusion Trees
+  url: https://dl.acm.org/doi/10.1145/100216.100217
+- access_status: fetched
+  digest: 10e4e9949599e8fc
+  extracted_facts:
+  - 'DOI title: BLASTING through the information theoretic barrier with FUSION TREES'
+  - 'published year: 1990'
+  - 'container title: Proceedings of the twenty-second annual ACM symposium on Theory of computing - STOC ''90'
+  reliability: HIGH
+  short_quote: ''
+  source_id: crossref:baf8c8f21d5b72c6
+  source_type: doi_metadata
+  title: BLASTING through the information theoretic barrier with FUSION TREES
+  url: https://doi.org/10.1145/100216.100217
+- access_status: failed
+  digest: f739637add93be96
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:65fc4525900f3bd2
+  source_type: publisher_abstract
+  title: 'HTTP Error 403: Forbidden'
+  url: https://dl.acm.org/doi/10.1145/100216.100217
+web_query_attempts:
+- method: search_plan
+  query: Sorting with Fusion Trees algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Sorting with Fusion Trees algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Sorting with Fusion Trees problem definition
+  status: recorded
+- method: search_plan
+  query: Sorting with Fusion Trees sorting algorithm
+  status: recorded
+- method: search_plan
+  query: Sorting with Fusion Trees site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Sorting with Fusion Trees algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://dl.acm.org/doi/10.1145/100216.100217
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1145/100216.100217
+  status: fetched
+- method: source_link_html_metadata
+  query: https://dl.acm.org/doi/10.1145/100216.100217
+  status: failed
+extracted_problem_statement: 'Sorting with Fusion Trees is treated as a classical sorting task for rich AlgorithmWiki discovery. Problem/task: sort the input sequence using the named classical sorting method. Input semantics: A finite array or list of comparable keys or records. Output semantics: The same items returned in nondecreasing order, usually as a full reordered sequence.'
+extracted_algorithm_summary: 'Sorting with Fusion Trees is a sorting algorithm record. Classical complexity metadata: time O((n log n)/(log log n)); space O(n). The stated classical model is Word RAM (or unit-cost RAM, more generally). Public metadata/source text adds: Sorting with Fusion Trees sorting sorting n: size of list O((n log n)/(log log n)) Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

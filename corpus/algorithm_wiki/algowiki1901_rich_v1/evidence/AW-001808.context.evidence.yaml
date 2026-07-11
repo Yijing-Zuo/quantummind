@@ -1,0 +1,72 @@
+id: AW-001808
+kind: context
+algorithm_id: AW-001808
+algorithm_name: Sanches, Soma, Yanasse [Algorithm 2a]
+source_records:
+- access_status: metadata_only
+  digest: 82abb8d63c4cc58a
+  extracted_facts:
+  - 'AlgorithmWiki row name: Sanches, Soma, Yanasse [Algorithm 2a]'
+  - 'domain: parallel_algorithms'
+  - 'time complexity: O(n/p * (c - 2*w_min) + c/p + n)'
+  - 'space complexity: O(n)'
+  - 'computational model: EREW PRAM'
+  - "parameter definitions: n: the number of integers in the set, w_min: minimum weight, w_max: maximum weight, c: capacity, p: number of processors log n\u2264p\u2264n"
+  - 'precard summary: Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model. Baseline: time O(n/p * (c - 2*w_min) + c/p + n); space O(n); work O(n(c - 2*w_min) + c + n); span/depth O((c - 2*w_min) + c/n + n); processors p. Bottleneck: work, span, communication, and processor-count assumptions dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001808:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Sanches, Soma, Yanasse [Algorithm 2a]
+  url: https://www.sciencedirect.com/science/article/pii/S0304397508004854
+- access_status: skipped
+  digest: 8cd20d622c2e09fd
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:cfde4de36c4d1c35
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://www.sciencedirect.com/science/article/pii/S0304397508004854
+- access_status: skipped
+  digest: 0bcf56999099eb4b
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:0da5fa53f3d2127b
+  source_type: wikipedia
+  title: fetch budget exhausted
+  url: https://en.wikipedia.org/wiki/Sanches%2C_Soma%2C_Yanasse_%5BAlgorithm_2a%5D
+web_query_attempts:
+- method: search_plan
+  query: Sanches, Soma, Yanasse [Algorithm 2a] algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Sanches, Soma, Yanasse [Algorithm 2a] algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Sanches, Soma, Yanasse [Algorithm 2a] problem definition
+  status: recorded
+- method: search_plan
+  query: Sanches, Soma, Yanasse [Algorithm 2a] parallel algorithms algorithm
+  status: recorded
+- method: search_plan
+  query: Sanches, Soma, Yanasse [Algorithm 2a] site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Sanches, Soma, Yanasse [Algorithm 2a] algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://www.sciencedirect.com/science/article/pii/S0304397508004854
+  status: recorded
+- method: source_link_html_metadata
+  query: https://www.sciencedirect.com/science/article/pii/S0304397508004854
+  status: skipped
+- method: wikipedia_summary_search
+  query: Sanches, Soma, Yanasse [Algorithm 2a] algorithm
+  status: skipped
+extracted_problem_statement: 'Sanches, Soma, Yanasse [Algorithm 2a] is treated as a classical parallel algorithms task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Sanches, Soma, Yanasse [Algorithm 2a]. Input semantics: The classical input instance named by the row, together with processor/work/span parameters when stated. Output semantics: The same mathematical output as the underlying classical task, annotated by work/span when available.'
+extracted_algorithm_summary: "Sanches, Soma, Yanasse [Algorithm 2a] is a parallel algorithms algorithm record. Classical complexity metadata: time O(n/p * (c - 2*w_min) + c/p + n); space O(n); work O(n(c - 2*w_min) + c + n); span/depth O((c - 2*w_min) + c/n + n); processors p. The stated classical model is EREW PRAM. Public metadata/source text adds: Sanches, Soma, Yanasse [Algorithm 2a] parallel_algorithms parallel_algorithms n: the number of integers in the set, w_min: minimum weight, w_max: maximum weight, c: capacity, p: number of processors log n\u2264p\u2264n O(n/p * (c - 2*w_min) + c/p + n) Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model."
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

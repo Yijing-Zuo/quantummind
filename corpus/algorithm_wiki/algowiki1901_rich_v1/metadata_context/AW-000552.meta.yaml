@@ -1,0 +1,58 @@
+algorithm_family: unknown
+algorithm_id: AW-000552
+approximate: '0'
+approximation_factor: ''
+blind_name: Algorithm Wiki public task AW-000552
+canonical_name: Chaitin's Algorithm
+computational_model: Word RAM
+domain: unknown
+extracted_description: ''
+extraction_version: algorithm-wiki-rich-context-v1
+family: unknown
+inferred_access_model: adjacency_list_query
+inferred_ambiguities:
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.
+inferred_input_model: explicit_graph_problem
+inferred_output_contract: path_or_tree
+inferred_problem_statement: 'Chaitin''s Algorithm is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Chaitin''s Algorithm. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+inferred_promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+inferred_size_parameters:
+- 'Parameter definition: n: number of live ranges (the number of candidates to reside in registers)'
+number_of_processors: ''
+page_digest: ''
+page_fetch_status: not_found
+page_url: ''
+parameter_definitions: 'n: number of live ranges (the number of candidates to reside in registers)'
+problem_name: unknown
+quality_flags:
+- has_complexity_semantics
+- has_size_parameters
+- has_computational_model
+quality_score: 70
+randomized: '0'
+readiness: READY_PUBLIC_CONTEXT
+review_reasons:
+- missing_problem_statement
+- unknown_input_model
+- unknown_access_model
+- unknown_output_contract
+- insufficient_algorithm_level_structure
+source_link: https://dl.acm.org/doi/10.1145/872726.806984
+source_link_type: acm
+space_complexity: O(n^2)
+span_depth: ''
+time_complexity: O(n^2)
+variation: ''
+work: ''
+year: '1981'
+rich_card_kind: context
+source_records_used:
+- AW-000552:algorithm_wiki_metadata
+- crossref:5ef7ec78a615a2f2
+- failed:63587e519f0fd01c
+source_count: 3
+source_quality: HIGH
+confidence_score: 70
+card_digest: 4c6b99ad98fdf783

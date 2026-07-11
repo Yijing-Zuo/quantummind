@@ -1,0 +1,66 @@
+algorithm_id: AW-001356
+canonical_name: Ballard (CAPS) (same as 2012 paper)
+enrichment_status: THIRD_PASS_SATURATED_INSUFFICIENT
+review_reasons:
+- After the configured source-family cycles, no source-backed concrete task, input semantics, output semantics, and conservative access model could be established.
+source_records:
+- access_status: metadata_only
+  digest: 883788d89825d238
+  extracted_facts:
+  - 'AlgorithmWiki row name: Ballard (CAPS) (same as 2012 paper)'
+  - 'domain: unknown'
+  - 'time complexity: O(n^{\log 7}/P)'
+  - 'computational model: distributed memory, message passing'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001356:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Ballard (CAPS) (same as 2012 paper)
+  url: https://www.proquest.com/docview/1526399338?pq-origsite=gscholar&fromopenview=true
+- access_status: skipped
+  digest: 81e6e1a98dc77962
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:ca0e5a2efb46be2e
+  source_type: other_public_source
+  title: fetch budget exhausted
+  url: https://www.proquest.com/docview/1526399338?pq-origsite=gscholar&fromopenview=true
+- access_status: fetched
+  digest: eac65bcac63f65f8
+  extracted_facts:
+  - 'Crossref title-search result: An optimal algorithm to fetch DHT routable'
+  reliability: MEDIUM
+  short_quote: ''
+  source_id: crossref_search:0b18e1bdccf3f416
+  source_type: doi_metadata
+  title: An optimal algorithm to fetch DHT routable
+  url: https://doi.org/10.1109/npc.2007.32
+- source_id: source:e53dd41bb2005962
+  url: https://www.proquest.com/docview/1526399338?pq-origsite=gscholar&fromopenview=true
+  title: Avoiding Communication in Dense Linear Algebra - ProQuest
+  source_type: publisher_abstract
+  access_status: fetched
+  reliability: LOW
+  extracted_facts:
+  - Avoiding Communication in Dense Linear Algebra - ProQuest
+  - "e Linear Algebra - ProQuest You shouldn't see this Skip to main content ProQuest Select language \xD7 \u0627\u0644\u0639\u0631\u0628\u064A\u0629 Az\u0259rbaycan Bahasa Indonesia \u010Ce\u0161tina Deutsch Espa\xF1ol Fran\xE7ais \uD55C\uAD6D\uC5B4 Italiano Magyar \u65E5\u672C\u8A9E Norsk Polski Portugu\xEAs (Brasil) Portugu\xEAs (Portugal) \u0420\u0443\u0441\u0441\u043A\u0438\u0439 \u0E44\u0E17\u0E22 T\xFCrk\xE7e \u4E2D\u6587(\u7B80\u4F53)\u200E \u4E2D\u6587(\u7E41\u9AD4)\u200E Document Preview Copyright information Database copyright ProQuest LLC; ProQuest does not claim copyright in the individual underlying works."
+  short_quote: Avoiding Communication in Dense Linear Algebra - ProQuest e Linear Algebra - ProQuest You shouldn't see this Skip to main content ProQuest Select language
+  digest: a4ec0c7bfce91a39
+- source_id: crossref_search:025b49d56618b797
+  url: https://doi.org/10.22621/cfn.v126i1.1316
+  title: "Dr. Warren Baxter Ballard, Jr. 1947\u20132012"
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - "Crossref title: Dr. Warren Baxter Ballard, Jr. 1947\u20132012"
+  - 'published year: 2012'
+  - 'container title: The Canadian Field-Naturalist'
+  short_quote: "Crossref title: Dr. Warren Baxter Ballard, Jr. 1947\u20132012 published year: 2012 container title: The Canadian Field-Naturalist"
+  digest: 3291ada69dac9c28
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

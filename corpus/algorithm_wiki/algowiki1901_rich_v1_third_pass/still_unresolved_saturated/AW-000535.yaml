@@ -1,0 +1,70 @@
+algorithm_id: AW-000535
+canonical_name: Secant method
+enrichment_status: THIRD_PASS_SATURATED_INSUFFICIENT
+review_reasons:
+- After the configured source-family cycles, no source-backed concrete task, input semantics, output semantics, and conservative access model could be established.
+source_records:
+- access_status: metadata_only
+  digest: e1627f5235464a67
+  extracted_facts:
+  - 'AlgorithmWiki row name: Secant method'
+  - 'domain: unknown'
+  - 'time complexity: O(n_{max})'
+  - 'space complexity: O(1)'
+  - 'computational model: Word/Real RAM'
+  - 'parameter definitions: \epsilon: (additive) tolerance error, n_{max}: maximum number of iterations'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000535:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Secant method
+  url: '-'
+- access_status: fetched
+  digest: 4bc9d9a03927505f
+  extracted_facts:
+  - 'Crossref title-search result: Secant Method'
+  reliability: MEDIUM
+  short_quote: ''
+  source_id: crossref_search:f8a232c15535629b
+  source_type: doi_metadata
+  title: Secant Method
+  url: https://doi.org/10.1142/9789814405836_0004
+- source_id: crossref_search:770af8560bfbc2d1
+  url: https://doi.org/10.1142/9789814405836_0004
+  title: Secant Method
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title: Secant Method'
+  - 'published year: 2013'
+  - 'container title: Computational Methods in Nonlinear Analysis'
+  short_quote: 'Crossref title: Secant Method published year: 2013 container title: Computational Methods in Nonlinear Analysis'
+  digest: 5e08d5c9c32e751e
+- source_id: openalex:4e7657a3b7f34770
+  url: https://openalex.org/W2068484625
+  title: Numerical Methods for Unconstrained Optimization and Nonlinear Equations
+  source_type: openalex
+  access_status: fetched
+  reliability: HIGH
+  extracted_facts:
+  - 'OpenAlex title: Numerical Methods for Unconstrained Optimization and Nonlinear Equations'
+  - 'publication year: 1996'
+  - 'abstract summary: Preface 1. Introduction. Problems to be considered Characteristics of ''real-world'' problems Finite-precision arithmetic and measurement of error Exercises 2.'
+  short_quote: 'OpenAlex title: Numerical Methods for Unconstrained Optimization and Nonlinear Equations publication year: 1996 abstract summary: Preface 1. Introduction. Problems to be considered Characteristics of'
+  digest: 3d7a91f5cac761d7
+- source_id: wikidata:97156a11e9b8fc5f
+  url: http://www.wikidata.org/entity/Q14915286
+  title: secant method
+  source_type: wikidata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - secant method
+  - root-finding method
+  short_quote: secant method root-finding method
+  digest: 476cf5c1d42c6027
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

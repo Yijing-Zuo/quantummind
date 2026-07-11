@@ -1,0 +1,31 @@
+algorithm_id: AW-000379
+canonical_name: Satia & Lave 1973
+enrichment_status: SECOND_PASS_INSUFFICIENT
+review_reasons:
+- No second-pass rule could identify source-backed task semantics.
+source_records:
+- access_status: metadata_only
+  digest: 060f1b01e2bf0b73
+  extracted_facts:
+  - 'AlgorithmWiki row name: Satia & Lave 1973'
+  - 'domain: unknown'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000379:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Satia & Lave 1973
+  url: ''
+- source_id: crossref_search:bda1782db5b1991a
+  url: https://doi.org/10.24894/sprengglossarium_l01444
+  title: Lave
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: Lave'
+  short_quote: ''
+  digest: a1465385e1f8d007
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

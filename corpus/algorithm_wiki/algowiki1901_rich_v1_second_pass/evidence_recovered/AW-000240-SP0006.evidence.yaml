@@ -1,0 +1,60 @@
+id: AW-000240-SP0006
+kind: probe_recovered
+algorithm_id: AW-000240
+algorithm_name: Euler's factorization method
+source_records:
+- access_status: metadata_only
+  digest: 03ceede20d9807d0
+  extracted_facts:
+  - 'AlgorithmWiki row name: Euler''s factorization method'
+  - 'domain: unknown'
+  - 'time complexity: O(2^{n/2})'
+  - 'space complexity: O(n)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of bits in the integer'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000240:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Euler's factorization method
+  url: '-'
+- source_id: crossref_search:d5b8a3d181ddc1b6
+  url: https://doi.org/10.37256/cm.6620257692
+  title: Optimized Euler-Based Fermat Factorization Method Using Parallel Computing
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: Optimized Euler-Based Fermat Factorization Method Using Parallel Computing'
+  - 'abstract summary: The Euler-based Fermat Factorization (EFF) method is a technique used to factor a positive odd integer n into two prime factors p and q.'
+  short_quote: The Euler-based Fermat Factorization (EFF) method is a technique used to factor a positive odd integer n into two prime factors p and q.
+  digest: 0207ef7ddf6fd674
+web_query_attempts:
+- query: '"Euler''s factorization method" algorithm'
+  method: search_plan
+  status: recorded
+- query: '"Euler''s factorization method" input output'
+  method: search_plan
+  status: recorded
+- query: '"Euler''s factorization method" time complexity'
+  method: search_plan
+  status: recorded
+- query: '"Euler''s factorization method" pseudocode'
+  method: search_plan
+  status: recorded
+- query: '"Euler''s factorization method" problem'
+  method: search_plan
+  status: recorded
+- query: '"Euler''s factorization method" PDF metadata abstract'
+  method: search_plan
+  status: recorded
+- query: '-'
+  method: search_plan
+  status: recorded
+- query: Euler's factorization method algorithm
+  method: crossref_title_search
+  status: fetched
+extracted_problem_statement: 'Euler''s factorization method is reconstructed as a classical combinatorics task. Problem/task: find a nontrivial factorization of an integer Input semantics: An integer N represented with n bits and method-specific smoothness or search bounds. Output semantics: A nontrivial factor, a complete factorization, or a failure indication under the method assumptions.'
+extracted_algorithm_summary: 'Euler''s factorization method is treated as the named AlgorithmWiki variant for find a nontrivial factorization of an integer Classical complexity metadata: time O(2^{n/2}); space O(n). Public metadata/source title support includes Optimized Euler-Based Fermat Factorization Method Using Parallel Computing.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

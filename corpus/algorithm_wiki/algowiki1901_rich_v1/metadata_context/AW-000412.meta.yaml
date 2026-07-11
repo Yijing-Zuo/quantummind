@@ -1,0 +1,58 @@
+algorithm_family: string
+algorithm_id: AW-000412
+approximate: '0'
+approximation_factor: ''
+blind_name: Algorithm Wiki public task AW-000412
+canonical_name: Chin and Poon
+computational_model: Word RAM
+domain: string
+extracted_description: ''
+extraction_version: algorithm-wiki-rich-context-v1
+family: string
+inferred_access_model: random_access_string
+inferred_ambiguities:
+- No independent fetched public metadata source resolved this row beyond AlgorithmWiki metadata/source-link facts.
+- Some details are reconstructed from AlgorithmWiki metadata rather than an independently fetched full public description.
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.
+inferred_input_model: explicit_string_problem
+inferred_output_contract: full_solution
+inferred_problem_statement: 'Chin and Poon is treated as a classical string task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Chin and Poon. Input semantics: One or more finite strings, sequences, patterns, or alphabets. Output semantics: Pattern occurrence positions, matches, or the associated string-search report.'
+inferred_promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+inferred_size_parameters:
+- 'Parameter definition: n: length of the longer input string, m: length of the shorter input string, r: length of the LCS, p: the number of dominant matches (AKA number of minimal candidates), i.e. the total number of ordered pairs of positions at which the two sequences match, s: size of alphabet'
+number_of_processors: ''
+page_digest: ''
+page_fetch_status: not_found
+page_url: ''
+parameter_definitions: 'n: length of the longer input string, m: length of the shorter input string, r: length of the LCS, p: the number of dominant matches (AKA number of minimal candidates), i.e. the total number of ordered pairs of positions at which the two sequences match, s: size of alphabet'
+problem_name: string
+quality_flags:
+- domain_inferred
+- problem_statement_inferred
+- io_access_output_inferred
+- has_complexity_semantics
+- has_size_parameters
+- has_computational_model
+quality_score: 100
+randomized: '0'
+readiness: READY_PUBLIC_CONTEXT
+review_reasons: []
+source_link: https://dl.acm.org/doi/abs/10.5555/105582.105592
+source_link_type: acm
+space_complexity: O(p + n)
+span_depth: ''
+time_complexity: O(sn + \min(sp, rm))
+variation: ''
+work: ''
+year: '1991'
+rich_card_kind: context
+source_records_used:
+- AW-000412:algorithm_wiki_metadata
+- failed:fd1a2280cbf35343
+- failed:5015d29e675686ad
+source_count: 3
+source_quality: HIGH
+confidence_score: 100
+card_digest: 96215cd7d3bd726c

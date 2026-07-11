@@ -1,0 +1,13 @@
+statement: 'The INDEGREE Algorithm is included as a named whole-algorithm context card for a classical numerical analysis task. The task is to analyze the classical input-output problem, not to certify an end-to-end improvement claim. Input semantics: A state-transition model, observation model, covariance/noise parameters, and a sequence of measurements. Output semantics: A filtered or predicted state estimate, usually with covariance or uncertainty information. Classical algorithm summary: The INDEGREE Algorithm is reconstructed as a classical numerical analysis task. The source-backed title/name/fact record supports the task: estimate a latent state from a process model and noisy observations. Classical complexity recorded for this row: time O(mn); space O(n); computation model Word RAM. Dominant bottleneck: Matrix updates, covariance propagation, sigma-point or linearization steps, and measurement assimilation dominate. The useful review questions are whether the named structure exposes
+  a smaller decision, witness, estimation, or algebraic subproblem; whether the full output size dominates any asymptotic gain; and whether the stated access model is realistic for the original input. Provenance used for reconstruction includes public metadata or abstract sources such as Distributed Indegree-weighted Kalman Consensus Filter Algorithm Against Packet-dropping; Distributed Indegree-weighted Kalman Consensus Filter Algorithm Against Packet-dropping.'
+input_model: explicit_numerical_problem
+access_model: random_access_string
+output_contract: estimate
+promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+size_parameters:
+- 'Parameter definition: n: number of pages, m: number of hyperlinks'
+ambiguities:
+- Some details are reconstructed from AlgorithmWiki metadata rather than an independently fetched full public description.
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.

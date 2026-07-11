@@ -1,0 +1,58 @@
+id: AW-001166
+kind: context
+algorithm_id: AW-001166
+algorithm_name: Chen, Das
+source_records:
+- access_status: metadata_only
+  digest: 9765061d69e340b4
+  extracted_facts:
+  - 'AlgorithmWiki row name: Chen, Das'
+  - 'domain: parallel_algorithms'
+  - 'time complexity: O(n/p +\log{n})'
+  - 'computational model: EREW PRAM'
+  - 'parameter definitions: n: size of list, p: number of processors'
+  - 'precard summary: Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model. Baseline: time O(n/p +\log{n}); work O(n); span/depth O(\log{n}); processors O(p). Bottleneck: work, span, communication, and processor-count assumptions dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001166:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Chen, Das
+  url: https://www.sciencedirect.com/science/article/pii/002001909290078A
+- access_status: skipped
+  digest: ad871c368e0ead04
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:447e83f63fb2fcf9
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://www.sciencedirect.com/science/article/pii/002001909290078A
+web_query_attempts:
+- method: search_plan
+  query: Chen, Das algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Chen, Das algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Chen, Das problem definition
+  status: recorded
+- method: search_plan
+  query: Chen, Das parallel algorithms algorithm
+  status: recorded
+- method: search_plan
+  query: Chen, Das site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Chen, Das algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://www.sciencedirect.com/science/article/pii/002001909290078A
+  status: recorded
+- method: source_link_html_metadata
+  query: https://www.sciencedirect.com/science/article/pii/002001909290078A
+  status: skipped
+extracted_problem_statement: 'Chen, Das is treated as a classical parallel algorithms task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Chen, Das. Input semantics: The classical input instance named by the row, together with processor/work/span parameters when stated. Output semantics: The same mathematical output as the underlying classical task, annotated by work/span when available.'
+extracted_algorithm_summary: 'Chen, Das is a parallel algorithms algorithm record. Classical complexity metadata: time O(n/p +\log{n}); work O(n); span/depth O(\log{n}); processors O(p). The stated classical model is EREW PRAM. Public metadata/source text adds: Chen, Das parallel_algorithms parallel_algorithms n: size of list, p: number of processors O(n/p +\log{n}) Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

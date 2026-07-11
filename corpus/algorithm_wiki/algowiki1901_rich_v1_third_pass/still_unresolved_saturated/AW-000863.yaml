@@ -1,0 +1,59 @@
+algorithm_id: AW-000863
+canonical_name: Regula Falsi method
+enrichment_status: THIRD_PASS_SATURATED_INSUFFICIENT
+review_reasons:
+- After the configured source-family cycles, no source-backed concrete task, input semantics, output semantics, and conservative access model could be established.
+source_records:
+- access_status: metadata_only
+  digest: 9633f89c02593e4d
+  extracted_facts:
+  - 'AlgorithmWiki row name: Regula Falsi method'
+  - 'domain: unknown'
+  - 'time complexity: O(n_{max})'
+  - 'space complexity: O(1)'
+  - 'computational model: Word/Real RAM'
+  - 'parameter definitions: \epsilon: (additive) tolerance error, a, b: endpoint values, with b>a, n_{max}: maximum number of iterations'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000863:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Regula Falsi method
+  url: ''
+- access_status: fetched
+  digest: 0818b6d9db25e69b
+  extracted_facts:
+  - 'Crossref title-search result: Regula Falsi Method'
+  reliability: MEDIUM
+  short_quote: ''
+  source_id: crossref_search:f9e018612be39c14
+  source_type: doi_metadata
+  title: Regula Falsi Method
+  url: https://doi.org/10.1017/9781316755686.011
+- source_id: crossref_search:d313554591ddb80e
+  url: https://doi.org/10.1017/9781316755686.011
+  title: Regula Falsi Method
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title: Regula Falsi Method'
+  - 'published year: 2018'
+  - 'container title: Gas Turbines'
+  short_quote: 'Crossref title: Regula Falsi Method published year: 2018 container title: Gas Turbines'
+  digest: 313f7c46a831c853
+- source_id: semantic_scholar:19ad548a32e84fc6
+  url: https://www.semanticscholar.org/paper/0bbf0443974e217407643e6d7a7746c5d3d8ed9b
+  title: A comparative study of the Regula Falsi method, Newton's method, and the steepest descent method for solving nonlinear equations
+  source_type: semantic_scholar
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Semantic Scholar title: A comparative study of the Regula Falsi method, Newton''s method, and the steepest descent method for solving nonlinear equations'
+  - 'published year: 2025'
+  - 'abstract summary: A numerical method has been introduced to help mathematicians to solve the functions.'
+  short_quote: 'Semantic Scholar title: A comparative study of the Regula Falsi method, Newton''s method, and the steepest descent method for solving nonlinear equations published year:'
+  digest: 71f60a4c9a7ddd63
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

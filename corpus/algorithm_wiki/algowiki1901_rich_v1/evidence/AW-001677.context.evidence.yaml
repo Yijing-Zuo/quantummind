@@ -1,0 +1,58 @@
+id: AW-001677
+kind: context
+algorithm_id: AW-001677
+algorithm_name: Tchendji, Myoupo, Dequen (2)
+source_records:
+- access_status: metadata_only
+  digest: fb4c6c93ab5039e8
+  extracted_facts:
+  - 'AlgorithmWiki row name: Tchendji, Myoupo, Dequen (2)'
+  - 'domain: parallel_algorithms'
+  - 'time complexity: O(n^2/g * R(p, g))'
+  - 'computational model: CGM'
+  - 'parameter definitions: n: number of elements, p: number of processors, g: model granularity, R(p, g): rounds parameter'
+  - 'precard summary: Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model. Baseline: time O(n^2/g * R(p, g)); work O(n^2); span/depth O(n); processors p. Bottleneck: work, span, communication, and processor-count assumptions dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001677:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Tchendji, Myoupo, Dequen (2)
+  url: https://www.igi-global.com/article/high-performance-cgm-based-parallel-algorithms-for-the-optimal-binary-search-tree-problem/172505
+- access_status: skipped
+  digest: f58c0d807a784f6e
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:6a693ce589d44551
+  source_type: other_public_source
+  title: fetch budget exhausted
+  url: https://www.igi-global.com/article/high-performance-cgm-based-parallel-algorithms-for-the-optimal-binary-search-tree-problem/172505
+web_query_attempts:
+- method: search_plan
+  query: Tchendji, Myoupo, Dequen (2) algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Tchendji, Myoupo, Dequen (2) algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Tchendji, Myoupo, Dequen (2) problem definition
+  status: recorded
+- method: search_plan
+  query: Tchendji, Myoupo, Dequen (2) parallel algorithms algorithm
+  status: recorded
+- method: search_plan
+  query: Tchendji, Myoupo, Dequen (2) site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Tchendji, Myoupo, Dequen (2) algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://www.igi-global.com/article/high-performance-cgm-based-parallel-algorithms-for-the-optimal-binary-search-tree-problem/172505
+  status: recorded
+- method: source_link_html_metadata
+  query: https://www.igi-global.com/article/high-performance-cgm-based-parallel-algorithms-for-the-optimal-binary-search-tree-problem/172505
+  status: skipped
+extracted_problem_statement: 'Tchendji, Myoupo, Dequen (2) is treated as a classical parallel algorithms task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Tchendji, Myoupo, Dequen (2). Input semantics: The classical input instance named by the row, together with processor/work/span parameters when stated. Output semantics: The same mathematical output as the underlying classical task, annotated by work/span when available.'
+extracted_algorithm_summary: 'Tchendji, Myoupo, Dequen (2) is a parallel algorithms algorithm record. Classical complexity metadata: time O(n^2/g * R(p, g)); work O(n^2); span/depth O(n); processors p. The stated classical model is CGM. Public metadata/source text adds: Tchendji, Myoupo, Dequen (2) parallel_algorithms parallel_algorithms n: number of elements, p: number of processors, g: model granularity, R(p, g): rounds parameter O(n^2/g * R(p, g)) Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

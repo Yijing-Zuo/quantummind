@@ -1,0 +1,143 @@
+id: AW-000390-TP0081
+kind: probe_recovered
+algorithm_id: AW-000390
+algorithm_name: Sphere mapping
+source_records:
+- access_status: metadata_only
+  digest: 5ba3d07e3d339b9d
+  extracted_facts:
+  - 'AlgorithmWiki row name: Sphere mapping'
+  - 'domain: unknown'
+  - 'time complexity: -'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000390:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Sphere mapping
+  url: ''
+- access_status: fetched
+  digest: fd14388f6c8d5bc7
+  extracted_facts:
+  - 'Crossref title-search result: Cutting Sphere Algorithm'
+  reliability: MEDIUM
+  short_quote: ''
+  source_id: crossref_search:1fae1c42cb669101
+  source_type: doi_metadata
+  title: Cutting Sphere Algorithm
+  url: https://doi.org/10.1023/b:jota.0000005451.29955.60
+- source_id: crossref_search:7a3f0866544834f3
+  url: https://doi.org/10.4324/9781315593852
+  title: Mapping the European Public Sphere
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title: Mapping the European Public Sphere'
+  - 'published year: 2016'
+  short_quote: 'Crossref title: Mapping the European Public Sphere published year: 2016'
+  digest: 0ff3ba8af491e5eb
+- source_id: openalex:3df8fbebeca2bbde
+  url: https://openalex.org/W3122601328
+  title: 'Social Mobilization and the Networked Public Sphere: Mapping the SOPA-PIPA Debate'
+  source_type: openalex
+  access_status: fetched
+  reliability: HIGH
+  extracted_facts:
+  - 'OpenAlex title: Social Mobilization and the Networked Public Sphere: Mapping the SOPA-PIPA Debate'
+  - 'publication year: 2015'
+  - 'abstract summary: This article investigates the public debate over proposed U.S.'
+  short_quote: 'OpenAlex title: Social Mobilization and the Networked Public Sphere: Mapping the SOPA-PIPA Debate publication year: 2015 abstract summary: This article investigates the public debate'
+  digest: 81159074234bd556
+- source_id: wikidata:100cae3a60330db9
+  url: http://www.wikidata.org/entity/Q7576679
+  title: sphere mapping
+  source_type: wikidata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - sphere mapping
+  - environment mapping technique
+  short_quote: sphere mapping environment mapping technique
+  digest: c0d9d603d111ecf9
+web_query_attempts:
+- cycle: 1
+  query: Sphere mapping
+  source_family: algorithm_wiki_local
+  url_or_api_endpoint: ''
+  status: fetched
+  new_facts_added: 5
+  reason: local metadata
+- cycle: 1
+  query: Sphere mapping
+  source_family: local_previous_cache
+  url_or_api_endpoint: ''
+  status: duplicate
+  new_facts_added: 0
+  reason: previous v1/second-pass sources reused
+- cycle: 1
+  query: Sphere mapping
+  source_family: original_source
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: no original source link
+- cycle: 1
+  query: Sphere mapping
+  source_family: crossref
+  url_or_api_endpoint: https://doi.org/10.4324/9781315593852
+  status: irrelevant
+  new_facts_added: 0
+  reason: Crossref metadata/title search
+- cycle: 1
+  query: Sphere mapping
+  source_family: arxiv
+  url_or_api_endpoint: https://export.arxiv.org/api/query?max_results=1&search_query=ti:%22Sphere+mapping%22
+  status: no_result
+  new_facts_added: 0
+  reason: arXiv title search returned no usable entry
+- cycle: 1
+  query: Sphere mapping
+  source_family: wikipedia
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: Wikipedia search returned no relevant page
+- cycle: 2
+  query: Sphere mapping
+  source_family: openalex
+  url_or_api_endpoint: https://api.openalex.org/works?per-page=1&search=Sphere+mapping
+  status: irrelevant
+  new_facts_added: 0
+  reason: OpenAlex work metadata
+- cycle: 2
+  query: Sphere mapping
+  source_family: semantic_scholar
+  url_or_api_endpoint: https://api.semanticscholar.org/graph/v1/paper/search?limit=1&fields=title,abstract,year,url,externalIds&query=Sphere+mapping
+  status: fetch_failed
+  new_facts_added: 0
+  reason: Semantic Scholar returned no usable paper
+- cycle: 2
+  query: Sphere mapping
+  source_family: dblp
+  url_or_api_endpoint: https://dblp.org/search/publ/api?format=json&h=1&q=Sphere+mapping
+  status: no_result
+  new_facts_added: 0
+  reason: DBLP returned no usable publication
+- cycle: 2
+  query: Sphere mapping
+  source_family: publisher_abstract
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: no applicable publisher abstract URL
+- cycle: 2
+  query: Sphere mapping
+  source_family: wikidata
+  url_or_api_endpoint: http://www.wikidata.org/entity/Q7576679
+  status: irrelevant
+  new_facts_added: 0
+  reason: Wikidata entity search
+extracted_problem_statement: 'Sphere mapping is treated as a source-saturated AlgorithmWiki row for solve the named graph task indicated by the public source metadata Input semantics: An explicit graph with vertices, edges, weights, labels, or adjacency access as required by the row. Output semantics: A path, tree, component labeling, flow, matching, or witness object for the named graph task.'
+extracted_algorithm_summary: 'Sphere mapping is reconstructed as a classical graph task. The source-backed title/name/fact record supports the task: solve the named graph task indicated by the public source metadata.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

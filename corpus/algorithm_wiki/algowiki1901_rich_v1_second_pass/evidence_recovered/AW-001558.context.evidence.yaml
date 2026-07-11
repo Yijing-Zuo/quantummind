@@ -1,0 +1,85 @@
+id: AW-001558
+kind: context_recovered
+algorithm_id: AW-001558
+algorithm_name: AHRABIAN, NOWZARI-DALINI (1)
+source_records:
+- access_status: metadata_only
+  digest: f8584341d582a155
+  extracted_facts:
+  - 'AlgorithmWiki row name: AHRABIAN, NOWZARI-DALINI (1)'
+  - 'domain: unknown'
+  - 'time complexity: O(n^2 \log n)'
+  - 'parameter definitions: n: number of nodes'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001558:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for AHRABIAN, NOWZARI-DALINI (1)
+  url: https://www.tandfonline.com/doi/pdf/10.1080/00207160210945
+- access_status: skipped
+  digest: a7dbc199b33a839b
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:fe3da0a293b5fa9b
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1080/00207160210945
+- source_id: crossref:a530266790053d98
+  url: https://doi.org/10.1080/00207160210945
+  title: Parallel Algorithms for Minimum Spanning Tree Problem
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: HIGH
+  extracted_facts:
+  - 'DOI title: Parallel Algorithms for Minimum Spanning Tree Problem'
+  - 'published year: 2002'
+  - 'container title: International Journal of Computer Mathematics'
+  short_quote: ''
+  digest: a65f369d5ec086d5
+- source_id: crossref_search:0b18e1bdccf3f416
+  url: https://doi.org/10.1109/npc.2007.32
+  title: An optimal algorithm to fetch DHT routable
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: An optimal algorithm to fetch DHT routable'
+  short_quote: ''
+  digest: eac65bcac63f65f8
+web_query_attempts:
+- query: '"AHRABIAN, NOWZARI-DALINI (1)" algorithm'
+  method: search_plan
+  status: recorded
+- query: '"AHRABIAN, NOWZARI-DALINI (1)" input output'
+  method: search_plan
+  status: recorded
+- query: '"AHRABIAN, NOWZARI-DALINI (1)" time complexity'
+  method: search_plan
+  status: recorded
+- query: '"AHRABIAN, NOWZARI-DALINI (1)" pseudocode'
+  method: search_plan
+  status: recorded
+- query: '"AHRABIAN, NOWZARI-DALINI (1)" problem'
+  method: search_plan
+  status: recorded
+- query: '"AHRABIAN, NOWZARI-DALINI (1)" PDF metadata abstract'
+  method: search_plan
+  status: recorded
+- query: '"fetch budget exhausted" algorithm'
+  method: search_plan
+  status: recorded
+- query: https://www.tandfonline.com/doi/pdf/10.1080/00207160210945
+  method: search_plan
+  status: recorded
+- query: 10.1080/00207160210945
+  method: crossref_doi_metadata
+  status: fetched
+- query: fetch budget exhausted algorithm
+  method: crossref_title_search
+  status: fetched
+extracted_problem_statement: 'AHRABIAN, NOWZARI-DALINI (1) is reconstructed as a classical graph task. Problem/task: solve the named graph task indicated by the public source metadata Input semantics: An explicit graph with vertices, edges, weights, labels, or adjacency access as required by the row. Output semantics: A path, tree, component labeling, flow, matching, or witness object for the named graph task.'
+extracted_algorithm_summary: 'AHRABIAN, NOWZARI-DALINI (1) is treated as the named AlgorithmWiki variant for solve the named graph task indicated by the public source metadata Classical complexity metadata: time O(n^2 \log n); work O(n^3); span/depth O(n^2 log n). Public metadata/source title support includes Parallel Algorithms for Minimum Spanning Tree Problem.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

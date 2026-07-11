@@ -1,0 +1,56 @@
+algorithm_family: matrix linear algebra
+algorithm_id: AW-000719
+approximate: '0'
+approximation_factor: ''
+blind_name: Algorithm Wiki public task AW-000719
+canonical_name: "Fulkerson\u2013Chen\u2013Anstee"
+computational_model: Word RAM
+domain: matrix_linear_algebra
+extracted_description: ''
+extraction_version: algorithm-wiki-rich-context-v1
+family: matrix_linear_algebra
+inferred_access_model: dense_matrix_access
+inferred_ambiguities:
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.
+inferred_input_model: explicit_matrix_problem
+inferred_output_contract: full_classical_output
+inferred_problem_statement: "Fulkerson\u2013Chen\u2013Anstee is treated as a classical matrix linear algebra task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Fulkerson\u2013Chen\u2013Anstee. Input semantics: One or more explicit matrices or linear systems over the stated arithmetic domain. Output semantics: The requested matrix, decomposition, solution vector, or other linear-algebraic output."
+inferred_promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+inferred_size_parameters:
+- 'Parameter definition: n: number of degree pairs'
+number_of_processors: ''
+page_digest: ''
+page_fetch_status: not_found
+page_url: ''
+parameter_definitions: 'n: number of degree pairs'
+problem_name: matrix linear algebra
+quality_flags:
+- domain_inferred
+- problem_statement_inferred
+- io_access_output_inferred
+- has_complexity_semantics
+- has_size_parameters
+- has_computational_model
+quality_score: 100
+randomized: '0'
+readiness: READY_PUBLIC_CONTEXT
+review_reasons:
+- insufficient_algorithm_level_structure
+source_link: https://www.cambridge.org/core/journals/canadian-journal-of-mathematics/article/properties-of-a-class-of-01matrices-covering-a-given-matrix/9A3857D219511017536142BD7F132C91
+source_link_type: unknown
+space_complexity: O(1)
+span_depth: ''
+time_complexity: O(n)
+variation: ''
+work: ''
+year: '1982'
+rich_card_kind: context
+source_records_used:
+- AW-000719:algorithm_wiki_metadata
+- source:f7b47a834e2eecc0
+source_count: 2
+source_quality: HIGH
+confidence_score: 100
+card_digest: 4ea7ab420f9de7ee

@@ -1,0 +1,45 @@
+id: AW-001440
+kind: context
+algorithm_id: AW-001440
+algorithm_name: Ja'Ja'
+source_records:
+- access_status: metadata_only
+  digest: 003d90d3d09c6a4e
+  extracted_facts:
+  - 'AlgorithmWiki row name: Ja''Ja'''
+  - 'domain: graph'
+  - 'time complexity: O(\log n \log d)'
+  - 'computational model: PRAM'
+  - 'parameter definitions: n: number of vertices, d: depth of the graph'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(\log n \log d); work O(n^3 \log d); span/depth O(log n log d); processors O(n^3/log n). Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001440:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Ja'Ja'
+  url: J. Ja'Ja', Graph Connectivity Problems on Parallel Computers, TR GS-78-05, Dept. of Computer Science, Penn. State Univ., PA, 1978.
+web_query_attempts:
+- method: search_plan
+  query: Ja'Ja' algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Ja'Ja' algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Ja'Ja' problem definition
+  status: recorded
+- method: search_plan
+  query: Ja'Ja' graph algorithm
+  status: recorded
+- method: search_plan
+  query: Ja'Ja' site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Ja'Ja' algorithm wiki
+  status: recorded
+- method: search_plan
+  query: J. Ja'Ja', Graph Connectivity Problems on Parallel Computers, TR GS-78-05, Dept. of Computer Science, Penn. State Univ., PA, 1978.
+  status: recorded
+extracted_problem_statement: 'Ja''Ja'' is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Ja''Ja''. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'Ja''Ja'' is a graph algorithm record. Classical complexity metadata: time O(\log n \log d); work O(n^3 \log d); span/depth O(log n log d); processors O(n^3/log n). The stated classical model is PRAM. Public metadata/source text adds: Ja''Ja'' graph graph n: number of vertices, d: depth of the graph O(\log n \log d) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

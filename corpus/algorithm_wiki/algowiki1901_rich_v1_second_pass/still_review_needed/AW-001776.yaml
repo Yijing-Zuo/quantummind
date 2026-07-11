@@ -1,0 +1,31 @@
+algorithm_id: AW-001776
+canonical_name: Multigrid
+enrichment_status: SECOND_PASS_INSUFFICIENT
+review_reasons:
+- No second-pass rule could identify source-backed task semantics.
+source_records:
+- access_status: metadata_only
+  digest: f82c0650644a6862
+  extracted_facts:
+  - 'AlgorithmWiki row name: Multigrid'
+  - 'domain: unknown'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001776:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Multigrid
+  url: https://www.stat.uchicago.edu/~lekheng/courses/302/classics/brandt.pdf
+- source_id: crossref_search:93caeb2faa27b2d9
+  url: https://doi.org/10.1016/s0009-2614(96)01231-6
+  title: Multigrid method versus staging algorithm
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: Multigrid method versus staging algorithm'
+  short_quote: ''
+  digest: fc1a3714744cb1fb
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

@@ -1,0 +1,65 @@
+algorithm_id: AW-001026
+canonical_name: Mongelli et. al.
+enrichment_status: THIRD_PASS_SATURATED_INSUFFICIENT
+review_reasons:
+- The row has partial metadata but still lacks one or more source-backed fields required for a public context card.
+source_records:
+- access_status: metadata_only
+  digest: 664f64f4aaac5eba
+  extracted_facts:
+  - 'AlgorithmWiki row name: Mongelli et. al.'
+  - 'domain: parallel_algorithms'
+  - 'precard summary: Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model. Baseline: not stated. Bottleneck: work, span, communication, and processor-count assumptions dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001026:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Mongelli et. al.
+  url: https://www.researchgate.net/profile/Henrique-Mongelli/publication/228439792_An_Alternative_Implementation_for_the_FPT_k-Vertex_Cover_Parallel_Algorithm/links/0a85e53584fdabd8da000000/An-Alternative-Implementation-for-the-FPT-k-Vertex-Cover-Parallel-Algorithm.pdf
+- access_status: fetched
+  digest: 04c43acf11653006
+  extracted_facts:
+  - 'Crossref title-search result: Re: Letter by Mongelli and Gardosi'
+  reliability: MEDIUM
+  short_quote: ''
+  source_id: crossref_search:8225cc3322cf31b0
+  source_type: doi_metadata
+  title: 'Re: Letter by Mongelli and Gardosi'
+  url: https://doi.org/10.3109/01443615.2010.505307
+- source_id: skipped:8114a4fe3ca268d6
+  url: https://www.researchgate.net/profile/Henrique-Mongelli/publication/228439792_An_Alternative_Implementation_for_the_FPT_k-Vertex_Cover_Parallel_Algorithm/links/0a85e53584fdabd8da000000/An-Alternative-Implementation-for-the-FPT-k-Vertex-Cover-Parallel-Algorithm.pdf
+  title: public PDF body was not downloaded
+  source_type: original_source
+  access_status: skipped
+  reliability: LOW
+  extracted_facts:
+  - public PDF body was not downloaded
+  short_quote: public PDF body was not downloaded
+  digest: ec33e204dda53b73
+- source_id: crossref_search:21a6fa86151914cb
+  url: https://doi.org/10.3109/01443615.2010.505307
+  title: 'Re: Letter by Mongelli and Gardosi'
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title: Re: Letter by Mongelli and Gardosi'
+  - 'published year: 2010'
+  - 'container title: Journal of Obstetrics and Gynaecology'
+  short_quote: 'Crossref title: Re: Letter by Mongelli and Gardosi published year: 2010 container title: Journal of Obstetrics and Gynaecology'
+  digest: e9d09f3db01416d6
+- source_id: semantic_scholar:5f269ef0b4f3e23e
+  url: https://www.semanticscholar.org/paper/430ef84f83d207f0bda0bcfa81512aa8e5f5c002
+  title: 'The Bright Side of Hybridity: Exploring How Social Enterprises Manage and Leverage Their Hybrid Nature'
+  source_type: semantic_scholar
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Semantic Scholar title: The Bright Side of Hybridity: Exploring How Social Enterprises Manage and Leverage Their Hybrid Nature'
+  - 'published year: 2019'
+  - 'abstract summary: None'
+  short_quote: 'Semantic Scholar title: The Bright Side of Hybridity: Exploring How Social Enterprises Manage and Leverage Their Hybrid Nature published year: 2019 abstract summary: None'
+  digest: 44acc79f5df383c3
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

@@ -1,0 +1,59 @@
+id: AW-000036-P0022
+kind: probe
+algorithm_id: AW-000036
+algorithm_name: Wagner and Fischer
+source_records:
+- access_status: metadata_only
+  digest: 57e8752147b92f62
+  extracted_facts:
+  - 'AlgorithmWiki row name: Wagner and Fischer'
+  - 'domain: string'
+  - 'time complexity: O(mn)'
+  - 'space complexity: O(mn)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n, m: lengths of input strings'
+  - 'precard summary: Given one or more explicit strings, compute the matching, indexing, alignment, or transformation output targeted by the record. Baseline: time O(mn); space O(mn). Bottleneck: string scanning, preprocessing tables, and reporting matches dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000036:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Wagner and Fischer
+  url: https://dl.acm.org/citation.cfm?doid=321796.321811
+- access_status: failed
+  digest: 4326f277e0ccf27b
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:e9f9beafae98d4e6
+  source_type: publisher_abstract
+  title: 'HTTP Error 403: Forbidden'
+  url: https://dl.acm.org/citation.cfm?doid=321796.321811
+web_query_attempts:
+- method: search_plan
+  query: Wagner and Fischer algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Wagner and Fischer algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Wagner and Fischer problem definition
+  status: recorded
+- method: search_plan
+  query: Wagner and Fischer string algorithm
+  status: recorded
+- method: search_plan
+  query: Wagner and Fischer site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Wagner and Fischer algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://dl.acm.org/citation.cfm?doid=321796.321811
+  status: recorded
+- method: source_link_html_metadata
+  query: https://dl.acm.org/citation.cfm?doid=321796.321811
+  status: failed
+extracted_problem_statement: 'Wagner and Fischer is treated as a classical string task for rich AlgorithmWiki discovery. Problem/task: compute edit distance or alignment structure for two strings. Input semantics: One or more finite strings, sequences, patterns, or alphabets. Output semantics: An edit-distance value, alignment, or dynamic-programming table information for the input strings.'
+extracted_algorithm_summary: 'Wagner and Fischer is a string algorithm record. Classical complexity metadata: time O(mn); space O(mn). The stated classical model is Word RAM. Public metadata/source text adds: Wagner and Fischer string string n, m: lengths of input strings O(mn) Given one or more explicit strings, compute the matching, indexing, alignment, or transformation output targeted by the record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

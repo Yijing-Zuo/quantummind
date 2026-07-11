@@ -1,0 +1,17 @@
+statement: 'HyperLogLog algorithm registry-v1 approximate counting probe. This is a query-model approximate marked-set counting subroutine probe, not an end-to-end claim for the original algorithm. The represented task is to estimate the number or fraction of marked items in a finite search space using coherent Boolean predicate access introduced only for this probe. Source-backed parent context: Numeric parameters, functions, samples, tolerances, or distributions for the stated numerical task. An exact or approximate numerical value, estimate, approximation, or fitted representation. precision, convergence, sample complexity, and estimator variance. HyperLogLog algorithm estimation_sampling_probe HyperLogLog algorithm estimation-sampling probe. This is a subroutine/query-model probe, not an end-to-end claim for the original algorithm. The probe reformulates the row as estimating the mean, probability, count, or numerical quantity of a bounded random variable. Original input context: Numeric
+  parameters, functions, samples, tolerances, or distributions for the stated numerical task. O It does not output all marked items, an exact full list, or a full enumeration. Precision dependence, predicate construction, and data-loading cost remain expert obligations; the full original algorithm speedup is not claimed.'
+input_model: marked_set_counting_problem
+access_model: coherent_boolean_oracle
+output_contract: additive_count_estimate
+promises:
+- finite_search_space
+- coherent_boolean_oracle_available
+- count_precision_specified
+- oracle_model_assumption
+size_parameters:
+- 'Parameter definition: N: number of values in multiset, n: cardinality of multiset (not known), \epsilon: approximation parameter'
+- 'N, epsilon: finite search-space size and requested count-estimation precision.'
+ambiguities:
+- This is an assumption-bearing query/subroutine probe and is not an end-to-end speedup claim.
+- The marked-set predicate, finite search space, and count precision are introduced assumptions.
+- The parent task may require outputting marked objects or exact enumeration outside this probe.

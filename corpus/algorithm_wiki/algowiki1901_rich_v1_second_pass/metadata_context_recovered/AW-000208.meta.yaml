@@ -1,0 +1,61 @@
+algorithm_id: AW-000208
+canonical_name: Hinrichs Nievergelt Schorn
+blind_name: Algorithm Wiki public task AW-000208
+year: '1988'
+domain: unknown
+family: unknown
+variation: ''
+problem_name: unknown
+algorithm_family: unknown
+time_complexity: O(n \log n)
+space_complexity: O(n)
+computational_model: Real RAM
+randomized: '0'
+approximate: '0'
+approximation_factor: ''
+parameter_definitions: 'n: number of points'
+span_depth: ''
+work: ''
+number_of_processors: ''
+source_link: https://www.sciencedirect.com/science/article/pii/0020019088901500
+source_link_type: sciencedirect
+page_url: ''
+page_fetch_status: not_found
+page_digest: ''
+extracted_description: ''
+inferred_problem_statement: 'Hinrichs Nievergelt Schorn is reconstructed as a classical computational geometry task. Problem/task: compute a geometric structure or relation over a finite point set Input semantics: A finite set of points, dimension k when stated, and geometric predicate assumptions. Output semantics: A geometric witness, nearest/closest relation, hull, partition, or related structure supported by the named row.'
+inferred_input_model: explicit_geometry_problem
+inferred_access_model: explicit_geometric_objects
+inferred_output_contract: one_witness
+inferred_size_parameters:
+- 'Parameter definition: n: number of points'
+inferred_promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+inferred_ambiguities:
+- The exact geometric output may need source review when the row is author-only.
+- Some details are reconstructed from AlgorithmWiki metadata rather than an independently fetched full public description.
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.
+quality_score: 80
+quality_flags:
+- has_complexity_semantics
+- has_size_parameters
+- has_computational_model
+readiness: READY_PUBLIC_CONTEXT
+review_reasons:
+- missing_problem_statement
+- unknown_input_model
+- unknown_access_model
+- unknown_output_contract
+- insufficient_algorithm_level_structure
+extraction_version: algorithm-wiki-rich-second-pass-context-v1
+rich_card_kind: context_recovered
+source_records_used:
+- AW-000208:algorithm_wiki_metadata
+- failed:3d90f7431e4c533f
+- crossref_search:9ca92d07f20a20ab
+source_count: 3
+source_quality: HIGH
+confidence_score: 80
+card_digest: 97f5c5ada391c6db
+second_pass_rule: point_set_geometry

@@ -1,0 +1,60 @@
+algorithm_id: AW-000569
+canonical_name: Brzozowski's algorithm
+blind_name: Algorithm Wiki public task AW-000569
+year: '1963'
+domain: unknown
+family: unknown
+variation: ''
+problem_name: unknown
+algorithm_family: unknown
+time_complexity: O(2^n)
+space_complexity: O(2^n)
+computational_model: Word RAM
+randomized: '0'
+approximate: '0'
+approximation_factor: ''
+parameter_definitions: 'n: number of states, k: size of alphabet'
+span_depth: ''
+work: ''
+number_of_processors: ''
+source_link: https://www.semanticscholar.org/paper/Canonical-regular-expressions-and-minimal-state-for-Brzozowski/94def4233e1e8f15bab72e82708a03fd37233b14
+source_link_type: unknown
+page_url: ''
+page_fetch_status: not_found
+page_digest: ''
+extracted_description: ''
+inferred_problem_statement: 'Brzozowski''s algorithm is reconstructed as a classical combinatorics task. Problem/task: convert a nondeterministic finite automaton into an equivalent deterministic automaton Input semantics: A finite automaton with n states, alphabet, transition relation, start states, and accepting states. Output semantics: The reachable deterministic automaton states and transition table.'
+inferred_input_model: explicit_combinatorial_problem
+inferred_access_model: explicit_input_instance
+inferred_output_contract: full_solution
+inferred_size_parameters:
+- 'Parameter definition: n: number of states, k: size of alphabet'
+inferred_promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+inferred_ambiguities:
+- Some details are reconstructed from AlgorithmWiki metadata rather than an independently fetched full public description.
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.
+quality_score: 85
+quality_flags:
+- has_complexity_semantics
+- has_size_parameters
+- has_computational_model
+readiness: READY_PUBLIC_CONTEXT
+review_reasons:
+- missing_problem_statement
+- unknown_input_model
+- unknown_access_model
+- unknown_output_contract
+- insufficient_algorithm_level_structure
+extraction_version: algorithm-wiki-rich-second-pass-context-v1
+rich_card_kind: context_recovered
+source_records_used:
+- AW-000569:algorithm_wiki_metadata
+- source:b8b1328a1e2812c0
+- crossref_search:3f859cad042b1158
+source_count: 3
+source_quality: HIGH
+confidence_score: 85
+card_digest: 1b31b341f3d9237a
+second_pass_rule: automata_subset_construction

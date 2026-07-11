@@ -1,0 +1,60 @@
+id: AW-000810
+kind: context
+algorithm_id: AW-000810
+algorithm_name: MATSF
+source_records:
+- access_status: metadata_only
+  digest: ff787914056988ad
+  extracted_facts:
+  - 'AlgorithmWiki row name: MATSF'
+  - 'domain: parallel_algorithms'
+  - 'time complexity: O(n)'
+  - 'space complexity: O(n) (per node)'
+  - 'computational model: Word/Real RAM (per node)'
+  - 'parameter definitions: n: number of nodes in network'
+  - 'precard summary: Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model. Baseline: time O(n); space O(n) (per node). Bottleneck: work, span, communication, and processor-count assumptions dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000810:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for MATSF
+  url: https://ieeexplore.ieee.org/document/4359404
+- access_status: fetched
+  digest: f2ad165068d59503
+  extracted_facts:
+  - 'source page title: https://ieeexplore.ieee.org/document/4359404'
+  - 'source page description: In order to continue, we need to verify that you''re not a robot.'
+  reliability: HIGH
+  short_quote: In order to continue, we need to verify that you're not a robot.
+  source_id: source:1c2631a823c5eee0
+  source_type: publisher_abstract
+  title: https://ieeexplore.ieee.org/document/4359404
+  url: https://ieeexplore.ieee.org/document/4359404
+web_query_attempts:
+- method: search_plan
+  query: MATSF algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: MATSF algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: MATSF problem definition
+  status: recorded
+- method: search_plan
+  query: MATSF parallel algorithms algorithm
+  status: recorded
+- method: search_plan
+  query: MATSF site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: MATSF algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://ieeexplore.ieee.org/document/4359404
+  status: recorded
+- method: source_link_html_metadata
+  query: https://ieeexplore.ieee.org/document/4359404
+  status: fetched
+extracted_problem_statement: 'MATSF is treated as a classical parallel algorithms task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with MATSF. Input semantics: The classical input instance named by the row, together with processor/work/span parameters when stated. Output semantics: The same mathematical output as the underlying classical task, annotated by work/span when available.'
+extracted_algorithm_summary: 'MATSF is a parallel algorithms algorithm record. Classical complexity metadata: time O(n); space O(n) (per node). The stated classical model is Word/Real RAM (per node). Public metadata/source text adds: MATSF parallel_algorithms parallel_algorithms n: number of nodes in network O(n) Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

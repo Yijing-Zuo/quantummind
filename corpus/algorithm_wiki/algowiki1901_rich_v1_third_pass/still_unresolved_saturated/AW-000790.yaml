@@ -1,0 +1,57 @@
+algorithm_id: AW-000790
+canonical_name: Haveliwala
+enrichment_status: THIRD_PASS_SATURATED_INSUFFICIENT
+review_reasons:
+- After the configured source-family cycles, no source-backed concrete task, input semantics, output semantics, and conservative access model could be established.
+source_records:
+- access_status: metadata_only
+  digest: 74fe2c20204a6fc2
+  extracted_facts:
+  - 'AlgorithmWiki row name: Haveliwala'
+  - 'domain: unknown'
+  - 'time complexity: O(mn)'
+  - 'space complexity: O(nz)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of pages, m: number of hyperlinks, z: # of topics/categories'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000790:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Haveliwala
+  url: http://www-cs-students.stanford.edu/~taherh/papers/topic-sensitive-pagerank.pdf
+- access_status: fetched
+  digest: 017678db930976e7
+  extracted_facts:
+  - 'Crossref title-search result: Remarks on Algorithm 2, Algorithm 3, Algorithm 15, Algorithm 25 and Algorithm 26'
+  reliability: MEDIUM
+  short_quote: ''
+  source_id: crossref_search:14780116eae9a229
+  source_type: doi_metadata
+  title: Remarks on Algorithm 2, Algorithm 3, Algorithm 15, Algorithm 25 and Algorithm 26
+  url: https://doi.org/10.1145/366199.366273
+- source_id: skipped:e3a1c567e5c55a00
+  url: http://www-cs-students.stanford.edu/~taherh/papers/topic-sensitive-pagerank.pdf
+  title: public PDF body was not downloaded
+  source_type: original_source
+  access_status: skipped
+  reliability: LOW
+  extracted_facts:
+  - public PDF body was not downloaded
+  short_quote: public PDF body was not downloaded
+  digest: 6494f58d65e07041
+- source_id: crossref_search:806df024214083cb
+  url: https://doi.org/10.1176/ps.32.1.64-a
+  title: "<b>COMMON SENSE IN THERAPY: A HAND-BOOK FOR THE MENTAL HEALTH WORKER</b>\u2014by Yoosuf A. Haveliwala, M.D., Albert E. Scheflen, M.D., and Norman Ashcraft, Ph.D.; Brunner-Mazel, New York City, 1979, 218 pages, $13.50"
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - "Crossref title: <b>COMMON SENSE IN THERAPY: A HAND-BOOK FOR THE MENTAL HEALTH WORKER</b>\u2014by Yoosuf A. Haveliwala, M.D., Albert E. Scheflen, M.D., and Norman Ashcraft, Ph.D.; Brunner-Mazel, New York City, 1979, 218 pages, $13.50"
+  - 'published year: 1981'
+  - 'container title: Psychiatric Services'
+  short_quote: "Crossref title: <b>COMMON SENSE IN THERAPY: A HAND-BOOK FOR THE MENTAL HEALTH WORKER</b>\u2014by Yoosuf A. Haveliwala, M.D., Albert E. Scheflen, M.D., and Norman Ashcraft,"
+  digest: c9b901b75b7971e1
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

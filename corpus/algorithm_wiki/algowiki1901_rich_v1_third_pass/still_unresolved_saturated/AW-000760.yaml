@@ -1,0 +1,55 @@
+algorithm_id: AW-000760
+canonical_name: Shaban Amirreza Mehrdad Farajtabar
+enrichment_status: THIRD_PASS_SATURATED_INSUFFICIENT
+review_reasons:
+- After the configured source-family cycles, no source-backed concrete task, input semantics, output semantics, and conservative access model could be established.
+source_records:
+- access_status: metadata_only
+  digest: 1c487be0d0c93126
+  extracted_facts:
+  - 'AlgorithmWiki row name: Shaban Amirreza Mehrdad Farajtabar'
+  - 'domain: unknown'
+  - 'time complexity: O(n^2 \log^2 n)'
+  - 'space complexity: O(kd+d^3)'
+  - 'computational model: Real RAM'
+  - 'parameter definitions: n: number of observations in sample, k: number of distributions in mixture (n_s), d: dimensions of parameter for each discrete distribution (n_o)'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000760:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Shaban Amirreza Mehrdad Farajtabar
+  url: https://dl.acm.org/doi/abs/10.5555/3020847.3020929
+- access_status: failed
+  digest: 06078416b6fe2142
+  extracted_facts:
+  - 'HTTP Error 404: Not Found'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:0b704e03eafe9a89
+  source_type: doi_metadata
+  title: 'HTTP Error 404: Not Found'
+  url: https://doi.org/10.5555/3020847.3020929
+- access_status: failed
+  digest: 1392d6cc79025896
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:b6415faa5708d2db
+  source_type: publisher_abstract
+  title: 'HTTP Error 403: Forbidden'
+  url: https://dl.acm.org/doi/abs/10.5555/3020847.3020929
+- access_status: fetched
+  digest: 96dae390e5ebff78
+  extracted_facts:
+  - 'Crossref title-search result: Mehrdad Mohammadi'
+  reliability: MEDIUM
+  short_quote: ''
+  source_id: crossref_search:53459b02c9ec8538
+  source_type: doi_metadata
+  title: Mehrdad Mohammadi
+  url: https://doi.org/10.1287/1d5856fc-9566-46e8-ae60-38949d44617f
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

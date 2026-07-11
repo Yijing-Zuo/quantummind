@@ -1,0 +1,59 @@
+algorithm_id: AW-000600
+canonical_name: 9-point ADI iteration
+enrichment_status: THIRD_PASS_SATURATED_INSUFFICIENT
+review_reasons:
+- After the configured source-family cycles, no source-backed concrete task, input semantics, output semantics, and conservative access model could be established.
+source_records:
+- access_status: metadata_only
+  digest: 66c16f49b0fb96a0
+  extracted_facts:
+  - 'AlgorithmWiki row name: 9-point ADI iteration'
+  - 'domain: unknown'
+  - 'time complexity: O(n^2 \log n)'
+  - 'space complexity: O(n^2)'
+  - 'computational model: Real RAM'
+  - 'parameter definitions: n: dimension of grid (where grid is discretized)'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000600:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for 9-point ADI iteration
+  url: ''
+- access_status: fetched
+  digest: d9f6e2ebcb23752e
+  extracted_facts:
+  - 'Crossref title-search result: Numerical stability of a cyclic adi iteration'
+  reliability: MEDIUM
+  short_quote: ''
+  source_id: crossref_search:2b14f4e4ae3864c9
+  source_type: doi_metadata
+  title: Numerical stability of a cyclic adi iteration
+  url: https://doi.org/10.1080/00207169008803868
+- source_id: crossref_search:4c79de137ccedba3
+  url: https://doi.org/10.1080/00207169008803868
+  title: Numerical stability of a cyclic adi iteration
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title: Numerical stability of a cyclic adi iteration'
+  - 'published year: 1990'
+  - 'container title: International Journal of Computer Mathematics'
+  short_quote: 'Crossref title: Numerical stability of a cyclic adi iteration published year: 1990 container title: International Journal of Computer Mathematics'
+  digest: 89af39e54aeb8656
+- source_id: openalex:dc9d34f3029b1e62
+  url: https://openalex.org/W2095036901
+  title: The Numerical Solution of Parabolic and Elliptic Differential Equations
+  source_type: openalex
+  access_status: fetched
+  reliability: HIGH
+  extracted_facts:
+  - 'OpenAlex title: The Numerical Solution of Parabolic and Elliptic Differential Equations'
+  - 'publication year: 1955'
+  - 'abstract summary: Previous article Next article The Numerical Solution of Parabolic and Elliptic Differential EquationsD.'
+  short_quote: 'OpenAlex title: The Numerical Solution of Parabolic and Elliptic Differential Equations publication year: 1955 abstract summary: Previous article Next article The Numerical Solution of'
+  digest: c3e1aa49fe18e5a0
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

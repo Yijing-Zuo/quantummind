@@ -1,0 +1,13 @@
+statement: 'Gray-code based is included as a named whole-algorithm context card for a classical image processing task. The task is to analyze the classical input-output problem, not to certify an end-to-end improvement claim. Input semantics: Scene geometry, material parameters, lights, camera/view information, and image resolution. Output semantics: Rendered pixel colors or intermediate shading/visibility values. Classical algorithm summary: Gray-code based is treated as the named AlgorithmWiki variant for compute shaded/rendered image values from a geometric scene and illumination model Classical complexity metadata: time O(2^n); space O(n). Public metadata/source title support includes The Greedy Gray Code Algorithm. Classical complexity recorded for this row: time O(2^n); space O(n); computation model Word RAM. Dominant bottleneck: Visibility tests, lighting evaluation, sampling, and writing image-sized output dominate. The useful review questions are whether the named structure exposes
+  a smaller decision, witness, estimation, or algebraic subproblem; whether the full output size dominates any asymptotic gain; and whether the stated access model is realistic for the original input. Provenance used for reconstruction includes public metadata or abstract sources such as The Greedy Gray Code Algorithm.'
+input_model: explicit_image_processing_problem
+access_model: explicit_input_instance
+output_contract: full_solution
+promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+size_parameters:
+- 'Parameter definition: n: number of disks'
+ambiguities:
+- Some details are reconstructed from AlgorithmWiki metadata rather than an independently fetched full public description.
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.

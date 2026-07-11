@@ -1,0 +1,74 @@
+id: AW-000816-P0536
+kind: probe
+algorithm_id: AW-000816
+algorithm_name: Amir et al.
+source_records:
+- access_status: metadata_only
+  digest: e67b0c248dc1cac0
+  extracted_facts:
+  - 'AlgorithmWiki row name: Amir et al.'
+  - 'domain: graph'
+  - 'time complexity: O(m(n \log m + E))'
+  - 'space complexity: O(mn)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: V: number of vertices in original hypertext graph, E: number of edges in original hypertext graph, m: length of pattern, n: number of vertices in converted graph (total text size), e: number of edges in converted graph'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(m(n \log m + E)); space O(mn). Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000816:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Amir et al.
+  url: https://link.springer.com/chapter/10.1007/3-540-63307-3_56
+- access_status: fetched
+  digest: f390469ae40d2d67
+  extracted_facts:
+  - 'DOI title: Pattern matching in hypertext'
+  - 'published year: 1997'
+  - 'container title: Lecture Notes in Computer Science'
+  reliability: HIGH
+  short_quote: ''
+  source_id: crossref:6a8c2e196d101529
+  source_type: doi_metadata
+  title: Pattern matching in hypertext
+  url: https://doi.org/10.1007/3-540-63307-3_56
+- access_status: skipped
+  digest: eb07532e9f984173
+  extracted_facts:
+  - robots.txt disallowed fetch
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:210b77eb20a64c52
+  source_type: publisher_abstract
+  title: robots.txt disallowed fetch
+  url: https://link.springer.com/chapter/10.1007/3-540-63307-3_56
+web_query_attempts:
+- method: search_plan
+  query: Amir et al. algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Amir et al. algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Amir et al. problem definition
+  status: recorded
+- method: search_plan
+  query: Amir et al. graph algorithm
+  status: recorded
+- method: search_plan
+  query: Amir et al. site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Amir et al. algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://link.springer.com/chapter/10.1007/3-540-63307-3_56
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1007/3-540-63307-3_56
+  status: fetched
+- method: source_link_html_metadata
+  query: https://link.springer.com/chapter/10.1007/3-540-63307-3_56
+  status: skipped
+extracted_problem_statement: 'Amir et al. is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Amir et al.. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: Pattern occurrence positions, matches, or the associated string-search report.'
+extracted_algorithm_summary: 'Amir et al. is a graph algorithm record. Classical complexity metadata: time O(m(n \log m + E)); space O(mn). The stated classical model is Word RAM. Public metadata/source text adds: Amir et al. graph graph V: number of vertices in original hypertext graph, E: number of edges in original hypertext graph, m: length of pattern, n: number of vertices in converted graph (total text size), e: number of edges in converted graph O(m(n \log m + E)) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

@@ -1,0 +1,58 @@
+id: AW-001239
+kind: context
+algorithm_id: AW-001239
+algorithm_name: Hongwei, Yafeng
+source_records:
+- access_status: metadata_only
+  digest: 40cd772c85ea1751
+  extracted_facts:
+  - 'AlgorithmWiki row name: Hongwei, Yafeng'
+  - 'domain: sorting'
+  - 'time complexity: log^2(n) + log n'
+  - 'computational model: sorting network'
+  - 'parameter definitions: n: size of list'
+  - 'precard summary: Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model. Baseline: time log^2(n) + log n; work (\log^2(n) + \log n)^2 n/4; span/depth log^2(n) + log n; processors (log^2(n) + log n)n/4. Bottleneck: comparison, distribution, and full-output movement costs dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001239:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Hongwei, Yafeng
+  url: https://ieeexplore.ieee.org/abstract/document/4736981
+- access_status: skipped
+  digest: 4a341e7ff2cbd596
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:3677590f4cd1245e
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://ieeexplore.ieee.org/abstract/document/4736981
+web_query_attempts:
+- method: search_plan
+  query: Hongwei, Yafeng algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Hongwei, Yafeng algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Hongwei, Yafeng problem definition
+  status: recorded
+- method: search_plan
+  query: Hongwei, Yafeng sorting algorithm
+  status: recorded
+- method: search_plan
+  query: Hongwei, Yafeng site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Hongwei, Yafeng algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://ieeexplore.ieee.org/abstract/document/4736981
+  status: recorded
+- method: source_link_html_metadata
+  query: https://ieeexplore.ieee.org/abstract/document/4736981
+  status: skipped
+extracted_problem_statement: 'Hongwei, Yafeng is treated as a classical sorting task for rich AlgorithmWiki discovery. Problem/task: sort the input sequence using the named classical sorting method. Input semantics: A finite array or list of comparable keys or records. Output semantics: The same items returned in nondecreasing order, usually as a full reordered sequence.'
+extracted_algorithm_summary: 'Hongwei, Yafeng is a sorting algorithm record. Classical complexity metadata: time log^2(n) + log n; work (\log^2(n) + \log n)^2 n/4; span/depth log^2(n) + log n; processors (log^2(n) + log n)n/4. The stated classical model is sorting network. Public metadata/source text adds: Hongwei, Yafeng sorting sorting n: size of list log^2(n) + log n Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

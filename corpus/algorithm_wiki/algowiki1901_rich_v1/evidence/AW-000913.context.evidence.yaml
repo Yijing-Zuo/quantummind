@@ -1,0 +1,62 @@
+id: AW-000913
+kind: context
+algorithm_id: AW-000913
+algorithm_name: Signature Sort
+source_records:
+- access_status: metadata_only
+  digest: 6a0eee7f8511e606
+  extracted_facts:
+  - 'AlgorithmWiki row name: Signature Sort'
+  - 'domain: sorting'
+  - 'time complexity: O(n log log n)'
+  - 'space complexity: O(n)'
+  - 'computational model: Word RAM (or unit-cost RAM, more generally)'
+  - 'parameter definitions: n: size of list'
+  - 'precard summary: Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model. Baseline: time O(n log log n); space O(n). Bottleneck: comparison, distribution, and full-output movement costs dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000913:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Signature Sort
+  url: https://www.sciencedirect.com/science/article/pii/S002200009891580X
+- access_status: failed
+  digest: 6e44018bf38aff67
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:0cbf0e72d5f49d99
+  source_type: publisher_abstract
+  title: 'HTTP Error 403: Forbidden'
+  url: https://www.sciencedirect.com/science/article/pii/S002200009891580X
+web_query_attempts:
+- method: search_plan
+  query: Signature Sort algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Signature Sort algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Signature Sort problem definition
+  status: recorded
+- method: search_plan
+  query: Signature Sort sorting algorithm
+  status: recorded
+- method: search_plan
+  query: Signature Sort site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Signature Sort algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://www.sciencedirect.com/science/article/pii/S002200009891580X
+  status: recorded
+- method: source_link_html_metadata
+  query: https://www.sciencedirect.com/science/article/pii/S002200009891580X
+  status: failed
+- method: wikipedia_summary_search
+  query: Signature Sort algorithm
+  status: failed_or_not_relevant
+extracted_problem_statement: 'Signature Sort is treated as a classical sorting task for rich AlgorithmWiki discovery. Problem/task: sort the input sequence using the named classical sorting method. Input semantics: A finite array or list of comparable keys or records. Output semantics: The same items returned in nondecreasing order, usually as a full reordered sequence.'
+extracted_algorithm_summary: 'Signature Sort is a sorting algorithm record. Classical complexity metadata: time O(n log log n); space O(n). The stated classical model is Word RAM (or unit-cost RAM, more generally). Public metadata/source text adds: Signature Sort sorting sorting n: size of list O(n log log n) Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

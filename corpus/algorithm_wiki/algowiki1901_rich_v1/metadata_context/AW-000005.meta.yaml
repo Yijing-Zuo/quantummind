@@ -1,0 +1,60 @@
+algorithm_family: unknown
+algorithm_id: AW-000005
+approximate: '1'
+approximation_factor: experimental results
+blind_name: Algorithm Wiki public task AW-000005
+canonical_name: Hierarchical Navigable Small World (HNSW)
+computational_model: ''
+domain: unknown
+extracted_description: ''
+extraction_version: algorithm-wiki-rich-context-v1
+family: unknown
+inferred_access_model: adjacency_list_query
+inferred_ambiguities:
+- The AlgorithmWiki row marks the classical method as approximate.
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.
+inferred_input_model: explicit_graph_problem
+inferred_output_contract: one_witness
+inferred_problem_statement: 'Hierarchical Navigable Small World (HNSW) is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: answer approximate nearest-neighbor search queries using a navigable small-world graph structure. Input semantics: A metric or vector data set, query points, and graph/search parameters for nearest-neighbor lookup. Output semantics: Nearest-neighbor or approximate nearest-neighbor identifiers and distances for the query points.'
+inferred_promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+- classical_approximation_algorithm
+inferred_size_parameters:
+- 'Parameter definition: n: number of elements, M: heuristic choice -- number of closest neighbors for a part of the algo'
+number_of_processors: ''
+page_digest: ''
+page_fetch_status: not_found
+page_url: ''
+parameter_definitions: 'n: number of elements, M: heuristic choice -- number of closest neighbors for a part of the algo'
+problem_name: unknown
+quality_flags:
+- has_complexity_semantics
+- has_size_parameters
+- approximation_flag_preserved
+quality_score: 75
+randomized: '0'
+readiness: READY_PUBLIC_CONTEXT
+review_reasons:
+- missing_problem_statement
+- unknown_input_model
+- unknown_access_model
+- unknown_output_contract
+- insufficient_algorithm_level_structure
+source_link: https://doi.org/10.1109/TPAMI.2018.2889473
+source_link_type: doi
+space_complexity: O(M)
+span_depth: ''
+time_complexity: O(n \log n)
+variation: ''
+work: ''
+year: '2018'
+rich_card_kind: context
+source_records_used:
+- AW-000005:algorithm_wiki_metadata
+- crossref:a65e05e1b63447fb
+- source:fdca4b1a400ad71d
+source_count: 3
+source_quality: HIGH
+confidence_score: 75
+card_digest: ed6e10f782125337

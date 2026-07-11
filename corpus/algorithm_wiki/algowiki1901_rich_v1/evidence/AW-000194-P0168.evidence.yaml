@@ -1,0 +1,67 @@
+id: AW-000194-P0168
+kind: probe
+algorithm_id: AW-000194
+algorithm_name: CH Algorithm
+source_records:
+- access_status: metadata_only
+  digest: d37622683112d5df
+  extracted_facts:
+  - 'AlgorithmWiki row name: CH Algorithm'
+  - 'domain: graph'
+  - 'time complexity: O(VE)'
+  - 'space complexity: O(V+E)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: V: number of vertices, E: number of edges, p: number of processors'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(VE); space O(V+E). Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000194:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for CH Algorithm
+  url: https://research.vu.nl/en/publications/on-distributed-verification-and-verified-distribution
+- access_status: fetched
+  digest: 9f164b73c301a5a6
+  extracted_facts:
+  - 'source page title: On Distributed Verification and Verified Distribution
+
+    - Vrije Universiteit Amsterdam'
+  - 'source page description: Original language English Qualification PhD Awarding Institution Vrije Universiteit Amsterdam Supervisors/Advisors Fokkink, Wan , Supervisor van de Pol, J.C.'
+  reliability: LOW
+  short_quote: Original language English Qualification PhD Awarding Institution Vrije Universiteit Amsterdam Supervisors/Advisors Fokkink, Wan , Supervisor van de Pol, J.C.
+  source_id: source:00e06f77572fa31f
+  source_type: other_public_source
+  title: 'On Distributed Verification and Verified Distribution
+
+    - Vrije Universiteit Amsterdam'
+  url: https://research.vu.nl/en/publications/on-distributed-verification-and-verified-distribution
+web_query_attempts:
+- method: search_plan
+  query: CH Algorithm algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: CH Algorithm algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: CH Algorithm problem definition
+  status: recorded
+- method: search_plan
+  query: CH Algorithm graph algorithm
+  status: recorded
+- method: search_plan
+  query: CH Algorithm site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: CH Algorithm algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://research.vu.nl/en/publications/on-distributed-verification-and-verified-distribution
+  status: recorded
+- method: source_link_html_metadata
+  query: https://research.vu.nl/en/publications/on-distributed-verification-and-verified-distribution
+  status: fetched
+- method: wikipedia_summary_search
+  query: CH Algorithm algorithm
+  status: failed_or_not_relevant
+extracted_problem_statement: 'CH Algorithm is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with CH Algorithm. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'CH Algorithm is a graph algorithm record. Classical complexity metadata: time O(VE); space O(V+E). The stated classical model is Word RAM. Public metadata/source text adds: CH Algorithm graph graph V: number of vertices, E: number of edges, p: number of processors O(VE) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

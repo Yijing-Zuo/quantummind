@@ -1,0 +1,54 @@
+algorithm_id: AW-001827
+canonical_name: Cheung, Hu, Xia
+enrichment_status: SECOND_PASS_INSUFFICIENT
+review_reasons:
+- No second-pass rule could identify source-backed task semantics.
+source_records:
+- access_status: metadata_only
+  digest: 8e5f859ed36cbcf4
+  extracted_facts:
+  - 'AlgorithmWiki row name: Cheung, Hu, Xia'
+  - 'domain: unknown'
+  - 'computational model: SMP (shared memory)'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001827:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Cheung, Hu, Xia
+  url: https://dl.acm.org/doi/pdf/10.1145/277651.277694
+- access_status: skipped
+  digest: 44e184c4bfd95228
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:f0bf52a23b7c8be2
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1145/277651.277694
+- source_id: crossref:d3914aa73a2be33c
+  url: https://doi.org/10.1145/277651.277694
+  title: Asynchronous parallel algorithm for mining association rules on a shared-memory multi-processors
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: HIGH
+  extracted_facts:
+  - 'DOI title: Asynchronous parallel algorithm for mining association rules on a shared-memory multi-processors'
+  - 'published year: 1998'
+  - 'container title: Proceedings of the tenth annual ACM symposium on Parallel algorithms and architectures - SPAA ''98'
+  short_quote: ''
+  digest: 948f3fbf902c485e
+- source_id: crossref_search:0b18e1bdccf3f416
+  url: https://doi.org/10.1109/npc.2007.32
+  title: An optimal algorithm to fetch DHT routable
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: An optimal algorithm to fetch DHT routable'
+  short_quote: ''
+  digest: eac65bcac63f65f8
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

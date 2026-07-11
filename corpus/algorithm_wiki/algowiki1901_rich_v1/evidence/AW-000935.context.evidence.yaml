@@ -1,0 +1,72 @@
+id: AW-000935
+kind: context
+algorithm_id: AW-000935
+algorithm_name: Tarjan (directed, dense)
+source_records:
+- access_status: metadata_only
+  digest: 7735b2b463b5fe84
+  extracted_facts:
+  - 'AlgorithmWiki row name: Tarjan (directed, dense)'
+  - 'domain: graph'
+  - 'time complexity: O(V^2)'
+  - 'space complexity: O(E)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: V: number of vertices, E: number of edges, U: maximum edge weight'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(V^2); space O(E). Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000935:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Tarjan (directed, dense)
+  url: https://onlinelibrary.wiley.com/doi/10.1002/net.3230070103
+- access_status: skipped
+  digest: 7411797ef61755a6
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:bd9718457fc3422d
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1002/net.3230070103
+- access_status: skipped
+  digest: 64951cffdd19f7ae
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:c39d6a29c6c42810
+  source_type: other_public_source
+  title: fetch budget exhausted
+  url: https://onlinelibrary.wiley.com/doi/10.1002/net.3230070103
+web_query_attempts:
+- method: search_plan
+  query: Tarjan (directed, dense) algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Tarjan (directed, dense) algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Tarjan (directed, dense) problem definition
+  status: recorded
+- method: search_plan
+  query: Tarjan (directed, dense) graph algorithm
+  status: recorded
+- method: search_plan
+  query: Tarjan (directed, dense) site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Tarjan (directed, dense) algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://onlinelibrary.wiley.com/doi/10.1002/net.3230070103
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1002/net.3230070103
+  status: skipped
+- method: source_link_html_metadata
+  query: https://onlinelibrary.wiley.com/doi/10.1002/net.3230070103
+  status: skipped
+extracted_problem_statement: 'Tarjan (directed, dense) is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Tarjan (directed, dense). Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'Tarjan (directed, dense) is a graph algorithm record. Classical complexity metadata: time O(V^2); space O(E). The stated classical model is Word RAM. Public metadata/source text adds: Tarjan (directed, dense) graph graph V: number of vertices, E: number of edges, U: maximum edge weight O(V^2) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

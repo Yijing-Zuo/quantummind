@@ -1,0 +1,55 @@
+algorithm_id: AW-001728
+canonical_name: Connor, Kumar
+blind_name: Algorithm Wiki public task AW-001728
+year: '2008'
+domain: unknown
+family: unknown
+variation: ''
+problem_name: unknown
+algorithm_family: unknown
+time_complexity: ''
+space_complexity: ''
+computational_model: ''
+randomized: ''
+approximate: ''
+approximation_factor: ''
+parameter_definitions: 'n: number of points, k: number of neighbors'
+span_depth: O(log n)
+work: O(nlogn + nk \log(k))
+number_of_processors: ''
+source_link: https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=cefc2eca176f490d1c6a09d689262da37a326b13
+source_link_type: citeseerx
+page_url: ''
+page_fetch_status: not_found
+page_digest: ''
+extracted_description: ''
+inferred_problem_statement: 'Connor, Kumar is reconstructed as a classical computational geometry task. Problem/task: compute a geometric structure or relation over a finite point set Input semantics: A finite set of points, dimension k when stated, and geometric predicate assumptions. Output semantics: A geometric witness, nearest/closest relation, hull, partition, or related structure supported by the named row.'
+inferred_input_model: explicit_geometry_problem
+inferred_access_model: explicit_geometric_objects
+inferred_output_contract: one_witness
+inferred_size_parameters:
+- 'Parameter definition: n: number of points, k: number of neighbors'
+inferred_promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+inferred_ambiguities:
+- The exact geometric output may need source review when the row is author-only.
+- Some details are reconstructed from AlgorithmWiki metadata rather than an independently fetched full public description.
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.
+quality_score: 75
+quality_flags:
+- has_complexity_semantics
+- has_size_parameters
+readiness: READY_PUBLIC_CONTEXT
+review_reasons:
+- A previous row has the same canonicalized algorithm name.
+extraction_version: algorithm-wiki-rich-second-pass-context-v1
+rich_card_kind: context_recovered
+source_records_used:
+- AW-001728:algorithm_wiki_metadata
+- crossref_search:3d130274335ae233
+source_count: 2
+source_quality: HIGH
+confidence_score: 75
+card_digest: f270811975415ad3
+second_pass_rule: point_set_geometry

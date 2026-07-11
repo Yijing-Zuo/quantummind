@@ -1,0 +1,32 @@
+algorithm_id: AW-000337
+canonical_name: Kass Witkin and Terzopoulos
+enrichment_status: SECOND_PASS_INSUFFICIENT
+review_reasons:
+- No second-pass rule could identify source-backed task semantics.
+source_records:
+- access_status: metadata_only
+  digest: 52fe462b60e6425d
+  extracted_facts:
+  - 'AlgorithmWiki row name: Kass Witkin and Terzopoulos'
+  - 'domain: unknown'
+  - 'time complexity: O(n^2)'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000337:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Kass Witkin and Terzopoulos
+  url: ''
+- source_id: crossref_search:2e7df38403ba3729
+  url: https://doi.org/10.1093/oed/1196467476
+  title: kass-kass, n.
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: kass-kass, n.'
+  short_quote: ''
+  digest: c7e400b3ed5a62f0
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

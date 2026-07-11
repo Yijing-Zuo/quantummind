@@ -1,0 +1,32 @@
+algorithm_id: AW-000751
+canonical_name: YANG Y. KIM J. LUO F. HU S. GU X. 2008
+enrichment_status: SECOND_PASS_INSUFFICIENT
+review_reasons:
+- No second-pass rule could identify source-backed task semantics.
+source_records:
+- access_status: metadata_only
+  digest: 1ea66aefc2ce768d
+  extracted_facts:
+  - 'AlgorithmWiki row name: YANG Y. KIM J. LUO F. HU S. GU X. 2008'
+  - 'domain: unknown'
+  - 'time complexity: O(n \log \log n)'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000751:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for YANG Y. KIM J. LUO F. HU S. GU X. 2008
+  url: ''
+- source_id: crossref_search:5891bf41f44a81cc
+  url: https://doi.org/10.1093/benz/9780199773787.article.b00081409
+  title: Gu Luo
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: Gu Luo'
+  short_quote: ''
+  digest: 9f9266d960e0418b
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

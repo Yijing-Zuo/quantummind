@@ -1,0 +1,57 @@
+id: AW-000776
+kind: context_recovered
+algorithm_id: AW-000776
+algorithm_name: Puterman Modified Policy Iteration (MPI)
+source_records:
+- access_status: metadata_only
+  digest: d52fca0c7eb191af
+  extracted_facts:
+  - 'AlgorithmWiki row name: Puterman Modified Policy Iteration (MPI)'
+  - 'domain: unknown'
+  - 'time complexity: O(n^3)'
+  - 'space complexity: O(n)'
+  - 'computational model: Word/Real RAM'
+  - 'parameter definitions: n: number of states'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000776:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Puterman Modified Policy Iteration (MPI)
+  url: ''
+- source_id: crossref_search:914c54747b67ae63
+  url: https://doi.org/10.1287/ijoc.1120.0509
+  title: Robust Modified Policy Iteration
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: Robust Modified Policy Iteration'
+  - 'abstract summary: Robust dynamic programming (robust DP) mitigates the effects of ambiguity in transition probabilities on the solutions of Markov decision problems.'
+  short_quote: Robust dynamic programming (robust DP) mitigates the effects of ambiguity in transition probabilities on the solutions of Markov decision problems.
+  digest: e7ab18694d014bae
+web_query_attempts:
+- query: '"Puterman Modified Policy Iteration (MPI)" algorithm'
+  method: search_plan
+  status: recorded
+- query: '"Puterman Modified Policy Iteration (MPI)" input output'
+  method: search_plan
+  status: recorded
+- query: '"Puterman Modified Policy Iteration (MPI)" time complexity'
+  method: search_plan
+  status: recorded
+- query: '"Puterman Modified Policy Iteration (MPI)" pseudocode'
+  method: search_plan
+  status: recorded
+- query: '"Puterman Modified Policy Iteration (MPI)" problem'
+  method: search_plan
+  status: recorded
+- query: '"Puterman Modified Policy Iteration (MPI)" PDF metadata abstract'
+  method: search_plan
+  status: recorded
+- query: Puterman Modified Policy Iteration (MPI) algorithm
+  method: crossref_title_search
+  status: fetched
+extracted_problem_statement: 'Puterman Modified Policy Iteration (MPI) is reconstructed as a classical combinatorics task. Problem/task: convert a nondeterministic finite automaton into an equivalent deterministic automaton Input semantics: A finite automaton with n states, alphabet, transition relation, start states, and accepting states. Output semantics: The reachable deterministic automaton states and transition table.'
+extracted_algorithm_summary: 'Puterman Modified Policy Iteration (MPI) is treated as the named AlgorithmWiki variant for convert a nondeterministic finite automaton into an equivalent deterministic automaton Classical complexity metadata: time O(n^3); space O(n). Public metadata/source title support includes Robust Modified Policy Iteration.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

@@ -1,0 +1,54 @@
+algorithm_family: unknown
+algorithm_id: AW-000012
+approximate: '0'
+approximation_factor: ''
+blind_name: Algorithm Wiki public task AW-000012
+canonical_name: Serang
+computational_model: ''
+domain: unknown
+extracted_description: ''
+extraction_version: algorithm-wiki-rich-context-v1
+family: unknown
+inferred_access_model: adjacency_list_query
+inferred_ambiguities:
+- Some details are reconstructed from AlgorithmWiki metadata rather than an independently fetched full public description.
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.
+inferred_input_model: explicit_combinatorial_problem
+inferred_output_contract: one_witness
+inferred_problem_statement: 'Serang is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: solve a subset-sum or target-sum dynamic-programming/search problem. Input semantics: A finite set or multiset of integers with a target sum parameter. Output semantics: A decision result, feasible subset witness, count, or optimized subset value for the target-sum instance, depending on the row.'
+inferred_promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+inferred_size_parameters:
+- 'Parameter definition: n: number of elements in the set, S: the set, t: target sum'
+number_of_processors: ''
+page_digest: ''
+page_fetch_status: not_found
+page_url: ''
+parameter_definitions: 'n: number of elements in the set, S: the set, t: target sum'
+problem_name: unknown
+quality_flags:
+- has_complexity_semantics
+- has_size_parameters
+quality_score: 65
+randomized: '0'
+readiness: READY_PUBLIC_CONTEXT
+review_reasons:
+- A previous row has the same canonicalized algorithm name.
+source_link: https://www.liebertpub.com/doi/10.1089/cmb.2015.0013
+source_link_type: unknown
+space_complexity: O(t\log t)
+span_depth: ''
+time_complexity: \tilde{O}(n \max(S))
+variation: ''
+work: ''
+year: '2015'
+rich_card_kind: context
+source_records_used:
+- AW-000012:algorithm_wiki_metadata
+- crossref:bd32e115c96e5e62
+- failed:6a0c9e778fcaec47
+source_count: 3
+source_quality: HIGH
+confidence_score: 65
+card_digest: 9e275daab1f99aed

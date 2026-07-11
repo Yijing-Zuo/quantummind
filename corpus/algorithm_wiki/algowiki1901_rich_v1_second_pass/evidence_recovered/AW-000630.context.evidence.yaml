@@ -1,0 +1,72 @@
+id: AW-000630
+kind: context_recovered
+algorithm_id: AW-000630
+algorithm_name: Hybrid Algorithm
+source_records:
+- access_status: metadata_only
+  digest: 0180a40568a0dcb3
+  extracted_facts:
+  - 'AlgorithmWiki row name: Hybrid Algorithm'
+  - 'domain: unknown'
+  - 'time complexity: O(n^2)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: sum of lengths of reads, f: number of input sequences'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000630:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Hybrid Algorithm
+  url: https://pubmed.ncbi.nlm.nih.gov/22750884/
+- access_status: fetched
+  digest: 57b10c38cc195d5f
+  extracted_facts:
+  - 'source page title: Hybrid error correction and de novo assembly of single-molecule sequencing reads - PubMed'
+  - 'source page description: Single-molecule sequencing instruments can generate multikilobase sequences with the potential to greatly improve genome and transcriptome assembly.'
+  reliability: LOW
+  short_quote: Single-molecule sequencing instruments can generate multikilobase sequences with the potential to greatly improve genome and transcriptome assembly.
+  source_id: source:78ee2646d67f344b
+  source_type: other_public_source
+  title: Hybrid error correction and de novo assembly of single-molecule sequencing reads - PubMed
+  url: https://pubmed.ncbi.nlm.nih.gov/22750884/
+- source_id: crossref_search:1287719efb15a7e4
+  url: https://doi.org/10.1038/nbt.2280
+  title: Hybrid error correction and de novo assembly of single-molecule sequencing reads
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: Hybrid error correction and de novo assembly of single-molecule sequencing reads'
+  short_quote: ''
+  digest: d4e850f311556683
+web_query_attempts:
+- query: '"Hybrid Algorithm" algorithm'
+  method: search_plan
+  status: recorded
+- query: '"Hybrid Algorithm" input output'
+  method: search_plan
+  status: recorded
+- query: '"Hybrid Algorithm" time complexity'
+  method: search_plan
+  status: recorded
+- query: '"Hybrid Algorithm" pseudocode'
+  method: search_plan
+  status: recorded
+- query: '"Hybrid Algorithm" problem'
+  method: search_plan
+  status: recorded
+- query: '"Hybrid Algorithm" PDF metadata abstract'
+  method: search_plan
+  status: recorded
+- query: '"Hybrid error correction and de novo assembly of single-molecule sequencing reads - PubMed" algorithm'
+  method: search_plan
+  status: recorded
+- query: https://pubmed.ncbi.nlm.nih.gov/22750884/
+  method: search_plan
+  status: recorded
+- query: Hybrid error correction and de novo assembly of single-molecule sequencing reads - PubMed algorithm
+  method: crossref_title_search
+  status: fetched
+extracted_problem_statement: 'Hybrid Algorithm is reconstructed as a classical string task. Problem/task: assemble sequences from reads using overlap/layout/consensus structure Input semantics: A collection of sequence reads and their total length or count. Output semantics: An assembled sequence, overlap graph/layout, or consensus representation.'
+extracted_algorithm_summary: 'Hybrid Algorithm is treated as the named AlgorithmWiki variant for assemble sequences from reads using overlap/layout/consensus structure Classical complexity metadata: time O(n^2). Public metadata/source title support includes Hybrid error correction and de novo assembly of single-molecule sequencing reads - PubMed.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

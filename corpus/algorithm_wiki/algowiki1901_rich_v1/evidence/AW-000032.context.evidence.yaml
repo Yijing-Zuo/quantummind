@@ -1,0 +1,43 @@
+id: AW-000032
+kind: context
+algorithm_id: AW-000032
+algorithm_name: Naive Selection
+source_records:
+- access_status: metadata_only
+  digest: 8a3227577d73f26e
+  extracted_facts:
+  - 'AlgorithmWiki row name: Naive Selection'
+  - 'domain: unknown'
+  - 'time complexity: O(n \log n)'
+  - 'space complexity: O(1)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: size of list'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000032:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Naive Selection
+  url: '-'
+web_query_attempts:
+- method: search_plan
+  query: Naive Selection algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Naive Selection algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Naive Selection problem definition
+  status: recorded
+- method: search_plan
+  query: Naive Selection site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Naive Selection algorithm wiki
+  status: recorded
+- method: search_plan
+  query: '-'
+  status: recorded
+extracted_problem_statement: 'Naive Selection is treated as a classical sorting task for rich AlgorithmWiki discovery. Problem/task: sort the input sequence using the named classical sorting method. Input semantics: A finite array or list of comparable keys or records. Output semantics: The selected order statistic or item of requested rank.'
+extracted_algorithm_summary: 'Naive Selection is a sorting algorithm record. Classical complexity metadata: time O(n \log n); space O(1). The stated classical model is Word RAM. Public metadata/source text adds: Naive Selection unknown unknown n: size of list O(n \log n) No public-ready summary is available because the row lacks enough task semantics.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

@@ -1,0 +1,58 @@
+algorithm_family: unknown
+algorithm_id: AW-000086
+approximate: '0'
+approximation_factor: ''
+blind_name: Algorithm Wiki public task AW-000086
+canonical_name: "Nicholl\u2013Lee\u2013Nicholl"
+computational_model: Word/Real RAM
+domain: unknown
+extracted_description: ''
+extraction_version: algorithm-wiki-rich-context-v1
+family: unknown
+inferred_access_model: adjacency_list_query
+inferred_ambiguities:
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.
+inferred_input_model: explicit_graph_problem
+inferred_output_contract: path_or_tree
+inferred_problem_statement: "Nicholl\u2013Lee\u2013Nicholl is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Nicholl\u2013Lee\u2013Nicholl. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result."
+inferred_promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+inferred_size_parameters:
+- 'Parameter definition: n: number of lines'
+number_of_processors: ''
+page_digest: ''
+page_fetch_status: not_found
+page_url: ''
+parameter_definitions: 'n: number of lines'
+problem_name: unknown
+quality_flags:
+- has_complexity_semantics
+- has_size_parameters
+- has_computational_model
+quality_score: 70
+randomized: '0'
+readiness: READY_PUBLIC_CONTEXT
+review_reasons:
+- missing_problem_statement
+- unknown_input_model
+- unknown_access_model
+- unknown_output_contract
+- insufficient_algorithm_level_structure
+source_link: https://dl.acm.org/doi/10.1145/37401.37432
+source_link_type: acm
+space_complexity: O(1)
+span_depth: ''
+time_complexity: O(n)
+variation: ''
+work: ''
+year: '1987'
+rich_card_kind: context
+source_records_used:
+- AW-000086:algorithm_wiki_metadata
+- crossref:cf1a49fcc635e7b9
+- failed:fd8b688edd0067d4
+source_count: 3
+source_quality: HIGH
+confidence_score: 70
+card_digest: 5fc7e33e9be46773

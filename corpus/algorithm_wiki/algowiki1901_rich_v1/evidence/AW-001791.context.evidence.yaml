@@ -1,0 +1,58 @@
+id: AW-001791
+kind: context
+algorithm_id: AW-001791
+algorithm_name: Lee, Park, Park
+source_records:
+- access_status: metadata_only
+  digest: 4acce59c99925493
+  extracted_facts:
+  - 'AlgorithmWiki row name: Lee, Park, Park'
+  - 'domain: parallel_algorithms'
+  - 'time complexity: O((n/p)^2 + (n/p) \log p)'
+  - 'computational model: CREW PRAM (TRAM)'
+  - 'parameter definitions: n: number of points, p: number of processors'
+  - 'precard summary: Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model. Baseline: time O((n/p)^2 + (n/p) \log p); work O(n^2); span/depth O(log n); processors p. Bottleneck: work, span, communication, and processor-count assumptions dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001791:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Lee, Park, Park
+  url: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=574023
+- access_status: skipped
+  digest: 7e02b689741eeead
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:0205a95cef0ba467
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=574023
+web_query_attempts:
+- method: search_plan
+  query: Lee, Park, Park algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Lee, Park, Park algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Lee, Park, Park problem definition
+  status: recorded
+- method: search_plan
+  query: Lee, Park, Park parallel algorithms algorithm
+  status: recorded
+- method: search_plan
+  query: Lee, Park, Park site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Lee, Park, Park algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=574023
+  status: recorded
+- method: source_link_html_metadata
+  query: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=574023
+  status: skipped
+extracted_problem_statement: 'Lee, Park, Park is treated as a classical parallel algorithms task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Lee, Park, Park. Input semantics: The classical input instance named by the row, together with processor/work/span parameters when stated. Output semantics: The same mathematical output as the underlying classical task, annotated by work/span when available.'
+extracted_algorithm_summary: 'Lee, Park, Park is a parallel algorithms algorithm record. Classical complexity metadata: time O((n/p)^2 + (n/p) \log p); work O(n^2); span/depth O(log n); processors p. The stated classical model is CREW PRAM (TRAM). Public metadata/source text adds: Lee, Park, Park parallel_algorithms parallel_algorithms n: number of points, p: number of processors O((n/p)^2 + (n/p) \log p) Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

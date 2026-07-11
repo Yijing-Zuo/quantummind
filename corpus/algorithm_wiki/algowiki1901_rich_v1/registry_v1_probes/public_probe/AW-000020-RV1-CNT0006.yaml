@@ -1,0 +1,17 @@
+statement: 'Grigoryan registry-v1 approximate counting probe. This is a query-model approximate marked-set counting subroutine probe, not an end-to-end claim for the original algorithm. The represented task is to estimate the number or fraction of marked items in a finite search space using coherent Boolean predicate access introduced only for this probe. Source-backed parent context: A finite combinatorial object, integer set, board, recurrence, or witness-search instance. A count, witness, construction, ordering, subset, cycle, or other finite combinatorial output. dominant bottleneck remains uncertain from the available public source metadata. Grigoryan search_witness_probe Grigoryan search-witness probe. This is a subroutine/query-model probe, not an end-to-end claim for the original algorithm. The probe asks whether a predicate over candidates can expose one valid witness, counterexample, path element, pattern occurrence, or feasible object. Original input context: A finite combinatorial
+  object, integer set, board, recurrence, or witness-search instance. Original out It does not output all marked items, an exact full list, or a full enumeration. Precision dependence, predicate construction, and data-loading cost remain expert obligations; the full original algorithm speedup is not claimed.'
+input_model: marked_set_counting_problem
+access_model: coherent_boolean_oracle
+output_contract: additive_count_estimate
+promises:
+- finite_search_space
+- coherent_boolean_oracle_available
+- count_precision_specified
+- oracle_model_assumption
+size_parameters:
+- 'Parameter definition: n: dimension of board, k: number of queens'
+- 'N, epsilon: finite search-space size and requested count-estimation precision.'
+ambiguities:
+- This is an assumption-bearing query/subroutine probe and is not an end-to-end speedup claim.
+- The marked-set predicate, finite search space, and count precision are introduced assumptions.
+- The parent task may require outputting marked objects or exact enumeration outside this probe.

@@ -1,0 +1,71 @@
+id: AW-000262
+kind: context
+algorithm_id: AW-000262
+algorithm_name: "Covanov and Thom\xE9"
+source_records:
+- access_status: metadata_only
+  digest: 1bb3acceb33c376a
+  extracted_facts:
+  - "AlgorithmWiki row name: Covanov and Thom\xE9"
+  - 'domain: unknown'
+  - 'time complexity: O(n \log n 2^{3 \log^*n})'
+  - 'space complexity: O(n) auxiliary'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: length of one of the integers, in bits'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000262:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: "AlgorithmWiki metadata for Covanov and Thom\xE9"
+  url: https://arxiv.org/abs/1502.02800
+- access_status: fetched
+  digest: 7dcd1eccc1302d4b
+  extracted_facts:
+  - 'arXiv title: Fast integer multiplication using generalized Fermat primes'
+  - "abstract summary: For almost 35 years, Sch{\xF6}nhage-Strassen's algorithm has been the fastest algorithm known for multiplying integers, with a time complexity O(n $\\times$ log n $\\times$ log log n) for multiplying n-bit inputs."
+  reliability: HIGH
+  short_quote: "For almost 35 years, Sch{\xF6}nhage-Strassen's algorithm has been the fastest algorithm known for multiplying integers, with a time complexity O(n $\\times$ log n $\\times$"
+  source_id: arxiv:1502.02800
+  source_type: arxiv_abstract
+  title: Fast integer multiplication using generalized Fermat primes
+  url: https://arxiv.org/abs/1502.02800
+- access_status: fetched
+  digest: d0018c54bb0926ec
+  extracted_facts:
+  - 'source page title: [1502.02800] Fast integer multiplication using generalized Fermat primes'
+  - 'source page description: Abstract page for arXiv paper 1502.02800: Fast integer multiplication using generalized Fermat primes'
+  reliability: HIGH
+  short_quote: 'Abstract page for arXiv paper 1502.02800: Fast integer multiplication using generalized Fermat primes'
+  source_id: source:e66669a2534303d8
+  source_type: arxiv_abstract
+  title: '[1502.02800] Fast integer multiplication using generalized Fermat primes'
+  url: https://arxiv.org/abs/1502.02800
+web_query_attempts:
+- method: search_plan
+  query: "Covanov and Thom\xE9 algorithm input output complexity"
+  status: recorded
+- method: search_plan
+  query: "Covanov and Thom\xE9 algorithm pseudocode"
+  status: recorded
+- method: search_plan
+  query: "Covanov and Thom\xE9 problem definition"
+  status: recorded
+- method: search_plan
+  query: "Covanov and Thom\xE9 site:nist.gov DADS"
+  status: recorded
+- method: search_plan
+  query: "Covanov and Thom\xE9 algorithm wiki"
+  status: recorded
+- method: search_plan
+  query: https://arxiv.org/abs/1502.02800
+  status: recorded
+- method: arxiv_abstract_metadata
+  query: '1502.02800'
+  status: fetched
+- method: source_link_html_metadata
+  query: https://arxiv.org/abs/1502.02800
+  status: fetched
+extracted_problem_statement: "Covanov and Thom\xE9 is treated as a classical matrix linear algebra task for rich AlgorithmWiki discovery. Problem/task: multiply matrices using the named bilinear or algebraic multiplication method. Input semantics: One or more explicit matrices or linear systems over the stated arithmetic domain. Output semantics: The matrix product or bilinear multiplication output."
+extracted_algorithm_summary: "Covanov and Thom\xE9 is a matrix linear algebra algorithm record. Classical complexity metadata: time O(n \\log n 2^{3 \\log^*n}); space O(n) auxiliary. The stated classical model is Word RAM. Public metadata/source text adds: Covanov and Thom\xE9 unknown unknown n: length of one of the integers, in bits O(n \\log n 2^{3 \\log^*n}) No public-ready summary is available because the row lacks enough task semantics."
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

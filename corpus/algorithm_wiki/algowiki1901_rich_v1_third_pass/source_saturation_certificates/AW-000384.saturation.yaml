@@ -1,0 +1,287 @@
+algorithm_id: AW-000384
+canonical_name: Bertsekas & Castanon 1999
+original_source_link: ''
+source_link_type: unknown
+previous_failure_reasons:
+- No second-pass rule could identify source-backed task semantics.
+previous_source_records:
+- access_status: metadata_only
+  digest: 06ac676357819179
+  extracted_facts:
+  - 'AlgorithmWiki row name: Bertsekas & Castanon 1999'
+  - 'domain: unknown'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000384:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Bertsekas & Castanon 1999
+  url: ''
+- access_status: fetched
+  digest: 05c24ad32704986d
+  extracted_facts:
+  - 'Crossref title-search result: Evaluation of the Jonker-Volgenant-Castanon (JVC) assignment algorithm for track association'
+  reliability: MEDIUM
+  short_quote: ''
+  source_id: crossref_search:e7b3f0d4ea380d25
+  source_type: doi_metadata
+  title: Evaluation of the Jonker-Volgenant-Castanon (JVC) assignment algorithm for track association
+  url: https://doi.org/10.1117/12.280801
+aliases_tried:
+- Bertsekas & Castanon 1999
+- Bertsekas & Castanon
+- Bertsekas & Castanon 1999 algorithm
+- Bertsekas & Castanon 1999 problem
+- Bertsekas & Castanon 1999 pseudocode
+- Bertsekas & Castanon 1999 time complexity
+- Evaluation of the Jonker-Volgenant-Castanon (JVC) assignment algorithm for track association
+- Evaluation of the Jonker-Volgenant-Castanon (JVC) assignment algorithm for track association algorithm
+- Evaluation of the Jonker-Volgenant-Castanon (JVC) assignment algorithm for track association complexity
+query_plan:
+- source_family: original_source
+  primary_query: Bertsekas & Castanon 1999
+  applicability: applicable
+  purpose: check the row's original source link without storing paywalled or PDF bodies
+- source_family: crossref
+  primary_query: Bertsekas & Castanon 1999
+  applicability: title-search-only
+  purpose: recover DOI title, venue, year, and abstract metadata where available
+- source_family: openalex
+  primary_query: Bertsekas & Castanon 1999
+  applicability: applicable
+  purpose: recover public work metadata and abstract-inverted-index summaries
+- source_family: semantic_scholar
+  primary_query: Bertsekas & Castanon 1999
+  applicability: applicable
+  purpose: recover CS paper metadata and abstracts without an API key
+- source_family: arxiv
+  primary_query: Bertsekas & Castanon 1999
+  applicability: title-search-only
+  purpose: recover arXiv title and abstract metadata
+- source_family: dblp
+  primary_query: Bertsekas & Castanon 1999
+  applicability: applicable
+  purpose: recover bibliographic title/venue metadata for CS publications
+- source_family: publisher_abstract
+  primary_query: Bertsekas & Castanon 1999
+  applicability: applicable
+  purpose: check accessible publisher abstract pages
+- source_family: citeseerx
+  primary_query: Bertsekas & Castanon 1999
+  applicability: applicable
+  purpose: record legacy CiteSeerX availability without full PDF storage
+- source_family: wikipedia
+  primary_query: Bertsekas & Castanon 1999
+  applicability: applicable
+  purpose: check public encyclopedia algorithm descriptions
+- source_family: wikidata
+  primary_query: Bertsekas & Castanon 1999
+  applicability: applicable
+  purpose: check public entity aliases/descriptions
+- source_family: nist_dads
+  primary_query: Bertsekas & Castanon 1999
+  applicability: applicable
+  purpose: check whether a DADS-style reference search is applicable
+- source_family: algorithm_wiki_local
+  primary_query: Bertsekas & Castanon 1999
+  applicability: applicable
+  purpose: reuse AlgorithmWiki metadata as provenance
+- source_family: the_algorithms
+  primary_query: Bertsekas & Castanon 1999
+  applicability: applicable
+  purpose: check exact public implementation/reference names when available
+- source_family: cp_algorithms
+  primary_query: Bertsekas & Castanon 1999
+  applicability: applicable
+  purpose: check exact public algorithm reference names when available
+- source_family: course_notes
+  primary_query: Bertsekas & Castanon 1999
+  applicability: applicable
+  purpose: record absence of configured course-notes search
+- source_family: general_web_search
+  primary_query: Bertsekas & Castanon 1999
+  applicability: applicable
+  purpose: record absence of a configured general web endpoint
+- source_family: local_previous_cache
+  primary_query: Bertsekas & Castanon 1999
+  applicability: applicable
+  purpose: reuse v1/second-pass fetched source records
+query_attempts:
+- &id001
+  cycle: 1
+  query: Bertsekas & Castanon 1999
+  source_family: algorithm_wiki_local
+  url_or_api_endpoint: ''
+  status: fetched
+  new_facts_added: 4
+  reason: local metadata
+- &id002
+  cycle: 1
+  query: Bertsekas & Castanon 1999
+  source_family: local_previous_cache
+  url_or_api_endpoint: ''
+  status: duplicate
+  new_facts_added: 0
+  reason: previous v1/second-pass sources reused
+- &id003
+  cycle: 1
+  query: Bertsekas & Castanon 1999
+  source_family: original_source
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: no original source link
+- &id004
+  cycle: 1
+  query: Bertsekas & Castanon 1999
+  source_family: crossref
+  url_or_api_endpoint: https://doi.org/10.1002/(sici)1097-0037(199703)29:2<111::aid-net5>3.0.co;2-m
+  status: irrelevant
+  new_facts_added: 0
+  reason: Crossref metadata/title search
+- &id005
+  cycle: 1
+  query: Bertsekas & Castanon 1999
+  source_family: arxiv
+  url_or_api_endpoint: https://export.arxiv.org/api/query?max_results=1&search_query=ti:%22Bertsekas+%26+Castanon+1999%22
+  status: no_result
+  new_facts_added: 0
+  reason: arXiv title search returned no usable entry
+- &id006
+  cycle: 1
+  query: Bertsekas & Castanon 1999
+  source_family: wikipedia
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: Wikipedia search returned no relevant page
+source_attempts:
+- *id001
+- *id002
+- *id003
+- *id004
+- *id005
+- *id006
+discovered_sources:
+- source_id: crossref_search:65f0989640e7a499
+  url: https://doi.org/10.1002/(sici)1097-0037(199703)29:2<111::aid-net5>3.0.co;2-m
+  title: A note on Bertsekas' small-label-first strategy
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title: A note on Bertsekas'' small-label-first strategy'
+  - 'published year: 1997'
+  - 'container title: Networks'
+  short_quote: 'Crossref title: A note on Bertsekas'' small-label-first strategy published year: 1997 container title: Networks'
+  digest: 88dd13f6d3b97d45
+discovered_facts:
+- fact_id: AW-000384-F7c1686de94
+  fact_type: alias
+  value: Bertsekas & Castanon 1999
+  source_id: AW-000384:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: AlgorithmWiki metadata
+- fact_id: AW-000384-F26c4018b1d
+  fact_type: source_title
+  value: AlgorithmWiki metadata for Bertsekas & Castanon 1999
+  source_id: AW-000384:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000384-Ffc0a4071a1
+  fact_type: problem_definition
+  value: 'Source title indicates: AlgorithmWiki metadata for Bertsekas & Castanon 1999'
+  source_id: AW-000384:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: weak
+  notes: previous_source_record
+- fact_id: AW-000384-Fec25edd243
+  fact_type: problem_definition
+  value: 'AlgorithmWiki row name: Bertsekas & Castanon 1999'
+  source_id: AW-000384:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000384-Fd03f2bac78
+  fact_type: problem_definition
+  value: 'domain: unknown'
+  source_id: AW-000384:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000384-F7fc64c3a8b
+  fact_type: problem_definition
+  value: 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  source_id: AW-000384:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000384-F18f80b129c
+  fact_type: source_title
+  value: Evaluation of the Jonker-Volgenant-Castanon (JVC) assignment algorithm for track association
+  source_id: crossref_search:e7b3f0d4ea380d25
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000384-F4e9482f816
+  fact_type: problem_definition
+  value: 'Source title indicates: Evaluation of the Jonker-Volgenant-Castanon (JVC) assignment algorithm for track association'
+  source_id: crossref_search:e7b3f0d4ea380d25
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: weak
+  notes: previous_source_record
+- fact_id: AW-000384-Fdf63bd69ed
+  fact_type: problem_definition
+  value: 'Crossref title-search result: Evaluation of the Jonker-Volgenant-Castanon (JVC) assignment algorithm for track association'
+  source_id: crossref_search:e7b3f0d4ea380d25
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000384-Fa292caefa7
+  fact_type: authoritative_source_link
+  value: https://doi.org/10.1117/12.280801
+  source_id: crossref_search:e7b3f0d4ea380d25
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: consistent
+  notes: previous_source_record
+duplicate_sources:
+- source_id: AW-000384:algorithm_wiki_metadata
+  url: ''
+  title: AlgorithmWiki metadata for Bertsekas & Castanon 1999
+  source_type: algorithm_wiki
+  access_status: metadata_only
+  reliability: HIGH
+  extracted_facts:
+  - 'AlgorithmWiki row name: Bertsekas & Castanon 1999'
+  - 'domain: unknown'
+  short_quote: ''
+  digest: dd2b0fb2211f4cc6
+failed_sources: []
+paywalled_or_skipped_sources: []
+source_families_covered:
+- algorithm_wiki_local
+- local_previous_cache
+- original_source
+- crossref
+- arxiv
+- wikipedia
+cycles_completed: 1
+new_fact_count_by_cycle:
+- cycle: 1
+  new_facts: 0
+no_new_fact_streak: 0
+saturation_status: RECOVERED_CONTEXT_AND_PROBE
+final_reason: Source-saturation pass found enough task, input, output, and access semantics for a context card.
+next_manual_action: Audit recovered card before any optional live analyze run.

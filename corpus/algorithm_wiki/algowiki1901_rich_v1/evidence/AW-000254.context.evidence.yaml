@@ -1,0 +1,49 @@
+id: AW-000254
+kind: context
+algorithm_id: AW-000254
+algorithm_name: Tuned Boyer-Moore algorithm
+source_records:
+- access_status: metadata_only
+  digest: 2fd2e4a842a2bedb
+  extracted_facts:
+  - 'AlgorithmWiki row name: Tuned Boyer-Moore algorithm'
+  - 'domain: string'
+  - 'time complexity: O(mn)'
+  - 'space complexity: O(m + s)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: m: pattern length, n: length of searchable text, s: size of the alphabet'
+  - 'precard summary: Given one or more explicit strings, compute the matching, indexing, alignment, or transformation output targeted by the record. Baseline: time O(mn); space O(m + s). Bottleneck: string scanning, preprocessing tables, and reporting matches dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000254:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Tuned Boyer-Moore algorithm
+  url: https://citeseerx.ist.psu.edu/pdf/d9912ea262986794e29e3f15e5f8930d42f2ced4
+web_query_attempts:
+- method: search_plan
+  query: Tuned Boyer-Moore algorithm algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Tuned Boyer-Moore algorithm algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Tuned Boyer-Moore algorithm problem definition
+  status: recorded
+- method: search_plan
+  query: Tuned Boyer-Moore algorithm string algorithm
+  status: recorded
+- method: search_plan
+  query: Tuned Boyer-Moore algorithm site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Tuned Boyer-Moore algorithm algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://citeseerx.ist.psu.edu/pdf/d9912ea262986794e29e3f15e5f8930d42f2ced4
+  status: recorded
+- method: wikipedia_summary_search
+  query: Tuned Boyer-Moore algorithm algorithm
+  status: failed_or_not_relevant
+extracted_problem_statement: 'Tuned Boyer-Moore algorithm is treated as a classical string task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Tuned Boyer-Moore algorithm. Input semantics: One or more finite strings, sequences, patterns, or alphabets. Output semantics: Pattern occurrence positions, matches, or the associated string-search report.'
+extracted_algorithm_summary: 'Tuned Boyer-Moore algorithm is a string algorithm record. Classical complexity metadata: time O(mn); space O(m + s). The stated classical model is Word RAM. Public metadata/source text adds: Tuned Boyer-Moore algorithm string string m: pattern length, n: length of searchable text, s: size of the alphabet O(mn) Given one or more explicit strings, compute the matching, indexing, alignment, or transformation output targeted by the record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

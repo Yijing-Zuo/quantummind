@@ -1,0 +1,377 @@
+algorithm_id,algorithm_name,reconstruction_decision,review_reasons,confidence_score
+AW-000002,Karpinski,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,25
+AW-000004,Larmore,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,25
+AW-000009,Klinz,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,25
+AW-000015,"Lawrence, Reilly",STILL_REVIEW_NEEDED,public_leakage_term_in_name_or_statement,85
+AW-000100,Psinger,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000133,UKF,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000134,Compressed Extended KF,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000174,Harrow (Quantum),STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,80
+AW-000237,Williams' p + 1 algorithm,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000261,Covanov and Thomé,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000263,Harvey Hoeven Lecerf,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000284,A. Chalmers T. Davis and E. Reinhard 2002,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,15
+AW-000287,J. J. Koenderink and W. Richards 1988,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,15
+AW-000288,Lindeberg (1994),STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,15
+AW-000292,T. Lindeberg and J. Garding (1997),STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,15
+AW-000293,Lindeberg 2005,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,15
+AW-000294,The Wang and Brady corner detection algorithm 1995,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,15
+AW-000298,Geert Willems Tinne Tuytelaars and Luc van Gool (2008),STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,15
+AW-000299,"Tao Luo, Zaifeng Shi and Pumeng Wang",STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,15
+AW-000300,T. Lindeberg DoG 2012,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,15
+AW-000301,T. Lindeberg DoG 2015,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,15
+AW-000303,Hessain Determinant Lindeberg 1994,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,15
+AW-000304,Hessain Determinant Lindeberg 1998,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,15
+AW-000307,Spatio-temporal Geert Willems Tinne Tuytelaars and Luc van Gool (2008),STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,15
+AW-000309,Maximally stable extremal regions Matas 2002,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,15
+AW-000310,A. Baumberg. 2000,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,15
+AW-000311,Y. Dufournaud C. Schmid and R. Horaud 2000,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,15
+AW-000313,T. Tuytelaars and L. Van Gool 2000,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,15
+AW-000319,CNN Based Gatys Leon A 2001,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,15
+AW-000320,P.Hanrahan and W.Krueger 1993,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,15
+AW-000321,H.W.Jensen 2001,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,15
+AW-000324,"Nakamae E. Kaneda K. Okamoto T. and, Nishita 1990",STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,15
+AW-000325,Cabral B. Max N. and Springmeyer R 1990,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,15
+AW-000330,Ward anisotropic,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,15
+AW-000331,Hanrahan–Krueger,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,15
+AW-000332,Linda G. Shapiro and George C. Stockman (2001),STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,15
+AW-000333,Recursive Region Splitting,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,15
+AW-000334,Barghout Lauren Visual Taxometric approach,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,15
+AW-000335,Dual clustering - Guberman,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,15
+AW-000337,Kass Witkin and Terzopoulos,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,15
+AW-000342,Iterated conditional modes algorithm,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,15
+AW-000345,Florack and Kuijper,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,15
+AW-000346,Bijaoui and Rué,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,15
+AW-000347,Multi-scale MAP estimation - A. Bouman and M. Shapiro (2002),STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,15
+AW-000351,Coplanar facets merging - M.J. De Haemer and M.J. Zyda 1991,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,0
+AW-000352,Coplanar facets merging - Hinker P. and Hansen C. 1993,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,0
+AW-000353,Coplanar facets merging - Kalvin A. D. Cutting C. B. Haddad B. and Noz M. E. 1991,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,0
+AW-000354,Coplanar facets merging - A.D. Kalvin and R.H. Taylor 1996,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,0
+AW-000355,Controlled vertex/edge/face decimation - M.E. Algorri and F. Schmitt 1996,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,0
+AW-000356,Controlled vertex/edge/face decimation - Guéziec 1996,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,0
+AW-000357,Controlled vertex/edge/face decimation - R. Ronfard and J. Rossignac 1996,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,0
+AW-000358,Controlled vertex/edge/face decimation - Hamann 1994,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,0
+AW-000359,Controlled vertex/edge/face decimation - Cohen J. Varshney A 1996,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,0
+AW-000360,Re-tiling - Turk G 1992,STILL_REVIEW_NEEDED,source-backed I/O reconstruction is still insufficient,50
+AW-000361,Vertex clustering - Rossignac J. and Borrel P. 1993,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,0
+AW-000362,Vertex clustering - Low K. L. and Tan T. S 1997,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,0
+AW-000363,Vertex clustering - Reddy 1996,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,0
+AW-000364,Vertex clustering - Hoppe H. DeRose T. 1993,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,0
+AW-000365,Vertex clustering - Rossignac J. and Borrel P. 1997,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,0
+AW-000366,Wavelet-based - M.H. Gross O.G. Staadt and R. Gatti 1996,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,0
+AW-000367,Wavelet-based - D.J. Hebert and H-J. Kim 1995,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,0
+AW-000368,Wavelet-based - Certain A. Popovic J. 1996,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,0
+AW-000369,Wavelet-based - Eck M. DeRose T. 1995,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,0
+AW-000370,Simplification via intermediate hierarchical rep-resentation - Andujar 1996,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,0
+AW-000371,Simplification via intermediate hierarchical rep-resentation - He T. Hong L. Kaufman 1995,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,0
+AW-000372,Simplification via intermediate hierarchical rep-resentation - He T. Hong 1996,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,0
+AW-000373,Hauskrecht 2000,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,0
+AW-000374,Pineau Gordon & Thrun 2003,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,0
+AW-000375,Braziunas & Boutilier 2004,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,0
+AW-000376,Poupart 2005,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,0
+AW-000377,Smith & Simmons 2005,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,0
+AW-000378,Spaan & Vlassis 2005,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,0
+AW-000379,Satia & Lave 1973,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,0
+AW-000380,Washington 1997,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,0
+AW-000381,BartoBradtke & Singhe 1995,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,0
+AW-000382,Paquet Tobin & Chaib-draa 2005,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,0
+AW-000383,McAllester & Singh 1999,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,0
+AW-000384,Bertsekas & Castanon 1999,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,0
+AW-000385,Shani Brafman & Shimony 2005,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,0
+AW-000388,Blinn and Newell,STILL_REVIEW_NEEDED,missing_size_parameters,65
+AW-000389,Nate Green,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,15
+AW-000390,Sphere mapping,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,15
+AW-000391,Heidrich W. and H.-P. Seidel,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,15
+AW-000392,Emil Praun,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,15
+AW-000393,Mauro Steigleder,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,15
+AW-000394,HEALPix mapping Wong,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,15
+AW-000395,Maximum a Posteriori Occupancy Mapping,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,15
+AW-000397,srba,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000417,Schöning,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,15
+AW-000418,Hirsch,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,15
+AW-000419,Johnson,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,15
+AW-000420,Alon and Kahale,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,15
+AW-000423,General number field sieve,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000437,Nested loop join,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000439,Hash join,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000462,Sattolo's algorithm,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000463,Buchberger's algorithm,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000468,Steinhaus–Johnson–Trotter algorithm,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000469,Tompkins–Paige algorithm,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000477,Levcopoulos Lingas Sack,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000486,Naive algorithm,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000487,Cooley–Tukey algorithm,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000488,Rader–Brenner algorithm,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000489,Bruun's FFT algorithm,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000495,Wang-Zhu-Cantor additive FFT,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000496,Gao’s additive FFT,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000533,False position method,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000535,Secant method,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000536,Ridder's method,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000537,Muller's method,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000538,Todd–Coxeter algorithm,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000539,Haselgrove-Leech-Trotter (HLT) algorithm,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000541,Expectation–maximization (EM) algorithm,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000543,Parameter-expanded expectation maximization (PX-EM) algorithm,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000545,Generalized expectation maximization (GEM) algorithm,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000546,α-EM algorithm,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000547,Naive solution,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000548,Flajolet–Martin algorithm,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000549,LogLog algorithm,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000553,Chow's Algorithm,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000554,"Linear Scan, Poletto & Sarkar",STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000555,"Optimal Register Allocation (ORA), Goodwin & Wilken Algorithm",STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,25
+AW-000556,Kong and Wilken Algorithm,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,25
+AW-000559,Naïve algorithm,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000560,Two-pass algorithm,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000561,Welford's Online algorithm,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000562,Weighted incremental algorithm,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000593,5-point star Cramer's rule,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000594,5-point Gauss elimination,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000595,5-point Gauss Seidel iteration,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000596,5-point SOR iteration,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000597,5-point ADI iteration,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000598,9-point SOR iteration,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000599,9-point Tensor product,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000600,9-point ADI iteration,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000601,5-point FFT,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000602,5-point FFT,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000603,5-point FFT,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000604,5-point FFT,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000605,5-point star Cramer's rule,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000606,5-point Gauss elimination,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000607,5-point Gauss Seidel iteration,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000608,5-point SOR iteration,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000609,5-point ADI iteration,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000610,9-point SOR iteration,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000611,9-point Tensor product,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000612,9-point ADI iteration,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000613,5-point FFT,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000614,9-point ADI iteration + smooth guess,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000615,5-point cyclic reduction,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000616,9-point FFT,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000631,Naive algorithm,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000632,Brute force algorithm,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000633,Schlimmer,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000634,Liu,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000635,Tradu Mirc,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,25
+AW-000636,Xu Renio,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,25
+AW-000637,Xu Renio,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,25
+AW-000638,Xu Renio,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,25
+AW-000639,Xu Renio,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,25
+AW-000640,Xu Renio,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,25
+AW-000641,Xu Renio,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,25
+AW-000642,Xu Renio,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,25
+AW-000643,Räihä Manilla,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000644,Catriel Beeri Ronald Fagin John H. Howard,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,25
+AW-000645,FCFS,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000647,SCAN,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000648,LOOK,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000649,C-SCAN,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000650,C-LOOK,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000665,A-Priori algorithm,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000666,The Algorithm of Park Chen and Yu (PCY),STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000667,The Multistage Algorithm,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000668,The Multihash Algorithm,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000670,Discrete Cosine Transform,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000671,Maneva and M. J. Wainwright,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000672,Ciliberti Mézard,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000674,Matsunaga Yamamoto,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000675,Sun M. Shao J. Chen K. Wong and X. Wu,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000676,Miyake 2006,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000678,Jalali and T. Weissman,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000679,Jalali A. Montanari and T. Weissman,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000680,Korada and R. Urbanke,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000681,Schubert's algorithm/Kronecker's method,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000682,Berlekamp–Massey algorithm,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000683,Gale–Shapley algorithm,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000684,Irving's Algorithm,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000685,Manlove Malley,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000686,Unsworth C. Prosser P,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000687,Gent I.P. Irving R.W. Manlove D.F. Prosser P. Smith B.M.,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000688,Patrick Posser,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000689,S. S. TSENG and R. C. T. LEE,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000690,"Tomas Feder, Nimrod Megiddoy, Serge A Plotki",STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000701,Fellegi & Sunter Model,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000702,Gupta & Sarawagi CRF,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000703,Chen Ensembles of classifiers,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000704,EM Based Winkler,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000707,Ananthakrishna,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000714,Demand-Driven Register Allocation,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000718,Kleitman–Wang Algorithm,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000723,BST Algorithm,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000735,FLOATER 1997,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,15
+AW-000736,PINKALL U. POLTHIER K 1993,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,15
+AW-000737,FLOATER 2003,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,15
+AW-000738,LEE Y. KIM H. S. LEE S 2002,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,15
+AW-000742,HORMANN K. GREINER G 1999,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,15
+AW-000745,ZAYER R. LÉVY B. SEIDEL H.-P. 2007,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,15
+AW-000747,YAN J. Q. YANG X. SHI P. F 2006,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,15
+AW-000748,ZAYER R. ROESSL C. SEIDEL H.-P 2005,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,15
+AW-000749,YOSHIZAWA S. BELYAEV A. G. SEIDEL H.-P 2004,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,15
+AW-000751,YANG Y. KIM J. LUO F. HU S. GU X. 2008,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,15
+AW-000752,BEN-CHEN M. GOTSMAN C. BUNIN G. 2008,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,15
+AW-000754,Expectation-Maximization (EM) algorithm,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000756,Parameter-expanded expectation maximization (PX-EM),STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000757,Expectation conditional maximization (ECM),STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000758,Expectation conditional maximization either (ECME) (Liu Chuanhai Rubin Donald B),STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000759,α-EM Algorithm,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000760,Shaban Amirreza Mehrdad Farajtabar,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000766,Stratonovich,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,25
+AW-000767,Stratonovich,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,25
+AW-000777,"Vazirani (ILP, chapters 13-15)",STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000778,"Vazirani (ILP, chapters 13-15)",STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000784,The INDEGREE Algorithm,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000785,The PAGERANK Algorithm,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000787,The (Stochastic Approach for Link Structure Analysis) SALSA Algorithm,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000789,PHITS Coheng Chan,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000790,Haveliwala,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000791,Jeh and Widom,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000792,Richardson and Domingos,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000793,Tomlin,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000794,Achlioptas,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000796,Chubby (Mike Burrows),STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,25
+AW-000797,Tushar Deepak Chandra and Sam Toueg,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,15
+AW-000799,Branch and bound,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000823,Trial Multiplication,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000824,Baby-step Giant-step,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000825,Function Field Sieve (FFS),STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,25
+AW-000826,Number Field Sieve (NFS),STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,25
+AW-000827,Pohlig-Hellman,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000828,Pollard's rho algorithm,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000829,Pollard's kangaroo algorithm,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000846,Iteration based,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000847,Recursion based,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000848,Non-recursion based,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000860,Shamir's scheme,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000861,Blakley's scheme,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000863,Regula Falsi method,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000864,Secant method,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000875,Euclid's algorithm,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000878,"Sthele, Zimmermann",STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000879,Brute force algorithm,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000883,Fixed priority shortest job first,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000885,Shortest remaining time first,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000886,"First come, first served",STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000890,The theoretically optimal page replacement algorithm,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000891,Not recently used,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000892,"First-in, first-out",STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000893,Second-chance,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000894,Clock,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000895,Least recently used,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000896,Random,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000897,Not frequently used (NFU),STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000898,Aging,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000899,Longest distance first (LDF) page replacement algorithm,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000900,ARIES,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000901,Output-Sensitive Quantum BMM,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,80
+AW-000902,,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000903,O'Neil 1973,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,25
+AW-000907,Chan,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000908,Chan,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000909,Yu,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000939,Davis-Putnam-Logemann-Loveland Algorithm (DPLL),STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,25
+AW-000940,Conflict-Driven Clause Learning (CDCL),STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,25
+AW-000943,Quantum Adiabatic Algorithm (QAA),STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000944,Lewis 1978,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,25
+AW-000945,"Paturi, Pudlák, Saks, Zane (PPSZ) 2005",STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000946,Hertli (Modified PPSZ),STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000947,Hertli (Modified PPSZ),STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000952,Wells,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000953,Langdon,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000955,Ives' algorithm c,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000957,Illinois Algorithm,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000958,Anderson–Björck algorithm,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000959,ITP Method,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000960,Steffensen's method,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000961,Inverse quadratic interpolation,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000962,Brent-Dekker Method,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000975,"Gronlund, Pettie",STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000976,"Gronlund, Pettie",STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000977,Freund,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000978,Chan,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000985,Exhaustive search,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000986,"Abboud, Williams, Yu",STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000987,"Reduction to Abboud, Williams, Yu",STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000988,"Chan, Williams",STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-000989,"Reduction to Chan, Williams",STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-001010,Grahne and Räihä,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-001011,Lien,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-001012,Sciore,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-001013,Fagin,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-001014,Takaoka,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,0
+AW-001015,Chan,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,0
+AW-001016,"Fischer, Heun",STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,15
+AW-001017,"Nuutila, Soisalon-Soininen",STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,0
+AW-001018,"Buhler, Lenstra, Pomerance",STILL_REVIEW_NEEDED,source-backed I/O reconstruction is still insufficient,60
+AW-001019,"Pomerance, Wagstaff",STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,0
+AW-001020,Fredman,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,15
+AW-001021,Takaoka,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,15
+AW-001023,Chan,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,0
+AW-001024,"Galil, Margalit",STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,0
+AW-001025,"Kose, Weckwerth, Linke, Fiehn",STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,0
+AW-001026,Mongelli et. al.,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,50
+AW-001040,Preperata (1),STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-001041,Preperata (2),STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-001047,Nassimi and Sahni,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-001064,Akl,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-001099,"Saxena, Bhatt, Prasad",STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-001131,"Dey, Srimani",STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-001136,Tang,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,0
+AW-001174,"Tianzhen, Zhou, Xiozhen",STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-001201,"Olariu, Schwing",STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-001226,Cerin,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,55
+AW-001246,"Siebert, Wolf",STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-001257,"Bosakova-Ardenska, Vasilev, Kostadinova-Georgieva",STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,5
+AW-001260,"SPMS - Cole, Ramachandran",STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-001265,"Kim, Choi, Bae",STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,15
+AW-001282,"2mm - Mubarak, Iqbal, Naeem, Hussain",STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,0
+AW-001290,Akl,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-001312,"Galper, Brutlag (synchronous Row Wavefront approach) (1)",STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-001313,"Galper, Brutlag (asynchronous Row Wavefront approach) (also asynch DWF) (2)",STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-001314,"Galper, Brutlag (synchronous Diagonal Wavefront approach) (3)",STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-001316,Tiskin,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-001349,"Agarwal, Gustavson, Zubair",STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-001350,"Agarwal, Bale, Gustavson, Joshi, Palkar (P_GEMM, Classical 3D)",STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-001351,"Solomonik, Demmel (Classical 2.5D)",STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-001355,"Hunold, Rauber, Rünger",STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-001356,Ballard (CAPS) (same as 2012 paper),STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-001361,"Gupta, Kumar (variant of DNS81)",STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-001364,Berntsen (Classical 3D),STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-001368,"Choi, Walker, Dongarra (PUMMA)",STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-001370,"Lin, Snyder",STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-001371,"Lee, Robertson, Fortes (Cannon generalized for block-cyclic distributed matrices)",STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-001372,Choi (DIMMA),STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-001373,"Demmel, Eliahu, Fox, Kamil, Lipshitz, Schwartz, Spillinger (CARMA)",STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-001375,"Krishnan, Nieplocha (SRUMMA)",STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-001380,"Bjørstad, Manne, Sørevik, Vajteršic (Winograd's algorithm)",STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-001382,Csanky,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-001383,"Bader, Gehrke",STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-001615,van de Vorst (grids) (1),STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-001616,van de Vorst (blocks) (2),STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-001617,"Lee, Lee",STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-001624,"Lee, Erçal",STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-001626,"Czumaj, Galil, Gąsieniec, Park, Plandowski (2)",STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-001631,Chmielowiec (existing FFT-based algorithm),STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,25
+AW-001636,"Tembhurne, Sathe (1)",STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-001637,"Tembhurne, Sathe (2)",STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-001668,"Cevher, Becker, Schmidt (Consensus ADMM - first order mehtod)",STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-001669,"Bubeck, Jiang, Lee, Li, Sidford",STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-001691,Swarztrauber,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,25
+AW-001707,"Dongarra, Sorensen",STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-001708,Sameh (Jacobi),STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,20
+AW-001709,Paardekooper,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,20
+AW-001775,"Sameh, Chen, Kuck",STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-001776,Multigrid,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,15
+AW-001777,Vatjersic,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-001778,"Xu, Wang [FDPI]",STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-001782,"Zhao Ning, Wang XuBen",STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-001800,"Guidi, Selvitopi, Ellis, Oliker, Yelick, Buluc (ELBA)",STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-001819,"Ye, Chiang",STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,20
+AW-001822,"Agrawal, Shafer",STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,20
+AW-001824,"Ozkural, Uçar, Aykanat",STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,20
+AW-001826,"Zhang, Zhang, Liao, Jin",STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,20
+AW-001827,"Cheung, Hu, Xia",STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,20
+AW-001828,"CZ algorithm - Jiancheng, Yiqin, Yu",STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,25
+AW-001844,Penzhorn,STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30
+AW-001877,"Chafik, Daoui",STILL_REVIEW_NEEDED,No second-pass rule could identify source-backed task semantics.,30

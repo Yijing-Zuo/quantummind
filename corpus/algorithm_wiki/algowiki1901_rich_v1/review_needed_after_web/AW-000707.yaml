@@ -1,0 +1,51 @@
+algorithm_id: AW-000707
+canonical_name: Ananthakrishna
+enrichment_status: WEB_INSUFFICIENT
+review_reasons:
+- missing_concrete_problem_statement
+- unknown_input_model
+- unknown_output_contract
+- unknown_access_model
+source_records:
+- access_status: metadata_only
+  digest: 756f369b126d3688
+  extracted_facts:
+  - 'AlgorithmWiki row name: Ananthakrishna'
+  - 'domain: unknown'
+  - 'time complexity: O(n^2 k)'
+  - 'space complexity: O(n)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of records, k: number of features (can be up to O(\sqrt{n}))'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000707:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Ananthakrishna
+  url: https://doi.org/10.1016/B978-155860869-6/50058-5
+- access_status: fetched
+  digest: 15c86654c6059817
+  extracted_facts:
+  - 'DOI title: Eliminating Fuzzy Duplicates in Data Warehouses'
+  - 'published year: 2002'
+  - 'container title: VLDB ''02: Proceedings of the 28th International Conference on Very Large Databases'
+  reliability: HIGH
+  short_quote: ''
+  source_id: crossref:36791a9290dd9879
+  source_type: doi_metadata
+  title: Eliminating Fuzzy Duplicates in Data Warehouses
+  url: https://doi.org/10.1016/B978-155860869-6/50058-5
+- access_status: fetched
+  digest: 021f1a4747fed19f
+  extracted_facts:
+  - 'source page title: Redirecting'
+  - 'source page description: Redirecting'
+  reliability: HIGH
+  short_quote: Redirecting
+  source_id: source:e0d01e91379768af
+  source_type: doi_metadata
+  title: Redirecting
+  url: https://doi.org/10.1016/B978-155860869-6/50058-5
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

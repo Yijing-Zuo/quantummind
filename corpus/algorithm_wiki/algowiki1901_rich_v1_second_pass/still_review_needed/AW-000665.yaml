@@ -1,0 +1,35 @@
+algorithm_id: AW-000665
+canonical_name: A-Priori algorithm
+enrichment_status: SECOND_PASS_INSUFFICIENT
+review_reasons:
+- No second-pass rule could identify source-backed task semantics.
+source_records:
+- access_status: metadata_only
+  digest: ee19872b628077e8
+  extracted_facts:
+  - 'AlgorithmWiki row name: A-Priori algorithm'
+  - 'domain: unknown'
+  - 'time complexity: O(n^2)'
+  - 'space complexity: O(n^2)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: total number of transactions (size of database)'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000665:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for A-Priori algorithm
+  url: http://www.vldb.org/conf/1994/P487.PDF
+- source_id: crossref_search:a79df2bdba33422b
+  url: https://doi.org/10.1109/iciic.2010.64
+  title: Advanced Version of A Priori Algorithm
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: Advanced Version of A Priori Algorithm'
+  short_quote: ''
+  digest: aa2756275ef514b0
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

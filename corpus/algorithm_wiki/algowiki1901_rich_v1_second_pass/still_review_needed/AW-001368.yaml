@@ -1,0 +1,56 @@
+algorithm_id: AW-001368
+canonical_name: Choi, Walker, Dongarra (PUMMA)
+enrichment_status: SECOND_PASS_INSUFFICIENT
+review_reasons:
+- No second-pass rule could identify source-backed task semantics.
+source_records:
+- access_status: metadata_only
+  digest: 312efc36b57973d3
+  extracted_facts:
+  - 'AlgorithmWiki row name: Choi, Walker, Dongarra (PUMMA)'
+  - 'domain: unknown'
+  - 'time complexity: O(n^3/p)'
+  - 'computational model: Distributed memory MIMD, like the Intel Touchstone Delta'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001368:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Choi, Walker, Dongarra (PUMMA)
+  url: https://onlinelibrary.wiley.com/doi/pdf/10.1002/cpe.4330060702
+- access_status: skipped
+  digest: bd17cf005a32e19d
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:3bca2f4ab6fd91f0
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1002/cpe.4330060702
+- source_id: crossref:e330197f614ff43e
+  url: https://doi.org/10.1002/cpe.4330060702
+  title: 'Pumma: Parallel universal matrix multiplication algorithms on distributed memory concurrent computers'
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: HIGH
+  extracted_facts:
+  - 'DOI title: Pumma: Parallel universal matrix multiplication algorithms on distributed memory concurrent computers'
+  - 'published year: 1994'
+  - 'container title: Concurrency: Practice and Experience'
+  - 'abstract summary: Abstract The paper describes Parallel Universal Matrix Multiplication Algorithms (PUMMA) on distributed memory concurrent computers.'
+  short_quote: Abstract The paper describes Parallel Universal Matrix Multiplication Algorithms (PUMMA) on distributed memory concurrent computers.
+  digest: 039ee9a25f2a8ca0
+- source_id: crossref_search:0b18e1bdccf3f416
+  url: https://doi.org/10.1109/npc.2007.32
+  title: An optimal algorithm to fetch DHT routable
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: An optimal algorithm to fetch DHT routable'
+  short_quote: ''
+  digest: eac65bcac63f65f8
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

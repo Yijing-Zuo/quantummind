@@ -1,0 +1,19 @@
+case_id: QM-PB-004
+title: "Quantum algorithm for solving linear systems of equations"
+authors: [Aram W. Harrow, Avinatan Hassidim, Seth Lloyd]
+year: 2009
+venue: "Physical Review Letters / arXiv"
+official_url: "https://arxiv.org/abs/0811.3171"
+result_location: "abstract"
+result_type: upper_bound_with_caveats
+paraphrased_support: "The paper targets estimating an expectation associated with the solution, not reading the full solution vector, under sparsity and condition-number assumptions."
+problem_model: "sparse linear system"
+promise: "sparse matrix, bounded condition number, prepared right-hand side"
+access_model: sparse_matrix_oracle
+output_contract: state_or_expectation
+classical_complexity: "CLASSICAL: polynomial in dimension and condition parameters for classical solution information"
+quantum_complexity: "QUERY: polylog dimension with sparsity, condition, and precision factors"
+claim_scope: QUERY
+caveats: [sparse access, bounded condition number, state/expectation output only]
+source_status: PRIMARY_SOURCE_CHECKED
+

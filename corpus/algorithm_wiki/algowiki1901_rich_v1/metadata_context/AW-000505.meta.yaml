@@ -1,0 +1,57 @@
+algorithm_family: computational geometry
+algorithm_id: AW-000505
+approximate: '0'
+approximation_factor: ''
+blind_name: Algorithm Wiki public task AW-000505
+canonical_name: "Weiler\u2013Atherton clipping algorithm"
+computational_model: Word/Real RAM
+domain: computational_geometry
+extracted_description: ''
+extraction_version: algorithm-wiki-rich-context-v1
+family: computational_geometry
+inferred_access_model: explicit_geometric_objects
+inferred_ambiguities:
+- No independent fetched public metadata source resolved this row beyond AlgorithmWiki metadata/source-link facts.
+- Some details are reconstructed from AlgorithmWiki metadata rather than an independently fetched full public description.
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.
+inferred_input_model: explicit_geometry_problem
+inferred_output_contract: full_solution
+inferred_problem_statement: "Weiler\u2013Atherton clipping algorithm is treated as a classical computational geometry task for rich AlgorithmWiki discovery. Problem/task: clip geometric primitives against a polygonal or rectangular clipping region. Input semantics: Explicit geometric objects such as points, line segments, polygons, or planar subdivisions. Output semantics: The requested geometric structure, simplified curve, clipping result, intersection set, hull, or diagram."
+inferred_promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+inferred_size_parameters:
+- 'Parameter definition: n: maximum number of sides of either input polygon or clipping polygon'
+number_of_processors: ''
+page_digest: ''
+page_fetch_status: not_found
+page_url: ''
+parameter_definitions: 'n: maximum number of sides of either input polygon or clipping polygon'
+problem_name: computational geometry
+quality_flags:
+- domain_inferred
+- problem_statement_inferred
+- io_access_output_inferred
+- has_complexity_semantics
+- has_size_parameters
+- has_computational_model
+quality_score: 100
+randomized: '0'
+readiness: READY_PUBLIC_CONTEXT
+review_reasons:
+- duplicate_public_blind_digest:371f65865f2337a0 kept:AW-000502
+source_link: https://www.cs.drexel.edu/~david/Classes/CS430/HWs/p214-weiler.pdf
+source_link_type: pdf
+space_complexity: O(n^2)
+span_depth: ''
+time_complexity: O(n^2)
+variation: ''
+work: ''
+year: '1977'
+rich_card_kind: context
+source_records_used:
+- AW-000505:algorithm_wiki_metadata
+source_count: 1
+source_quality: HIGH
+confidence_score: 100
+card_digest: 1aa59b4d2d119d38

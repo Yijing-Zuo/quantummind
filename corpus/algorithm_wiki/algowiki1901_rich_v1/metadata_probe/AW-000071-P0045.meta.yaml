@@ -1,0 +1,41 @@
+probe_id: AW-000071-P0045
+algorithm_id: AW-000071-P0045
+canonical_name: Iterative Deepening A* (IDA*) search_witness_probe
+readiness: READY_PUBLIC_PROBE
+quality_score: 100
+probe_type: search_witness_probe
+parent_algorithm_id: AW-000071
+parent_algorithm_name: Iterative Deepening A* (IDA*)
+source_records_used:
+- AW-000071:algorithm_wiki_metadata
+- source:879679d844ee62ba
+introduced_assumptions:
+- coherent_boolean_oracle
+- marked_item_exists
+- candidate_indexing
+missing_from_original_problem:
+- oracle construction
+- proof that witness output captures the useful subroutine
+original_output_contract: full_solution
+probe_output_contract: one_witness
+not_end_to_end_claim: true
+expected_authority: query_or_subroutine_hypothesis_only
+why_probe_is_scientifically_interesting: Witness search can isolate a decision or local-output subroutine from a larger classical task.
+why_probe_may_fail: The original algorithm may require full output materialization or an expensive predicate oracle.
+inferred_input_model: explicit_graph_problem
+inferred_access_model: coherent_boolean_oracle
+inferred_output_contract: one_witness
+inferred_size_parameters:
+- 'Parameter definition: b: branching factor (the average number of successors per state), d: the depth of the solution (the shortest path)'
+inferred_promises:
+- marked_item_exists
+- oracle_model_assumption
+inferred_ambiguities:
+- This probe is assumption-bearing and is not an end-to-end speedup claim.
+- coherent predicate construction and candidate indexing may fail for the original full-output problem
+- The parent context card and source records should be checked before live use.
+source_count: 2
+source_quality: HIGH
+confidence_score: 100
+card_digest: 3ead4e4798ee1d9a
+extraction_version: algorithm-wiki-rich-probe-v1

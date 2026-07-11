@@ -1,0 +1,35 @@
+algorithm_id: AW-000554
+canonical_name: Linear Scan, Poletto & Sarkar
+enrichment_status: SECOND_PASS_INSUFFICIENT
+review_reasons:
+- No second-pass rule could identify source-backed task semantics.
+source_records:
+- access_status: metadata_only
+  digest: e82163c612b75e04
+  extracted_facts:
+  - 'AlgorithmWiki row name: Linear Scan, Poletto & Sarkar'
+  - 'domain: unknown'
+  - 'time complexity: O(n)'
+  - 'space complexity: O(r)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of live ranges (the number of candidates to reside in registers), r: number of registers available'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000554:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Linear Scan, Poletto & Sarkar
+  url: http://web.cs.ucla.edu/~palsberg/course/cs132/linearscan.pdf
+- source_id: crossref_search:32413ed3e22a0243
+  url: https://doi.org/10.1109/tcom.1977.1093856
+  title: A Linear Algorithm for the Merli Scan
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: A Linear Algorithm for the Merli Scan'
+  short_quote: ''
+  digest: 69759976271b3d56
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

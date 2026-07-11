@@ -1,0 +1,71 @@
+id: AW-001733
+kind: context
+algorithm_id: AW-001733
+algorithm_name: "Cole, Goodrich, \xD3'D\xFAnlaing [Theorem 7.1]"
+source_records:
+- access_status: metadata_only
+  digest: 0a89b2469e02672f
+  extracted_facts:
+  - "AlgorithmWiki row name: Cole, Goodrich, \xD3'D\xFAnlaing [Theorem 7.1]"
+  - 'domain: parallel_algorithms'
+  - 'time complexity: O(\log n \log \log n)'
+  - 'computational model: CREW PRAM'
+  - 'parameter definitions: n: number of points'
+  - 'precard summary: Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model. Baseline: time O(\log n \log \log n); work O(n \log^2 n); span/depth O(log n log log n); processors O(n). Bottleneck: work, span, communication, and processor-count assumptions dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001733:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: "AlgorithmWiki metadata for Cole, Goodrich, \xD3'D\xFAnlaing [Theorem 7.1]"
+  url: https://link.springer.com/chapter/10.1007/BFb0032049
+- access_status: skipped
+  digest: f320b034daebbaa7
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:c05b618c14cc94ea
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1007/BFb0032049
+- access_status: skipped
+  digest: 7e96cb6f2e74b6fd
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:8b07ecf3365de5e5
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://link.springer.com/chapter/10.1007/BFb0032049
+web_query_attempts:
+- method: search_plan
+  query: "Cole, Goodrich, \xD3'D\xFAnlaing [Theorem 7.1] algorithm input output complexity"
+  status: recorded
+- method: search_plan
+  query: "Cole, Goodrich, \xD3'D\xFAnlaing [Theorem 7.1] algorithm pseudocode"
+  status: recorded
+- method: search_plan
+  query: "Cole, Goodrich, \xD3'D\xFAnlaing [Theorem 7.1] problem definition"
+  status: recorded
+- method: search_plan
+  query: "Cole, Goodrich, \xD3'D\xFAnlaing [Theorem 7.1] parallel algorithms algorithm"
+  status: recorded
+- method: search_plan
+  query: "Cole, Goodrich, \xD3'D\xFAnlaing [Theorem 7.1] site:nist.gov DADS"
+  status: recorded
+- method: search_plan
+  query: "Cole, Goodrich, \xD3'D\xFAnlaing [Theorem 7.1] algorithm wiki"
+  status: recorded
+- method: search_plan
+  query: https://link.springer.com/chapter/10.1007/BFb0032049
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1007/BFb0032049
+  status: skipped
+- method: source_link_html_metadata
+  query: https://link.springer.com/chapter/10.1007/BFb0032049
+  status: skipped
+extracted_problem_statement: "Cole, Goodrich, \xD3'D\xFAnlaing [Theorem 7.1] is treated as a classical parallel algorithms task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Cole, Goodrich, \xD3'D\xFAnlaing [Theorem 7.1]. Input semantics: The classical input instance named by the row, together with processor/work/span parameters when stated. Output semantics: The same mathematical output as the underlying classical task, annotated by work/span when available."
+extracted_algorithm_summary: "Cole, Goodrich, \xD3'D\xFAnlaing [Theorem 7.1] is a parallel algorithms algorithm record. Classical complexity metadata: time O(\\log n \\log \\log n); work O(n \\log^2 n); span/depth O(log n log log n); processors O(n). The stated classical model is CREW PRAM. Public metadata/source text adds: Cole, Goodrich, \xD3'D\xFAnlaing [Theorem 7.1] parallel_algorithms parallel_algorithms n: number of points O(\\log n \\log \\log n) Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model."
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

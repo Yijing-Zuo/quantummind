@@ -1,0 +1,78 @@
+algorithm_id: AW-001626
+canonical_name: "Czumaj, Galil, G\u0105sieniec, Park, Plandowski (2)"
+enrichment_status: THIRD_PASS_SATURATED_INSUFFICIENT
+review_reasons:
+- After the configured source-family cycles, no source-backed concrete task, input semantics, output semantics, and conservative access model could be established.
+source_records:
+- access_status: metadata_only
+  digest: d43cf0de76c74261
+  extracted_facts:
+  - "AlgorithmWiki row name: Czumaj, Galil, G\u0105sieniec, Park, Plandowski (2)"
+  - 'domain: unknown'
+  - 'time complexity: O(\log n)'
+  - 'computational model: hypercube (MIMD)'
+  - 'parameter definitions: n: length of text, m: length of pattern'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001626:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: "AlgorithmWiki metadata for Czumaj, Galil, G\u0105sieniec, Park, Plandowski (2)"
+  url: https://dl.acm.org/doi/pdf/10.1145/225058.225289
+- access_status: skipped
+  digest: 154d9f5cdf8ad291
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:9cb9d81b4f01381c
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1145/225058.225289
+- access_status: fetched
+  digest: b99588d9e7d8ec34
+  extracted_facts:
+  - 'DOI title: Work-time-optimal parallel algorithms for string problems'
+  - 'published year: 1995'
+  - 'container title: Proceedings of the twenty-seventh annual ACM symposium on Theory of computing - STOC ''95'
+  reliability: HIGH
+  short_quote: ''
+  source_id: crossref:15d4584a3c2b3216
+  source_type: doi_metadata
+  title: Work-time-optimal parallel algorithms for string problems
+  url: https://doi.org/10.1145/225058.225289
+- access_status: fetched
+  digest: eac65bcac63f65f8
+  extracted_facts:
+  - 'Crossref title-search result: An optimal algorithm to fetch DHT routable'
+  reliability: MEDIUM
+  short_quote: ''
+  source_id: crossref_search:0b18e1bdccf3f416
+  source_type: doi_metadata
+  title: An optimal algorithm to fetch DHT routable
+  url: https://doi.org/10.1109/npc.2007.32
+- source_id: skipped:873c721511b9e3a9
+  url: https://dl.acm.org/doi/pdf/10.1145/225058.225289
+  title: public PDF body was not downloaded
+  source_type: original_source
+  access_status: skipped
+  reliability: LOW
+  extracted_facts:
+  - public PDF body was not downloaded
+  short_quote: public PDF body was not downloaded
+  digest: 7949250b57aa564b
+- source_id: openalex:94f52eaa5ed2f962
+  url: https://openalex.org/W2080516655
+  title: Work-time-optimal parallel algorithms for string problems
+  source_type: openalex
+  access_status: fetched
+  reliability: HIGH
+  extracted_facts:
+  - 'OpenAlex title: Work-time-optimal parallel algorithms for string problems'
+  - 'publication year: 1995'
+  - 'abstract summary: A parallel algorithm is work-optimal if it uses the srrlallest possible work; a work-optimal algorithm is worktirne-optimal if it also uses the smallest possible time.'
+  short_quote: 'OpenAlex title: Work-time-optimal parallel algorithms for string problems publication year: 1995 abstract summary: A parallel algorithm is work-optimal if it uses the srrlallest possible'
+  digest: 57c4c611fde314c9
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

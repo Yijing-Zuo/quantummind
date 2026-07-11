@@ -1,0 +1,58 @@
+id: AW-001177
+kind: context
+algorithm_id: AW-001177
+algorithm_name: Chen, Chen
+source_records:
+- access_status: metadata_only
+  digest: 9bc0978d804a5579
+  extracted_facts:
+  - 'AlgorithmWiki row name: Chen, Chen'
+  - 'domain: sorting'
+  - 'time complexity: O(1)'
+  - 'computational model: 3-d reconfigurable mesh sorting network'
+  - 'parameter definitions: n: size of list'
+  - 'precard summary: Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model. Baseline: time O(1); work O(n^(3/2)); span/depth O(1); processors O(n^(3/2)). Bottleneck: comparison, distribution, and full-output movement costs dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001177:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Chen, Chen
+  url: https://ieeexplore.ieee.org/document/286307/citations#citations
+- access_status: skipped
+  digest: 6e676d2cb30e0ae6
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:736ef078baca3bf0
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://ieeexplore.ieee.org/document/286307/citations#citations
+web_query_attempts:
+- method: search_plan
+  query: Chen, Chen algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Chen, Chen algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Chen, Chen problem definition
+  status: recorded
+- method: search_plan
+  query: Chen, Chen sorting algorithm
+  status: recorded
+- method: search_plan
+  query: Chen, Chen site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Chen, Chen algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://ieeexplore.ieee.org/document/286307/citations#citations
+  status: recorded
+- method: source_link_html_metadata
+  query: https://ieeexplore.ieee.org/document/286307/citations#citations
+  status: skipped
+extracted_problem_statement: 'Chen, Chen is treated as a classical sorting task for rich AlgorithmWiki discovery. Problem/task: sort the input sequence using the named classical sorting method. Input semantics: A finite array or list of comparable keys or records. Output semantics: The same items returned in nondecreasing order, usually as a full reordered sequence.'
+extracted_algorithm_summary: 'Chen, Chen is a sorting algorithm record. Classical complexity metadata: time O(1); work O(n^(3/2)); span/depth O(1); processors O(n^(3/2)). The stated classical model is 3-d reconfigurable mesh sorting network. Public metadata/source text adds: Chen, Chen sorting sorting n: size of list O(1) Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

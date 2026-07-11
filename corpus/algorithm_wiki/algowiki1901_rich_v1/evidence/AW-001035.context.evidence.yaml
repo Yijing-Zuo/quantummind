@@ -1,0 +1,71 @@
+id: AW-001035
+kind: context
+algorithm_id: AW-001035
+algorithm_name: Drysdale, Young
+source_records:
+- access_status: metadata_only
+  digest: 4136aa5a98413e59
+  extracted_facts:
+  - 'AlgorithmWiki row name: Drysdale, Young'
+  - 'domain: sorting'
+  - 'time complexity: O(\log^2{n})'
+  - 'computational model: sorting network'
+  - 'parameter definitions: n: size of list'
+  - 'precard summary: Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model. Baseline: time O(\log^2{n}); work O(n \log^2{n}); span/depth O(\log^2{n}); processors O(n \log^2{n}). Bottleneck: comparison, distribution, and full-output movement costs dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001035:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Drysdale, Young
+  url: https://epubs.siam.org/doi/abs/10.1137/0204022 https://drive.google.com/file/d/1Ddnx6AO0IBsr4jlVvF5bBw28Av4ucakG/view
+- access_status: skipped
+  digest: 790ab61df5e862fc
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:2cd75a212c0044d2
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1137/0204022
+- access_status: skipped
+  digest: 1cf4d4b667a46c99
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:7c4a82296f4910c5
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://epubs.siam.org/doi/abs/10.1137/0204022 https://drive.google.com/file/d/1Ddnx6AO0IBsr4jlVvF5bBw28Av4ucakG/view
+web_query_attempts:
+- method: search_plan
+  query: Drysdale, Young algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Drysdale, Young algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Drysdale, Young problem definition
+  status: recorded
+- method: search_plan
+  query: Drysdale, Young sorting algorithm
+  status: recorded
+- method: search_plan
+  query: Drysdale, Young site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Drysdale, Young algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://epubs.siam.org/doi/abs/10.1137/0204022 https://drive.google.com/file/d/1Ddnx6AO0IBsr4jlVvF5bBw28Av4ucakG/view
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1137/0204022
+  status: skipped
+- method: source_link_html_metadata
+  query: https://epubs.siam.org/doi/abs/10.1137/0204022 https://drive.google.com/file/d/1Ddnx6AO0IBsr4jlVvF5bBw28Av4ucakG/view
+  status: skipped
+extracted_problem_statement: 'Drysdale, Young is treated as a classical sorting task for rich AlgorithmWiki discovery. Problem/task: sort the input sequence using the named classical sorting method. Input semantics: A finite array or list of comparable keys or records. Output semantics: The same items returned in nondecreasing order, usually as a full reordered sequence.'
+extracted_algorithm_summary: 'Drysdale, Young is a sorting algorithm record. Classical complexity metadata: time O(\log^2{n}); work O(n \log^2{n}); span/depth O(\log^2{n}); processors O(n \log^2{n}). The stated classical model is sorting network. Public metadata/source text adds: Drysdale, Young sorting sorting n: size of list O(\log^2{n}) Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

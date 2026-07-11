@@ -1,0 +1,49 @@
+id: AW-000203
+kind: context
+algorithm_id: AW-000203
+algorithm_name: Chazelle's algorithm
+source_records:
+- access_status: metadata_only
+  digest: fecc0ff847d774b2
+  extracted_facts:
+  - 'AlgorithmWiki row name: Chazelle''s algorithm'
+  - 'domain: graph'
+  - 'time complexity: O(E \alpha(E, V))'
+  - 'space complexity: O(E)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: V: number of vertices, E: number of edges, U: maximum edge weight'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(E \alpha(E, V)); space O(E). Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000203:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Chazelle's algorithm
+  url: https://www.cs.princeton.edu/~chazelle/pubs/mst.pdf
+web_query_attempts:
+- method: search_plan
+  query: Chazelle's algorithm algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Chazelle's algorithm algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Chazelle's algorithm problem definition
+  status: recorded
+- method: search_plan
+  query: Chazelle's algorithm graph algorithm
+  status: recorded
+- method: search_plan
+  query: Chazelle's algorithm site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Chazelle's algorithm algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://www.cs.princeton.edu/~chazelle/pubs/mst.pdf
+  status: recorded
+- method: wikipedia_summary_search
+  query: Chazelle's algorithm algorithm
+  status: failed_or_not_relevant
+extracted_problem_statement: 'Chazelle''s algorithm is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Chazelle''s algorithm. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'Chazelle''s algorithm is a graph algorithm record. Classical complexity metadata: time O(E \alpha(E, V)); space O(E). The stated classical model is Word RAM. Public metadata/source text adds: Chazelle''s algorithm graph graph V: number of vertices, E: number of edges, U: maximum edge weight O(E \alpha(E, V)) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

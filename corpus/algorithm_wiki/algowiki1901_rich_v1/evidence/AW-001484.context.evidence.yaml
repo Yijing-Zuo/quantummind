@@ -1,0 +1,45 @@
+id: AW-001484
+kind: context
+algorithm_id: AW-001484
+algorithm_name: Deo and Yoo (1)
+source_records:
+- access_status: metadata_only
+  digest: b6b652793e41827e
+  extracted_facts:
+  - 'AlgorithmWiki row name: Deo and Yoo (1)'
+  - 'domain: graph'
+  - 'time complexity: O(n^1.5)'
+  - 'computational model: MIMD-TC'
+  - 'parameter definitions: n: number of vertices'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(n^1.5); work O(n^2); span/depth O(n^1.5); processors O(n^0.5). Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001484:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Deo and Yoo (1)
+  url: DEO, N., AND YOO, Y. B. 1981. Parallel algorithms for the minimum spanning tree problem.
+web_query_attempts:
+- method: search_plan
+  query: Deo and Yoo (1) algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Deo and Yoo (1) algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Deo and Yoo (1) problem definition
+  status: recorded
+- method: search_plan
+  query: Deo and Yoo (1) graph algorithm
+  status: recorded
+- method: search_plan
+  query: Deo and Yoo (1) site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Deo and Yoo (1) algorithm wiki
+  status: recorded
+- method: search_plan
+  query: DEO, N., AND YOO, Y. B. 1981. Parallel algorithms for the minimum spanning tree problem.
+  status: recorded
+extracted_problem_statement: 'Deo and Yoo (1) is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Deo and Yoo (1). Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'Deo and Yoo (1) is a graph algorithm record. Classical complexity metadata: time O(n^1.5); work O(n^2); span/depth O(n^1.5); processors O(n^0.5). The stated classical model is MIMD-TC. Public metadata/source text adds: Deo and Yoo (1) graph graph n: number of vertices O(n^1.5) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

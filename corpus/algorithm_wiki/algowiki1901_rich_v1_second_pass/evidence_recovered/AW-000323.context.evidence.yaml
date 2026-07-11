@@ -1,0 +1,54 @@
+id: AW-000323
+kind: context_recovered
+algorithm_id: AW-000323
+algorithm_name: Kajiya J. Anisotropic Reflection Models 1985
+source_records:
+- access_status: metadata_only
+  digest: bb72ab1a6df84f4b
+  extracted_facts:
+  - 'AlgorithmWiki row name: Kajiya J. Anisotropic Reflection Models 1985'
+  - 'domain: unknown'
+  - 'time complexity: O(k n^2)'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000323:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Kajiya J. Anisotropic Reflection Models 1985
+  url: ''
+- source_id: crossref_search:f6c6e9df29add4b1
+  url: https://doi.org/10.1145/325165.325167
+  title: Anisotropic reflection models
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: Anisotropic reflection models'
+  - 'abstract summary: We present a new set of lighting models derived from the questions of electromagnetism.'
+  short_quote: We present a new set of lighting models derived from the questions of electromagnetism.
+  digest: ca62a4e2e0da20b8
+web_query_attempts:
+- query: '"Kajiya J. Anisotropic Reflection Models 1985" algorithm'
+  method: search_plan
+  status: recorded
+- query: '"Kajiya J. Anisotropic Reflection Models 1985" input output'
+  method: search_plan
+  status: recorded
+- query: '"Kajiya J. Anisotropic Reflection Models 1985" time complexity'
+  method: search_plan
+  status: recorded
+- query: '"Kajiya J. Anisotropic Reflection Models 1985" pseudocode'
+  method: search_plan
+  status: recorded
+- query: '"Kajiya J. Anisotropic Reflection Models 1985" problem'
+  method: search_plan
+  status: recorded
+- query: '"Kajiya J. Anisotropic Reflection Models 1985" PDF metadata abstract'
+  method: search_plan
+  status: recorded
+- query: Kajiya J. Anisotropic Reflection Models 1985 algorithm
+  method: crossref_title_search
+  status: fetched
+extracted_problem_statement: 'Kajiya J. Anisotropic Reflection Models 1985 is reconstructed as a classical image processing task. Problem/task: compute shaded/rendered image values from a geometric scene and illumination model Input semantics: Scene geometry, material parameters, lights, camera/view information, and image resolution. Output semantics: Rendered pixel colors or intermediate shading/visibility values.'
+extracted_algorithm_summary: 'Kajiya J. Anisotropic Reflection Models 1985 is treated as the named AlgorithmWiki variant for compute shaded/rendered image values from a geometric scene and illumination model Classical complexity metadata: time O(k n^2). Public metadata/source title support includes Anisotropic reflection models.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

@@ -1,0 +1,58 @@
+id: AW-001585
+kind: context
+algorithm_id: AW-001585
+algorithm_name: Cao, Fineman
+source_records:
+- access_status: metadata_only
+  digest: 43074dc3105a7868
+  extracted_facts:
+  - 'AlgorithmWiki row name: Cao, Fineman'
+  - 'domain: graph'
+  - 'time complexity: n^{1/2+o(1)} whp'
+  - 'computational model: work-depth'
+  - 'parameter definitions: n: number of vertices, m: number of edges'
+  - "precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time n^{1/2+o(1)} whp; work O\u02DC(m); span/depth n^{1/2+o(1)} whp; processors \\tilde{O}(m/(n^{1/2+o(1))}. Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates."
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001585:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Cao, Fineman
+  url: https://epubs.siam.org/doi/pdf/10.1137/1.9781611977554.ch166
+- access_status: skipped
+  digest: 19f21ca6cefa3bcf
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:04652fa617b3c773
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1137/1.9781611977554.ch166
+web_query_attempts:
+- method: search_plan
+  query: Cao, Fineman algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Cao, Fineman algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Cao, Fineman problem definition
+  status: recorded
+- method: search_plan
+  query: Cao, Fineman graph algorithm
+  status: recorded
+- method: search_plan
+  query: Cao, Fineman site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Cao, Fineman algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://epubs.siam.org/doi/pdf/10.1137/1.9781611977554.ch166
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1137/1.9781611977554.ch166
+  status: skipped
+extracted_problem_statement: 'Cao, Fineman is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Cao, Fineman. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: "Cao, Fineman is a graph algorithm record. Classical complexity metadata: time n^{1/2+o(1)} whp; work O\u02DC(m); span/depth n^{1/2+o(1)} whp; processors \\tilde{O}(m/(n^{1/2+o(1))}. The stated classical model is work-depth. Public metadata/source text adds: Cao, Fineman graph graph n: number of vertices, m: number of edges n^{1/2+o(1)} whp Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record."
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

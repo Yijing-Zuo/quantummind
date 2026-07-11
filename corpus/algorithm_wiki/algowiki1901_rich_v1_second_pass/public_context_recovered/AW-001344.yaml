@@ -1,0 +1,14 @@
+statement: 'Dekel Nassimi & Sahni (5) is included as a named whole-algorithm context card for a classical graph task. The task is to analyze the classical input-output problem, not to certify an end-to-end improvement claim. Input semantics: An explicit graph with vertices, edges, weights, labels, or adjacency access as required by the row. Output semantics: A path, tree, component labeling, flow, matching, or witness object for the named graph task. Classical algorithm summary: Dekel Nassimi & Sahni (5) is treated as the named AlgorithmWiki variant for solve the named graph task indicated by the public source metadata Classical complexity metadata: time O(\log n); work O(n^3*\log n); span/depth O(log n). Public metadata/source title support includes Parallel Matrix and Graph Algorithms. Classical complexity recorded for this row: time O(\log n); space unknown; computation model SIMD-PS. Dominant bottleneck: Traversal, priority/frontier maintenance, and materializing graph outputs dominate.
+  The useful review questions are whether the named structure exposes a smaller decision, witness, estimation, or algebraic subproblem; whether the full output size dominates any asymptotic gain; and whether the stated access model is realistic for the original input. Provenance used for reconstruction includes public metadata or abstract sources such as Parallel Matrix and Graph Algorithms; An optimal algorithm to fetch DHT routable. Source-backed uncertainty or assumptions: The row should be reviewed if the source title does not specify the graph output exactly.'
+input_model: explicit_graph_problem
+access_model: adjacency_list_query
+output_contract: path_or_tree
+promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+size_parameters:
+- p = stated number of processors (n^3)
+ambiguities:
+- The row should be reviewed if the source title does not specify the graph output exactly.
+- Some details are reconstructed from AlgorithmWiki metadata rather than an independently fetched full public description.
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.

@@ -1,0 +1,59 @@
+id: AW-000658-P0452
+kind: probe
+algorithm_id: AW-000658
+algorithm_name: Papadimitriou and M Yannakakis
+source_records:
+- access_status: metadata_only
+  digest: 5a8a17061753d216
+  extracted_facts:
+  - 'AlgorithmWiki row name: Papadimitriou and M Yannakakis'
+  - 'domain: graph'
+  - 'time complexity: O(3^k n)'
+  - 'space complexity: O(k) auxiliary'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of vertices, m: number of edges, k: size of vertex cover (worst case O(n))'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(3^k n); space O(k) auxiliary. Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000658:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Papadimitriou and M Yannakakis
+  url: https://www.sciencedirect.com/science/article/pii/S0022000096900586
+- access_status: failed
+  digest: 9e9106a4a9332772
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:e0d26e421381469d
+  source_type: publisher_abstract
+  title: 'HTTP Error 403: Forbidden'
+  url: https://www.sciencedirect.com/science/article/pii/S0022000096900586
+web_query_attempts:
+- method: search_plan
+  query: Papadimitriou and M Yannakakis algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Papadimitriou and M Yannakakis algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Papadimitriou and M Yannakakis problem definition
+  status: recorded
+- method: search_plan
+  query: Papadimitriou and M Yannakakis graph algorithm
+  status: recorded
+- method: search_plan
+  query: Papadimitriou and M Yannakakis site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Papadimitriou and M Yannakakis algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://www.sciencedirect.com/science/article/pii/S0022000096900586
+  status: recorded
+- method: source_link_html_metadata
+  query: https://www.sciencedirect.com/science/article/pii/S0022000096900586
+  status: failed
+extracted_problem_statement: 'Papadimitriou and M Yannakakis is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Papadimitriou and M Yannakakis. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'Papadimitriou and M Yannakakis is a graph algorithm record. Classical complexity metadata: time O(3^k n); space O(k) auxiliary. The stated classical model is Word RAM. Public metadata/source text adds: Papadimitriou and M Yannakakis graph graph n: number of vertices, m: number of edges, k: size of vertex cover (worst case O(n)) O(3^k n) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

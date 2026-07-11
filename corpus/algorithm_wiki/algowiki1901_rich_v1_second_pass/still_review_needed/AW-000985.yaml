@@ -1,0 +1,45 @@
+algorithm_id: AW-000985
+canonical_name: Exhaustive search
+enrichment_status: SECOND_PASS_INSUFFICIENT
+review_reasons:
+- No second-pass rule could identify source-backed task semantics.
+source_records:
+- access_status: metadata_only
+  digest: 328b9e701758c347
+  extracted_facts:
+  - 'AlgorithmWiki row name: Exhaustive search'
+  - 'domain: unknown'
+  - 'time complexity: O(d*n^k)'
+  - 'space complexity: O(k) auxiliary'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of vectors per set, k: number of sets, d: dimension of each vector d = omega(log(n))'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000985:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Exhaustive search
+  url: '-'
+- access_status: skipped
+  digest: aa629f46b9535b3d
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:675b9b5e0ce4f889
+  source_type: wikipedia
+  title: fetch budget exhausted
+  url: https://en.wikipedia.org/wiki/Exhaustive_search
+- source_id: crossref_search:0b18e1bdccf3f416
+  url: https://doi.org/10.1109/npc.2007.32
+  title: An optimal algorithm to fetch DHT routable
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: An optimal algorithm to fetch DHT routable'
+  short_quote: ''
+  digest: eac65bcac63f65f8
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

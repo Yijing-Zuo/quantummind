@@ -1,0 +1,55 @@
+algorithm_id: AW-001707
+canonical_name: Dongarra, Sorensen
+enrichment_status: SECOND_PASS_INSUFFICIENT
+review_reasons:
+- No second-pass rule could identify source-backed task semantics.
+source_records:
+- access_status: metadata_only
+  digest: e8db3258b3e4f4ed
+  extracted_facts:
+  - 'AlgorithmWiki row name: Dongarra, Sorensen'
+  - 'domain: unknown'
+  - 'time complexity: O( n^3 / p )'
+  - 'computational model: shared memory'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001707:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Dongarra, Sorensen
+  url: https://epubs.siam.org/doi/pdf/10.1137/0908018
+- access_status: skipped
+  digest: ff973f7fd879ab00
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:f7241fdea7412878
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1137/0908018
+- source_id: crossref:e27deb2c874e1171
+  url: https://doi.org/10.1137/0908018
+  title: A Fully Parallel Algorithm for the Symmetric Eigenvalue Problem
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: HIGH
+  extracted_facts:
+  - 'DOI title: A Fully Parallel Algorithm for the Symmetric Eigenvalue Problem'
+  - 'published year: 1987'
+  - 'container title: SIAM Journal on Scientific and Statistical Computing'
+  short_quote: ''
+  digest: 19abe89e2462e8c3
+- source_id: crossref_search:0b18e1bdccf3f416
+  url: https://doi.org/10.1109/npc.2007.32
+  title: An optimal algorithm to fetch DHT routable
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: An optimal algorithm to fetch DHT routable'
+  short_quote: ''
+  digest: eac65bcac63f65f8
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

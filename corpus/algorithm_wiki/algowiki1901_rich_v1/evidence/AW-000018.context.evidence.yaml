@@ -1,0 +1,74 @@
+id: AW-000018
+kind: context
+algorithm_id: AW-000018
+algorithm_name: tree-structured vector quantization Wei-Levoy
+source_records:
+- access_status: metadata_only
+  digest: d93fedff730a4b92
+  extracted_facts:
+  - 'AlgorithmWiki row name: tree-structured vector quantization Wei-Levoy'
+  - 'domain: image_processing'
+  - 'time complexity: O(n^2 \log n)'
+  - 'space complexity: O(nd)'
+  - 'computational model: TSVQ Tree'
+  - 'parameter definitions: n: number of pixels in input image, d: neighborhood size'
+  - 'precard summary: Given an explicit image or grid of pixel values, compute the transformed image, segmentation, or detected structure targeted by the record. Baseline: time O(n^2 \log n); space O(nd). Bottleneck: local neighborhood processing and writing image-sized outputs dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000018:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for tree-structured vector quantization Wei-Levoy
+  url: https://dl.acm.org/doi/abs/10.1145/344779.345009
+- access_status: fetched
+  digest: 73d366eb44ab031b
+  extracted_facts:
+  - 'DOI title: Fast texture synthesis using tree-structured vector quantization'
+  - 'published year: 2000'
+  - 'container title: Proceedings of the 27th annual conference on Computer graphics and interactive techniques - SIGGRAPH ''00'
+  reliability: HIGH
+  short_quote: ''
+  source_id: crossref:2ad5350d62e3e894
+  source_type: doi_metadata
+  title: Fast texture synthesis using tree-structured vector quantization
+  url: https://doi.org/10.1145/344779.345009
+- access_status: failed
+  digest: fdce827306e03304
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:c8e94cad5a566d15
+  source_type: publisher_abstract
+  title: 'HTTP Error 403: Forbidden'
+  url: https://dl.acm.org/doi/abs/10.1145/344779.345009
+web_query_attempts:
+- method: search_plan
+  query: tree-structured vector quantization Wei-Levoy algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: tree-structured vector quantization Wei-Levoy algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: tree-structured vector quantization Wei-Levoy problem definition
+  status: recorded
+- method: search_plan
+  query: tree-structured vector quantization Wei-Levoy image processing algorithm
+  status: recorded
+- method: search_plan
+  query: tree-structured vector quantization Wei-Levoy site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: tree-structured vector quantization Wei-Levoy algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://dl.acm.org/doi/abs/10.1145/344779.345009
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1145/344779.345009
+  status: fetched
+- method: source_link_html_metadata
+  query: https://dl.acm.org/doi/abs/10.1145/344779.345009
+  status: failed
+extracted_problem_statement: 'tree-structured vector quantization Wei-Levoy is treated as a classical image processing task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with tree-structured vector quantization Wei-Levoy. Input semantics: An image, grid, point cloud, or signal representation with local or hierarchical processing parameters. Output semantics: A transformed image, segmentation, quantization, feature set, or detected structure.'
+extracted_algorithm_summary: 'tree-structured vector quantization Wei-Levoy is a image processing algorithm record. Classical complexity metadata: time O(n^2 \log n); space O(nd). The stated classical model is TSVQ Tree. Public metadata/source text adds: tree-structured vector quantization Wei-Levoy image_processing image_processing n: number of pixels in input image, d: neighborhood size O(n^2 \log n) Given an explicit image or grid of pixel values, compute the transformed image, segmentation, or detected structure targeted by the record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

@@ -1,0 +1,38 @@
+probe_id: AW-000456-P0335
+algorithm_id: AW-000456-P0335
+canonical_name: Floyd's tortoise and hare algorithm period_structure_probe
+readiness: READY_PUBLIC_PROBE
+quality_score: 55
+probe_type: period_structure_probe
+parent_algorithm_id: AW-000456
+parent_algorithm_name: Floyd's tortoise and hare algorithm
+source_records_used:
+- AW-000456:algorithm_wiki_metadata
+introduced_assumptions:
+- periodic_structure
+- coherent_function_access
+missing_from_original_problem:
+- proof that period finding is the relevant subroutine
+original_output_contract: one_witness
+probe_output_contract: exact_value
+not_end_to_end_claim: true
+expected_authority: query_or_subroutine_hypothesis_only
+why_probe_is_scientifically_interesting: Cycle and period rows can expose sharply structured query tasks.
+why_probe_may_fail: The original row may require explicit enumeration or full-output reconstruction after detecting a period.
+inferred_input_model: explicit_combinatorial_problem
+inferred_access_model: coherent_boolean_oracle
+inferred_output_contract: exact_value
+inferred_size_parameters:
+- 'Parameter definition: t_f: time to perform one evaluation of f, \mu: the starting index of the cycle, \lambda: the period of the cycle'
+inferred_promises:
+- periodic_structure
+- oracle_model_assumption
+inferred_ambiguities:
+- This probe is assumption-bearing and is not an end-to-end speedup claim.
+- periodicity may be incidental metadata rather than the task bottleneck
+- The parent context card and source records should be checked before live use.
+source_count: 1
+source_quality: HIGH
+confidence_score: 55
+card_digest: 0fec7f18cd434568
+extraction_version: algorithm-wiki-rich-probe-v1

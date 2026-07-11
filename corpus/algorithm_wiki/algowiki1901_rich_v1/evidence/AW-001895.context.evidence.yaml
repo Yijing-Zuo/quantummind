@@ -1,0 +1,58 @@
+id: AW-001895
+kind: context
+algorithm_id: AW-001895
+algorithm_name: Chor, Goldreich [CRCW]
+source_records:
+- access_status: metadata_only
+  digest: f4baf270cdcb7fbe
+  extracted_facts:
+  - 'AlgorithmWiki row name: Chor, Goldreich [CRCW]'
+  - 'domain: parallel_algorithms'
+  - 'time complexity: O(n/\log n)'
+  - 'computational model: CRCW PRAM'
+  - 'parameter definitions: n: sum of number of bits among the two integers'
+  - 'precard summary: Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model. Baseline: time O(n/\log n); work O(n^(2+eps)/\log n) for any eps>0; span/depth O(n/log n); processors n^(1+eps) for any eps>0. Bottleneck: work, span, communication, and processor-count assumptions dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001895:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Chor, Goldreich [CRCW]
+  url: https://link.springer.com/content/pdf/10.1007/BF01840374.pdf
+- access_status: skipped
+  digest: f8c57d0a936c12d9
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:949b3b89cc230951
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1007/BF01840374.pdf
+web_query_attempts:
+- method: search_plan
+  query: Chor, Goldreich [CRCW] algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Chor, Goldreich [CRCW] algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Chor, Goldreich [CRCW] problem definition
+  status: recorded
+- method: search_plan
+  query: Chor, Goldreich [CRCW] parallel algorithms algorithm
+  status: recorded
+- method: search_plan
+  query: Chor, Goldreich [CRCW] site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Chor, Goldreich [CRCW] algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://link.springer.com/content/pdf/10.1007/BF01840374.pdf
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1007/BF01840374.pdf
+  status: skipped
+extracted_problem_statement: 'Chor, Goldreich [CRCW] is treated as a classical parallel algorithms task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Chor, Goldreich [CRCW]. Input semantics: The classical input instance named by the row, together with processor/work/span parameters when stated. Output semantics: The same mathematical output as the underlying classical task, annotated by work/span when available.'
+extracted_algorithm_summary: 'Chor, Goldreich [CRCW] is a parallel algorithms algorithm record. Classical complexity metadata: time O(n/\log n); work O(n^(2+eps)/\log n) for any eps>0; span/depth O(n/log n); processors n^(1+eps) for any eps>0. The stated classical model is CRCW PRAM. Public metadata/source text adds: Chor, Goldreich [CRCW] parallel_algorithms parallel_algorithms n: sum of number of bits among the two integers O(n/\log n) Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

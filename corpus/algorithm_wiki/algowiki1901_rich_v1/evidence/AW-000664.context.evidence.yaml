@@ -1,0 +1,74 @@
+id: AW-000664
+kind: context
+algorithm_id: AW-000664
+algorithm_name: GLR parser
+source_records:
+- access_status: metadata_only
+  digest: 18fcf692b8f698c5
+  extracted_facts:
+  - 'AlgorithmWiki row name: GLR parser'
+  - 'domain: string'
+  - 'time complexity: O(n^3)'
+  - 'space complexity: O(n^3)'
+  - 'computational model: Word RAM (implemented on ALGOL)'
+  - 'parameter definitions: n: input string length'
+  - 'precard summary: Given one or more explicit strings, compute the matching, indexing, alignment, or transformation output targeted by the record. Baseline: time O(n^3); space O(n^3). Bottleneck: string scanning, preprocessing tables, and reporting matches dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000664:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for GLR parser
+  url: https://link.springer.com/chapter/10.1007%2F978-3-662-21545-6_18
+- access_status: fetched
+  digest: a4ebb884cf11e68a
+  extracted_facts:
+  - 'DOI title: Deterministic Techniques for Efficient Non-Deterministic Parsers'
+  - 'published year: 1974'
+  - 'container title: Lecture Notes in Computer Science'
+  reliability: HIGH
+  short_quote: ''
+  source_id: crossref:752422888cd9c2ae
+  source_type: doi_metadata
+  title: Deterministic Techniques for Efficient Non-Deterministic Parsers
+  url: https://doi.org/10.1007/978-3-662-21545-6_18
+- access_status: skipped
+  digest: 3cf29ed39f206123
+  extracted_facts:
+  - robots.txt disallowed fetch
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:492e8ea2df039fbe
+  source_type: publisher_abstract
+  title: robots.txt disallowed fetch
+  url: https://link.springer.com/chapter/10.1007%2F978-3-662-21545-6_18
+web_query_attempts:
+- method: search_plan
+  query: GLR parser algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: GLR parser algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: GLR parser problem definition
+  status: recorded
+- method: search_plan
+  query: GLR parser string algorithm
+  status: recorded
+- method: search_plan
+  query: GLR parser site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: GLR parser algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://link.springer.com/chapter/10.1007%2F978-3-662-21545-6_18
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1007/978-3-662-21545-6_18
+  status: fetched
+- method: source_link_html_metadata
+  query: https://link.springer.com/chapter/10.1007%2F978-3-662-21545-6_18
+  status: skipped
+extracted_problem_statement: 'GLR parser is treated as a classical string task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with GLR parser. Input semantics: One or more finite strings, sequences, patterns, or alphabets. Output semantics: Pattern occurrence positions, matches, or the associated string-search report.'
+extracted_algorithm_summary: 'GLR parser is a string algorithm record. Classical complexity metadata: time O(n^3); space O(n^3). The stated classical model is Word RAM (implemented on ALGOL). Public metadata/source text adds: GLR parser string string n: input string length O(n^3) Given one or more explicit strings, compute the matching, indexing, alignment, or transformation output targeted by the record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

@@ -1,0 +1,16 @@
+statement: 'Belinskaya, DeAgostino, Storer is included as a named whole-algorithm context card for a classical string task. The task is to analyze the classical input-output problem, not to certify an end-to-end improvement claim. Input semantics: One or more finite strings, sequences, patterns, or alphabets. Output semantics: Pattern occurrence positions, matches, or the associated string-search report. Classical algorithm summary: Belinskaya, DeAgostino, Storer is a string algorithm record. Classical complexity metadata: time O(km + m\log{m}); work O(n); span/depth O(km + m\log{m}); processors n/(km). The stated classical model is massively parallel linear array of processors. Public metadata/source text adds: Belinskaya, DeAgostino, Storer string string n: input length, m: max length of a string in the dictionary, k: optimality parameter \leq 1 (algo optimal within a factor (k+1)/k for any int) O(km + m\log{m}) Given one or more explicit strings, compute the matching, indexing, alignment,
+  or transformation output the concrete classical string task associated with Belinskaya, DeAgostino, Storer. Classical complexity recorded for this row: time O(km + m\log{m}); space unknown; computation model massively parallel linear array of processors. Dominant bottleneck: string scanning, dynamic-programming table size, preprocessing, and match reporting. The useful review questions are whether the named structure exposes a smaller decision, witness, estimation, or algebraic subproblem; whether the full output size dominates any asymptotic gain; and whether the stated access model is realistic for the original input. Provenance is limited to AlgorithmWiki metadata and source-link facts; unresolved details are kept as ambiguities. Source-backed uncertainty or assumptions: No independent fetched public metadata source resolved this row beyond AlgorithmWiki metadata/source-link facts.'
+input_model: explicit_string_problem
+access_model: random_access_string
+output_contract: full_solution
+promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+- classical_parallel_model_recorded
+size_parameters:
+- 'Parameter definition: n: input length, m: max length of a string in the dictionary, k: optimality parameter \leq 1 (algo optimal within a factor (k+1)/k for any int)'
+- p = stated number of processors (n/(km))
+ambiguities:
+- No independent fetched public metadata source resolved this row beyond AlgorithmWiki metadata/source-link facts.
+- Some details are reconstructed from AlgorithmWiki metadata rather than an independently fetched full public description.
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.

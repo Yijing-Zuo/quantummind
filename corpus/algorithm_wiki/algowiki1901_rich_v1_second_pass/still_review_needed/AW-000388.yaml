@@ -1,0 +1,32 @@
+algorithm_id: AW-000388
+canonical_name: Blinn and Newell
+enrichment_status: SECOND_PASS_RECOVERED
+review_reasons:
+- missing_size_parameters
+source_records:
+- access_status: metadata_only
+  digest: 90dbb62eb3a60237
+  extracted_facts:
+  - 'AlgorithmWiki row name: Blinn and Newell'
+  - 'domain: unknown'
+  - 'time complexity: -'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000388:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Blinn and Newell
+  url: ''
+- source_id: crossref_search:d2139e96f3993097
+  url: https://doi.org/10.1093/oed/1013375023
+  title: blin | blinn, v.
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: blin | blinn, v.'
+  short_quote: ''
+  digest: 95465a8864af8f69
+extracted_problem_statement: 'Blinn and Newell is reconstructed as a classical image processing task. Problem/task: compute shaded/rendered image values from a geometric scene and illumination model Input semantics: Scene geometry, material parameters, lights, camera/view information, and image resolution. Output semantics: Rendered pixel colors or intermediate shading/visibility values.'
+extracted_input_semantics: Scene geometry, material parameters, lights, camera/view information, and image resolution.
+extracted_output_semantics: Rendered pixel colors or intermediate shading/visibility values.

@@ -1,0 +1,59 @@
+algorithm_family: numerical analysis
+algorithm_id: AW-000534
+approximate: '1'
+approximation_factor: \epsilon additive
+blind_name: Algorithm Wiki public task AW-000534
+canonical_name: Newton's method
+computational_model: Word/Real RAM
+domain: numerical_analysis
+extracted_description: ''
+extraction_version: algorithm-wiki-rich-context-v1
+family: numerical_analysis
+inferred_access_model: function_evaluation_oracle_classical
+inferred_ambiguities:
+- The AlgorithmWiki row marks the classical method as approximate.
+- No independent fetched public metadata source resolved this row beyond AlgorithmWiki metadata/source-link facts.
+- Some details are reconstructed from AlgorithmWiki metadata rather than an independently fetched full public description.
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.
+inferred_input_model: explicit_numerical_problem
+inferred_output_contract: approximation_solution
+inferred_problem_statement: 'Newton''s method is treated as a classical numerical analysis task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Newton''s method. Input semantics: Numeric parameters, functions, samples, tolerances, or distributions for the stated numerical task. Output semantics: An exact or approximate numerical value, estimate, approximation, or fitted representation.'
+inferred_promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+- classical_approximation_algorithm
+inferred_size_parameters:
+- 'Parameter definition: \epsilon: (additive) tolerance error, n_{max}: maximum number of iterations'
+number_of_processors: ''
+page_digest: ''
+page_fetch_status: not_found
+page_url: ''
+parameter_definitions: '\epsilon: (additive) tolerance error, n_{max}: maximum number of iterations'
+problem_name: numerical analysis
+quality_flags:
+- domain_inferred
+- problem_statement_inferred
+- io_access_output_inferred
+- has_complexity_semantics
+- has_size_parameters
+- has_computational_model
+- approximation_flag_preserved
+quality_score: 100
+randomized: '0'
+readiness: READY_PUBLIC_CONTEXT
+review_reasons: []
+source_link: ''
+source_link_type: unknown
+space_complexity: O(1)
+span_depth: ''
+time_complexity: O(n_{max})
+variation: ''
+work: ''
+year: '1940'
+rich_card_kind: context
+source_records_used:
+- AW-000534:algorithm_wiki_metadata
+source_count: 1
+source_quality: HIGH
+confidence_score: 100
+card_digest: 1cb0e8ed9bead2bd

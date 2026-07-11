@@ -1,0 +1,45 @@
+id: AW-001320
+kind: context
+algorithm_id: AW-001320
+algorithm_name: Lin, Lu, Fang
+source_records:
+- access_status: metadata_only
+  digest: adefa678975d1718
+  extracted_facts:
+  - 'AlgorithmWiki row name: Lin, Lu, Fang'
+  - 'domain: string'
+  - 'time complexity: max(log^2 m log log m, log n)'
+  - 'computational model: CREW PRAM'
+  - 'parameter definitions: m: length of shorter string, n: length of longer string'
+  - 'precard summary: Given one or more explicit strings, compute the matching, indexing, alignment, or transformation output targeted by the record. Baseline: time max(log^2 m log log m, log n); work O(mn); span/depth max(log^2 m log log m, log n); processors mn/max(log^2 m log log m, log n). Bottleneck: string scanning, preprocessing tables, and reporting matches dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001320:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Lin, Lu, Fang
+  url: https://ieeexplore.ieee.org/iel5/373/5730/00218203.pdf
+web_query_attempts:
+- method: search_plan
+  query: Lin, Lu, Fang algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Lin, Lu, Fang algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Lin, Lu, Fang problem definition
+  status: recorded
+- method: search_plan
+  query: Lin, Lu, Fang string algorithm
+  status: recorded
+- method: search_plan
+  query: Lin, Lu, Fang site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Lin, Lu, Fang algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://ieeexplore.ieee.org/iel5/373/5730/00218203.pdf
+  status: recorded
+extracted_problem_statement: 'Lin, Lu, Fang is treated as a classical string task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Lin, Lu, Fang. Input semantics: One or more finite strings, sequences, patterns, or alphabets. Output semantics: Pattern occurrence positions, matches, or the associated string-search report.'
+extracted_algorithm_summary: 'Lin, Lu, Fang is a string algorithm record. Classical complexity metadata: time max(log^2 m log log m, log n); work O(mn); span/depth max(log^2 m log log m, log n); processors mn/max(log^2 m log log m, log n). The stated classical model is CREW PRAM. Public metadata/source text adds: Lin, Lu, Fang string string m: length of shorter string, n: length of longer string max(log^2 m log log m, log n) Given one or more explicit strings, compute the matching, indexing, alignment, or transformation output targeted by the record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

@@ -1,0 +1,58 @@
+id: AW-001030
+kind: context
+algorithm_id: AW-001030
+algorithm_name: Batcher's bitonic sort using perfect shuffle - Stone
+source_records:
+- access_status: metadata_only
+  digest: 83136eac5ea5d0af
+  extracted_facts:
+  - 'AlgorithmWiki row name: Batcher''s bitonic sort using perfect shuffle - Stone'
+  - 'domain: sorting'
+  - 'time complexity: O(\log^2{n})'
+  - 'computational model: sorting network'
+  - 'parameter definitions: n: size of list'
+  - 'precard summary: Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model. Baseline: time O(\log^2{n}); work O(n \log{n}); span/depth O(\log^2{n}); processors n/2. Bottleneck: comparison, distribution, and full-output movement costs dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001030:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Batcher's bitonic sort using perfect shuffle - Stone
+  url: https://ieeexplore.ieee.org/abstract/document/1671798
+- access_status: skipped
+  digest: 81963b4d381952a3
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:577a021d33a49a65
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://ieeexplore.ieee.org/abstract/document/1671798
+web_query_attempts:
+- method: search_plan
+  query: Batcher's bitonic sort using perfect shuffle - Stone algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Batcher's bitonic sort using perfect shuffle - Stone algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Batcher's bitonic sort using perfect shuffle - Stone problem definition
+  status: recorded
+- method: search_plan
+  query: Batcher's bitonic sort using perfect shuffle - Stone sorting algorithm
+  status: recorded
+- method: search_plan
+  query: Batcher's bitonic sort using perfect shuffle - Stone site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Batcher's bitonic sort using perfect shuffle - Stone algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://ieeexplore.ieee.org/abstract/document/1671798
+  status: recorded
+- method: source_link_html_metadata
+  query: https://ieeexplore.ieee.org/abstract/document/1671798
+  status: skipped
+extracted_problem_statement: 'Batcher''s bitonic sort using perfect shuffle - Stone is treated as a classical sorting task for rich AlgorithmWiki discovery. Problem/task: sort the input sequence using the named classical sorting method. Input semantics: A finite array or list of comparable keys or records. Output semantics: The same items returned in nondecreasing order, usually as a full reordered sequence.'
+extracted_algorithm_summary: 'Batcher''s bitonic sort using perfect shuffle - Stone is a sorting algorithm record. Classical complexity metadata: time O(\log^2{n}); work O(n \log{n}); span/depth O(\log^2{n}); processors n/2. The stated classical model is sorting network. Public metadata/source text adds: Batcher''s bitonic sort using perfect shuffle - Stone sorting sorting n: size of list O(\log^2{n}) Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

@@ -1,0 +1,69 @@
+id: AW-000241
+kind: context_recovered
+algorithm_id: AW-000241
+algorithm_name: Dixon's algorithm
+source_records:
+- access_status: metadata_only
+  digest: d8923ed9d58f2bf9
+  extracted_facts:
+  - 'AlgorithmWiki row name: Dixon''s algorithm'
+  - 'domain: unknown'
+  - 'time complexity: O(e^{2 \sqrt{2} \sqrt{n\log n}})'
+  - 'space complexity: O(n+(B/\log B)^2)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of bits in the integer, B: bound parameter'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000241:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Dixon's algorithm
+  url: https://www.ams.org/journals/mcom/1981-36-153/S0025-5718-1981-0595059-1/home.html
+- access_status: failed
+  digest: 97e479536c22042f
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:85fa34b62c82b070
+  source_type: other_public_source
+  title: 'HTTP Error 403: Forbidden'
+  url: https://www.ams.org/journals/mcom/1981-36-153/S0025-5718-1981-0595059-1/home.html
+- source_id: crossref_search:d56750e66c5ac481
+  url: https://doi.org/10.1007/978-3-031-14788-3_11
+  title: An Interpolation Algorithm for Computing Dixon Resultants
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: An Interpolation Algorithm for Computing Dixon Resultants'
+  short_quote: ''
+  digest: 12cfe30f3ae62be9
+web_query_attempts:
+- query: '"Dixon''s algorithm" algorithm'
+  method: search_plan
+  status: recorded
+- query: '"Dixon''s algorithm" input output'
+  method: search_plan
+  status: recorded
+- query: '"Dixon''s algorithm" time complexity'
+  method: search_plan
+  status: recorded
+- query: '"Dixon''s algorithm" pseudocode'
+  method: search_plan
+  status: recorded
+- query: '"Dixon''s algorithm" problem'
+  method: search_plan
+  status: recorded
+- query: '"Dixon''s algorithm" PDF metadata abstract'
+  method: search_plan
+  status: recorded
+- query: https://www.ams.org/journals/mcom/1981-36-153/S0025-5718-1981-0595059-1/home.html
+  method: search_plan
+  status: recorded
+- query: Dixon's algorithm algorithm
+  method: crossref_title_search
+  status: fetched
+extracted_problem_statement: 'Dixon''s algorithm is reconstructed as a classical combinatorics task. Problem/task: find a nontrivial factorization of an integer Input semantics: An integer N represented with n bits and method-specific smoothness or search bounds. Output semantics: A nontrivial factor, a complete factorization, or a failure indication under the method assumptions.'
+extracted_algorithm_summary: 'Dixon''s algorithm is treated as the named AlgorithmWiki variant for find a nontrivial factorization of an integer Classical complexity metadata: time O(e^{2 \sqrt{2} \sqrt{n\log n}}); space O(n+(B/\log B)^2). Public metadata/source title support includes An Interpolation Algorithm for Computing Dixon Resultants.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

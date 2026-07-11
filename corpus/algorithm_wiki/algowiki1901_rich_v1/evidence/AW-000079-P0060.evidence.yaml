@@ -1,0 +1,49 @@
+id: AW-000079-P0060
+kind: probe
+algorithm_id: AW-000079
+algorithm_name: Knuth-Morris-Pratt (KMP) algorithm
+source_records:
+- access_status: metadata_only
+  digest: dc12819ad466a078
+  extracted_facts:
+  - 'AlgorithmWiki row name: Knuth-Morris-Pratt (KMP) algorithm'
+  - 'domain: string'
+  - 'time complexity: O(m+n)'
+  - 'space complexity: O(m)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: m: pattern length, n: length of searchable text'
+  - 'precard summary: Given one or more explicit strings, compute the matching, indexing, alignment, or transformation output targeted by the record. Baseline: time O(m+n); space O(m). Bottleneck: string scanning, preprocessing tables, and reporting matches dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000079:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Knuth-Morris-Pratt (KMP) algorithm
+  url: https://pdfs.semanticscholar.org/4479/9559a1067e06b5a6bf052f8f10637707928f.pdf
+web_query_attempts:
+- method: search_plan
+  query: Knuth-Morris-Pratt (KMP) algorithm algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Knuth-Morris-Pratt (KMP) algorithm algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Knuth-Morris-Pratt (KMP) algorithm problem definition
+  status: recorded
+- method: search_plan
+  query: Knuth-Morris-Pratt (KMP) algorithm string algorithm
+  status: recorded
+- method: search_plan
+  query: Knuth-Morris-Pratt (KMP) algorithm site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Knuth-Morris-Pratt (KMP) algorithm algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://pdfs.semanticscholar.org/4479/9559a1067e06b5a6bf052f8f10637707928f.pdf
+  status: recorded
+- method: wikipedia_summary_search
+  query: Knuth-Morris-Pratt (KMP) algorithm algorithm
+  status: failed_or_not_relevant
+extracted_problem_statement: 'Knuth-Morris-Pratt (KMP) algorithm is treated as a classical string task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Knuth-Morris-Pratt (KMP) algorithm. Input semantics: One or more finite strings, sequences, patterns, or alphabets. Output semantics: Pattern occurrence positions, matches, or the associated string-search report.'
+extracted_algorithm_summary: 'Knuth-Morris-Pratt (KMP) algorithm is a string algorithm record. Classical complexity metadata: time O(m+n); space O(m). The stated classical model is Word RAM. Public metadata/source text adds: Knuth-Morris-Pratt (KMP) algorithm string string m: pattern length, n: length of searchable text O(m+n) Given one or more explicit strings, compute the matching, indexing, alignment, or transformation output targeted by the record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

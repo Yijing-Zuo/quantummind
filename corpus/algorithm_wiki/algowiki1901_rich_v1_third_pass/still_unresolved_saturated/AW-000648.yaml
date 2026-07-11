@@ -1,0 +1,59 @@
+algorithm_id: AW-000648
+canonical_name: LOOK
+enrichment_status: THIRD_PASS_SATURATED_INSUFFICIENT
+review_reasons:
+- After the configured source-family cycles, no source-backed concrete task, input semantics, output semantics, and conservative access model could be established.
+source_records:
+- access_status: metadata_only
+  digest: 6da8f2a4716dcf20
+  extracted_facts:
+  - 'AlgorithmWiki row name: LOOK'
+  - 'domain: unknown'
+  - 'time complexity: O(n \log n)'
+  - 'space complexity: O(n)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of requests'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000648:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for LOOK
+  url: '-'
+- access_status: fetched
+  digest: 213eb9f350abba52
+  extracted_facts:
+  - "Crossref title-search result: Dijkstra\u2019s Algorithm \u2014 The First Look"
+  reliability: MEDIUM
+  short_quote: ''
+  source_id: crossref_search:9f3842dfb4886f01
+  source_type: doi_metadata
+  title: "Dijkstra\u2019s Algorithm \u2014 The First Look"
+  url: https://doi.org/10.1007/978-1-4842-1410-7_20
+- source_id: crossref_search:226e0758bf81c80f
+  url: https://doi.org/10.1353/bcc.2006.0292
+  title: Look! Look! Look! (review)
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title: Look! Look! Look! (review)'
+  - 'published year: 2006'
+  - 'container title: Bulletin of the Center for Children''s Books'
+  short_quote: 'Crossref title: Look! Look! Look! (review) published year: 2006 container title: Bulletin of the Center for Children''s Books'
+  digest: a528572f11406c55
+- source_id: openalex:339b8589598425a9
+  url: https://openalex.org/W2142635246
+  title: A new look at the statistical model identification
+  source_type: openalex
+  access_status: fetched
+  reliability: HIGH
+  extracted_facts:
+  - 'OpenAlex title: A new look at the statistical model identification'
+  - 'publication year: 1974'
+  - 'abstract summary: The history of the development of statistical hypothesis testing in time series analysis is reviewed briefly and it is pointed out that the hypothesis testing procedure is not adequately defined as the procedure for statistical model identification.'
+  short_quote: 'OpenAlex title: A new look at the statistical model identification publication year: 1974 abstract summary: The history of the development of statistical hypothesis testing'
+  digest: 396450a0482004e8
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

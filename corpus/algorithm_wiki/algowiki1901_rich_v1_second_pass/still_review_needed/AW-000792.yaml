@@ -1,0 +1,35 @@
+algorithm_id: AW-000792
+canonical_name: Richardson and Domingos
+enrichment_status: SECOND_PASS_INSUFFICIENT
+review_reasons:
+- No second-pass rule could identify source-backed task semantics.
+source_records:
+- access_status: metadata_only
+  digest: 33f16dcc818324b4
+  extracted_facts:
+  - 'AlgorithmWiki row name: Richardson and Domingos'
+  - 'domain: unknown'
+  - 'time complexity: O(mn)'
+  - 'space complexity: O(nl)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of pages, m: number of hyperlinks, l: number of words in lexicon'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000792:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Richardson and Domingos
+  url: https://homes.cs.washington.edu/~pedrod/papers/nips01b.pdf
+- source_id: crossref_search:20efd2b6410de94b
+  url: https://doi.org/10.31325/kjr.2022.12.45.99
+  title: A Metaphorical Analysis of P. Domingos" The Master Algorithm
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: A Metaphorical Analysis of P. Domingos" The Master Algorithm'
+  short_quote: ''
+  digest: 5e2efaf17b23f4ea
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

@@ -1,0 +1,75 @@
+id: AW-000059
+kind: context
+algorithm_id: AW-000059
+algorithm_name: "Bentley\u2013Ottmann algorithm"
+source_records:
+- access_status: metadata_only
+  digest: cf28b2831fedc3be
+  extracted_facts:
+  - "AlgorithmWiki row name: Bentley\u2013Ottmann algorithm"
+  - 'domain: computational_geometry'
+  - 'time complexity: O(n \log n + k \log n)'
+  - 'space complexity: O(n)'
+  - 'computational model: Real RAM'
+  - 'parameter definitions: n: number of line segments, k: number of points of intersection'
+  - 'precard summary: Given explicit geometric objects such as points, segments, or polygons, compute the requested geometric structure or witness set. Baseline: time O(n \log n + k \log n); space O(n). Bottleneck: geometric predicates, ordering events, and output-sensitive structure size dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000059:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: "AlgorithmWiki metadata for Bentley\u2013Ottmann algorithm"
+  url: https://doi.org/10.1109%2FTC.1979.1675432
+- access_status: fetched
+  digest: 8a4fed991506518d
+  extracted_facts:
+  - 'DOI title: Algorithms for Reporting and Counting Geometric Intersections'
+  - 'published year: 1979'
+  - 'container title: IEEE Transactions on Computers'
+  reliability: HIGH
+  short_quote: ''
+  source_id: crossref:772108955f7df086
+  source_type: doi_metadata
+  title: Algorithms for Reporting and Counting Geometric Intersections
+  url: https://doi.org/10.1109/TC.1979.1675432
+- access_status: fetched
+  digest: 084b8ab565df014a
+  extracted_facts:
+  - 'source page title: https://doi.org/10.1109%2FTC.1979.1675432'
+  - 'source page description: In order to continue, we need to verify that you''re not a robot.'
+  reliability: HIGH
+  short_quote: In order to continue, we need to verify that you're not a robot.
+  source_id: source:d1b2764ef6662394
+  source_type: doi_metadata
+  title: https://doi.org/10.1109%2FTC.1979.1675432
+  url: https://doi.org/10.1109%2FTC.1979.1675432
+web_query_attempts:
+- method: search_plan
+  query: "Bentley\u2013Ottmann algorithm algorithm input output complexity"
+  status: recorded
+- method: search_plan
+  query: "Bentley\u2013Ottmann algorithm algorithm pseudocode"
+  status: recorded
+- method: search_plan
+  query: "Bentley\u2013Ottmann algorithm problem definition"
+  status: recorded
+- method: search_plan
+  query: "Bentley\u2013Ottmann algorithm computational geometry algorithm"
+  status: recorded
+- method: search_plan
+  query: "Bentley\u2013Ottmann algorithm site:nist.gov DADS"
+  status: recorded
+- method: search_plan
+  query: "Bentley\u2013Ottmann algorithm algorithm wiki"
+  status: recorded
+- method: search_plan
+  query: https://doi.org/10.1109%2FTC.1979.1675432
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1109/TC.1979.1675432
+  status: fetched
+- method: source_link_html_metadata
+  query: https://doi.org/10.1109%2FTC.1979.1675432
+  status: fetched
+extracted_problem_statement: "Bentley\u2013Ottmann algorithm is treated as a classical computational geometry task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Bentley\u2013Ottmann algorithm. Input semantics: Explicit geometric objects such as points, line segments, polygons, or planar subdivisions. Output semantics: The requested geometric structure, simplified curve, clipping result, intersection set, hull, or diagram."
+extracted_algorithm_summary: "Bentley\u2013Ottmann algorithm is a computational geometry algorithm record. Classical complexity metadata: time O(n \\log n + k \\log n); space O(n). The stated classical model is Real RAM. Public metadata/source text adds: Bentley\u2013Ottmann algorithm computational_geometry computational_geometry n: number of line segments, k: number of points of intersection O(n \\log n + k \\log n) Given explicit geometric objects such as points, segments, or polygons, compute the requested geometric structure or witness set."
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

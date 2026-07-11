@@ -1,0 +1,45 @@
+id: AW-000941
+kind: context
+algorithm_id: AW-000941
+algorithm_name: GSAT
+source_records:
+- access_status: metadata_only
+  digest: 9ffd3d010c7a2ac8
+  extracted_facts:
+  - 'AlgorithmWiki row name: GSAT'
+  - 'domain: optimization'
+  - 'time complexity: O(n*mt*mf)'
+  - 'space complexity: O(n)'
+  - 'parameter definitions: n: number of variables, mt: maximum assignments tested, mf: maximum flips per assignment'
+  - 'precard summary: Given an explicit optimization instance, compute a feasible solution, schedule, assignment, or approximation with the stated classical guarantees. Baseline: time O(n*mt*mf); space O(n). Bottleneck: search-space size, feasibility constraints, and solution quality dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000941:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for GSAT
+  url: http://www.cs.cornell.edu/selman/papers/pdf/92.aaai.gsat.pdf
+web_query_attempts:
+- method: search_plan
+  query: GSAT algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: GSAT algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: GSAT problem definition
+  status: recorded
+- method: search_plan
+  query: GSAT optimization algorithm
+  status: recorded
+- method: search_plan
+  query: GSAT site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: GSAT algorithm wiki
+  status: recorded
+- method: search_plan
+  query: http://www.cs.cornell.edu/selman/papers/pdf/92.aaai.gsat.pdf
+  status: recorded
+extracted_problem_statement: 'GSAT is treated as a classical optimization task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with GSAT. Input semantics: An explicit feasible-region, objective, scheduling, assignment, or knapsack-style instance. Output semantics: An optimal or approximate feasible solution with its objective value or schedule/assignment representation.'
+extracted_algorithm_summary: 'GSAT is a optimization algorithm record. Classical complexity metadata: time O(n*mt*mf); space O(n). Public metadata/source text adds: GSAT optimization optimization n: number of variables, mt: maximum assignments tested, mf: maximum flips per assignment O(n*mt*mf) Given an explicit optimization instance, compute a feasible solution, schedule, assignment, or approximation with the stated classical guarantees.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

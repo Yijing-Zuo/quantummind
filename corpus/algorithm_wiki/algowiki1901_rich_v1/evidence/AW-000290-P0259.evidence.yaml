@@ -1,0 +1,43 @@
+id: AW-000290-P0259
+kind: probe
+algorithm_id: AW-000290
+algorithm_name: K. Mikolajczyk K. and C. Schmid LoG 2004
+source_records:
+- access_status: metadata_only
+  digest: a99c318c971fa0f1
+  extracted_facts:
+  - 'AlgorithmWiki row name: K. Mikolajczyk K. and C. Schmid LoG 2004'
+  - 'domain: robotics'
+  - 'time complexity: O(n^2)'
+  - 'precard summary: Given an explicit robotics planning instance, compute a feasible path, motion plan, or configuration sequence under the stated constraints. Baseline: time O(n^2). Bottleneck: the classical output may be large, so output size is a first-order cost.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000290:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for K. Mikolajczyk K. and C. Schmid LoG 2004
+  url: https://www.robots.ox.ac.uk/~vgg/research/affine/det_eval_files/mikolajczyk_pami2004.pdf
+web_query_attempts:
+- method: search_plan
+  query: K. Mikolajczyk K. and C. Schmid LoG 2004 algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: K. Mikolajczyk K. and C. Schmid LoG 2004 algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: K. Mikolajczyk K. and C. Schmid LoG 2004 problem definition
+  status: recorded
+- method: search_plan
+  query: K. Mikolajczyk K. and C. Schmid LoG 2004 robotics algorithm
+  status: recorded
+- method: search_plan
+  query: K. Mikolajczyk K. and C. Schmid LoG 2004 site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: K. Mikolajczyk K. and C. Schmid LoG 2004 algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://www.robots.ox.ac.uk/~vgg/research/affine/det_eval_files/mikolajczyk_pami2004.pdf
+  status: recorded
+extracted_problem_statement: 'K. Mikolajczyk K. and C. Schmid LoG 2004 is treated as a classical robotics task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with K. Mikolajczyk K. and C. Schmid LoG 2004. Input semantics: A robot state-estimation or planning instance with observations, controls, map, or configuration constraints. Output semantics: A state estimate, map, path, configuration sequence, or control-relevant output.'
+extracted_algorithm_summary: 'K. Mikolajczyk K. and C. Schmid LoG 2004 is a robotics algorithm record. Classical complexity metadata: time O(n^2). Public metadata/source text adds: K. Mikolajczyk K. and C. Schmid LoG 2004 robotics robotics O(n^2) Given an explicit robotics planning instance, compute a feasible path, motion plan, or configuration sequence under the stated constraints.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

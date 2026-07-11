@@ -1,0 +1,35 @@
+algorithm_id: AW-000878
+canonical_name: Sthele, Zimmermann
+enrichment_status: SECOND_PASS_INSUFFICIENT
+review_reasons:
+- No second-pass rule could identify source-backed task semantics.
+source_records:
+- access_status: metadata_only
+  digest: 57c4775ed50457fd
+  extracted_facts:
+  - 'AlgorithmWiki row name: Sthele, Zimmermann'
+  - 'domain: unknown'
+  - 'time complexity: O(n \log^2 n \log \log n)'
+  - 'space complexity: O(n)'
+  - 'computational model: Word RAM words size O(1)'
+  - 'parameter definitions: n: sum of number of bits among the two integers'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000878:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Sthele, Zimmermann
+  url: https://hal.inria.fr/file/index/docid/71533/filename/RR-5050.pdf
+- source_id: crossref_search:e4b751702959aeb0
+  url: https://doi.org/10.1163/2405-8262_rgg4_sim_026527
+  title: Zimmermann
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: Zimmermann'
+  short_quote: ''
+  digest: fe740d0da0ce311e
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

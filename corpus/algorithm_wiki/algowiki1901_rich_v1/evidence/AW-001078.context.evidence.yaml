@@ -1,0 +1,58 @@
+id: AW-001078
+kind: context
+algorithm_id: AW-001078
+algorithm_name: Owens, JaJa (1)
+source_records:
+- access_status: metadata_only
+  digest: 435f9b31b39e1703
+  extracted_facts:
+  - 'AlgorithmWiki row name: Owens, JaJa (1)'
+  - 'domain: sorting'
+  - 'time complexity: O(n +n^2/p^2)'
+  - 'computational model: sorting network (serial memories)'
+  - 'parameter definitions: n: size of list, p: number of processors, 1<=p<=n'
+  - 'precard summary: Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model. Baseline: time O(n +n^2/p^2); work O(np +n^2/p); span/depth O(n); processors p. Bottleneck: comparison, distribution, and full-output movement costs dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001078:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Owens, JaJa (1)
+  url: https://ieeexplore.ieee.org/abstract/document/5009391
+- access_status: skipped
+  digest: 2bfde5321390076d
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:78b495b6ba7fb8c9
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://ieeexplore.ieee.org/abstract/document/5009391
+web_query_attempts:
+- method: search_plan
+  query: Owens, JaJa (1) algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Owens, JaJa (1) algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Owens, JaJa (1) problem definition
+  status: recorded
+- method: search_plan
+  query: Owens, JaJa (1) sorting algorithm
+  status: recorded
+- method: search_plan
+  query: Owens, JaJa (1) site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Owens, JaJa (1) algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://ieeexplore.ieee.org/abstract/document/5009391
+  status: recorded
+- method: source_link_html_metadata
+  query: https://ieeexplore.ieee.org/abstract/document/5009391
+  status: skipped
+extracted_problem_statement: 'Owens, JaJa (1) is treated as a classical sorting task for rich AlgorithmWiki discovery. Problem/task: sort the input sequence using the named classical sorting method. Input semantics: A finite array or list of comparable keys or records. Output semantics: The same items returned in nondecreasing order, usually as a full reordered sequence.'
+extracted_algorithm_summary: 'Owens, JaJa (1) is a sorting algorithm record. Classical complexity metadata: time O(n +n^2/p^2); work O(np +n^2/p); span/depth O(n); processors p. The stated classical model is sorting network (serial memories). Public metadata/source text adds: Owens, JaJa (1) sorting sorting n: size of list, p: number of processors, 1<=p<=n O(n +n^2/p^2) Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

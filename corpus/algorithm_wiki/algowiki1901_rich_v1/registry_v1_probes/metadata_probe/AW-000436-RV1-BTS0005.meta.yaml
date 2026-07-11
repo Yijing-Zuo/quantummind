@@ -1,0 +1,64 @@
+probe_id: AW-000436-RV1-BTS0005
+algorithm_id: AW-000436-RV1-BTS0005
+canonical_name: Basic Local Alignment Search Tool (BLAST) backtracking_tree_probe
+readiness: READY_PUBLIC_PROBE
+quality_score: 100
+parent_algorithm_id: AW-000436
+parent_algorithm_name: Basic Local Alignment Search Tool (BLAST)
+target_registry_primitive: quantum_backtracking_tree_search
+probe_type: backtracking_tree_probe
+source_card_type: probe
+source_card_paths:
+- corpus\algorithm_wiki\algowiki1901_rich_v1\public_context\AW-000436.yaml
+- corpus\algorithm_wiki\algowiki1901_rich_v1\public_probe\AW-000436-P0313.yaml
+source_metadata_paths:
+- corpus\algorithm_wiki\algowiki1901_rich_v1\metadata_probe\AW-000436-P0313.meta.yaml
+introduced_assumptions:
+- bounded_backtracking_tree
+- bounded_tree_depth
+- coherent_child_and_predicate_oracles
+required_promises:
+- bounded_backtracking_tree
+- bounded_tree_depth
+- coherent_child_and_predicate_oracles
+- marked_leaf_exists
+original_input_model: explicit_string_problem
+original_access_model: coherent_boolean_oracle
+original_output_contract: one_witness
+probe_input_model: implicit_backtracking_tree_problem
+probe_access_model: coherent_backtracking_tree_oracle
+probe_output_contract: one_solution_leaf
+not_end_to_end_claim: true
+expected_authority: query_or_subroutine_hypothesis_only
+why_probe_is_scientifically_interesting: The source text supports a witness, feasible-object, branching, or constraint-search subproblem that can be stated as one marked leaf under explicit bounds.
+why_probe_may_fail: The source may not supply bounded tree depth/size or coherent child/predicate oracles.
+overgeneration_risk: medium
+source_records_used:
+- AW-000436:algorithm_wiki_metadata
+- source:76317d9c9d37e3cc
+screening_decision_source:
+  screening_manifest: corpus\algorithm_wiki\algowiki1901_rich_v1\registry_v1_probes\manifests\registry_v1_screening.csv
+  decision: GENERATE_REGISTRY_V1_PROBE
+  opportunity_score: 7
+inferred_input_model: implicit_backtracking_tree_problem
+inferred_access_model: coherent_backtracking_tree_oracle
+inferred_output_contract: one_solution_leaf
+inferred_size_parameters:
+- 'Parameter definition: n, m: lengths of input strings assume n\geq m'
+- 'T, d: introduced search-tree size and depth bounds for the isolated subroutine.'
+inferred_promises:
+- bounded_backtracking_tree
+- bounded_tree_depth
+- coherent_child_and_predicate_oracles
+- marked_leaf_exists
+- oracle_model_assumption
+inferred_ambiguities:
+- This is an assumption-bearing query/subroutine probe and is not an end-to-end speedup claim.
+- Search-tree bounds, child generation, and predicate reversibility are introduced assumptions.
+- The parent task may require dynamic-programming tables, full paths, or all solutions outside this probe.
+source_count: 2
+source_quality: HIGH
+confidence_score: 100
+card_digest: 67dde682b12972d6
+extraction_version: algorithm-wiki-registry-v1-probe-v1
+root_dataset: corpus\algorithm_wiki\algowiki1901_rich_v1

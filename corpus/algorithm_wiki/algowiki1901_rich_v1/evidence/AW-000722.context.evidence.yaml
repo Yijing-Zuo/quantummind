@@ -1,0 +1,75 @@
+id: AW-000722
+kind: context
+algorithm_id: AW-000722
+algorithm_name: Sorting based [Merge Sort] + real-time elimination
+source_records:
+- access_status: metadata_only
+  digest: ae4e39b0f012ab4d
+  extracted_facts:
+  - 'AlgorithmWiki row name: Sorting based [Merge Sort] + real-time elimination'
+  - 'domain: sorting'
+  - 'time complexity: O(n \log n)'
+  - 'space complexity: O(n)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of records'
+  - 'precard summary: Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model. Baseline: time O(n \log n); space O(n). Bottleneck: comparison, distribution, and full-output movement costs dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000722:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Sorting based [Merge Sort] + real-time elimination
+  url: https://dl.acm.org/doi/abs/10.1145/319983.319987
+- access_status: fetched
+  digest: 55a6c341cb2419f5
+  extracted_facts:
+  - 'DOI title: Duplicate record elimination in large data files'
+  - 'published year: 1983'
+  - 'container title: ACM Transactions on Database Systems'
+  - 'abstract summary: The issue of duplicate elimination for large data files in which many occurrences of the same record may appear is addressed.'
+  reliability: HIGH
+  short_quote: The issue of duplicate elimination for large data files in which many occurrences of the same record may appear is addressed.
+  source_id: crossref:3996005e68b96491
+  source_type: doi_metadata
+  title: Duplicate record elimination in large data files
+  url: https://doi.org/10.1145/319983.319987
+- access_status: failed
+  digest: 1daab23def881486
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:422e9afb68969f2f
+  source_type: publisher_abstract
+  title: 'HTTP Error 403: Forbidden'
+  url: https://dl.acm.org/doi/abs/10.1145/319983.319987
+web_query_attempts:
+- method: search_plan
+  query: Sorting based [Merge Sort] + real-time elimination algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Sorting based [Merge Sort] + real-time elimination algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Sorting based [Merge Sort] + real-time elimination problem definition
+  status: recorded
+- method: search_plan
+  query: Sorting based [Merge Sort] + real-time elimination sorting algorithm
+  status: recorded
+- method: search_plan
+  query: Sorting based [Merge Sort] + real-time elimination site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Sorting based [Merge Sort] + real-time elimination algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://dl.acm.org/doi/abs/10.1145/319983.319987
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1145/319983.319987
+  status: fetched
+- method: source_link_html_metadata
+  query: https://dl.acm.org/doi/abs/10.1145/319983.319987
+  status: failed
+extracted_problem_statement: 'Sorting based [Merge Sort] + real-time elimination is treated as a classical sorting task for rich AlgorithmWiki discovery. Problem/task: sort the input sequence using the named classical sorting method. Input semantics: A finite array or list of comparable keys or records. Output semantics: The same items returned in nondecreasing order, usually as a full reordered sequence.'
+extracted_algorithm_summary: 'Sorting based [Merge Sort] + real-time elimination is a sorting algorithm record. Classical complexity metadata: time O(n \log n); space O(n). The stated classical model is Word RAM. Public metadata/source text adds: Sorting based [Merge Sort] + real-time elimination sorting sorting n: number of records O(n \log n) Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

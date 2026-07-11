@@ -1,0 +1,72 @@
+id: AW-001764
+kind: context
+algorithm_id: AW-001764
+algorithm_name: Schieber Vishkin [Parallel]
+source_records:
+- access_status: metadata_only
+  digest: d1d0b36e93d2d52c
+  extracted_facts:
+  - 'AlgorithmWiki row name: Schieber Vishkin [Parallel]'
+  - 'domain: graph'
+  - 'time complexity: O(m+\log(n))'
+  - 'space complexity: https://www.proquest.com/docview/919780720?pq-origsite=gscholar&fromopenview=true'
+  - 'computational model: EREW PRAM'
+  - 'parameter definitions: n: number of vertices, m: number of total number of op.s (queries, links, cuts)'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(m+\log(n)); work O(m+n); span/depth O(m+\log(n)); processors O(n/log n). Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001764:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Schieber Vishkin [Parallel]
+  url: https://epubs.siam.org/doi/abs/10.1137/0217079?journalCode=smjcat
+- access_status: skipped
+  digest: 551c28435488939a
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:8aa0179d01f321fe
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1137/0217079
+- access_status: skipped
+  digest: b0663ad89d9c1e46
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:bf55da013a8874cc
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://epubs.siam.org/doi/abs/10.1137/0217079?journalCode=smjcat
+web_query_attempts:
+- method: search_plan
+  query: Schieber Vishkin [Parallel] algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Schieber Vishkin [Parallel] algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Schieber Vishkin [Parallel] problem definition
+  status: recorded
+- method: search_plan
+  query: Schieber Vishkin [Parallel] graph algorithm
+  status: recorded
+- method: search_plan
+  query: Schieber Vishkin [Parallel] site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Schieber Vishkin [Parallel] algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://epubs.siam.org/doi/abs/10.1137/0217079?journalCode=smjcat
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1137/0217079
+  status: skipped
+- method: source_link_html_metadata
+  query: https://epubs.siam.org/doi/abs/10.1137/0217079?journalCode=smjcat
+  status: skipped
+extracted_problem_statement: 'Schieber Vishkin [Parallel] is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Schieber Vishkin [Parallel]. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'Schieber Vishkin [Parallel] is a graph algorithm record. Classical complexity metadata: time O(m+\log(n)); space https://www.proquest.com/docview/919780720?pq-origsite=gscholar&fromopenview=true; work O(m+n); span/depth O(m+\log(n)); processors O(n/log n). The stated classical model is EREW PRAM. Public metadata/source text adds: Schieber Vishkin [Parallel] graph graph n: number of vertices, m: number of total number of op.s (queries, links, cuts) O(m+\log(n)) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

@@ -1,0 +1,57 @@
+algorithm_family: randomized sampling
+algorithm_id: AW-001206
+approximate: '0'
+approximation_factor: ''
+blind_name: Algorithm Wiki public task AW-001206
+canonical_name: regular sampling - Helman, JaJa, Bader (2)
+computational_model: communication model similar to LogP and BSP
+domain: randomized_sampling
+extracted_description: ''
+extraction_version: algorithm-wiki-rich-context-v1
+family: randomized_sampling
+inferred_access_model: explicit_numeric_parameters
+inferred_ambiguities:
+- No independent fetched public metadata source resolved this row beyond AlgorithmWiki metadata/source-link facts.
+- Some details are reconstructed from AlgorithmWiki metadata rather than an independently fetched full public description.
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.
+inferred_input_model: explicit_numerical_problem
+inferred_output_contract: estimate
+inferred_problem_statement: 'regular sampling - Helman, JaJa, Bader (2) is treated as a classical randomized sampling task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with regular sampling - Helman, JaJa, Bader (2). Input semantics: A probability model, data set, or sampler description together with requested estimator parameters. Output semantics: A sample, estimate, or approximate value with the stated randomized or statistical semantics.'
+inferred_promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+inferred_size_parameters:
+- 'Parameter definition: n: size of list (has to be floats), p: number of processors, \sigma and \tau probably small and ignorable'
+- p = stated number of processors (p)
+number_of_processors: p
+page_digest: ''
+page_fetch_status: not_found
+page_url: ''
+parameter_definitions: 'n: size of list (has to be floats), p: number of processors, \sigma and \tau probably small and ignorable'
+problem_name: randomized sampling
+quality_flags:
+- domain_inferred
+- problem_statement_inferred
+- io_access_output_inferred
+- has_complexity_semantics
+- has_size_parameters
+- has_computational_model
+quality_score: 100
+randomized: '0'
+readiness: READY_PUBLIC_CONTEXT
+review_reasons: []
+source_link: https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=1ff21105c4a94c83e227dd52fd1aca13091f14af
+source_link_type: citeseerx
+space_complexity: ''
+span_depth: O(\log{n})
+time_complexity: O(n/p \log{n} + \tau + n/p \sigma)
+variation: ''
+work: O(n \log{n})
+year: '1996'
+rich_card_kind: context
+source_records_used:
+- AW-001206:algorithm_wiki_metadata
+source_count: 1
+source_quality: HIGH
+confidence_score: 100
+card_digest: d26298fcd1a40ac9

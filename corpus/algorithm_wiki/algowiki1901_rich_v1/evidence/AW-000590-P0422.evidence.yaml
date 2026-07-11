@@ -1,0 +1,74 @@
+id: AW-000590-P0422
+kind: probe
+algorithm_id: AW-000590
+algorithm_name: Kazuhisa Makino, Takeaki Uno Section 5
+source_records:
+- access_status: metadata_only
+  digest: a3b71a7b28dfde32
+  extracted_facts:
+  - 'AlgorithmWiki row name: Kazuhisa Makino, Takeaki Uno Section 5'
+  - 'domain: graph'
+  - 'time complexity: O(n^{\omega} 3^{n/3})'
+  - 'space complexity: O(n^2)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of vertices, m: number of edges, \omega: exponent on matrix multiplication'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(n^{\omega} 3^{n/3}); space O(n^2). Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000590:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Kazuhisa Makino, Takeaki Uno Section 5
+  url: https://link.springer.com/chapter/10.1007/978-3-540-27810-8_23
+- access_status: fetched
+  digest: 9476ab73175592e0
+  extracted_facts:
+  - 'DOI title: New Algorithms for Enumerating All Maximal Cliques'
+  - 'published year: 2004'
+  - 'container title: Lecture Notes in Computer Science'
+  reliability: HIGH
+  short_quote: ''
+  source_id: crossref:1bbe71cf45df3c6b
+  source_type: doi_metadata
+  title: New Algorithms for Enumerating All Maximal Cliques
+  url: https://doi.org/10.1007/978-3-540-27810-8_23
+- access_status: skipped
+  digest: 8a63ac6912804c2b
+  extracted_facts:
+  - robots.txt disallowed fetch
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:30a7dc24ae6190c7
+  source_type: publisher_abstract
+  title: robots.txt disallowed fetch
+  url: https://link.springer.com/chapter/10.1007/978-3-540-27810-8_23
+web_query_attempts:
+- method: search_plan
+  query: Kazuhisa Makino, Takeaki Uno Section 5 algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Kazuhisa Makino, Takeaki Uno Section 5 algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Kazuhisa Makino, Takeaki Uno Section 5 problem definition
+  status: recorded
+- method: search_plan
+  query: Kazuhisa Makino, Takeaki Uno Section 5 graph algorithm
+  status: recorded
+- method: search_plan
+  query: Kazuhisa Makino, Takeaki Uno Section 5 site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Kazuhisa Makino, Takeaki Uno Section 5 algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://link.springer.com/chapter/10.1007/978-3-540-27810-8_23
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1007/978-3-540-27810-8_23
+  status: fetched
+- method: source_link_html_metadata
+  query: https://link.springer.com/chapter/10.1007/978-3-540-27810-8_23
+  status: skipped
+extracted_problem_statement: 'Kazuhisa Makino, Takeaki Uno Section 5 is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Kazuhisa Makino, Takeaki Uno Section 5. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The matrix product or bilinear multiplication output.'
+extracted_algorithm_summary: 'Kazuhisa Makino, Takeaki Uno Section 5 is a graph algorithm record. Classical complexity metadata: time O(n^{\omega} 3^{n/3}); space O(n^2). The stated classical model is Word RAM. Public metadata/source text adds: Kazuhisa Makino, Takeaki Uno Section 5 graph graph n: number of vertices, m: number of edges, \omega: exponent on matrix multiplication O(n^{\omega} 3^{n/3}) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

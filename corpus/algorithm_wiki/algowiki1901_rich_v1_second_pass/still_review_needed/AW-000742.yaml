@@ -1,0 +1,33 @@
+algorithm_id: AW-000742
+canonical_name: HORMANN K. GREINER G 1999
+enrichment_status: SECOND_PASS_INSUFFICIENT
+review_reasons:
+- No second-pass rule could identify source-backed task semantics.
+source_records:
+- access_status: metadata_only
+  digest: 5f20565a9ab595ee
+  extracted_facts:
+  - 'AlgorithmWiki row name: HORMANN K. GREINER G 1999'
+  - 'domain: unknown'
+  - 'time complexity: O(n^2)'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000742:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for HORMANN K. GREINER G 1999
+  url: https://www.inf.usi.ch/hormann/papers/Hormann.2000.MAE.pdf
+- source_id: crossref_search:73792d870779a7dc
+  url: https://doi.org/10.3390/a18030147
+  title: "Parallel CUDA-Based Optimization of the Intersection Calculation Process in the Greiner\u2013Hormann Algorithm"
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - "Crossref title-search result: Parallel CUDA-Based Optimization of the Intersection Calculation Process in the Greiner\u2013Hormann Algorithm"
+  - "abstract summary: The Greiner\u2013Hormann algorithm is a commonly used polygon overlay analysis algorithm."
+  short_quote: "The Greiner\u2013Hormann algorithm is a commonly used polygon overlay analysis algorithm."
+  digest: 405d08759d324808
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

@@ -1,0 +1,71 @@
+id: AW-001194
+kind: context
+algorithm_id: AW-001194
+algorithm_name: (padded sorting) Goldberg, Zwick
+source_records:
+- access_status: metadata_only
+  digest: b4177e9d15537272
+  extracted_facts:
+  - 'AlgorithmWiki row name: (padded sorting) Goldberg, Zwick'
+  - 'domain: sorting'
+  - 'time complexity: O(log n/(log k) loglog^3(k) 2^(O(\log*n-\log*k))'
+  - 'computational model: COMMON CRCW PRAM'
+  - 'parameter definitions: n: size of list'
+  - 'precard summary: Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model. Baseline: time O(log n/(log k) loglog^3(k) 2^(O(\log*n-\log*k)); work O(kn \log n/(\log k) loglog^3(k) 2^(O(\log*n-\log*k)); span/depth O(loglog^3(n)) (if k=n); processors kn. Bottleneck: comparison, distribution, and full-output movement costs dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001194:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for (padded sorting) Goldberg, Zwick
+  url: https://ieeexplore.ieee.org/abstract/document/377028
+- access_status: skipped
+  digest: 2bb65fcfdbb5cb61
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:3dca09c14668b3f3
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://ieeexplore.ieee.org/abstract/document/377028
+- access_status: skipped
+  digest: 24f3d3e1c7fd9835
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:b95c3461b881dbcd
+  source_type: wikipedia
+  title: fetch budget exhausted
+  url: https://en.wikipedia.org/wiki/%28padded_sorting%29_Goldberg%2C_Zwick
+web_query_attempts:
+- method: search_plan
+  query: (padded sorting) Goldberg, Zwick algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: (padded sorting) Goldberg, Zwick algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: (padded sorting) Goldberg, Zwick problem definition
+  status: recorded
+- method: search_plan
+  query: (padded sorting) Goldberg, Zwick sorting algorithm
+  status: recorded
+- method: search_plan
+  query: (padded sorting) Goldberg, Zwick site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: (padded sorting) Goldberg, Zwick algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://ieeexplore.ieee.org/abstract/document/377028
+  status: recorded
+- method: source_link_html_metadata
+  query: https://ieeexplore.ieee.org/abstract/document/377028
+  status: skipped
+- method: wikipedia_summary_search
+  query: (padded sorting) Goldberg, Zwick algorithm
+  status: skipped
+extracted_problem_statement: '(padded sorting) Goldberg, Zwick is treated as a classical sorting task for rich AlgorithmWiki discovery. Problem/task: sort the input sequence using the named classical sorting method. Input semantics: A finite array or list of comparable keys or records. Output semantics: The same items returned in nondecreasing order, usually as a full reordered sequence.'
+extracted_algorithm_summary: '(padded sorting) Goldberg, Zwick is a sorting algorithm record. Classical complexity metadata: time O(log n/(log k) loglog^3(k) 2^(O(\log*n-\log*k)); work O(kn \log n/(\log k) loglog^3(k) 2^(O(\log*n-\log*k)); span/depth O(loglog^3(n)) (if k=n); processors kn. The stated classical model is COMMON CRCW PRAM. Public metadata/source text adds: (padded sorting) Goldberg, Zwick sorting sorting n: size of list O(log n/(log k) loglog^3(k) 2^(O(\log*n-\log*k)) Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

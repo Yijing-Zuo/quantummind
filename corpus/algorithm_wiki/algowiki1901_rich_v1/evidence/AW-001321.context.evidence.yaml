@@ -1,0 +1,71 @@
+id: AW-001321
+kind: context
+algorithm_id: AW-001321
+algorithm_name: Liu, Chen
+source_records:
+- access_status: metadata_only
+  digest: 170eb6835055068f
+  extracted_facts:
+  - 'AlgorithmWiki row name: Liu, Chen'
+  - 'domain: dynamic_programming'
+  - 'time complexity: O(|LCS(X,Y)|)'
+  - 'computational model: Shenteng 1800 using MPI'
+  - 'parameter definitions: L: number of identical character pairs , |LCS(X,Y)|: the length of the LCS of X, Y.'
+  - 'precard summary: Given an explicit instance with overlapping subproblem structure, compute the full classical solution or value targeted by the dynamic-programming recurrence. Baseline: time O(|LCS(X,Y)|); work O(L); span/depth O(|LCS(X,Y)|). Bottleneck: subproblem count, transition evaluation, and table output dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001321:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Liu, Chen
+  url: https://link.springer.com/chapter/10.1007/978-0-387-77251-6_8
+- access_status: skipped
+  digest: f7e6760e86f2f97b
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:b300e64a047f7f7b
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1007/978-0-387-77251-6_8
+- access_status: skipped
+  digest: 3d8c479402cdffb4
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:932e0116e8fde246
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://link.springer.com/chapter/10.1007/978-0-387-77251-6_8
+web_query_attempts:
+- method: search_plan
+  query: Liu, Chen algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Liu, Chen algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Liu, Chen problem definition
+  status: recorded
+- method: search_plan
+  query: Liu, Chen dynamic programming algorithm
+  status: recorded
+- method: search_plan
+  query: Liu, Chen site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Liu, Chen algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://link.springer.com/chapter/10.1007/978-0-387-77251-6_8
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1007/978-0-387-77251-6_8
+  status: skipped
+- method: source_link_html_metadata
+  query: https://link.springer.com/chapter/10.1007/978-0-387-77251-6_8
+  status: skipped
+extracted_problem_statement: 'Liu, Chen is treated as a classical dynamic programming task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Liu, Chen. Input semantics: An explicit optimization or recurrence instance with overlapping subproblems. Output semantics: The optimal value, witness, schedule, segmentation, or table-derived solution for the recurrence.'
+extracted_algorithm_summary: 'Liu, Chen is a dynamic programming algorithm record. Classical complexity metadata: time O(|LCS(X,Y)|); work O(L); span/depth O(|LCS(X,Y)|). The stated classical model is Shenteng 1800 using MPI. Public metadata/source text adds: Liu, Chen dynamic_programming dynamic_programming L: number of identical character pairs , |LCS(X,Y)|: the length of the LCS of X, Y.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

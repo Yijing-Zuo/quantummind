@@ -1,0 +1,84 @@
+id: AW-001036
+kind: context
+algorithm_id: AW-001036
+algorithm_name: Parallel bucket-sort - Hirschberg (1)
+source_records:
+- access_status: metadata_only
+  digest: 0b7e73e4908b2a00
+  extracted_facts:
+  - 'AlgorithmWiki row name: Parallel bucket-sort - Hirschberg (1)'
+  - 'domain: sorting'
+  - 'time complexity: O(\log{n})'
+  - 'computational model: SIMD-SM-R'
+  - 'parameter definitions: n: size of list (integers from range {0, 1, 2, ..., m - 1})'
+  - 'precard summary: Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model. Baseline: time O(\log{n}); work O(n \\log{n}); span/depth O(\log{n}); processors n. Bottleneck: comparison, distribution, and full-output movement costs dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001036:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Parallel bucket-sort - Hirschberg (1)
+  url: https://dl.acm.org/doi/abs/10.1145/359576.359582
+- access_status: skipped
+  digest: d4fa7126e4fcde68
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:3eaa90db0998a1f9
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1145/359576.359582
+- access_status: skipped
+  digest: b88e7675d7ad6d71
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:30da6e08304641a9
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://dl.acm.org/doi/abs/10.1145/359576.359582
+- access_status: skipped
+  digest: b99efdf64a3f2ce4
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:48fb27e3d42ed864
+  source_type: wikipedia
+  title: fetch budget exhausted
+  url: https://en.wikipedia.org/wiki/Parallel_bucket-sort_-_Hirschberg_%281%29
+web_query_attempts:
+- method: search_plan
+  query: Parallel bucket-sort - Hirschberg (1) algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Parallel bucket-sort - Hirschberg (1) algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Parallel bucket-sort - Hirschberg (1) problem definition
+  status: recorded
+- method: search_plan
+  query: Parallel bucket-sort - Hirschberg (1) sorting algorithm
+  status: recorded
+- method: search_plan
+  query: Parallel bucket-sort - Hirschberg (1) site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Parallel bucket-sort - Hirschberg (1) algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://dl.acm.org/doi/abs/10.1145/359576.359582
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1145/359576.359582
+  status: skipped
+- method: source_link_html_metadata
+  query: https://dl.acm.org/doi/abs/10.1145/359576.359582
+  status: skipped
+- method: wikipedia_summary_search
+  query: Parallel bucket-sort - Hirschberg (1) algorithm
+  status: skipped
+extracted_problem_statement: 'Parallel bucket-sort - Hirschberg (1) is treated as a classical sorting task for rich AlgorithmWiki discovery. Problem/task: sort the input sequence using the named classical sorting method. Input semantics: A finite array or list of comparable keys or records. Output semantics: The same items returned in nondecreasing order, usually as a full reordered sequence.'
+extracted_algorithm_summary: 'Parallel bucket-sort - Hirschberg (1) is a sorting algorithm record. Classical complexity metadata: time O(\log{n}); work O(n \\log{n}); span/depth O(\log{n}); processors n. The stated classical model is SIMD-SM-R. Public metadata/source text adds: Parallel bucket-sort - Hirschberg (1) sorting sorting n: size of list (integers from range {0, 1, 2, ..., m - 1}) O(\log{n}) Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

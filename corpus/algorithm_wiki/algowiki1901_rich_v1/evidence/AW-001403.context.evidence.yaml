@@ -1,0 +1,71 @@
+id: AW-001403
+kind: context
+algorithm_id: AW-001403
+algorithm_name: Akl
+source_records:
+- access_status: metadata_only
+  digest: 8828c0cb6901426a
+  extracted_facts:
+  - 'AlgorithmWiki row name: Akl'
+  - 'domain: computational_geometry'
+  - 'time complexity: O(1)'
+  - 'computational model: SIMD with unbounded fan-in/CRCW PRAM'
+  - 'parameter definitions: n: number of line segments, h: number of points on the convex hull'
+  - 'precard summary: Given explicit geometric objects such as points, segments, or polygons, compute the requested geometric structure or witness set. Baseline: time O(1); work O(n^3); span/depth O(1); processors O(n^3). Bottleneck: geometric predicates, ordering events, and output-sensitive structure size dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001403:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Akl
+  url: https://link.springer.com/article/10.1007/BF01944471
+- access_status: skipped
+  digest: c0c6eecd92eb92aa
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:bb34436cfa5b9260
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1007/BF01944471
+- access_status: skipped
+  digest: d358f21ecf52d284
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:2c60b47303cffde9
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://link.springer.com/article/10.1007/BF01944471
+web_query_attempts:
+- method: search_plan
+  query: Akl algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Akl algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Akl problem definition
+  status: recorded
+- method: search_plan
+  query: Akl computational geometry algorithm
+  status: recorded
+- method: search_plan
+  query: Akl site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Akl algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://link.springer.com/article/10.1007/BF01944471
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1007/BF01944471
+  status: skipped
+- method: source_link_html_metadata
+  query: https://link.springer.com/article/10.1007/BF01944471
+  status: skipped
+extracted_problem_statement: 'Akl is treated as a classical computational geometry task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Akl. Input semantics: Explicit geometric objects such as points, line segments, polygons, or planar subdivisions. Output semantics: The requested geometric structure, simplified curve, clipping result, intersection set, hull, or diagram.'
+extracted_algorithm_summary: 'Akl is a computational geometry algorithm record. Classical complexity metadata: time O(1); work O(n^3); span/depth O(1); processors O(n^3). The stated classical model is SIMD with unbounded fan-in/CRCW PRAM. Public metadata/source text adds: Akl computational_geometry computational_geometry n: number of line segments, h: number of points on the convex hull O(1) Given explicit geometric objects such as points, segments, or polygons, compute the requested geometric structure or witness set.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

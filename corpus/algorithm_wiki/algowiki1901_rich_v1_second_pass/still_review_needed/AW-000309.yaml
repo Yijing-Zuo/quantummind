@@ -1,0 +1,32 @@
+algorithm_id: AW-000309
+canonical_name: Maximally stable extremal regions Matas 2002
+enrichment_status: SECOND_PASS_INSUFFICIENT
+review_reasons:
+- No second-pass rule could identify source-backed task semantics.
+source_records:
+- access_status: metadata_only
+  digest: 49f865569f9e0de7
+  extracted_facts:
+  - 'AlgorithmWiki row name: Maximally stable extremal regions Matas 2002'
+  - 'domain: unknown'
+  - 'time complexity: O(n^2 \log^3 n)'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000309:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Maximally stable extremal regions Matas 2002
+  url: ''
+- source_id: crossref_search:567e29b4ab570f53
+  url: https://doi.org/10.1007/978-3-031-05744-1_26
+  title: Maximally Stable Extremal Regions (MSER)
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: Maximally Stable Extremal Regions (MSER)'
+  short_quote: ''
+  digest: b1681e54767bafb2
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

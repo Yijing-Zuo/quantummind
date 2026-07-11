@@ -1,0 +1,71 @@
+id: AW-001511
+kind: context
+algorithm_id: AW-001511
+algorithm_name: Kruskal, Rudolph, Snir
+source_records:
+- access_status: metadata_only
+  digest: e46b52d4c2f944cd
+  extracted_facts:
+  - 'AlgorithmWiki row name: Kruskal, Rudolph, Snir'
+  - 'domain: graph'
+  - 'time complexity: O(m*log(n)/p + log(n)*log(p)'
+  - 'computational model: MIMD EREW'
+  - 'parameter definitions: n: number of nodes, m: number of edges, p: number of processors'
+  - 'precard summary: Given a weighted undirected graph, compute a minimum spanning tree or spanning forest according to the graph connectivity assumptions. Baseline: time O(m*log(n)/p + log(n)*log(p); work O(m*\log(n)); span/depth O(log(m)*log(n)); processors p <= m/log(m). Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001511:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Kruskal, Rudolph, Snir
+  url: https://link.springer.com/article/10.1007/BF01840376
+- access_status: skipped
+  digest: a6db7abfa7f734d7
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:71965537af1678ca
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1007/BF01840376
+- access_status: skipped
+  digest: 6d918a47ad92e409
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:18821c4ab1b7774f
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://link.springer.com/article/10.1007/BF01840376
+web_query_attempts:
+- method: search_plan
+  query: Kruskal, Rudolph, Snir algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Kruskal, Rudolph, Snir algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Kruskal, Rudolph, Snir problem definition
+  status: recorded
+- method: search_plan
+  query: Kruskal, Rudolph, Snir graph algorithm
+  status: recorded
+- method: search_plan
+  query: Kruskal, Rudolph, Snir site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Kruskal, Rudolph, Snir algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://link.springer.com/article/10.1007/BF01840376
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1007/BF01840376
+  status: skipped
+- method: source_link_html_metadata
+  query: https://link.springer.com/article/10.1007/BF01840376
+  status: skipped
+extracted_problem_statement: 'Kruskal, Rudolph, Snir is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Kruskal, Rudolph, Snir. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: A minimum spanning tree or forest for the weighted graph.'
+extracted_algorithm_summary: 'Kruskal, Rudolph, Snir is a graph algorithm record. Classical complexity metadata: time O(m*log(n)/p + log(n)*log(p); work O(m*\log(n)); span/depth O(log(m)*log(n)); processors p <= m/log(m). The stated classical model is MIMD EREW. Public metadata/source text adds: Kruskal, Rudolph, Snir graph graph n: number of nodes, m: number of edges, p: number of processors O(m*log(n)/p + log(n)*log(p) Given a weighted undirected graph, compute a minimum spanning tree or spanning forest according to the graph connectivity assumptions.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

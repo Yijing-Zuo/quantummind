@@ -1,0 +1,71 @@
+id: AW-001172
+kind: context
+algorithm_id: AW-001172
+algorithm_name: generalized bitonic sort - Liszka, Batcher
+source_records:
+- access_status: metadata_only
+  digest: 6202e99e4c4b852f
+  extracted_facts:
+  - 'AlgorithmWiki row name: generalized bitonic sort - Liszka, Batcher'
+  - 'domain: sorting'
+  - 'time complexity: O(\log^2{n})'
+  - 'computational model: sorting network'
+  - 'parameter definitions: n: size of list'
+  - 'precard summary: Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model. Baseline: time O(\log^2{n}); work O(n \log^4{n}); span/depth O(\log^2{n}); processors O(n \log^2{n}). Bottleneck: comparison, distribution, and full-output movement costs dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001172:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for generalized bitonic sort - Liszka, Batcher
+  url: https://ieeexplore.ieee.org/abstract/document/4134122?casa_token=cM5nTlnQteIAAAAA:kjHWCIc38Nd4SBQs76oK3j-6jsAIXuIM-m_cT3J9kU5wa4Y55SqT--IrK7EOsder37jZYEWC_w
+- access_status: skipped
+  digest: 9b0b8bf005f5dbaa
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:1331672d281bbbce
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://ieeexplore.ieee.org/abstract/document/4134122?casa_token=cM5nTlnQteIAAAAA:kjHWCIc38Nd4SBQs76oK3j-6jsAIXuIM-m_cT3J9kU5wa4Y55SqT--IrK7EOsder37jZYEWC_w
+- access_status: skipped
+  digest: c44505f2cda52550
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:83aa8f78f858750a
+  source_type: wikipedia
+  title: fetch budget exhausted
+  url: https://en.wikipedia.org/wiki/generalized_bitonic_sort_-_Liszka%2C_Batcher
+web_query_attempts:
+- method: search_plan
+  query: generalized bitonic sort - Liszka, Batcher algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: generalized bitonic sort - Liszka, Batcher algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: generalized bitonic sort - Liszka, Batcher problem definition
+  status: recorded
+- method: search_plan
+  query: generalized bitonic sort - Liszka, Batcher sorting algorithm
+  status: recorded
+- method: search_plan
+  query: generalized bitonic sort - Liszka, Batcher site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: generalized bitonic sort - Liszka, Batcher algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://ieeexplore.ieee.org/abstract/document/4134122?casa_token=cM5nTlnQteIAAAAA:kjHWCIc38Nd4SBQs76oK3j-6jsAIXuIM-m_cT3J9kU5wa4Y55SqT--IrK7EOsder37jZYEWC_w
+  status: recorded
+- method: source_link_html_metadata
+  query: https://ieeexplore.ieee.org/abstract/document/4134122?casa_token=cM5nTlnQteIAAAAA:kjHWCIc38Nd4SBQs76oK3j-6jsAIXuIM-m_cT3J9kU5wa4Y55SqT--IrK7EOsder37jZYEWC_w
+  status: skipped
+- method: wikipedia_summary_search
+  query: generalized bitonic sort - Liszka, Batcher algorithm
+  status: skipped
+extracted_problem_statement: 'generalized bitonic sort - Liszka, Batcher is treated as a classical sorting task for rich AlgorithmWiki discovery. Problem/task: sort the input sequence using the named classical sorting method. Input semantics: A finite array or list of comparable keys or records. Output semantics: The same items returned in nondecreasing order, usually as a full reordered sequence.'
+extracted_algorithm_summary: 'generalized bitonic sort - Liszka, Batcher is a sorting algorithm record. Classical complexity metadata: time O(\log^2{n}); work O(n \log^4{n}); span/depth O(\log^2{n}); processors O(n \log^2{n}). The stated classical model is sorting network. Public metadata/source text adds: generalized bitonic sort - Liszka, Batcher sorting sorting n: size of list O(\log^2{n}) Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

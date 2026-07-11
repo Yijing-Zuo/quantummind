@@ -1,0 +1,84 @@
+id: AW-001242
+kind: context
+algorithm_id: AW-001242
+algorithm_name: Multi-sort - Rakesh
+source_records:
+- access_status: metadata_only
+  digest: babe789716bb0afd
+  extracted_facts:
+  - 'AlgorithmWiki row name: Multi-sort - Rakesh'
+  - 'domain: sorting'
+  - 'time complexity: O(n^(1/4))'
+  - 'computational model: SIMD, multi-mesh of trees (MMT) architecture'
+  - 'parameter definitions: n: size of list'
+  - 'precard summary: Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model. Baseline: time O(n^(1/4)); work O(n^(5/4)); span/depth O(n^(1/4)); processors n. Bottleneck: comparison, distribution, and full-output movement costs dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001242:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Multi-sort - Rakesh
+  url: https://link.springer.com/article/10.1007/s11227-010-0404-4
+- access_status: skipped
+  digest: 4416204f8e74be70
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:aad7fed18f132ba4
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1007/s11227-010-0404-4
+- access_status: skipped
+  digest: 3366958e19da7bac
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:7d89b4b07881c6d7
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://link.springer.com/article/10.1007/s11227-010-0404-4
+- access_status: skipped
+  digest: daf8393cccda39e7
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:e43991b4958faa16
+  source_type: wikipedia
+  title: fetch budget exhausted
+  url: https://en.wikipedia.org/wiki/Multi-sort_-_Rakesh
+web_query_attempts:
+- method: search_plan
+  query: Multi-sort - Rakesh algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Multi-sort - Rakesh algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Multi-sort - Rakesh problem definition
+  status: recorded
+- method: search_plan
+  query: Multi-sort - Rakesh sorting algorithm
+  status: recorded
+- method: search_plan
+  query: Multi-sort - Rakesh site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Multi-sort - Rakesh algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://link.springer.com/article/10.1007/s11227-010-0404-4
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1007/s11227-010-0404-4
+  status: skipped
+- method: source_link_html_metadata
+  query: https://link.springer.com/article/10.1007/s11227-010-0404-4
+  status: skipped
+- method: wikipedia_summary_search
+  query: Multi-sort - Rakesh algorithm
+  status: skipped
+extracted_problem_statement: 'Multi-sort - Rakesh is treated as a classical sorting task for rich AlgorithmWiki discovery. Problem/task: sort the input sequence using the named classical sorting method. Input semantics: A finite array or list of comparable keys or records. Output semantics: The same items returned in nondecreasing order, usually as a full reordered sequence.'
+extracted_algorithm_summary: 'Multi-sort - Rakesh is a sorting algorithm record. Classical complexity metadata: time O(n^(1/4)); work O(n^(5/4)); span/depth O(n^(1/4)); processors n. The stated classical model is SIMD, multi-mesh of trees (MMT) architecture. Public metadata/source text adds: Multi-sort - Rakesh sorting sorting n: size of list O(n^(1/4)) Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

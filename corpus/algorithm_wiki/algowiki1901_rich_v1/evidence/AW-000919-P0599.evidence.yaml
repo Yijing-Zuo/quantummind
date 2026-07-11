@@ -1,0 +1,60 @@
+id: AW-000919-P0599
+kind: probe
+algorithm_id: AW-000919
+algorithm_name: Chand-Kapur, Gift Wrapping
+source_records:
+- access_status: metadata_only
+  digest: 5fda60308e79a61a
+  extracted_facts:
+  - 'AlgorithmWiki row name: Chand-Kapur, Gift Wrapping'
+  - 'domain: computational_geometry'
+  - 'time complexity: O(n*f_1)'
+  - 'computational model: Real RAM'
+  - 'parameter definitions: n: number of line segments, h: number of points on the convex hull, f_1: number of facets on the convex hull, f_2: number of subfacets on the convex hull'
+  - 'precard summary: Given explicit geometric objects such as points, segments, or polygons, compute the requested geometric structure or witness set. Baseline: time O(n*f_1). Bottleneck: geometric predicates, ordering events, and output-sensitive structure size dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000919:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Chand-Kapur, Gift Wrapping
+  url: https://dl.acm.org/doi/pdf/10.1145/321556.321564
+- access_status: fetched
+  digest: 74b6d8cb34c02ea0
+  extracted_facts:
+  - 'DOI title: An Algorithm for Convex Polytopes'
+  - 'published year: 1970'
+  - 'container title: Journal of the ACM'
+  reliability: HIGH
+  short_quote: ''
+  source_id: crossref:132fdbe234957388
+  source_type: doi_metadata
+  title: An Algorithm for Convex Polytopes
+  url: https://doi.org/10.1145/321556.321564
+web_query_attempts:
+- method: search_plan
+  query: Chand-Kapur, Gift Wrapping algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Chand-Kapur, Gift Wrapping algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Chand-Kapur, Gift Wrapping problem definition
+  status: recorded
+- method: search_plan
+  query: Chand-Kapur, Gift Wrapping computational geometry algorithm
+  status: recorded
+- method: search_plan
+  query: Chand-Kapur, Gift Wrapping site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Chand-Kapur, Gift Wrapping algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://dl.acm.org/doi/pdf/10.1145/321556.321564
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1145/321556.321564
+  status: fetched
+extracted_problem_statement: 'Chand-Kapur, Gift Wrapping is treated as a classical computational geometry task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Chand-Kapur, Gift Wrapping. Input semantics: Explicit geometric objects such as points, line segments, polygons, or planar subdivisions. Output semantics: The requested geometric structure, simplified curve, clipping result, intersection set, hull, or diagram.'
+extracted_algorithm_summary: 'Chand-Kapur, Gift Wrapping is a computational geometry algorithm record. Classical complexity metadata: time O(n*f_1). The stated classical model is Real RAM. Public metadata/source text adds: Chand-Kapur, Gift Wrapping computational_geometry computational_geometry n: number of line segments, h: number of points on the convex hull, f_1: number of facets on the convex hull, f_2: number of subfacets on the convex hull O(n*f_1) Given explicit geometric objects such as points, segments, or polygons, compute the requested geometric structure or witness set.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

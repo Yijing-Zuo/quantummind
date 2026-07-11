@@ -1,0 +1,13 @@
+statement: 'C-SCAN is included as a named whole-algorithm context card for a classical computational geometry task. The task is to analyze the classical input-output problem, not to certify an end-to-end improvement claim. Input semantics: A sampled surface, image-derived surface representation, or local geometric measurements. Output semantics: Curvature, local shape descriptors, or classified surface-geometry structures. Classical algorithm summary: C-SCAN is reconstructed as a classical computational geometry task. The source-backed title/name/fact record supports the task: analyze geometric surface shape, curvature, or local differential structure. Classical complexity recorded for this row: time O(n \log n); space O(n); computation model Word RAM. Dominant bottleneck: Local geometric derivative estimation and output descriptor materialization dominate. The useful review questions are whether the named structure exposes a smaller decision, witness, estimation, or algebraic subproblem;
+  whether the full output size dominates any asymptotic gain; and whether the stated access model is realistic for the original input. Provenance used for reconstruction includes public metadata or abstract sources such as Connection Scan Algorithm; Scan Monitor/Scan Wristwatch.'
+input_model: explicit_geometry_problem
+access_model: explicit_geometric_objects
+output_contract: full_solution
+promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+size_parameters:
+- 'Parameter definition: n: number of requests'
+ambiguities:
+- Some details are reconstructed from AlgorithmWiki metadata rather than an independently fetched full public description.
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.

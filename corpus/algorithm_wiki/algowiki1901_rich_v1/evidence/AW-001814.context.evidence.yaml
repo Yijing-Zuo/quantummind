@@ -1,0 +1,45 @@
+id: AW-001814
+kind: context
+algorithm_id: AW-001814
+algorithm_name: Cheetham et. al.
+source_records:
+- access_status: metadata_only
+  digest: 04bcfe39f3c0d108
+  extracted_facts:
+  - 'AlgorithmWiki row name: Cheetham et. al.'
+  - 'domain: graph'
+  - 'time complexity: O(((1.325)^k k^2 + kn)/p)'
+  - 'computational model: BSP/CGM'
+  - 'parameter definitions: n: number of vertices, m: number of edges, k: size of vertex cover (worst case O(n)), p: number of processors'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(((1.325)^k k^2 + kn)/p); work O(((1.325)^k k^2 + kn)); processors p. Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001814:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Cheetham et. al.
+  url: https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=5ae76bd80f9c074902c4aa079c3f485a3e3657bd
+web_query_attempts:
+- method: search_plan
+  query: Cheetham et. al. algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Cheetham et. al. algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Cheetham et. al. problem definition
+  status: recorded
+- method: search_plan
+  query: Cheetham et. al. graph algorithm
+  status: recorded
+- method: search_plan
+  query: Cheetham et. al. site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Cheetham et. al. algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=5ae76bd80f9c074902c4aa079c3f485a3e3657bd
+  status: recorded
+extracted_problem_statement: 'Cheetham et. al. is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Cheetham et. al.. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'Cheetham et. al. is a graph algorithm record. Classical complexity metadata: time O(((1.325)^k k^2 + kn)/p); work O(((1.325)^k k^2 + kn)); processors p. The stated classical model is BSP/CGM. Public metadata/source text adds: Cheetham et. al. graph graph n: number of vertices, m: number of edges, k: size of vertex cover (worst case O(n)), p: number of processors O(((1.325)^k k^2 + kn)/p) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

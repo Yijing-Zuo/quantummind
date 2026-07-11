@@ -1,0 +1,19 @@
+statement: 'Primal-Dual Stochastic Mirror Descent - Tiapkin, Gasnikov is included as a named whole-algorithm context card for a classical graph task. The task is to analyze the classical input-output problem, not to certify an end-to-end improvement claim. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: A path, path cost, or predecessor structure connecting the requested graph states. Classical algorithm summary: Primal-Dual Stochastic Mirror Descent - Tiapkin, Gasnikov is a graph algorithm record. Classical complexity metadata: work O((t_mix^2*S^2*A*\log(1/\\delta))/(\epsilon^2)); span/depth O((t_mix^2*S*log(1/delta))/(epsilon^2)); processors A_tot. The stated classical model is PRAM. Public metadata/source text adds: Primal-Dual Stochastic Mirror Descent - Tiapkin, Gasnikov graph graph A: size of set of actions, S: size of set of states, t_mix: mixing time of mdp for any policy, eps:
+  error parameter, delta: failure probability Given a weighted undirected graph, compute a minimum spanning tree or spanning forest according to the graph connectivity assumptions. Classical steps or pseudocode-level structure: Maintain a frontier ordered by path cost plus heuristic estimate, expand states, and return the recovered path when the target is reached. Classical complexity recorded for this row: time unknown; space unknown; computation model PRAM. Dominant bottleneck: graph traversal, priority/frontier maintenance, and materializing graph outputs. The useful review questions are whether the named structure exposes a smaller decision, witness, estimation, or algebraic subproblem; whether the full output size dominates any asymptotic gain; and whether the stated access model is realistic for the original input. Provenance is limited to AlgorithmWiki metadata and source-link facts; unresolved details are kept as ambiguities. Source-backed uncertainty or assumptions: The AlgorithmWiki
+  row marks the classical method as approximate.; No independent fetched public metadata source resolved this row beyond AlgorithmWiki metadata/source-link facts.'
+input_model: explicit_graph_problem
+access_model: edge_list_input
+output_contract: path_or_tree
+promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+- classical_approximation_algorithm
+- classical_parallel_model_recorded
+size_parameters:
+- 'Parameter definition: A: size of set of actions, S: size of set of states, t_mix: mixing time of mdp for any policy, eps: error parameter, delta: failure probability'
+- p = stated number of processors (A_tot)
+ambiguities:
+- The AlgorithmWiki row marks the classical method as approximate.
+- No independent fetched public metadata source resolved this row beyond AlgorithmWiki metadata/source-link facts.
+- Some details are reconstructed from AlgorithmWiki metadata rather than an independently fetched full public description.
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.

@@ -1,0 +1,63 @@
+algorithm_family: unknown
+algorithm_id: AW-000487
+approximate: '0'
+approximation_factor: ''
+blind_name: Algorithm Wiki public task AW-000487
+canonical_name: "Cooley\u2013Tukey algorithm"
+computational_model: Word/Real RAM
+domain: unknown
+extracted_description: ''
+extraction_version: algorithm-wiki-rich-third-pass-context-v1
+family: unknown
+inferred_access_model: random_access_string
+inferred_ambiguities:
+- Some details are reconstructed from AlgorithmWiki metadata rather than an independently fetched full public description.
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.
+inferred_input_model: explicit_combinatorial_problem
+inferred_output_contract: one_witness
+inferred_problem_statement: "Cooley\u2013Tukey algorithm is treated as a source-saturated AlgorithmWiki row for detect the preperiod and cycle in an iterated sequence Input semantics: An iterated function or sequence access plus parameters for preperiod and cycle length. Output semantics: The first cycle index and cycle length, or a repeated-state witness."
+inferred_promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+inferred_size_parameters:
+- 'Parameter definition: n: length of the input data set'
+number_of_processors: ''
+page_digest: ''
+page_fetch_status: not_found
+page_url: ''
+parameter_definitions: 'n: length of the input data set'
+problem_name: unknown
+quality_flags:
+- has_complexity_semantics
+- has_size_parameters
+- has_computational_model
+quality_score: 100
+randomized: '0'
+readiness: READY_PUBLIC_CONTEXT
+review_reasons:
+- missing_problem_statement
+- unknown_input_model
+- unknown_access_model
+- unknown_output_contract
+- insufficient_algorithm_level_structure
+source_link: https://www.ams.org/journals/mcom/1965-19-090/S0025-5718-1965-0178586-1/S0025-5718-1965-0178586-1.pdf
+source_link_type: pdf
+space_complexity: O(n)
+span_depth: ''
+time_complexity: O(n \log n)
+variation: ''
+work: ''
+year: '1965'
+rich_card_kind: context_recovered
+source_records_used:
+- AW-000487:algorithm_wiki_metadata
+- crossref_search:8599ceaa39aa74bd
+- skipped:86800b65d514ba87
+- crossref_search:aefbf295a322bc35
+- openalex:dc707be619c6c257
+source_count: 5
+source_quality: HIGH
+confidence_score: 100
+card_digest: 839cc16b95aab176
+third_pass_rule: third_pass_reuse_cycle_detection
+saturation_status: RECOVERED_CONTEXT

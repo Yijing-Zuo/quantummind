@@ -1,0 +1,44 @@
+id: AW-001771
+kind: context
+algorithm_id: AW-001771
+algorithm_name: Garcia
+source_records:
+- access_status: metadata_only
+  digest: 2b6c53145aae9e8d
+  extracted_facts:
+  - 'AlgorithmWiki row name: Garcia'
+  - 'domain: graph'
+  - 'computational model: fork/join shared memory'
+  - 'parameter definitions: m: number of edges, k: required clique size'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: work O(m^{k/2}); span/depth O(k m). Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001771:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Garcia
+  url: https://iris.uniroma1.it/bitstream/11573/1283982/1/Tesi_dottorato_Renan.pdf
+web_query_attempts:
+- method: search_plan
+  query: Garcia algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Garcia algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Garcia problem definition
+  status: recorded
+- method: search_plan
+  query: Garcia graph algorithm
+  status: recorded
+- method: search_plan
+  query: Garcia site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Garcia algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://iris.uniroma1.it/bitstream/11573/1283982/1/Tesi_dottorato_Renan.pdf
+  status: recorded
+extracted_problem_statement: 'Garcia is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Garcia. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'Garcia is a graph algorithm record. Classical complexity metadata: work O(m^{k/2}); span/depth O(k m). The stated classical model is fork/join shared memory. Public metadata/source text adds: Garcia graph graph m: number of edges, k: required clique size Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

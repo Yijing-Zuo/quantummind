@@ -1,0 +1,49 @@
+id: AW-000029
+kind: context
+algorithm_id: AW-000029
+algorithm_name: Counting Sort
+source_records:
+- access_status: metadata_only
+  digest: e84659b1689c7aa5
+  extracted_facts:
+  - 'AlgorithmWiki row name: Counting Sort'
+  - 'domain: sorting'
+  - 'time complexity: O(n+k)'
+  - 'space complexity: O(n+k)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: size of list, k: range of non-negative key values'
+  - 'precard summary: Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model. Baseline: time O(n+k); space O(n+k). Bottleneck: comparison, distribution, and full-output movement costs dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000029:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Counting Sort
+  url: http://bitsavers.org/pdf/mit/whirlwind/R-series/R-232_Information_Sorting_in_the_Application_of_Electronic_Digital_Computers_to_Business_Operations_May54.pdf
+web_query_attempts:
+- method: search_plan
+  query: Counting Sort algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Counting Sort algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Counting Sort problem definition
+  status: recorded
+- method: search_plan
+  query: Counting Sort sorting algorithm
+  status: recorded
+- method: search_plan
+  query: Counting Sort site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Counting Sort algorithm wiki
+  status: recorded
+- method: search_plan
+  query: http://bitsavers.org/pdf/mit/whirlwind/R-series/R-232_Information_Sorting_in_the_Application_of_Electronic_Digital_Computers_to_Business_Operations_May54.pdf
+  status: recorded
+- method: wikipedia_summary_search
+  query: Counting Sort algorithm
+  status: failed_or_not_relevant
+extracted_problem_statement: 'Counting Sort is treated as a classical sorting task for rich AlgorithmWiki discovery. Problem/task: sort the input sequence using the named classical sorting method. Input semantics: A finite array or list of comparable keys or records. Output semantics: The same items returned in nondecreasing order, usually as a full reordered sequence.'
+extracted_algorithm_summary: 'Counting Sort is a sorting algorithm record. Classical complexity metadata: time O(n+k); space O(n+k). The stated classical model is Word RAM. Public metadata/source text adds: Counting Sort sorting sorting n: size of list, k: range of non-negative key values O(n+k) Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

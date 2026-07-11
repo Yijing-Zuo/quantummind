@@ -1,0 +1,74 @@
+id: AW-000104
+kind: context_recovered
+algorithm_id: AW-000104
+algorithm_name: Faster Brute Force (via x[L:U] = x[L:U-1]+x[U])
+source_records:
+- access_status: metadata_only
+  digest: d2e66a3e542704f7
+  extracted_facts:
+  - 'AlgorithmWiki row name: Faster Brute Force (via x[L:U] = x[L:U-1]+x[U])'
+  - 'domain: unknown'
+  - 'time complexity: O(n^2)'
+  - 'space complexity: O(1)'
+  - 'computational model: Word/Real RAM'
+  - 'parameter definitions: n: length of array'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000104:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Faster Brute Force (via x[L:U] = x[L:U-1]+x[U])
+  url: https://dl.acm.org/doi/pdf/10.1145/358234.381162
+- access_status: fetched
+  digest: 9a42491c7ff398d5
+  extracted_facts:
+  - 'DOI title: Programming pearls'
+  - 'published year: 1984'
+  - 'container title: Communications of the ACM'
+  reliability: HIGH
+  short_quote: ''
+  source_id: crossref:0eafb38be4c80208
+  source_type: doi_metadata
+  title: Programming pearls
+  url: https://doi.org/10.1145/358234.381162
+- source_id: crossref_search:d6acc45ff5074844
+  url: https://doi.org/10.1145/3812.315108
+  title: Programming pearls
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: Programming pearls'
+  short_quote: ''
+  digest: 3f9eafcda2f79404
+web_query_attempts:
+- query: '"Faster Brute Force (via x[L:U] = x[L:U-1]+x[U])" algorithm'
+  method: search_plan
+  status: recorded
+- query: '"Faster Brute Force (via x[L:U] = x[L:U-1]+x[U])" input output'
+  method: search_plan
+  status: recorded
+- query: '"Faster Brute Force (via x[L:U] = x[L:U-1]+x[U])" time complexity'
+  method: search_plan
+  status: recorded
+- query: '"Faster Brute Force (via x[L:U] = x[L:U-1]+x[U])" pseudocode'
+  method: search_plan
+  status: recorded
+- query: '"Faster Brute Force (via x[L:U] = x[L:U-1]+x[U])" problem'
+  method: search_plan
+  status: recorded
+- query: '"Faster Brute Force (via x[L:U] = x[L:U-1]+x[U])" PDF metadata abstract'
+  method: search_plan
+  status: recorded
+- query: '"Programming pearls" algorithm'
+  method: search_plan
+  status: recorded
+- query: https://dl.acm.org/doi/pdf/10.1145/358234.381162
+  method: search_plan
+  status: recorded
+- query: Programming pearls algorithm
+  method: crossref_title_search
+  status: fetched
+extracted_problem_statement: 'Faster Brute Force (via x[L:U] = x[L:U-1]+x[U]) is reconstructed as a classical dynamic programming task. Problem/task: find a contiguous subarray with maximum sum Input semantics: A numeric array of length n. Output semantics: The maximum subarray value and optionally the interval attaining it.'
+extracted_algorithm_summary: 'Faster Brute Force (via x[L:U] = x[L:U-1]+x[U]) is treated as the named AlgorithmWiki variant for find a contiguous subarray with maximum sum Classical complexity metadata: time O(n^2); space O(1). Public metadata/source title support includes Programming pearls.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

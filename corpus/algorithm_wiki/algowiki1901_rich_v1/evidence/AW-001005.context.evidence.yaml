@@ -1,0 +1,56 @@
+id: AW-001005
+kind: context
+algorithm_id: AW-001005
+algorithm_name: Tarjan Splay Tree
+source_records:
+- access_status: metadata_only
+  digest: e3215bfadf31f21f
+  extracted_facts:
+  - 'AlgorithmWiki row name: Tarjan Splay Tree'
+  - 'domain: data_structures'
+  - 'time complexity: O(n)'
+  - 'space complexity: O(1)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of nodes'
+  - 'precard summary: Given an explicit collection of keys, items, or offline operations, construct or return the data-structure output targeted by the record. Baseline: time O(n); space O(1). Bottleneck: updates, queries, balancing, and stored representation size dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001005:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Tarjan Splay Tree
+  url: ''
+- access_status: skipped
+  digest: 72e80a33fa23d0a9
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:27c7617ade8398cd
+  source_type: wikipedia
+  title: fetch budget exhausted
+  url: https://en.wikipedia.org/wiki/Tarjan_Splay_Tree
+web_query_attempts:
+- method: search_plan
+  query: Tarjan Splay Tree algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Tarjan Splay Tree algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Tarjan Splay Tree problem definition
+  status: recorded
+- method: search_plan
+  query: Tarjan Splay Tree data structures algorithm
+  status: recorded
+- method: search_plan
+  query: Tarjan Splay Tree site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Tarjan Splay Tree algorithm wiki
+  status: recorded
+- method: wikipedia_summary_search
+  query: Tarjan Splay Tree algorithm
+  status: skipped
+extracted_problem_statement: 'Tarjan Splay Tree is treated as a classical data structures task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Tarjan Splay Tree. Input semantics: A set of records plus update/query operations for the named data structure. Output semantics: A maintained data structure representation and answers to its supported queries.'
+extracted_algorithm_summary: 'Tarjan Splay Tree is a data structures algorithm record. Classical complexity metadata: time O(n); space O(1). The stated classical model is Word RAM. Public metadata/source text adds: Tarjan Splay Tree data_structures data_structures n: number of nodes O(n) Given an explicit collection of keys, items, or offline operations, construct or return the data-structure output targeted by the record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

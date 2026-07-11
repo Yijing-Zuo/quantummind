@@ -1,0 +1,335 @@
+algorithm_id: AW-000357
+canonical_name: Controlled vertex/edge/face decimation - R. Ronfard and J. Rossignac 1996
+original_source_link: ''
+source_link_type: unknown
+previous_failure_reasons:
+- No second-pass rule could identify source-backed task semantics.
+previous_source_records:
+- access_status: metadata_only
+  digest: 60692d8115855d26
+  extracted_facts:
+  - 'AlgorithmWiki row name: Controlled vertex/edge/face decimation - R. Ronfard and J. Rossignac 1996'
+  - 'domain: unknown'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000357:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Controlled vertex/edge/face decimation - R. Ronfard and J. Rossignac 1996
+  url: ''
+- access_status: fetched
+  digest: 42b0f2935a7d9fe2
+  extracted_facts:
+  - 'Crossref title-search result: Fast Algorithm for Triangular Mesh Simplification Based on Vertex Decimation'
+  reliability: MEDIUM
+  short_quote: ''
+  source_id: crossref_search:b3bdd77037305a29
+  source_type: doi_metadata
+  title: Fast Algorithm for Triangular Mesh Simplification Based on Vertex Decimation
+  url: https://doi.org/10.1007/3-540-46080-2_5
+aliases_tried:
+- Controlled vertex/edge/face decimation - R. Ronfard and J. Rossignac 1996
+- Controlled vertex/edge/face decimation - R Ronfard and J Rossignac
+- Controlled vertex/edge/face decimation - R. Ronfard and J. Rossignac 1996 algorithm
+- Controlled vertex/edge/face decimation - R. Ronfard and J. Rossignac 1996 problem
+- Controlled vertex/edge/face decimation - R. Ronfard and J. Rossignac 1996 pseudocode
+- Controlled vertex/edge/face decimation - R. Ronfard and J. Rossignac 1996 time complexity
+- Fast Algorithm for Triangular Mesh Simplification Based on Vertex Decimation
+- Fast Algorithm for Triangular Mesh Simplification Based on Vertex Decimation algorithm
+- Fast Algorithm for Triangular Mesh Simplification Based on Vertex Decimation complexity
+query_plan:
+- source_family: original_source
+  primary_query: Controlled vertex/edge/face decimation - R. Ronfard and J. Rossignac 1996
+  applicability: applicable
+  purpose: check the row's original source link without storing paywalled or PDF bodies
+- source_family: crossref
+  primary_query: Controlled vertex/edge/face decimation - R. Ronfard and J. Rossignac 1996
+  applicability: title-search-only
+  purpose: recover DOI title, venue, year, and abstract metadata where available
+- source_family: openalex
+  primary_query: Controlled vertex/edge/face decimation - R. Ronfard and J. Rossignac 1996
+  applicability: applicable
+  purpose: recover public work metadata and abstract-inverted-index summaries
+- source_family: semantic_scholar
+  primary_query: Controlled vertex/edge/face decimation - R. Ronfard and J. Rossignac 1996
+  applicability: applicable
+  purpose: recover CS paper metadata and abstracts without an API key
+- source_family: arxiv
+  primary_query: Controlled vertex/edge/face decimation - R. Ronfard and J. Rossignac 1996
+  applicability: title-search-only
+  purpose: recover arXiv title and abstract metadata
+- source_family: dblp
+  primary_query: Controlled vertex/edge/face decimation - R. Ronfard and J. Rossignac 1996
+  applicability: applicable
+  purpose: recover bibliographic title/venue metadata for CS publications
+- source_family: publisher_abstract
+  primary_query: Controlled vertex/edge/face decimation - R. Ronfard and J. Rossignac 1996
+  applicability: applicable
+  purpose: check accessible publisher abstract pages
+- source_family: citeseerx
+  primary_query: Controlled vertex/edge/face decimation - R. Ronfard and J. Rossignac 1996
+  applicability: applicable
+  purpose: record legacy CiteSeerX availability without full PDF storage
+- source_family: wikipedia
+  primary_query: Controlled vertex/edge/face decimation - R. Ronfard and J. Rossignac 1996
+  applicability: applicable
+  purpose: check public encyclopedia algorithm descriptions
+- source_family: wikidata
+  primary_query: Controlled vertex/edge/face decimation - R. Ronfard and J. Rossignac 1996
+  applicability: applicable
+  purpose: check public entity aliases/descriptions
+- source_family: nist_dads
+  primary_query: Controlled vertex/edge/face decimation - R. Ronfard and J. Rossignac 1996
+  applicability: applicable
+  purpose: check whether a DADS-style reference search is applicable
+- source_family: algorithm_wiki_local
+  primary_query: Controlled vertex/edge/face decimation - R. Ronfard and J. Rossignac 1996
+  applicability: applicable
+  purpose: reuse AlgorithmWiki metadata as provenance
+- source_family: the_algorithms
+  primary_query: Controlled vertex/edge/face decimation - R. Ronfard and J. Rossignac 1996
+  applicability: applicable
+  purpose: check exact public implementation/reference names when available
+- source_family: cp_algorithms
+  primary_query: Controlled vertex/edge/face decimation - R. Ronfard and J. Rossignac 1996
+  applicability: applicable
+  purpose: check exact public algorithm reference names when available
+- source_family: course_notes
+  primary_query: Controlled vertex/edge/face decimation - R. Ronfard and J. Rossignac 1996
+  applicability: applicable
+  purpose: record absence of configured course-notes search
+- source_family: general_web_search
+  primary_query: Controlled vertex/edge/face decimation - R. Ronfard and J. Rossignac 1996
+  applicability: applicable
+  purpose: record absence of a configured general web endpoint
+- source_family: local_previous_cache
+  primary_query: Controlled vertex/edge/face decimation - R. Ronfard and J. Rossignac 1996
+  applicability: applicable
+  purpose: reuse v1/second-pass fetched source records
+query_attempts:
+- &id001
+  cycle: 1
+  query: Controlled vertex/edge/face decimation - R. Ronfard and J. Rossignac 1996
+  source_family: algorithm_wiki_local
+  url_or_api_endpoint: ''
+  status: fetched
+  new_facts_added: 4
+  reason: local metadata
+- &id002
+  cycle: 1
+  query: Controlled vertex/edge/face decimation - R. Ronfard and J. Rossignac 1996
+  source_family: local_previous_cache
+  url_or_api_endpoint: ''
+  status: duplicate
+  new_facts_added: 0
+  reason: previous v1/second-pass sources reused
+- &id003
+  cycle: 1
+  query: Controlled vertex/edge/face decimation - R. Ronfard and J. Rossignac 1996
+  source_family: original_source
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: no original source link
+- &id004
+  cycle: 1
+  query: Controlled vertex/edge/face decimation - R. Ronfard and J. Rossignac 1996
+  source_family: crossref
+  url_or_api_endpoint: https://doi.org/10.1016/j.dam.2003.07.008
+  status: fetched
+  new_facts_added: 6
+  reason: Crossref metadata/title search
+- &id005
+  cycle: 1
+  query: Controlled vertex/edge/face decimation - R. Ronfard and J. Rossignac 1996
+  source_family: arxiv
+  url_or_api_endpoint: https://export.arxiv.org/api/query?max_results=1&search_query=ti:%22Controlled+vertex%2Fedge%2Fface+decimation+-+R.+Ronfard+and+J.+Rossignac+1996%22
+  status: no_result
+  new_facts_added: 0
+  reason: arXiv title search returned no usable entry
+- &id006
+  cycle: 1
+  query: Controlled vertex/edge/face decimation - R. Ronfard and J. Rossignac 1996
+  source_family: wikipedia
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: Wikipedia search returned no relevant page
+source_attempts:
+- *id001
+- *id002
+- *id003
+- *id004
+- *id005
+- *id006
+discovered_sources:
+- source_id: crossref_search:0da8c7885885599e
+  url: https://doi.org/10.1016/j.dam.2003.07.008
+  title: Vertex-pancyclicity of edge-face-total graphs
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title: Vertex-pancyclicity of edge-face-total graphs'
+  - 'published year: 2004'
+  - 'container title: Discrete Applied Mathematics'
+  short_quote: 'Crossref title: Vertex-pancyclicity of edge-face-total graphs published year: 2004 container title: Discrete Applied Mathematics'
+  digest: a36547dee807e9ff
+discovered_facts:
+- fact_id: AW-000357-F498faa8f28
+  fact_type: alias
+  value: Controlled vertex/edge/face decimation - R. Ronfard and J. Rossignac 1996
+  source_id: AW-000357:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: AlgorithmWiki metadata
+- fact_id: AW-000357-Fc9c8413de9
+  fact_type: source_title
+  value: AlgorithmWiki metadata for Controlled vertex/edge/face decimation - R. Ronfard and J. Rossignac 1996
+  source_id: AW-000357:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000357-Fb2467de165
+  fact_type: problem_definition
+  value: 'Source title indicates: AlgorithmWiki metadata for Controlled vertex/edge/face decimation - R. Ronfard and J. Rossignac 1996'
+  source_id: AW-000357:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: weak
+  notes: previous_source_record
+- fact_id: AW-000357-F228d8c2cb4
+  fact_type: problem_definition
+  value: 'AlgorithmWiki row name: Controlled vertex/edge/face decimation - R. Ronfard and J. Rossignac 1996'
+  source_id: AW-000357:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000357-Fe2170ddc8f
+  fact_type: problem_definition
+  value: 'domain: unknown'
+  source_id: AW-000357:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000357-Fa1ab97a338
+  fact_type: problem_definition
+  value: 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  source_id: AW-000357:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000357-Fa8b85e53c6
+  fact_type: source_title
+  value: Fast Algorithm for Triangular Mesh Simplification Based on Vertex Decimation
+  source_id: crossref_search:b3bdd77037305a29
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000357-F20413a3497
+  fact_type: problem_definition
+  value: 'Source title indicates: Fast Algorithm for Triangular Mesh Simplification Based on Vertex Decimation'
+  source_id: crossref_search:b3bdd77037305a29
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: weak
+  notes: previous_source_record
+- fact_id: AW-000357-F43e78ed85c
+  fact_type: problem_definition
+  value: 'Crossref title-search result: Fast Algorithm for Triangular Mesh Simplification Based on Vertex Decimation'
+  source_id: crossref_search:b3bdd77037305a29
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000357-F545175f1d9
+  fact_type: authoritative_source_link
+  value: https://doi.org/10.1007/3-540-46080-2_5
+  source_id: crossref_search:b3bdd77037305a29
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000357-F1307658ff6
+  fact_type: source_title
+  value: Vertex-pancyclicity of edge-face-total graphs
+  source_id: crossref_search:0da8c7885885599e
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: consistent
+  notes: crossref
+- fact_id: AW-000357-F42a043a6f9
+  fact_type: problem_definition
+  value: 'Source title indicates: Vertex-pancyclicity of edge-face-total graphs'
+  source_id: crossref_search:0da8c7885885599e
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: weak
+  notes: crossref
+- fact_id: AW-000357-Fac922c9fff
+  fact_type: problem_definition
+  value: 'Crossref title: Vertex-pancyclicity of edge-face-total graphs'
+  source_id: crossref_search:0da8c7885885599e
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: consistent
+  notes: crossref
+- fact_id: AW-000357-F16f91dc62a
+  fact_type: problem_definition
+  value: 'published year: 2004'
+  source_id: crossref_search:0da8c7885885599e
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: consistent
+  notes: crossref
+- fact_id: AW-000357-Fe2a76f995d
+  fact_type: problem_definition
+  value: 'container title: Discrete Applied Mathematics'
+  source_id: crossref_search:0da8c7885885599e
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: consistent
+  notes: crossref
+- fact_id: AW-000357-Fd416777fb3
+  fact_type: authoritative_source_link
+  value: https://doi.org/10.1016/j.dam.2003.07.008
+  source_id: crossref_search:0da8c7885885599e
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: consistent
+  notes: crossref
+duplicate_sources:
+- source_id: AW-000357:algorithm_wiki_metadata
+  url: ''
+  title: AlgorithmWiki metadata for Controlled vertex/edge/face decimation - R. Ronfard and J. Rossignac 1996
+  source_type: algorithm_wiki
+  access_status: metadata_only
+  reliability: HIGH
+  extracted_facts:
+  - 'AlgorithmWiki row name: Controlled vertex/edge/face decimation - R. Ronfard and J. Rossignac 1996'
+  - 'domain: unknown'
+  short_quote: ''
+  digest: 78d8c9b95b41acd9
+failed_sources: []
+paywalled_or_skipped_sources: []
+source_families_covered:
+- algorithm_wiki_local
+- local_previous_cache
+- original_source
+- crossref
+- arxiv
+- wikipedia
+cycles_completed: 1
+new_fact_count_by_cycle:
+- cycle: 1
+  new_facts: 6
+no_new_fact_streak: 0
+saturation_status: RECOVERED_CONTEXT_AND_PROBE
+final_reason: Source-saturation pass found enough task, input, output, and access semantics for a context card.
+next_manual_action: Audit recovered card before any optional live analyze run.

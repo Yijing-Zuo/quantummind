@@ -1,0 +1,60 @@
+algorithm_family: string
+algorithm_id: AW-001325
+approximate: '0'
+approximation_factor: ''
+blind_name: Algorithm Wiki public task AW-001325
+canonical_name: Lu & Lin (2)
+computational_model: CREW PRAM
+domain: string
+extracted_description: ''
+extraction_version: algorithm-wiki-rich-context-v1
+family: string
+inferred_access_model: random_access_string
+inferred_ambiguities:
+- No independent fetched public metadata source resolved this row beyond AlgorithmWiki metadata/source-link facts.
+- Some details are reconstructed from AlgorithmWiki metadata rather than an independently fetched full public description.
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.
+inferred_input_model: explicit_string_problem
+inferred_output_contract: full_solution
+inferred_problem_statement: 'Lu & Lin (2) is treated as a classical string task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Lu & Lin (2). Input semantics: One or more finite strings, sequences, patterns, or alphabets. Output semantics: Pattern occurrence positions, matches, or the associated string-search report.'
+inferred_promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+- classical_parallel_model_recorded
+inferred_size_parameters:
+- 'Parameter definition: m: length of shorter string, n: length of longer string'
+- p = stated number of processors (O(mn/(log^2 m , log log m)) if, log^2 m log log m, < log n else, O(mn/log n))
+number_of_processors: O(mn/(log^2 m , log log m)) if, log^2 m log log m, < log n else, O(mn/log n)
+page_digest: ''
+page_fetch_status: not_found
+page_url: ''
+parameter_definitions: 'm: length of shorter string, n: length of longer string'
+problem_name: string
+quality_flags:
+- domain_inferred
+- problem_statement_inferred
+- io_access_output_inferred
+- has_complexity_semantics
+- has_size_parameters
+- has_computational_model
+quality_score: 100
+randomized: '0'
+readiness: READY_PUBLIC_CONTEXT
+review_reasons:
+- A previous row has the same canonicalized algorithm name.
+source_link: https://ieeexplore.ieee.org/document/298210
+source_link_type: unknown
+space_complexity: ''
+span_depth: O(log^2 m log log m + log n)
+time_complexity: O(\log^2 m \log \log m) if log^2 m log log m > log n else O(\log n)
+variation: ''
+work: O(mn)
+year: '1994'
+rich_card_kind: context
+source_records_used:
+- AW-001325:algorithm_wiki_metadata
+- skipped:fc2f8c59d323494a
+source_count: 2
+source_quality: HIGH
+confidence_score: 100
+card_digest: ec72bc9150261e31

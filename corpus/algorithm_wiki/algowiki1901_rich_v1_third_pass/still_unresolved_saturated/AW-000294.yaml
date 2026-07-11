@@ -1,0 +1,44 @@
+algorithm_id: AW-000294
+canonical_name: The Wang and Brady corner detection algorithm 1995
+enrichment_status: THIRD_PASS_RECOVERED
+review_reasons:
+- Source-saturation pass found enough task, input, output, and access semantics for a context card.; public_leakage_term_in_name_or_statement
+source_records:
+- access_status: metadata_only
+  digest: 4e80cf3b1af661b4
+  extracted_facts:
+  - 'AlgorithmWiki row name: The Wang and Brady corner detection algorithm 1995'
+  - 'domain: unknown'
+  - 'time complexity: O(n^2)'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000294:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for The Wang and Brady corner detection algorithm 1995
+  url: ''
+- access_status: fetched
+  digest: be017e92b64cd61c
+  extracted_facts:
+  - 'Crossref title-search result: Quantum fast corner detection algorithm'
+  reliability: MEDIUM
+  short_quote: ''
+  source_id: crossref_search:114ac0043c09043b
+  source_type: doi_metadata
+  title: Quantum fast corner detection algorithm
+  url: https://doi.org/10.1007/s11128-023-04047-5
+- source_id: crossref_search:b3add2f4fe33f71b
+  url: https://doi.org/10.1103/physrevlett.116.179802
+  title: 'Wang and Brady Reply:'
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title: Wang and Brady Reply:'
+  - 'published year: 2016'
+  - 'container title: Physical Review Letters'
+  short_quote: 'Crossref title: Wang and Brady Reply: published year: 2016 container title: Physical Review Letters'
+  digest: 6c90b5b1f3136b34
+extracted_problem_statement: 'The Wang and Brady corner detection algorithm 1995 is treated as a source-saturated AlgorithmWiki row for detect salient image features, corners, blobs, or stable regions Input semantics: An image or image sequence with pixel/grid dimensions and scale or detector parameters when stated. Output semantics: A set of detected feature locations, regions, descriptors, or detector responses.'
+extracted_input_semantics: An image or image sequence with pixel/grid dimensions and scale or detector parameters when stated.
+extracted_output_semantics: A set of detected feature locations, regions, descriptors, or detector responses.

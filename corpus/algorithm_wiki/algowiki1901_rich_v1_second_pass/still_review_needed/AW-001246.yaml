@@ -1,0 +1,66 @@
+algorithm_id: AW-001246
+canonical_name: Siebert, Wolf
+enrichment_status: SECOND_PASS_INSUFFICIENT
+review_reasons:
+- No second-pass rule could identify source-backed task semantics.
+source_records:
+- access_status: metadata_only
+  digest: 17158d5bd6522836
+  extracted_facts:
+  - 'AlgorithmWiki row name: Siebert, Wolf'
+  - 'domain: unknown'
+  - 'time complexity: O(\log^2 (n))'
+  - 'computational model: model to be implemented on Message Passing Interface (MPI)'
+  - 'parameter definitions: n:size of list'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001246:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Siebert, Wolf
+  url: https://link.springer.com/chapter/10.1007/978-3-642-24449-0_20 (page 184 of pdf)
+- access_status: skipped
+  digest: 4302784ba0b36d13
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:7a2642140553ecc2
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1007/978-3-642-24449-0_20
+- access_status: skipped
+  digest: 4aee533a09981243
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:7de84b92e068808d
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://link.springer.com/chapter/10.1007/978-3-642-24449-0_20 (page 184 of pdf)
+- source_id: crossref:bb189a5945eeeb35
+  url: https://doi.org/10.1007/978-3-642-24449-0_20
+  title: Parallel Sorting with Minimal Data
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: HIGH
+  extracted_facts:
+  - 'DOI title: Parallel Sorting with Minimal Data'
+  - 'published year: 2011'
+  - 'container title: Lecture Notes in Computer Science'
+  short_quote: ''
+  digest: 8f295ee24bc11aab
+- source_id: crossref_search:0b18e1bdccf3f416
+  url: https://doi.org/10.1109/npc.2007.32
+  title: An optimal algorithm to fetch DHT routable
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: An optimal algorithm to fetch DHT routable'
+  short_quote: ''
+  digest: eac65bcac63f65f8
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

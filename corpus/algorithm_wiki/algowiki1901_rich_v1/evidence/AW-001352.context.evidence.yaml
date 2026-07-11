@@ -1,0 +1,58 @@
+id: AW-001352
+kind: context
+algorithm_id: AW-001352
+algorithm_name: Ballard, Demmel, Holtz, Lipshitz, Schwartz (CAPS)
+source_records:
+- access_status: metadata_only
+  digest: c3d56b2dc10a76cb
+  extracted_facts:
+  - 'AlgorithmWiki row name: Ballard, Demmel, Holtz, Lipshitz, Schwartz (CAPS)'
+  - 'domain: parallel_algorithms'
+  - 'time complexity: O(n^{\log 7}/P)'
+  - 'computational model: message-passing network - BSP without the bulk-synchrony requirement'
+  - "parameter definitions: P: number of processors, \u03C90 = log_2 7, M: size of each processor's local memory"
+  - 'precard summary: Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model. Baseline: time O(n^{\log 7}/P); work O(n^{\log 7}); span/depth O(n^{log 7}/P); processors P. Bottleneck: work, span, communication, and processor-count assumptions dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001352:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Ballard, Demmel, Holtz, Lipshitz, Schwartz (CAPS)
+  url: https://dl.acm.org/doi/pdf/10.1145/2312005.2312044
+- access_status: skipped
+  digest: 6d50bb92c514c417
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:d587e481790e0ccf
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1145/2312005.2312044
+web_query_attempts:
+- method: search_plan
+  query: Ballard, Demmel, Holtz, Lipshitz, Schwartz (CAPS) algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Ballard, Demmel, Holtz, Lipshitz, Schwartz (CAPS) algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Ballard, Demmel, Holtz, Lipshitz, Schwartz (CAPS) problem definition
+  status: recorded
+- method: search_plan
+  query: Ballard, Demmel, Holtz, Lipshitz, Schwartz (CAPS) parallel algorithms algorithm
+  status: recorded
+- method: search_plan
+  query: Ballard, Demmel, Holtz, Lipshitz, Schwartz (CAPS) site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Ballard, Demmel, Holtz, Lipshitz, Schwartz (CAPS) algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://dl.acm.org/doi/pdf/10.1145/2312005.2312044
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1145/2312005.2312044
+  status: skipped
+extracted_problem_statement: 'Ballard, Demmel, Holtz, Lipshitz, Schwartz (CAPS) is treated as a classical parallel algorithms task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Ballard, Demmel, Holtz, Lipshitz, Schwartz (CAPS). Input semantics: The classical input instance named by the row, together with processor/work/span parameters when stated. Output semantics: The same mathematical output as the underlying classical task, annotated by work/span when available.'
+extracted_algorithm_summary: "Ballard, Demmel, Holtz, Lipshitz, Schwartz (CAPS) is a parallel algorithms algorithm record. Classical complexity metadata: time O(n^{\\log 7}/P); work O(n^{\\log 7}); span/depth O(n^{log 7}/P); processors P. The stated classical model is message-passing network - BSP without the bulk-synchrony requirement. Public metadata/source text adds: Ballard, Demmel, Holtz, Lipshitz, Schwartz (CAPS) parallel_algorithms parallel_algorithms P: number of processors, \u03C90 = log_2 7, M: size of each processor's local memory O(n^{\\log 7}/P) Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model."
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

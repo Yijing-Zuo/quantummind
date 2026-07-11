@@ -1,0 +1,43 @@
+id: AW-000845
+kind: context
+algorithm_id: AW-000845
+algorithm_name: Naive solution
+source_records:
+- access_status: metadata_only
+  digest: 6af2e40ec4001f6d
+  extracted_facts:
+  - 'AlgorithmWiki row name: Naive solution'
+  - 'domain: string'
+  - 'time complexity: O(n f_{bin}(\sigma-1, k, d)) where f_{bin}(x, y, z) = \sum_{i=0}^z \binom{y}{i}x^i'
+  - 'space complexity: O(max(n f_{bin}(\sigma-1, k, d), \sigma^k)) auxiliary where f_{bin}(x, y, z) = \sum_{i=0}^z \binom{y}{i}x^i'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: length of string, k: length of words, d: number of allowed mismatches, \sigma: size of alphabet'
+  - 'precard summary: Given one or more explicit strings, compute the matching, indexing, alignment, or transformation output targeted by the record. Baseline: time O(n f_{bin}(\sigma-1, k, d)) where f_{bin}(x, y, z) = \sum_{i=0}^z \binom{y}{i}x^i; space O(max(n f_{bin}(\sigma-1, k, d), \sigma^k)) auxiliary where f_{bin}(x, y, z) = \sum_{i=0}^z \binom{y}{i}x^i. Bottleneck: string scanning, preprocessing tables, and reporting matches dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000845:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Naive solution
+  url: ''
+web_query_attempts:
+- method: search_plan
+  query: Naive solution algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Naive solution algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Naive solution problem definition
+  status: recorded
+- method: search_plan
+  query: Naive solution string algorithm
+  status: recorded
+- method: search_plan
+  query: Naive solution site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Naive solution algorithm wiki
+  status: recorded
+extracted_problem_statement: 'Naive solution is treated as a classical string task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Naive solution. Input semantics: One or more finite strings, sequences, patterns, or alphabets. Output semantics: Pattern occurrence positions, matches, or the associated string-search report.'
+extracted_algorithm_summary: 'Naive solution is a string algorithm record. Classical complexity metadata: time O(n f_{bin}(\sigma-1, k, d)) where f_{bin}(x, y, z) = \sum_{i=0}^z \binom{y}{i}x^i; space O(max(n f_{bin}(\sigma-1, k, d), \sigma^k)) auxiliary where f_{bin}(x, y, z) = \sum_{i=0}^z \binom{y}{i}x^i. The stated classical model is Word RAM. Public metadata/source text adds: Naive solution string string n: length of string, k: length of words, d: number of allowed mismatches, \sigma: size of alphabet O(n f_{bin}(\sigma-1, k, d)) where f_{bin}(x, y, z) = \sum_{i=0}^z \binom{y}{i}x^i Given one or more explicit strings, compute the matching, indexing, alignment, or transformation output targeted by the record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

@@ -1,0 +1,32 @@
+algorithm_id: AW-000334
+canonical_name: Barghout Lauren Visual Taxometric approach
+enrichment_status: SECOND_PASS_INSUFFICIENT
+review_reasons:
+- No second-pass rule could identify source-backed task semantics.
+source_records:
+- access_status: metadata_only
+  digest: ede2bfc72753d59c
+  extracted_facts:
+  - 'AlgorithmWiki row name: Barghout Lauren Visual Taxometric approach'
+  - 'domain: unknown'
+  - 'time complexity: O(n \log n)'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000334:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Barghout Lauren Visual Taxometric approach
+  url: ''
+- source_id: crossref_search:324d9a5e6fa8a6b6
+  url: https://doi.org/10.2307/2412184
+  title: Taxometric Maps
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: Taxometric Maps'
+  short_quote: ''
+  digest: beed4c563e361632
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

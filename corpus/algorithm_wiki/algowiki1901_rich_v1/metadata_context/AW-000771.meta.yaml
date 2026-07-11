@@ -1,0 +1,57 @@
+algorithm_family: unknown
+algorithm_id: AW-000771
+approximate: '0'
+approximation_factor: ''
+blind_name: Algorithm Wiki public task AW-000771
+canonical_name: "Damiano Brigo Bernard Hanzon and Fran\xE7ois LeGland"
+computational_model: Word/Real RAM
+domain: unknown
+extracted_description: ''
+extraction_version: algorithm-wiki-rich-context-v1
+family: unknown
+inferred_access_model: explicit_geometric_objects
+inferred_ambiguities:
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.
+inferred_input_model: explicit_geometry_problem
+inferred_output_contract: full_solution
+inferred_problem_statement: "Damiano Brigo Bernard Hanzon and Fran\xE7ois LeGland is treated as a classical computational geometry task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Damiano Brigo Bernard Hanzon and Fran\xE7ois LeGland. Input semantics: Explicit geometric objects such as points, line segments, polygons, or planar subdivisions. Output semantics: The requested geometric structure, simplified curve, clipping result, intersection set, hull, or diagram."
+inferred_promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+inferred_size_parameters:
+- 'Parameter definition: n: number of dimensions in state space'
+number_of_processors: ''
+page_digest: ''
+page_fetch_status: not_found
+page_url: ''
+parameter_definitions: 'n: number of dimensions in state space'
+problem_name: unknown
+quality_flags:
+- has_complexity_semantics
+- has_size_parameters
+- has_computational_model
+quality_score: 70
+randomized: '0'
+readiness: READY_PUBLIC_CONTEXT
+review_reasons:
+- missing_problem_statement
+- unknown_input_model
+- unknown_access_model
+- unknown_output_contract
+- insufficient_algorithm_level_structure
+source_link: https://ieeexplore.ieee.org/abstract/document/661075
+source_link_type: unknown
+space_complexity: ''
+span_depth: ''
+time_complexity: O(n^{2.45} \log n)
+variation: ''
+work: ''
+year: '1998'
+rich_card_kind: context
+source_records_used:
+- AW-000771:algorithm_wiki_metadata
+- source:076a069d5970a71a
+source_count: 2
+source_quality: HIGH
+confidence_score: 70
+card_digest: 0d7bf3c0c16c02be

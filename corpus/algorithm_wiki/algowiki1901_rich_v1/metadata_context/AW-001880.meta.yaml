@@ -1,0 +1,58 @@
+algorithm_family: string
+algorithm_id: AW-001880
+approximate: ''
+approximation_factor: ''
+blind_name: Algorithm Wiki public task AW-001880
+canonical_name: Ebnenasir, Qiu (parEMS)
+computational_model: PRAM
+domain: string
+extracted_description: ''
+extraction_version: algorithm-wiki-rich-context-v1
+family: string
+inferred_access_model: random_access_string
+inferred_ambiguities:
+- No independent fetched public metadata source resolved this row beyond AlgorithmWiki metadata/source-link facts.
+- Some details are reconstructed from AlgorithmWiki metadata rather than an independently fetched full public description.
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.
+inferred_input_model: explicit_string_problem
+inferred_output_contract: full_solution
+inferred_problem_statement: 'Ebnenasir, Qiu (parEMS) is treated as a classical string task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Ebnenasir, Qiu (parEMS). Input semantics: One or more finite strings, sequences, patterns, or alphabets. Output semantics: Pattern occurrence positions, matches, or the associated string-search report.'
+inferred_promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+- classical_parallel_model_recorded
+inferred_size_parameters:
+- 'Parameter definition: n: number of strings, m: length of individual string, l: motif length, d: max distance from motif, sigma: alphabet size, alpha: hash table load factor'
+number_of_processors: ''
+page_digest: ''
+page_fetch_status: not_found
+page_url: ''
+parameter_definitions: 'n: number of strings, m: length of individual string, l: motif length, d: max distance from motif, sigma: alphabet size, alpha: hash table load factor'
+problem_name: string
+quality_flags:
+- domain_inferred
+- problem_statement_inferred
+- io_access_output_inferred
+- has_size_parameters
+- has_computational_model
+quality_score: 95
+randomized: ''
+readiness: READY_PUBLIC_CONTEXT
+review_reasons:
+- A previous row has the same canonicalized algorithm name.
+source_link: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9900440
+source_link_type: unknown
+space_complexity: ''
+span_depth: ''
+time_complexity: ''
+variation: ''
+work: ''
+year: '2023'
+rich_card_kind: context
+source_records_used:
+- AW-001880:algorithm_wiki_metadata
+- skipped:27d415eed997405b
+source_count: 2
+source_quality: HIGH
+confidence_score: 95
+card_digest: 3f84e7ac18b2ff07

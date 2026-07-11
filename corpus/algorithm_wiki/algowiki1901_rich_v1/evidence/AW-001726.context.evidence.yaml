@@ -1,0 +1,58 @@
+id: AW-001726
+kind: context
+algorithm_id: AW-001726
+algorithm_name: Frieze, Miller, Teng
+source_records:
+- access_status: metadata_only
+  digest: 3c9b93712fe7ca1d
+  extracted_facts:
+  - 'AlgorithmWiki row name: Frieze, Miller, Teng'
+  - 'domain: parallel_algorithms'
+  - 'time complexity: O(\log{n})'
+  - 'computational model: CRCW PRAM'
+  - 'parameter definitions: n: number of points,'
+  - 'precard summary: Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model. Baseline: time O(\log{n}); work O(n \log{n}); span/depth O(\log{n}); processors O(n). Bottleneck: work, span, communication, and processor-count assumptions dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001726:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Frieze, Miller, Teng
+  url: https://dl.acm.org/doi/pdf/10.1145/140901.141934
+- access_status: skipped
+  digest: ef7b0e3576d44dee
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:e02069e84798eb11
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1145/140901.141934
+web_query_attempts:
+- method: search_plan
+  query: Frieze, Miller, Teng algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Frieze, Miller, Teng algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Frieze, Miller, Teng problem definition
+  status: recorded
+- method: search_plan
+  query: Frieze, Miller, Teng parallel algorithms algorithm
+  status: recorded
+- method: search_plan
+  query: Frieze, Miller, Teng site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Frieze, Miller, Teng algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://dl.acm.org/doi/pdf/10.1145/140901.141934
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1145/140901.141934
+  status: skipped
+extracted_problem_statement: 'Frieze, Miller, Teng is treated as a classical parallel algorithms task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Frieze, Miller, Teng. Input semantics: The classical input instance named by the row, together with processor/work/span parameters when stated. Output semantics: The same mathematical output as the underlying classical task, annotated by work/span when available.'
+extracted_algorithm_summary: 'Frieze, Miller, Teng is a parallel algorithms algorithm record. Classical complexity metadata: time O(\log{n}); work O(n \log{n}); span/depth O(\log{n}); processors O(n). The stated classical model is CRCW PRAM. Public metadata/source text adds: Frieze, Miller, Teng parallel_algorithms parallel_algorithms n: number of points, O(\log{n}) Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

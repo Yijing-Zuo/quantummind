@@ -1,0 +1,65 @@
+algorithm_id: AW-000009
+canonical_name: Klinz
+enrichment_status: THIRD_PASS_SATURATED_INSUFFICIENT
+review_reasons:
+- After the configured source-family cycles, no source-backed concrete task, input semantics, output semantics, and conservative access model could be established.
+source_records:
+- access_status: metadata_only
+  digest: 2d1f4b86118f109d
+  extracted_facts:
+  - 'AlgorithmWiki row name: Klinz'
+  - 'domain: unknown'
+  - 'time complexity: O(\sigma^{3/2})'
+  - 'space complexity: O(t)'
+  - 'parameter definitions: \sigma: sum of integers in the set (\sigma \geq t)'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000009:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Klinz
+  url: https://doi.org/10.1002/(SICI)1097-0037(199905)33:3%3C189::AID-NET5%3E3.0.CO2-2
+- access_status: failed
+  digest: e8320ffd77261d1a
+  extracted_facts:
+  - 'HTTP Error 404: Not Found'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:707763bb726a6966
+  source_type: doi_metadata
+  title: 'HTTP Error 404: Not Found'
+  url: https://doi.org/10.1002/(SICI)1097-0037(199905)33:3
+- access_status: failed
+  digest: 7000b36bfe04e71f
+  extracted_facts:
+  - 'HTTP Error 404: Not Found'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:d75c0e76d4d57b68
+  source_type: doi_metadata
+  title: 'HTTP Error 404: Not Found'
+  url: https://doi.org/10.1002/(SICI)1097-0037(199905)33:3%3C189::AID-NET5%3E3.0.CO2-2
+- access_status: fetched
+  digest: c00fb55bab7f3714
+  extracted_facts:
+  - 'Crossref title-search result: Anita Klinz: The Art of Book Design'
+  reliability: MEDIUM
+  short_quote: ''
+  source_id: crossref_search:b647bc2c473ebf41
+  source_type: doi_metadata
+  title: 'Anita Klinz: The Art of Book Design'
+  url: https://doi.org/10.5040/9781350349285.ch-2.1
+- source_id: wikidata:2ef6c7168115f174
+  url: http://www.wikidata.org/entity/Q15732877
+  title: Klinz
+  source_type: wikidata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - Klinz
+  - family name
+  short_quote: Klinz family name
+  digest: d84865a4262f1afe
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

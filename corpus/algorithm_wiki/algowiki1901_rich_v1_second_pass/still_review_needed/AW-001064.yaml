@@ -1,0 +1,66 @@
+algorithm_id: AW-001064
+canonical_name: Akl
+enrichment_status: SECOND_PASS_INSUFFICIENT
+review_reasons:
+- No second-pass rule could identify source-backed task semantics.
+source_records:
+- access_status: metadata_only
+  digest: 9268618b449982db
+  extracted_facts:
+  - 'AlgorithmWiki row name: Akl'
+  - 'domain: unknown'
+  - 'time complexity: O(n^\epsilon)'
+  - 'computational model: SIMD'
+  - 'parameter definitions: n: size of list, 0<epsilon<1'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001064:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Akl
+  url: https://link.springer.com/article/10.1007/BF02243071
+- access_status: skipped
+  digest: ea8a689f6fcc1c39
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:c4ac58e4f011d175
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1007/BF02243071
+- access_status: skipped
+  digest: 4b75d952fa75ebbb
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:f1dc8a5960aebcb5
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://link.springer.com/article/10.1007/BF02243071
+- source_id: crossref:8952694e528d7497
+  url: https://doi.org/10.1007/BF02243071
+  title: Optimal parallel algorithms for computing convex hulls and for sorting
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: HIGH
+  extracted_facts:
+  - 'DOI title: Optimal parallel algorithms for computing convex hulls and for sorting'
+  - 'published year: 1984'
+  - 'container title: Computing'
+  short_quote: ''
+  digest: 09d177b449b09bbe
+- source_id: crossref_search:0b18e1bdccf3f416
+  url: https://doi.org/10.1109/npc.2007.32
+  title: An optimal algorithm to fetch DHT routable
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: An optimal algorithm to fetch DHT routable'
+  short_quote: ''
+  digest: eac65bcac63f65f8
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

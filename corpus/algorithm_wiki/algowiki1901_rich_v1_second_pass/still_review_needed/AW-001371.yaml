@@ -1,0 +1,55 @@
+algorithm_id: AW-001371
+canonical_name: Lee, Robertson, Fortes (Cannon generalized for block-cyclic distributed matrices)
+enrichment_status: SECOND_PASS_INSUFFICIENT
+review_reasons:
+- No second-pass rule could identify source-backed task semantics.
+source_records:
+- access_status: metadata_only
+  digest: d7dfda3cefb85a8b
+  extracted_facts:
+  - 'AlgorithmWiki row name: Lee, Robertson, Fortes (Cannon generalized for block-cyclic distributed matrices)'
+  - 'domain: unknown'
+  - 'time complexity: O(n^3/p)'
+  - 'computational model: 2D mesh'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001371:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Lee, Robertson, Fortes (Cannon generalized for block-cyclic distributed matrices)
+  url: https://dl.acm.org/doi/pdf/10.1145/263580.263591
+- access_status: skipped
+  digest: 3750d959efbfc586
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:e886a4f5369d4faf
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1145/263580.263591
+- source_id: crossref:bb2479970d814979
+  url: https://doi.org/10.1145/263580.263591
+  title: Generalized Cannon's algorithm for parallel matrix multiplication
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: HIGH
+  extracted_facts:
+  - 'DOI title: Generalized Cannon''s algorithm for parallel matrix multiplication'
+  - 'published year: 1997'
+  - 'container title: Proceedings of the 11th international conference on Supercomputing - ICS ''97'
+  short_quote: ''
+  digest: ddf9d00d61776750
+- source_id: crossref_search:0b18e1bdccf3f416
+  url: https://doi.org/10.1109/npc.2007.32
+  title: An optimal algorithm to fetch DHT routable
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: An optimal algorithm to fetch DHT routable'
+  short_quote: ''
+  digest: eac65bcac63f65f8
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

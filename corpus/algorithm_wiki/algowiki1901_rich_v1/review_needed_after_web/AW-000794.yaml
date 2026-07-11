@@ -1,0 +1,28 @@
+algorithm_id: AW-000794
+canonical_name: Achlioptas
+enrichment_status: WEB_INSUFFICIENT
+review_reasons:
+- missing_concrete_problem_statement
+- unknown_input_model
+- unknown_output_contract
+- unknown_access_model
+source_records:
+- access_status: metadata_only
+  digest: 65785e7ec3d8b559
+  extracted_facts:
+  - 'AlgorithmWiki row name: Achlioptas'
+  - 'domain: unknown'
+  - 'time complexity: O(mn)'
+  - 'space complexity: O((n+l)^2)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of pages, m: number of operations per page, l: number of words in lexicon'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000794:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Achlioptas
+  url: https://homes.cs.washington.edu/~karlin/papers/web-search.pdf
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

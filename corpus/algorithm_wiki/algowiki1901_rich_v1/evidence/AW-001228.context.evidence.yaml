@@ -1,0 +1,71 @@
+id: AW-001228
+kind: context
+algorithm_id: AW-001228
+algorithm_name: Han, Shen
+source_records:
+- access_status: metadata_only
+  digest: 4ba1e9742c26ec8e
+  extracted_facts:
+  - 'AlgorithmWiki row name: Han, Shen'
+  - 'domain: parallel_algorithms'
+  - 'time complexity: O(\log n)'
+  - 'computational model: EREW PRAM'
+  - 'parameter definitions: n: number of ints in range {0,..,m-1}, word length=k log (m+n), 1<=k<l=log n'
+  - 'precard summary: Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model. Baseline: time O(\log n); work O(n sqrt((\log n)/k)); span/depth O(log n); processors O(n sqrt(1/k log n)). Bottleneck: work, span, communication, and processor-count assumptions dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001228:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Han, Shen
+  url: https://epubs.siam.org/doi/abs/10.1137/S0097539799352449
+- access_status: skipped
+  digest: a1b915fcd78a05cc
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:4e52e2561cd459b7
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1137/S0097539799352449
+- access_status: skipped
+  digest: aecc02c525cfe2ad
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:67eb7f474be2b78b
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://epubs.siam.org/doi/abs/10.1137/S0097539799352449
+web_query_attempts:
+- method: search_plan
+  query: Han, Shen algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Han, Shen algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Han, Shen problem definition
+  status: recorded
+- method: search_plan
+  query: Han, Shen parallel algorithms algorithm
+  status: recorded
+- method: search_plan
+  query: Han, Shen site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Han, Shen algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://epubs.siam.org/doi/abs/10.1137/S0097539799352449
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1137/S0097539799352449
+  status: skipped
+- method: source_link_html_metadata
+  query: https://epubs.siam.org/doi/abs/10.1137/S0097539799352449
+  status: skipped
+extracted_problem_statement: 'Han, Shen is treated as a classical parallel algorithms task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Han, Shen. Input semantics: The classical input instance named by the row, together with processor/work/span parameters when stated. Output semantics: The same mathematical output as the underlying classical task, annotated by work/span when available.'
+extracted_algorithm_summary: 'Han, Shen is a parallel algorithms algorithm record. Classical complexity metadata: time O(\log n); work O(n sqrt((\log n)/k)); span/depth O(log n); processors O(n sqrt(1/k log n)). The stated classical model is EREW PRAM. Public metadata/source text adds: Han, Shen parallel_algorithms parallel_algorithms n: number of ints in range {0,..,m-1}, word length=k log (m+n), 1<=k<l=log n O(\log n) Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

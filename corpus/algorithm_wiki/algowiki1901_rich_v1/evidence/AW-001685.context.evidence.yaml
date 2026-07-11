@@ -1,0 +1,72 @@
+id: AW-001685
+kind: context
+algorithm_id: AW-001685
+algorithm_name: Awerbuch, Israeli, Shiloach
+source_records:
+- access_status: metadata_only
+  digest: c5a86d7fdfbc9fd9
+  extracted_facts:
+  - 'AlgorithmWiki row name: Awerbuch, Israeli, Shiloach'
+  - 'domain: graph'
+  - 'time complexity: O(\log V)'
+  - 'space complexity: O(1)'
+  - 'computational model: CRCW PRAM (ARBITRARY)'
+  - 'parameter definitions: V: number of vertices, E: number of edges'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(\log V); space O(1); work O(E \log V); span/depth O(log V); processors O(E). Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001685:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Awerbuch, Israeli, Shiloach
+  url: https://dl.acm.org/doi/abs/10.1145/800057.808688
+- access_status: skipped
+  digest: ef607a0b5436389c
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:a5e33bd7828a4917
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1145/800057.808688
+- access_status: skipped
+  digest: 0a17d8753c1ecfbd
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:defedb47e80c59df
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://dl.acm.org/doi/abs/10.1145/800057.808688
+web_query_attempts:
+- method: search_plan
+  query: Awerbuch, Israeli, Shiloach algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Awerbuch, Israeli, Shiloach algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Awerbuch, Israeli, Shiloach problem definition
+  status: recorded
+- method: search_plan
+  query: Awerbuch, Israeli, Shiloach graph algorithm
+  status: recorded
+- method: search_plan
+  query: Awerbuch, Israeli, Shiloach site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Awerbuch, Israeli, Shiloach algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://dl.acm.org/doi/abs/10.1145/800057.808688
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1145/800057.808688
+  status: skipped
+- method: source_link_html_metadata
+  query: https://dl.acm.org/doi/abs/10.1145/800057.808688
+  status: skipped
+extracted_problem_statement: 'Awerbuch, Israeli, Shiloach is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Awerbuch, Israeli, Shiloach. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'Awerbuch, Israeli, Shiloach is a graph algorithm record. Classical complexity metadata: time O(\log V); space O(1); work O(E \log V); span/depth O(log V); processors O(E). The stated classical model is CRCW PRAM (ARBITRARY). Public metadata/source text adds: Awerbuch, Israeli, Shiloach graph graph V: number of vertices, E: number of edges O(\log V) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

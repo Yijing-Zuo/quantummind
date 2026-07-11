@@ -1,0 +1,55 @@
+id: AW-001289
+kind: context
+algorithm_id: AW-001289
+algorithm_name: Multi-Deque Partition DualDeque Merge Sorting algorithm (MPDMSort) - Ketchaya, Rattanatranurak
+source_records:
+- access_status: metadata_only
+  digest: afb87150ff224242
+  extracted_facts:
+  - 'AlgorithmWiki row name: Multi-Deque Partition DualDeque Merge Sorting algorithm (MPDMSort) - Ketchaya, Rattanatranurak'
+  - 'domain: sorting'
+  - 'precard summary: Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model. Baseline: not stated. Bottleneck: comparison, distribution, and full-output movement costs dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001289:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Multi-Deque Partition DualDeque Merge Sorting algorithm (MPDMSort) - Ketchaya, Rattanatranurak
+  url: https://www.nature.com/articles/s41598-023-33583-4
+- access_status: skipped
+  digest: f43637a379218806
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:c66e32b0c9bcb81c
+  source_type: other_public_source
+  title: fetch budget exhausted
+  url: https://www.nature.com/articles/s41598-023-33583-4
+web_query_attempts:
+- method: search_plan
+  query: Multi-Deque Partition DualDeque Merge Sorting algorithm (MPDMSort) - Ketchaya, Rattanatranurak algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Multi-Deque Partition DualDeque Merge Sorting algorithm (MPDMSort) - Ketchaya, Rattanatranurak algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Multi-Deque Partition DualDeque Merge Sorting algorithm (MPDMSort) - Ketchaya, Rattanatranurak problem definition
+  status: recorded
+- method: search_plan
+  query: Multi-Deque Partition DualDeque Merge Sorting algorithm (MPDMSort) - Ketchaya, Rattanatranurak sorting algorithm
+  status: recorded
+- method: search_plan
+  query: Multi-Deque Partition DualDeque Merge Sorting algorithm (MPDMSort) - Ketchaya, Rattanatranurak site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Multi-Deque Partition DualDeque Merge Sorting algorithm (MPDMSort) - Ketchaya, Rattanatranurak algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://www.nature.com/articles/s41598-023-33583-4
+  status: recorded
+- method: source_link_html_metadata
+  query: https://www.nature.com/articles/s41598-023-33583-4
+  status: skipped
+extracted_problem_statement: 'Multi-Deque Partition DualDeque Merge Sorting algorithm (MPDMSort) - Ketchaya, Rattanatranurak is treated as a classical sorting task for rich AlgorithmWiki discovery. Problem/task: sort the input sequence using the named classical sorting method. Input semantics: A finite array or list of comparable keys or records. Output semantics: The same items returned in nondecreasing order, usually as a full reordered sequence.'
+extracted_algorithm_summary: 'Multi-Deque Partition DualDeque Merge Sorting algorithm (MPDMSort) - Ketchaya, Rattanatranurak is a sorting algorithm record. Classical complexity is not stated. Public metadata/source text adds: Multi-Deque Partition DualDeque Merge Sorting algorithm (MPDMSort) - Ketchaya, Rattanatranurak sorting sorting Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

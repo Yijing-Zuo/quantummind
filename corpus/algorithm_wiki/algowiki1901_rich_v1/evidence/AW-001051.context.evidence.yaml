@@ -1,0 +1,58 @@
+id: AW-001051
+kind: context
+algorithm_id: AW-001051
+algorithm_name: specialized minimum time sort - Hsiao and Menon (3)
+source_records:
+- access_status: metadata_only
+  digest: 8af8c626804d1d2e
+  extracted_facts:
+  - 'AlgorithmWiki row name: specialized minimum time sort - Hsiao and Menon (3)'
+  - 'domain: sorting'
+  - 'time complexity: O(n/p \log{n/p})'
+  - 'computational model: hardware sorter'
+  - 'parameter definitions: n: size of list, p: number of processors, n restricted (only) to memeory size of each processor = n/p'
+  - 'precard summary: Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model. Baseline: time O(n/p \log{n/p}); work O(n \log{n/p}); span/depth O(1); processors p. Bottleneck: comparison, distribution, and full-output movement costs dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001051:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for specialized minimum time sort - Hsiao and Menon (3)
+  url: https://apps.dtic.mil/sti/citations/ADA090192
+- access_status: skipped
+  digest: 2c87693cd8a88673
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:e3ef6812e0f1b968
+  source_type: other_public_source
+  title: fetch budget exhausted
+  url: https://apps.dtic.mil/sti/citations/ADA090192
+web_query_attempts:
+- method: search_plan
+  query: specialized minimum time sort - Hsiao and Menon (3) algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: specialized minimum time sort - Hsiao and Menon (3) algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: specialized minimum time sort - Hsiao and Menon (3) problem definition
+  status: recorded
+- method: search_plan
+  query: specialized minimum time sort - Hsiao and Menon (3) sorting algorithm
+  status: recorded
+- method: search_plan
+  query: specialized minimum time sort - Hsiao and Menon (3) site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: specialized minimum time sort - Hsiao and Menon (3) algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://apps.dtic.mil/sti/citations/ADA090192
+  status: recorded
+- method: source_link_html_metadata
+  query: https://apps.dtic.mil/sti/citations/ADA090192
+  status: skipped
+extracted_problem_statement: 'specialized minimum time sort - Hsiao and Menon (3) is treated as a classical sorting task for rich AlgorithmWiki discovery. Problem/task: sort the input sequence using the named classical sorting method. Input semantics: A finite array or list of comparable keys or records. Output semantics: The same items returned in nondecreasing order, usually as a full reordered sequence.'
+extracted_algorithm_summary: 'specialized minimum time sort - Hsiao and Menon (3) is a sorting algorithm record. Classical complexity metadata: time O(n/p \log{n/p}); work O(n \log{n/p}); span/depth O(1); processors p. The stated classical model is hardware sorter. Public metadata/source text adds: specialized minimum time sort - Hsiao and Menon (3) sorting sorting n: size of list, p: number of processors, n restricted (only) to memeory size of each processor = n/p O(n/p \log{n/p}) Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

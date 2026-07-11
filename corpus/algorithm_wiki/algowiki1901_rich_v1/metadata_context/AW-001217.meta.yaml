@@ -1,0 +1,61 @@
+algorithm_family: sorting
+algorithm_id: AW-001217
+approximate: '0'
+approximation_factor: ''
+blind_name: Algorithm Wiki public task AW-001217
+canonical_name: variation of sample sort - Helman, Bader, JaJa
+computational_model: some type of message passing
+domain: sorting
+extracted_description: ''
+extraction_version: algorithm-wiki-rich-context-v1
+family: sorting
+inferred_access_model: random_access_array
+inferred_ambiguities:
+- The AlgorithmWiki row marks the classical method as randomized.
+- No independent fetched public metadata source resolved this row beyond AlgorithmWiki metadata/source-link facts.
+- Some details are reconstructed from AlgorithmWiki metadata rather than an independently fetched full public description.
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.
+inferred_input_model: explicit_sequence_problem
+inferred_output_contract: full_sequence_output
+inferred_problem_statement: 'variation of sample sort - Helman, Bader, JaJa is treated as a classical sorting task for rich AlgorithmWiki discovery. Problem/task: sort the input sequence using the named classical sorting method. Input semantics: A finite array or list of comparable keys or records. Output semantics: The same items returned in nondecreasing order, usually as a full reordered sequence.'
+inferred_promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+- classical_randomized_algorithm
+inferred_size_parameters:
+- 'Parameter definition: n: size of list, p: number of processors, p^2<n/(3ln(n))'
+- p = stated number of processors (p)
+number_of_processors: p
+page_digest: ''
+page_fetch_status: not_found
+page_url: ''
+parameter_definitions: 'n: size of list, p: number of processors, p^2<n/(3ln(n))'
+problem_name: sorting
+quality_flags:
+- domain_inferred
+- problem_statement_inferred
+- io_access_output_inferred
+- has_complexity_semantics
+- has_size_parameters
+- has_computational_model
+- randomized_flag_preserved
+quality_score: 100
+randomized: '1'
+readiness: READY_PUBLIC_CONTEXT
+review_reasons: []
+source_link: https://www.sciencedirect.com/science/article/abs/pii/S0743731598914629 https://api.drum.lib.umd.edu/server/api/core/bitstreams/2997ecff-e9a8-4d9f-8b87-b3706834bd51/content
+source_link_type: sciencedirect
+space_complexity: ''
+span_depth: O(tau) might be a constant
+time_complexity: O(n/p \log(n)) with high probability
+variation: ''
+work: O(nlog(n))
+year: '1998'
+rich_card_kind: context
+source_records_used:
+- AW-001217:algorithm_wiki_metadata
+- skipped:2d50a50bbe4ea8dc
+source_count: 2
+source_quality: HIGH
+confidence_score: 100
+card_digest: b2dbc40d19247e48

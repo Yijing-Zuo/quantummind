@@ -1,0 +1,77 @@
+algorithm_id: AW-000939
+canonical_name: Davis-Putnam-Logemann-Loveland Algorithm (DPLL)
+enrichment_status: SECOND_PASS_INSUFFICIENT
+review_reasons:
+- No second-pass rule could identify source-backed task semantics.
+source_records:
+- access_status: metadata_only
+  digest: 0721149a141fec7a
+  extracted_facts:
+  - 'AlgorithmWiki row name: Davis-Putnam-Logemann-Loveland Algorithm (DPLL)'
+  - 'domain: unknown'
+  - 'time complexity: O(2^n)'
+  - 'space complexity: O(n)'
+  - 'parameter definitions: n: number of variables, w: ratio of clauses per variable'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000939:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Davis-Putnam-Logemann-Loveland Algorithm (DPLL)
+  url: https://dl.acm.org/doi/10.1145/368273.368557
+- access_status: skipped
+  digest: fc4fae2d79627c8d
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:fc0600f1e44c929b
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1145/368273.368557
+- access_status: skipped
+  digest: c2f80acbcdbef0f2
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:2f663793d8abe8c9
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://dl.acm.org/doi/10.1145/368273.368557
+- access_status: skipped
+  digest: 17a9ca1e7e5c9414
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:52adac20a9d1079c
+  source_type: wikipedia
+  title: fetch budget exhausted
+  url: https://en.wikipedia.org/wiki/Davis-Putnam-Logemann-Loveland_Algorithm_%28DPLL%29
+- source_id: crossref:0aa95741933942be
+  url: https://doi.org/10.1145/368273.368557
+  title: A machine program for theorem-proving
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: HIGH
+  extracted_facts:
+  - 'DOI title: A machine program for theorem-proving'
+  - 'published year: 1962'
+  - 'container title: Communications of the ACM'
+  - 'abstract summary: The programming of a proof procedure is discussed in connection with trial runs and possible improvements.'
+  short_quote: The programming of a proof procedure is discussed in connection with trial runs and possible improvements.
+  digest: 04492f9a49593350
+- source_id: crossref_search:0b18e1bdccf3f416
+  url: https://doi.org/10.1109/npc.2007.32
+  title: An optimal algorithm to fetch DHT routable
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: An optimal algorithm to fetch DHT routable'
+  short_quote: ''
+  digest: eac65bcac63f65f8
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

@@ -1,0 +1,63 @@
+id: AW-000440-P0314
+kind: probe
+algorithm_id: AW-000440
+algorithm_name: "Ford\u2013Fulkerson algorithm"
+source_records:
+- access_status: metadata_only
+  digest: c68c62d9da6e9aeb
+  extracted_facts:
+  - "AlgorithmWiki row name: Ford\u2013Fulkerson algorithm"
+  - 'domain: graph'
+  - 'time complexity: O(VE)'
+  - 'space complexity: O(E)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: V: number of vertices, E: number of edges'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(VE); space O(E). Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000440:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: "AlgorithmWiki metadata for Ford\u2013Fulkerson algorithm"
+  url: https://www.cambridge.org/core/journals/canadian-journal-of-mathematics/article/maximal-flow-through-a-network/5D6E55D3B06C4F7B1043BC1D82D40764
+- access_status: fetched
+  digest: 5dbfea26b93f78de
+  extracted_facts:
+  - 'source page title: Maximal Flow Through a Network | Canadian Journal of Mathematics | Cambridge Core'
+  - 'source page description: Maximal Flow Through a Network - Volume 8'
+  reliability: LOW
+  short_quote: Maximal Flow Through a Network - Volume 8
+  source_id: source:56df0e06a4a392fc
+  source_type: other_public_source
+  title: Maximal Flow Through a Network | Canadian Journal of Mathematics | Cambridge Core
+  url: https://www.cambridge.org/core/journals/canadian-journal-of-mathematics/article/maximal-flow-through-a-network/5D6E55D3B06C4F7B1043BC1D82D40764
+web_query_attempts:
+- method: search_plan
+  query: "Ford\u2013Fulkerson algorithm algorithm input output complexity"
+  status: recorded
+- method: search_plan
+  query: "Ford\u2013Fulkerson algorithm algorithm pseudocode"
+  status: recorded
+- method: search_plan
+  query: "Ford\u2013Fulkerson algorithm problem definition"
+  status: recorded
+- method: search_plan
+  query: "Ford\u2013Fulkerson algorithm graph algorithm"
+  status: recorded
+- method: search_plan
+  query: "Ford\u2013Fulkerson algorithm site:nist.gov DADS"
+  status: recorded
+- method: search_plan
+  query: "Ford\u2013Fulkerson algorithm algorithm wiki"
+  status: recorded
+- method: search_plan
+  query: https://www.cambridge.org/core/journals/canadian-journal-of-mathematics/article/maximal-flow-through-a-network/5D6E55D3B06C4F7B1043BC1D82D40764
+  status: recorded
+- method: source_link_html_metadata
+  query: https://www.cambridge.org/core/journals/canadian-journal-of-mathematics/article/maximal-flow-through-a-network/5D6E55D3B06C4F7B1043BC1D82D40764
+  status: fetched
+- method: wikipedia_summary_search
+  query: "Ford\u2013Fulkerson algorithm algorithm"
+  status: failed_or_not_relevant
+extracted_problem_statement: "Ford\u2013Fulkerson algorithm is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Ford\u2013Fulkerson algorithm. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result."
+extracted_algorithm_summary: "Ford\u2013Fulkerson algorithm is a graph algorithm record. Classical complexity metadata: time O(VE); space O(E). The stated classical model is Word RAM. Public metadata/source text adds: Ford\u2013Fulkerson algorithm graph graph V: number of vertices, E: number of edges O(VE) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record."
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

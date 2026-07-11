@@ -1,0 +1,296 @@
+algorithm_id: AW-000392
+canonical_name: Emil Praun
+original_source_link: ''
+source_link_type: unknown
+previous_failure_reasons:
+- No second-pass rule could identify source-backed task semantics.
+previous_source_records:
+- access_status: metadata_only
+  digest: 3e666434df1bcfbf
+  extracted_facts:
+  - 'AlgorithmWiki row name: Emil Praun'
+  - 'domain: unknown'
+  - 'time complexity: O(n^3)'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000392:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Emil Praun
+  url: ''
+- access_status: fetched
+  digest: 6054aa350529823f
+  extracted_facts:
+  - 'Crossref title-search result: Praun, Hermann'
+  reliability: MEDIUM
+  short_quote: ''
+  source_id: crossref_search:edf710b3256c88b9
+  source_type: doi_metadata
+  title: Praun, Hermann
+  url: https://doi.org/10.1093/benz/9780199773787.article.b00145651
+aliases_tried:
+- Emil Praun
+- Emil Praun algorithm
+- Emil Praun problem
+- Emil Praun pseudocode
+- Emil Praun time complexity
+- Praun, Hermann
+- Praun, Hermann algorithm
+- Praun, Hermann complexity
+query_plan:
+- source_family: original_source
+  primary_query: Emil Praun
+  applicability: applicable
+  purpose: check the row's original source link without storing paywalled or PDF bodies
+- source_family: crossref
+  primary_query: Emil Praun
+  applicability: title-search-only
+  purpose: recover DOI title, venue, year, and abstract metadata where available
+- source_family: openalex
+  primary_query: Emil Praun
+  applicability: applicable
+  purpose: recover public work metadata and abstract-inverted-index summaries
+- source_family: semantic_scholar
+  primary_query: Emil Praun
+  applicability: applicable
+  purpose: recover CS paper metadata and abstracts without an API key
+- source_family: arxiv
+  primary_query: Emil Praun
+  applicability: title-search-only
+  purpose: recover arXiv title and abstract metadata
+- source_family: dblp
+  primary_query: Emil Praun
+  applicability: applicable
+  purpose: recover bibliographic title/venue metadata for CS publications
+- source_family: publisher_abstract
+  primary_query: Emil Praun
+  applicability: applicable
+  purpose: check accessible publisher abstract pages
+- source_family: citeseerx
+  primary_query: Emil Praun
+  applicability: applicable
+  purpose: record legacy CiteSeerX availability without full PDF storage
+- source_family: wikipedia
+  primary_query: Emil Praun
+  applicability: applicable
+  purpose: check public encyclopedia algorithm descriptions
+- source_family: wikidata
+  primary_query: Emil Praun
+  applicability: applicable
+  purpose: check public entity aliases/descriptions
+- source_family: nist_dads
+  primary_query: Emil Praun
+  applicability: applicable
+  purpose: check whether a DADS-style reference search is applicable
+- source_family: algorithm_wiki_local
+  primary_query: Emil Praun
+  applicability: applicable
+  purpose: reuse AlgorithmWiki metadata as provenance
+- source_family: the_algorithms
+  primary_query: Emil Praun
+  applicability: applicable
+  purpose: check exact public implementation/reference names when available
+- source_family: cp_algorithms
+  primary_query: Emil Praun
+  applicability: applicable
+  purpose: check exact public algorithm reference names when available
+- source_family: course_notes
+  primary_query: Emil Praun
+  applicability: applicable
+  purpose: record absence of configured course-notes search
+- source_family: general_web_search
+  primary_query: Emil Praun
+  applicability: applicable
+  purpose: record absence of a configured general web endpoint
+- source_family: local_previous_cache
+  primary_query: Emil Praun
+  applicability: applicable
+  purpose: reuse v1/second-pass fetched source records
+query_attempts:
+- &id001
+  cycle: 1
+  query: Emil Praun
+  source_family: algorithm_wiki_local
+  url_or_api_endpoint: ''
+  status: fetched
+  new_facts_added: 5
+  reason: local metadata
+- &id002
+  cycle: 1
+  query: Emil Praun
+  source_family: local_previous_cache
+  url_or_api_endpoint: ''
+  status: duplicate
+  new_facts_added: 0
+  reason: previous v1/second-pass sources reused
+- &id003
+  cycle: 1
+  query: Emil Praun
+  source_family: original_source
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: no original source link
+- &id004
+  cycle: 1
+  query: Emil Praun
+  source_family: crossref
+  url_or_api_endpoint: https://doi.org/10.1093/benz/9780199773787.article.b00145651
+  status: irrelevant
+  new_facts_added: 0
+  reason: Crossref metadata/title search
+- &id005
+  cycle: 1
+  query: Emil Praun
+  source_family: arxiv
+  url_or_api_endpoint: https://export.arxiv.org/api/query?max_results=1&search_query=ti:%22Emil+Praun%22
+  status: no_result
+  new_facts_added: 0
+  reason: arXiv title search returned no usable entry
+- &id006
+  cycle: 1
+  query: Emil Praun
+  source_family: wikipedia
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: Wikipedia search returned no relevant page
+source_attempts:
+- *id001
+- *id002
+- *id003
+- *id004
+- *id005
+- *id006
+discovered_sources:
+- source_id: crossref_search:369f1f82cb7b8701
+  url: https://doi.org/10.1093/benz/9780199773787.article.b00145651
+  title: Praun, Hermann
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title: Praun, Hermann'
+  - 'published year: 2011'
+  - 'container title: Benezit Dictionary of Artists'
+  short_quote: 'Crossref title: Praun, Hermann published year: 2011 container title: Benezit Dictionary of Artists'
+  digest: 06caf5751beafb92
+discovered_facts:
+- fact_id: AW-000392-F2e0f906a23
+  fact_type: alias
+  value: Emil Praun
+  source_id: AW-000392:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: AlgorithmWiki metadata
+- fact_id: AW-000392-F465007f60f
+  fact_type: time_complexity
+  value: O(n^3)
+  source_id: AW-000392:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: AlgorithmWiki metadata
+- fact_id: AW-000392-F2cbd8873ee
+  fact_type: source_title
+  value: AlgorithmWiki metadata for Emil Praun
+  source_id: AW-000392:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000392-Fc7f516abb9
+  fact_type: problem_definition
+  value: 'Source title indicates: AlgorithmWiki metadata for Emil Praun'
+  source_id: AW-000392:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: weak
+  notes: previous_source_record
+- fact_id: AW-000392-F9948022368
+  fact_type: problem_definition
+  value: 'AlgorithmWiki row name: Emil Praun'
+  source_id: AW-000392:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000392-F4e8c4c29ff
+  fact_type: problem_definition
+  value: 'domain: unknown'
+  source_id: AW-000392:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000392-F8d814259d5
+  fact_type: time_complexity
+  value: 'time complexity: O(n^3)'
+  source_id: AW-000392:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000392-F8f3404dc79
+  fact_type: problem_definition
+  value: 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  source_id: AW-000392:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000392-F2158466da7
+  fact_type: source_title
+  value: Praun, Hermann
+  source_id: crossref_search:edf710b3256c88b9
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000392-F75e4ce1a07
+  fact_type: problem_definition
+  value: 'Crossref title-search result: Praun, Hermann'
+  source_id: crossref_search:edf710b3256c88b9
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000392-Fb204fff120
+  fact_type: authoritative_source_link
+  value: https://doi.org/10.1093/benz/9780199773787.article.b00145651
+  source_id: crossref_search:edf710b3256c88b9
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: consistent
+  notes: previous_source_record
+duplicate_sources:
+- source_id: AW-000392:algorithm_wiki_metadata
+  url: ''
+  title: AlgorithmWiki metadata for Emil Praun
+  source_type: algorithm_wiki
+  access_status: metadata_only
+  reliability: HIGH
+  extracted_facts:
+  - 'AlgorithmWiki row name: Emil Praun'
+  - 'domain: unknown'
+  - 'time complexity: O(n^3)'
+  short_quote: ''
+  digest: 9c148b668da59342
+failed_sources: []
+paywalled_or_skipped_sources: []
+source_families_covered:
+- algorithm_wiki_local
+- local_previous_cache
+- original_source
+- crossref
+- arxiv
+- wikipedia
+cycles_completed: 1
+new_fact_count_by_cycle:
+- cycle: 1
+  new_facts: 0
+no_new_fact_streak: 0
+saturation_status: RECOVERED_CONTEXT_AND_PROBE
+final_reason: Source-saturation pass found enough task, input, output, and access semantics for a context card.
+next_manual_action: Audit recovered card before any optional live analyze run.

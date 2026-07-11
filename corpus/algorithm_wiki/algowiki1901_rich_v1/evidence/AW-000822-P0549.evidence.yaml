@@ -1,0 +1,60 @@
+id: AW-000822-P0549
+kind: probe
+algorithm_id: AW-000822
+algorithm_name: Rautiainen, Marschall
+source_records:
+- access_status: metadata_only
+  digest: 316e1999983d4070
+  extracted_facts:
+  - 'AlgorithmWiki row name: Rautiainen, Marschall'
+  - 'domain: graph'
+  - 'time complexity: O(V + mE)'
+  - 'space complexity: O(mV)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: m: length of input sequence, V: number of vertices, E: number of edges'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(V + mE); space O(mV). Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000822:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Rautiainen, Marschall
+  url: https://www.ncbi.nlm.nih.gov/pubmed/30851095
+- access_status: fetched
+  digest: a08a79f0532ebbe5
+  extracted_facts:
+  - 'source page title: Bit-parallel sequence-to-graph alignment - PubMed'
+  - 'source page description: Supplementary data are available at Bioinformatics online.'
+  reliability: LOW
+  short_quote: Supplementary data are available at Bioinformatics online.
+  source_id: source:e4ff91a53bac1322
+  source_type: other_public_source
+  title: Bit-parallel sequence-to-graph alignment - PubMed
+  url: https://www.ncbi.nlm.nih.gov/pubmed/30851095
+web_query_attempts:
+- method: search_plan
+  query: Rautiainen, Marschall algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Rautiainen, Marschall algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Rautiainen, Marschall problem definition
+  status: recorded
+- method: search_plan
+  query: Rautiainen, Marschall graph algorithm
+  status: recorded
+- method: search_plan
+  query: Rautiainen, Marschall site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Rautiainen, Marschall algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://www.ncbi.nlm.nih.gov/pubmed/30851095
+  status: recorded
+- method: source_link_html_metadata
+  query: https://www.ncbi.nlm.nih.gov/pubmed/30851095
+  status: fetched
+extracted_problem_statement: 'Rautiainen, Marschall is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Rautiainen, Marschall. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'Rautiainen, Marschall is a graph algorithm record. Classical complexity metadata: time O(V + mE); space O(mV). The stated classical model is Word RAM. Public metadata/source text adds: Rautiainen, Marschall graph graph m: length of input sequence, V: number of vertices, E: number of edges O(V + mE) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

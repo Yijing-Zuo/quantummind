@@ -1,0 +1,67 @@
+algorithm_id: AW-001260
+canonical_name: SPMS - Cole, Ramachandran
+enrichment_status: SECOND_PASS_INSUFFICIENT
+review_reasons:
+- No second-pass rule could identify source-backed task semantics.
+source_records:
+- access_status: metadata_only
+  digest: 90e5b63af8d55ad6
+  extracted_facts:
+  - 'AlgorithmWiki row name: SPMS - Cole, Ramachandran'
+  - 'domain: unknown'
+  - 'time complexity: O(\log n loglog n)'
+  - 'computational model: shared memory'
+  - 'parameter definitions: n: size of list'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001260:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for SPMS - Cole, Ramachandran
+  url: https://dl.acm.org/doi/abs/10.1145/3040221
+- access_status: skipped
+  digest: 6ded2f84c0e5c249
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:00e1d539975c3505
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1145/3040221
+- access_status: skipped
+  digest: c5f479808b43af40
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:42d6a3c73f3268f3
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://dl.acm.org/doi/abs/10.1145/3040221
+- source_id: crossref:ba5b11632bf66472
+  url: https://doi.org/10.1145/3040221
+  title: Resource Oblivious Sorting on Multicores
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: HIGH
+  extracted_facts:
+  - 'DOI title: Resource Oblivious Sorting on Multicores'
+  - 'published year: 2017'
+  - 'container title: ACM Transactions on Parallel Computing'
+  - 'abstract summary: We present a deterministic sorting algorithm, Sample, Partition, and Merge Sort (SPMS), that interleaves the partitioning of a sample sort with merging.'
+  short_quote: We present a deterministic sorting algorithm, Sample, Partition, and Merge Sort (SPMS), that interleaves the partitioning of a sample sort with merging.
+  digest: f95d267be3f6451c
+- source_id: crossref_search:0b18e1bdccf3f416
+  url: https://doi.org/10.1109/npc.2007.32
+  title: An optimal algorithm to fetch DHT routable
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: An optimal algorithm to fetch DHT routable'
+  short_quote: ''
+  digest: eac65bcac63f65f8
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

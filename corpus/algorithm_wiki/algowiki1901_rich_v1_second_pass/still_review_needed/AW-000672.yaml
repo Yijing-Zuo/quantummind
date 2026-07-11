@@ -1,0 +1,57 @@
+algorithm_id: AW-000672
+canonical_name: "Ciliberti M\xE9zard"
+enrichment_status: SECOND_PASS_INSUFFICIENT
+review_reasons:
+- No second-pass rule could identify source-backed task semantics.
+source_records:
+- access_status: metadata_only
+  digest: 437921837ac10588
+  extracted_facts:
+  - "AlgorithmWiki row name: Ciliberti M\xE9zard"
+  - 'domain: unknown'
+  - 'time complexity: O(n^2)'
+  - 'space complexity: O(n^2)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: length of input vector, m: length of compressed output vector'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000672:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: "AlgorithmWiki metadata for Ciliberti M\xE9zard"
+  url: https://arxiv.org/abs/cond-mat/0504509
+- access_status: fetched
+  digest: 593cd743a39be0cb
+  extracted_facts:
+  - 'arXiv title: Lossy data compression with random gates'
+  - 'abstract summary: We introduce a new protocol for a lossy data compression algorithm which is based on constraint satisfaction gates.'
+  reliability: HIGH
+  short_quote: We introduce a new protocol for a lossy data compression algorithm which is based on constraint satisfaction gates.
+  source_id: arxiv:cond-mat/0504509
+  source_type: arxiv_abstract
+  title: Lossy data compression with random gates
+  url: https://arxiv.org/abs/cond-mat/0504509
+- access_status: fetched
+  digest: f091bcdf338be268
+  extracted_facts:
+  - 'source page title: [cond-mat/0504509] Lossy data compression with random gates'
+  - 'source page description: Abstract page for arXiv paper cond-mat/0504509: Lossy data compression with random gates'
+  reliability: HIGH
+  short_quote: 'Abstract page for arXiv paper cond-mat/0504509: Lossy data compression with random gates'
+  source_id: source:45999417aa5919b4
+  source_type: arxiv_abstract
+  title: '[cond-mat/0504509] Lossy data compression with random gates'
+  url: https://arxiv.org/abs/cond-mat/0504509
+- source_id: crossref_search:6f7fdf660eaad7c1
+  url: https://doi.org/10.1103/physrevlett.95.038701
+  title: Lossy Data Compression with Random Gates
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: Lossy Data Compression with Random Gates'
+  short_quote: ''
+  digest: 87eb3a46a11add02
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

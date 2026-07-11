@@ -1,0 +1,54 @@
+id: AW-000336
+kind: context_recovered
+algorithm_id: AW-000336
+algorithm_name: R. Nock and F. Nielsen Statistical Region Merging
+source_records:
+- access_status: metadata_only
+  digest: 55e26f2112b0f2d2
+  extracted_facts:
+  - 'AlgorithmWiki row name: R. Nock and F. Nielsen Statistical Region Merging'
+  - 'domain: unknown'
+  - 'time complexity: O(n^2)'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000336:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for R. Nock and F. Nielsen Statistical Region Merging
+  url: ''
+- source_id: crossref_search:4e6022bbfeecc4b0
+  url: https://doi.org/10.4028/www.scientific.net/amm.644-650.2189
+  title: A Defogging Algorithm Based on Statistical Region Merging
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: A Defogging Algorithm Based on Statistical Region Merging'
+  - 'abstract summary: Different regions in Foggy images have different contrast attenuations.'
+  short_quote: Different regions in Foggy images have different contrast attenuations.
+  digest: 57e968621a6fba2f
+web_query_attempts:
+- query: '"R. Nock and F. Nielsen Statistical Region Merging" algorithm'
+  method: search_plan
+  status: recorded
+- query: '"R. Nock and F. Nielsen Statistical Region Merging" input output'
+  method: search_plan
+  status: recorded
+- query: '"R. Nock and F. Nielsen Statistical Region Merging" time complexity'
+  method: search_plan
+  status: recorded
+- query: '"R. Nock and F. Nielsen Statistical Region Merging" pseudocode'
+  method: search_plan
+  status: recorded
+- query: '"R. Nock and F. Nielsen Statistical Region Merging" problem'
+  method: search_plan
+  status: recorded
+- query: '"R. Nock and F. Nielsen Statistical Region Merging" PDF metadata abstract'
+  method: search_plan
+  status: recorded
+- query: R. Nock and F. Nielsen Statistical Region Merging algorithm
+  method: crossref_title_search
+  status: fetched
+extracted_problem_statement: 'R. Nock and F. Nielsen Statistical Region Merging is reconstructed as a classical image processing task. Problem/task: partition an image into coherent regions or labels Input semantics: An image grid with pixel intensities/features and model or merge/split parameters. Output semantics: A segmentation labeling, boundary set, or region hierarchy.'
+extracted_algorithm_summary: 'R. Nock and F. Nielsen Statistical Region Merging is treated as the named AlgorithmWiki variant for partition an image into coherent regions or labels Classical complexity metadata: time O(n^2). Public metadata/source title support includes A Defogging Algorithm Based on Statistical Region Merging.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

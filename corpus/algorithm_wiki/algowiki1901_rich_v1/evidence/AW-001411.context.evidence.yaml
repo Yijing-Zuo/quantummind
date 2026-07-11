@@ -1,0 +1,58 @@
+id: AW-001411
+kind: context
+algorithm_id: AW-001411
+algorithm_name: Ghouse, Goodrich (following [Kirkpatrick, Seidel (1986)])
+source_records:
+- access_status: metadata_only
+  digest: b5b50a82bb201ae9
+  extracted_facts:
+  - 'AlgorithmWiki row name: Ghouse, Goodrich (following [Kirkpatrick, Seidel (1986)])'
+  - 'domain: computational_geometry'
+  - 'time complexity: O(\log^2 n)'
+  - 'computational model: CREW PRAM'
+  - 'parameter definitions: n: number of line segments, h: number of points on the convex hull'
+  - 'precard summary: Given explicit geometric objects such as points, segments, or polygons, compute the requested geometric structure or witness set. Baseline: time O(\log^2 n); work O(n \log h); span/depth O(log^2 n); processors O(n). Bottleneck: geometric predicates, ordering events, and output-sensitive structure size dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001411:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Ghouse, Goodrich (following [Kirkpatrick, Seidel (1986)])
+  url: https://dl.acm.org/doi/pdf/10.1145/113379.113397
+- access_status: skipped
+  digest: c0198d62d4a1b0f4
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:9618334afab62b32
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1145/113379.113397
+web_query_attempts:
+- method: search_plan
+  query: Ghouse, Goodrich (following [Kirkpatrick, Seidel (1986)]) algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Ghouse, Goodrich (following [Kirkpatrick, Seidel (1986)]) algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Ghouse, Goodrich (following [Kirkpatrick, Seidel (1986)]) problem definition
+  status: recorded
+- method: search_plan
+  query: Ghouse, Goodrich (following [Kirkpatrick, Seidel (1986)]) computational geometry algorithm
+  status: recorded
+- method: search_plan
+  query: Ghouse, Goodrich (following [Kirkpatrick, Seidel (1986)]) site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Ghouse, Goodrich (following [Kirkpatrick, Seidel (1986)]) algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://dl.acm.org/doi/pdf/10.1145/113379.113397
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1145/113379.113397
+  status: skipped
+extracted_problem_statement: 'Ghouse, Goodrich (following [Kirkpatrick, Seidel (1986)]) is treated as a classical computational geometry task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Ghouse, Goodrich (following [Kirkpatrick, Seidel (1986)]). Input semantics: Explicit geometric objects such as points, line segments, polygons, or planar subdivisions. Output semantics: The requested geometric structure, simplified curve, clipping result, intersection set, hull, or diagram.'
+extracted_algorithm_summary: 'Ghouse, Goodrich (following [Kirkpatrick, Seidel (1986)]) is a computational geometry algorithm record. Classical complexity metadata: time O(\log^2 n); work O(n \log h); span/depth O(log^2 n); processors O(n). The stated classical model is CREW PRAM. Public metadata/source text adds: Ghouse, Goodrich (following [Kirkpatrick, Seidel (1986)]) computational_geometry computational_geometry n: number of line segments, h: number of points on the convex hull O(\log^2 n) Given explicit geometric objects such as points, segments, or polygons, compute the requested geometric structure or witness set.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

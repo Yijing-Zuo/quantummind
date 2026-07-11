@@ -1,0 +1,59 @@
+id: AW-001803
+kind: context
+algorithm_id: AW-001803
+algorithm_name: Ferreira, Robson
+source_records:
+- access_status: metadata_only
+  digest: 157618caa5024c45
+  extracted_facts:
+  - 'AlgorithmWiki row name: Ferreira, Robson'
+  - 'domain: sorting'
+  - 'time complexity: O(n * 2^(n/2) * sigma(2^(n/2))/p)'
+  - 'space complexity: O(n)'
+  - 'computational model: EREW PRAM'
+  - "parameter definitions: n: the number of integers in the set, t: target sum, p: number of processors 1\u2264p\u22642^(n/4), sigma(m): sorting overhead in parallel sorting optimal is O(1)"
+  - 'precard summary: Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model. Baseline: time O(n * 2^(n/2) * sigma(2^(n/2))/p); space O(n); work O(n * 2^(n/2) * sigma(2^(n/2))); span/depth O(n * 2^(n/4) * sigma(2^(n/2))); processors p. Bottleneck: comparison, distribution, and full-output movement costs dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001803:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Ferreira, Robson
+  url: https://www.sciencedirect.com/science/article/abs/pii/S0743731596901501
+- access_status: skipped
+  digest: 4f93447a72abb141
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:0f18318f1d9ec575
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://www.sciencedirect.com/science/article/abs/pii/S0743731596901501
+web_query_attempts:
+- method: search_plan
+  query: Ferreira, Robson algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Ferreira, Robson algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Ferreira, Robson problem definition
+  status: recorded
+- method: search_plan
+  query: Ferreira, Robson sorting algorithm
+  status: recorded
+- method: search_plan
+  query: Ferreira, Robson site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Ferreira, Robson algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://www.sciencedirect.com/science/article/abs/pii/S0743731596901501
+  status: recorded
+- method: source_link_html_metadata
+  query: https://www.sciencedirect.com/science/article/abs/pii/S0743731596901501
+  status: skipped
+extracted_problem_statement: 'Ferreira, Robson is treated as a classical sorting task for rich AlgorithmWiki discovery. Problem/task: solve a subset-sum or target-sum dynamic-programming/search problem. Input semantics: A finite set or multiset of integers with a target sum parameter. Output semantics: A decision result, feasible subset witness, count, or optimized subset value for the target-sum instance, depending on the row.'
+extracted_algorithm_summary: "Ferreira, Robson is a sorting algorithm record. Classical complexity metadata: time O(n * 2^(n/2) * sigma(2^(n/2))/p); space O(n); work O(n * 2^(n/2) * sigma(2^(n/2))); span/depth O(n * 2^(n/4) * sigma(2^(n/2))); processors p. The stated classical model is EREW PRAM. Public metadata/source text adds: Ferreira, Robson sorting sorting n: the number of integers in the set, t: target sum, p: number of processors 1\u2264p\u22642^(n/4), sigma(m): sorting overhead in parallel sorting optimal is O(1) O(n * 2^(n/2) * sigma(2^(n/2))/p) Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model."
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

@@ -1,0 +1,61 @@
+id: AW-000830
+kind: context
+algorithm_id: AW-000830
+algorithm_name: Aho, Garey & Ullman
+source_records:
+- access_status: metadata_only
+  digest: 2331a3a969d2fe2b
+  extracted_facts:
+  - 'AlgorithmWiki row name: Aho, Garey & Ullman'
+  - 'domain: graph'
+  - 'time complexity: O(n^{\omega})'
+  - 'space complexity: O(n^2)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of vertices, m: number of edges, \omega: the exponent on boolean matrix multiplication'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(n^{\omega}); space O(n^2). Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000830:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Aho, Garey & Ullman
+  url: https://epubs.siam.org/doi/pdf/10.1137/0201008
+- access_status: fetched
+  digest: 9a51e61509f6aa8f
+  extracted_facts:
+  - 'DOI title: The Transitive Reduction of a Directed Graph'
+  - 'published year: 1972'
+  - 'container title: SIAM Journal on Computing'
+  reliability: HIGH
+  short_quote: ''
+  source_id: crossref:bb8791a5b91534b8
+  source_type: doi_metadata
+  title: The Transitive Reduction of a Directed Graph
+  url: https://doi.org/10.1137/0201008
+web_query_attempts:
+- method: search_plan
+  query: Aho, Garey & Ullman algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Aho, Garey & Ullman algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Aho, Garey & Ullman problem definition
+  status: recorded
+- method: search_plan
+  query: Aho, Garey & Ullman graph algorithm
+  status: recorded
+- method: search_plan
+  query: Aho, Garey & Ullman site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Aho, Garey & Ullman algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://epubs.siam.org/doi/pdf/10.1137/0201008
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1137/0201008
+  status: fetched
+extracted_problem_statement: 'Aho, Garey & Ullman is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Aho, Garey & Ullman. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The matrix product or bilinear multiplication output.'
+extracted_algorithm_summary: 'Aho, Garey & Ullman is a graph algorithm record. Classical complexity metadata: time O(n^{\omega}); space O(n^2). The stated classical model is Word RAM. Public metadata/source text adds: Aho, Garey & Ullman graph graph n: number of vertices, m: number of edges, \omega: the exponent on boolean matrix multiplication O(n^{\omega}) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

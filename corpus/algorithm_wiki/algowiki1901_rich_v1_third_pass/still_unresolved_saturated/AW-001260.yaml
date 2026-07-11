@@ -1,0 +1,101 @@
+algorithm_id: AW-001260
+canonical_name: SPMS - Cole, Ramachandran
+enrichment_status: THIRD_PASS_SATURATED_INSUFFICIENT
+review_reasons:
+- After the configured source-family cycles, no source-backed concrete task, input semantics, output semantics, and conservative access model could be established.
+source_records:
+- access_status: metadata_only
+  digest: 90e5b63af8d55ad6
+  extracted_facts:
+  - 'AlgorithmWiki row name: SPMS - Cole, Ramachandran'
+  - 'domain: unknown'
+  - 'time complexity: O(\log n loglog n)'
+  - 'computational model: shared memory'
+  - 'parameter definitions: n: size of list'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001260:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for SPMS - Cole, Ramachandran
+  url: https://dl.acm.org/doi/abs/10.1145/3040221
+- access_status: skipped
+  digest: 6ded2f84c0e5c249
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:00e1d539975c3505
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1145/3040221
+- access_status: skipped
+  digest: c5f479808b43af40
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:42d6a3c73f3268f3
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://dl.acm.org/doi/abs/10.1145/3040221
+- access_status: fetched
+  digest: f95d267be3f6451c
+  extracted_facts:
+  - 'DOI title: Resource Oblivious Sorting on Multicores'
+  - 'published year: 2017'
+  - 'container title: ACM Transactions on Parallel Computing'
+  - 'abstract summary: We present a deterministic sorting algorithm, Sample, Partition, and Merge Sort (SPMS), that interleaves the partitioning of a sample sort with merging.'
+  reliability: HIGH
+  short_quote: We present a deterministic sorting algorithm, Sample, Partition, and Merge Sort (SPMS), that interleaves the partitioning of a sample sort with merging.
+  source_id: crossref:ba5b11632bf66472
+  source_type: doi_metadata
+  title: Resource Oblivious Sorting on Multicores
+  url: https://doi.org/10.1145/3040221
+- access_status: fetched
+  digest: eac65bcac63f65f8
+  extracted_facts:
+  - 'Crossref title-search result: An optimal algorithm to fetch DHT routable'
+  reliability: MEDIUM
+  short_quote: ''
+  source_id: crossref_search:0b18e1bdccf3f416
+  source_type: doi_metadata
+  title: An optimal algorithm to fetch DHT routable
+  url: https://doi.org/10.1109/npc.2007.32
+- source_id: failed:ebfb17d69bda4eb5
+  url: https://dl.acm.org/doi/abs/10.1145/3040221
+  title: 'HTTP Error 403: Forbidden'
+  source_type: original_source
+  access_status: failed
+  reliability: LOW
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  short_quote: 'HTTP Error 403: Forbidden'
+  digest: 9a725277f8bc6da4
+- source_id: openalex:dd6174b8f681424b
+  url: https://openalex.org/W1910851252
+  title: Resource Oblivious Sorting on Multicores
+  source_type: openalex
+  access_status: fetched
+  reliability: HIGH
+  extracted_facts:
+  - 'OpenAlex title: Resource Oblivious Sorting on Multicores'
+  - 'publication year: 2017'
+  - 'abstract summary: We present a deterministic sorting algorithm, Sample, Partition, and Merge Sort (SPMS), that interleaves the partitioning of a sample sort with merging.'
+  short_quote: 'OpenAlex title: Resource Oblivious Sorting on Multicores publication year: 2017 abstract summary: We present a deterministic sorting algorithm, Sample, Partition, and Merge Sort (SPMS),'
+  digest: b39f9621d87b3c5a
+- source_id: semantic_scholar:14023705438b691a
+  url: https://www.semanticscholar.org/paper/6b406fc72b880a8283c703ab2efaf4e1a6fb30b6
+  title: Resource Oblivious Sorting on Multicores
+  source_type: semantic_scholar
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Semantic Scholar title: Resource Oblivious Sorting on Multicores'
+  - 'published year: 2010'
+  - 'abstract summary: We present a deterministic sorting algorithm, Sample, Partition, and Merge Sort (SPMS), that interleaves the partitioning of a sample sort with merging.'
+  short_quote: 'Semantic Scholar title: Resource Oblivious Sorting on Multicores published year: 2010 abstract summary: We present a deterministic sorting algorithm, Sample, Partition, and Merge Sort'
+  digest: 7fcc66a0f3d9f65c
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

@@ -1,0 +1,57 @@
+id: AW-001832
+kind: context
+algorithm_id: AW-001832
+algorithm_name: Crochemore, Rytter
+source_records:
+- access_status: metadata_only
+  digest: c3f3d66eb860fd29
+  extracted_facts:
+  - 'AlgorithmWiki row name: Crochemore, Rytter'
+  - 'domain: string'
+  - 'computational model: CRCW PRAM'
+  - 'parameter definitions: n:input string length'
+  - 'precard summary: Given one or more explicit strings, compute the matching, indexing, alignment, or transformation output targeted by the record. Baseline: work O(n); span/depth O(\log(n)). Bottleneck: string scanning, preprocessing tables, and reporting matches dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001832:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Crochemore, Rytter
+  url: https://www.sciencedirect.com/science/article/pii/0020019091902235
+- access_status: skipped
+  digest: ee4e6c0c6942cfad
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:1d222503888b55ae
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://www.sciencedirect.com/science/article/pii/0020019091902235
+web_query_attempts:
+- method: search_plan
+  query: Crochemore, Rytter algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Crochemore, Rytter algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Crochemore, Rytter problem definition
+  status: recorded
+- method: search_plan
+  query: Crochemore, Rytter string algorithm
+  status: recorded
+- method: search_plan
+  query: Crochemore, Rytter site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Crochemore, Rytter algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://www.sciencedirect.com/science/article/pii/0020019091902235
+  status: recorded
+- method: source_link_html_metadata
+  query: https://www.sciencedirect.com/science/article/pii/0020019091902235
+  status: skipped
+extracted_problem_statement: 'Crochemore, Rytter is treated as a classical string task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Crochemore, Rytter. Input semantics: One or more finite strings, sequences, patterns, or alphabets. Output semantics: Pattern occurrence positions, matches, or the associated string-search report.'
+extracted_algorithm_summary: 'Crochemore, Rytter is a string algorithm record. Classical complexity metadata: work O(n); span/depth O(\log(n)). The stated classical model is CRCW PRAM. Public metadata/source text adds: Crochemore, Rytter string string n:input string length Given one or more explicit strings, compute the matching, indexing, alignment, or transformation output targeted by the record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

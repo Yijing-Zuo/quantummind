@@ -1,0 +1,46 @@
+probe_id: AW-001355-TP0194
+algorithm_id: AW-001355-TP0194
+canonical_name: "Hunold, Rauber, R\xFCnger search_witness_probe"
+readiness: READY_PUBLIC_PROBE
+quality_score: 100
+probe_type: search_witness_probe
+parent_algorithm_id: AW-001355
+parent_algorithm_name: "Hunold, Rauber, R\xFCnger"
+source_records_used:
+- AW-001355:algorithm_wiki_metadata
+- skipped:1fe4b201265d7c1b
+- crossref_search:0b18e1bdccf3f416
+- failed:0ef8c6ae822f6132
+- crossref_search:8628689147216ca2
+introduced_assumptions:
+- coherent_boolean_oracle
+- marked_item_exists
+- candidate_indexing
+missing_from_original_problem:
+- oracle construction
+- proof that witness output captures the useful subroutine
+original_output_contract: data_structure_output
+probe_output_contract: one_witness
+not_end_to_end_claim: true
+expected_authority: query_or_subroutine_hypothesis_only
+why_probe_is_scientifically_interesting: Witness search can isolate a decision or local-output subroutine from a larger classical task.
+why_probe_may_fail: The original algorithm may require full output materialization or an expensive predicate oracle.
+inferred_input_model: explicit_data_structure_problem
+inferred_access_model: coherent_boolean_oracle
+inferred_output_contract: one_witness
+inferred_size_parameters:
+- p = stated number of processors (p)
+inferred_promises:
+- marked_item_exists
+- oracle_model_assumption
+inferred_ambiguities:
+- This probe is assumption-bearing and is not an end-to-end speedup claim.
+- coherent predicate construction and candidate indexing may fail for the original full-output problem
+- The parent context card and source records should be checked before live use.
+source_count: 5
+source_quality: HIGH
+confidence_score: 100
+card_digest: 6df9a56550248c0d
+extraction_version: algorithm-wiki-rich-third-pass-probe-v1
+rich_card_kind: probe_recovered
+saturation_status: RECOVERED_CONTEXT_AND_PROBE

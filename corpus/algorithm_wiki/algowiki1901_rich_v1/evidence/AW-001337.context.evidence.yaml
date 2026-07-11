@@ -1,0 +1,57 @@
+id: AW-001337
+kind: context
+algorithm_id: AW-001337
+algorithm_name: Hong, He
+source_records:
+- access_status: metadata_only
+  digest: 7c412d19758aff92
+  extracted_facts:
+  - 'AlgorithmWiki row name: Hong, He'
+  - 'domain: graph'
+  - 'computational model: multiple processors that access a shared memory (ex: Symmetric Multiple Processor) that supports atomic read-update-write'
+  - 'parameter definitions: V: number of vertices, E: number of edges'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: work O(V^2*E); span/depth O(V^2 log V). Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001337:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Hong, He
+  url: https://ieeexplore.ieee.org/abstract/document/5557863
+- access_status: skipped
+  digest: 8352749118d2b9fb
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:40bdc8ded45cd09e
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://ieeexplore.ieee.org/abstract/document/5557863
+web_query_attempts:
+- method: search_plan
+  query: Hong, He algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Hong, He algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Hong, He problem definition
+  status: recorded
+- method: search_plan
+  query: Hong, He graph algorithm
+  status: recorded
+- method: search_plan
+  query: Hong, He site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Hong, He algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://ieeexplore.ieee.org/abstract/document/5557863
+  status: recorded
+- method: source_link_html_metadata
+  query: https://ieeexplore.ieee.org/abstract/document/5557863
+  status: skipped
+extracted_problem_statement: 'Hong, He is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Hong, He. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'Hong, He is a graph algorithm record. Classical complexity metadata: work O(V^2*E); span/depth O(V^2 log V). The stated classical model is multiple processors that access a shared memory (ex: Symmetric Multiple Processor) that supports atomic read-update-write. Public metadata/source text adds: Hong, He graph graph V: number of vertices, E: number of edges Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

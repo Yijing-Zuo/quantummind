@@ -1,0 +1,71 @@
+id: AW-000625
+kind: context
+algorithm_id: AW-000625
+algorithm_name: Dwyer
+source_records:
+- access_status: metadata_only
+  digest: 6eb7c5e06596ed4c
+  extracted_facts:
+  - 'AlgorithmWiki row name: Dwyer'
+  - 'domain: unknown'
+  - 'time complexity: O(n \log n)'
+  - 'space complexity: O(n)'
+  - 'computational model: Real RAM'
+  - 'parameter definitions: n: number of points'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000625:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Dwyer
+  url: https://link.springer.com/article/10.1007/BF01840356
+- access_status: fetched
+  digest: 467423b8b7ad8998
+  extracted_facts:
+  - 'DOI title: A faster divide-and-conquer algorithm for constructing delaunay triangulations'
+  - 'published year: 1987'
+  - 'container title: Algorithmica'
+  reliability: HIGH
+  short_quote: ''
+  source_id: crossref:39daad806c429005
+  source_type: doi_metadata
+  title: A faster divide-and-conquer algorithm for constructing delaunay triangulations
+  url: https://doi.org/10.1007/BF01840356
+- access_status: skipped
+  digest: b699c8592e398f99
+  extracted_facts:
+  - robots.txt disallowed fetch
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:f4d16018f415535c
+  source_type: publisher_abstract
+  title: robots.txt disallowed fetch
+  url: https://link.springer.com/article/10.1007/BF01840356
+web_query_attempts:
+- method: search_plan
+  query: Dwyer algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Dwyer algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Dwyer problem definition
+  status: recorded
+- method: search_plan
+  query: Dwyer site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Dwyer algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://link.springer.com/article/10.1007/BF01840356
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1007/BF01840356
+  status: fetched
+- method: source_link_html_metadata
+  query: https://link.springer.com/article/10.1007/BF01840356
+  status: skipped
+extracted_problem_statement: 'Dwyer is treated as a classical computational geometry task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Dwyer. Input semantics: Explicit geometric objects such as points, line segments, polygons, or planar subdivisions. Output semantics: The requested geometric structure, simplified curve, clipping result, intersection set, hull, or diagram.'
+extracted_algorithm_summary: 'Dwyer is a computational geometry algorithm record. Classical complexity metadata: time O(n \log n); space O(n). The stated classical model is Real RAM. Public metadata/source text adds: Dwyer unknown unknown n: number of points O(n \log n) No public-ready summary is available because the row lacks enough task semantics.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

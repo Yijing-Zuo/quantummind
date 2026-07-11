@@ -1,0 +1,215 @@
+barriers:
+  - barrier_id: oracle_construction
+    description: "A claimed implementation may require constructing or verifying the represented coherent oracle."
+    blocked_scopes: [GATE, END_TO_END]
+  - barrier_id: query_only_scope
+    description: "The primitive supports only a query-level claim unless lower-level costs are separately represented."
+    blocked_scopes: [GATE, END_TO_END]
+  - barrier_id: coherent_access
+    description: "The quantum primitive requires coherent access rather than samples or purely classical observations."
+    blocked_scopes: [QUERY, GATE, END_TO_END]
+    satisfied_by_access_models: [coherent_estimation_oracle]
+  - barrier_id: precision_dependence
+    description: "Precision parameters must be included in the complexity accounting."
+    blocked_scopes: []
+  - barrier_id: reversible_arithmetic
+    description: "Efficient reversible implementation is needed before making gate or end-to-end claims."
+    blocked_scopes: [GATE, END_TO_END]
+  - barrier_id: classical_postprocessing
+    description: "Classical post-processing remains part of the represented algorithmic workflow."
+    blocked_scopes: []
+  - barrier_id: state_preparation
+    description: "Preparing the required quantum input state may dominate unless it is promised or represented."
+    blocked_scopes: [QUERY, GATE, END_TO_END]
+    satisfied_by_promises: [prepared_rhs]
+  - barrier_id: condition_number
+    description: "Condition-number dependence must be bounded or represented for linear-system claims."
+    blocked_scopes: [QUERY, GATE, END_TO_END]
+    satisfied_by_promises: [bounded_condition_number]
+  - barrier_id: readout
+    description: "Reading a full classical solution can erase state-output speedups."
+    blocked_scopes: [QUERY, GATE, END_TO_END]
+    satisfied_by_output_contracts: [state_or_expectation]
+  - barrier_id: output_contract
+    description: "The requested output must match the primitive's supported output contract."
+    blocked_scopes: [QUERY, GATE, END_TO_END]
+    satisfied_by_output_contracts: [collision_or_distinctness]
+  - barrier_id: comparison_lower_bound
+    description: "Comparison sorting lower bounds block asymptotic comparison-query sorting speedups."
+    blocked_scopes: [QUERY, GATE, END_TO_END]
+  - barrier_id: ordered_access_lower_bound
+    description: "Ordered search has a known logarithmic lower bound and only constant-factor quantum improvement."
+    blocked_scopes: []
+  - barrier_id: full_output_information
+    description: "Recovering complete output information limits oracle-interrogation improvements to constant factors."
+    blocked_scopes: []
+  - barrier_id: polynomial_query_lower_bound
+    description: "Total-function polynomial-method lower bounds limit parity-query improvements to constant factors."
+    blocked_scopes: []
+  - barrier_id: loading_condition_readout
+    description: "Dense loading, poor conditioning, or full readout can block linear-system speedup claims."
+    blocked_scopes: [QUERY, GATE, END_TO_END]
+  - barrier_id: backtracking_tree_bounds
+    description: "Quantum backtracking speedups require represented bounds on the search tree size/depth and a coherent tree oracle; generic branching or heuristic search language is insufficient."
+    blocked_scopes: [QUERY, GATE, END_TO_END]
+    satisfied_by_promises: [bounded_backtracking_tree, bounded_tree_depth]
+  - barrier_id: walk_spectral_gap
+    description: "Quantum walk search complexity depends on represented spectral-gap and marked-fraction bounds; generic graph traversal or local adjacency access is insufficient."
+    blocked_scopes: [QUERY, GATE, END_TO_END]
+    satisfied_by_promises: [spectral_gap_lower_bound, marked_fraction_lower_bound]
+
+primitives:
+  - primitive_id: amplitude_amplification
+    required_structure_ids: [black_box_witness_search]
+    allowed_access_models: [coherent_boolean_oracle]
+    allowed_output_contracts: [one_witness]
+    required_promises: [marked_item_exists]
+    supported_claim_scope: QUERY
+    speedup_class: ASYMPTOTIC
+    classical_complexity: "CLASSICAL: Theta(N/M) Boolean-oracle search queries"
+    quantum_complexity: "QUERY: O(sqrt(N/M)) coherent Boolean-oracle queries"
+    common_barriers: [oracle_construction, query_only_scope]
+    source_ids: [grover_1996, brassard_hoyer_mosca_tapp_2002]
+  - primitive_id: amplitude_estimation
+    required_structure_ids: [bounded_mean_estimation]
+    allowed_access_models: [coherent_estimation_oracle]
+    allowed_output_contracts: [additive_estimate]
+    required_promises: [bounded_random_variable, coherent_access]
+    supported_claim_scope: QUERY
+    speedup_class: ASYMPTOTIC
+    classical_complexity: "CLASSICAL: Theta(1/epsilon^2) samples for additive estimation"
+    quantum_complexity: "QUERY: O(1/epsilon) coherent estimation-oracle calls"
+    common_barriers: [coherent_access, precision_dependence]
+    source_ids: [brassard_hoyer_mosca_tapp_2002]
+  - primitive_id: qft_period_finding
+    required_structure_ids: [periodic_group_structure]
+    allowed_access_models: [reversible_function_evaluation]
+    allowed_output_contracts: [period_or_order]
+    required_promises: [periodic_structure]
+    supported_claim_scope: QUERY
+    speedup_class: ASYMPTOTIC
+    classical_complexity: "CLASSICAL: superpolynomial direct search in represented period problems"
+    quantum_complexity: "QUERY: polynomial query-level quantum work under efficient reversible evaluation"
+    common_barriers: [reversible_arithmetic, classical_postprocessing]
+    source_ids: [shor_1997]
+  - primitive_id: quantum_walk_element_distinctness
+    required_structure_ids: [collision_query_structure]
+    allowed_access_models: [value_query_oracle]
+    allowed_output_contracts: [collision_or_distinctness]
+    required_promises: [query_model_values]
+    supported_claim_scope: QUERY
+    speedup_class: ASYMPTOTIC
+    classical_complexity: "CLASSICAL: Theta(N) value queries for element distinctness"
+    quantum_complexity: "QUERY: O(N^(2/3)) value-query quantum walk algorithm"
+    common_barriers: [query_only_scope, output_contract]
+    source_ids: [ambainis_2007]
+  - primitive_id: quantum_linear_systems_state_output
+    required_structure_ids: [sparse_linear_system]
+    allowed_access_models: [sparse_matrix_oracle]
+    allowed_output_contracts: [state_or_expectation]
+    required_promises: [sparse_matrix, bounded_condition_number, prepared_rhs]
+    supported_claim_scope: QUERY
+    speedup_class: ASYMPTOTIC
+    classical_complexity: "CLASSICAL: polynomial in dimension for represented sparse linear systems"
+    quantum_complexity: "QUERY: polylog dimension with sparsity, condition, and precision factors"
+    common_barriers: [state_preparation, condition_number, readout]
+    source_ids: [harrow_hassidim_lloyd_2009]
+  - primitive_id: comparison_sorting_no_asymptotic_speedup
+    required_structure_ids: [comparison_sorting]
+    allowed_access_models: [comparison_oracle]
+    allowed_output_contracts: [sorted_order]
+    required_promises: [total_order]
+    supported_claim_scope: NONE
+    speedup_class: NONE
+    classical_complexity: "CLASSICAL: Theta(N log N) comparisons for sorting"
+    quantum_complexity: "QUERY: no registry-supported asymptotic comparison-query speedup"
+    common_barriers: [comparison_lower_bound]
+    source_ids: [hoyer_neerbek_shi_2002]
+  - primitive_id: dense_linear_system_full_output_stress
+    required_structure_ids: [linear_system_full_output_stress]
+    allowed_access_models: [dense_matrix_input]
+    allowed_output_contracts: [full_classical_vector]
+    required_promises: [matrix_entries_available_classically]
+    supported_claim_scope: NONE
+    speedup_class: NONE
+    classical_complexity: "CLASSICAL: dense input and full output require substantial classical work"
+    quantum_complexity: "QUERY: no registry-supported asymptotic full-classical-output speedup"
+    common_barriers: [loading_condition_readout]
+    source_ids: [harrow_hassidim_lloyd_2009]
+  - primitive_id: ordered_search
+    required_structure_ids: [ordered_search]
+    allowed_access_models: [ordered_query_access]
+    allowed_output_contracts: [rank_or_position]
+    required_promises: [monotone_order]
+    supported_claim_scope: QUERY
+    speedup_class: CONSTANT_FACTOR_ONLY
+    classical_complexity: "CLASSICAL: Theta(log N) ordered queries"
+    quantum_complexity: "QUERY: Theta(log N) ordered queries with changed constants"
+    common_barriers: [ordered_access_lower_bound]
+    source_ids: [hoyer_neerbek_shi_2002]
+  - primitive_id: oracle_interrogation
+    required_structure_ids: [complete_oracle_recovery]
+    allowed_access_models: [coherent_boolean_oracle]
+    allowed_output_contracts: [full_oracle_string]
+    required_promises: [oracle_bits_are_fixed]
+    supported_claim_scope: QUERY
+    speedup_class: CONSTANT_FACTOR_ONLY
+    classical_complexity: "CLASSICAL: Theta(N) queries to recover all oracle bits"
+    quantum_complexity: "QUERY: Theta(N) queries with about a factor-two improvement"
+    common_barriers: [full_output_information]
+    source_ids: [van_dam_1998]
+  - primitive_id: parity_query
+    required_structure_ids: [parity_query_function]
+    allowed_access_models: [bit_query_oracle]
+    allowed_output_contracts: [parity_bit]
+    required_promises: [total_boolean_function]
+    supported_claim_scope: QUERY
+    speedup_class: CONSTANT_FACTOR_ONLY
+    classical_complexity: "CLASSICAL: Theta(N) bit queries for total parity"
+    quantum_complexity: "QUERY: Theta(N) quantum queries, at most constant-factor improvement"
+    common_barriers: [polynomial_query_lower_bound]
+    source_ids: [beals_2001]
+  - primitive_id: quantum_minimum_finding
+    required_structure_ids: [unstructured_minimum_selection]
+    allowed_access_models: [coherent_value_oracle]
+    allowed_output_contracts: [argmin_item, minimum_value_and_argmin]
+    required_promises: [finite_candidate_set, total_ordered_objective, coherent_objective_oracle]
+    supported_claim_scope: QUERY
+    speedup_class: ASYMPTOTIC
+    classical_complexity: "CLASSICAL: Theta(N) value/comparison queries to find a minimum of an unstructured N-item set"
+    quantum_complexity: "QUERY: O(sqrt(N)) coherent value/comparison oracle queries for minimum finding"
+    common_barriers: [oracle_construction, query_only_scope, precision_dependence]
+    source_ids: [durr_hoyer_1996]
+  - primitive_id: quantum_backtracking_tree_search
+    required_structure_ids: [bounded_backtracking_tree]
+    allowed_access_models: [coherent_backtracking_tree_oracle]
+    allowed_output_contracts: [one_solution_leaf]
+    required_promises: [bounded_backtracking_tree, bounded_tree_depth, coherent_child_and_predicate_oracles, marked_leaf_exists]
+    supported_claim_scope: QUERY
+    speedup_class: ASYMPTOTIC
+    classical_complexity: "CLASSICAL: Theta(T) tree-node predicate/child queries to search a backtracking tree of size T"
+    quantum_complexity: "QUERY: O(poly(d) sqrt(T)) coherent tree-oracle queries for tree depth d under the backtracking-tree model"
+    common_barriers: [oracle_construction, query_only_scope, backtracking_tree_bounds]
+    source_ids: [montanaro_2015_backtracking]
+  - primitive_id: quantum_walk_marked_vertex_search
+    required_structure_ids: [reversible_markov_chain_marked_vertex_search]
+    allowed_access_models: [coherent_markov_chain_walk_oracle]
+    allowed_output_contracts: [one_marked_vertex]
+    required_promises: [reversible_ergodic_markov_chain, efficient_marking_check, marked_vertex_exists, marked_fraction_lower_bound, spectral_gap_lower_bound]
+    supported_claim_scope: QUERY
+    speedup_class: ASYMPTOTIC
+    classical_complexity: "CLASSICAL: O(1/(delta epsilon)) random-walk update/check queries under spectral gap delta and marked fraction epsilon"
+    quantum_complexity: "QUERY: O(1/sqrt(epsilon) * (1/sqrt(delta) update + check)) coherent walk/search queries under the same promises"
+    common_barriers: [oracle_construction, query_only_scope, walk_spectral_gap]
+    source_ids: [magniez_nayak_roland_santha_2011]
+  - primitive_id: quantum_counting
+    required_structure_ids: [marked_set_cardinality_estimation]
+    allowed_access_models: [coherent_boolean_oracle]
+    allowed_output_contracts: [additive_count_estimate, relative_count_estimate]
+    required_promises: [finite_search_space, coherent_boolean_oracle_available, count_precision_specified]
+    supported_claim_scope: QUERY
+    speedup_class: ASYMPTOTIC
+    classical_complexity: "CLASSICAL: Theta(1/epsilon^2) predicate samples/queries for additive marked-fraction estimation"
+    quantum_complexity: "QUERY: O(1/epsilon) coherent Boolean-oracle calls for additive marked-fraction/count estimation"
+    common_barriers: [oracle_construction, query_only_scope, precision_dependence]
+    source_ids: [brassard_hoyer_tapp_1998, brassard_hoyer_mosca_tapp_2002]

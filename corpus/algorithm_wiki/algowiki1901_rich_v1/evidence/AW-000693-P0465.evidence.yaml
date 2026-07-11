@@ -1,0 +1,62 @@
+id: AW-000693-P0465
+kind: probe
+algorithm_id: AW-000693
+algorithm_name: Weiner's algorithm
+source_records:
+- access_status: metadata_only
+  digest: a7f8ea5139796bda
+  extracted_facts:
+  - 'AlgorithmWiki row name: Weiner''s algorithm'
+  - 'domain: string'
+  - 'time complexity: O(n)'
+  - 'space complexity: O(n)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: length of string'
+  - 'precard summary: Given one or more explicit strings, compute the matching, indexing, alignment, or transformation output targeted by the record. Baseline: time O(n); space O(n). Bottleneck: string scanning, preprocessing tables, and reporting matches dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000693:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Weiner's algorithm
+  url: https://dl.acm.org/citation.cfm?id=1441766
+- access_status: failed
+  digest: 39c88211946656ed
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:eaee2a28c440816a
+  source_type: publisher_abstract
+  title: 'HTTP Error 403: Forbidden'
+  url: https://dl.acm.org/citation.cfm?id=1441766
+web_query_attempts:
+- method: search_plan
+  query: Weiner's algorithm algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Weiner's algorithm algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Weiner's algorithm problem definition
+  status: recorded
+- method: search_plan
+  query: Weiner's algorithm string algorithm
+  status: recorded
+- method: search_plan
+  query: Weiner's algorithm site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Weiner's algorithm algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://dl.acm.org/citation.cfm?id=1441766
+  status: recorded
+- method: source_link_html_metadata
+  query: https://dl.acm.org/citation.cfm?id=1441766
+  status: failed
+- method: wikipedia_summary_search
+  query: Weiner's algorithm algorithm
+  status: failed_or_not_relevant
+extracted_problem_statement: 'Weiner''s algorithm is treated as a classical string task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Weiner''s algorithm. Input semantics: One or more finite strings, sequences, patterns, or alphabets. Output semantics: Pattern occurrence positions, matches, or the associated string-search report.'
+extracted_algorithm_summary: 'Weiner''s algorithm is a string algorithm record. Classical complexity metadata: time O(n); space O(n). The stated classical model is Word RAM. Public metadata/source text adds: Weiner''s algorithm string string n: length of string O(n) Given one or more explicit strings, compute the matching, indexing, alignment, or transformation output targeted by the record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

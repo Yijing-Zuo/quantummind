@@ -1,0 +1,69 @@
+id: AW-000567
+kind: context_recovered
+algorithm_id: AW-000567
+algorithm_name: Hopcroft's algorithm
+source_records:
+- access_status: metadata_only
+  digest: 322190ba8658d15a
+  extracted_facts:
+  - 'AlgorithmWiki row name: Hopcroft''s algorithm'
+  - 'domain: unknown'
+  - 'time complexity: O(kn \log n)'
+  - 'space complexity: O(kn)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of states, k: size of alphabet'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000567:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Hopcroft's algorithm
+  url: https://www.sciencedirect.com/science/article/abs/pii/B9780124177505500221
+- access_status: failed
+  digest: fdd7cf435ceae9f3
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:65c181112f05da70
+  source_type: publisher_abstract
+  title: 'HTTP Error 403: Forbidden'
+  url: https://www.sciencedirect.com/science/article/abs/pii/B9780124177505500221
+- source_id: crossref_search:e196ec9d4fec2f68
+  url: https://doi.org/10.1007/bf00264025
+  title: Describing an algorithm by Hopcroft
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: Describing an algorithm by Hopcroft'
+  short_quote: ''
+  digest: 0fefd52bd5a80754
+web_query_attempts:
+- query: '"Hopcroft''s algorithm" algorithm'
+  method: search_plan
+  status: recorded
+- query: '"Hopcroft''s algorithm" input output'
+  method: search_plan
+  status: recorded
+- query: '"Hopcroft''s algorithm" time complexity'
+  method: search_plan
+  status: recorded
+- query: '"Hopcroft''s algorithm" pseudocode'
+  method: search_plan
+  status: recorded
+- query: '"Hopcroft''s algorithm" problem'
+  method: search_plan
+  status: recorded
+- query: '"Hopcroft''s algorithm" PDF metadata abstract'
+  method: search_plan
+  status: recorded
+- query: https://www.sciencedirect.com/science/article/abs/pii/B9780124177505500221
+  method: search_plan
+  status: recorded
+- query: Hopcroft's algorithm algorithm
+  method: crossref_title_search
+  status: fetched
+extracted_problem_statement: 'Hopcroft''s algorithm is reconstructed as a classical combinatorics task. Problem/task: convert a nondeterministic finite automaton into an equivalent deterministic automaton Input semantics: A finite automaton with n states, alphabet, transition relation, start states, and accepting states. Output semantics: The reachable deterministic automaton states and transition table.'
+extracted_algorithm_summary: 'Hopcroft''s algorithm is treated as the named AlgorithmWiki variant for convert a nondeterministic finite automaton into an equivalent deterministic automaton Classical complexity metadata: time O(kn \log n); space O(kn). Public metadata/source title support includes Describing an algorithm by Hopcroft.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

@@ -1,0 +1,59 @@
+id: AW-000843
+kind: context_recovered
+algorithm_id: AW-000843
+algorithm_name: Rivin, Zabih
+source_records:
+- access_status: metadata_only
+  digest: bc294fc237f1f9f6
+  extracted_facts:
+  - 'AlgorithmWiki row name: Rivin, Zabih'
+  - 'domain: unknown'
+  - 'time complexity: O(8^n \text{poly}(n))'
+  - 'space complexity: O(8^n n^2)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: size of chessboard'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000843:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Rivin, Zabih
+  url: http://www.cs.cornell.edu/~rdz/Papers/RZ-IPL92.pdf
+- source_id: crossref_search:acf0af66363bd15a
+  url: https://doi.org/10.2307/jj.24925185.128
+  title: ZABIH BEHRUZ
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: ZABIH BEHRUZ'
+  short_quote: ''
+  digest: d0323e2cf840419c
+web_query_attempts:
+- query: '"Rivin, Zabih" algorithm'
+  method: search_plan
+  status: recorded
+- query: '"Rivin, Zabih" input output'
+  method: search_plan
+  status: recorded
+- query: '"Rivin, Zabih" time complexity'
+  method: search_plan
+  status: recorded
+- query: '"Rivin, Zabih" pseudocode'
+  method: search_plan
+  status: recorded
+- query: '"Rivin, Zabih" problem'
+  method: search_plan
+  status: recorded
+- query: '"Rivin, Zabih" PDF metadata abstract'
+  method: search_plan
+  status: recorded
+- query: http://www.cs.cornell.edu/~rdz/Papers/RZ-IPL92.pdf
+  method: search_plan
+  status: recorded
+- query: Rivin, Zabih algorithm
+  method: crossref_title_search
+  status: fetched
+extracted_problem_statement: 'Rivin, Zabih is reconstructed as a classical combinatorics task. Problem/task: place queens on a board subject to nonattacking constraints Input semantics: A board dimension n and a requested number of queens k when stated. Output semantics: A feasible placement or decision that no such placement exists.'
+extracted_algorithm_summary: 'Rivin, Zabih is treated as the named AlgorithmWiki variant for place queens on a board subject to nonattacking constraints Classical complexity metadata: time O(8^n \text{poly}(n)); space O(8^n n^2). Public metadata/source title support includes ZABIH BEHRUZ.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

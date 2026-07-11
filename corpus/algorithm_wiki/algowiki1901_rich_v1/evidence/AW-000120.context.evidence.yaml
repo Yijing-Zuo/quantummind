@@ -1,0 +1,75 @@
+id: AW-000120
+kind: context
+algorithm_id: AW-000120
+algorithm_name: Miller-Tucker-Zemlin (MTZ) formulation
+source_records:
+- access_status: metadata_only
+  digest: 9ba15bfbf4ea700f
+  extracted_facts:
+  - 'AlgorithmWiki row name: Miller-Tucker-Zemlin (MTZ) formulation'
+  - 'domain: graph'
+  - 'time complexity: \text{exp}(V)'
+  - 'space complexity: O(V^4)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: V: number of vertices, E: number of edges'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time \text{exp}(V); space O(V^4). Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000120:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Miller-Tucker-Zemlin (MTZ) formulation
+  url: https://dl.acm.org/doi/10.1145/321043.321046
+- access_status: fetched
+  digest: a1d132540887e01c
+  extracted_facts:
+  - 'DOI title: Integer Programming Formulation of Traveling Salesman Problems'
+  - 'published year: 1960'
+  - 'container title: Journal of the ACM'
+  - 'abstract summary: It has been observed by many people that a striking number of quite diverse mathematical problems can be formulated as problems in integer programming, that is, linear programming problems in which some or all of the variables are required to assume integral values.'
+  reliability: HIGH
+  short_quote: It has been observed by many people that a striking number of quite diverse mathematical problems can be formulated as problems in integer programming,
+  source_id: crossref:7b8627c500cfae2b
+  source_type: doi_metadata
+  title: Integer Programming Formulation of Traveling Salesman Problems
+  url: https://doi.org/10.1145/321043.321046
+- access_status: failed
+  digest: cbcd099d80a585be
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:61f5f4b8b49be107
+  source_type: publisher_abstract
+  title: 'HTTP Error 403: Forbidden'
+  url: https://dl.acm.org/doi/10.1145/321043.321046
+web_query_attempts:
+- method: search_plan
+  query: Miller-Tucker-Zemlin (MTZ) formulation algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Miller-Tucker-Zemlin (MTZ) formulation algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Miller-Tucker-Zemlin (MTZ) formulation problem definition
+  status: recorded
+- method: search_plan
+  query: Miller-Tucker-Zemlin (MTZ) formulation graph algorithm
+  status: recorded
+- method: search_plan
+  query: Miller-Tucker-Zemlin (MTZ) formulation site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Miller-Tucker-Zemlin (MTZ) formulation algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://dl.acm.org/doi/10.1145/321043.321046
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1145/321043.321046
+  status: fetched
+- method: source_link_html_metadata
+  query: https://dl.acm.org/doi/10.1145/321043.321046
+  status: failed
+extracted_problem_statement: 'Miller-Tucker-Zemlin (MTZ) formulation is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Miller-Tucker-Zemlin (MTZ) formulation. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'Miller-Tucker-Zemlin (MTZ) formulation is a graph algorithm record. Classical complexity metadata: time \text{exp}(V); space O(V^4). The stated classical model is Word RAM. Public metadata/source text adds: Miller-Tucker-Zemlin (MTZ) formulation graph graph V: number of vertices, E: number of edges \text{exp}(V) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

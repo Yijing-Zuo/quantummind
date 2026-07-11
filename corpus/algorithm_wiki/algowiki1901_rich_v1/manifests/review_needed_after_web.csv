@@ -1,0 +1,546 @@
+algorithm_id,algorithm_name,enrichment_status,review_reasons
+AW-000002,Karpinski,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000004,Larmore,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000009,Klinz,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000010,Eppstein,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_access_model
+AW-000013,Lokshtanov,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_access_model
+AW-000015,"Lawrence, Reilly",WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000034,Brute Force,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000057,Bjorck-Pereyra,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000063,Naive Implementation,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000081,Rabin-Karp (RK) algorithm,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_access_model
+AW-000088,Rabin–Scott powerset construction,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000089,Karatsuba Algorithm,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000090,Toom-3,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000091,Long Multiplication,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000100,Psinger,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000102,Brute Force,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000103,Grenander,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000104,Faster Brute Force (via x[L:U] = x[L:U-1]+x[U]),WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000105,Shamos,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000106,Kadane's Algorithm,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000113,Brute Force,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000115,Brute Force,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000124,The SUSAN corner detector,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000130,R. Paget I.D. Longstaff,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000133,UKF,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000134,Compressed Extended KF,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000138,Khuller Matias,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000140,Bitap algorithm,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_access_model
+AW-000156,Hashing,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000174,Harrow (Quantum),READY_WEB_ENRICHED,public_leakage_term_in_name_or_statement
+AW-000205,Fortune and Hopcroft,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000206,Rabin' Algorithm,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000207,Bentley Shamos,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000208,Hinrichs Nievergelt Schorn,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000209,Shamos Hoey,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000210,Dyer,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000233,Trial division,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000234,Wheel factorization,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000237,Williams' p + 1 algorithm,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000238,Lenstra elliptic curve factorization,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000239,Fermat's factorization method,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000240,Euler's factorization method,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000241,Dixon's algorithm,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000242,Continued fraction factorization (CFRAC),WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000243,Quadratic sieve,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000244,Rational sieve,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000245,Shanks's square forms factorization (SQUFOF),WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000257,Furer's algorithm,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000259,Harvey Hoeven,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000260,Harvey Hoeven Lecerf,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000261,Covanov and Thomé,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000263,Harvey Hoeven Lecerf,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000264,Lamport's bakery algorithm,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000265,Szymanski's algorithm,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000266,Taubenfeld's black-white bakery algorithm,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000267,Maekawa's algorithm,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000269,Suzuki-Kasami's algorithm,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000272,Bird,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000273,Resource hierarchy solution,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000274,Arbitrator solution,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000278,Overlap Layout Consensus,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000279,Greedy SEQAID,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000280,Dürer rendering algorithm,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000281,Appel's algorithm 1968,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000282,Whitted's algorithm 1979,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000284,A. Chalmers T. Davis and E. Reinhard 2002,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000285,Moravec's algorithm 1980,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000286,Förstner algorithm 1987,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000287,J. J. Koenderink and W. Richards 1988,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000288,Lindeberg (1994),WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000291,Lowe (2004),WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000292,T. Lindeberg and J. Garding (1997),WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000293,Lindeberg 2005,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000294,The Wang and Brady corner detection algorithm 1995,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000295,The Trajkovic and Hedley corner detector 1998,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000297,Trujillo and Olague 2008,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000298,Geert Willems Tinne Tuytelaars and Luc van Gool (2008),WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000299,"Tao Luo, Zaifeng Shi and Pumeng Wang",WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000300,T. Lindeberg DoG 2012,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000301,T. Lindeberg DoG 2015,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000302,SIFT Algorithm Lowe 2004,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000303,Hessain Determinant Lindeberg 1994,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000304,Hessain Determinant Lindeberg 1998,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000305,SURF Descriptor 2006,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000306,Hessian-Laplace Mikolajczyk and Schmid 2004,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000307,Spatio-temporal Geert Willems Tinne Tuytelaars and Luc van Gool (2008),WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000308,Lindeberg's watershed-based grey-level blob detection algorithm 1991,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000309,Maximally stable extremal regions Matas 2002,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000310,A. Baumberg. 2000,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000311,Y. Dufournaud C. Schmid and R. Horaud 2000,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000312,local scale-invariant Lowe 1999,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000313,T. Tuytelaars and L. Van Gool 2000,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000314,view frustum culling,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000315,Sector-Based Culling,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000316,Occlusion Culling,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000317,Contribution Culling,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000319,CNN Based Gatys Leon A 2001,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000320,P.Hanrahan and W.Krueger 1993,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000321,H.W.Jensen 2001,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000322,He X. D. Torrance K. E. Sillion 1991,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000323,Kajiya J. Anisotropic Reflection Models 1985,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000324,"Nakamae E. Kaneda K. Okamoto T. and, Nishita 1990",WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000325,Cabral B. Max N. and Springmeyer R 1990,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000326,Westin S. H. Arvo J. R. and Torrance K. E 1992,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000327,Phong,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000328,Blinn–Phong,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000329,Cook–Torrance (microfacets),WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000330,Ward anisotropic,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000331,Hanrahan–Krueger,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000332,Linda G. Shapiro and George C. Stockman (2001),WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000333,Recursive Region Splitting,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000334,Barghout Lauren Visual Taxometric approach,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000335,Dual clustering - Guberman,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000336,R. Nock and F. Nielsen Statistical Region Merging,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000337,Kass Witkin and Terzopoulos,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000339,S.L. Horowitz and T. Pavlidis - directed split and merge,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000340,David Mumford and Jayant Shah (1989),WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000341,Geman and Geman Markov random fields,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000342,Iterated conditional modes algorithm,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000343,watershed transformation 1979,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000344,topological watershed,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000345,Florack and Kuijper,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000346,Bijaoui and Rué,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000347,Multi-scale MAP estimation - A. Bouman and M. Shapiro (2002),WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000349,Quasi-linear Topological watershed,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000351,Coplanar facets merging - M.J. De Haemer and M.J. Zyda 1991,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model; missing_size_parameters
+AW-000352,Coplanar facets merging - Hinker P. and Hansen C. 1993,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model; missing_size_parameters
+AW-000353,Coplanar facets merging - Kalvin A. D. Cutting C. B. Haddad B. and Noz M. E. 1991,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model; missing_size_parameters
+AW-000354,Coplanar facets merging - A.D. Kalvin and R.H. Taylor 1996,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model; missing_size_parameters
+AW-000355,Controlled vertex/edge/face decimation - M.E. Algorri and F. Schmitt 1996,WEB_INSUFFICIENT,missing_size_parameters
+AW-000356,Controlled vertex/edge/face decimation - Guéziec 1996,WEB_INSUFFICIENT,missing_size_parameters
+AW-000357,Controlled vertex/edge/face decimation - R. Ronfard and J. Rossignac 1996,WEB_INSUFFICIENT,missing_size_parameters
+AW-000358,Controlled vertex/edge/face decimation - Hamann 1994,WEB_INSUFFICIENT,missing_size_parameters
+AW-000359,Controlled vertex/edge/face decimation - Cohen J. Varshney A 1996,WEB_INSUFFICIENT,missing_size_parameters
+AW-000360,Re-tiling - Turk G 1992,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model; missing_size_parameters
+AW-000361,Vertex clustering - Rossignac J. and Borrel P. 1993,WEB_INSUFFICIENT,missing_size_parameters
+AW-000362,Vertex clustering - Low K. L. and Tan T. S 1997,WEB_INSUFFICIENT,missing_size_parameters
+AW-000363,Vertex clustering - Reddy 1996,WEB_INSUFFICIENT,missing_size_parameters
+AW-000364,Vertex clustering - Hoppe H. DeRose T. 1993,WEB_INSUFFICIENT,missing_size_parameters
+AW-000365,Vertex clustering - Rossignac J. and Borrel P. 1997,WEB_INSUFFICIENT,missing_size_parameters
+AW-000366,Wavelet-based - M.H. Gross O.G. Staadt and R. Gatti 1996,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model; missing_size_parameters
+AW-000367,Wavelet-based - D.J. Hebert and H-J. Kim 1995,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model; missing_size_parameters
+AW-000368,Wavelet-based - Certain A. Popovic J. 1996,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model; missing_size_parameters
+AW-000369,Wavelet-based - Eck M. DeRose T. 1995,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model; missing_size_parameters
+AW-000370,Simplification via intermediate hierarchical rep-resentation - Andujar 1996,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model; missing_size_parameters
+AW-000371,Simplification via intermediate hierarchical rep-resentation - He T. Hong L. Kaufman 1995,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model; missing_size_parameters
+AW-000372,Simplification via intermediate hierarchical rep-resentation - He T. Hong 1996,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model; missing_size_parameters
+AW-000373,Hauskrecht 2000,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model; missing_size_parameters
+AW-000374,Pineau Gordon & Thrun 2003,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model; missing_size_parameters
+AW-000375,Braziunas & Boutilier 2004,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model; missing_size_parameters
+AW-000376,Poupart 2005,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model; missing_size_parameters
+AW-000377,Smith & Simmons 2005,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model; missing_size_parameters
+AW-000378,Spaan & Vlassis 2005,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model; missing_size_parameters
+AW-000379,Satia & Lave 1973,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model; missing_size_parameters
+AW-000380,Washington 1997,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model; missing_size_parameters
+AW-000381,BartoBradtke & Singhe 1995,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model; missing_size_parameters
+AW-000382,Paquet Tobin & Chaib-draa 2005,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model; missing_size_parameters
+AW-000383,McAllester & Singh 1999,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model; missing_size_parameters
+AW-000384,Bertsekas & Castanon 1999,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model; missing_size_parameters
+AW-000385,Shani Brafman & Shimony 2005,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model; missing_size_parameters
+AW-000388,Blinn and Newell,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model; missing_size_parameters
+AW-000389,Nate Green,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000390,Sphere mapping,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model; missing_size_parameters
+AW-000391,Heidrich W. and H.-P. Seidel,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000392,Emil Praun,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000393,Mauro Steigleder,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model; missing_size_parameters
+AW-000394,HEALPix mapping Wong,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000395,Maximum a Posteriori Occupancy Mapping,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000397,srba,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000417,Schöning,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000418,Hirsch,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000419,Johnson,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000420,Alon and Kahale,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000422,Special number field sieve,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000423,General number field sieve,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000426,Quick-Skip Searching,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_access_model
+AW-000430,Aho–Corasick (AC) Algorithm,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_access_model
+AW-000432,Raita Algorithm,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_access_model
+AW-000434,Apostolico–Giancarlo Algorithm,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_access_model
+AW-000437,Nested loop join,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000439,Hash join,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000450,Peterson's algorithm,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000451,Naimi-Trehel's algorithm,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000452,Chan-Singhal-Liu,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000462,Sattolo's algorithm,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000463,Buchberger's algorithm,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000468,Steinhaus–Johnson–Trotter algorithm,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000469,Tompkins–Paige algorithm,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000477,Levcopoulos Lingas Sack,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000486,Naive algorithm,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000487,Cooley–Tukey algorithm,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000488,Rader–Brenner algorithm,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000489,Bruun's FFT algorithm,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000494,Von zur Gathen-Gerhard additive FFT,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000495,Wang-Zhu-Cantor additive FFT,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000496,Gao’s additive FFT,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000533,False position method,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000535,Secant method,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000536,Ridder's method,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000537,Muller's method,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000538,Todd–Coxeter algorithm,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000539,Haselgrove-Leech-Trotter (HLT) algorithm,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000541,Expectation–maximization (EM) algorithm,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000543,Parameter-expanded expectation maximization (PX-EM) algorithm,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000545,Generalized expectation maximization (GEM) algorithm,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000546,α-EM algorithm,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000547,Naive solution,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000548,Flajolet–Martin algorithm,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000549,LogLog algorithm,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000553,Chow's Algorithm,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000554,"Linear Scan, Poletto & Sarkar",WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000555,"Optimal Register Allocation (ORA), Goodwin & Wilken Algorithm",WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000556,Kong and Wilken Algorithm,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000558,Bowyer–Watson algorithm,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000559,Naïve algorithm,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000560,Two-pass algorithm,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000561,Welford's Online algorithm,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000562,Weighted incremental algorithm,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000567,Hopcroft's algorithm,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000569,Brzozowski's algorithm,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000570,Revuz's algorithm,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000571,Almeida & Zeitoun,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000593,5-point star Cramer's rule,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000594,5-point Gauss elimination,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000595,5-point Gauss Seidel iteration,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000596,5-point SOR iteration,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000597,5-point ADI iteration,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000598,9-point SOR iteration,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000599,9-point Tensor product,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000600,9-point ADI iteration,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000601,5-point FFT,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000602,5-point FFT,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000603,5-point FFT,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000604,5-point FFT,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000605,5-point star Cramer's rule,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000606,5-point Gauss elimination,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000607,5-point Gauss Seidel iteration,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000608,5-point SOR iteration,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000609,5-point ADI iteration,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000610,9-point SOR iteration,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000611,9-point Tensor product,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000612,9-point ADI iteration,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000613,5-point FFT,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000614,9-point ADI iteration + smooth guess,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000615,5-point cyclic reduction,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000616,9-point FFT,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000617,Naive algorithm,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000620,Bowyer–Watson algorithm,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000621,Belloch,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000624,S-hull (Sinclair),WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000626,Drysdale Su,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000630,Hybrid Algorithm,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000631,Naive algorithm,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000632,Brute force algorithm,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000633,Schlimmer,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000634,Liu,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000635,Tradu Mirc,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000636,Xu Renio,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000637,Xu Renio,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000638,Xu Renio,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000639,Xu Renio,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000640,Xu Renio,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000641,Xu Renio,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000642,Xu Renio,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000643,Räihä Manilla,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000644,Catriel Beeri Ronald Fagin John H. Howard,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000645,FCFS,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000647,SCAN,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000648,LOOK,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000649,C-SCAN,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000650,C-LOOK,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000665,A-Priori algorithm,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000666,The Algorithm of Park Chen and Yu (PCY),WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000667,The Multistage Algorithm,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000668,The Multihash Algorithm,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000670,Discrete Cosine Transform,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000671,Maneva and M. J. Wainwright,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000672,Ciliberti Mézard,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000673,Brute force,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000674,Matsunaga Yamamoto,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000675,Sun M. Shao J. Chen K. Wong and X. Wu,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000676,Miyake 2006,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000678,Jalali and T. Weissman,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000679,Jalali A. Montanari and T. Weissman,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000680,Korada and R. Urbanke,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000681,Schubert's algorithm/Kronecker's method,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000682,Berlekamp–Massey algorithm,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000683,Gale–Shapley algorithm,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000684,Irving's Algorithm,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000685,Manlove Malley,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000686,Unsworth C. Prosser P,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000687,Gent I.P. Irving R.W. Manlove D.F. Prosser P. Smith B.M.,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000688,Patrick Posser,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000689,S. S. TSENG and R. C. T. LEE,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000690,"Tomas Feder, Nimrod Megiddoy, Serge A Plotki",WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000701,Fellegi & Sunter Model,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000702,Gupta & Sarawagi CRF,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000703,Chen Ensembles of classifiers,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000704,EM Based Winkler,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000707,Ananthakrishna,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000708,BOYS algorithm,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000714,Demand-Driven Register Allocation,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000718,Kleitman–Wang Algorithm,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000723,BST Algorithm,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000728,B.I. Kvasov,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000729,V. A. Lyul’ka and A. V. Romanenko,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000730,V. A. Lyul’ka and I. E. Mikhailov,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000731,V. I. Paasonen,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000732,"P. Costantini, B. I. Kvasov, and C. Manni",WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000733,B. I. Kvasov,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000735,FLOATER 1997,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000736,PINKALL U. POLTHIER K 1993,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000737,FLOATER 2003,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000738,LEE Y. KIM H. S. LEE S 2002,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000741,KARNI Z. GOTSMAN C. GORTLER S. J. 2005,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000742,HORMANN K. GREINER G 1999,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000743,SHEFFER A. DE STURLER E. 2000,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000745,ZAYER R. LÉVY B. SEIDEL H.-P. 2007,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000747,YAN J. Q. YANG X. SHI P. F 2006,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000748,ZAYER R. ROESSL C. SEIDEL H.-P 2005,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000749,YOSHIZAWA S. BELYAEV A. G. SEIDEL H.-P 2004,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000750,CHEN Z. G. LIU L. G. ZHANG Z. Y. WANG G. J. 2007,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000751,YANG Y. KIM J. LUO F. HU S. GU X. 2008,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000752,BEN-CHEN M. GOTSMAN C. BUNIN G. 2008,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000754,Expectation-Maximization (EM) algorithm,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000756,Parameter-expanded expectation maximization (PX-EM),WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000757,Expectation conditional maximization (ECM),WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000758,Expectation conditional maximization either (ECME) (Liu Chuanhai Rubin Donald B),WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000759,α-EM Algorithm,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000760,Shaban Amirreza Mehrdad Farajtabar,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000766,Stratonovich,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000767,Stratonovich,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000769,Zakai,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000772,Del Moral Pierre,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000774,Bellman Value Iteration (VI),WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000775,Howard Policy Iteration (PI),WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000776,Puterman Modified Policy Iteration (MPI),WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000777,"Vazirani (ILP, chapters 13-15)",WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000778,"Vazirani (ILP, chapters 13-15)",WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000779,Brute force,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000784,The INDEGREE Algorithm,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000785,The PAGERANK Algorithm,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000787,The (Stochastic Approach for Link Structure Analysis) SALSA Algorithm,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000789,PHITS Coheng Chan,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000790,Haveliwala,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000791,Jeh and Widom,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000792,Richardson and Domingos,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000793,Tomlin,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000794,Achlioptas,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000795,Leases (Cary G Gray and David R Cheriton),WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000796,Chubby (Mike Burrows),WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000797,Tushar Deepak Chandra and Sam Toueg,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000798,Brute force,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000799,Branch and bound,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000823,Trial Multiplication,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000824,Baby-step Giant-step,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000825,Function Field Sieve (FFS),WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000826,Number Field Sieve (NFS),WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000827,Pohlig-Hellman,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000828,Pollard's rho algorithm,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000829,Pollard's kangaroo algorithm,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000832,Outside-In algorithm,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000833,Naive Algorithm,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000834,Naive Algorithm,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000835,Naive + 1 queen per row restriction,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000836,Naive + 1 queen per row restriction,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000839,Method of determinants,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000840,Method of determinants,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000841,Gunther Determinants solution,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000842,Gunther Determinants solution,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000843,"Rivin, Zabih",WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000846,Iteration based,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000847,Recursion based,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000848,Non-recursion based,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000849,Gray-code based,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000860,Shamir's scheme,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000861,Blakley's scheme,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000863,Regula Falsi method,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000864,Secant method,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000866,Lucifer / DES,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000867,IDEA,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000868,RC5,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000870,Blowfish,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000872,Bjorck,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000873,Higham,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000874,"Calvetti, Reichel",WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000875,Euclid's algorithm,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000878,"Sthele, Zimmermann",WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000879,Brute force algorithm,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000883,Fixed priority shortest job first,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000885,Shortest remaining time first,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000886,"First come, first served",WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000889,Banker's Algorithm,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000890,The theoretically optimal page replacement algorithm,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000891,Not recently used,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000892,"First-in, first-out",WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000893,Second-chance,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000894,Clock,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000895,Least recently used,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000896,Random,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000897,Not frequently used (NFU),WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000898,Aging,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000899,Longest distance first (LDF) page replacement algorithm,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000900,ARIES,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000901,Output-Sensitive Quantum BMM,READY_WEB_ENRICHED,public_leakage_term_in_name_or_statement
+AW-000902,,READY_WEB_ENRICHED,missing_algorithm_name
+AW-000903,O'Neil 1973,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000907,Chan,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000908,Chan,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000909,Yu,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000939,Davis-Putnam-Logemann-Loveland Algorithm (DPLL),WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000940,Conflict-Driven Clause Learning (CDCL),WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000943,Quantum Adiabatic Algorithm (QAA),WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model; public_leakage_term_in_name_or_statement
+AW-000944,Lewis 1978,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000945,"Paturi, Pudlák, Saks, Zane (PPSZ) 2005",WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000946,Hertli (Modified PPSZ),WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000947,Hertli (Modified PPSZ),WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000952,Wells,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000953,Langdon,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000954,Ord-Smith,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000955,Ives' algorithm c,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000957,Illinois Algorithm,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000958,Anderson–Björck algorithm,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000959,ITP Method,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000960,Steffensen's method,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000961,Inverse quadratic interpolation,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000962,Brent-Dekker Method,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000975,"Gronlund, Pettie",WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000976,"Gronlund, Pettie",WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000977,Freund,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000978,Chan,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000985,Exhaustive search,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000986,"Abboud, Williams, Yu",WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000987,"Reduction to Abboud, Williams, Yu",WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000988,"Chan, Williams",WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-000989,"Reduction to Chan, Williams",WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-001010,Grahne and Räihä,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-001011,Lien,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-001012,Sciore,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-001013,Fagin,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-001014,Takaoka,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model; missing_size_parameters
+AW-001015,Chan,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model; missing_size_parameters
+AW-001016,"Fischer, Heun",WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-001017,"Nuutila, Soisalon-Soininen",WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model; missing_size_parameters
+AW-001018,"Buhler, Lenstra, Pomerance",WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model; missing_size_parameters
+AW-001019,"Pomerance, Wagstaff",WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model; missing_size_parameters
+AW-001020,Fredman,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-001021,Takaoka,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-001023,Chan,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model; missing_size_parameters
+AW-001024,"Galil, Margalit",WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model; missing_size_parameters
+AW-001025,"Kose, Weckwerth, Linke, Fiehn",WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model; missing_size_parameters
+AW-001026,Mongelli et. al.,READY_METADATA_WITH_SOURCE,missing_size_parameters
+AW-001027,Eppstein,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_access_model
+AW-001040,Preperata (1),WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-001041,Preperata (2),WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-001047,Nassimi and Sahni,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-001064,Akl,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-001093,Kunde,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-001099,"Saxena, Bhatt, Prasad",WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-001130,"Wang, Chen, Lin",WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-001131,"Dey, Srimani",WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-001136,Tang,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model; missing_size_parameters
+AW-001174,"Tianzhen, Zhou, Xiozhen",WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-001201,"Olariu, Schwing",WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-001207,"Folwell, Guha, Suzuki",WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-001208,"Folwell, Guha, Suzuki",WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-001226,Cerin,READY_METADATA_WITH_SOURCE,missing_size_parameters
+AW-001246,"Siebert, Wolf",WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-001257,"Bosakova-Ardenska, Vasilev, Kostadinova-Georgieva",WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model; missing_size_parameters
+AW-001260,"SPMS - Cole, Ramachandran",WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-001265,"Kim, Choi, Bae",WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-001282,"2mm - Mubarak, Iqbal, Naeem, Hussain",WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model; missing_size_parameters
+AW-001290,Akl,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-001312,"Galper, Brutlag (synchronous Row Wavefront approach) (1)",WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-001313,"Galper, Brutlag (asynchronous Row Wavefront approach) (also asynch DWF) (2)",WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-001314,"Galper, Brutlag (synchronous Diagonal Wavefront approach) (3)",WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-001316,Tiskin,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-001340,Dekel Nassimi & Sahni (1),WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-001341,Dekel Nassimi & Sahni (2),WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-001343,Dekel Nassimi & Sahni (4),WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-001344,Dekel Nassimi & Sahni (5),WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-001345,Dekel Nassimi & Sahni (6),WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-001346,Dekel Nassimi & Sahni (7),WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-001349,"Agarwal, Gustavson, Zubair",WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-001350,"Agarwal, Bale, Gustavson, Joshi, Palkar (P_GEMM, Classical 3D)",WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-001351,"Solomonik, Demmel (Classical 2.5D)",WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-001355,"Hunold, Rauber, Rünger",WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-001356,Ballard (CAPS) (same as 2012 paper),WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-001359,"Bae, Shinn, Takaoka",WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-001361,"Gupta, Kumar (variant of DNS81)",WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-001364,Berntsen (Classical 3D),WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-001368,"Choi, Walker, Dongarra (PUMMA)",WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-001370,"Lin, Snyder",WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-001371,"Lee, Robertson, Fortes (Cannon generalized for block-cyclic distributed matrices)",WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-001372,Choi (DIMMA),WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-001373,"Demmel, Eliahu, Fox, Kamil, Lipshitz, Schwartz, Spillinger (CARMA)",WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-001375,"Krishnan, Nieplocha (SRUMMA)",WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-001380,"Bjørstad, Manne, Sørevik, Vajteršic (Winograd's algorithm)",WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-001381,"Lee, Aboelaze (Winograd's algorithm)",WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-001382,Csanky,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-001383,"Bader, Gehrke",WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-001502,Akl,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-001503,Akl,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-001557,"AHRABIAN, NOWZARI-DALINI (1)",WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-001558,"AHRABIAN, NOWZARI-DALINI (1)",WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-001605,"Bahig, Hazber, Al-Utaibi, Nassr",WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-001610,Silverman (multiple polynomial quadratic sieve),WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-001615,van de Vorst (grids) (1),WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-001616,van de Vorst (blocks) (2),WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-001617,"Lee, Lee",WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-001624,"Lee, Erçal",WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_access_model
+AW-001626,"Czumaj, Galil, Gąsieniec, Park, Plandowski (2)",WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_access_model
+AW-001631,Chmielowiec (existing FFT-based algorithm),WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-001636,"Tembhurne, Sathe (1)",WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-001637,"Tembhurne, Sathe (2)",WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-001638,De Stefani (COPSIM),WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-001639,De Stefani (COPK - Karatsuba),WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-001668,"Cevher, Becker, Schmidt (Consensus ADMM - first order mehtod)",WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-001669,"Bubeck, Jiang, Lee, Li, Sidford",WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-001691,Swarztrauber,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-001707,"Dongarra, Sorensen",WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-001708,Sameh (Jacobi),WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-001709,Paardekooper,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-001727,"Connor, Kumar",WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-001728,"Connor, Kumar",WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-001775,"Sameh, Chen, Kuck",WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-001776,Multigrid,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-001777,Vatjersic,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-001778,"Xu, Wang [FDPI]",WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-001782,"Zhao Ning, Wang XuBen",WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-001794,"Teng, Sullivan, Beichl, Puppo",WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-001795,"Kohout, Kolingerova",WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-001800,"Guidi, Selvitopi, Ellis, Oliker, Yelick, Buluc (ELBA)",WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-001819,"Ye, Chiang",WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-001822,"Agrawal, Shafer",WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-001824,"Ozkural, Uçar, Aykanat",WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-001826,"Zhang, Zhang, Liao, Jin",WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-001827,"Cheung, Hu, Xia",WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-001828,"CZ algorithm - Jiancheng, Yiqin, Yu",WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-001844,Penzhorn,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-001860,Bae,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-001874,"Nachaoui, Chafik, Daoui",WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-001877,"Chafik, Daoui",WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-001892,Reif,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model
+AW-001893,Eberly,WEB_INSUFFICIENT,missing_concrete_problem_statement; unknown_input_model; unknown_output_contract; unknown_access_model

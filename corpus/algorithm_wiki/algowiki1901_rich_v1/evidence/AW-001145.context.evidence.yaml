@@ -1,0 +1,58 @@
+id: AW-001145
+kind: context
+algorithm_id: AW-001145
+algorithm_name: Matias, Vishkin (random)
+source_records:
+- access_status: metadata_only
+  digest: 9c6d7d3325d06d2e
+  extracted_facts:
+  - 'AlgorithmWiki row name: Matias, Vishkin (random)'
+  - 'domain: parallel_algorithms'
+  - 'time complexity: O(\log{n} \log{\log{m}}) expected'
+  - 'computational model: arbitrary-CRCW PRAM'
+  - 'parameter definitions: n: size of list, integers in range 1..m'
+  - 'precard summary: Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model. Baseline: time O(\log{n} \log{\log{m}}) expected; work O(n \\log{\\log{m}}) expected; span/depth O(\log{n} \log{\log{m}}) expected; processors O(n/ \log{n}). Bottleneck: work, span, communication, and processor-count assumptions dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001145:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Matias, Vishkin (random)
+  url: https://www.sciencedirect.com/science/article/pii/019667749190034V
+- access_status: skipped
+  digest: 805a4d4f8c04b7df
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:3189f77a4ee6233e
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://www.sciencedirect.com/science/article/pii/019667749190034V
+web_query_attempts:
+- method: search_plan
+  query: Matias, Vishkin (random) algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Matias, Vishkin (random) algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Matias, Vishkin (random) problem definition
+  status: recorded
+- method: search_plan
+  query: Matias, Vishkin (random) parallel algorithms algorithm
+  status: recorded
+- method: search_plan
+  query: Matias, Vishkin (random) site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Matias, Vishkin (random) algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://www.sciencedirect.com/science/article/pii/019667749190034V
+  status: recorded
+- method: source_link_html_metadata
+  query: https://www.sciencedirect.com/science/article/pii/019667749190034V
+  status: skipped
+extracted_problem_statement: 'Matias, Vishkin (random) is treated as a classical parallel algorithms task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Matias, Vishkin (random). Input semantics: The classical input instance named by the row, together with processor/work/span parameters when stated. Output semantics: The same mathematical output as the underlying classical task, annotated by work/span when available.'
+extracted_algorithm_summary: 'Matias, Vishkin (random) is a parallel algorithms algorithm record. Classical complexity metadata: time O(\log{n} \log{\log{m}}) expected; work O(n \\log{\\log{m}}) expected; span/depth O(\log{n} \log{\log{m}}) expected; processors O(n/ \log{n}). The stated classical model is arbitrary-CRCW PRAM. Public metadata/source text adds: Matias, Vishkin (random) parallel_algorithms parallel_algorithms n: size of list, integers in range 1..m O(\log{n} \log{\log{m}}) expected Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

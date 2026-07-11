@@ -1,0 +1,58 @@
+id: AW-001238
+kind: context
+algorithm_id: AW-001238
+algorithm_name: Wei, Xiao, Zhang
+source_records:
+- access_status: metadata_only
+  digest: c779f9a7be5fb297
+  extracted_facts:
+  - 'AlgorithmWiki row name: Wei, Xiao, Zhang'
+  - 'domain: parallel_algorithms'
+  - 'time complexity: sqrt(2n) + O(n^(3/4))'
+  - 'computational model: Biswapped Network (BSN) BSN-mesh'
+  - 'parameter definitions: n: size of list'
+  - 'precard summary: Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model. Baseline: time sqrt(2n) + O(n^(3/4)); work (sqrt(2n) + O(n^(3/4)))n; span/depth sqrt(2n) + O(n^(3/4)); processors n. Bottleneck: work, span, communication, and processor-count assumptions dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001238:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Wei, Xiao, Zhang
+  url: https://ieeexplore.ieee.org/abstract/document/4529859
+- access_status: skipped
+  digest: 393674f339063602
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:eeafb6225c05709e
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://ieeexplore.ieee.org/abstract/document/4529859
+web_query_attempts:
+- method: search_plan
+  query: Wei, Xiao, Zhang algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Wei, Xiao, Zhang algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Wei, Xiao, Zhang problem definition
+  status: recorded
+- method: search_plan
+  query: Wei, Xiao, Zhang parallel algorithms algorithm
+  status: recorded
+- method: search_plan
+  query: Wei, Xiao, Zhang site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Wei, Xiao, Zhang algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://ieeexplore.ieee.org/abstract/document/4529859
+  status: recorded
+- method: source_link_html_metadata
+  query: https://ieeexplore.ieee.org/abstract/document/4529859
+  status: skipped
+extracted_problem_statement: 'Wei, Xiao, Zhang is treated as a classical parallel algorithms task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Wei, Xiao, Zhang. Input semantics: The classical input instance named by the row, together with processor/work/span parameters when stated. Output semantics: The same mathematical output as the underlying classical task, annotated by work/span when available.'
+extracted_algorithm_summary: 'Wei, Xiao, Zhang is a parallel algorithms algorithm record. Classical complexity metadata: time sqrt(2n) + O(n^(3/4)); work (sqrt(2n) + O(n^(3/4)))n; span/depth sqrt(2n) + O(n^(3/4)); processors n. The stated classical model is Biswapped Network (BSN) BSN-mesh. Public metadata/source text adds: Wei, Xiao, Zhang parallel_algorithms parallel_algorithms n: size of list sqrt(2n) + O(n^(3/4)) Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

@@ -1,0 +1,50 @@
+algorithm_id: AW-000868
+canonical_name: RC5
+enrichment_status: WEB_INSUFFICIENT
+review_reasons:
+- missing_concrete_problem_statement
+- unknown_input_model
+- unknown_output_contract
+- unknown_access_model
+source_records:
+- access_status: metadata_only
+  digest: 996102301744be5c
+  extracted_facts:
+  - 'AlgorithmWiki row name: RC5'
+  - 'domain: unknown'
+  - 'time complexity: O(n)'
+  - 'space complexity: O(k+rw)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: text length (block size), k: key length, r: number of rounds, w: length of word'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000868:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for RC5
+  url: https://link.springer.com/chapter/10.1007/3-540-60590-8_7
+- access_status: fetched
+  digest: 5e620621783a5980
+  extracted_facts:
+  - 'DOI title: The RC5 encryption algorithm'
+  - 'published year: 1995'
+  - 'container title: Lecture Notes in Computer Science'
+  reliability: HIGH
+  short_quote: ''
+  source_id: crossref:e5298d8a47facb52
+  source_type: doi_metadata
+  title: The RC5 encryption algorithm
+  url: https://doi.org/10.1007/3-540-60590-8_7
+- access_status: skipped
+  digest: 09e218ec4d92892b
+  extracted_facts:
+  - robots.txt disallowed fetch
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:a4911c877d07595b
+  source_type: publisher_abstract
+  title: robots.txt disallowed fetch
+  url: https://link.springer.com/chapter/10.1007/3-540-60590-8_7
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

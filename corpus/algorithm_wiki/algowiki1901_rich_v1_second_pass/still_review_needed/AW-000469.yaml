@@ -1,0 +1,46 @@
+algorithm_id: AW-000469
+canonical_name: "Tompkins\u2013Paige algorithm"
+enrichment_status: SECOND_PASS_INSUFFICIENT
+review_reasons:
+- No second-pass rule could identify source-backed task semantics.
+source_records:
+- access_status: metadata_only
+  digest: 4ceecc6036839d2b
+  extracted_facts:
+  - "AlgorithmWiki row name: Tompkins\u2013Paige algorithm"
+  - 'domain: unknown'
+  - 'time complexity: O(n \cdot n!)'
+  - 'space complexity: O(n)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of elements'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000469:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: "AlgorithmWiki metadata for Tompkins\u2013Paige algorithm"
+  url: https://mathscinet.ams.org/mathscinet-getitem?mr=0080380
+- access_status: fetched
+  digest: a4ed6e83472bc849
+  extracted_facts:
+  - 'source page title: MathSciNet'
+  - 'source page description: MathSciNet We''re sorry but frontend doesn''t work properly without JavaScript enabled.'
+  reliability: LOW
+  short_quote: MathSciNet We're sorry but frontend doesn't work properly without JavaScript enabled.
+  source_id: source:34b2232c1ab21a17
+  source_type: other_public_source
+  title: MathSciNet
+  url: https://mathscinet.ams.org/mathscinet-getitem?mr=0080380
+- source_id: crossref_search:b11973d24ee93240
+  url: https://doi.org/10.5860/choice.41-4380
+  title: MathSciNet
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: MathSciNet'
+  short_quote: ''
+  digest: a573011db0c00cd2
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

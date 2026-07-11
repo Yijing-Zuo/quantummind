@@ -1,0 +1,84 @@
+id: AW-000870
+kind: context_recovered
+algorithm_id: AW-000870
+algorithm_name: Blowfish
+source_records:
+- access_status: metadata_only
+  digest: 6a94bf2967cf7383
+  extracted_facts:
+  - 'AlgorithmWiki row name: Blowfish'
+  - 'domain: unknown'
+  - 'time complexity: O(n)'
+  - 'space complexity: O(n)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: text length (block size), k: key length'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000870:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Blowfish
+  url: https://link.springer.com/chapter/10.1007/3-540-58108-1_24
+- access_status: fetched
+  digest: b78dbc4ecd4a7b7b
+  extracted_facts:
+  - 'DOI title: Description of a new variable-length key, 64-bit block cipher (Blowfish)'
+  - 'published year: 1994'
+  - 'container title: Lecture Notes in Computer Science'
+  reliability: HIGH
+  short_quote: ''
+  source_id: crossref:d02c9a2ab777a5ac
+  source_type: doi_metadata
+  title: Description of a new variable-length key, 64-bit block cipher (Blowfish)
+  url: https://doi.org/10.1007/3-540-58108-1_24
+- access_status: skipped
+  digest: b06d1a932d94628d
+  extracted_facts:
+  - robots.txt disallowed fetch
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:d0d941d496c3ea2e
+  source_type: publisher_abstract
+  title: robots.txt disallowed fetch
+  url: https://link.springer.com/chapter/10.1007/3-540-58108-1_24
+- source_id: crossref_search:cb7599dddf05028c
+  url: https://doi.org/10.1007/3-540-58108-1_24
+  title: Description of a new variable-length key, 64-bit block cipher (Blowfish)
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: Description of a new variable-length key, 64-bit block cipher (Blowfish)'
+  short_quote: ''
+  digest: 745b5f7e5103548f
+web_query_attempts:
+- query: '"Blowfish" algorithm'
+  method: search_plan
+  status: recorded
+- query: '"Blowfish" input output'
+  method: search_plan
+  status: recorded
+- query: '"Blowfish" time complexity'
+  method: search_plan
+  status: recorded
+- query: '"Blowfish" pseudocode'
+  method: search_plan
+  status: recorded
+- query: '"Blowfish" problem'
+  method: search_plan
+  status: recorded
+- query: '"Blowfish" PDF metadata abstract'
+  method: search_plan
+  status: recorded
+- query: '"Description of a new variable-length key, 64-bit block cipher (Blowfish)" algorithm'
+  method: search_plan
+  status: recorded
+- query: https://link.springer.com/chapter/10.1007/3-540-58108-1_24
+  method: search_plan
+  status: recorded
+- query: Description of a new variable-length key, 64-bit block cipher (Blowfish) algorithm
+  method: crossref_title_search
+  status: fetched
+extracted_problem_statement: 'Blowfish is reconstructed as a classical string task. Problem/task: find occurrences of a pattern in a text Input semantics: A finite text string, a finite pattern string, and alphabet/hash/preprocessing parameters when stated. Output semantics: One or more occurrence positions or a report that no occurrence exists.'
+extracted_algorithm_summary: 'Blowfish is treated as the named AlgorithmWiki variant for find occurrences of a pattern in a text Classical complexity metadata: time O(n); space O(n). Public metadata/source title support includes Description of a new variable-length key, 64-bit block cipher (Blowfish).'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

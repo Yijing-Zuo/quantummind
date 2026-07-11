@@ -1,0 +1,14 @@
+statement: 'Hessian-Laplace Mikolajczyk and Schmid 2004 is included as a named whole-algorithm context card for a classical image processing task. The task is to analyze the classical input-output problem, not to certify an end-to-end improvement claim. Input semantics: An image or image pyramid/grid of pixel intensities plus detector parameters. Output semantics: A set of detected feature locations, scales, orientations, or descriptors. Classical algorithm summary: Hessian-Laplace Mikolajczyk and Schmid 2004 is treated as the named AlgorithmWiki variant for detect local image features such as corners, blobs, or scale-invariant keypoints Classical complexity metadata: time O(n^3). Public metadata/source title support includes Radial fractional Laplace operators and Hessian inequalities. Classical complexity recorded for this row: time O(n^3); space unknown; computation model not stated. Dominant bottleneck: Local filtering, scale-space construction, nonmaximum suppression, and descriptor
+  output dominate. The useful review questions are whether the named structure exposes a smaller decision, witness, estimation, or algebraic subproblem; whether the full output size dominates any asymptotic gain; and whether the stated access model is realistic for the original input. Provenance used for reconstruction includes public metadata or abstract sources such as Radial fractional Laplace operators and Hessian inequalities.'
+input_model: explicit_image_processing_problem
+access_model: explicit_input_instance
+output_contract: full_solution
+promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+- classical_approximation_algorithm
+size_parameters:
+- 'n: primary input size parameter from the AlgorithmWiki complexity expression.'
+ambiguities:
+- Some details are reconstructed from AlgorithmWiki metadata rather than an independently fetched full public description.
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.

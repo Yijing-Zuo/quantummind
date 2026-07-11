@@ -1,0 +1,58 @@
+algorithm_family: graph
+algorithm_id: AW-001602
+approximate: '0'
+approximation_factor: ''
+blind_name: Algorithm Wiki public task AW-001602
+canonical_name: Wunderlich (continued fraction factoring)
+computational_model: SIMD (ICL DAP)
+domain: graph
+extracted_description: ''
+extraction_version: algorithm-wiki-rich-context-v1
+family: graph
+inferred_access_model: adjacency_list_query
+inferred_ambiguities:
+- No independent fetched public metadata source resolved this row beyond AlgorithmWiki metadata/source-link facts.
+- Some details are reconstructed from AlgorithmWiki metadata rather than an independently fetched full public description.
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.
+inferred_input_model: explicit_graph_problem
+inferred_output_contract: full_solution
+inferred_problem_statement: 'Wunderlich (continued fraction factoring) is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Wunderlich (continued fraction factoring). Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+inferred_promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+inferred_size_parameters:
+- 'Parameter definition: M: integer to be factorized, a = log x / log(sqrt(M)), x: the upper bound for the primes considered, r(a): Dickman''s function, P: number of processors'
+- p = stated number of processors (P)
+number_of_processors: P
+page_digest: ''
+page_fetch_status: not_found
+page_url: ''
+parameter_definitions: 'M: integer to be factorized, a = log x / log(sqrt(M)), x: the upper bound for the primes considered, r(a): Dickman''s function, P: number of processors'
+problem_name: graph
+quality_flags:
+- domain_inferred
+- problem_statement_inferred
+- io_access_output_inferred
+- has_complexity_semantics
+- has_size_parameters
+- has_computational_model
+quality_score: 100
+randomized: '0'
+readiness: READY_PUBLIC_CONTEXT
+review_reasons:
+- insufficient_algorithm_level_structure
+source_link: https://www.ams.org/journals/mcom/1985-44-169/S0025-5718-1985-0771047-0/S0025-5718-1985-0771047-0.pdf
+source_link_type: pdf
+space_complexity: ''
+span_depth: M^a / (r(a) a^2 log^2 M) / P
+time_complexity: M^a / (r(a) a^2 log^2 M) / P
+variation: ''
+work: M^a / (r(a) a^2 \log^2 M)
+year: '1985'
+rich_card_kind: context
+source_records_used:
+- AW-001602:algorithm_wiki_metadata
+source_count: 1
+source_quality: HIGH
+confidence_score: 100
+card_digest: f423024a9882882b

@@ -1,0 +1,59 @@
+algorithm_family: graph
+algorithm_id: AW-001534
+approximate: '0'
+approximation_factor: ''
+blind_name: Algorithm Wiki public task AW-001534
+canonical_name: Zaroliagis (2)
+computational_model: COMMON CRCW PRAM
+domain: graph
+extracted_description: ''
+extraction_version: algorithm-wiki-rich-context-v1
+family: graph
+inferred_access_model: adjacency_list_query
+inferred_ambiguities:
+- No independent fetched public metadata source resolved this row beyond AlgorithmWiki metadata/source-link facts.
+- Some details are reconstructed from AlgorithmWiki metadata rather than an independently fetched full public description.
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.
+inferred_input_model: explicit_graph_problem
+inferred_output_contract: full_solution
+inferred_problem_statement: 'Zaroliagis (2) is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Zaroliagis (2). Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+inferred_promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+- classical_parallel_model_recorded
+inferred_size_parameters:
+- 'Parameter definition: n: number of nodes, m: number of edges'
+- p = stated number of processors (O(m))
+number_of_processors: O(m)
+page_digest: ''
+page_fetch_status: not_found
+page_url: ''
+parameter_definitions: 'n: number of nodes, m: number of edges'
+problem_name: graph
+quality_flags:
+- domain_inferred
+- problem_statement_inferred
+- io_access_output_inferred
+- has_complexity_semantics
+- has_size_parameters
+- has_computational_model
+quality_score: 100
+randomized: '0'
+readiness: READY_PUBLIC_CONTEXT
+review_reasons:
+- A previous row has the same canonicalized algorithm name.
+source_link: https://www.researchgate.net/profile/Christos-Zaroliagis/publication/47842817_Simple_and_Work-Efficient_Parallel_Algorithms_for_the_Minimum_Spanning_Tree_Problem/links/53e256010cf275a5fdd6ba3e/Simple-and-Work-Efficient-Parallel-Algorithms-for-the-Minimum-Spanning-Tree-Problem.pdf
+source_link_type: pdf
+space_complexity: ''
+span_depth: O(log n)
+time_complexity: O(\log n)
+variation: ''
+work: O(m \log n)
+year: '1997'
+rich_card_kind: context
+source_records_used:
+- AW-001534:algorithm_wiki_metadata
+source_count: 1
+source_quality: HIGH
+confidence_score: 100
+card_digest: 06fbb26ff4cad536

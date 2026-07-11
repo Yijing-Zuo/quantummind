@@ -1,0 +1,59 @@
+id: AW-000103
+kind: context_recovered
+algorithm_id: AW-000103
+algorithm_name: Grenander
+source_records:
+- access_status: metadata_only
+  digest: 6e3455333604410f
+  extracted_facts:
+  - 'AlgorithmWiki row name: Grenander'
+  - 'domain: unknown'
+  - 'time complexity: O(n^2)'
+  - 'space complexity: O(n)'
+  - 'computational model: Word/Real RAM'
+  - 'parameter definitions: n: length of array'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000103:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Grenander
+  url: '-'
+- source_id: crossref_search:fc332920df68326d
+  url: https://doi.org/10.1093/benz/9780199773787.article.b00078779
+  title: Grenander, Alfred
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: Grenander, Alfred'
+  short_quote: ''
+  digest: 20ae36cf5c1d5979
+web_query_attempts:
+- query: '"Grenander" algorithm'
+  method: search_plan
+  status: recorded
+- query: '"Grenander" input output'
+  method: search_plan
+  status: recorded
+- query: '"Grenander" time complexity'
+  method: search_plan
+  status: recorded
+- query: '"Grenander" pseudocode'
+  method: search_plan
+  status: recorded
+- query: '"Grenander" problem'
+  method: search_plan
+  status: recorded
+- query: '"Grenander" PDF metadata abstract'
+  method: search_plan
+  status: recorded
+- query: '-'
+  method: search_plan
+  status: recorded
+- query: Grenander algorithm
+  method: crossref_title_search
+  status: fetched
+extracted_problem_statement: 'Grenander is reconstructed as a classical dynamic programming task. Problem/task: find a contiguous subarray with maximum sum Input semantics: A numeric array of length n. Output semantics: The maximum subarray value and optionally the interval attaining it.'
+extracted_algorithm_summary: 'Grenander is treated as the named AlgorithmWiki variant for find a contiguous subarray with maximum sum Classical complexity metadata: time O(n^2); space O(n). Public metadata/source title support includes Grenander, Alfred.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

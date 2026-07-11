@@ -1,0 +1,60 @@
+algorithm_family: matrix linear algebra
+algorithm_id: AW-001387
+approximate: ''
+approximation_factor: ''
+blind_name: Algorithm Wiki public task AW-001387
+canonical_name: Kaltofen, Pan
+computational_model: probabilistic algebraic random access machine defined formally in (Kaltofen 1988)
+domain: matrix_linear_algebra
+extracted_description: ''
+extraction_version: algorithm-wiki-rich-context-v1
+family: matrix_linear_algebra
+inferred_access_model: dense_matrix_access
+inferred_ambiguities:
+- The AlgorithmWiki row marks the classical method as randomized.
+- No independent fetched public metadata source resolved this row beyond AlgorithmWiki metadata/source-link facts.
+- Some details are reconstructed from AlgorithmWiki metadata rather than an independently fetched full public description.
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.
+inferred_input_model: explicit_matrix_problem
+inferred_output_contract: full_classical_output
+inferred_problem_statement: 'Kaltofen, Pan is treated as a classical matrix linear algebra task for rich AlgorithmWiki discovery. Problem/task: multiply matrices using the named bilinear or algebraic multiplication method. Input semantics: One or more explicit matrices or linear systems over the stated arithmetic domain. Output semantics: The matrix product or bilinear multiplication output.'
+inferred_promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+- classical_randomized_algorithm
+inferred_size_parameters:
+- 'Parameter definition: nxn: size of matrix A, M(n): processor complexity of parallel matrix multiplication, currently n^2.3755'
+- p = stated number of processors (max{M(n)\log{n}, n^2 \log{n} \log{\log{n}}})
+number_of_processors: max{M(n)\log{n}, n^2 \log{n} \log{\log{n}}}
+page_digest: ''
+page_fetch_status: not_found
+page_url: ''
+parameter_definitions: 'nxn: size of matrix A, M(n): processor complexity of parallel matrix multiplication, currently n^2.3755'
+problem_name: matrix linear algebra
+quality_flags:
+- domain_inferred
+- problem_statement_inferred
+- io_access_output_inferred
+- has_complexity_semantics
+- has_size_parameters
+- has_computational_model
+- randomized_flag_preserved
+quality_score: 100
+randomized: '1'
+readiness: READY_PUBLIC_CONTEXT
+review_reasons: []
+source_link: https://users.cs.duke.edu/~elk27/bibliography/92/KaPa92.pdf
+source_link_type: pdf
+space_complexity: ''
+span_depth: O(\log^5{n})
+time_complexity: O(gammak(n,p) \\log^2{n}) where gammak(n,p)=O(\\log^3{n}) for singular matrices O(gammak(n,p) \\log{n}) for non-singular so, O(\\log^5{n}) or O(\\log^4{n}) Field must be characteristic 1<p<n as well to be log(n) faster, but reals are characteristic 0, so O(\\log^5(n))
+variation: ''
+work: O(\\log^6{n}*n^2.3755)
+year: '1992'
+rich_card_kind: context
+source_records_used:
+- AW-001387:algorithm_wiki_metadata
+source_count: 1
+source_quality: HIGH
+confidence_score: 100
+card_digest: 97f4b64161abeae7

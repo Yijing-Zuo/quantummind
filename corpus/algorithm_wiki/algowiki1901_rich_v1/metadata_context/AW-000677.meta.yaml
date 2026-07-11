@@ -1,0 +1,58 @@
+algorithm_family: unknown
+algorithm_id: AW-000677
+approximate: '0'
+approximation_factor: ''
+blind_name: Algorithm Wiki public task AW-000677
+canonical_name: Martinian and M. J. Wainwright
+computational_model: Word RAM
+domain: unknown
+extracted_description: ''
+extraction_version: algorithm-wiki-rich-context-v1
+family: unknown
+inferred_access_model: dense_matrix_access
+inferred_ambiguities:
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.
+inferred_input_model: explicit_matrix_problem
+inferred_output_contract: full_classical_output
+inferred_problem_statement: 'Martinian and M. J. Wainwright is treated as a classical matrix linear algebra task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Martinian and M. J. Wainwright. Input semantics: One or more explicit matrices or linear systems over the stated arithmetic domain. Output semantics: The requested matrix, decomposition, solution vector, or other linear-algebraic output.'
+inferred_promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+inferred_size_parameters:
+- 'Parameter definition: n: length of input data, m: number of information bits, k: rate parameter (in LDPC)'
+number_of_processors: ''
+page_digest: ''
+page_fetch_status: not_found
+page_url: ''
+parameter_definitions: 'n: length of input data, m: number of information bits, k: rate parameter (in LDPC)'
+problem_name: unknown
+quality_flags:
+- has_complexity_semantics
+- has_size_parameters
+- has_computational_model
+quality_score: 80
+randomized: '0'
+readiness: READY_PUBLIC_CONTEXT
+review_reasons:
+- missing_problem_statement
+- unknown_input_model
+- unknown_access_model
+- unknown_output_contract
+- insufficient_algorithm_level_structure
+source_link: https://arxiv.org/abs/cs/0602046
+source_link_type: arxiv
+space_complexity: O(mn+mk)
+span_depth: ''
+time_complexity: O(n 2^n)
+variation: ''
+work: ''
+year: '2006'
+rich_card_kind: context
+source_records_used:
+- AW-000677:algorithm_wiki_metadata
+- arxiv:cs/0602046
+- source:b1b532eab78e356f
+source_count: 3
+source_quality: HIGH
+confidence_score: 80
+card_digest: 760d40f504747956

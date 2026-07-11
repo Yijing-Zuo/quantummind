@@ -1,0 +1,45 @@
+algorithm_id: AW-001795
+canonical_name: Kohout, Kolingerova
+enrichment_status: WEB_INSUFFICIENT
+review_reasons:
+- missing_concrete_problem_statement
+- unknown_input_model
+- unknown_output_contract
+- unknown_access_model
+source_records:
+- access_status: metadata_only
+  digest: 1f3dfa19f116ed27
+  extracted_facts:
+  - 'AlgorithmWiki row name: Kohout, Kolingerova'
+  - 'domain: unknown'
+  - 'parameter definitions: n: number of points'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001795:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Kohout, Kolingerova
+  url: https://dl.acm.org/doi/abs/10.1145/984952.984966
+- access_status: skipped
+  digest: e7d79d38461feebf
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:d16fef7ca530bd72
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1145/984952.984966
+- access_status: skipped
+  digest: 1dc3187814e124c8
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:902f2d272133ddf5
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://dl.acm.org/doi/abs/10.1145/984952.984966
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

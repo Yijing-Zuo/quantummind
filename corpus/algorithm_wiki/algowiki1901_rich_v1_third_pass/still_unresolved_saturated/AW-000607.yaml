@@ -1,0 +1,58 @@
+algorithm_id: AW-000607
+canonical_name: 5-point Gauss Seidel iteration
+enrichment_status: THIRD_PASS_SATURATED_INSUFFICIENT
+review_reasons:
+- After the configured source-family cycles, no source-backed concrete task, input semantics, output semantics, and conservative access model could be established.
+source_records:
+- access_status: metadata_only
+  digest: 06beb8646958186f
+  extracted_facts:
+  - 'AlgorithmWiki row name: 5-point Gauss Seidel iteration'
+  - 'domain: unknown'
+  - 'time complexity: O(n^5 \log n)'
+  - 'space complexity: O(n^3)'
+  - 'computational model: Real RAM'
+  - 'parameter definitions: n: dimension of grid (where grid is discretized)'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000607:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for 5-point Gauss Seidel iteration
+  url: ''
+- access_status: fetched
+  digest: 9967e5308d937816
+  extracted_facts:
+  - "Crossref title-search result: Gauss\u2010Seidel Iteration"
+  reliability: MEDIUM
+  short_quote: ''
+  source_id: crossref_search:872399ec85573d0b
+  source_type: doi_metadata
+  title: "Gauss\u2010Seidel Iteration"
+  url: https://doi.org/10.1002/9781118445112.stat02249
+- source_id: crossref_search:5363b5008ef1bced
+  url: https://doi.org/10.1002/9781118445112.stat02249
+  title: "Gauss\u2010Seidel Iteration"
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - "Crossref title: Gauss\u2010Seidel Iteration"
+  - 'published year: 2014'
+  - 'container title: Wiley StatsRef: Statistics Reference Online'
+  short_quote: "Crossref title: Gauss\u2010Seidel Iteration published year: 2014 container title: Wiley StatsRef: Statistics Reference Online"
+  digest: ffbc662b20a5bcc1
+- source_id: openalex:b74d729f5dea6b18
+  url: https://openalex.org/W1556027180
+  title: 'Discrete iterations: A metric study'
+  source_type: openalex
+  access_status: fetched
+  reliability: HIGH
+  extracted_facts:
+  - 'OpenAlex title: Discrete iterations: A metric study'
+  - 'publication year: 1987'
+  short_quote: 'OpenAlex title: Discrete iterations: A metric study publication year: 1987'
+  digest: 4a87da61c5ecf621
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

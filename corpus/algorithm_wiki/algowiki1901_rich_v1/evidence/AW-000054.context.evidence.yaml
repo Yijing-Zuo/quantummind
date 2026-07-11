@@ -1,0 +1,71 @@
+id: AW-000054
+kind: context
+algorithm_id: AW-000054
+algorithm_name: Aasen's method
+source_records:
+- access_status: metadata_only
+  digest: d5b0c0592a3a7e0c
+  extracted_facts:
+  - 'AlgorithmWiki row name: Aasen''s method'
+  - 'domain: unknown'
+  - 'time complexity: O(n^3)'
+  - 'space complexity: O(n^2)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of variables and number of equations'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000054:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Aasen's method
+  url: https://link.springer.com/article/10.1007/BF01931804
+- access_status: fetched
+  digest: ae948f6954e8fb3d
+  extracted_facts:
+  - 'DOI title: On the reduction of a symmetric matrix to tridiagonal form'
+  - 'published year: 1971'
+  - 'container title: BIT'
+  reliability: HIGH
+  short_quote: ''
+  source_id: crossref:3a8d7a769f1cfabb
+  source_type: doi_metadata
+  title: On the reduction of a symmetric matrix to tridiagonal form
+  url: https://doi.org/10.1007/BF01931804
+- access_status: skipped
+  digest: b8027359b5d968a8
+  extracted_facts:
+  - robots.txt disallowed fetch
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:b4ab9f0e78326bd2
+  source_type: publisher_abstract
+  title: robots.txt disallowed fetch
+  url: https://link.springer.com/article/10.1007/BF01931804
+web_query_attempts:
+- method: search_plan
+  query: Aasen's method algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Aasen's method algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Aasen's method problem definition
+  status: recorded
+- method: search_plan
+  query: Aasen's method site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Aasen's method algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://link.springer.com/article/10.1007/BF01931804
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1007/BF01931804
+  status: fetched
+- method: source_link_html_metadata
+  query: https://link.springer.com/article/10.1007/BF01931804
+  status: skipped
+extracted_problem_statement: 'Aasen''s method is treated as a classical matrix linear algebra task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Aasen''s method. Input semantics: One or more explicit matrices or linear systems over the stated arithmetic domain. Output semantics: The requested matrix, decomposition, solution vector, or other linear-algebraic output.'
+extracted_algorithm_summary: 'Aasen''s method is a matrix linear algebra algorithm record. Classical complexity metadata: time O(n^3); space O(n^2). The stated classical model is Word RAM. Public metadata/source text adds: Aasen''s method unknown unknown n: number of variables and number of equations O(n^3) No public-ready summary is available because the row lacks enough task semantics.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

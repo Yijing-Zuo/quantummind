@@ -1,0 +1,63 @@
+algorithm_family: graph
+algorithm_id: AW-001873
+approximate: '1'
+approximation_factor: eps
+blind_name: Algorithm Wiki public task AW-001873
+canonical_name: Primal-Dual Stochastic Mirror Descent - Tiapkin, Gasnikov
+computational_model: PRAM
+domain: graph
+extracted_description: ''
+extraction_version: algorithm-wiki-rich-context-v1
+family: graph
+inferred_access_model: edge_list_input
+inferred_ambiguities:
+- The AlgorithmWiki row marks the classical method as approximate.
+- No independent fetched public metadata source resolved this row beyond AlgorithmWiki metadata/source-link facts.
+- Some details are reconstructed from AlgorithmWiki metadata rather than an independently fetched full public description.
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.
+inferred_input_model: explicit_graph_problem
+inferred_output_contract: path_or_tree
+inferred_problem_statement: 'Primal-Dual Stochastic Mirror Descent - Tiapkin, Gasnikov is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: find a low-cost or shortest path in a graph or state-space search instance. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: A path, path cost, or predecessor structure connecting the requested graph states.'
+inferred_promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+- classical_approximation_algorithm
+- classical_parallel_model_recorded
+inferred_size_parameters:
+- 'Parameter definition: A: size of set of actions, S: size of set of states, t_mix: mixing time of mdp for any policy, eps: error parameter, delta: failure probability'
+- p = stated number of processors (A_tot)
+number_of_processors: A_tot
+page_digest: ''
+page_fetch_status: not_found
+page_url: ''
+parameter_definitions: 'A: size of set of actions, S: size of set of states, t_mix: mixing time of mdp for any policy, eps: error parameter, delta: failure probability'
+problem_name: graph
+quality_flags:
+- domain_inferred
+- problem_statement_inferred
+- io_access_output_inferred
+- has_complexity_semantics
+- has_size_parameters
+- has_computational_model
+- approximation_flag_preserved
+quality_score: 100
+randomized: ''
+readiness: READY_PUBLIC_CONTEXT
+review_reasons:
+- insufficient_algorithm_level_structure
+source_link: https://proceedings.mlr.press/v151/tiapkin22a.html?roistat_visit=8274511
+source_link_type: unknown
+space_complexity: ''
+span_depth: O((t_mix^2*S*log(1/delta))/(epsilon^2))
+time_complexity: ''
+variation: ''
+work: O((t_mix^2*S^2*A*\log(1/\\delta))/(\epsilon^2))
+year: '2022'
+rich_card_kind: context
+source_records_used:
+- AW-001873:algorithm_wiki_metadata
+- skipped:8d58807b10051e24
+source_count: 2
+source_quality: HIGH
+confidence_score: 100
+card_digest: ba6fb95b6fd935f1

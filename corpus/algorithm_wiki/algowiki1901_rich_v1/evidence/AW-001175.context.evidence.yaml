@@ -1,0 +1,57 @@
+id: AW-001175
+kind: context
+algorithm_id: AW-001175
+algorithm_name: Parallel Sorting by OverPartitioning (PSOP) - Li, Sevcik (Quicksort / PQOP)
+source_records:
+- access_status: metadata_only
+  digest: 6a0ca9d46c129469
+  extracted_facts:
+  - 'AlgorithmWiki row name: Parallel Sorting by OverPartitioning (PSOP) - Li, Sevcik (Quicksort / PQOP)'
+  - 'domain: sorting'
+  - 'time complexity: CQn log n /p+CQpsk log(psk)+CQpk log(pk) +2t_r psk/W +t_r n/(pW)'
+  - 'parameter definitions: C: constant factor in quicksort, Q: unit cost in quicksort, n: size of list, p: number of processors, s: oversampling ratio, k: overpartitioning ratio, t_r: mean time to access remote memory, W: number of integers per cache line'
+  - 'precard summary: Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model. Baseline: time CQn log n /p+CQpsk log(psk)+CQpk log(pk) +2t_r psk/W +t_r n/(pW); processors p. Bottleneck: comparison, distribution, and full-output movement costs dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001175:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Parallel Sorting by OverPartitioning (PSOP) - Li, Sevcik (Quicksort / PQOP)
+  url: https://dl.acm.org/doi/pdf/10.1145/181014.192329
+- access_status: skipped
+  digest: e22181a5c644ab3f
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:0fd8496c0f7738f7
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1145/181014.192329
+web_query_attempts:
+- method: search_plan
+  query: Parallel Sorting by OverPartitioning (PSOP) - Li, Sevcik (Quicksort / PQOP) algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Parallel Sorting by OverPartitioning (PSOP) - Li, Sevcik (Quicksort / PQOP) algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Parallel Sorting by OverPartitioning (PSOP) - Li, Sevcik (Quicksort / PQOP) problem definition
+  status: recorded
+- method: search_plan
+  query: Parallel Sorting by OverPartitioning (PSOP) - Li, Sevcik (Quicksort / PQOP) sorting algorithm
+  status: recorded
+- method: search_plan
+  query: Parallel Sorting by OverPartitioning (PSOP) - Li, Sevcik (Quicksort / PQOP) site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Parallel Sorting by OverPartitioning (PSOP) - Li, Sevcik (Quicksort / PQOP) algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://dl.acm.org/doi/pdf/10.1145/181014.192329
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1145/181014.192329
+  status: skipped
+extracted_problem_statement: 'Parallel Sorting by OverPartitioning (PSOP) - Li, Sevcik (Quicksort / PQOP) is treated as a classical sorting task for rich AlgorithmWiki discovery. Problem/task: sort the input sequence using the named classical sorting method. Input semantics: A finite array or list of comparable keys or records. Output semantics: The same items returned in nondecreasing order, usually as a full reordered sequence.'
+extracted_algorithm_summary: 'Parallel Sorting by OverPartitioning (PSOP) - Li, Sevcik (Quicksort / PQOP) is a sorting algorithm record. Classical complexity metadata: time CQn log n /p+CQpsk log(psk)+CQpk log(pk) +2t_r psk/W +t_r n/(pW); processors p. Public metadata/source text adds: actor in quicksort, Q: unit cost in quicksort, n: size of list, p: number of processors, s: oversampling ratio, k: overpartitioning ratio, t_r: mean time to access remote memory, W: number of integers per cache line CQn log n /p+CQpsk log(psk)+CQpk log(pk) +2t_r psk/W +t_r n/(pW) Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

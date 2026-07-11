@@ -1,0 +1,82 @@
+id: AW-000282
+kind: context_recovered
+algorithm_id: AW-000282
+algorithm_name: Whitted's algorithm 1979
+source_records:
+- access_status: metadata_only
+  digest: 9d77a47e534bee2b
+  extracted_facts:
+  - 'AlgorithmWiki row name: Whitted''s algorithm 1979'
+  - 'domain: unknown'
+  - 'time complexity: O(n^2)'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000282:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Whitted's algorithm 1979
+  url: https://dl.acm.org/doi/10.1145/358876.358882
+- access_status: fetched
+  digest: f0b386f298518728
+  extracted_facts:
+  - 'DOI title: An improved illumination model for shaded display'
+  - 'published year: 1980'
+  - 'container title: Communications of the ACM'
+  - 'abstract summary: To accurately render a two-dimensional image of a three-dimensional scene, global illumination information that affects the intensity of each pixel of the image must be known at the time the intensity is calculated.'
+  reliability: HIGH
+  short_quote: To accurately render a two-dimensional image of a three-dimensional scene, global illumination information that affects the intensity of each pixel of the image must
+  source_id: crossref:a87e7a0074f51d3b
+  source_type: doi_metadata
+  title: An improved illumination model for shaded display
+  url: https://doi.org/10.1145/358876.358882
+- access_status: failed
+  digest: 5499333963a136cf
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:b90a20c0ccceb1f9
+  source_type: publisher_abstract
+  title: 'HTTP Error 403: Forbidden'
+  url: https://dl.acm.org/doi/10.1145/358876.358882
+- source_id: crossref_search:f3753e371a33e480
+  url: https://doi.org/10.1145/280811.280983
+  title: An improved illumination model for shaded display
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: An improved illumination model for shaded display'
+  short_quote: ''
+  digest: 561bac9874a632c8
+web_query_attempts:
+- query: '"Whitted''s algorithm 1979" algorithm'
+  method: search_plan
+  status: recorded
+- query: '"Whitted''s algorithm 1979" input output'
+  method: search_plan
+  status: recorded
+- query: '"Whitted''s algorithm 1979" time complexity'
+  method: search_plan
+  status: recorded
+- query: '"Whitted''s algorithm 1979" pseudocode'
+  method: search_plan
+  status: recorded
+- query: '"Whitted''s algorithm 1979" problem'
+  method: search_plan
+  status: recorded
+- query: '"Whitted''s algorithm 1979" PDF metadata abstract'
+  method: search_plan
+  status: recorded
+- query: '"An improved illumination model for shaded display" algorithm'
+  method: search_plan
+  status: recorded
+- query: https://dl.acm.org/doi/10.1145/358876.358882
+  method: search_plan
+  status: recorded
+- query: An improved illumination model for shaded display algorithm
+  method: crossref_title_search
+  status: fetched
+extracted_problem_statement: 'Whitted''s algorithm 1979 is reconstructed as a classical image processing task. Problem/task: compute shaded/rendered image values from a geometric scene and illumination model Input semantics: Scene geometry, material parameters, lights, camera/view information, and image resolution. Output semantics: Rendered pixel colors or intermediate shading/visibility values.'
+extracted_algorithm_summary: 'Whitted''s algorithm 1979 is treated as the named AlgorithmWiki variant for compute shaded/rendered image values from a geometric scene and illumination model Classical complexity metadata: time O(n^2). Public metadata/source title support includes An improved illumination model for shaded display.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

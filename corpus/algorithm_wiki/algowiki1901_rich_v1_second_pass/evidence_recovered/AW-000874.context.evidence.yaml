@@ -1,0 +1,84 @@
+id: AW-000874
+kind: context_recovered
+algorithm_id: AW-000874
+algorithm_name: Calvetti, Reichel
+source_records:
+- access_status: metadata_only
+  digest: ddb7d4d485374559
+  extracted_facts:
+  - 'AlgorithmWiki row name: Calvetti, Reichel'
+  - 'domain: unknown'
+  - 'time complexity: O(n^2)'
+  - 'space complexity: O(n)'
+  - 'computational model: Word/Real RAM'
+  - 'parameter definitions: n: number of points'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000874:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Calvetti, Reichel
+  url: https://link.springer.com/article/10.1007/BF01990529
+- access_status: fetched
+  digest: 01674a25a057bb39
+  extracted_facts:
+  - 'DOI title: Fast inversion of vandermonde-like matrices involving orthogonal polynomials'
+  - 'published year: 1993'
+  - 'container title: BIT'
+  reliability: HIGH
+  short_quote: ''
+  source_id: crossref:ce4c4c1308f8a71c
+  source_type: doi_metadata
+  title: Fast inversion of vandermonde-like matrices involving orthogonal polynomials
+  url: https://doi.org/10.1007/BF01990529
+- access_status: skipped
+  digest: 37193a12e00aea0d
+  extracted_facts:
+  - robots.txt disallowed fetch
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:2eb14d530a1b66ed
+  source_type: publisher_abstract
+  title: robots.txt disallowed fetch
+  url: https://link.springer.com/article/10.1007/BF01990529
+- source_id: crossref_search:66ce32be2f3a0585
+  url: https://doi.org/10.1007/bf01990529
+  title: Fast inversion of vandermonde-like matrices involving orthogonal polynomials
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: Fast inversion of vandermonde-like matrices involving orthogonal polynomials'
+  short_quote: ''
+  digest: dd5ba820547714c7
+web_query_attempts:
+- query: '"Calvetti, Reichel" algorithm'
+  method: search_plan
+  status: recorded
+- query: '"Calvetti, Reichel" input output'
+  method: search_plan
+  status: recorded
+- query: '"Calvetti, Reichel" time complexity'
+  method: search_plan
+  status: recorded
+- query: '"Calvetti, Reichel" pseudocode'
+  method: search_plan
+  status: recorded
+- query: '"Calvetti, Reichel" problem'
+  method: search_plan
+  status: recorded
+- query: '"Calvetti, Reichel" PDF metadata abstract'
+  method: search_plan
+  status: recorded
+- query: '"Fast inversion of vandermonde-like matrices involving orthogonal polynomials" algorithm'
+  method: search_plan
+  status: recorded
+- query: https://link.springer.com/article/10.1007/BF01990529
+  method: search_plan
+  status: recorded
+- query: Fast inversion of vandermonde-like matrices involving orthogonal polynomials algorithm
+  method: crossref_title_search
+  status: fetched
+extracted_problem_statement: 'Calvetti, Reichel is reconstructed as a classical matrix linear algebra task. Problem/task: solve a Vandermonde-structured linear system Input semantics: A Vandermonde matrix described by nodes and a right-hand-side vector. Output semantics: The solution vector or equivalent structured linear-system output.'
+extracted_algorithm_summary: 'Calvetti, Reichel is treated as the named AlgorithmWiki variant for solve a Vandermonde-structured linear system Classical complexity metadata: time O(n^2); space O(n). Public metadata/source title support includes Fast inversion of vandermonde-like matrices involving orthogonal polynomials.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

@@ -1,0 +1,58 @@
+id: AW-001069
+kind: context
+algorithm_id: AW-001069
+algorithm_name: Consecutive sort - Johnsson (2)
+source_records:
+- access_status: metadata_only
+  digest: e2e2374d2f51a42b
+  extracted_facts:
+  - 'AlgorithmWiki row name: Consecutive sort - Johnsson (2)'
+  - 'domain: sorting'
+  - 'time complexity: O(n \log n/p) when p<<n O(\log^2(n)) when n~=p'
+  - 'computational model: MIMD'
+  - 'parameter definitions: n: size of list, p: number of processors (power of 2)'
+  - 'precard summary: Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model. Baseline: time O(n \log n/p) when p<<n O(\log^2(n)) when n~=p; work O(np \log n/p) when p<<n O(nlog^2(n)) when n~=p; span/depth O(\log^2{n}); processors p. Bottleneck: comparison, distribution, and full-output movement costs dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001069:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Consecutive sort - Johnsson (2)
+  url: http://cs-www.cs.yale.edu/publications/techreports/tr439.pdf
+- access_status: skipped
+  digest: 7a65301eeaa64c90
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:594a1fb6958c11f1
+  source_type: wikipedia
+  title: fetch budget exhausted
+  url: https://en.wikipedia.org/wiki/Consecutive_sort_-_Johnsson_%282%29
+web_query_attempts:
+- method: search_plan
+  query: Consecutive sort - Johnsson (2) algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Consecutive sort - Johnsson (2) algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Consecutive sort - Johnsson (2) problem definition
+  status: recorded
+- method: search_plan
+  query: Consecutive sort - Johnsson (2) sorting algorithm
+  status: recorded
+- method: search_plan
+  query: Consecutive sort - Johnsson (2) site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Consecutive sort - Johnsson (2) algorithm wiki
+  status: recorded
+- method: search_plan
+  query: http://cs-www.cs.yale.edu/publications/techreports/tr439.pdf
+  status: recorded
+- method: wikipedia_summary_search
+  query: Consecutive sort - Johnsson (2) algorithm
+  status: skipped
+extracted_problem_statement: 'Consecutive sort - Johnsson (2) is treated as a classical sorting task for rich AlgorithmWiki discovery. Problem/task: sort the input sequence using the named classical sorting method. Input semantics: A finite array or list of comparable keys or records. Output semantics: The same items returned in nondecreasing order, usually as a full reordered sequence.'
+extracted_algorithm_summary: 'Consecutive sort - Johnsson (2) is a sorting algorithm record. Classical complexity metadata: time O(n \log n/p) when p<<n O(\log^2(n)) when n~=p; work O(np \log n/p) when p<<n O(nlog^2(n)) when n~=p; span/depth O(\log^2{n}); processors p. The stated classical model is MIMD. Public metadata/source text adds: Consecutive sort - Johnsson (2) sorting sorting n: size of list, p: number of processors (power of 2) O(n \log n/p) when p<<n O(\log^2(n)) when n~=p Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

@@ -1,0 +1,59 @@
+id: AW-000156-SP0001
+kind: probe_recovered
+algorithm_id: AW-000156
+algorithm_name: Hashing
+source_records:
+- access_status: metadata_only
+  digest: e85be5af1de9b8f0
+  extracted_facts:
+  - 'AlgorithmWiki row name: Hashing'
+  - 'domain: unknown'
+  - 'time complexity: O(n)'
+  - 'space complexity: O(n)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: size of list'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000156:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Hashing
+  url: '-'
+- source_id: crossref_search:d9115974e7741630
+  url: https://doi.org/10.1007/978-3-031-87584-7_123
+  title: Phablet Hashing Algorithm
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: Phablet Hashing Algorithm'
+  short_quote: ''
+  digest: 7f684e4024068112
+web_query_attempts:
+- query: '"Hashing" algorithm'
+  method: search_plan
+  status: recorded
+- query: '"Hashing" input output'
+  method: search_plan
+  status: recorded
+- query: '"Hashing" time complexity'
+  method: search_plan
+  status: recorded
+- query: '"Hashing" pseudocode'
+  method: search_plan
+  status: recorded
+- query: '"Hashing" problem'
+  method: search_plan
+  status: recorded
+- query: '"Hashing" PDF metadata abstract'
+  method: search_plan
+  status: recorded
+- query: '-'
+  method: search_plan
+  status: recorded
+- query: Hashing algorithm
+  method: crossref_title_search
+  status: fetched
+extracted_problem_statement: 'Hashing is reconstructed as a classical data structures task. Problem/task: maintain a data structure supporting the named operations Input semantics: A set of records and operation sequence for insert, delete, query, or search operations. Output semantics: A maintained representation and answers to the supported queries.'
+extracted_algorithm_summary: 'Hashing is treated as the named AlgorithmWiki variant for maintain a data structure supporting the named operations Classical complexity metadata: time O(n); space O(n). Public metadata/source title support includes Phablet Hashing Algorithm.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

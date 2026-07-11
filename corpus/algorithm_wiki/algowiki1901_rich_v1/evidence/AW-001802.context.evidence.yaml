@@ -1,0 +1,59 @@
+id: AW-001802
+kind: context
+algorithm_id: AW-001802
+algorithm_name: Ferreira
+source_records:
+- access_status: metadata_only
+  digest: ef8d307a548f2f0e
+  extracted_facts:
+  - 'AlgorithmWiki row name: Ferreira'
+  - 'domain: parallel_algorithms'
+  - 'time complexity: O(n*2^(n*eps/2))'
+  - 'space complexity: O(n)'
+  - 'computational model: CREW SIMD PRAM'
+  - 'parameter definitions: n: the number of integers in the set, t: target sum, eps: processor parameter'
+  - 'precard summary: Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model. Baseline: time O(n*2^(n*eps/2)); space O(n); work O(n*2^(n/2)); span/depth O(n); processors O(n*2^(n*(1-eps)/2)). Bottleneck: work, span, communication, and processor-count assumptions dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001802:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Ferreira
+  url: https://ieeexplore.ieee.org/document/73593
+- access_status: skipped
+  digest: 8c6575d522c122d6
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:7b3ec7247ee28b5f
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://ieeexplore.ieee.org/document/73593
+web_query_attempts:
+- method: search_plan
+  query: Ferreira algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Ferreira algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Ferreira problem definition
+  status: recorded
+- method: search_plan
+  query: Ferreira parallel algorithms algorithm
+  status: recorded
+- method: search_plan
+  query: Ferreira site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Ferreira algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://ieeexplore.ieee.org/document/73593
+  status: recorded
+- method: source_link_html_metadata
+  query: https://ieeexplore.ieee.org/document/73593
+  status: skipped
+extracted_problem_statement: 'Ferreira is treated as a classical parallel algorithms task for rich AlgorithmWiki discovery. Problem/task: solve a subset-sum or target-sum dynamic-programming/search problem. Input semantics: A finite set or multiset of integers with a target sum parameter. Output semantics: A decision result, feasible subset witness, count, or optimized subset value for the target-sum instance, depending on the row.'
+extracted_algorithm_summary: 'Ferreira is a parallel algorithms algorithm record. Classical complexity metadata: time O(n*2^(n*eps/2)); space O(n); work O(n*2^(n/2)); span/depth O(n); processors O(n*2^(n*(1-eps)/2)). The stated classical model is CREW SIMD PRAM. Public metadata/source text adds: Ferreira parallel_algorithms parallel_algorithms n: the number of integers in the set, t: target sum, eps: processor parameter O(n*2^(n*eps/2)) Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

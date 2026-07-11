@@ -1,0 +1,70 @@
+id: AW-001478
+kind: context
+algorithm_id: AW-001478
+algorithm_name: Karczmarz, Sankowski
+source_records:
+- access_status: metadata_only
+  digest: eae09c109c7510ae
+  extracted_facts:
+  - 'AlgorithmWiki row name: Karczmarz, Sankowski'
+  - 'domain: graph'
+  - 'computational model: unspecified PRAM'
+  - "parameter definitions: n: number of nodes, m: number of edges, d: depth parameter \u2208[1, n]"
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: work \tilde{O}(nm+ (n/d)^3); span/depth \tilde{O}(d). Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001478:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Karczmarz, Sankowski
+  url: https://epubs.siam.org/doi/abs/10.1137/1.9781611976465.17
+- access_status: skipped
+  digest: 7642c5368d8ed690
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:bbe0d252e224379e
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1137/1.9781611976465.17
+- access_status: skipped
+  digest: 3758be50139a0f1b
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:e8040f6d466c2dab
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://epubs.siam.org/doi/abs/10.1137/1.9781611976465.17
+web_query_attempts:
+- method: search_plan
+  query: Karczmarz, Sankowski algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Karczmarz, Sankowski algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Karczmarz, Sankowski problem definition
+  status: recorded
+- method: search_plan
+  query: Karczmarz, Sankowski graph algorithm
+  status: recorded
+- method: search_plan
+  query: Karczmarz, Sankowski site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Karczmarz, Sankowski algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://epubs.siam.org/doi/abs/10.1137/1.9781611976465.17
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1137/1.9781611976465.17
+  status: skipped
+- method: source_link_html_metadata
+  query: https://epubs.siam.org/doi/abs/10.1137/1.9781611976465.17
+  status: skipped
+extracted_problem_statement: 'Karczmarz, Sankowski is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Karczmarz, Sankowski. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: "Karczmarz, Sankowski is a graph algorithm record. Classical complexity metadata: work \\tilde{O}(nm+ (n/d)^3); span/depth \\tilde{O}(d). The stated classical model is unspecified PRAM. Public metadata/source text adds: Karczmarz, Sankowski graph graph n: number of nodes, m: number of edges, d: depth parameter \u2208[1, n] Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record."
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

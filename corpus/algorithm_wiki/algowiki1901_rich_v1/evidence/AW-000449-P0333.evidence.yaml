@@ -1,0 +1,60 @@
+id: AW-000449-P0333
+kind: probe
+algorithm_id: AW-000449
+algorithm_name: Elliptic-curve Diffie-Hellman (ECDH)
+source_records:
+- access_status: metadata_only
+  digest: d94090954dd78c24
+  extracted_facts:
+  - 'AlgorithmWiki row name: Elliptic-curve Diffie-Hellman (ECDH)'
+  - 'domain: graph'
+  - 'time complexity: O(n^2\text{mult}(n))'
+  - 'space complexity: O(n)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: maximum size of numbers (prime, base, keys), in bits, \text{mult}(n): running time on n-bit multiplication'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(n^2\text{mult}(n)); space O(n). Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000449:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Elliptic-curve Diffie-Hellman (ECDH)
+  url: https://csrc.nist.gov/publications/detail/sp/800-56a/revised/archive/2007-03-14
+- access_status: fetched
+  digest: 15137149b5eefc33
+  extracted_facts:
+  - 'source page title: SP 800-56A Rev. 1, Recommendation for Pair-Wise Key Establishment Schemes Using Discrete Logarithm Cryptography | CSRC'
+  - 'source page description: You are viewing this page in an unauthorized frame window.'
+  reliability: HIGH
+  short_quote: You are viewing this page in an unauthorized frame window.
+  source_id: source:74a301a47b7f7e47
+  source_type: nist_dads
+  title: SP 800-56A Rev. 1, Recommendation for Pair-Wise Key Establishment Schemes Using Discrete Logarithm Cryptography | CSRC
+  url: https://csrc.nist.gov/publications/detail/sp/800-56a/revised/archive/2007-03-14
+web_query_attempts:
+- method: search_plan
+  query: Elliptic-curve Diffie-Hellman (ECDH) algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Elliptic-curve Diffie-Hellman (ECDH) algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Elliptic-curve Diffie-Hellman (ECDH) problem definition
+  status: recorded
+- method: search_plan
+  query: Elliptic-curve Diffie-Hellman (ECDH) graph algorithm
+  status: recorded
+- method: search_plan
+  query: Elliptic-curve Diffie-Hellman (ECDH) site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Elliptic-curve Diffie-Hellman (ECDH) algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://csrc.nist.gov/publications/detail/sp/800-56a/revised/archive/2007-03-14
+  status: recorded
+- method: source_link_html_metadata
+  query: https://csrc.nist.gov/publications/detail/sp/800-56a/revised/archive/2007-03-14
+  status: fetched
+extracted_problem_statement: 'Elliptic-curve Diffie-Hellman (ECDH) is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Elliptic-curve Diffie-Hellman (ECDH). Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'Elliptic-curve Diffie-Hellman (ECDH) is a graph algorithm record. Classical complexity metadata: time O(n^2\text{mult}(n)); space O(n). The stated classical model is Word RAM. Public metadata/source text adds: Elliptic-curve Diffie-Hellman (ECDH) graph graph n: maximum size of numbers (prime, base, keys), in bits, \text{mult}(n): running time on n-bit multiplication O(n^2\text{mult}(n)) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

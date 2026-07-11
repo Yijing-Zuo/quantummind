@@ -1,0 +1,75 @@
+id: AW-000934
+kind: context
+algorithm_id: AW-000934
+algorithm_name: Tarjan (directed, general)
+source_records:
+- access_status: metadata_only
+  digest: 2d0889ecc4dffdd5
+  extracted_facts:
+  - 'AlgorithmWiki row name: Tarjan (directed, general)'
+  - 'domain: graph'
+  - 'time complexity: O(ElogV)'
+  - 'space complexity: O(E)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: V: number of vertices, E: number of edges, U: maximum edge weight'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(ElogV); space O(E). Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000934:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Tarjan (directed, general)
+  url: https://onlinelibrary.wiley.com/doi/10.1002/net.3230070103
+- access_status: fetched
+  digest: 612ddc5fa5eb56f4
+  extracted_facts:
+  - 'DOI title: Finding optimum branchings'
+  - 'published year: 1977'
+  - 'container title: Networks'
+  - 'abstract summary: Abstract Chu and Liu, Edmonds, and Bock have independently devised an efficient algorithm to find an optimum branching in a directed graph.'
+  reliability: HIGH
+  short_quote: Abstract Chu and Liu, Edmonds, and Bock have independently devised an efficient algorithm to find an optimum branching in a directed graph.
+  source_id: crossref:b582618de40b3074
+  source_type: doi_metadata
+  title: Finding optimum branchings
+  url: https://doi.org/10.1002/net.3230070103
+- access_status: skipped
+  digest: 64951cffdd19f7ae
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:c39d6a29c6c42810
+  source_type: other_public_source
+  title: fetch budget exhausted
+  url: https://onlinelibrary.wiley.com/doi/10.1002/net.3230070103
+web_query_attempts:
+- method: search_plan
+  query: Tarjan (directed, general) algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Tarjan (directed, general) algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Tarjan (directed, general) problem definition
+  status: recorded
+- method: search_plan
+  query: Tarjan (directed, general) graph algorithm
+  status: recorded
+- method: search_plan
+  query: Tarjan (directed, general) site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Tarjan (directed, general) algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://onlinelibrary.wiley.com/doi/10.1002/net.3230070103
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1002/net.3230070103
+  status: fetched
+- method: source_link_html_metadata
+  query: https://onlinelibrary.wiley.com/doi/10.1002/net.3230070103
+  status: skipped
+extracted_problem_statement: 'Tarjan (directed, general) is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Tarjan (directed, general). Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'Tarjan (directed, general) is a graph algorithm record. Classical complexity metadata: time O(ElogV); space O(E). The stated classical model is Word RAM. Public metadata/source text adds: Tarjan (directed, general) graph graph V: number of vertices, E: number of edges, U: maximum edge weight O(ElogV) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

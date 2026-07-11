@@ -1,0 +1,72 @@
+id: AW-000552-P0376
+kind: probe
+algorithm_id: AW-000552
+algorithm_name: Chaitin's Algorithm
+source_records:
+- access_status: metadata_only
+  digest: 941ae258d3c5806c
+  extracted_facts:
+  - 'AlgorithmWiki row name: Chaitin''s Algorithm'
+  - 'domain: unknown'
+  - 'time complexity: O(n^2)'
+  - 'space complexity: O(n^2)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of live ranges (the number of candidates to reside in registers)'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000552:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Chaitin's Algorithm
+  url: https://dl.acm.org/doi/10.1145/872726.806984
+- access_status: fetched
+  digest: 6ab3c5b35febd7dc
+  extracted_facts:
+  - 'DOI title: Register allocation &amp; spilling via graph coloring'
+  - 'published year: 1982'
+  - 'container title: ACM SIGPLAN Notices'
+  - 'abstract summary: In a previous paper we reported the successful use of graph coloring techniques for doing global register allocation in an experimental PL/I optimizing compiler.'
+  reliability: HIGH
+  short_quote: In a previous paper we reported the successful use of graph coloring techniques for doing global register allocation in an experimental PL/I optimizing compiler.
+  source_id: crossref:5ef7ec78a615a2f2
+  source_type: doi_metadata
+  title: Register allocation &amp; spilling via graph coloring
+  url: https://doi.org/10.1145/872726.806984
+- access_status: failed
+  digest: 96227afb9ff69c83
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:63587e519f0fd01c
+  source_type: publisher_abstract
+  title: 'HTTP Error 403: Forbidden'
+  url: https://dl.acm.org/doi/10.1145/872726.806984
+web_query_attempts:
+- method: search_plan
+  query: Chaitin's Algorithm algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Chaitin's Algorithm algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Chaitin's Algorithm problem definition
+  status: recorded
+- method: search_plan
+  query: Chaitin's Algorithm site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Chaitin's Algorithm algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://dl.acm.org/doi/10.1145/872726.806984
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1145/872726.806984
+  status: fetched
+- method: source_link_html_metadata
+  query: https://dl.acm.org/doi/10.1145/872726.806984
+  status: failed
+extracted_problem_statement: 'Chaitin''s Algorithm is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Chaitin''s Algorithm. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'Chaitin''s Algorithm is a graph algorithm record. Classical complexity metadata: time O(n^2); space O(n^2). The stated classical model is Word RAM. Public metadata/source text adds: Chaitin''s Algorithm unknown unknown n: number of live ranges (the number of candidates to reside in registers) O(n^2) No public-ready summary is available because the row lacks enough task semantics.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

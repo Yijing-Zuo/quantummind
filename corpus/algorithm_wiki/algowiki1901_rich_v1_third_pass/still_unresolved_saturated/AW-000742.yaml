@@ -1,0 +1,68 @@
+algorithm_id: AW-000742
+canonical_name: HORMANN K. GREINER G 1999
+enrichment_status: THIRD_PASS_SATURATED_INSUFFICIENT
+review_reasons:
+- After the configured source-family cycles, no source-backed concrete task, input semantics, output semantics, and conservative access model could be established.
+source_records:
+- access_status: metadata_only
+  digest: 5f20565a9ab595ee
+  extracted_facts:
+  - 'AlgorithmWiki row name: HORMANN K. GREINER G 1999'
+  - 'domain: unknown'
+  - 'time complexity: O(n^2)'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000742:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for HORMANN K. GREINER G 1999
+  url: https://www.inf.usi.ch/hormann/papers/Hormann.2000.MAE.pdf
+- access_status: fetched
+  digest: 405d08759d324808
+  extracted_facts:
+  - "Crossref title-search result: Parallel CUDA-Based Optimization of the Intersection Calculation Process in the Greiner\u2013Hormann Algorithm"
+  - "abstract summary: The Greiner\u2013Hormann algorithm is a commonly used polygon overlay analysis algorithm."
+  reliability: MEDIUM
+  short_quote: "The Greiner\u2013Hormann algorithm is a commonly used polygon overlay analysis algorithm."
+  source_id: crossref_search:73792d870779a7dc
+  source_type: doi_metadata
+  title: "Parallel CUDA-Based Optimization of the Intersection Calculation Process in the Greiner\u2013Hormann Algorithm"
+  url: https://doi.org/10.3390/a18030147
+- source_id: skipped:71bdfd2076f639ab
+  url: https://www.inf.usi.ch/hormann/papers/Hormann.2000.MAE.pdf
+  title: public PDF body was not downloaded
+  source_type: original_source
+  access_status: skipped
+  reliability: LOW
+  extracted_facts:
+  - public PDF body was not downloaded
+  short_quote: public PDF body was not downloaded
+  digest: e7a9ea0f7b701893
+- source_id: crossref_search:8d68e0dfb034a97a
+  url: https://doi.org/10.3390/a18030147
+  title: "Parallel CUDA-Based Optimization of the Intersection Calculation Process in the Greiner\u2013Hormann Algorithm"
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - "Crossref title: Parallel CUDA-Based Optimization of the Intersection Calculation Process in the Greiner\u2013Hormann Algorithm"
+  - 'published year: 2025'
+  - 'container title: Algorithms'
+  - "abstract summary: The Greiner\u2013Hormann algorithm is a commonly used polygon overlay analysis algorithm."
+  short_quote: "Crossref title: Parallel CUDA-Based Optimization of the Intersection Calculation Process in the Greiner\u2013Hormann Algorithm published year: 2025 container title: Algorithms abstract summary: The Greiner\u2013Hormann"
+  digest: d71cab9ee28e1887
+- source_id: openalex:a38e37ad582ee1d7
+  url: https://openalex.org/W4283381496
+  title: 'The 5th edition of the World Health Organization Classification of Haematolymphoid Tumours: Lymphoid Neoplasms'
+  source_type: openalex
+  access_status: fetched
+  reliability: HIGH
+  extracted_facts:
+  - 'OpenAlex title: The 5th edition of the World Health Organization Classification of Haematolymphoid Tumours: Lymphoid Neoplasms'
+  - 'publication year: 2022'
+  - 'abstract summary: Abstract We herein present an overview of the upcoming 5 th edition of the World Health Organization Classification of Haematolymphoid Tumours focussing on lymphoid neoplasms.'
+  short_quote: 'OpenAlex title: The 5th edition of the World Health Organization Classification of Haematolymphoid Tumours: Lymphoid Neoplasms publication year: 2022 abstract summary: Abstract We herein'
+  digest: 2bb07580a681a441
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

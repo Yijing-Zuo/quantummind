@@ -1,0 +1,59 @@
+id: AW-000696-P0468
+kind: probe
+algorithm_id: AW-000696
+algorithm_name: Hariharan
+source_records:
+- access_status: metadata_only
+  digest: 387eb7faf4697737
+  extracted_facts:
+  - 'AlgorithmWiki row name: Hariharan'
+  - 'domain: string'
+  - 'time complexity: O(\log^4 n)'
+  - 'space complexity: O(n)'
+  - 'computational model: CREW PRAM'
+  - 'parameter definitions: n: length of string'
+  - 'precard summary: Given one or more explicit strings, compute the matching, indexing, alignment, or transformation output targeted by the record. Baseline: time O(\log^4 n); space O(n). Bottleneck: string scanning, preprocessing tables, and reporting matches dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000696:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Hariharan
+  url: https://www.sciencedirect.com/science/article/pii/S0022000097914963
+- access_status: failed
+  digest: 2a72da31c4ea7e05
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:7701bd3df94ba4cf
+  source_type: publisher_abstract
+  title: 'HTTP Error 403: Forbidden'
+  url: https://www.sciencedirect.com/science/article/pii/S0022000097914963
+web_query_attempts:
+- method: search_plan
+  query: Hariharan algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Hariharan algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Hariharan problem definition
+  status: recorded
+- method: search_plan
+  query: Hariharan string algorithm
+  status: recorded
+- method: search_plan
+  query: Hariharan site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Hariharan algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://www.sciencedirect.com/science/article/pii/S0022000097914963
+  status: recorded
+- method: source_link_html_metadata
+  query: https://www.sciencedirect.com/science/article/pii/S0022000097914963
+  status: failed
+extracted_problem_statement: 'Hariharan is treated as a classical string task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Hariharan. Input semantics: One or more finite strings, sequences, patterns, or alphabets. Output semantics: Pattern occurrence positions, matches, or the associated string-search report.'
+extracted_algorithm_summary: 'Hariharan is a string algorithm record. Classical complexity metadata: time O(\log^4 n); space O(n). The stated classical model is CREW PRAM. Public metadata/source text adds: Hariharan string string n: length of string O(\log^4 n) Given one or more explicit strings, compute the matching, indexing, alignment, or transformation output targeted by the record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

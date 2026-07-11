@@ -1,0 +1,23 @@
+probe_id: AW-000012-RV1-CNT0005
+kind: registry_v1_probe
+parent_algorithm_id: AW-000012
+parent_algorithm_name: Serang
+source_card_paths:
+- corpus\algorithm_wiki\algowiki1901_rich_v1\public_context\AW-000012.yaml
+- corpus\algorithm_wiki\algowiki1901_rich_v1\public_probe\AW-000012-P0008.yaml
+source_metadata_paths:
+- corpus\algorithm_wiki\algowiki1901_rich_v1\metadata_probe\AW-000012-P0008.meta.yaml
+source_records_used:
+- AW-000012:algorithm_wiki_metadata
+- crossref:bd32e115c96e5e62
+- failed:6a0c9e778fcaec47
+short_paraphrased_support: 'Serang Serang is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: solve a subset-sum or target-sum dynamic-programming/search problem. Input semantics: A finite set or multiset of integers with a target sum parameter. Output semantics: A decision result, feasible subset witness, count, or optimized subset value for the target-sum instance, depending on the row. Serang is a graph algorithm record. Classical complexity metadata: time \tilde{O}(n \max(S)); space O(t\log t). Public metadata/source text adds: Serang unknown unknown n: number of elements in the set, S: the set, t: target sum \tilde{O}(n \max(S)) No public-ready summary is available because the row lacks enough task semantics. A finite set or multiset of integers with a target sum parameter. A decision result, feasible subset witness, count, or optimized subset value for the target-sum instance,'
+introduced_assumptions:
+- finite_search_space
+- coherent_boolean_oracle
+- count_precision_specified
+limitations:
+- The probe is a public query/subroutine hypothesis only.
+- It does not assert a full original-algorithm speedup.
+- Oracle, promise, and data-representation costs require expert review.
+confirmation: Public provenance sidecar only; no evaluator label or private benchmark answer is encoded.

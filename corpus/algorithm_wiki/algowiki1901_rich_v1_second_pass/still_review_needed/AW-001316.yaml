@@ -1,0 +1,34 @@
+algorithm_id: AW-001316
+canonical_name: Tiskin
+enrichment_status: SECOND_PASS_INSUFFICIENT
+review_reasons:
+- No second-pass rule could identify source-backed task semantics.
+source_records:
+- access_status: metadata_only
+  digest: dff1a6df2265b124
+  extracted_facts:
+  - 'AlgorithmWiki row name: Tiskin'
+  - 'domain: unknown'
+  - 'time complexity: O(mn/p) computation + O(n \log p) communication + O(\log p) barrier synchronization + O(n) memory per processor'
+  - 'computational model: BSP'
+  - "parameter definitions: assumes m \u2265 n^{1/2} p log p"
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001316:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Tiskin
+  url: https://core.ac.uk/download/pdf/35010175.pdf
+- source_id: crossref_search:b977acead81755da
+  url: https://doi.org/10.1145/366199.366273
+  title: Remarks on Algorithm 2, Algorithm 3, Algorithm 15, Algorithm 25 and Algorithm 26
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: Remarks on Algorithm 2, Algorithm 3, Algorithm 15, Algorithm 25 and Algorithm 26'
+  short_quote: ''
+  digest: b641896850a8c055
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

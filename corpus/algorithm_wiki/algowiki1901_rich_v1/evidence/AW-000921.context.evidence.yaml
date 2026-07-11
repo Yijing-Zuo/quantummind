@@ -1,0 +1,99 @@
+id: AW-000921
+kind: context
+algorithm_id: AW-000921
+algorithm_name: Online 2-d Convex Hull, Preparata
+source_records:
+- access_status: metadata_only
+  digest: 816ead19a7ed66a9
+  extracted_facts:
+  - 'AlgorithmWiki row name: Online 2-d Convex Hull, Preparata'
+  - 'domain: computational_geometry'
+  - 'time complexity: O(logn) per operation, O(n*log(n)) total'
+  - 'space complexity: O(n)'
+  - 'computational model: Real RAM'
+  - 'parameter definitions: n: number of line segments, h: number of points on the convex hull'
+  - 'precard summary: Given explicit geometric objects such as points, segments, or polygons, compute the requested geometric structure or witness set. Baseline: time O(logn) per operation, O(n*log(n)) total; space O(n). Bottleneck: geometric predicates, ordering events, and output-sensitive structure size dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000921:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Online 2-d Convex Hull, Preparata
+  url: https://dl.acm.org/doi/abs/10.1145/359131.359132
+- access_status: fetched
+  digest: 786caca8d5440854
+  extracted_facts:
+  - 'DOI title: An optimal real-time algorithm for planar convex hulls'
+  - 'published year: 1979'
+  - 'container title: Communications of the ACM'
+  - 'abstract summary: An algorithm is described for the construction in real-time of the convex hull of a set of
+
+    n
+
+    points in the plane. Using an appropriate data structure, the algorithm constructs the convex hull by successive updates, each taking time
+
+    O
+
+    (log
+
+    n
+
+    ), thereby achieving a total processing time
+
+    O
+
+    (
+
+    n
+
+    log
+
+    n
+
+    ).'
+  reliability: HIGH
+  short_quote: An algorithm is described for the construction in real-time of the convex hull of a set of n points in the plane. Using an
+  source_id: crossref:edfe5908409e8b02
+  source_type: doi_metadata
+  title: An optimal real-time algorithm for planar convex hulls
+  url: https://doi.org/10.1145/359131.359132
+- access_status: failed
+  digest: 6297edfe41c50745
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:8571221bf22f8d24
+  source_type: publisher_abstract
+  title: 'HTTP Error 403: Forbidden'
+  url: https://dl.acm.org/doi/abs/10.1145/359131.359132
+web_query_attempts:
+- method: search_plan
+  query: Online 2-d Convex Hull, Preparata algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Online 2-d Convex Hull, Preparata algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Online 2-d Convex Hull, Preparata problem definition
+  status: recorded
+- method: search_plan
+  query: Online 2-d Convex Hull, Preparata computational geometry algorithm
+  status: recorded
+- method: search_plan
+  query: Online 2-d Convex Hull, Preparata site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Online 2-d Convex Hull, Preparata algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://dl.acm.org/doi/abs/10.1145/359131.359132
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1145/359131.359132
+  status: fetched
+- method: source_link_html_metadata
+  query: https://dl.acm.org/doi/abs/10.1145/359131.359132
+  status: failed
+extracted_problem_statement: 'Online 2-d Convex Hull, Preparata is treated as a classical computational geometry task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Online 2-d Convex Hull, Preparata. Input semantics: Explicit geometric objects such as points, line segments, polygons, or planar subdivisions. Output semantics: The requested geometric structure, simplified curve, clipping result, intersection set, hull, or diagram.'
+extracted_algorithm_summary: 'Online 2-d Convex Hull, Preparata is a computational geometry algorithm record. Classical complexity metadata: time O(logn) per operation, O(n*log(n)) total; space O(n). The stated classical model is Real RAM. Public metadata/source text adds: Online 2-d Convex Hull, Preparata computational_geometry computational_geometry n: number of line segments, h: number of points on the convex hull O(logn) per operation, O(n*log(n)) total Given explicit geometric objects such as points, segments, or polygons, compute the requested geometric structure or witness set.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

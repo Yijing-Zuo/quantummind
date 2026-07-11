@@ -1,0 +1,35 @@
+algorithm_id: AW-000609
+canonical_name: 5-point ADI iteration
+enrichment_status: SECOND_PASS_INSUFFICIENT
+review_reasons:
+- No second-pass rule could identify source-backed task semantics.
+source_records:
+- access_status: metadata_only
+  digest: fcd6a0187733cad5
+  extracted_facts:
+  - 'AlgorithmWiki row name: 5-point ADI iteration'
+  - 'domain: unknown'
+  - 'time complexity: O(n^3 \log^2 n)'
+  - 'space complexity: O(n^3)'
+  - 'computational model: Real RAM'
+  - 'parameter definitions: n: dimension of grid (where grid is discretized)'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000609:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for 5-point ADI iteration
+  url: ''
+- source_id: crossref_search:9bafbb7a3f8d0612
+  url: https://doi.org/10.1080/00207169008803868
+  title: Numerical stability of a cyclic adi iteration
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: Numerical stability of a cyclic adi iteration'
+  short_quote: ''
+  digest: 9c76bed28666133b
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

@@ -1,0 +1,12 @@
+statement: 'Backward Non-Deterministic DAWG Matching (BNDM) is included as a named whole-algorithm context card for a classical combinatorics task. The task is to analyze the classical input-output problem, not to certify an end-to-end improvement claim. Input semantics: A finite combinatorial object, integer set, board, recurrence, or witness-search instance. Output semantics: Pattern occurrence positions, matches, or the associated string-search report. Classical algorithm summary: Backward Non-Deterministic DAWG Matching (BNDM) is a combinatorics algorithm record. Classical complexity metadata: time O(n+m); space O(sm). The stated classical model is Word RAM. Public metadata/source text adds: Backward Non-Deterministic DAWG Matching (BNDM) combinatorics combinatorics m: pattern length, n: length of searchable text, s: size of the alphabet O(n+m) Given an explicit combinatorial object or parameter set, compute the requested count, construction, witness set, or ordering. Classical complexity
+  recorded for this row: time O(n+m); space O(sm); computation model Word RAM. Dominant bottleneck: dominant bottleneck remains uncertain from the available public source metadata. The useful review questions are whether the named structure exposes a smaller decision, witness, estimation, or algebraic subproblem; whether the full output size dominates any asymptotic gain; and whether the stated access model is realistic for the original input. Provenance used for reconstruction includes public metadata or abstract sources such as A bit-parallel approach to suffix automata: Fast extended string matching.'
+input_model: explicit_combinatorial_problem
+access_model: explicit_input_instance
+output_contract: full_solution
+promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+size_parameters:
+- 'Parameter definition: m: pattern length, n: length of searchable text, s: size of the alphabet'
+ambiguities:
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.

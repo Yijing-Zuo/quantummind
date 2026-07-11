@@ -1,0 +1,45 @@
+id: AW-001466
+kind: context
+algorithm_id: AW-001466
+algorithm_name: Cole, Vishkin
+source_records:
+- access_status: metadata_only
+  digest: d3e62534cde2fdb2
+  extracted_facts:
+  - 'AlgorithmWiki row name: Cole, Vishkin'
+  - 'domain: graph'
+  - 'time complexity: O(\log n)'
+  - 'computational model: PRAM-CRCW'
+  - 'parameter definitions: n: number of vertices, m: number of edges'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(\log n); work O((n + m) \\alpha(m, n)); span/depth O(log n); processors O((n + m) \alpha(m, n)/log(n)). Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001466:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Cole, Vishkin
+  url: https://www.sciencedirect.com/science/article/pii/0890540189900369/pdf?md5=78fcc1ee8f52d0433144fd3e62697bd8&pid=1-s2.0-0890540189900369-main.pdf
+web_query_attempts:
+- method: search_plan
+  query: Cole, Vishkin algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Cole, Vishkin algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Cole, Vishkin problem definition
+  status: recorded
+- method: search_plan
+  query: Cole, Vishkin graph algorithm
+  status: recorded
+- method: search_plan
+  query: Cole, Vishkin site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Cole, Vishkin algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://www.sciencedirect.com/science/article/pii/0890540189900369/pdf?md5=78fcc1ee8f52d0433144fd3e62697bd8&pid=1-s2.0-0890540189900369-main.pdf
+  status: recorded
+extracted_problem_statement: 'Cole, Vishkin is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Cole, Vishkin. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'Cole, Vishkin is a graph algorithm record. Classical complexity metadata: time O(\log n); work O((n + m) \\alpha(m, n)); span/depth O(log n); processors O((n + m) \alpha(m, n)/log(n)). The stated classical model is PRAM-CRCW. Public metadata/source text adds: Cole, Vishkin graph graph n: number of vertices, m: number of edges O(\log n) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

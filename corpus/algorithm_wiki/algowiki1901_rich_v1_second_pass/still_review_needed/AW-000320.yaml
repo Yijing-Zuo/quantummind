@@ -1,0 +1,32 @@
+algorithm_id: AW-000320
+canonical_name: P.Hanrahan and W.Krueger 1993
+enrichment_status: SECOND_PASS_INSUFFICIENT
+review_reasons:
+- No second-pass rule could identify source-backed task semantics.
+source_records:
+- access_status: metadata_only
+  digest: de4e15da6ee851b5
+  extracted_facts:
+  - 'AlgorithmWiki row name: P.Hanrahan and W.Krueger 1993'
+  - 'domain: unknown'
+  - 'time complexity: O(k n^2)'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000320:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for P.Hanrahan and W.Krueger 1993
+  url: ''
+- source_id: crossref_search:dda6a1b9de590153
+  url: https://doi.org/10.1093/gmo/9781561592630.article.j584900
+  title: Hanrahan, Kip
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: Hanrahan, Kip'
+  short_quote: ''
+  digest: d6fd616d5975e15e
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

@@ -1,0 +1,22 @@
+probe_id: AW-000101-RV1-CNT0008
+kind: registry_v1_probe
+parent_algorithm_id: AW-000101
+parent_algorithm_name: Koiliaris and Xu
+source_card_paths:
+- corpus\algorithm_wiki\algowiki1901_rich_v1\public_context\AW-000101.yaml
+- corpus\algorithm_wiki\algowiki1901_rich_v1\public_probe\AW-000101-P0080.yaml
+source_metadata_paths:
+- corpus\algorithm_wiki\algowiki1901_rich_v1\metadata_probe\AW-000101-P0080.meta.yaml
+source_records_used:
+- AW-000101:algorithm_wiki_metadata
+- crossref:1647fca20335cd7e
+short_paraphrased_support: 'Koiliaris and Xu Koiliaris and Xu is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: solve a subset-sum or target-sum dynamic-programming/search problem. Input semantics: A finite set or multiset of integers with a target sum parameter. Output semantics: A decision result, feasible subset witness, count, or optimized subset value for the target-sum instance, depending on the row. Koiliaris and Xu is a graph algorithm record. Classical complexity metadata: time \tilde{O}(\min(\sqrt{n''}t, t^{5/4}, \sigma)); space O(t). The stated classical model is Word RAM. Public metadata/source text adds: Koiliaris and Xu unknown unknown n'': the number of distinct elements in the set, t: the target sum, \sigma: sum of elements in the set \tilde{O}(\min(\sqrt{n''}t, t^{5/4}, \sigma)) No public-ready summary is available because the row lacks enough task semantics. A finit'
+introduced_assumptions:
+- finite_search_space
+- coherent_boolean_oracle
+- count_precision_specified
+limitations:
+- The probe is a public query/subroutine hypothesis only.
+- It does not assert a full original-algorithm speedup.
+- Oracle, promise, and data-representation costs require expert review.
+confirmation: Public provenance sidecar only; no evaluator label or private benchmark answer is encoded.

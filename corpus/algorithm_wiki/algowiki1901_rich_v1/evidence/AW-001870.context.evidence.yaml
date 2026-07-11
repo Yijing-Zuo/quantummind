@@ -1,0 +1,70 @@
+id: AW-001870
+kind: context
+algorithm_id: AW-001870
+algorithm_name: Alami, Aassem, Hafidi
+source_records:
+- access_status: metadata_only
+  digest: d663f06c884ab9b2
+  extracted_facts:
+  - 'AlgorithmWiki row name: Alami, Aassem, Hafidi'
+  - 'domain: parallel_algorithms'
+  - 'time complexity: O((pkRn+k)/J+R*m*T^2)'
+  - 'parameter definitions: k: number of clusters/centers, p: number of iterations (), R: complexity distance of n-uplets, n: number of entities, J: number of workers -> processors, m: number of similarity rules (), T: max number of elements in a cluster'
+  - 'precard summary: Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model. Baseline: time O((pkRn+k)/J+R*m*T^2); work O((pkRn+k)+R*m*T^2); span/depth O(RmT^2); processors J. Bottleneck: work, span, communication, and processor-count assumptions dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001870:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Alami, Aassem, Hafidi
+  url: https://iopscience.iop.org/article/10.1088/1742-6596/1743/1/012005/meta
+- access_status: skipped
+  digest: b53e801ad2b48906
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:f4e5aff4a91ad504
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1088/1742-6596/1743/1/012005/meta
+- access_status: skipped
+  digest: 56458622569586d7
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:88fc0a9741f09828
+  source_type: other_public_source
+  title: fetch budget exhausted
+  url: https://iopscience.iop.org/article/10.1088/1742-6596/1743/1/012005/meta
+web_query_attempts:
+- method: search_plan
+  query: Alami, Aassem, Hafidi algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Alami, Aassem, Hafidi algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Alami, Aassem, Hafidi problem definition
+  status: recorded
+- method: search_plan
+  query: Alami, Aassem, Hafidi parallel algorithms algorithm
+  status: recorded
+- method: search_plan
+  query: Alami, Aassem, Hafidi site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Alami, Aassem, Hafidi algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://iopscience.iop.org/article/10.1088/1742-6596/1743/1/012005/meta
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1088/1742-6596/1743/1/012005/meta
+  status: skipped
+- method: source_link_html_metadata
+  query: https://iopscience.iop.org/article/10.1088/1742-6596/1743/1/012005/meta
+  status: skipped
+extracted_problem_statement: 'Alami, Aassem, Hafidi is treated as a classical parallel algorithms task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Alami, Aassem, Hafidi. Input semantics: The classical input instance named by the row, together with processor/work/span parameters when stated. Output semantics: The same mathematical output as the underlying classical task, annotated by work/span when available.'
+extracted_algorithm_summary: 'Alami, Aassem, Hafidi is a parallel algorithms algorithm record. Classical complexity metadata: time O((pkRn+k)/J+R*m*T^2); work O((pkRn+k)+R*m*T^2); span/depth O(RmT^2); processors J. Public metadata/source text adds: allel_algorithms k: number of clusters/centers, p: number of iterations (), R: complexity distance of n-uplets, n: number of entities, J: number of workers -> processors, m: number of similarity rules (), T: max number of elements in a cluster O((pkRn+k)/J+R*m*T^2) Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

@@ -1,0 +1,58 @@
+id: AW-001182
+kind: context
+algorithm_id: AW-001182
+algorithm_name: Nikolopoulos, Danielopoulos
+source_records:
+- access_status: metadata_only
+  digest: 28443f4e099c42d0
+  extracted_facts:
+  - 'AlgorithmWiki row name: Nikolopoulos, Danielopoulos'
+  - 'domain: parallel_algorithms'
+  - 'time complexity: O(\log^2{n})'
+  - 'computational model: EREW PRAM'
+  - 'parameter definitions: n: size of list'
+  - 'precard summary: Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model. Baseline: time O(\log^2{n}); work O(n \log^2{n}); span/depth O(\log^2{n}); processors n/2. Bottleneck: work, span, communication, and processor-count assumptions dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001182:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Nikolopoulos, Danielopoulos
+  url: https://www.sciencedirect.com/science/article/pii/0165607494900124
+- access_status: skipped
+  digest: 8231fcd6e84b9d56
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:b33dccc8cded35f2
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://www.sciencedirect.com/science/article/pii/0165607494900124
+web_query_attempts:
+- method: search_plan
+  query: Nikolopoulos, Danielopoulos algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Nikolopoulos, Danielopoulos algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Nikolopoulos, Danielopoulos problem definition
+  status: recorded
+- method: search_plan
+  query: Nikolopoulos, Danielopoulos parallel algorithms algorithm
+  status: recorded
+- method: search_plan
+  query: Nikolopoulos, Danielopoulos site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Nikolopoulos, Danielopoulos algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://www.sciencedirect.com/science/article/pii/0165607494900124
+  status: recorded
+- method: source_link_html_metadata
+  query: https://www.sciencedirect.com/science/article/pii/0165607494900124
+  status: skipped
+extracted_problem_statement: 'Nikolopoulos, Danielopoulos is treated as a classical parallel algorithms task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Nikolopoulos, Danielopoulos. Input semantics: The classical input instance named by the row, together with processor/work/span parameters when stated. Output semantics: The same mathematical output as the underlying classical task, annotated by work/span when available.'
+extracted_algorithm_summary: 'Nikolopoulos, Danielopoulos is a parallel algorithms algorithm record. Classical complexity metadata: time O(\log^2{n}); work O(n \log^2{n}); span/depth O(\log^2{n}); processors n/2. The stated classical model is EREW PRAM. Public metadata/source text adds: Nikolopoulos, Danielopoulos parallel_algorithms parallel_algorithms n: size of list O(\log^2{n}) Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

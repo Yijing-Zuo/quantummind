@@ -1,0 +1,74 @@
+id: AW-000149
+kind: context
+algorithm_id: AW-000149
+algorithm_name: Bitonic Merge Sort Parallel Implementation
+source_records:
+- access_status: metadata_only
+  digest: a352a70b4c64a616
+  extracted_facts:
+  - 'AlgorithmWiki row name: Bitonic Merge Sort Parallel Implementation'
+  - 'domain: sorting'
+  - 'time complexity: O(\log^2 n)'
+  - 'space complexity: O(1)'
+  - 'computational model: PRAC (shared-memory multiprocessor of the EREW PRAM variety)'
+  - 'parameter definitions: n: size of list'
+  - 'precard summary: Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model. Baseline: time O(\log^2 n); space O(1); processors n/\log(n). Bottleneck: comparison, distribution, and full-output movement costs dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000149:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Bitonic Merge Sort Parallel Implementation
+  url: https://epubs.siam.org/doi/abs/10.1137/0218014
+- access_status: fetched
+  digest: 03c1c38f76e0fcf9
+  extracted_facts:
+  - 'DOI title: Adaptive Bitonic Sorting: An Optimal Parallel Algorithm for Shared-Memory Machines'
+  - 'published year: 1989'
+  - 'container title: SIAM Journal on Computing'
+  reliability: HIGH
+  short_quote: ''
+  source_id: crossref:888b60057ce141d6
+  source_type: doi_metadata
+  title: 'Adaptive Bitonic Sorting: An Optimal Parallel Algorithm for Shared-Memory Machines'
+  url: https://doi.org/10.1137/0218014
+- access_status: failed
+  digest: 70ea1fc4074645cb
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:1ae4266549b1ebee
+  source_type: publisher_abstract
+  title: 'HTTP Error 403: Forbidden'
+  url: https://epubs.siam.org/doi/abs/10.1137/0218014
+web_query_attempts:
+- method: search_plan
+  query: Bitonic Merge Sort Parallel Implementation algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Bitonic Merge Sort Parallel Implementation algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Bitonic Merge Sort Parallel Implementation problem definition
+  status: recorded
+- method: search_plan
+  query: Bitonic Merge Sort Parallel Implementation sorting algorithm
+  status: recorded
+- method: search_plan
+  query: Bitonic Merge Sort Parallel Implementation site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Bitonic Merge Sort Parallel Implementation algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://epubs.siam.org/doi/abs/10.1137/0218014
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1137/0218014
+  status: fetched
+- method: source_link_html_metadata
+  query: https://epubs.siam.org/doi/abs/10.1137/0218014
+  status: failed
+extracted_problem_statement: 'Bitonic Merge Sort Parallel Implementation is treated as a classical sorting task for rich AlgorithmWiki discovery. Problem/task: sort the input sequence using the named classical sorting method. Input semantics: A finite array or list of comparable keys or records. Output semantics: The same items returned in nondecreasing order, usually as a full reordered sequence.'
+extracted_algorithm_summary: 'Bitonic Merge Sort Parallel Implementation is a sorting algorithm record. Classical complexity metadata: time O(\log^2 n); space O(1); processors n/\log(n). The stated classical model is PRAC (shared-memory multiprocessor of the EREW PRAM variety). Public metadata/source text adds: Bitonic Merge Sort Parallel Implementation sorting sorting n: size of list O(\log^2 n) Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

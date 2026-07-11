@@ -1,0 +1,45 @@
+id: AW-001366
+kind: context
+algorithm_id: AW-001366
+algorithm_name: Cannon (Classical 2D)
+source_records:
+- access_status: metadata_only
+  digest: b19d01ecabc1c1e2
+  extracted_facts:
+  - 'AlgorithmWiki row name: Cannon (Classical 2D)'
+  - 'domain: image_processing'
+  - 'time complexity: n^3/p + 2sqrt(p) * (t_s + n^2/p t_w)'
+  - 'computational model: 2D mesh'
+  - 'parameter definitions: nxn: size of matrices, t_s: message startup time, t_w: per-word comm time'
+  - 'precard summary: Given an explicit image or grid of pixel values, compute the transformed image, segmentation, or detected structure targeted by the record. Baseline: time n^3/p + 2sqrt(p) * (t_s + n^2/p t_w); work n^3 + 2sqrt(p) * (p*t_s + n^2*t_w); span/depth n^3/p + 2sqrt(p) * (t_s + n^2/p t_w); processors p. Bottleneck: local neighborhood processing and writing image-sized outputs dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001366:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Cannon (Classical 2D)
+  url: L. E. Cannon, A Cellular Computer to Implement the Kalman Filter Algorithm, Ph.D. thesis, Montana State University, Bozeman, MT, 1969
+web_query_attempts:
+- method: search_plan
+  query: Cannon (Classical 2D) algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Cannon (Classical 2D) algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Cannon (Classical 2D) problem definition
+  status: recorded
+- method: search_plan
+  query: Cannon (Classical 2D) image processing algorithm
+  status: recorded
+- method: search_plan
+  query: Cannon (Classical 2D) site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Cannon (Classical 2D) algorithm wiki
+  status: recorded
+- method: search_plan
+  query: L. E. Cannon, A Cellular Computer to Implement the Kalman Filter Algorithm, Ph.D. thesis, Montana State University, Bozeman, MT, 1969
+  status: recorded
+extracted_problem_statement: 'Cannon (Classical 2D) is treated as a classical image processing task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Cannon (Classical 2D). Input semantics: An image, grid, point cloud, or signal representation with local or hierarchical processing parameters. Output semantics: A transformed image, segmentation, quantization, feature set, or detected structure.'
+extracted_algorithm_summary: 'Cannon (Classical 2D) is a image processing algorithm record. Classical complexity metadata: time n^3/p + 2sqrt(p) * (t_s + n^2/p t_w); work n^3 + 2sqrt(p) * (p*t_s + n^2*t_w); span/depth n^3/p + 2sqrt(p) * (t_s + n^2/p t_w); processors p. The stated classical model is 2D mesh. Public metadata/source text adds: Cannon (Classical 2D) image_processing image_processing nxn: size of matrices, t_s: message startup time, t_w: per-word comm time n^3/p + 2sqrt(p) * (t_s + n^2/p t_w) Given an explicit image or grid of pixel values, compute the transformed image, segmentation, or detected structure targeted by the record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

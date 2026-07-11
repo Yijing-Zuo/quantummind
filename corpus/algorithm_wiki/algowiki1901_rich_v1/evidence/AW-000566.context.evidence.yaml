@@ -1,0 +1,67 @@
+id: AW-000566
+kind: context
+algorithm_id: AW-000566
+algorithm_name: Dekel Nassimi & Sahni Parallel Implementation
+source_records:
+- access_status: metadata_only
+  digest: 4d576590ffbbb338
+  extracted_facts:
+  - 'AlgorithmWiki row name: Dekel Nassimi & Sahni Parallel Implementation'
+  - 'domain: graph'
+  - 'time complexity: O(\log^2 V)'
+  - 'space complexity: O(V^2)'
+  - 'computational model: PRAM (not sure what type), SIMD computers'
+  - 'parameter definitions: V: number of vertices, E: number of edges'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(\log^2 V); space O(V^2); processors O(V^3). Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000566:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Dekel Nassimi & Sahni Parallel Implementation
+  url: https://www.proquest.com/docview/920003939?pq-origsite=gscholar&fromopenview=true
+- access_status: failed
+  digest: 60a4f2ea87ad4206
+  extracted_facts:
+  - 'HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.
+
+    The last 30x error message was:
+
+    Found'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:a5aec992dcee9483
+  source_type: other_public_source
+  title: 'HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.
+
+    The last 30x error message was:
+
+    Found'
+  url: https://www.proquest.com/docview/920003939?pq-origsite=gscholar&fromopenview=true
+web_query_attempts:
+- method: search_plan
+  query: Dekel Nassimi & Sahni Parallel Implementation algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Dekel Nassimi & Sahni Parallel Implementation algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Dekel Nassimi & Sahni Parallel Implementation problem definition
+  status: recorded
+- method: search_plan
+  query: Dekel Nassimi & Sahni Parallel Implementation graph algorithm
+  status: recorded
+- method: search_plan
+  query: Dekel Nassimi & Sahni Parallel Implementation site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Dekel Nassimi & Sahni Parallel Implementation algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://www.proquest.com/docview/920003939?pq-origsite=gscholar&fromopenview=true
+  status: recorded
+- method: source_link_html_metadata
+  query: https://www.proquest.com/docview/920003939?pq-origsite=gscholar&fromopenview=true
+  status: failed
+extracted_problem_statement: 'Dekel Nassimi & Sahni Parallel Implementation is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Dekel Nassimi & Sahni Parallel Implementation. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'Dekel Nassimi & Sahni Parallel Implementation is a graph algorithm record. Classical complexity metadata: time O(\log^2 V); space O(V^2); processors O(V^3). The stated classical model is PRAM (not sure what type), SIMD computers. Public metadata/source text adds: Dekel Nassimi & Sahni Parallel Implementation graph graph V: number of vertices, E: number of edges O(\log^2 V) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

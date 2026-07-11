@@ -1,0 +1,91 @@
+algorithm_id: AW-000687
+canonical_name: Gent I.P. Irving R.W. Manlove D.F. Prosser P. Smith B.M.
+enrichment_status: THIRD_PASS_SATURATED_INSUFFICIENT
+review_reasons:
+- After the configured source-family cycles, no source-backed concrete task, input semantics, output semantics, and conservative access model could be established.
+source_records:
+- access_status: metadata_only
+  digest: 943bd9a75b715505
+  extracted_facts:
+  - 'AlgorithmWiki row name: Gent I.P. Irving R.W. Manlove D.F. Prosser P. Smith B.M.'
+  - 'domain: unknown'
+  - 'time complexity: O(n^2)'
+  - 'space complexity: O(n^2)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of men and number of women'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000687:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Gent I.P. Irving R.W. Manlove D.F. Prosser P. Smith B.M.
+  url: https://link.springer.com/chapter/10.1007/3-540-45578-7_16
+- access_status: fetched
+  digest: 482713308eab547f
+  extracted_facts:
+  - 'DOI title: A Constraint Programming Approach to the Stable Marriage Problem'
+  - 'published year: 2001'
+  - 'container title: Lecture Notes in Computer Science'
+  reliability: HIGH
+  short_quote: ''
+  source_id: crossref:ebfb98742fb7eb4c
+  source_type: doi_metadata
+  title: A Constraint Programming Approach to the Stable Marriage Problem
+  url: https://doi.org/10.1007/3-540-45578-7_16
+- access_status: skipped
+  digest: a6c6fee4d4b4cc57
+  extracted_facts:
+  - robots.txt disallowed fetch
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:a0c348322d587fb9
+  source_type: publisher_abstract
+  title: robots.txt disallowed fetch
+  url: https://link.springer.com/chapter/10.1007/3-540-45578-7_16
+- access_status: fetched
+  digest: 89eb049eb764f696
+  extracted_facts:
+  - 'Crossref title-search result: A Constraint Programming Approach to the Stable Marriage Problem'
+  reliability: MEDIUM
+  short_quote: ''
+  source_id: crossref_search:46a589695dafd47d
+  source_type: doi_metadata
+  title: A Constraint Programming Approach to the Stable Marriage Problem
+  url: https://doi.org/10.1007/3-540-45578-7_16
+- source_id: source:123b388d774b8702
+  url: https://link.springer.com/chapter/10.1007/3-540-45578-7_16
+  title: A Constraint Programming Approach to the Stable Marriage Problem | Springer Nature Link
+  source_type: publisher_abstract
+  access_status: fetched
+  reliability: HIGH
+  extracted_facts:
+  - A Constraint Programming Approach to the Stable Marriage Problem | Springer Nature Link
+  - The Stable Marriage problem (SM) is an extensively-studied combinatorial problem with many practical applications.
+  short_quote: A Constraint Programming Approach to the Stable Marriage Problem | Springer Nature Link The Stable Marriage problem (SM) is an extensively-studied combinatorial problem with
+  digest: 4ae75eb24ecbd47a
+- source_id: openalex:da9cfa74cc36d352
+  url: https://openalex.org/W2081049259
+  title: A Constraint Programming Approach to the Stable Marriage Problem
+  source_type: openalex
+  access_status: fetched
+  reliability: HIGH
+  extracted_facts:
+  - 'OpenAlex title: A Constraint Programming Approach to the Stable Marriage Problem'
+  - 'publication year: 2001'
+  short_quote: 'OpenAlex title: A Constraint Programming Approach to the Stable Marriage Problem publication year: 2001'
+  digest: 3af7c8f74171a870
+- source_id: semantic_scholar:0de39a633a0142c6
+  url: https://www.semanticscholar.org/paper/83462e17de31bb51b80351fa97dd4e77a86e8257
+  title: A Constraint Programming Approach to the Stable Marriage Problem
+  source_type: semantic_scholar
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Semantic Scholar title: A Constraint Programming Approach to the Stable Marriage Problem'
+  - 'published year: 2001'
+  - 'abstract summary: None'
+  short_quote: 'Semantic Scholar title: A Constraint Programming Approach to the Stable Marriage Problem published year: 2001 abstract summary: None'
+  digest: 1c913e6e870a09ab
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

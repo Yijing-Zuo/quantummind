@@ -1,0 +1,71 @@
+id: AW-001259
+kind: context
+algorithm_id: AW-001259
+algorithm_name: Blelloch, Fineman, Gibbons, Gu, Shun (1 - PRAM))
+source_records:
+- access_status: metadata_only
+  digest: 894aeea3f79c942e
+  extracted_facts:
+  - 'AlgorithmWiki row name: Blelloch, Fineman, Gibbons, Gu, Shun (1 - PRAM))'
+  - 'domain: parallel_algorithms'
+  - 'time complexity: O((n \log n+ kn)/p +k \log n)'
+  - 'computational model: CRCW PRAM w/ asymetric write costs (writes cost k, other instructions cost 1)'
+  - 'parameter definitions: n: size of list, p: number of processors, k: cost of writes'
+  - 'precard summary: Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model. Baseline: time O((n \log n+ kn)/p +k \log n); work O(n \log n + kn); span/depth O(k log n); processors p. Bottleneck: work, span, communication, and processor-count assumptions dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001259:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Blelloch, Fineman, Gibbons, Gu, Shun (1 - PRAM))
+  url: https://dl.acm.org/doi/abs/10.1145/2755573.2755604
+- access_status: skipped
+  digest: 953d7f8a09654012
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:032c2faa16950d0b
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1145/2755573.2755604
+- access_status: skipped
+  digest: 94bce3b49b650093
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:c099ba886a3b03f6
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://dl.acm.org/doi/abs/10.1145/2755573.2755604
+web_query_attempts:
+- method: search_plan
+  query: Blelloch, Fineman, Gibbons, Gu, Shun (1 - PRAM)) algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Blelloch, Fineman, Gibbons, Gu, Shun (1 - PRAM)) algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Blelloch, Fineman, Gibbons, Gu, Shun (1 - PRAM)) problem definition
+  status: recorded
+- method: search_plan
+  query: Blelloch, Fineman, Gibbons, Gu, Shun (1 - PRAM)) parallel algorithms algorithm
+  status: recorded
+- method: search_plan
+  query: Blelloch, Fineman, Gibbons, Gu, Shun (1 - PRAM)) site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Blelloch, Fineman, Gibbons, Gu, Shun (1 - PRAM)) algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://dl.acm.org/doi/abs/10.1145/2755573.2755604
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1145/2755573.2755604
+  status: skipped
+- method: source_link_html_metadata
+  query: https://dl.acm.org/doi/abs/10.1145/2755573.2755604
+  status: skipped
+extracted_problem_statement: 'Blelloch, Fineman, Gibbons, Gu, Shun (1 - PRAM)) is treated as a classical parallel algorithms task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Blelloch, Fineman, Gibbons, Gu, Shun (1 - PRAM)). Input semantics: The classical input instance named by the row, together with processor/work/span parameters when stated. Output semantics: The same mathematical output as the underlying classical task, annotated by work/span when available.'
+extracted_algorithm_summary: 'Blelloch, Fineman, Gibbons, Gu, Shun (1 - PRAM)) is a parallel algorithms algorithm record. Classical complexity metadata: time O((n \log n+ kn)/p +k \log n); work O(n \log n + kn); span/depth O(k log n); processors p. The stated classical model is CRCW PRAM w/ asymetric write costs (writes cost k, other instructions cost 1). Public metadata/source text adds: Blelloch, Fineman, Gibbons, Gu, Shun (1 - PRAM)) parallel_algorithms parallel_algorithms n: size of list, p: number of processors, k: cost of writes O((n \log n+ kn)/p +k \log n) Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

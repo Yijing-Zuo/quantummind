@@ -1,0 +1,43 @@
+id: AW-001347
+kind: context
+algorithm_id: AW-001347
+algorithm_name: Frieze & Rudolph
+source_records:
+- access_status: metadata_only
+  digest: cd7501f8c6a1ed56
+  extracted_facts:
+  - 'AlgorithmWiki row name: Frieze & Rudolph'
+  - 'domain: parallel_algorithms'
+  - 'computational model: CRCW PRAM'
+  - 'precard summary: Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model. Baseline: processors n^3. Bottleneck: work, span, communication, and processor-count assumptions dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001347:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Frieze & Rudolph
+  url: http://math.cmu.edu/~af1p/Texfiles/PARALLELALG.pdf
+web_query_attempts:
+- method: search_plan
+  query: Frieze & Rudolph algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Frieze & Rudolph algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Frieze & Rudolph problem definition
+  status: recorded
+- method: search_plan
+  query: Frieze & Rudolph parallel algorithms algorithm
+  status: recorded
+- method: search_plan
+  query: Frieze & Rudolph site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Frieze & Rudolph algorithm wiki
+  status: recorded
+- method: search_plan
+  query: http://math.cmu.edu/~af1p/Texfiles/PARALLELALG.pdf
+  status: recorded
+extracted_problem_statement: 'Frieze & Rudolph is treated as a classical parallel algorithms task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Frieze & Rudolph. Input semantics: The classical input instance named by the row, together with processor/work/span parameters when stated. Output semantics: The same mathematical output as the underlying classical task, annotated by work/span when available.'
+extracted_algorithm_summary: 'Frieze & Rudolph is a parallel algorithms algorithm record. Classical complexity metadata: processors n^3. The stated classical model is CRCW PRAM. Public metadata/source text adds: Frieze & Rudolph parallel_algorithms parallel_algorithms Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

@@ -1,0 +1,46 @@
+id: AW-000804
+kind: context
+algorithm_id: AW-000804
+algorithm_name: Preparata and Shamos (Wedge)
+source_records:
+- access_status: metadata_only
+  digest: dcec7b72fbaa4b8d
+  extracted_facts:
+  - 'AlgorithmWiki row name: Preparata and Shamos (Wedge)'
+  - 'domain: graph'
+  - 'time complexity: O(n)'
+  - 'space complexity: O(n)'
+  - 'computational model: Real RAM'
+  - 'parameter definitions: n: number of edges of polygon'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(n); space O(n). Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000804:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Preparata and Shamos (Wedge)
+  url: http://www.cs.kent.edu/~dragan/CG/CG-Book.pdf
+web_query_attempts:
+- method: search_plan
+  query: Preparata and Shamos (Wedge) algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Preparata and Shamos (Wedge) algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Preparata and Shamos (Wedge) problem definition
+  status: recorded
+- method: search_plan
+  query: Preparata and Shamos (Wedge) graph algorithm
+  status: recorded
+- method: search_plan
+  query: Preparata and Shamos (Wedge) site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Preparata and Shamos (Wedge) algorithm wiki
+  status: recorded
+- method: search_plan
+  query: http://www.cs.kent.edu/~dragan/CG/CG-Book.pdf
+  status: recorded
+extracted_problem_statement: 'Preparata and Shamos (Wedge) is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Preparata and Shamos (Wedge). Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'Preparata and Shamos (Wedge) is a graph algorithm record. Classical complexity metadata: time O(n); space O(n). The stated classical model is Real RAM. Public metadata/source text adds: Preparata and Shamos (Wedge) graph graph n: number of edges of polygon O(n) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

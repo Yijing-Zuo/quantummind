@@ -1,0 +1,60 @@
+id: AW-000924
+kind: context
+algorithm_id: AW-000924
+algorithm_name: Geldenhuys-Valmari
+source_records:
+- access_status: metadata_only
+  digest: cf881dfe01b12fd4
+  extracted_facts:
+  - 'AlgorithmWiki row name: Geldenhuys-Valmari'
+  - 'domain: graph'
+  - 'time complexity: O(V+E)'
+  - 'space complexity: O(V)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: V: number of vertices, E: number of edges'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(V+E); space O(V). Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000924:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Geldenhuys-Valmari
+  url: https://www.semanticscholar.org/paper/Depth-First-Search-and-Linear-Graph-Algorithms-Tarjan/385742fffcf113656f0d3cf6c06ef95cb8439dc6
+- access_status: fetched
+  digest: 0930c3aaf2095c7e
+  extracted_facts:
+  - 'source page title: https://www.semanticscholar.org/paper/Depth-First-Search-and-Linear-Graph-Algorithms-Tarjan/385742fffcf113656f0d3cf6c06ef95cb8439dc6'
+  - 'source page description: In order to continue, we need to verify that you''re not a robot.'
+  reliability: LOW
+  short_quote: In order to continue, we need to verify that you're not a robot.
+  source_id: source:1c2a6c3cc9c66406
+  source_type: other_public_source
+  title: https://www.semanticscholar.org/paper/Depth-First-Search-and-Linear-Graph-Algorithms-Tarjan/385742fffcf113656f0d3cf6c06ef95cb8439dc6
+  url: https://www.semanticscholar.org/paper/Depth-First-Search-and-Linear-Graph-Algorithms-Tarjan/385742fffcf113656f0d3cf6c06ef95cb8439dc6
+web_query_attempts:
+- method: search_plan
+  query: Geldenhuys-Valmari algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Geldenhuys-Valmari algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Geldenhuys-Valmari problem definition
+  status: recorded
+- method: search_plan
+  query: Geldenhuys-Valmari graph algorithm
+  status: recorded
+- method: search_plan
+  query: Geldenhuys-Valmari site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Geldenhuys-Valmari algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://www.semanticscholar.org/paper/Depth-First-Search-and-Linear-Graph-Algorithms-Tarjan/385742fffcf113656f0d3cf6c06ef95cb8439dc6
+  status: recorded
+- method: source_link_html_metadata
+  query: https://www.semanticscholar.org/paper/Depth-First-Search-and-Linear-Graph-Algorithms-Tarjan/385742fffcf113656f0d3cf6c06ef95cb8439dc6
+  status: fetched
+extracted_problem_statement: 'Geldenhuys-Valmari is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Geldenhuys-Valmari. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'Geldenhuys-Valmari is a graph algorithm record. Classical complexity metadata: time O(V+E); space O(V). The stated classical model is Word RAM. Public metadata/source text adds: Geldenhuys-Valmari graph graph V: number of vertices, E: number of edges O(V+E) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

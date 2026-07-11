@@ -1,0 +1,46 @@
+id: AW-000982
+kind: context
+algorithm_id: AW-000982
+algorithm_name: Stege, Fellows
+source_records:
+- access_status: metadata_only
+  digest: 69630ce42be3bedb
+  extracted_facts:
+  - 'AlgorithmWiki row name: Stege, Fellows'
+  - 'domain: graph'
+  - 'time complexity: O(kn+max((1.25542)^k k^2, (1.2906)^k k)'
+  - 'space complexity: O(k^3) auxiliary (potentially O(k^2))'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of vertices, m: number of edges, k: size of vertex cover'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(kn+max((1.25542)^k k^2, (1.2906)^k k); space O(k^3) auxiliary (potentially O(k^2)). Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000982:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Stege, Fellows
+  url: https://www.research-collection.ethz.ch/bitstream/handle/20.500.11850/69332/eth-4359-01.pdf
+web_query_attempts:
+- method: search_plan
+  query: Stege, Fellows algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Stege, Fellows algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Stege, Fellows problem definition
+  status: recorded
+- method: search_plan
+  query: Stege, Fellows graph algorithm
+  status: recorded
+- method: search_plan
+  query: Stege, Fellows site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Stege, Fellows algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://www.research-collection.ethz.ch/bitstream/handle/20.500.11850/69332/eth-4359-01.pdf
+  status: recorded
+extracted_problem_statement: 'Stege, Fellows is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Stege, Fellows. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'Stege, Fellows is a graph algorithm record. Classical complexity metadata: time O(kn+max((1.25542)^k k^2, (1.2906)^k k); space O(k^3) auxiliary (potentially O(k^2)). The stated classical model is Word RAM. Public metadata/source text adds: Stege, Fellows graph graph n: number of vertices, m: number of edges, k: size of vertex cover O(kn+max((1.25542)^k k^2, (1.2906)^k k) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

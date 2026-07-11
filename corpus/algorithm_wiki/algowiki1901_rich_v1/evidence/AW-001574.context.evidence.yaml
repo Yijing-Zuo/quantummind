@@ -1,0 +1,58 @@
+id: AW-001574
+kind: context
+algorithm_id: AW-001574
+algorithm_name: Dhulipala, Blelloch, Shun (1)
+source_records:
+- access_status: metadata_only
+  digest: 7e0774c400b42683
+  extracted_facts:
+  - 'AlgorithmWiki row name: Dhulipala, Blelloch, Shun (1)'
+  - 'domain: parallel_algorithms'
+  - "time complexity: O(d_\u2206 \\log |V|) whp"
+  - 'computational model: work-depth CRCW'
+  - "parameter definitions: w\u2206, d\u2206: work and number of rounds of the original \u2206-stepping algorithm"
+  - "precard summary: Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model. Baseline: time O(d_\u2206 \\log |V|) whp; work expected O(w_\u2206); span/depth O(d_\u2206 log |V|) whp. Bottleneck: work, span, communication, and processor-count assumptions dominate."
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001574:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Dhulipala, Blelloch, Shun (1)
+  url: https://dl.acm.org/doi/pdf/10.1145/3087556.3087580
+- access_status: skipped
+  digest: aab9cc49584de6c7
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:46ac7986aaa70665
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1145/3087556.3087580
+web_query_attempts:
+- method: search_plan
+  query: Dhulipala, Blelloch, Shun (1) algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Dhulipala, Blelloch, Shun (1) algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Dhulipala, Blelloch, Shun (1) problem definition
+  status: recorded
+- method: search_plan
+  query: Dhulipala, Blelloch, Shun (1) parallel algorithms algorithm
+  status: recorded
+- method: search_plan
+  query: Dhulipala, Blelloch, Shun (1) site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Dhulipala, Blelloch, Shun (1) algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://dl.acm.org/doi/pdf/10.1145/3087556.3087580
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1145/3087556.3087580
+  status: skipped
+extracted_problem_statement: 'Dhulipala, Blelloch, Shun (1) is treated as a classical parallel algorithms task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Dhulipala, Blelloch, Shun (1). Input semantics: The classical input instance named by the row, together with processor/work/span parameters when stated. Output semantics: The same mathematical output as the underlying classical task, annotated by work/span when available.'
+extracted_algorithm_summary: "Dhulipala, Blelloch, Shun (1) is a parallel algorithms algorithm record. Classical complexity metadata: time O(d_\u2206 \\log |V|) whp; work expected O(w_\u2206); span/depth O(d_\u2206 log |V|) whp. The stated classical model is work-depth CRCW. Public metadata/source text adds: Dhulipala, Blelloch, Shun (1) parallel_algorithms parallel_algorithms w\u2206, d\u2206: work and number of rounds of the original \u2206-stepping algorithm O(d_\u2206 \\log |V|) whp Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model."
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

@@ -1,0 +1,57 @@
+algorithm_id: AW-000680
+canonical_name: Korada and R. Urbanke
+enrichment_status: SECOND_PASS_INSUFFICIENT
+review_reasons:
+- No second-pass rule could identify source-backed task semantics.
+source_records:
+- access_status: metadata_only
+  digest: 3738c1da589cc774
+  extracted_facts:
+  - 'AlgorithmWiki row name: Korada and R. Urbanke'
+  - 'domain: unknown'
+  - 'time complexity: O(n 2^n)'
+  - 'space complexity: O(N)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: length of input data, N: code length/block length, typically N=2^n'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000680:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Korada and R. Urbanke
+  url: https://arxiv.org/abs/0903.0307
+- access_status: fetched
+  digest: dc26cf54fb355ae6
+  extracted_facts:
+  - 'arXiv title: Polar Codes are Optimal for Lossy Source Coding'
+  - 'abstract summary: We consider lossy source compression of a binary symmetric source using polar codes and the low-complexity successive encoding algorithm.'
+  reliability: HIGH
+  short_quote: We consider lossy source compression of a binary symmetric source using polar codes and the low-complexity successive encoding algorithm.
+  source_id: arxiv:0903.0307
+  source_type: arxiv_abstract
+  title: Polar Codes are Optimal for Lossy Source Coding
+  url: https://arxiv.org/abs/0903.0307
+- access_status: fetched
+  digest: e45166419af898fc
+  extracted_facts:
+  - 'source page title: [0903.0307] Polar Codes are Optimal for Lossy Source Coding'
+  - 'source page description: Abstract page for arXiv paper 0903.0307: Polar Codes are Optimal for Lossy Source Coding'
+  reliability: HIGH
+  short_quote: 'Abstract page for arXiv paper 0903.0307: Polar Codes are Optimal for Lossy Source Coding'
+  source_id: source:458a1fe9c891e582
+  source_type: arxiv_abstract
+  title: '[0903.0307] Polar Codes are Optimal for Lossy Source Coding'
+  url: https://arxiv.org/abs/0903.0307
+- source_id: crossref_search:9bb0b11bd99c3e18
+  url: https://doi.org/10.1109/itw.2009.5351488
+  title: Polar codes are optimal for lossy source coding
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: Polar codes are optimal for lossy source coding'
+  short_quote: ''
+  digest: eb6fb28cb7fb66fd
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

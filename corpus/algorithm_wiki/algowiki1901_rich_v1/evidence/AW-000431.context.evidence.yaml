@@ -1,0 +1,75 @@
+id: AW-000431
+kind: context
+algorithm_id: AW-000431
+algorithm_name: Boyer-Moore-Horspool (BMH)
+source_records:
+- access_status: metadata_only
+  digest: 0acc086c78573247
+  extracted_facts:
+  - 'AlgorithmWiki row name: Boyer-Moore-Horspool (BMH)'
+  - 'domain: string'
+  - 'time complexity: O(mn + s)'
+  - 'space complexity: O(s)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: m: pattern length, n: length of searchable text, s: size of the alphabet'
+  - 'precard summary: Given one or more explicit strings, compute the matching, indexing, alignment, or transformation output targeted by the record. Baseline: time O(mn + s); space O(s). Bottleneck: string scanning, preprocessing tables, and reporting matches dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000431:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Boyer-Moore-Horspool (BMH)
+  url: https://onlinelibrary.wiley.com/doi/abs/10.1002/spe.4380100608
+- access_status: fetched
+  digest: ab92c376cbe07251
+  extracted_facts:
+  - 'DOI title: Practical fast searching in strings'
+  - 'published year: 1980'
+  - 'container title: Software: Practice and Experience'
+  - 'abstract summary: Abstract The problem of searching through text to find a specified substring is considered in a practical setting.'
+  reliability: HIGH
+  short_quote: Abstract The problem of searching through text to find a specified substring is considered in a practical setting.
+  source_id: crossref:b09699fadb92e70d
+  source_type: doi_metadata
+  title: Practical fast searching in strings
+  url: https://doi.org/10.1002/spe.4380100608
+- access_status: failed
+  digest: cd904b68079bf7a3
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:fa6a2f42085eed19
+  source_type: other_public_source
+  title: 'HTTP Error 403: Forbidden'
+  url: https://onlinelibrary.wiley.com/doi/abs/10.1002/spe.4380100608
+web_query_attempts:
+- method: search_plan
+  query: Boyer-Moore-Horspool (BMH) algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Boyer-Moore-Horspool (BMH) algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Boyer-Moore-Horspool (BMH) problem definition
+  status: recorded
+- method: search_plan
+  query: Boyer-Moore-Horspool (BMH) string algorithm
+  status: recorded
+- method: search_plan
+  query: Boyer-Moore-Horspool (BMH) site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Boyer-Moore-Horspool (BMH) algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://onlinelibrary.wiley.com/doi/abs/10.1002/spe.4380100608
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1002/spe.4380100608
+  status: fetched
+- method: source_link_html_metadata
+  query: https://onlinelibrary.wiley.com/doi/abs/10.1002/spe.4380100608
+  status: failed
+extracted_problem_statement: 'Boyer-Moore-Horspool (BMH) is treated as a classical string task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Boyer-Moore-Horspool (BMH). Input semantics: One or more finite strings, sequences, patterns, or alphabets. Output semantics: Pattern occurrence positions, matches, or the associated string-search report.'
+extracted_algorithm_summary: 'Boyer-Moore-Horspool (BMH) is a string algorithm record. Classical complexity metadata: time O(mn + s); space O(s). The stated classical model is Word RAM. Public metadata/source text adds: Boyer-Moore-Horspool (BMH) string string m: pattern length, n: length of searchable text, s: size of the alphabet O(mn + s) Given one or more explicit strings, compute the matching, indexing, alignment, or transformation output targeted by the record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

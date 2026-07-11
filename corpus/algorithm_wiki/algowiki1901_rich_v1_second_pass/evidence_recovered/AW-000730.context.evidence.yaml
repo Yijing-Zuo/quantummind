@@ -1,0 +1,67 @@
+id: AW-000730
+kind: context_recovered
+algorithm_id: AW-000730
+algorithm_name: "V. A. Lyul\u2019ka and I. E. Mikhailov"
+source_records:
+- access_status: metadata_only
+  digest: 77f1e2b8acae9d15
+  extracted_facts:
+  - "AlgorithmWiki row name: V. A. Lyul\u2019ka and I. E. Mikhailov"
+  - 'domain: unknown'
+  - 'time complexity: O(n^4)'
+  - 'parameter definitions: n: number of points'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000730:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: "AlgorithmWiki metadata for V. A. Lyul\u2019ka and I. E. Mikhailov"
+  url: http://www.mathnet.ru/php/archive.phtml?wshow=paper&jrnid=zvmmf&paperid=943&option_lang=eng
+- access_status: failed
+  digest: fa0e10ff2e12a441
+  extracted_facts:
+  - <urlopen error timed out>
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:f55a11d0eeb8bfe1
+  source_type: other_public_source
+  title: <urlopen error timed out>
+  url: http://www.mathnet.ru/php/archive.phtml?wshow=paper&jrnid=zvmmf&paperid=943&option_lang=eng
+- source_id: crossref_search:f41527b522d85ac8
+  url: https://doi.org/10.1093/benz/9780199773787.article.b00122778
+  title: Mikhailov, Boris
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: Mikhailov, Boris'
+  short_quote: ''
+  digest: 1ed6c83daea02286
+web_query_attempts:
+- query: "\"V. A. Lyul\u2019ka and I. E. Mikhailov\" algorithm"
+  method: search_plan
+  status: recorded
+- query: "\"V. A. Lyul\u2019ka and I. E. Mikhailov\" input output"
+  method: search_plan
+  status: recorded
+- query: "\"V. A. Lyul\u2019ka and I. E. Mikhailov\" time complexity"
+  method: search_plan
+  status: recorded
+- query: "\"V. A. Lyul\u2019ka and I. E. Mikhailov\" pseudocode"
+  method: search_plan
+  status: recorded
+- query: "\"V. A. Lyul\u2019ka and I. E. Mikhailov\" problem"
+  method: search_plan
+  status: recorded
+- query: "\"V. A. Lyul\u2019ka and I. E. Mikhailov\" PDF metadata abstract"
+  method: search_plan
+  status: recorded
+- query: http://www.mathnet.ru/php/archive.phtml?wshow=paper&jrnid=zvmmf&paperid=943&option_lang=eng
+  method: search_plan
+  status: recorded
+- query: "V. A. Lyul\u2019ka and I. E. Mikhailov algorithm"
+  method: crossref_title_search
+  status: fetched
+extracted_problem_statement: "V. A. Lyul\u2019ka and I. E. Mikhailov is reconstructed as a classical computational geometry task. Problem/task: compute a geometric structure or relation over a finite point set Input semantics: A finite set of points, dimension k when stated, and geometric predicate assumptions. Output semantics: A geometric witness, nearest/closest relation, hull, partition, or related structure supported by the named row."
+extracted_algorithm_summary: "V. A. Lyul\u2019ka and I. E. Mikhailov is treated as the named AlgorithmWiki variant for compute a geometric structure or relation over a finite point set Classical complexity metadata: time O(n^4). Public metadata/source title support includes Mikhailov, Boris."
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

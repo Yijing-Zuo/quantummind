@@ -1,0 +1,31 @@
+algorithm_id: AW-000360
+canonical_name: Re-tiling - Turk G 1992
+enrichment_status: SECOND_PASS_INSUFFICIENT
+review_reasons:
+- source-backed I/O reconstruction is still insufficient
+source_records:
+- access_status: metadata_only
+  digest: 181052d2ff2b98b8
+  extracted_facts:
+  - 'AlgorithmWiki row name: Re-tiling - Turk G 1992'
+  - 'domain: unknown'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000360:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Re-tiling - Turk G 1992
+  url: ''
+- source_id: crossref_search:1b0de68938de4c4a
+  url: https://doi.org/10.1145/133994.134008
+  title: Re-tiling polygonal surfaces
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: Re-tiling polygonal surfaces'
+  short_quote: ''
+  digest: d3ae7b6cead8d63c
+extracted_problem_statement: 'Re-tiling - Turk G 1992 is reconstructed as a classical image processing task. Problem/task: detect local image features such as corners, blobs, or scale-invariant keypoints Input semantics: An image or image pyramid/grid of pixel intensities plus detector parameters. Output semantics: A set of detected feature locations, scales, orientations, or descriptors.'
+extracted_input_semantics: An image or image pyramid/grid of pixel intensities plus detector parameters.
+extracted_output_semantics: A set of detected feature locations, scales, orientations, or descriptors.

@@ -1,0 +1,79 @@
+algorithm_id: AW-000827
+canonical_name: Pohlig-Hellman
+enrichment_status: THIRD_PASS_SATURATED_INSUFFICIENT
+review_reasons:
+- After the configured source-family cycles, no source-backed concrete task, input semantics, output semantics, and conservative access model could be established.
+source_records:
+- access_status: metadata_only
+  digest: df413cec8719c928
+  extracted_facts:
+  - 'AlgorithmWiki row name: Pohlig-Hellman'
+  - 'domain: unknown'
+  - 'time complexity: O(2^{\sqrt{n}})'
+  - 'space complexity: O(2^{\sqrt{n}}) (though only for primes)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of digits/bits in the order of the finite group'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000827:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Pohlig-Hellman
+  url: https://dl.acm.org/citation.cfm?id=2269283
+- access_status: failed
+  digest: 4b242fdf0f2f7b76
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:d29327b872dff858
+  source_type: publisher_abstract
+  title: 'HTTP Error 403: Forbidden'
+  url: https://dl.acm.org/citation.cfm?id=2269283
+- access_status: fetched
+  digest: ab3c1571776cf559
+  extracted_facts:
+  - 'Crossref title-search result: Silver-Pohlig-Hellman Algorithm'
+  reliability: MEDIUM
+  short_quote: ''
+  source_id: crossref_search:e3a7be70280418b5
+  source_type: doi_metadata
+  title: Silver-Pohlig-Hellman Algorithm
+  url: https://doi.org/10.1201/9781420011241.axe
+- source_id: crossref_search:6b4ae3a5f7850bea
+  url: https://doi.org/10.1201/9781420011241.axe
+  title: Silver-Pohlig-Hellman Algorithm
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title: Silver-Pohlig-Hellman Algorithm'
+  - 'published year: 2006'
+  - 'container title: Discrete Mathematics and Its Applications'
+  short_quote: 'Crossref title: Silver-Pohlig-Hellman Algorithm published year: 2006 container title: Discrete Mathematics and Its Applications'
+  digest: e60f8c294cecd7c2
+- source_id: wikipedia:08ef944f29dfe808
+  url: https://en.wikipedia.org/wiki/Pohlig-Hellman_algorithm
+  title: Pohlig-Hellman algorithm
+  source_type: wikipedia
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Wikipedia page: Pohlig-Hellman algorithm'
+  - "summary: In group theory, the Pohlig\u2013Hellman algorithm, sometimes credited as the Silver\u2013Pohlig\u2013Hellman algorithm, is a special-purpose algorithm for computing discrete logarithms in a finite abelian group whose order is a smooth integer."
+  short_quote: "In group theory, the Pohlig\u2013Hellman algorithm, sometimes credited as the Silver\u2013Pohlig\u2013Hellman algorithm, is a special-purpose algorithm for computing discrete logarithms in a finite abelian"
+  digest: bad49e37bd65a1ee
+- source_id: wikidata:2191bf1aafce6c82
+  url: http://www.wikidata.org/entity/Q1755812
+  title: "Pohlig\u2013Hellman algorithm"
+  source_type: wikidata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - "Pohlig\u2013Hellman algorithm"
+  - algorithm for computing discrete logarithms
+  short_quote: "Pohlig\u2013Hellman algorithm algorithm for computing discrete logarithms"
+  digest: b4ad1017bb3d73ab
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

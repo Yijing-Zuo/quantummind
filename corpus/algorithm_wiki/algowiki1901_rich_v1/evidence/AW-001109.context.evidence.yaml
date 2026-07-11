@@ -1,0 +1,71 @@
+id: AW-001109
+kind: context
+algorithm_id: AW-001109
+algorithm_name: Parallel iterated bucket sort - Chlebus
+source_records:
+- access_status: metadata_only
+  digest: 44e280f0515461e1
+  extracted_facts:
+  - 'AlgorithmWiki row name: Parallel iterated bucket sort - Chlebus'
+  - 'domain: sorting'
+  - 'time complexity: O(\log{n})'
+  - 'computational model: CRCW PRAM'
+  - 'parameter definitions: n: size of list, (polynomial range integers )'
+  - 'precard summary: Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model. Baseline: time O(\log{n}); work O(n); span/depth O(\log{n}); processors O(n/ \log{n}). Bottleneck: comparison, distribution, and full-output movement costs dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001109:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Parallel iterated bucket sort - Chlebus
+  url: https://www.sciencedirect.com/science/article/pii/0020019089901208
+- access_status: skipped
+  digest: 23e80b13265ad8d6
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:b4e78b35f83646ee
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://www.sciencedirect.com/science/article/pii/0020019089901208
+- access_status: skipped
+  digest: 77a8c1916924874e
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:2a526ff7fb89d4e7
+  source_type: wikipedia
+  title: fetch budget exhausted
+  url: https://en.wikipedia.org/wiki/Parallel_iterated_bucket_sort_-_Chlebus
+web_query_attempts:
+- method: search_plan
+  query: Parallel iterated bucket sort - Chlebus algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Parallel iterated bucket sort - Chlebus algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Parallel iterated bucket sort - Chlebus problem definition
+  status: recorded
+- method: search_plan
+  query: Parallel iterated bucket sort - Chlebus sorting algorithm
+  status: recorded
+- method: search_plan
+  query: Parallel iterated bucket sort - Chlebus site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Parallel iterated bucket sort - Chlebus algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://www.sciencedirect.com/science/article/pii/0020019089901208
+  status: recorded
+- method: source_link_html_metadata
+  query: https://www.sciencedirect.com/science/article/pii/0020019089901208
+  status: skipped
+- method: wikipedia_summary_search
+  query: Parallel iterated bucket sort - Chlebus algorithm
+  status: skipped
+extracted_problem_statement: 'Parallel iterated bucket sort - Chlebus is treated as a classical sorting task for rich AlgorithmWiki discovery. Problem/task: sort the input sequence using the named classical sorting method. Input semantics: A finite array or list of comparable keys or records. Output semantics: The same items returned in nondecreasing order, usually as a full reordered sequence.'
+extracted_algorithm_summary: 'Parallel iterated bucket sort - Chlebus is a sorting algorithm record. Classical complexity metadata: time O(\log{n}); work O(n); span/depth O(\log{n}); processors O(n/ \log{n}). The stated classical model is CRCW PRAM. Public metadata/source text adds: Parallel iterated bucket sort - Chlebus sorting sorting n: size of list, (polynomial range integers ) O(\log{n}) Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

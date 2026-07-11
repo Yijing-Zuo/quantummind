@@ -1,0 +1,100 @@
+algorithm_id: AW-001064
+canonical_name: Akl
+enrichment_status: THIRD_PASS_SATURATED_INSUFFICIENT
+review_reasons:
+- After the configured source-family cycles, no source-backed concrete task, input semantics, output semantics, and conservative access model could be established.
+source_records:
+- access_status: metadata_only
+  digest: 9268618b449982db
+  extracted_facts:
+  - 'AlgorithmWiki row name: Akl'
+  - 'domain: unknown'
+  - 'time complexity: O(n^\epsilon)'
+  - 'computational model: SIMD'
+  - 'parameter definitions: n: size of list, 0<epsilon<1'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001064:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Akl
+  url: https://link.springer.com/article/10.1007/BF02243071
+- access_status: skipped
+  digest: ea8a689f6fcc1c39
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:c4ac58e4f011d175
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1007/BF02243071
+- access_status: skipped
+  digest: 4b75d952fa75ebbb
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:f1dc8a5960aebcb5
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://link.springer.com/article/10.1007/BF02243071
+- access_status: fetched
+  digest: 09d177b449b09bbe
+  extracted_facts:
+  - 'DOI title: Optimal parallel algorithms for computing convex hulls and for sorting'
+  - 'published year: 1984'
+  - 'container title: Computing'
+  reliability: HIGH
+  short_quote: ''
+  source_id: crossref:8952694e528d7497
+  source_type: doi_metadata
+  title: Optimal parallel algorithms for computing convex hulls and for sorting
+  url: https://doi.org/10.1007/BF02243071
+- access_status: fetched
+  digest: eac65bcac63f65f8
+  extracted_facts:
+  - 'Crossref title-search result: An optimal algorithm to fetch DHT routable'
+  reliability: MEDIUM
+  short_quote: ''
+  source_id: crossref_search:0b18e1bdccf3f416
+  source_type: doi_metadata
+  title: An optimal algorithm to fetch DHT routable
+  url: https://doi.org/10.1109/npc.2007.32
+- source_id: source:a43a16e639d9f57f
+  url: https://link.springer.com/article/10.1007/BF02243071
+  title: Optimal parallel algorithms for computing convex hulls and for sorting | Computing | Springer Nature Link
+  source_type: publisher_abstract
+  access_status: fetched
+  reliability: HIGH
+  extracted_facts:
+  - Optimal parallel algorithms for computing convex hulls and for sorting | Computing | Springer Nature Link
+  - A parallel algorithm is presented for computing the convex hull of a set ofn points in the plane.
+  short_quote: Optimal parallel algorithms for computing convex hulls and for sorting | Computing | Springer Nature Link A parallel algorithm is presented for computing the
+  digest: 04dbe3382d21bc33
+- source_id: openalex:4381ed32227bd75f
+  url: https://openalex.org/W1572664488
+  title: Optimal parallel algorithms for computing convex hulls and for sorting
+  source_type: openalex
+  access_status: fetched
+  reliability: HIGH
+  extracted_facts:
+  - 'OpenAlex title: Optimal parallel algorithms for computing convex hulls and for sorting'
+  - 'publication year: 1984'
+  short_quote: 'OpenAlex title: Optimal parallel algorithms for computing convex hulls and for sorting publication year: 1984'
+  digest: 05d92816c216a8c8
+- source_id: semantic_scholar:fffb76973305690e
+  url: https://www.semanticscholar.org/paper/37a3b90c0cdbbfeccd1214447fd266929c15ce8a
+  title: Optimal parallel algorithms for computing convex hulls and for sorting
+  source_type: semantic_scholar
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Semantic Scholar title: Optimal parallel algorithms for computing convex hulls and for sorting'
+  - 'published year: 1984'
+  - 'abstract summary: None'
+  short_quote: 'Semantic Scholar title: Optimal parallel algorithms for computing convex hulls and for sorting published year: 1984 abstract summary: None'
+  digest: e58e061af8c8e1ec
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

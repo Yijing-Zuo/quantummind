@@ -1,0 +1,36 @@
+algorithm_id: AW-000895
+canonical_name: Least recently used
+enrichment_status: SECOND_PASS_INSUFFICIENT
+review_reasons:
+- No second-pass rule could identify source-backed task semantics.
+source_records:
+- access_status: metadata_only
+  digest: d6c52835828e776c
+  extracted_facts:
+  - 'AlgorithmWiki row name: Least recently used'
+  - 'domain: unknown'
+  - 'time complexity: O(nk)'
+  - 'space complexity: O(k)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of page requests, k: number of pages able to fit in cache'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000895:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Least recently used
+  url: ''
+- source_id: crossref_search:5ee2c6e7f02ea3d9
+  url: https://doi.org/10.1002/spe.4380070217
+  title: Exploiting the least recently used page replacement algorithm
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: Exploiting the least recently used page replacement algorithm'
+  - 'abstract summary: Abstract Many implementations of paged virtual memory systems employ demand fetching with least recently used (LRU) replacement.'
+  short_quote: Abstract Many implementations of paged virtual memory systems employ demand fetching with least recently used (LRU) replacement.
+  digest: ac483af5022fbcbe
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

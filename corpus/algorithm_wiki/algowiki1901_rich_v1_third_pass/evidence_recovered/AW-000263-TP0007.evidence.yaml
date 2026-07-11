@@ -1,0 +1,111 @@
+id: AW-000263-TP0007
+kind: probe_recovered
+algorithm_id: AW-000263
+algorithm_name: Harvey Hoeven Lecerf
+source_records:
+- access_status: metadata_only
+  digest: 33d6ee353afea20c
+  extracted_facts:
+  - 'AlgorithmWiki row name: Harvey Hoeven Lecerf'
+  - 'domain: unknown'
+  - 'time complexity: O(n \log n 2^{2 \log^*n})'
+  - 'space complexity: O(n) auxiliary'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: length of one of the integers, in bits'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000263:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Harvey Hoeven Lecerf
+  url: https://arxiv.org/abs/1802.07932
+- access_status: fetched
+  digest: 4a9e95ffd322c2d3
+  extracted_facts:
+  - 'arXiv title: Faster integer multiplication using short lattice vectors'
+  - 'abstract summary: We prove that $n$-bit integers may be multiplied in $O(n \log n \, 4^{\log^* n})$ bit operations.'
+  reliability: HIGH
+  short_quote: We prove that $n$-bit integers may be multiplied in $O(n \log n \, 4^{\log^* n})$ bit operations.
+  source_id: arxiv:1802.07932
+  source_type: arxiv_abstract
+  title: Faster integer multiplication using short lattice vectors
+  url: https://arxiv.org/abs/1802.07932
+- access_status: fetched
+  digest: 30924d532e0aa24d
+  extracted_facts:
+  - 'source page title: [1802.07932] Faster integer multiplication using short lattice vectors'
+  - 'source page description: Abstract page for arXiv paper 1802.07932: Faster integer multiplication using short lattice vectors'
+  reliability: HIGH
+  short_quote: 'Abstract page for arXiv paper 1802.07932: Faster integer multiplication using short lattice vectors'
+  source_id: source:37b4667b28b2d534
+  source_type: arxiv_abstract
+  title: '[1802.07932] Faster integer multiplication using short lattice vectors'
+  url: https://arxiv.org/abs/1802.07932
+- access_status: fetched
+  digest: b026948522175696
+  extracted_facts:
+  - 'Crossref title-search result: Faster integer multiplication using short lattice vectors'
+  reliability: MEDIUM
+  short_quote: ''
+  source_id: crossref_search:0fb653f1ff3409bb
+  source_type: doi_metadata
+  title: Faster integer multiplication using short lattice vectors
+  url: https://doi.org/10.2140/obs.2019.2.293
+- source_id: crossref_search:18086c75d05fe443
+  url: https://doi.org/10.1093/benz/9780199773787.article.b00106052
+  title: Lecerf, F.
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title: Lecerf, F.'
+  - 'published year: 2011'
+  - 'container title: Benezit Dictionary of Artists'
+  short_quote: 'Crossref title: Lecerf, F. published year: 2011 container title: Benezit Dictionary of Artists'
+  digest: 65ed731540239a5e
+web_query_attempts:
+- cycle: 1
+  query: Harvey Hoeven Lecerf
+  source_family: algorithm_wiki_local
+  url_or_api_endpoint: https://arxiv.org/abs/1802.07932
+  status: fetched
+  new_facts_added: 9
+  reason: local metadata
+- cycle: 1
+  query: Harvey Hoeven Lecerf
+  source_family: local_previous_cache
+  url_or_api_endpoint: ''
+  status: duplicate
+  new_facts_added: 0
+  reason: previous v1/second-pass sources reused
+- cycle: 1
+  query: https://arxiv.org/abs/1802.07932
+  source_family: original_source
+  url_or_api_endpoint: https://arxiv.org/abs/1802.07932
+  status: fetched
+  new_facts_added: 4
+  reason: original source page metadata
+- cycle: 1
+  query: Harvey Hoeven Lecerf
+  source_family: crossref
+  url_or_api_endpoint: https://doi.org/10.1093/benz/9780199773787.article.b00106052
+  status: irrelevant
+  new_facts_added: 0
+  reason: Crossref metadata/title search
+- cycle: 1
+  query: '1802.07932'
+  source_family: arxiv
+  url_or_api_endpoint: https://arxiv.org/abs/1802.07932
+  status: fetched
+  new_facts_added: 5
+  reason: arXiv id metadata
+- cycle: 1
+  query: Harvey Hoeven Lecerf
+  source_family: wikipedia
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: Wikipedia search returned no relevant page
+extracted_problem_statement: 'Harvey Hoeven Lecerf is treated as a source-saturated AlgorithmWiki row for multiply large integers Input semantics: Two integers represented by n-bit or n-limb strings. Output semantics: The exact product integer.'
+extracted_algorithm_summary: 'Harvey Hoeven Lecerf is reconstructed as a classical combinatorics task. The source-backed title/name/fact record supports the task: multiply large integers.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

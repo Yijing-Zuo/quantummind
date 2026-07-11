@@ -1,0 +1,54 @@
+algorithm_id: AW-001777
+canonical_name: Vatjersic
+enrichment_status: THIRD_PASS_SATURATED_INSUFFICIENT
+review_reasons:
+- After the configured source-family cycles, no source-backed concrete task, input semantics, output semantics, and conservative access model could be established.
+source_records:
+- access_status: metadata_only
+  digest: 2550684deb2ed3d3
+  extracted_facts:
+  - 'AlgorithmWiki row name: Vatjersic'
+  - 'domain: unknown'
+  - 'time complexity: O(\log n)'
+  - 'computational model: SIMD'
+  - 'parameter definitions: n: dimension of grid (where grid is discretized)'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001777:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Vatjersic
+  url: https://www.sciencedirect.com/science/article/pii/S016781918490293X
+- access_status: skipped
+  digest: 767e3707cf99fdc4
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:eaf7d9dcade4a9f5
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://www.sciencedirect.com/science/article/pii/S016781918490293X
+- access_status: fetched
+  digest: eac65bcac63f65f8
+  extracted_facts:
+  - 'Crossref title-search result: An optimal algorithm to fetch DHT routable'
+  reliability: MEDIUM
+  short_quote: ''
+  source_id: crossref_search:0b18e1bdccf3f416
+  source_type: doi_metadata
+  title: An optimal algorithm to fetch DHT routable
+  url: https://doi.org/10.1109/npc.2007.32
+- source_id: failed:4c1afac825a365f3
+  url: https://www.sciencedirect.com/science/article/pii/S016781918490293X
+  title: 'HTTP Error 403: Forbidden'
+  source_type: original_source
+  access_status: failed
+  reliability: LOW
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  short_quote: 'HTTP Error 403: Forbidden'
+  digest: 7b6d8daa42f36236
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

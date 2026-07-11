@@ -1,0 +1,71 @@
+id: AW-001673
+kind: context
+algorithm_id: AW-001673
+algorithm_name: Karpinski, Rytter
+source_records:
+- access_status: metadata_only
+  digest: c1b0e5f32fc139d7
+  extracted_facts:
+  - 'AlgorithmWiki row name: Karpinski, Rytter'
+  - 'domain: parallel_algorithms'
+  - 'time complexity: O(n^(1-eps) \log n)'
+  - 'computational model: CREW PRAM'
+  - "parameter definitions: n: number of elements, eps: processor parameter 0 < eps \u2264 1/2"
+  - 'precard summary: Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model. Baseline: time O(n^(1-eps) \log n); work O(n^(2+2eps)); span/depth O(n^(1-eps) log n); processors n^(1+3eps)/log n. Bottleneck: work, span, communication, and processor-count assumptions dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001673:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Karpinski, Rytter
+  url: https://link.springer.com/chapter/10.1007/3-540-58338-6_92
+- access_status: skipped
+  digest: c4e62910f3375324
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:5210117ae6978e8f
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1007/3-540-58338-6_92
+- access_status: skipped
+  digest: 7d7cec9b0439782a
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:9cf4afea9b21c3c7
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://link.springer.com/chapter/10.1007/3-540-58338-6_92
+web_query_attempts:
+- method: search_plan
+  query: Karpinski, Rytter algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Karpinski, Rytter algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Karpinski, Rytter problem definition
+  status: recorded
+- method: search_plan
+  query: Karpinski, Rytter parallel algorithms algorithm
+  status: recorded
+- method: search_plan
+  query: Karpinski, Rytter site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Karpinski, Rytter algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://link.springer.com/chapter/10.1007/3-540-58338-6_92
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1007/3-540-58338-6_92
+  status: skipped
+- method: source_link_html_metadata
+  query: https://link.springer.com/chapter/10.1007/3-540-58338-6_92
+  status: skipped
+extracted_problem_statement: 'Karpinski, Rytter is treated as a classical parallel algorithms task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Karpinski, Rytter. Input semantics: The classical input instance named by the row, together with processor/work/span parameters when stated. Output semantics: The same mathematical output as the underlying classical task, annotated by work/span when available.'
+extracted_algorithm_summary: "Karpinski, Rytter is a parallel algorithms algorithm record. Classical complexity metadata: time O(n^(1-eps) \\log n); work O(n^(2+2eps)); span/depth O(n^(1-eps) log n); processors n^(1+3eps)/log n. The stated classical model is CREW PRAM. Public metadata/source text adds: Karpinski, Rytter parallel_algorithms parallel_algorithms n: number of elements, eps: processor parameter 0 < eps \u2264 1/2 O(n^(1-eps) \\log n) Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model."
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

@@ -1,0 +1,59 @@
+id: AW-000093-P0073
+kind: probe
+algorithm_id: AW-000093
+algorithm_name: "Visvalingam\u2013Whyatt"
+source_records:
+- access_status: metadata_only
+  digest: ba799d314b0581ae
+  extracted_facts:
+  - "AlgorithmWiki row name: Visvalingam\u2013Whyatt"
+  - 'domain: computational_geometry'
+  - 'time complexity: O(n^2)'
+  - 'space complexity: O(n)'
+  - 'computational model: Real RAM'
+  - 'parameter definitions: n: number of points (n-1 line segments)'
+  - 'precard summary: Given explicit geometric objects such as points, segments, or polygons, compute the requested geometric structure or witness set. Baseline: time O(n^2); space O(n). Bottleneck: geometric predicates, ordering events, and output-sensitive structure size dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000093:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: "AlgorithmWiki metadata for Visvalingam\u2013Whyatt"
+  url: https://hull-repository.worktribe.com/output/459275
+- access_status: failed
+  digest: 3a97a887f6a56ca5
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:655dc31ecd508754
+  source_type: other_public_source
+  title: 'HTTP Error 403: Forbidden'
+  url: https://hull-repository.worktribe.com/output/459275
+web_query_attempts:
+- method: search_plan
+  query: "Visvalingam\u2013Whyatt algorithm input output complexity"
+  status: recorded
+- method: search_plan
+  query: "Visvalingam\u2013Whyatt algorithm pseudocode"
+  status: recorded
+- method: search_plan
+  query: "Visvalingam\u2013Whyatt problem definition"
+  status: recorded
+- method: search_plan
+  query: "Visvalingam\u2013Whyatt computational geometry algorithm"
+  status: recorded
+- method: search_plan
+  query: "Visvalingam\u2013Whyatt site:nist.gov DADS"
+  status: recorded
+- method: search_plan
+  query: "Visvalingam\u2013Whyatt algorithm wiki"
+  status: recorded
+- method: search_plan
+  query: https://hull-repository.worktribe.com/output/459275
+  status: recorded
+- method: source_link_html_metadata
+  query: https://hull-repository.worktribe.com/output/459275
+  status: failed
+extracted_problem_statement: "Visvalingam\u2013Whyatt is treated as a classical computational geometry task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Visvalingam\u2013Whyatt. Input semantics: Explicit geometric objects such as points, line segments, polygons, or planar subdivisions. Output semantics: The requested geometric structure, simplified curve, clipping result, intersection set, hull, or diagram."
+extracted_algorithm_summary: "Visvalingam\u2013Whyatt is a computational geometry algorithm record. Classical complexity metadata: time O(n^2); space O(n). The stated classical model is Real RAM. Public metadata/source text adds: Visvalingam\u2013Whyatt computational_geometry computational_geometry n: number of points (n-1 line segments) O(n^2) Given explicit geometric objects such as points, segments, or polygons, compute the requested geometric structure or witness set."
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

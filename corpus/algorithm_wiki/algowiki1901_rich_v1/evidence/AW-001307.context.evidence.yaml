@@ -1,0 +1,58 @@
+id: AW-001307
+kind: context
+algorithm_id: AW-001307
+algorithm_name: Apostolico, Atallah, Larmore, McFaddin (2)
+source_records:
+- access_status: metadata_only
+  digest: b3b5aceda4f837d8
+  extracted_facts:
+  - 'AlgorithmWiki row name: Apostolico, Atallah, Larmore, McFaddin (2)'
+  - 'domain: string'
+  - 'time complexity: O(\log n (\log \log m)^2)'
+  - 'computational model: CRCW PRAM'
+  - 'parameter definitions: m: length of shorter string, n: length of longer string'
+  - 'precard summary: Given one or more explicit strings, compute the matching, indexing, alignment, or transformation output targeted by the record. Baseline: time O(\log n (\log \log m)^2); work O(mn \log n \log \log m); span/depth O(log n (log log m)^2); processors O(mn/log log m). Bottleneck: string scanning, preprocessing tables, and reporting matches dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001307:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Apostolico, Atallah, Larmore, McFaddin (2)
+  url: https://www.proquest.com/openview/efa7264fa824ce7768c53ccdcc6d1458/1?pq-origsite=gscholar&cbl=666313
+- access_status: skipped
+  digest: 4abb811fb273183b
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:694963fe42251cf7
+  source_type: other_public_source
+  title: fetch budget exhausted
+  url: https://www.proquest.com/openview/efa7264fa824ce7768c53ccdcc6d1458/1?pq-origsite=gscholar&cbl=666313
+web_query_attempts:
+- method: search_plan
+  query: Apostolico, Atallah, Larmore, McFaddin (2) algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Apostolico, Atallah, Larmore, McFaddin (2) algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Apostolico, Atallah, Larmore, McFaddin (2) problem definition
+  status: recorded
+- method: search_plan
+  query: Apostolico, Atallah, Larmore, McFaddin (2) string algorithm
+  status: recorded
+- method: search_plan
+  query: Apostolico, Atallah, Larmore, McFaddin (2) site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Apostolico, Atallah, Larmore, McFaddin (2) algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://www.proquest.com/openview/efa7264fa824ce7768c53ccdcc6d1458/1?pq-origsite=gscholar&cbl=666313
+  status: recorded
+- method: source_link_html_metadata
+  query: https://www.proquest.com/openview/efa7264fa824ce7768c53ccdcc6d1458/1?pq-origsite=gscholar&cbl=666313
+  status: skipped
+extracted_problem_statement: 'Apostolico, Atallah, Larmore, McFaddin (2) is treated as a classical string task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Apostolico, Atallah, Larmore, McFaddin (2). Input semantics: One or more finite strings, sequences, patterns, or alphabets. Output semantics: Pattern occurrence positions, matches, or the associated string-search report.'
+extracted_algorithm_summary: 'Apostolico, Atallah, Larmore, McFaddin (2) is a string algorithm record. Classical complexity metadata: time O(\log n (\log \log m)^2); work O(mn \log n \log \log m); span/depth O(log n (log log m)^2); processors O(mn/log log m). The stated classical model is CRCW PRAM. Public metadata/source text adds: Apostolico, Atallah, Larmore, McFaddin (2) string string m: length of shorter string, n: length of longer string O(\log n (\log \log m)^2) Given one or more explicit strings, compute the matching, indexing, alignment, or transformation output targeted by the record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

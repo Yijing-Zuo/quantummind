@@ -1,0 +1,74 @@
+id: AW-000711
+kind: context
+algorithm_id: AW-000711
+algorithm_name: Manacher
+source_records:
+- access_status: metadata_only
+  digest: e6608a37e0b12d58
+  extracted_facts:
+  - 'AlgorithmWiki row name: Manacher'
+  - 'domain: string'
+  - 'time complexity: O(n)'
+  - 'space complexity: O(n)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: length of given string'
+  - 'precard summary: Given one or more explicit strings, compute the matching, indexing, alignment, or transformation output targeted by the record. Baseline: time O(n); space O(n). Bottleneck: string scanning, preprocessing tables, and reporting matches dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000711:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Manacher
+  url: https://doi.org/10.1145%2F321892.321896
+- access_status: fetched
+  digest: 9c9fed37138be5a4
+  extracted_facts:
+  - 'DOI title: A New Linear-Time ``On-Line'''' Algorithm for Finding the Smallest Initial Palindrome of a String'
+  - 'published year: 1975'
+  - 'container title: Journal of the ACM'
+  reliability: HIGH
+  short_quote: ''
+  source_id: crossref:01f25fb9892ad817
+  source_type: doi_metadata
+  title: A New Linear-Time ``On-Line'' Algorithm for Finding the Smallest Initial Palindrome of a String
+  url: https://doi.org/10.1145/321892.321896
+- access_status: failed
+  digest: 10c3e045f16ea583
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:8199df77567d628b
+  source_type: doi_metadata
+  title: 'HTTP Error 403: Forbidden'
+  url: https://doi.org/10.1145%2F321892.321896
+web_query_attempts:
+- method: search_plan
+  query: Manacher algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Manacher algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Manacher problem definition
+  status: recorded
+- method: search_plan
+  query: Manacher string algorithm
+  status: recorded
+- method: search_plan
+  query: Manacher site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Manacher algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://doi.org/10.1145%2F321892.321896
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1145/321892.321896
+  status: fetched
+- method: source_link_html_metadata
+  query: https://doi.org/10.1145%2F321892.321896
+  status: failed
+extracted_problem_statement: 'Manacher is treated as a classical string task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Manacher. Input semantics: One or more finite strings, sequences, patterns, or alphabets. Output semantics: Pattern occurrence positions, matches, or the associated string-search report.'
+extracted_algorithm_summary: 'Manacher is a string algorithm record. Classical complexity metadata: time O(n); space O(n). The stated classical model is Word RAM. Public metadata/source text adds: Manacher string string n: length of given string O(n) Given one or more explicit strings, compute the matching, indexing, alignment, or transformation output targeted by the record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

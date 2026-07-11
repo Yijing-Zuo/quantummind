@@ -1,0 +1,100 @@
+algorithm_id: AW-000977
+canonical_name: Freund
+enrichment_status: THIRD_PASS_SATURATED_INSUFFICIENT
+review_reasons:
+- After the configured source-family cycles, no source-backed concrete task, input semantics, output semantics, and conservative access model could be established.
+source_records:
+- access_status: metadata_only
+  digest: 7193427248f3654a
+  extracted_facts:
+  - 'AlgorithmWiki row name: Freund'
+  - 'domain: unknown'
+  - 'time complexity: O(n^2*(log log n)/(log n))'
+  - 'computational model: Real RAM'
+  - 'parameter definitions: n: size of set'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000977:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Freund
+  url: https://link.springer.com/article/10.1007/s00453-015-0079-6
+- access_status: skipped
+  digest: 12f5330cf46f424e
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:b9e2ddf16c7b1ab0
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1007/s00453-015-0079-6
+- access_status: skipped
+  digest: e740e94d6a82942f
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:1b5040141f162b42
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://link.springer.com/article/10.1007/s00453-015-0079-6
+- access_status: fetched
+  digest: 192a6348046e1f06
+  extracted_facts:
+  - 'DOI title: Improved Subquadratic 3SUM'
+  - 'published year: 2017'
+  - 'container title: Algorithmica'
+  reliability: HIGH
+  short_quote: ''
+  source_id: crossref:be74ef150bf2252a
+  source_type: doi_metadata
+  title: Improved Subquadratic 3SUM
+  url: https://doi.org/10.1007/s00453-015-0079-6
+- access_status: fetched
+  digest: eac65bcac63f65f8
+  extracted_facts:
+  - 'Crossref title-search result: An optimal algorithm to fetch DHT routable'
+  reliability: MEDIUM
+  short_quote: ''
+  source_id: crossref_search:0b18e1bdccf3f416
+  source_type: doi_metadata
+  title: An optimal algorithm to fetch DHT routable
+  url: https://doi.org/10.1109/npc.2007.32
+- source_id: source:1450a4db6e9ea572
+  url: https://link.springer.com/article/10.1007/s00453-015-0079-6
+  title: Improved Subquadratic 3SUM | Algorithmica | Springer Nature Link
+  source_type: publisher_abstract
+  access_status: fetched
+  reliability: HIGH
+  extracted_facts:
+  - Improved Subquadratic 3SUM | Algorithmica | Springer Nature Link
+  - In the 3SUM problem we are given three lists $$\mathcal {A}$$ , $$\mathcal {B}$$ , $$\mathcal {C}$$ , of n real numbers, and are asked to find $$(a,b,c)\in
+  short_quote: Improved Subquadratic 3SUM | Algorithmica | Springer Nature Link In the 3SUM problem we are given three lists $$\mathcal {A}$$ , $$\mathcal {B}$$ ,
+  digest: cf078f3d60eb1cc4
+- source_id: openalex:c4c4f309581a4b4f
+  url: https://openalex.org/W2178031965
+  title: Improved Subquadratic 3SUM
+  source_type: openalex
+  access_status: fetched
+  reliability: HIGH
+  extracted_facts:
+  - 'OpenAlex title: Improved Subquadratic 3SUM'
+  - 'publication year: 2015'
+  short_quote: 'OpenAlex title: Improved Subquadratic 3SUM publication year: 2015'
+  digest: ca944ac7401790d5
+- source_id: semantic_scholar:bf359ddd9962a791
+  url: https://www.semanticscholar.org/paper/3c2b06cea8157cf4ba70df69f9230ac21248aa4b
+  title: Improved Subquadratic 3SUM
+  source_type: semantic_scholar
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Semantic Scholar title: Improved Subquadratic 3SUM'
+  - 'published year: 2015'
+  - 'abstract summary: None'
+  short_quote: 'Semantic Scholar title: Improved Subquadratic 3SUM published year: 2015 abstract summary: None'
+  digest: 8735834bebc227be
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

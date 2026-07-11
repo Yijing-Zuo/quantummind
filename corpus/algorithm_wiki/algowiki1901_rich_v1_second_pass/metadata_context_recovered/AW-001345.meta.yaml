@@ -1,0 +1,59 @@
+algorithm_id: AW-001345
+canonical_name: Dekel Nassimi & Sahni (6)
+blind_name: Algorithm Wiki public task AW-001345
+year: '1981'
+domain: unknown
+family: unknown
+variation: ''
+problem_name: unknown
+algorithm_family: unknown
+time_complexity: O(n/m + \log n)
+space_complexity: ''
+computational_model: SIMD-PS
+randomized: '0'
+approximate: '0'
+approximation_factor: ''
+parameter_definitions: ''
+span_depth: O(n/m + log n)
+work: O(n^3 + n^2*m*\log m)
+number_of_processors: n^2*m
+source_link: https://epubs.siam.org/doi/abs/10.1137/0210049
+source_link_type: siam
+page_url: ''
+page_fetch_status: not_found
+page_digest: ''
+extracted_description: ''
+inferred_problem_statement: 'Dekel Nassimi & Sahni (6) is reconstructed as a classical graph task. Problem/task: solve the named graph task indicated by the public source metadata Input semantics: An explicit graph with vertices, edges, weights, labels, or adjacency access as required by the row. Output semantics: A path, tree, component labeling, flow, matching, or witness object for the named graph task.'
+inferred_input_model: explicit_graph_problem
+inferred_access_model: adjacency_list_query
+inferred_output_contract: path_or_tree
+inferred_size_parameters:
+- p = stated number of processors (n^2*m)
+inferred_promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+inferred_ambiguities:
+- The row should be reviewed if the source title does not specify the graph output exactly.
+- Some details are reconstructed from AlgorithmWiki metadata rather than an independently fetched full public description.
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.
+quality_score: 90
+quality_flags:
+- has_complexity_semantics
+- has_size_parameters
+- has_computational_model
+readiness: READY_PUBLIC_CONTEXT
+review_reasons:
+- A previous row has the same canonicalized algorithm name.
+extraction_version: algorithm-wiki-rich-second-pass-context-v1
+rich_card_kind: context_recovered
+source_records_used:
+- AW-001345:algorithm_wiki_metadata
+- skipped:2430e6eb209709e1
+- skipped:cceb79525ee491f7
+- crossref:bf7702f99ef428ad
+- crossref_search:0b18e1bdccf3f416
+source_count: 5
+source_quality: HIGH
+confidence_score: 90
+card_digest: 95ad1cb460b15fa6
+second_pass_rule: named_graph_problem

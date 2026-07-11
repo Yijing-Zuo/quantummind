@@ -1,0 +1,57 @@
+algorithm_family: unknown
+algorithm_id: AW-000458
+approximate: '0'
+approximation_factor: ''
+blind_name: Algorithm Wiki public task AW-000458
+canonical_name: Gosper's algorithm
+computational_model: ''
+domain: unknown
+extracted_description: ''
+extraction_version: algorithm-wiki-rich-context-v1
+family: unknown
+inferred_access_model: random_access_string
+inferred_ambiguities:
+- Some details are reconstructed from AlgorithmWiki metadata rather than an independently fetched full public description.
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.
+inferred_input_model: explicit_combinatorial_problem
+inferred_output_contract: one_witness
+inferred_problem_statement: 'Gosper''s algorithm is treated as a classical combinatorics task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Gosper''s algorithm. Input semantics: An iterated function or sequence representation with parameters for the preperiod and cycle length. Output semantics: A count, witness, construction, ordering, subset, cycle, or other finite combinatorial output.'
+inferred_promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+inferred_size_parameters:
+- 'Parameter definition: t_f: time to perform one evaluation of f, \mu: the starting index of the cycle, \lambda: the period of the cycle'
+number_of_processors: ''
+page_digest: ''
+page_fetch_status: not_found
+page_url: ''
+parameter_definitions: 't_f: time to perform one evaluation of f, \mu: the starting index of the cycle, \lambda: the period of the cycle'
+problem_name: unknown
+quality_flags:
+- has_complexity_semantics
+- has_size_parameters
+quality_score: 60
+randomized: '0'
+readiness: READY_PUBLIC_CONTEXT
+review_reasons:
+- missing_problem_statement
+- unknown_input_model
+- unknown_access_model
+- unknown_output_contract
+- insufficient_algorithm_level_structure
+source_link: https://web.archive.org/web/20200318230848/http://www.inwap.com/pdp10/hbaker/hakmem/flows.html
+source_link_type: unknown
+space_complexity: \Theta(\log(\mu + \lambda))
+span_depth: ''
+time_complexity: O((\lambda + \mu) \log(\lambda + \mu) t_f)
+variation: ''
+work: ''
+year: '1978'
+rich_card_kind: context
+source_records_used:
+- AW-000458:algorithm_wiki_metadata
+- source:72545ecc48b68d34
+source_count: 2
+source_quality: HIGH
+confidence_score: 60
+card_digest: 50d897141e0361cd

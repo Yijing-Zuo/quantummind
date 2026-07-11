@@ -1,0 +1,14 @@
+statement: 'EKF SLAM estimation-sampling probe. This is a subroutine/query-model probe, not an end-to-end claim for the original algorithm. The probe reformulates the row as estimating the mean, probability, count, or numerical quantity of a bounded random variable. Original input context: A robot state-estimation or planning instance with observations, controls, map, or configuration constraints. Original output context: A state estimate, map, path, configuration sequence, or control-relevant output. Original bottleneck noted for the rich context card: dominant bottleneck remains uncertain from the available public source metadata. The bounded variable and coherent sampler are introduced assumptions; any positive result would be query-level only. Coherent oracle construction, promise checking, and data-mapping cost remain expert obligations. The original algorithm may still have full-output, preprocessing, or data-loading barriers.'
+input_model: explicit_robotics_problem
+access_model: coherent_estimation_oracle
+output_contract: additive_estimate
+promises:
+- bounded_random_variable
+- coherent_access
+- oracle_model_assumption
+size_parameters:
+- 'Parameter definition: n: number of dimensions in state space'
+ambiguities:
+- This probe is assumption-bearing and is not an end-to-end speedup claim.
+- variance bounds, coherent sampler construction, and tolerance mapping remain expert obligations
+- The parent context card and source records should be checked before live use.

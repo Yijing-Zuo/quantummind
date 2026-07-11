@@ -1,0 +1,13 @@
+{
+  "input_records": 1901,
+  "mode": "probe",
+  "probe_type_counts": {
+    "estimation_sampling_probe": 30,
+    "graph_walk_probe": 213,
+    "period_structure_probe": 6,
+    "search_witness_probe": 351
+  },
+  "ready_probe_count": 600,
+  "seed": 20260627,
+  "timestamp": "2026-06-28T15:54:55.150074+00:00"
+}

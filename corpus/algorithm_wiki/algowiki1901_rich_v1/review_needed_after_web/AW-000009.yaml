@@ -1,0 +1,47 @@
+algorithm_id: AW-000009
+canonical_name: Klinz
+enrichment_status: WEB_INSUFFICIENT
+review_reasons:
+- missing_concrete_problem_statement
+- unknown_input_model
+- unknown_output_contract
+- unknown_access_model
+source_records:
+- access_status: metadata_only
+  digest: 2d1f4b86118f109d
+  extracted_facts:
+  - 'AlgorithmWiki row name: Klinz'
+  - 'domain: unknown'
+  - 'time complexity: O(\sigma^{3/2})'
+  - 'space complexity: O(t)'
+  - 'parameter definitions: \sigma: sum of integers in the set (\sigma \geq t)'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000009:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Klinz
+  url: https://doi.org/10.1002/(SICI)1097-0037(199905)33:3%3C189::AID-NET5%3E3.0.CO2-2
+- access_status: failed
+  digest: e8320ffd77261d1a
+  extracted_facts:
+  - 'HTTP Error 404: Not Found'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:707763bb726a6966
+  source_type: doi_metadata
+  title: 'HTTP Error 404: Not Found'
+  url: https://doi.org/10.1002/(SICI)1097-0037(199905)33:3
+- access_status: failed
+  digest: 7000b36bfe04e71f
+  extracted_facts:
+  - 'HTTP Error 404: Not Found'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:d75c0e76d4d57b68
+  source_type: doi_metadata
+  title: 'HTTP Error 404: Not Found'
+  url: https://doi.org/10.1002/(SICI)1097-0037(199905)33:3%3C189::AID-NET5%3E3.0.CO2-2
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

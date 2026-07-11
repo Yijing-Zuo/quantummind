@@ -1,0 +1,49 @@
+id: AW-000557
+kind: context
+algorithm_id: AW-000557
+algorithm_name: Fortune's algorithm
+source_records:
+- access_status: metadata_only
+  digest: 41275c4733a0fca8
+  extracted_facts:
+  - 'AlgorithmWiki row name: Fortune''s algorithm'
+  - 'domain: computational_geometry'
+  - 'time complexity: O(n \log n)'
+  - 'space complexity: O(n)'
+  - 'computational model: Word/Real RAM'
+  - 'parameter definitions: n: number of points'
+  - 'precard summary: Given explicit geometric objects such as points, segments, or polygons, compute the requested geometric structure or witness set. Baseline: time O(n \log n); space O(n). Bottleneck: geometric predicates, ordering events, and output-sensitive structure size dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000557:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Fortune's algorithm
+  url: http://www.wias-berlin.de/people/si/course/files/Fortune87-SweepLine-Voronoi.pdf
+web_query_attempts:
+- method: search_plan
+  query: Fortune's algorithm algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Fortune's algorithm algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Fortune's algorithm problem definition
+  status: recorded
+- method: search_plan
+  query: Fortune's algorithm computational geometry algorithm
+  status: recorded
+- method: search_plan
+  query: Fortune's algorithm site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Fortune's algorithm algorithm wiki
+  status: recorded
+- method: search_plan
+  query: http://www.wias-berlin.de/people/si/course/files/Fortune87-SweepLine-Voronoi.pdf
+  status: recorded
+- method: wikipedia_summary_search
+  query: Fortune's algorithm algorithm
+  status: failed_or_not_relevant
+extracted_problem_statement: 'Fortune''s algorithm is treated as a classical computational geometry task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Fortune''s algorithm. Input semantics: Explicit geometric objects such as points, line segments, polygons, or planar subdivisions. Output semantics: The requested geometric structure, simplified curve, clipping result, intersection set, hull, or diagram.'
+extracted_algorithm_summary: 'Fortune''s algorithm is a computational geometry algorithm record. Classical complexity metadata: time O(n \log n); space O(n). The stated classical model is Word/Real RAM. Public metadata/source text adds: Fortune''s algorithm computational_geometry computational_geometry n: number of points O(n \log n) Given explicit geometric objects such as points, segments, or polygons, compute the requested geometric structure or witness set.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

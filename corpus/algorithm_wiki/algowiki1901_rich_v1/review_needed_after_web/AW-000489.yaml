@@ -1,0 +1,39 @@
+algorithm_id: AW-000489
+canonical_name: Bruun's FFT algorithm
+enrichment_status: WEB_INSUFFICIENT
+review_reasons:
+- missing_concrete_problem_statement
+- unknown_input_model
+- unknown_output_contract
+- unknown_access_model
+source_records:
+- access_status: metadata_only
+  digest: e00543264f38e73d
+  extracted_facts:
+  - 'AlgorithmWiki row name: Bruun''s FFT algorithm'
+  - 'domain: unknown'
+  - 'time complexity: O(n \log n)'
+  - 'space complexity: O(n)'
+  - 'computational model: Word/Real RAM'
+  - 'parameter definitions: n: length of the input data set'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000489:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Bruun's FFT algorithm
+  url: https://ieeexplore.ieee.org/document/1163036/
+- access_status: fetched
+  digest: 07f43a72a3220f6a
+  extracted_facts:
+  - 'source page title: https://ieeexplore.ieee.org/document/1163036/'
+  - 'source page description: In order to continue, we need to verify that you''re not a robot.'
+  reliability: HIGH
+  short_quote: In order to continue, we need to verify that you're not a robot.
+  source_id: source:76ab9bcef6a2a859
+  source_type: publisher_abstract
+  title: https://ieeexplore.ieee.org/document/1163036/
+  url: https://ieeexplore.ieee.org/document/1163036/
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

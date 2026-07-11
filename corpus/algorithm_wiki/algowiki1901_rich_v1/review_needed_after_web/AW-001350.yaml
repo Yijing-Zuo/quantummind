@@ -1,0 +1,26 @@
+algorithm_id: AW-001350
+canonical_name: Agarwal, Bale, Gustavson, Joshi, Palkar (P_GEMM, Classical 3D)
+enrichment_status: WEB_INSUFFICIENT
+review_reasons:
+- missing_concrete_problem_statement
+- unknown_input_model
+- unknown_output_contract
+- unknown_access_model
+source_records:
+- access_status: metadata_only
+  digest: 54daca742347e6cd
+  extracted_facts:
+  - 'AlgorithmWiki row name: Agarwal, Bale, Gustavson, Joshi, Palkar (P_GEMM, Classical 3D)'
+  - 'domain: unknown'
+  - 'time complexity: O(n^3/p)'
+  - 'computational model: unlisted, assume MIMD'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001350:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Agarwal, Bale, Gustavson, Joshi, Palkar (P_GEMM, Classical 3D)
+  url: https://people.cs.vt.edu/~asandu/Public/Qual2005/Q2005_agarwal.pdf
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

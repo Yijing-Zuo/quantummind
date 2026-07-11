@@ -1,0 +1,81 @@
+id: AW-000281
+kind: context_recovered
+algorithm_id: AW-000281
+algorithm_name: Appel's algorithm 1968
+source_records:
+- access_status: metadata_only
+  digest: 2e137f51f097ee30
+  extracted_facts:
+  - 'AlgorithmWiki row name: Appel''s algorithm 1968'
+  - 'domain: unknown'
+  - 'time complexity: O(n^2)'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000281:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Appel's algorithm 1968
+  url: https://dl.acm.org/doi/10.1145/1468075.1468082
+- access_status: fetched
+  digest: afdd8f07744167b6
+  extracted_facts:
+  - 'DOI title: Some techniques for shading machine renderings of solids'
+  - 'published year: 1968'
+  - 'container title: Proceedings of the April 30--May 2, 1968, spring joint computer conference on - AFIPS ''68 (Spring)'
+  reliability: HIGH
+  short_quote: ''
+  source_id: crossref:2a33fd138a6ba2cb
+  source_type: doi_metadata
+  title: Some techniques for shading machine renderings of solids
+  url: https://doi.org/10.1145/1468075.1468082
+- access_status: failed
+  digest: a32fa67f78a29c6f
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:4e2bd326169a0d64
+  source_type: publisher_abstract
+  title: 'HTTP Error 403: Forbidden'
+  url: https://dl.acm.org/doi/10.1145/1468075.1468082
+- source_id: crossref_search:271594c1b25d969f
+  url: https://doi.org/10.1145/1468075.1468082
+  title: Some techniques for shading machine renderings of solids
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: Some techniques for shading machine renderings of solids'
+  short_quote: ''
+  digest: bab8f0099d197edc
+web_query_attempts:
+- query: '"Appel''s algorithm 1968" algorithm'
+  method: search_plan
+  status: recorded
+- query: '"Appel''s algorithm 1968" input output'
+  method: search_plan
+  status: recorded
+- query: '"Appel''s algorithm 1968" time complexity'
+  method: search_plan
+  status: recorded
+- query: '"Appel''s algorithm 1968" pseudocode'
+  method: search_plan
+  status: recorded
+- query: '"Appel''s algorithm 1968" problem'
+  method: search_plan
+  status: recorded
+- query: '"Appel''s algorithm 1968" PDF metadata abstract'
+  method: search_plan
+  status: recorded
+- query: '"Some techniques for shading machine renderings of solids" algorithm'
+  method: search_plan
+  status: recorded
+- query: https://dl.acm.org/doi/10.1145/1468075.1468082
+  method: search_plan
+  status: recorded
+- query: Some techniques for shading machine renderings of solids algorithm
+  method: crossref_title_search
+  status: fetched
+extracted_problem_statement: 'Appel''s algorithm 1968 is reconstructed as a classical image processing task. Problem/task: compute shaded/rendered image values from a geometric scene and illumination model Input semantics: Scene geometry, material parameters, lights, camera/view information, and image resolution. Output semantics: Rendered pixel colors or intermediate shading/visibility values.'
+extracted_algorithm_summary: 'Appel''s algorithm 1968 is treated as the named AlgorithmWiki variant for compute shaded/rendered image values from a geometric scene and illumination model Classical complexity metadata: time O(n^2). Public metadata/source title support includes Some techniques for shading machine renderings of solids.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

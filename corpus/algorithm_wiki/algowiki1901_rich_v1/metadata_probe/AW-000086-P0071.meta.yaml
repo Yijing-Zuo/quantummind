@@ -1,0 +1,44 @@
+probe_id: AW-000086-P0071
+algorithm_id: AW-000086-P0071
+canonical_name: "Nicholl\u2013Lee\u2013Nicholl graph_walk_probe"
+readiness: READY_PUBLIC_PROBE
+quality_score: 70
+probe_type: graph_walk_probe
+parent_algorithm_id: AW-000086
+parent_algorithm_name: "Nicholl\u2013Lee\u2013Nicholl"
+source_records_used:
+- AW-000086:algorithm_wiki_metadata
+- crossref:cf1a49fcc635e7b9
+- failed:fd8b688edd0067d4
+introduced_assumptions:
+- local_graph_transition_oracle
+- marked_vertex_or_edge
+- query_model_subroutine
+missing_from_original_problem:
+- marked-state definition
+- transition implementation
+- end-to-end output reconstruction
+original_output_contract: path_or_tree
+probe_output_contract: one_witness
+not_end_to_end_claim: true
+expected_authority: query_or_subroutine_hypothesis_only
+why_probe_is_scientifically_interesting: Graph search rows often hide local witness or hitting subroutines behind full-output tasks.
+why_probe_may_fail: The useful result may require reporting a complete path, tree, or component labeling.
+inferred_input_model: explicit_graph_problem
+inferred_access_model: local_graph_transition_oracle
+inferred_output_contract: one_witness
+inferred_size_parameters:
+- 'Parameter definition: n: number of lines'
+inferred_promises:
+- marked_item_exists
+- local_transition_access
+- oracle_model_assumption
+inferred_ambiguities:
+- This probe is assumption-bearing and is not an end-to-end speedup claim.
+- local transition access may not represent the original graph input cheaply
+- The parent context card and source records should be checked before live use.
+source_count: 3
+source_quality: HIGH
+confidence_score: 70
+card_digest: 96dc055b1e8b53ad
+extraction_version: algorithm-wiki-rich-probe-v1

@@ -1,0 +1,70 @@
+algorithm_id: AW-001015
+canonical_name: Chan
+enrichment_status: SECOND_PASS_INSUFFICIENT
+review_reasons:
+- No second-pass rule could identify source-backed task semantics.
+source_records:
+- access_status: metadata_only
+  digest: 8291f00653480d08
+  extracted_facts:
+  - 'AlgorithmWiki row name: Chan'
+  - 'domain: unknown'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001015:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Chan
+  url: https://dl.acm.org/doi/pdf/10.1145/2344422.2344424
+- access_status: skipped
+  digest: b40491ddd520692e
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:6d139e0377446e94
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1145/2344422.2344424
+- source_id: crossref:989d5cbb665cdd7f
+  url: https://doi.org/10.1145/2344422.2344424
+  title: 'All-pairs shortest paths for unweighted undirected graphs in
+
+    <i>o</i>
+
+    (
+
+    <i>mn</i>
+
+    ) time'
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: HIGH
+  extracted_facts:
+  - 'DOI title: All-pairs shortest paths for unweighted undirected graphs in
+
+    <i>o</i>
+
+    (
+
+    <i>mn</i>
+
+    ) time'
+  - 'published year: 2012'
+  - 'container title: ACM Transactions on Algorithms'
+  - 'abstract summary: . We also obtain a similar type of result for the diameter problem for unweighted directed graphs.'
+  short_quote: . We also obtain a similar type of result for the diameter problem for unweighted directed graphs.
+  digest: 13eb84838ca03637
+- source_id: crossref_search:0b18e1bdccf3f416
+  url: https://doi.org/10.1109/npc.2007.32
+  title: An optimal algorithm to fetch DHT routable
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: An optimal algorithm to fetch DHT routable'
+  short_quote: ''
+  digest: eac65bcac63f65f8
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

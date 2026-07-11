@@ -1,0 +1,63 @@
+id: AW-000399
+kind: context
+algorithm_id: AW-000399
+algorithm_name: Odd Even Sort Parallel Implementation
+source_records:
+- access_status: metadata_only
+  digest: 5de949f7a85c4657
+  extracted_facts:
+  - 'AlgorithmWiki row name: Odd Even Sort Parallel Implementation'
+  - 'domain: sorting'
+  - 'time complexity: O(n^2)'
+  - 'space complexity: O(1)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: size of list'
+  - 'precard summary: Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model. Baseline: time O(n^2); space O(1). Bottleneck: comparison, distribution, and full-output movement costs dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000399:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Odd Even Sort Parallel Implementation
+  url: https://www.semanticscholar.org/paper/Parallel-Neighbor-Sort-(or-the-Glory-of-the-Habermann/bc7b6efb99aae6225239425747fd0169a51f30ce
+- access_status: fetched
+  digest: e7008ff9fe6ecd32
+  extracted_facts:
+  - 'source page title: https://www.semanticscholar.org/paper/Parallel-Neighbor-Sort-(or-the-Glory-of-the-Habermann/bc7b6efb99aae6225239425747fd0169a51f30ce'
+  - 'source page description: In order to continue, we need to verify that you''re not a robot.'
+  reliability: LOW
+  short_quote: In order to continue, we need to verify that you're not a robot.
+  source_id: source:077aa078e4f5f27b
+  source_type: other_public_source
+  title: https://www.semanticscholar.org/paper/Parallel-Neighbor-Sort-(or-the-Glory-of-the-Habermann/bc7b6efb99aae6225239425747fd0169a51f30ce
+  url: https://www.semanticscholar.org/paper/Parallel-Neighbor-Sort-(or-the-Glory-of-the-Habermann/bc7b6efb99aae6225239425747fd0169a51f30ce
+web_query_attempts:
+- method: search_plan
+  query: Odd Even Sort Parallel Implementation algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Odd Even Sort Parallel Implementation algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Odd Even Sort Parallel Implementation problem definition
+  status: recorded
+- method: search_plan
+  query: Odd Even Sort Parallel Implementation sorting algorithm
+  status: recorded
+- method: search_plan
+  query: Odd Even Sort Parallel Implementation site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Odd Even Sort Parallel Implementation algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://www.semanticscholar.org/paper/Parallel-Neighbor-Sort-(or-the-Glory-of-the-Habermann/bc7b6efb99aae6225239425747fd0169a51f30ce
+  status: recorded
+- method: source_link_html_metadata
+  query: https://www.semanticscholar.org/paper/Parallel-Neighbor-Sort-(or-the-Glory-of-the-Habermann/bc7b6efb99aae6225239425747fd0169a51f30ce
+  status: fetched
+- method: wikipedia_summary_search
+  query: Odd Even Sort Parallel Implementation algorithm
+  status: failed_or_not_relevant
+extracted_problem_statement: 'Odd Even Sort Parallel Implementation is treated as a classical sorting task for rich AlgorithmWiki discovery. Problem/task: sort the input sequence using the named classical sorting method. Input semantics: A finite array or list of comparable keys or records. Output semantics: The same items returned in nondecreasing order, usually as a full reordered sequence.'
+extracted_algorithm_summary: 'Odd Even Sort Parallel Implementation is a sorting algorithm record. Classical complexity metadata: time O(n^2); space O(1). The stated classical model is Word RAM. Public metadata/source text adds: Odd Even Sort Parallel Implementation sorting sorting n: size of list O(n^2) Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

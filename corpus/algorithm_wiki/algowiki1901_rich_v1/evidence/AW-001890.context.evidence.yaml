@@ -1,0 +1,71 @@
+id: AW-001890
+kind: context
+algorithm_id: AW-001890
+algorithm_name: Egecioglu, Gallopoulos, Koc
+source_records:
+- access_status: metadata_only
+  digest: 76ab84afb48b82ad
+  extracted_facts:
+  - 'AlgorithmWiki row name: Egecioglu, Gallopoulos, Koc'
+  - 'domain: parallel_algorithms'
+  - 'time complexity: O(\log n)'
+  - 'computational model: EREW PRAM'
+  - 'parameter definitions: n: text length (block size)'
+  - 'precard summary: Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model. Baseline: time O(\log n); work O(n^2); span/depth O(log n); processors O(n^2). Bottleneck: work, span, communication, and processor-count assumptions dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001890:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Egecioglu, Gallopoulos, Koc
+  url: https://link.springer.com/article/10.1007/BF02017348
+- access_status: skipped
+  digest: 492b7500b2a8cb55
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:79035a36535c5f68
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1007/BF02017348
+- access_status: skipped
+  digest: 637e1f5b3c0e207b
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:17bb341ee7c7cddf
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://link.springer.com/article/10.1007/BF02017348
+web_query_attempts:
+- method: search_plan
+  query: Egecioglu, Gallopoulos, Koc algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Egecioglu, Gallopoulos, Koc algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Egecioglu, Gallopoulos, Koc problem definition
+  status: recorded
+- method: search_plan
+  query: Egecioglu, Gallopoulos, Koc parallel algorithms algorithm
+  status: recorded
+- method: search_plan
+  query: Egecioglu, Gallopoulos, Koc site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Egecioglu, Gallopoulos, Koc algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://link.springer.com/article/10.1007/BF02017348
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1007/BF02017348
+  status: skipped
+- method: source_link_html_metadata
+  query: https://link.springer.com/article/10.1007/BF02017348
+  status: skipped
+extracted_problem_statement: 'Egecioglu, Gallopoulos, Koc is treated as a classical parallel algorithms task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Egecioglu, Gallopoulos, Koc. Input semantics: The classical input instance named by the row, together with processor/work/span parameters when stated. Output semantics: The same mathematical output as the underlying classical task, annotated by work/span when available.'
+extracted_algorithm_summary: 'Egecioglu, Gallopoulos, Koc is a parallel algorithms algorithm record. Classical complexity metadata: time O(\log n); work O(n^2); span/depth O(log n); processors O(n^2). The stated classical model is EREW PRAM. Public metadata/source text adds: Egecioglu, Gallopoulos, Koc parallel_algorithms parallel_algorithms n: text length (block size) O(\log n) Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

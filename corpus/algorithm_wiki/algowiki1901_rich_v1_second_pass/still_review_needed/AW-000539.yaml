@@ -1,0 +1,35 @@
+algorithm_id: AW-000539
+canonical_name: Haselgrove-Leech-Trotter (HLT) algorithm
+enrichment_status: SECOND_PASS_INSUFFICIENT
+review_reasons:
+- No second-pass rule could identify source-backed task semantics.
+source_records:
+- access_status: metadata_only
+  digest: 0fd77d78e4b05825
+  extracted_facts:
+  - 'AlgorithmWiki row name: Haselgrove-Leech-Trotter (HLT) algorithm'
+  - 'domain: unknown'
+  - 'time complexity: O(2^n)'
+  - 'space complexity: O(ng)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of generators, g: order of group (possibly exponential in n), k: number of relations, c: maximum number of generators multiplied together in a relation'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000539:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Haselgrove-Leech-Trotter (HLT) algorithm
+  url: ''
+- source_id: crossref_search:21b5e4fdaf807508
+  url: https://doi.org/10.1017/cbo9780511763199.030
+  title: "The Johnson\u2013Trotter algorithm"
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - "Crossref title-search result: The Johnson\u2013Trotter algorithm"
+  short_quote: ''
+  digest: 1beadb209ec99c2a
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

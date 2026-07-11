@@ -1,0 +1,26 @@
+algorithm_id: AW-001782
+canonical_name: Zhao Ning, Wang XuBen
+enrichment_status: WEB_INSUFFICIENT
+review_reasons:
+- missing_concrete_problem_statement
+- unknown_input_model
+- unknown_output_contract
+- unknown_access_model
+source_records:
+- access_status: metadata_only
+  digest: abd0914c783adbad
+  extracted_facts:
+  - 'AlgorithmWiki row name: Zhao Ning, Wang XuBen'
+  - 'domain: unknown'
+  - 'computational model: CUDA'
+  - 'parameter definitions: n: dimension of grid (where grid is discretized)'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001782:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Zhao Ning, Wang XuBen
+  url: https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=224bb1891102e79342f861507c4122d07be1b571#page=242
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

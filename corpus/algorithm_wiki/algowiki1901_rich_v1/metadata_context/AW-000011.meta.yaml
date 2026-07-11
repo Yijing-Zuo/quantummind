@@ -1,0 +1,57 @@
+algorithm_family: unknown
+algorithm_id: AW-000011
+approximate: '0'
+approximation_factor: ''
+blind_name: Algorithm Wiki public task AW-000011
+canonical_name: Serang
+computational_model: ''
+domain: unknown
+extracted_description: ''
+extraction_version: algorithm-wiki-rich-context-v1
+family: unknown
+inferred_access_model: offline_batch_queries
+inferred_ambiguities:
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.
+inferred_input_model: explicit_combinatorial_problem
+inferred_output_contract: one_witness
+inferred_problem_statement: 'Serang is treated as a classical data structures task for rich AlgorithmWiki discovery. Problem/task: solve a subset-sum or target-sum dynamic-programming/search problem. Input semantics: A finite set or multiset of integers with a target sum parameter. Output semantics: A decision result, feasible subset witness, count, or optimized subset value for the target-sum instance, depending on the row.'
+inferred_promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+inferred_size_parameters:
+- 'Parameter definition: n: number of elements in the set, S: the set, t: target sum'
+number_of_processors: ''
+page_digest: ''
+page_fetch_status: not_found
+page_url: ''
+parameter_definitions: 'n: number of elements in the set, S: the set, t: target sum'
+problem_name: unknown
+quality_flags:
+- has_complexity_semantics
+- has_size_parameters
+quality_score: 70
+randomized: '0'
+readiness: READY_PUBLIC_CONTEXT
+review_reasons:
+- missing_problem_statement
+- unknown_input_model
+- unknown_access_model
+- unknown_output_contract
+- insufficient_algorithm_level_structure
+source_link: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0091507
+source_link_type: unknown
+space_complexity: O(t\log t)
+span_depth: ''
+time_complexity: \tilde{O}(n \max(S))
+variation: ''
+work: ''
+year: '2014'
+rich_card_kind: context
+source_records_used:
+- AW-000011:algorithm_wiki_metadata
+- crossref:e87417444431b72d
+- source:15c9d3c99a0d3caf
+source_count: 3
+source_quality: HIGH
+confidence_score: 70
+card_digest: d7f5c09036280d63

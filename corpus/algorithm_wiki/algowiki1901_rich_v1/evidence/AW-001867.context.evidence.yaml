@@ -1,0 +1,59 @@
+id: AW-001867
+kind: context
+algorithm_id: AW-001867
+algorithm_name: "S\xFCleyman Cenk Sahinalp Uzi Vishkin"
+source_records:
+- access_status: metadata_only
+  digest: 1170dcb9538bacd9
+  extracted_facts:
+  - "AlgorithmWiki row name: S\xFCleyman Cenk Sahinalp Uzi Vishkin"
+  - 'domain: string'
+  - 'time complexity: O(n^\epsilon)'
+  - 'space complexity: O(n^{(1+\eps)}) for any fixed eps>0'
+  - 'computational model: CRCW PRAM'
+  - 'parameter definitions: n: length of string, epsilon: time/space parameter'
+  - 'precard summary: Given one or more explicit strings, compute the matching, indexing, alignment, or transformation output targeted by the record. Baseline: time O(n^\epsilon); space O(n^{(1+\eps)}) for any fixed eps>0; work O(n \log^* n); span/depth O(n^\epsilon). Bottleneck: string scanning, preprocessing tables, and reporting matches dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001867:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: "AlgorithmWiki metadata for S\xFCleyman Cenk Sahinalp Uzi Vishkin"
+  url: https://link.springer.com/content/pdf/10.1007/3-540-57811-0_3.pdf
+- access_status: skipped
+  digest: 573f1b440f69e5b7
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:9693d5ed1c8bd959
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1007/3-540-57811-0_3.pdf
+web_query_attempts:
+- method: search_plan
+  query: "S\xFCleyman Cenk Sahinalp Uzi Vishkin algorithm input output complexity"
+  status: recorded
+- method: search_plan
+  query: "S\xFCleyman Cenk Sahinalp Uzi Vishkin algorithm pseudocode"
+  status: recorded
+- method: search_plan
+  query: "S\xFCleyman Cenk Sahinalp Uzi Vishkin problem definition"
+  status: recorded
+- method: search_plan
+  query: "S\xFCleyman Cenk Sahinalp Uzi Vishkin string algorithm"
+  status: recorded
+- method: search_plan
+  query: "S\xFCleyman Cenk Sahinalp Uzi Vishkin site:nist.gov DADS"
+  status: recorded
+- method: search_plan
+  query: "S\xFCleyman Cenk Sahinalp Uzi Vishkin algorithm wiki"
+  status: recorded
+- method: search_plan
+  query: https://link.springer.com/content/pdf/10.1007/3-540-57811-0_3.pdf
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1007/3-540-57811-0_3.pdf
+  status: skipped
+extracted_problem_statement: "S\xFCleyman Cenk Sahinalp Uzi Vishkin is treated as a classical string task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with S\xFCleyman Cenk Sahinalp Uzi Vishkin. Input semantics: One or more finite strings, sequences, patterns, or alphabets. Output semantics: Pattern occurrence positions, matches, or the associated string-search report."
+extracted_algorithm_summary: "S\xFCleyman Cenk Sahinalp Uzi Vishkin is a string algorithm record. Classical complexity metadata: time O(n^\\epsilon); space O(n^{(1+\\eps)}) for any fixed eps>0; work O(n \\log^* n); span/depth O(n^\\epsilon). The stated classical model is CRCW PRAM. Public metadata/source text adds: S\xFCleyman Cenk Sahinalp Uzi Vishkin string string n: length of string, epsilon: time/space parameter O(n^\\epsilon) Given one or more explicit strings, compute the matching, indexing, alignment, or transformation output targeted by the record."
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

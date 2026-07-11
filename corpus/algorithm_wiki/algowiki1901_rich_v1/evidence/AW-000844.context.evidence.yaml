@@ -1,0 +1,43 @@
+id: AW-000844
+kind: context
+algorithm_id: AW-000844
+algorithm_name: Naive Solution
+source_records:
+- access_status: metadata_only
+  digest: a91f1aa685e9c4fe
+  extracted_facts:
+  - 'AlgorithmWiki row name: Naive Solution'
+  - 'domain: string'
+  - 'time complexity: 2^{O(n)}'
+  - 'space complexity: O(n)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: maximum of (number of strings, max length of one of the strings)'
+  - 'precard summary: Given one or more explicit strings, compute the matching, indexing, alignment, or transformation output targeted by the record. Baseline: time 2^{O(n)}; space O(n). Bottleneck: string scanning, preprocessing tables, and reporting matches dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000844:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Naive Solution
+  url: ''
+web_query_attempts:
+- method: search_plan
+  query: Naive Solution algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Naive Solution algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Naive Solution problem definition
+  status: recorded
+- method: search_plan
+  query: Naive Solution string algorithm
+  status: recorded
+- method: search_plan
+  query: Naive Solution site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Naive Solution algorithm wiki
+  status: recorded
+extracted_problem_statement: 'Naive Solution is treated as a classical string task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Naive Solution. Input semantics: One or more finite strings, sequences, patterns, or alphabets. Output semantics: Pattern occurrence positions, matches, or the associated string-search report.'
+extracted_algorithm_summary: 'Naive Solution is a string algorithm record. Classical complexity metadata: time 2^{O(n)}; space O(n). The stated classical model is Word RAM. Public metadata/source text adds: Naive Solution string string n: maximum of (number of strings, max length of one of the strings) 2^{O(n)} Given one or more explicit strings, compute the matching, indexing, alignment, or transformation output targeted by the record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

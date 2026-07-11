@@ -1,0 +1,13 @@
+statement: 'Exhaustive search is included as a named whole-algorithm context card for a classical combinatorics task. The task is to analyze the classical input-output problem, not to certify an end-to-end improvement claim. Input semantics: A board dimension n and a requested number of queens k when stated. Output semantics: A feasible placement or decision that no such placement exists. Classical algorithm summary: Exhaustive search is reconstructed as a classical combinatorics task. The source-backed title/name/fact record supports the task: place queens on a board subject to nonattacking constraints. Classical complexity recorded for this row: time O(d*n^k); space O(k) auxiliary; computation model Word RAM. Dominant bottleneck: Backtracking/search over placements and constraint checking dominate. The useful review questions are whether the named structure exposes a smaller decision, witness, estimation, or algebraic subproblem; whether the full output size dominates any asymptotic gain;
+  and whether the stated access model is realistic for the original input. Provenance used for reconstruction includes public metadata or abstract sources such as An optimal algorithm to fetch DHT routable; Exhaustive Search.'
+input_model: explicit_combinatorial_problem
+access_model: explicit_input_instance
+output_contract: yes_no_decision
+promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+size_parameters:
+- 'Parameter definition: n: number of vectors per set, k: number of sets, d: dimension of each vector d = omega(log(n))'
+ambiguities:
+- Some details are reconstructed from AlgorithmWiki metadata rather than an independently fetched full public description.
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.

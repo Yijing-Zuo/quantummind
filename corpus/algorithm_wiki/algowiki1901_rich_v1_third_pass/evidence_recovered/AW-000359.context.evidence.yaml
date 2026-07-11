@@ -1,0 +1,85 @@
+id: AW-000359
+kind: context_recovered
+algorithm_id: AW-000359
+algorithm_name: Controlled vertex/edge/face decimation - Cohen J. Varshney A 1996
+source_records:
+- access_status: metadata_only
+  digest: b5a1365bc6a2d387
+  extracted_facts:
+  - 'AlgorithmWiki row name: Controlled vertex/edge/face decimation - Cohen J. Varshney A 1996'
+  - 'domain: unknown'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000359:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Controlled vertex/edge/face decimation - Cohen J. Varshney A 1996
+  url: ''
+- access_status: fetched
+  digest: de7a4971d815983f
+  extracted_facts:
+  - 'Crossref title-search result: Fast Algorithm for Triangular Mesh Simplification Based on Vertex Decimation'
+  reliability: MEDIUM
+  short_quote: ''
+  source_id: crossref_search:1da289a396d307ab
+  source_type: doi_metadata
+  title: Fast Algorithm for Triangular Mesh Simplification Based on Vertex Decimation
+  url: https://doi.org/10.1007/3-540-46080-2_5
+- source_id: crossref_search:36aebd48e53a270f
+  url: https://doi.org/10.1016/j.dam.2003.07.008
+  title: Vertex-pancyclicity of edge-face-total graphs
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title: Vertex-pancyclicity of edge-face-total graphs'
+  - 'published year: 2004'
+  - 'container title: Discrete Applied Mathematics'
+  short_quote: 'Crossref title: Vertex-pancyclicity of edge-face-total graphs published year: 2004 container title: Discrete Applied Mathematics'
+  digest: 1b987b9bc29076d1
+web_query_attempts:
+- cycle: 1
+  query: Controlled vertex/edge/face decimation - Cohen J. Varshney A 1996
+  source_family: algorithm_wiki_local
+  url_or_api_endpoint: ''
+  status: fetched
+  new_facts_added: 4
+  reason: local metadata
+- cycle: 1
+  query: Controlled vertex/edge/face decimation - Cohen J. Varshney A 1996
+  source_family: local_previous_cache
+  url_or_api_endpoint: ''
+  status: duplicate
+  new_facts_added: 0
+  reason: previous v1/second-pass sources reused
+- cycle: 1
+  query: Controlled vertex/edge/face decimation - Cohen J. Varshney A 1996
+  source_family: original_source
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: no original source link
+- cycle: 1
+  query: Controlled vertex/edge/face decimation - Cohen J. Varshney A 1996
+  source_family: crossref
+  url_or_api_endpoint: https://doi.org/10.1016/j.dam.2003.07.008
+  status: fetched
+  new_facts_added: 6
+  reason: Crossref metadata/title search
+- cycle: 1
+  query: Controlled vertex/edge/face decimation - Cohen J. Varshney A 1996
+  source_family: arxiv
+  url_or_api_endpoint: https://export.arxiv.org/api/query?max_results=1&search_query=ti:%22Controlled+vertex%2Fedge%2Fface+decimation+-+Cohen+J.+Varshney+A+1996%22
+  status: no_result
+  new_facts_added: 0
+  reason: arXiv title search returned no usable entry
+- cycle: 1
+  query: Controlled vertex/edge/face decimation - Cohen J. Varshney A 1996
+  source_family: wikipedia
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: Wikipedia search returned no relevant page
+extracted_problem_statement: 'Controlled vertex/edge/face decimation - Cohen J. Varshney A 1996 is treated as a source-saturated AlgorithmWiki row for solve the named graph task indicated by the public source metadata Input semantics: An explicit graph with vertices, edges, weights, labels, or adjacency access as required by the row. Output semantics: A path, tree, component labeling, flow, matching, or witness object for the named graph task.'
+extracted_algorithm_summary: 'Controlled vertex/edge/face decimation - Cohen J. Varshney A 1996 is reconstructed as a classical graph task. The source-backed title/name/fact record supports the task: solve the named graph task indicated by the public source metadata.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

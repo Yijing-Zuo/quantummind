@@ -1,0 +1,56 @@
+id: AW-000302
+kind: context_recovered
+algorithm_id: AW-000302
+algorithm_name: SIFT Algorithm Lowe 2004
+source_records:
+- access_status: metadata_only
+  digest: d6c4d56e3b1d7255
+  extracted_facts:
+  - 'AlgorithmWiki row name: SIFT Algorithm Lowe 2004'
+  - 'domain: unknown'
+  - 'time complexity: O(n^3)'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000302:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for SIFT Algorithm Lowe 2004
+  url: ''
+- source_id: crossref_search:31cc58c37c2fbbdb
+  url: https://doi.org/10.12677/csa.2012.24036
+  title: Improved SIFT Matching Algorithm
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: Improved SIFT Matching Algorithm'
+  short_quote: ''
+  digest: 327b7efc3829bc44
+web_query_attempts:
+- query: '"SIFT Algorithm Lowe 2004" algorithm'
+  method: search_plan
+  status: recorded
+- query: '"SIFT Algorithm Lowe 2004" input output'
+  method: search_plan
+  status: recorded
+- query: '"SIFT Algorithm Lowe 2004" time complexity'
+  method: search_plan
+  status: recorded
+- query: '"SIFT Algorithm Lowe 2004" pseudocode'
+  method: search_plan
+  status: recorded
+- query: '"SIFT Algorithm Lowe 2004" problem'
+  method: search_plan
+  status: recorded
+- query: '"SIFT Algorithm Lowe 2004" PDF metadata abstract'
+  method: search_plan
+  status: recorded
+- query: SIFT Algorithm Lowe 2004 algorithm
+  method: crossref_title_search
+  status: fetched
+- query: SIFT Algorithm Lowe 2004 algorithm
+  method: wikipedia_summary_search
+  status: failed_or_not_relevant
+extracted_problem_statement: 'SIFT Algorithm Lowe 2004 is reconstructed as a classical string task. Problem/task: find occurrences of a pattern in a text Input semantics: A finite text string, a finite pattern string, and alphabet/hash/preprocessing parameters when stated. Output semantics: One or more occurrence positions or a report that no occurrence exists.'
+extracted_algorithm_summary: 'SIFT Algorithm Lowe 2004 is treated as the named AlgorithmWiki variant for find occurrences of a pattern in a text Classical complexity metadata: time O(n^3). Public metadata/source title support includes Improved SIFT Matching Algorithm.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

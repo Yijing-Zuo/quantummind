@@ -1,0 +1,19 @@
+case_id: QM-PB-007
+title: "Quantum complexities of ordered searching, sorting, and element distinctness"
+authors: [Peter Hoyer, Jan Neerbek, Yaoyun Shi]
+year: 2002
+venue: "Algorithmica / arXiv"
+official_url: "https://arxiv.org/abs/quant-ph/0102078"
+result_location: "abstract lower-bound and upper-bound statement"
+result_type: lower_bound_with_constant_factor_upper_bound
+paraphrased_support: "The paper gives logarithmic lower bounds and a logarithmic-query quantum algorithm for ordered searching, supporting constant-factor rather than asymptotic-class change."
+problem_model: "ordered list search"
+promise: "monotone order"
+access_model: ordered_query_access
+output_contract: rank_or_position
+classical_complexity: "CLASSICAL: Theta(log N) ordered queries"
+quantum_complexity: "QUERY: Theta(log N) with changed constants"
+claim_scope: QUERY
+caveats: [ordered access]
+source_status: PRIMARY_SOURCE_CHECKED
+

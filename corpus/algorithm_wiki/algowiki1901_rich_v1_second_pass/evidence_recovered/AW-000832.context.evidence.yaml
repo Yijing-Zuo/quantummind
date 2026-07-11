@@ -1,0 +1,60 @@
+id: AW-000832
+kind: context_recovered
+algorithm_id: AW-000832
+algorithm_name: Outside-In algorithm
+source_records:
+- access_status: metadata_only
+  digest: aface246964c761c
+  extracted_facts:
+  - 'AlgorithmWiki row name: Outside-In algorithm'
+  - 'domain: unknown'
+  - 'time complexity: O(2^n n \logn)'
+  - 'space complexity: O(n)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of points'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000832:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Outside-In algorithm
+  url: NA
+- source_id: crossref_search:357de5acfb1a6766
+  url: https://doi.org/10.30693/smj.2025.14.3.27
+  title: Object detection algorithm for detecting parasites outside honeybees
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: Object detection algorithm for detecting parasites outside honeybees'
+  - 'abstract summary: The infestation of external parasites in honeybees has emerged as a significant issue in the beekeeping industry, with Varroa destructor being the primary cause of colony collapse due to its parasitic feeding on bee hemolymph, leading to reduced weight and lifespan.'
+  short_quote: The infestation of external parasites in honeybees has emerged as a significant issue in the beekeeping industry, with Varroa destructor being the primary cause
+  digest: 33c12ef94c6ff1b4
+web_query_attempts:
+- query: '"Outside-In algorithm" algorithm'
+  method: search_plan
+  status: recorded
+- query: '"Outside-In algorithm" input output'
+  method: search_plan
+  status: recorded
+- query: '"Outside-In algorithm" time complexity'
+  method: search_plan
+  status: recorded
+- query: '"Outside-In algorithm" pseudocode'
+  method: search_plan
+  status: recorded
+- query: '"Outside-In algorithm" problem'
+  method: search_plan
+  status: recorded
+- query: '"Outside-In algorithm" PDF metadata abstract'
+  method: search_plan
+  status: recorded
+- query: NA
+  method: search_plan
+  status: recorded
+- query: Outside-In algorithm algorithm
+  method: crossref_title_search
+  status: fetched
+extracted_problem_statement: 'Outside-In algorithm is reconstructed as a classical computational geometry task. Problem/task: compute a geometric structure or relation over a finite point set Input semantics: A finite set of points, dimension k when stated, and geometric predicate assumptions. Output semantics: A geometric witness, nearest/closest relation, hull, partition, or related structure supported by the named row.'
+extracted_algorithm_summary: 'Outside-In algorithm is treated as the named AlgorithmWiki variant for compute a geometric structure or relation over a finite point set Classical complexity metadata: time O(2^n n \logn); space O(n). Public metadata/source title support includes Object detection algorithm for detecting parasites outside honeybees.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

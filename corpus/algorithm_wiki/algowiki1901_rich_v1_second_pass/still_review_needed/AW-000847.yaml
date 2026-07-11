@@ -1,0 +1,35 @@
+algorithm_id: AW-000847
+canonical_name: Recursion based
+enrichment_status: SECOND_PASS_INSUFFICIENT
+review_reasons:
+- No second-pass rule could identify source-backed task semantics.
+source_records:
+- access_status: metadata_only
+  digest: aeb3bd2b29bde2d9
+  extracted_facts:
+  - 'AlgorithmWiki row name: Recursion based'
+  - 'domain: unknown'
+  - 'time complexity: O(2^n)'
+  - 'space complexity: O(n \log n)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of disks'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000847:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Recursion based
+  url: NA
+- source_id: crossref_search:3ee00f023d503548
+  url: https://doi.org/10.1109/csip.2012.6309088
+  title: Attribute reduction recursion algorithm based on attribute diminishing strategy
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: Attribute reduction recursion algorithm based on attribute diminishing strategy'
+  short_quote: ''
+  digest: 655866210828f3f1
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

@@ -1,0 +1,59 @@
+id: AW-000691
+kind: context
+algorithm_id: AW-000691
+algorithm_name: Ioannidou Kyriaki Mertzios George B. Nikolopoulos Stavros D.
+source_records:
+- access_status: metadata_only
+  digest: a6efcf314f8062aa
+  extracted_facts:
+  - 'AlgorithmWiki row name: Ioannidou Kyriaki Mertzios George B. Nikolopoulos Stavros D.'
+  - 'domain: graph'
+  - 'time complexity: O(n^4)'
+  - 'space complexity: O(n^3)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of vertices'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(n^4); space O(n^3). Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000691:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Ioannidou Kyriaki Mertzios George B. Nikolopoulos Stavros D.
+  url: https://link.springer.com/content/pdf/10.1007/s00453-010-9411-3.pdf
+- access_status: failed
+  digest: 894e888b52fa19ad
+  extracted_facts:
+  - PDF download skipped
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:7d153ea4a94fd742
+  source_type: doi_metadata
+  title: PDF download skipped
+  url: https://doi.org/10.1007/s00453-010-9411-3.pdf
+web_query_attempts:
+- method: search_plan
+  query: Ioannidou Kyriaki Mertzios George B. Nikolopoulos Stavros D. algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Ioannidou Kyriaki Mertzios George B. Nikolopoulos Stavros D. algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Ioannidou Kyriaki Mertzios George B. Nikolopoulos Stavros D. problem definition
+  status: recorded
+- method: search_plan
+  query: Ioannidou Kyriaki Mertzios George B. Nikolopoulos Stavros D. graph algorithm
+  status: recorded
+- method: search_plan
+  query: Ioannidou Kyriaki Mertzios George B. Nikolopoulos Stavros D. site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Ioannidou Kyriaki Mertzios George B. Nikolopoulos Stavros D. algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://link.springer.com/content/pdf/10.1007/s00453-010-9411-3.pdf
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1007/s00453-010-9411-3.pdf
+  status: failed
+extracted_problem_statement: 'Ioannidou Kyriaki Mertzios George B. Nikolopoulos Stavros D. is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Ioannidou Kyriaki Mertzios George B. Nikolopoulos Stavros D.. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'Ioannidou Kyriaki Mertzios George B. Nikolopoulos Stavros D. is a graph algorithm record. Classical complexity metadata: time O(n^4); space O(n^3). The stated classical model is Word RAM. Public metadata/source text adds: Ioannidou Kyriaki Mertzios George B. Nikolopoulos Stavros D.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

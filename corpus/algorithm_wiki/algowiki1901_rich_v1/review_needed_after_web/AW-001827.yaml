@@ -1,0 +1,35 @@
+algorithm_id: AW-001827
+canonical_name: Cheung, Hu, Xia
+enrichment_status: WEB_INSUFFICIENT
+review_reasons:
+- missing_concrete_problem_statement
+- unknown_input_model
+- unknown_output_contract
+- unknown_access_model
+source_records:
+- access_status: metadata_only
+  digest: 8e5f859ed36cbcf4
+  extracted_facts:
+  - 'AlgorithmWiki row name: Cheung, Hu, Xia'
+  - 'domain: unknown'
+  - 'computational model: SMP (shared memory)'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001827:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Cheung, Hu, Xia
+  url: https://dl.acm.org/doi/pdf/10.1145/277651.277694
+- access_status: skipped
+  digest: 44e184c4bfd95228
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:f0bf52a23b7c8be2
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1145/277651.277694
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

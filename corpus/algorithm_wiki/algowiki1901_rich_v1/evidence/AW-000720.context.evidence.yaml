@@ -1,0 +1,70 @@
+id: AW-000720
+kind: context
+algorithm_id: AW-000720
+algorithm_name: "Berger & M\xFCller-Hannemann"
+source_records:
+- access_status: metadata_only
+  digest: c85275d4a2417f91
+  extracted_facts:
+  - "AlgorithmWiki row name: Berger & M\xFCller-Hannemann"
+  - 'domain: unknown'
+  - 'time complexity: \exp(O(n))'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of degree pairs'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000720:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: "AlgorithmWiki metadata for Berger & M\xFCller-Hannemann"
+  url: https://arxiv.org/abs/1203.3636
+- access_status: fetched
+  digest: c6aa532c937d0685
+  extracted_facts:
+  - 'arXiv title: How to Attack the NP-complete Dag Realization Problem in Practice'
+  - 'abstract summary: We study the following fundamental realization problem of directed acyclic graphs (dags).'
+  reliability: HIGH
+  short_quote: We study the following fundamental realization problem of directed acyclic graphs (dags).
+  source_id: arxiv:1203.3636
+  source_type: arxiv_abstract
+  title: How to Attack the NP-complete Dag Realization Problem in Practice
+  url: https://arxiv.org/abs/1203.3636
+- access_status: fetched
+  digest: 5be1405137638818
+  extracted_facts:
+  - 'source page title: [1203.3636] How to Attack the NP-complete Dag Realization Problem in Practice'
+  - 'source page description: Abstract page for arXiv paper 1203.3636: How to Attack the NP-complete Dag Realization Problem in Practice'
+  reliability: HIGH
+  short_quote: 'Abstract page for arXiv paper 1203.3636: How to Attack the NP-complete Dag Realization Problem in Practice'
+  source_id: source:9b08a5b5ca51f1d3
+  source_type: arxiv_abstract
+  title: '[1203.3636] How to Attack the NP-complete Dag Realization Problem in Practice'
+  url: https://arxiv.org/abs/1203.3636
+web_query_attempts:
+- method: search_plan
+  query: "Berger & M\xFCller-Hannemann algorithm input output complexity"
+  status: recorded
+- method: search_plan
+  query: "Berger & M\xFCller-Hannemann algorithm pseudocode"
+  status: recorded
+- method: search_plan
+  query: "Berger & M\xFCller-Hannemann problem definition"
+  status: recorded
+- method: search_plan
+  query: "Berger & M\xFCller-Hannemann site:nist.gov DADS"
+  status: recorded
+- method: search_plan
+  query: "Berger & M\xFCller-Hannemann algorithm wiki"
+  status: recorded
+- method: search_plan
+  query: https://arxiv.org/abs/1203.3636
+  status: recorded
+- method: arxiv_abstract_metadata
+  query: '1203.3636'
+  status: fetched
+- method: source_link_html_metadata
+  query: https://arxiv.org/abs/1203.3636
+  status: fetched
+extracted_problem_statement: "Berger & M\xFCller-Hannemann is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Berger & M\xFCller-Hannemann. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result."
+extracted_algorithm_summary: "Berger & M\xFCller-Hannemann is a graph algorithm record. Classical complexity metadata: time \\exp(O(n)). The stated classical model is Word RAM. Public metadata/source text adds: Berger & M\xFCller-Hannemann unknown unknown n: number of degree pairs \\exp(O(n)) No public-ready summary is available because the row lacks enough task semantics."
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

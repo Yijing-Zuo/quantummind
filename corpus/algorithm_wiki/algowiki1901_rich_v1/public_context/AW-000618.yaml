@@ -1,0 +1,12 @@
+statement: 'Flipping algorithm is included as a named whole-algorithm context card for a classical graph task. The task is to analyze the classical input-output problem, not to certify an end-to-end improvement claim. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result. Classical algorithm summary: Flipping algorithm is a graph algorithm record. Classical complexity metadata: time O(n^2); space O(n). The stated classical model is Real RAM. Public metadata/source text adds: Flipping algorithm unknown unknown n: number of points O(n^2) No public-ready summary is available because the row lacks enough task semantics. Classical complexity recorded for this row: time O(n^2); space O(n); computation model Real RAM. Dominant bottleneck: graph traversal, priority/frontier
+  maintenance, and materializing graph outputs. The useful review questions are whether the named structure exposes a smaller decision, witness, estimation, or algebraic subproblem; whether the full output size dominates any asymptotic gain; and whether the stated access model is realistic for the original input. Provenance used for reconstruction includes public metadata or abstract sources such as Flipping Edges in Triangulations.'
+input_model: explicit_graph_problem
+access_model: adjacency_list_query
+output_contract: path_or_tree
+promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+size_parameters:
+- 'Parameter definition: n: number of points'
+ambiguities:
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.

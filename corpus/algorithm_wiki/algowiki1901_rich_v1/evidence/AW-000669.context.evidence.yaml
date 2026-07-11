@@ -1,0 +1,74 @@
+id: AW-000669
+kind: context
+algorithm_id: AW-000669
+algorithm_name: Gupta Verdu
+source_records:
+- access_status: metadata_only
+  digest: 62b1587442c64fd6
+  extracted_facts:
+  - 'AlgorithmWiki row name: Gupta Verdu'
+  - 'domain: string'
+  - 'time complexity: O(n^3 \log n)'
+  - 'space complexity: O(n)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: input string length (bits)'
+  - 'precard summary: Given one or more explicit strings, compute the matching, indexing, alignment, or transformation output targeted by the record. Baseline: time O(n^3 \log n); space O(n). Bottleneck: string scanning, preprocessing tables, and reporting matches dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000669:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Gupta Verdu
+  url: https://doi.org/10.1109/TIT.2009.2016040
+- access_status: fetched
+  digest: 78352b836bb32cb0
+  extracted_facts:
+  - 'DOI title: Nonlinear Sparse-Graph Codes for Lossy Compression'
+  - 'published year: 2009'
+  - 'container title: IEEE Transactions on Information Theory'
+  reliability: HIGH
+  short_quote: ''
+  source_id: crossref:2cd210fbb75fc17c
+  source_type: doi_metadata
+  title: Nonlinear Sparse-Graph Codes for Lossy Compression
+  url: https://doi.org/10.1109/TIT.2009.2016040
+- access_status: failed
+  digest: 5a4e386f2411b1b1
+  extracted_facts:
+  - 'HTTP Error 420: '
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:34d2318d76013ab5
+  source_type: doi_metadata
+  title: 'HTTP Error 420: '
+  url: https://doi.org/10.1109/TIT.2009.2016040
+web_query_attempts:
+- method: search_plan
+  query: Gupta Verdu algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Gupta Verdu algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Gupta Verdu problem definition
+  status: recorded
+- method: search_plan
+  query: Gupta Verdu string algorithm
+  status: recorded
+- method: search_plan
+  query: Gupta Verdu site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Gupta Verdu algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://doi.org/10.1109/TIT.2009.2016040
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1109/TIT.2009.2016040
+  status: fetched
+- method: source_link_html_metadata
+  query: https://doi.org/10.1109/TIT.2009.2016040
+  status: failed
+extracted_problem_statement: 'Gupta Verdu is treated as a classical string task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Gupta Verdu. Input semantics: One or more finite strings, sequences, patterns, or alphabets. Output semantics: Pattern occurrence positions, matches, or the associated string-search report.'
+extracted_algorithm_summary: 'Gupta Verdu is a string algorithm record. Classical complexity metadata: time O(n^3 \log n); space O(n). The stated classical model is Word RAM. Public metadata/source text adds: Gupta Verdu string string n: input string length (bits) O(n^3 \log n) Given one or more explicit strings, compute the matching, indexing, alignment, or transformation output targeted by the record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

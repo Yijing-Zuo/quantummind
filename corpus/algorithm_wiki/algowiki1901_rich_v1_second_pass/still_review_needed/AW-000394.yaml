@@ -1,0 +1,32 @@
+algorithm_id: AW-000394
+canonical_name: HEALPix mapping Wong
+enrichment_status: SECOND_PASS_INSUFFICIENT
+review_reasons:
+- No second-pass rule could identify source-backed task semantics.
+source_records:
+- access_status: metadata_only
+  digest: 64202dbcd4f99c78
+  extracted_facts:
+  - 'AlgorithmWiki row name: HEALPix mapping Wong'
+  - 'domain: unknown'
+  - 'time complexity: O(n^2)'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000394:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for HEALPix mapping Wong
+  url: ''
+- source_id: crossref_search:5655893b3994e8dd
+  url: https://doi.org/10.1111/j.1365-2966.2007.12297.x
+  title: Mapping on the HEALPix grid
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: Mapping on the HEALPix grid'
+  short_quote: ''
+  digest: 00fa629f6fc716aa
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

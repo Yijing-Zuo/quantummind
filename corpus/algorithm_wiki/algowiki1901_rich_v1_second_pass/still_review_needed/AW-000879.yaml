@@ -1,0 +1,35 @@
+algorithm_id: AW-000879
+canonical_name: Brute force algorithm
+enrichment_status: SECOND_PASS_INSUFFICIENT
+review_reasons:
+- No second-pass rule could identify source-backed task semantics.
+source_records:
+- access_status: metadata_only
+  digest: 03ca956174c852a7
+  extracted_facts:
+  - 'AlgorithmWiki row name: Brute force algorithm'
+  - 'domain: unknown'
+  - 'time complexity: O(2^n)'
+  - 'space complexity: O(n)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of tasks (intervals)'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000879:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Brute force algorithm
+  url: ''
+- source_id: crossref_search:319a83115ca9c8e3
+  url: https://doi.org/10.3844/jcssp.2006.82.85
+  title: Occurrences Algorithm for String Searching Based on Brute-force Algorithm
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: Occurrences Algorithm for String Searching Based on Brute-force Algorithm'
+  short_quote: ''
+  digest: f5a82fd25c3936e6
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

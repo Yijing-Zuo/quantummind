@@ -1,0 +1,137 @@
+id: AW-000848-TP0162
+kind: probe_recovered
+algorithm_id: AW-000848
+algorithm_name: Non-recursion based
+source_records:
+- access_status: metadata_only
+  digest: 553c5dcbc3454f7d
+  extracted_facts:
+  - 'AlgorithmWiki row name: Non-recursion based'
+  - 'domain: unknown'
+  - 'time complexity: O(2^n)'
+  - 'space complexity: O(n)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of disks'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000848:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Non-recursion based
+  url: NA
+- access_status: fetched
+  digest: 559d08345e5c8978
+  extracted_facts:
+  - 'Crossref title-search result: Explore a New Way to Convert a Recursion Algorithm into a Non-recursion Algorithm'
+  reliability: MEDIUM
+  short_quote: ''
+  source_id: crossref_search:fff0ee99728449a9
+  source_type: doi_metadata
+  title: Explore a New Way to Convert a Recursion Algorithm into a Non-recursion Algorithm
+  url: https://doi.org/10.1007/978-0-387-77251-6_21
+- source_id: crossref_search:ca63b90a247f487b
+  url: https://doi.org/10.1145/24686.24691
+  title: 'Recursion versus non-recursion in Pascal: recursion can be faster'
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title: Recursion versus non-recursion in Pascal: recursion can be faster'
+  - 'published year: 1987'
+  - 'container title: ACM SIGPLAN Notices'
+  - 'abstract summary: A timing study of two Pascal programs on three machines provides some evidence that, for modern machines and compilers, the cost of removing recursion in non-trivial situations can sometimes be greater than the cost of the recursive procedure calls.'
+  short_quote: 'Crossref title: Recursion versus non-recursion in Pascal: recursion can be faster published year: 1987 container title: ACM SIGPLAN Notices abstract summary: A timing study'
+  digest: 874e04e86fdd3741
+- source_id: semantic_scholar:c9f8c5f356acb691
+  url: https://www.semanticscholar.org/paper/6652b1a8dfec3fef10f0d8d7aa3924108aeb4bbc
+  title: New recursion formula for the interior polynomial based on non-expanding sets
+  source_type: semantic_scholar
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Semantic Scholar title: New recursion formula for the interior polynomial based on non-expanding sets'
+  - 'published year: 2025'
+  - 'abstract summary: The interior polynomial was originally defined for hypergraphs and later shown to coincide with the Ehrhart polynomial of the root polytope of an associated bipartite graph.'
+  short_quote: 'Semantic Scholar title: New recursion formula for the interior polynomial based on non-expanding sets published year: 2025 abstract summary: The interior polynomial was originally'
+  digest: 0af8a9f2226c079d
+web_query_attempts:
+- cycle: 1
+  query: Non-recursion based
+  source_family: algorithm_wiki_local
+  url_or_api_endpoint: NA
+  status: fetched
+  new_facts_added: 9
+  reason: local metadata
+- cycle: 1
+  query: Non-recursion based
+  source_family: local_previous_cache
+  url_or_api_endpoint: ''
+  status: duplicate
+  new_facts_added: 0
+  reason: previous v1/second-pass sources reused
+- cycle: 1
+  query: Non-recursion based
+  source_family: original_source
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: no original source link
+- cycle: 1
+  query: Non-recursion based
+  source_family: crossref
+  url_or_api_endpoint: https://doi.org/10.1145/24686.24691
+  status: irrelevant
+  new_facts_added: 0
+  reason: Crossref metadata/title search
+- cycle: 1
+  query: Non-recursion based
+  source_family: arxiv
+  url_or_api_endpoint: https://export.arxiv.org/api/query?max_results=1&search_query=ti:%22Non-recursion+based%22
+  status: no_result
+  new_facts_added: 0
+  reason: arXiv title search returned no usable entry
+- cycle: 1
+  query: Non-recursion based
+  source_family: wikipedia
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: Wikipedia search returned no relevant page
+- cycle: 2
+  query: Non-recursion based
+  source_family: openalex
+  url_or_api_endpoint: https://api.openalex.org/works?per-page=1&search=Non-recursion+based
+  status: no_result
+  new_facts_added: 0
+  reason: OpenAlex returned no usable work
+- cycle: 2
+  query: Non-recursion based
+  source_family: semantic_scholar
+  url_or_api_endpoint: https://api.semanticscholar.org/graph/v1/paper/search?limit=1&fields=title,abstract,year,url,externalIds&query=Non-recursion+based
+  status: fetched
+  new_facts_added: 5
+  reason: Semantic Scholar paper metadata
+- cycle: 2
+  query: Non-recursion based
+  source_family: dblp
+  url_or_api_endpoint: https://dblp.org/search/publ/api?format=json&h=1&q=Non-recursion+based
+  status: no_result
+  new_facts_added: 0
+  reason: DBLP returned no usable publication
+- cycle: 2
+  query: Non-recursion based
+  source_family: publisher_abstract
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: no applicable publisher abstract URL
+- cycle: 2
+  query: Non-recursion based
+  source_family: wikidata
+  url_or_api_endpoint: https://www.wikidata.org/w/api.php?action=wbsearchentities&language=en&format=json&limit=1&search=Non-recursion+based
+  status: no_result
+  new_facts_added: 0
+  reason: Wikidata returned no entity
+extracted_problem_statement: 'Non-recursion based is treated as a source-saturated AlgorithmWiki row for solve the named graph task indicated by the public source metadata Input semantics: An explicit graph with vertices, edges, weights, labels, or adjacency access as required by the row. Output semantics: A path, tree, component labeling, flow, matching, or witness object for the named graph task.'
+extracted_algorithm_summary: 'Non-recursion based is reconstructed as a classical graph task. The source-backed title/name/fact record supports the task: solve the named graph task indicated by the public source metadata.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

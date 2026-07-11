@@ -1,0 +1,48 @@
+algorithm_id: AW-000644
+canonical_name: Catriel Beeri Ronald Fagin John H. Howard
+enrichment_status: WEB_INSUFFICIENT
+review_reasons:
+- missing_concrete_problem_statement
+- unknown_input_model
+- unknown_output_contract
+- unknown_access_model
+source_records:
+- access_status: metadata_only
+  digest: c187f5b1aa790c40
+  extracted_facts:
+  - 'AlgorithmWiki row name: Catriel Beeri Ronald Fagin John H. Howard'
+  - 'domain: unknown'
+  - 'time complexity: O(4^n)'
+  - 'parameter definitions: n: number of attributes, p: number of tuples/rows/data points'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000644:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Catriel Beeri Ronald Fagin John H. Howard
+  url: https://dl.acm.org/doi/10.1145/509404.509414
+- access_status: fetched
+  digest: 119522408a9ba715
+  extracted_facts:
+  - 'DOI title: A complete axiomatization for functional and multivalued dependencies in database relations'
+  - 'published year: 1977'
+  - 'container title: Proceedings of the 1977 ACM SIGMOD international conference on Management of data - SIGMOD ''77'
+  reliability: HIGH
+  short_quote: ''
+  source_id: crossref:e2afebe8ed695a67
+  source_type: doi_metadata
+  title: A complete axiomatization for functional and multivalued dependencies in database relations
+  url: https://doi.org/10.1145/509404.509414
+- access_status: failed
+  digest: 03ad1bc935ece6ec
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:e79506fe0c101439
+  source_type: publisher_abstract
+  title: 'HTTP Error 403: Forbidden'
+  url: https://dl.acm.org/doi/10.1145/509404.509414
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

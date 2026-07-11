@@ -1,0 +1,58 @@
+id: AW-001769
+kind: context
+algorithm_id: AW-001769
+algorithm_name: Das, Sanei-Mehri, Tirthapura
+source_records:
+- access_status: metadata_only
+  digest: 9f127237cc306282
+  extracted_facts:
+  - 'AlgorithmWiki row name: Das, Sanei-Mehri, Tirthapura'
+  - 'domain: graph'
+  - 'time complexity: O(3^{n/3}/(M \log{n}) +P)'
+  - 'computational model: shared memory (CRCW PRAM)'
+  - 'parameter definitions: n: number of vertices, M: size of maximum clique, p: number of processors,'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(3^{n/3}/(M \log{n}) +P); work O(3^{n/3}); span/depth O(M \log{n}); processors p. Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001769:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Das, Sanei-Mehri, Tirthapura
+  url: https://ieeexplore.ieee.org/abstract/document/8638066
+- access_status: skipped
+  digest: 73ccee6c1a05dfb9
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:32a13d83819f86d6
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://ieeexplore.ieee.org/abstract/document/8638066
+web_query_attempts:
+- method: search_plan
+  query: Das, Sanei-Mehri, Tirthapura algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Das, Sanei-Mehri, Tirthapura algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Das, Sanei-Mehri, Tirthapura problem definition
+  status: recorded
+- method: search_plan
+  query: Das, Sanei-Mehri, Tirthapura graph algorithm
+  status: recorded
+- method: search_plan
+  query: Das, Sanei-Mehri, Tirthapura site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Das, Sanei-Mehri, Tirthapura algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://ieeexplore.ieee.org/abstract/document/8638066
+  status: recorded
+- method: source_link_html_metadata
+  query: https://ieeexplore.ieee.org/abstract/document/8638066
+  status: skipped
+extracted_problem_statement: 'Das, Sanei-Mehri, Tirthapura is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Das, Sanei-Mehri, Tirthapura. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'Das, Sanei-Mehri, Tirthapura is a graph algorithm record. Classical complexity metadata: time O(3^{n/3}/(M \log{n}) +P); work O(3^{n/3}); span/depth O(M \log{n}); processors p. The stated classical model is shared memory (CRCW PRAM). Public metadata/source text adds: Das, Sanei-Mehri, Tirthapura graph graph n: number of vertices, M: size of maximum clique, p: number of processors, O(3^{n/3}/(M \log{n}) +P) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

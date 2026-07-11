@@ -1,0 +1,13 @@
+statement: 'Satia & Lave 1973 search-witness probe. This is a subroutine/query-model probe, not an end-to-end claim for the original algorithm. The probe asks whether a predicate over candidates can expose one valid witness, counterexample, path element, pattern occurrence, or feasible object. Original input context: A set of processes, request/release events, and shared-memory or message-passing assumptions. Original output context: A protocol state sequence or decision granting safe critical-section access. Original bottleneck noted for the rich context card: Message or shared-variable access, waiting conditions, and fairness/progress constraints dominate. The coherent Boolean oracle and marked-item promise are introduced assumptions, not facts established by the original AlgorithmWiki row. Coherent oracle construction, promise checking, and data-mapping cost remain expert obligations. The original algorithm may still have full-output, preprocessing, or data-loading barriers.'
+input_model: explicit_parallel_algorithm_problem
+access_model: coherent_boolean_oracle
+output_contract: one_witness
+promises:
+- marked_item_exists
+- oracle_model_assumption
+size_parameters:
+- 'n: primary input size parameter for the source-backed task.'
+ambiguities:
+- This probe is assumption-bearing and is not an end-to-end speedup claim.
+- coherent predicate construction and candidate indexing may fail for the original full-output problem
+- The parent context card and source records should be checked before live use.

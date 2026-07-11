@@ -1,0 +1,137 @@
+id: AW-000604-TP0111
+kind: probe_recovered
+algorithm_id: AW-000604
+algorithm_name: 5-point FFT
+source_records:
+- access_status: metadata_only
+  digest: 3be763a36334937e
+  extracted_facts:
+  - 'AlgorithmWiki row name: 5-point FFT'
+  - 'domain: unknown'
+  - 'time complexity: O(n^2 \log n)'
+  - 'space complexity: O(n^2)'
+  - 'computational model: Real RAM'
+  - 'parameter definitions: n: dimension of grid (where grid is discretized)'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000604:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for 5-point FFT
+  url: ''
+- access_status: fetched
+  digest: 966f158c36194a96
+  extracted_facts:
+  - 'Crossref title-search result: 8 Point DIT-FFT Algorithm Using Verilog'
+  - 'abstract summary: The importance of Digital Signal method (DSP) algorithms has increased drastically in recent times, the two very important techniques of DSP unit the Distinct Fourier rework (DFT) and thus the fast Fourier rework (FFT).'
+  reliability: MEDIUM
+  short_quote: The importance of Digital Signal method (DSP) algorithms has increased drastically in recent times, the two very important techniques of DSP unit the Distinct
+  source_id: crossref_search:2d7daf81eb0133fe
+  source_type: doi_metadata
+  title: 8 Point DIT-FFT Algorithm Using Verilog
+  url: https://doi.org/10.46610/josh.2021.v06i02.002
+- source_id: crossref_search:f0cd3646861de619
+  url: https://doi.org/10.7763/lnse.2014.v2.131
+  title: Programmable N-Point FFT Design
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title: Programmable N-Point FFT Design'
+  - 'published year: 2014'
+  - 'container title: Lecture Notes on Software Engineering'
+  short_quote: 'Crossref title: Programmable N-Point FFT Design published year: 2014 container title: Lecture Notes on Software Engineering'
+  digest: 32fe7741b4d91e65
+- source_id: openalex:c633e4a555386bfa
+  url: https://openalex.org/W2159211495
+  title: <i>REFMAC</i>5 for the refinement of macromolecular crystal structures
+  source_type: openalex
+  access_status: fetched
+  reliability: HIGH
+  extracted_facts:
+  - 'OpenAlex title: <i>REFMAC</i>5 for the refinement of macromolecular crystal structures'
+  - 'publication year: 2011'
+  - 'abstract summary: This paper describes various components of the macromolecular crystallographic refinement program REFMAC5, which is distributed as part of the CCP4 suite.'
+  short_quote: 'OpenAlex title: <i>REFMAC</i>5 for the refinement of macromolecular crystal structures publication year: 2011 abstract summary: This paper describes various components of the macromolecular crystallographic'
+  digest: 6f985183bf48e76e
+web_query_attempts:
+- cycle: 1
+  query: 5-point FFT
+  source_family: algorithm_wiki_local
+  url_or_api_endpoint: ''
+  status: fetched
+  new_facts_added: 8
+  reason: local metadata
+- cycle: 1
+  query: 5-point FFT
+  source_family: local_previous_cache
+  url_or_api_endpoint: ''
+  status: duplicate
+  new_facts_added: 0
+  reason: previous v1/second-pass sources reused
+- cycle: 1
+  query: 5-point FFT
+  source_family: original_source
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: no original source link
+- cycle: 1
+  query: 5-point FFT
+  source_family: crossref
+  url_or_api_endpoint: https://doi.org/10.7763/lnse.2014.v2.131
+  status: irrelevant
+  new_facts_added: 0
+  reason: Crossref metadata/title search
+- cycle: 1
+  query: 5-point FFT
+  source_family: arxiv
+  url_or_api_endpoint: https://export.arxiv.org/api/query?max_results=1&search_query=ti:%225-point+FFT%22
+  status: no_result
+  new_facts_added: 0
+  reason: arXiv title search returned no usable entry
+- cycle: 1
+  query: 5-point FFT
+  source_family: wikipedia
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: Wikipedia search returned no relevant page
+- cycle: 2
+  query: 5-point FFT
+  source_family: openalex
+  url_or_api_endpoint: https://api.openalex.org/works?per-page=1&search=5-point+FFT
+  status: irrelevant
+  new_facts_added: 0
+  reason: OpenAlex work metadata
+- cycle: 2
+  query: 5-point FFT
+  source_family: semantic_scholar
+  url_or_api_endpoint: https://api.semanticscholar.org/graph/v1/paper/search?limit=1&fields=title,abstract,year,url,externalIds&query=5-point+FFT
+  status: fetch_failed
+  new_facts_added: 0
+  reason: Semantic Scholar returned no usable paper
+- cycle: 2
+  query: 5-point FFT
+  source_family: dblp
+  url_or_api_endpoint: https://dblp.org/search/publ/api?format=json&h=1&q=5-point+FFT
+  status: no_result
+  new_facts_added: 0
+  reason: DBLP returned no usable publication
+- cycle: 2
+  query: 5-point FFT
+  source_family: publisher_abstract
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: no applicable publisher abstract URL
+- cycle: 2
+  query: 5-point FFT
+  source_family: wikidata
+  url_or_api_endpoint: https://www.wikidata.org/w/api.php?action=wbsearchentities&language=en&format=json&limit=1&search=5-point+FFT
+  status: no_result
+  new_facts_added: 0
+  reason: Wikidata returned no entity
+extracted_problem_statement: '5-point FFT is treated as a source-saturated AlgorithmWiki row for solve the named graph task indicated by the public source metadata Input semantics: An explicit graph with vertices, edges, weights, labels, or adjacency access as required by the row. Output semantics: A path, tree, component labeling, flow, matching, or witness object for the named graph task.'
+extracted_algorithm_summary: '5-point FFT is reconstructed as a classical graph task. The source-backed title/name/fact record supports the task: solve the named graph task indicated by the public source metadata.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

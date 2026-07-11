@@ -1,0 +1,63 @@
+id: AW-000492
+kind: context
+algorithm_id: AW-000492
+algorithm_name: Bergland Glenn radix-8 algorithm
+source_records:
+- access_status: metadata_only
+  digest: 90e5ef86b7586568
+  extracted_facts:
+  - 'AlgorithmWiki row name: Bergland Glenn radix-8 algorithm'
+  - 'domain: sorting'
+  - 'time complexity: O(n \log n)'
+  - 'space complexity: O(n)'
+  - 'computational model: Word/Real RAM'
+  - 'parameter definitions: n: length of the input data set'
+  - 'precard summary: Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model. Baseline: time O(n \log n); space O(n). Bottleneck: comparison, distribution, and full-output movement costs dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000492:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Bergland Glenn radix-8 algorithm
+  url: https://ieeexplore.ieee.org/document/1162043
+- access_status: fetched
+  digest: 5c442852944eee4e
+  extracted_facts:
+  - 'source page title: https://ieeexplore.ieee.org/document/1162043'
+  - 'source page description: In order to continue, we need to verify that you''re not a robot.'
+  reliability: HIGH
+  short_quote: In order to continue, we need to verify that you're not a robot.
+  source_id: source:80bd688e9e807458
+  source_type: publisher_abstract
+  title: https://ieeexplore.ieee.org/document/1162043
+  url: https://ieeexplore.ieee.org/document/1162043
+web_query_attempts:
+- method: search_plan
+  query: Bergland Glenn radix-8 algorithm algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Bergland Glenn radix-8 algorithm algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Bergland Glenn radix-8 algorithm problem definition
+  status: recorded
+- method: search_plan
+  query: Bergland Glenn radix-8 algorithm sorting algorithm
+  status: recorded
+- method: search_plan
+  query: Bergland Glenn radix-8 algorithm site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Bergland Glenn radix-8 algorithm algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://ieeexplore.ieee.org/document/1162043
+  status: recorded
+- method: source_link_html_metadata
+  query: https://ieeexplore.ieee.org/document/1162043
+  status: fetched
+- method: wikipedia_summary_search
+  query: Bergland Glenn radix-8 algorithm algorithm
+  status: failed_or_not_relevant
+extracted_problem_statement: 'Bergland Glenn radix-8 algorithm is treated as a classical sorting task for rich AlgorithmWiki discovery. Problem/task: sort the input sequence using the named classical sorting method. Input semantics: A finite array or list of comparable keys or records. Output semantics: The same items returned in nondecreasing order, usually as a full reordered sequence.'
+extracted_algorithm_summary: 'Bergland Glenn radix-8 algorithm is a sorting algorithm record. Classical complexity metadata: time O(n \log n); space O(n). The stated classical model is Word/Real RAM. Public metadata/source text adds: Bergland Glenn radix-8 algorithm sorting sorting n: length of the input data set O(n \log n) Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

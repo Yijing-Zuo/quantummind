@@ -1,0 +1,42 @@
+algorithm_id: AW-001016
+canonical_name: Fischer, Heun
+enrichment_status: SECOND_PASS_INSUFFICIENT
+review_reasons:
+- No second-pass rule could identify source-backed task semantics.
+source_records:
+- access_status: metadata_only
+  digest: 4411e20db858eae6
+  extracted_facts:
+  - 'AlgorithmWiki row name: Fischer, Heun'
+  - 'domain: unknown'
+  - 'time complexity: O(m+n)'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001016:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Fischer, Heun
+  url: https://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.64.5439
+- access_status: skipped
+  digest: c6c879763f3d286d
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:6d181fa1471d3123
+  source_type: textbook_or_course_notes
+  title: fetch budget exhausted
+  url: https://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.64.5439
+- source_id: crossref_search:0b18e1bdccf3f416
+  url: https://doi.org/10.1109/npc.2007.32
+  title: An optimal algorithm to fetch DHT routable
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: An optimal algorithm to fetch DHT routable'
+  short_quote: ''
+  digest: eac65bcac63f65f8
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

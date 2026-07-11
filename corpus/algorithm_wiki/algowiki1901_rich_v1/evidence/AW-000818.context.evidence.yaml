@@ -1,0 +1,60 @@
+id: AW-000818
+kind: context
+algorithm_id: AW-000818
+algorithm_name: HybridSpades
+source_records:
+- access_status: metadata_only
+  digest: 95ee314867438200
+  extracted_facts:
+  - 'AlgorithmWiki row name: HybridSpades'
+  - 'domain: graph'
+  - 'time complexity: O(m(V \log(mV) + E))'
+  - 'space complexity: O(m(V+E))'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: m: length of input sequence, V: number of vertices, E: number of edges'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(m(V \log(mV) + E)); space O(m(V+E)). Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000818:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for HybridSpades
+  url: https://www.ncbi.nlm.nih.gov/pubmed/26589280
+- access_status: fetched
+  digest: e6ceccb7205ace5c
+  extracted_facts:
+  - 'source page title: hybridSPAdes: an algorithm for hybrid assembly of short and long reads - PubMed'
+  - 'source page description: supplementary data are available at Bioinformatics online.'
+  reliability: LOW
+  short_quote: supplementary data are available at Bioinformatics online.
+  source_id: source:5d3ad631e666cc80
+  source_type: other_public_source
+  title: 'hybridSPAdes: an algorithm for hybrid assembly of short and long reads - PubMed'
+  url: https://www.ncbi.nlm.nih.gov/pubmed/26589280
+web_query_attempts:
+- method: search_plan
+  query: HybridSpades algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: HybridSpades algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: HybridSpades problem definition
+  status: recorded
+- method: search_plan
+  query: HybridSpades graph algorithm
+  status: recorded
+- method: search_plan
+  query: HybridSpades site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: HybridSpades algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://www.ncbi.nlm.nih.gov/pubmed/26589280
+  status: recorded
+- method: source_link_html_metadata
+  query: https://www.ncbi.nlm.nih.gov/pubmed/26589280
+  status: fetched
+extracted_problem_statement: 'HybridSpades is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with HybridSpades. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'HybridSpades is a graph algorithm record. Classical complexity metadata: time O(m(V \log(mV) + E)); space O(m(V+E)). The stated classical model is Word RAM. Public metadata/source text adds: HybridSpades graph graph m: length of input sequence, V: number of vertices, E: number of edges O(m(V \log(mV) + E)) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

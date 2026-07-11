@@ -1,0 +1,50 @@
+algorithm_id: AW-000728
+canonical_name: B.I. Kvasov
+enrichment_status: WEB_INSUFFICIENT
+review_reasons:
+- missing_concrete_problem_statement
+- unknown_input_model
+- unknown_output_contract
+- unknown_access_model
+source_records:
+- access_status: metadata_only
+  digest: 3715d8f4903f9aeb
+  extracted_facts:
+  - 'AlgorithmWiki row name: B.I. Kvasov'
+  - 'domain: unknown'
+  - 'time complexity: O(n^3 \log^2 K)'
+  - 'space complexity: O(n)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of points'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000728:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for B.I. Kvasov
+  url: https://link.springer.com/article/10.1134/S0965542508040039
+- access_status: fetched
+  digest: 0b4d115fd32a4ece
+  extracted_facts:
+  - 'DOI title: Construction of hyperbolic interpolation splines'
+  - 'published year: 2008'
+  - 'container title: Computational Mathematics and Mathematical Physics'
+  reliability: HIGH
+  short_quote: ''
+  source_id: crossref:e4173c9af72cc0e9
+  source_type: doi_metadata
+  title: Construction of hyperbolic interpolation splines
+  url: https://doi.org/10.1134/S0965542508040039
+- access_status: skipped
+  digest: a10ad7850e29a697
+  extracted_facts:
+  - robots.txt disallowed fetch
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:04f38e56fc1b9c99
+  source_type: publisher_abstract
+  title: robots.txt disallowed fetch
+  url: https://link.springer.com/article/10.1134/S0965542508040039
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

@@ -1,0 +1,64 @@
+algorithm_id: AW-001099
+canonical_name: Saxena, Bhatt, Prasad
+enrichment_status: THIRD_PASS_SATURATED_INSUFFICIENT
+review_reasons:
+- After the configured source-family cycles, no source-backed concrete task, input semantics, output semantics, and conservative access model could be established.
+source_records:
+- access_status: metadata_only
+  digest: 13327f40cc61f1b2
+  extracted_facts:
+  - 'AlgorithmWiki row name: Saxena, Bhatt, Prasad'
+  - 'domain: unknown'
+  - 'time complexity: O(\log{n}/\log{\log{m}})'
+  - 'computational model: CRCW SIMD'
+  - 'parameter definitions: n: size of list, m: uses m-way merge, \log{m}/\log{\log{m}}>=\log{\log{n}}'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001099:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Saxena, Bhatt, Prasad
+  url: https://link.springer.com/content/pdf/10.1007/3-540-50517-2_77.pdf
+- access_status: skipped
+  digest: bd34148d3ad3e702
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:df6d8a7d604ba35e
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1007/3-540-50517-2_77.pdf
+- access_status: failed
+  digest: 3d2bf56e986bc9a4
+  extracted_facts:
+  - PDF download skipped
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:31fefb4063c89a7b
+  source_type: doi_metadata
+  title: PDF download skipped
+  url: https://doi.org/10.1007/3-540-50517-2_77.pdf
+- access_status: fetched
+  digest: eac65bcac63f65f8
+  extracted_facts:
+  - 'Crossref title-search result: An optimal algorithm to fetch DHT routable'
+  reliability: MEDIUM
+  short_quote: ''
+  source_id: crossref_search:0b18e1bdccf3f416
+  source_type: doi_metadata
+  title: An optimal algorithm to fetch DHT routable
+  url: https://doi.org/10.1109/npc.2007.32
+- source_id: skipped:a46e18ecd93a8cd0
+  url: https://link.springer.com/content/pdf/10.1007/3-540-50517-2_77.pdf
+  title: public PDF body was not downloaded
+  source_type: original_source
+  access_status: skipped
+  reliability: LOW
+  extracted_facts:
+  - public PDF body was not downloaded
+  short_quote: public PDF body was not downloaded
+  digest: 34a14c14fdc6b597
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

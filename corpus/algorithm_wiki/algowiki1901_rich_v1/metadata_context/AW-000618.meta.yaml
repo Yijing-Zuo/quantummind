@@ -1,0 +1,58 @@
+algorithm_family: unknown
+algorithm_id: AW-000618
+approximate: '0'
+approximation_factor: ''
+blind_name: Algorithm Wiki public task AW-000618
+canonical_name: Flipping algorithm
+computational_model: Real RAM
+domain: unknown
+extracted_description: ''
+extraction_version: algorithm-wiki-rich-context-v1
+family: unknown
+inferred_access_model: adjacency_list_query
+inferred_ambiguities:
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.
+inferred_input_model: explicit_graph_problem
+inferred_output_contract: path_or_tree
+inferred_problem_statement: 'Flipping algorithm is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Flipping algorithm. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+inferred_promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+inferred_size_parameters:
+- 'Parameter definition: n: number of points'
+number_of_processors: ''
+page_digest: ''
+page_fetch_status: not_found
+page_url: ''
+parameter_definitions: 'n: number of points'
+problem_name: unknown
+quality_flags:
+- has_complexity_semantics
+- has_size_parameters
+- has_computational_model
+quality_score: 70
+randomized: '0'
+readiness: READY_PUBLIC_CONTEXT
+review_reasons:
+- missing_problem_statement
+- unknown_input_model
+- unknown_access_model
+- unknown_output_contract
+- insufficient_algorithm_level_structure
+source_link: https://link.springer.com/article/10.1007/PL00009464
+source_link_type: unknown
+space_complexity: O(n)
+span_depth: ''
+time_complexity: O(n^2)
+variation: ''
+work: ''
+year: '1999'
+rich_card_kind: context
+source_records_used:
+- AW-000618:algorithm_wiki_metadata
+- crossref:63819e8c4c7badb6
+- skipped:25271275288c93e9
+source_count: 3
+source_quality: HIGH
+confidence_score: 70
+card_digest: e029a35dc87fdcd0

@@ -1,0 +1,58 @@
+algorithm_family: unknown
+algorithm_id: AW-000055
+approximate: '0'
+approximation_factor: ''
+blind_name: Algorithm Wiki public task AW-000055
+canonical_name: "Levinson\u2013Durbin recursion"
+computational_model: Word RAM
+domain: unknown
+extracted_description: ''
+extraction_version: algorithm-wiki-rich-context-v1
+family: unknown
+inferred_access_model: function_evaluation_oracle_classical
+inferred_ambiguities:
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.
+inferred_input_model: explicit_numerical_problem
+inferred_output_contract: estimate
+inferred_problem_statement: "Levinson\u2013Durbin recursion is treated as a classical numerical analysis task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Levinson\u2013Durbin recursion. Input semantics: Numeric parameters, functions, samples, tolerances, or distributions for the stated numerical task. Output semantics: An exact or approximate numerical value, estimate, approximation, or fitted representation."
+inferred_promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+inferred_size_parameters:
+- 'Parameter definition: n: number of variables and number of equations'
+number_of_processors: ''
+page_digest: ''
+page_fetch_status: not_found
+page_url: ''
+parameter_definitions: 'n: number of variables and number of equations'
+problem_name: unknown
+quality_flags:
+- has_complexity_semantics
+- has_size_parameters
+- has_computational_model
+quality_score: 70
+randomized: '0'
+readiness: READY_PUBLIC_CONTEXT
+review_reasons:
+- missing_problem_statement
+- unknown_input_model
+- unknown_access_model
+- unknown_output_contract
+- insufficient_algorithm_level_structure
+source_link: https://onlinelibrary.wiley.com/doi/abs/10.1002/sapm1946251261
+source_link_type: unknown
+space_complexity: O(n^2)
+span_depth: ''
+time_complexity: O(n^2)
+variation: ''
+work: ''
+year: '1947'
+rich_card_kind: context
+source_records_used:
+- AW-000055:algorithm_wiki_metadata
+- crossref:3fbe952fdb13f001
+- failed:4fdb7b7f60398a57
+source_count: 3
+source_quality: HIGH
+confidence_score: 70
+card_digest: faad41059046030e

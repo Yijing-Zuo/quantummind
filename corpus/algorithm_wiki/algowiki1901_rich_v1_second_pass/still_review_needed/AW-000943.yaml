@@ -1,0 +1,66 @@
+algorithm_id: AW-000943
+canonical_name: Quantum Adiabatic Algorithm (QAA)
+enrichment_status: SECOND_PASS_INSUFFICIENT
+review_reasons:
+- No second-pass rule could identify source-backed task semantics.
+source_records:
+- access_status: metadata_only
+  digest: b0b3eaf798d708a4
+  extracted_facts:
+  - 'AlgorithmWiki row name: Quantum Adiabatic Algorithm (QAA)'
+  - 'domain: unknown'
+  - 'time complexity: O(2^n)'
+  - 'space complexity: O(poly(n))'
+  - 'computational model: Quantum Adiabatic Computing'
+  - 'parameter definitions: n: number of variables (number of qubits)'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000943:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Quantum Adiabatic Algorithm (QAA)
+  url: https://arxiv.org/pdf/quant-ph/0001106.pdf
+- access_status: skipped
+  digest: 71e1c9428fa3d897
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:111c9be9f88b00b8
+  source_type: arxiv_abstract
+  title: fetch budget exhausted
+  url: https://arxiv.org/abs/quant-ph/0001106
+- access_status: skipped
+  digest: f5b73f1023e80bbf
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:78905d3eaa5a32a0
+  source_type: wikipedia
+  title: fetch budget exhausted
+  url: https://en.wikipedia.org/wiki/Quantum_Adiabatic_Algorithm_%28QAA%29
+- source_id: arxiv:quant-ph/0001106
+  url: https://arxiv.org/abs/quant-ph/0001106
+  title: Quantum Computation by Adiabatic Evolution
+  source_type: arxiv_abstract
+  access_status: fetched
+  reliability: HIGH
+  extracted_facts:
+  - 'arXiv title: Quantum Computation by Adiabatic Evolution'
+  - 'abstract summary: We give a quantum algorithm for solving instances of the satisfiability problem, based on adiabatic evolution.'
+  short_quote: We give a quantum algorithm for solving instances of the satisfiability problem, based on adiabatic evolution.
+  digest: 925e983bf6755d3f
+- source_id: crossref_search:0b18e1bdccf3f416
+  url: https://doi.org/10.1109/npc.2007.32
+  title: An optimal algorithm to fetch DHT routable
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: An optimal algorithm to fetch DHT routable'
+  short_quote: ''
+  digest: eac65bcac63f65f8
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

@@ -1,0 +1,72 @@
+id: AW-001293
+kind: context
+algorithm_id: AW-001293
+algorithm_name: Valiant, Skyum, Berkowitz, Rackoff [implicit]
+source_records:
+- access_status: metadata_only
+  digest: 5e57fecda35ef5ae
+  extracted_facts:
+  - 'AlgorithmWiki row name: Valiant, Skyum, Berkowitz, Rackoff [implicit]'
+  - 'domain: parallel_algorithms'
+  - 'time complexity: O(\log^2 n)'
+  - 'space complexity: O(n)'
+  - 'computational model: CRCW PRAM'
+  - 'parameter definitions: n: number of matrices in chain'
+  - 'precard summary: Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model. Baseline: time O(\log^2 n); space O(n); work O(n^9 \log^2 n); span/depth O(log^2 n); processors O(n^9). Bottleneck: work, span, communication, and processor-count assumptions dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001293:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Valiant, Skyum, Berkowitz, Rackoff [implicit]
+  url: https://epubs.siam.org/doi/10.1137/0212043
+- access_status: skipped
+  digest: 4f7609281e14061c
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:47ea02186dcc2c75
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1137/0212043
+- access_status: skipped
+  digest: 9136fb4ceeb2a29d
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:b17d3d654d92fa3d
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://epubs.siam.org/doi/10.1137/0212043
+web_query_attempts:
+- method: search_plan
+  query: Valiant, Skyum, Berkowitz, Rackoff [implicit] algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Valiant, Skyum, Berkowitz, Rackoff [implicit] algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Valiant, Skyum, Berkowitz, Rackoff [implicit] problem definition
+  status: recorded
+- method: search_plan
+  query: Valiant, Skyum, Berkowitz, Rackoff [implicit] parallel algorithms algorithm
+  status: recorded
+- method: search_plan
+  query: Valiant, Skyum, Berkowitz, Rackoff [implicit] site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Valiant, Skyum, Berkowitz, Rackoff [implicit] algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://epubs.siam.org/doi/10.1137/0212043
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1137/0212043
+  status: skipped
+- method: source_link_html_metadata
+  query: https://epubs.siam.org/doi/10.1137/0212043
+  status: skipped
+extracted_problem_statement: 'Valiant, Skyum, Berkowitz, Rackoff [implicit] is treated as a classical parallel algorithms task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Valiant, Skyum, Berkowitz, Rackoff [implicit]. Input semantics: The classical input instance named by the row, together with processor/work/span parameters when stated. Output semantics: The same mathematical output as the underlying classical task, annotated by work/span when available.'
+extracted_algorithm_summary: 'Valiant, Skyum, Berkowitz, Rackoff [implicit] is a parallel algorithms algorithm record. Classical complexity metadata: time O(\log^2 n); space O(n); work O(n^9 \log^2 n); span/depth O(log^2 n); processors O(n^9). The stated classical model is CRCW PRAM. Public metadata/source text adds: Valiant, Skyum, Berkowitz, Rackoff [implicit] parallel_algorithms parallel_algorithms n: number of matrices in chain O(\log^2 n) Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

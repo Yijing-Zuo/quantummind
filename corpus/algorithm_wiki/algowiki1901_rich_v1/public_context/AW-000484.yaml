@@ -1,0 +1,14 @@
+statement: 'Hierholzer''s algorithm is included as a named whole-algorithm context card for a classical graph task. The task is to analyze the classical input-output problem, not to certify an end-to-end improvement claim. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result. Classical algorithm summary: Hierholzer''s algorithm is a graph algorithm record. Classical complexity metadata: time O(E); space O(E). The stated classical model is Word RAM. Public metadata/source text adds: Hierholzer''s algorithm graph graph V: number of vertices, E: number of edges O(E) Given an explicit graph instance, the concrete classical graph task associated with Hierholzer''s algorithm. Classical complexity recorded for this row: time O(E); space O(E); computation model Word
+  RAM. Dominant bottleneck: graph traversal, priority/frontier maintenance, and materializing graph outputs. The useful review questions are whether the named structure exposes a smaller decision, witness, estimation, or algebraic subproblem; whether the full output size dominates any asymptotic gain; and whether the stated access model is realistic for the original input. Provenance is limited to AlgorithmWiki metadata and source-link facts; unresolved details are kept as ambiguities. Source-backed uncertainty or assumptions: No independent fetched public metadata source resolved this row beyond AlgorithmWiki metadata/source-link facts.'
+input_model: explicit_graph_problem
+access_model: adjacency_list_query
+output_contract: full_solution
+promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+size_parameters:
+- 'Parameter definition: V: number of vertices, E: number of edges'
+ambiguities:
+- No independent fetched public metadata source resolved this row beyond AlgorithmWiki metadata/source-link facts.
+- Some details are reconstructed from AlgorithmWiki metadata rather than an independently fetched full public description.
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.

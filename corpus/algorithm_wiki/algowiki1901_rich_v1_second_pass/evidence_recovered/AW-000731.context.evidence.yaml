@@ -1,0 +1,71 @@
+id: AW-000731
+kind: context_recovered
+algorithm_id: AW-000731
+algorithm_name: V. I. Paasonen
+source_records:
+- access_status: metadata_only
+  digest: 57182a69712e4252
+  extracted_facts:
+  - 'AlgorithmWiki row name: V. I. Paasonen'
+  - 'domain: unknown'
+  - 'time complexity: O(n^5 \log K)'
+  - 'parameter definitions: n: number of points'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000731:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for V. I. Paasonen
+  url: http://w.ict.nsc.ru/jct/annotation/892?l=eng
+- access_status: fetched
+  digest: 49300c32e1e17f9c
+  extracted_facts:
+  - 'source page title: Journal "Computational Technologies"'
+  - 'source page description: A modification of the known method for construction of hyperbolic splines with stretch is proposed.'
+  reliability: LOW
+  short_quote: A modification of the known method for construction of hyperbolic splines with stretch is proposed.
+  source_id: source:c8acb2b8318bd95a
+  source_type: other_public_source
+  title: Journal "Computational Technologies"
+  url: http://w.ict.nsc.ru/jct/annotation/892?l=eng
+- source_id: crossref_search:96b578788e356a57
+  url: https://doi.org/10.1515/9783110359961
+  title: Computational Technologies
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: Computational Technologies'
+  short_quote: ''
+  digest: 21b8151bbaaadaaf
+web_query_attempts:
+- query: '"V. I. Paasonen" algorithm'
+  method: search_plan
+  status: recorded
+- query: '"V. I. Paasonen" input output'
+  method: search_plan
+  status: recorded
+- query: '"V. I. Paasonen" time complexity'
+  method: search_plan
+  status: recorded
+- query: '"V. I. Paasonen" pseudocode'
+  method: search_plan
+  status: recorded
+- query: '"V. I. Paasonen" problem'
+  method: search_plan
+  status: recorded
+- query: '"V. I. Paasonen" PDF metadata abstract'
+  method: search_plan
+  status: recorded
+- query: '"Journal "Computational Technologies"" algorithm'
+  method: search_plan
+  status: recorded
+- query: http://w.ict.nsc.ru/jct/annotation/892?l=eng
+  method: search_plan
+  status: recorded
+- query: Journal "Computational Technologies" algorithm
+  method: crossref_title_search
+  status: fetched
+extracted_problem_statement: 'V. I. Paasonen is reconstructed as a classical computational geometry task. Problem/task: compute a geometric structure or relation over a finite point set Input semantics: A finite set of points, dimension k when stated, and geometric predicate assumptions. Output semantics: A geometric witness, nearest/closest relation, hull, partition, or related structure supported by the named row.'
+extracted_algorithm_summary: 'V. I. Paasonen is treated as the named AlgorithmWiki variant for compute a geometric structure or relation over a finite point set Classical complexity metadata: time O(n^5 \log K). Public metadata/source title support includes Journal "Computational Technologies".'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

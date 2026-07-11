@@ -1,0 +1,69 @@
+id: AW-000318-P0261
+kind: probe
+algorithm_id: AW-000318
+algorithm_name: Kwatra 2003
+source_records:
+- access_status: metadata_only
+  digest: 7cb4b97ff78d3506
+  extracted_facts:
+  - 'AlgorithmWiki row name: Kwatra 2003'
+  - 'domain: unknown'
+  - 'time complexity: O(n^3)'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000318:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Kwatra 2003
+  url: https://dl.acm.org/doi/abs/10.1145/882262.882264
+- access_status: fetched
+  digest: 7a4f0b9713609230
+  extracted_facts:
+  - 'DOI title: Graphcut textures'
+  - 'published year: 2003'
+  - 'container title: ACM Transactions on Graphics'
+  - 'abstract summary: In this paper we introduce a new algorithm for image and video texture synthesis.'
+  reliability: HIGH
+  short_quote: In this paper we introduce a new algorithm for image and video texture synthesis.
+  source_id: crossref:08dc7fe901d54632
+  source_type: doi_metadata
+  title: Graphcut textures
+  url: https://doi.org/10.1145/882262.882264
+- access_status: failed
+  digest: 7bbd66909d0d60e9
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:3091fc81dcf570dd
+  source_type: publisher_abstract
+  title: 'HTTP Error 403: Forbidden'
+  url: https://dl.acm.org/doi/abs/10.1145/882262.882264
+web_query_attempts:
+- method: search_plan
+  query: Kwatra 2003 algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Kwatra 2003 algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Kwatra 2003 problem definition
+  status: recorded
+- method: search_plan
+  query: Kwatra 2003 site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Kwatra 2003 algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://dl.acm.org/doi/abs/10.1145/882262.882264
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1145/882262.882264
+  status: fetched
+- method: source_link_html_metadata
+  query: https://dl.acm.org/doi/abs/10.1145/882262.882264
+  status: failed
+extracted_problem_statement: 'Kwatra 2003 is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Kwatra 2003. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'Kwatra 2003 is a graph algorithm record. Classical complexity metadata: time O(n^3). Public metadata/source text adds: Kwatra 2003 unknown unknown O(n^3) No public-ready summary is available because the row lacks enough task semantics.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

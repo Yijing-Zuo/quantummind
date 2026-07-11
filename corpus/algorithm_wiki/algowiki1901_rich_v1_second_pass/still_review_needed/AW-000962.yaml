@@ -1,0 +1,45 @@
+algorithm_id: AW-000962
+canonical_name: Brent-Dekker Method
+enrichment_status: SECOND_PASS_INSUFFICIENT
+review_reasons:
+- No second-pass rule could identify source-backed task semantics.
+source_records:
+- access_status: metadata_only
+  digest: a65db9bb0ec95a04
+  extracted_facts:
+  - 'AlgorithmWiki row name: Brent-Dekker Method'
+  - 'domain: unknown'
+  - 'time complexity: O(n_max)'
+  - 'space complexity: O(1)'
+  - 'computational model: Word/Real RAM'
+  - 'parameter definitions: epsilon: (additive) tolerance error, n_max: maximum number of iterations'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000962:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Brent-Dekker Method
+  url: https://books.google.com/books?vid=ISBN0130223352
+- access_status: skipped
+  digest: 6431b86996d43bcf
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:802eebc62e3f7be2
+  source_type: other_public_source
+  title: fetch budget exhausted
+  url: https://books.google.com/books?vid=ISBN0130223352
+- source_id: crossref_search:0b18e1bdccf3f416
+  url: https://doi.org/10.1109/npc.2007.32
+  title: An optimal algorithm to fetch DHT routable
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: An optimal algorithm to fetch DHT routable'
+  short_quote: ''
+  digest: eac65bcac63f65f8
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

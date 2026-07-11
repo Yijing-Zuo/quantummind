@@ -1,0 +1,74 @@
+id: AW-000405-P0290
+kind: probe
+algorithm_id: AW-000405
+algorithm_name: Apostolico and Guerra (HS1 Algorithm)
+source_records:
+- access_status: metadata_only
+  digest: bb4431c53038d0b0
+  extracted_facts:
+  - 'AlgorithmWiki row name: Apostolico and Guerra (HS1 Algorithm)'
+  - 'domain: string'
+  - 'time complexity: O(m \log n +p \log(2mn/p))'
+  - 'space complexity: O(p + n)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: length of the longer input string, m: length of the shorter input string, p: the number of dominant matches (AKA number of minimal candidates), i.e. the total number of ordered pairs of positions at which the two sequences match, s: size of alphabet'
+  - 'precard summary: Given one or more explicit strings, compute the matching, indexing, alignment, or transformation output targeted by the record. Baseline: time O(m \log n +p \log(2mn/p)); space O(p + n). Bottleneck: string scanning, preprocessing tables, and reporting matches dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000405:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Apostolico and Guerra (HS1 Algorithm)
+  url: https://link.springer.com/article/10.1007/BF01840365
+- access_status: fetched
+  digest: 9582e295d2344814
+  extracted_facts:
+  - 'DOI title: The longest common subsequence problem revisited'
+  - 'published year: 1987'
+  - 'container title: Algorithmica'
+  reliability: HIGH
+  short_quote: ''
+  source_id: crossref:037f19fab04029e7
+  source_type: doi_metadata
+  title: The longest common subsequence problem revisited
+  url: https://doi.org/10.1007/BF01840365
+- access_status: skipped
+  digest: 3d250f71307ad1a5
+  extracted_facts:
+  - robots.txt disallowed fetch
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:17f33e649c3186c3
+  source_type: publisher_abstract
+  title: robots.txt disallowed fetch
+  url: https://link.springer.com/article/10.1007/BF01840365
+web_query_attempts:
+- method: search_plan
+  query: Apostolico and Guerra (HS1 Algorithm) algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Apostolico and Guerra (HS1 Algorithm) algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Apostolico and Guerra (HS1 Algorithm) problem definition
+  status: recorded
+- method: search_plan
+  query: Apostolico and Guerra (HS1 Algorithm) string algorithm
+  status: recorded
+- method: search_plan
+  query: Apostolico and Guerra (HS1 Algorithm) site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Apostolico and Guerra (HS1 Algorithm) algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://link.springer.com/article/10.1007/BF01840365
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1007/BF01840365
+  status: fetched
+- method: source_link_html_metadata
+  query: https://link.springer.com/article/10.1007/BF01840365
+  status: skipped
+extracted_problem_statement: 'Apostolico and Guerra (HS1 Algorithm) is treated as a classical string task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Apostolico and Guerra (HS1 Algorithm). Input semantics: One or more finite strings, sequences, patterns, or alphabets. Output semantics: Pattern occurrence positions, matches, or the associated string-search report.'
+extracted_algorithm_summary: 'Apostolico and Guerra (HS1 Algorithm) is a string algorithm record. Classical complexity metadata: time O(m \log n +p \log(2mn/p)); space O(p + n). The stated classical model is Word RAM. Public metadata/source text adds: Apostolico and Guerra (HS1 Algorithm) string string n: length of the longer input string, m: length of the shorter input string, p: the number of dominant matches (AKA number of minimal candidates), i.e.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

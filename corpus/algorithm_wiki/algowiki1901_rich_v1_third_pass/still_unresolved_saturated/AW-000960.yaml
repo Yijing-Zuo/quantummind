@@ -1,0 +1,58 @@
+algorithm_id: AW-000960
+canonical_name: Steffensen's method
+enrichment_status: THIRD_PASS_SATURATED_INSUFFICIENT
+review_reasons:
+- After the configured source-family cycles, no source-backed concrete task, input semantics, output semantics, and conservative access model could be established.
+source_records:
+- access_status: metadata_only
+  digest: cd3d0a7cb53329bf
+  extracted_facts:
+  - 'AlgorithmWiki row name: Steffensen''s method'
+  - 'domain: unknown'
+  - 'time complexity: O(n_max)'
+  - 'space complexity: O(1)'
+  - 'computational model: Word/Real RAM'
+  - 'parameter definitions: epsilon: (additive) tolerance error, n_max: maximum number of iterations'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000960:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Steffensen's method
+  url: ''
+- access_status: fetched
+  digest: f0d89cc6edfa8141
+  extracted_facts:
+  - 'Crossref title-search result: Stochastic Steffensen method'
+  reliability: MEDIUM
+  short_quote: ''
+  source_id: crossref_search:65222d9cdd3c9f99
+  source_type: doi_metadata
+  title: Stochastic Steffensen method
+  url: https://doi.org/10.1007/s10589-024-00583-7
+- source_id: crossref_search:6467c3a303e5df37
+  url: https://doi.org/10.1007/s10589-024-00583-7
+  title: Stochastic Steffensen method
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title: Stochastic Steffensen method'
+  - 'published year: 2024'
+  - 'container title: Computational Optimization and Applications'
+  short_quote: 'Crossref title: Stochastic Steffensen method published year: 2024 container title: Computational Optimization and Applications'
+  digest: 6d065c6b9e0c6684
+- source_id: wikidata:c8b3bc5ad4adf3b8
+  url: http://www.wikidata.org/entity/Q7606635
+  title: Steffensen's method
+  source_type: wikidata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - Steffensen's method
+  - Newton-like root-finding algorithm that does not use derivatives
+  short_quote: Steffensen's method Newton-like root-finding algorithm that does not use derivatives
+  digest: 39d438c6fb300fbe
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

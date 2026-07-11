@@ -1,0 +1,16 @@
+statement: 'Miller Stout is included as a named whole-algorithm context card for a classical computational geometry task. The task is to analyze the classical input-output problem, not to certify an end-to-end improvement claim. Input semantics: Explicit geometric objects such as points, line segments, polygons, or planar subdivisions. Output semantics: The requested geometric structure, simplified curve, clipping result, intersection set, hull, or diagram. Classical algorithm summary: Miller Stout is a computational geometry algorithm record. Classical complexity metadata: time O(\log n); space O(n) total; work O(n \log n); span/depth O(\log n); processors O(n). The stated classical model is EREW PRAM, possibly others (see paper). Public metadata/source text adds: Miller Stout computational_geometry computational_geometry n: number of line segments, h: number of points on the convex hull O(\log n) Given explicit geometric objects such as points, segments, or polygons, compute the requested
+  geometric structure or witness set. Classical complexity recorded for this row: time O(\log n); space O(n) total; computation model EREW PRAM, possibly others (see paper). Dominant bottleneck: geometric predicates, event ordering, and output-sensitive structure size. The useful review questions are whether the named structure exposes a smaller decision, witness, estimation, or algebraic subproblem; whether the full output size dominates any asymptotic gain; and whether the stated access model is realistic for the original input. Provenance is limited to AlgorithmWiki metadata and source-link facts; unresolved details are kept as ambiguities. Source-backed uncertainty or assumptions: No independent fetched public metadata source resolved this row beyond AlgorithmWiki metadata/source-link facts.'
+input_model: explicit_geometry_problem
+access_model: explicit_geometric_objects
+output_contract: full_solution
+promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+- classical_parallel_model_recorded
+size_parameters:
+- 'Parameter definition: n: number of line segments, h: number of points on the convex hull'
+- p = stated number of processors (O(n))
+ambiguities:
+- No independent fetched public metadata source resolved this row beyond AlgorithmWiki metadata/source-link facts.
+- Some details are reconstructed from AlgorithmWiki metadata rather than an independently fetched full public description.
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.

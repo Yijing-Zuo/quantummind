@@ -1,0 +1,42 @@
+id: AW-001022
+kind: context
+algorithm_id: AW-001022
+algorithm_name: Skala
+source_records:
+- access_status: metadata_only
+  digest: 6967439e8174b3dc
+  extracted_facts:
+  - 'AlgorithmWiki row name: Skala'
+  - 'domain: computational_geometry'
+  - 'precard summary: Given explicit geometric objects such as points, segments, or polygons, compute the requested geometric structure or witness set. Baseline: not stated. Bottleneck: geometric predicates, ordering events, and output-sensitive structure size dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001022:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Skala
+  url: https://www.academia.edu/download/66755734/1994_Point_in_Polygon_O_1_.pdf
+web_query_attempts:
+- method: search_plan
+  query: Skala algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Skala algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Skala problem definition
+  status: recorded
+- method: search_plan
+  query: Skala computational geometry algorithm
+  status: recorded
+- method: search_plan
+  query: Skala site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Skala algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://www.academia.edu/download/66755734/1994_Point_in_Polygon_O_1_.pdf
+  status: recorded
+extracted_problem_statement: 'Skala is treated as a classical computational geometry task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Skala. Input semantics: Explicit geometric objects such as points, line segments, polygons, or planar subdivisions. Output semantics: The requested geometric structure, simplified curve, clipping result, intersection set, hull, or diagram.'
+extracted_algorithm_summary: 'Skala is a computational geometry algorithm record. Classical complexity is not stated. Public metadata/source text adds: Skala computational_geometry computational_geometry Given explicit geometric objects such as points, segments, or polygons, compute the requested geometric structure or witness set.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

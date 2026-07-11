@@ -1,0 +1,59 @@
+id: AW-000090
+kind: context_recovered
+algorithm_id: AW-000090
+algorithm_name: Toom-3
+source_records:
+- access_status: metadata_only
+  digest: 6ff3c68258e305db
+  extracted_facts:
+  - 'AlgorithmWiki row name: Toom-3'
+  - 'domain: unknown'
+  - 'time complexity: O(n^{1.46})'
+  - 'space complexity: O(n)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: length of one of the integers, in bits'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000090:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Toom-3
+  url: https://www.ams.org/journals/tran/1969-142-00/S0002-9947-1969-0249212-8/S0002-9947-1969-0249212-8.pdf
+- source_id: crossref_search:3305b8d06eb2c3f9
+  url: https://doi.org/10.5040/9781474284974.00893
+  title: toom
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: toom'
+  short_quote: ''
+  digest: e71b5904d121fdee
+web_query_attempts:
+- query: '"Toom-3" algorithm'
+  method: search_plan
+  status: recorded
+- query: '"Toom-3" input output'
+  method: search_plan
+  status: recorded
+- query: '"Toom-3" time complexity'
+  method: search_plan
+  status: recorded
+- query: '"Toom-3" pseudocode'
+  method: search_plan
+  status: recorded
+- query: '"Toom-3" problem'
+  method: search_plan
+  status: recorded
+- query: '"Toom-3" PDF metadata abstract'
+  method: search_plan
+  status: recorded
+- query: https://www.ams.org/journals/tran/1969-142-00/S0002-9947-1969-0249212-8/S0002-9947-1969-0249212-8.pdf
+  method: search_plan
+  status: recorded
+- query: Toom-3 algorithm
+  method: crossref_title_search
+  status: fetched
+extracted_problem_statement: 'Toom-3 is reconstructed as a classical combinatorics task. Problem/task: multiply large integers Input semantics: Two integers represented by n-bit or n-limb strings. Output semantics: The exact product integer.'
+extracted_algorithm_summary: 'Toom-3 is treated as the named AlgorithmWiki variant for multiply large integers Classical complexity metadata: time O(n^{1.46}); space O(n). Public metadata/source title support includes toom.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

@@ -1,0 +1,56 @@
+algorithm_family: computational geometry
+algorithm_id: AW-000178
+approximate: '0'
+approximation_factor: ''
+blind_name: Algorithm Wiki public task AW-000178
+canonical_name: Jean-Daniel Boissonnat and Franco P., Preparata.
+computational_model: Real RAM, under more restrictions/considerations (predicate arithmetic, exact arithmetic)
+domain: computational_geometry
+extracted_description: ''
+extraction_version: algorithm-wiki-rich-context-v1
+family: computational_geometry
+inferred_access_model: explicit_geometric_objects
+inferred_ambiguities:
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.
+inferred_input_model: explicit_geometry_problem
+inferred_output_contract: full_solution
+inferred_problem_statement: 'Jean-Daniel Boissonnat and Franco P., Preparata. is treated as a classical computational geometry task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Jean-Daniel Boissonnat and Franco P., Preparata.. Input semantics: Explicit geometric objects such as points, line segments, polygons, or planar subdivisions. Output semantics: The requested geometric structure, simplified curve, clipping result, intersection set, hull, or diagram.'
+inferred_promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+inferred_size_parameters:
+- 'Parameter definition: n: number of line segments, k: number of points of intersection'
+number_of_processors: ''
+page_digest: ''
+page_fetch_status: not_found
+page_url: ''
+parameter_definitions: 'n: number of line segments, k: number of points of intersection'
+problem_name: computational geometry
+quality_flags:
+- domain_inferred
+- problem_statement_inferred
+- io_access_output_inferred
+- has_complexity_semantics
+- has_size_parameters
+- has_computational_model
+quality_score: 100
+randomized: '0'
+readiness: READY_PUBLIC_CONTEXT
+review_reasons: []
+source_link: https://epubs.siam.org/doi/abs/10.1137/S0097539797329373
+source_link_type: siam
+space_complexity: O(n)
+span_depth: ''
+time_complexity: O((n+k) \log n)
+variation: ''
+work: ''
+year: '1997'
+rich_card_kind: context
+source_records_used:
+- AW-000178:algorithm_wiki_metadata
+- crossref:239f152e2f913fda
+- failed:fbdbda96a55fc994
+source_count: 3
+source_quality: HIGH
+confidence_score: 100
+card_digest: 6be8034e2a033ad6

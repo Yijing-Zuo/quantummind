@@ -1,0 +1,81 @@
+id: AW-000772
+kind: context_recovered
+algorithm_id: AW-000772
+algorithm_name: Del Moral Pierre
+source_records:
+- access_status: metadata_only
+  digest: a8bd6503aa064d33
+  extracted_facts:
+  - 'AlgorithmWiki row name: Del Moral Pierre'
+  - 'domain: unknown'
+  - 'time complexity: O(n^2)'
+  - 'computational model: Word/Real RAM'
+  - 'parameter definitions: n: number of dimensions in state space'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000772:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Del Moral Pierre
+  url: https://projecteuclid.org/journals/annals-of-applied-probability/volume-8/issue-2/Measure-valued-processes-and-interacting-particle-systems-Application-to-nonlinear/10.1214/aoap/1028903535.full
+- access_status: failed
+  digest: 553b6bea3363e12a
+  extracted_facts:
+  - 'HTTP Error 404: Not Found'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:997690a384022d69
+  source_type: doi_metadata
+  title: 'HTTP Error 404: Not Found'
+  url: https://doi.org/10.1214/aoap/1028903535.full
+- access_status: failed
+  digest: 49731385335e2ddc
+  extracted_facts:
+  - '<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:a44178b83e4bd0f5
+  source_type: other_public_source
+  title: '<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>'
+  url: https://projecteuclid.org/journals/annals-of-applied-probability/volume-8/issue-2/Measure-valued-processes-and-interacting-particle-systems-Application-to-nonlinear/10.1214/aoap/1028903535.full
+- source_id: crossref_search:1578a82c134556bf
+  url: https://doi.org/10.1093/gmo/9781561592630.article.19077
+  title: Moral, Pablo del
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: Moral, Pablo del'
+  short_quote: ''
+  digest: 116b218df4f24d5c
+web_query_attempts:
+- query: '"Del Moral Pierre" algorithm'
+  method: search_plan
+  status: recorded
+- query: '"Del Moral Pierre" input output'
+  method: search_plan
+  status: recorded
+- query: '"Del Moral Pierre" time complexity'
+  method: search_plan
+  status: recorded
+- query: '"Del Moral Pierre" pseudocode'
+  method: search_plan
+  status: recorded
+- query: '"Del Moral Pierre" problem'
+  method: search_plan
+  status: recorded
+- query: '"Del Moral Pierre" PDF metadata abstract'
+  method: search_plan
+  status: recorded
+- query: https://projecteuclid.org/journals/annals-of-applied-probability/volume-8/issue-2/Measure-valued-processes-and-interacting-particle-systems-Application-to-nonlinear/10.1214/aoap/1028903535.full
+  method: search_plan
+  status: recorded
+- query: 10.1214/aoap/1028903535.full
+  method: crossref_doi_metadata
+  status: failed
+- query: Del Moral Pierre algorithm
+  method: crossref_title_search
+  status: fetched
+extracted_problem_statement: 'Del Moral Pierre is reconstructed as a classical parallel algorithms task. Problem/task: coordinate process access to a critical section without simultaneous entry Input semantics: A set of processes, request/release events, and shared-memory or message-passing assumptions. Output semantics: A protocol state sequence or decision granting safe critical-section access.'
+extracted_algorithm_summary: 'Del Moral Pierre is treated as the named AlgorithmWiki variant for coordinate process access to a critical section without simultaneous entry Classical complexity metadata: time O(n^2). Public metadata/source title support includes Moral, Pablo del.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

@@ -1,0 +1,58 @@
+id: AW-001716
+kind: context
+algorithm_id: AW-001716
+algorithm_name: parallel Graeffe's method - Rice, Jamieson
+source_records:
+- access_status: metadata_only
+  digest: f122ede1bf0ea923
+  extracted_facts:
+  - 'AlgorithmWiki row name: parallel Graeffe''s method - Rice, Jamieson'
+  - 'domain: parallel_algorithms'
+  - 'time complexity: O(1)'
+  - 'computational model: SIMD'
+  - 'parameter definitions: n: degree of polynomial'
+  - 'precard summary: Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model. Baseline: time O(1); work O(n); span/depth O(1); processors n+1. Bottleneck: work, span, communication, and processor-count assumptions dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001716:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for parallel Graeffe's method - Rice, Jamieson
+  url: https://ieeexplore.ieee.org/abstract/document/21130
+- access_status: skipped
+  digest: c7b0f49fd40b733e
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:797348ca8797883f
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://ieeexplore.ieee.org/abstract/document/21130
+web_query_attempts:
+- method: search_plan
+  query: parallel Graeffe's method - Rice, Jamieson algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: parallel Graeffe's method - Rice, Jamieson algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: parallel Graeffe's method - Rice, Jamieson problem definition
+  status: recorded
+- method: search_plan
+  query: parallel Graeffe's method - Rice, Jamieson parallel algorithms algorithm
+  status: recorded
+- method: search_plan
+  query: parallel Graeffe's method - Rice, Jamieson site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: parallel Graeffe's method - Rice, Jamieson algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://ieeexplore.ieee.org/abstract/document/21130
+  status: recorded
+- method: source_link_html_metadata
+  query: https://ieeexplore.ieee.org/abstract/document/21130
+  status: skipped
+extracted_problem_statement: 'parallel Graeffe''s method - Rice, Jamieson is treated as a classical parallel algorithms task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with parallel Graeffe''s method - Rice, Jamieson. Input semantics: The classical input instance named by the row, together with processor/work/span parameters when stated. Output semantics: The same mathematical output as the underlying classical task, annotated by work/span when available.'
+extracted_algorithm_summary: 'parallel Graeffe''s method - Rice, Jamieson is a parallel algorithms algorithm record. Classical complexity metadata: time O(1); work O(n); span/depth O(1); processors n+1. The stated classical model is SIMD. Public metadata/source text adds: parallel Graeffe''s method - Rice, Jamieson parallel_algorithms parallel_algorithms n: degree of polynomial O(1) Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

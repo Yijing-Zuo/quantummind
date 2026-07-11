@@ -1,0 +1,68 @@
+id: AW-000753-P0501
+kind: probe
+algorithm_id: AW-000753
+algorithm_name: SPRINGBORN B. SCHROEDER P. PINKALL U. 2008
+source_records:
+- access_status: metadata_only
+  digest: 59ca93d067390870
+  extracted_facts:
+  - 'AlgorithmWiki row name: SPRINGBORN B. SCHROEDER P. PINKALL U. 2008'
+  - 'domain: unknown'
+  - 'time complexity: O(n \log^2 n)'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000753:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for SPRINGBORN B. SCHROEDER P. PINKALL U. 2008
+  url: https://dl.acm.org/doi/10.1145/1399504.1360676
+- access_status: fetched
+  digest: 1b1ff1f885403548
+  extracted_facts:
+  - 'DOI title: Conformal equivalence of triangle meshes'
+  - 'published year: 2008'
+  - 'container title: ACM SIGGRAPH 2008 papers'
+  reliability: HIGH
+  short_quote: ''
+  source_id: crossref:c05a94096d770d6d
+  source_type: doi_metadata
+  title: Conformal equivalence of triangle meshes
+  url: https://doi.org/10.1145/1399504.1360676
+- access_status: failed
+  digest: dff262f71ba50cf7
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:4c66e067990e815e
+  source_type: publisher_abstract
+  title: 'HTTP Error 403: Forbidden'
+  url: https://dl.acm.org/doi/10.1145/1399504.1360676
+web_query_attempts:
+- method: search_plan
+  query: SPRINGBORN B. SCHROEDER P. PINKALL U. 2008 algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: SPRINGBORN B. SCHROEDER P. PINKALL U. 2008 algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: SPRINGBORN B. SCHROEDER P. PINKALL U. 2008 problem definition
+  status: recorded
+- method: search_plan
+  query: SPRINGBORN B. SCHROEDER P. PINKALL U. 2008 site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: SPRINGBORN B. SCHROEDER P. PINKALL U. 2008 algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://dl.acm.org/doi/10.1145/1399504.1360676
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1145/1399504.1360676
+  status: fetched
+- method: source_link_html_metadata
+  query: https://dl.acm.org/doi/10.1145/1399504.1360676
+  status: failed
+extracted_problem_statement: 'SPRINGBORN B. SCHROEDER P. PINKALL U. 2008 is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with SPRINGBORN B. SCHROEDER P. PINKALL U. 2008. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'SPRINGBORN B. SCHROEDER P. PINKALL U. 2008 is a graph algorithm record. Classical complexity metadata: time O(n \log^2 n). Public metadata/source text adds: SPRINGBORN B. SCHROEDER P. PINKALL U. 2008 unknown unknown O(n \log^2 n) No public-ready summary is available because the row lacks enough task semantics.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

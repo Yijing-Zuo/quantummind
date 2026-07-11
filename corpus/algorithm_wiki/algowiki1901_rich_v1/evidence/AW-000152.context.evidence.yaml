@@ -1,0 +1,67 @@
+id: AW-000152
+kind: context
+algorithm_id: AW-000152
+algorithm_name: Flash Sort
+source_records:
+- access_status: metadata_only
+  digest: 4776a8dbc82851f2
+  extracted_facts:
+  - 'AlgorithmWiki row name: Flash Sort'
+  - 'domain: sorting'
+  - 'time complexity: O(n^2)'
+  - 'space complexity: O(n)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: size of list'
+  - 'precard summary: Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model. Baseline: time O(n^2); space O(n). Bottleneck: comparison, distribution, and full-output movement costs dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000152:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Flash Sort
+  url: http://www.neubert.net/FSOIntro.html
+- access_status: fetched
+  digest: 06717d64e0ba5565
+  extracted_facts:
+  - 'source page title: FlashSort Algorithm'
+  - 'source page description: A newly developped
+
+    fast in-situ permutation sort algorithm with time complexity
+
+    O(n).'
+  reliability: LOW
+  short_quote: A newly developped fast in-situ permutation sort algorithm with time complexity O(n).
+  source_id: source:12b489e8c2e0120a
+  source_type: other_public_source
+  title: FlashSort Algorithm
+  url: http://www.neubert.net/FSOIntro.html
+web_query_attempts:
+- method: search_plan
+  query: Flash Sort algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Flash Sort algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Flash Sort problem definition
+  status: recorded
+- method: search_plan
+  query: Flash Sort sorting algorithm
+  status: recorded
+- method: search_plan
+  query: Flash Sort site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Flash Sort algorithm wiki
+  status: recorded
+- method: search_plan
+  query: http://www.neubert.net/FSOIntro.html
+  status: recorded
+- method: source_link_html_metadata
+  query: http://www.neubert.net/FSOIntro.html
+  status: fetched
+- method: wikipedia_summary_search
+  query: Flash Sort algorithm
+  status: failed_or_not_relevant
+extracted_problem_statement: 'Flash Sort is treated as a classical sorting task for rich AlgorithmWiki discovery. Problem/task: sort the input sequence using the named classical sorting method. Input semantics: A finite array or list of comparable keys or records. Output semantics: The same items returned in nondecreasing order, usually as a full reordered sequence.'
+extracted_algorithm_summary: 'Flash Sort is a sorting algorithm record. Classical complexity metadata: time O(n^2); space O(n). The stated classical model is Word RAM. Public metadata/source text adds: Flash Sort sorting sorting n: size of list O(n^2) Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

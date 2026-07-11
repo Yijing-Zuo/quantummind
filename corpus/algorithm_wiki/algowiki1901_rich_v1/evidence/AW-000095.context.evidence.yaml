@@ -1,0 +1,73 @@
+id: AW-000095
+kind: context
+algorithm_id: AW-000095
+algorithm_name: Opheim simplification
+source_records:
+- access_status: metadata_only
+  digest: b8c980bae86942bb
+  extracted_facts:
+  - 'AlgorithmWiki row name: Opheim simplification'
+  - 'domain: computational_geometry'
+  - 'time complexity: O(n)'
+  - 'space complexity: O(1)'
+  - 'computational model: Real RAM'
+  - 'parameter definitions: n: number of points (n-1 line segments)'
+  - 'precard summary: Given explicit geometric objects such as points, segments, or polygons, compute the requested geometric structure or witness set. Baseline: time O(n); space O(1). Bottleneck: geometric predicates, ordering events, and output-sensitive structure size dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000095:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Opheim simplification
+  url: http://dx.doi.org/10.2312/eg.19811012
+- access_status: failed
+  digest: 7db7177376623e85
+  extracted_facts:
+  - 'HTTP Error 404: Not Found'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:47ef623b827c21be
+  source_type: doi_metadata
+  title: 'HTTP Error 404: Not Found'
+  url: https://doi.org/10.2312/eg.19811012
+- access_status: fetched
+  digest: 18df8fee3ab85b25
+  extracted_facts:
+  - 'source page title: SMOOTHING A DIGITIZED CURVE BY DATA REDUCTION METHODS'
+  - 'source page description: In order to reduce storage and subsequent processing costs for a digitized cartographic curve, we may wish to reduce the data set.'
+  reliability: HIGH
+  short_quote: In order to reduce storage and subsequent processing costs for a digitized cartographic curve, we may wish to reduce the data set.
+  source_id: source:63e195002decc4b9
+  source_type: doi_metadata
+  title: SMOOTHING A DIGITIZED CURVE BY DATA REDUCTION METHODS
+  url: http://dx.doi.org/10.2312/eg.19811012
+web_query_attempts:
+- method: search_plan
+  query: Opheim simplification algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Opheim simplification algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Opheim simplification problem definition
+  status: recorded
+- method: search_plan
+  query: Opheim simplification computational geometry algorithm
+  status: recorded
+- method: search_plan
+  query: Opheim simplification site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Opheim simplification algorithm wiki
+  status: recorded
+- method: search_plan
+  query: http://dx.doi.org/10.2312/eg.19811012
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.2312/eg.19811012
+  status: failed
+- method: source_link_html_metadata
+  query: http://dx.doi.org/10.2312/eg.19811012
+  status: fetched
+extracted_problem_statement: 'Opheim simplification is treated as a classical computational geometry task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Opheim simplification. Input semantics: Explicit geometric objects such as points, line segments, polygons, or planar subdivisions. Output semantics: The requested geometric structure, simplified curve, clipping result, intersection set, hull, or diagram.'
+extracted_algorithm_summary: 'Opheim simplification is a computational geometry algorithm record. Classical complexity metadata: time O(n); space O(1). The stated classical model is Real RAM. Public metadata/source text adds: Opheim simplification computational_geometry computational_geometry n: number of points (n-1 line segments) O(n) Given explicit geometric objects such as points, segments, or polygons, compute the requested geometric structure or witness set.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

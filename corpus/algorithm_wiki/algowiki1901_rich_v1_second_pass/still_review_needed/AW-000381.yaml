@@ -1,0 +1,31 @@
+algorithm_id: AW-000381
+canonical_name: BartoBradtke & Singhe 1995
+enrichment_status: SECOND_PASS_INSUFFICIENT
+review_reasons:
+- No second-pass rule could identify source-backed task semantics.
+source_records:
+- access_status: metadata_only
+  digest: e0d3a17ed19f4a62
+  extracted_facts:
+  - 'AlgorithmWiki row name: BartoBradtke & Singhe 1995'
+  - 'domain: unknown'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000381:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for BartoBradtke & Singhe 1995
+  url: ''
+- source_id: crossref_search:21e7849fd9a32b44
+  url: https://doi.org/10.1007/978-3-319-32377-0_13
+  title: "A spigot algorithm for the digits of \u03C0 (1995)"
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - "Crossref title-search result: A spigot algorithm for the digits of \u03C0 (1995)"
+  short_quote: ''
+  digest: 93b38e851c67119f
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

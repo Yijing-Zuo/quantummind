@@ -1,0 +1,458 @@
+algorithm_id: AW-000879
+canonical_name: Brute force algorithm
+original_source_link: ''
+source_link_type: unknown
+previous_failure_reasons:
+- No second-pass rule could identify source-backed task semantics.
+previous_source_records:
+- access_status: metadata_only
+  digest: 03ca956174c852a7
+  extracted_facts:
+  - 'AlgorithmWiki row name: Brute force algorithm'
+  - 'domain: unknown'
+  - 'time complexity: O(2^n)'
+  - 'space complexity: O(n)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of tasks (intervals)'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000879:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Brute force algorithm
+  url: ''
+- access_status: fetched
+  digest: f5a82fd25c3936e6
+  extracted_facts:
+  - 'Crossref title-search result: Occurrences Algorithm for String Searching Based on Brute-force Algorithm'
+  reliability: MEDIUM
+  short_quote: ''
+  source_id: crossref_search:319a83115ca9c8e3
+  source_type: doi_metadata
+  title: Occurrences Algorithm for String Searching Based on Brute-force Algorithm
+  url: https://doi.org/10.3844/jcssp.2006.82.85
+aliases_tried:
+- Brute force algorithm
+- Brute force algorithm algorithm
+- Brute force algorithm problem
+- Brute force algorithm pseudocode
+- Brute force algorithm time complexity
+- Occurrences Algorithm for String Searching Based on Brute-force Algorithm
+- Occurrences Algorithm for String Searching Based on Brute-force Algorithm algorithm
+- Occurrences Algorithm for String Searching Based on Brute-force Algorithm complexity
+query_plan:
+- source_family: original_source
+  primary_query: Brute force algorithm
+  applicability: applicable
+  purpose: check the row's original source link without storing paywalled or PDF bodies
+- source_family: crossref
+  primary_query: Brute force algorithm
+  applicability: title-search-only
+  purpose: recover DOI title, venue, year, and abstract metadata where available
+- source_family: openalex
+  primary_query: Brute force algorithm
+  applicability: applicable
+  purpose: recover public work metadata and abstract-inverted-index summaries
+- source_family: semantic_scholar
+  primary_query: Brute force algorithm
+  applicability: applicable
+  purpose: recover CS paper metadata and abstracts without an API key
+- source_family: arxiv
+  primary_query: Brute force algorithm
+  applicability: title-search-only
+  purpose: recover arXiv title and abstract metadata
+- source_family: dblp
+  primary_query: Brute force algorithm
+  applicability: applicable
+  purpose: recover bibliographic title/venue metadata for CS publications
+- source_family: publisher_abstract
+  primary_query: Brute force algorithm
+  applicability: applicable
+  purpose: check accessible publisher abstract pages
+- source_family: citeseerx
+  primary_query: Brute force algorithm
+  applicability: applicable
+  purpose: record legacy CiteSeerX availability without full PDF storage
+- source_family: wikipedia
+  primary_query: Brute force algorithm
+  applicability: applicable
+  purpose: check public encyclopedia algorithm descriptions
+- source_family: wikidata
+  primary_query: Brute force algorithm
+  applicability: applicable
+  purpose: check public entity aliases/descriptions
+- source_family: nist_dads
+  primary_query: Brute force algorithm
+  applicability: applicable
+  purpose: check whether a DADS-style reference search is applicable
+- source_family: algorithm_wiki_local
+  primary_query: Brute force algorithm
+  applicability: applicable
+  purpose: reuse AlgorithmWiki metadata as provenance
+- source_family: the_algorithms
+  primary_query: Brute force algorithm
+  applicability: applicable
+  purpose: check exact public implementation/reference names when available
+- source_family: cp_algorithms
+  primary_query: Brute force algorithm
+  applicability: applicable
+  purpose: check exact public algorithm reference names when available
+- source_family: course_notes
+  primary_query: Brute force algorithm
+  applicability: applicable
+  purpose: record absence of configured course-notes search
+- source_family: general_web_search
+  primary_query: Brute force algorithm
+  applicability: applicable
+  purpose: record absence of a configured general web endpoint
+- source_family: local_previous_cache
+  primary_query: Brute force algorithm
+  applicability: applicable
+  purpose: reuse v1/second-pass fetched source records
+query_attempts:
+- &id001
+  cycle: 1
+  query: Brute force algorithm
+  source_family: algorithm_wiki_local
+  url_or_api_endpoint: ''
+  status: fetched
+  new_facts_added: 8
+  reason: local metadata
+- &id002
+  cycle: 1
+  query: Brute force algorithm
+  source_family: local_previous_cache
+  url_or_api_endpoint: ''
+  status: duplicate
+  new_facts_added: 0
+  reason: previous v1/second-pass sources reused
+- &id003
+  cycle: 1
+  query: Brute force algorithm
+  source_family: original_source
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: no original source link
+- &id004
+  cycle: 1
+  query: Brute force algorithm
+  source_family: crossref
+  url_or_api_endpoint: https://doi.org/10.12957/cadinf.2024.79821
+  status: fetched
+  new_facts_added: 7
+  reason: Crossref metadata/title search
+- &id005
+  cycle: 1
+  query: Brute force algorithm
+  source_family: arxiv
+  url_or_api_endpoint: https://export.arxiv.org/api/query?max_results=1&search_query=ti:%22Brute+force+algorithm%22
+  status: fetched
+  new_facts_added: 5
+  reason: arXiv title metadata
+- &id006
+  cycle: 1
+  query: Brute force algorithm
+  source_family: wikipedia
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: Wikipedia search returned no relevant page
+source_attempts:
+- *id001
+- *id002
+- *id003
+- *id004
+- *id005
+- *id006
+discovered_sources:
+- source_id: crossref_search:9fdb778db8297876
+  url: https://doi.org/10.12957/cadinf.2024.79821
+  title: Parallel implementations of TSP brute force algorithm
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title: Parallel implementations of TSP brute force algorithm'
+  - 'published year: 2024'
+  - "container title: Cadernos do IME - S\xE9rie Inform\xE1tica"
+  - 'abstract summary: The traveling salesman problem is a famous combinatorial optimization problem.'
+  short_quote: "Crossref title: Parallel implementations of TSP brute force algorithm published year: 2024 container title: Cadernos do IME - S\xE9rie Inform\xE1tica abstract summary: The traveling"
+  digest: 525a9fdc9bbad274
+- source_id: arxiv:3374dc22c422c102
+  url: http://arxiv.org/abs/1705.05647v1
+  title: Optimized brute-force algorithms for the bifurcation analysis of a spin-glass-like neural network model
+  source_type: arxiv_abstract
+  access_status: fetched
+  reliability: HIGH
+  extracted_facts:
+  - 'arXiv title: Optimized brute-force algorithms for the bifurcation analysis of a spin-glass-like neural network model'
+  - 'abstract summary: Bifurcation theory is a powerful tool for studying how the dynamics of a neural network model depends on its underlying neurophysiological parameters.'
+  short_quote: 'arXiv title: Optimized brute-force algorithms for the bifurcation analysis of a spin-glass-like neural network model abstract summary: Bifurcation theory is a powerful tool for'
+  digest: af98546cadec324a
+discovered_facts:
+- fact_id: AW-000879-F7a61824ca6
+  fact_type: alias
+  value: Brute force algorithm
+  source_id: AW-000879:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: AlgorithmWiki metadata
+- fact_id: AW-000879-Fca0a1f6c2e
+  fact_type: time_complexity
+  value: O(2^n)
+  source_id: AW-000879:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: AlgorithmWiki metadata
+- fact_id: AW-000879-Fb25c4aaea6
+  fact_type: space_complexity
+  value: O(n)
+  source_id: AW-000879:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: AlgorithmWiki metadata
+- fact_id: AW-000879-F1e6230aeff
+  fact_type: computation_model
+  value: Word RAM
+  source_id: AW-000879:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: AlgorithmWiki metadata
+- fact_id: AW-000879-Faa7af90e97
+  fact_type: input_semantics
+  value: 'Parameter definitions: n: number of tasks (intervals)'
+  source_id: AW-000879:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 75
+  conflict_status: weak
+  notes: AlgorithmWiki parameter metadata
+- fact_id: AW-000879-Ffb9aa1f813
+  fact_type: source_title
+  value: AlgorithmWiki metadata for Brute force algorithm
+  source_id: AW-000879:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000879-Fd64f9c7188
+  fact_type: problem_definition
+  value: 'Source title indicates: AlgorithmWiki metadata for Brute force algorithm'
+  source_id: AW-000879:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: weak
+  notes: previous_source_record
+- fact_id: AW-000879-Faa5309d06f
+  fact_type: problem_definition
+  value: 'AlgorithmWiki row name: Brute force algorithm'
+  source_id: AW-000879:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000879-Ff5aa85f289
+  fact_type: problem_definition
+  value: 'domain: unknown'
+  source_id: AW-000879:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000879-F89022710fd
+  fact_type: time_complexity
+  value: 'time complexity: O(2^n)'
+  source_id: AW-000879:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000879-F90be3b4c7a
+  fact_type: space_complexity
+  value: 'space complexity: O(n)'
+  source_id: AW-000879:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000879-F42a6713187
+  fact_type: computation_model
+  value: 'computational model: Word RAM'
+  source_id: AW-000879:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000879-Fd81c97f84d
+  fact_type: problem_definition
+  value: 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  source_id: AW-000879:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000879-F42ae70d3d2
+  fact_type: source_title
+  value: Occurrences Algorithm for String Searching Based on Brute-force Algorithm
+  source_id: crossref_search:319a83115ca9c8e3
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000879-F4b9d485e1c
+  fact_type: problem_definition
+  value: 'Source title indicates: Occurrences Algorithm for String Searching Based on Brute-force Algorithm'
+  source_id: crossref_search:319a83115ca9c8e3
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: weak
+  notes: previous_source_record
+- fact_id: AW-000879-Fc301604c47
+  fact_type: problem_definition
+  value: 'Crossref title-search result: Occurrences Algorithm for String Searching Based on Brute-force Algorithm'
+  source_id: crossref_search:319a83115ca9c8e3
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000879-F58468e29ac
+  fact_type: authoritative_source_link
+  value: https://doi.org/10.3844/jcssp.2006.82.85
+  source_id: crossref_search:319a83115ca9c8e3
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000879-F243f3793a5
+  fact_type: source_title
+  value: Parallel implementations of TSP brute force algorithm
+  source_id: crossref_search:9fdb778db8297876
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: consistent
+  notes: crossref
+- fact_id: AW-000879-Fdf982c1303
+  fact_type: problem_definition
+  value: 'Source title indicates: Parallel implementations of TSP brute force algorithm'
+  source_id: crossref_search:9fdb778db8297876
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: weak
+  notes: crossref
+- fact_id: AW-000879-F2db196cfea
+  fact_type: problem_definition
+  value: 'Crossref title: Parallel implementations of TSP brute force algorithm'
+  source_id: crossref_search:9fdb778db8297876
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: consistent
+  notes: crossref
+- fact_id: AW-000879-Fa60d958c59
+  fact_type: problem_definition
+  value: 'published year: 2024'
+  source_id: crossref_search:9fdb778db8297876
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: consistent
+  notes: crossref
+- fact_id: AW-000879-Fb27c414933
+  fact_type: problem_definition
+  value: "container title: Cadernos do IME - S\xE9rie Inform\xE1tica"
+  source_id: crossref_search:9fdb778db8297876
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: consistent
+  notes: crossref
+- fact_id: AW-000879-Fdc54e58533
+  fact_type: problem_definition
+  value: 'abstract summary: The traveling salesman problem is a famous combinatorial optimization problem.'
+  source_id: crossref_search:9fdb778db8297876
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: consistent
+  notes: crossref
+- fact_id: AW-000879-Fa35fc96b67
+  fact_type: authoritative_source_link
+  value: https://doi.org/10.12957/cadinf.2024.79821
+  source_id: crossref_search:9fdb778db8297876
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: consistent
+  notes: crossref
+- fact_id: AW-000879-Fb3240f76b6
+  fact_type: source_title
+  value: Optimized brute-force algorithms for the bifurcation analysis of a spin-glass-like neural network model
+  source_id: arxiv:3374dc22c422c102
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: arxiv
+- fact_id: AW-000879-Fac80f7bc97
+  fact_type: problem_definition
+  value: 'Source title indicates: Optimized brute-force algorithms for the bifurcation analysis of a spin-glass-like neural network model'
+  source_id: arxiv:3374dc22c422c102
+  reliability: HIGH
+  confidence: 85
+  conflict_status: weak
+  notes: arxiv
+- fact_id: AW-000879-F0d7385e2d3
+  fact_type: problem_definition
+  value: 'arXiv title: Optimized brute-force algorithms for the bifurcation analysis of a spin-glass-like neural network model'
+  source_id: arxiv:3374dc22c422c102
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: arxiv
+- fact_id: AW-000879-F9011f78e95
+  fact_type: input_semantics
+  value: 'abstract summary: Bifurcation theory is a powerful tool for studying how the dynamics of a neural network model depends on its underlying neurophysiological parameters.'
+  source_id: arxiv:3374dc22c422c102
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: arxiv
+- fact_id: AW-000879-Fb3c3f52d40
+  fact_type: authoritative_source_link
+  value: http://arxiv.org/abs/1705.05647v1
+  source_id: arxiv:3374dc22c422c102
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: arxiv
+duplicate_sources:
+- source_id: AW-000879:algorithm_wiki_metadata
+  url: ''
+  title: AlgorithmWiki metadata for Brute force algorithm
+  source_type: algorithm_wiki
+  access_status: metadata_only
+  reliability: HIGH
+  extracted_facts:
+  - 'AlgorithmWiki row name: Brute force algorithm'
+  - 'domain: unknown'
+  - 'time complexity: O(2^n)'
+  - 'space complexity: O(n)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of tasks (intervals)'
+  short_quote: ''
+  digest: dea01d621b890c20
+failed_sources: []
+paywalled_or_skipped_sources: []
+source_families_covered:
+- algorithm_wiki_local
+- local_previous_cache
+- original_source
+- crossref
+- arxiv
+- wikipedia
+cycles_completed: 1
+new_fact_count_by_cycle:
+- cycle: 1
+  new_facts: 12
+no_new_fact_streak: 0
+saturation_status: RECOVERED_CONTEXT_AND_PROBE
+final_reason: Source-saturation pass found enough task, input, output, and access semantics for a context card.
+next_manual_action: Audit recovered card before any optional live analyze run.

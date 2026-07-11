@@ -1,0 +1,46 @@
+id: AW-000216-P0199
+kind: probe
+algorithm_id: AW-000216
+algorithm_name: Dijkstra's algorithm with Fibonacci heap (Fredman & Tarjan 1984 Fredman & Tarjan 1987)
+source_records:
+- access_status: metadata_only
+  digest: e6590a7cf975cb65
+  extracted_facts:
+  - 'AlgorithmWiki row name: Dijkstra''s algorithm with Fibonacci heap (Fredman & Tarjan 1984 Fredman & Tarjan 1987)'
+  - 'domain: graph'
+  - 'time complexity: O(E + V \log V)'
+  - 'space complexity: O(V)'
+  - 'computational model: Word/Real RAM'
+  - 'parameter definitions: V: number of vertices, E: number of edges, L: maximum absolute value of edge cost'
+  - 'precard summary: Given a weighted graph and a source or source-target specification, compute shortest-path distances or a shortest-path tree. Baseline: time O(E + V \log V); space O(V). Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000216:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Dijkstra's algorithm with Fibonacci heap (Fredman & Tarjan 1984 Fredman & Tarjan 1987)
+  url: https://www.cs.princeton.edu/courses/archive/fall03/cs528/handouts/fibonacci%20heaps.pdf
+web_query_attempts:
+- method: search_plan
+  query: Dijkstra's algorithm with Fibonacci heap (Fredman & Tarjan 1984 Fredman & Tarjan 1987) algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Dijkstra's algorithm with Fibonacci heap (Fredman & Tarjan 1984 Fredman & Tarjan 1987) algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Dijkstra's algorithm with Fibonacci heap (Fredman & Tarjan 1984 Fredman & Tarjan 1987) problem definition
+  status: recorded
+- method: search_plan
+  query: Dijkstra's algorithm with Fibonacci heap (Fredman & Tarjan 1984 Fredman & Tarjan 1987) graph algorithm
+  status: recorded
+- method: search_plan
+  query: Dijkstra's algorithm with Fibonacci heap (Fredman & Tarjan 1984 Fredman & Tarjan 1987) site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Dijkstra's algorithm with Fibonacci heap (Fredman & Tarjan 1984 Fredman & Tarjan 1987) algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://www.cs.princeton.edu/courses/archive/fall03/cs528/handouts/fibonacci%20heaps.pdf
+  status: recorded
+extracted_problem_statement: 'Dijkstra''s algorithm with Fibonacci heap (Fredman & Tarjan 1984 Fredman & Tarjan 1987) is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Dijkstra''s algorithm with Fibonacci heap (Fredman & Tarjan 1984 Fredman & Tarjan 1987). Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'Dijkstra''s algorithm with Fibonacci heap (Fredman & Tarjan 1984 Fredman & Tarjan 1987) is a graph algorithm record. Classical complexity metadata: time O(E + V \log V); space O(V). The stated classical model is Word/Real RAM. Public metadata/source text adds: Dijkstra''s algorithm with Fibonacci heap (Fredman & Tarjan 1984 Fredman & Tarjan 1987) graph graph V: number of vertices, E: number of edges, L: maximum absolute value of edge cost O(E + V \log V) Given a weighted graph and a source or source-target specification, compute shortest-path distances or a shortest-path tree.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

@@ -1,0 +1,57 @@
+algorithm_family: graph
+algorithm_id: AW-000253
+approximate: '0'
+approximation_factor: ''
+blind_name: Algorithm Wiki public task AW-000253
+canonical_name: Fringe
+computational_model: Word RAM
+domain: graph
+extracted_description: ''
+extraction_version: algorithm-wiki-rich-context-v1
+family: graph
+inferred_access_model: adjacency_list_query
+inferred_ambiguities:
+- No independent fetched public metadata source resolved this row beyond AlgorithmWiki metadata/source-link facts.
+- Some details are reconstructed from AlgorithmWiki metadata rather than an independently fetched full public description.
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.
+inferred_input_model: explicit_graph_problem
+inferred_output_contract: full_solution
+inferred_problem_statement: 'Fringe is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: find a low-cost or shortest path in a graph or state-space search instance. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: A path, path cost, or predecessor structure connecting the requested graph states.'
+inferred_promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+inferred_size_parameters:
+- 'Parameter definition: b: branching factor (the average number of successors per state), d: the depth of the solution (the shortest path)'
+number_of_processors: ''
+page_digest: ''
+page_fetch_status: not_found
+page_url: ''
+parameter_definitions: 'b: branching factor (the average number of successors per state), d: the depth of the solution (the shortest path)'
+problem_name: graph
+quality_flags:
+- domain_inferred
+- problem_statement_inferred
+- io_access_output_inferred
+- has_complexity_semantics
+- has_size_parameters
+- has_computational_model
+quality_score: 100
+randomized: '0'
+readiness: READY_PUBLIC_CONTEXT
+review_reasons:
+- duplicate_public_blind_digest:030280cddffefc5c kept:AW-000249
+source_link: ''
+source_link_type: unknown
+space_complexity: O(b^d)
+span_depth: ''
+time_complexity: O(b^d)
+variation: ''
+work: ''
+year: '2005'
+rich_card_kind: context
+source_records_used:
+- AW-000253:algorithm_wiki_metadata
+source_count: 1
+source_quality: HIGH
+confidence_score: 100
+card_digest: 53eb04dafb974bad

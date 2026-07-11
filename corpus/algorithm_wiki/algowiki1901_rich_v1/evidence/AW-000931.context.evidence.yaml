@@ -1,0 +1,58 @@
+id: AW-000931
+kind: context
+algorithm_id: AW-000931
+algorithm_name: Fredman & Willard
+source_records:
+- access_status: metadata_only
+  digest: 50d91c1706d04d65
+  extracted_facts:
+  - 'AlgorithmWiki row name: Fredman & Willard'
+  - 'domain: graph'
+  - 'time complexity: O(E+V)'
+  - 'computational model: Trans-dichotomous'
+  - 'parameter definitions: V: number of vertices, E: number of edges, U: maximum edge weight'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(E+V). Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000931:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Fredman & Willard
+  url: https://www.sciencedirect.com/science/article/pii/S0022000005800649?via%3Dihub
+- access_status: failed
+  digest: 1208a46893c2c7b7
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:5cfac57b9be8bc98
+  source_type: publisher_abstract
+  title: 'HTTP Error 403: Forbidden'
+  url: https://www.sciencedirect.com/science/article/pii/S0022000005800649?via%3Dihub
+web_query_attempts:
+- method: search_plan
+  query: Fredman & Willard algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Fredman & Willard algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Fredman & Willard problem definition
+  status: recorded
+- method: search_plan
+  query: Fredman & Willard graph algorithm
+  status: recorded
+- method: search_plan
+  query: Fredman & Willard site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Fredman & Willard algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://www.sciencedirect.com/science/article/pii/S0022000005800649?via%3Dihub
+  status: recorded
+- method: source_link_html_metadata
+  query: https://www.sciencedirect.com/science/article/pii/S0022000005800649?via%3Dihub
+  status: failed
+extracted_problem_statement: 'Fredman & Willard is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Fredman & Willard. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'Fredman & Willard is a graph algorithm record. Classical complexity metadata: time O(E+V). The stated classical model is Trans-dichotomous. Public metadata/source text adds: Fredman & Willard graph graph V: number of vertices, E: number of edges, U: maximum edge weight O(E+V) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

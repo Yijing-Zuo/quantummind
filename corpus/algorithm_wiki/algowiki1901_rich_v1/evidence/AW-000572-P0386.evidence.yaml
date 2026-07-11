@@ -1,0 +1,63 @@
+id: AW-000572-P0386
+kind: probe
+algorithm_id: AW-000572
+algorithm_name: Tarjan's off-line lowest common ancestors algorithm
+source_records:
+- access_status: metadata_only
+  digest: 68127ecc8deed765
+  extracted_facts:
+  - 'AlgorithmWiki row name: Tarjan''s off-line lowest common ancestors algorithm'
+  - 'domain: graph'
+  - 'time complexity: O(n+m)'
+  - 'space complexity: O(n)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of vertices, m: number of total number of operations (queries, links, and cuts)'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(n+m); space O(n). Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000572:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Tarjan's off-line lowest common ancestors algorithm
+  url: https://www.semanticscholar.org/paper/Fast-Algorithms-for-Finding-Nearest-Common-Harel-Tarjan/8867d059dda279b1aed4a0301e4e46f9daf65174
+- access_status: fetched
+  digest: 884676e04aef52e1
+  extracted_facts:
+  - 'source page title: https://www.semanticscholar.org/paper/Fast-Algorithms-for-Finding-Nearest-Common-Harel-Tarjan/8867d059dda279b1aed4a0301e4e46f9daf65174'
+  - 'source page description: In order to continue, we need to verify that you''re not a robot.'
+  reliability: LOW
+  short_quote: In order to continue, we need to verify that you're not a robot.
+  source_id: source:a1bbe16e30e98940
+  source_type: other_public_source
+  title: https://www.semanticscholar.org/paper/Fast-Algorithms-for-Finding-Nearest-Common-Harel-Tarjan/8867d059dda279b1aed4a0301e4e46f9daf65174
+  url: https://www.semanticscholar.org/paper/Fast-Algorithms-for-Finding-Nearest-Common-Harel-Tarjan/8867d059dda279b1aed4a0301e4e46f9daf65174
+web_query_attempts:
+- method: search_plan
+  query: Tarjan's off-line lowest common ancestors algorithm algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Tarjan's off-line lowest common ancestors algorithm algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Tarjan's off-line lowest common ancestors algorithm problem definition
+  status: recorded
+- method: search_plan
+  query: Tarjan's off-line lowest common ancestors algorithm graph algorithm
+  status: recorded
+- method: search_plan
+  query: Tarjan's off-line lowest common ancestors algorithm site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Tarjan's off-line lowest common ancestors algorithm algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://www.semanticscholar.org/paper/Fast-Algorithms-for-Finding-Nearest-Common-Harel-Tarjan/8867d059dda279b1aed4a0301e4e46f9daf65174
+  status: recorded
+- method: source_link_html_metadata
+  query: https://www.semanticscholar.org/paper/Fast-Algorithms-for-Finding-Nearest-Common-Harel-Tarjan/8867d059dda279b1aed4a0301e4e46f9daf65174
+  status: fetched
+- method: wikipedia_summary_search
+  query: Tarjan's off-line lowest common ancestors algorithm algorithm
+  status: failed_or_not_relevant
+extracted_problem_statement: 'Tarjan''s off-line lowest common ancestors algorithm is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Tarjan''s off-line lowest common ancestors algorithm. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'Tarjan''s off-line lowest common ancestors algorithm is a graph algorithm record. Classical complexity metadata: time O(n+m); space O(n). The stated classical model is Word RAM. Public metadata/source text adds: Tarjan''s off-line lowest common ancestors algorithm graph graph n: number of vertices, m: number of total number of operations (queries, links, and cuts) O(n+m) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

@@ -1,0 +1,58 @@
+id: AW-001598
+kind: context
+algorithm_id: AW-001598
+algorithm_name: "Solomonik, Bulu\xE7, Demmel"
+source_records:
+- access_status: metadata_only
+  digest: 05d34ee2c8d6ddcf
+  extracted_facts:
+  - "AlgorithmWiki row name: Solomonik, Bulu\xE7, Demmel"
+  - 'domain: graph'
+  - 'time complexity: O(n^3/p + n^2/\sqrt{p} + \sqrt{p}\log^2(p)) or O(n^3/p + n^2/\sqrt{pc} + \sqrt{pc}\log^2(p/c^3))'
+  - 'computational model: distributed memory'
+  - 'parameter definitions: n: number of vertices, p: number of processors, c <= p^{1/3} (some blocking parameter)'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(n^3/p + n^2/\sqrt{p} + \sqrt{p}\log^2(p)) or O(n^3/p + n^2/\sqrt{pc} + \sqrt{pc}\log^2(p/c^3)); work O(n^3); span/depth O(n^3/p + n^2/\sqrt{p} + \sqrt{p}log^2(p)) or O(n^3/p + n^2/p^{2/3} + p^{2/3}); processors p. Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001598:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: "AlgorithmWiki metadata for Solomonik, Bulu\xE7, Demmel"
+  url: https://ieeexplore.ieee.org/abstract/document/6569841
+- access_status: skipped
+  digest: 15f85f18f73908dc
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:53c9429f6b35f29e
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://ieeexplore.ieee.org/abstract/document/6569841
+web_query_attempts:
+- method: search_plan
+  query: "Solomonik, Bulu\xE7, Demmel algorithm input output complexity"
+  status: recorded
+- method: search_plan
+  query: "Solomonik, Bulu\xE7, Demmel algorithm pseudocode"
+  status: recorded
+- method: search_plan
+  query: "Solomonik, Bulu\xE7, Demmel problem definition"
+  status: recorded
+- method: search_plan
+  query: "Solomonik, Bulu\xE7, Demmel graph algorithm"
+  status: recorded
+- method: search_plan
+  query: "Solomonik, Bulu\xE7, Demmel site:nist.gov DADS"
+  status: recorded
+- method: search_plan
+  query: "Solomonik, Bulu\xE7, Demmel algorithm wiki"
+  status: recorded
+- method: search_plan
+  query: https://ieeexplore.ieee.org/abstract/document/6569841
+  status: recorded
+- method: source_link_html_metadata
+  query: https://ieeexplore.ieee.org/abstract/document/6569841
+  status: skipped
+extracted_problem_statement: "Solomonik, Bulu\xE7, Demmel is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Solomonik, Bulu\xE7, Demmel. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result."
+extracted_algorithm_summary: "Solomonik, Bulu\xE7, Demmel is a graph algorithm record. Classical complexity metadata: time O(n^3/p + n^2/\\sqrt{p} + \\sqrt{p}\\log^2(p)) or O(n^3/p + n^2/\\sqrt{pc} + \\sqrt{pc}\\log^2(p/c^3)); work O(n^3); span/depth O(n^3/p + n^2/\\sqrt{p} + \\sqrt{p}log^2(p)) or O(n^3/p + n^2/p^{2/3} + p^{2/3}); processors p. The stated classical model is distributed memory. Public metadata/source text adds: Solomonik, Bulu\xE7, Demmel graph graph n: number of vertices, p: number of processors, c <= p^{1/3} (some blocking parameter) O(n^3/p + n^2/\\sqrt{p} + \\sqrt{p}\\log^2(p)) or O(n^3/p + n^2/\\sqrt{pc} + \\sqrt{pc}\\log^2(p/c^3)) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record."
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

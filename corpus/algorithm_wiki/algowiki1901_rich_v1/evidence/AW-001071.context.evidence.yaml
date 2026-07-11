@@ -1,0 +1,58 @@
+id: AW-001071
+kind: context
+algorithm_id: AW-001071
+algorithm_name: Bucket sort - Johnsson (3)
+source_records:
+- access_status: metadata_only
+  digest: 2e62e0954cc2c62f
+  extracted_facts:
+  - 'AlgorithmWiki row name: Bucket sort - Johnsson (3)'
+  - 'domain: sorting'
+  - 'time complexity: O(n/p+L) when p<=L O(n/p+L+\log p \log L) when p>L'
+  - 'computational model: MIMD'
+  - 'parameter definitions: n: size of list, p: number of processors (power of 2), L: number of buckets elements are sorted into'
+  - 'precard summary: Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model. Baseline: time O(n/p+L) when p<=L O(n/p+L+\log p \log L) when p>L; work O(n+pL) when p<=L O(n+pL+plog p \log L) when p>L; span/depth O(n/p+L+log p log L) when p>L; processors p. Bottleneck: comparison, distribution, and full-output movement costs dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001071:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Bucket sort - Johnsson (3)
+  url: http://cs-www.cs.yale.edu/publications/techreports/tr439.pdf
+- access_status: skipped
+  digest: 46104a942fcf2faa
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:4cdf14b9942894c9
+  source_type: wikipedia
+  title: fetch budget exhausted
+  url: https://en.wikipedia.org/wiki/Bucket_sort_-_Johnsson_%283%29
+web_query_attempts:
+- method: search_plan
+  query: Bucket sort - Johnsson (3) algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Bucket sort - Johnsson (3) algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Bucket sort - Johnsson (3) problem definition
+  status: recorded
+- method: search_plan
+  query: Bucket sort - Johnsson (3) sorting algorithm
+  status: recorded
+- method: search_plan
+  query: Bucket sort - Johnsson (3) site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Bucket sort - Johnsson (3) algorithm wiki
+  status: recorded
+- method: search_plan
+  query: http://cs-www.cs.yale.edu/publications/techreports/tr439.pdf
+  status: recorded
+- method: wikipedia_summary_search
+  query: Bucket sort - Johnsson (3) algorithm
+  status: skipped
+extracted_problem_statement: 'Bucket sort - Johnsson (3) is treated as a classical sorting task for rich AlgorithmWiki discovery. Problem/task: sort the input sequence using the named classical sorting method. Input semantics: A finite array or list of comparable keys or records. Output semantics: The same items returned in nondecreasing order, usually as a full reordered sequence.'
+extracted_algorithm_summary: 'Bucket sort - Johnsson (3) is a sorting algorithm record. Classical complexity metadata: time O(n/p+L) when p<=L O(n/p+L+\log p \log L) when p>L; work O(n+pL) when p<=L O(n+pL+plog p \log L) when p>L; span/depth O(n/p+L+log p log L) when p>L; processors p. The stated classical model is MIMD. Public metadata/source text adds: Bucket sort - Johnsson (3) sorting sorting n: size of list, p: number of processors (power of 2), L: number of buckets elements are sorted into O(n/p+L) when p<=L O(n/p+L+\log p \log L) when p>L Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

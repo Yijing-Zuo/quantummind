@@ -1,0 +1,32 @@
+algorithm_id: AW-000749
+canonical_name: YOSHIZAWA S. BELYAEV A. G. SEIDEL H.-P 2004
+enrichment_status: SECOND_PASS_INSUFFICIENT
+review_reasons:
+- No second-pass rule could identify source-backed task semantics.
+source_records:
+- access_status: metadata_only
+  digest: 470de2b4a84eb877
+  extracted_facts:
+  - 'AlgorithmWiki row name: YOSHIZAWA S. BELYAEV A. G. SEIDEL H.-P 2004'
+  - 'domain: unknown'
+  - 'time complexity: O(n^2)'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000749:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for YOSHIZAWA S. BELYAEV A. G. SEIDEL H.-P 2004
+  url: https://www.researchgate.net/profile/Alexander_Belyaev5/publication/47861414_A_fast_and_simple_stretch-minimizing_mesh_parameterization/links/5b962a6292851c78c40c0c3f/A-fast-and-simple-stretch-minimizing-mesh-parameterization.pdf
+- source_id: crossref_search:8a4b12cf5d47890d
+  url: https://doi.org/10.1215/9780822388586-046
+  title: Yoshizawa
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: Yoshizawa'
+  short_quote: ''
+  digest: 14a27979509909d7
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

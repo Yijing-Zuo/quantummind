@@ -1,0 +1,35 @@
+algorithm_id: AW-000533
+canonical_name: False position method
+enrichment_status: SECOND_PASS_INSUFFICIENT
+review_reasons:
+- No second-pass rule could identify source-backed task semantics.
+source_records:
+- access_status: metadata_only
+  digest: 22112008d2d09f42
+  extracted_facts:
+  - 'AlgorithmWiki row name: False position method'
+  - 'domain: unknown'
+  - 'time complexity: O(n_{max})'
+  - 'space complexity: O(1)'
+  - 'computational model: Word/Real RAM'
+  - 'parameter definitions: \epsilon: (additive) tolerance error, a, b: endpoint values, with b>a, n_{max}: maximum number of iterations'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000533:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for False position method
+  url: '-'
+- source_id: crossref_search:521c1f7b8499bf58
+  url: https://doi.org/10.1063/5.0105374
+  title: Hybrid algorithm to bisection method and false position method
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: Hybrid algorithm to bisection method and false position method'
+  short_quote: ''
+  digest: 67594c9ad4aef9f6
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

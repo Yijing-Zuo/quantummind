@@ -1,0 +1,59 @@
+id: AW-000186-P0151
+kind: probe
+algorithm_id: AW-000186
+algorithm_name: Pearce
+source_records:
+- access_status: metadata_only
+  digest: 786e46aa8058f56f
+  extracted_facts:
+  - 'AlgorithmWiki row name: Pearce'
+  - 'domain: graph'
+  - 'time complexity: O(V+E)'
+  - 'space complexity: O(V)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: V: number of vertices, E: number of edges'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(V+E); space O(V). Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000186:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Pearce
+  url: https://www.sciencedirect.com/science/article/pii/S0020019015001532
+- access_status: failed
+  digest: 237769769d8fe97b
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:f4518099c4a2c145
+  source_type: publisher_abstract
+  title: 'HTTP Error 403: Forbidden'
+  url: https://www.sciencedirect.com/science/article/pii/S0020019015001532
+web_query_attempts:
+- method: search_plan
+  query: Pearce algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Pearce algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Pearce problem definition
+  status: recorded
+- method: search_plan
+  query: Pearce graph algorithm
+  status: recorded
+- method: search_plan
+  query: Pearce site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Pearce algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://www.sciencedirect.com/science/article/pii/S0020019015001532
+  status: recorded
+- method: source_link_html_metadata
+  query: https://www.sciencedirect.com/science/article/pii/S0020019015001532
+  status: failed
+extracted_problem_statement: 'Pearce is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Pearce. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'Pearce is a graph algorithm record. Classical complexity metadata: time O(V+E); space O(V). The stated classical model is Word RAM. Public metadata/source text adds: Pearce graph graph V: number of vertices, E: number of edges O(V+E) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

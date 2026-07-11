@@ -1,0 +1,59 @@
+algorithm_family: matrix linear algebra
+algorithm_id: AW-001354
+approximate: '0'
+approximation_factor: ''
+blind_name: Algorithm Wiki public task AW-001354
+canonical_name: Luo, Drake (Strassen-2D) (2)
+computational_model: distributed memory, message passing
+domain: matrix_linear_algebra
+extracted_description: ''
+extraction_version: algorithm-wiki-rich-context-v1
+family: matrix_linear_algebra
+inferred_access_model: dense_matrix_access
+inferred_ambiguities:
+- No independent fetched public metadata source resolved this row beyond AlgorithmWiki metadata/source-link facts.
+- Some details are reconstructed from AlgorithmWiki metadata rather than an independently fetched full public description.
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.
+inferred_input_model: explicit_matrix_problem
+inferred_output_contract: full_classical_output
+inferred_problem_statement: 'Luo, Drake (Strassen-2D) (2) is treated as a classical matrix linear algebra task for rich AlgorithmWiki discovery. Problem/task: multiply matrices using the named bilinear or algebraic multiplication method. Input semantics: One or more explicit matrices or linear systems over the stated arithmetic domain. Output semantics: The matrix product or bilinear multiplication output.'
+inferred_promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+inferred_size_parameters:
+- 'Parameter definition: nxn: size of matrices being multiplied, l: the number of Strassen steps taken'
+- p = stated number of processors (P)
+number_of_processors: P
+page_digest: ''
+page_fetch_status: not_found
+page_url: ''
+parameter_definitions: 'nxn: size of matrices being multiplied, l: the number of Strassen steps taken'
+problem_name: matrix linear algebra
+quality_flags:
+- domain_inferred
+- problem_statement_inferred
+- io_access_output_inferred
+- has_complexity_semantics
+- has_size_parameters
+- has_computational_model
+quality_score: 100
+randomized: '0'
+readiness: READY_PUBLIC_CONTEXT
+review_reasons:
+- A previous row has the same canonicalized algorithm name.
+source_link: https://dl.acm.org/doi/pdf/10.1145/315891.315965
+source_link_type: acm
+space_complexity: ''
+span_depth: (7/8)^l*n^3/P
+time_complexity: (7/8)^l*n^3/P
+variation: ''
+work: (7/8)^l*n^3
+year: '1995'
+rich_card_kind: context
+source_records_used:
+- AW-001354:algorithm_wiki_metadata
+- skipped:95afbbc8194b56ad
+source_count: 2
+source_quality: HIGH
+confidence_score: 100
+card_digest: d7308ea87112de86

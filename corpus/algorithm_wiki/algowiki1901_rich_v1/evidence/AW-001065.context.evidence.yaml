@@ -1,0 +1,71 @@
+id: AW-001065
+kind: context
+algorithm_id: AW-001065
+algorithm_name: Reif and Valiant
+source_records:
+- access_status: metadata_only
+  digest: 0e33afbf830cb7db
+  extracted_facts:
+  - 'AlgorithmWiki row name: Reif and Valiant'
+  - 'domain: sorting'
+  - 'time complexity: O(\alpha \log{n}) w/ high (1-n^(-alpha)) probability for big alpha'
+  - 'computational model: sorting network'
+  - 'parameter definitions: n: size of list'
+  - 'precard summary: Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model. Baseline: time O(\alpha \log{n}) w/ high (1-n^(-alpha)) probability for big alpha; work O(n \\log{n}) expected; span/depth O(\log{n}) expected; processors n. Bottleneck: comparison, distribution, and full-output movement costs dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001065:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Reif and Valiant
+  url: https://dl.acm.org/doi/abs/10.1145/800061.808727
+- access_status: skipped
+  digest: d2d3dfb5324fc206
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:a7f21c6869092f8f
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1145/800061.808727
+- access_status: skipped
+  digest: 45817e405561c22c
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:fc6d7302da16e28d
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://dl.acm.org/doi/abs/10.1145/800061.808727
+web_query_attempts:
+- method: search_plan
+  query: Reif and Valiant algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Reif and Valiant algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Reif and Valiant problem definition
+  status: recorded
+- method: search_plan
+  query: Reif and Valiant sorting algorithm
+  status: recorded
+- method: search_plan
+  query: Reif and Valiant site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Reif and Valiant algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://dl.acm.org/doi/abs/10.1145/800061.808727
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1145/800061.808727
+  status: skipped
+- method: source_link_html_metadata
+  query: https://dl.acm.org/doi/abs/10.1145/800061.808727
+  status: skipped
+extracted_problem_statement: 'Reif and Valiant is treated as a classical sorting task for rich AlgorithmWiki discovery. Problem/task: sort the input sequence using the named classical sorting method. Input semantics: A finite array or list of comparable keys or records. Output semantics: The same items returned in nondecreasing order, usually as a full reordered sequence.'
+extracted_algorithm_summary: 'Reif and Valiant is a sorting algorithm record. Classical complexity metadata: time O(\alpha \log{n}) w/ high (1-n^(-alpha)) probability for big alpha; work O(n \\log{n}) expected; span/depth O(\log{n}) expected; processors n. The stated classical model is sorting network. Public metadata/source text adds: Reif and Valiant sorting sorting n: size of list O(\alpha \log{n}) w/ high (1-n^(-alpha)) probability for big alpha Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

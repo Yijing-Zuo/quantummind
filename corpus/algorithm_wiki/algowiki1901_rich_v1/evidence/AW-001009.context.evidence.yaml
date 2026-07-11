@@ -1,0 +1,58 @@
+id: AW-001009
+kind: context
+algorithm_id: AW-001009
+algorithm_name: Tango Tree
+source_records:
+- access_status: metadata_only
+  digest: ec7acbae0dfd2b30
+  extracted_facts:
+  - 'AlgorithmWiki row name: Tango Tree'
+  - 'domain: data_structures'
+  - 'time complexity: O((k+1)log(log(n)))'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of nodes, k: number of interleaves'
+  - 'precard summary: Given an explicit collection of keys, items, or offline operations, construct or return the data-structure output targeted by the record. Baseline: time O((k+1)log(log(n))). Bottleneck: updates, queries, balancing, and stored representation size dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001009:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Tango Tree
+  url: http://erikdemaine.org/papers/Tango_SICOMP/paper.pdf
+- access_status: skipped
+  digest: 05262574b2ae9abf
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:ea729215ee090d2e
+  source_type: wikipedia
+  title: fetch budget exhausted
+  url: https://en.wikipedia.org/wiki/Tango_Tree
+web_query_attempts:
+- method: search_plan
+  query: Tango Tree algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Tango Tree algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Tango Tree problem definition
+  status: recorded
+- method: search_plan
+  query: Tango Tree data structures algorithm
+  status: recorded
+- method: search_plan
+  query: Tango Tree site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Tango Tree algorithm wiki
+  status: recorded
+- method: search_plan
+  query: http://erikdemaine.org/papers/Tango_SICOMP/paper.pdf
+  status: recorded
+- method: wikipedia_summary_search
+  query: Tango Tree algorithm
+  status: skipped
+extracted_problem_statement: 'Tango Tree is treated as a classical data structures task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Tango Tree. Input semantics: A set of records plus update/query operations for the named data structure. Output semantics: A maintained data structure representation and answers to its supported queries.'
+extracted_algorithm_summary: 'Tango Tree is a data structures algorithm record. Classical complexity metadata: time O((k+1)log(log(n))). The stated classical model is Word RAM. Public metadata/source text adds: Tango Tree data_structures data_structures n: number of nodes, k: number of interleaves O((k+1)log(log(n))) Given an explicit collection of keys, items, or offline operations, construct or return the data-structure output targeted by the record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

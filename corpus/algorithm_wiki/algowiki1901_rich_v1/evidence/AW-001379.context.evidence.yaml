@@ -1,0 +1,45 @@
+id: AW-001379
+kind: context
+algorithm_id: AW-001379
+algorithm_name: Grayson, Shah, Van De Geijn (Strassen-2D)
+source_records:
+- access_status: metadata_only
+  digest: 9028fbbfe31b69e0
+  extracted_facts:
+  - 'AlgorithmWiki row name: Grayson, Shah, Van De Geijn (Strassen-2D)'
+  - 'domain: matrix_linear_algebra'
+  - 'time complexity: (7/8)^l*n^3/P'
+  - 'computational model: distributed memory MIMD (like Intel Paragon)'
+  - 'parameter definitions: nxn: size of matrices being multiplied, l: the number of Strassen steps taken'
+  - 'precard summary: Given one or more explicit dense matrices over the stated arithmetic domain, compute the matrix or linear-algebraic output specified by the record. Baseline: time (7/8)^l*n^3/P; work (7/8)^l*n^3; span/depth (7/8)^l*n^3/P; processors P. Bottleneck: dense arithmetic and full matrix output dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001379:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Grayson, Shah, Van De Geijn (Strassen-2D)
+  url: https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=a3a1977cf65e833bf55da4a2e11f074607ee0e21
+web_query_attempts:
+- method: search_plan
+  query: Grayson, Shah, Van De Geijn (Strassen-2D) algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Grayson, Shah, Van De Geijn (Strassen-2D) algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Grayson, Shah, Van De Geijn (Strassen-2D) problem definition
+  status: recorded
+- method: search_plan
+  query: Grayson, Shah, Van De Geijn (Strassen-2D) matrix linear algebra algorithm
+  status: recorded
+- method: search_plan
+  query: Grayson, Shah, Van De Geijn (Strassen-2D) site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Grayson, Shah, Van De Geijn (Strassen-2D) algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=a3a1977cf65e833bf55da4a2e11f074607ee0e21
+  status: recorded
+extracted_problem_statement: 'Grayson, Shah, Van De Geijn (Strassen-2D) is treated as a classical matrix linear algebra task for rich AlgorithmWiki discovery. Problem/task: multiply matrices using the named bilinear or algebraic multiplication method. Input semantics: One or more explicit matrices or linear systems over the stated arithmetic domain. Output semantics: The matrix product or bilinear multiplication output.'
+extracted_algorithm_summary: 'Grayson, Shah, Van De Geijn (Strassen-2D) is a matrix linear algebra algorithm record. Classical complexity metadata: time (7/8)^l*n^3/P; work (7/8)^l*n^3; span/depth (7/8)^l*n^3/P; processors P. The stated classical model is distributed memory MIMD (like Intel Paragon). Public metadata/source text adds: Grayson, Shah, Van De Geijn (Strassen-2D) matrix_linear_algebra matrix_linear_algebra nxn: size of matrices being multiplied, l: the number of Strassen steps taken (7/8)^l*n^3/P Given one or more explicit dense matrices over the stated arithmetic domain, compute the matrix or linear-algebraic output specified by the record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

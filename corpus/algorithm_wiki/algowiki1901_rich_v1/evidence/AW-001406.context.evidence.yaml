@@ -1,0 +1,45 @@
+id: AW-001406
+kind: context
+algorithm_id: AW-001406
+algorithm_name: Stout
+source_records:
+- access_status: metadata_only
+  digest: 0f127c8e0d419f7a
+  extracted_facts:
+  - 'AlgorithmWiki row name: Stout'
+  - 'domain: computational_geometry'
+  - 'time complexity: O(\log n)'
+  - 'computational model: CRCW PRAM'
+  - 'parameter definitions: n: number of line segments, h: number of points on the convex hull'
+  - 'precard summary: Given explicit geometric objects such as points, segments, or polygons, compute the requested geometric structure or witness set. Baseline: time O(\log n); work O(n \log n); span/depth O(log n); processors O(n). Bottleneck: geometric predicates, ordering events, and output-sensitive structure size dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001406:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Stout
+  url: https://web.eecs.umich.edu/~qstout/pap/ICPP88geo.pdf
+web_query_attempts:
+- method: search_plan
+  query: Stout algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Stout algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Stout problem definition
+  status: recorded
+- method: search_plan
+  query: Stout computational geometry algorithm
+  status: recorded
+- method: search_plan
+  query: Stout site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Stout algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://web.eecs.umich.edu/~qstout/pap/ICPP88geo.pdf
+  status: recorded
+extracted_problem_statement: 'Stout is treated as a classical computational geometry task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Stout. Input semantics: Explicit geometric objects such as points, line segments, polygons, or planar subdivisions. Output semantics: The requested geometric structure, simplified curve, clipping result, intersection set, hull, or diagram.'
+extracted_algorithm_summary: 'Stout is a computational geometry algorithm record. Classical complexity metadata: time O(\log n); work O(n \log n); span/depth O(log n); processors O(n). The stated classical model is CRCW PRAM. Public metadata/source text adds: Stout computational_geometry computational_geometry n: number of line segments, h: number of points on the convex hull O(\log n) Given explicit geometric objects such as points, segments, or polygons, compute the requested geometric structure or witness set.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

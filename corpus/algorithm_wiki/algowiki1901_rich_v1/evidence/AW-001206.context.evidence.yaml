@@ -1,0 +1,45 @@
+id: AW-001206
+kind: context
+algorithm_id: AW-001206
+algorithm_name: regular sampling - Helman, JaJa, Bader (2)
+source_records:
+- access_status: metadata_only
+  digest: 1d838c99be480043
+  extracted_facts:
+  - 'AlgorithmWiki row name: regular sampling - Helman, JaJa, Bader (2)'
+  - 'domain: randomized_sampling'
+  - 'time complexity: O(n/p \log{n} + \tau + n/p \sigma)'
+  - 'computational model: communication model similar to LogP and BSP'
+  - 'parameter definitions: n: size of list (has to be floats), p: number of processors, \sigma and \tau probably small and ignorable'
+  - 'precard summary: Given explicit input data and classical randomness as part of the algorithmic model, produce the sampled or estimated output described by the record. Baseline: time O(n/p \log{n} + \tau + n/p \sigma); work O(n \log{n}); span/depth O(\log{n}); processors p. Bottleneck: sampling variance, success probability, and estimator precision dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001206:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for regular sampling - Helman, JaJa, Bader (2)
+  url: https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=1ff21105c4a94c83e227dd52fd1aca13091f14af
+web_query_attempts:
+- method: search_plan
+  query: regular sampling - Helman, JaJa, Bader (2) algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: regular sampling - Helman, JaJa, Bader (2) algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: regular sampling - Helman, JaJa, Bader (2) problem definition
+  status: recorded
+- method: search_plan
+  query: regular sampling - Helman, JaJa, Bader (2) randomized sampling algorithm
+  status: recorded
+- method: search_plan
+  query: regular sampling - Helman, JaJa, Bader (2) site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: regular sampling - Helman, JaJa, Bader (2) algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=1ff21105c4a94c83e227dd52fd1aca13091f14af
+  status: recorded
+extracted_problem_statement: 'regular sampling - Helman, JaJa, Bader (2) is treated as a classical randomized sampling task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with regular sampling - Helman, JaJa, Bader (2). Input semantics: A probability model, data set, or sampler description together with requested estimator parameters. Output semantics: A sample, estimate, or approximate value with the stated randomized or statistical semantics.'
+extracted_algorithm_summary: 'regular sampling - Helman, JaJa, Bader (2) is a randomized sampling algorithm record. Classical complexity metadata: time O(n/p \log{n} + \tau + n/p \sigma); work O(n \log{n}); span/depth O(\log{n}); processors p. The stated classical model is communication model similar to LogP and BSP. Public metadata/source text adds: regular sampling - Helman, JaJa, Bader (2) randomized_sampling randomized_sampling n: size of list (has to be floats), p: number of processors, \sigma and \tau probably small and ignorable O(n/p \log{n} + \tau + n/p \sigma) Given explicit input data and classical randomness as part of the algorithmic model, produce the sampled or estimated output described by the record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

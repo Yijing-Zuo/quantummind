@@ -1,0 +1,69 @@
+id: AW-000434
+kind: context_recovered
+algorithm_id: AW-000434
+algorithm_name: "Apostolico\u2013Giancarlo Algorithm"
+source_records:
+- access_status: metadata_only
+  digest: 4d7195a5565c7e5f
+  extracted_facts:
+  - "AlgorithmWiki row name: Apostolico\u2013Giancarlo Algorithm"
+  - 'domain: unknown'
+  - 'time complexity: O(m + s + n)'
+  - 'space complexity: O(m)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: m: pattern length, n: length of searchable text, s: size of the alphabet'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000434:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: "AlgorithmWiki metadata for Apostolico\u2013Giancarlo Algorithm"
+  url: https://docs.lib.purdue.edu/cgi/viewcontent.cgi?article=1456&context=cstech&sei-redir=1
+- access_status: failed
+  digest: 69c23befe5612ef4
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:7d261f97c580c37a
+  source_type: textbook_or_course_notes
+  title: 'HTTP Error 403: Forbidden'
+  url: https://docs.lib.purdue.edu/cgi/viewcontent.cgi?article=1456&context=cstech&sei-redir=1
+- source_id: crossref_search:818742a1fff11088
+  url: https://doi.org/10.1016/s0020-0190(97)00107-5
+  title: Tight bounds on the complexity of the Apostolico-Giancarlo algorithm
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: Tight bounds on the complexity of the Apostolico-Giancarlo algorithm'
+  short_quote: ''
+  digest: 49461649d38ec454
+web_query_attempts:
+- query: "\"Apostolico\u2013Giancarlo Algorithm\" algorithm"
+  method: search_plan
+  status: recorded
+- query: "\"Apostolico\u2013Giancarlo Algorithm\" input output"
+  method: search_plan
+  status: recorded
+- query: "\"Apostolico\u2013Giancarlo Algorithm\" time complexity"
+  method: search_plan
+  status: recorded
+- query: "\"Apostolico\u2013Giancarlo Algorithm\" pseudocode"
+  method: search_plan
+  status: recorded
+- query: "\"Apostolico\u2013Giancarlo Algorithm\" problem"
+  method: search_plan
+  status: recorded
+- query: "\"Apostolico\u2013Giancarlo Algorithm\" PDF metadata abstract"
+  method: search_plan
+  status: recorded
+- query: https://docs.lib.purdue.edu/cgi/viewcontent.cgi?article=1456&context=cstech&sei-redir=1
+  method: search_plan
+  status: recorded
+- query: "Apostolico\u2013Giancarlo Algorithm algorithm"
+  method: crossref_title_search
+  status: fetched
+extracted_problem_statement: "Apostolico\u2013Giancarlo Algorithm is reconstructed as a classical string task. Problem/task: find occurrences of a pattern in a text Input semantics: A finite text string, a finite pattern string, and alphabet/hash/preprocessing parameters when stated. Output semantics: One or more occurrence positions or a report that no occurrence exists."
+extracted_algorithm_summary: "Apostolico\u2013Giancarlo Algorithm is treated as the named AlgorithmWiki variant for find occurrences of a pattern in a text Classical complexity metadata: time O(m + s + n); space O(m). Public metadata/source title support includes Tight bounds on the complexity of the Apostolico-Giancarlo algorithm."
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

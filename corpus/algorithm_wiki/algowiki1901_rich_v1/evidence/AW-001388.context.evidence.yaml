@@ -1,0 +1,71 @@
+id: AW-001388
+kind: context
+algorithm_id: AW-001388
+algorithm_name: Kamdoum
+source_records:
+- access_status: metadata_only
+  digest: e3b13336df675939
+  extracted_facts:
+  - 'AlgorithmWiki row name: Kamdoum'
+  - 'domain: parallel_algorithms'
+  - 'time complexity: Worth mentioning that the typical bad case for simplex is O(2^n) iterations, with d=Theta(n). https://mathoverflow.net/questions/127423/how-many-vertices-can-a-convex-polytope-have says guaranteed bound O(n^floor(d/2)). I''ve plugged in 2^n iterations here, because that''s probably the more cited worst case.'
+  - 'computational model: EREW PRAM'
+  - "parameter definitions: n: number of constraints, d: number of dimensions, p: number of processors, p\u2264d"
+  - 'precard summary: Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model. Baseline: work O(nd*2^d); span/depth O(2^d*log(dn)); processors p. Bottleneck: work, span, communication, and processor-count assumptions dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001388:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Kamdoum
+  url: https://dl.acm.org/doi/10.1145/1111278.1111280
+- access_status: skipped
+  digest: b207cb52b7ab2c81
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:3cf1b95e1d28b4bf
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1145/1111278.1111280
+- access_status: skipped
+  digest: c56a173660b5c273
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:62e846228d786267
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://dl.acm.org/doi/10.1145/1111278.1111280
+web_query_attempts:
+- method: search_plan
+  query: Kamdoum algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Kamdoum algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Kamdoum problem definition
+  status: recorded
+- method: search_plan
+  query: Kamdoum parallel algorithms algorithm
+  status: recorded
+- method: search_plan
+  query: Kamdoum site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Kamdoum algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://dl.acm.org/doi/10.1145/1111278.1111280
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1145/1111278.1111280
+  status: skipped
+- method: source_link_html_metadata
+  query: https://dl.acm.org/doi/10.1145/1111278.1111280
+  status: skipped
+extracted_problem_statement: 'Kamdoum is treated as a classical parallel algorithms task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Kamdoum. Input semantics: The classical input instance named by the row, together with processor/work/span parameters when stated. Output semantics: The same mathematical output as the underlying classical task, annotated by work/span when available.'
+extracted_algorithm_summary: "Kamdoum is a parallel algorithms algorithm record. Classical complexity metadata: time Worth mentioning that the typical bad case for simplex is O(2^n) iterations, with d=Theta(n). https://mathoverflow.net/questions/127423/how-many-vertices-can-a-convex-polytope-have says guaranteed bound O(n^floor(d/2)). I've plugged in 2^n iterations here, because that's probably the more cited worst case.; work O(nd*2^d); span/depth O(2^d*log(dn)); processors p. The stated classical model is EREW PRAM. Public metadata/source text adds: Kamdoum parallel_algorithms parallel_algorithms n: number of constraints, d: number of dimensions, p: number of processors, p\u2264d Worth mentioning that the typical bad case for simplex is O(2^n) iterations, with d=Theta(n)."
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

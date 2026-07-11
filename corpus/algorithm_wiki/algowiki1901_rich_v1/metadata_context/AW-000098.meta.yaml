@@ -1,0 +1,58 @@
+algorithm_family: unknown
+algorithm_id: AW-000098
+approximate: '0'
+approximation_factor: ''
+blind_name: Algorithm Wiki public task AW-000098
+canonical_name: Horowitz and Sahni
+computational_model: Word RAM
+domain: unknown
+extracted_description: ''
+extraction_version: algorithm-wiki-rich-context-v1
+family: unknown
+inferred_access_model: offline_batch_queries
+inferred_ambiguities:
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.
+inferred_input_model: explicit_dynamic_programming_problem
+inferred_output_contract: one_witness
+inferred_problem_statement: 'Horowitz and Sahni is treated as a classical dynamic programming task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Horowitz and Sahni. Input semantics: An explicit optimization or recurrence instance with overlapping subproblems. Output semantics: The optimal value, witness, schedule, segmentation, or table-derived solution for the recurrence.'
+inferred_promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+inferred_size_parameters:
+- 'Parameter definition: n: the number of integers in the set'
+number_of_processors: ''
+page_digest: ''
+page_fetch_status: not_found
+page_url: ''
+parameter_definitions: 'n: the number of integers in the set'
+problem_name: unknown
+quality_flags:
+- has_complexity_semantics
+- has_size_parameters
+- has_computational_model
+quality_score: 70
+randomized: '0'
+readiness: READY_PUBLIC_CONTEXT
+review_reasons:
+- missing_problem_statement
+- unknown_input_model
+- unknown_access_model
+- unknown_output_contract
+- insufficient_algorithm_level_structure
+source_link: https://dl.acm.org/doi/10.1145/321812.321823
+source_link_type: acm
+space_complexity: O(2^{n/2})
+span_depth: ''
+time_complexity: O(2^{(n/2)} n)
+variation: ''
+work: ''
+year: '1974'
+rich_card_kind: context
+source_records_used:
+- AW-000098:algorithm_wiki_metadata
+- crossref:97ecb4d4bc957b7f
+- failed:1673c0aa50afedbd
+source_count: 3
+source_quality: HIGH
+confidence_score: 70
+card_digest: f026777d7ba4401a

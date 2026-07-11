@@ -1,0 +1,59 @@
+id: AW-001805
+kind: context
+algorithm_id: AW-001805
+algorithm_name: Chedid
+source_records:
+- access_status: metadata_only
+  digest: ffbbb85e902cdaed
+  extracted_facts:
+  - 'AlgorithmWiki row name: Chedid'
+  - 'domain: parallel_algorithms'
+  - 'time complexity: O(2^(3n/8))'
+  - 'space complexity: O(n)'
+  - 'computational model: CREW SIMD PRAM'
+  - 'parameter definitions: n: the number of integers in the set, t: target sum'
+  - 'precard summary: Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model. Baseline: time O(2^(3n/8)); space O(n); work O(2^(n/2)); span/depth O(2^(3n/8)); processors O(2^(n/8)). Bottleneck: work, span, communication, and processor-count assumptions dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001805:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Chedid
+  url: https://www.sciencedirect.com/science/article/pii/S0167819107001238
+- access_status: skipped
+  digest: f64a1074eca4e80c
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:6de7d480a2a3937c
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://www.sciencedirect.com/science/article/pii/S0167819107001238
+web_query_attempts:
+- method: search_plan
+  query: Chedid algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Chedid algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Chedid problem definition
+  status: recorded
+- method: search_plan
+  query: Chedid parallel algorithms algorithm
+  status: recorded
+- method: search_plan
+  query: Chedid site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Chedid algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://www.sciencedirect.com/science/article/pii/S0167819107001238
+  status: recorded
+- method: source_link_html_metadata
+  query: https://www.sciencedirect.com/science/article/pii/S0167819107001238
+  status: skipped
+extracted_problem_statement: 'Chedid is treated as a classical parallel algorithms task for rich AlgorithmWiki discovery. Problem/task: solve a subset-sum or target-sum dynamic-programming/search problem. Input semantics: A finite set or multiset of integers with a target sum parameter. Output semantics: A decision result, feasible subset witness, count, or optimized subset value for the target-sum instance, depending on the row.'
+extracted_algorithm_summary: 'Chedid is a parallel algorithms algorithm record. Classical complexity metadata: time O(2^(3n/8)); space O(n); work O(2^(n/2)); span/depth O(2^(3n/8)); processors O(2^(n/8)). The stated classical model is CREW SIMD PRAM. Public metadata/source text adds: Chedid parallel_algorithms parallel_algorithms n: the number of integers in the set, t: target sum O(2^(3n/8)) Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

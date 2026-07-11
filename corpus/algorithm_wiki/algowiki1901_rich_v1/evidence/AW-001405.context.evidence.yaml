@@ -1,0 +1,58 @@
+id: AW-001405
+kind: context
+algorithm_id: AW-001405
+algorithm_name: Atallah, Goodrich
+source_records:
+- access_status: metadata_only
+  digest: 2349a509f03a8934
+  extracted_facts:
+  - 'AlgorithmWiki row name: Atallah, Goodrich'
+  - 'domain: computational_geometry'
+  - 'time complexity: O(\log n)'
+  - 'computational model: CREW PRAM'
+  - 'parameter definitions: n: number of line segments, h: number of points on the convex hull'
+  - 'precard summary: Given explicit geometric objects such as points, segments, or polygons, compute the requested geometric structure or witness set. Baseline: time O(\log n); work O(n \log n); span/depth O(log n); processors O(n). Bottleneck: geometric predicates, ordering events, and output-sensitive structure size dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001405:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Atallah, Goodrich
+  url: https://docs.lib.purdue.edu/cgi/viewcontent.cgi?article=1424&context=cstech
+- access_status: skipped
+  digest: f46d87b6d21a0c4f
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:6fab89760e68f1a0
+  source_type: textbook_or_course_notes
+  title: fetch budget exhausted
+  url: https://docs.lib.purdue.edu/cgi/viewcontent.cgi?article=1424&context=cstech
+web_query_attempts:
+- method: search_plan
+  query: Atallah, Goodrich algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Atallah, Goodrich algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Atallah, Goodrich problem definition
+  status: recorded
+- method: search_plan
+  query: Atallah, Goodrich computational geometry algorithm
+  status: recorded
+- method: search_plan
+  query: Atallah, Goodrich site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Atallah, Goodrich algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://docs.lib.purdue.edu/cgi/viewcontent.cgi?article=1424&context=cstech
+  status: recorded
+- method: source_link_html_metadata
+  query: https://docs.lib.purdue.edu/cgi/viewcontent.cgi?article=1424&context=cstech
+  status: skipped
+extracted_problem_statement: 'Atallah, Goodrich is treated as a classical computational geometry task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Atallah, Goodrich. Input semantics: Explicit geometric objects such as points, line segments, polygons, or planar subdivisions. Output semantics: The requested geometric structure, simplified curve, clipping result, intersection set, hull, or diagram.'
+extracted_algorithm_summary: 'Atallah, Goodrich is a computational geometry algorithm record. Classical complexity metadata: time O(\log n); work O(n \log n); span/depth O(log n); processors O(n). The stated classical model is CREW PRAM. Public metadata/source text adds: Atallah, Goodrich computational_geometry computational_geometry n: number of line segments, h: number of points on the convex hull O(\log n) Given explicit geometric objects such as points, segments, or polygons, compute the requested geometric structure or witness set.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

@@ -1,0 +1,60 @@
+algorithm_family: computational geometry
+algorithm_id: AW-001414
+approximate: '0'
+approximation_factor: ''
+blind_name: Algorithm Wiki public task AW-001414
+canonical_name: Blelloch, Maggs [Parallel MergeHull]
+computational_model: CREW PRAM
+domain: computational_geometry
+extracted_description: ''
+extraction_version: algorithm-wiki-rich-context-v1
+family: computational_geometry
+inferred_access_model: explicit_geometric_objects
+inferred_ambiguities:
+- No independent fetched public metadata source resolved this row beyond AlgorithmWiki metadata/source-link facts.
+- Some details are reconstructed from AlgorithmWiki metadata rather than an independently fetched full public description.
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.
+inferred_input_model: explicit_geometry_problem
+inferred_output_contract: multiple_witnesses
+inferred_problem_statement: 'Blelloch, Maggs [Parallel MergeHull] is treated as a classical computational geometry task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Blelloch, Maggs [Parallel MergeHull]. Input semantics: Explicit geometric objects such as points, line segments, polygons, or planar subdivisions. Output semantics: The requested geometric structure, simplified curve, clipping result, intersection set, hull, or diagram.'
+inferred_promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+- classical_parallel_model_recorded
+inferred_size_parameters:
+- 'Parameter definition: n: number of line segments, h: number of points on the convex hull'
+- p = stated number of processors (O(n))
+number_of_processors: O(n)
+page_digest: ''
+page_fetch_status: not_found
+page_url: ''
+parameter_definitions: 'n: number of line segments, h: number of points on the convex hull'
+problem_name: computational geometry
+quality_flags:
+- domain_inferred
+- problem_statement_inferred
+- io_access_output_inferred
+- has_complexity_semantics
+- has_size_parameters
+- has_computational_model
+quality_score: 100
+randomized: '0'
+readiness: READY_PUBLIC_CONTEXT
+review_reasons: []
+source_link: https://dl.acm.org/doi/abs/10.5555/1882723.1882748
+source_link_type: acm
+space_complexity: ''
+span_depth: O(log n)
+time_complexity: O(\log n)
+variation: ''
+work: O(n \log n)
+year: '2010'
+rich_card_kind: context
+source_records_used:
+- AW-001414:algorithm_wiki_metadata
+- skipped:52325c7473e017cb
+- skipped:a6483893b8fbf6b7
+source_count: 3
+source_quality: HIGH
+confidence_score: 100
+card_digest: 4878461c40b51940

@@ -1,0 +1,111 @@
+algorithm_id: AW-000939
+canonical_name: Davis-Putnam-Logemann-Loveland Algorithm (DPLL)
+enrichment_status: THIRD_PASS_SATURATED_INSUFFICIENT
+review_reasons:
+- After the configured source-family cycles, no source-backed concrete task, input semantics, output semantics, and conservative access model could be established.
+source_records:
+- access_status: metadata_only
+  digest: 0721149a141fec7a
+  extracted_facts:
+  - 'AlgorithmWiki row name: Davis-Putnam-Logemann-Loveland Algorithm (DPLL)'
+  - 'domain: unknown'
+  - 'time complexity: O(2^n)'
+  - 'space complexity: O(n)'
+  - 'parameter definitions: n: number of variables, w: ratio of clauses per variable'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000939:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Davis-Putnam-Logemann-Loveland Algorithm (DPLL)
+  url: https://dl.acm.org/doi/10.1145/368273.368557
+- access_status: skipped
+  digest: fc4fae2d79627c8d
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:fc0600f1e44c929b
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1145/368273.368557
+- access_status: skipped
+  digest: c2f80acbcdbef0f2
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:2f663793d8abe8c9
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://dl.acm.org/doi/10.1145/368273.368557
+- access_status: skipped
+  digest: 17a9ca1e7e5c9414
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:52adac20a9d1079c
+  source_type: wikipedia
+  title: fetch budget exhausted
+  url: https://en.wikipedia.org/wiki/Davis-Putnam-Logemann-Loveland_Algorithm_%28DPLL%29
+- access_status: fetched
+  digest: 04492f9a49593350
+  extracted_facts:
+  - 'DOI title: A machine program for theorem-proving'
+  - 'published year: 1962'
+  - 'container title: Communications of the ACM'
+  - 'abstract summary: The programming of a proof procedure is discussed in connection with trial runs and possible improvements.'
+  reliability: HIGH
+  short_quote: The programming of a proof procedure is discussed in connection with trial runs and possible improvements.
+  source_id: crossref:0aa95741933942be
+  source_type: doi_metadata
+  title: A machine program for theorem-proving
+  url: https://doi.org/10.1145/368273.368557
+- access_status: fetched
+  digest: eac65bcac63f65f8
+  extracted_facts:
+  - 'Crossref title-search result: An optimal algorithm to fetch DHT routable'
+  reliability: MEDIUM
+  short_quote: ''
+  source_id: crossref_search:0b18e1bdccf3f416
+  source_type: doi_metadata
+  title: An optimal algorithm to fetch DHT routable
+  url: https://doi.org/10.1109/npc.2007.32
+- source_id: failed:feeb061cedb7fc04
+  url: https://dl.acm.org/doi/10.1145/368273.368557
+  title: 'HTTP Error 403: Forbidden'
+  source_type: original_source
+  access_status: failed
+  reliability: LOW
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  short_quote: 'HTTP Error 403: Forbidden'
+  digest: 2b4f35448fb0d96c
+- source_id: openalex:422344b72e9111f7
+  url: https://openalex.org/W2057361103
+  title: A machine program for theorem-proving
+  source_type: openalex
+  access_status: fetched
+  reliability: HIGH
+  extracted_facts:
+  - 'OpenAlex title: A machine program for theorem-proving'
+  - 'publication year: 1962'
+  - 'abstract summary: The programming of a proof procedure is discussed in connection with trial runs and possible improvements.'
+  short_quote: 'OpenAlex title: A machine program for theorem-proving publication year: 1962 abstract summary: The programming of a proof procedure is discussed in connection with trial'
+  digest: 6593d71522d867f4
+- source_id: semantic_scholar:20af244895e96d97
+  url: https://www.semanticscholar.org/paper/feca806dc20be4a72a57b45b9ce7ebfcded08038
+  title: A machine program for theorem-proving
+  source_type: semantic_scholar
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Semantic Scholar title: A machine program for theorem-proving'
+  - 'published year: 2011'
+  - 'abstract summary: None'
+  short_quote: 'Semantic Scholar title: A machine program for theorem-proving published year: 2011 abstract summary: None'
+  digest: 794b23eab6eb9801
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

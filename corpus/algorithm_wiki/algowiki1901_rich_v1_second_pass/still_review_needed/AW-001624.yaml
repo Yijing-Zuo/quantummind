@@ -1,0 +1,44 @@
+algorithm_id: AW-001624
+canonical_name: "Lee, Er\xE7al"
+enrichment_status: SECOND_PASS_INSUFFICIENT
+review_reasons:
+- No second-pass rule could identify source-backed task semantics.
+source_records:
+- access_status: metadata_only
+  digest: ecc72ccd2e7632e6
+  extracted_facts:
+  - "AlgorithmWiki row name: Lee, Er\xE7al"
+  - 'domain: unknown'
+  - 'time complexity: O(1)'
+  - 'computational model: 2D reconfigurable mesh'
+  - 'parameter definitions: m: length of the text, n: length of the pattern'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001624:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: "AlgorithmWiki metadata for Lee, Er\xE7al"
+  url: https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=645099
+- access_status: skipped
+  digest: 4df1ac38f49d3d50
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:648abfd324418872
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=645099
+- source_id: crossref_search:0b18e1bdccf3f416
+  url: https://doi.org/10.1109/npc.2007.32
+  title: An optimal algorithm to fetch DHT routable
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: An optimal algorithm to fetch DHT routable'
+  short_quote: ''
+  digest: eac65bcac63f65f8
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

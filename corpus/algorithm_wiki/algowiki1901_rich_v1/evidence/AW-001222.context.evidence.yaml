@@ -1,0 +1,58 @@
+id: AW-001222
+kind: context
+algorithm_id: AW-001222
+algorithm_name: Sinkha, Mukherjee
+source_records:
+- access_status: metadata_only
+  digest: a314d28c8e26b9f3
+  extracted_facts:
+  - 'AlgorithmWiki row name: Sinkha, Mukherjee'
+  - 'domain: sorting'
+  - 'time complexity: O((t^2-3t+2)n)'
+  - 'computational model: sorting network, t-dimensional mesh'
+  - 'parameter definitions: n^t: size of list, t: dimensions of mesh'
+  - 'precard summary: Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model. Baseline: time O((t^2-3t+2)n); work O((t^2-3t+2)n^{t+1}); span/depth O((t^2-3t+2)n); processors n^t. Bottleneck: comparison, distribution, and full-output movement costs dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001222:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Sinkha, Mukherjee
+  url: https://www.sciencedirect.com/science/article/abs/pii/S0743731500916368
+- access_status: skipped
+  digest: dc8b8a45d5a8346e
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:dca2d2ef72f90e1d
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://www.sciencedirect.com/science/article/abs/pii/S0743731500916368
+web_query_attempts:
+- method: search_plan
+  query: Sinkha, Mukherjee algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Sinkha, Mukherjee algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Sinkha, Mukherjee problem definition
+  status: recorded
+- method: search_plan
+  query: Sinkha, Mukherjee sorting algorithm
+  status: recorded
+- method: search_plan
+  query: Sinkha, Mukherjee site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Sinkha, Mukherjee algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://www.sciencedirect.com/science/article/abs/pii/S0743731500916368
+  status: recorded
+- method: source_link_html_metadata
+  query: https://www.sciencedirect.com/science/article/abs/pii/S0743731500916368
+  status: skipped
+extracted_problem_statement: 'Sinkha, Mukherjee is treated as a classical sorting task for rich AlgorithmWiki discovery. Problem/task: sort the input sequence using the named classical sorting method. Input semantics: A finite array or list of comparable keys or records. Output semantics: The same items returned in nondecreasing order, usually as a full reordered sequence.'
+extracted_algorithm_summary: 'Sinkha, Mukherjee is a sorting algorithm record. Classical complexity metadata: time O((t^2-3t+2)n); work O((t^2-3t+2)n^{t+1}); span/depth O((t^2-3t+2)n); processors n^t. The stated classical model is sorting network, t-dimensional mesh. Public metadata/source text adds: Sinkha, Mukherjee sorting sorting n^t: size of list, t: dimensions of mesh O((t^2-3t+2)n) Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

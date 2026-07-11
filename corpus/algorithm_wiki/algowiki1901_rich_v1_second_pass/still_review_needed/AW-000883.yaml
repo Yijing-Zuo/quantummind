@@ -1,0 +1,35 @@
+algorithm_id: AW-000883
+canonical_name: Fixed priority shortest job first
+enrichment_status: SECOND_PASS_INSUFFICIENT
+review_reasons:
+- No second-pass rule could identify source-backed task semantics.
+source_records:
+- access_status: metadata_only
+  digest: c990dbfeaeda847d
+  extracted_facts:
+  - 'AlgorithmWiki row name: Fixed priority shortest job first'
+  - 'domain: unknown'
+  - 'time complexity: O(n \log n)'
+  - 'space complexity: O(n+k)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of tasks (intervals), k: number of machines (resources)'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000883:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Fixed priority shortest job first
+  url: ''
+- source_id: crossref_search:de3c9f6146b6f1d1
+  url: https://doi.org/10.17148/ijarcce.2022.11501
+  title: Simulation of Preemptive Shortest Job First Algorithm
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: Simulation of Preemptive Shortest Job First Algorithm'
+  short_quote: ''
+  digest: 5ed8b25e6d4f5706
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

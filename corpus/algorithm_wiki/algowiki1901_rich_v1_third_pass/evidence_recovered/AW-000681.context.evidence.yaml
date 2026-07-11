@@ -1,0 +1,136 @@
+id: AW-000681
+kind: context_recovered
+algorithm_id: AW-000681
+algorithm_name: Schubert's algorithm/Kronecker's method
+source_records:
+- access_status: metadata_only
+  digest: 668354a20b205d24
+  extracted_facts:
+  - 'AlgorithmWiki row name: Schubert''s algorithm/Kronecker''s method'
+  - 'domain: unknown'
+  - 'time complexity: O(p^{n/2 + O(\log n)})'
+  - 'space complexity: O(n)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: degree of polynomial, p: characteristic of finite field'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000681:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Schubert's algorithm/Kronecker's method
+  url: '-'
+- access_status: fetched
+  digest: 89c7e2cefc255904
+  extracted_facts:
+  - 'Crossref title-search result: Algorithm for computing Kronecker basis'
+  reliability: MEDIUM
+  short_quote: ''
+  source_id: crossref_search:d7abc8386241f952
+  source_type: doi_metadata
+  title: Algorithm for computing Kronecker basis
+  url: https://doi.org/10.14495/jsiaml.1.60
+- source_id: crossref_search:12717352de499463
+  url: https://doi.org/10.14495/jsiaml.1.60
+  title: Algorithm for computing Kronecker basis
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title: Algorithm for computing Kronecker basis'
+  - 'published year: 2009'
+  - 'container title: JSIAM Letters'
+  short_quote: 'Crossref title: Algorithm for computing Kronecker basis published year: 2009 container title: JSIAM Letters'
+  digest: 5b5daaa4fef3520f
+- source_id: openalex:afb3eba7575ac97c
+  url: https://openalex.org/W2292155398
+  title: Antenna Array Design in MIMO Radar Using NSK Polynomial Factorization Algorithm
+  source_type: openalex
+  access_status: fetched
+  reliability: HIGH
+  extracted_facts:
+  - 'OpenAlex title: Antenna Array Design in MIMO Radar Using NSK Polynomial Factorization Algorithm'
+  - 'publication year: 2016'
+  - 'abstract summary: The work presented here is concerned with the antenna array design in collocated multiple-input multiple-output (MIMO) radars.'
+  short_quote: 'OpenAlex title: Antenna Array Design in MIMO Radar Using NSK Polynomial Factorization Algorithm publication year: 2016 abstract summary: The work presented here is concerned'
+  digest: b3d84269b12c3217
+web_query_attempts:
+- cycle: 1
+  query: Schubert's algorithm/Kronecker's method
+  source_family: algorithm_wiki_local
+  url_or_api_endpoint: '-'
+  status: fetched
+  new_facts_added: 9
+  reason: local metadata
+- cycle: 1
+  query: Schubert's algorithm/Kronecker's method
+  source_family: local_previous_cache
+  url_or_api_endpoint: ''
+  status: duplicate
+  new_facts_added: 0
+  reason: previous v1/second-pass sources reused
+- cycle: 1
+  query: Schubert's algorithm/Kronecker's method
+  source_family: original_source
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: no original source link
+- cycle: 1
+  query: Schubert's algorithm/Kronecker's method
+  source_family: crossref
+  url_or_api_endpoint: https://doi.org/10.14495/jsiaml.1.60
+  status: fetched
+  new_facts_added: 6
+  reason: Crossref metadata/title search
+- cycle: 1
+  query: Schubert's algorithm/Kronecker's method
+  source_family: arxiv
+  url_or_api_endpoint: https://export.arxiv.org/api/query?max_results=1&search_query=ti:%22Schubert%27s+algorithm%2FKronecker%27s+method%22
+  status: no_result
+  new_facts_added: 0
+  reason: arXiv title search returned no usable entry
+- cycle: 1
+  query: Schubert's algorithm/Kronecker's method
+  source_family: wikipedia
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: Wikipedia search returned no relevant page
+- cycle: 2
+  query: Schubert's algorithm/Kronecker's method
+  source_family: openalex
+  url_or_api_endpoint: https://api.openalex.org/works?per-page=1&search=Schubert%27s+algorithm%2FKronecker%27s+method
+  status: fetched
+  new_facts_added: 6
+  reason: OpenAlex work metadata
+- cycle: 2
+  query: Schubert's algorithm/Kronecker's method
+  source_family: semantic_scholar
+  url_or_api_endpoint: https://api.semanticscholar.org/graph/v1/paper/search?limit=1&fields=title,abstract,year,url,externalIds&query=Schubert%27s+algorithm%2FKronecker%27s+method
+  status: fetch_failed
+  new_facts_added: 0
+  reason: Semantic Scholar returned no usable paper
+- cycle: 2
+  query: Schubert's algorithm/Kronecker's method
+  source_family: dblp
+  url_or_api_endpoint: https://dblp.org/search/publ/api?format=json&h=1&q=Schubert%27s+algorithm%2FKronecker%27s+method
+  status: no_result
+  new_facts_added: 0
+  reason: DBLP returned no usable publication
+- cycle: 2
+  query: Schubert's algorithm/Kronecker's method
+  source_family: publisher_abstract
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: no applicable publisher abstract URL
+- cycle: 2
+  query: Schubert's algorithm/Kronecker's method
+  source_family: wikidata
+  url_or_api_endpoint: https://www.wikidata.org/w/api.php?action=wbsearchentities&language=en&format=json&limit=1&search=Schubert%27s+algorithm%2FKronecker%27s+method
+  status: no_result
+  new_facts_added: 0
+  reason: Wikidata returned no entity
+extracted_problem_statement: 'Schubert''s algorithm/Kronecker''s method is treated as a source-saturated AlgorithmWiki row for compute shaded/rendered image values from a geometric scene and illumination model Input semantics: Scene geometry, material parameters, lights, camera/view information, and image resolution. Output semantics: Rendered pixel colors or intermediate shading/visibility values.'
+extracted_algorithm_summary: 'Schubert''s algorithm/Kronecker''s method is reconstructed as a classical image processing task. The source-backed title/name/fact record supports the task: compute shaded/rendered image values from a geometric scene and illumination model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

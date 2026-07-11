@@ -1,0 +1,19 @@
+case_id: QM-PB-010
+title: "Quantum algorithm for solving linear systems of equations"
+authors: [Aram W. Harrow, Avinatan Hassidim, Seth Lloyd]
+year: 2009
+venue: "Physical Review Letters / arXiv"
+official_url: "https://arxiv.org/abs/0811.3171"
+result_location: "abstract scope statement"
+result_type: caveat_out_of_scope
+paraphrased_support: "The source result is for sparse, suitably conditioned systems and expectation/state output; dense input, poor conditioning, and full classical vector output are outside the supported claim."
+problem_model: "linear-system stress case"
+promise: "dense or expensive input, unspecified conditioning, full vector output"
+access_model: dense_matrix_input
+output_contract: full_classical_vector
+classical_complexity: "CLASSICAL: at least input and output scale for explicit dense/full-vector task"
+quantum_complexity: "QUERY: no supported asymptotic claim for this full-output stress case"
+claim_scope: NONE
+caveats: [loading, conditioning, readout/full-output]
+source_status: PRIMARY_SOURCE_CHECKED
+

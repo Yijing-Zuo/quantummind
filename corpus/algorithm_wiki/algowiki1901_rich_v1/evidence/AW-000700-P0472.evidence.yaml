@@ -1,0 +1,75 @@
+id: AW-000700-P0472
+kind: probe
+algorithm_id: AW-000700
+algorithm_name: McCreight
+source_records:
+- access_status: metadata_only
+  digest: 2c06c84de5227a01
+  extracted_facts:
+  - 'AlgorithmWiki row name: McCreight'
+  - 'domain: string'
+  - 'time complexity: O(n)'
+  - 'space complexity: O(n)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: length of string'
+  - 'precard summary: Given one or more explicit strings, compute the matching, indexing, alignment, or transformation output targeted by the record. Baseline: time O(n); space O(n). Bottleneck: string scanning, preprocessing tables, and reporting matches dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000700:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for McCreight
+  url: https://dl.acm.org/doi/10.1145/321941.321946
+- access_status: fetched
+  digest: a26e7bb2ba7c8f99
+  extracted_facts:
+  - 'DOI title: A Space-Economical Suffix Tree Construction Algorithm'
+  - 'published year: 1976'
+  - 'container title: Journal of the ACM'
+  - 'abstract summary: A new algorithm is presented for constructing auxiliary digital search trees to aid in exact-match substring searching.'
+  reliability: HIGH
+  short_quote: A new algorithm is presented for constructing auxiliary digital search trees to aid in exact-match substring searching.
+  source_id: crossref:c1a72095ff7d8266
+  source_type: doi_metadata
+  title: A Space-Economical Suffix Tree Construction Algorithm
+  url: https://doi.org/10.1145/321941.321946
+- access_status: failed
+  digest: 578e1b7ceacdcb98
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:6c9440da8c7cc2c9
+  source_type: publisher_abstract
+  title: 'HTTP Error 403: Forbidden'
+  url: https://dl.acm.org/doi/10.1145/321941.321946
+web_query_attempts:
+- method: search_plan
+  query: McCreight algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: McCreight algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: McCreight problem definition
+  status: recorded
+- method: search_plan
+  query: McCreight string algorithm
+  status: recorded
+- method: search_plan
+  query: McCreight site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: McCreight algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://dl.acm.org/doi/10.1145/321941.321946
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1145/321941.321946
+  status: fetched
+- method: source_link_html_metadata
+  query: https://dl.acm.org/doi/10.1145/321941.321946
+  status: failed
+extracted_problem_statement: 'McCreight is treated as a classical string task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with McCreight. Input semantics: One or more finite strings, sequences, patterns, or alphabets. Output semantics: Pattern occurrence positions, matches, or the associated string-search report.'
+extracted_algorithm_summary: 'McCreight is a string algorithm record. Classical complexity metadata: time O(n); space O(n). The stated classical model is Word RAM. Public metadata/source text adds: McCreight string string n: length of string O(n) Given one or more explicit strings, compute the matching, indexing, alignment, or transformation output targeted by the record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

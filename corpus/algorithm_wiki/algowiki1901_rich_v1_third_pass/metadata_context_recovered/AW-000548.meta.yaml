@@ -1,0 +1,68 @@
+algorithm_family: unknown
+algorithm_id: AW-000548
+approximate: '1'
+approximation_factor: ''
+blind_name: Algorithm Wiki public task AW-000548
+canonical_name: "Flajolet\u2013Martin algorithm"
+computational_model: Word RAM
+domain: unknown
+extracted_description: ''
+extraction_version: algorithm-wiki-rich-third-pass-context-v1
+family: unknown
+inferred_access_model: adjacency_list_query
+inferred_ambiguities:
+- The row should be reviewed if the source title does not specify the graph output exactly.
+- Some details are reconstructed from AlgorithmWiki metadata rather than an independently fetched full public description.
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.
+inferred_input_model: explicit_graph_problem
+inferred_output_contract: path_or_tree
+inferred_problem_statement: "Flajolet\u2013Martin algorithm is treated as a source-saturated AlgorithmWiki row for solve the named graph task indicated by the public source metadata Input semantics: An explicit graph with vertices, edges, weights, labels, or adjacency access as required by the row. Output semantics: A path, tree, component labeling, flow, matching, or witness object for the named graph task."
+inferred_promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+- classical_randomized_algorithm
+- classical_approximation_algorithm
+inferred_size_parameters:
+- 'Parameter definition: N: number of values in multiset, n: cardinality of multiset (not known)'
+number_of_processors: ''
+page_digest: ''
+page_fetch_status: not_found
+page_url: ''
+parameter_definitions: 'N: number of values in multiset, n: cardinality of multiset (not known)'
+problem_name: unknown
+quality_flags:
+- has_complexity_semantics
+- has_size_parameters
+- has_computational_model
+- randomized_flag_preserved
+- approximation_flag_preserved
+quality_score: 100
+randomized: '1'
+readiness: READY_PUBLIC_CONTEXT
+review_reasons:
+- missing_problem_statement
+- unknown_input_model
+- unknown_access_model
+- unknown_output_contract
+- insufficient_algorithm_level_structure
+source_link: http://algo.inria.fr/flajolet/Publications/src/FlMa85.pdf
+source_link_type: pdf
+space_complexity: O(\log n)
+span_depth: ''
+time_complexity: O(N)
+variation: ''
+work: ''
+year: '1984'
+rich_card_kind: context_recovered
+source_records_used:
+- AW-000548:algorithm_wiki_metadata
+- crossref_search:64ac08d8d8ac4a24
+- skipped:3df690cffe0a0b28
+- crossref_search:d14f699865e634f8
+- openalex:5b82e5bcbaef2bdb
+source_count: 5
+source_quality: HIGH
+confidence_score: 100
+card_digest: 5bce4d5bdd56b89a
+third_pass_rule: third_pass_reuse_named_graph_problem
+saturation_status: RECOVERED_CONTEXT

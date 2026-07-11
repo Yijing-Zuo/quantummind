@@ -1,0 +1,70 @@
+id: AW-000020
+kind: context
+algorithm_id: AW-000020
+algorithm_name: Grigoryan
+source_records:
+- access_status: metadata_only
+  digest: b2b6b6ac3b0ae479
+  extracted_facts:
+  - 'AlgorithmWiki row name: Grigoryan'
+  - 'domain: unknown'
+  - 'time complexity: O(n)'
+  - 'space complexity: O(n)'
+  - 'parameter definitions: n: dimension of board, k: number of queens'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000020:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Grigoryan
+  url: https://arxiv.org/abs/1912.05935
+- access_status: fetched
+  digest: 2c9abd03569c185c
+  extracted_facts:
+  - 'arXiv title: Linear algorithm for solution n-Queens Completion problem'
+  - 'abstract summary: A linear algorithm is described for solving the n-Queens Completion problem for an arbitrary composition of k queens, consistently distributed on a chessboard of size n x n.'
+  reliability: HIGH
+  short_quote: A linear algorithm is described for solving the n-Queens Completion problem for an arbitrary composition of k queens, consistently distributed on a chessboard of
+  source_id: arxiv:1912.05935
+  source_type: arxiv_abstract
+  title: Linear algorithm for solution n-Queens Completion problem
+  url: https://arxiv.org/abs/1912.05935
+- access_status: fetched
+  digest: cffb592fd67d9820
+  extracted_facts:
+  - 'source page title: [1912.05935] Linear algorithm for solution n-Queens Completion problem'
+  - 'source page description: Abstract page for arXiv paper 1912.05935: Linear algorithm for solution n-Queens Completion problem'
+  reliability: HIGH
+  short_quote: 'Abstract page for arXiv paper 1912.05935: Linear algorithm for solution n-Queens Completion problem'
+  source_id: source:4c1c5da8d55f8915
+  source_type: arxiv_abstract
+  title: '[1912.05935] Linear algorithm for solution n-Queens Completion problem'
+  url: https://arxiv.org/abs/1912.05935
+web_query_attempts:
+- method: search_plan
+  query: Grigoryan algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Grigoryan algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Grigoryan problem definition
+  status: recorded
+- method: search_plan
+  query: Grigoryan site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Grigoryan algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://arxiv.org/abs/1912.05935
+  status: recorded
+- method: arxiv_abstract_metadata
+  query: '1912.05935'
+  status: fetched
+- method: source_link_html_metadata
+  query: https://arxiv.org/abs/1912.05935
+  status: fetched
+extracted_problem_statement: 'Grigoryan is treated as a classical combinatorics task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Grigoryan. Input semantics: A finite combinatorial object, integer set, board, recurrence, or witness-search instance. Output semantics: A count, witness, construction, ordering, subset, cycle, or other finite combinatorial output.'
+extracted_algorithm_summary: 'Grigoryan is a combinatorics algorithm record. Classical complexity metadata: time O(n); space O(n). Public metadata/source text adds: Grigoryan unknown unknown n: dimension of board, k: number of queens O(n) No public-ready summary is available because the row lacks enough task semantics.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

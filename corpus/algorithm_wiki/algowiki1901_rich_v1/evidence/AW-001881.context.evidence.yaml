@@ -1,0 +1,69 @@
+id: AW-001881
+kind: context
+algorithm_id: AW-001881
+algorithm_name: Abbas, Abouelhoda, Bahig, Mohie-Eldin
+source_records:
+- access_status: metadata_only
+  digest: 6ac543f345e8a02b
+  extracted_facts:
+  - 'AlgorithmWiki row name: Abbas, Abouelhoda, Bahig, Mohie-Eldin'
+  - 'domain: string'
+  - 'parameter definitions: n: number of strings, m: length of individual string, l: motif length, d: max distance from motif, sigma: alphabet size'
+  - 'precard summary: Given one or more explicit strings, compute the matching, indexing, alignment, or transformation output targeted by the record. Baseline: not stated. Bottleneck: string scanning, preprocessing tables, and reporting matches dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001881:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Abbas, Abouelhoda, Bahig, Mohie-Eldin
+  url: https://link.springer.com/article/10.1007/s11227-014-1180-3
+- access_status: skipped
+  digest: 2f290cb3000ced96
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:0ed164fe83a9ce38
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1007/s11227-014-1180-3
+- access_status: skipped
+  digest: 5bf905e079844f3d
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:89bd63e4cef7c4a8
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://link.springer.com/article/10.1007/s11227-014-1180-3
+web_query_attempts:
+- method: search_plan
+  query: Abbas, Abouelhoda, Bahig, Mohie-Eldin algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Abbas, Abouelhoda, Bahig, Mohie-Eldin algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Abbas, Abouelhoda, Bahig, Mohie-Eldin problem definition
+  status: recorded
+- method: search_plan
+  query: Abbas, Abouelhoda, Bahig, Mohie-Eldin string algorithm
+  status: recorded
+- method: search_plan
+  query: Abbas, Abouelhoda, Bahig, Mohie-Eldin site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Abbas, Abouelhoda, Bahig, Mohie-Eldin algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://link.springer.com/article/10.1007/s11227-014-1180-3
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1007/s11227-014-1180-3
+  status: skipped
+- method: source_link_html_metadata
+  query: https://link.springer.com/article/10.1007/s11227-014-1180-3
+  status: skipped
+extracted_problem_statement: 'Abbas, Abouelhoda, Bahig, Mohie-Eldin is treated as a classical string task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Abbas, Abouelhoda, Bahig, Mohie-Eldin. Input semantics: One or more finite strings, sequences, patterns, or alphabets. Output semantics: Pattern occurrence positions, matches, or the associated string-search report.'
+extracted_algorithm_summary: 'Abbas, Abouelhoda, Bahig, Mohie-Eldin is a string algorithm record. Classical complexity is not stated. Public metadata/source text adds: Abbas, Abouelhoda, Bahig, Mohie-Eldin string string n: number of strings, m: length of individual string, l: motif length, d: max distance from motif, sigma: alphabet size Given one or more explicit strings, compute the matching, indexing, alignment, or transformation output targeted by the record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

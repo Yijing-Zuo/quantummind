@@ -1,0 +1,96 @@
+id: AW-001503
+kind: context_recovered
+algorithm_id: AW-001503
+algorithm_name: Akl
+source_records:
+- access_status: metadata_only
+  digest: de645be8e98c8a13
+  extracted_facts:
+  - 'AlgorithmWiki row name: Akl'
+  - 'domain: unknown'
+  - 'time complexity: O(n)'
+  - 'computational model: SM-SIMD (CRCW)'
+  - 'parameter definitions: n: number of nodes'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001503:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Akl
+  url: https://link.springer.com/article/10.1007/BF02240073
+- access_status: skipped
+  digest: 20b44d7f96c3e67a
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:be763693f6fcfbdb
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1007/BF02240073
+- access_status: skipped
+  digest: 0aea64cc44a7d2ef
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:376d1a745905a297
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://link.springer.com/article/10.1007/BF02240073
+- source_id: crossref:0da3ea480d24f3b4
+  url: https://doi.org/10.1007/BF02240073
+  title: An adaptive and cost-optimal parallel algorithm for minimum spanning trees
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: HIGH
+  extracted_facts:
+  - 'DOI title: An adaptive and cost-optimal parallel algorithm for minimum spanning trees'
+  - 'published year: 1986'
+  - 'container title: Computing'
+  short_quote: ''
+  digest: c15e62bc7bdc931c
+- source_id: crossref_search:0b18e1bdccf3f416
+  url: https://doi.org/10.1109/npc.2007.32
+  title: An optimal algorithm to fetch DHT routable
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: An optimal algorithm to fetch DHT routable'
+  short_quote: ''
+  digest: eac65bcac63f65f8
+web_query_attempts:
+- query: '"Akl" algorithm'
+  method: search_plan
+  status: recorded
+- query: '"Akl" input output'
+  method: search_plan
+  status: recorded
+- query: '"Akl" time complexity'
+  method: search_plan
+  status: recorded
+- query: '"Akl" pseudocode'
+  method: search_plan
+  status: recorded
+- query: '"Akl" problem'
+  method: search_plan
+  status: recorded
+- query: '"Akl" PDF metadata abstract'
+  method: search_plan
+  status: recorded
+- query: '"fetch budget exhausted" algorithm'
+  method: search_plan
+  status: recorded
+- query: https://link.springer.com/article/10.1007/BF02240073
+  method: search_plan
+  status: recorded
+- query: 10.1007/BF02240073
+  method: crossref_doi_metadata
+  status: fetched
+- query: fetch budget exhausted algorithm
+  method: crossref_title_search
+  status: fetched
+extracted_problem_statement: 'Akl is reconstructed as a classical graph task. Problem/task: solve the named graph task indicated by the public source metadata Input semantics: An explicit graph with vertices, edges, weights, labels, or adjacency access as required by the row. Output semantics: A path, tree, component labeling, flow, matching, or witness object for the named graph task.'
+extracted_algorithm_summary: 'Akl is treated as the named AlgorithmWiki variant for solve the named graph task indicated by the public source metadata Classical complexity metadata: time O(n); work O(n^2); span/depth O(n). Public metadata/source title support includes An adaptive and cost-optimal parallel algorithm for minimum spanning trees.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

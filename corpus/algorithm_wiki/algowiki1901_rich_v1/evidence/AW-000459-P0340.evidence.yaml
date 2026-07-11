@@ -1,0 +1,59 @@
+id: AW-000459-P0340
+kind: probe
+algorithm_id: AW-000459
+algorithm_name: "Fisher\u2013Yates/Knuth shuffle"
+source_records:
+- access_status: metadata_only
+  digest: 6b6ca2e74145fd50
+  extracted_facts:
+  - "AlgorithmWiki row name: Fisher\u2013Yates/Knuth shuffle"
+  - 'domain: string'
+  - 'time complexity: O(n^2)'
+  - 'space complexity: O(n)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of elements'
+  - 'precard summary: Given one or more explicit strings, compute the matching, indexing, alignment, or transformation output targeted by the record. Baseline: time O(n^2); space O(n). Bottleneck: string scanning, preprocessing tables, and reporting matches dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000459:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: "AlgorithmWiki metadata for Fisher\u2013Yates/Knuth shuffle"
+  url: https://www.worldcat.org/title/statistical-tables-for-biological-agricultural-and-medical-research/oclc/14222135
+- access_status: failed
+  digest: be8131ecf535da44
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:b814f573d6a67e22
+  source_type: other_public_source
+  title: 'HTTP Error 403: Forbidden'
+  url: https://www.worldcat.org/title/statistical-tables-for-biological-agricultural-and-medical-research/oclc/14222135
+web_query_attempts:
+- method: search_plan
+  query: "Fisher\u2013Yates/Knuth shuffle algorithm input output complexity"
+  status: recorded
+- method: search_plan
+  query: "Fisher\u2013Yates/Knuth shuffle algorithm pseudocode"
+  status: recorded
+- method: search_plan
+  query: "Fisher\u2013Yates/Knuth shuffle problem definition"
+  status: recorded
+- method: search_plan
+  query: "Fisher\u2013Yates/Knuth shuffle string algorithm"
+  status: recorded
+- method: search_plan
+  query: "Fisher\u2013Yates/Knuth shuffle site:nist.gov DADS"
+  status: recorded
+- method: search_plan
+  query: "Fisher\u2013Yates/Knuth shuffle algorithm wiki"
+  status: recorded
+- method: search_plan
+  query: https://www.worldcat.org/title/statistical-tables-for-biological-agricultural-and-medical-research/oclc/14222135
+  status: recorded
+- method: source_link_html_metadata
+  query: https://www.worldcat.org/title/statistical-tables-for-biological-agricultural-and-medical-research/oclc/14222135
+  status: failed
+extracted_problem_statement: "Fisher\u2013Yates/Knuth shuffle is treated as a classical string task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Fisher\u2013Yates/Knuth shuffle. Input semantics: One or more finite strings, sequences, patterns, or alphabets. Output semantics: Pattern occurrence positions, matches, or the associated string-search report."
+extracted_algorithm_summary: "Fisher\u2013Yates/Knuth shuffle is a string algorithm record. Classical complexity metadata: time O(n^2); space O(n). The stated classical model is Word RAM. Public metadata/source text adds: Fisher\u2013Yates/Knuth shuffle string string n: number of elements O(n^2) Given one or more explicit strings, compute the matching, indexing, alignment, or transformation output targeted by the record."
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

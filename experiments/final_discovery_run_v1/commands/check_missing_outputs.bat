@@ -1,0 +1,3 @@
+@echo off
+REM Check missing final discovery run logs. No API keys are stored in this file.
+powershell -NoProfile -ExecutionPolicy Bypass -Command "$ErrorActionPreference = 'Stop'; $manifest = 'experiments\final_discovery_run_v1\manifests\master_run_manifest.csv'; $logs = 'experiments\final_discovery_run_v1\logs'; $rows = @(Import-Csv -LiteralPath $manifest | Where-Object { $_.status -eq 'READY' }); $missing = foreach ($r in $rows) { $stdout = Join-Path $logs ($r.global_task_id + '.stdout.log'); if (-not (Test-Path -LiteralPath $stdout)) { $r } }; $missing | Export-Csv -NoTypeInformation -Path 'experiments\final_discovery_run_v1\reports\missing_outputs.csv'; Write-Host ('Missing output rows: {0}' -f @($missing).Count); if (@($missing).Count -gt 0) { exit 1 }"

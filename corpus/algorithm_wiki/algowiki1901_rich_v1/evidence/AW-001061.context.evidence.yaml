@@ -1,0 +1,58 @@
+id: AW-001061
+kind: context
+algorithm_id: AW-001061
+algorithm_name: Ajtai, Komlos, Szemeredi (AKS)
+source_records:
+- access_status: metadata_only
+  digest: e01e98d2134fda4e
+  extracted_facts:
+  - 'AlgorithmWiki row name: Ajtai, Komlos, Szemeredi (AKS)'
+  - 'domain: parallel_algorithms'
+  - 'time complexity: O(\log{n})'
+  - 'computational model: comparator network - deterministic sequence of switches'
+  - 'parameter definitions: n: size of list'
+  - 'precard summary: Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model. Baseline: time O(\log{n}); work O(n \\log^2{n}); span/depth O(\log{n}); processors n \log{n}. Bottleneck: work, span, communication, and processor-count assumptions dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001061:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Ajtai, Komlos, Szemeredi (AKS)
+  url: https://dl.acm.org/doi/pdf/10.1145/800061.808726
+- access_status: skipped
+  digest: 53ac17ae6cb57c05
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:b73435789b3f1c33
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1145/800061.808726
+web_query_attempts:
+- method: search_plan
+  query: Ajtai, Komlos, Szemeredi (AKS) algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Ajtai, Komlos, Szemeredi (AKS) algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Ajtai, Komlos, Szemeredi (AKS) problem definition
+  status: recorded
+- method: search_plan
+  query: Ajtai, Komlos, Szemeredi (AKS) parallel algorithms algorithm
+  status: recorded
+- method: search_plan
+  query: Ajtai, Komlos, Szemeredi (AKS) site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Ajtai, Komlos, Szemeredi (AKS) algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://dl.acm.org/doi/pdf/10.1145/800061.808726
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1145/800061.808726
+  status: skipped
+extracted_problem_statement: 'Ajtai, Komlos, Szemeredi (AKS) is treated as a classical parallel algorithms task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Ajtai, Komlos, Szemeredi (AKS). Input semantics: The classical input instance named by the row, together with processor/work/span parameters when stated. Output semantics: The same mathematical output as the underlying classical task, annotated by work/span when available.'
+extracted_algorithm_summary: 'Ajtai, Komlos, Szemeredi (AKS) is a parallel algorithms algorithm record. Classical complexity metadata: time O(\log{n}); work O(n \\log^2{n}); span/depth O(\log{n}); processors n \log{n}. The stated classical model is comparator network - deterministic sequence of switches. Public metadata/source text adds: Ajtai, Komlos, Szemeredi (AKS) parallel_algorithms parallel_algorithms n: size of list O(\log{n}) Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

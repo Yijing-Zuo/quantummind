@@ -1,0 +1,60 @@
+id: AW-000662
+kind: context
+algorithm_id: AW-000662
+algorithm_name: Valiant
+source_records:
+- access_status: metadata_only
+  digest: 3c6f3501f65f9239
+  extracted_facts:
+  - 'AlgorithmWiki row name: Valiant'
+  - 'domain: matrix_linear_algebra'
+  - 'time complexity: O(n^{\omega} |G|)'
+  - 'space complexity: O(n^2)'
+  - 'computational model: Word RAM and multitape TM'
+  - 'parameter definitions: n: input string length, |G|: size of grammar, \omega: exponent for matrix multiplication'
+  - 'precard summary: Given one or more explicit dense matrices over the stated arithmetic domain, compute the matrix or linear-algebraic output specified by the record. Baseline: time O(n^{\omega} |G|); space O(n^2). Bottleneck: dense arithmetic and full matrix output dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000662:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Valiant
+  url: https://linkinghub.elsevier.com/retrieve/pii/S0022000075800468
+- access_status: fetched
+  digest: 5e6fb4220236853e
+  extracted_facts:
+  - 'source page title: Redirecting'
+  - 'source page description: Redirecting'
+  reliability: LOW
+  short_quote: Redirecting
+  source_id: source:93af15ba50345c0b
+  source_type: other_public_source
+  title: Redirecting
+  url: https://linkinghub.elsevier.com/retrieve/pii/S0022000075800468
+web_query_attempts:
+- method: search_plan
+  query: Valiant algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Valiant algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Valiant problem definition
+  status: recorded
+- method: search_plan
+  query: Valiant matrix linear algebra algorithm
+  status: recorded
+- method: search_plan
+  query: Valiant site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Valiant algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://linkinghub.elsevier.com/retrieve/pii/S0022000075800468
+  status: recorded
+- method: source_link_html_metadata
+  query: https://linkinghub.elsevier.com/retrieve/pii/S0022000075800468
+  status: fetched
+extracted_problem_statement: 'Valiant is treated as a classical matrix linear algebra task for rich AlgorithmWiki discovery. Problem/task: multiply matrices using the named bilinear or algebraic multiplication method. Input semantics: One or more explicit matrices or linear systems over the stated arithmetic domain. Output semantics: The matrix product or bilinear multiplication output.'
+extracted_algorithm_summary: 'Valiant is a matrix linear algebra algorithm record. Classical complexity metadata: time O(n^{\omega} |G|); space O(n^2). The stated classical model is Word RAM and multitape TM. Public metadata/source text adds: Valiant matrix_linear_algebra matrix_linear_algebra n: input string length, |G|: size of grammar, \omega: exponent for matrix multiplication O(n^{\omega} |G|) Given one or more explicit dense matrices over the stated arithmetic domain, compute the matrix or linear-algebraic output specified by the record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

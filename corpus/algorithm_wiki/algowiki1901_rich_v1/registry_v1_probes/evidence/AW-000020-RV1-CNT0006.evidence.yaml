@@ -1,0 +1,23 @@
+probe_id: AW-000020-RV1-CNT0006
+kind: registry_v1_probe
+parent_algorithm_id: AW-000020
+parent_algorithm_name: Grigoryan
+source_card_paths:
+- corpus\algorithm_wiki\algowiki1901_rich_v1\public_context\AW-000020.yaml
+- corpus\algorithm_wiki\algowiki1901_rich_v1\public_probe\AW-000020-P0016.yaml
+source_metadata_paths:
+- corpus\algorithm_wiki\algowiki1901_rich_v1\metadata_probe\AW-000020-P0016.meta.yaml
+source_records_used:
+- AW-000020:algorithm_wiki_metadata
+- arxiv:1912.05935
+- source:4c1c5da8d55f8915
+short_paraphrased_support: 'Grigoryan Grigoryan is treated as a classical combinatorics task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Grigoryan. Input semantics: A finite combinatorial object, integer set, board, recurrence, or witness-search instance. Output semantics: A count, witness, construction, ordering, subset, cycle, or other finite combinatorial output. Grigoryan is a combinatorics algorithm record. Classical complexity metadata: time O(n); space O(n). Public metadata/source text adds: Grigoryan unknown unknown n: dimension of board, k: number of queens O(n) No public-ready summary is available because the row lacks enough task semantics. A finite combinatorial object, integer set, board, recurrence, or witness-search instance. A count, witness, construction, ordering, subset, cycle, or other finite combinatorial output. dominant bottleneck remain'
+introduced_assumptions:
+- finite_search_space
+- coherent_boolean_oracle
+- count_precision_specified
+limitations:
+- The probe is a public query/subroutine hypothesis only.
+- It does not assert a full original-algorithm speedup.
+- Oracle, promise, and data-representation costs require expert review.
+confirmation: Public provenance sidecar only; no evaluator label or private benchmark answer is encoded.

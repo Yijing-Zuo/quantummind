@@ -1,0 +1,69 @@
+id: AW-000739-P0492
+kind: probe
+algorithm_id: AW-000739
+algorithm_name: DESBRUN M. MEYER M. ALLIEZ P. 2002
+source_records:
+- access_status: metadata_only
+  digest: fb42fc199958caa6
+  extracted_facts:
+  - 'AlgorithmWiki row name: DESBRUN M. MEYER M. ALLIEZ P. 2002'
+  - 'domain: unknown'
+  - 'time complexity: O(n^2)'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000739:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for DESBRUN M. MEYER M. ALLIEZ P. 2002
+  url: https://dl.acm.org/doi/10.1145/566654.566588
+- access_status: fetched
+  digest: 5668a8f7a2f05ad4
+  extracted_facts:
+  - 'DOI title: Interactive geometry remeshing'
+  - 'published year: 2002'
+  - 'container title: ACM Transactions on Graphics'
+  - 'abstract summary: We present a novel technique, both flexible and efficient, for interactive remeshing of irregular geometry.'
+  reliability: HIGH
+  short_quote: We present a novel technique, both flexible and efficient, for interactive remeshing of irregular geometry.
+  source_id: crossref:c4f985a2f3a0c564
+  source_type: doi_metadata
+  title: Interactive geometry remeshing
+  url: https://doi.org/10.1145/566654.566588
+- access_status: failed
+  digest: c73545db2770bc02
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:a44add210f82682c
+  source_type: publisher_abstract
+  title: 'HTTP Error 403: Forbidden'
+  url: https://dl.acm.org/doi/10.1145/566654.566588
+web_query_attempts:
+- method: search_plan
+  query: DESBRUN M. MEYER M. ALLIEZ P. 2002 algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: DESBRUN M. MEYER M. ALLIEZ P. 2002 algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: DESBRUN M. MEYER M. ALLIEZ P. 2002 problem definition
+  status: recorded
+- method: search_plan
+  query: DESBRUN M. MEYER M. ALLIEZ P. 2002 site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: DESBRUN M. MEYER M. ALLIEZ P. 2002 algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://dl.acm.org/doi/10.1145/566654.566588
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1145/566654.566588
+  status: fetched
+- method: source_link_html_metadata
+  query: https://dl.acm.org/doi/10.1145/566654.566588
+  status: failed
+extracted_problem_statement: 'DESBRUN M. MEYER M. ALLIEZ P. 2002 is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with DESBRUN M. MEYER M. ALLIEZ P. 2002. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'DESBRUN M. MEYER M. ALLIEZ P. 2002 is a graph algorithm record. Classical complexity metadata: time O(n^2). Public metadata/source text adds: DESBRUN M. MEYER M. ALLIEZ P. 2002 unknown unknown O(n^2) No public-ready summary is available because the row lacks enough task semantics.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

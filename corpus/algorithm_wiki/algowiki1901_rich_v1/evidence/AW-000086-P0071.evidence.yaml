@@ -1,0 +1,71 @@
+id: AW-000086-P0071
+kind: probe
+algorithm_id: AW-000086
+algorithm_name: "Nicholl\u2013Lee\u2013Nicholl"
+source_records:
+- access_status: metadata_only
+  digest: 40cbc0c68b31b3ef
+  extracted_facts:
+  - "AlgorithmWiki row name: Nicholl\u2013Lee\u2013Nicholl"
+  - 'domain: unknown'
+  - 'time complexity: O(n)'
+  - 'space complexity: O(1)'
+  - 'computational model: Word/Real RAM'
+  - 'parameter definitions: n: number of lines'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000086:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: "AlgorithmWiki metadata for Nicholl\u2013Lee\u2013Nicholl"
+  url: https://dl.acm.org/doi/10.1145/37401.37432
+- access_status: fetched
+  digest: a7638629deddf6c4
+  extracted_facts:
+  - 'DOI title: An efficient new algorithm for 2-D line clipping: Its development and analysis'
+  - 'published year: 1987'
+  - 'container title: Proceedings of the 14th annual conference on Computer graphics and interactive techniques'
+  reliability: HIGH
+  short_quote: ''
+  source_id: crossref:cf1a49fcc635e7b9
+  source_type: doi_metadata
+  title: 'An efficient new algorithm for 2-D line clipping: Its development and analysis'
+  url: https://doi.org/10.1145/37401.37432
+- access_status: failed
+  digest: fb754ce3b47f8b7c
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:fd8b688edd0067d4
+  source_type: publisher_abstract
+  title: 'HTTP Error 403: Forbidden'
+  url: https://dl.acm.org/doi/10.1145/37401.37432
+web_query_attempts:
+- method: search_plan
+  query: "Nicholl\u2013Lee\u2013Nicholl algorithm input output complexity"
+  status: recorded
+- method: search_plan
+  query: "Nicholl\u2013Lee\u2013Nicholl algorithm pseudocode"
+  status: recorded
+- method: search_plan
+  query: "Nicholl\u2013Lee\u2013Nicholl problem definition"
+  status: recorded
+- method: search_plan
+  query: "Nicholl\u2013Lee\u2013Nicholl site:nist.gov DADS"
+  status: recorded
+- method: search_plan
+  query: "Nicholl\u2013Lee\u2013Nicholl algorithm wiki"
+  status: recorded
+- method: search_plan
+  query: https://dl.acm.org/doi/10.1145/37401.37432
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1145/37401.37432
+  status: fetched
+- method: source_link_html_metadata
+  query: https://dl.acm.org/doi/10.1145/37401.37432
+  status: failed
+extracted_problem_statement: "Nicholl\u2013Lee\u2013Nicholl is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Nicholl\u2013Lee\u2013Nicholl. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result."
+extracted_algorithm_summary: "Nicholl\u2013Lee\u2013Nicholl is a graph algorithm record. Classical complexity metadata: time O(n); space O(1). The stated classical model is Word/Real RAM. Public metadata/source text adds: Nicholl\u2013Lee\u2013Nicholl unknown unknown n: number of lines O(n) No public-ready summary is available because the row lacks enough task semantics."
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

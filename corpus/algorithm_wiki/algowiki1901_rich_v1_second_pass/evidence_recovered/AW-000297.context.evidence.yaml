@@ -1,0 +1,83 @@
+id: AW-000297
+kind: context_recovered
+algorithm_id: AW-000297
+algorithm_name: Trujillo and Olague 2008
+source_records:
+- access_status: metadata_only
+  digest: 0655da01daa5d224
+  extracted_facts:
+  - 'AlgorithmWiki row name: Trujillo and Olague 2008'
+  - 'domain: unknown'
+  - 'time complexity: O(n^2)'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000297:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Trujillo and Olague 2008
+  url: https://www.mitpressjournals.org/doi/abs/10.1162/evco.2008.16.4.483?journalCode=evco&mobileUi=0&
+- access_status: fetched
+  digest: 4d6283e01f5c6607
+  extracted_facts:
+  - 'DOI title: Automated Design of Image Operators that Detect Interest Points'
+  - 'published year: 2008'
+  - 'container title: Evolutionary Computation'
+  - 'abstract summary: This work describes how evolutionary computation can be used to synthesize low-level image operators that detect interesting points on digital images.'
+  reliability: HIGH
+  short_quote: This work describes how evolutionary computation can be used to synthesize low-level image operators that detect interesting points on digital images.
+  source_id: crossref:6ecc0daac46764e2
+  source_type: doi_metadata
+  title: Automated Design of Image Operators that Detect Interest Points
+  url: https://doi.org/10.1162/evco.2008.16.4.483
+- access_status: failed
+  digest: 1e2f6fb9de915079
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:c9ccc03e81c136f7
+  source_type: other_public_source
+  title: 'HTTP Error 403: Forbidden'
+  url: https://www.mitpressjournals.org/doi/abs/10.1162/evco.2008.16.4.483?journalCode=evco&mobileUi=0&
+- source_id: crossref_search:387a883f2d78a7c1
+  url: https://doi.org/10.1162/evco.2008.16.4.483
+  title: Automated Design of Image Operators that Detect Interest Points
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: Automated Design of Image Operators that Detect Interest Points'
+  - 'abstract summary: This work describes how evolutionary computation can be used to synthesize low-level image operators that detect interesting points on digital images.'
+  short_quote: This work describes how evolutionary computation can be used to synthesize low-level image operators that detect interesting points on digital images.
+  digest: d0f80cae81d513d8
+web_query_attempts:
+- query: '"Trujillo and Olague 2008" algorithm'
+  method: search_plan
+  status: recorded
+- query: '"Trujillo and Olague 2008" input output'
+  method: search_plan
+  status: recorded
+- query: '"Trujillo and Olague 2008" time complexity'
+  method: search_plan
+  status: recorded
+- query: '"Trujillo and Olague 2008" pseudocode'
+  method: search_plan
+  status: recorded
+- query: '"Trujillo and Olague 2008" problem'
+  method: search_plan
+  status: recorded
+- query: '"Trujillo and Olague 2008" PDF metadata abstract'
+  method: search_plan
+  status: recorded
+- query: '"Automated Design of Image Operators that Detect Interest Points" algorithm'
+  method: search_plan
+  status: recorded
+- query: https://www.mitpressjournals.org/doi/abs/10.1162/evco.2008.16.4.483?journalCode=evco&mobileUi=0&
+  method: search_plan
+  status: recorded
+- query: Automated Design of Image Operators that Detect Interest Points algorithm
+  method: crossref_title_search
+  status: fetched
+extracted_problem_statement: 'Trujillo and Olague 2008 is reconstructed as a classical image processing task. Problem/task: detect local image features such as corners, blobs, or scale-invariant keypoints Input semantics: An image or image pyramid/grid of pixel intensities plus detector parameters. Output semantics: A set of detected feature locations, scales, orientations, or descriptors.'
+extracted_algorithm_summary: 'Trujillo and Olague 2008 is treated as the named AlgorithmWiki variant for detect local image features such as corners, blobs, or scale-invariant keypoints Classical complexity metadata: time O(n^2). Public metadata/source title support includes Automated Design of Image Operators that Detect Interest Points.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

@@ -1,0 +1,58 @@
+id: AW-001278
+kind: context
+algorithm_id: AW-001278
+algorithm_name: Moghaddam, Moghaddam
+source_records:
+- access_status: metadata_only
+  digest: 5e207d213549570f
+  extracted_facts:
+  - 'AlgorithmWiki row name: Moghaddam, Moghaddam'
+  - 'domain: parallel_algorithms'
+  - 'time complexity: O(n \log p) + O(n \log(\log p /p))'
+  - 'computational model: CREW PRAM'
+  - 'parameter definitions: n: size of list, p: number of processors'
+  - 'precard summary: Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model. Baseline: time O(n \log p) + O(n \log(\log p /p)); work O(np \log p) + O(np \log(\log p /p)); span/depth O(n); processors p. Bottleneck: work, span, communication, and processor-count assumptions dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001278:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Moghaddam, Moghaddam
+  url: https://www.researchsquare.com/article/rs-530919/v1
+- access_status: skipped
+  digest: d81787550480928b
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:d1d279318aa57f80
+  source_type: other_public_source
+  title: fetch budget exhausted
+  url: https://www.researchsquare.com/article/rs-530919/v1
+web_query_attempts:
+- method: search_plan
+  query: Moghaddam, Moghaddam algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Moghaddam, Moghaddam algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Moghaddam, Moghaddam problem definition
+  status: recorded
+- method: search_plan
+  query: Moghaddam, Moghaddam parallel algorithms algorithm
+  status: recorded
+- method: search_plan
+  query: Moghaddam, Moghaddam site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Moghaddam, Moghaddam algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://www.researchsquare.com/article/rs-530919/v1
+  status: recorded
+- method: source_link_html_metadata
+  query: https://www.researchsquare.com/article/rs-530919/v1
+  status: skipped
+extracted_problem_statement: 'Moghaddam, Moghaddam is treated as a classical parallel algorithms task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Moghaddam, Moghaddam. Input semantics: The classical input instance named by the row, together with processor/work/span parameters when stated. Output semantics: The same mathematical output as the underlying classical task, annotated by work/span when available.'
+extracted_algorithm_summary: 'Moghaddam, Moghaddam is a parallel algorithms algorithm record. Classical complexity metadata: time O(n \log p) + O(n \log(\log p /p)); work O(np \log p) + O(np \log(\log p /p)); span/depth O(n); processors p. The stated classical model is CREW PRAM. Public metadata/source text adds: Moghaddam, Moghaddam parallel_algorithms parallel_algorithms n: size of list, p: number of processors O(n \log p) + O(n \log(\log p /p)) Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

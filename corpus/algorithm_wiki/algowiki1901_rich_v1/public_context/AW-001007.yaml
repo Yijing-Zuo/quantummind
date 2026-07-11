@@ -1,0 +1,14 @@
+statement: 'Scapegoat Tree is included as a named whole-algorithm context card for a classical data structures task. The task is to analyze the classical input-output problem, not to certify an end-to-end improvement claim. Input semantics: A set of records plus update/query operations for the named data structure. Output semantics: A maintained data structure representation and answers to its supported queries. Classical algorithm summary: Scapegoat Tree is a data structures algorithm record. Classical complexity metadata: time O(nlogn); space O(1). The stated classical model is Word RAM. Public metadata/source text adds: Scapegoat Tree data_structures data_structures n: number of nodes O(nlogn) Given an explicit collection of keys, items, or offline operations, construct or return the data-structure output the concrete classical data structures task associated with Scapegoat Tree. Classical complexity recorded for this row: time O(nlogn); space O(1); computation model Word RAM. Dominant
+  bottleneck: update/query costs, balancing, and representation size. The useful review questions are whether the named structure exposes a smaller decision, witness, estimation, or algebraic subproblem; whether the full output size dominates any asymptotic gain; and whether the stated access model is realistic for the original input. Provenance is limited to AlgorithmWiki metadata and source-link facts; unresolved details are kept as ambiguities. Source-backed uncertainty or assumptions: No independent fetched public metadata source resolved this row beyond AlgorithmWiki metadata/source-link facts.'
+input_model: explicit_data_structure_problem
+access_model: offline_batch_queries
+output_contract: data_structure_output
+promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+size_parameters:
+- 'Parameter definition: n: number of nodes'
+ambiguities:
+- No independent fetched public metadata source resolved this row beyond AlgorithmWiki metadata/source-link facts.
+- Some details are reconstructed from AlgorithmWiki metadata rather than an independently fetched full public description.
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.

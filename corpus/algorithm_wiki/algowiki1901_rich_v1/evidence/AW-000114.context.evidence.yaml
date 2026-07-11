@@ -1,0 +1,46 @@
+id: AW-000114
+kind: context
+algorithm_id: AW-000114
+algorithm_name: Dynamic Programming
+source_records:
+- access_status: metadata_only
+  digest: 255f3639d693c204
+  extracted_facts:
+  - 'AlgorithmWiki row name: Dynamic Programming'
+  - 'domain: dynamic_programming'
+  - 'time complexity: O(n^2)'
+  - 'space complexity: O(n)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: length of rod'
+  - 'precard summary: Given an explicit instance with overlapping subproblem structure, compute the full classical solution or value targeted by the dynamic-programming recurrence. Baseline: time O(n^2); space O(n). Bottleneck: subproblem count, transition evaluation, and table output dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000114:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Dynamic Programming
+  url: ''
+web_query_attempts:
+- method: search_plan
+  query: Dynamic Programming algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Dynamic Programming algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Dynamic Programming problem definition
+  status: recorded
+- method: search_plan
+  query: Dynamic Programming dynamic programming algorithm
+  status: recorded
+- method: search_plan
+  query: Dynamic Programming site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Dynamic Programming algorithm wiki
+  status: recorded
+- method: wikipedia_summary_search
+  query: Dynamic Programming algorithm
+  status: failed_or_not_relevant
+extracted_problem_statement: 'Dynamic Programming is treated as a classical dynamic programming task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Dynamic Programming. Input semantics: An explicit optimization or recurrence instance with overlapping subproblems. Output semantics: The optimal value, witness, schedule, segmentation, or table-derived solution for the recurrence.'
+extracted_algorithm_summary: 'Dynamic Programming is a dynamic programming algorithm record. Classical complexity metadata: time O(n^2); space O(n). The stated classical model is Word RAM. Public metadata/source text adds: Dynamic Programming dynamic_programming dynamic_programming n: length of rod O(n^2) Given an explicit instance with overlapping subproblem structure, compute the full classical solution or value targeted by the dynamic-programming recurrence.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

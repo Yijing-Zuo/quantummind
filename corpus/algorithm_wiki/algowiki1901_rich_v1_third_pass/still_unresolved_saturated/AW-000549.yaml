@@ -1,0 +1,68 @@
+algorithm_id: AW-000549
+canonical_name: LogLog algorithm
+enrichment_status: THIRD_PASS_SATURATED_INSUFFICIENT
+review_reasons:
+- After the configured source-family cycles, no source-backed concrete task, input semantics, output semantics, and conservative access model could be established.
+source_records:
+- access_status: metadata_only
+  digest: 11df62981002ce6c
+  extracted_facts:
+  - 'AlgorithmWiki row name: LogLog algorithm'
+  - 'domain: unknown'
+  - 'time complexity: O(N)'
+  - 'space complexity: O(\log \log n)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: N: number of values in multiset, n: cardinality of multiset (not known)'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000549:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for LogLog algorithm
+  url: http://algo.inria.fr/flajolet/Publications/DuFl03-LNCS.pdf
+- access_status: fetched
+  digest: dbc67d189c37d891
+  extracted_facts:
+  - 'Crossref title-search result: Fine-Grained Probability Counting: Refined LogLog Algorithm'
+  reliability: MEDIUM
+  short_quote: ''
+  source_id: crossref_search:0e00696247bbcbf6
+  source_type: doi_metadata
+  title: 'Fine-Grained Probability Counting: Refined LogLog Algorithm'
+  url: https://doi.org/10.1109/bigcomp.2018.00034
+- source_id: skipped:22aa3f92fecebbf1
+  url: http://algo.inria.fr/flajolet/Publications/DuFl03-LNCS.pdf
+  title: public PDF body was not downloaded
+  source_type: original_source
+  access_status: skipped
+  reliability: LOW
+  extracted_facts:
+  - public PDF body was not downloaded
+  short_quote: public PDF body was not downloaded
+  digest: 5d8dab8181f4c3f8
+- source_id: crossref_search:9ea6436d49941012
+  url: https://doi.org/10.1109/bigcomp.2018.00034
+  title: 'Fine-Grained Probability Counting: Refined LogLog Algorithm'
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title: Fine-Grained Probability Counting: Refined LogLog Algorithm'
+  - 'published year: 2018'
+  - 'container title: 2018 IEEE International Conference on Big Data and Smart Computing (BigComp)'
+  short_quote: 'Crossref title: Fine-Grained Probability Counting: Refined LogLog Algorithm published year: 2018 container title: 2018 IEEE International Conference on Big Data and Smart Computing (BigComp)'
+  digest: 133a1b07f1bc80cb
+- source_id: openalex:6b027076ebd7ba77
+  url: https://openalex.org/W2099480861
+  title: Loglog Counting of Large Cardinalities
+  source_type: openalex
+  access_status: fetched
+  reliability: HIGH
+  extracted_facts:
+  - 'OpenAlex title: Loglog Counting of Large Cardinalities'
+  - 'publication year: 2003'
+  short_quote: 'OpenAlex title: Loglog Counting of Large Cardinalities publication year: 2003'
+  digest: e472617f3b2031a8
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

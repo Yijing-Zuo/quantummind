@@ -1,0 +1,74 @@
+id: AW-000717
+kind: context
+algorithm_id: AW-000717
+algorithm_name: Babai
+source_records:
+- access_status: metadata_only
+  digest: b0a451dc06a4d536
+  extracted_facts:
+  - 'AlgorithmWiki row name: Babai'
+  - 'domain: graph'
+  - 'time complexity: o(\exp(2n^{1/2}\log^2 n))'
+  - 'space complexity: O(n^2)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of vertices'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time o(\exp(2n^{1/2}\log^2 n)); space O(n^2). Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000717:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Babai
+  url: https://epubs.siam.org/doi/10.1137/0209018
+- access_status: fetched
+  digest: 5b4c43182d4ee61b
+  extracted_facts:
+  - 'DOI title: On the Complexity of Canonical Labeling of Strongly Regular Graphs'
+  - 'published year: 1980'
+  - 'container title: SIAM Journal on Computing'
+  reliability: HIGH
+  short_quote: ''
+  source_id: crossref:3e8acc64396d1de1
+  source_type: doi_metadata
+  title: On the Complexity of Canonical Labeling of Strongly Regular Graphs
+  url: https://doi.org/10.1137/0209018
+- access_status: failed
+  digest: e7ff35f5cdf048da
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:7c0156fd64e11f84
+  source_type: publisher_abstract
+  title: 'HTTP Error 403: Forbidden'
+  url: https://epubs.siam.org/doi/10.1137/0209018
+web_query_attempts:
+- method: search_plan
+  query: Babai algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Babai algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Babai problem definition
+  status: recorded
+- method: search_plan
+  query: Babai graph algorithm
+  status: recorded
+- method: search_plan
+  query: Babai site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Babai algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://epubs.siam.org/doi/10.1137/0209018
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1137/0209018
+  status: fetched
+- method: source_link_html_metadata
+  query: https://epubs.siam.org/doi/10.1137/0209018
+  status: failed
+extracted_problem_statement: 'Babai is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Babai. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'Babai is a graph algorithm record. Classical complexity metadata: time o(\exp(2n^{1/2}\log^2 n)); space O(n^2). The stated classical model is Word RAM. Public metadata/source text adds: Babai graph graph n: number of vertices o(\exp(2n^{1/2}\log^2 n)) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

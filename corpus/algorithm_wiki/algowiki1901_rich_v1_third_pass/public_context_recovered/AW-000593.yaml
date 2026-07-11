@@ -1,0 +1,14 @@
+statement: '5-point star Cramer''s rule is included as a named whole-algorithm context card for a classical graph task. The task is to analyze the classical input-output problem, not to certify an end-to-end improvement claim. Input semantics: An explicit graph with vertices, edges, weights, labels, or adjacency access as required by the row. Output semantics: A path, tree, component labeling, flow, matching, or witness object for the named graph task. Classical algorithm summary: 5-point star Cramer''s rule is reconstructed as a classical graph task. The source-backed title/name/fact record supports the task: solve the named graph task indicated by the public source metadata. Classical complexity recorded for this row: time O(4^{n^2}); space O(4^{(n^2)}) for sure, O(n^2) possibly (if super conservative); computation model Real RAM. Dominant bottleneck: Traversal, priority/frontier maintenance, and materializing graph outputs dominate. The useful review questions are whether the named structure
+  exposes a smaller decision, witness, estimation, or algebraic subproblem; whether the full output size dominates any asymptotic gain; and whether the stated access model is realistic for the original input. Provenance used for reconstruction includes public metadata or abstract sources such as Cramer Rule; Cramer Rule. Source-backed uncertainty or assumptions: The row should be reviewed if the source title does not specify the graph output exactly.'
+input_model: explicit_graph_problem
+access_model: adjacency_list_query
+output_contract: path_or_tree
+promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+size_parameters:
+- 'Parameter definition: n: dimension of grid (where grid is discretized)'
+ambiguities:
+- The row should be reviewed if the source title does not specify the graph output exactly.
+- Some details are reconstructed from AlgorithmWiki metadata rather than an independently fetched full public description.
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.

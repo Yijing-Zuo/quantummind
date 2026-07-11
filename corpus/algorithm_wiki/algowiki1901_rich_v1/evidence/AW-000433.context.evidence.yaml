@@ -1,0 +1,74 @@
+id: AW-000433
+kind: context
+algorithm_id: AW-000433
+algorithm_name: BOM (Backward Oracle Matching)
+source_records:
+- access_status: metadata_only
+  digest: e5d3bb478bdc93de
+  extracted_facts:
+  - 'AlgorithmWiki row name: BOM (Backward Oracle Matching)'
+  - 'domain: combinatorics'
+  - 'time complexity: O(mn)'
+  - 'space complexity: O(m)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: m: pattern length, n: length of searchable text'
+  - 'precard summary: Given an explicit combinatorial object or parameter set, compute the requested count, construction, witness set, or ordering. Baseline: time O(mn); space O(m). Bottleneck: search, enumeration, arithmetic, and witness materialization dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000433:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for BOM (Backward Oracle Matching)
+  url: https://link.springer.com/chapter/10.1007/3-540-47849-3_18
+- access_status: fetched
+  digest: 4c4f9aa69ef06a0b
+  extracted_facts:
+  - 'DOI title: Factor Oracle: A New Structure for Pattern Matching'
+  - 'published year: 1999'
+  - 'container title: Lecture Notes in Computer Science'
+  reliability: HIGH
+  short_quote: ''
+  source_id: crossref:12477a3a09a793f6
+  source_type: doi_metadata
+  title: 'Factor Oracle: A New Structure for Pattern Matching'
+  url: https://doi.org/10.1007/3-540-47849-3_18
+- access_status: skipped
+  digest: 5e1b8f8b37db81c3
+  extracted_facts:
+  - robots.txt disallowed fetch
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:8637092bb0fa86ac
+  source_type: publisher_abstract
+  title: robots.txt disallowed fetch
+  url: https://link.springer.com/chapter/10.1007/3-540-47849-3_18
+web_query_attempts:
+- method: search_plan
+  query: BOM (Backward Oracle Matching) algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: BOM (Backward Oracle Matching) algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: BOM (Backward Oracle Matching) problem definition
+  status: recorded
+- method: search_plan
+  query: BOM (Backward Oracle Matching) combinatorics algorithm
+  status: recorded
+- method: search_plan
+  query: BOM (Backward Oracle Matching) site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: BOM (Backward Oracle Matching) algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://link.springer.com/chapter/10.1007/3-540-47849-3_18
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1007/3-540-47849-3_18
+  status: fetched
+- method: source_link_html_metadata
+  query: https://link.springer.com/chapter/10.1007/3-540-47849-3_18
+  status: skipped
+extracted_problem_statement: 'BOM (Backward Oracle Matching) is treated as a classical combinatorics task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with BOM (Backward Oracle Matching). Input semantics: A finite combinatorial object, integer set, board, recurrence, or witness-search instance. Output semantics: Pattern occurrence positions, matches, or the associated string-search report.'
+extracted_algorithm_summary: 'BOM (Backward Oracle Matching) is a combinatorics algorithm record. Classical complexity metadata: time O(mn); space O(m). The stated classical model is Word RAM. Public metadata/source text adds: BOM (Backward Oracle Matching) combinatorics combinatorics m: pattern length, n: length of searchable text O(mn) Given an explicit combinatorial object or parameter set, compute the requested count, construction, witness set, or ordering.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

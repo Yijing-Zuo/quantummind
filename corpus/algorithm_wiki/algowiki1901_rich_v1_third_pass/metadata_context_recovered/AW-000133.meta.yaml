@@ -1,0 +1,65 @@
+algorithm_family: unknown
+algorithm_id: AW-000133
+approximate: '1'
+approximation_factor: ''
+blind_name: Algorithm Wiki public task AW-000133
+canonical_name: UKF
+computational_model: Real RAM
+domain: unknown
+extracted_description: ''
+extraction_version: algorithm-wiki-rich-third-pass-context-v1
+family: unknown
+inferred_access_model: random_access_string
+inferred_ambiguities:
+- Some details are reconstructed from AlgorithmWiki metadata rather than an independently fetched full public description.
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.
+inferred_input_model: explicit_numerical_problem
+inferred_output_contract: estimate
+inferred_problem_statement: 'UKF is treated as a source-saturated AlgorithmWiki row for estimate a latent state from a process model and noisy observations Input semantics: A state-transition model, observation model, covariance/noise parameters, and a sequence of measurements. Output semantics: A filtered or predicted state estimate, usually with covariance or uncertainty information.'
+inferred_promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+- classical_approximation_algorithm
+inferred_size_parameters:
+- 'Parameter definition: n: number of dimensions in state space'
+number_of_processors: ''
+page_digest: ''
+page_fetch_status: not_found
+page_url: ''
+parameter_definitions: 'n: number of dimensions in state space'
+problem_name: unknown
+quality_flags:
+- has_complexity_semantics
+- has_size_parameters
+- has_computational_model
+- approximation_flag_preserved
+quality_score: 100
+randomized: '0'
+readiness: READY_PUBLIC_CONTEXT
+review_reasons:
+- missing_problem_statement
+- unknown_input_model
+- unknown_access_model
+- unknown_output_contract
+- insufficient_algorithm_level_structure
+source_link: https://www.seas.harvard.edu/courses/cs281/papers/unscented.pdf
+source_link_type: pdf
+space_complexity: O(n^2)
+span_depth: ''
+time_complexity: O(n^3)
+variation: ''
+work: ''
+year: '2000'
+rich_card_kind: context_recovered
+source_records_used:
+- AW-000133:algorithm_wiki_metadata
+- crossref_search:b3dc2885f8a0225c
+- skipped:f1f6ac8771616f50
+- crossref_search:761184f2b181168a
+- arxiv:e89367dcb445a3ee
+source_count: 5
+source_quality: HIGH
+confidence_score: 100
+card_digest: 49355f59f11b698d
+third_pass_rule: kalman_state_estimation
+saturation_status: RECOVERED_CONTEXT

@@ -1,0 +1,58 @@
+id: AW-000973
+kind: context
+algorithm_id: AW-000973
+algorithm_name: Kmett
+source_records:
+- access_status: metadata_only
+  digest: 405ed1e7cc5cab40
+  extracted_facts:
+  - 'AlgorithmWiki row name: Kmett'
+  - 'domain: graph'
+  - 'time complexity: O(m*log(h))'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of vertices, m: number of total number of operations (queries, links, and cuts), h: height of tree'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(m*log(h)); processors O(n/log n). Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000973:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Kmett
+  url: https://www.schoolofhaskell.com/user/edwardk/online-lca
+- access_status: skipped
+  digest: 3b294eaa473fe1d9
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:142b2b656d89113d
+  source_type: other_public_source
+  title: fetch budget exhausted
+  url: https://www.schoolofhaskell.com/user/edwardk/online-lca
+web_query_attempts:
+- method: search_plan
+  query: Kmett algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Kmett algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Kmett problem definition
+  status: recorded
+- method: search_plan
+  query: Kmett graph algorithm
+  status: recorded
+- method: search_plan
+  query: Kmett site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Kmett algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://www.schoolofhaskell.com/user/edwardk/online-lca
+  status: recorded
+- method: source_link_html_metadata
+  query: https://www.schoolofhaskell.com/user/edwardk/online-lca
+  status: skipped
+extracted_problem_statement: 'Kmett is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Kmett. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'Kmett is a graph algorithm record. Classical complexity metadata: time O(m*log(h)); processors O(n/log n). The stated classical model is Word RAM. Public metadata/source text adds: Kmett graph graph n: number of vertices, m: number of total number of operations (queries, links, and cuts), h: height of tree O(m*log(h)) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

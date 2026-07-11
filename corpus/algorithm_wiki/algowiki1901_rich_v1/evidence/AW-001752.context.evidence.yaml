@@ -1,0 +1,59 @@
+id: AW-001752
+kind: context
+algorithm_id: AW-001752
+algorithm_name: Ma, Iwama, Takaoka, Gu
+source_records:
+- access_status: metadata_only
+  digest: 4da51e2d528b0879
+  extracted_facts:
+  - 'AlgorithmWiki row name: Ma, Iwama, Takaoka, Gu'
+  - 'domain: graph'
+  - 'time complexity: O(\\log^2 n)'
+  - 'space complexity: O(V^2)'
+  - 'computational model: PRAM - CREW'
+  - 'parameter definitions: n: number of vertices,, M(n) - number of processors needed to multiply two n x n matrices currently equal to n^\omega the matrix multiplication runnint time., , , ,'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(\\log^2 n); space O(V^2); work O(M(n)logn); span/depth O(\log^2 n); processors O(M(n) / logn). Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001752:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Ma, Iwama, Takaoka, Gu
+  url: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=581703
+- access_status: skipped
+  digest: bfb39bc43ab281ed
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:77c94d16429f558c
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=581703
+web_query_attempts:
+- method: search_plan
+  query: Ma, Iwama, Takaoka, Gu algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Ma, Iwama, Takaoka, Gu algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Ma, Iwama, Takaoka, Gu problem definition
+  status: recorded
+- method: search_plan
+  query: Ma, Iwama, Takaoka, Gu graph algorithm
+  status: recorded
+- method: search_plan
+  query: Ma, Iwama, Takaoka, Gu site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Ma, Iwama, Takaoka, Gu algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=581703
+  status: recorded
+- method: source_link_html_metadata
+  query: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=581703
+  status: skipped
+extracted_problem_statement: 'Ma, Iwama, Takaoka, Gu is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Ma, Iwama, Takaoka, Gu. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The matrix product or bilinear multiplication output.'
+extracted_algorithm_summary: 'Ma, Iwama, Takaoka, Gu is a graph algorithm record. Classical complexity metadata: time O(\\log^2 n); space O(V^2); work O(M(n)logn); span/depth O(\log^2 n); processors O(M(n) / logn). The stated classical model is PRAM - CREW. Public metadata/source text adds: Ma, Iwama, Takaoka, Gu graph graph n: number of vertices,, M(n) - number of processors needed to multiply two n x n matrices currently equal to n^\omega the matrix multiplication runnint time., , , , O(\\log^2 n) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

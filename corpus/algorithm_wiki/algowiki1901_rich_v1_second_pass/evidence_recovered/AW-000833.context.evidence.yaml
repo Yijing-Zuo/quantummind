@@ -1,0 +1,56 @@
+id: AW-000833
+kind: context_recovered
+algorithm_id: AW-000833
+algorithm_name: Naive Algorithm
+source_records:
+- access_status: metadata_only
+  digest: fb18016f8de8496c
+  extracted_facts:
+  - 'AlgorithmWiki row name: Naive Algorithm'
+  - 'domain: unknown'
+  - 'time complexity: O(n^n)'
+  - 'space complexity: O(n)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: size of chessboard'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000833:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Naive Algorithm
+  url: ''
+- source_id: crossref_search:b1ea5ba644f85af7
+  url: https://doi.org/10.1007/978-3-319-21936-3_15
+  title: "The \u201CNaive\u201D RSA Algorithm"
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - "Crossref title-search result: The \u201CNaive\u201D RSA Algorithm"
+  short_quote: ''
+  digest: c720c19c863a88d2
+web_query_attempts:
+- query: '"Naive Algorithm" algorithm'
+  method: search_plan
+  status: recorded
+- query: '"Naive Algorithm" input output'
+  method: search_plan
+  status: recorded
+- query: '"Naive Algorithm" time complexity'
+  method: search_plan
+  status: recorded
+- query: '"Naive Algorithm" pseudocode'
+  method: search_plan
+  status: recorded
+- query: '"Naive Algorithm" problem'
+  method: search_plan
+  status: recorded
+- query: '"Naive Algorithm" PDF metadata abstract'
+  method: search_plan
+  status: recorded
+- query: Naive Algorithm algorithm
+  method: crossref_title_search
+  status: fetched
+extracted_problem_statement: 'Naive Algorithm is reconstructed as a classical combinatorics task. Problem/task: place queens on a board subject to nonattacking constraints Input semantics: A board dimension n and a requested number of queens k when stated. Output semantics: A feasible placement or decision that no such placement exists.'
+extracted_algorithm_summary: "Naive Algorithm is treated as the named AlgorithmWiki variant for place queens on a board subject to nonattacking constraints Classical complexity metadata: time O(n^n); space O(n). Public metadata/source title support includes The \u201CNaive\u201D RSA Algorithm."
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

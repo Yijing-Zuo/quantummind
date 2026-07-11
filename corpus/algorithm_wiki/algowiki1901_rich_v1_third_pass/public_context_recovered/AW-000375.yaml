@@ -1,0 +1,14 @@
+statement: 'Braziunas & Boutilier 2004 is included as a named whole-algorithm context card for a classical dynamic programming task. The task is to analyze the classical input-output problem, not to certify an end-to-end improvement claim. Input semantics: A finite or factored decision process with states or belief states, actions, transitions, observations, rewards, and horizon/discount parameters. Output semantics: A policy, value function, plan tree, or approximate policy representation. Classical algorithm summary: Braziunas & Boutilier 2004 is reconstructed as a classical dynamic programming task. The source-backed title/name/fact record supports the task: compute a value function, policy, or approximate plan for a Markov decision process variant. Classical complexity recorded for this row: time not stated; space not stated; computation model not stated. Dominant bottleneck: Bellman backups, belief-state updates, sampling/search over policies, and representation size dominate. The useful
+  review questions are whether the named structure exposes a smaller decision, witness, estimation, or algebraic subproblem; whether the full output size dominates any asymptotic gain; and whether the stated access model is realistic for the original input. Provenance used for reconstruction includes public metadata or abstract sources such as A TRIBUTE TO BOB BOUTILIER; A TRIBUTE TO BOB BOUTILIER.'
+input_model: explicit_dynamic_programming_problem
+access_model: offline_batch_queries
+output_contract: path_or_tree
+promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+- classical_approximation_algorithm
+size_parameters:
+- 'n: primary input size parameter for the source-backed task.'
+ambiguities:
+- Some details are reconstructed from AlgorithmWiki metadata rather than an independently fetched full public description.
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.

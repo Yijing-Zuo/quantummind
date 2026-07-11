@@ -1,0 +1,59 @@
+id: AW-000225-P0217
+kind: probe
+algorithm_id: AW-000225
+algorithm_name: Williams
+source_records:
+- access_status: metadata_only
+  digest: 1ead6268f41d78f1
+  extracted_facts:
+  - 'AlgorithmWiki row name: Williams'
+  - 'domain: graph'
+  - 'time complexity: O(n^3/2^{\sqrt{\log n}})'
+  - 'space complexity: O(n^2)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of vertices, m: number of edges'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(n^3/2^{\sqrt{\log n}}); space O(n^2). Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000225:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Williams
+  url: https://dl.acm.org/citation.cfm?id=2591811
+- access_status: failed
+  digest: 5b91c2bf199d5465
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:0f7165b1967f10b8
+  source_type: publisher_abstract
+  title: 'HTTP Error 403: Forbidden'
+  url: https://dl.acm.org/citation.cfm?id=2591811
+web_query_attempts:
+- method: search_plan
+  query: Williams algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Williams algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Williams problem definition
+  status: recorded
+- method: search_plan
+  query: Williams graph algorithm
+  status: recorded
+- method: search_plan
+  query: Williams site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Williams algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://dl.acm.org/citation.cfm?id=2591811
+  status: recorded
+- method: source_link_html_metadata
+  query: https://dl.acm.org/citation.cfm?id=2591811
+  status: failed
+extracted_problem_statement: 'Williams is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Williams. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'Williams is a graph algorithm record. Classical complexity metadata: time O(n^3/2^{\sqrt{\log n}}); space O(n^2). The stated classical model is Word RAM. Public metadata/source text adds: Williams graph graph n: number of vertices, m: number of edges O(n^3/2^{\sqrt{\log n}}) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

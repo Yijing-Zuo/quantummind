@@ -1,0 +1,11 @@
+case_id: QM-PB-006
+statement: "Sort N items when the only allowed operation is a pairwise comparison, and output the complete sorted order."
+input_model: "comparison model"
+access_model: comparison_oracle
+output_contract: sorted_order
+promises:
+  - total_order
+size_parameters: [N]
+ambiguities:
+  - ties are outside the stated model
+

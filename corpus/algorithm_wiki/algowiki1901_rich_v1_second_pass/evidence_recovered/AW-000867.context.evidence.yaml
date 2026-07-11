@@ -1,0 +1,59 @@
+id: AW-000867
+kind: context_recovered
+algorithm_id: AW-000867
+algorithm_name: IDEA
+source_records:
+- access_status: metadata_only
+  digest: 801daa0f446cf691
+  extracted_facts:
+  - 'AlgorithmWiki row name: IDEA'
+  - 'domain: unknown'
+  - 'time complexity: O(n)'
+  - 'space complexity: O(n)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: text length (block size), k: key length'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000867:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for IDEA
+  url: NA
+- source_id: crossref_search:ad3593c7e7d1bf9d
+  url: https://doi.org/10.1080/01611190701215640
+  title: A Simplified IDEA Algorithm
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: A Simplified IDEA Algorithm'
+  short_quote: ''
+  digest: bd991ee4e4c7e3fb
+web_query_attempts:
+- query: '"IDEA" algorithm'
+  method: search_plan
+  status: recorded
+- query: '"IDEA" input output'
+  method: search_plan
+  status: recorded
+- query: '"IDEA" time complexity'
+  method: search_plan
+  status: recorded
+- query: '"IDEA" pseudocode'
+  method: search_plan
+  status: recorded
+- query: '"IDEA" problem'
+  method: search_plan
+  status: recorded
+- query: '"IDEA" PDF metadata abstract'
+  method: search_plan
+  status: recorded
+- query: NA
+  method: search_plan
+  status: recorded
+- query: IDEA algorithm
+  method: crossref_title_search
+  status: fetched
+extracted_problem_statement: 'IDEA is reconstructed as a classical string task. Problem/task: find occurrences of a pattern in a text Input semantics: A finite text string, a finite pattern string, and alphabet/hash/preprocessing parameters when stated. Output semantics: One or more occurrence positions or a report that no occurrence exists.'
+extracted_algorithm_summary: 'IDEA is treated as the named AlgorithmWiki variant for find occurrences of a pattern in a text Classical complexity metadata: time O(n); space O(n). Public metadata/source title support includes A Simplified IDEA Algorithm.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

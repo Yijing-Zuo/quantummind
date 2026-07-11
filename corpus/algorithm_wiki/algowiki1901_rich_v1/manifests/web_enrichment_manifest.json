@@ -1,0 +1,34 @@
+{
+  "input_metadata_count": 1901,
+  "network_fetches_remaining": 0,
+  "network_fetches_used": 900,
+  "note": "PDF bodies were skipped; fetched sources are public metadata, abstract pages, API metadata, or AlgorithmWiki metadata.",
+  "output_records": 1901,
+  "source_access_counts": {
+    "failed": 280,
+    "fetched": 341,
+    "metadata_only": 1901,
+    "skipped": 1196
+  },
+  "source_reliability_counts": {
+    "HIGH": 2189,
+    "LOW": 1523,
+    "MEDIUM": 6
+  },
+  "source_type_counts": {
+    "algorithm_wiki": 1901,
+    "arxiv_abstract": 63,
+    "doi_metadata": 641,
+    "nist_dads": 1,
+    "other_public_source": 235,
+    "publisher_abstract": 764,
+    "textbook_or_course_notes": 28,
+    "wikipedia": 85
+  },
+  "status_counts": {
+    "READY_METADATA_WITH_SOURCE": 1125,
+    "READY_WEB_ENRICHED": 217,
+    "WEB_INSUFFICIENT": 559
+  },
+  "timestamp": "2026-06-28T15:53:06.521674+00:00"
+}

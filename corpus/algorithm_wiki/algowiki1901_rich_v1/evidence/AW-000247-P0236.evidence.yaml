@@ -1,0 +1,59 @@
+id: AW-000247-P0236
+kind: probe
+algorithm_id: AW-000247
+algorithm_name: Randomized LU Decomposition
+source_records:
+- access_status: metadata_only
+  digest: 23cec20e018d5e49
+  extracted_facts:
+  - 'AlgorithmWiki row name: Randomized LU Decomposition'
+  - 'domain: matrix_linear_algebra'
+  - 'time complexity: O(n^3)'
+  - 'space complexity: \tilde{O}(nl + ml)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: m: number of rows in input matrix, n: number of columns in input matrix, l: number of columns chosen to use in the decomposition (l \geq k), k: desired rank of decomposition'
+  - 'precard summary: Given one or more explicit dense matrices over the stated arithmetic domain, compute the matrix or linear-algebraic output specified by the record. Baseline: time O(n^3); space \tilde{O}(nl + ml). Bottleneck: dense arithmetic and full matrix output dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000247:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Randomized LU Decomposition
+  url: https://www.sciencedirect.com/science/article/pii/S1063520316300069
+- access_status: failed
+  digest: 72deb356b2dd070e
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:6b78ffa5ed12326f
+  source_type: publisher_abstract
+  title: 'HTTP Error 403: Forbidden'
+  url: https://www.sciencedirect.com/science/article/pii/S1063520316300069
+web_query_attempts:
+- method: search_plan
+  query: Randomized LU Decomposition algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Randomized LU Decomposition algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Randomized LU Decomposition problem definition
+  status: recorded
+- method: search_plan
+  query: Randomized LU Decomposition matrix linear algebra algorithm
+  status: recorded
+- method: search_plan
+  query: Randomized LU Decomposition site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Randomized LU Decomposition algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://www.sciencedirect.com/science/article/pii/S1063520316300069
+  status: recorded
+- method: source_link_html_metadata
+  query: https://www.sciencedirect.com/science/article/pii/S1063520316300069
+  status: failed
+extracted_problem_statement: 'Randomized LU Decomposition is treated as a classical matrix linear algebra task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Randomized LU Decomposition. Input semantics: One or more explicit matrices or linear systems over the stated arithmetic domain. Output semantics: The requested matrix, decomposition, solution vector, or other linear-algebraic output.'
+extracted_algorithm_summary: 'Randomized LU Decomposition is a matrix linear algebra algorithm record. Classical complexity metadata: time O(n^3); space \tilde{O}(nl + ml). The stated classical model is Word RAM. Public metadata/source text adds: Randomized LU Decomposition matrix_linear_algebra matrix_linear_algebra m: number of rows in input matrix, n: number of columns in input matrix, l: number of columns chosen to use in the decomposition (l \geq k), k: desired rank of decomposition O(n^3) Given one or more explicit dense matrices over the stated arithmetic domain, compute the matrix or linear-algebraic output specified by the record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

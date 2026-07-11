@@ -1,0 +1,46 @@
+id: AW-000876
+kind: context
+algorithm_id: AW-000876
+algorithm_name: Lehmer's GCD algorithm
+source_records:
+- access_status: metadata_only
+  digest: 3ad610c770ac783e
+  extracted_facts:
+  - 'AlgorithmWiki row name: Lehmer''s GCD algorithm'
+  - 'domain: combinatorics'
+  - 'time complexity: O(n^2)'
+  - 'space complexity: O(n)'
+  - 'computational model: Word RAM words size O(1)'
+  - 'parameter definitions: n: sum of number of bits among the two integers'
+  - 'precard summary: Given an explicit combinatorial object or parameter set, compute the requested count, construction, witness set, or ordering. Baseline: time O(n^2); space O(n). Bottleneck: search, enumeration, arithmetic, and witness materialization dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000876:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Lehmer's GCD algorithm
+  url: ''
+web_query_attempts:
+- method: search_plan
+  query: Lehmer's GCD algorithm algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Lehmer's GCD algorithm algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Lehmer's GCD algorithm problem definition
+  status: recorded
+- method: search_plan
+  query: Lehmer's GCD algorithm combinatorics algorithm
+  status: recorded
+- method: search_plan
+  query: Lehmer's GCD algorithm site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Lehmer's GCD algorithm algorithm wiki
+  status: recorded
+- method: wikipedia_summary_search
+  query: Lehmer's GCD algorithm algorithm
+  status: failed_or_not_relevant
+extracted_problem_statement: 'Lehmer''s GCD algorithm is treated as a classical combinatorics task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Lehmer''s GCD algorithm. Input semantics: A finite combinatorial object, integer set, board, recurrence, or witness-search instance. Output semantics: A count, witness, construction, ordering, subset, cycle, or other finite combinatorial output.'
+extracted_algorithm_summary: 'Lehmer''s GCD algorithm is a combinatorics algorithm record. Classical complexity metadata: time O(n^2); space O(n). The stated classical model is Word RAM words size O(1). Public metadata/source text adds: Lehmer''s GCD algorithm combinatorics combinatorics n: sum of number of bits among the two integers O(n^2) Given an explicit combinatorial object or parameter set, compute the requested count, construction, witness set, or ordering.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

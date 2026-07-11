@@ -1,0 +1,56 @@
+algorithm_family: dynamic programming
+algorithm_id: AW-000099
+approximate: '0'
+approximation_factor: ''
+blind_name: Algorithm Wiki public task AW-000099
+canonical_name: Bellman dynamic programming algorithm
+computational_model: Word RAM
+domain: dynamic_programming
+extracted_description: ''
+extraction_version: algorithm-wiki-rich-context-v1
+family: dynamic_programming
+inferred_access_model: offline_batch_queries
+inferred_ambiguities:
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.
+inferred_input_model: explicit_dynamic_programming_problem
+inferred_output_contract: full_solution
+inferred_problem_statement: 'Bellman dynamic programming algorithm is treated as a classical dynamic programming task for rich AlgorithmWiki discovery. Problem/task: solve a subset-sum or target-sum dynamic-programming/search problem. Input semantics: A finite set or multiset of integers with a target sum parameter. Output semantics: A decision result, feasible subset witness, count, or optimized subset value for the target-sum instance, depending on the row.'
+inferred_promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+inferred_size_parameters:
+- 'Parameter definition: n: the number of integers in the set, t: the target sum'
+number_of_processors: ''
+page_digest: ''
+page_fetch_status: not_found
+page_url: ''
+parameter_definitions: 'n: the number of integers in the set, t: the target sum'
+problem_name: dynamic programming
+quality_flags:
+- domain_inferred
+- problem_statement_inferred
+- io_access_output_inferred
+- has_complexity_semantics
+- has_size_parameters
+- has_computational_model
+quality_score: 100
+randomized: '0'
+readiness: READY_PUBLIC_CONTEXT
+review_reasons: []
+source_link: https://onlinelibrary.wiley.com/doi/10.1002/nav.3800030107
+source_link_type: unknown
+space_complexity: O(t)
+span_depth: ''
+time_complexity: O(nt)
+variation: ''
+work: ''
+year: '1956'
+rich_card_kind: context
+source_records_used:
+- AW-000099:algorithm_wiki_metadata
+- crossref:4a719f7d35efa728
+- failed:663b0ec7b1aedc0a
+source_count: 3
+source_quality: HIGH
+confidence_score: 100
+card_digest: bae1428179e3f87f

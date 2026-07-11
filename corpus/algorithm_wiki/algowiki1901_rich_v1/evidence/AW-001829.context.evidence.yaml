@@ -1,0 +1,58 @@
+id: AW-001829
+kind: context
+algorithm_id: AW-001829
+algorithm_name: Belinskaya, DeAgostino, Storer
+source_records:
+- access_status: metadata_only
+  digest: 9d9d163415285712
+  extracted_facts:
+  - 'AlgorithmWiki row name: Belinskaya, DeAgostino, Storer'
+  - 'domain: string'
+  - 'time complexity: O(km + m\log{m})'
+  - 'computational model: massively parallel linear array of processors'
+  - 'parameter definitions: n: input length, m: max length of a string in the dictionary, k: optimality parameter \leq 1 (algo optimal within a factor (k+1)/k for any int)'
+  - 'precard summary: Given one or more explicit strings, compute the matching, indexing, alignment, or transformation output targeted by the record. Baseline: time O(km + m\log{m}); work O(n); span/depth O(km + m\log{m}); processors n/(km). Bottleneck: string scanning, preprocessing tables, and reporting matches dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001829:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Belinskaya, DeAgostino, Storer
+  url: https://ieeexplore.ieee.org/abstract/document/515507
+- access_status: skipped
+  digest: edd39e38958ff60e
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:a01fb7a827bd3816
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://ieeexplore.ieee.org/abstract/document/515507
+web_query_attempts:
+- method: search_plan
+  query: Belinskaya, DeAgostino, Storer algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Belinskaya, DeAgostino, Storer algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Belinskaya, DeAgostino, Storer problem definition
+  status: recorded
+- method: search_plan
+  query: Belinskaya, DeAgostino, Storer string algorithm
+  status: recorded
+- method: search_plan
+  query: Belinskaya, DeAgostino, Storer site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Belinskaya, DeAgostino, Storer algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://ieeexplore.ieee.org/abstract/document/515507
+  status: recorded
+- method: source_link_html_metadata
+  query: https://ieeexplore.ieee.org/abstract/document/515507
+  status: skipped
+extracted_problem_statement: 'Belinskaya, DeAgostino, Storer is treated as a classical string task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Belinskaya, DeAgostino, Storer. Input semantics: One or more finite strings, sequences, patterns, or alphabets. Output semantics: Pattern occurrence positions, matches, or the associated string-search report.'
+extracted_algorithm_summary: 'Belinskaya, DeAgostino, Storer is a string algorithm record. Classical complexity metadata: time O(km + m\log{m}); work O(n); span/depth O(km + m\log{m}); processors n/(km). The stated classical model is massively parallel linear array of processors. Public metadata/source text adds: Belinskaya, DeAgostino, Storer string string n: input length, m: max length of a string in the dictionary, k: optimality parameter \leq 1 (algo optimal within a factor (k+1)/k for any int) O(km + m\log{m}) Given one or more explicit strings, compute the matching, indexing, alignment, or transformation output targeted by the record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

@@ -1,0 +1,19 @@
+case_id: QM-PB-008
+title: "Quantum Oracle Interrogation: Getting all information for almost half the price"
+authors: [Wim van Dam]
+year: 1998
+venue: "FOCS 1998 / arXiv"
+official_url: "https://arxiv.org/abs/quant-ph/9805006"
+result_location: "abstract"
+result_type: upper_bound_with_full_output_caveat
+paraphrased_support: "The paper shows complete oracle recovery with N/2 plus lower-order queries, a constant-factor reduction rather than a sublinear asymptotic result."
+problem_model: "complete oracle string recovery"
+promise: "fixed binary oracle"
+access_model: coherent_boolean_oracle
+output_contract: full_oracle_string
+classical_complexity: "CLASSICAL: N queries for complete recovery"
+quantum_complexity: "QUERY: N/2 + O(sqrt(N)) queries for high-probability full recovery"
+claim_scope: QUERY
+caveats: [full output]
+source_status: PRIMARY_SOURCE_CHECKED
+

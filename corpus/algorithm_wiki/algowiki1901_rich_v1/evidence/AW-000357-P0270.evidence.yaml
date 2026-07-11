@@ -1,0 +1,36 @@
+id: AW-000357-P0270
+kind: probe
+algorithm_id: AW-000357
+algorithm_name: Controlled vertex/edge/face decimation - R. Ronfard and J. Rossignac 1996
+source_records:
+- access_status: metadata_only
+  digest: 60692d8115855d26
+  extracted_facts:
+  - 'AlgorithmWiki row name: Controlled vertex/edge/face decimation - R. Ronfard and J. Rossignac 1996'
+  - 'domain: unknown'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000357:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Controlled vertex/edge/face decimation - R. Ronfard and J. Rossignac 1996
+  url: ''
+web_query_attempts:
+- method: search_plan
+  query: Controlled vertex/edge/face decimation - R. Ronfard and J. Rossignac 1996 algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Controlled vertex/edge/face decimation - R. Ronfard and J. Rossignac 1996 algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Controlled vertex/edge/face decimation - R. Ronfard and J. Rossignac 1996 problem definition
+  status: recorded
+- method: search_plan
+  query: Controlled vertex/edge/face decimation - R. Ronfard and J. Rossignac 1996 site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Controlled vertex/edge/face decimation - R. Ronfard and J. Rossignac 1996 algorithm wiki
+  status: recorded
+extracted_problem_statement: 'Controlled vertex/edge/face decimation - R. Ronfard and J. Rossignac 1996 is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Controlled vertex/edge/face decimation - R. Ronfard and J. Rossignac 1996. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'Controlled vertex/edge/face decimation - R. Ronfard and J. Rossignac 1996 is a graph algorithm record. Classical complexity is not stated. Public metadata/source text adds: Controlled vertex/edge/face decimation - R.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

@@ -1,0 +1,35 @@
+algorithm_id: AW-000701
+canonical_name: Fellegi & Sunter Model
+enrichment_status: SECOND_PASS_INSUFFICIENT
+review_reasons:
+- No second-pass rule could identify source-backed task semantics.
+source_records:
+- access_status: metadata_only
+  digest: 6a8528eab3bd3ed9
+  extracted_facts:
+  - 'AlgorithmWiki row name: Fellegi & Sunter Model'
+  - 'domain: unknown'
+  - 'time complexity: O(n^3 k)'
+  - 'space complexity: O(k)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of records, k: number of features (can be up to O(\sqrt{n}))'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000701:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Fellegi & Sunter Model
+  url: https://courses.cs.washington.edu/courses/cse590q/04au/papers/Felligi69.pdf
+- source_id: crossref_search:982a7237fd56a6e8
+  url: https://doi.org/10.1007/0-387-69505-2_9
+  title: "Estimating the Parameters of the Fellegi\u2013Sunter Record Linkage Model"
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - "Crossref title-search result: Estimating the Parameters of the Fellegi\u2013Sunter Record Linkage Model"
+  short_quote: ''
+  digest: e79d544d6af755c9
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

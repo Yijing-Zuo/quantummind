@@ -1,0 +1,44 @@
+probe_id: AW-000460-P0342
+algorithm_id: AW-000460-P0342
+canonical_name: Durstenfeld's Algorithm 235 estimation_sampling_probe
+readiness: READY_PUBLIC_PROBE
+quality_score: 70
+probe_type: estimation_sampling_probe
+parent_algorithm_id: AW-000460
+parent_algorithm_name: Durstenfeld's Algorithm 235
+source_records_used:
+- AW-000460:algorithm_wiki_metadata
+- crossref:ff5a6c65bf8106ff
+- failed:dba4d9e0f5bdfc3b
+introduced_assumptions:
+- coherent_estimation_oracle
+- bounded_random_variable
+- coherent_sampler
+missing_from_original_problem:
+- sampler reversibility
+- variance bound
+- query-to-runtime translation
+original_output_contract: one_witness
+probe_output_contract: additive_estimate
+not_end_to_end_claim: true
+expected_authority: query_or_subroutine_hypothesis_only
+why_probe_is_scientifically_interesting: Estimation tasks can expose query-level structure even when the full algorithm remains classical.
+why_probe_may_fail: Sampling or approximation may not be the bottleneck, or coherent access may be more expensive than the original method.
+inferred_input_model: explicit_combinatorial_problem
+inferred_access_model: coherent_estimation_oracle
+inferred_output_contract: additive_estimate
+inferred_size_parameters:
+- 'Parameter definition: n: number of elements'
+inferred_promises:
+- bounded_random_variable
+- coherent_access
+- oracle_model_assumption
+inferred_ambiguities:
+- This probe is assumption-bearing and is not an end-to-end speedup claim.
+- variance bounds, coherent sampler construction, and tolerance mapping remain expert obligations
+- The parent context card and source records should be checked before live use.
+source_count: 3
+source_quality: HIGH
+confidence_score: 70
+card_digest: 392798cf93b4cc71
+extraction_version: algorithm-wiki-rich-probe-v1

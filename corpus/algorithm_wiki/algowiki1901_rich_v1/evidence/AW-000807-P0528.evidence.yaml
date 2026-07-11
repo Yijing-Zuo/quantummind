@@ -1,0 +1,75 @@
+id: AW-000807-P0528
+kind: probe
+algorithm_id: AW-000807
+algorithm_name: Nordbeck and Rystedt (Orientation)
+source_records:
+- access_status: metadata_only
+  digest: 07e91023ef3f8285
+  extracted_facts:
+  - 'AlgorithmWiki row name: Nordbeck and Rystedt (Orientation)'
+  - 'domain: graph'
+  - 'time complexity: O(n)'
+  - 'space complexity: O(1)'
+  - 'computational model: Real RAM'
+  - 'parameter definitions: n: number of edges of polygon'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(n); space O(1). Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000807:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Nordbeck and Rystedt (Orientation)
+  url: https://doi.org/10.1007/BF01934125
+- access_status: fetched
+  digest: 33b8ec00df3f7ab2
+  extracted_facts:
+  - 'DOI title: Computer cartography point-in-polygon programs'
+  - 'published year: 1967'
+  - 'container title: BIT'
+  reliability: HIGH
+  short_quote: ''
+  source_id: crossref:997c28a2be0f2205
+  source_type: doi_metadata
+  title: Computer cartography point-in-polygon programs
+  url: https://doi.org/10.1007/BF01934125
+- access_status: fetched
+  digest: e900ec8db6ccdb26
+  extracted_facts:
+  - 'source page title: Computer cartography point-in-polygon programs | BIT Numerical Mathematics | Springer Nature Link'
+  - 'source page description: The official statistics and census reports give figures only for administrative units.'
+  reliability: HIGH
+  short_quote: The official statistics and census reports give figures only for administrative units.
+  source_id: source:b470735f9fc046e6
+  source_type: doi_metadata
+  title: Computer cartography point-in-polygon programs | BIT Numerical Mathematics | Springer Nature Link
+  url: https://doi.org/10.1007/BF01934125
+web_query_attempts:
+- method: search_plan
+  query: Nordbeck and Rystedt (Orientation) algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Nordbeck and Rystedt (Orientation) algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Nordbeck and Rystedt (Orientation) problem definition
+  status: recorded
+- method: search_plan
+  query: Nordbeck and Rystedt (Orientation) graph algorithm
+  status: recorded
+- method: search_plan
+  query: Nordbeck and Rystedt (Orientation) site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Nordbeck and Rystedt (Orientation) algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://doi.org/10.1007/BF01934125
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1007/BF01934125
+  status: fetched
+- method: source_link_html_metadata
+  query: https://doi.org/10.1007/BF01934125
+  status: fetched
+extracted_problem_statement: 'Nordbeck and Rystedt (Orientation) is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Nordbeck and Rystedt (Orientation). Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'Nordbeck and Rystedt (Orientation) is a graph algorithm record. Classical complexity metadata: time O(n); space O(1). The stated classical model is Real RAM. Public metadata/source text adds: Nordbeck and Rystedt (Orientation) graph graph n: number of edges of polygon O(n) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

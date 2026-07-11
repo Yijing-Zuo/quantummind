@@ -1,0 +1,72 @@
+id: AW-001330
+kind: context
+algorithm_id: AW-001330
+algorithm_name: Gallo, Grigoriadis, Tarjan
+source_records:
+- access_status: metadata_only
+  digest: 14ba63042c01458b
+  extracted_facts:
+  - 'AlgorithmWiki row name: Gallo, Grigoriadis, Tarjan'
+  - 'domain: graph'
+  - 'time complexity: O(V^2 \log(V))'
+  - 'space complexity: can be derived'
+  - 'computational model: Communication network'
+  - 'parameter definitions: V: number of vertices, E: number of edges, U: maximum edge capacity'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(V^2 \log(V)); space can be derived; work O(V^3*log(V)); span/depth O(V^2 log(V)); processors V. Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001330:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Gallo, Grigoriadis, Tarjan
+  url: https://epubs.siam.org/doi/abs/10.1137/0218003
+- access_status: skipped
+  digest: 668215711b52a5eb
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:451f7b7c675fb425
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1137/0218003
+- access_status: skipped
+  digest: bb6caa7bb3902190
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:99cddc17e900d0a5
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://epubs.siam.org/doi/abs/10.1137/0218003
+web_query_attempts:
+- method: search_plan
+  query: Gallo, Grigoriadis, Tarjan algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Gallo, Grigoriadis, Tarjan algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Gallo, Grigoriadis, Tarjan problem definition
+  status: recorded
+- method: search_plan
+  query: Gallo, Grigoriadis, Tarjan graph algorithm
+  status: recorded
+- method: search_plan
+  query: Gallo, Grigoriadis, Tarjan site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Gallo, Grigoriadis, Tarjan algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://epubs.siam.org/doi/abs/10.1137/0218003
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1137/0218003
+  status: skipped
+- method: source_link_html_metadata
+  query: https://epubs.siam.org/doi/abs/10.1137/0218003
+  status: skipped
+extracted_problem_statement: 'Gallo, Grigoriadis, Tarjan is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Gallo, Grigoriadis, Tarjan. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'Gallo, Grigoriadis, Tarjan is a graph algorithm record. Classical complexity metadata: time O(V^2 \log(V)); space can be derived; work O(V^3*log(V)); span/depth O(V^2 log(V)); processors V. The stated classical model is Communication network. Public metadata/source text adds: Gallo, Grigoriadis, Tarjan graph graph V: number of vertices, E: number of edges, U: maximum edge capacity O(V^2 \log(V)) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

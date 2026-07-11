@@ -1,0 +1,72 @@
+id: AW-001686
+kind: context
+algorithm_id: AW-001686
+algorithm_name: Caceres, Deo, Sastry, Szwarcfiter
+source_records:
+- access_status: metadata_only
+  digest: 9b67e841afc86526
+  extracted_facts:
+  - 'AlgorithmWiki row name: Caceres, Deo, Sastry, Szwarcfiter'
+  - 'domain: graph'
+  - 'time complexity: O(\log^2 V)'
+  - 'space complexity: O(1)'
+  - 'computational model: CREW PRAM'
+  - 'parameter definitions: V: number of vertices, E: number of edges'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(\log^2 V); space O(1); work O(E \log V); span/depth O(log^2 V); processors O(E/log V). Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001686:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Caceres, Deo, Sastry, Szwarcfiter
+  url: https://www.worldscientific.com/doi/abs/10.1142/S0129626493000265
+- access_status: skipped
+  digest: f65a9fcec27dc037
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:947bb2a3f9c95608
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1142/S0129626493000265
+- access_status: skipped
+  digest: 737c5c5126549658
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:763e61e9114684f4
+  source_type: other_public_source
+  title: fetch budget exhausted
+  url: https://www.worldscientific.com/doi/abs/10.1142/S0129626493000265
+web_query_attempts:
+- method: search_plan
+  query: Caceres, Deo, Sastry, Szwarcfiter algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Caceres, Deo, Sastry, Szwarcfiter algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Caceres, Deo, Sastry, Szwarcfiter problem definition
+  status: recorded
+- method: search_plan
+  query: Caceres, Deo, Sastry, Szwarcfiter graph algorithm
+  status: recorded
+- method: search_plan
+  query: Caceres, Deo, Sastry, Szwarcfiter site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Caceres, Deo, Sastry, Szwarcfiter algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://www.worldscientific.com/doi/abs/10.1142/S0129626493000265
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1142/S0129626493000265
+  status: skipped
+- method: source_link_html_metadata
+  query: https://www.worldscientific.com/doi/abs/10.1142/S0129626493000265
+  status: skipped
+extracted_problem_statement: 'Caceres, Deo, Sastry, Szwarcfiter is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Caceres, Deo, Sastry, Szwarcfiter. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'Caceres, Deo, Sastry, Szwarcfiter is a graph algorithm record. Classical complexity metadata: time O(\log^2 V); space O(1); work O(E \log V); span/depth O(log^2 V); processors O(E/log V). The stated classical model is CREW PRAM. Public metadata/source text adds: Caceres, Deo, Sastry, Szwarcfiter graph graph V: number of vertices, E: number of edges O(\log^2 V) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

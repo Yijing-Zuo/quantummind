@@ -1,0 +1,66 @@
+algorithm_id: AW-000796
+canonical_name: Chubby (Mike Burrows)
+enrichment_status: THIRD_PASS_SATURATED_INSUFFICIENT
+review_reasons:
+- After the configured source-family cycles, no source-backed concrete task, input semantics, output semantics, and conservative access model could be established.
+source_records:
+- access_status: metadata_only
+  digest: 9cc6083228f4e20d
+  extracted_facts:
+  - 'AlgorithmWiki row name: Chubby (Mike Burrows)'
+  - 'domain: unknown'
+  - 'time complexity: O(n)'
+  - 'space complexity: O(f)'
+  - 'parameter definitions: n: number of clients, f: number of files'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000796:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Chubby (Mike Burrows)
+  url: https://dl.acm.org/doi/10.5555/1298455.1298487
+- access_status: failed
+  digest: 29f842b841673757
+  extracted_facts:
+  - 'HTTP Error 404: Not Found'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:43db333be4bb19f5
+  source_type: doi_metadata
+  title: 'HTTP Error 404: Not Found'
+  url: https://doi.org/10.5555/1298455.1298487
+- access_status: failed
+  digest: b66ed5d7841539ae
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:4168e4775f84d2db
+  source_type: publisher_abstract
+  title: 'HTTP Error 403: Forbidden'
+  url: https://dl.acm.org/doi/10.5555/1298455.1298487
+- access_status: fetched
+  digest: b52d04798966a255
+  extracted_facts:
+  - "Crossref title-search result: Burrows, Michael [Mike] (1943\u20132022), engineer and cycle designer"
+  reliability: MEDIUM
+  short_quote: ''
+  source_id: crossref_search:76082d59fb7708c6
+  source_type: doi_metadata
+  title: "Burrows, Michael [Mike] (1943\u20132022), engineer and cycle designer"
+  url: https://doi.org/10.1093/odnb/9780198614128.013.90000383058
+- source_id: openalex:a5aca0424008f137
+  url: https://openalex.org/W1992479210
+  title: The Chubby lock service for loosely-coupled distributed systems
+  source_type: openalex
+  access_status: fetched
+  reliability: HIGH
+  extracted_facts:
+  - 'OpenAlex title: The Chubby lock service for loosely-coupled distributed systems'
+  - 'publication year: 2006'
+  - 'abstract summary: We describe our experiences with the Chubby lock service, which is intended to provide coarse-grained locking as well as reliable (though low-volume) storage for a loosely-coupled distributed system.'
+  short_quote: 'OpenAlex title: The Chubby lock service for loosely-coupled distributed systems publication year: 2006 abstract summary: We describe our experiences with the Chubby lock service,'
+  digest: c0160cf0e3a55b3d
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

@@ -1,0 +1,58 @@
+id: AW-000922
+kind: context
+algorithm_id: AW-000922
+algorithm_name: Dynamic 2-d Convex Hull, Overmars and van Leeuwen
+source_records:
+- access_status: metadata_only
+  digest: 203a0beb67e38012
+  extracted_facts:
+  - 'AlgorithmWiki row name: Dynamic 2-d Convex Hull, Overmars and van Leeuwen'
+  - 'domain: computational_geometry'
+  - 'time complexity: O(log^2(n)) per operation, O(n*log^2(n)) total'
+  - 'computational model: Real RAM'
+  - 'parameter definitions: n: number of line segments, h: number of points on the convex hull'
+  - 'precard summary: Given explicit geometric objects such as points, segments, or polygons, compute the requested geometric structure or witness set. Baseline: time O(log^2(n)) per operation, O(n*log^2(n)) total. Bottleneck: geometric predicates, ordering events, and output-sensitive structure size dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000922:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Dynamic 2-d Convex Hull, Overmars and van Leeuwen
+  url: https://www.sciencedirect.com/science/article/pii/002200008190012X?via%3Dihub
+- access_status: failed
+  digest: 3d80b7dc80996bc4
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:3dbc41f02d924ce2
+  source_type: publisher_abstract
+  title: 'HTTP Error 403: Forbidden'
+  url: https://www.sciencedirect.com/science/article/pii/002200008190012X?via%3Dihub
+web_query_attempts:
+- method: search_plan
+  query: Dynamic 2-d Convex Hull, Overmars and van Leeuwen algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Dynamic 2-d Convex Hull, Overmars and van Leeuwen algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Dynamic 2-d Convex Hull, Overmars and van Leeuwen problem definition
+  status: recorded
+- method: search_plan
+  query: Dynamic 2-d Convex Hull, Overmars and van Leeuwen computational geometry algorithm
+  status: recorded
+- method: search_plan
+  query: Dynamic 2-d Convex Hull, Overmars and van Leeuwen site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Dynamic 2-d Convex Hull, Overmars and van Leeuwen algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://www.sciencedirect.com/science/article/pii/002200008190012X?via%3Dihub
+  status: recorded
+- method: source_link_html_metadata
+  query: https://www.sciencedirect.com/science/article/pii/002200008190012X?via%3Dihub
+  status: failed
+extracted_problem_statement: 'Dynamic 2-d Convex Hull, Overmars and van Leeuwen is treated as a classical computational geometry task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Dynamic 2-d Convex Hull, Overmars and van Leeuwen. Input semantics: Explicit geometric objects such as points, line segments, polygons, or planar subdivisions. Output semantics: The requested geometric structure, simplified curve, clipping result, intersection set, hull, or diagram.'
+extracted_algorithm_summary: 'Dynamic 2-d Convex Hull, Overmars and van Leeuwen is a computational geometry algorithm record. Classical complexity metadata: time O(log^2(n)) per operation, O(n*log^2(n)) total. The stated classical model is Real RAM. Public metadata/source text adds: Dynamic 2-d Convex Hull, Overmars and van Leeuwen computational_geometry computational_geometry n: number of line segments, h: number of points on the convex hull O(log^2(n)) per operation, O(n*log^2(n)) total Given explicit geometric objects such as points, segments, or polygons, compute the requested geometric structure or witness set.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

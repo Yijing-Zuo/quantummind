@@ -1,0 +1,57 @@
+algorithm_family: unknown
+algorithm_id: AW-001015
+approximate: ''
+approximation_factor: ''
+blind_name: Algorithm Wiki public task AW-001015
+canonical_name: Chan
+computational_model: ''
+domain: unknown
+extracted_description: ''
+extraction_version: algorithm-wiki-rich-third-pass-context-v1
+family: unknown
+inferred_access_model: adjacency_list_query
+inferred_ambiguities:
+- The row should be reviewed if the source title does not specify the graph output exactly.
+- Some details are reconstructed from AlgorithmWiki metadata rather than an independently fetched full public description.
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.
+inferred_input_model: explicit_graph_problem
+inferred_output_contract: path_or_tree
+inferred_problem_statement: 'Chan is treated as a source-saturated AlgorithmWiki row for solve the named graph task indicated by the public source metadata Input semantics: An explicit graph with vertices, edges, weights, labels, or adjacency access as required by the row. Output semantics: A path, tree, component labeling, flow, matching, or witness object for the named graph task.'
+inferred_promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+inferred_size_parameters:
+- 'n: primary input size parameter for the source-backed task.'
+number_of_processors: ''
+page_digest: ''
+page_fetch_status: not_found
+page_url: ''
+parameter_definitions: ''
+problem_name: unknown
+quality_flags: []
+quality_score: 100
+randomized: ''
+readiness: READY_PUBLIC_CONTEXT
+review_reasons:
+- A previous row has the same canonicalized algorithm name.
+source_link: https://dl.acm.org/doi/pdf/10.1145/2344422.2344424
+source_link_type: acm
+space_complexity: ''
+span_depth: ''
+time_complexity: ''
+variation: ''
+work: ''
+year: '2012'
+rich_card_kind: context_recovered
+source_records_used:
+- AW-001015:algorithm_wiki_metadata
+- skipped:6d139e0377446e94
+- crossref:989d5cbb665cdd7f
+- crossref_search:0b18e1bdccf3f416
+- skipped:4ddc9f46b9a3270a
+source_count: 5
+source_quality: HIGH
+confidence_score: 100
+card_digest: 10c1ffbc9d59eb1b
+third_pass_rule: third_pass_reuse_named_graph_problem
+saturation_status: RECOVERED_CONTEXT

@@ -1,0 +1,38 @@
+algorithm_id: AW-000827
+canonical_name: Pohlig-Hellman
+enrichment_status: WEB_INSUFFICIENT
+review_reasons:
+- missing_concrete_problem_statement
+- unknown_input_model
+- unknown_output_contract
+- unknown_access_model
+source_records:
+- access_status: metadata_only
+  digest: df413cec8719c928
+  extracted_facts:
+  - 'AlgorithmWiki row name: Pohlig-Hellman'
+  - 'domain: unknown'
+  - 'time complexity: O(2^{\sqrt{n}})'
+  - 'space complexity: O(2^{\sqrt{n}}) (though only for primes)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of digits/bits in the order of the finite group'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000827:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Pohlig-Hellman
+  url: https://dl.acm.org/citation.cfm?id=2269283
+- access_status: failed
+  digest: 4b242fdf0f2f7b76
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:d29327b872dff858
+  source_type: publisher_abstract
+  title: 'HTTP Error 403: Forbidden'
+  url: https://dl.acm.org/citation.cfm?id=2269283
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

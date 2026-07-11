@@ -1,0 +1,56 @@
+id: AW-001640
+kind: context
+algorithm_id: AW-001640
+algorithm_name: Karatsuba
+source_records:
+- access_status: metadata_only
+  digest: adaeef40e37ef84e
+  extracted_facts:
+  - 'AlgorithmWiki row name: Karatsuba'
+  - 'domain: parallel_algorithms'
+  - 'computational model: PRAM'
+  - 'precard summary: Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model. Baseline: work O(n^log_2(3)); span/depth O(log^2 n). Bottleneck: work, span, communication, and processor-count assumptions dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001640:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Karatsuba
+  url: https://www.researchgate.net/publication/234346907_Multiplication_of_Multidigit_Numbers_on_Automata
+- access_status: skipped
+  digest: 77e3360a409a2595
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:d06bb2cef3bee26e
+  source_type: other_public_source
+  title: fetch budget exhausted
+  url: https://www.researchgate.net/publication/234346907_Multiplication_of_Multidigit_Numbers_on_Automata
+web_query_attempts:
+- method: search_plan
+  query: Karatsuba algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Karatsuba algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Karatsuba problem definition
+  status: recorded
+- method: search_plan
+  query: Karatsuba parallel algorithms algorithm
+  status: recorded
+- method: search_plan
+  query: Karatsuba site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Karatsuba algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://www.researchgate.net/publication/234346907_Multiplication_of_Multidigit_Numbers_on_Automata
+  status: recorded
+- method: source_link_html_metadata
+  query: https://www.researchgate.net/publication/234346907_Multiplication_of_Multidigit_Numbers_on_Automata
+  status: skipped
+extracted_problem_statement: 'Karatsuba is treated as a classical parallel algorithms task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Karatsuba. Input semantics: The classical input instance named by the row, together with processor/work/span parameters when stated. Output semantics: The same mathematical output as the underlying classical task, annotated by work/span when available.'
+extracted_algorithm_summary: 'Karatsuba is a parallel algorithms algorithm record. Classical complexity metadata: work O(n^log_2(3)); span/depth O(log^2 n). The stated classical model is PRAM. Public metadata/source text adds: Karatsuba parallel_algorithms parallel_algorithms Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

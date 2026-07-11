@@ -1,0 +1,71 @@
+id: AW-001662
+kind: context
+algorithm_id: AW-001662
+algorithm_name: Hagerup (3)
+source_records:
+- access_status: metadata_only
+  digest: cd011881c882f27d
+  extracted_facts:
+  - 'AlgorithmWiki row name: Hagerup (3)'
+  - 'domain: parallel_algorithms'
+  - 'time complexity: O(\log^2 n)'
+  - 'computational model: EREW PRAM'
+  - 'parameter definitions: n: number of elements to permute'
+  - 'precard summary: Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model. Baseline: time O(\log^2 n); work O(n \log n); span/depth O(log^2 n); processors O(n/log n). Bottleneck: work, span, communication, and processor-count assumptions dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001662:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Hagerup (3)
+  url: https://link.springer.com/chapter/10.1007/3-540-54233-7_153
+- access_status: skipped
+  digest: 0353bdf3536d3454
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:5a173a9421a48da2
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1007/3-540-54233-7_153
+- access_status: skipped
+  digest: 8a9431e14bda3d80
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:f0733a68073f955c
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://link.springer.com/chapter/10.1007/3-540-54233-7_153
+web_query_attempts:
+- method: search_plan
+  query: Hagerup (3) algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Hagerup (3) algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Hagerup (3) problem definition
+  status: recorded
+- method: search_plan
+  query: Hagerup (3) parallel algorithms algorithm
+  status: recorded
+- method: search_plan
+  query: Hagerup (3) site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Hagerup (3) algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://link.springer.com/chapter/10.1007/3-540-54233-7_153
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1007/3-540-54233-7_153
+  status: skipped
+- method: source_link_html_metadata
+  query: https://link.springer.com/chapter/10.1007/3-540-54233-7_153
+  status: skipped
+extracted_problem_statement: 'Hagerup (3) is treated as a classical parallel algorithms task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Hagerup (3). Input semantics: The classical input instance named by the row, together with processor/work/span parameters when stated. Output semantics: The same mathematical output as the underlying classical task, annotated by work/span when available.'
+extracted_algorithm_summary: 'Hagerup (3) is a parallel algorithms algorithm record. Classical complexity metadata: time O(\log^2 n); work O(n \log n); span/depth O(log^2 n); processors O(n/log n). The stated classical model is EREW PRAM. Public metadata/source text adds: Hagerup (3) parallel_algorithms parallel_algorithms n: number of elements to permute O(\log^2 n) Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

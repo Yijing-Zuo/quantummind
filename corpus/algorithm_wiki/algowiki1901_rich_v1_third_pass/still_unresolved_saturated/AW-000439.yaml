@@ -1,0 +1,82 @@
+algorithm_id: AW-000439
+canonical_name: Hash join
+enrichment_status: THIRD_PASS_SATURATED_INSUFFICIENT
+review_reasons:
+- After the configured source-family cycles, no source-backed concrete task, input semantics, output semantics, and conservative access model could be established.
+source_records:
+- access_status: metadata_only
+  digest: cf2ea77194f5926c
+  extracted_facts:
+  - 'AlgorithmWiki row name: Hash join'
+  - 'domain: unknown'
+  - 'time complexity: O(n+m)'
+  - 'space complexity: O(n+m)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n, m: sizes of input tables'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000439:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Hash join
+  url: '-'
+- access_status: fetched
+  digest: de56865b6a2b405e
+  extracted_facts:
+  - 'Crossref title-search result: Progressive Hash-Merge Join Algorithm'
+  reliability: MEDIUM
+  short_quote: ''
+  source_id: crossref_search:9a93bafec56e588c
+  source_type: doi_metadata
+  title: Progressive Hash-Merge Join Algorithm
+  url: https://doi.org/10.1109/paciia.2008.234
+- source_id: crossref_search:a2e8149e38dae03a
+  url: https://doi.org/10.1007/978-0-387-39940-9_869
+  title: Hash Join
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title: Hash Join'
+  - 'published year: 2009'
+  - 'container title: Encyclopedia of Database Systems'
+  short_quote: 'Crossref title: Hash Join published year: 2009 container title: Encyclopedia of Database Systems'
+  digest: 90d29e6d15227dce
+- source_id: openalex:caae5a480dcb560c
+  url: https://openalex.org/W2067082782
+  title: Spatial hash-joins
+  source_type: openalex
+  access_status: fetched
+  reliability: HIGH
+  extracted_facts:
+  - 'OpenAlex title: Spatial hash-joins'
+  - 'publication year: 1996'
+  - 'abstract summary: We examine how to apply the hash-join paradigm to spatial joins, and define a new framework for spatial hash-joins.'
+  short_quote: 'OpenAlex title: Spatial hash-joins publication year: 1996 abstract summary: We examine how to apply the hash-join paradigm to spatial joins, and define a new'
+  digest: 2f6a421ec00ce260
+- source_id: semantic_scholar:fa4918e955822367
+  url: https://www.semanticscholar.org/paper/1d5a67938c29f612d38bf29df24d6bf4178c0f49
+  title: Towards a Memory-Adaptive Hybrid Hash Join Design
+  source_type: semantic_scholar
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Semantic Scholar title: Towards a Memory-Adaptive Hybrid Hash Join Design'
+  - 'published year: 2023'
+  - 'abstract summary: In database management systems (DBMSs) that handle multiple concurrent queries, adapting to fluctuating workloads is crucial.'
+  short_quote: 'Semantic Scholar title: Towards a Memory-Adaptive Hybrid Hash Join Design published year: 2023 abstract summary: In database management systems (DBMSs) that handle multiple concurrent'
+  digest: b4c35df1ef94aa63
+- source_id: wikidata:d61db5b06f63ab37
+  url: http://www.wikidata.org/entity/Q4060691
+  title: hash join
+  source_type: wikidata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - hash join
+  - algorithm used in relational databases
+  short_quote: hash join algorithm used in relational databases
+  digest: 6c4156ab8267c429
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

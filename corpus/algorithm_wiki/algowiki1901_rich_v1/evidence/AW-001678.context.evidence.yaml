@@ -1,0 +1,71 @@
+id: AW-001678
+kind: context
+algorithm_id: AW-001678
+algorithm_name: Tchendji, Zeutouo
+source_records:
+- access_status: metadata_only
+  digest: 0b3576713d71b2a5
+  extracted_facts:
+  - 'AlgorithmWiki row name: Tchendji, Zeutouo'
+  - 'domain: parallel_algorithms'
+  - 'time complexity: O(n^2/p + k*sqrt(p))'
+  - 'computational model: CGM'
+  - 'parameter definitions: n: number of elements, p: number of processors, k: integer parameter (for partitioning technique in algorithm)'
+  - 'precard summary: Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model. Baseline: time O(n^2/p + k*sqrt(p)); work O(n^2); span/depth O(n^(2/3)); processors p. Bottleneck: work, span, communication, and processor-count assumptions dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001678:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Tchendji, Zeutouo
+  url: https://link.springer.com/article/10.1007/s41019-019-0093-9
+- access_status: skipped
+  digest: 6ff19f6cc90f7081
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:bfe384181a297b34
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1007/s41019-019-0093-9
+- access_status: skipped
+  digest: 8ca4f59d44abdf5b
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:332e454ccf81e74a
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://link.springer.com/article/10.1007/s41019-019-0093-9
+web_query_attempts:
+- method: search_plan
+  query: Tchendji, Zeutouo algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Tchendji, Zeutouo algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Tchendji, Zeutouo problem definition
+  status: recorded
+- method: search_plan
+  query: Tchendji, Zeutouo parallel algorithms algorithm
+  status: recorded
+- method: search_plan
+  query: Tchendji, Zeutouo site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Tchendji, Zeutouo algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://link.springer.com/article/10.1007/s41019-019-0093-9
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1007/s41019-019-0093-9
+  status: skipped
+- method: source_link_html_metadata
+  query: https://link.springer.com/article/10.1007/s41019-019-0093-9
+  status: skipped
+extracted_problem_statement: 'Tchendji, Zeutouo is treated as a classical parallel algorithms task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Tchendji, Zeutouo. Input semantics: The classical input instance named by the row, together with processor/work/span parameters when stated. Output semantics: The same mathematical output as the underlying classical task, annotated by work/span when available.'
+extracted_algorithm_summary: 'Tchendji, Zeutouo is a parallel algorithms algorithm record. Classical complexity metadata: time O(n^2/p + k*sqrt(p)); work O(n^2); span/depth O(n^(2/3)); processors p. The stated classical model is CGM. Public metadata/source text adds: Tchendji, Zeutouo parallel_algorithms parallel_algorithms n: number of elements, p: number of processors, k: integer parameter (for partitioning technique in algorithm) O(n^2/p + k*sqrt(p)) Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

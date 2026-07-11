@@ -1,0 +1,59 @@
+id: AW-000421-P0304
+kind: probe
+algorithm_id: AW-000421
+algorithm_name: Bader & Cong Parallel Implementation
+source_records:
+- access_status: metadata_only
+  digest: 99e5bae420ff0e7f
+  extracted_facts:
+  - 'AlgorithmWiki row name: Bader & Cong Parallel Implementation'
+  - 'domain: graph'
+  - 'time complexity: O(E \log(V)/p)'
+  - 'space complexity: O(V)'
+  - 'computational model: PRAM/SMPs'
+  - 'parameter definitions: V: number of vertices, E: number of edges, U: maximum edge weight, p: number of processors'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(E \log(V)/p); space O(V); processors p. Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000421:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Bader & Cong Parallel Implementation
+  url: https://www.sciencedirect.com/science/article/pii/S0743731506001262
+- access_status: failed
+  digest: 0a50db5b690cd4a0
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:c48aa27616caa4e6
+  source_type: publisher_abstract
+  title: 'HTTP Error 403: Forbidden'
+  url: https://www.sciencedirect.com/science/article/pii/S0743731506001262
+web_query_attempts:
+- method: search_plan
+  query: Bader & Cong Parallel Implementation algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Bader & Cong Parallel Implementation algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Bader & Cong Parallel Implementation problem definition
+  status: recorded
+- method: search_plan
+  query: Bader & Cong Parallel Implementation graph algorithm
+  status: recorded
+- method: search_plan
+  query: Bader & Cong Parallel Implementation site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Bader & Cong Parallel Implementation algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://www.sciencedirect.com/science/article/pii/S0743731506001262
+  status: recorded
+- method: source_link_html_metadata
+  query: https://www.sciencedirect.com/science/article/pii/S0743731506001262
+  status: failed
+extracted_problem_statement: 'Bader & Cong Parallel Implementation is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Bader & Cong Parallel Implementation. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'Bader & Cong Parallel Implementation is a graph algorithm record. Classical complexity metadata: time O(E \log(V)/p); space O(V); processors p. The stated classical model is PRAM/SMPs. Public metadata/source text adds: Bader & Cong Parallel Implementation graph graph V: number of vertices, E: number of edges, U: maximum edge weight, p: number of processors O(E \log(V)/p) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

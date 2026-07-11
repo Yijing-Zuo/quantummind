@@ -1,0 +1,60 @@
+algorithm_family: computational geometry
+algorithm_id: AW-001395
+approximate: '0'
+approximation_factor: ''
+blind_name: Algorithm Wiki public task AW-001395
+canonical_name: "R\xFCb"
+computational_model: CREW PRAM
+domain: computational_geometry
+extracted_description: ''
+extraction_version: algorithm-wiki-rich-context-v1
+family: computational_geometry
+inferred_access_model: explicit_geometric_objects
+inferred_ambiguities:
+- No independent fetched public metadata source resolved this row beyond AlgorithmWiki metadata/source-link facts.
+- Some details are reconstructed from AlgorithmWiki metadata rather than an independently fetched full public description.
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.
+inferred_input_model: explicit_geometry_problem
+inferred_output_contract: full_solution
+inferred_problem_statement: "R\xFCb is treated as a classical computational geometry task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with R\xFCb. Input semantics: Explicit geometric objects such as points, line segments, polygons, or planar subdivisions. Output semantics: The requested geometric structure, simplified curve, clipping result, intersection set, hull, or diagram."
+inferred_promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+- classical_parallel_model_recorded
+inferred_size_parameters:
+- "Parameter definition: n: number of line segments, k: number of points of intersection, p: number of processors p \u2264 n+k"
+- p = stated number of processors (p)
+number_of_processors: p
+page_digest: ''
+page_fetch_status: not_found
+page_url: ''
+parameter_definitions: "n: number of line segments, k: number of points of intersection, p: number of processors p \u2264 n+k"
+problem_name: computational geometry
+quality_flags:
+- domain_inferred
+- problem_statement_inferred
+- io_access_output_inferred
+- has_complexity_semantics
+- has_size_parameters
+- has_computational_model
+quality_score: 100
+randomized: '0'
+readiness: READY_PUBLIC_CONTEXT
+review_reasons: []
+source_link: https://link.springer.com/article/10.1007/BF01758839
+source_link_type: unknown
+space_complexity: O(n+k) total
+span_depth: O(log n log log n)
+time_complexity: O(((n+k) \log n \log \log n)/p)
+variation: ''
+work: O((n+k) \log n \log \log n)
+year: '1992'
+rich_card_kind: context
+source_records_used:
+- AW-001395:algorithm_wiki_metadata
+- skipped:eb8ad98edbb963ab
+- skipped:52ad7e8b7c7e96d6
+source_count: 3
+source_quality: HIGH
+confidence_score: 100
+card_digest: e443bff7172eaf58

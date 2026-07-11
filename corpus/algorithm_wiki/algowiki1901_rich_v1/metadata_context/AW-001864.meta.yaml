@@ -1,0 +1,60 @@
+algorithm_family: string
+algorithm_id: AW-001864
+approximate: '0'
+approximation_factor: ''
+blind_name: Algorithm Wiki public task AW-001864
+canonical_name: Apostolico, Iliopoulos, Landau, Schieber, Vishkin
+computational_model: CRCW PRAM
+domain: string
+extracted_description: ''
+extraction_version: algorithm-wiki-rich-context-v1
+family: string
+inferred_access_model: random_access_string
+inferred_ambiguities:
+- No independent fetched public metadata source resolved this row beyond AlgorithmWiki metadata/source-link facts.
+- Some details are reconstructed from AlgorithmWiki metadata rather than an independently fetched full public description.
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.
+inferred_input_model: explicit_string_problem
+inferred_output_contract: full_solution
+inferred_problem_statement: 'Apostolico, Iliopoulos, Landau, Schieber, Vishkin is treated as a classical string task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Apostolico, Iliopoulos, Landau, Schieber, Vishkin. Input semantics: One or more finite strings, sequences, patterns, or alphabets. Output semantics: Pattern occurrence positions, matches, or the associated string-search report.'
+inferred_promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+- classical_parallel_model_recorded
+inferred_size_parameters:
+- 'Parameter definition: n: length of string, eps: (exponent on space usage) - 1'
+- p = stated number of processors (O(n))
+number_of_processors: O(n)
+page_digest: ''
+page_fetch_status: not_found
+page_url: ''
+parameter_definitions: 'n: length of string, eps: (exponent on space usage) - 1'
+problem_name: string
+quality_flags:
+- domain_inferred
+- problem_statement_inferred
+- io_access_output_inferred
+- has_complexity_semantics
+- has_size_parameters
+- has_computational_model
+quality_score: 100
+randomized: '0'
+readiness: READY_PUBLIC_CONTEXT
+review_reasons: []
+source_link: https://link.springer.com/article/10.1007/BF01762122
+source_link_type: unknown
+space_complexity: O(n)
+span_depth: O((log n)/eps)
+time_complexity: O((\log n)/eps)
+variation: ''
+work: O((n \log n)/eps)
+year: '1988'
+rich_card_kind: context
+source_records_used:
+- AW-001864:algorithm_wiki_metadata
+- skipped:1f4b26bb799e8f0a
+- skipped:9f9c775f0bd9d90b
+source_count: 3
+source_quality: HIGH
+confidence_score: 100
+card_digest: 7c83f0797fe26573

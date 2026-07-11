@@ -1,0 +1,62 @@
+id: AW-000144
+kind: context
+algorithm_id: AW-000144
+algorithm_name: Cube Sort Parallel Implementation
+source_records:
+- access_status: metadata_only
+  digest: 805b40e35343fcb6
+  extracted_facts:
+  - 'AlgorithmWiki row name: Cube Sort Parallel Implementation'
+  - 'domain: sorting'
+  - 'time complexity: O(n \log n)'
+  - 'space complexity: O(n)'
+  - 'computational model: Parallel RAM'
+  - 'parameter definitions: n: size of list'
+  - 'precard summary: Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model. Baseline: time O(n \log n); space O(n). Bottleneck: comparison, distribution, and full-output movement costs dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000144:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Cube Sort Parallel Implementation
+  url: https://www.sciencedirect.com/science/article/pii/0196677492900166?via%3Dihub
+- access_status: failed
+  digest: b7f170558ae4e394
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:3e8bb01fdb01d841
+  source_type: publisher_abstract
+  title: 'HTTP Error 403: Forbidden'
+  url: https://www.sciencedirect.com/science/article/pii/0196677492900166?via%3Dihub
+web_query_attempts:
+- method: search_plan
+  query: Cube Sort Parallel Implementation algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Cube Sort Parallel Implementation algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Cube Sort Parallel Implementation problem definition
+  status: recorded
+- method: search_plan
+  query: Cube Sort Parallel Implementation sorting algorithm
+  status: recorded
+- method: search_plan
+  query: Cube Sort Parallel Implementation site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Cube Sort Parallel Implementation algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://www.sciencedirect.com/science/article/pii/0196677492900166?via%3Dihub
+  status: recorded
+- method: source_link_html_metadata
+  query: https://www.sciencedirect.com/science/article/pii/0196677492900166?via%3Dihub
+  status: failed
+- method: wikipedia_summary_search
+  query: Cube Sort Parallel Implementation algorithm
+  status: failed_or_not_relevant
+extracted_problem_statement: 'Cube Sort Parallel Implementation is treated as a classical sorting task for rich AlgorithmWiki discovery. Problem/task: sort the input sequence using the named classical sorting method. Input semantics: A finite array or list of comparable keys or records. Output semantics: The same items returned in nondecreasing order, usually as a full reordered sequence.'
+extracted_algorithm_summary: 'Cube Sort Parallel Implementation is a sorting algorithm record. Classical complexity metadata: time O(n \log n); space O(n). The stated classical model is Parallel RAM. Public metadata/source text adds: Cube Sort Parallel Implementation sorting sorting n: size of list O(n \log n) Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

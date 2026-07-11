@@ -1,0 +1,46 @@
+id: AW-000491
+kind: context
+algorithm_id: AW-000491
+algorithm_name: Gentleman Morven and Gordon Sande radix-4 algorithm
+source_records:
+- access_status: metadata_only
+  digest: eca5cd2ef4569790
+  extracted_facts:
+  - 'AlgorithmWiki row name: Gentleman Morven and Gordon Sande radix-4 algorithm'
+  - 'domain: sorting'
+  - 'time complexity: O(n \log n)'
+  - 'space complexity: O(n)'
+  - 'computational model: Word/Real RAM'
+  - 'parameter definitions: n: length of the input data set'
+  - 'precard summary: Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model. Baseline: time O(n \log n); space O(n). Bottleneck: comparison, distribution, and full-output movement costs dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000491:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Gentleman Morven and Gordon Sande radix-4 algorithm
+  url: http://cis.rit.edu/class/simg716/FFT_Fun_Profit.pdf
+web_query_attempts:
+- method: search_plan
+  query: Gentleman Morven and Gordon Sande radix-4 algorithm algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Gentleman Morven and Gordon Sande radix-4 algorithm algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Gentleman Morven and Gordon Sande radix-4 algorithm problem definition
+  status: recorded
+- method: search_plan
+  query: Gentleman Morven and Gordon Sande radix-4 algorithm sorting algorithm
+  status: recorded
+- method: search_plan
+  query: Gentleman Morven and Gordon Sande radix-4 algorithm site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Gentleman Morven and Gordon Sande radix-4 algorithm algorithm wiki
+  status: recorded
+- method: search_plan
+  query: http://cis.rit.edu/class/simg716/FFT_Fun_Profit.pdf
+  status: recorded
+extracted_problem_statement: 'Gentleman Morven and Gordon Sande radix-4 algorithm is treated as a classical sorting task for rich AlgorithmWiki discovery. Problem/task: sort the input sequence using the named classical sorting method. Input semantics: A finite array or list of comparable keys or records. Output semantics: The same items returned in nondecreasing order, usually as a full reordered sequence.'
+extracted_algorithm_summary: 'Gentleman Morven and Gordon Sande radix-4 algorithm is a sorting algorithm record. Classical complexity metadata: time O(n \log n); space O(n). The stated classical model is Word/Real RAM. Public metadata/source text adds: Gentleman Morven and Gordon Sande radix-4 algorithm sorting sorting n: length of the input data set O(n \log n) Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

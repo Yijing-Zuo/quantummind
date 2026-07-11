@@ -1,0 +1,72 @@
+id: AW-000098
+kind: context
+algorithm_id: AW-000098
+algorithm_name: Horowitz and Sahni
+source_records:
+- access_status: metadata_only
+  digest: be2cbb69945ebd7d
+  extracted_facts:
+  - 'AlgorithmWiki row name: Horowitz and Sahni'
+  - 'domain: unknown'
+  - 'time complexity: O(2^{(n/2)} n)'
+  - 'space complexity: O(2^{n/2})'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: the number of integers in the set'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000098:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Horowitz and Sahni
+  url: https://dl.acm.org/doi/10.1145/321812.321823
+- access_status: fetched
+  digest: 368c54b7a6f5f19f
+  extracted_facts:
+  - 'DOI title: Computing Partitions with Applications to the Knapsack Problem'
+  - 'published year: 1974'
+  - 'container title: Journal of the ACM'
+  - 'abstract summary: . This problem is a particular instance of the 0-1 unidimensional knapsack problem.'
+  reliability: HIGH
+  short_quote: . This problem is a particular instance of the 0-1 unidimensional knapsack problem.
+  source_id: crossref:97ecb4d4bc957b7f
+  source_type: doi_metadata
+  title: Computing Partitions with Applications to the Knapsack Problem
+  url: https://doi.org/10.1145/321812.321823
+- access_status: failed
+  digest: ca9d9ec1ae5faf46
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:1673c0aa50afedbd
+  source_type: publisher_abstract
+  title: 'HTTP Error 403: Forbidden'
+  url: https://dl.acm.org/doi/10.1145/321812.321823
+web_query_attempts:
+- method: search_plan
+  query: Horowitz and Sahni algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Horowitz and Sahni algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Horowitz and Sahni problem definition
+  status: recorded
+- method: search_plan
+  query: Horowitz and Sahni site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Horowitz and Sahni algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://dl.acm.org/doi/10.1145/321812.321823
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1145/321812.321823
+  status: fetched
+- method: source_link_html_metadata
+  query: https://dl.acm.org/doi/10.1145/321812.321823
+  status: failed
+extracted_problem_statement: 'Horowitz and Sahni is treated as a classical dynamic programming task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Horowitz and Sahni. Input semantics: An explicit optimization or recurrence instance with overlapping subproblems. Output semantics: The optimal value, witness, schedule, segmentation, or table-derived solution for the recurrence.'
+extracted_algorithm_summary: 'Horowitz and Sahni is a dynamic programming algorithm record. Classical complexity metadata: time O(2^{(n/2)} n); space O(2^{n/2}). The stated classical model is Word RAM. Public metadata/source text adds: Horowitz and Sahni unknown unknown n: the number of integers in the set O(2^{(n/2)} n) No public-ready summary is available because the row lacks enough task semantics.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

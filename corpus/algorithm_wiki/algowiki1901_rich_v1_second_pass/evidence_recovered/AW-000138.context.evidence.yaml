@@ -1,0 +1,69 @@
+id: AW-000138
+kind: context_recovered
+algorithm_id: AW-000138
+algorithm_name: Khuller Matias
+source_records:
+- access_status: metadata_only
+  digest: f7c36530c977eb3c
+  extracted_facts:
+  - 'AlgorithmWiki row name: Khuller Matias'
+  - 'domain: unknown'
+  - 'time complexity: O(n)'
+  - 'space complexity: O(n), not sure if this is auxiliary'
+  - 'computational model: not mentioned'
+  - 'parameter definitions: n: number of points'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000138:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Khuller Matias
+  url: https://www.sciencedirect.com/science/article/pii/S0890540185710498
+- access_status: failed
+  digest: 5006a290251d6d0b
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:d625f14eeb3fcba8
+  source_type: publisher_abstract
+  title: 'HTTP Error 403: Forbidden'
+  url: https://www.sciencedirect.com/science/article/pii/S0890540185710498
+- source_id: crossref_search:249f91adceeaffea
+  url: https://doi.org/10.2307/j.ctv25m88j0.13
+  title: "Jos\xE9 Matias (Jos\xE9 Matias)"
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - "Crossref title-search result: Jos\xE9 Matias (Jos\xE9 Matias)"
+  short_quote: ''
+  digest: 1a2d0acec214e2fb
+web_query_attempts:
+- query: '"Khuller Matias" algorithm'
+  method: search_plan
+  status: recorded
+- query: '"Khuller Matias" input output'
+  method: search_plan
+  status: recorded
+- query: '"Khuller Matias" time complexity'
+  method: search_plan
+  status: recorded
+- query: '"Khuller Matias" pseudocode'
+  method: search_plan
+  status: recorded
+- query: '"Khuller Matias" problem'
+  method: search_plan
+  status: recorded
+- query: '"Khuller Matias" PDF metadata abstract'
+  method: search_plan
+  status: recorded
+- query: https://www.sciencedirect.com/science/article/pii/S0890540185710498
+  method: search_plan
+  status: recorded
+- query: Khuller Matias algorithm
+  method: crossref_title_search
+  status: fetched
+extracted_problem_statement: 'Khuller Matias is reconstructed as a classical computational geometry task. Problem/task: compute a geometric structure or relation over a finite point set Input semantics: A finite set of points, dimension k when stated, and geometric predicate assumptions. Output semantics: A geometric witness, nearest/closest relation, hull, partition, or related structure supported by the named row.'
+extracted_algorithm_summary: "Khuller Matias is treated as the named AlgorithmWiki variant for compute a geometric structure or relation over a finite point set Classical complexity metadata: time O(n); space O(n), not sure if this is auxiliary. Public metadata/source title support includes Jos\xE9 Matias (Jos\xE9 Matias)."
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

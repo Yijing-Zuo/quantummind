@@ -1,0 +1,57 @@
+id: AW-000291
+kind: context_recovered
+algorithm_id: AW-000291
+algorithm_name: Lowe (2004)
+source_records:
+- access_status: metadata_only
+  digest: 04afc6d94c200087
+  extracted_facts:
+  - 'AlgorithmWiki row name: Lowe (2004)'
+  - 'domain: unknown'
+  - 'time complexity: O(n^2)'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000291:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Lowe (2004)
+  url: https://www.cs.ubc.ca/~lowe/papers/ijcv04.pdf
+- source_id: crossref_search:d0a1df4a07b66490
+  url: https://doi.org/10.1017/s0956536105050236
+  title: "MESOAMERICA'S FORMATIVE SCHOLAR: GARETH W. LOWE, 1922\u20132004"
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - "Crossref title-search result: MESOAMERICA'S FORMATIVE SCHOLAR: GARETH W. LOWE, 1922\u20132004"
+  - 'abstract summary: The challenge in summing up the active life and productive career of any famous person is to put the important facts on record while steering a respectful path between hagiography and recitation of his curriculum vitae.'
+  short_quote: The challenge in summing up the active life and productive career of any famous person is to put the important facts on record while
+  digest: 1b419614e247adbf
+web_query_attempts:
+- query: '"Lowe (2004)" algorithm'
+  method: search_plan
+  status: recorded
+- query: '"Lowe (2004)" input output'
+  method: search_plan
+  status: recorded
+- query: '"Lowe (2004)" time complexity'
+  method: search_plan
+  status: recorded
+- query: '"Lowe (2004)" pseudocode'
+  method: search_plan
+  status: recorded
+- query: '"Lowe (2004)" problem'
+  method: search_plan
+  status: recorded
+- query: '"Lowe (2004)" PDF metadata abstract'
+  method: search_plan
+  status: recorded
+- query: https://www.cs.ubc.ca/~lowe/papers/ijcv04.pdf
+  method: search_plan
+  status: recorded
+- query: Lowe (2004) algorithm
+  method: crossref_title_search
+  status: fetched
+extracted_problem_statement: 'Lowe (2004) is reconstructed as a classical graph task. Problem/task: solve the named graph task indicated by the public source metadata Input semantics: An explicit graph with vertices, edges, weights, labels, or adjacency access as required by the row. Output semantics: A path, tree, component labeling, flow, matching, or witness object for the named graph task.'
+extracted_algorithm_summary: "Lowe (2004) is treated as the named AlgorithmWiki variant for solve the named graph task indicated by the public source metadata Classical complexity metadata: time O(n^2). Public metadata/source title support includes MESOAMERICA'S FORMATIVE SCHOLAR: GARETH W. LOWE, 1922\u20132004."
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

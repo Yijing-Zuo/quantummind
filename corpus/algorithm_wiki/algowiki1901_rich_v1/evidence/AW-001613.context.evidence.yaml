@@ -1,0 +1,58 @@
+id: AW-001613
+kind: context
+algorithm_id: AW-001613
+algorithm_name: Sorenson
+source_records:
+- access_status: metadata_only
+  digest: a1b18a81ad6b6e8a
+  extracted_facts:
+  - 'AlgorithmWiki row name: Sorenson'
+  - 'domain: graph'
+  - 'time complexity: O(\log^{2d+2} n)'
+  - 'computational model: boolean circuits'
+  - 'parameter definitions: d: a positive constant s.t. B=n^{log^d n}, n: length of input, B: bound for the prime base'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(\log^{2d+2} n); work exp[O(\log^d n)]; span/depth O(log^{2d+2} n). Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001613:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Sorenson
+  url: https://www.sciencedirect.com/science/article/pii/S0890540184710212/pdf
+- access_status: skipped
+  digest: 0f8f8a9d0714a46d
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:180bb564d1067e19
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://www.sciencedirect.com/science/article/pii/S0890540184710212/pdf
+web_query_attempts:
+- method: search_plan
+  query: Sorenson algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Sorenson algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Sorenson problem definition
+  status: recorded
+- method: search_plan
+  query: Sorenson graph algorithm
+  status: recorded
+- method: search_plan
+  query: Sorenson site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Sorenson algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://www.sciencedirect.com/science/article/pii/S0890540184710212/pdf
+  status: recorded
+- method: source_link_html_metadata
+  query: https://www.sciencedirect.com/science/article/pii/S0890540184710212/pdf
+  status: skipped
+extracted_problem_statement: 'Sorenson is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Sorenson. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'Sorenson is a graph algorithm record. Classical complexity metadata: time O(\log^{2d+2} n); work exp[O(\log^d n)]; span/depth O(log^{2d+2} n). The stated classical model is boolean circuits. Public metadata/source text adds: Sorenson graph graph d: a positive constant s.t.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

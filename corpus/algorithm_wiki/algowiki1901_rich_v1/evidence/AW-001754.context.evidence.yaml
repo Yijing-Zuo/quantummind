@@ -1,0 +1,71 @@
+id: AW-001754
+kind: context
+algorithm_id: AW-001754
+algorithm_name: Li, Pan, Shen
+source_records:
+- access_status: metadata_only
+  digest: fa19737917eec9ca
+  extracted_facts:
+  - 'AlgorithmWiki row name: Li, Pan, Shen'
+  - 'domain: graph'
+  - 'time complexity: O(\log n)'
+  - 'computational model: CRCW PRAM'
+  - 'parameter definitions: n: number of vertices, m: number of edges'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(\log n); work O(n^3); span/depth O(log n); processors O(n^3/log n). Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001754:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Li, Pan, Shen
+  url: https://link.springer.com/article/10.1023/A:1022080713267
+- access_status: skipped
+  digest: 0d81eeb6b9b05e22
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:d38135196b1466a3
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1023/A:1022080713267
+- access_status: skipped
+  digest: 3e732804e9de14dd
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:f76bed89567a3977
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://link.springer.com/article/10.1023/A:1022080713267
+web_query_attempts:
+- method: search_plan
+  query: Li, Pan, Shen algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Li, Pan, Shen algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Li, Pan, Shen problem definition
+  status: recorded
+- method: search_plan
+  query: Li, Pan, Shen graph algorithm
+  status: recorded
+- method: search_plan
+  query: Li, Pan, Shen site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Li, Pan, Shen algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://link.springer.com/article/10.1023/A:1022080713267
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1023/A:1022080713267
+  status: skipped
+- method: source_link_html_metadata
+  query: https://link.springer.com/article/10.1023/A:1022080713267
+  status: skipped
+extracted_problem_statement: 'Li, Pan, Shen is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Li, Pan, Shen. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'Li, Pan, Shen is a graph algorithm record. Classical complexity metadata: time O(\log n); work O(n^3); span/depth O(log n); processors O(n^3/log n). The stated classical model is CRCW PRAM. Public metadata/source text adds: Li, Pan, Shen graph graph n: number of vertices, m: number of edges O(\log n) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

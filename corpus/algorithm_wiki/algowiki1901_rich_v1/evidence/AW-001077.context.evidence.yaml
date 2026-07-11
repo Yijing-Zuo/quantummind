@@ -1,0 +1,58 @@
+id: AW-001077
+kind: context
+algorithm_id: AW-001077
+algorithm_name: Lang, Schimmler, Schmeck and Schroder
+source_records:
+- access_status: metadata_only
+  digest: 8a653d2e2d3966c0
+  extracted_facts:
+  - 'AlgorithmWiki row name: Lang, Schimmler, Schmeck and Schroder'
+  - 'domain: sorting'
+  - 'time complexity: O(n^(1/2))'
+  - 'computational model: network or hardware (VLSI) sorter'
+  - 'parameter definitions: n: size of list'
+  - 'precard summary: Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model. Baseline: time O(n^(1/2)); work O(n^(3/2)); span/depth O(n^(1/2)); processors n. Bottleneck: comparison, distribution, and full-output movement costs dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001077:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Lang, Schimmler, Schmeck and Schroder
+  url: https://ieeexplore.ieee.org/abstract/document/1676603/
+- access_status: skipped
+  digest: 60c73eece19eb6c8
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:4f78f8304136fe41
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://ieeexplore.ieee.org/abstract/document/1676603/
+web_query_attempts:
+- method: search_plan
+  query: Lang, Schimmler, Schmeck and Schroder algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Lang, Schimmler, Schmeck and Schroder algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Lang, Schimmler, Schmeck and Schroder problem definition
+  status: recorded
+- method: search_plan
+  query: Lang, Schimmler, Schmeck and Schroder sorting algorithm
+  status: recorded
+- method: search_plan
+  query: Lang, Schimmler, Schmeck and Schroder site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Lang, Schimmler, Schmeck and Schroder algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://ieeexplore.ieee.org/abstract/document/1676603/
+  status: recorded
+- method: source_link_html_metadata
+  query: https://ieeexplore.ieee.org/abstract/document/1676603/
+  status: skipped
+extracted_problem_statement: 'Lang, Schimmler, Schmeck and Schroder is treated as a classical sorting task for rich AlgorithmWiki discovery. Problem/task: sort the input sequence using the named classical sorting method. Input semantics: A finite array or list of comparable keys or records. Output semantics: The same items returned in nondecreasing order, usually as a full reordered sequence.'
+extracted_algorithm_summary: 'Lang, Schimmler, Schmeck and Schroder is a sorting algorithm record. Classical complexity metadata: time O(n^(1/2)); work O(n^(3/2)); span/depth O(n^(1/2)); processors n. The stated classical model is network or hardware (VLSI) sorter. Public metadata/source text adds: Lang, Schimmler, Schmeck and Schroder sorting sorting n: size of list O(n^(1/2)) Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

@@ -1,0 +1,57 @@
+algorithm_id: AW-000546
+canonical_name: "\u03B1-EM algorithm"
+enrichment_status: SECOND_PASS_INSUFFICIENT
+review_reasons:
+- No second-pass rule could identify source-backed task semantics.
+source_records:
+- access_status: metadata_only
+  digest: ea782b7705fe3bc7
+  extracted_facts:
+  - "AlgorithmWiki row name: \u03B1-EM algorithm"
+  - 'domain: unknown'
+  - 'time complexity: O(n^3)'
+  - 'space complexity: O(n+r)'
+  - 'computational model: Real RAM'
+  - 'parameter definitions: n: number of observations in sample, r: number of parameters + latent variables'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000546:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: "AlgorithmWiki metadata for \u03B1-EM algorithm"
+  url: https://dl.acm.org/doi/10.1109/TIT.2002.808105
+- access_status: fetched
+  digest: 115ac5e026a30b0a
+  extracted_facts:
+  - "DOI title: The \u03B1-EM algorithm: surrogate likelihood maximization using \u03B1-logarithmic information measures"
+  - 'published year: 2003'
+  - 'container title: IEEE Transactions on Information Theory'
+  reliability: HIGH
+  short_quote: ''
+  source_id: crossref:30621b72b0292f99
+  source_type: doi_metadata
+  title: "The \u03B1-EM algorithm: surrogate likelihood maximization using \u03B1-logarithmic information measures"
+  url: https://doi.org/10.1109/TIT.2002.808105
+- access_status: failed
+  digest: a4e60f5ef8f0b4ab
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:deaebb8ed9f79b01
+  source_type: publisher_abstract
+  title: 'HTTP Error 403: Forbidden'
+  url: https://dl.acm.org/doi/10.1109/TIT.2002.808105
+- source_id: crossref_search:03e2f0e16e937473
+  url: https://doi.org/10.1109/tit.2002.808105
+  title: "The \u03B1-EM algorithm: surrogate likelihood maximization using \u03B1-logarithmic information measures"
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - "Crossref title-search result: The \u03B1-EM algorithm: surrogate likelihood maximization using \u03B1-logarithmic information measures"
+  short_quote: ''
+  digest: 9bb2cdfcb40bd062
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

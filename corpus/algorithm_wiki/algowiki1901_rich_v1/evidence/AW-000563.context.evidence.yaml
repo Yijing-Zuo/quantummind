@@ -1,0 +1,49 @@
+id: AW-000563
+kind: context
+algorithm_id: AW-000563
+algorithm_name: Chan's algorithm Parallel Implementation
+source_records:
+- access_status: metadata_only
+  digest: ef36ee293bfd3db2
+  extracted_facts:
+  - 'AlgorithmWiki row name: Chan''s algorithm Parallel Implementation'
+  - 'domain: parallel_algorithms'
+  - 'time complexity: O(\log n)'
+  - 'space complexity: O(1) per processor'
+  - 'computational model: EREW() PRAM'
+  - 'parameter definitions: n: number of values'
+  - 'precard summary: Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model. Baseline: time O(\log n); space O(1) per processor; processors O(n). Bottleneck: work, span, communication, and processor-count assumptions dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000563:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Chan's algorithm Parallel Implementation
+  url: http://i.stanford.edu/pub/cstr/reports/cs/tr/79/773/CS-TR-79-773.pdf
+web_query_attempts:
+- method: search_plan
+  query: Chan's algorithm Parallel Implementation algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Chan's algorithm Parallel Implementation algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Chan's algorithm Parallel Implementation problem definition
+  status: recorded
+- method: search_plan
+  query: Chan's algorithm Parallel Implementation parallel algorithms algorithm
+  status: recorded
+- method: search_plan
+  query: Chan's algorithm Parallel Implementation site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Chan's algorithm Parallel Implementation algorithm wiki
+  status: recorded
+- method: search_plan
+  query: http://i.stanford.edu/pub/cstr/reports/cs/tr/79/773/CS-TR-79-773.pdf
+  status: recorded
+- method: wikipedia_summary_search
+  query: Chan's algorithm Parallel Implementation algorithm
+  status: failed_or_not_relevant
+extracted_problem_statement: 'Chan''s algorithm Parallel Implementation is treated as a classical parallel algorithms task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Chan''s algorithm Parallel Implementation. Input semantics: The classical input instance named by the row, together with processor/work/span parameters when stated. Output semantics: The same mathematical output as the underlying classical task, annotated by work/span when available.'
+extracted_algorithm_summary: 'Chan''s algorithm Parallel Implementation is a parallel algorithms algorithm record. Classical complexity metadata: time O(\log n); space O(1) per processor; processors O(n). The stated classical model is EREW() PRAM. Public metadata/source text adds: Chan''s algorithm Parallel Implementation parallel_algorithms parallel_algorithms n: number of values O(\log n) Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

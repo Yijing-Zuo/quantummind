@@ -1,0 +1,58 @@
+algorithm_id: AW-001558
+canonical_name: AHRABIAN, NOWZARI-DALINI (1)
+blind_name: Algorithm Wiki public task AW-001558
+year: '2002'
+domain: unknown
+family: unknown
+variation: ''
+problem_name: unknown
+algorithm_family: unknown
+time_complexity: O(n^2 \log n)
+space_complexity: ''
+computational_model: ''
+randomized: '0'
+approximate: '0'
+approximation_factor: ''
+parameter_definitions: 'n: number of nodes'
+span_depth: O(n^2 log n)
+work: O(n^3)
+number_of_processors: O(n/log n)
+source_link: https://www.tandfonline.com/doi/pdf/10.1080/00207160210945
+source_link_type: pdf
+page_url: ''
+page_fetch_status: not_found
+page_digest: ''
+extracted_description: ''
+inferred_problem_statement: 'AHRABIAN, NOWZARI-DALINI (1) is reconstructed as a classical graph task. Problem/task: solve the named graph task indicated by the public source metadata Input semantics: An explicit graph with vertices, edges, weights, labels, or adjacency access as required by the row. Output semantics: A path, tree, component labeling, flow, matching, or witness object for the named graph task.'
+inferred_input_model: explicit_graph_problem
+inferred_access_model: adjacency_list_query
+inferred_output_contract: path_or_tree
+inferred_size_parameters:
+- 'Parameter definition: n: number of nodes'
+- p = stated number of processors (O(n/log n))
+inferred_promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+inferred_ambiguities:
+- The row should be reviewed if the source title does not specify the graph output exactly.
+- Some details are reconstructed from AlgorithmWiki metadata rather than an independently fetched full public description.
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.
+quality_score: 85
+quality_flags:
+- has_complexity_semantics
+- has_size_parameters
+readiness: READY_PUBLIC_CONTEXT
+review_reasons:
+- A previous row has the same canonicalized algorithm name.
+extraction_version: algorithm-wiki-rich-second-pass-context-v1
+rich_card_kind: context_recovered
+source_records_used:
+- AW-001558:algorithm_wiki_metadata
+- skipped:fe3da0a293b5fa9b
+- crossref:a530266790053d98
+- crossref_search:0b18e1bdccf3f416
+source_count: 4
+source_quality: HIGH
+confidence_score: 85
+card_digest: 77c95cf839f29fdb
+second_pass_rule: named_graph_problem

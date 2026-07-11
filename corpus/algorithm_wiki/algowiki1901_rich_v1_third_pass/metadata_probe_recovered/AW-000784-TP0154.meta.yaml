@@ -1,0 +1,47 @@
+probe_id: AW-000784-TP0154
+algorithm_id: AW-000784-TP0154
+canonical_name: The INDEGREE Algorithm estimation_sampling_probe
+readiness: READY_PUBLIC_PROBE
+quality_score: 100
+probe_type: estimation_sampling_probe
+parent_algorithm_id: AW-000784
+parent_algorithm_name: The INDEGREE Algorithm
+source_records_used:
+- AW-000784:algorithm_wiki_metadata
+- crossref_search:127a1fb8a7edf9d7
+- skipped:a2a064ed895b3d33
+- crossref_search:22f960c009b8798d
+introduced_assumptions:
+- coherent_estimation_oracle
+- bounded_random_variable
+- coherent_sampler
+missing_from_original_problem:
+- sampler reversibility
+- variance bound
+- query-to-runtime translation
+original_output_contract: estimate
+probe_output_contract: additive_estimate
+not_end_to_end_claim: true
+expected_authority: query_or_subroutine_hypothesis_only
+why_probe_is_scientifically_interesting: Estimation tasks can expose query-level structure even when the full algorithm remains classical.
+why_probe_may_fail: Sampling or approximation may not be the bottleneck, or coherent access may be more expensive than the original method.
+inferred_input_model: explicit_numerical_problem
+inferred_access_model: coherent_estimation_oracle
+inferred_output_contract: additive_estimate
+inferred_size_parameters:
+- 'Parameter definition: n: number of pages, m: number of hyperlinks'
+inferred_promises:
+- bounded_random_variable
+- coherent_access
+- oracle_model_assumption
+inferred_ambiguities:
+- This probe is assumption-bearing and is not an end-to-end speedup claim.
+- variance bounds, coherent sampler construction, and tolerance mapping remain expert obligations
+- The parent context card and source records should be checked before live use.
+source_count: 4
+source_quality: HIGH
+confidence_score: 100
+card_digest: d4f62b21a07212d5
+extraction_version: algorithm-wiki-rich-third-pass-probe-v1
+rich_card_kind: probe_recovered
+saturation_status: RECOVERED_CONTEXT_AND_PROBE

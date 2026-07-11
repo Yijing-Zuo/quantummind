@@ -1,0 +1,62 @@
+algorithm_family: numerical analysis
+algorithm_id: AW-000550
+approximate: '1'
+approximation_factor: ''
+blind_name: Algorithm Wiki public task AW-000550
+canonical_name: HyperLogLog algorithm
+computational_model: Word RAM
+domain: numerical_analysis
+extracted_description: ''
+extraction_version: algorithm-wiki-rich-context-v1
+family: numerical_analysis
+inferred_access_model: explicit_numeric_parameters
+inferred_ambiguities:
+- The AlgorithmWiki row marks the classical method as approximate.
+- The AlgorithmWiki row marks the classical method as randomized.
+- No independent fetched public metadata source resolved this row beyond AlgorithmWiki metadata/source-link facts.
+- Some details are reconstructed from AlgorithmWiki metadata rather than an independently fetched full public description.
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.
+inferred_input_model: explicit_numerical_problem
+inferred_output_contract: approximation_solution
+inferred_problem_statement: 'HyperLogLog algorithm is treated as a classical numerical analysis task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with HyperLogLog algorithm. Input semantics: Numeric parameters, functions, samples, tolerances, or distributions for the stated numerical task. Output semantics: An exact or approximate numerical value, estimate, approximation, or fitted representation.'
+inferred_promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+- classical_randomized_algorithm
+- classical_approximation_algorithm
+inferred_size_parameters:
+- 'Parameter definition: N: number of values in multiset, n: cardinality of multiset (not known), \epsilon: approximation parameter'
+number_of_processors: ''
+page_digest: ''
+page_fetch_status: not_found
+page_url: ''
+parameter_definitions: 'N: number of values in multiset, n: cardinality of multiset (not known), \epsilon: approximation parameter'
+problem_name: numerical analysis
+quality_flags:
+- domain_inferred
+- problem_statement_inferred
+- io_access_output_inferred
+- has_complexity_semantics
+- has_size_parameters
+- has_computational_model
+- randomized_flag_preserved
+- approximation_flag_preserved
+quality_score: 100
+randomized: '1'
+readiness: READY_PUBLIC_CONTEXT
+review_reasons: []
+source_link: http://algo.inria.fr/flajolet/Publications/FlFuGaMe07.pdf
+source_link_type: pdf
+space_complexity: O(\epsilon^{-2}\log(\log n))+\log n)
+span_depth: ''
+time_complexity: O(N)
+variation: ''
+work: ''
+year: '2007'
+rich_card_kind: context
+source_records_used:
+- AW-000550:algorithm_wiki_metadata
+source_count: 1
+source_quality: HIGH
+confidence_score: 100
+card_digest: 8020c4ad84a7e53e

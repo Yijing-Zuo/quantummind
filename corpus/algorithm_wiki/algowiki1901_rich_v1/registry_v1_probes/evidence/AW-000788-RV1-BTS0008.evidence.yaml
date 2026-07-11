@@ -1,0 +1,22 @@
+probe_id: AW-000788-RV1-BTS0008
+kind: registry_v1_probe
+parent_algorithm_id: AW-000788
+parent_algorithm_name: Randomized HITS
+source_card_paths:
+- corpus\algorithm_wiki\algowiki1901_rich_v1\public_context\AW-000788.yaml
+- corpus\algorithm_wiki\algowiki1901_rich_v1\public_probe\AW-000788-P0512.yaml
+source_metadata_paths:
+- corpus\algorithm_wiki\algowiki1901_rich_v1\metadata_probe\AW-000788-P0512.meta.yaml
+source_records_used:
+- AW-000788:algorithm_wiki_metadata
+- crossref:121fe61b60560076
+short_paraphrased_support: 'Randomized HITS Randomized HITS is treated as a classical randomized sampling task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Randomized HITS. Input semantics: A probability model, data set, or sampler description together with requested estimator parameters. Output semantics: A sample, estimate, or approximate value with the stated randomized or statistical semantics. Randomized HITS is a randomized sampling algorithm record. Classical complexity metadata: time O(mn \log n); space O(n). The stated classical model is Word RAM. Public metadata/source text adds: Randomized HITS randomized_sampling randomized_sampling n: number of pages, m: number of hyperlinks O(mn \log n) Given explicit input data and classical randomness as part of the algorithmic model, produce the sampled or estimated output described by the record. A probability'
+introduced_assumptions:
+- bounded_backtracking_tree
+- bounded_tree_depth
+- coherent_child_and_predicate_oracles
+limitations:
+- The probe is a public query/subroutine hypothesis only.
+- It does not assert a full original-algorithm speedup.
+- Oracle, promise, and data-representation costs require expert review.
+confirmation: Public provenance sidecar only; no evaluator label or private benchmark answer is encoded.

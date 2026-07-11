@@ -1,0 +1,19 @@
+case_id: QM-PB-003
+title: "Polynomial-Time Algorithms for Prime Factorization and Discrete Logarithms on a Quantum Computer"
+authors: [Peter W. Shor]
+year: 1997
+venue: "SIAM Journal on Computing / arXiv"
+official_url: "https://arxiv.org/abs/quant-ph/9508027"
+result_location: "abstract and period-finding reduction"
+result_type: upper_bound
+paraphrased_support: "The paper gives polynomial-time quantum algorithms for factoring and discrete logarithms using periodic structure plus classical post-processing."
+problem_model: "period or order recovery"
+promise: "periodic structure and efficient reversible evaluation"
+access_model: reversible_function_evaluation
+output_contract: period_or_order
+classical_complexity: "CLASSICAL: problem-specific direct search can be superpolynomial"
+quantum_complexity: "QUERY: polynomial under suitable reversible evaluation"
+claim_scope: QUERY
+caveats: [reversible evaluation, classical post-processing]
+source_status: PRIMARY_SOURCE_CHECKED
+

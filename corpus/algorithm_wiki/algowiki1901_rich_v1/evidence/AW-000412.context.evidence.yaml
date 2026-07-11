@@ -1,0 +1,72 @@
+id: AW-000412
+kind: context
+algorithm_id: AW-000412
+algorithm_name: Chin and Poon
+source_records:
+- access_status: metadata_only
+  digest: 0fda65ddf0eb1518
+  extracted_facts:
+  - 'AlgorithmWiki row name: Chin and Poon'
+  - 'domain: string'
+  - 'time complexity: O(sn + \min(sp, rm))'
+  - 'space complexity: O(p + n)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: length of the longer input string, m: length of the shorter input string, r: length of the LCS, p: the number of dominant matches (AKA number of minimal candidates), i.e. the total number of ordered pairs of positions at which the two sequences match, s: size of alphabet'
+  - 'precard summary: Given one or more explicit strings, compute the matching, indexing, alignment, or transformation output targeted by the record. Baseline: time O(sn + \min(sp, rm)); space O(p + n). Bottleneck: string scanning, preprocessing tables, and reporting matches dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000412:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Chin and Poon
+  url: https://dl.acm.org/doi/abs/10.5555/105582.105592
+- access_status: failed
+  digest: 50e597db376fb238
+  extracted_facts:
+  - 'HTTP Error 404: Not Found'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:fd1a2280cbf35343
+  source_type: doi_metadata
+  title: 'HTTP Error 404: Not Found'
+  url: https://doi.org/10.5555/105582.105592
+- access_status: failed
+  digest: f4ed9b3d586b8162
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:5015d29e675686ad
+  source_type: publisher_abstract
+  title: 'HTTP Error 403: Forbidden'
+  url: https://dl.acm.org/doi/abs/10.5555/105582.105592
+web_query_attempts:
+- method: search_plan
+  query: Chin and Poon algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Chin and Poon algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Chin and Poon problem definition
+  status: recorded
+- method: search_plan
+  query: Chin and Poon string algorithm
+  status: recorded
+- method: search_plan
+  query: Chin and Poon site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Chin and Poon algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://dl.acm.org/doi/abs/10.5555/105582.105592
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.5555/105582.105592
+  status: failed
+- method: source_link_html_metadata
+  query: https://dl.acm.org/doi/abs/10.5555/105582.105592
+  status: failed
+extracted_problem_statement: 'Chin and Poon is treated as a classical string task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Chin and Poon. Input semantics: One or more finite strings, sequences, patterns, or alphabets. Output semantics: Pattern occurrence positions, matches, or the associated string-search report.'
+extracted_algorithm_summary: 'Chin and Poon is a string algorithm record. Classical complexity metadata: time O(sn + \min(sp, rm)); space O(p + n). The stated classical model is Word RAM. Public metadata/source text adds: Chin and Poon string string n: length of the longer input string, m: length of the shorter input string, r: length of the LCS, p: the number of dominant matches (AKA number of minimal candidates), i.e.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

@@ -1,0 +1,62 @@
+algorithm_family: unknown
+algorithm_id: AW-000352
+approximate: '1'
+approximation_factor: ''
+blind_name: Algorithm Wiki public task AW-000352
+canonical_name: Coplanar facets merging - Hinker P. and Hansen C. 1993
+computational_model: ''
+domain: unknown
+extracted_description: ''
+extraction_version: algorithm-wiki-rich-third-pass-context-v1
+family: unknown
+inferred_access_model: explicit_geometric_objects
+inferred_ambiguities:
+- Some details are reconstructed from AlgorithmWiki metadata rather than an independently fetched full public description.
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.
+inferred_input_model: explicit_geometry_problem
+inferred_output_contract: full_solution
+inferred_problem_statement: 'Coplanar facets merging - Hinker P. and Hansen C. 1993 is treated as a source-saturated AlgorithmWiki row for simplify or retile a geometric mesh while preserving selected shape properties Input semantics: A polygonal or triangular mesh with vertices, edges, faces, and simplification/error parameters. Output semantics: A simplified mesh, merged-facet representation, vertex-clustered mesh, or retiled surface.'
+inferred_promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+- classical_approximation_algorithm
+inferred_size_parameters:
+- 'n: primary input size parameter for the source-backed task.'
+number_of_processors: ''
+page_digest: ''
+page_fetch_status: not_found
+page_url: ''
+parameter_definitions: ''
+problem_name: unknown
+quality_flags:
+- approximation_flag_preserved
+quality_score: 100
+randomized: '0'
+readiness: READY_PUBLIC_CONTEXT
+review_reasons:
+- missing_problem_statement
+- unknown_input_model
+- unknown_access_model
+- unknown_output_contract
+- missing_size_parameters
+- missing_complexity_semantics
+- insufficient_algorithm_level_structure
+source_link: ''
+source_link_type: unknown
+space_complexity: ''
+span_depth: ''
+time_complexity: ''
+variation: ''
+work: ''
+year: '1993'
+rich_card_kind: context_recovered
+source_records_used:
+- AW-000352:algorithm_wiki_metadata
+- crossref_search:a2149dfbbe36cf91
+- crossref_search:82e3d00cd1b790d4
+source_count: 3
+source_quality: HIGH
+confidence_score: 100
+card_digest: 135d4ae459a406eb
+third_pass_rule: mesh_simplification
+saturation_status: RECOVERED_CONTEXT

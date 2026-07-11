@@ -1,0 +1,31 @@
+algorithm_id: AW-000365
+canonical_name: Vertex clustering - Rossignac J. and Borrel P. 1997
+enrichment_status: SECOND_PASS_INSUFFICIENT
+review_reasons:
+- No second-pass rule could identify source-backed task semantics.
+source_records:
+- access_status: metadata_only
+  digest: 94f214702583b614
+  extracted_facts:
+  - 'AlgorithmWiki row name: Vertex clustering - Rossignac J. and Borrel P. 1997'
+  - 'domain: unknown'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000365:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Vertex clustering - Rossignac J. and Borrel P. 1997
+  url: ''
+- source_id: crossref_search:ea0f7b81eea82b99
+  url: https://doi.org/10.1080/24751839.2019.1686683
+  title: A vertex-similarity clustering algorithm for community detection
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: A vertex-similarity clustering algorithm for community detection'
+  short_quote: ''
+  digest: 088dd58f51f57b6a
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

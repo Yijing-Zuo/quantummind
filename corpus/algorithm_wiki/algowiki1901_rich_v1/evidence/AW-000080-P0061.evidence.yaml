@@ -1,0 +1,49 @@
+id: AW-000080-P0061
+kind: probe
+algorithm_id: AW-000080
+algorithm_name: Boyer-Moore (BM) algorithm
+source_records:
+- access_status: metadata_only
+  digest: b04d8e5856bbaf0a
+  extracted_facts:
+  - 'AlgorithmWiki row name: Boyer-Moore (BM) algorithm'
+  - 'domain: string'
+  - 'time complexity: O(mn + s)'
+  - 'space complexity: O(s)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: m: pattern length, n: length of searchable text, s: size of the alphabet'
+  - 'precard summary: Given one or more explicit strings, compute the matching, indexing, alignment, or transformation output targeted by the record. Baseline: time O(mn + s); space O(s). Bottleneck: string scanning, preprocessing tables, and reporting matches dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000080:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Boyer-Moore (BM) algorithm
+  url: https://www.cs.utexas.edu/users/moore/publications/fstrpos.pdf
+web_query_attempts:
+- method: search_plan
+  query: Boyer-Moore (BM) algorithm algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Boyer-Moore (BM) algorithm algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Boyer-Moore (BM) algorithm problem definition
+  status: recorded
+- method: search_plan
+  query: Boyer-Moore (BM) algorithm string algorithm
+  status: recorded
+- method: search_plan
+  query: Boyer-Moore (BM) algorithm site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Boyer-Moore (BM) algorithm algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://www.cs.utexas.edu/users/moore/publications/fstrpos.pdf
+  status: recorded
+- method: wikipedia_summary_search
+  query: Boyer-Moore (BM) algorithm algorithm
+  status: failed_or_not_relevant
+extracted_problem_statement: 'Boyer-Moore (BM) algorithm is treated as a classical string task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Boyer-Moore (BM) algorithm. Input semantics: One or more finite strings, sequences, patterns, or alphabets. Output semantics: Pattern occurrence positions, matches, or the associated string-search report.'
+extracted_algorithm_summary: 'Boyer-Moore (BM) algorithm is a string algorithm record. Classical complexity metadata: time O(mn + s); space O(s). The stated classical model is Word RAM. Public metadata/source text adds: Boyer-Moore (BM) algorithm string string m: pattern length, n: length of searchable text, s: size of the alphabet O(mn + s) Given one or more explicit strings, compute the matching, indexing, alignment, or transformation output targeted by the record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

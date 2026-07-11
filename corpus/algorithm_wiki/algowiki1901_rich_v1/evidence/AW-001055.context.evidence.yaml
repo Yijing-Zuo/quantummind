@@ -1,0 +1,71 @@
+id: AW-001055
+kind: context
+algorithm_id: AW-001055
+algorithm_name: Shiloach and Vishkin
+source_records:
+- access_status: metadata_only
+  digest: 882069a36673bed9
+  extracted_facts:
+  - 'AlgorithmWiki row name: Shiloach and Vishkin'
+  - 'domain: parallel_algorithms'
+  - 'time complexity: O(n/p log n + log n log p) for p<=n O(log^2(n)/log(p/n) + log n) for p>=n'
+  - 'computational model: SIMD-R'
+  - 'parameter definitions: n: size of list, p: number of processors'
+  - 'precard summary: Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model. Baseline: time O(n/p log n + log n log p) for p<=n O(log^2(n)/log(p/n) + log n) for p>=n; work O(n \log n) if p<n or O(p log n) if p>=n; span/depth O(\log{n}); processors p. Bottleneck: work, span, communication, and processor-count assumptions dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001055:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Shiloach and Vishkin
+  url: https://link.springer.com/chapter/10.1007/BFb0105127
+- access_status: skipped
+  digest: c3fe9391d277db09
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:7703727c1ed8fc5d
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1007/BFb0105127
+- access_status: skipped
+  digest: 052ed13ffc404a09
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:512cf54d268a906c
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://link.springer.com/chapter/10.1007/BFb0105127
+web_query_attempts:
+- method: search_plan
+  query: Shiloach and Vishkin algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Shiloach and Vishkin algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Shiloach and Vishkin problem definition
+  status: recorded
+- method: search_plan
+  query: Shiloach and Vishkin parallel algorithms algorithm
+  status: recorded
+- method: search_plan
+  query: Shiloach and Vishkin site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Shiloach and Vishkin algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://link.springer.com/chapter/10.1007/BFb0105127
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1007/BFb0105127
+  status: skipped
+- method: source_link_html_metadata
+  query: https://link.springer.com/chapter/10.1007/BFb0105127
+  status: skipped
+extracted_problem_statement: 'Shiloach and Vishkin is treated as a classical parallel algorithms task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Shiloach and Vishkin. Input semantics: The classical input instance named by the row, together with processor/work/span parameters when stated. Output semantics: The same mathematical output as the underlying classical task, annotated by work/span when available.'
+extracted_algorithm_summary: 'Shiloach and Vishkin is a parallel algorithms algorithm record. Classical complexity metadata: time O(n/p log n + log n log p) for p<=n O(log^2(n)/log(p/n) + log n) for p>=n; work O(n \log n) if p<n or O(p log n) if p>=n; span/depth O(\log{n}); processors p. The stated classical model is SIMD-R. Public metadata/source text adds: Shiloach and Vishkin parallel_algorithms parallel_algorithms n: size of list, p: number of processors O(n/p log n + log n log p) for p<=n O(log^2(n)/log(p/n) + log n) for p>=n Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

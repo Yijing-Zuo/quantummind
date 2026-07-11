@@ -1,0 +1,58 @@
+algorithm_family: unknown
+algorithm_id: AW-000782
+approximate: '0'
+approximation_factor: ''
+blind_name: Algorithm Wiki public task AW-000782
+canonical_name: Kingsford
+computational_model: Word RAM
+domain: unknown
+extracted_description: ''
+extraction_version: algorithm-wiki-rich-context-v1
+family: unknown
+inferred_access_model: random_access_string
+inferred_ambiguities:
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.
+inferred_input_model: explicit_string_problem
+inferred_output_contract: full_solution
+inferred_problem_statement: 'Kingsford is treated as a classical string task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Kingsford. Input semantics: One or more finite strings, sequences, patterns, or alphabets. Output semantics: The requested string matching, alignment, indexing, distance, or transformation result.'
+inferred_promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+inferred_size_parameters:
+- 'Parameter definition: n: number of sequences, m: length of sequences'
+number_of_processors: ''
+page_digest: ''
+page_fetch_status: not_found
+page_url: ''
+parameter_definitions: 'n: number of sequences, m: length of sequences'
+problem_name: unknown
+quality_flags:
+- has_complexity_semantics
+- has_size_parameters
+- has_computational_model
+quality_score: 70
+randomized: '0'
+readiness: READY_PUBLIC_CONTEXT
+review_reasons:
+- missing_problem_statement
+- unknown_input_model
+- unknown_access_model
+- unknown_output_contract
+- insufficient_algorithm_level_structure
+source_link: https://link.springer.com/chapter/10.1007/11780441_22
+source_link_type: unknown
+space_complexity: O(m^2n^2)
+span_depth: ''
+time_complexity: O(mn)
+variation: ''
+work: ''
+year: '2006'
+rich_card_kind: context
+source_records_used:
+- AW-000782:algorithm_wiki_metadata
+- crossref:71517e1c8021418f
+- skipped:bb506acaa0778257
+source_count: 3
+source_quality: HIGH
+confidence_score: 70
+card_digest: 1dd817e2c8bcd89e

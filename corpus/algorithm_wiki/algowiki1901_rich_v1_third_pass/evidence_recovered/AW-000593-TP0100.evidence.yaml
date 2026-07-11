@@ -1,0 +1,89 @@
+id: AW-000593-TP0100
+kind: probe_recovered
+algorithm_id: AW-000593
+algorithm_name: 5-point star Cramer's rule
+source_records:
+- access_status: metadata_only
+  digest: 1e419be14652c8c9
+  extracted_facts:
+  - 'AlgorithmWiki row name: 5-point star Cramer''s rule'
+  - 'domain: unknown'
+  - 'time complexity: O(4^{n^2})'
+  - 'space complexity: O(4^{(n^2)}) for sure, O(n^2) possibly (if super conservative)'
+  - 'computational model: Real RAM'
+  - 'parameter definitions: n: dimension of grid (where grid is discretized)'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000593:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for 5-point star Cramer's rule
+  url: ''
+- access_status: fetched
+  digest: e1d4413aed15b889
+  extracted_facts:
+  - 'Crossref title-search result: Cramer Rule'
+  reliability: MEDIUM
+  short_quote: ''
+  source_id: crossref_search:cee35f451270c3b0
+  source_type: doi_metadata
+  title: Cramer Rule
+  url: https://doi.org/10.1007/978-1-4939-7131-2_100219
+- source_id: crossref_search:b39911fd89a81ad9
+  url: https://doi.org/10.1007/978-1-4939-7131-2_100219
+  title: Cramer Rule
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title: Cramer Rule'
+  - 'published year: 2018'
+  - 'container title: Encyclopedia of Social Network Analysis and Mining'
+  short_quote: 'Crossref title: Cramer Rule published year: 2018 container title: Encyclopedia of Social Network Analysis and Mining'
+  digest: 371d8a213d9f7701
+web_query_attempts:
+- cycle: 1
+  query: 5-point star Cramer's rule
+  source_family: algorithm_wiki_local
+  url_or_api_endpoint: ''
+  status: fetched
+  new_facts_added: 8
+  reason: local metadata
+- cycle: 1
+  query: 5-point star Cramer's rule
+  source_family: local_previous_cache
+  url_or_api_endpoint: ''
+  status: duplicate
+  new_facts_added: 0
+  reason: previous v1/second-pass sources reused
+- cycle: 1
+  query: 5-point star Cramer's rule
+  source_family: original_source
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: no original source link
+- cycle: 1
+  query: 5-point star Cramer's rule
+  source_family: crossref
+  url_or_api_endpoint: https://doi.org/10.1007/978-1-4939-7131-2_100219
+  status: irrelevant
+  new_facts_added: 0
+  reason: Crossref metadata/title search
+- cycle: 1
+  query: 5-point star Cramer's rule
+  source_family: arxiv
+  url_or_api_endpoint: https://export.arxiv.org/api/query?max_results=1&search_query=ti:%225-point+star+Cramer%27s+rule%22
+  status: no_result
+  new_facts_added: 0
+  reason: arXiv title search returned no usable entry
+- cycle: 1
+  query: 5-point star Cramer's rule
+  source_family: wikipedia
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: Wikipedia search returned no relevant page
+extracted_problem_statement: '5-point star Cramer''s rule is treated as a source-saturated AlgorithmWiki row for solve the named graph task indicated by the public source metadata Input semantics: An explicit graph with vertices, edges, weights, labels, or adjacency access as required by the row. Output semantics: A path, tree, component labeling, flow, matching, or witness object for the named graph task.'
+extracted_algorithm_summary: '5-point star Cramer''s rule is reconstructed as a classical graph task. The source-backed title/name/fact record supports the task: solve the named graph task indicated by the public source metadata.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

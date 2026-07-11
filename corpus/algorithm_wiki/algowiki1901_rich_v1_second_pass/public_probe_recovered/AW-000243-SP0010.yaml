@@ -1,0 +1,14 @@
+statement: 'Quadratic sieve estimation-sampling probe. This is a subroutine/query-model probe, not an end-to-end claim for the original algorithm. The probe reformulates the row as estimating the mean, probability, count, or numerical quantity of a bounded random variable. Original input context: An integer N represented with n bits and method-specific smoothness or search bounds. Original output context: A nontrivial factor, a complete factorization, or a failure indication under the method assumptions. Original bottleneck noted for the rich context card: Candidate generation, modular arithmetic, smoothness testing, and relation collection dominate. The bounded variable and coherent sampler are introduced assumptions; any positive result would be query-level only. Coherent oracle construction, promise checking, and data-mapping cost remain expert obligations. The original algorithm may still have full-output, preprocessing, or data-loading barriers.'
+input_model: explicit_combinatorial_problem
+access_model: coherent_estimation_oracle
+output_contract: additive_estimate
+promises:
+- bounded_random_variable
+- coherent_access
+- oracle_model_assumption
+size_parameters:
+- 'Parameter definition: n: number of bits in the integer, B: bound parameter'
+ambiguities:
+- This probe is assumption-bearing and is not an end-to-end speedup claim.
+- variance bounds, coherent sampler construction, and tolerance mapping remain expert obligations
+- The parent context card and source records should be checked before live use.

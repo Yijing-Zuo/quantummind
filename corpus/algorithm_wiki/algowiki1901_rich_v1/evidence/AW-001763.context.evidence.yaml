@@ -1,0 +1,59 @@
+id: AW-001763
+kind: context
+algorithm_id: AW-001763
+algorithm_name: Tsin [Section 4]
+source_records:
+- access_status: metadata_only
+  digest: 4d54fc3412577889
+  extracted_facts:
+  - 'AlgorithmWiki row name: Tsin [Section 4]'
+  - 'domain: graph'
+  - 'time complexity: O(n^2/p + \log n)'
+  - 'space complexity: https://www.proquest.com/docview/919780720?pq-origsite=gscholar&fromopenview=true'
+  - 'computational model: (SIMD-type) PRAM CREW'
+  - 'parameter definitions: n: number of vertices, m: number of total number of op.s (queries, links, cuts), p: number of processors'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(n^2/p + \log n); work O(n^2); span/depth O(log n); processors p. Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001763:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Tsin [Section 4]
+  url: https://ieeexplore.ieee.org/abstract/document/1676830
+- access_status: skipped
+  digest: f1d837f67d748203
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:d1db77e5bc2d1bf2
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://ieeexplore.ieee.org/abstract/document/1676830
+web_query_attempts:
+- method: search_plan
+  query: Tsin [Section 4] algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Tsin [Section 4] algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Tsin [Section 4] problem definition
+  status: recorded
+- method: search_plan
+  query: Tsin [Section 4] graph algorithm
+  status: recorded
+- method: search_plan
+  query: Tsin [Section 4] site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Tsin [Section 4] algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://ieeexplore.ieee.org/abstract/document/1676830
+  status: recorded
+- method: source_link_html_metadata
+  query: https://ieeexplore.ieee.org/abstract/document/1676830
+  status: skipped
+extracted_problem_statement: 'Tsin [Section 4] is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Tsin [Section 4]. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'Tsin [Section 4] is a graph algorithm record. Classical complexity metadata: time O(n^2/p + \log n); space https://www.proquest.com/docview/919780720?pq-origsite=gscholar&fromopenview=true; work O(n^2); span/depth O(log n); processors p. The stated classical model is (SIMD-type) PRAM CREW. Public metadata/source text adds: Tsin [Section 4] graph graph n: number of vertices, m: number of total number of op.s (queries, links, cuts), p: number of processors O(n^2/p + \log n) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

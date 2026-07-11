@@ -1,0 +1,58 @@
+id: AW-001033
+kind: context
+algorithm_id: AW-001033
+algorithm_name: Parallel Neighborhood sort - Baudet, Stevenson
+source_records:
+- access_status: metadata_only
+  digest: 9bd703593235e69b
+  extracted_facts:
+  - 'AlgorithmWiki row name: Parallel Neighborhood sort - Baudet, Stevenson'
+  - 'domain: sorting'
+  - 'time complexity: O(n \log{n}/p +n)'
+  - 'computational model: SIMD MIMD'
+  - 'parameter definitions: n: size of list, p: number of processors'
+  - 'precard summary: Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model. Baseline: time O(n \log{n}/p +n); work O(n \log{n}); span/depth O(n); processors p=\log{n}. Bottleneck: comparison, distribution, and full-output movement costs dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001033:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Parallel Neighborhood sort - Baudet, Stevenson
+  url: https://kilthub.cmu.edu/articles/Optimal_sorting_algorithms_for_parallel_computers/6608162/files/12099023.pdf
+- access_status: skipped
+  digest: f20a6221f83dcd04
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:446b40c84d93af57
+  source_type: wikipedia
+  title: fetch budget exhausted
+  url: https://en.wikipedia.org/wiki/Parallel_Neighborhood_sort_-_Baudet%2C_Stevenson
+web_query_attempts:
+- method: search_plan
+  query: Parallel Neighborhood sort - Baudet, Stevenson algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Parallel Neighborhood sort - Baudet, Stevenson algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Parallel Neighborhood sort - Baudet, Stevenson problem definition
+  status: recorded
+- method: search_plan
+  query: Parallel Neighborhood sort - Baudet, Stevenson sorting algorithm
+  status: recorded
+- method: search_plan
+  query: Parallel Neighborhood sort - Baudet, Stevenson site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Parallel Neighborhood sort - Baudet, Stevenson algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://kilthub.cmu.edu/articles/Optimal_sorting_algorithms_for_parallel_computers/6608162/files/12099023.pdf
+  status: recorded
+- method: wikipedia_summary_search
+  query: Parallel Neighborhood sort - Baudet, Stevenson algorithm
+  status: skipped
+extracted_problem_statement: 'Parallel Neighborhood sort - Baudet, Stevenson is treated as a classical sorting task for rich AlgorithmWiki discovery. Problem/task: sort the input sequence using the named classical sorting method. Input semantics: A finite array or list of comparable keys or records. Output semantics: The same items returned in nondecreasing order, usually as a full reordered sequence.'
+extracted_algorithm_summary: 'Parallel Neighborhood sort - Baudet, Stevenson is a sorting algorithm record. Classical complexity metadata: time O(n \log{n}/p +n); work O(n \log{n}); span/depth O(n); processors p=\log{n}. The stated classical model is SIMD MIMD. Public metadata/source text adds: Parallel Neighborhood sort - Baudet, Stevenson sorting sorting n: size of list, p: number of processors O(n \log{n}/p +n) Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

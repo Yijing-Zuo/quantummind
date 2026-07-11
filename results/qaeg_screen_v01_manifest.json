@@ -1,0 +1,62 @@
+{
+  "baseline_manifest": "results/qaeg_v1_baseline_manifest.json",
+  "environment": {
+    "mypy": "2.1.0",
+    "pydantic": "2.13.4",
+    "pytest": "9.1.0",
+    "python": "3.11.15",
+    "pyyaml": "6.0.3",
+    "ruff": "0.15.17"
+  },
+  "execution": "offline deterministic replay; no LLM or API call",
+  "generated_on": "2026-07-10",
+  "implementation_sha256": {
+    "scripts/regraph_runs.py": "FF3F75CAE6014BEC9A80A39F2380CB08972C4328FFE11469A1E81C9954EEC45D",
+    "src/quantummindlite/_graph_screen.py": "7D743D2489A373D9C034A543949FDC296D8B019482231877DC7B2F9FD4256AB3",
+    "src/quantummindlite/resources/configs/primitives.yaml": "501E8B5140EC542F669208ECCEC9CDF47AB6CD1876D261A0B631B4F5FF5221A7"
+  },
+  "outputs": {
+    "results/fdv1_screening_v01_families.csv": {
+      "families": 594,
+      "sha256": "89273725E50BAE4D684106DDAF7D7E16500B694875DDDEA8FD432F2EB980C2A9"
+    },
+    "results/fdv1_screening_v01_summary.csv": {
+      "dispositions": {
+        "DEMOTE_GENERIC": 380,
+        "INVALID_STATE": 1,
+        "REFORMULATE": 247
+      },
+      "graph_status": {
+        "FAIL": 1,
+        "PASS": 627
+      },
+      "rows": 628,
+      "sha256": "4817E28CC84D1366D7EEEDEA9B01C427B10AC618153714137D4DD05854F14FD4"
+    },
+    "results/fdv1_screening_v01_top9.csv": {
+      "rows": 9,
+      "sha256": "97445464353A96F513D8DD18B916B60526120BCDFC89696FA9E7BA9ACC4C7693"
+    },
+    "results/review_screening_v01_families.csv": {
+      "families": 104,
+      "sha256": "89304A5659BA1A9CE5EEA0A2BF5A59434A9DC9305F8FB2B9AF9F683210B711D5"
+    },
+    "results/review_screening_v01_summary.csv": {
+      "dispositions": {
+        "DEMOTE_GENERIC": 78,
+        "REFORMULATE": 28
+      },
+      "graph_status": {
+        "PASS": 106
+      },
+      "rows": 106,
+      "sha256": "555C52D864178A1591E0D2D3DA046A9F3C8DA225E8AEF3D998A53EC4ECAC4B7C"
+    },
+    "results/review_screening_v01_top9.csv": {
+      "rows": 9,
+      "sha256": "CF31E65B21656B3105C7FB6A8C95E498FEF5EA7CB47C9C82F229ECC5A7E1A190"
+    }
+  },
+  "screening_version": "QAEG-screen-v0.1",
+  "scientific_boundary": "Triage over represented public artifacts; not per-run human labels, model-performance evidence, or proof of a new quantum algorithm."
+}

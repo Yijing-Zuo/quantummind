@@ -1,0 +1,96 @@
+id: AW-001208
+kind: context_recovered
+algorithm_id: AW-001208
+algorithm_name: Folwell, Guha, Suzuki
+source_records:
+- access_status: metadata_only
+  digest: e9a52c7866798cb8
+  extracted_facts:
+  - 'AlgorithmWiki row name: Folwell, Guha, Suzuki'
+  - 'domain: unknown'
+  - 'time complexity: O(n^0.5)'
+  - 'computational model: SIMD'
+  - 'parameter definitions: n: number of integerst in range 1... n^0.5'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001208:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Folwell, Guha, Suzuki
+  url: https://www.tandfonline.com/doi/abs/10.1080/01495739708941425
+- access_status: skipped
+  digest: c88bc582cbc087c2
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:2ec1b86e533ac0d9
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1080/01495739708941425
+- access_status: skipped
+  digest: 83de63e0935e9c69
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:3fcbb50e11bfe21d
+  source_type: other_public_source
+  title: fetch budget exhausted
+  url: https://www.tandfonline.com/doi/abs/10.1080/01495739708941425
+- source_id: crossref:868f51bb8d385af6
+  url: https://doi.org/10.1080/01495739708941425
+  title: A PRACTICAL ALGORITHM for INTEGER SORTING INTEGER SORTING ON A MESH-CONNECTED COMPUTER*
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: HIGH
+  extracted_facts:
+  - 'DOI title: A PRACTICAL ALGORITHM for INTEGER SORTING INTEGER SORTING ON A MESH-CONNECTED COMPUTER*'
+  - 'published year: 1997'
+  - 'container title: Parallel Algorithms and Applications'
+  short_quote: ''
+  digest: 78609c9a2555ef56
+- source_id: crossref_search:0b18e1bdccf3f416
+  url: https://doi.org/10.1109/npc.2007.32
+  title: An optimal algorithm to fetch DHT routable
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: An optimal algorithm to fetch DHT routable'
+  short_quote: ''
+  digest: eac65bcac63f65f8
+web_query_attempts:
+- query: '"Folwell, Guha, Suzuki" algorithm'
+  method: search_plan
+  status: recorded
+- query: '"Folwell, Guha, Suzuki" input output'
+  method: search_plan
+  status: recorded
+- query: '"Folwell, Guha, Suzuki" time complexity'
+  method: search_plan
+  status: recorded
+- query: '"Folwell, Guha, Suzuki" pseudocode'
+  method: search_plan
+  status: recorded
+- query: '"Folwell, Guha, Suzuki" problem'
+  method: search_plan
+  status: recorded
+- query: '"Folwell, Guha, Suzuki" PDF metadata abstract'
+  method: search_plan
+  status: recorded
+- query: '"fetch budget exhausted" algorithm'
+  method: search_plan
+  status: recorded
+- query: https://www.tandfonline.com/doi/abs/10.1080/01495739708941425
+  method: search_plan
+  status: recorded
+- query: 10.1080/01495739708941425
+  method: crossref_doi_metadata
+  status: fetched
+- query: fetch budget exhausted algorithm
+  method: crossref_title_search
+  status: fetched
+extracted_problem_statement: 'Folwell, Guha, Suzuki is reconstructed as a classical parallel algorithms task. Problem/task: coordinate process access to a critical section without simultaneous entry Input semantics: A set of processes, request/release events, and shared-memory or message-passing assumptions. Output semantics: A protocol state sequence or decision granting safe critical-section access.'
+extracted_algorithm_summary: 'Folwell, Guha, Suzuki is treated as the named AlgorithmWiki variant for coordinate process access to a critical section without simultaneous entry Classical complexity metadata: time O(n^0.5); work O(n^2.5); span/depth O(n^0.5). Public metadata/source title support includes A PRACTICAL ALGORITHM for INTEGER SORTING INTEGER SORTING ON A MESH-CONNECTED COMPUTER*.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

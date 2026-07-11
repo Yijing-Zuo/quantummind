@@ -1,0 +1,58 @@
+algorithm_family: dynamic programming
+algorithm_id: AW-001321
+approximate: '0'
+approximation_factor: ''
+blind_name: Algorithm Wiki public task AW-001321
+canonical_name: Liu, Chen
+computational_model: Shenteng 1800 using MPI
+domain: dynamic_programming
+extracted_description: ''
+extraction_version: algorithm-wiki-rich-context-v1
+family: dynamic_programming
+inferred_access_model: offline_batch_queries
+inferred_ambiguities:
+- No independent fetched public metadata source resolved this row beyond AlgorithmWiki metadata/source-link facts.
+- Some details are reconstructed from AlgorithmWiki metadata rather than an independently fetched full public description.
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.
+inferred_input_model: explicit_dynamic_programming_problem
+inferred_output_contract: full_solution
+inferred_problem_statement: 'Liu, Chen is treated as a classical dynamic programming task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Liu, Chen. Input semantics: An explicit optimization or recurrence instance with overlapping subproblems. Output semantics: The optimal value, witness, schedule, segmentation, or table-derived solution for the recurrence.'
+inferred_promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+inferred_size_parameters:
+- 'Parameter definition: L: number of identical character pairs , |LCS(X,Y)|: the length of the LCS of X, Y.'
+number_of_processors: ''
+page_digest: ''
+page_fetch_status: not_found
+page_url: ''
+parameter_definitions: 'L: number of identical character pairs , |LCS(X,Y)|: the length of the LCS of X, Y.'
+problem_name: dynamic programming
+quality_flags:
+- domain_inferred
+- problem_statement_inferred
+- io_access_output_inferred
+- has_complexity_semantics
+- has_size_parameters
+- has_computational_model
+quality_score: 100
+randomized: '0'
+readiness: READY_PUBLIC_CONTEXT
+review_reasons: []
+source_link: https://link.springer.com/chapter/10.1007/978-0-387-77251-6_8
+source_link_type: unknown
+space_complexity: ''
+span_depth: O(|LCS(X,Y)|)
+time_complexity: O(|LCS(X,Y)|)
+variation: ''
+work: O(L)
+year: '2008'
+rich_card_kind: context
+source_records_used:
+- AW-001321:algorithm_wiki_metadata
+- skipped:b300e64a047f7f7b
+- skipped:932e0116e8fde246
+source_count: 3
+source_quality: HIGH
+confidence_score: 100
+card_digest: 0c404093e50bc1d7

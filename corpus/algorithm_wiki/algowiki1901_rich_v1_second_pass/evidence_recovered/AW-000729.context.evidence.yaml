@@ -1,0 +1,71 @@
+id: AW-000729
+kind: context_recovered
+algorithm_id: AW-000729
+algorithm_name: "V. A. Lyul\u2019ka and A. V. Romanenko"
+source_records:
+- access_status: metadata_only
+  digest: 1b869faab4ccde72
+  extracted_facts:
+  - "AlgorithmWiki row name: V. A. Lyul\u2019ka and A. V. Romanenko"
+  - 'domain: unknown'
+  - 'time complexity: O(n^5)'
+  - 'parameter definitions: n: number of points'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000729:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: "AlgorithmWiki metadata for V. A. Lyul\u2019ka and A. V. Romanenko"
+  url: https://www.mathnet.ru/eng/zvmmf2544
+- access_status: fetched
+  digest: 70b26ef13a816e82
+  extracted_facts:
+  - "source page title: V. A. Lyul'ka, A. V. Romanko, \u201CConstructing interpolation curves by the grid method\u201D, Zh. Vychisl. Mat. Mat. Fiz., 34:6 (1994), 827\u2013836; Comput. Math. Math. Phys., 34:6 (1994), 713\u2013721"
+  - "source page description: V. A. Lyul'ka, A. V. Romanko, \u201CConstructing interpolation curves by the grid method\u201D, Zh."
+  reliability: LOW
+  short_quote: "V. A. Lyul'ka, A. V. Romanko, \u201CConstructing interpolation curves by the grid method\u201D, Zh."
+  source_id: source:3809a997ddcddbd0
+  source_type: other_public_source
+  title: "V. A. Lyul'ka, A. V. Romanko, \u201CConstructing interpolation curves by the grid method\u201D, Zh. Vychisl. Mat. Mat. Fiz., 34:6 (1994), 827\u2013836; Comput. Math. Math. Phys., 34:6 (1994), 713\u2013721"
+  url: https://www.mathnet.ru/eng/zvmmf2544
+- source_id: crossref_search:2f19ff714c352bae
+  url: https://doi.org/10.1126/science.279.5350.487b
+  title: Math or Mat
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: Math or Mat'
+  short_quote: ''
+  digest: c53bf99e8c6cb170
+web_query_attempts:
+- query: "\"V. A. Lyul\u2019ka and A. V. Romanenko\" algorithm"
+  method: search_plan
+  status: recorded
+- query: "\"V. A. Lyul\u2019ka and A. V. Romanenko\" input output"
+  method: search_plan
+  status: recorded
+- query: "\"V. A. Lyul\u2019ka and A. V. Romanenko\" time complexity"
+  method: search_plan
+  status: recorded
+- query: "\"V. A. Lyul\u2019ka and A. V. Romanenko\" pseudocode"
+  method: search_plan
+  status: recorded
+- query: "\"V. A. Lyul\u2019ka and A. V. Romanenko\" problem"
+  method: search_plan
+  status: recorded
+- query: "\"V. A. Lyul\u2019ka and A. V. Romanenko\" PDF metadata abstract"
+  method: search_plan
+  status: recorded
+- query: "\"V. A. Lyul'ka, A. V. Romanko, \u201CConstructing interpolation curves by the grid method\u201D, Zh. Vychisl. Mat. Mat. Fiz., 34:6 (1994), 827\u2013836; Comput. Math. Math. Phys., 34:6 (1994), 713\u2013721\" algorithm"
+  method: search_plan
+  status: recorded
+- query: https://www.mathnet.ru/eng/zvmmf2544
+  method: search_plan
+  status: recorded
+- query: "V. A. Lyul'ka, A. V. Romanko, \u201CConstructing interpolation curves by the grid method\u201D, Zh. Vychisl. Mat. Mat. Fiz., 34:6 (1994), 827\u2013836; Comput. Math. Math. Phys., 34:6 (1994), 713\u2013721 algorithm"
+  method: crossref_title_search
+  status: fetched
+extracted_problem_statement: "V. A. Lyul\u2019ka and A. V. Romanenko is reconstructed as a classical computational geometry task. Problem/task: compute a geometric structure or relation over a finite point set Input semantics: A finite set of points, dimension k when stated, and geometric predicate assumptions. Output semantics: A geometric witness, nearest/closest relation, hull, partition, or related structure supported by the named row."
+extracted_algorithm_summary: "V. A. Lyul\u2019ka and A. V. Romanenko is treated as the named AlgorithmWiki variant for compute a geometric structure or relation over a finite point set Classical complexity metadata: time O(n^5). Public metadata/source title support includes V. A. Lyul'ka, A. V. Romanko, \u201CConstructing interpolation curves by the grid method\u201D, Zh. Vychisl. Mat. Mat. Fiz., 34:6 (1994), 827\u2013836; Comput. Math. Math. Phys., 34:6 (1994), 713\u2013721."
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

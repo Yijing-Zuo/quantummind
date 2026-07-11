@@ -1,0 +1,58 @@
+id: AW-001154
+kind: context
+algorithm_id: AW-001154
+algorithm_name: Parallel sorting by regular sampling (PSRS) - Shi, Schaeffer
+source_records:
+- access_status: metadata_only
+  digest: 7ae1d8558b304bf6
+  extracted_facts:
+  - 'AlgorithmWiki row name: Parallel sorting by regular sampling (PSRS) - Shi, Schaeffer'
+  - 'domain: sorting'
+  - 'time complexity: O(n/p \log{n})'
+  - 'computational model: MIMD'
+  - 'parameter definitions: n: size of list, p: number of processors'
+  - 'precard summary: Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model. Baseline: time O(n/p \log{n}); work O(n \log{n}); span/depth O(\log{n}); processors p. Bottleneck: comparison, distribution, and full-output movement costs dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001154:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Parallel sorting by regular sampling (PSRS) - Shi, Schaeffer
+  url: https://www.sciencedirect.com/science/article/pii/074373159290075X
+- access_status: skipped
+  digest: a54e3807e54e1b2a
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:ecfff78f5162831d
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://www.sciencedirect.com/science/article/pii/074373159290075X
+web_query_attempts:
+- method: search_plan
+  query: Parallel sorting by regular sampling (PSRS) - Shi, Schaeffer algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Parallel sorting by regular sampling (PSRS) - Shi, Schaeffer algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Parallel sorting by regular sampling (PSRS) - Shi, Schaeffer problem definition
+  status: recorded
+- method: search_plan
+  query: Parallel sorting by regular sampling (PSRS) - Shi, Schaeffer sorting algorithm
+  status: recorded
+- method: search_plan
+  query: Parallel sorting by regular sampling (PSRS) - Shi, Schaeffer site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Parallel sorting by regular sampling (PSRS) - Shi, Schaeffer algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://www.sciencedirect.com/science/article/pii/074373159290075X
+  status: recorded
+- method: source_link_html_metadata
+  query: https://www.sciencedirect.com/science/article/pii/074373159290075X
+  status: skipped
+extracted_problem_statement: 'Parallel sorting by regular sampling (PSRS) - Shi, Schaeffer is treated as a classical sorting task for rich AlgorithmWiki discovery. Problem/task: sort the input sequence using the named classical sorting method. Input semantics: A finite array or list of comparable keys or records. Output semantics: The same items returned in nondecreasing order, usually as a full reordered sequence.'
+extracted_algorithm_summary: 'Parallel sorting by regular sampling (PSRS) - Shi, Schaeffer is a sorting algorithm record. Classical complexity metadata: time O(n/p \log{n}); work O(n \log{n}); span/depth O(\log{n}); processors p. The stated classical model is MIMD. Public metadata/source text adds: Parallel sorting by regular sampling (PSRS) - Shi, Schaeffer sorting sorting n: size of list, p: number of processors O(n/p \log{n}) Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

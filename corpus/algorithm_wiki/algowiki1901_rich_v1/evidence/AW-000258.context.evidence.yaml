@@ -1,0 +1,71 @@
+id: AW-000258
+kind: context
+algorithm_id: AW-000258
+algorithm_name: De
+source_records:
+- access_status: metadata_only
+  digest: a56dc7d6951f06c3
+  extracted_facts:
+  - 'AlgorithmWiki row name: De'
+  - 'domain: unknown'
+  - 'time complexity: O(n \log n 2^{O(\log^*n)})'
+  - 'space complexity: O(n) auxiliary'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: length of one of the integers, in bits'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000258:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for De
+  url: https://arxiv.org/abs/0801.1416
+- access_status: fetched
+  digest: 6cd2cf872f030ae5
+  extracted_facts:
+  - 'arXiv title: Fast Integer Multiplication using Modular Arithmetic'
+  - "abstract summary: We give an $O(N\\cdot \\log N\\cdot 2^{O(\\log^*N)})$ algorithm for multiplying two $N$-bit integers that improves the $O(N\\cdot \\log N\\cdot \\log\\log N)$ algorithm by Sch\xF6nhage-Strassen."
+  reliability: HIGH
+  short_quote: "We give an $O(N\\cdot \\log N\\cdot 2^{O(\\log^*N)})$ algorithm for multiplying two $N$-bit integers that improves the $O(N\\cdot \\log N\\cdot \\log\\log N)$ algorithm by Sch\xF6nhage-Strassen."
+  source_id: arxiv:0801.1416
+  source_type: arxiv_abstract
+  title: Fast Integer Multiplication using Modular Arithmetic
+  url: https://arxiv.org/abs/0801.1416
+- access_status: fetched
+  digest: 7b9d3495beb32a8a
+  extracted_facts:
+  - 'source page title: [0801.1416] Fast Integer Multiplication using Modular Arithmetic'
+  - 'source page description: Abstract page for arXiv paper 0801.1416: Fast Integer Multiplication using Modular Arithmetic'
+  reliability: HIGH
+  short_quote: 'Abstract page for arXiv paper 0801.1416: Fast Integer Multiplication using Modular Arithmetic'
+  source_id: source:9705f90debffcb47
+  source_type: arxiv_abstract
+  title: '[0801.1416] Fast Integer Multiplication using Modular Arithmetic'
+  url: https://arxiv.org/abs/0801.1416
+web_query_attempts:
+- method: search_plan
+  query: De algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: De algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: De problem definition
+  status: recorded
+- method: search_plan
+  query: De site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: De algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://arxiv.org/abs/0801.1416
+  status: recorded
+- method: arxiv_abstract_metadata
+  query: '0801.1416'
+  status: fetched
+- method: source_link_html_metadata
+  query: https://arxiv.org/abs/0801.1416
+  status: fetched
+extracted_problem_statement: 'De is treated as a classical matrix linear algebra task for rich AlgorithmWiki discovery. Problem/task: multiply matrices using the named bilinear or algebraic multiplication method. Input semantics: One or more explicit matrices or linear systems over the stated arithmetic domain. Output semantics: The matrix product or bilinear multiplication output.'
+extracted_algorithm_summary: 'De is a matrix linear algebra algorithm record. Classical complexity metadata: time O(n \log n 2^{O(\log^*n)}); space O(n) auxiliary. The stated classical model is Word RAM. Public metadata/source text adds: De unknown unknown n: length of one of the integers, in bits O(n \log n 2^{O(\log^*n)}) No public-ready summary is available because the row lacks enough task semantics.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

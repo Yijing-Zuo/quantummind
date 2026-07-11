@@ -1,0 +1,60 @@
+id: AW-000014-P0011
+kind: probe
+algorithm_id: AW-000014
+algorithm_name: Valentin Polishchuk, and Jukka Suomela
+source_records:
+- access_status: metadata_only
+  digest: fc12c71ba1485828
+  extracted_facts:
+  - 'AlgorithmWiki row name: Valentin Polishchuk, and Jukka Suomela'
+  - 'domain: graph'
+  - 'time complexity: O(\Delta^2/\epsilon)'
+  - 'space complexity: O(\Delta^2/\epsilon)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of people in set, \Delta: maximum degree of vertex in graph, \epsilon: stability parameter'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(\Delta^2/\epsilon); space O(\Delta^2/\epsilon). Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000014:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Valentin Polishchuk, and Jukka Suomela
+  url: https://arxiv.org/pdf/0812.4893.pdf
+- access_status: fetched
+  digest: a79065e6d51274b4
+  extracted_facts:
+  - 'arXiv title: Almost stable matchings in constant time'
+  - 'abstract summary: We show that the ratio of matched individuals to blocking pairs grows linearly with the number of propose--accept rounds executed by the Gale--Shapley algorithm for the stable marriage problem.'
+  reliability: HIGH
+  short_quote: We show that the ratio of matched individuals to blocking pairs grows linearly with the number of propose--accept rounds executed by the Gale--Shapley algorithm
+  source_id: arxiv:0812.4893
+  source_type: arxiv_abstract
+  title: Almost stable matchings in constant time
+  url: https://arxiv.org/abs/0812.4893
+web_query_attempts:
+- method: search_plan
+  query: Valentin Polishchuk, and Jukka Suomela algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Valentin Polishchuk, and Jukka Suomela algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Valentin Polishchuk, and Jukka Suomela problem definition
+  status: recorded
+- method: search_plan
+  query: Valentin Polishchuk, and Jukka Suomela graph algorithm
+  status: recorded
+- method: search_plan
+  query: Valentin Polishchuk, and Jukka Suomela site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Valentin Polishchuk, and Jukka Suomela algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://arxiv.org/pdf/0812.4893.pdf
+  status: recorded
+- method: arxiv_abstract_metadata
+  query: '0812.4893'
+  status: fetched
+extracted_problem_statement: 'Valentin Polishchuk, and Jukka Suomela is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Valentin Polishchuk, and Jukka Suomela. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: Pattern occurrence positions, matches, or the associated string-search report.'
+extracted_algorithm_summary: 'Valentin Polishchuk, and Jukka Suomela is a graph algorithm record. Classical complexity metadata: time O(\Delta^2/\epsilon); space O(\Delta^2/\epsilon). The stated classical model is Word RAM. Public metadata/source text adds: Valentin Polishchuk, and Jukka Suomela graph graph n: number of people in set, \Delta: maximum degree of vertex in graph, \epsilon: stability parameter O(\Delta^2/\epsilon) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

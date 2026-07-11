@@ -1,0 +1,99 @@
+id: AW-000237
+kind: context_recovered
+algorithm_id: AW-000237
+algorithm_name: Williams' p + 1 algorithm
+source_records:
+- access_status: metadata_only
+  digest: a5921459f62cee2c
+  extracted_facts:
+  - 'AlgorithmWiki row name: Williams'' p + 1 algorithm'
+  - 'domain: unknown'
+  - 'time complexity: O(2^n)'
+  - 'space complexity: O(n)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of bits in the integer'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000237:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Williams' p + 1 algorithm
+  url: https://www.jstor.org/stable/2007633?origin=crossref
+- access_status: failed
+  digest: 84e5731572d48822
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:69aba049affec05d
+  source_type: other_public_source
+  title: 'HTTP Error 403: Forbidden'
+  url: https://www.jstor.org/stable/2007633?origin=crossref
+- access_status: fetched
+  digest: 767bdaa1fc01750b
+  extracted_facts:
+  - 'Crossref title-search result: A general adaptive finite element eigen-algorithm stemming from Wittrick-Williams algorithm'
+  reliability: MEDIUM
+  short_quote: ''
+  source_id: crossref_search:9e861763d5c5b229
+  source_type: doi_metadata
+  title: A general adaptive finite element eigen-algorithm stemming from Wittrick-Williams algorithm
+  url: https://doi.org/10.1016/j.tws.2021.107448
+- source_id: crossref_search:da4edd46647ab9c3
+  url: https://doi.org/10.2307/2005573
+  title: A Difficulty in Williams' Algorithm for Interpolating Rationals
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title: A Difficulty in Williams'' Algorithm for Interpolating Rationals'
+  - 'published year: 1975'
+  - 'container title: Mathematics of Computation'
+  short_quote: 'Crossref title: A Difficulty in Williams'' Algorithm for Interpolating Rationals published year: 1975 container title: Mathematics of Computation'
+  digest: e0aa9f8fe90d7c1e
+web_query_attempts:
+- cycle: 1
+  query: Williams' p + 1 algorithm
+  source_family: algorithm_wiki_local
+  url_or_api_endpoint: https://www.jstor.org/stable/2007633?origin=crossref
+  status: fetched
+  new_facts_added: 9
+  reason: local metadata
+- cycle: 1
+  query: Williams' p + 1 algorithm
+  source_family: local_previous_cache
+  url_or_api_endpoint: ''
+  status: duplicate
+  new_facts_added: 0
+  reason: previous v1/second-pass sources reused
+- cycle: 1
+  query: https://www.jstor.org/stable/2007633?origin=crossref
+  source_family: original_source
+  url_or_api_endpoint: https://www.jstor.org/stable/2007633?origin=crossref
+  status: fetch_failed
+  new_facts_added: 0
+  reason: 'HTTP Error 403: Forbidden'
+- cycle: 1
+  query: Williams' p + 1 algorithm
+  source_family: crossref
+  url_or_api_endpoint: https://doi.org/10.2307/2005573
+  status: fetched
+  new_facts_added: 6
+  reason: Crossref metadata/title search
+- cycle: 1
+  query: Williams' p + 1 algorithm
+  source_family: arxiv
+  url_or_api_endpoint: https://export.arxiv.org/api/query?max_results=1&search_query=ti:%22Williams%27+p+%2B+1+algorithm%22
+  status: no_result
+  new_facts_added: 0
+  reason: arXiv title search returned no usable entry
+- cycle: 1
+  query: Williams' p + 1 algorithm
+  source_family: wikipedia
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: Wikipedia search returned no relevant page
+extracted_problem_statement: 'Williams'' p + 1 algorithm is treated as a source-saturated AlgorithmWiki row for find a nontrivial factor of an integer using Williams'' p+1 factorization method Input semantics: An odd composite integer N represented with n bits and smoothness/search parameters for the p+1 method. Output semantics: A nontrivial factor of N or a report that the chosen smoothness attempt did not find one.'
+extracted_algorithm_summary: 'Williams'' p + 1 algorithm is reconstructed as a classical combinatorics task. The source-backed title/name/fact record supports the task: find a nontrivial factor of an integer using Williams'' p+1 factorization method.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

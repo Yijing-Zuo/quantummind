@@ -1,0 +1,67 @@
+algorithm_id: AW-000947
+canonical_name: Hertli (Modified PPSZ)
+enrichment_status: SECOND_PASS_INSUFFICIENT
+review_reasons:
+- No second-pass rule could identify source-backed task semantics.
+source_records:
+- access_status: metadata_only
+  digest: 321be3efc6f978c1
+  extracted_facts:
+  - 'AlgorithmWiki row name: Hertli (Modified PPSZ)'
+  - 'domain: unknown'
+  - 'time complexity: O(1.46899^n)'
+  - 'space complexity: O(kn)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of variables'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000947:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Hertli (Modified PPSZ)
+  url: https://epubs.siam.org/doi/abs/10.1137/120868177
+- access_status: skipped
+  digest: 9b1c85f0f2fbb6db
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:be94abb3b862bddf
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1137/120868177
+- access_status: skipped
+  digest: 8a4bbb7ebfe77f90
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:0effaabec507e18a
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://epubs.siam.org/doi/abs/10.1137/120868177
+- source_id: crossref:a18b354d5f979145
+  url: https://doi.org/10.1137/120868177
+  title: 3-SAT Faster and Simpler---Unique-SAT Bounds for PPSZ Hold in General
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: HIGH
+  extracted_facts:
+  - 'DOI title: 3-SAT Faster and Simpler---Unique-SAT Bounds for PPSZ Hold in General'
+  - 'published year: 2014'
+  - 'container title: SIAM Journal on Computing'
+  short_quote: ''
+  digest: b84f5c3cdf3caee2
+- source_id: crossref_search:0b18e1bdccf3f416
+  url: https://doi.org/10.1109/npc.2007.32
+  title: An optimal algorithm to fetch DHT routable
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: An optimal algorithm to fetch DHT routable'
+  short_quote: ''
+  digest: eac65bcac63f65f8
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

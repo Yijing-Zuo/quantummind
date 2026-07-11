@@ -1,0 +1,32 @@
+algorithm_id: AW-000292
+canonical_name: T. Lindeberg and J. Garding (1997)
+enrichment_status: SECOND_PASS_INSUFFICIENT
+review_reasons:
+- No second-pass rule could identify source-backed task semantics.
+source_records:
+- access_status: metadata_only
+  digest: c2e9649acd8bc716
+  extracted_facts:
+  - 'AlgorithmWiki row name: T. Lindeberg and J. Garding (1997)'
+  - 'domain: unknown'
+  - 'time complexity: O(n^2)'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000292:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for T. Lindeberg and J. Garding (1997)
+  url: ''
+- source_id: crossref_search:b730622b3b3c0094
+  url: https://doi.org/10.1090/mbk/121/10
+  title: Lindeberg condition
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: Lindeberg condition'
+  short_quote: ''
+  digest: a52cdea37c8ae7ab
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

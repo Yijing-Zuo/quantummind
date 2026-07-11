@@ -1,0 +1,74 @@
+id: AW-000659-P0454
+kind: probe
+algorithm_id: AW-000659
+algorithm_name: Niedermeier, Rossmanith
+source_records:
+- access_status: metadata_only
+  digest: aa274cf9747dacb2
+  extracted_facts:
+  - 'AlgorithmWiki row name: Niedermeier, Rossmanith'
+  - 'domain: graph'
+  - 'time complexity: O(kn + 1.29175^k k^2)'
+  - 'space complexity: O(k^3) auxiliary (potentially O(k^2))'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of vertices, m: number of edges, k: size of vertex cover (worst case O(n))'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(kn + 1.29175^k k^2); space O(k^3) auxiliary (potentially O(k^2)). Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000659:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Niedermeier, Rossmanith
+  url: https://link.springer.com/chapter/10.1007/3-540-49116-3_53
+- access_status: fetched
+  digest: 335321afabaffffd
+  extracted_facts:
+  - 'DOI title: Upper Bounds for Vertex Cover Further Improved'
+  - 'published year: 1999'
+  - 'container title: Lecture Notes in Computer Science'
+  reliability: HIGH
+  short_quote: ''
+  source_id: crossref:3b806c36ff9edd81
+  source_type: doi_metadata
+  title: Upper Bounds for Vertex Cover Further Improved
+  url: https://doi.org/10.1007/3-540-49116-3_53
+- access_status: skipped
+  digest: 7e31587e0aec5766
+  extracted_facts:
+  - robots.txt disallowed fetch
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:57400dfc87f44c6c
+  source_type: publisher_abstract
+  title: robots.txt disallowed fetch
+  url: https://link.springer.com/chapter/10.1007/3-540-49116-3_53
+web_query_attempts:
+- method: search_plan
+  query: Niedermeier, Rossmanith algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Niedermeier, Rossmanith algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Niedermeier, Rossmanith problem definition
+  status: recorded
+- method: search_plan
+  query: Niedermeier, Rossmanith graph algorithm
+  status: recorded
+- method: search_plan
+  query: Niedermeier, Rossmanith site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Niedermeier, Rossmanith algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://link.springer.com/chapter/10.1007/3-540-49116-3_53
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1007/3-540-49116-3_53
+  status: fetched
+- method: source_link_html_metadata
+  query: https://link.springer.com/chapter/10.1007/3-540-49116-3_53
+  status: skipped
+extracted_problem_statement: 'Niedermeier, Rossmanith is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Niedermeier, Rossmanith. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'Niedermeier, Rossmanith is a graph algorithm record. Classical complexity metadata: time O(kn + 1.29175^k k^2); space O(k^3) auxiliary (potentially O(k^2)). The stated classical model is Word RAM. Public metadata/source text adds: Niedermeier, Rossmanith graph graph n: number of vertices, m: number of edges, k: size of vertex cover (worst case O(n)) O(kn + 1.29175^k k^2) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

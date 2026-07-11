@@ -1,0 +1,23 @@
+probe_id: AW-000460-RV1-CNT0010
+kind: registry_v1_probe
+parent_algorithm_id: AW-000460
+parent_algorithm_name: Durstenfeld's Algorithm 235
+source_card_paths:
+- corpus\algorithm_wiki\algowiki1901_rich_v1\public_context\AW-000460.yaml
+- corpus\algorithm_wiki\algowiki1901_rich_v1\public_probe\AW-000460-P0341.yaml
+source_metadata_paths:
+- corpus\algorithm_wiki\algowiki1901_rich_v1\metadata_probe\AW-000460-P0341.meta.yaml
+source_records_used:
+- AW-000460:algorithm_wiki_metadata
+- crossref:ff5a6c65bf8106ff
+- failed:dba4d9e0f5bdfc3b
+short_paraphrased_support: 'Durstenfeld''s Algorithm 235 Durstenfeld''s Algorithm 235 is treated as a classical combinatorics task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Durstenfeld''s Algorithm 235. Input semantics: A finite combinatorial object, integer set, board, recurrence, or witness-search instance. Output semantics: A count, witness, construction, ordering, subset, cycle, or other finite combinatorial output. Durstenfeld''s Algorithm 235 is a combinatorics algorithm record. Classical complexity metadata: time O(n); space O(1). The stated classical model is Word RAM. Public metadata/source text adds: Durstenfeld''s Algorithm 235 unknown unknown n: number of elements O(n) No public-ready summary is available because the row lacks enough task semantics. A finite combinatorial object, integer set, board, recurrence, or witness-search instance. A count, wit'
+introduced_assumptions:
+- finite_search_space
+- coherent_boolean_oracle
+- count_precision_specified
+limitations:
+- The probe is a public query/subroutine hypothesis only.
+- It does not assert a full original-algorithm speedup.
+- Oracle, promise, and data-representation costs require expert review.
+confirmation: Public provenance sidecar only; no evaluator label or private benchmark answer is encoded.

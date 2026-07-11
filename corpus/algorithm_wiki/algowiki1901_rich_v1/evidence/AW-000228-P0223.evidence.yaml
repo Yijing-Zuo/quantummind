@@ -1,0 +1,60 @@
+id: AW-000228-P0223
+kind: probe
+algorithm_id: AW-000228
+algorithm_name: Thorup
+source_records:
+- access_status: metadata_only
+  digest: 8941a368fab3481e
+  extracted_facts:
+  - 'AlgorithmWiki row name: Thorup'
+  - 'domain: graph'
+  - 'time complexity: O(mn)'
+  - 'space complexity: O(m)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of vertices, m: number of edges'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(mn); space O(m). Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000228:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Thorup
+  url: https://ieeexplore.ieee.org/document/646088
+- access_status: fetched
+  digest: 5fe7371cc4cbbb4b
+  extracted_facts:
+  - 'source page title: https://ieeexplore.ieee.org/document/646088'
+  - 'source page description: In order to continue, we need to verify that you''re not a robot.'
+  reliability: HIGH
+  short_quote: In order to continue, we need to verify that you're not a robot.
+  source_id: source:9b722d2043f47b86
+  source_type: publisher_abstract
+  title: https://ieeexplore.ieee.org/document/646088
+  url: https://ieeexplore.ieee.org/document/646088
+web_query_attempts:
+- method: search_plan
+  query: Thorup algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Thorup algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Thorup problem definition
+  status: recorded
+- method: search_plan
+  query: Thorup graph algorithm
+  status: recorded
+- method: search_plan
+  query: Thorup site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Thorup algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://ieeexplore.ieee.org/document/646088
+  status: recorded
+- method: source_link_html_metadata
+  query: https://ieeexplore.ieee.org/document/646088
+  status: fetched
+extracted_problem_statement: 'Thorup is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Thorup. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'Thorup is a graph algorithm record. Classical complexity metadata: time O(mn); space O(m). The stated classical model is Word RAM. Public metadata/source text adds: Thorup graph graph n: number of vertices, m: number of edges O(mn) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

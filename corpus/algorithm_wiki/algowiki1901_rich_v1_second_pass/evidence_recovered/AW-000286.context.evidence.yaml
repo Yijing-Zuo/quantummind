@@ -1,0 +1,53 @@
+id: AW-000286
+kind: context_recovered
+algorithm_id: AW-000286
+algorithm_name: "F\xF6rstner algorithm 1987"
+source_records:
+- access_status: metadata_only
+  digest: 2d25df918a1ed910
+  extracted_facts:
+  - "AlgorithmWiki row name: F\xF6rstner algorithm 1987"
+  - 'domain: unknown'
+  - 'time complexity: O(n^2 \log^2 n)'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000286:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: "AlgorithmWiki metadata for F\xF6rstner algorithm 1987"
+  url: ''
+- source_id: crossref_search:40853903c0350fb4
+  url: https://doi.org/10.1145/366199.366273
+  title: Remarks on Algorithm 2, Algorithm 3, Algorithm 15, Algorithm 25 and Algorithm 26
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: Remarks on Algorithm 2, Algorithm 3, Algorithm 15, Algorithm 25 and Algorithm 26'
+  short_quote: ''
+  digest: f374494d87c2faec
+web_query_attempts:
+- query: "\"F\xF6rstner algorithm 1987\" algorithm"
+  method: search_plan
+  status: recorded
+- query: "\"F\xF6rstner algorithm 1987\" input output"
+  method: search_plan
+  status: recorded
+- query: "\"F\xF6rstner algorithm 1987\" time complexity"
+  method: search_plan
+  status: recorded
+- query: "\"F\xF6rstner algorithm 1987\" pseudocode"
+  method: search_plan
+  status: recorded
+- query: "\"F\xF6rstner algorithm 1987\" problem"
+  method: search_plan
+  status: recorded
+- query: "\"F\xF6rstner algorithm 1987\" PDF metadata abstract"
+  method: search_plan
+  status: recorded
+- query: "F\xF6rstner algorithm 1987 algorithm"
+  method: crossref_title_search
+  status: fetched
+extracted_problem_statement: "F\xF6rstner algorithm 1987 is reconstructed as a classical image processing task. Problem/task: detect local image features such as corners, blobs, or scale-invariant keypoints Input semantics: An image or image pyramid/grid of pixel intensities plus detector parameters. Output semantics: A set of detected feature locations, scales, orientations, or descriptors."
+extracted_algorithm_summary: "F\xF6rstner algorithm 1987 is treated as the named AlgorithmWiki variant for detect local image features such as corners, blobs, or scale-invariant keypoints Classical complexity metadata: time O(n^2 \\log^2 n). Public metadata/source title support includes Remarks on Algorithm 2, Algorithm 3, Algorithm 15, Algorithm 25 and Algorithm 26."
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

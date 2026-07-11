@@ -1,0 +1,58 @@
+id: AW-001840
+kind: context
+algorithm_id: AW-001840
+algorithm_name: Agostino, Storer (1)
+source_records:
+- access_status: metadata_only
+  digest: b62ed8443d3bb867
+  extracted_facts:
+  - 'AlgorithmWiki row name: Agostino, Storer (1)'
+  - 'domain: parallel_algorithms'
+  - 'time complexity: O(L+\log{n})'
+  - 'computational model: (CREW) PRAM'
+  - 'parameter definitions: n: input length, L: max allowed length of dictionary entries, is O(\log{n})'
+  - 'precard summary: Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model. Baseline: time O(L+\log{n}); work O((L+\log{n})n^2); span/depth O(L+\log{n}); processors O(n^2). Bottleneck: work, span, communication, and processor-count assumptions dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001840:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Agostino, Storer (1)
+  url: https://www.computer.org/csdl/proceedings-article/dcc/1992/00227476/12OmNyp9Mn2
+- access_status: skipped
+  digest: 9f7488421584a1e1
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:9b1855ffa1c17d64
+  source_type: other_public_source
+  title: fetch budget exhausted
+  url: https://www.computer.org/csdl/proceedings-article/dcc/1992/00227476/12OmNyp9Mn2
+web_query_attempts:
+- method: search_plan
+  query: Agostino, Storer (1) algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Agostino, Storer (1) algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Agostino, Storer (1) problem definition
+  status: recorded
+- method: search_plan
+  query: Agostino, Storer (1) parallel algorithms algorithm
+  status: recorded
+- method: search_plan
+  query: Agostino, Storer (1) site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Agostino, Storer (1) algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://www.computer.org/csdl/proceedings-article/dcc/1992/00227476/12OmNyp9Mn2
+  status: recorded
+- method: source_link_html_metadata
+  query: https://www.computer.org/csdl/proceedings-article/dcc/1992/00227476/12OmNyp9Mn2
+  status: skipped
+extracted_problem_statement: 'Agostino, Storer (1) is treated as a classical parallel algorithms task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Agostino, Storer (1). Input semantics: The classical input instance named by the row, together with processor/work/span parameters when stated. Output semantics: The same mathematical output as the underlying classical task, annotated by work/span when available.'
+extracted_algorithm_summary: 'Agostino, Storer (1) is a parallel algorithms algorithm record. Classical complexity metadata: time O(L+\log{n}); work O((L+\log{n})n^2); span/depth O(L+\log{n}); processors O(n^2). The stated classical model is (CREW) PRAM. Public metadata/source text adds: Agostino, Storer (1) parallel_algorithms parallel_algorithms n: input length, L: max allowed length of dictionary entries, is O(\log{n}) O(L+\log{n}) Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

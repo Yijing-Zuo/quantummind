@@ -1,0 +1,69 @@
+id: AW-000708
+kind: context_recovered
+algorithm_id: AW-000708
+algorithm_name: BOYS algorithm
+source_records:
+- access_status: metadata_only
+  digest: 6501de64f7f14662
+  extracted_facts:
+  - 'AlgorithmWiki row name: BOYS algorithm'
+  - 'domain: unknown'
+  - 'time complexity: O(n^2 k)'
+  - 'space complexity: O(n^2)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of records, k: number of features (can be up to O(\sqrt{n}))'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000708:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for BOYS algorithm
+  url: https://www.sciencedirect.com/science/article/abs/pii/016794739390116B
+- access_status: failed
+  digest: daf0d236511bf7c8
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:39f7381d56f8bf6c
+  source_type: publisher_abstract
+  title: 'HTTP Error 403: Forbidden'
+  url: https://www.sciencedirect.com/science/article/abs/pii/016794739390116B
+- source_id: crossref_search:d2bb3bfcb8e1e4b8
+  url: https://doi.org/10.1016/0167-9473(93)90116-b
+  title: The BOYS algorithm for determining optimum matching rules
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: The BOYS algorithm for determining optimum matching rules'
+  short_quote: ''
+  digest: 0ebdab5d3d19da54
+web_query_attempts:
+- query: '"BOYS algorithm" algorithm'
+  method: search_plan
+  status: recorded
+- query: '"BOYS algorithm" input output'
+  method: search_plan
+  status: recorded
+- query: '"BOYS algorithm" time complexity'
+  method: search_plan
+  status: recorded
+- query: '"BOYS algorithm" pseudocode'
+  method: search_plan
+  status: recorded
+- query: '"BOYS algorithm" problem'
+  method: search_plan
+  status: recorded
+- query: '"BOYS algorithm" PDF metadata abstract'
+  method: search_plan
+  status: recorded
+- query: https://www.sciencedirect.com/science/article/abs/pii/016794739390116B
+  method: search_plan
+  status: recorded
+- query: BOYS algorithm algorithm
+  method: crossref_title_search
+  status: fetched
+extracted_problem_statement: 'BOYS algorithm is reconstructed as a classical string task. Problem/task: find occurrences of a pattern in a text Input semantics: A finite text string, a finite pattern string, and alphabet/hash/preprocessing parameters when stated. Output semantics: One or more occurrence positions or a report that no occurrence exists.'
+extracted_algorithm_summary: 'BOYS algorithm is treated as the named AlgorithmWiki variant for find occurrences of a pattern in a text Classical complexity metadata: time O(n^2 k); space O(n^2). Public metadata/source title support includes The BOYS algorithm for determining optimum matching rules.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

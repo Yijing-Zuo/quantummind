@@ -1,0 +1,23 @@
+probe_id: AW-000006-RV1-CNT0001
+kind: registry_v1_probe
+parent_algorithm_id: AW-000006
+parent_algorithm_name: Pisinger
+source_card_paths:
+- corpus\algorithm_wiki\algowiki1901_rich_v1\public_context\AW-000006.yaml
+- corpus\algorithm_wiki\algowiki1901_rich_v1\public_probe\AW-000006-P0004.yaml
+source_metadata_paths:
+- corpus\algorithm_wiki\algowiki1901_rich_v1\metadata_probe\AW-000006-P0004.meta.yaml
+source_records_used:
+- AW-000006:algorithm_wiki_metadata
+- crossref:f41853efbaf753bb
+- skipped:2ee4a97772503ad3
+short_paraphrased_support: 'Pisinger Pisinger is treated as a classical dynamic programming task for rich AlgorithmWiki discovery. Problem/task: solve a subset-sum or target-sum dynamic-programming/search problem. Input semantics: A finite set or multiset of integers with a target sum parameter. Output semantics: A decision result, feasible subset witness, count, or optimized subset value for the target-sum instance, depending on the row. Pisinger is a dynamic programming algorithm record. Classical complexity metadata: time O(nt/\log t); space O(t/\log t). The stated classical model is Word RAM. Public metadata/source text adds: Pisinger unknown unknown n: number of elements in the set, t: target sum O(nt/\log t) No public-ready summary is available because the row lacks enough task semantics. A finite set or multiset of integers with a target sum parameter. A decision result, feasible subset witness, count, or op'
+introduced_assumptions:
+- finite_search_space
+- coherent_boolean_oracle
+- count_precision_specified
+limitations:
+- The probe is a public query/subroutine hypothesis only.
+- It does not assert a full original-algorithm speedup.
+- Oracle, promise, and data-representation costs require expert review.
+confirmation: Public provenance sidecar only; no evaluator label or private benchmark answer is encoded.

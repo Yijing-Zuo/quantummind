@@ -1,0 +1,57 @@
+algorithm_family: sorting
+algorithm_id: AW-001233
+approximate: ''
+approximation_factor: ''
+blind_name: Algorithm Wiki public task AW-001233
+canonical_name: Arefin, Hasan
+computational_model: SIMD
+domain: sorting
+extracted_description: ''
+extraction_version: algorithm-wiki-rich-context-v1
+family: sorting
+inferred_access_model: random_access_array
+inferred_ambiguities:
+- No independent fetched public metadata source resolved this row beyond AlgorithmWiki metadata/source-link facts.
+- Some details are reconstructed from AlgorithmWiki metadata rather than an independently fetched full public description.
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.
+inferred_input_model: explicit_sequence_problem
+inferred_output_contract: full_sequence_output
+inferred_problem_statement: 'Arefin, Hasan is treated as a classical sorting task for rich AlgorithmWiki discovery. Problem/task: sort the input sequence using the named classical sorting method. Input semantics: A finite array or list of comparable keys or records. Output semantics: The same items returned in nondecreasing order, usually as a full reordered sequence.'
+inferred_promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+inferred_size_parameters:
+- 'Parameter definition: n: size of list, p: number of processors, p=2^m and n=2^k where m<k'
+- p = stated number of processors (p)
+number_of_processors: p
+page_digest: ''
+page_fetch_status: not_found
+page_url: ''
+parameter_definitions: 'n: size of list, p: number of processors, p=2^m and n=2^k where m<k'
+problem_name: sorting
+quality_flags:
+- domain_inferred
+- problem_statement_inferred
+- io_access_output_inferred
+- has_complexity_semantics
+- has_size_parameters
+- has_computational_model
+quality_score: 100
+randomized: ''
+readiness: READY_PUBLIC_CONTEXT
+review_reasons: []
+source_link: https://d1wqtxts1xzle7.cloudfront.net/62387187/497-263-libre.pdf?1584493306=&response-content-disposition=inline%3B+filename%3DAn_improvement_of_bitonic_sorting_for_pa.pdf&Expires=1697227017&Signature=Vvn~Pm~bDEr3CtevY~6HvLW1kn~GklUkg3rgPQKGUNQMiu4TQwovBAIX0OXYjLw21v6TeP~6iilbkYwXqjRgprdZsAlri7qQQJU-blV2-cPKxuwz5GFugIMqCJBz-riYUhrWpWh9Ot7E~oQNp8TM5zIi3zMN-AEJ8pGYx-3uwa1WYQEGHMn-KaD9k0DyFUF2GzzZo190xonEh01XK2nj4tZFK-QFy7DiZ3Nk1OhR5QrzYMCqHHN9hxvxZmP11YJI192Kfu8yLPio6JUfNLteY0ZZqkRY-ahx8qR7GYPlmx8IVAF--pis86dqeg6MsX5YyZK3PoqT01INvoQi1SjplA__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA
+source_link_type: pdf
+space_complexity: ''
+span_depth: O(\log^2{n})
+time_complexity: O(n/p \log^2{n})
+variation: ''
+work: O(n \log^2{n})
+year: '2005'
+rich_card_kind: context
+source_records_used:
+- AW-001233:algorithm_wiki_metadata
+source_count: 1
+source_quality: HIGH
+confidence_score: 100
+card_digest: bb6767c7dbdf8e8a

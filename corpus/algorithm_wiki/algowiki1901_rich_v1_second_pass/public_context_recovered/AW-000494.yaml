@@ -1,0 +1,13 @@
+statement: 'Von zur Gathen-Gerhard additive FFT is included as a named whole-algorithm context card for a classical combinatorics task. The task is to analyze the classical input-output problem, not to certify an end-to-end improvement claim. Input semantics: An integer N represented with n bits and method-specific smoothness or search bounds. Output semantics: A nontrivial factor, a complete factorization, or a failure indication under the method assumptions. Classical algorithm summary: Von zur Gathen-Gerhard additive FFT is treated as the named AlgorithmWiki variant for find a nontrivial factorization of an integer Classical complexity metadata: time O(n (\log n)^2); space O(n). Public metadata/source title support includes Arithmetic and factorization of polynomial over <b>F</b><sub>2</sub> (extended abstract). Classical complexity recorded for this row: time O(n (\log n)^2); space O(n); computation model Word/Real RAM. Dominant bottleneck: Candidate generation, modular arithmetic, smoothness
+  testing, and relation collection dominate. The useful review questions are whether the named structure exposes a smaller decision, witness, estimation, or algebraic subproblem; whether the full output size dominates any asymptotic gain; and whether the stated access model is realistic for the original input. Provenance used for reconstruction includes public metadata or abstract sources such as Arithmetic and factorization of polynomial over <b>F</b><sub>2</sub> (extended abstract); Arithmetic and factorization of polynomial over <b>F</b><sub>2</sub> (extended abstract).'
+input_model: explicit_combinatorial_problem
+access_model: explicit_input_instance
+output_contract: full_solution
+promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+size_parameters:
+- 'Parameter definition: n: length of the input data set'
+ambiguities:
+- Some details are reconstructed from AlgorithmWiki metadata rather than an independently fetched full public description.
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.

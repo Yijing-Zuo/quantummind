@@ -1,0 +1,59 @@
+algorithm_family: robotics
+algorithm_id: AW-000290
+approximate: '1'
+approximation_factor: ''
+blind_name: Algorithm Wiki public task AW-000290
+canonical_name: K. Mikolajczyk K. and C. Schmid LoG 2004
+computational_model: ''
+domain: robotics
+extracted_description: ''
+extraction_version: algorithm-wiki-rich-context-v1
+family: robotics
+inferred_access_model: explicit_input_instance
+inferred_ambiguities:
+- The AlgorithmWiki row marks the classical method as approximate.
+- No independent fetched public metadata source resolved this row beyond AlgorithmWiki metadata/source-link facts.
+- Some details are reconstructed from AlgorithmWiki metadata rather than an independently fetched full public description.
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.
+inferred_input_model: explicit_robotics_problem
+inferred_output_contract: full_solution
+inferred_problem_statement: 'K. Mikolajczyk K. and C. Schmid LoG 2004 is treated as a classical robotics task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with K. Mikolajczyk K. and C. Schmid LoG 2004. Input semantics: A robot state-estimation or planning instance with observations, controls, map, or configuration constraints. Output semantics: A state estimate, map, path, configuration sequence, or control-relevant output.'
+inferred_promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+- classical_approximation_algorithm
+inferred_size_parameters:
+- 'n: primary input size parameter from the AlgorithmWiki complexity expression.'
+number_of_processors: ''
+page_digest: ''
+page_fetch_status: not_found
+page_url: ''
+parameter_definitions: ''
+problem_name: robotics
+quality_flags:
+- domain_inferred
+- problem_statement_inferred
+- io_access_output_inferred
+- has_complexity_semantics
+- approximation_flag_preserved
+quality_score: 95
+randomized: '0'
+readiness: READY_PUBLIC_CONTEXT
+review_reasons:
+- missing_size_parameters
+- insufficient_algorithm_level_structure
+source_link: https://www.robots.ox.ac.uk/~vgg/research/affine/det_eval_files/mikolajczyk_pami2004.pdf
+source_link_type: pdf
+space_complexity: ''
+span_depth: ''
+time_complexity: O(n^2)
+variation: ''
+work: ''
+year: '2004'
+rich_card_kind: context
+source_records_used:
+- AW-000290:algorithm_wiki_metadata
+source_count: 1
+source_quality: HIGH
+confidence_score: 95
+card_digest: f42024c14b6b78b7

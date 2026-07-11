@@ -1,0 +1,63 @@
+algorithm_family: unknown
+algorithm_id: AW-001782
+approximate: '0'
+approximation_factor: ''
+blind_name: Algorithm Wiki public task AW-001782
+canonical_name: Zhao Ning, Wang XuBen
+computational_model: CUDA
+domain: unknown
+extracted_description: ''
+extraction_version: algorithm-wiki-rich-third-pass-context-v1
+family: unknown
+inferred_access_model: random_access_string
+inferred_ambiguities:
+- Some details are reconstructed from AlgorithmWiki metadata rather than an independently fetched full public description.
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.
+inferred_input_model: explicit_data_structure_problem
+inferred_output_contract: data_structure_output
+inferred_problem_statement: 'Zhao Ning, Wang XuBen is treated as a source-saturated AlgorithmWiki row for maintain a data structure supporting the named operations Input semantics: A set of records and operation sequence for insert, delete, query, or search operations. Output semantics: A maintained representation and answers to the supported queries.'
+inferred_promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+inferred_size_parameters:
+- 'Parameter definition: n: dimension of grid (where grid is discretized)'
+- p = stated number of processors (O(n))
+number_of_processors: O(n)
+page_digest: ''
+page_fetch_status: not_found
+page_url: ''
+parameter_definitions: 'n: dimension of grid (where grid is discretized)'
+problem_name: unknown
+quality_flags:
+- has_complexity_semantics
+- has_size_parameters
+- has_computational_model
+quality_score: 100
+randomized: '0'
+readiness: READY_PUBLIC_CONTEXT
+review_reasons:
+- missing_problem_statement
+- unknown_input_model
+- unknown_access_model
+- unknown_output_contract
+- insufficient_algorithm_level_structure
+source_link: https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=224bb1891102e79342f861507c4122d07be1b571#page=242
+source_link_type: citeseerx
+space_complexity: ''
+span_depth: O(n log n)
+time_complexity: ''
+variation: ''
+work: O(n^4 \log n)
+year: '2012'
+rich_card_kind: context_recovered
+source_records_used:
+- AW-001782:algorithm_wiki_metadata
+- crossref_search:18327dc4d99b54aa
+- failed:008cd2b203b01d37
+- crossref_search:b0049bbb929bdef4
+source_count: 4
+source_quality: HIGH
+confidence_score: 100
+card_digest: 8588a8b07f95ce86
+third_pass_rule: third_pass_reuse_data_structure
+saturation_status: RECOVERED_CONTEXT

@@ -1,0 +1,62 @@
+algorithm_family: unknown
+algorithm_id: AW-000860
+approximate: '0'
+approximation_factor: ''
+blind_name: Algorithm Wiki public task AW-000860
+canonical_name: Shamir's scheme
+computational_model: Word RAM
+domain: unknown
+extracted_description: ''
+extraction_version: algorithm-wiki-rich-third-pass-context-v1
+family: unknown
+inferred_access_model: adjacency_list_query
+inferred_ambiguities:
+- The row should be reviewed if the source title does not specify the graph output exactly.
+- Some details are reconstructed from AlgorithmWiki metadata rather than an independently fetched full public description.
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.
+inferred_input_model: explicit_graph_problem
+inferred_output_contract: path_or_tree
+inferred_problem_statement: 'Shamir''s scheme is treated as a source-saturated AlgorithmWiki row for solve the named graph task indicated by the public source metadata Input semantics: An explicit graph with vertices, edges, weights, labels, or adjacency access as required by the row. Output semantics: A path, tree, component labeling, flow, matching, or witness object for the named graph task.'
+inferred_promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+inferred_size_parameters:
+- 'Parameter definition: n: size of the group the secret is being shared with, t: threshold number of players'
+number_of_processors: ''
+page_digest: ''
+page_fetch_status: not_found
+page_url: ''
+parameter_definitions: 'n: size of the group the secret is being shared with, t: threshold number of players'
+problem_name: unknown
+quality_flags:
+- has_complexity_semantics
+- has_size_parameters
+- has_computational_model
+quality_score: 100
+randomized: '0'
+readiness: READY_PUBLIC_CONTEXT
+review_reasons:
+- missing_problem_statement
+- unknown_input_model
+- unknown_access_model
+- unknown_output_contract
+- insufficient_algorithm_level_structure
+source_link: ''
+source_link_type: unknown
+space_complexity: O(1) per person, O(t^2) to figure out secret
+span_depth: ''
+time_complexity: O(t^2)
+variation: ''
+work: ''
+year: '1979'
+rich_card_kind: context_recovered
+source_records_used:
+- AW-000860:algorithm_wiki_metadata
+- crossref_search:80784b479aa6b857
+- crossref_search:e7e83ad41a824715
+source_count: 3
+source_quality: HIGH
+confidence_score: 100
+card_digest: 8aa28c339e6c4506
+third_pass_rule: third_pass_reuse_named_graph_problem
+saturation_status: RECOVERED_CONTEXT

@@ -1,0 +1,59 @@
+algorithm_family: sorting
+algorithm_id: AW-000911
+approximate: '0'
+approximation_factor: ''
+blind_name: Algorithm Wiki public task AW-000911
+canonical_name: Parallel Merge Sort - Cole (2)
+computational_model: EREW PRAM
+domain: sorting
+extracted_description: ''
+extraction_version: algorithm-wiki-rich-context-v1
+family: sorting
+inferred_access_model: random_access_array
+inferred_ambiguities:
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.
+inferred_input_model: explicit_sequence_problem
+inferred_output_contract: full_sequence_output
+inferred_problem_statement: 'Parallel Merge Sort - Cole (2) is treated as a classical sorting task for rich AlgorithmWiki discovery. Problem/task: sort the input sequence using the named classical sorting method. Input semantics: A finite array or list of comparable keys or records. Output semantics: The same items returned in nondecreasing order, usually as a full reordered sequence.'
+inferred_promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+- classical_parallel_model_recorded
+inferred_size_parameters:
+- 'Parameter definition: n: size of list'
+- p = stated number of processors (O(n))
+number_of_processors: O(n)
+page_digest: ''
+page_fetch_status: not_found
+page_url: ''
+parameter_definitions: 'n: size of list'
+problem_name: sorting
+quality_flags:
+- domain_inferred
+- problem_statement_inferred
+- io_access_output_inferred
+- has_complexity_semantics
+- has_size_parameters
+- has_computational_model
+quality_score: 100
+randomized: '0'
+readiness: READY_PUBLIC_CONTEXT
+review_reasons:
+- A previous row has the same canonicalized algorithm name.
+source_link: https://epubs.siam.org/doi/abs/10.1137/0217049
+source_link_type: siam
+space_complexity: ''
+span_depth: ''
+time_complexity: O(logn)
+variation: ''
+work: ''
+year: '1988'
+rich_card_kind: context
+source_records_used:
+- AW-000911:algorithm_wiki_metadata
+- crossref:a431fba7224756c9
+- failed:fb9e4ec9696cffdd
+source_count: 3
+source_quality: HIGH
+confidence_score: 100
+card_digest: 283a787115b992e9

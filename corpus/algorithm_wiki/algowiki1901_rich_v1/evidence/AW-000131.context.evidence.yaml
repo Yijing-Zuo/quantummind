@@ -1,0 +1,71 @@
+id: AW-000131
+kind: context
+algorithm_id: AW-000131
+algorithm_name: Image quilting Efros-Freeman
+source_records:
+- access_status: metadata_only
+  digest: 01f2eb4277b6bf9c
+  extracted_facts:
+  - 'AlgorithmWiki row name: Image quilting Efros-Freeman'
+  - 'domain: image_processing'
+  - 'time complexity: O(n^3)'
+  - 'precard summary: Given an explicit image or grid of pixel values, compute the transformed image, segmentation, or detected structure targeted by the record. Baseline: time O(n^3). Bottleneck: local neighborhood processing and writing image-sized outputs dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000131:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Image quilting Efros-Freeman
+  url: https://dl.acm.org/doi/abs/10.1145/383259.383296
+- access_status: fetched
+  digest: 9d4d61cda3e39587
+  extracted_facts:
+  - 'DOI title: Image quilting for texture synthesis and transfer'
+  - 'published year: 2001'
+  - 'container title: Proceedings of the 28th annual conference on Computer graphics and interactive techniques'
+  reliability: HIGH
+  short_quote: ''
+  source_id: crossref:48db9abedb9f9b37
+  source_type: doi_metadata
+  title: Image quilting for texture synthesis and transfer
+  url: https://doi.org/10.1145/383259.383296
+- access_status: failed
+  digest: 6f5b533177bb659f
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:010f3df1526a6a2c
+  source_type: publisher_abstract
+  title: 'HTTP Error 403: Forbidden'
+  url: https://dl.acm.org/doi/abs/10.1145/383259.383296
+web_query_attempts:
+- method: search_plan
+  query: Image quilting Efros-Freeman algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Image quilting Efros-Freeman algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Image quilting Efros-Freeman problem definition
+  status: recorded
+- method: search_plan
+  query: Image quilting Efros-Freeman image processing algorithm
+  status: recorded
+- method: search_plan
+  query: Image quilting Efros-Freeman site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Image quilting Efros-Freeman algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://dl.acm.org/doi/abs/10.1145/383259.383296
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1145/383259.383296
+  status: fetched
+- method: source_link_html_metadata
+  query: https://dl.acm.org/doi/abs/10.1145/383259.383296
+  status: failed
+extracted_problem_statement: 'Image quilting Efros-Freeman is treated as a classical image processing task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Image quilting Efros-Freeman. Input semantics: An image, grid, point cloud, or signal representation with local or hierarchical processing parameters. Output semantics: A transformed image, segmentation, quantization, feature set, or detected structure.'
+extracted_algorithm_summary: 'Image quilting Efros-Freeman is a image processing algorithm record. Classical complexity metadata: time O(n^3). Public metadata/source text adds: Image quilting Efros-Freeman image_processing image_processing O(n^3) Given an explicit image or grid of pixel values, compute the transformed image, segmentation, or detected structure targeted by the record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

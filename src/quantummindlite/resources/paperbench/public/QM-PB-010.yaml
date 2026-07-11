@@ -1,0 +1,11 @@
+case_id: QM-PB-010
+statement: "Given dense or expensive matrix input with severe or unspecified conditioning, output the full classical solution vector."
+input_model: "linear system stress case"
+access_model: dense_matrix_input
+output_contract: full_classical_vector
+promises:
+  - matrix_entries_available_classically
+size_parameters: [dimension, condition_number, epsilon]
+ambiguities:
+  - conditioning and loading guarantees are not provided
+

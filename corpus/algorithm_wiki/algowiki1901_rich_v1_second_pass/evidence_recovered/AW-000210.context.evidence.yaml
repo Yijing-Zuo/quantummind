@@ -1,0 +1,69 @@
+id: AW-000210
+kind: context_recovered
+algorithm_id: AW-000210
+algorithm_name: Dyer
+source_records:
+- access_status: metadata_only
+  digest: d3cc0e9e73318de1
+  extracted_facts:
+  - 'AlgorithmWiki row name: Dyer'
+  - 'domain: unknown'
+  - 'time complexity: O(n) using O(n^2) processors'
+  - 'space complexity: O(n^2)'
+  - 'computational model: log-space pyramid cellular automaton'
+  - 'parameter definitions: n: number of points'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000210:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Dyer
+  url: https://www.sciencedirect.com/science/article/pii/0020019080900356
+- access_status: failed
+  digest: a0ea15b17a64ea2c
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:a59a1d1d1de36046
+  source_type: publisher_abstract
+  title: 'HTTP Error 403: Forbidden'
+  url: https://www.sciencedirect.com/science/article/pii/0020019080900356
+- source_id: crossref_search:c85d773bd4f50657
+  url: https://doi.org/10.1163/2405-8262_rgg4_sim_04971
+  title: Dyer
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: Dyer'
+  short_quote: ''
+  digest: 72ad937252edd3ac
+web_query_attempts:
+- query: '"Dyer" algorithm'
+  method: search_plan
+  status: recorded
+- query: '"Dyer" input output'
+  method: search_plan
+  status: recorded
+- query: '"Dyer" time complexity'
+  method: search_plan
+  status: recorded
+- query: '"Dyer" pseudocode'
+  method: search_plan
+  status: recorded
+- query: '"Dyer" problem'
+  method: search_plan
+  status: recorded
+- query: '"Dyer" PDF metadata abstract'
+  method: search_plan
+  status: recorded
+- query: https://www.sciencedirect.com/science/article/pii/0020019080900356
+  method: search_plan
+  status: recorded
+- query: Dyer algorithm
+  method: crossref_title_search
+  status: fetched
+extracted_problem_statement: 'Dyer is reconstructed as a classical computational geometry task. Problem/task: compute a geometric structure or relation over a finite point set Input semantics: A finite set of points, dimension k when stated, and geometric predicate assumptions. Output semantics: A geometric witness, nearest/closest relation, hull, partition, or related structure supported by the named row.'
+extracted_algorithm_summary: 'Dyer is treated as the named AlgorithmWiki variant for compute a geometric structure or relation over a finite point set Classical complexity metadata: time O(n) using O(n^2) processors; space O(n^2). Public metadata/source title support includes Dyer.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

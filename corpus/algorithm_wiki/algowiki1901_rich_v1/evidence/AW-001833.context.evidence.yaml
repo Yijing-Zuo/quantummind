@@ -1,0 +1,71 @@
+id: AW-001833
+kind: context
+algorithm_id: AW-001833
+algorithm_name: Naor
+source_records:
+- access_status: metadata_only
+  digest: 75a84911d1571b9f
+  extracted_facts:
+  - 'AlgorithmWiki row name: Naor'
+  - 'domain: string'
+  - 'time complexity: O(\log{n}) expected'
+  - 'computational model: CRCW PRAM'
+  - 'parameter definitions: n: input string length'
+  - 'precard summary: Given one or more explicit strings, compute the matching, indexing, alignment, or transformation output targeted by the record. Baseline: time O(\log{n}) expected; work O(n \\log{n}) expected; span/depth O(\log{n}) expected; processors O(n). Bottleneck: string scanning, preprocessing tables, and reporting matches dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001833:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Naor
+  url: https://link.springer.com/chapter/10.1007/3-540-54233-7_179
+- access_status: skipped
+  digest: b7eb1534dea88070
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:4f860c256c65bdba
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1007/3-540-54233-7_179
+- access_status: skipped
+  digest: 1f8c375620bc33b0
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:919eb87702575f66
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://link.springer.com/chapter/10.1007/3-540-54233-7_179
+web_query_attempts:
+- method: search_plan
+  query: Naor algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Naor algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Naor problem definition
+  status: recorded
+- method: search_plan
+  query: Naor string algorithm
+  status: recorded
+- method: search_plan
+  query: Naor site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Naor algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://link.springer.com/chapter/10.1007/3-540-54233-7_179
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1007/3-540-54233-7_179
+  status: skipped
+- method: source_link_html_metadata
+  query: https://link.springer.com/chapter/10.1007/3-540-54233-7_179
+  status: skipped
+extracted_problem_statement: 'Naor is treated as a classical string task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Naor. Input semantics: One or more finite strings, sequences, patterns, or alphabets. Output semantics: Pattern occurrence positions, matches, or the associated string-search report.'
+extracted_algorithm_summary: 'Naor is a string algorithm record. Classical complexity metadata: time O(\log{n}) expected; work O(n \\log{n}) expected; span/depth O(\log{n}) expected; processors O(n). The stated classical model is CRCW PRAM. Public metadata/source text adds: Naor string string n: input string length O(\log{n}) expected Given one or more explicit strings, compute the matching, indexing, alignment, or transformation output targeted by the record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

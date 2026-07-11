@@ -1,0 +1,63 @@
+id: AW-000627-P0432
+kind: probe
+algorithm_id: AW-000627
+algorithm_name: de Bruijn Graph (Idury, Waterman)
+source_records:
+- access_status: metadata_only
+  digest: b6ba1d27823f85cd
+  extracted_facts:
+  - 'AlgorithmWiki row name: de Bruijn Graph (Idury, Waterman)'
+  - 'domain: graph'
+  - 'time complexity: O(n^2)'
+  - 'space complexity: O(n)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: sum of lengths of reads, f: number of input sequences'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(n^2); space O(n). Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000627:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for de Bruijn Graph (Idury, Waterman)
+  url: https://www.ncbi.nlm.nih.gov/pubmed/7497130
+- access_status: fetched
+  digest: e8a7bd307e5d68b5
+  extracted_facts:
+  - 'source page title: A new algorithm for DNA sequence assembly - PubMed'
+  - 'source page description: Since the advent of rapid DNA sequencing methods in 1976, scientists have had the problem of inferring DNA sequences from sequenced fragments.'
+  reliability: LOW
+  short_quote: Since the advent of rapid DNA sequencing methods in 1976, scientists have had the problem of inferring DNA sequences from sequenced fragments.
+  source_id: source:bdc0f93b00fad451
+  source_type: other_public_source
+  title: A new algorithm for DNA sequence assembly - PubMed
+  url: https://www.ncbi.nlm.nih.gov/pubmed/7497130
+web_query_attempts:
+- method: search_plan
+  query: de Bruijn Graph (Idury, Waterman) algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: de Bruijn Graph (Idury, Waterman) algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: de Bruijn Graph (Idury, Waterman) problem definition
+  status: recorded
+- method: search_plan
+  query: de Bruijn Graph (Idury, Waterman) graph algorithm
+  status: recorded
+- method: search_plan
+  query: de Bruijn Graph (Idury, Waterman) site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: de Bruijn Graph (Idury, Waterman) algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://www.ncbi.nlm.nih.gov/pubmed/7497130
+  status: recorded
+- method: source_link_html_metadata
+  query: https://www.ncbi.nlm.nih.gov/pubmed/7497130
+  status: fetched
+- method: wikipedia_summary_search
+  query: de Bruijn Graph (Idury, Waterman) algorithm
+  status: failed_or_not_relevant
+extracted_problem_statement: 'de Bruijn Graph (Idury, Waterman) is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with de Bruijn Graph (Idury, Waterman). Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'de Bruijn Graph (Idury, Waterman) is a graph algorithm record. Classical complexity metadata: time O(n^2); space O(n). The stated classical model is Word RAM. Public metadata/source text adds: de Bruijn Graph (Idury, Waterman) graph graph n: sum of lengths of reads, f: number of input sequences O(n^2) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

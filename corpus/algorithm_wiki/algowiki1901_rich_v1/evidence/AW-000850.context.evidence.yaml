@@ -1,0 +1,62 @@
+id: AW-000850
+kind: context
+algorithm_id: AW-000850
+algorithm_name: Hanoi graph
+source_records:
+- access_status: metadata_only
+  digest: 62cc02daf4eb0745
+  extracted_facts:
+  - 'AlgorithmWiki row name: Hanoi graph'
+  - 'domain: graph'
+  - 'time complexity: O(3^n)'
+  - 'space complexity: O(3^n)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of disks'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(3^n); space O(3^n). Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000850:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Hanoi graph
+  url: https://books.google.com/books/about/Topics_in_Graph_Theory.html?id=pSv3XotPCQgC
+- access_status: skipped
+  digest: 7f04c805e1d8ffd0
+  extracted_facts:
+  - robots.txt disallowed fetch
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:4e5a0a23e0c061bc
+  source_type: other_public_source
+  title: robots.txt disallowed fetch
+  url: https://books.google.com/books/about/Topics_in_Graph_Theory.html?id=pSv3XotPCQgC
+web_query_attempts:
+- method: search_plan
+  query: Hanoi graph algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Hanoi graph algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Hanoi graph problem definition
+  status: recorded
+- method: search_plan
+  query: Hanoi graph graph algorithm
+  status: recorded
+- method: search_plan
+  query: Hanoi graph site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Hanoi graph algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://books.google.com/books/about/Topics_in_Graph_Theory.html?id=pSv3XotPCQgC
+  status: recorded
+- method: source_link_html_metadata
+  query: https://books.google.com/books/about/Topics_in_Graph_Theory.html?id=pSv3XotPCQgC
+  status: skipped
+- method: wikipedia_summary_search
+  query: Hanoi graph algorithm
+  status: failed_or_not_relevant
+extracted_problem_statement: 'Hanoi graph is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Hanoi graph. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'Hanoi graph is a graph algorithm record. Classical complexity metadata: time O(3^n); space O(3^n). The stated classical model is Word RAM. Public metadata/source text adds: Hanoi graph graph graph n: number of disks O(3^n) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

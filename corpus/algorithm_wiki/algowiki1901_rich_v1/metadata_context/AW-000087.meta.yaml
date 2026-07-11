@@ -1,0 +1,59 @@
+algorithm_family: unknown
+algorithm_id: AW-000087
+approximate: '0'
+approximation_factor: ''
+blind_name: Algorithm Wiki public task AW-000087
+canonical_name: Fast clipping
+computational_model: Word/Real RAM
+domain: unknown
+extracted_description: ''
+extraction_version: algorithm-wiki-rich-context-v1
+family: unknown
+inferred_access_model: explicit_geometric_objects
+inferred_ambiguities:
+- No independent fetched public metadata source resolved this row beyond AlgorithmWiki metadata/source-link facts.
+- Some details are reconstructed from AlgorithmWiki metadata rather than an independently fetched full public description.
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.
+inferred_input_model: explicit_geometry_problem
+inferred_output_contract: full_solution
+inferred_problem_statement: 'Fast clipping is treated as a classical computational geometry task for rich AlgorithmWiki discovery. Problem/task: clip geometric primitives against a polygonal or rectangular clipping region. Input semantics: Explicit geometric objects such as points, line segments, polygons, or planar subdivisions. Output semantics: The requested geometric structure, simplified curve, clipping result, intersection set, hull, or diagram.'
+inferred_promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+inferred_size_parameters:
+- 'Parameter definition: n: number of lines'
+number_of_processors: ''
+page_digest: ''
+page_fetch_status: not_found
+page_url: ''
+parameter_definitions: 'n: number of lines'
+problem_name: unknown
+quality_flags:
+- has_complexity_semantics
+- has_size_parameters
+- has_computational_model
+quality_score: 60
+randomized: '0'
+readiness: READY_PUBLIC_CONTEXT
+review_reasons:
+- missing_problem_statement
+- unknown_input_model
+- unknown_access_model
+- unknown_output_contract
+- insufficient_algorithm_level_structure
+source_link: https://www.sciencedirect.com/science/article/pii/0097849387900616
+source_link_type: sciencedirect
+space_complexity: O(1)
+span_depth: ''
+time_complexity: O(n)
+variation: ''
+work: ''
+year: '1987'
+rich_card_kind: context
+source_records_used:
+- AW-000087:algorithm_wiki_metadata
+- failed:1cec7e3cd0b43a7a
+source_count: 2
+source_quality: HIGH
+confidence_score: 60
+card_digest: d84eb01b3d6590be

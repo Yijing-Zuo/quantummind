@@ -1,0 +1,765 @@
+algorithm_id: AW-000957
+canonical_name: Illinois Algorithm
+original_source_link: https://link.springer.com/article/10.1007/BF01934364
+source_link_type: unknown
+previous_failure_reasons:
+- No second-pass rule could identify source-backed task semantics.
+previous_source_records:
+- access_status: metadata_only
+  digest: 27658235360bc3c2
+  extracted_facts:
+  - 'AlgorithmWiki row name: Illinois Algorithm'
+  - 'domain: unknown'
+  - 'time complexity: O(n_max)'
+  - 'space complexity: O(1)'
+  - 'computational model: Word/Real RAM'
+  - 'parameter definitions: epsilon: (additive) tolerance error, a, b: endpoint values, with b>a, n_max: maximum number of iterations'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000957:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Illinois Algorithm
+  url: https://link.springer.com/article/10.1007/BF01934364
+- access_status: skipped
+  digest: 6f05283cfc6fe199
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:31a9047d9f2f15bb
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1007/BF01934364
+- access_status: skipped
+  digest: a197c388dd7703ec
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:5a67202490483d14
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://link.springer.com/article/10.1007/BF01934364
+- access_status: skipped
+  digest: 1238d2e63ebbaffb
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:486a2e9eb9d215f8
+  source_type: wikipedia
+  title: fetch budget exhausted
+  url: https://en.wikipedia.org/wiki/Illinois_Algorithm
+- access_status: fetched
+  digest: ecb59a7ea73cc6e6
+  extracted_facts:
+  - 'DOI title: A modified regula falsi method for computing the root of an equation'
+  - 'published year: 1971'
+  - 'container title: BIT'
+  reliability: HIGH
+  short_quote: ''
+  source_id: crossref:b3de10623c029fea
+  source_type: doi_metadata
+  title: A modified regula falsi method for computing the root of an equation
+  url: https://doi.org/10.1007/BF01934364
+- access_status: fetched
+  digest: eac65bcac63f65f8
+  extracted_facts:
+  - 'Crossref title-search result: An optimal algorithm to fetch DHT routable'
+  reliability: MEDIUM
+  short_quote: ''
+  source_id: crossref_search:0b18e1bdccf3f416
+  source_type: doi_metadata
+  title: An optimal algorithm to fetch DHT routable
+  url: https://doi.org/10.1109/npc.2007.32
+aliases_tried:
+- Illinois Algorithm
+- Illinois Algorithm algorithm
+- Illinois Algorithm problem
+- Illinois Algorithm pseudocode
+- Illinois Algorithm time complexity
+- fetch budget exhausted
+- fetch budget exhausted algorithm
+- fetch budget exhausted complexity
+- A modified regula falsi method for computing the root of an equation
+- A modified regula falsi method for computing the root of an equation algorithm
+- A modified regula falsi method for computing the root of an equation complexity
+- An optimal algorithm to fetch DHT routable
+query_plan:
+- source_family: original_source
+  primary_query: Illinois Algorithm
+  applicability: applicable
+  purpose: check the row's original source link without storing paywalled or PDF bodies
+- source_family: crossref
+  primary_query: Illinois Algorithm
+  applicability: applicable
+  purpose: recover DOI title, venue, year, and abstract metadata where available
+- source_family: openalex
+  primary_query: Illinois Algorithm
+  applicability: applicable
+  purpose: recover public work metadata and abstract-inverted-index summaries
+- source_family: semantic_scholar
+  primary_query: Illinois Algorithm
+  applicability: applicable
+  purpose: recover CS paper metadata and abstracts without an API key
+- source_family: arxiv
+  primary_query: Illinois Algorithm
+  applicability: title-search-only
+  purpose: recover arXiv title and abstract metadata
+- source_family: dblp
+  primary_query: Illinois Algorithm
+  applicability: applicable
+  purpose: recover bibliographic title/venue metadata for CS publications
+- source_family: publisher_abstract
+  primary_query: Illinois Algorithm
+  applicability: applicable
+  purpose: check accessible publisher abstract pages
+- source_family: citeseerx
+  primary_query: Illinois Algorithm
+  applicability: applicable
+  purpose: record legacy CiteSeerX availability without full PDF storage
+- source_family: wikipedia
+  primary_query: Illinois Algorithm
+  applicability: applicable
+  purpose: check public encyclopedia algorithm descriptions
+- source_family: wikidata
+  primary_query: Illinois Algorithm
+  applicability: applicable
+  purpose: check public entity aliases/descriptions
+- source_family: nist_dads
+  primary_query: Illinois Algorithm
+  applicability: applicable
+  purpose: check whether a DADS-style reference search is applicable
+- source_family: algorithm_wiki_local
+  primary_query: Illinois Algorithm
+  applicability: applicable
+  purpose: reuse AlgorithmWiki metadata as provenance
+- source_family: the_algorithms
+  primary_query: Illinois Algorithm
+  applicability: applicable
+  purpose: check exact public implementation/reference names when available
+- source_family: cp_algorithms
+  primary_query: Illinois Algorithm
+  applicability: applicable
+  purpose: check exact public algorithm reference names when available
+- source_family: course_notes
+  primary_query: Illinois Algorithm
+  applicability: applicable
+  purpose: record absence of configured course-notes search
+- source_family: general_web_search
+  primary_query: Illinois Algorithm
+  applicability: applicable
+  purpose: record absence of a configured general web endpoint
+- source_family: local_previous_cache
+  primary_query: Illinois Algorithm
+  applicability: applicable
+  purpose: reuse v1/second-pass fetched source records
+query_attempts:
+- &id001
+  cycle: 1
+  query: Illinois Algorithm
+  source_family: algorithm_wiki_local
+  url_or_api_endpoint: https://link.springer.com/article/10.1007/BF01934364
+  status: fetched
+  new_facts_added: 9
+  reason: local metadata
+- &id002
+  cycle: 1
+  query: Illinois Algorithm
+  source_family: local_previous_cache
+  url_or_api_endpoint: ''
+  status: duplicate
+  new_facts_added: 0
+  reason: previous v1/second-pass sources reused
+- &id003
+  cycle: 1
+  query: https://link.springer.com/article/10.1007/BF01934364
+  source_family: original_source
+  url_or_api_endpoint: https://link.springer.com/article/10.1007/BF01934364
+  status: irrelevant
+  new_facts_added: 3
+  reason: original source page metadata
+- &id004
+  cycle: 1
+  query: 10.1007/BF01934364
+  source_family: crossref
+  url_or_api_endpoint: https://doi.org/10.1007/BF01934364
+  status: fetched
+  new_facts_added: 5
+  reason: Crossref metadata/title search
+- &id005
+  cycle: 1
+  query: Illinois Algorithm
+  source_family: arxiv
+  url_or_api_endpoint: https://export.arxiv.org/api/query?max_results=1&search_query=ti:%22Illinois+Algorithm%22
+  status: no_result
+  new_facts_added: 0
+  reason: arXiv title search returned no usable entry
+- &id006
+  cycle: 1
+  query: Illinois Algorithm
+  source_family: wikipedia
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: Wikipedia search returned no relevant page
+- &id007
+  cycle: 2
+  query: 10.1007/BF01934364
+  source_family: openalex
+  url_or_api_endpoint: https://api.openalex.org/works/doi:10.1007%2FBF01934364
+  status: fetched
+  new_facts_added: 4
+  reason: OpenAlex work metadata
+- &id008
+  cycle: 2
+  query: 10.1007/BF01934364
+  source_family: semantic_scholar
+  url_or_api_endpoint: https://api.semanticscholar.org/graph/v1/paper/DOI:10.1007%2FBF01934364?fields=title,abstract,year,url,externalIds
+  status: fetched
+  new_facts_added: 5
+  reason: Semantic Scholar paper metadata
+- &id009
+  cycle: 2
+  query: Illinois Algorithm
+  source_family: dblp
+  url_or_api_endpoint: https://dblp.org/search/publ/api?format=json&h=1&q=Illinois+Algorithm
+  status: no_result
+  new_facts_added: 0
+  reason: DBLP returned no usable publication
+- &id010
+  cycle: 2
+  query: https://link.springer.com/article/10.1007/BF01934364
+  source_family: original_source
+  url_or_api_endpoint: https://link.springer.com/article/10.1007/BF01934364
+  status: irrelevant
+  new_facts_added: 3
+  reason: original source page metadata
+- &id011
+  cycle: 2
+  query: Illinois Algorithm
+  source_family: wikidata
+  url_or_api_endpoint: https://www.wikidata.org/w/api.php?action=wbsearchentities&language=en&format=json&limit=1&search=Illinois+Algorithm
+  status: no_result
+  new_facts_added: 0
+  reason: Wikidata returned no entity
+- &id012
+  cycle: 3
+  query: Illinois Algorithm
+  source_family: citeseerx
+  url_or_api_endpoint: ''
+  status: paywalled
+  new_facts_added: 0
+  reason: CiteSeerX link is PDF/legacy metadata; full PDF body skipped
+- &id013
+  cycle: 3
+  query: Illinois Algorithm
+  source_family: nist_dads
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: NIST DADS has no reliable bulk search API in this environment
+- &id014
+  cycle: 3
+  query: Illinois Algorithm
+  source_family: the_algorithms
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: TheAlgorithms search skipped unless a known exact reference is available
+- &id015
+  cycle: 3
+  query: Illinois Algorithm
+  source_family: cp_algorithms
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: CP-Algorithms search skipped unless a known exact reference is available
+- &id016
+  cycle: 3
+  query: Illinois Algorithm
+  source_family: course_notes
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: No configured public course-notes search endpoint
+- &id017
+  cycle: 3
+  query: Illinois Algorithm
+  source_family: general_web_search
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: No configured general web search endpoint; Google Scholar scraping is not used
+- &id018
+  cycle: 4
+  query: 10.1007/BF01934364
+  source_family: crossref
+  url_or_api_endpoint: https://doi.org/10.1007/BF01934364
+  status: fetched
+  new_facts_added: 5
+  reason: Crossref metadata/title search
+- &id019
+  cycle: 4
+  query: 10.1007/BF01934364
+  source_family: openalex
+  url_or_api_endpoint: https://api.openalex.org/works/doi:10.1007%2FBF01934364
+  status: fetched
+  new_facts_added: 4
+  reason: OpenAlex work metadata
+- &id020
+  cycle: 4
+  query: 10.1007/BF01934364
+  source_family: semantic_scholar
+  url_or_api_endpoint: https://api.semanticscholar.org/graph/v1/paper/DOI:10.1007%2FBF01934364?fields=title,abstract,year,url,externalIds
+  status: fetched
+  new_facts_added: 5
+  reason: Semantic Scholar paper metadata
+- &id021
+  cycle: 4
+  query: Illinois Algorithm
+  source_family: wikipedia
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: Wikipedia search returned no relevant page
+- &id022
+  cycle: 4
+  query: Illinois Algorithm
+  source_family: dblp
+  url_or_api_endpoint: https://dblp.org/search/publ/api?format=json&h=1&q=Illinois+Algorithm
+  status: no_result
+  new_facts_added: 0
+  reason: DBLP returned no usable publication
+source_attempts:
+- *id001
+- *id002
+- *id003
+- *id004
+- *id005
+- *id006
+- *id007
+- *id008
+- *id009
+- *id010
+- *id011
+- *id012
+- *id013
+- *id014
+- *id015
+- *id016
+- *id017
+- *id018
+- *id019
+- *id020
+- *id021
+- *id022
+discovered_sources:
+- source_id: source:cc19405290fa64bc
+  url: https://link.springer.com/article/10.1007/BF01934364
+  title: A modified regula falsi method for computing the root of an equation | BIT Numerical Mathematics | Springer Nature Link
+  source_type: publisher_abstract
+  access_status: fetched
+  reliability: HIGH
+  extracted_facts:
+  - A modified regula falsi method for computing the root of an equation | BIT Numerical Mathematics | Springer Nature Link
+  - The Illinois method is briefly described and the asymptotic convergence of the method investigated.
+  short_quote: A modified regula falsi method for computing the root of an equation | BIT Numerical Mathematics | Springer Nature Link The Illinois method is
+  digest: 14e2d083dbcc71ce
+- source_id: openalex:b5c9acc0dbdefb3a
+  url: https://openalex.org/W2073556275
+  title: A modified regula falsi method for computing the root of an equation
+  source_type: openalex
+  access_status: fetched
+  reliability: HIGH
+  extracted_facts:
+  - 'OpenAlex title: A modified regula falsi method for computing the root of an equation'
+  - 'publication year: 1971'
+  short_quote: 'OpenAlex title: A modified regula falsi method for computing the root of an equation publication year: 1971'
+  digest: 14309adf8350e791
+- source_id: semantic_scholar:017b02bd374bd50c
+  url: https://www.semanticscholar.org/paper/1c8fafa88ff7d12b881440f316b67af71c912adf
+  title: A modified regula falsi method for computing the root of an equation
+  source_type: semantic_scholar
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Semantic Scholar title: A modified regula falsi method for computing the root of an equation'
+  - 'published year: 1971'
+  - 'abstract summary: None'
+  short_quote: 'Semantic Scholar title: A modified regula falsi method for computing the root of an equation published year: 1971 abstract summary: None'
+  digest: ddbfc7b87790d024
+discovered_facts:
+- fact_id: AW-000957-F9cb1837b52
+  fact_type: alias
+  value: Illinois Algorithm
+  source_id: AW-000957:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: AlgorithmWiki metadata
+- fact_id: AW-000957-Fa9f5289e4b
+  fact_type: time_complexity
+  value: O(n_max)
+  source_id: AW-000957:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: AlgorithmWiki metadata
+- fact_id: AW-000957-Fd3f3e7da8b
+  fact_type: space_complexity
+  value: O(1)
+  source_id: AW-000957:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: AlgorithmWiki metadata
+- fact_id: AW-000957-F3c34850a4a
+  fact_type: computation_model
+  value: Word/Real RAM
+  source_id: AW-000957:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: AlgorithmWiki metadata
+- fact_id: AW-000957-F1b69079491
+  fact_type: input_semantics
+  value: 'Parameter definitions: epsilon: (additive) tolerance error, a, b: endpoint values, with b>a, n_max: maximum number of iterations'
+  source_id: AW-000957:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 75
+  conflict_status: weak
+  notes: AlgorithmWiki parameter metadata
+- fact_id: AW-000957-F16ae806e0f
+  fact_type: authoritative_source_link
+  value: https://link.springer.com/article/10.1007/BF01934364
+  source_id: AW-000957:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 70
+  conflict_status: consistent
+  notes: Original source link from AlgorithmWiki metadata
+- fact_id: AW-000957-F278711d789
+  fact_type: source_title
+  value: AlgorithmWiki metadata for Illinois Algorithm
+  source_id: AW-000957:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000957-F551afcc5cc
+  fact_type: problem_definition
+  value: 'Source title indicates: AlgorithmWiki metadata for Illinois Algorithm'
+  source_id: AW-000957:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: weak
+  notes: previous_source_record
+- fact_id: AW-000957-Fd96dc9f61f
+  fact_type: problem_definition
+  value: 'AlgorithmWiki row name: Illinois Algorithm'
+  source_id: AW-000957:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000957-Ff4cb7fa944
+  fact_type: problem_definition
+  value: 'domain: unknown'
+  source_id: AW-000957:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000957-F811fae86f4
+  fact_type: time_complexity
+  value: 'time complexity: O(n_max)'
+  source_id: AW-000957:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000957-F0b6ad6d43d
+  fact_type: space_complexity
+  value: 'space complexity: O(1)'
+  source_id: AW-000957:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000957-F1fb183c65d
+  fact_type: computation_model
+  value: 'computational model: Word/Real RAM'
+  source_id: AW-000957:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000957-Fdc560e9a8b
+  fact_type: problem_definition
+  value: 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  source_id: AW-000957:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000957-Fb66f26dd0f
+  fact_type: source_title
+  value: fetch budget exhausted
+  source_id: skipped:31a9047d9f2f15bb
+  reliability: LOW
+  confidence: 45
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000957-Ffd64fb4f16
+  fact_type: authoritative_source_link
+  value: https://doi.org/10.1007/BF01934364
+  source_id: skipped:31a9047d9f2f15bb
+  reliability: LOW
+  confidence: 45
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000957-Ff6e6d58e22
+  fact_type: authoritative_source_link
+  value: https://en.wikipedia.org/wiki/Illinois_Algorithm
+  source_id: skipped:486a2e9eb9d215f8
+  reliability: LOW
+  confidence: 45
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000957-F0a4657a2f3
+  fact_type: source_title
+  value: A modified regula falsi method for computing the root of an equation
+  source_id: crossref:b3de10623c029fea
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000957-F4eb35f115f
+  fact_type: problem_definition
+  value: 'DOI title: A modified regula falsi method for computing the root of an equation'
+  source_id: crossref:b3de10623c029fea
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000957-F2977aa4109
+  fact_type: problem_definition
+  value: 'published year: 1971'
+  source_id: crossref:b3de10623c029fea
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000957-Fecea656e66
+  fact_type: problem_definition
+  value: 'container title: BIT'
+  source_id: crossref:b3de10623c029fea
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000957-F07ef2586ce
+  fact_type: source_title
+  value: An optimal algorithm to fetch DHT routable
+  source_id: crossref_search:0b18e1bdccf3f416
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000957-F2e2911bb49
+  fact_type: problem_definition
+  value: 'Source title indicates: An optimal algorithm to fetch DHT routable'
+  source_id: crossref_search:0b18e1bdccf3f416
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: weak
+  notes: previous_source_record
+- fact_id: AW-000957-Fb8080bd214
+  fact_type: problem_definition
+  value: 'Crossref title-search result: An optimal algorithm to fetch DHT routable'
+  source_id: crossref_search:0b18e1bdccf3f416
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000957-Fbe5d46ce2e
+  fact_type: authoritative_source_link
+  value: https://doi.org/10.1109/npc.2007.32
+  source_id: crossref_search:0b18e1bdccf3f416
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000957-F27da88024b
+  fact_type: source_title
+  value: A modified regula falsi method for computing the root of an equation | BIT Numerical Mathematics | Springer Nature Link
+  source_id: source:cc19405290fa64bc
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: original_source
+- fact_id: AW-000957-Feaadbdb08d
+  fact_type: problem_definition
+  value: The Illinois method is briefly described and the asymptotic convergence of the method investigated.
+  source_id: source:cc19405290fa64bc
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: original_source
+- fact_id: AW-000957-Fa68b12b897
+  fact_type: problem_definition
+  value: 'OpenAlex title: A modified regula falsi method for computing the root of an equation'
+  source_id: openalex:b5c9acc0dbdefb3a
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: openalex
+- fact_id: AW-000957-Fd5b86de54c
+  fact_type: problem_definition
+  value: 'publication year: 1971'
+  source_id: openalex:b5c9acc0dbdefb3a
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: openalex
+- fact_id: AW-000957-F92292b6976
+  fact_type: authoritative_source_link
+  value: https://openalex.org/W2073556275
+  source_id: openalex:b5c9acc0dbdefb3a
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: openalex
+- fact_id: AW-000957-F5a88c28746
+  fact_type: problem_definition
+  value: 'Semantic Scholar title: A modified regula falsi method for computing the root of an equation'
+  source_id: semantic_scholar:017b02bd374bd50c
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: consistent
+  notes: semantic_scholar
+- fact_id: AW-000957-Fdcf37085b5
+  fact_type: problem_definition
+  value: 'abstract summary: None'
+  source_id: semantic_scholar:017b02bd374bd50c
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: consistent
+  notes: semantic_scholar
+- fact_id: AW-000957-Ff6e97448b4
+  fact_type: authoritative_source_link
+  value: https://www.semanticscholar.org/paper/1c8fafa88ff7d12b881440f316b67af71c912adf
+  source_id: semantic_scholar:017b02bd374bd50c
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: consistent
+  notes: semantic_scholar
+duplicate_sources:
+- source_id: AW-000957:algorithm_wiki_metadata
+  url: https://link.springer.com/article/10.1007/BF01934364
+  title: AlgorithmWiki metadata for Illinois Algorithm
+  source_type: algorithm_wiki
+  access_status: metadata_only
+  reliability: HIGH
+  extracted_facts:
+  - 'AlgorithmWiki row name: Illinois Algorithm'
+  - 'domain: unknown'
+  - 'time complexity: O(n_max)'
+  - 'space complexity: O(1)'
+  - 'computational model: Word/Real RAM'
+  - 'parameter definitions: epsilon: (additive) tolerance error, a, b: endpoint values, with b>a, n_max: maximum number of iterations'
+  short_quote: ''
+  digest: 5e360adfbaabb5b9
+- source_id: crossref:b3de10623c029fea
+  url: https://doi.org/10.1007/BF01934364
+  title: A modified regula falsi method for computing the root of an equation
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: HIGH
+  extracted_facts:
+  - 'DOI title: A modified regula falsi method for computing the root of an equation'
+  - 'published year: 1971'
+  - 'container title: BIT'
+  short_quote: ''
+  digest: ecb59a7ea73cc6e6
+- source_id: source:cc19405290fa64bc
+  url: https://link.springer.com/article/10.1007/BF01934364
+  title: A modified regula falsi method for computing the root of an equation | BIT Numerical Mathematics | Springer Nature Link
+  source_type: publisher_abstract
+  access_status: fetched
+  reliability: HIGH
+  extracted_facts:
+  - A modified regula falsi method for computing the root of an equation | BIT Numerical Mathematics | Springer Nature Link
+  - The Illinois method is briefly described and the asymptotic convergence of the method investigated.
+  short_quote: A modified regula falsi method for computing the root of an equation | BIT Numerical Mathematics | Springer Nature Link The Illinois method is
+  digest: 14e2d083dbcc71ce
+- source_id: crossref:b3de10623c029fea
+  url: https://doi.org/10.1007/BF01934364
+  title: A modified regula falsi method for computing the root of an equation
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: HIGH
+  extracted_facts:
+  - 'DOI title: A modified regula falsi method for computing the root of an equation'
+  - 'published year: 1971'
+  - 'container title: BIT'
+  short_quote: ''
+  digest: ecb59a7ea73cc6e6
+- source_id: openalex:b5c9acc0dbdefb3a
+  url: https://openalex.org/W2073556275
+  title: A modified regula falsi method for computing the root of an equation
+  source_type: openalex
+  access_status: fetched
+  reliability: HIGH
+  extracted_facts:
+  - 'OpenAlex title: A modified regula falsi method for computing the root of an equation'
+  - 'publication year: 1971'
+  short_quote: 'OpenAlex title: A modified regula falsi method for computing the root of an equation publication year: 1971'
+  digest: 14309adf8350e791
+- source_id: semantic_scholar:017b02bd374bd50c
+  url: https://www.semanticscholar.org/paper/1c8fafa88ff7d12b881440f316b67af71c912adf
+  title: A modified regula falsi method for computing the root of an equation
+  source_type: semantic_scholar
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Semantic Scholar title: A modified regula falsi method for computing the root of an equation'
+  - 'published year: 1971'
+  - 'abstract summary: None'
+  short_quote: 'Semantic Scholar title: A modified regula falsi method for computing the root of an equation published year: 1971 abstract summary: None'
+  digest: ddbfc7b87790d024
+failed_sources: []
+paywalled_or_skipped_sources: []
+source_families_covered:
+- algorithm_wiki_local
+- local_previous_cache
+- original_source
+- crossref
+- arxiv
+- wikipedia
+- openalex
+- semantic_scholar
+- dblp
+- publisher_abstract
+- wikidata
+- citeseerx
+- nist_dads
+- the_algorithms
+- cp_algorithms
+- course_notes
+- general_web_search
+cycles_completed: 4
+new_fact_count_by_cycle:
+- cycle: 1
+  new_facts: 2
+- cycle: 2
+  new_facts: 6
+- cycle: 3
+  new_facts: 0
+- cycle: 4
+  new_facts: 0
+no_new_fact_streak: 2
+saturation_status: SATURATED_NO_RECOVERY
+final_reason: After the configured source-family cycles, no source-backed concrete task, input semantics, output semantics, and conservative access model could be established.
+next_manual_action: No automated action recommended; keep saturated certificate with unresolved row.

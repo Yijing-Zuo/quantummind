@@ -1,0 +1,58 @@
+id: AW-001473
+kind: context
+algorithm_id: AW-001473
+algorithm_name: Iwama, Kambayashi
+source_records:
+- access_status: metadata_only
+  digest: f44bbf99e5c5b1cd
+  extracted_facts:
+  - 'AlgorithmWiki row name: Iwama, Kambayashi'
+  - 'domain: graph'
+  - 'time complexity: O(l(n \log(n) + m )/p)'
+  - 'computational model: CRCW PRAM'
+  - 'parameter definitions: n: number of vertices, m: number of edges'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(l(n \log(n) + m )/p); work O(n \log(n) + m ); span/depth O(log n); processors O((n + m) \alpha(m, n)/log^2(n)). Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001473:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Iwama, Kambayashi
+  url: https://www.sciencedirect.com/science/article/pii/S0196677484710091
+- access_status: skipped
+  digest: f454c3c2fb42d935
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:7f49f9ab4f38f5fb
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://www.sciencedirect.com/science/article/pii/S0196677484710091
+web_query_attempts:
+- method: search_plan
+  query: Iwama, Kambayashi algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Iwama, Kambayashi algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Iwama, Kambayashi problem definition
+  status: recorded
+- method: search_plan
+  query: Iwama, Kambayashi graph algorithm
+  status: recorded
+- method: search_plan
+  query: Iwama, Kambayashi site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Iwama, Kambayashi algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://www.sciencedirect.com/science/article/pii/S0196677484710091
+  status: recorded
+- method: source_link_html_metadata
+  query: https://www.sciencedirect.com/science/article/pii/S0196677484710091
+  status: skipped
+extracted_problem_statement: 'Iwama, Kambayashi is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Iwama, Kambayashi. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'Iwama, Kambayashi is a graph algorithm record. Classical complexity metadata: time O(l(n \log(n) + m )/p); work O(n \log(n) + m ); span/depth O(log n); processors O((n + m) \alpha(m, n)/log^2(n)). The stated classical model is CRCW PRAM. Public metadata/source text adds: Iwama, Kambayashi graph graph n: number of vertices, m: number of edges O(l(n \log(n) + m )/p) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

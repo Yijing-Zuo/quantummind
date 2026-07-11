@@ -1,0 +1,69 @@
+id: AW-000872
+kind: context_recovered
+algorithm_id: AW-000872
+algorithm_name: Bjorck
+source_records:
+- access_status: metadata_only
+  digest: 2d7f5d93df8aec9d
+  extracted_facts:
+  - 'AlgorithmWiki row name: Bjorck'
+  - 'domain: unknown'
+  - 'time complexity: O(n^2)'
+  - 'space complexity: O(n)'
+  - 'computational model: Word/Real RAM'
+  - 'parameter definitions: n: number of points'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000872:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Bjorck
+  url: https://www.jstor.org/stable/2004623?origin=crossref&seq=5#metadata_info_tab_contents
+- access_status: failed
+  digest: 452e9fcc5799ba7c
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:8d9689ea4bf6beed
+  source_type: other_public_source
+  title: 'HTTP Error 403: Forbidden'
+  url: https://www.jstor.org/stable/2004623?origin=crossref&seq=5#metadata_info_tab_contents
+- source_id: crossref_search:a670b9c2a4ac6b12
+  url: https://doi.org/10.2307/2007695
+  title: Anderson-Bjorck for Linear Sequences
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: Anderson-Bjorck for Linear Sequences'
+  short_quote: ''
+  digest: ca799feb4cb3b048
+web_query_attempts:
+- query: '"Bjorck" algorithm'
+  method: search_plan
+  status: recorded
+- query: '"Bjorck" input output'
+  method: search_plan
+  status: recorded
+- query: '"Bjorck" time complexity'
+  method: search_plan
+  status: recorded
+- query: '"Bjorck" pseudocode'
+  method: search_plan
+  status: recorded
+- query: '"Bjorck" problem'
+  method: search_plan
+  status: recorded
+- query: '"Bjorck" PDF metadata abstract'
+  method: search_plan
+  status: recorded
+- query: https://www.jstor.org/stable/2004623?origin=crossref&seq=5#metadata_info_tab_contents
+  method: search_plan
+  status: recorded
+- query: Bjorck algorithm
+  method: crossref_title_search
+  status: fetched
+extracted_problem_statement: 'Bjorck is reconstructed as a classical matrix linear algebra task. Problem/task: solve a Vandermonde-structured linear system Input semantics: A Vandermonde matrix described by nodes and a right-hand-side vector. Output semantics: The solution vector or equivalent structured linear-system output.'
+extracted_algorithm_summary: 'Bjorck is treated as the named AlgorithmWiki variant for solve a Vandermonde-structured linear system Classical complexity metadata: time O(n^2); space O(n). Public metadata/source title support includes Anderson-Bjorck for Linear Sequences.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

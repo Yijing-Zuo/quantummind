@@ -1,0 +1,14 @@
+statement: 'Fleury''s algorithm + Tarjan is included as a named whole-algorithm context card for a classical graph task. The task is to analyze the classical input-output problem, not to certify an end-to-end improvement claim. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result. Classical algorithm summary: Fleury''s algorithm + Tarjan is a graph algorithm record. Classical complexity metadata: time O(E^2); space O(E). The stated classical model is Word RAM. Public metadata/source text adds: Fleury''s algorithm + Tarjan graph graph V: number of vertices, E: number of edges O(E^2) Given an explicit graph instance, the concrete classical graph task associated with Fleury''s algorithm + Tarjan. Classical complexity recorded for this row: time O(E^2); space O(E);
+  computation model Word RAM. Dominant bottleneck: graph traversal, priority/frontier maintenance, and materializing graph outputs. The useful review questions are whether the named structure exposes a smaller decision, witness, estimation, or algebraic subproblem; whether the full output size dominates any asymptotic gain; and whether the stated access model is realistic for the original input. Provenance used for reconstruction includes public metadata or abstract sources such as A note on finding the bridges of a graph
+
+  - Princeton University.'
+input_model: explicit_graph_problem
+access_model: adjacency_list_query
+output_contract: full_solution
+promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+size_parameters:
+- 'Parameter definition: V: number of vertices, E: number of edges'
+ambiguities:
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.

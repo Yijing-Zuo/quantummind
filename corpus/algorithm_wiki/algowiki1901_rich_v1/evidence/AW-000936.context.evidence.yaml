@@ -1,0 +1,59 @@
+id: AW-000936
+kind: context
+algorithm_id: AW-000936
+algorithm_name: Gabow, Galil, Spencer
+source_records:
+- access_status: metadata_only
+  digest: b8c0e427c47eae98
+  extracted_facts:
+  - 'AlgorithmWiki row name: Gabow, Galil, Spencer'
+  - 'domain: graph'
+  - 'time complexity: O(VlogV+Eloglog(logV/log(E/V + 2)))'
+  - 'space complexity: O(E)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: V: number of vertices, E: number of edges, U: maximum edge weight'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(VlogV+Eloglog(logV/log(E/V + 2))); space O(E). Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000936:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Gabow, Galil, Spencer
+  url: https://ieeexplore.ieee.org/abstract/document/715935
+- access_status: skipped
+  digest: 82c1cc23c4fc9af0
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:7748b48e39a3fa7e
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://ieeexplore.ieee.org/abstract/document/715935
+web_query_attempts:
+- method: search_plan
+  query: Gabow, Galil, Spencer algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Gabow, Galil, Spencer algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Gabow, Galil, Spencer problem definition
+  status: recorded
+- method: search_plan
+  query: Gabow, Galil, Spencer graph algorithm
+  status: recorded
+- method: search_plan
+  query: Gabow, Galil, Spencer site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Gabow, Galil, Spencer algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://ieeexplore.ieee.org/abstract/document/715935
+  status: recorded
+- method: source_link_html_metadata
+  query: https://ieeexplore.ieee.org/abstract/document/715935
+  status: skipped
+extracted_problem_statement: 'Gabow, Galil, Spencer is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Gabow, Galil, Spencer. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'Gabow, Galil, Spencer is a graph algorithm record. Classical complexity metadata: time O(VlogV+Eloglog(logV/log(E/V + 2))); space O(E). The stated classical model is Word RAM. Public metadata/source text adds: Gabow, Galil, Spencer graph graph V: number of vertices, E: number of edges, U: maximum edge weight O(VlogV+Eloglog(logV/log(E/V + 2))) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

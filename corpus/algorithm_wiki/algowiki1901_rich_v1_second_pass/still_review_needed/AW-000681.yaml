@@ -1,0 +1,35 @@
+algorithm_id: AW-000681
+canonical_name: Schubert's algorithm/Kronecker's method
+enrichment_status: SECOND_PASS_INSUFFICIENT
+review_reasons:
+- No second-pass rule could identify source-backed task semantics.
+source_records:
+- access_status: metadata_only
+  digest: 668354a20b205d24
+  extracted_facts:
+  - 'AlgorithmWiki row name: Schubert''s algorithm/Kronecker''s method'
+  - 'domain: unknown'
+  - 'time complexity: O(p^{n/2 + O(\log n)})'
+  - 'space complexity: O(n)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: degree of polynomial, p: characteristic of finite field'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000681:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Schubert's algorithm/Kronecker's method
+  url: '-'
+- source_id: crossref_search:d7abc8386241f952
+  url: https://doi.org/10.14495/jsiaml.1.60
+  title: Algorithm for computing Kronecker basis
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: Algorithm for computing Kronecker basis'
+  short_quote: ''
+  digest: 89c7e2cefc255904
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

@@ -1,0 +1,72 @@
+id: AW-000089
+kind: context_recovered
+algorithm_id: AW-000089
+algorithm_name: Karatsuba Algorithm
+source_records:
+- access_status: metadata_only
+  digest: 3858ee5516c4d1c6
+  extracted_facts:
+  - 'AlgorithmWiki row name: Karatsuba Algorithm'
+  - 'domain: unknown'
+  - 'time complexity: O(n^{1.58})'
+  - 'space complexity: O(n)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: length of one of the integers, in bits'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000089:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Karatsuba Algorithm
+  url: http://www.mathnet.ru/php/archive.phtml?wshow=paper&jrnid=dan&paperid=26729&option_lang=eng
+- access_status: failed
+  digest: 1d17c80f42a0b7da
+  extracted_facts:
+  - <urlopen error timed out>
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:faadd65d2fbfee8c
+  source_type: other_public_source
+  title: <urlopen error timed out>
+  url: http://www.mathnet.ru/php/archive.phtml?wshow=paper&jrnid=dan&paperid=26729&option_lang=eng
+- source_id: crossref_search:b55f155f9c447298
+  url: https://doi.org/10.1007/springerreference_317
+  title: Karatsuba algorithm
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: Karatsuba algorithm'
+  short_quote: ''
+  digest: 6e6900f848643bbf
+web_query_attempts:
+- query: '"Karatsuba Algorithm" algorithm'
+  method: search_plan
+  status: recorded
+- query: '"Karatsuba Algorithm" input output'
+  method: search_plan
+  status: recorded
+- query: '"Karatsuba Algorithm" time complexity'
+  method: search_plan
+  status: recorded
+- query: '"Karatsuba Algorithm" pseudocode'
+  method: search_plan
+  status: recorded
+- query: '"Karatsuba Algorithm" problem'
+  method: search_plan
+  status: recorded
+- query: '"Karatsuba Algorithm" PDF metadata abstract'
+  method: search_plan
+  status: recorded
+- query: http://www.mathnet.ru/php/archive.phtml?wshow=paper&jrnid=dan&paperid=26729&option_lang=eng
+  method: search_plan
+  status: recorded
+- query: Karatsuba Algorithm algorithm
+  method: crossref_title_search
+  status: fetched
+- query: Karatsuba Algorithm algorithm
+  method: wikipedia_summary_search
+  status: failed_or_not_relevant
+extracted_problem_statement: 'Karatsuba Algorithm is reconstructed as a classical combinatorics task. Problem/task: multiply large integers Input semantics: Two integers represented by n-bit or n-limb strings. Output semantics: The exact product integer.'
+extracted_algorithm_summary: 'Karatsuba Algorithm is treated as the named AlgorithmWiki variant for multiply large integers Classical complexity metadata: time O(n^{1.58}); space O(n). Public metadata/source title support includes Karatsuba algorithm.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

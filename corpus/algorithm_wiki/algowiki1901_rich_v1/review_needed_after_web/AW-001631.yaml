@@ -1,0 +1,55 @@
+algorithm_id: AW-001631
+canonical_name: Chmielowiec (existing FFT-based algorithm)
+enrichment_status: WEB_INSUFFICIENT
+review_reasons:
+- missing_concrete_problem_statement
+- unknown_input_model
+- unknown_output_contract
+- unknown_access_model
+source_records:
+- access_status: metadata_only
+  digest: 128f289d683a9282
+  extracted_facts:
+  - 'AlgorithmWiki row name: Chmielowiec (existing FFT-based algorithm)'
+  - 'domain: unknown'
+  - 'parameter definitions: integers as polynomials base R, n < R, n: degree of the polynomial, k: number of bits of the largest coefficient'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001631:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Chmielowiec (existing FFT-based algorithm)
+  url: https://link.springer.com/chapter/10.1007/978-94-007-6190-2_46
+- access_status: skipped
+  digest: 1f3fe61e84a90f43
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:6ad4986712829a80
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1007/978-94-007-6190-2_46
+- access_status: skipped
+  digest: cf024824e900aa3c
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:b42893602088e086
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://link.springer.com/chapter/10.1007/978-94-007-6190-2_46
+- access_status: skipped
+  digest: de43136a48ccfe5f
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:5487e3f71dbfdc6b
+  source_type: wikipedia
+  title: fetch budget exhausted
+  url: https://en.wikipedia.org/wiki/Chmielowiec_%28existing_FFT-based_algorithm%29
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

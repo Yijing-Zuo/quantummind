@@ -1,0 +1,94 @@
+id: AW-001795
+kind: context_recovered
+algorithm_id: AW-001795
+algorithm_name: Kohout, Kolingerova
+source_records:
+- access_status: metadata_only
+  digest: 1f3dfa19f116ed27
+  extracted_facts:
+  - 'AlgorithmWiki row name: Kohout, Kolingerova'
+  - 'domain: unknown'
+  - 'parameter definitions: n: number of points'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001795:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Kohout, Kolingerova
+  url: https://dl.acm.org/doi/abs/10.1145/984952.984966
+- access_status: skipped
+  digest: e7d79d38461feebf
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:d16fef7ca530bd72
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1145/984952.984966
+- access_status: skipped
+  digest: 1dc3187814e124c8
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:902f2d272133ddf5
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://dl.acm.org/doi/abs/10.1145/984952.984966
+- source_id: crossref:7aca8fb2ea33bb0d
+  url: https://doi.org/10.1145/984952.984966
+  title: Parallel Delaunay triangulation based on circum-circle criterion
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: HIGH
+  extracted_facts:
+  - 'DOI title: Parallel Delaunay triangulation based on circum-circle criterion'
+  - 'published year: 2003'
+  - 'container title: Proceedings of the 19th Spring Conference on Computer Graphics'
+  short_quote: ''
+  digest: 4b1dd27e64f3b6fa
+- source_id: crossref_search:0b18e1bdccf3f416
+  url: https://doi.org/10.1109/npc.2007.32
+  title: An optimal algorithm to fetch DHT routable
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: An optimal algorithm to fetch DHT routable'
+  short_quote: ''
+  digest: eac65bcac63f65f8
+web_query_attempts:
+- query: '"Kohout, Kolingerova" algorithm'
+  method: search_plan
+  status: recorded
+- query: '"Kohout, Kolingerova" input output'
+  method: search_plan
+  status: recorded
+- query: '"Kohout, Kolingerova" time complexity'
+  method: search_plan
+  status: recorded
+- query: '"Kohout, Kolingerova" pseudocode'
+  method: search_plan
+  status: recorded
+- query: '"Kohout, Kolingerova" problem'
+  method: search_plan
+  status: recorded
+- query: '"Kohout, Kolingerova" PDF metadata abstract'
+  method: search_plan
+  status: recorded
+- query: '"fetch budget exhausted" algorithm'
+  method: search_plan
+  status: recorded
+- query: https://dl.acm.org/doi/abs/10.1145/984952.984966
+  method: search_plan
+  status: recorded
+- query: 10.1145/984952.984966
+  method: crossref_doi_metadata
+  status: fetched
+- query: fetch budget exhausted algorithm
+  method: crossref_title_search
+  status: fetched
+extracted_problem_statement: 'Kohout, Kolingerova is reconstructed as a classical computational geometry task. Problem/task: compute a geometric structure or relation over a finite point set Input semantics: A finite set of points, dimension k when stated, and geometric predicate assumptions. Output semantics: A geometric witness, nearest/closest relation, hull, partition, or related structure supported by the named row.'
+extracted_algorithm_summary: 'Kohout, Kolingerova is treated as the named AlgorithmWiki variant for compute a geometric structure or relation over a finite point set Classical complexity metadata: work O(n \log n); span/depth O(log^2 n). Public metadata/source title support includes Parallel Delaunay triangulation based on circum-circle criterion.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

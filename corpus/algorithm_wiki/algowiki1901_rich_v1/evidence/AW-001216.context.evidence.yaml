@@ -1,0 +1,58 @@
+id: AW-001216
+kind: context
+algorithm_id: AW-001216
+algorithm_name: Jang, Kim
+source_records:
+- access_status: metadata_only
+  digest: e990f758393512e0
+  extracted_facts:
+  - 'AlgorithmWiki row name: Jang, Kim'
+  - 'domain: sorting'
+  - 'time complexity: O(4^k)'
+  - 'computational model: sorting network'
+  - 'parameter definitions: n^k: size of list'
+  - 'precard summary: Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model. Baseline: time O(4^k); work O(4^k n^(k+1)); span/depth O(4^k); processors n^(k+1). Bottleneck: comparison, distribution, and full-output movement costs dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001216:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Jang, Kim
+  url: https://ieeexplore.ieee.org/abstract/document/651519
+- access_status: skipped
+  digest: f83c91f863ef00e2
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:bd424f3ee911c9e0
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://ieeexplore.ieee.org/abstract/document/651519
+web_query_attempts:
+- method: search_plan
+  query: Jang, Kim algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Jang, Kim algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Jang, Kim problem definition
+  status: recorded
+- method: search_plan
+  query: Jang, Kim sorting algorithm
+  status: recorded
+- method: search_plan
+  query: Jang, Kim site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Jang, Kim algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://ieeexplore.ieee.org/abstract/document/651519
+  status: recorded
+- method: source_link_html_metadata
+  query: https://ieeexplore.ieee.org/abstract/document/651519
+  status: skipped
+extracted_problem_statement: 'Jang, Kim is treated as a classical sorting task for rich AlgorithmWiki discovery. Problem/task: sort the input sequence using the named classical sorting method. Input semantics: A finite array or list of comparable keys or records. Output semantics: The same items returned in nondecreasing order, usually as a full reordered sequence.'
+extracted_algorithm_summary: 'Jang, Kim is a sorting algorithm record. Classical complexity metadata: time O(4^k); work O(4^k n^(k+1)); span/depth O(4^k); processors n^(k+1). The stated classical model is sorting network. Public metadata/source text adds: Jang, Kim sorting sorting n^k: size of list O(4^k) Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

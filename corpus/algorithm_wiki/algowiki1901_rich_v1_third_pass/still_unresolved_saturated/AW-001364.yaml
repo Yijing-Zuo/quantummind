@@ -1,0 +1,66 @@
+algorithm_id: AW-001364
+canonical_name: Berntsen (Classical 3D)
+enrichment_status: THIRD_PASS_SATURATED_INSUFFICIENT
+review_reasons:
+- After the configured source-family cycles, no source-backed concrete task, input semantics, output semantics, and conservative access model could be established.
+source_records:
+- access_status: metadata_only
+  digest: 982e5d942d7ef6d9
+  extracted_facts:
+  - 'AlgorithmWiki row name: Berntsen (Classical 3D)'
+  - 'domain: unknown'
+  - 'time complexity: n^3/p + 2 t_s p^{1/3} + 1/3 t_s log(p) + 3 t_w n^2/p^{2/3}'
+  - 'computational model: 2D mesh'
+  - 'parameter definitions: nxn: size of matrices, t_s: message startup time, t_w: per-word comm time'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001364:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Berntsen (Classical 3D)
+  url: https://www.sciencedirect.com/science/article/pii/0167819189900914
+- access_status: skipped
+  digest: c8d7f80a52901193
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:d5f76dc572a06333
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://www.sciencedirect.com/science/article/pii/0167819189900914
+- access_status: fetched
+  digest: eac65bcac63f65f8
+  extracted_facts:
+  - 'Crossref title-search result: An optimal algorithm to fetch DHT routable'
+  reliability: MEDIUM
+  short_quote: ''
+  source_id: crossref_search:0b18e1bdccf3f416
+  source_type: doi_metadata
+  title: An optimal algorithm to fetch DHT routable
+  url: https://doi.org/10.1109/npc.2007.32
+- source_id: failed:9ffc33510462a3eb
+  url: https://www.sciencedirect.com/science/article/pii/0167819189900914
+  title: 'HTTP Error 403: Forbidden'
+  source_type: original_source
+  access_status: failed
+  reliability: LOW
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  short_quote: 'HTTP Error 403: Forbidden'
+  digest: f5b9ee31c4e2df65
+- source_id: crossref_search:6b94812f2322cd75
+  url: https://doi.org/10.1163/2589-3807_egpo_com_040669
+  title: Berntsen, Bernt
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title: Berntsen, Bernt'
+  - 'published year: 2020'
+  - 'container title: Brill''s Encyclopedia of Global Pentecostalism Online'
+  short_quote: 'Crossref title: Berntsen, Bernt published year: 2020 container title: Brill''s Encyclopedia of Global Pentecostalism Online'
+  digest: fa5a3c6433b03118
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

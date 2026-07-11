@@ -1,0 +1,59 @@
+id: AW-000246
+kind: context
+algorithm_id: AW-000246
+algorithm_name: Closed formula
+source_records:
+- access_status: metadata_only
+  digest: 0af658af84f64ec6
+  extracted_facts:
+  - 'AlgorithmWiki row name: Closed formula'
+  - 'domain: matrix_linear_algebra'
+  - 'time complexity: O(n^6)'
+  - 'space complexity: O(n^2)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: dimension of square matrix'
+  - 'precard summary: Given one or more explicit dense matrices over the stated arithmetic domain, compute the matrix or linear-algebraic output specified by the record. Baseline: time O(n^6); space O(n^2). Bottleneck: dense arithmetic and full matrix output dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000246:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Closed formula
+  url: https://books.google.com/books/about/The_Theory_of_Matrices_in_Numerical_Anal.html?id=hCre109IpRcC
+- access_status: skipped
+  digest: dd6d86b2d9254288
+  extracted_facts:
+  - robots.txt disallowed fetch
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:8cba1b0d47b23430
+  source_type: other_public_source
+  title: robots.txt disallowed fetch
+  url: https://books.google.com/books/about/The_Theory_of_Matrices_in_Numerical_Anal.html?id=hCre109IpRcC
+web_query_attempts:
+- method: search_plan
+  query: Closed formula algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Closed formula algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Closed formula problem definition
+  status: recorded
+- method: search_plan
+  query: Closed formula matrix linear algebra algorithm
+  status: recorded
+- method: search_plan
+  query: Closed formula site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Closed formula algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://books.google.com/books/about/The_Theory_of_Matrices_in_Numerical_Anal.html?id=hCre109IpRcC
+  status: recorded
+- method: source_link_html_metadata
+  query: https://books.google.com/books/about/The_Theory_of_Matrices_in_Numerical_Anal.html?id=hCre109IpRcC
+  status: skipped
+extracted_problem_statement: 'Closed formula is treated as a classical matrix linear algebra task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Closed formula. Input semantics: One or more explicit matrices or linear systems over the stated arithmetic domain. Output semantics: The requested matrix, decomposition, solution vector, or other linear-algebraic output.'
+extracted_algorithm_summary: 'Closed formula is a matrix linear algebra algorithm record. Classical complexity metadata: time O(n^6); space O(n^2). The stated classical model is Word RAM. Public metadata/source text adds: Closed formula matrix_linear_algebra matrix_linear_algebra n: dimension of square matrix O(n^6) Given one or more explicit dense matrices over the stated arithmetic domain, compute the matrix or linear-algebraic output specified by the record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

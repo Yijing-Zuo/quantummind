@@ -1,0 +1,45 @@
+id: AW-001081
+kind: context
+algorithm_id: AW-001081
+algorithm_name: Han
+source_records:
+- access_status: metadata_only
+  digest: faa60d1dde8cb285
+  extracted_facts:
+  - 'AlgorithmWiki row name: Han'
+  - 'domain: parallel_algorithms'
+  - 'time complexity: O(1/ \alpha \log{n})'
+  - 'computational model: CREW PRAM'
+  - 'parameter definitions: n: size of list, alpha: arbitrary positive number <1, but O(log n loglog n)<=O(1/alpha log n)'
+  - 'precard summary: Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model. Baseline: time O(1/ \alpha \log{n}); work O(1/ \alpha n \log^(\alpha+1){n}); span/depth O(\log{n} \log{\log{n}}); processors O(n \log^\alpha{n}). Bottleneck: work, span, communication, and processor-count assumptions dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001081:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Han
+  url: http://h.web.umkc.edu/hanyij/html/research/icpp85.pdf
+web_query_attempts:
+- method: search_plan
+  query: Han algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Han algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Han problem definition
+  status: recorded
+- method: search_plan
+  query: Han parallel algorithms algorithm
+  status: recorded
+- method: search_plan
+  query: Han site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Han algorithm wiki
+  status: recorded
+- method: search_plan
+  query: http://h.web.umkc.edu/hanyij/html/research/icpp85.pdf
+  status: recorded
+extracted_problem_statement: 'Han is treated as a classical parallel algorithms task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Han. Input semantics: The classical input instance named by the row, together with processor/work/span parameters when stated. Output semantics: The same mathematical output as the underlying classical task, annotated by work/span when available.'
+extracted_algorithm_summary: 'Han is a parallel algorithms algorithm record. Classical complexity metadata: time O(1/ \alpha \log{n}); work O(1/ \alpha n \log^(\alpha+1){n}); span/depth O(\log{n} \log{\log{n}}); processors O(n \log^\alpha{n}). The stated classical model is CREW PRAM. Public metadata/source text adds: Han parallel_algorithms parallel_algorithms n: size of list, alpha: arbitrary positive number <1, but O(log n loglog n)<=O(1/alpha log n) O(1/ \alpha \log{n}) Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

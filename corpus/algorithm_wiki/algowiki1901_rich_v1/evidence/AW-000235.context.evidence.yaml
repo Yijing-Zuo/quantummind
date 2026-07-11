@@ -1,0 +1,71 @@
+id: AW-000235
+kind: context
+algorithm_id: AW-000235
+algorithm_name: Pollard's rho algorithm
+source_records:
+- access_status: metadata_only
+  digest: 22496e8ce5af19a6
+  extracted_facts:
+  - 'AlgorithmWiki row name: Pollard''s rho algorithm'
+  - 'domain: unknown'
+  - 'time complexity: -'
+  - 'space complexity: O(n)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of bits in the integer'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000235:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Pollard's rho algorithm
+  url: https://link.springer.com/article/10.1007%2FBF01933667
+- access_status: fetched
+  digest: e5d7924aed8230e0
+  extracted_facts:
+  - 'DOI title: A monte carlo method for factorization'
+  - 'published year: 1975'
+  - 'container title: BIT'
+  reliability: HIGH
+  short_quote: ''
+  source_id: crossref:f923d1455000ba65
+  source_type: doi_metadata
+  title: A monte carlo method for factorization
+  url: https://doi.org/10.1007/BF01933667
+- access_status: skipped
+  digest: 9a448e9ed3a244df
+  extracted_facts:
+  - robots.txt disallowed fetch
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:c61a16c8017e8b41
+  source_type: publisher_abstract
+  title: robots.txt disallowed fetch
+  url: https://link.springer.com/article/10.1007%2FBF01933667
+web_query_attempts:
+- method: search_plan
+  query: Pollard's rho algorithm algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Pollard's rho algorithm algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Pollard's rho algorithm problem definition
+  status: recorded
+- method: search_plan
+  query: Pollard's rho algorithm site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Pollard's rho algorithm algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://link.springer.com/article/10.1007%2FBF01933667
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1007/BF01933667
+  status: fetched
+- method: source_link_html_metadata
+  query: https://link.springer.com/article/10.1007%2FBF01933667
+  status: skipped
+extracted_problem_statement: 'Pollard''s rho algorithm is treated as a classical randomized sampling task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Pollard''s rho algorithm. Input semantics: A probability model, data set, or sampler description together with requested estimator parameters. Output semantics: A sample, estimate, or approximate value with the stated randomized or statistical semantics.'
+extracted_algorithm_summary: 'Pollard''s rho algorithm is a randomized sampling algorithm record. Classical complexity metadata: time -; space O(n). The stated classical model is Word RAM. Public metadata/source text adds: Pollard''s rho algorithm unknown unknown n: number of bits in the integer - No public-ready summary is available because the row lacks enough task semantics.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

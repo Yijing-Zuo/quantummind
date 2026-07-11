@@ -1,0 +1,56 @@
+id: AW-001728
+kind: context_recovered
+algorithm_id: AW-001728
+algorithm_name: Connor, Kumar
+source_records:
+- access_status: metadata_only
+  digest: 8cae46915ec079e6
+  extracted_facts:
+  - 'AlgorithmWiki row name: Connor, Kumar'
+  - 'domain: unknown'
+  - 'parameter definitions: n: number of points, k: number of neighbors'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001728:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Connor, Kumar
+  url: https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=cefc2eca176f490d1c6a09d689262da37a326b13
+- source_id: crossref_search:3d130274335ae233
+  url: https://doi.org/10.1353/psg.2024.a970515
+  title: Connor
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: Connor'
+  short_quote: ''
+  digest: f8e3ab8852f5f29d
+web_query_attempts:
+- query: '"Connor, Kumar" algorithm'
+  method: search_plan
+  status: recorded
+- query: '"Connor, Kumar" input output'
+  method: search_plan
+  status: recorded
+- query: '"Connor, Kumar" time complexity'
+  method: search_plan
+  status: recorded
+- query: '"Connor, Kumar" pseudocode'
+  method: search_plan
+  status: recorded
+- query: '"Connor, Kumar" problem'
+  method: search_plan
+  status: recorded
+- query: '"Connor, Kumar" PDF metadata abstract'
+  method: search_plan
+  status: recorded
+- query: https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=cefc2eca176f490d1c6a09d689262da37a326b13
+  method: search_plan
+  status: recorded
+- query: Connor, Kumar algorithm
+  method: crossref_title_search
+  status: fetched
+extracted_problem_statement: 'Connor, Kumar is reconstructed as a classical computational geometry task. Problem/task: compute a geometric structure or relation over a finite point set Input semantics: A finite set of points, dimension k when stated, and geometric predicate assumptions. Output semantics: A geometric witness, nearest/closest relation, hull, partition, or related structure supported by the named row.'
+extracted_algorithm_summary: 'Connor, Kumar is treated as the named AlgorithmWiki variant for compute a geometric structure or relation over a finite point set Classical complexity metadata: work O(nlogn + nk \log(k)); span/depth O(log n). Public metadata/source title support includes Connor.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

@@ -1,0 +1,46 @@
+id: AW-000251-P0242
+kind: probe
+algorithm_id: AW-000251
+algorithm_name: D*
+source_records:
+- access_status: metadata_only
+  digest: 740b6d293c54447b
+  extracted_facts:
+  - 'AlgorithmWiki row name: D*'
+  - 'domain: graph'
+  - 'time complexity: O(b^d)'
+  - 'space complexity: O(b^d)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: b: branching factor (the average number of successors per state), d: the depth of the solution (the shortest path)'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(b^d); space O(b^d). Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000251:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for D*
+  url: https://citeseerx.ist.psu.edu/pdf/77e9b970024bc5da2b726491823f7d617a303811
+web_query_attempts:
+- method: search_plan
+  query: D* algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: D* algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: D* problem definition
+  status: recorded
+- method: search_plan
+  query: D* graph algorithm
+  status: recorded
+- method: search_plan
+  query: D* site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: D* algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://citeseerx.ist.psu.edu/pdf/77e9b970024bc5da2b726491823f7d617a303811
+  status: recorded
+extracted_problem_statement: 'D* is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: find a low-cost or shortest path in a graph or state-space search instance. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: A path, path cost, or predecessor structure connecting the requested graph states.'
+extracted_algorithm_summary: 'D* is a graph algorithm record. Classical complexity metadata: time O(b^d); space O(b^d). The stated classical model is Word RAM. Public metadata/source text adds: D* graph graph b: branching factor (the average number of successors per state), d: the depth of the solution (the shortest path) O(b^d) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

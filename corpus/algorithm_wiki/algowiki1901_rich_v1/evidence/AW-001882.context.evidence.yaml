@@ -1,0 +1,71 @@
+id: AW-001882
+kind: context
+algorithm_id: AW-001882
+algorithm_name: Guo et al.
+source_records:
+- access_status: metadata_only
+  digest: a640e2d3d47f6f60
+  extracted_facts:
+  - 'AlgorithmWiki row name: Guo et al.'
+  - 'domain: graph'
+  - 'time complexity: O(hn/p + np)'
+  - 'computational model: BSP'
+  - 'parameter definitions: n: number of pages/vertices, m: number of hyperlinks/edges, p: number of processors, h: number of hub nodes'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(hn/p + np); work O(hn); span/depth O(h*sqrt(n)); processors p. Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001882:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Guo et al.
+  url: https://dl.acm.org/doi/abs/10.1145/3035918.3035920
+- access_status: skipped
+  digest: df4f84067cf78391
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:56df723e63488fd5
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1145/3035918.3035920
+- access_status: skipped
+  digest: 9d1eb5492fb6b732
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:14095104357b677f
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://dl.acm.org/doi/abs/10.1145/3035918.3035920
+web_query_attempts:
+- method: search_plan
+  query: Guo et al. algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Guo et al. algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Guo et al. problem definition
+  status: recorded
+- method: search_plan
+  query: Guo et al. graph algorithm
+  status: recorded
+- method: search_plan
+  query: Guo et al. site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Guo et al. algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://dl.acm.org/doi/abs/10.1145/3035918.3035920
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1145/3035918.3035920
+  status: skipped
+- method: source_link_html_metadata
+  query: https://dl.acm.org/doi/abs/10.1145/3035918.3035920
+  status: skipped
+extracted_problem_statement: 'Guo et al. is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Guo et al.. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'Guo et al. is a graph algorithm record. Classical complexity metadata: time O(hn/p + np); work O(hn); span/depth O(h*sqrt(n)); processors p. The stated classical model is BSP. Public metadata/source text adds: Guo et al. graph graph n: number of pages/vertices, m: number of hyperlinks/edges, p: number of processors, h: number of hub nodes O(hn/p + np) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

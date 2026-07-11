@@ -1,0 +1,13 @@
+statement: 'Resource hierarchy solution is included as a named whole-algorithm context card for a classical parallel algorithms task. The task is to analyze the classical input-output problem, not to certify an end-to-end improvement claim. Input semantics: A set of philosophers/processes and shared fork/resource constraints. Output semantics: A safe allocation or protocol schedule satisfying mutual exclusion/progress constraints. Classical algorithm summary: Resource hierarchy solution is treated as the named AlgorithmWiki variant for schedule resource acquisition to avoid unsafe dining-philosophers states Classical complexity metadata: time O(2^n); space O(n). Public metadata/source title support includes Grid Resource Scheduling Algorithm Based on Optimization Hierarchy. Classical complexity recorded for this row: time O(2^n); space O(n); computation model not stated. Dominant bottleneck: State-space growth and coordination constraints dominate. The useful review questions are whether
+  the named structure exposes a smaller decision, witness, estimation, or algebraic subproblem; whether the full output size dominates any asymptotic gain; and whether the stated access model is realistic for the original input. Provenance used for reconstruction includes public metadata or abstract sources such as Grid Resource Scheduling Algorithm Based on Optimization Hierarchy.'
+input_model: explicit_parallel_algorithm_problem
+access_model: explicit_input_instance
+output_contract: full_solution
+promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+size_parameters:
+- 'Parameter definition: n: number of philosophers'
+ambiguities:
+- Some details are reconstructed from AlgorithmWiki metadata rather than an independently fetched full public description.
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.

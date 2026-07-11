@@ -1,0 +1,40 @@
+id: AW-000348
+kind: context
+algorithm_id: AW-000348
+algorithm_name: Multiple Resolution segmentation - J. Liu and Y. H. Yang (1994)
+source_records:
+- access_status: metadata_only
+  digest: f174aa485a4c34b1
+  extracted_facts:
+  - 'AlgorithmWiki row name: Multiple Resolution segmentation - J. Liu and Y. H. Yang (1994)'
+  - 'domain: image_processing'
+  - 'time complexity: O(n^2)'
+  - 'precard summary: Given an explicit image or grid of pixel values, compute the transformed image, segmentation, or detected structure targeted by the record. Baseline: time O(n^2). Bottleneck: local neighborhood processing and writing image-sized outputs dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000348:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Multiple Resolution segmentation - J. Liu and Y. H. Yang (1994)
+  url: ''
+web_query_attempts:
+- method: search_plan
+  query: Multiple Resolution segmentation - J. Liu and Y. H. Yang (1994) algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Multiple Resolution segmentation - J. Liu and Y. H. Yang (1994) algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Multiple Resolution segmentation - J. Liu and Y. H. Yang (1994) problem definition
+  status: recorded
+- method: search_plan
+  query: Multiple Resolution segmentation - J. Liu and Y. H. Yang (1994) image processing algorithm
+  status: recorded
+- method: search_plan
+  query: Multiple Resolution segmentation - J. Liu and Y. H. Yang (1994) site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Multiple Resolution segmentation - J. Liu and Y. H. Yang (1994) algorithm wiki
+  status: recorded
+extracted_problem_statement: 'Multiple Resolution segmentation - J. Liu and Y. H. Yang (1994) is treated as a classical image processing task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Multiple Resolution segmentation - J. Liu and Y. H. Yang (1994). Input semantics: An image, grid, point cloud, or signal representation with local or hierarchical processing parameters. Output semantics: A transformed image, segmentation, quantization, feature set, or detected structure.'
+extracted_algorithm_summary: 'Multiple Resolution segmentation - J. Liu and Y. H. Yang (1994) is a image processing algorithm record. Classical complexity metadata: time O(n^2). Public metadata/source text adds: Multiple Resolution segmentation - J. Liu and Y.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

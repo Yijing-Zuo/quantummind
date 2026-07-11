@@ -1,0 +1,71 @@
+id: AW-000949
+kind: context
+algorithm_id: AW-000949
+algorithm_name: D* Lite
+source_records:
+- access_status: metadata_only
+  digest: 0ff65cd19bb95aca
+  extracted_facts:
+  - 'AlgorithmWiki row name: D* Lite'
+  - 'domain: graph'
+  - 'time complexity: O(b^d)'
+  - 'space complexity: O(b^d)'
+  - 'parameter definitions: b: branching factor (the average number of successors per state), d: the depth of the solution (the shortest path)'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(b^d); space O(b^d). Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000949:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for D* Lite
+  url: https://doi.org/10.1109%2Ftro.2004.838026
+- access_status: skipped
+  digest: e3f4088da1e8c9e4
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:424a76da598ff9cf
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1109/tro.2004.838026
+- access_status: skipped
+  digest: 3a3ee3b568522c07
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:0df198bd9c19fddc
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1109%2Ftro.2004.838026
+web_query_attempts:
+- method: search_plan
+  query: D* Lite algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: D* Lite algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: D* Lite problem definition
+  status: recorded
+- method: search_plan
+  query: D* Lite graph algorithm
+  status: recorded
+- method: search_plan
+  query: D* Lite site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: D* Lite algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://doi.org/10.1109%2Ftro.2004.838026
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1109/tro.2004.838026
+  status: skipped
+- method: source_link_html_metadata
+  query: https://doi.org/10.1109%2Ftro.2004.838026
+  status: skipped
+extracted_problem_statement: 'D* Lite is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: find a low-cost or shortest path in a graph or state-space search instance. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: A path, path cost, or predecessor structure connecting the requested graph states.'
+extracted_algorithm_summary: 'D* Lite is a graph algorithm record. Classical complexity metadata: time O(b^d); space O(b^d). Public metadata/source text adds: D* Lite graph graph b: branching factor (the average number of successors per state), d: the depth of the solution (the shortest path) O(b^d) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

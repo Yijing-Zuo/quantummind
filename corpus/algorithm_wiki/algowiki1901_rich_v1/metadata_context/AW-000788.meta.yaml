@@ -1,0 +1,55 @@
+algorithm_family: randomized sampling
+algorithm_id: AW-000788
+approximate: '0'
+approximation_factor: ''
+blind_name: Algorithm Wiki public task AW-000788
+canonical_name: Randomized HITS
+computational_model: Word RAM
+domain: randomized_sampling
+extracted_description: ''
+extraction_version: algorithm-wiki-rich-context-v1
+family: randomized_sampling
+inferred_access_model: explicit_numeric_parameters
+inferred_ambiguities:
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.
+inferred_input_model: explicit_numerical_problem
+inferred_output_contract: estimate
+inferred_problem_statement: 'Randomized HITS is treated as a classical randomized sampling task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Randomized HITS. Input semantics: A probability model, data set, or sampler description together with requested estimator parameters. Output semantics: A sample, estimate, or approximate value with the stated randomized or statistical semantics.'
+inferred_promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+inferred_size_parameters:
+- 'Parameter definition: n: number of pages, m: number of hyperlinks'
+number_of_processors: ''
+page_digest: ''
+page_fetch_status: not_found
+page_url: ''
+parameter_definitions: 'n: number of pages, m: number of hyperlinks'
+problem_name: randomized sampling
+quality_flags:
+- domain_inferred
+- problem_statement_inferred
+- io_access_output_inferred
+- has_complexity_semantics
+- has_size_parameters
+- has_computational_model
+quality_score: 100
+randomized: '0'
+readiness: READY_PUBLIC_CONTEXT
+review_reasons: []
+source_link: https://dl.acm.org/doi/pdf/10.1145/383952.384003
+source_link_type: acm
+space_complexity: O(n)
+span_depth: ''
+time_complexity: O(mn \log n)
+variation: ''
+work: ''
+year: '2001'
+rich_card_kind: context
+source_records_used:
+- AW-000788:algorithm_wiki_metadata
+- crossref:121fe61b60560076
+source_count: 2
+source_quality: HIGH
+confidence_score: 100
+card_digest: 20b8e30d947920f7

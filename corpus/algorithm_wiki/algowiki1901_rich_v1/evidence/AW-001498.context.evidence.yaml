@@ -1,0 +1,45 @@
+id: AW-001498
+kind: context
+algorithm_id: AW-001498
+algorithm_name: Hirschberg
+source_records:
+- access_status: metadata_only
+  digest: 41524e7f0f3fef50
+  extracted_facts:
+  - 'AlgorithmWiki row name: Hirschberg'
+  - 'domain: graph'
+  - 'time complexity: O(\log n)'
+  - 'computational model: SIMD-SM-RW (CRCW PRAM)'
+  - 'parameter definitions: n: number of vertices'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(\log n); work O(n^3 \log n); span/depth O(log n); processors O(n^3). Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001498:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Hirschberg
+  url: HIRSCHBERG, D. S. 1982. Parallel graph algorithms without memory conflicts.
+web_query_attempts:
+- method: search_plan
+  query: Hirschberg algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Hirschberg algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Hirschberg problem definition
+  status: recorded
+- method: search_plan
+  query: Hirschberg graph algorithm
+  status: recorded
+- method: search_plan
+  query: Hirschberg site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Hirschberg algorithm wiki
+  status: recorded
+- method: search_plan
+  query: HIRSCHBERG, D. S. 1982. Parallel graph algorithms without memory conflicts.
+  status: recorded
+extracted_problem_statement: 'Hirschberg is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Hirschberg. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'Hirschberg is a graph algorithm record. Classical complexity metadata: time O(\log n); work O(n^3 \log n); span/depth O(log n); processors O(n^3). The stated classical model is SIMD-SM-RW (CRCW PRAM). Public metadata/source text adds: Hirschberg graph graph n: number of vertices O(\log n) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

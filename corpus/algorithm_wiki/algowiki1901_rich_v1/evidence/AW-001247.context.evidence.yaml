@@ -1,0 +1,71 @@
+id: AW-001247
+kind: context
+algorithm_id: AW-001247
+algorithm_name: adaptive bitonic sorting - Zachmann
+source_records:
+- access_status: metadata_only
+  digest: 8b1b5dca5bc696d6
+  extracted_facts:
+  - 'AlgorithmWiki row name: adaptive bitonic sorting - Zachmann'
+  - 'domain: sorting'
+  - 'time complexity: O(n \log{n}/p)'
+  - 'computational model: EREW PRAM'
+  - 'parameter definitions: n:size of list'
+  - 'precard summary: Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model. Baseline: time O(n \log{n}/p); work O(n \log{n}); span/depth O(\log{n}); processors p. Bottleneck: comparison, distribution, and full-output movement costs dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001247:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for adaptive bitonic sorting - Zachmann
+  url: https://media.suub.uni-bremen.de/handle/elib/7043
+- access_status: skipped
+  digest: 1f773951fd3a4c48
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:eea36f1093775aa7
+  source_type: other_public_source
+  title: fetch budget exhausted
+  url: https://media.suub.uni-bremen.de/handle/elib/7043
+- access_status: skipped
+  digest: 71fc15b92937d4b6
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:db42f94a6bcc23d5
+  source_type: wikipedia
+  title: fetch budget exhausted
+  url: https://en.wikipedia.org/wiki/adaptive_bitonic_sorting_-_Zachmann
+web_query_attempts:
+- method: search_plan
+  query: adaptive bitonic sorting - Zachmann algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: adaptive bitonic sorting - Zachmann algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: adaptive bitonic sorting - Zachmann problem definition
+  status: recorded
+- method: search_plan
+  query: adaptive bitonic sorting - Zachmann sorting algorithm
+  status: recorded
+- method: search_plan
+  query: adaptive bitonic sorting - Zachmann site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: adaptive bitonic sorting - Zachmann algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://media.suub.uni-bremen.de/handle/elib/7043
+  status: recorded
+- method: source_link_html_metadata
+  query: https://media.suub.uni-bremen.de/handle/elib/7043
+  status: skipped
+- method: wikipedia_summary_search
+  query: adaptive bitonic sorting - Zachmann algorithm
+  status: skipped
+extracted_problem_statement: 'adaptive bitonic sorting - Zachmann is treated as a classical sorting task for rich AlgorithmWiki discovery. Problem/task: sort the input sequence using the named classical sorting method. Input semantics: A finite array or list of comparable keys or records. Output semantics: The same items returned in nondecreasing order, usually as a full reordered sequence.'
+extracted_algorithm_summary: 'adaptive bitonic sorting - Zachmann is a sorting algorithm record. Classical complexity metadata: time O(n \log{n}/p); work O(n \log{n}); span/depth O(\log{n}); processors p. The stated classical model is EREW PRAM. Public metadata/source text adds: adaptive bitonic sorting - Zachmann sorting sorting n:size of list O(n \log{n}/p) Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

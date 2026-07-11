@@ -1,0 +1,36 @@
+algorithm_id: AW-000846
+canonical_name: Iteration based
+enrichment_status: SECOND_PASS_INSUFFICIENT
+review_reasons:
+- No second-pass rule could identify source-backed task semantics.
+source_records:
+- access_status: metadata_only
+  digest: 943382ae3a083e91
+  extracted_facts:
+  - 'AlgorithmWiki row name: Iteration based'
+  - 'domain: unknown'
+  - 'time complexity: O(2^n)'
+  - 'space complexity: O(n)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of disks'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000846:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Iteration based
+  url: NA
+- source_id: crossref_search:8be0a9a521db7b1f
+  url: https://doi.org/10.1142/s0218126618500767
+  title: BBR-Based Iteration-Free CORDIC Algorithm
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: BBR-Based Iteration-Free CORDIC Algorithm'
+  - 'abstract summary: Coordinate rotation digital computer (CORDIC) algorithm has been widely used in modern digital communication systems such as all-digital phase-locked loop, fast Fourier transform and direct digital frequency synthesizers.'
+  short_quote: Coordinate rotation digital computer (CORDIC) algorithm has been widely used in modern digital communication systems such as all-digital phase-locked loop, fast Fourier transform and
+  digest: e292ffdec1489eeb
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

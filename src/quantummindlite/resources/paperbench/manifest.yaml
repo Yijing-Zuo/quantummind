@@ -1,0 +1,16 @@
+benchmark_id: PaperBench-10
+version: 0.1.0
+ready_cases:
+  - QM-PB-001
+  - QM-PB-002
+  - QM-PB-003
+  - QM-PB-004
+  - QM-PB-005
+  - QM-PB-006
+  - QM-PB-007
+  - QM-PB-008
+  - QM-PB-009
+  - QM-PB-010
+source_status: PRIMARY_SOURCE_CHECKED
+human_review_claim: none
+

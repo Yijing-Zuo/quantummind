@@ -1,0 +1,72 @@
+id: AW-001766
+kind: context
+algorithm_id: AW-001766
+algorithm_name: Schenk
+source_records:
+- access_status: metadata_only
+  digest: 84a4f332201c6774
+  extracted_facts:
+  - 'AlgorithmWiki row name: Schenk'
+  - 'domain: graph'
+  - 'time complexity: O(m/p + r \log p + min(m, r \log n))'
+  - 'space complexity: https://www.proquest.com/docview/919780720?pq-origsite=gscholar&fromopenview=true'
+  - 'computational model: CREW PRAM'
+  - 'parameter definitions: n: number of vertices, m: number of total number of op.s (queries, links, cuts), p: number of processors, r: number of rounds'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(m/p + r \log p + min(m, r \log n)); work O(m + r); span/depth O(m/n + r log n); processors p. Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001766:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Schenk
+  url: https://link.springer.com/chapter/10.1007/3-540-58218-5_28
+- access_status: skipped
+  digest: 4e48df21e6bed5f3
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:f5d6abc90cfd671c
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1007/3-540-58218-5_28
+- access_status: skipped
+  digest: 389b5b8d1d518d63
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:359ca893bb26cc85
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://link.springer.com/chapter/10.1007/3-540-58218-5_28
+web_query_attempts:
+- method: search_plan
+  query: Schenk algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Schenk algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Schenk problem definition
+  status: recorded
+- method: search_plan
+  query: Schenk graph algorithm
+  status: recorded
+- method: search_plan
+  query: Schenk site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Schenk algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://link.springer.com/chapter/10.1007/3-540-58218-5_28
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1007/3-540-58218-5_28
+  status: skipped
+- method: source_link_html_metadata
+  query: https://link.springer.com/chapter/10.1007/3-540-58218-5_28
+  status: skipped
+extracted_problem_statement: 'Schenk is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Schenk. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'Schenk is a graph algorithm record. Classical complexity metadata: time O(m/p + r \log p + min(m, r \log n)); space https://www.proquest.com/docview/919780720?pq-origsite=gscholar&fromopenview=true; work O(m + r); span/depth O(m/n + r log n); processors p. The stated classical model is CREW PRAM. Public metadata/source text adds: Schenk graph graph n: number of vertices, m: number of total number of op.s (queries, links, cuts), p: number of processors, r: number of rounds O(m/p + r \log p + min(m, r \log n)) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

@@ -1,0 +1,57 @@
+algorithm_family: computational geometry
+algorithm_id: AW-000922
+approximate: '0'
+approximation_factor: ''
+blind_name: Algorithm Wiki public task AW-000922
+canonical_name: Dynamic 2-d Convex Hull, Overmars and van Leeuwen
+computational_model: Real RAM
+domain: computational_geometry
+extracted_description: ''
+extraction_version: algorithm-wiki-rich-context-v1
+family: computational_geometry
+inferred_access_model: explicit_geometric_objects
+inferred_ambiguities:
+- No independent fetched public metadata source resolved this row beyond AlgorithmWiki metadata/source-link facts.
+- Some details are reconstructed from AlgorithmWiki metadata rather than an independently fetched full public description.
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.
+inferred_input_model: explicit_geometry_problem
+inferred_output_contract: multiple_witnesses
+inferred_problem_statement: 'Dynamic 2-d Convex Hull, Overmars and van Leeuwen is treated as a classical computational geometry task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Dynamic 2-d Convex Hull, Overmars and van Leeuwen. Input semantics: Explicit geometric objects such as points, line segments, polygons, or planar subdivisions. Output semantics: The requested geometric structure, simplified curve, clipping result, intersection set, hull, or diagram.'
+inferred_promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+inferred_size_parameters:
+- 'Parameter definition: n: number of line segments, h: number of points on the convex hull'
+number_of_processors: ''
+page_digest: ''
+page_fetch_status: not_found
+page_url: ''
+parameter_definitions: 'n: number of line segments, h: number of points on the convex hull'
+problem_name: computational geometry
+quality_flags:
+- domain_inferred
+- problem_statement_inferred
+- io_access_output_inferred
+- has_complexity_semantics
+- has_size_parameters
+- has_computational_model
+quality_score: 100
+randomized: '0'
+readiness: READY_PUBLIC_CONTEXT
+review_reasons: []
+source_link: https://www.sciencedirect.com/science/article/pii/002200008190012X?via%3Dihub
+source_link_type: sciencedirect
+space_complexity: ''
+span_depth: ''
+time_complexity: O(log^2(n)) per operation, O(n*log^2(n)) total
+variation: ''
+work: ''
+year: '1980'
+rich_card_kind: context
+source_records_used:
+- AW-000922:algorithm_wiki_metadata
+- failed:3dbc41f02d924ce2
+source_count: 2
+source_quality: HIGH
+confidence_score: 100
+card_digest: 903a2d2133fdba45

@@ -1,0 +1,84 @@
+id: AW-000775
+kind: context_recovered
+algorithm_id: AW-000775
+algorithm_name: Howard Policy Iteration (PI)
+source_records:
+- access_status: metadata_only
+  digest: 35558b82ca4e0d4c
+  extracted_facts:
+  - 'AlgorithmWiki row name: Howard Policy Iteration (PI)'
+  - 'domain: unknown'
+  - 'time complexity: O(n^3)'
+  - 'space complexity: O(n)'
+  - 'computational model: Word/Real RAM'
+  - 'parameter definitions: n: number of states'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000775:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Howard Policy Iteration (PI)
+  url: https://pubsonline.informs.org/doi/10.1287/opre.50.1.100.17788
+- access_status: fetched
+  digest: 224e7bde21775967
+  extracted_facts:
+  - 'DOI title: Comments on the Origin and Application of Markov Decision Processes'
+  - 'published year: 2002'
+  - 'container title: Operations Research'
+  reliability: HIGH
+  short_quote: ''
+  source_id: crossref:c5a7cc9cca4e488d
+  source_type: doi_metadata
+  title: Comments on the Origin and Application of Markov Decision Processes
+  url: https://doi.org/10.1287/opre.50.1.100.17788
+- access_status: failed
+  digest: be78ea4278111392
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:db9de6099fe8732a
+  source_type: other_public_source
+  title: 'HTTP Error 403: Forbidden'
+  url: https://pubsonline.informs.org/doi/10.1287/opre.50.1.100.17788
+- source_id: crossref_search:03166bf7bdf0fec8
+  url: https://doi.org/10.1016/b978-0-12-568150-6.50015-5
+  title: COMMENTS ON THE ORIGIN AND APPLICATION OF MARKOV DECISION PROCESSES
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: COMMENTS ON THE ORIGIN AND APPLICATION OF MARKOV DECISION PROCESSES'
+  short_quote: ''
+  digest: 0201e9f728ae85ec
+web_query_attempts:
+- query: '"Howard Policy Iteration (PI)" algorithm'
+  method: search_plan
+  status: recorded
+- query: '"Howard Policy Iteration (PI)" input output'
+  method: search_plan
+  status: recorded
+- query: '"Howard Policy Iteration (PI)" time complexity'
+  method: search_plan
+  status: recorded
+- query: '"Howard Policy Iteration (PI)" pseudocode'
+  method: search_plan
+  status: recorded
+- query: '"Howard Policy Iteration (PI)" problem'
+  method: search_plan
+  status: recorded
+- query: '"Howard Policy Iteration (PI)" PDF metadata abstract'
+  method: search_plan
+  status: recorded
+- query: '"Comments on the Origin and Application of Markov Decision Processes" algorithm'
+  method: search_plan
+  status: recorded
+- query: https://pubsonline.informs.org/doi/10.1287/opre.50.1.100.17788
+  method: search_plan
+  status: recorded
+- query: Comments on the Origin and Application of Markov Decision Processes algorithm
+  method: crossref_title_search
+  status: fetched
+extracted_problem_statement: 'Howard Policy Iteration (PI) is reconstructed as a classical combinatorics task. Problem/task: convert a nondeterministic finite automaton into an equivalent deterministic automaton Input semantics: A finite automaton with n states, alphabet, transition relation, start states, and accepting states. Output semantics: The reachable deterministic automaton states and transition table.'
+extracted_algorithm_summary: 'Howard Policy Iteration (PI) is treated as the named AlgorithmWiki variant for convert a nondeterministic finite automaton into an equivalent deterministic automaton Classical complexity metadata: time O(n^3); space O(n). Public metadata/source title support includes Comments on the Origin and Application of Markov Decision Processes.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

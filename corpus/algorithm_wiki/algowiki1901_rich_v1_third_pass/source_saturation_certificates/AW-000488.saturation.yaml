@@ -1,0 +1,695 @@
+algorithm_id: AW-000488
+canonical_name: "Rader\u2013Brenner algorithm"
+original_source_link: https://ieeexplore.ieee.org/document/1162805
+source_link_type: unknown
+previous_failure_reasons:
+- No second-pass rule could identify source-backed task semantics.
+previous_source_records:
+- access_status: metadata_only
+  digest: 36fec7c13e102c80
+  extracted_facts:
+  - "AlgorithmWiki row name: Rader\u2013Brenner algorithm"
+  - 'domain: unknown'
+  - 'time complexity: O(n \log n)'
+  - 'space complexity: O(n)'
+  - 'computational model: Word/Real RAM'
+  - 'parameter definitions: n: length of the input data set'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000488:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: "AlgorithmWiki metadata for Rader\u2013Brenner algorithm"
+  url: https://ieeexplore.ieee.org/document/1162805
+- access_status: fetched
+  digest: 2495d20924ca2df8
+  extracted_facts:
+  - 'source page title: https://ieeexplore.ieee.org/document/1162805'
+  - 'source page description: In order to continue, we need to verify that you''re not a robot.'
+  reliability: HIGH
+  short_quote: In order to continue, we need to verify that you're not a robot.
+  source_id: source:329a6f2727809f9b
+  source_type: publisher_abstract
+  title: https://ieeexplore.ieee.org/document/1162805
+  url: https://ieeexplore.ieee.org/document/1162805
+- access_status: fetched
+  digest: f5fa21a6f31a4275
+  extracted_facts:
+  - 'Crossref title-search result: IEEExplore Digital Library'
+  reliability: MEDIUM
+  short_quote: ''
+  source_id: crossref_search:87c756c9c2441ac6
+  source_type: doi_metadata
+  title: IEEExplore Digital Library
+  url: https://doi.org/10.5860/choice.47-6268
+aliases_tried:
+- "Rader\u2013Brenner algorithm"
+- "Rader\u2013Brenner algorithm algorithm"
+- "Rader\u2013Brenner algorithm problem"
+- "Rader\u2013Brenner algorithm pseudocode"
+- "Rader\u2013Brenner algorithm time complexity"
+- https://ieeexplore.ieee.org/document/1162805
+- https://ieeexplore.ieee.org/document/1162805 algorithm
+- https://ieeexplore.ieee.org/document/1162805 complexity
+- IEEExplore Digital Library
+- IEEExplore Digital Library algorithm
+- IEEExplore Digital Library complexity
+query_plan:
+- source_family: original_source
+  primary_query: "Rader\u2013Brenner algorithm"
+  applicability: applicable
+  purpose: check the row's original source link without storing paywalled or PDF bodies
+- source_family: crossref
+  primary_query: "Rader\u2013Brenner algorithm"
+  applicability: title-search-only
+  purpose: recover DOI title, venue, year, and abstract metadata where available
+- source_family: openalex
+  primary_query: "Rader\u2013Brenner algorithm"
+  applicability: applicable
+  purpose: recover public work metadata and abstract-inverted-index summaries
+- source_family: semantic_scholar
+  primary_query: "Rader\u2013Brenner algorithm"
+  applicability: applicable
+  purpose: recover CS paper metadata and abstracts without an API key
+- source_family: arxiv
+  primary_query: "Rader\u2013Brenner algorithm"
+  applicability: title-search-only
+  purpose: recover arXiv title and abstract metadata
+- source_family: dblp
+  primary_query: "Rader\u2013Brenner algorithm"
+  applicability: applicable
+  purpose: recover bibliographic title/venue metadata for CS publications
+- source_family: publisher_abstract
+  primary_query: "Rader\u2013Brenner algorithm"
+  applicability: applicable
+  purpose: check accessible publisher abstract pages
+- source_family: citeseerx
+  primary_query: "Rader\u2013Brenner algorithm"
+  applicability: applicable
+  purpose: record legacy CiteSeerX availability without full PDF storage
+- source_family: wikipedia
+  primary_query: "Rader\u2013Brenner algorithm"
+  applicability: applicable
+  purpose: check public encyclopedia algorithm descriptions
+- source_family: wikidata
+  primary_query: "Rader\u2013Brenner algorithm"
+  applicability: applicable
+  purpose: check public entity aliases/descriptions
+- source_family: nist_dads
+  primary_query: "Rader\u2013Brenner algorithm"
+  applicability: applicable
+  purpose: check whether a DADS-style reference search is applicable
+- source_family: algorithm_wiki_local
+  primary_query: "Rader\u2013Brenner algorithm"
+  applicability: applicable
+  purpose: reuse AlgorithmWiki metadata as provenance
+- source_family: the_algorithms
+  primary_query: "Rader\u2013Brenner algorithm"
+  applicability: applicable
+  purpose: check exact public implementation/reference names when available
+- source_family: cp_algorithms
+  primary_query: "Rader\u2013Brenner algorithm"
+  applicability: applicable
+  purpose: check exact public algorithm reference names when available
+- source_family: course_notes
+  primary_query: "Rader\u2013Brenner algorithm"
+  applicability: applicable
+  purpose: record absence of configured course-notes search
+- source_family: general_web_search
+  primary_query: "Rader\u2013Brenner algorithm"
+  applicability: applicable
+  purpose: record absence of a configured general web endpoint
+- source_family: local_previous_cache
+  primary_query: "Rader\u2013Brenner algorithm"
+  applicability: applicable
+  purpose: reuse v1/second-pass fetched source records
+query_attempts:
+- &id001
+  cycle: 1
+  query: "Rader\u2013Brenner algorithm"
+  source_family: algorithm_wiki_local
+  url_or_api_endpoint: https://ieeexplore.ieee.org/document/1162805
+  status: fetched
+  new_facts_added: 9
+  reason: local metadata
+- &id002
+  cycle: 1
+  query: "Rader\u2013Brenner algorithm"
+  source_family: local_previous_cache
+  url_or_api_endpoint: ''
+  status: duplicate
+  new_facts_added: 0
+  reason: previous v1/second-pass sources reused
+- &id003
+  cycle: 1
+  query: https://ieeexplore.ieee.org/document/1162805
+  source_family: original_source
+  url_or_api_endpoint: https://ieeexplore.ieee.org/document/1162805
+  status: irrelevant
+  new_facts_added: 3
+  reason: original source page metadata
+- &id004
+  cycle: 1
+  query: "Rader\u2013Brenner algorithm"
+  source_family: crossref
+  url_or_api_endpoint: https://doi.org/10.1109/tcsii.2011.2158714
+  status: fetched
+  new_facts_added: 6
+  reason: Crossref metadata/title search
+- &id005
+  cycle: 1
+  query: "Rader\u2013Brenner algorithm"
+  source_family: arxiv
+  url_or_api_endpoint: https://export.arxiv.org/api/query?max_results=1&search_query=ti:%22Rader%E2%80%93Brenner+algorithm%22
+  status: no_result
+  new_facts_added: 0
+  reason: arXiv title search returned no usable entry
+- &id006
+  cycle: 1
+  query: "Rader\u2013Brenner algorithm"
+  source_family: wikipedia
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: Wikipedia search returned no relevant page
+- &id007
+  cycle: 2
+  query: "Rader\u2013Brenner algorithm"
+  source_family: openalex
+  url_or_api_endpoint: https://api.openalex.org/works?per-page=1&search=Rader%E2%80%93Brenner+algorithm
+  status: fetched
+  new_facts_added: 6
+  reason: OpenAlex work metadata
+- &id008
+  cycle: 2
+  query: "Rader\u2013Brenner algorithm"
+  source_family: semantic_scholar
+  url_or_api_endpoint: https://api.semanticscholar.org/graph/v1/paper/search?limit=1&fields=title,abstract,year,url,externalIds&query=Rader%E2%80%93Brenner+algorithm
+  status: fetch_failed
+  new_facts_added: 0
+  reason: Semantic Scholar returned no usable paper
+- &id009
+  cycle: 2
+  query: "Rader\u2013Brenner algorithm"
+  source_family: dblp
+  url_or_api_endpoint: https://dblp.org/search/publ/api?format=json&h=1&q=Rader%E2%80%93Brenner+algorithm
+  status: no_result
+  new_facts_added: 0
+  reason: DBLP returned no usable publication
+- &id010
+  cycle: 2
+  query: https://ieeexplore.ieee.org/document/1162805
+  source_family: original_source
+  url_or_api_endpoint: https://ieeexplore.ieee.org/document/1162805
+  status: irrelevant
+  new_facts_added: 3
+  reason: original source page metadata
+- &id011
+  cycle: 2
+  query: "Rader\u2013Brenner algorithm"
+  source_family: wikidata
+  url_or_api_endpoint: https://www.wikidata.org/w/api.php?action=wbsearchentities&language=en&format=json&limit=1&search=Rader%E2%80%93Brenner+algorithm
+  status: no_result
+  new_facts_added: 0
+  reason: Wikidata returned no entity
+- &id012
+  cycle: 3
+  query: "Rader\u2013Brenner algorithm"
+  source_family: citeseerx
+  url_or_api_endpoint: ''
+  status: paywalled
+  new_facts_added: 0
+  reason: CiteSeerX link is PDF/legacy metadata; full PDF body skipped
+- &id013
+  cycle: 3
+  query: "Rader\u2013Brenner algorithm"
+  source_family: nist_dads
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: NIST DADS has no reliable bulk search API in this environment
+- &id014
+  cycle: 3
+  query: "Rader\u2013Brenner algorithm"
+  source_family: the_algorithms
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: TheAlgorithms search skipped unless a known exact reference is available
+- &id015
+  cycle: 3
+  query: "Rader\u2013Brenner algorithm"
+  source_family: cp_algorithms
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: CP-Algorithms search skipped unless a known exact reference is available
+- &id016
+  cycle: 3
+  query: "Rader\u2013Brenner algorithm"
+  source_family: course_notes
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: No configured public course-notes search endpoint
+- &id017
+  cycle: 3
+  query: "Rader\u2013Brenner algorithm"
+  source_family: general_web_search
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: No configured general web search endpoint; Google Scholar scraping is not used
+- &id018
+  cycle: 4
+  query: "Rader\u2013Brenner algorithm"
+  source_family: crossref
+  url_or_api_endpoint: https://doi.org/10.1109/tcsii.2011.2158714
+  status: fetched
+  new_facts_added: 6
+  reason: Crossref metadata/title search
+- &id019
+  cycle: 4
+  query: "Rader\u2013Brenner algorithm"
+  source_family: openalex
+  url_or_api_endpoint: https://api.openalex.org/works?per-page=1&search=Rader%E2%80%93Brenner+algorithm
+  status: fetched
+  new_facts_added: 6
+  reason: OpenAlex work metadata
+- &id020
+  cycle: 4
+  query: "Rader\u2013Brenner algorithm"
+  source_family: semantic_scholar
+  url_or_api_endpoint: https://api.semanticscholar.org/graph/v1/paper/search?limit=1&fields=title,abstract,year,url,externalIds&query=Rader%E2%80%93Brenner+algorithm
+  status: fetch_failed
+  new_facts_added: 0
+  reason: Semantic Scholar returned no usable paper
+- &id021
+  cycle: 4
+  query: "Rader\u2013Brenner algorithm"
+  source_family: wikipedia
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: Wikipedia search returned no relevant page
+- &id022
+  cycle: 4
+  query: "Rader\u2013Brenner algorithm"
+  source_family: dblp
+  url_or_api_endpoint: https://dblp.org/search/publ/api?format=json&h=1&q=Rader%E2%80%93Brenner+algorithm
+  status: no_result
+  new_facts_added: 0
+  reason: DBLP returned no usable publication
+source_attempts:
+- *id001
+- *id002
+- *id003
+- *id004
+- *id005
+- *id006
+- *id007
+- *id008
+- *id009
+- *id010
+- *id011
+- *id012
+- *id013
+- *id014
+- *id015
+- *id016
+- *id017
+- *id018
+- *id019
+- *id020
+- *id021
+- *id022
+discovered_sources:
+- source_id: crossref_search:6b9e78fd3b494014
+  url: https://doi.org/10.1109/tcsii.2011.2158714
+  title: "Rader\u2013Brenner Algorithm for Computing New Mersenne Number Transform"
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - "Crossref title: Rader\u2013Brenner Algorithm for Computing New Mersenne Number Transform"
+  - 'published year: 2011'
+  - 'container title: IEEE Transactions on Circuits and Systems II: Express Briefs'
+  short_quote: "Crossref title: Rader\u2013Brenner Algorithm for Computing New Mersenne Number Transform published year: 2011 container title: IEEE Transactions on Circuits and Systems II: Express Briefs"
+  digest: 943b451fad0b3984
+- source_id: openalex:141aaf9e39e4e61c
+  url: https://openalex.org/W2103789071
+  title: "Rader\u2013Brenner Algorithm for Computing New Mersenne Number Transform"
+  source_type: openalex
+  access_status: fetched
+  reliability: HIGH
+  extracted_facts:
+  - "OpenAlex title: Rader\u2013Brenner Algorithm for Computing New Mersenne Number Transform"
+  - 'publication year: 2011'
+  - 'abstract summary: Error-free convolutions and correlations can be efficiently computed using number theoretic transforms.'
+  short_quote: "OpenAlex title: Rader\u2013Brenner Algorithm for Computing New Mersenne Number Transform publication year: 2011 abstract summary: Error-free convolutions and correlations can be efficiently computed using"
+  digest: 3e5cca25d1d80bb7
+discovered_facts:
+- fact_id: AW-000488-Fb67b363450
+  fact_type: alias
+  value: "Rader\u2013Brenner algorithm"
+  source_id: AW-000488:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: AlgorithmWiki metadata
+- fact_id: AW-000488-Fa8f9bc952d
+  fact_type: time_complexity
+  value: O(n \log n)
+  source_id: AW-000488:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: AlgorithmWiki metadata
+- fact_id: AW-000488-Fc180a7ef8b
+  fact_type: space_complexity
+  value: O(n)
+  source_id: AW-000488:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: AlgorithmWiki metadata
+- fact_id: AW-000488-F4a665e2fed
+  fact_type: computation_model
+  value: Word/Real RAM
+  source_id: AW-000488:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: AlgorithmWiki metadata
+- fact_id: AW-000488-Fdd5d413032
+  fact_type: input_semantics
+  value: 'Parameter definitions: n: length of the input data set'
+  source_id: AW-000488:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 75
+  conflict_status: weak
+  notes: AlgorithmWiki parameter metadata
+- fact_id: AW-000488-F76205d4233
+  fact_type: authoritative_source_link
+  value: https://ieeexplore.ieee.org/document/1162805
+  source_id: AW-000488:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 70
+  conflict_status: consistent
+  notes: Original source link from AlgorithmWiki metadata
+- fact_id: AW-000488-F80c659093c
+  fact_type: source_title
+  value: "AlgorithmWiki metadata for Rader\u2013Brenner algorithm"
+  source_id: AW-000488:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000488-F309bbdaf18
+  fact_type: problem_definition
+  value: "Source title indicates: AlgorithmWiki metadata for Rader\u2013Brenner algorithm"
+  source_id: AW-000488:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: weak
+  notes: previous_source_record
+- fact_id: AW-000488-Faea8316007
+  fact_type: problem_definition
+  value: "AlgorithmWiki row name: Rader\u2013Brenner algorithm"
+  source_id: AW-000488:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000488-F3c8bce2274
+  fact_type: problem_definition
+  value: 'domain: unknown'
+  source_id: AW-000488:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000488-F37108c9b04
+  fact_type: time_complexity
+  value: 'time complexity: O(n \log n)'
+  source_id: AW-000488:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000488-Fdd69bd1e40
+  fact_type: space_complexity
+  value: 'space complexity: O(n)'
+  source_id: AW-000488:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000488-F23d0ba5233
+  fact_type: computation_model
+  value: 'computational model: Word/Real RAM'
+  source_id: AW-000488:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000488-F8444c6bfca
+  fact_type: problem_definition
+  value: 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  source_id: AW-000488:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000488-Fc7896a0f49
+  fact_type: source_title
+  value: https://ieeexplore.ieee.org/document/1162805
+  source_id: source:329a6f2727809f9b
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000488-Feea43a0767
+  fact_type: problem_definition
+  value: 'source page title: https://ieeexplore.ieee.org/document/1162805'
+  source_id: source:329a6f2727809f9b
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000488-Fa7cf71fc1d
+  fact_type: problem_definition
+  value: 'source page description: In order to continue, we need to verify that you''re not a robot.'
+  source_id: source:329a6f2727809f9b
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000488-Fe7a6d5c959
+  fact_type: source_title
+  value: IEEExplore Digital Library
+  source_id: crossref_search:87c756c9c2441ac6
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000488-F54847879c0
+  fact_type: problem_definition
+  value: 'Crossref title-search result: IEEExplore Digital Library'
+  source_id: crossref_search:87c756c9c2441ac6
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000488-Fd0a16f3712
+  fact_type: authoritative_source_link
+  value: https://doi.org/10.5860/choice.47-6268
+  source_id: crossref_search:87c756c9c2441ac6
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000488-F2e2a75d865
+  fact_type: problem_definition
+  value: In order to continue, we need to verify that you're not a robot.
+  source_id: source:329a6f2727809f9b
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: original_source
+- fact_id: AW-000488-F6ee70011d5
+  fact_type: source_title
+  value: "Rader\u2013Brenner Algorithm for Computing New Mersenne Number Transform"
+  source_id: crossref_search:6b9e78fd3b494014
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: consistent
+  notes: crossref
+- fact_id: AW-000488-F167e37cdb6
+  fact_type: problem_definition
+  value: "Source title indicates: Rader\u2013Brenner Algorithm for Computing New Mersenne Number Transform"
+  source_id: crossref_search:6b9e78fd3b494014
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: weak
+  notes: crossref
+- fact_id: AW-000488-Fc199958fa6
+  fact_type: problem_definition
+  value: "Crossref title: Rader\u2013Brenner Algorithm for Computing New Mersenne Number Transform"
+  source_id: crossref_search:6b9e78fd3b494014
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: consistent
+  notes: crossref
+- fact_id: AW-000488-Fdc36b115ae
+  fact_type: problem_definition
+  value: 'published year: 2011'
+  source_id: crossref_search:6b9e78fd3b494014
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: consistent
+  notes: crossref
+- fact_id: AW-000488-Fe4effe8a9c
+  fact_type: problem_definition
+  value: 'container title: IEEE Transactions on Circuits and Systems II: Express Briefs'
+  source_id: crossref_search:6b9e78fd3b494014
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: consistent
+  notes: crossref
+- fact_id: AW-000488-F029da8d694
+  fact_type: authoritative_source_link
+  value: https://doi.org/10.1109/tcsii.2011.2158714
+  source_id: crossref_search:6b9e78fd3b494014
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: consistent
+  notes: crossref
+- fact_id: AW-000488-F273bf0da82
+  fact_type: problem_definition
+  value: "OpenAlex title: Rader\u2013Brenner Algorithm for Computing New Mersenne Number Transform"
+  source_id: openalex:141aaf9e39e4e61c
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: openalex
+- fact_id: AW-000488-Fd26e61be4e
+  fact_type: problem_definition
+  value: 'publication year: 2011'
+  source_id: openalex:141aaf9e39e4e61c
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: openalex
+- fact_id: AW-000488-F45f5a714bd
+  fact_type: problem_definition
+  value: 'abstract summary: Error-free convolutions and correlations can be efficiently computed using number theoretic transforms.'
+  source_id: openalex:141aaf9e39e4e61c
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: openalex
+- fact_id: AW-000488-Ff6e94a5d4c
+  fact_type: authoritative_source_link
+  value: https://openalex.org/W2103789071
+  source_id: openalex:141aaf9e39e4e61c
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: openalex
+duplicate_sources:
+- source_id: AW-000488:algorithm_wiki_metadata
+  url: https://ieeexplore.ieee.org/document/1162805
+  title: "AlgorithmWiki metadata for Rader\u2013Brenner algorithm"
+  source_type: algorithm_wiki
+  access_status: metadata_only
+  reliability: HIGH
+  extracted_facts:
+  - "AlgorithmWiki row name: Rader\u2013Brenner algorithm"
+  - 'domain: unknown'
+  - 'time complexity: O(n \log n)'
+  - 'space complexity: O(n)'
+  - 'computational model: Word/Real RAM'
+  - 'parameter definitions: n: length of the input data set'
+  short_quote: ''
+  digest: 958aa0f28f910484
+- source_id: source:329a6f2727809f9b
+  url: https://ieeexplore.ieee.org/document/1162805
+  title: https://ieeexplore.ieee.org/document/1162805
+  source_type: publisher_abstract
+  access_status: fetched
+  reliability: HIGH
+  extracted_facts:
+  - https://ieeexplore.ieee.org/document/1162805
+  - In order to continue, we need to verify that you're not a robot.
+  short_quote: https://ieeexplore.ieee.org/document/1162805 In order to continue, we need to verify that you're not a robot.
+  digest: 9471b531b94480ba
+- source_id: source:329a6f2727809f9b
+  url: https://ieeexplore.ieee.org/document/1162805
+  title: https://ieeexplore.ieee.org/document/1162805
+  source_type: publisher_abstract
+  access_status: fetched
+  reliability: HIGH
+  extracted_facts:
+  - https://ieeexplore.ieee.org/document/1162805
+  - In order to continue, we need to verify that you're not a robot.
+  short_quote: https://ieeexplore.ieee.org/document/1162805 In order to continue, we need to verify that you're not a robot.
+  digest: 9471b531b94480ba
+- source_id: crossref_search:6b9e78fd3b494014
+  url: https://doi.org/10.1109/tcsii.2011.2158714
+  title: "Rader\u2013Brenner Algorithm for Computing New Mersenne Number Transform"
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - "Crossref title: Rader\u2013Brenner Algorithm for Computing New Mersenne Number Transform"
+  - 'published year: 2011'
+  - 'container title: IEEE Transactions on Circuits and Systems II: Express Briefs'
+  short_quote: "Crossref title: Rader\u2013Brenner Algorithm for Computing New Mersenne Number Transform published year: 2011 container title: IEEE Transactions on Circuits and Systems II: Express Briefs"
+  digest: 943b451fad0b3984
+- source_id: openalex:141aaf9e39e4e61c
+  url: https://openalex.org/W2103789071
+  title: "Rader\u2013Brenner Algorithm for Computing New Mersenne Number Transform"
+  source_type: openalex
+  access_status: fetched
+  reliability: HIGH
+  extracted_facts:
+  - "OpenAlex title: Rader\u2013Brenner Algorithm for Computing New Mersenne Number Transform"
+  - 'publication year: 2011'
+  - 'abstract summary: Error-free convolutions and correlations can be efficiently computed using number theoretic transforms.'
+  short_quote: "OpenAlex title: Rader\u2013Brenner Algorithm for Computing New Mersenne Number Transform publication year: 2011 abstract summary: Error-free convolutions and correlations can be efficiently computed using"
+  digest: 3e5cca25d1d80bb7
+failed_sources: []
+paywalled_or_skipped_sources: []
+source_families_covered:
+- algorithm_wiki_local
+- local_previous_cache
+- original_source
+- crossref
+- arxiv
+- wikipedia
+- openalex
+- semantic_scholar
+- dblp
+- publisher_abstract
+- wikidata
+- citeseerx
+- nist_dads
+- the_algorithms
+- cp_algorithms
+- course_notes
+- general_web_search
+cycles_completed: 4
+new_fact_count_by_cycle:
+- cycle: 1
+  new_facts: 7
+- cycle: 2
+  new_facts: 4
+- cycle: 3
+  new_facts: 0
+- cycle: 4
+  new_facts: 0
+no_new_fact_streak: 2
+saturation_status: SATURATED_NO_RECOVERY
+final_reason: After the configured source-family cycles, no source-backed concrete task, input semantics, output semantics, and conservative access model could be established.
+next_manual_action: No automated action recommended; keep saturated certificate with unresolved row.

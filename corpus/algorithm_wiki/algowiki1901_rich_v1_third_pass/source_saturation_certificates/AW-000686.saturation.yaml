@@ -1,0 +1,489 @@
+algorithm_id: AW-000686
+canonical_name: Unsworth C. Prosser P
+original_source_link: http://www.dcs.gla.ac.uk/~pat/roommates/distribution/papers/SM2N.pdf
+source_link_type: pdf
+previous_failure_reasons:
+- No second-pass rule could identify source-backed task semantics.
+previous_source_records:
+- access_status: metadata_only
+  digest: e0aa4cc0f2cb1c4f
+  extracted_facts:
+  - 'AlgorithmWiki row name: Unsworth C. Prosser P'
+  - 'domain: unknown'
+  - 'time complexity: O(n^2)'
+  - 'space complexity: O(n^2)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of men and number of women'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000686:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Unsworth C. Prosser P
+  url: http://www.dcs.gla.ac.uk/~pat/roommates/distribution/papers/SM2N.pdf
+- access_status: fetched
+  digest: 432b0a749844378f
+  extracted_facts:
+  - 'Crossref title-search result: Barry Unsworth'
+  reliability: MEDIUM
+  short_quote: ''
+  source_id: crossref_search:fa0944a6f435dd38
+  source_type: doi_metadata
+  title: Barry Unsworth
+  url: https://doi.org/10.12987/9780300275025-017
+aliases_tried:
+- Unsworth C. Prosser P
+- Unsworth C Prosser P
+- Unsworth C. Prosser P algorithm
+- Unsworth C. Prosser P problem
+- Unsworth C. Prosser P pseudocode
+- Unsworth C. Prosser P time complexity
+- Barry Unsworth
+- Barry Unsworth algorithm
+- Barry Unsworth complexity
+query_plan:
+- source_family: original_source
+  primary_query: Unsworth C. Prosser P
+  applicability: applicable
+  purpose: check the row's original source link without storing paywalled or PDF bodies
+- source_family: crossref
+  primary_query: Unsworth C. Prosser P
+  applicability: title-search-only
+  purpose: recover DOI title, venue, year, and abstract metadata where available
+- source_family: openalex
+  primary_query: Unsworth C. Prosser P
+  applicability: applicable
+  purpose: recover public work metadata and abstract-inverted-index summaries
+- source_family: semantic_scholar
+  primary_query: Unsworth C. Prosser P
+  applicability: applicable
+  purpose: recover CS paper metadata and abstracts without an API key
+- source_family: arxiv
+  primary_query: Unsworth C. Prosser P
+  applicability: title-search-only
+  purpose: recover arXiv title and abstract metadata
+- source_family: dblp
+  primary_query: Unsworth C. Prosser P
+  applicability: applicable
+  purpose: recover bibliographic title/venue metadata for CS publications
+- source_family: publisher_abstract
+  primary_query: Unsworth C. Prosser P
+  applicability: not-applicable
+  purpose: check accessible publisher abstract pages
+- source_family: citeseerx
+  primary_query: Unsworth C. Prosser P
+  applicability: not-applicable
+  purpose: record legacy CiteSeerX availability without full PDF storage
+- source_family: wikipedia
+  primary_query: Unsworth C. Prosser P
+  applicability: applicable
+  purpose: check public encyclopedia algorithm descriptions
+- source_family: wikidata
+  primary_query: Unsworth C. Prosser P
+  applicability: applicable
+  purpose: check public entity aliases/descriptions
+- source_family: nist_dads
+  primary_query: Unsworth C. Prosser P
+  applicability: applicable
+  purpose: check whether a DADS-style reference search is applicable
+- source_family: algorithm_wiki_local
+  primary_query: Unsworth C. Prosser P
+  applicability: applicable
+  purpose: reuse AlgorithmWiki metadata as provenance
+- source_family: the_algorithms
+  primary_query: Unsworth C. Prosser P
+  applicability: applicable
+  purpose: check exact public implementation/reference names when available
+- source_family: cp_algorithms
+  primary_query: Unsworth C. Prosser P
+  applicability: applicable
+  purpose: check exact public algorithm reference names when available
+- source_family: course_notes
+  primary_query: Unsworth C. Prosser P
+  applicability: applicable
+  purpose: record absence of configured course-notes search
+- source_family: general_web_search
+  primary_query: Unsworth C. Prosser P
+  applicability: applicable
+  purpose: record absence of a configured general web endpoint
+- source_family: local_previous_cache
+  primary_query: Unsworth C. Prosser P
+  applicability: applicable
+  purpose: reuse v1/second-pass fetched source records
+query_attempts:
+- &id001
+  cycle: 1
+  query: Unsworth C. Prosser P
+  source_family: algorithm_wiki_local
+  url_or_api_endpoint: http://www.dcs.gla.ac.uk/~pat/roommates/distribution/papers/SM2N.pdf
+  status: fetched
+  new_facts_added: 9
+  reason: local metadata
+- &id002
+  cycle: 1
+  query: Unsworth C. Prosser P
+  source_family: local_previous_cache
+  url_or_api_endpoint: ''
+  status: duplicate
+  new_facts_added: 0
+  reason: previous v1/second-pass sources reused
+- &id003
+  cycle: 1
+  query: http://www.dcs.gla.ac.uk/~pat/roommates/distribution/papers/SM2N.pdf
+  source_family: original_source
+  url_or_api_endpoint: http://www.dcs.gla.ac.uk/~pat/roommates/distribution/papers/SM2N.pdf
+  status: paywalled
+  new_facts_added: 0
+  reason: PDF body skipped
+- &id004
+  cycle: 1
+  query: Unsworth C. Prosser P
+  source_family: crossref
+  url_or_api_endpoint: https://doi.org/10.12987/9780300275025-017
+  status: irrelevant
+  new_facts_added: 0
+  reason: Crossref metadata/title search
+- &id005
+  cycle: 1
+  query: Unsworth C. Prosser P
+  source_family: arxiv
+  url_or_api_endpoint: https://export.arxiv.org/api/query?max_results=1&search_query=ti:%22Unsworth+C.+Prosser+P%22
+  status: no_result
+  new_facts_added: 0
+  reason: arXiv title search returned no usable entry
+- &id006
+  cycle: 1
+  query: Unsworth C. Prosser P
+  source_family: wikipedia
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: Wikipedia search returned no relevant page
+- &id007
+  cycle: 2
+  query: Unsworth C. Prosser P
+  source_family: openalex
+  url_or_api_endpoint: https://api.openalex.org/works?per-page=1&search=Unsworth+C.+Prosser+P
+  status: irrelevant
+  new_facts_added: 0
+  reason: OpenAlex work metadata
+- &id008
+  cycle: 2
+  query: Unsworth C. Prosser P
+  source_family: semantic_scholar
+  url_or_api_endpoint: https://api.semanticscholar.org/graph/v1/paper/search?limit=1&fields=title,abstract,year,url,externalIds&query=Unsworth+C.+Prosser+P
+  status: fetch_failed
+  new_facts_added: 0
+  reason: Semantic Scholar returned no usable paper
+- &id009
+  cycle: 2
+  query: Unsworth C. Prosser P
+  source_family: dblp
+  url_or_api_endpoint: https://dblp.org/search/publ/api?format=json&h=1&q=Unsworth+C.+Prosser+P
+  status: no_result
+  new_facts_added: 0
+  reason: DBLP returned no usable publication
+- &id010
+  cycle: 2
+  query: Unsworth C. Prosser P
+  source_family: publisher_abstract
+  url_or_api_endpoint: http://www.dcs.gla.ac.uk/~pat/roommates/distribution/papers/SM2N.pdf
+  status: no_result
+  new_facts_added: 0
+  reason: no applicable publisher abstract URL
+- &id011
+  cycle: 2
+  query: Unsworth C. Prosser P
+  source_family: wikidata
+  url_or_api_endpoint: https://www.wikidata.org/w/api.php?action=wbsearchentities&language=en&format=json&limit=1&search=Unsworth+C.+Prosser+P
+  status: no_result
+  new_facts_added: 0
+  reason: Wikidata returned no entity
+- &id012
+  cycle: 3
+  query: Unsworth C. Prosser P
+  source_family: citeseerx
+  url_or_api_endpoint: ''
+  status: paywalled
+  new_facts_added: 0
+  reason: CiteSeerX link is PDF/legacy metadata; full PDF body skipped
+- &id013
+  cycle: 3
+  query: Unsworth C. Prosser P
+  source_family: nist_dads
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: NIST DADS has no reliable bulk search API in this environment
+- &id014
+  cycle: 3
+  query: Unsworth C. Prosser P
+  source_family: the_algorithms
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: TheAlgorithms search skipped unless a known exact reference is available
+- &id015
+  cycle: 3
+  query: Unsworth C. Prosser P
+  source_family: cp_algorithms
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: CP-Algorithms search skipped unless a known exact reference is available
+- &id016
+  cycle: 3
+  query: Unsworth C. Prosser P
+  source_family: course_notes
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: No configured public course-notes search endpoint
+- &id017
+  cycle: 3
+  query: Unsworth C. Prosser P
+  source_family: general_web_search
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: No configured general web search endpoint; Google Scholar scraping is not used
+source_attempts:
+- *id001
+- *id002
+- *id003
+- *id004
+- *id005
+- *id006
+- *id007
+- *id008
+- *id009
+- *id010
+- *id011
+- *id012
+- *id013
+- *id014
+- *id015
+- *id016
+- *id017
+discovered_sources:
+- &id018
+  source_id: skipped:2f18028035827d1f
+  url: http://www.dcs.gla.ac.uk/~pat/roommates/distribution/papers/SM2N.pdf
+  title: public PDF body was not downloaded
+  source_type: original_source
+  access_status: skipped
+  reliability: LOW
+  extracted_facts:
+  - public PDF body was not downloaded
+  short_quote: public PDF body was not downloaded
+  digest: 36eaf46c0f7bec5e
+- source_id: crossref_search:ab5522e68f422b19
+  url: https://doi.org/10.12987/9780300275025-017
+  title: Barry Unsworth
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title: Barry Unsworth'
+  - 'published year: 2023'
+  - 'container title: Retroland'
+  short_quote: 'Crossref title: Barry Unsworth published year: 2023 container title: Retroland'
+  digest: e1186c558af5ec5c
+- source_id: openalex:48e946f6d7d37f4b
+  url: https://openalex.org/W1981503260
+  title: A Classification of Genre Families in University Student Writing
+  source_type: openalex
+  access_status: fetched
+  reliability: HIGH
+  extracted_facts:
+  - 'OpenAlex title: A Classification of Genre Families in University Student Writing'
+  - 'publication year: 2012'
+  - 'abstract summary: As demand for English-medium higher education continues to grow internationally and participation in higher education increases, the need for a better understanding of academic writing is pressing.'
+  short_quote: 'OpenAlex title: A Classification of Genre Families in University Student Writing publication year: 2012 abstract summary: As demand for English-medium higher education continues to'
+  digest: 05ee65df551e0265
+discovered_facts:
+- fact_id: AW-000686-Fb7d26f8603
+  fact_type: alias
+  value: Unsworth C. Prosser P
+  source_id: AW-000686:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: AlgorithmWiki metadata
+- fact_id: AW-000686-Fb9cc31e24e
+  fact_type: time_complexity
+  value: O(n^2)
+  source_id: AW-000686:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: AlgorithmWiki metadata
+- fact_id: AW-000686-Fdf16b031e0
+  fact_type: space_complexity
+  value: O(n^2)
+  source_id: AW-000686:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: AlgorithmWiki metadata
+- fact_id: AW-000686-Fa9d7fe7c01
+  fact_type: computation_model
+  value: Word RAM
+  source_id: AW-000686:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: AlgorithmWiki metadata
+- fact_id: AW-000686-Fec56c4fa4f
+  fact_type: input_semantics
+  value: 'Parameter definitions: n: number of men and number of women'
+  source_id: AW-000686:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 75
+  conflict_status: weak
+  notes: AlgorithmWiki parameter metadata
+- fact_id: AW-000686-Ff31839f79a
+  fact_type: authoritative_source_link
+  value: http://www.dcs.gla.ac.uk/~pat/roommates/distribution/papers/SM2N.pdf
+  source_id: AW-000686:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 70
+  conflict_status: consistent
+  notes: Original source link from AlgorithmWiki metadata
+- fact_id: AW-000686-F3f7474724e
+  fact_type: source_title
+  value: AlgorithmWiki metadata for Unsworth C. Prosser P
+  source_id: AW-000686:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000686-F02e9aed8e9
+  fact_type: problem_definition
+  value: 'Source title indicates: AlgorithmWiki metadata for Unsworth C. Prosser P'
+  source_id: AW-000686:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: weak
+  notes: previous_source_record
+- fact_id: AW-000686-Fad1903e30d
+  fact_type: problem_definition
+  value: 'AlgorithmWiki row name: Unsworth C. Prosser P'
+  source_id: AW-000686:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000686-F885cebb3ee
+  fact_type: problem_definition
+  value: 'domain: unknown'
+  source_id: AW-000686:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000686-F39102b2872
+  fact_type: time_complexity
+  value: 'time complexity: O(n^2)'
+  source_id: AW-000686:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000686-F2f14608432
+  fact_type: space_complexity
+  value: 'space complexity: O(n^2)'
+  source_id: AW-000686:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000686-F4fdef99c5a
+  fact_type: computation_model
+  value: 'computational model: Word RAM'
+  source_id: AW-000686:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000686-Feea6ce770f
+  fact_type: problem_definition
+  value: 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  source_id: AW-000686:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000686-F592700e8fa
+  fact_type: source_title
+  value: Barry Unsworth
+  source_id: crossref_search:fa0944a6f435dd38
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000686-Fd9855a2421
+  fact_type: problem_definition
+  value: 'Crossref title-search result: Barry Unsworth'
+  source_id: crossref_search:fa0944a6f435dd38
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000686-F2d53ea052a
+  fact_type: authoritative_source_link
+  value: https://doi.org/10.12987/9780300275025-017
+  source_id: crossref_search:fa0944a6f435dd38
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: consistent
+  notes: previous_source_record
+duplicate_sources:
+- source_id: AW-000686:algorithm_wiki_metadata
+  url: http://www.dcs.gla.ac.uk/~pat/roommates/distribution/papers/SM2N.pdf
+  title: AlgorithmWiki metadata for Unsworth C. Prosser P
+  source_type: algorithm_wiki
+  access_status: metadata_only
+  reliability: HIGH
+  extracted_facts:
+  - 'AlgorithmWiki row name: Unsworth C. Prosser P'
+  - 'domain: unknown'
+  - 'time complexity: O(n^2)'
+  - 'space complexity: O(n^2)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of men and number of women'
+  short_quote: ''
+  digest: d128f194368b72ec
+failed_sources: []
+paywalled_or_skipped_sources:
+- *id018
+source_families_covered:
+- algorithm_wiki_local
+- local_previous_cache
+- original_source
+- crossref
+- arxiv
+- wikipedia
+- openalex
+- semantic_scholar
+- dblp
+- publisher_abstract
+- wikidata
+- citeseerx
+- nist_dads
+- the_algorithms
+- cp_algorithms
+- course_notes
+- general_web_search
+cycles_completed: 3
+new_fact_count_by_cycle:
+- cycle: 1
+  new_facts: 0
+- cycle: 2
+  new_facts: 0
+- cycle: 3
+  new_facts: 0
+no_new_fact_streak: 3
+saturation_status: SATURATED_NO_RECOVERY
+final_reason: After the configured source-family cycles, no source-backed concrete task, input semantics, output semantics, and conservative access model could be established.
+next_manual_action: No automated action recommended; keep saturated certificate with unresolved row.

@@ -1,0 +1,57 @@
+id: AW-001477
+kind: context
+algorithm_id: AW-001477
+algorithm_name: Shun, Dhulipala, Blelloch
+source_records:
+- access_status: metadata_only
+  digest: da5dbd2dd2a2d076
+  extracted_facts:
+  - 'AlgorithmWiki row name: Shun, Dhulipala, Blelloch'
+  - 'domain: parallel_algorithms'
+  - 'time complexity: O(log^3(n)'
+  - 'computational model: CRCW PRAM'
+  - 'precard summary: Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model. Baseline: time O(log^3(n); work O(m); span/depth O(log^3(n); processors O(m/log^3(n)). Bottleneck: work, span, communication, and processor-count assumptions dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001477:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Shun, Dhulipala, Blelloch
+  url: https://dl.acm.org/doi/pdf/10.1145/2612669.2612692
+- access_status: skipped
+  digest: ab1c790bd7f37271
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:195e722a181f6882
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1145/2612669.2612692
+web_query_attempts:
+- method: search_plan
+  query: Shun, Dhulipala, Blelloch algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Shun, Dhulipala, Blelloch algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Shun, Dhulipala, Blelloch problem definition
+  status: recorded
+- method: search_plan
+  query: Shun, Dhulipala, Blelloch parallel algorithms algorithm
+  status: recorded
+- method: search_plan
+  query: Shun, Dhulipala, Blelloch site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Shun, Dhulipala, Blelloch algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://dl.acm.org/doi/pdf/10.1145/2612669.2612692
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1145/2612669.2612692
+  status: skipped
+extracted_problem_statement: 'Shun, Dhulipala, Blelloch is treated as a classical parallel algorithms task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Shun, Dhulipala, Blelloch. Input semantics: The classical input instance named by the row, together with processor/work/span parameters when stated. Output semantics: The same mathematical output as the underlying classical task, annotated by work/span when available.'
+extracted_algorithm_summary: 'Shun, Dhulipala, Blelloch is a parallel algorithms algorithm record. Classical complexity metadata: time O(log^3(n); work O(m); span/depth O(log^3(n); processors O(m/log^3(n)). The stated classical model is CRCW PRAM. Public metadata/source text adds: Shun, Dhulipala, Blelloch parallel_algorithms parallel_algorithms O(log^3(n) Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

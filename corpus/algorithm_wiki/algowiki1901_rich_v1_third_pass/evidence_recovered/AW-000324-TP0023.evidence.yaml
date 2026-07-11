@@ -1,0 +1,133 @@
+id: AW-000324-TP0023
+kind: probe_recovered
+algorithm_id: AW-000324
+algorithm_name: Nakamae E. Kaneda K. Okamoto T. and, Nishita 1990
+source_records:
+- access_status: metadata_only
+  digest: 651e5d4843f58524
+  extracted_facts:
+  - 'AlgorithmWiki row name: Nakamae E. Kaneda K. Okamoto T. and, Nishita 1990'
+  - 'domain: unknown'
+  - 'time complexity: O(k^3 n^2)'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000324:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Nakamae E. Kaneda K. Okamoto T. and, Nishita 1990
+  url: ''
+- access_status: fetched
+  digest: b12b66a7430fae2a
+  extracted_facts:
+  - 'Crossref title-search result: Okamoto-Uchiyama Algorithm'
+  reliability: MEDIUM
+  short_quote: ''
+  source_id: crossref_search:702516d34db067bc
+  source_type: doi_metadata
+  title: Okamoto-Uchiyama Algorithm
+  url: https://doi.org/10.1007/978-3-030-87629-6_8
+- source_id: crossref_search:9bb1c5bc869a128a
+  url: https://doi.org/10.1007/s43390-022-00628-z
+  title: Kiyoshi Kaneda
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title: Kiyoshi Kaneda'
+  - 'published year: 2023'
+  - 'container title: Spine Deformity'
+  short_quote: 'Crossref title: Kiyoshi Kaneda published year: 2023 container title: Spine Deformity'
+  digest: 3d470b8bc3e33fc5
+- source_id: openalex:078eba5f13e0dcfb
+  url: https://openalex.org/W2023292900
+  title: LCIS
+  source_type: openalex
+  access_status: fetched
+  reliability: HIGH
+  extracted_facts:
+  - 'OpenAlex title: LCIS'
+  - 'publication year: 1999'
+  - 'abstract summary: High contrast scenes are difficult to depict on low contrast displays without loss of important fine details and textures.'
+  short_quote: 'OpenAlex title: LCIS publication year: 1999 abstract summary: High contrast scenes are difficult to depict on low contrast displays without loss of important fine'
+  digest: 269f7976d202feaa
+web_query_attempts:
+- cycle: 1
+  query: Nakamae E. Kaneda K. Okamoto T. and, Nishita 1990
+  source_family: algorithm_wiki_local
+  url_or_api_endpoint: ''
+  status: fetched
+  new_facts_added: 5
+  reason: local metadata
+- cycle: 1
+  query: Nakamae E. Kaneda K. Okamoto T. and, Nishita 1990
+  source_family: local_previous_cache
+  url_or_api_endpoint: ''
+  status: duplicate
+  new_facts_added: 0
+  reason: previous v1/second-pass sources reused
+- cycle: 1
+  query: Nakamae E. Kaneda K. Okamoto T. and, Nishita 1990
+  source_family: original_source
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: no original source link
+- cycle: 1
+  query: Nakamae E. Kaneda K. Okamoto T. and, Nishita 1990
+  source_family: crossref
+  url_or_api_endpoint: https://doi.org/10.1007/s43390-022-00628-z
+  status: irrelevant
+  new_facts_added: 0
+  reason: Crossref metadata/title search
+- cycle: 1
+  query: Nakamae E. Kaneda K. Okamoto T. and, Nishita 1990
+  source_family: arxiv
+  url_or_api_endpoint: https://export.arxiv.org/api/query?max_results=1&search_query=ti:%22Nakamae+E.+Kaneda+K.+Okamoto+T.+and%2C+Nishita+1990%22
+  status: no_result
+  new_facts_added: 0
+  reason: arXiv title search returned no usable entry
+- cycle: 1
+  query: Nakamae E. Kaneda K. Okamoto T. and, Nishita 1990
+  source_family: wikipedia
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: Wikipedia search returned no relevant page
+- cycle: 2
+  query: Nakamae E. Kaneda K. Okamoto T. and, Nishita 1990
+  source_family: openalex
+  url_or_api_endpoint: https://api.openalex.org/works?per-page=1&search=Nakamae+E.+Kaneda+K.+Okamoto+T.+and%2C+Nishita+1990
+  status: irrelevant
+  new_facts_added: 0
+  reason: OpenAlex work metadata
+- cycle: 2
+  query: Nakamae E. Kaneda K. Okamoto T. and, Nishita 1990
+  source_family: semantic_scholar
+  url_or_api_endpoint: https://api.semanticscholar.org/graph/v1/paper/search?limit=1&fields=title,abstract,year,url,externalIds&query=Nakamae+E.+Kaneda+K.+Okamoto+T.+and%2C+Nishita+1990
+  status: fetch_failed
+  new_facts_added: 0
+  reason: Semantic Scholar returned no usable paper
+- cycle: 2
+  query: Nakamae E. Kaneda K. Okamoto T. and, Nishita 1990
+  source_family: dblp
+  url_or_api_endpoint: https://dblp.org/search/publ/api?format=json&h=1&q=Nakamae+E.+Kaneda+K.+Okamoto+T.+and%2C+Nishita+1990
+  status: no_result
+  new_facts_added: 0
+  reason: DBLP returned no usable publication
+- cycle: 2
+  query: Nakamae E. Kaneda K. Okamoto T. and, Nishita 1990
+  source_family: publisher_abstract
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: no applicable publisher abstract URL
+- cycle: 2
+  query: Nakamae E. Kaneda K. Okamoto T. and, Nishita 1990
+  source_family: wikidata
+  url_or_api_endpoint: https://www.wikidata.org/w/api.php?action=wbsearchentities&language=en&format=json&limit=1&search=Nakamae+E.+Kaneda+K.+Okamoto+T.+and%2C+Nishita+1990
+  status: no_result
+  new_facts_added: 0
+  reason: Wikidata returned no entity
+extracted_problem_statement: 'Nakamae E. Kaneda K. Okamoto T. and, Nishita 1990 is treated as a source-saturated AlgorithmWiki row for compute rendered appearance or illumination for a scene or surface model Input semantics: Scene geometry, materials or textures, lighting/view parameters, and output-image dimensions. Output semantics: A rendered image, shading value field, or illumination/texture representation.'
+extracted_algorithm_summary: 'Nakamae E. Kaneda K. Okamoto T. and, Nishita 1990 is reconstructed as a classical image processing task. The source-backed title/name/fact record supports the task: compute rendered appearance or illumination for a scene or surface model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

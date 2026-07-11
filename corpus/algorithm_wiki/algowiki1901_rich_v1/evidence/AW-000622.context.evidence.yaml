@@ -1,0 +1,72 @@
+id: AW-000622
+kind: context
+algorithm_id: AW-000622
+algorithm_name: Guibas Stofli
+source_records:
+- access_status: metadata_only
+  digest: 24670584143d5012
+  extracted_facts:
+  - 'AlgorithmWiki row name: Guibas Stofli'
+  - 'domain: unknown'
+  - 'time complexity: O(n \log n)'
+  - 'space complexity: O(n)'
+  - 'computational model: Real RAM'
+  - 'parameter definitions: n: number of points'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000622:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Guibas Stofli
+  url: https://dl.acm.org/doi/10.1145/282918.282923
+- access_status: fetched
+  digest: a7d015da036f2c20
+  extracted_facts:
+  - 'DOI title: Primitives for the manipulation of general subdivisions and the computation of Voronoi'
+  - 'published year: 1985'
+  - 'container title: ACM Transactions on Graphics'
+  - 'abstract summary: . This problem can be solved by constructing the Voronoi diagram of the griven sites and then locating the query point inone of its regions.'
+  reliability: HIGH
+  short_quote: . This problem can be solved by constructing the Voronoi diagram of the griven sites and then locating the query point inone of its
+  source_id: crossref:c2f7743e0e6932d9
+  source_type: doi_metadata
+  title: Primitives for the manipulation of general subdivisions and the computation of Voronoi
+  url: https://doi.org/10.1145/282918.282923
+- access_status: failed
+  digest: b526bf91ce9749f2
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:c1e2e31920ad6259
+  source_type: publisher_abstract
+  title: 'HTTP Error 403: Forbidden'
+  url: https://dl.acm.org/doi/10.1145/282918.282923
+web_query_attempts:
+- method: search_plan
+  query: Guibas Stofli algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Guibas Stofli algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Guibas Stofli problem definition
+  status: recorded
+- method: search_plan
+  query: Guibas Stofli site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Guibas Stofli algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://dl.acm.org/doi/10.1145/282918.282923
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1145/282918.282923
+  status: fetched
+- method: source_link_html_metadata
+  query: https://dl.acm.org/doi/10.1145/282918.282923
+  status: failed
+extracted_problem_statement: 'Guibas Stofli is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Guibas Stofli. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'Guibas Stofli is a graph algorithm record. Classical complexity metadata: time O(n \log n); space O(n). The stated classical model is Real RAM. Public metadata/source text adds: Guibas Stofli unknown unknown n: number of points O(n \log n) No public-ready summary is available because the row lacks enough task semantics.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

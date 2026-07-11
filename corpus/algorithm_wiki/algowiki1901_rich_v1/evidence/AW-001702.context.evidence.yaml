@@ -1,0 +1,71 @@
+id: AW-001702
+kind: context
+algorithm_id: AW-001702
+algorithm_name: Narayanaswami
+source_records:
+- access_status: metadata_only
+  digest: b6fcd7fc89642417
+  extracted_facts:
+  - 'AlgorithmWiki row name: Narayanaswami'
+  - 'domain: graph'
+  - 'time complexity: O(n/p)'
+  - 'computational model: CREW PRAM, SIMD'
+  - 'parameter definitions: n: number of vertices, p: number of processors'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(n/p); work O(n); span/depth O(1); processors p. Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001702:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Narayanaswami
+  url: https://link.springer.com/article/10.1007/BF01725102
+- access_status: skipped
+  digest: dfb2c62171011517
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:c05bf1094043702c
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1007/BF01725102
+- access_status: skipped
+  digest: 9122bc9d3add89f5
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:b1a2f4d30a53f46f
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://link.springer.com/article/10.1007/BF01725102
+web_query_attempts:
+- method: search_plan
+  query: Narayanaswami algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Narayanaswami algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Narayanaswami problem definition
+  status: recorded
+- method: search_plan
+  query: Narayanaswami graph algorithm
+  status: recorded
+- method: search_plan
+  query: Narayanaswami site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Narayanaswami algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://link.springer.com/article/10.1007/BF01725102
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1007/BF01725102
+  status: skipped
+- method: source_link_html_metadata
+  query: https://link.springer.com/article/10.1007/BF01725102
+  status: skipped
+extracted_problem_statement: 'Narayanaswami is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Narayanaswami. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'Narayanaswami is a graph algorithm record. Classical complexity metadata: time O(n/p); work O(n); span/depth O(1); processors p. The stated classical model is CREW PRAM, SIMD. Public metadata/source text adds: Narayanaswami graph graph n: number of vertices, p: number of processors O(n/p) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

@@ -1,0 +1,23 @@
+probe_id: AW-000476-RV1-MIN0003
+kind: registry_v1_probe
+parent_algorithm_id: AW-000476
+parent_algorithm_name: Yao
+source_card_paths:
+- corpus\algorithm_wiki\algowiki1901_rich_v1\public_context\AW-000476.yaml
+- corpus\algorithm_wiki\algowiki1901_rich_v1\public_probe\AW-000476-P0348.yaml
+source_metadata_paths:
+- corpus\algorithm_wiki\algowiki1901_rich_v1\metadata_probe\AW-000476-P0348.meta.yaml
+source_records_used:
+- AW-000476:algorithm_wiki_metadata
+- crossref:7c013ef0c61d7260
+- failed:746eb730741dd826
+short_paraphrased_support: 'Yao Yao is treated as a classical dynamic programming task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Yao. Input semantics: An explicit optimization or recurrence instance with overlapping subproblems. Output semantics: The optimal value, witness, schedule, segmentation, or table-derived solution for the recurrence. Yao is a dynamic programming algorithm record. Classical complexity metadata: time O(n^2); space O(n^2). The stated classical model is Word RAM. Public metadata/source text adds: Yao unknown unknown n: number of elements O(n^2) No public-ready summary is available because the row lacks enough task semantics. An explicit optimization or recurrence instance with overlapping subproblems. The optimal value, witness, schedule, segmentation, or table-derived solution for the recurrence. dominant bottleneck remains uncertain f'
+introduced_assumptions:
+- finite_candidate_set
+- total_ordered_objective
+- coherent_value_oracle
+limitations:
+- The probe is a public query/subroutine hypothesis only.
+- It does not assert a full original-algorithm speedup.
+- Oracle, promise, and data-representation costs require expert review.
+confirmation: Public provenance sidecar only; no evaluator label or private benchmark answer is encoded.

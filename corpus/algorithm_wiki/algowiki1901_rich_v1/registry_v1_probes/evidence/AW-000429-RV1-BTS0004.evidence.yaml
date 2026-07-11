@@ -1,0 +1,23 @@
+probe_id: AW-000429-RV1-BTS0004
+kind: registry_v1_probe
+parent_algorithm_id: AW-000429
+parent_algorithm_name: Commentz-Walter Algorithm
+source_card_paths:
+- corpus\algorithm_wiki\algowiki1901_rich_v1\public_context\AW-000429.yaml
+- corpus\algorithm_wiki\algowiki1901_rich_v1\public_probe\AW-000429-P0309.yaml
+source_metadata_paths:
+- corpus\algorithm_wiki\algowiki1901_rich_v1\metadata_probe\AW-000429-P0309.meta.yaml
+source_records_used:
+- AW-000429:algorithm_wiki_metadata
+- crossref:a1a3d3b84490c97b
+- skipped:5003d777e19dd234
+short_paraphrased_support: 'Commentz-Walter Algorithm Commentz-Walter Algorithm is treated as a classical string task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Commentz-Walter Algorithm. Input semantics: One or more finite strings, sequences, patterns, or alphabets. Output semantics: Pattern occurrence positions, matches, or the associated string-search report. Commentz-Walter Algorithm is a string algorithm record. Classical complexity metadata: time O(mn); space O(km). The stated classical model is Word RAM. Public metadata/source text adds: Commentz-Walter Algorithm unknown unknown m: pattern length, n: length of searchable text, k: number of keywords O(mn) No public-ready summary is available because the row lacks enough task semantics. One or more finite strings, sequences, patterns, or alphabets. Pattern occurrence positions, matches, or the associated'
+introduced_assumptions:
+- bounded_backtracking_tree
+- bounded_tree_depth
+- coherent_child_and_predicate_oracles
+limitations:
+- The probe is a public query/subroutine hypothesis only.
+- It does not assert a full original-algorithm speedup.
+- Oracle, promise, and data-representation costs require expert review.
+confirmation: Public provenance sidecar only; no evaluator label or private benchmark answer is encoded.

@@ -1,0 +1,74 @@
+id: AW-000108-P0082
+kind: probe
+algorithm_id: AW-000108
+algorithm_name: Speller (Sagot)
+source_records:
+- access_status: metadata_only
+  digest: 8e2998de613f30b4
+  extracted_facts:
+  - 'AlgorithmWiki row name: Speller (Sagot)'
+  - 'domain: string'
+  - 'time complexity: O(mn^2 \sigma)'
+  - 'space complexity: O(mn^2/w)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: size of set of input strings, m: size of input strings, k: length of substrings, \sigma: function V(k, m) defined as the number of k-mers that are at most m Hamming distance from the motif space, w: size of a word machine'
+  - 'precard summary: Given one or more explicit strings, compute the matching, indexing, alignment, or transformation output targeted by the record. Baseline: time O(mn^2 \sigma); space O(mn^2/w). Bottleneck: string scanning, preprocessing tables, and reporting matches dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000108:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Speller (Sagot)
+  url: https://link.springer.com/chapter/10.1007/BFb0054337
+- access_status: fetched
+  digest: 130e00747988402d
+  extracted_facts:
+  - 'DOI title: Spelling approximate repeated or common motifs using a suffix tree'
+  - 'published year: 1998'
+  - 'container title: Lecture Notes in Computer Science'
+  reliability: HIGH
+  short_quote: ''
+  source_id: crossref:268d12f833611a6e
+  source_type: doi_metadata
+  title: Spelling approximate repeated or common motifs using a suffix tree
+  url: https://doi.org/10.1007/BFb0054337
+- access_status: skipped
+  digest: 123e225a4d7a0625
+  extracted_facts:
+  - robots.txt disallowed fetch
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:2d24cbd1d2740f0d
+  source_type: publisher_abstract
+  title: robots.txt disallowed fetch
+  url: https://link.springer.com/chapter/10.1007/BFb0054337
+web_query_attempts:
+- method: search_plan
+  query: Speller (Sagot) algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Speller (Sagot) algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Speller (Sagot) problem definition
+  status: recorded
+- method: search_plan
+  query: Speller (Sagot) string algorithm
+  status: recorded
+- method: search_plan
+  query: Speller (Sagot) site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Speller (Sagot) algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://link.springer.com/chapter/10.1007/BFb0054337
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1007/BFb0054337
+  status: fetched
+- method: source_link_html_metadata
+  query: https://link.springer.com/chapter/10.1007/BFb0054337
+  status: skipped
+extracted_problem_statement: 'Speller (Sagot) is treated as a classical string task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Speller (Sagot). Input semantics: One or more finite strings, sequences, patterns, or alphabets. Output semantics: Pattern occurrence positions, matches, or the associated string-search report.'
+extracted_algorithm_summary: 'Speller (Sagot) is a string algorithm record. Classical complexity metadata: time O(mn^2 \sigma); space O(mn^2/w). The stated classical model is Word RAM. Public metadata/source text adds: Speller (Sagot) string string n: size of set of input strings, m: size of input strings, k: length of substrings, \sigma: function V(k, m) defined as the number of k-mers that are at most m Hamming distance from the motif space, w: size of a word machine O(mn^2 \sigma) Given one or more explicit strings, compute the matching, indexing, alignment, or transformation output targeted by the record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

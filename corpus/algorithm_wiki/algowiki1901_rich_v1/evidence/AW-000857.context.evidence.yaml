@@ -1,0 +1,60 @@
+id: AW-000857
+kind: context
+algorithm_id: AW-000857
+algorithm_name: Whirlpool
+source_records:
+- access_status: metadata_only
+  digest: 4a84e0801d26b9fc
+  extracted_facts:
+  - 'AlgorithmWiki row name: Whirlpool'
+  - 'domain: string'
+  - 'time complexity: O(n)'
+  - 'space complexity: O(1)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: length of string'
+  - 'precard summary: Given one or more explicit strings, compute the matching, indexing, alignment, or transformation output targeted by the record. Baseline: time O(n); space O(1). Bottleneck: string scanning, preprocessing tables, and reporting matches dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000857:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Whirlpool
+  url: https://ieeexplore.ieee.org/abstract/document/1329416
+- access_status: fetched
+  digest: 1527774a3197f3d5
+  extracted_facts:
+  - 'source page title: Whirlpool hash function: architecture and VLSI implementation | IEEE Conference Publication | IEEE Xplore'
+  - 'source page description: New encryption algorithms have to operate in a variety of current and future applications demanding both high speed and high security.'
+  reliability: HIGH
+  short_quote: New encryption algorithms have to operate in a variety of current and future applications demanding both high speed and high security.
+  source_id: source:657b9cab580bd2a6
+  source_type: publisher_abstract
+  title: 'Whirlpool hash function: architecture and VLSI implementation | IEEE Conference Publication | IEEE Xplore'
+  url: https://ieeexplore.ieee.org/abstract/document/1329416
+web_query_attempts:
+- method: search_plan
+  query: Whirlpool algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Whirlpool algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Whirlpool problem definition
+  status: recorded
+- method: search_plan
+  query: Whirlpool string algorithm
+  status: recorded
+- method: search_plan
+  query: Whirlpool site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Whirlpool algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://ieeexplore.ieee.org/abstract/document/1329416
+  status: recorded
+- method: source_link_html_metadata
+  query: https://ieeexplore.ieee.org/abstract/document/1329416
+  status: fetched
+extracted_problem_statement: 'Whirlpool is treated as a classical string task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Whirlpool. Input semantics: One or more finite strings, sequences, patterns, or alphabets. Output semantics: Pattern occurrence positions, matches, or the associated string-search report.'
+extracted_algorithm_summary: 'Whirlpool is a string algorithm record. Classical complexity metadata: time O(n); space O(1). The stated classical model is Word RAM. Public metadata/source text adds: Whirlpool string string n: length of string O(n) Given one or more explicit strings, compute the matching, indexing, alignment, or transformation output targeted by the record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

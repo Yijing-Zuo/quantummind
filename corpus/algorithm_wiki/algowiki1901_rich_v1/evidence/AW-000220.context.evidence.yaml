@@ -1,0 +1,74 @@
+id: AW-000220
+kind: context
+algorithm_id: AW-000220
+algorithm_name: Thorup's algorithm
+source_records:
+- access_status: metadata_only
+  digest: 596460da81afce22
+  extracted_facts:
+  - 'AlgorithmWiki row name: Thorup''s algorithm'
+  - 'domain: graph'
+  - 'time complexity: O(E + V \min(\log \log V, \log \log L))'
+  - 'space complexity: O(V) (linear-space queue)'
+  - 'computational model: Word/Real RAM'
+  - 'parameter definitions: V: number of vertices, E: number of edges, L: maximum absolute value of edge cost'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(E + V \min(\log \log V, \log \log L)); space O(V) (linear-space queue). Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000220:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Thorup's algorithm
+  url: https://dl.acm.org/doi/10.1016/j.jcss.2004.04.003
+- access_status: fetched
+  digest: 8c2496ae734bc2b0
+  extracted_facts:
+  - 'DOI title: Integer priority queues with decrease key in constant time and the single source shortest paths problem'
+  - 'published year: 2004'
+  - 'container title: Journal of Computer and System Sciences'
+  reliability: HIGH
+  short_quote: ''
+  source_id: crossref:0f55895663e97df4
+  source_type: doi_metadata
+  title: Integer priority queues with decrease key in constant time and the single source shortest paths problem
+  url: https://doi.org/10.1016/j.jcss.2004.04.003
+- access_status: failed
+  digest: cf880d290766656d
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:4870ba8f470cb31b
+  source_type: publisher_abstract
+  title: 'HTTP Error 403: Forbidden'
+  url: https://dl.acm.org/doi/10.1016/j.jcss.2004.04.003
+web_query_attempts:
+- method: search_plan
+  query: Thorup's algorithm algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Thorup's algorithm algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Thorup's algorithm problem definition
+  status: recorded
+- method: search_plan
+  query: Thorup's algorithm graph algorithm
+  status: recorded
+- method: search_plan
+  query: Thorup's algorithm site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Thorup's algorithm algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://dl.acm.org/doi/10.1016/j.jcss.2004.04.003
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1016/j.jcss.2004.04.003
+  status: fetched
+- method: source_link_html_metadata
+  query: https://dl.acm.org/doi/10.1016/j.jcss.2004.04.003
+  status: failed
+extracted_problem_statement: 'Thorup''s algorithm is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: find a low-cost or shortest path in a graph or state-space search instance. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: A path, path cost, or predecessor structure connecting the requested graph states.'
+extracted_algorithm_summary: 'Thorup''s algorithm is a graph algorithm record. Classical complexity metadata: time O(E + V \min(\log \log V, \log \log L)); space O(V) (linear-space queue). The stated classical model is Word/Real RAM. Public metadata/source text adds: Thorup''s algorithm graph graph V: number of vertices, E: number of edges, L: maximum absolute value of edge cost O(E + V \min(\log \log V, \log \log L)) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

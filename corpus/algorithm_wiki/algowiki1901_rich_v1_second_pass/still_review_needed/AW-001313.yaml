@@ -1,0 +1,33 @@
+algorithm_id: AW-001313
+canonical_name: Galper, Brutlag (asynchronous Row Wavefront approach) (also asynch DWF) (2)
+enrichment_status: SECOND_PASS_INSUFFICIENT
+review_reasons:
+- No second-pass rule could identify source-backed task semantics.
+source_records:
+- access_status: metadata_only
+  digest: b34141aa5c45610f
+  extracted_facts:
+  - 'AlgorithmWiki row name: Galper, Brutlag (asynchronous Row Wavefront approach) (also asynch DWF) (2)'
+  - 'domain: unknown'
+  - 'time complexity: O(ceil(mn/p + p))'
+  - 'computational model: shared memory'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001313:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Galper, Brutlag (asynchronous Row Wavefront approach) (also asynch DWF) (2)
+  url: https://wayback.stanford.edu/was/20180312101809mp_/http://cmgm.stanford.edu/~brutlag/Papers/galper90.pdf
+- source_id: crossref_search:962b80c49955d21d
+  url: https://doi.org/10.1093/gmo/9781561592630.article.j162300
+  title: Galper, Hal
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: Galper, Hal'
+  short_quote: ''
+  digest: 6754954456196d03
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

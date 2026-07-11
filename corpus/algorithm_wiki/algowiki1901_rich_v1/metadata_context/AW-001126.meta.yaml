@@ -1,0 +1,62 @@
+algorithm_family: sorting
+algorithm_id: AW-001126
+approximate: '0'
+approximation_factor: ''
+blind_name: Algorithm Wiki public task AW-001126
+canonical_name: Leighton, Plaxton (2)
+computational_model: sorting network
+domain: sorting
+extracted_description: ''
+extraction_version: algorithm-wiki-rich-context-v1
+family: sorting
+inferred_access_model: random_access_array
+inferred_ambiguities:
+- The AlgorithmWiki row marks the classical method as randomized.
+- No independent fetched public metadata source resolved this row beyond AlgorithmWiki metadata/source-link facts.
+- Some details are reconstructed from AlgorithmWiki metadata rather than an independently fetched full public description.
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.
+inferred_input_model: explicit_sequence_problem
+inferred_output_contract: full_sequence_output
+inferred_problem_statement: 'Leighton, Plaxton (2) is treated as a classical sorting task for rich AlgorithmWiki discovery. Problem/task: sort the input sequence using the named classical sorting method. Input semantics: A finite array or list of comparable keys or records. Output semantics: The same items returned in nondecreasing order, usually as a full reordered sequence.'
+inferred_promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+- classical_randomized_algorithm
+inferred_size_parameters:
+- 'Parameter definition: n: size of list, of m-bit records'
+- p = stated number of processors (n \log{n})
+number_of_processors: n \log{n}
+page_digest: ''
+page_fetch_status: not_found
+page_url: ''
+parameter_definitions: 'n: size of list, of m-bit records'
+problem_name: sorting
+quality_flags:
+- domain_inferred
+- problem_statement_inferred
+- io_access_output_inferred
+- has_complexity_semantics
+- has_size_parameters
+- has_computational_model
+- randomized_flag_preserved
+quality_score: 100
+randomized: '1'
+readiness: READY_PUBLIC_CONTEXT
+review_reasons:
+- A previous row has the same canonicalized algorithm name.
+source_link: https://ieeexplore.ieee.org/abstract/document/89545
+source_link_type: unknown
+space_complexity: ''
+span_depth: O(m+\log{n}) expected
+time_complexity: O(m + \log{n}) w/ very high probability
+variation: ''
+work: O(mn \\log{n} + n \\log^2{n}) expected
+year: '1990'
+rich_card_kind: context
+source_records_used:
+- AW-001126:algorithm_wiki_metadata
+- skipped:f9160fc782d99d16
+source_count: 2
+source_quality: HIGH
+confidence_score: 100
+card_digest: aa02ed624caed4ec

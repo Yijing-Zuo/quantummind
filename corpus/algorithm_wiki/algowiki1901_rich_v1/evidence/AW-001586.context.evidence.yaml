@@ -1,0 +1,58 @@
+id: AW-001586
+kind: context
+algorithm_id: AW-001586
+algorithm_name: Spencer
+source_records:
+- access_status: metadata_only
+  digest: 12037913e977e33e
+  extracted_facts:
+  - 'AlgorithmWiki row name: Spencer'
+  - 'domain: graph'
+  - 'time complexity: O((n/p) \log n \log(pL))'
+  - 'computational model: EREW PRAM'
+  - 'parameter definitions: n: number of vertices, m: number of edges, L: length of the longest edge, p <= n'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O((n/p) \log n \log(pL)); work O(np^2 \log p \log(pL)) + \tilde{O}(m + n \log L); span/depth O((n/p) log n log(pL)); processors O(p^3 log p / log(n)) + \tilde{O}((m + n log L) / ((n/p) log n log(pL)) ). Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001586:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Spencer
+  url: https://dl.acm.org/doi/pdf/10.1145/113379.113387
+- access_status: skipped
+  digest: 0b9d1cdde9659b25
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:54a756b6ae2442e0
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1145/113379.113387
+web_query_attempts:
+- method: search_plan
+  query: Spencer algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Spencer algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Spencer problem definition
+  status: recorded
+- method: search_plan
+  query: Spencer graph algorithm
+  status: recorded
+- method: search_plan
+  query: Spencer site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Spencer algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://dl.acm.org/doi/pdf/10.1145/113379.113387
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1145/113379.113387
+  status: skipped
+extracted_problem_statement: 'Spencer is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Spencer. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'Spencer is a graph algorithm record. Classical complexity metadata: time O((n/p) \log n \log(pL)); work O(np^2 \log p \log(pL)) + \tilde{O}(m + n \log L); span/depth O((n/p) log n log(pL)); processors O(p^3 log p / log(n)) + \tilde{O}((m + n log L) / ((n/p) log n log(pL)) ). The stated classical model is EREW PRAM. Public metadata/source text adds: Spencer graph graph n: number of vertices, m: number of edges, L: length of the longest edge, p <= n O((n/p) \log n \log(pL)) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

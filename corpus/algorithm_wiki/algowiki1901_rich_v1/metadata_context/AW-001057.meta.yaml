@@ -1,0 +1,59 @@
+algorithm_family: sorting
+algorithm_id: AW-001057
+approximate: '0'
+approximation_factor: ''
+blind_name: Algorithm Wiki public task AW-001057
+canonical_name: Dohi et al.
+computational_model: hardware sorter
+domain: sorting
+extracted_description: ''
+extraction_version: algorithm-wiki-rich-context-v1
+family: sorting
+inferred_access_model: random_access_array
+inferred_ambiguities:
+- No independent fetched public metadata source resolved this row beyond AlgorithmWiki metadata/source-link facts.
+- Some details are reconstructed from AlgorithmWiki metadata rather than an independently fetched full public description.
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.
+inferred_input_model: explicit_sequence_problem
+inferred_output_contract: full_sequence_output
+inferred_problem_statement: 'Dohi et al. is treated as a classical sorting task for rich AlgorithmWiki discovery. Problem/task: sort the input sequence using the named classical sorting method. Input semantics: A finite array or list of comparable keys or records. Output semantics: The same items returned in nondecreasing order, usually as a full reordered sequence.'
+inferred_promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+inferred_size_parameters:
+- 'Parameter definition: n: size of list (power of two), b: length of data items in bytes, l: level of bottom processors, tau=1/T: average time to send byte from node after sorting, M: bus transfer rate, a=T/M'
+- p = stated number of processors (2^l)
+number_of_processors: 2^l
+page_digest: ''
+page_fetch_status: not_found
+page_url: ''
+parameter_definitions: 'n: size of list (power of two), b: length of data items in bytes, l: level of bottom processors, tau=1/T: average time to send byte from node after sorting, M: bus transfer rate, a=T/M'
+problem_name: sorting
+quality_flags:
+- domain_inferred
+- problem_statement_inferred
+- io_access_output_inferred
+- has_complexity_semantics
+- has_size_parameters
+- has_computational_model
+quality_score: 100
+randomized: '0'
+readiness: READY_PUBLIC_CONTEXT
+review_reasons: []
+source_link: https://dl.acm.org/doi/abs/10.1145/1067649.801730
+source_link_type: acm
+space_complexity: ''
+span_depth: n b tau (a+1+(n-l)/2^(l-1))
+time_complexity: n b tau (a+1+(n-l)/2^(l-1))
+variation: ''
+work: 2^l n b \tau (a+1+(n-l)/2^(l-1))
+year: '1982'
+rich_card_kind: context
+source_records_used:
+- AW-001057:algorithm_wiki_metadata
+- skipped:0fde12059aa7f131
+- skipped:5f751f9e85cc49af
+source_count: 3
+source_quality: HIGH
+confidence_score: 100
+card_digest: b40a54f05a7efbc2

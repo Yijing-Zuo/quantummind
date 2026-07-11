@@ -1,0 +1,71 @@
+id: AW-000677
+kind: context
+algorithm_id: AW-000677
+algorithm_name: Martinian and M. J. Wainwright
+source_records:
+- access_status: metadata_only
+  digest: 1d3f6df85176838d
+  extracted_facts:
+  - 'AlgorithmWiki row name: Martinian and M. J. Wainwright'
+  - 'domain: unknown'
+  - 'time complexity: O(n 2^n)'
+  - 'space complexity: O(mn+mk)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: length of input data, m: number of information bits, k: rate parameter (in LDPC)'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000677:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Martinian and M. J. Wainwright
+  url: https://arxiv.org/abs/cs/0602046
+- access_status: fetched
+  digest: e6bafe9850c5572e
+  extracted_facts:
+  - 'arXiv title: Analysis of LDGM and compound codes for lossy compression and binning'
+  - 'abstract summary: Recent work has suggested that low-density generator matrix (LDGM) codes are likely to be effective for lossy source coding problems.'
+  reliability: HIGH
+  short_quote: Recent work has suggested that low-density generator matrix (LDGM) codes are likely to be effective for lossy source coding problems.
+  source_id: arxiv:cs/0602046
+  source_type: arxiv_abstract
+  title: Analysis of LDGM and compound codes for lossy compression and binning
+  url: https://arxiv.org/abs/cs/0602046
+- access_status: fetched
+  digest: 43ba4d4e0da81fd6
+  extracted_facts:
+  - 'source page title: [cs/0602046] Analysis of LDGM and compound codes for lossy compression and binning'
+  - 'source page description: Abstract page for arXiv paper cs/0602046: Analysis of LDGM and compound codes for lossy compression and binning'
+  reliability: HIGH
+  short_quote: 'Abstract page for arXiv paper cs/0602046: Analysis of LDGM and compound codes for lossy compression and binning'
+  source_id: source:b1b532eab78e356f
+  source_type: arxiv_abstract
+  title: '[cs/0602046] Analysis of LDGM and compound codes for lossy compression and binning'
+  url: https://arxiv.org/abs/cs/0602046
+web_query_attempts:
+- method: search_plan
+  query: Martinian and M. J. Wainwright algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Martinian and M. J. Wainwright algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Martinian and M. J. Wainwright problem definition
+  status: recorded
+- method: search_plan
+  query: Martinian and M. J. Wainwright site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Martinian and M. J. Wainwright algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://arxiv.org/abs/cs/0602046
+  status: recorded
+- method: arxiv_abstract_metadata
+  query: cs/0602046
+  status: fetched
+- method: source_link_html_metadata
+  query: https://arxiv.org/abs/cs/0602046
+  status: fetched
+extracted_problem_statement: 'Martinian and M. J. Wainwright is treated as a classical matrix linear algebra task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Martinian and M. J. Wainwright. Input semantics: One or more explicit matrices or linear systems over the stated arithmetic domain. Output semantics: The requested matrix, decomposition, solution vector, or other linear-algebraic output.'
+extracted_algorithm_summary: 'Martinian and M. J. Wainwright is a matrix linear algebra algorithm record. Classical complexity metadata: time O(n 2^n); space O(mn+mk). The stated classical model is Word RAM. Public metadata/source text adds: Martinian and M. J. Wainwright unknown unknown n: length of input data, m: number of information bits, k: rate parameter (in LDPC) O(n 2^n) No public-ready summary is available because the row lacks enough task semantics.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

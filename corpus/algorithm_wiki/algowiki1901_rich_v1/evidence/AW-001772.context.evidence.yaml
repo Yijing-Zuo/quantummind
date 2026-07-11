@@ -1,0 +1,70 @@
+id: AW-001772
+kind: context
+algorithm_id: AW-001772
+algorithm_name: Shi, Dhulipala, Shun
+source_records:
+- access_status: metadata_only
+  digest: ed5ef9869c3dd106
+  extracted_facts:
+  - 'AlgorithmWiki row name: Shi, Dhulipala, Shun'
+  - 'domain: graph'
+  - 'time complexity: O(m \alpha^{k-2}) (\alpha = arboricity, which is worst case \sqrt{m})'
+  - 'parameter definitions: m: number of edges, k: required clique size , \alpha: arboricity, which is worst case \sqrt{m}'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(m \alpha^{k-2}) (\alpha = arboricity, which is worst case \sqrt{m}); work O(m \\alpha^{k-2}); span/depth O(log^2 n). Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001772:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Shi, Dhulipala, Shun
+  url: https://arxiv.org/abs/2002.10047
+- access_status: skipped
+  digest: 2f27da337bdf2bc1
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:17fd06ba6561907b
+  source_type: arxiv_abstract
+  title: fetch budget exhausted
+  url: https://arxiv.org/abs/2002.10047
+- access_status: skipped
+  digest: 2f27da337bdf2bc1
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:17fd06ba6561907b
+  source_type: arxiv_abstract
+  title: fetch budget exhausted
+  url: https://arxiv.org/abs/2002.10047
+web_query_attempts:
+- method: search_plan
+  query: Shi, Dhulipala, Shun algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Shi, Dhulipala, Shun algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Shi, Dhulipala, Shun problem definition
+  status: recorded
+- method: search_plan
+  query: Shi, Dhulipala, Shun graph algorithm
+  status: recorded
+- method: search_plan
+  query: Shi, Dhulipala, Shun site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Shi, Dhulipala, Shun algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://arxiv.org/abs/2002.10047
+  status: recorded
+- method: arxiv_abstract_metadata
+  query: '2002.10047'
+  status: skipped
+- method: source_link_html_metadata
+  query: https://arxiv.org/abs/2002.10047
+  status: skipped
+extracted_problem_statement: 'Shi, Dhulipala, Shun is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Shi, Dhulipala, Shun. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'Shi, Dhulipala, Shun is a graph algorithm record. Classical complexity metadata: time O(m \alpha^{k-2}) (\alpha = arboricity, which is worst case \sqrt{m}); work O(m \\alpha^{k-2}); span/depth O(log^2 n). Public metadata/source text adds: Shi, Dhulipala, Shun graph graph m: number of edges, k: required clique size , \alpha: arboricity, which is worst case \sqrt{m} O(m \alpha^{k-2}) (\alpha = arboricity, which is worst case \sqrt{m}) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

@@ -1,0 +1,69 @@
+id: AW-001825
+kind: context
+algorithm_id: AW-001825
+algorithm_name: Phan, Le
+source_records:
+- access_status: metadata_only
+  digest: c59c4920b625c048
+  extracted_facts:
+  - 'AlgorithmWiki row name: Phan, Le'
+  - 'domain: parallel_algorithms'
+  - 'computational model: PRAM'
+  - 'precard summary: Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model. Baseline: work O(n2^n); span/depth O(n2^n). Bottleneck: work, span, communication, and processor-count assumptions dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001825:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Phan, Le
+  url: https://link.springer.com/chapter/10.1007/978-3-319-95786-9_21
+- access_status: skipped
+  digest: a49bf148233ee129
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:6408da9656bcf9af
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1007/978-3-319-95786-9_21
+- access_status: skipped
+  digest: 6c608dae29034b68
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:8dc181d7d6b5f9d1
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://link.springer.com/chapter/10.1007/978-3-319-95786-9_21
+web_query_attempts:
+- method: search_plan
+  query: Phan, Le algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Phan, Le algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Phan, Le problem definition
+  status: recorded
+- method: search_plan
+  query: Phan, Le parallel algorithms algorithm
+  status: recorded
+- method: search_plan
+  query: Phan, Le site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Phan, Le algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://link.springer.com/chapter/10.1007/978-3-319-95786-9_21
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1007/978-3-319-95786-9_21
+  status: skipped
+- method: source_link_html_metadata
+  query: https://link.springer.com/chapter/10.1007/978-3-319-95786-9_21
+  status: skipped
+extracted_problem_statement: 'Phan, Le is treated as a classical parallel algorithms task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Phan, Le. Input semantics: The classical input instance named by the row, together with processor/work/span parameters when stated. Output semantics: The same mathematical output as the underlying classical task, annotated by work/span when available.'
+extracted_algorithm_summary: 'Phan, Le is a parallel algorithms algorithm record. Classical complexity metadata: work O(n2^n); span/depth O(n2^n). The stated classical model is PRAM. Public metadata/source text adds: Phan, Le parallel_algorithms parallel_algorithms Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

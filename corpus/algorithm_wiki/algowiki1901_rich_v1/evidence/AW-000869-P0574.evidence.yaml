@@ -1,0 +1,46 @@
+id: AW-000869-P0574
+kind: probe
+algorithm_id: AW-000869
+algorithm_name: Rijndael / AES
+source_records:
+- access_status: metadata_only
+  digest: 59e0bfcff4acc9f0
+  extracted_facts:
+  - 'AlgorithmWiki row name: Rijndael / AES'
+  - 'domain: graph'
+  - 'time complexity: O(n)'
+  - 'space complexity: O(n)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: text length (block size), k: key length'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(n); space O(n). Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000869:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Rijndael / AES
+  url: https://csrc.nist.gov/csrc/media/projects/cryptographic-standards-and-guidelines/documents/aes-development/rijndael-ammended.pdf
+web_query_attempts:
+- method: search_plan
+  query: Rijndael / AES algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Rijndael / AES algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Rijndael / AES problem definition
+  status: recorded
+- method: search_plan
+  query: Rijndael / AES graph algorithm
+  status: recorded
+- method: search_plan
+  query: Rijndael / AES site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Rijndael / AES algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://csrc.nist.gov/csrc/media/projects/cryptographic-standards-and-guidelines/documents/aes-development/rijndael-ammended.pdf
+  status: recorded
+extracted_problem_statement: 'Rijndael / AES is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Rijndael / AES. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'Rijndael / AES is a graph algorithm record. Classical complexity metadata: time O(n); space O(n). The stated classical model is Word RAM. Public metadata/source text adds: Rijndael / AES graph graph n: text length (block size), k: key length O(n) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

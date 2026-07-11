@@ -1,0 +1,72 @@
+id: AW-001395
+kind: context
+algorithm_id: AW-001395
+algorithm_name: "R\xFCb"
+source_records:
+- access_status: metadata_only
+  digest: 5d059b56b3507d2a
+  extracted_facts:
+  - "AlgorithmWiki row name: R\xFCb"
+  - 'domain: computational_geometry'
+  - 'time complexity: O(((n+k) \log n \log \log n)/p)'
+  - 'space complexity: O(n+k) total'
+  - 'computational model: CREW PRAM'
+  - "parameter definitions: n: number of line segments, k: number of points of intersection, p: number of processors p \u2264 n+k"
+  - 'precard summary: Given explicit geometric objects such as points, segments, or polygons, compute the requested geometric structure or witness set. Baseline: time O(((n+k) \log n \log \log n)/p); space O(n+k) total; work O((n+k) \log n \log \log n); span/depth O(log n log log n); processors p. Bottleneck: geometric predicates, ordering events, and output-sensitive structure size dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001395:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: "AlgorithmWiki metadata for R\xFCb"
+  url: https://link.springer.com/article/10.1007/BF01758839
+- access_status: skipped
+  digest: dbab04d362afdaa2
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:eb8ad98edbb963ab
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1007/BF01758839
+- access_status: skipped
+  digest: 438e7f505dac879a
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:52ad7e8b7c7e96d6
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://link.springer.com/article/10.1007/BF01758839
+web_query_attempts:
+- method: search_plan
+  query: "R\xFCb algorithm input output complexity"
+  status: recorded
+- method: search_plan
+  query: "R\xFCb algorithm pseudocode"
+  status: recorded
+- method: search_plan
+  query: "R\xFCb problem definition"
+  status: recorded
+- method: search_plan
+  query: "R\xFCb computational geometry algorithm"
+  status: recorded
+- method: search_plan
+  query: "R\xFCb site:nist.gov DADS"
+  status: recorded
+- method: search_plan
+  query: "R\xFCb algorithm wiki"
+  status: recorded
+- method: search_plan
+  query: https://link.springer.com/article/10.1007/BF01758839
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1007/BF01758839
+  status: skipped
+- method: source_link_html_metadata
+  query: https://link.springer.com/article/10.1007/BF01758839
+  status: skipped
+extracted_problem_statement: "R\xFCb is treated as a classical computational geometry task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with R\xFCb. Input semantics: Explicit geometric objects such as points, line segments, polygons, or planar subdivisions. Output semantics: The requested geometric structure, simplified curve, clipping result, intersection set, hull, or diagram."
+extracted_algorithm_summary: "R\xFCb is a computational geometry algorithm record. Classical complexity metadata: time O(((n+k) \\log n \\log \\log n)/p); space O(n+k) total; work O((n+k) \\log n \\log \\log n); span/depth O(log n log log n); processors p. The stated classical model is CREW PRAM. Public metadata/source text adds: R\xFCb computational_geometry computational_geometry n: number of line segments, k: number of points of intersection, p: number of processors p \u2264 n+k O(((n+k) \\log n \\log \\log n)/p) Given explicit geometric objects such as points, segments, or polygons, compute the requested geometric structure or witness set."
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

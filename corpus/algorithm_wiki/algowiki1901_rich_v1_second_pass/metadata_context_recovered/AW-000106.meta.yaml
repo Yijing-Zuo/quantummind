@@ -1,0 +1,59 @@
+algorithm_id: AW-000106
+canonical_name: Kadane's Algorithm
+blind_name: Algorithm Wiki public task AW-000106
+year: '1982'
+domain: unknown
+family: unknown
+variation: ''
+problem_name: unknown
+algorithm_family: unknown
+time_complexity: O(n)
+space_complexity: O(1)
+computational_model: Word/Real RAM
+randomized: '0'
+approximate: '0'
+approximation_factor: ''
+parameter_definitions: 'n: length of array'
+span_depth: ''
+work: ''
+number_of_processors: ''
+source_link: '-'
+source_link_type: unknown
+page_url: ''
+page_fetch_status: not_found
+page_digest: ''
+extracted_description: ''
+inferred_problem_statement: 'Kadane''s Algorithm is reconstructed as a classical dynamic programming task. Problem/task: find a contiguous subarray with maximum sum Input semantics: A numeric array of length n. Output semantics: The maximum subarray value and optionally the interval attaining it.'
+inferred_input_model: explicit_dynamic_programming_problem
+inferred_access_model: random_access_array
+inferred_output_contract: full_solution
+inferred_size_parameters:
+- 'Parameter definition: n: length of array'
+inferred_promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+inferred_ambiguities:
+- Some details are reconstructed from AlgorithmWiki metadata rather than an independently fetched full public description.
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.
+quality_score: 80
+quality_flags:
+- has_complexity_semantics
+- has_size_parameters
+- has_computational_model
+readiness: READY_PUBLIC_CONTEXT
+review_reasons:
+- missing_problem_statement
+- unknown_input_model
+- unknown_access_model
+- unknown_output_contract
+- insufficient_algorithm_level_structure
+extraction_version: algorithm-wiki-rich-second-pass-context-v1
+rich_card_kind: context_recovered
+source_records_used:
+- AW-000106:algorithm_wiki_metadata
+- crossref_search:7471dbb34dcce68d
+source_count: 2
+source_quality: HIGH
+confidence_score: 80
+card_digest: 6f982eafba43b0c5
+second_pass_rule: maximum_subarray

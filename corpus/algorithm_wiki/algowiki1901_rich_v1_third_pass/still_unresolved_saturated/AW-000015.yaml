@@ -1,0 +1,59 @@
+algorithm_id: AW-000015
+canonical_name: Lawrence, Reilly
+enrichment_status: THIRD_PASS_RECOVERED
+review_reasons:
+- Source-saturation pass found enough task, input, output, and access semantics for a context card.; public_leakage_term_in_name_or_statement
+source_records:
+- access_status: metadata_only
+  digest: a5ae0431a9ff9d31
+  extracted_facts:
+  - 'AlgorithmWiki row name: Lawrence, Reilly'
+  - 'domain: unknown'
+  - 'time complexity: O(nm)'
+  - 'space complexity: O(nm)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of sequences, m: length of sequences'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000015:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Lawrence, Reilly
+  url: https://www.ncbi.nlm.nih.gov/pubmed/2184437
+- access_status: fetched
+  digest: a9fb1101cc5b6397
+  extracted_facts:
+  - 'source page title: An expectation maximization (EM) algorithm for the identification and characterization of common sites in unaligned biopolymer sequences - PubMed'
+  - 'source page description: Statistical methodology for the identification and characterization of protein binding sites in a set of unaligned DNA fragments is presented.'
+  reliability: LOW
+  short_quote: Statistical methodology for the identification and characterization of protein binding sites in a set of unaligned DNA fragments is presented.
+  source_id: source:afe6bc52f27fb6ec
+  source_type: other_public_source
+  title: An expectation maximization (EM) algorithm for the identification and characterization of common sites in unaligned biopolymer sequences - PubMed
+  url: https://www.ncbi.nlm.nih.gov/pubmed/2184437
+- access_status: fetched
+  digest: 3594a74a3f8f2f04
+  extracted_facts:
+  - 'Crossref title-search result: An expectation maximization (EM) algorithm for the identification and characterization of common sites in unaligned biopolymer sequences'
+  - 'abstract summary: Abstract Statistical methodology for the identification and characterization of protein binding sites in a set of unaligned DNA fragments is presented.'
+  reliability: MEDIUM
+  short_quote: Abstract Statistical methodology for the identification and characterization of protein binding sites in a set of unaligned DNA fragments is presented.
+  source_id: crossref_search:1165118262d70c13
+  source_type: doi_metadata
+  title: An expectation maximization (EM) algorithm for the identification and characterization of common sites in unaligned biopolymer sequences
+  url: https://doi.org/10.1002/prot.340070105
+- source_id: crossref_search:8fd8d2220c4a93b7
+  url: https://doi.org/10.25291/vr/19-vlr-22
+  title: REILLY v. REILLY
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title: REILLY v. REILLY'
+  - 'published year: 1876'
+  - 'container title: Victorian Reports'
+  short_quote: 'Crossref title: REILLY v. REILLY published year: 1876 container title: Victorian Reports'
+  digest: b2126f66bc71d592
+extracted_problem_statement: 'Lawrence, Reilly is treated as a source-saturated AlgorithmWiki row for identify shared motifs or common sites in biological sequences Input semantics: A collection of sequences, sequence length parameters, alphabet information, and motif/model parameters. Output semantics: Motif locations, motif model parameters, or a scored set of common sequence sites.'
+extracted_input_semantics: A collection of sequences, sequence length parameters, alphabet information, and motif/model parameters.
+extracted_output_semantics: Motif locations, motif model parameters, or a scored set of common sequence sites.

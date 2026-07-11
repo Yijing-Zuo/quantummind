@@ -1,0 +1,61 @@
+algorithm_family: graph
+algorithm_id: AW-001613
+approximate: '0'
+approximation_factor: ''
+blind_name: Algorithm Wiki public task AW-001613
+canonical_name: Sorenson
+computational_model: boolean circuits
+domain: graph
+extracted_description: ''
+extraction_version: algorithm-wiki-rich-context-v1
+family: graph
+inferred_access_model: adjacency_list_query
+inferred_ambiguities:
+- The AlgorithmWiki row marks the classical method as randomized.
+- No independent fetched public metadata source resolved this row beyond AlgorithmWiki metadata/source-link facts.
+- Some details are reconstructed from AlgorithmWiki metadata rather than an independently fetched full public description.
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.
+inferred_input_model: explicit_graph_problem
+inferred_output_contract: full_solution
+inferred_problem_statement: 'Sorenson is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Sorenson. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+inferred_promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+- classical_randomized_algorithm
+inferred_size_parameters:
+- 'Parameter definition: d: a positive constant s.t. B=n^{log^d n}, n: length of input, B: bound for the prime base'
+number_of_processors: ''
+page_digest: ''
+page_fetch_status: not_found
+page_url: ''
+parameter_definitions: 'd: a positive constant s.t. B=n^{log^d n}, n: length of input, B: bound for the prime base'
+problem_name: graph
+quality_flags:
+- domain_inferred
+- problem_statement_inferred
+- io_access_output_inferred
+- has_complexity_semantics
+- has_size_parameters
+- has_computational_model
+- randomized_flag_preserved
+quality_score: 100
+randomized: '1'
+readiness: READY_PUBLIC_CONTEXT
+review_reasons:
+- insufficient_algorithm_level_structure
+source_link: https://www.sciencedirect.com/science/article/pii/S0890540184710212/pdf
+source_link_type: sciencedirect
+space_complexity: ''
+span_depth: O(log^{2d+2} n)
+time_complexity: O(\log^{2d+2} n)
+variation: ''
+work: exp[O(\log^d n)]
+year: '1994'
+rich_card_kind: context
+source_records_used:
+- AW-001613:algorithm_wiki_metadata
+- skipped:180bb564d1067e19
+source_count: 2
+source_quality: HIGH
+confidence_score: 100
+card_digest: 29b703ea62842f5b

@@ -1,0 +1,59 @@
+algorithm_family: optimization
+algorithm_id: AW-000942
+approximate: ''
+approximation_factor: ''
+blind_name: Algorithm Wiki public task AW-000942
+canonical_name: WalkSAT
+computational_model: ''
+domain: optimization
+extracted_description: ''
+extraction_version: algorithm-wiki-rich-context-v1
+family: optimization
+inferred_access_model: explicit_input_instance
+inferred_ambiguities:
+- The AlgorithmWiki row marks the classical method as randomized.
+- No independent fetched public metadata source resolved this row beyond AlgorithmWiki metadata/source-link facts.
+- Some details are reconstructed from AlgorithmWiki metadata rather than an independently fetched full public description.
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.
+inferred_input_model: explicit_optimization_problem
+inferred_output_contract: assignment_or_schedule
+inferred_problem_statement: 'WalkSAT is treated as a classical optimization task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with WalkSAT. Input semantics: An explicit feasible-region, objective, scheduling, assignment, or knapsack-style instance. Output semantics: An optimal or approximate feasible solution with its objective value or schedule/assignment representation.'
+inferred_promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+- classical_randomized_algorithm
+inferred_size_parameters:
+- 'Parameter definition: n: number of variables, mt: maximum assignments tested, mf: maximum flips per assignment'
+number_of_processors: ''
+page_digest: ''
+page_fetch_status: not_found
+page_url: ''
+parameter_definitions: 'n: number of variables, mt: maximum assignments tested, mf: maximum flips per assignment'
+problem_name: optimization
+quality_flags:
+- domain_inferred
+- problem_statement_inferred
+- io_access_output_inferred
+- has_complexity_semantics
+- has_size_parameters
+- randomized_flag_preserved
+quality_score: 100
+randomized: '1'
+readiness: READY_PUBLIC_CONTEXT
+review_reasons:
+- duplicate_public_blind_digest:7abd37f5f25f3fa5 kept:AW-000941
+source_link: https://www.aaai.org/Papers/AAAI/1994/AAAI94-051.pdf
+source_link_type: pdf
+space_complexity: O(n)
+span_depth: ''
+time_complexity: O(n*mt*mf)
+variation: ''
+work: ''
+year: '1994'
+rich_card_kind: context
+source_records_used:
+- AW-000942:algorithm_wiki_metadata
+source_count: 1
+source_quality: HIGH
+confidence_score: 100
+card_digest: d5ad37251374e8e1

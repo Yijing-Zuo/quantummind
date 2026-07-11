@@ -1,0 +1,45 @@
+id: AW-001704
+kind: context
+algorithm_id: AW-001704
+algorithm_name: Kuck, Sameh (Jacobi's method)
+source_records:
+- access_status: metadata_only
+  digest: 3fc02b7c04a1abca
+  extracted_facts:
+  - 'AlgorithmWiki row name: Kuck, Sameh (Jacobi''s method)'
+  - 'domain: matrix_linear_algebra'
+  - 'time complexity: O( n^3 / p + n^2 / p^{1/2} + n )'
+  - 'computational model: massively parallel (based on ILLAC mention)'
+  - 'parameter definitions: P_E x P_E matrix'
+  - 'precard summary: Given one or more explicit dense matrices over the stated arithmetic domain, compute the matrix or linear-algebraic output specified by the record. Baseline: time O( n^3 / p + n^2 / p^{1/2} + n ); work O( n^3 ); span/depth \Theta( n ); processors p. Bottleneck: dense arithmetic and full matrix output dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001704:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Kuck, Sameh (Jacobi's method)
+  url: https://apps.dtic.mil/sti/pdfs/AD0737292.pdf
+web_query_attempts:
+- method: search_plan
+  query: Kuck, Sameh (Jacobi's method) algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Kuck, Sameh (Jacobi's method) algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Kuck, Sameh (Jacobi's method) problem definition
+  status: recorded
+- method: search_plan
+  query: Kuck, Sameh (Jacobi's method) matrix linear algebra algorithm
+  status: recorded
+- method: search_plan
+  query: Kuck, Sameh (Jacobi's method) site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Kuck, Sameh (Jacobi's method) algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://apps.dtic.mil/sti/pdfs/AD0737292.pdf
+  status: recorded
+extracted_problem_statement: 'Kuck, Sameh (Jacobi''s method) is treated as a classical matrix linear algebra task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Kuck, Sameh (Jacobi''s method). Input semantics: One or more explicit matrices or linear systems over the stated arithmetic domain. Output semantics: The requested matrix, decomposition, solution vector, or other linear-algebraic output.'
+extracted_algorithm_summary: 'Kuck, Sameh (Jacobi''s method) is a matrix linear algebra algorithm record. Classical complexity metadata: time O( n^3 / p + n^2 / p^{1/2} + n ); work O( n^3 ); span/depth \Theta( n ); processors p. The stated classical model is massively parallel (based on ILLAC mention). Public metadata/source text adds: Kuck, Sameh (Jacobi''s method) matrix_linear_algebra matrix_linear_algebra P_E x P_E matrix O( n^3 / p + n^2 / p^{1/2} + n ) Given one or more explicit dense matrices over the stated arithmetic domain, compute the matrix or linear-algebraic output specified by the record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

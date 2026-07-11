@@ -1,0 +1,59 @@
+id: AW-000136-P0102
+kind: probe
+algorithm_id: AW-000136
+algorithm_name: Petford and Welsh
+source_records:
+- access_status: metadata_only
+  digest: 795dfbbda5403145
+  extracted_facts:
+  - 'AlgorithmWiki row name: Petford and Welsh'
+  - 'domain: graph'
+  - 'time complexity: O(n \log n)'
+  - 'space complexity: O(n)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of vertices'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(n \log n); space O(n). Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000136:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Petford and Welsh
+  url: https://www.sciencedirect.com/science/article/pii/0012365X89902148
+- access_status: failed
+  digest: 96e61dd7703366ee
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:cb4e05de5ec532ce
+  source_type: publisher_abstract
+  title: 'HTTP Error 403: Forbidden'
+  url: https://www.sciencedirect.com/science/article/pii/0012365X89902148
+web_query_attempts:
+- method: search_plan
+  query: Petford and Welsh algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Petford and Welsh algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Petford and Welsh problem definition
+  status: recorded
+- method: search_plan
+  query: Petford and Welsh graph algorithm
+  status: recorded
+- method: search_plan
+  query: Petford and Welsh site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Petford and Welsh algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://www.sciencedirect.com/science/article/pii/0012365X89902148
+  status: recorded
+- method: source_link_html_metadata
+  query: https://www.sciencedirect.com/science/article/pii/0012365X89902148
+  status: failed
+extracted_problem_statement: 'Petford and Welsh is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Petford and Welsh. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'Petford and Welsh is a graph algorithm record. Classical complexity metadata: time O(n \log n); space O(n). The stated classical model is Word RAM. Public metadata/source text adds: Petford and Welsh graph graph n: number of vertices O(n \log n) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

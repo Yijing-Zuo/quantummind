@@ -1,0 +1,35 @@
+algorithm_id: AW-000133
+canonical_name: UKF
+enrichment_status: SECOND_PASS_INSUFFICIENT
+review_reasons:
+- No second-pass rule could identify source-backed task semantics.
+source_records:
+- access_status: metadata_only
+  digest: f98782911de0c086
+  extracted_facts:
+  - 'AlgorithmWiki row name: UKF'
+  - 'domain: unknown'
+  - 'time complexity: O(n^3)'
+  - 'space complexity: O(n^2)'
+  - 'computational model: Real RAM'
+  - 'parameter definitions: n: number of dimensions in state space'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000133:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for UKF
+  url: https://www.seas.harvard.edu/courses/cs281/papers/unscented.pdf
+- source_id: crossref_search:b3dc2885f8a0225c
+  url: https://doi.org/10.1109/ccdc.2012.6243112
+  title: An SLAM algorithm based on improved UKF
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: An SLAM algorithm based on improved UKF'
+  short_quote: ''
+  digest: 3e433f5586a2dee2
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

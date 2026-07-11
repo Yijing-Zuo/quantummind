@@ -1,0 +1,55 @@
+algorithm_id: AW-000834
+canonical_name: Naive Algorithm
+blind_name: Algorithm Wiki public task AW-000834
+year: '1848'
+domain: unknown
+family: unknown
+variation: ''
+problem_name: unknown
+algorithm_family: unknown
+time_complexity: O(n^n)
+space_complexity: O(n)
+computational_model: Word RAM
+randomized: '0'
+approximate: '0'
+approximation_factor: ''
+parameter_definitions: 'n: size of chessboard'
+span_depth: ''
+work: ''
+number_of_processors: ''
+source_link: ''
+source_link_type: unknown
+page_url: ''
+page_fetch_status: not_found
+page_digest: ''
+extracted_description: ''
+inferred_problem_statement: 'Naive Algorithm is reconstructed as a classical combinatorics task. Problem/task: place queens on a board subject to nonattacking constraints Input semantics: A board dimension n and a requested number of queens k when stated. Output semantics: A feasible placement or decision that no such placement exists.'
+inferred_input_model: explicit_combinatorial_problem
+inferred_access_model: explicit_input_instance
+inferred_output_contract: yes_no_decision
+inferred_size_parameters:
+- 'Parameter definition: n: size of chessboard'
+inferred_promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+inferred_ambiguities:
+- Some details are reconstructed from AlgorithmWiki metadata rather than an independently fetched full public description.
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.
+quality_score: 80
+quality_flags:
+- has_complexity_semantics
+- has_size_parameters
+- has_computational_model
+readiness: READY_PUBLIC_CONTEXT
+review_reasons:
+- A previous row has the same canonicalized algorithm name.
+extraction_version: algorithm-wiki-rich-second-pass-context-v1
+rich_card_kind: context_recovered
+source_records_used:
+- AW-000834:algorithm_wiki_metadata
+- crossref_search:b1ea5ba644f85af7
+source_count: 2
+source_quality: HIGH
+confidence_score: 80
+card_digest: 76a9c8c6ac38f719
+second_pass_rule: n_queens

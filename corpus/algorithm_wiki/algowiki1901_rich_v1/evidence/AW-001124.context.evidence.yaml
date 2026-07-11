@@ -1,0 +1,71 @@
+id: AW-001124
+kind: context
+algorithm_id: AW-001124
+algorithm_name: Sharesort - Cypher, Plaxton
+source_records:
+- access_status: metadata_only
+  digest: 10f3d8487e72332e
+  extracted_facts:
+  - 'AlgorithmWiki row name: Sharesort - Cypher, Plaxton'
+  - 'domain: sorting'
+  - 'time complexity: O(\log{n} (\log{\log{n}})^2)'
+  - 'computational model: network sorter (hypercube, shuffle-exchange or CCC), SIMD fashion'
+  - 'parameter definitions: n: size of list'
+  - 'precard summary: Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model. Baseline: time O(\log{n} (\log{\log{n}})^2); work O(n \log{n} (\log{\log{n}})^2); span/depth O(\log{n} (\log{\log{n}})^2); processors n. Bottleneck: comparison, distribution, and full-output movement costs dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001124:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Sharesort - Cypher, Plaxton
+  url: https://dl.acm.org/doi/pdf/10.1145/100216.100240
+- access_status: skipped
+  digest: 48065d2c0400f31b
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:782ce7e393237bd8
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1145/100216.100240
+- access_status: skipped
+  digest: ccff1439e80d04b7
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:815126426abba5c2
+  source_type: wikipedia
+  title: fetch budget exhausted
+  url: https://en.wikipedia.org/wiki/Sharesort_-_Cypher%2C_Plaxton
+web_query_attempts:
+- method: search_plan
+  query: Sharesort - Cypher, Plaxton algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Sharesort - Cypher, Plaxton algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Sharesort - Cypher, Plaxton problem definition
+  status: recorded
+- method: search_plan
+  query: Sharesort - Cypher, Plaxton sorting algorithm
+  status: recorded
+- method: search_plan
+  query: Sharesort - Cypher, Plaxton site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Sharesort - Cypher, Plaxton algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://dl.acm.org/doi/pdf/10.1145/100216.100240
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1145/100216.100240
+  status: skipped
+- method: wikipedia_summary_search
+  query: Sharesort - Cypher, Plaxton algorithm
+  status: skipped
+extracted_problem_statement: 'Sharesort - Cypher, Plaxton is treated as a classical sorting task for rich AlgorithmWiki discovery. Problem/task: sort the input sequence using the named classical sorting method. Input semantics: A finite array or list of comparable keys or records. Output semantics: The same items returned in nondecreasing order, usually as a full reordered sequence.'
+extracted_algorithm_summary: 'Sharesort - Cypher, Plaxton is a sorting algorithm record. Classical complexity metadata: time O(\log{n} (\log{\log{n}})^2); work O(n \log{n} (\log{\log{n}})^2); span/depth O(\log{n} (\log{\log{n}})^2); processors n. The stated classical model is network sorter (hypercube, shuffle-exchange or CCC), SIMD fashion. Public metadata/source text adds: Sharesort - Cypher, Plaxton sorting sorting n: size of list O(\log{n} (\log{\log{n}})^2) Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

@@ -1,0 +1,55 @@
+algorithm_family: string
+algorithm_id: AW-000112
+approximate: '0'
+approximation_factor: ''
+blind_name: Algorithm Wiki public task AW-000112
+canonical_name: PMS
+computational_model: Word RAM
+domain: string
+extracted_description: ''
+extraction_version: algorithm-wiki-rich-context-v1
+family: string
+inferred_access_model: random_access_string
+inferred_ambiguities:
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.
+inferred_input_model: explicit_string_problem
+inferred_output_contract: full_solution
+inferred_problem_statement: 'PMS is treated as a classical string task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with PMS. Input semantics: One or more finite strings, sequences, patterns, or alphabets. Output semantics: Pattern occurrence positions, matches, or the associated string-search report.'
+inferred_promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+inferred_size_parameters:
+- 'Parameter definition: n: size of set of input strings, m: size of input strings, k: length of substrings, \sigma: function V(k, m) defined as the number of k-mers that are at most m Hamming distance from the motif space, w: size of a word machine'
+number_of_processors: ''
+page_digest: ''
+page_fetch_status: not_found
+page_url: ''
+parameter_definitions: 'n: size of set of input strings, m: size of input strings, k: length of substrings, \sigma: function V(k, m) defined as the number of k-mers that are at most m Hamming distance from the motif space, w: size of a word machine'
+problem_name: string
+quality_flags:
+- domain_inferred
+- problem_statement_inferred
+- io_access_output_inferred
+- has_complexity_semantics
+- has_size_parameters
+- has_computational_model
+quality_score: 100
+randomized: '0'
+readiness: READY_PUBLIC_CONTEXT
+review_reasons: []
+source_link: https://ieeexplore.ieee.org/abstract/document/4359890
+source_link_type: unknown
+space_complexity: O(m^2 n)
+span_depth: ''
+time_complexity: O(nm^2 \sigma)
+variation: ''
+work: ''
+year: '2007'
+rich_card_kind: context
+source_records_used:
+- AW-000112:algorithm_wiki_metadata
+- source:4b58edb7c5f20c1a
+source_count: 2
+source_quality: HIGH
+confidence_score: 100
+card_digest: 808ce9cc5257aac8

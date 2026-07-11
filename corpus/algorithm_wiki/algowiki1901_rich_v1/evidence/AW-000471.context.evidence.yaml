@@ -1,0 +1,71 @@
+id: AW-000471
+kind: context
+algorithm_id: AW-000471
+algorithm_name: "Garsia\u2013Wachs algorithm"
+source_records:
+- access_status: metadata_only
+  digest: c023c7cb842451db
+  extracted_facts:
+  - "AlgorithmWiki row name: Garsia\u2013Wachs algorithm"
+  - 'domain: unknown'
+  - 'time complexity: O(n \log n)'
+  - 'space complexity: O(n)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of elements'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000471:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: "AlgorithmWiki metadata for Garsia\u2013Wachs algorithm"
+  url: https://epubs.siam.org/doi/abs/10.1137/0206045
+- access_status: fetched
+  digest: 78e18650ae434ef3
+  extracted_facts:
+  - 'DOI title: A New Algorithm for Minimum Cost Binary Trees'
+  - 'published year: 1977'
+  - 'container title: SIAM Journal on Computing'
+  reliability: HIGH
+  short_quote: ''
+  source_id: crossref:7dccb460f6674398
+  source_type: doi_metadata
+  title: A New Algorithm for Minimum Cost Binary Trees
+  url: https://doi.org/10.1137/0206045
+- access_status: failed
+  digest: d18a10fd5e97df41
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:2a36dcb36eadc8d8
+  source_type: publisher_abstract
+  title: 'HTTP Error 403: Forbidden'
+  url: https://epubs.siam.org/doi/abs/10.1137/0206045
+web_query_attempts:
+- method: search_plan
+  query: "Garsia\u2013Wachs algorithm algorithm input output complexity"
+  status: recorded
+- method: search_plan
+  query: "Garsia\u2013Wachs algorithm algorithm pseudocode"
+  status: recorded
+- method: search_plan
+  query: "Garsia\u2013Wachs algorithm problem definition"
+  status: recorded
+- method: search_plan
+  query: "Garsia\u2013Wachs algorithm site:nist.gov DADS"
+  status: recorded
+- method: search_plan
+  query: "Garsia\u2013Wachs algorithm algorithm wiki"
+  status: recorded
+- method: search_plan
+  query: https://epubs.siam.org/doi/abs/10.1137/0206045
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1137/0206045
+  status: fetched
+- method: source_link_html_metadata
+  query: https://epubs.siam.org/doi/abs/10.1137/0206045
+  status: failed
+extracted_problem_statement: "Garsia\u2013Wachs algorithm is treated as a classical data structures task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Garsia\u2013Wachs algorithm. Input semantics: A set of records plus update/query operations for the named data structure. Output semantics: A maintained data structure representation and answers to its supported queries."
+extracted_algorithm_summary: "Garsia\u2013Wachs algorithm is a data structures algorithm record. Classical complexity metadata: time O(n \\log n); space O(n). The stated classical model is Word RAM. Public metadata/source text adds: Garsia\u2013Wachs algorithm unknown unknown n: number of elements O(n \\log n) No public-ready summary is available because the row lacks enough task semantics."
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

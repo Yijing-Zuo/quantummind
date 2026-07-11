@@ -1,0 +1,28 @@
+algorithm_id: AW-000133
+canonical_name: UKF
+enrichment_status: WEB_INSUFFICIENT
+review_reasons:
+- missing_concrete_problem_statement
+- unknown_input_model
+- unknown_output_contract
+- unknown_access_model
+source_records:
+- access_status: metadata_only
+  digest: f98782911de0c086
+  extracted_facts:
+  - 'AlgorithmWiki row name: UKF'
+  - 'domain: unknown'
+  - 'time complexity: O(n^3)'
+  - 'space complexity: O(n^2)'
+  - 'computational model: Real RAM'
+  - 'parameter definitions: n: number of dimensions in state space'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000133:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for UKF
+  url: https://www.seas.harvard.edu/courses/cs281/papers/unscented.pdf
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

@@ -1,0 +1,75 @@
+id: AW-000802
+kind: context
+algorithm_id: AW-000802
+algorithm_name: Salomon (Swath Method)
+source_records:
+- access_status: metadata_only
+  digest: 4754796bfdf502e7
+  extracted_facts:
+  - 'AlgorithmWiki row name: Salomon (Swath Method)'
+  - 'domain: graph'
+  - 'time complexity: O(n \log n)'
+  - 'space complexity: O(n^2)'
+  - 'computational model: Real RAM'
+  - 'parameter definitions: n: number of edges of polygon'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(n \log n); space O(n^2). Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000802:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Salomon (Swath Method)
+  url: https://doi.org/10.1016/0098-3004(78)90085-7
+- access_status: fetched
+  digest: c894d03f7ce0697e
+  extracted_facts:
+  - 'DOI title: An efficient point-in-polygon algorithm'
+  - 'published year: 1978'
+  - 'container title: Computers &amp; Geosciences'
+  reliability: HIGH
+  short_quote: ''
+  source_id: crossref:daed5176dee5f329
+  source_type: doi_metadata
+  title: An efficient point-in-polygon algorithm
+  url: https://doi.org/10.1016/0098-3004(78)90085-7
+- access_status: fetched
+  digest: 77791db2d04c5b2c
+  extracted_facts:
+  - 'source page title: Redirecting'
+  - 'source page description: Redirecting'
+  reliability: HIGH
+  short_quote: Redirecting
+  source_id: source:240e8de039932cf4
+  source_type: doi_metadata
+  title: Redirecting
+  url: https://doi.org/10.1016/0098-3004(78)90085-7
+web_query_attempts:
+- method: search_plan
+  query: Salomon (Swath Method) algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Salomon (Swath Method) algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Salomon (Swath Method) problem definition
+  status: recorded
+- method: search_plan
+  query: Salomon (Swath Method) graph algorithm
+  status: recorded
+- method: search_plan
+  query: Salomon (Swath Method) site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Salomon (Swath Method) algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://doi.org/10.1016/0098-3004(78)90085-7
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1016/0098-3004(78)90085-7
+  status: fetched
+- method: source_link_html_metadata
+  query: https://doi.org/10.1016/0098-3004(78)90085-7
+  status: fetched
+extracted_problem_statement: 'Salomon (Swath Method) is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Salomon (Swath Method). Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'Salomon (Swath Method) is a graph algorithm record. Classical complexity metadata: time O(n \log n); space O(n^2). The stated classical model is Real RAM. Public metadata/source text adds: Salomon (Swath Method) graph graph n: number of edges of polygon O(n \log n) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

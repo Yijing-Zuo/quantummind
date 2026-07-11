@@ -1,0 +1,763 @@
+algorithm_id: AW-000538
+canonical_name: "Todd\u2013Coxeter algorithm"
+original_source_link: https://www.cambridge.org/core/journals/proceedings-of-the-edinburgh-mathematical-society/article/practical-method-for-enumerating-cosets-of-a-finite-abstract-group/0306574AD958F694A0A8339338348AA1
+source_link_type: unknown
+previous_failure_reasons:
+- No second-pass rule could identify source-backed task semantics.
+previous_source_records:
+- access_status: metadata_only
+  digest: d5a4f6ada0c0900f
+  extracted_facts:
+  - "AlgorithmWiki row name: Todd\u2013Coxeter algorithm"
+  - 'domain: unknown'
+  - 'time complexity: O(2^n)'
+  - 'space complexity: O(gkc)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of generators, g: order of group (possibly exponential in n), k: number of relations, c: maximum number of generators multiplied together in a relation'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000538:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: "AlgorithmWiki metadata for Todd\u2013Coxeter algorithm"
+  url: https://www.cambridge.org/core/journals/proceedings-of-the-edinburgh-mathematical-society/article/practical-method-for-enumerating-cosets-of-a-finite-abstract-group/0306574AD958F694A0A8339338348AA1
+- access_status: fetched
+  digest: 7fdc7b2532a8254e
+  extracted_facts:
+  - 'source page title: A practical method for enumerating cosets of a finite abstract group | Proceedings of the Edinburgh Mathematical Society | Cambridge Core'
+  - 'source page description: A practical method for enumerating cosets of a finite abstract group - Volume 5 Issue 1'
+  reliability: LOW
+  short_quote: A practical method for enumerating cosets of a finite abstract group - Volume 5 Issue 1
+  source_id: source:80bc567adefeb014
+  source_type: other_public_source
+  title: A practical method for enumerating cosets of a finite abstract group | Proceedings of the Edinburgh Mathematical Society | Cambridge Core
+  url: https://www.cambridge.org/core/journals/proceedings-of-the-edinburgh-mathematical-society/article/practical-method-for-enumerating-cosets-of-a-finite-abstract-group/0306574AD958F694A0A8339338348AA1
+- access_status: fetched
+  digest: 0164e01365462d11
+  extracted_facts:
+  - 'Crossref title-search result: A practical method for enumerating cosets of a finite abstract group'
+  - "abstract summary: An important problem in finite-group theory is the determination of an abstract definition for a given group , that is, a set of relations between k generating operations S 1 , \u2026., S k of , such that every other relation between S 1 , \u2026., S k is an algebraic consequence of (1)."
+  reliability: MEDIUM
+  short_quote: An important problem in finite-group theory is the determination of an abstract definition for a given group , that is, a set of relations
+  source_id: crossref_search:136fb48a39a7f5bf
+  source_type: doi_metadata
+  title: A practical method for enumerating cosets of a finite abstract group
+  url: https://doi.org/10.1017/s0013091500008221
+aliases_tried:
+- "Todd\u2013Coxeter algorithm"
+- "Todd\u2013Coxeter algorithm algorithm"
+- "Todd\u2013Coxeter algorithm problem"
+- "Todd\u2013Coxeter algorithm pseudocode"
+- "Todd\u2013Coxeter algorithm time complexity"
+- A practical method for enumerating cosets of a finite abstract group | Proceedings of the Edinburgh Mathematical Society | Cambridge Core
+- A practical method for enumerating cosets of a finite abstract group | Proceedings of the Edinburgh Mathematical Society | Cambridge Core algorithm
+- A practical method for enumerating cosets of a finite abstract group | Proceedings of the Edinburgh Mathematical Society | Cambridge Core complexity
+- A practical method for enumerating cosets of a finite abstract group
+- A practical method for enumerating cosets of a finite abstract group algorithm
+- A practical method for enumerating cosets of a finite abstract group complexity
+query_plan:
+- source_family: original_source
+  primary_query: "Todd\u2013Coxeter algorithm"
+  applicability: applicable
+  purpose: check the row's original source link without storing paywalled or PDF bodies
+- source_family: crossref
+  primary_query: "Todd\u2013Coxeter algorithm"
+  applicability: title-search-only
+  purpose: recover DOI title, venue, year, and abstract metadata where available
+- source_family: openalex
+  primary_query: "Todd\u2013Coxeter algorithm"
+  applicability: applicable
+  purpose: recover public work metadata and abstract-inverted-index summaries
+- source_family: semantic_scholar
+  primary_query: "Todd\u2013Coxeter algorithm"
+  applicability: applicable
+  purpose: recover CS paper metadata and abstracts without an API key
+- source_family: arxiv
+  primary_query: "Todd\u2013Coxeter algorithm"
+  applicability: title-search-only
+  purpose: recover arXiv title and abstract metadata
+- source_family: dblp
+  primary_query: "Todd\u2013Coxeter algorithm"
+  applicability: applicable
+  purpose: recover bibliographic title/venue metadata for CS publications
+- source_family: publisher_abstract
+  primary_query: "Todd\u2013Coxeter algorithm"
+  applicability: applicable
+  purpose: check accessible publisher abstract pages
+- source_family: citeseerx
+  primary_query: "Todd\u2013Coxeter algorithm"
+  applicability: applicable
+  purpose: record legacy CiteSeerX availability without full PDF storage
+- source_family: wikipedia
+  primary_query: "Todd\u2013Coxeter algorithm"
+  applicability: applicable
+  purpose: check public encyclopedia algorithm descriptions
+- source_family: wikidata
+  primary_query: "Todd\u2013Coxeter algorithm"
+  applicability: applicable
+  purpose: check public entity aliases/descriptions
+- source_family: nist_dads
+  primary_query: "Todd\u2013Coxeter algorithm"
+  applicability: applicable
+  purpose: check whether a DADS-style reference search is applicable
+- source_family: algorithm_wiki_local
+  primary_query: "Todd\u2013Coxeter algorithm"
+  applicability: applicable
+  purpose: reuse AlgorithmWiki metadata as provenance
+- source_family: the_algorithms
+  primary_query: "Todd\u2013Coxeter algorithm"
+  applicability: applicable
+  purpose: check exact public implementation/reference names when available
+- source_family: cp_algorithms
+  primary_query: "Todd\u2013Coxeter algorithm"
+  applicability: applicable
+  purpose: check exact public algorithm reference names when available
+- source_family: course_notes
+  primary_query: "Todd\u2013Coxeter algorithm"
+  applicability: applicable
+  purpose: record absence of configured course-notes search
+- source_family: general_web_search
+  primary_query: "Todd\u2013Coxeter algorithm"
+  applicability: applicable
+  purpose: record absence of a configured general web endpoint
+- source_family: local_previous_cache
+  primary_query: "Todd\u2013Coxeter algorithm"
+  applicability: applicable
+  purpose: reuse v1/second-pass fetched source records
+query_attempts:
+- &id001
+  cycle: 1
+  query: "Todd\u2013Coxeter algorithm"
+  source_family: algorithm_wiki_local
+  url_or_api_endpoint: https://www.cambridge.org/core/journals/proceedings-of-the-edinburgh-mathematical-society/article/practical-method-for-enumerating-cosets-of-a-finite-abstract-group/0306574AD958F694A0A8339338348AA1
+  status: fetched
+  new_facts_added: 9
+  reason: local metadata
+- &id002
+  cycle: 1
+  query: "Todd\u2013Coxeter algorithm"
+  source_family: local_previous_cache
+  url_or_api_endpoint: ''
+  status: duplicate
+  new_facts_added: 0
+  reason: previous v1/second-pass sources reused
+- &id003
+  cycle: 1
+  query: https://www.cambridge.org/core/journals/proceedings-of-the-edinburgh-mathematical-society/article/practical-method-for-enumerating-cosets-of-a-finite-abstract-group/0306574AD958F694A0A8339338348AA1
+  source_family: original_source
+  url_or_api_endpoint: https://www.cambridge.org/core/journals/proceedings-of-the-edinburgh-mathematical-society/article/practical-method-for-enumerating-cosets-of-a-finite-abstract-group/0306574AD958F694A0A8339338348AA1
+  status: irrelevant
+  new_facts_added: 3
+  reason: original source page metadata
+- &id004
+  cycle: 1
+  query: "Todd\u2013Coxeter algorithm"
+  source_family: crossref
+  url_or_api_endpoint: https://doi.org/10.1007/978-94-017-1108-1_3
+  status: fetched
+  new_facts_added: 6
+  reason: Crossref metadata/title search
+- &id005
+  cycle: 1
+  query: "Todd\u2013Coxeter algorithm"
+  source_family: arxiv
+  url_or_api_endpoint: https://export.arxiv.org/api/query?max_results=1&search_query=ti:%22Todd%E2%80%93Coxeter+algorithm%22
+  status: no_result
+  new_facts_added: 0
+  reason: arXiv title search returned no usable entry
+- &id006
+  cycle: 1
+  query: "Todd\u2013Coxeter algorithm"
+  source_family: wikipedia
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: Wikipedia search returned no relevant page
+- &id007
+  cycle: 2
+  query: "Todd\u2013Coxeter algorithm"
+  source_family: openalex
+  url_or_api_endpoint: https://api.openalex.org/works?per-page=1&search=Todd%E2%80%93Coxeter+algorithm
+  status: fetched
+  new_facts_added: 6
+  reason: OpenAlex work metadata
+- &id008
+  cycle: 2
+  query: "Todd\u2013Coxeter algorithm"
+  source_family: semantic_scholar
+  url_or_api_endpoint: https://api.semanticscholar.org/graph/v1/paper/search?limit=1&fields=title,abstract,year,url,externalIds&query=Todd%E2%80%93Coxeter+algorithm
+  status: fetch_failed
+  new_facts_added: 0
+  reason: Semantic Scholar returned no usable paper
+- &id009
+  cycle: 2
+  query: "Todd\u2013Coxeter algorithm"
+  source_family: dblp
+  url_or_api_endpoint: https://dblp.org/search/publ/api?format=json&h=1&q=Todd%E2%80%93Coxeter+algorithm
+  status: no_result
+  new_facts_added: 0
+  reason: DBLP returned no usable publication
+- &id010
+  cycle: 2
+  query: https://www.cambridge.org/core/journals/proceedings-of-the-edinburgh-mathematical-society/article/practical-method-for-enumerating-cosets-of-a-finite-abstract-group/0306574AD958F694A0A8339338348AA1
+  source_family: original_source
+  url_or_api_endpoint: https://www.cambridge.org/core/journals/proceedings-of-the-edinburgh-mathematical-society/article/practical-method-for-enumerating-cosets-of-a-finite-abstract-group/0306574AD958F694A0A8339338348AA1
+  status: irrelevant
+  new_facts_added: 3
+  reason: original source page metadata
+- &id011
+  cycle: 2
+  query: "Todd\u2013Coxeter algorithm"
+  source_family: wikidata
+  url_or_api_endpoint: http://www.wikidata.org/entity/Q690505
+  status: fetched
+  new_facts_added: 4
+  reason: Wikidata entity search
+- &id012
+  cycle: 3
+  query: "Todd\u2013Coxeter algorithm"
+  source_family: citeseerx
+  url_or_api_endpoint: ''
+  status: paywalled
+  new_facts_added: 0
+  reason: CiteSeerX link is PDF/legacy metadata; full PDF body skipped
+- &id013
+  cycle: 3
+  query: "Todd\u2013Coxeter algorithm"
+  source_family: nist_dads
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: NIST DADS has no reliable bulk search API in this environment
+- &id014
+  cycle: 3
+  query: "Todd\u2013Coxeter algorithm"
+  source_family: the_algorithms
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: TheAlgorithms search skipped unless a known exact reference is available
+- &id015
+  cycle: 3
+  query: "Todd\u2013Coxeter algorithm"
+  source_family: cp_algorithms
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: CP-Algorithms search skipped unless a known exact reference is available
+- &id016
+  cycle: 3
+  query: "Todd\u2013Coxeter algorithm"
+  source_family: course_notes
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: No configured public course-notes search endpoint
+- &id017
+  cycle: 3
+  query: "Todd\u2013Coxeter algorithm"
+  source_family: general_web_search
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: No configured general web search endpoint; Google Scholar scraping is not used
+- &id018
+  cycle: 4
+  query: "Todd\u2013Coxeter algorithm"
+  source_family: crossref
+  url_or_api_endpoint: https://doi.org/10.1007/978-94-017-1108-1_3
+  status: fetched
+  new_facts_added: 6
+  reason: Crossref metadata/title search
+- &id019
+  cycle: 4
+  query: "Todd\u2013Coxeter algorithm"
+  source_family: openalex
+  url_or_api_endpoint: https://api.openalex.org/works?per-page=1&search=Todd%E2%80%93Coxeter+algorithm
+  status: fetched
+  new_facts_added: 6
+  reason: OpenAlex work metadata
+- &id020
+  cycle: 4
+  query: "Todd\u2013Coxeter algorithm"
+  source_family: semantic_scholar
+  url_or_api_endpoint: https://api.semanticscholar.org/graph/v1/paper/search?limit=1&fields=title,abstract,year,url,externalIds&query=Todd%E2%80%93Coxeter+algorithm
+  status: fetch_failed
+  new_facts_added: 0
+  reason: Semantic Scholar returned no usable paper
+- &id021
+  cycle: 4
+  query: "Todd\u2013Coxeter algorithm"
+  source_family: wikipedia
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: Wikipedia search returned no relevant page
+- &id022
+  cycle: 4
+  query: "Todd\u2013Coxeter algorithm"
+  source_family: dblp
+  url_or_api_endpoint: https://dblp.org/search/publ/api?format=json&h=1&q=Todd%E2%80%93Coxeter+algorithm
+  status: no_result
+  new_facts_added: 0
+  reason: DBLP returned no usable publication
+source_attempts:
+- *id001
+- *id002
+- *id003
+- *id004
+- *id005
+- *id006
+- *id007
+- *id008
+- *id009
+- *id010
+- *id011
+- *id012
+- *id013
+- *id014
+- *id015
+- *id016
+- *id017
+- *id018
+- *id019
+- *id020
+- *id021
+- *id022
+discovered_sources:
+- source_id: crossref_search:b44875b287ed28ad
+  url: https://doi.org/10.1007/978-94-017-1108-1_3
+  title: Generalisations of the Todd-Coxeter Algorithm
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title: Generalisations of the Todd-Coxeter Algorithm'
+  - 'published year: 1995'
+  - 'container title: Computational Algebra and Number Theory'
+  short_quote: 'Crossref title: Generalisations of the Todd-Coxeter Algorithm published year: 1995 container title: Computational Algebra and Number Theory'
+  digest: efc8f25a57642806
+- source_id: openalex:0264294159869596
+  url: https://openalex.org/W1989878058
+  title: Implementation and analysis of the Todd-Coxeter algorithm
+  source_type: openalex
+  access_status: fetched
+  reliability: HIGH
+  extracted_facts:
+  - 'OpenAlex title: Implementation and analysis of the Todd-Coxeter algorithm'
+  - 'publication year: 1973'
+  - 'abstract summary: A recent form of the Todd-Coxeter algorithm, known as the lookahead algorithm, is described.'
+  short_quote: 'OpenAlex title: Implementation and analysis of the Todd-Coxeter algorithm publication year: 1973 abstract summary: A recent form of the Todd-Coxeter algorithm, known as the'
+  digest: 9f99497b1495a101
+- source_id: wikidata:341f73663e6a014d
+  url: http://www.wikidata.org/entity/Q690505
+  title: "Todd\u2013Coxeter algorithm"
+  source_type: wikidata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - "Todd\u2013Coxeter algorithm"
+  - algorithm
+  short_quote: "Todd\u2013Coxeter algorithm algorithm"
+  digest: c53e1d61a8dd1713
+discovered_facts:
+- fact_id: AW-000538-F8f62f788d9
+  fact_type: alias
+  value: "Todd\u2013Coxeter algorithm"
+  source_id: AW-000538:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: AlgorithmWiki metadata
+- fact_id: AW-000538-F7467a702f9
+  fact_type: time_complexity
+  value: O(2^n)
+  source_id: AW-000538:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: AlgorithmWiki metadata
+- fact_id: AW-000538-F1d0dac09f8
+  fact_type: space_complexity
+  value: O(gkc)
+  source_id: AW-000538:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: AlgorithmWiki metadata
+- fact_id: AW-000538-F0f34113f72
+  fact_type: computation_model
+  value: Word RAM
+  source_id: AW-000538:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: AlgorithmWiki metadata
+- fact_id: AW-000538-F59e9260ef2
+  fact_type: input_semantics
+  value: 'Parameter definitions: n: number of generators, g: order of group (possibly exponential in n), k: number of relations, c: maximum number of generators multiplied together in a relation'
+  source_id: AW-000538:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 75
+  conflict_status: weak
+  notes: AlgorithmWiki parameter metadata
+- fact_id: AW-000538-F9dc5ac7370
+  fact_type: authoritative_source_link
+  value: https://www.cambridge.org/core/journals/proceedings-of-the-edinburgh-mathematical-society/article/practical-method-for-enumerating-cosets-of-a-finite-abstract-group/0306574AD958F694A0A8339338348AA1
+  source_id: AW-000538:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 70
+  conflict_status: consistent
+  notes: Original source link from AlgorithmWiki metadata
+- fact_id: AW-000538-Feda59ba920
+  fact_type: source_title
+  value: "AlgorithmWiki metadata for Todd\u2013Coxeter algorithm"
+  source_id: AW-000538:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000538-F7c1ad31ea0
+  fact_type: problem_definition
+  value: "Source title indicates: AlgorithmWiki metadata for Todd\u2013Coxeter algorithm"
+  source_id: AW-000538:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: weak
+  notes: previous_source_record
+- fact_id: AW-000538-F1b99edc14f
+  fact_type: problem_definition
+  value: "AlgorithmWiki row name: Todd\u2013Coxeter algorithm"
+  source_id: AW-000538:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000538-F5de22fdfdf
+  fact_type: problem_definition
+  value: 'domain: unknown'
+  source_id: AW-000538:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000538-F2060b7f25a
+  fact_type: time_complexity
+  value: 'time complexity: O(2^n)'
+  source_id: AW-000538:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000538-F113c564f8a
+  fact_type: space_complexity
+  value: 'space complexity: O(gkc)'
+  source_id: AW-000538:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000538-Fcab7ac4362
+  fact_type: computation_model
+  value: 'computational model: Word RAM'
+  source_id: AW-000538:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000538-F5fd0a09227
+  fact_type: problem_definition
+  value: 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  source_id: AW-000538:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000538-F8928fe5798
+  fact_type: source_title
+  value: A practical method for enumerating cosets of a finite abstract group | Proceedings of the Edinburgh Mathematical Society | Cambridge Core
+  source_id: source:80bc567adefeb014
+  reliability: LOW
+  confidence: 45
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000538-F589a1a2900
+  fact_type: problem_definition
+  value: 'source page title: A practical method for enumerating cosets of a finite abstract group | Proceedings of the Edinburgh Mathematical Society | Cambridge Core'
+  source_id: source:80bc567adefeb014
+  reliability: LOW
+  confidence: 45
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000538-Fe10e8b303c
+  fact_type: problem_definition
+  value: 'source page description: A practical method for enumerating cosets of a finite abstract group - Volume 5 Issue 1'
+  source_id: source:80bc567adefeb014
+  reliability: LOW
+  confidence: 45
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000538-F069b62fbbd
+  fact_type: source_title
+  value: A practical method for enumerating cosets of a finite abstract group
+  source_id: crossref_search:136fb48a39a7f5bf
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000538-F152d578c1b
+  fact_type: problem_definition
+  value: 'Crossref title-search result: A practical method for enumerating cosets of a finite abstract group'
+  source_id: crossref_search:136fb48a39a7f5bf
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000538-F8f72ccf8bf
+  fact_type: problem_definition
+  value: "abstract summary: An important problem in finite-group theory is the determination of an abstract definition for a given group , that is, a set of relations between k generating operations S 1 , \u2026., S k of , such that every other relation between S 1 , \u2026., S k is an algebraic consequence of (1)."
+  source_id: crossref_search:136fb48a39a7f5bf
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000538-F3c86ad5faa
+  fact_type: authoritative_source_link
+  value: https://doi.org/10.1017/s0013091500008221
+  source_id: crossref_search:136fb48a39a7f5bf
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000538-F84039be5fa
+  fact_type: problem_definition
+  value: A practical method for enumerating cosets of a finite abstract group - Volume 5 Issue 1
+  source_id: source:80bc567adefeb014
+  reliability: LOW
+  confidence: 45
+  conflict_status: consistent
+  notes: original_source
+- fact_id: AW-000538-F2680b4a0cf
+  fact_type: source_title
+  value: Generalisations of the Todd-Coxeter Algorithm
+  source_id: crossref_search:b44875b287ed28ad
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: consistent
+  notes: crossref
+- fact_id: AW-000538-F10ddb53e2c
+  fact_type: problem_definition
+  value: 'Source title indicates: Generalisations of the Todd-Coxeter Algorithm'
+  source_id: crossref_search:b44875b287ed28ad
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: weak
+  notes: crossref
+- fact_id: AW-000538-F8613198541
+  fact_type: problem_definition
+  value: 'Crossref title: Generalisations of the Todd-Coxeter Algorithm'
+  source_id: crossref_search:b44875b287ed28ad
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: consistent
+  notes: crossref
+- fact_id: AW-000538-F3a532c1a48
+  fact_type: problem_definition
+  value: 'published year: 1995'
+  source_id: crossref_search:b44875b287ed28ad
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: consistent
+  notes: crossref
+- fact_id: AW-000538-F261b834578
+  fact_type: problem_definition
+  value: 'container title: Computational Algebra and Number Theory'
+  source_id: crossref_search:b44875b287ed28ad
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: consistent
+  notes: crossref
+- fact_id: AW-000538-F05a7705b69
+  fact_type: authoritative_source_link
+  value: https://doi.org/10.1007/978-94-017-1108-1_3
+  source_id: crossref_search:b44875b287ed28ad
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: consistent
+  notes: crossref
+- fact_id: AW-000538-Fc86c32ba8f
+  fact_type: source_title
+  value: Implementation and analysis of the Todd-Coxeter algorithm
+  source_id: openalex:0264294159869596
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: openalex
+- fact_id: AW-000538-F684c343539
+  fact_type: problem_definition
+  value: 'Source title indicates: Implementation and analysis of the Todd-Coxeter algorithm'
+  source_id: openalex:0264294159869596
+  reliability: HIGH
+  confidence: 85
+  conflict_status: weak
+  notes: openalex
+- fact_id: AW-000538-F42799243c4
+  fact_type: problem_definition
+  value: 'OpenAlex title: Implementation and analysis of the Todd-Coxeter algorithm'
+  source_id: openalex:0264294159869596
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: openalex
+- fact_id: AW-000538-F948f87e88f
+  fact_type: problem_definition
+  value: 'publication year: 1973'
+  source_id: openalex:0264294159869596
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: openalex
+- fact_id: AW-000538-F4f067181a4
+  fact_type: problem_definition
+  value: 'abstract summary: A recent form of the Todd-Coxeter algorithm, known as the lookahead algorithm, is described.'
+  source_id: openalex:0264294159869596
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: openalex
+- fact_id: AW-000538-Fcd31e1e21c
+  fact_type: authoritative_source_link
+  value: https://openalex.org/W1989878058
+  source_id: openalex:0264294159869596
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: openalex
+- fact_id: AW-000538-Fc22fa2fc6c
+  fact_type: source_title
+  value: "Todd\u2013Coxeter algorithm"
+  source_id: wikidata:341f73663e6a014d
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: consistent
+  notes: wikidata
+- fact_id: AW-000538-Fdf560e9cc6
+  fact_type: problem_definition
+  value: "Source title indicates: Todd\u2013Coxeter algorithm"
+  source_id: wikidata:341f73663e6a014d
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: weak
+  notes: wikidata
+- fact_id: AW-000538-Feeacaee91f
+  fact_type: problem_definition
+  value: algorithm
+  source_id: wikidata:341f73663e6a014d
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: consistent
+  notes: wikidata
+- fact_id: AW-000538-Fb15c8b8714
+  fact_type: authoritative_source_link
+  value: http://www.wikidata.org/entity/Q690505
+  source_id: wikidata:341f73663e6a014d
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: consistent
+  notes: wikidata
+duplicate_sources:
+- source_id: AW-000538:algorithm_wiki_metadata
+  url: https://www.cambridge.org/core/journals/proceedings-of-the-edinburgh-mathematical-society/article/practical-method-for-enumerating-cosets-of-a-finite-abstract-group/0306574AD958F694A0A8339338348AA1
+  title: "AlgorithmWiki metadata for Todd\u2013Coxeter algorithm"
+  source_type: algorithm_wiki
+  access_status: metadata_only
+  reliability: HIGH
+  extracted_facts:
+  - "AlgorithmWiki row name: Todd\u2013Coxeter algorithm"
+  - 'domain: unknown'
+  - 'time complexity: O(2^n)'
+  - 'space complexity: O(gkc)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of generators, g: order of group (possibly exponential in n), k: number of relations, c: maximum number of generators multiplied together in a relation'
+  short_quote: ''
+  digest: 77683311454fb0c3
+- source_id: source:80bc567adefeb014
+  url: https://www.cambridge.org/core/journals/proceedings-of-the-edinburgh-mathematical-society/article/practical-method-for-enumerating-cosets-of-a-finite-abstract-group/0306574AD958F694A0A8339338348AA1
+  title: A practical method for enumerating cosets of a finite abstract group | Proceedings of the Edinburgh Mathematical Society | Cambridge Core
+  source_type: publisher_abstract
+  access_status: fetched
+  reliability: LOW
+  extracted_facts:
+  - A practical method for enumerating cosets of a finite abstract group | Proceedings of the Edinburgh Mathematical Society | Cambridge Core
+  - A practical method for enumerating cosets of a finite abstract group - Volume 5 Issue 1
+  short_quote: A practical method for enumerating cosets of a finite abstract group | Proceedings of the Edinburgh Mathematical Society | Cambridge Core A practical method
+  digest: ac195c133402bb06
+- source_id: source:80bc567adefeb014
+  url: https://www.cambridge.org/core/journals/proceedings-of-the-edinburgh-mathematical-society/article/practical-method-for-enumerating-cosets-of-a-finite-abstract-group/0306574AD958F694A0A8339338348AA1
+  title: A practical method for enumerating cosets of a finite abstract group | Proceedings of the Edinburgh Mathematical Society | Cambridge Core
+  source_type: publisher_abstract
+  access_status: fetched
+  reliability: LOW
+  extracted_facts:
+  - A practical method for enumerating cosets of a finite abstract group | Proceedings of the Edinburgh Mathematical Society | Cambridge Core
+  - A practical method for enumerating cosets of a finite abstract group - Volume 5 Issue 1
+  short_quote: A practical method for enumerating cosets of a finite abstract group | Proceedings of the Edinburgh Mathematical Society | Cambridge Core A practical method
+  digest: ac195c133402bb06
+- source_id: crossref_search:b44875b287ed28ad
+  url: https://doi.org/10.1007/978-94-017-1108-1_3
+  title: Generalisations of the Todd-Coxeter Algorithm
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title: Generalisations of the Todd-Coxeter Algorithm'
+  - 'published year: 1995'
+  - 'container title: Computational Algebra and Number Theory'
+  short_quote: 'Crossref title: Generalisations of the Todd-Coxeter Algorithm published year: 1995 container title: Computational Algebra and Number Theory'
+  digest: efc8f25a57642806
+- source_id: openalex:0264294159869596
+  url: https://openalex.org/W1989878058
+  title: Implementation and analysis of the Todd-Coxeter algorithm
+  source_type: openalex
+  access_status: fetched
+  reliability: HIGH
+  extracted_facts:
+  - 'OpenAlex title: Implementation and analysis of the Todd-Coxeter algorithm'
+  - 'publication year: 1973'
+  - 'abstract summary: A recent form of the Todd-Coxeter algorithm, known as the lookahead algorithm, is described.'
+  short_quote: 'OpenAlex title: Implementation and analysis of the Todd-Coxeter algorithm publication year: 1973 abstract summary: A recent form of the Todd-Coxeter algorithm, known as the'
+  digest: 9f99497b1495a101
+failed_sources: []
+paywalled_or_skipped_sources: []
+source_families_covered:
+- algorithm_wiki_local
+- local_previous_cache
+- original_source
+- crossref
+- arxiv
+- wikipedia
+- openalex
+- semantic_scholar
+- dblp
+- publisher_abstract
+- wikidata
+- citeseerx
+- nist_dads
+- the_algorithms
+- cp_algorithms
+- course_notes
+- general_web_search
+cycles_completed: 4
+new_fact_count_by_cycle:
+- cycle: 1
+  new_facts: 7
+- cycle: 2
+  new_facts: 10
+- cycle: 3
+  new_facts: 0
+- cycle: 4
+  new_facts: 0
+no_new_fact_streak: 2
+saturation_status: SATURATED_NO_RECOVERY
+final_reason: After the configured source-family cycles, no source-backed concrete task, input semantics, output semantics, and conservative access model could be established.
+next_manual_action: No automated action recommended; keep saturated certificate with unresolved row.

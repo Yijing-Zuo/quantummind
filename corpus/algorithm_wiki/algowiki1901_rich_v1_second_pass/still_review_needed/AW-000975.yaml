@@ -1,0 +1,44 @@
+algorithm_id: AW-000975
+canonical_name: Gronlund, Pettie
+enrichment_status: SECOND_PASS_INSUFFICIENT
+review_reasons:
+- No second-pass rule could identify source-backed task semantics.
+source_records:
+- access_status: metadata_only
+  digest: f503cbcc88322eaf
+  extracted_facts:
+  - 'AlgorithmWiki row name: Gronlund, Pettie'
+  - 'domain: unknown'
+  - 'time complexity: O(n^2/((log n)/(log log n))^2/3)'
+  - 'computational model: Real RAM'
+  - 'parameter definitions: n: size of set'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000975:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Gronlund, Pettie
+  url: https://ieeexplore.ieee.org/abstract/document/6979047
+- access_status: skipped
+  digest: 5426fe3b6865f588
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:aedf8de0f33fa554
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://ieeexplore.ieee.org/abstract/document/6979047
+- source_id: crossref_search:0b18e1bdccf3f416
+  url: https://doi.org/10.1109/npc.2007.32
+  title: An optimal algorithm to fetch DHT routable
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: An optimal algorithm to fetch DHT routable'
+  short_quote: ''
+  digest: eac65bcac63f65f8
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

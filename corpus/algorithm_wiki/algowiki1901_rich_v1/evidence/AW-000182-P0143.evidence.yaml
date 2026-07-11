@@ -1,0 +1,62 @@
+id: AW-000182-P0143
+kind: probe
+algorithm_id: AW-000182
+algorithm_name: Kosaraju's algorithm
+source_records:
+- access_status: metadata_only
+  digest: c12f473221b7b489
+  extracted_facts:
+  - 'AlgorithmWiki row name: Kosaraju''s algorithm'
+  - 'domain: graph'
+  - 'time complexity: O(V+E)'
+  - 'space complexity: O(V+E)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: V: number of vertices, E: number of edges'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(V+E); space O(V+E). Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000182:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Kosaraju's algorithm
+  url: https://www.sciencedirect.com/science/article/pii/0898122181900080
+- access_status: failed
+  digest: 0da08f2aaff287a3
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:316af06768ba72ed
+  source_type: publisher_abstract
+  title: 'HTTP Error 403: Forbidden'
+  url: https://www.sciencedirect.com/science/article/pii/0898122181900080
+web_query_attempts:
+- method: search_plan
+  query: Kosaraju's algorithm algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Kosaraju's algorithm algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Kosaraju's algorithm problem definition
+  status: recorded
+- method: search_plan
+  query: Kosaraju's algorithm graph algorithm
+  status: recorded
+- method: search_plan
+  query: Kosaraju's algorithm site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Kosaraju's algorithm algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://www.sciencedirect.com/science/article/pii/0898122181900080
+  status: recorded
+- method: source_link_html_metadata
+  query: https://www.sciencedirect.com/science/article/pii/0898122181900080
+  status: failed
+- method: wikipedia_summary_search
+  query: Kosaraju's algorithm algorithm
+  status: failed_or_not_relevant
+extracted_problem_statement: 'Kosaraju''s algorithm is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Kosaraju''s algorithm. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'Kosaraju''s algorithm is a graph algorithm record. Classical complexity metadata: time O(V+E); space O(V+E). The stated classical model is Word RAM. Public metadata/source text adds: Kosaraju''s algorithm graph graph V: number of vertices, E: number of edges O(V+E) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

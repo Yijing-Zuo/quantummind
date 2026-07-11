@@ -1,0 +1,71 @@
+id: AW-000005
+kind: context
+algorithm_id: AW-000005
+algorithm_name: Hierarchical Navigable Small World (HNSW)
+source_records:
+- access_status: metadata_only
+  digest: 4a5cee27cc469ade
+  extracted_facts:
+  - 'AlgorithmWiki row name: Hierarchical Navigable Small World (HNSW)'
+  - 'domain: unknown'
+  - 'time complexity: O(n \log n)'
+  - 'space complexity: O(M)'
+  - 'parameter definitions: n: number of elements, M: heuristic choice -- number of closest neighbors for a part of the algo'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000005:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Hierarchical Navigable Small World (HNSW)
+  url: https://doi.org/10.1109/TPAMI.2018.2889473
+- access_status: fetched
+  digest: 33254fa50692d009
+  extracted_facts:
+  - 'DOI title: Efficient and Robust Approximate Nearest Neighbor Search Using Hierarchical Navigable Small World Graphs'
+  - 'published year: 2020'
+  - 'container title: IEEE Transactions on Pattern Analysis and Machine Intelligence'
+  reliability: HIGH
+  short_quote: ''
+  source_id: crossref:a65e05e1b63447fb
+  source_type: doi_metadata
+  title: Efficient and Robust Approximate Nearest Neighbor Search Using Hierarchical Navigable Small World Graphs
+  url: https://doi.org/10.1109/TPAMI.2018.2889473
+- access_status: fetched
+  digest: 43403e8a66200810
+  extracted_facts:
+  - 'source page title: https://doi.org/10.1109/TPAMI.2018.2889473'
+  - 'source page description: In order to continue, we need to verify that you''re not a robot.'
+  reliability: HIGH
+  short_quote: In order to continue, we need to verify that you're not a robot.
+  source_id: source:fdca4b1a400ad71d
+  source_type: doi_metadata
+  title: https://doi.org/10.1109/TPAMI.2018.2889473
+  url: https://doi.org/10.1109/TPAMI.2018.2889473
+web_query_attempts:
+- method: search_plan
+  query: Hierarchical Navigable Small World (HNSW) algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Hierarchical Navigable Small World (HNSW) algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Hierarchical Navigable Small World (HNSW) problem definition
+  status: recorded
+- method: search_plan
+  query: Hierarchical Navigable Small World (HNSW) site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Hierarchical Navigable Small World (HNSW) algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://doi.org/10.1109/TPAMI.2018.2889473
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1109/TPAMI.2018.2889473
+  status: fetched
+- method: source_link_html_metadata
+  query: https://doi.org/10.1109/TPAMI.2018.2889473
+  status: fetched
+extracted_problem_statement: 'Hierarchical Navigable Small World (HNSW) is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: answer approximate nearest-neighbor search queries using a navigable small-world graph structure. Input semantics: A metric or vector data set, query points, and graph/search parameters for nearest-neighbor lookup. Output semantics: Nearest-neighbor or approximate nearest-neighbor identifiers and distances for the query points.'
+extracted_algorithm_summary: 'Hierarchical Navigable Small World (HNSW) is a graph algorithm record. Classical complexity metadata: time O(n \log n); space O(M). Public metadata/source text adds: Hierarchical Navigable Small World (HNSW) unknown unknown n: number of elements, M: heuristic choice -- number of closest neighbors for a part of the algo O(n \log n) No public-ready summary is available because the row lacks enough task semantics.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

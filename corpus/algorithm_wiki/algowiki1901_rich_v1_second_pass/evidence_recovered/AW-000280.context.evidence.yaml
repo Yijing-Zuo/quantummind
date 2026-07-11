@@ -1,0 +1,53 @@
+id: AW-000280
+kind: context_recovered
+algorithm_id: AW-000280
+algorithm_name: "Du\u0308rer rendering algorithm"
+source_records:
+- access_status: metadata_only
+  digest: 83e26c9bd686751d
+  extracted_facts:
+  - "AlgorithmWiki row name: Du\u0308rer rendering algorithm"
+  - 'domain: unknown'
+  - 'time complexity: O(n^2)'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000280:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: "AlgorithmWiki metadata for Du\u0308rer rendering algorithm"
+  url: ''
+- source_id: crossref_search:47023a0436fc2cf7
+  url: https://doi.org/10.1109/38.252595
+  title: Backface culling snags (rendering algorithm)
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: Backface culling snags (rendering algorithm)'
+  short_quote: ''
+  digest: 0598379dbe97ae13
+web_query_attempts:
+- query: "\"Du\u0308rer rendering algorithm\" algorithm"
+  method: search_plan
+  status: recorded
+- query: "\"Du\u0308rer rendering algorithm\" input output"
+  method: search_plan
+  status: recorded
+- query: "\"Du\u0308rer rendering algorithm\" time complexity"
+  method: search_plan
+  status: recorded
+- query: "\"Du\u0308rer rendering algorithm\" pseudocode"
+  method: search_plan
+  status: recorded
+- query: "\"Du\u0308rer rendering algorithm\" problem"
+  method: search_plan
+  status: recorded
+- query: "\"Du\u0308rer rendering algorithm\" PDF metadata abstract"
+  method: search_plan
+  status: recorded
+- query: "Du\u0308rer rendering algorithm algorithm"
+  method: crossref_title_search
+  status: fetched
+extracted_problem_statement: "Du\u0308rer rendering algorithm is reconstructed as a classical image processing task. Problem/task: compute shaded/rendered image values from a geometric scene and illumination model Input semantics: Scene geometry, material parameters, lights, camera/view information, and image resolution. Output semantics: Rendered pixel colors or intermediate shading/visibility values."
+extracted_algorithm_summary: "Du\u0308rer rendering algorithm is treated as the named AlgorithmWiki variant for compute shaded/rendered image values from a geometric scene and illumination model Classical complexity metadata: time O(n^2). Public metadata/source title support includes Backface culling snags (rendering algorithm)."
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

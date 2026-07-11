@@ -1,0 +1,70 @@
+id: AW-001113
+kind: context
+algorithm_id: AW-001113
+algorithm_name: parallel binsort 0 - Seidel, George (1)
+source_records:
+- access_status: metadata_only
+  digest: fdc60631d5ae8b3a
+  extracted_facts:
+  - 'AlgorithmWiki row name: parallel binsort 0 - Seidel, George (1)'
+  - 'domain: sorting'
+  - 'computational model: sorting network (hypercube)'
+  - 'parameter definitions: n: size of list, p=2^d (d-dimensional): number of processors, t_c: unit of computational cost, t_s/r unit of simultaneuos send and recieve cost'
+  - 'precard summary: Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model. Baseline: work O(n \\log{n/p} t_c +n t_s/r) expected; span/depth O(1) expected; processors p. Bottleneck: comparison, distribution, and full-output movement costs dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001113:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for parallel binsort 0 - Seidel, George (1)
+  url: https://dl.acm.org/doi/abs/10.1145/63047.63102
+- access_status: skipped
+  digest: abf1b8564f5017bc
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:cac29e03e7bb02cb
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1145/63047.63102
+- access_status: skipped
+  digest: edbde9b5c83e529d
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:1e5a25edf0151ea9
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://dl.acm.org/doi/abs/10.1145/63047.63102
+web_query_attempts:
+- method: search_plan
+  query: parallel binsort 0 - Seidel, George (1) algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: parallel binsort 0 - Seidel, George (1) algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: parallel binsort 0 - Seidel, George (1) problem definition
+  status: recorded
+- method: search_plan
+  query: parallel binsort 0 - Seidel, George (1) sorting algorithm
+  status: recorded
+- method: search_plan
+  query: parallel binsort 0 - Seidel, George (1) site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: parallel binsort 0 - Seidel, George (1) algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://dl.acm.org/doi/abs/10.1145/63047.63102
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1145/63047.63102
+  status: skipped
+- method: source_link_html_metadata
+  query: https://dl.acm.org/doi/abs/10.1145/63047.63102
+  status: skipped
+extracted_problem_statement: 'parallel binsort 0 - Seidel, George (1) is treated as a classical sorting task for rich AlgorithmWiki discovery. Problem/task: sort the input sequence using the named classical sorting method. Input semantics: A finite array or list of comparable keys or records. Output semantics: The same items returned in nondecreasing order, usually as a full reordered sequence.'
+extracted_algorithm_summary: 'parallel binsort 0 - Seidel, George (1) is a sorting algorithm record. Classical complexity metadata: work O(n \\log{n/p} t_c +n t_s/r) expected; span/depth O(1) expected; processors p. The stated classical model is sorting network (hypercube). Public metadata/source text adds: parallel binsort 0 - Seidel, George (1) sorting sorting n: size of list, p=2^d (d-dimensional): number of processors, t_c: unit of computational cost, t_s/r unit of simultaneuos send and recieve cost Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

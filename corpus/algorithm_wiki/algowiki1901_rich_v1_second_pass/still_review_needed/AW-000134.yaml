@@ -1,0 +1,35 @@
+algorithm_id: AW-000134
+canonical_name: Compressed Extended KF
+enrichment_status: SECOND_PASS_INSUFFICIENT
+review_reasons:
+- No second-pass rule could identify source-backed task semantics.
+source_records:
+- access_status: metadata_only
+  digest: bc6e56713e9cebc4
+  extracted_facts:
+  - 'AlgorithmWiki row name: Compressed Extended KF'
+  - 'domain: unknown'
+  - 'time complexity: O(n^3)'
+  - 'space complexity: O(n^2)'
+  - 'computational model: Real RAM'
+  - 'parameter definitions: n: number of dimensions in state space'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000134:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Compressed Extended KF
+  url: https://citeseerx.ist.psu.edu/pdf/37c4798e4557916019cee1d027e6bba0dc71f8e4
+- source_id: crossref_search:6009aad56d9a0ad8
+  url: https://doi.org/10.1109/icdsp.2016.7868649
+  title: Extended AMP algorithm for correlated distributed compressed sensing model
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: Extended AMP algorithm for correlated distributed compressed sensing model'
+  short_quote: ''
+  digest: 596b10c42c016b13
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

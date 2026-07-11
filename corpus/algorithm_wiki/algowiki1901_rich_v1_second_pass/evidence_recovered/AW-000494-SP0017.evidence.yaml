@@ -1,0 +1,84 @@
+id: AW-000494-SP0017
+kind: probe_recovered
+algorithm_id: AW-000494
+algorithm_name: Von zur Gathen-Gerhard additive FFT
+source_records:
+- access_status: metadata_only
+  digest: 67e28e6c5f9f28d4
+  extracted_facts:
+  - 'AlgorithmWiki row name: Von zur Gathen-Gerhard additive FFT'
+  - 'domain: unknown'
+  - 'time complexity: O(n (\log n)^2)'
+  - 'space complexity: O(n)'
+  - 'computational model: Word/Real RAM'
+  - 'parameter definitions: n: length of the input data set'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000494:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Von zur Gathen-Gerhard additive FFT
+  url: https://dl.acm.org/doi/10.1145/236869.236882
+- access_status: fetched
+  digest: 1b3b3dc657e88450
+  extracted_facts:
+  - 'DOI title: Arithmetic and factorization of polynomial over <b>F</b><sub>2</sub> (extended abstract)'
+  - 'published year: 1996'
+  - 'container title: Proceedings of the 1996 international symposium on Symbolic and algebraic computation - ISSAC ''96'
+  reliability: HIGH
+  short_quote: ''
+  source_id: crossref:4f4d3d4bdc48c895
+  source_type: doi_metadata
+  title: Arithmetic and factorization of polynomial over <b>F</b><sub>2</sub> (extended abstract)
+  url: https://doi.org/10.1145/236869.236882
+- access_status: failed
+  digest: beb249c95d85f126
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:64127bb4e37294be
+  source_type: publisher_abstract
+  title: 'HTTP Error 403: Forbidden'
+  url: https://dl.acm.org/doi/10.1145/236869.236882
+- source_id: crossref_search:93e387fc83199c06
+  url: https://doi.org/10.1145/236869.236882
+  title: Arithmetic and factorization of polynomial over <b>F</b><sub>2</sub> (extended abstract)
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: Arithmetic and factorization of polynomial over <b>F</b><sub>2</sub> (extended abstract)'
+  short_quote: ''
+  digest: 382d60a1bf29a425
+web_query_attempts:
+- query: '"Von zur Gathen-Gerhard additive FFT" algorithm'
+  method: search_plan
+  status: recorded
+- query: '"Von zur Gathen-Gerhard additive FFT" input output'
+  method: search_plan
+  status: recorded
+- query: '"Von zur Gathen-Gerhard additive FFT" time complexity'
+  method: search_plan
+  status: recorded
+- query: '"Von zur Gathen-Gerhard additive FFT" pseudocode'
+  method: search_plan
+  status: recorded
+- query: '"Von zur Gathen-Gerhard additive FFT" problem'
+  method: search_plan
+  status: recorded
+- query: '"Von zur Gathen-Gerhard additive FFT" PDF metadata abstract'
+  method: search_plan
+  status: recorded
+- query: '"Arithmetic and factorization of polynomial over <b>F</b><sub>2</sub> (extended abstract)" algorithm'
+  method: search_plan
+  status: recorded
+- query: https://dl.acm.org/doi/10.1145/236869.236882
+  method: search_plan
+  status: recorded
+- query: Arithmetic and factorization of polynomial over <b>F</b><sub>2</sub> (extended abstract) algorithm
+  method: crossref_title_search
+  status: fetched
+extracted_problem_statement: 'Von zur Gathen-Gerhard additive FFT is reconstructed as a classical combinatorics task. Problem/task: find a nontrivial factorization of an integer Input semantics: An integer N represented with n bits and method-specific smoothness or search bounds. Output semantics: A nontrivial factor, a complete factorization, or a failure indication under the method assumptions.'
+extracted_algorithm_summary: 'Von zur Gathen-Gerhard additive FFT is treated as the named AlgorithmWiki variant for find a nontrivial factorization of an integer Classical complexity metadata: time O(n (\log n)^2); space O(n). Public metadata/source title support includes Arithmetic and factorization of polynomial over <b>F</b><sub>2</sub> (extended abstract).'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

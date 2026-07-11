@@ -1,0 +1,58 @@
+id: AW-001697
+kind: context
+algorithm_id: AW-001697
+algorithm_name: Wright
+source_records:
+- access_status: metadata_only
+  digest: 9277ec913b225b12
+  extracted_facts:
+  - 'AlgorithmWiki row name: Wright'
+  - 'domain: image_processing'
+  - 'time complexity: O(n/p)'
+  - 'computational model: MIMD'
+  - 'parameter definitions: n: number of pixels the line goes through, p: number of processors'
+  - 'precard summary: Given an explicit image or grid of pixel values, compute the transformed image, segmentation, or detected structure targeted by the record. Baseline: time O(n/p); work O(n); span/depth O(1); processors p. Bottleneck: local neighborhood processing and writing image-sized outputs dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001697:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Wright
+  url: https://ieeexplore.ieee.org/document/59038
+- access_status: skipped
+  digest: 3572b42bb3fd129b
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:3343a05d6a65a12e
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://ieeexplore.ieee.org/document/59038
+web_query_attempts:
+- method: search_plan
+  query: Wright algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Wright algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Wright problem definition
+  status: recorded
+- method: search_plan
+  query: Wright image processing algorithm
+  status: recorded
+- method: search_plan
+  query: Wright site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Wright algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://ieeexplore.ieee.org/document/59038
+  status: recorded
+- method: source_link_html_metadata
+  query: https://ieeexplore.ieee.org/document/59038
+  status: skipped
+extracted_problem_statement: 'Wright is treated as a classical image processing task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Wright. Input semantics: An image, grid, point cloud, or signal representation with local or hierarchical processing parameters. Output semantics: A transformed image, segmentation, quantization, feature set, or detected structure.'
+extracted_algorithm_summary: 'Wright is a image processing algorithm record. Classical complexity metadata: time O(n/p); work O(n); span/depth O(1); processors p. The stated classical model is MIMD. Public metadata/source text adds: Wright image_processing image_processing n: number of pixels the line goes through, p: number of processors O(n/p) Given an explicit image or grid of pixel values, compute the transformed image, segmentation, or detected structure targeted by the record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

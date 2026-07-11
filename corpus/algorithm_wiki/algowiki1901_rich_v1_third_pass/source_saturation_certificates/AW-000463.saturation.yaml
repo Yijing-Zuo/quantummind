@@ -1,0 +1,693 @@
+algorithm_id: AW-000463
+canonical_name: Buchberger's algorithm
+original_source_link: https://dl.acm.org/doi/10.1145/1088216.1088219
+source_link_type: acm
+previous_failure_reasons:
+- No second-pass rule could identify source-backed task semantics.
+previous_source_records:
+- access_status: metadata_only
+  digest: d186e6dea33f06e3
+  extracted_facts:
+  - 'AlgorithmWiki row name: Buchberger''s algorithm'
+  - 'domain: unknown'
+  - 'time complexity: O(d^{2^{n+o(1)}})'
+  - 'space complexity: d^{2^{n+o(1)}}'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of variables in each polynomial, d: maximal total degree of the polynomials'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000463:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Buchberger's algorithm
+  url: https://dl.acm.org/doi/10.1145/1088216.1088219
+- access_status: fetched
+  digest: cbbab75d3a190032
+  extracted_facts:
+  - 'DOI title: A theoretical basis for the reduction of polynomials to canonical forms'
+  - 'published year: 1976'
+  - 'container title: ACM SIGSAM Bulletin'
+  - 'abstract summary: We define a certain type of bases of polynomial ideals whose usefulness stems from the fact that a number of computability problems in the theory of polynomial ideals (e.g.'
+  reliability: HIGH
+  short_quote: We define a certain type of bases of polynomial ideals whose usefulness stems from the fact that a number of computability problems in the
+  source_id: crossref:8a133f11dfa7ced6
+  source_type: doi_metadata
+  title: A theoretical basis for the reduction of polynomials to canonical forms
+  url: https://doi.org/10.1145/1088216.1088219
+- access_status: failed
+  digest: 6050c70a11691500
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:a94b037af51924a0
+  source_type: publisher_abstract
+  title: 'HTTP Error 403: Forbidden'
+  url: https://dl.acm.org/doi/10.1145/1088216.1088219
+- access_status: fetched
+  digest: f46fbe1e4e8c74b2
+  extracted_facts:
+  - 'Crossref title-search result: A theoretical basis for the reduction of polynomials to canonical forms'
+  - 'abstract summary: We define a certain type of bases of polynomial ideals whose usefulness stems from the fact that a number of computability problems in the theory of polynomial ideals (e.g.'
+  reliability: MEDIUM
+  short_quote: We define a certain type of bases of polynomial ideals whose usefulness stems from the fact that a number of computability problems in the
+  source_id: crossref_search:d8780862d1f7f892
+  source_type: doi_metadata
+  title: A theoretical basis for the reduction of polynomials to canonical forms
+  url: https://doi.org/10.1145/1088216.1088219
+aliases_tried:
+- Buchberger's algorithm
+- Buchberger's algorithm algorithm
+- Buchberger's algorithm problem
+- Buchberger's algorithm pseudocode
+- Buchberger's algorithm time complexity
+- A theoretical basis for the reduction of polynomials to canonical forms
+- A theoretical basis for the reduction of polynomials to canonical forms algorithm
+- A theoretical basis for the reduction of polynomials to canonical forms complexity
+- 10.1145/1088216.1088219
+query_plan:
+- source_family: original_source
+  primary_query: Buchberger's algorithm
+  applicability: applicable
+  purpose: check the row's original source link without storing paywalled or PDF bodies
+- source_family: crossref
+  primary_query: Buchberger's algorithm
+  applicability: applicable
+  purpose: recover DOI title, venue, year, and abstract metadata where available
+- source_family: openalex
+  primary_query: Buchberger's algorithm
+  applicability: applicable
+  purpose: recover public work metadata and abstract-inverted-index summaries
+- source_family: semantic_scholar
+  primary_query: Buchberger's algorithm
+  applicability: applicable
+  purpose: recover CS paper metadata and abstracts without an API key
+- source_family: arxiv
+  primary_query: Buchberger's algorithm
+  applicability: title-search-only
+  purpose: recover arXiv title and abstract metadata
+- source_family: dblp
+  primary_query: Buchberger's algorithm
+  applicability: applicable
+  purpose: recover bibliographic title/venue metadata for CS publications
+- source_family: publisher_abstract
+  primary_query: Buchberger's algorithm
+  applicability: applicable
+  purpose: check accessible publisher abstract pages
+- source_family: citeseerx
+  primary_query: Buchberger's algorithm
+  applicability: applicable
+  purpose: record legacy CiteSeerX availability without full PDF storage
+- source_family: wikipedia
+  primary_query: Buchberger's algorithm
+  applicability: applicable
+  purpose: check public encyclopedia algorithm descriptions
+- source_family: wikidata
+  primary_query: Buchberger's algorithm
+  applicability: applicable
+  purpose: check public entity aliases/descriptions
+- source_family: nist_dads
+  primary_query: Buchberger's algorithm
+  applicability: applicable
+  purpose: check whether a DADS-style reference search is applicable
+- source_family: algorithm_wiki_local
+  primary_query: Buchberger's algorithm
+  applicability: applicable
+  purpose: reuse AlgorithmWiki metadata as provenance
+- source_family: the_algorithms
+  primary_query: Buchberger's algorithm
+  applicability: applicable
+  purpose: check exact public implementation/reference names when available
+- source_family: cp_algorithms
+  primary_query: Buchberger's algorithm
+  applicability: applicable
+  purpose: check exact public algorithm reference names when available
+- source_family: course_notes
+  primary_query: Buchberger's algorithm
+  applicability: applicable
+  purpose: record absence of configured course-notes search
+- source_family: general_web_search
+  primary_query: Buchberger's algorithm
+  applicability: applicable
+  purpose: record absence of a configured general web endpoint
+- source_family: local_previous_cache
+  primary_query: Buchberger's algorithm
+  applicability: applicable
+  purpose: reuse v1/second-pass fetched source records
+query_attempts:
+- &id001
+  cycle: 1
+  query: Buchberger's algorithm
+  source_family: algorithm_wiki_local
+  url_or_api_endpoint: https://dl.acm.org/doi/10.1145/1088216.1088219
+  status: fetched
+  new_facts_added: 9
+  reason: local metadata
+- &id002
+  cycle: 1
+  query: Buchberger's algorithm
+  source_family: local_previous_cache
+  url_or_api_endpoint: ''
+  status: duplicate
+  new_facts_added: 0
+  reason: previous v1/second-pass sources reused
+- &id003
+  cycle: 1
+  query: https://dl.acm.org/doi/10.1145/1088216.1088219
+  source_family: original_source
+  url_or_api_endpoint: https://dl.acm.org/doi/10.1145/1088216.1088219
+  status: fetch_failed
+  new_facts_added: 0
+  reason: 'HTTP Error 403: Forbidden'
+- &id004
+  cycle: 1
+  query: 10.1145/1088216.1088219
+  source_family: crossref
+  url_or_api_endpoint: https://doi.org/10.1145/1088216.1088219
+  status: fetched
+  new_facts_added: 6
+  reason: Crossref metadata/title search
+- &id005
+  cycle: 1
+  query: Buchberger's algorithm
+  source_family: arxiv
+  url_or_api_endpoint: https://export.arxiv.org/api/query?max_results=1&search_query=ti:%22Buchberger%27s+algorithm%22
+  status: no_result
+  new_facts_added: 0
+  reason: arXiv title search returned no usable entry
+- &id006
+  cycle: 1
+  query: Buchberger's algorithm
+  source_family: wikipedia
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: Wikipedia search returned no relevant page
+- &id007
+  cycle: 2
+  query: 10.1145/1088216.1088219
+  source_family: openalex
+  url_or_api_endpoint: https://api.openalex.org/works/doi:10.1145%2F1088216.1088219
+  status: fetched
+  new_facts_added: 5
+  reason: OpenAlex work metadata
+- &id008
+  cycle: 2
+  query: 10.1145/1088216.1088219
+  source_family: semantic_scholar
+  url_or_api_endpoint: https://api.semanticscholar.org/graph/v1/paper/DOI:10.1145%2F1088216.1088219?fields=title,abstract,year,url,externalIds
+  status: fetch_failed
+  new_facts_added: 0
+  reason: Semantic Scholar returned no usable paper
+- &id009
+  cycle: 2
+  query: Buchberger's algorithm
+  source_family: dblp
+  url_or_api_endpoint: https://dblp.org/search/publ/api?format=json&h=1&q=Buchberger%27s+algorithm
+  status: no_result
+  new_facts_added: 0
+  reason: DBLP returned no usable publication
+- &id010
+  cycle: 2
+  query: https://dl.acm.org/doi/10.1145/1088216.1088219
+  source_family: original_source
+  url_or_api_endpoint: https://dl.acm.org/doi/10.1145/1088216.1088219
+  status: fetch_failed
+  new_facts_added: 0
+  reason: 'HTTP Error 403: Forbidden'
+- &id011
+  cycle: 2
+  query: Buchberger's algorithm
+  source_family: wikidata
+  url_or_api_endpoint: http://www.wikidata.org/entity/Q997962
+  status: fetched
+  new_facts_added: 4
+  reason: Wikidata entity search
+- &id012
+  cycle: 3
+  query: Buchberger's algorithm
+  source_family: citeseerx
+  url_or_api_endpoint: ''
+  status: paywalled
+  new_facts_added: 0
+  reason: CiteSeerX link is PDF/legacy metadata; full PDF body skipped
+- &id013
+  cycle: 3
+  query: Buchberger's algorithm
+  source_family: nist_dads
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: NIST DADS has no reliable bulk search API in this environment
+- &id014
+  cycle: 3
+  query: Buchberger's algorithm
+  source_family: the_algorithms
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: TheAlgorithms search skipped unless a known exact reference is available
+- &id015
+  cycle: 3
+  query: Buchberger's algorithm
+  source_family: cp_algorithms
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: CP-Algorithms search skipped unless a known exact reference is available
+- &id016
+  cycle: 3
+  query: Buchberger's algorithm
+  source_family: course_notes
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: No configured public course-notes search endpoint
+- &id017
+  cycle: 3
+  query: Buchberger's algorithm
+  source_family: general_web_search
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: No configured general web search endpoint; Google Scholar scraping is not used
+- &id018
+  cycle: 4
+  query: 10.1145/1088216.1088219
+  source_family: crossref
+  url_or_api_endpoint: https://doi.org/10.1145/1088216.1088219
+  status: fetched
+  new_facts_added: 6
+  reason: Crossref metadata/title search
+- &id019
+  cycle: 4
+  query: 10.1145/1088216.1088219
+  source_family: openalex
+  url_or_api_endpoint: https://api.openalex.org/works/doi:10.1145%2F1088216.1088219
+  status: fetched
+  new_facts_added: 5
+  reason: OpenAlex work metadata
+- &id020
+  cycle: 4
+  query: 10.1145/1088216.1088219
+  source_family: semantic_scholar
+  url_or_api_endpoint: https://api.semanticscholar.org/graph/v1/paper/DOI:10.1145%2F1088216.1088219?fields=title,abstract,year,url,externalIds
+  status: fetch_failed
+  new_facts_added: 0
+  reason: Semantic Scholar returned no usable paper
+- &id021
+  cycle: 4
+  query: Buchberger's algorithm
+  source_family: wikipedia
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: Wikipedia search returned no relevant page
+- &id022
+  cycle: 4
+  query: Buchberger's algorithm
+  source_family: dblp
+  url_or_api_endpoint: https://dblp.org/search/publ/api?format=json&h=1&q=Buchberger%27s+algorithm
+  status: no_result
+  new_facts_added: 0
+  reason: DBLP returned no usable publication
+source_attempts:
+- *id001
+- *id002
+- *id003
+- *id004
+- *id005
+- *id006
+- *id007
+- *id008
+- *id009
+- *id010
+- *id011
+- *id012
+- *id013
+- *id014
+- *id015
+- *id016
+- *id017
+- *id018
+- *id019
+- *id020
+- *id021
+- *id022
+discovered_sources:
+- source_id: openalex:dbc85c049d3e5e00
+  url: https://openalex.org/W2018615018
+  title: A theoretical basis for the reduction of polynomials to canonical forms
+  source_type: openalex
+  access_status: fetched
+  reliability: HIGH
+  extracted_facts:
+  - 'OpenAlex title: A theoretical basis for the reduction of polynomials to canonical forms'
+  - 'publication year: 1976'
+  - 'abstract summary: We define a certain type of bases of polynomial ideals whose usefulness stems from the fact that a number of computability problems in the theory of polynomial ideals (e.g.'
+  short_quote: 'OpenAlex title: A theoretical basis for the reduction of polynomials to canonical forms publication year: 1976 abstract summary: We define a certain type of'
+  digest: 09c4db578dffe36b
+- source_id: wikidata:375a7251a5981440
+  url: http://www.wikidata.org/entity/Q997962
+  title: Buchberger's algorithm
+  source_type: wikidata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - Buchberger's algorithm
+  - algorithm
+  short_quote: Buchberger's algorithm algorithm
+  digest: 07405f424172b325
+discovered_facts:
+- fact_id: AW-000463-F849f587148
+  fact_type: alias
+  value: Buchberger's algorithm
+  source_id: AW-000463:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: AlgorithmWiki metadata
+- fact_id: AW-000463-F3eeb899379
+  fact_type: time_complexity
+  value: O(d^{2^{n+o(1)}})
+  source_id: AW-000463:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: AlgorithmWiki metadata
+- fact_id: AW-000463-F1c7e30a89e
+  fact_type: space_complexity
+  value: d^{2^{n+o(1)}}
+  source_id: AW-000463:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: AlgorithmWiki metadata
+- fact_id: AW-000463-F43f847530f
+  fact_type: computation_model
+  value: Word RAM
+  source_id: AW-000463:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: AlgorithmWiki metadata
+- fact_id: AW-000463-F59bf96ff5f
+  fact_type: input_semantics
+  value: 'Parameter definitions: n: number of variables in each polynomial, d: maximal total degree of the polynomials'
+  source_id: AW-000463:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 75
+  conflict_status: weak
+  notes: AlgorithmWiki parameter metadata
+- fact_id: AW-000463-F4bdc68f502
+  fact_type: authoritative_source_link
+  value: https://dl.acm.org/doi/10.1145/1088216.1088219
+  source_id: AW-000463:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 70
+  conflict_status: consistent
+  notes: Original source link from AlgorithmWiki metadata
+- fact_id: AW-000463-F960061a5f6
+  fact_type: source_title
+  value: AlgorithmWiki metadata for Buchberger's algorithm
+  source_id: AW-000463:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000463-Fc1dfabaf61
+  fact_type: problem_definition
+  value: 'Source title indicates: AlgorithmWiki metadata for Buchberger''s algorithm'
+  source_id: AW-000463:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: weak
+  notes: previous_source_record
+- fact_id: AW-000463-F4333002341
+  fact_type: problem_definition
+  value: 'AlgorithmWiki row name: Buchberger''s algorithm'
+  source_id: AW-000463:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000463-F4a34b77d6b
+  fact_type: problem_definition
+  value: 'domain: unknown'
+  source_id: AW-000463:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000463-F06cfa02833
+  fact_type: time_complexity
+  value: 'time complexity: O(d^{2^{n+o(1)}})'
+  source_id: AW-000463:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000463-F9e63a53de4
+  fact_type: space_complexity
+  value: 'space complexity: d^{2^{n+o(1)}}'
+  source_id: AW-000463:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000463-F658788c128
+  fact_type: computation_model
+  value: 'computational model: Word RAM'
+  source_id: AW-000463:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000463-F8e4cf60bf6
+  fact_type: problem_definition
+  value: 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  source_id: AW-000463:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000463-Fa4a06aa895
+  fact_type: source_title
+  value: A theoretical basis for the reduction of polynomials to canonical forms
+  source_id: crossref:8a133f11dfa7ced6
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000463-F4d39248772
+  fact_type: problem_definition
+  value: 'DOI title: A theoretical basis for the reduction of polynomials to canonical forms'
+  source_id: crossref:8a133f11dfa7ced6
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000463-F7cb47772d8
+  fact_type: problem_definition
+  value: 'published year: 1976'
+  source_id: crossref:8a133f11dfa7ced6
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000463-F143feae2ae
+  fact_type: problem_definition
+  value: 'container title: ACM SIGSAM Bulletin'
+  source_id: crossref:8a133f11dfa7ced6
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000463-F78e5ef913a
+  fact_type: problem_definition
+  value: 'abstract summary: We define a certain type of bases of polynomial ideals whose usefulness stems from the fact that a number of computability problems in the theory of polynomial ideals (e.g.'
+  source_id: crossref:8a133f11dfa7ced6
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000463-F1cfffa1786
+  fact_type: authoritative_source_link
+  value: https://doi.org/10.1145/1088216.1088219
+  source_id: crossref:8a133f11dfa7ced6
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000463-F19015c2f5c
+  fact_type: problem_definition
+  value: 'Crossref title-search result: A theoretical basis for the reduction of polynomials to canonical forms'
+  source_id: crossref_search:d8780862d1f7f892
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000463-Fc4025a1319
+  fact_type: problem_definition
+  value: 'OpenAlex title: A theoretical basis for the reduction of polynomials to canonical forms'
+  source_id: openalex:dbc85c049d3e5e00
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: openalex
+- fact_id: AW-000463-F590e0ab5d8
+  fact_type: problem_definition
+  value: 'publication year: 1976'
+  source_id: openalex:dbc85c049d3e5e00
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: openalex
+- fact_id: AW-000463-F13ebd7fb5c
+  fact_type: authoritative_source_link
+  value: https://openalex.org/W2018615018
+  source_id: openalex:dbc85c049d3e5e00
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: openalex
+- fact_id: AW-000463-Fe9911e5cc9
+  fact_type: source_title
+  value: Buchberger's algorithm
+  source_id: wikidata:375a7251a5981440
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: consistent
+  notes: wikidata
+- fact_id: AW-000463-F419e7edd9a
+  fact_type: problem_definition
+  value: 'Source title indicates: Buchberger''s algorithm'
+  source_id: wikidata:375a7251a5981440
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: weak
+  notes: wikidata
+- fact_id: AW-000463-F4bb8fa281a
+  fact_type: problem_definition
+  value: algorithm
+  source_id: wikidata:375a7251a5981440
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: consistent
+  notes: wikidata
+- fact_id: AW-000463-Fa3f91ab583
+  fact_type: authoritative_source_link
+  value: http://www.wikidata.org/entity/Q997962
+  source_id: wikidata:375a7251a5981440
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: consistent
+  notes: wikidata
+duplicate_sources:
+- source_id: AW-000463:algorithm_wiki_metadata
+  url: https://dl.acm.org/doi/10.1145/1088216.1088219
+  title: AlgorithmWiki metadata for Buchberger's algorithm
+  source_type: algorithm_wiki
+  access_status: metadata_only
+  reliability: HIGH
+  extracted_facts:
+  - 'AlgorithmWiki row name: Buchberger''s algorithm'
+  - 'domain: unknown'
+  - 'time complexity: O(d^{2^{n+o(1)}})'
+  - 'space complexity: d^{2^{n+o(1)}}'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of variables in each polynomial, d: maximal total degree of the polynomials'
+  short_quote: ''
+  digest: ce6ab614eafb24e5
+- source_id: failed:a94b037af51924a0
+  url: https://dl.acm.org/doi/10.1145/1088216.1088219
+  title: 'HTTP Error 403: Forbidden'
+  source_type: original_source
+  access_status: failed
+  reliability: LOW
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  short_quote: 'HTTP Error 403: Forbidden'
+  digest: dfe0920f7ffa821c
+- source_id: crossref:8a133f11dfa7ced6
+  url: https://doi.org/10.1145/1088216.1088219
+  title: A theoretical basis for the reduction of polynomials to canonical forms
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: HIGH
+  extracted_facts:
+  - 'DOI title: A theoretical basis for the reduction of polynomials to canonical forms'
+  - 'published year: 1976'
+  - 'container title: ACM SIGSAM Bulletin'
+  - 'abstract summary: We define a certain type of bases of polynomial ideals whose usefulness stems from the fact that a number of computability problems in the theory of polynomial ideals (e.g.'
+  short_quote: We define a certain type of bases of polynomial ideals whose usefulness stems from the fact that a number of computability problems in the
+  digest: cbbab75d3a190032
+- source_id: failed:a94b037af51924a0
+  url: https://dl.acm.org/doi/10.1145/1088216.1088219
+  title: 'HTTP Error 403: Forbidden'
+  source_type: original_source
+  access_status: failed
+  reliability: LOW
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  short_quote: 'HTTP Error 403: Forbidden'
+  digest: dfe0920f7ffa821c
+- source_id: crossref:8a133f11dfa7ced6
+  url: https://doi.org/10.1145/1088216.1088219
+  title: A theoretical basis for the reduction of polynomials to canonical forms
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: HIGH
+  extracted_facts:
+  - 'DOI title: A theoretical basis for the reduction of polynomials to canonical forms'
+  - 'published year: 1976'
+  - 'container title: ACM SIGSAM Bulletin'
+  - 'abstract summary: We define a certain type of bases of polynomial ideals whose usefulness stems from the fact that a number of computability problems in the theory of polynomial ideals (e.g.'
+  short_quote: We define a certain type of bases of polynomial ideals whose usefulness stems from the fact that a number of computability problems in the
+  digest: cbbab75d3a190032
+- source_id: openalex:dbc85c049d3e5e00
+  url: https://openalex.org/W2018615018
+  title: A theoretical basis for the reduction of polynomials to canonical forms
+  source_type: openalex
+  access_status: fetched
+  reliability: HIGH
+  extracted_facts:
+  - 'OpenAlex title: A theoretical basis for the reduction of polynomials to canonical forms'
+  - 'publication year: 1976'
+  - 'abstract summary: We define a certain type of bases of polynomial ideals whose usefulness stems from the fact that a number of computability problems in the theory of polynomial ideals (e.g.'
+  short_quote: 'OpenAlex title: A theoretical basis for the reduction of polynomials to canonical forms publication year: 1976 abstract summary: We define a certain type of'
+  digest: 09c4db578dffe36b
+failed_sources: []
+paywalled_or_skipped_sources: []
+source_families_covered:
+- algorithm_wiki_local
+- local_previous_cache
+- original_source
+- crossref
+- arxiv
+- wikipedia
+- openalex
+- semantic_scholar
+- dblp
+- publisher_abstract
+- wikidata
+- citeseerx
+- nist_dads
+- the_algorithms
+- cp_algorithms
+- course_notes
+- general_web_search
+cycles_completed: 4
+new_fact_count_by_cycle:
+- cycle: 1
+  new_facts: 0
+- cycle: 2
+  new_facts: 7
+- cycle: 3
+  new_facts: 0
+- cycle: 4
+  new_facts: 0
+no_new_fact_streak: 2
+saturation_status: SATURATED_NO_RECOVERY
+final_reason: After the configured source-family cycles, no source-backed concrete task, input semantics, output semantics, and conservative access model could be established.
+next_manual_action: No automated action recommended; keep saturated certificate with unresolved row.

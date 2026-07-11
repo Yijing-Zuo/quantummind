@@ -1,0 +1,45 @@
+id: AW-001456
+kind: context
+algorithm_id: AW-001456
+algorithm_name: Reif
+source_records:
+- access_status: metadata_only
+  digest: dc20ca31e8ba62c6
+  extracted_facts:
+  - 'AlgorithmWiki row name: Reif'
+  - 'domain: graph'
+  - 'time complexity: O(\log n)'
+  - 'computational model: CRCW PRAM'
+  - 'parameter definitions: n: number of vertices, m: number of edges'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(\log n); work O(m+n); span/depth O(log n); processors O((m+n)/log(n)). Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001456:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Reif
+  url: https://apps.dtic.mil/sti/tr/pdf/ADA161791.pdf
+web_query_attempts:
+- method: search_plan
+  query: Reif algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Reif algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Reif problem definition
+  status: recorded
+- method: search_plan
+  query: Reif graph algorithm
+  status: recorded
+- method: search_plan
+  query: Reif site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Reif algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://apps.dtic.mil/sti/tr/pdf/ADA161791.pdf
+  status: recorded
+extracted_problem_statement: 'Reif is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Reif. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'Reif is a graph algorithm record. Classical complexity metadata: time O(\log n); work O(m+n); span/depth O(log n); processors O((m+n)/log(n)). The stated classical model is CRCW PRAM. Public metadata/source text adds: Reif graph graph n: number of vertices, m: number of edges O(\log n) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

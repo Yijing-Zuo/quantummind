@@ -1,0 +1,19 @@
+statement: 'Alon Moshkovitz & Safra is included as a named whole-algorithm context card for a classical string task. The task is to analyze the classical input-output problem, not to certify an end-to-end improvement claim. Input semantics: One or more finite strings, sequences, patterns, or alphabets. Output semantics: The requested string matching, alignment, indexing, distance, or transformation result. Classical algorithm summary: Alon Moshkovitz & Safra is a string algorithm record. Classical complexity metadata: time O(n \log n). Public metadata/source text adds: Alon Moshkovitz & Safra unknown unknown n: number of elements in the universe O(n \log n) No public-ready summary is available because the row lacks enough task semantics. Classical complexity recorded for this row: time O(n \log n); space unknown; computation model not stated. Dominant bottleneck: string scanning, dynamic-programming table size, preprocessing, and match reporting. The useful review questions are whether the
+  named structure exposes a smaller decision, witness, estimation, or algebraic subproblem; whether the full output size dominates any asymptotic gain; and whether the stated access model is realistic for the original input. Provenance used for reconstruction includes public metadata or abstract sources such as Algorithmic construction of sets for
+
+  <i>k</i>
+
+  -restrictions. Source-backed uncertainty or assumptions: The AlgorithmWiki row marks the classical method as approximate.'
+input_model: explicit_string_problem
+access_model: random_access_string
+output_contract: full_solution
+promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+- classical_approximation_algorithm
+size_parameters:
+- 'Parameter definition: n: number of elements in the universe'
+ambiguities:
+- The AlgorithmWiki row marks the classical method as approximate.
+- Some details are reconstructed from AlgorithmWiki metadata rather than an independently fetched full public description.
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.

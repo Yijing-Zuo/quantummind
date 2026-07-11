@@ -1,0 +1,35 @@
+algorithm_id: AW-001136
+canonical_name: Tang
+enrichment_status: WEB_INSUFFICIENT
+review_reasons:
+- missing_concrete_problem_statement
+- unknown_input_model
+- unknown_output_contract
+- unknown_access_model
+- missing_size_parameters
+source_records:
+- access_status: metadata_only
+  digest: 7e2bb2b6ca81b1b1
+  extracted_facts:
+  - 'AlgorithmWiki row name: Tang'
+  - 'domain: unknown'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001136:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Tang
+  url: https://www.computer.org/csdl/proceedings-article/dmcc/1990/00555389/12OmNBZpH74
+- access_status: skipped
+  digest: a5216193c6377ea3
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:24f20f83af1600be
+  source_type: other_public_source
+  title: fetch budget exhausted
+  url: https://www.computer.org/csdl/proceedings-article/dmcc/1990/00555389/12OmNBZpH74
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

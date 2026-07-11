@@ -1,0 +1,27 @@
+algorithm_id: AW-000081
+canonical_name: Rabin-Karp (RK) algorithm
+enrichment_status: WEB_INSUFFICIENT
+review_reasons:
+- missing_concrete_problem_statement
+- unknown_input_model
+- unknown_access_model
+source_records:
+- access_status: metadata_only
+  digest: 5e70cb0cacb26641
+  extracted_facts:
+  - 'AlgorithmWiki row name: Rabin-Karp (RK) algorithm'
+  - 'domain: unknown'
+  - 'time complexity: O(mn)'
+  - 'space complexity: O(1)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: m: pattern length, n: length of searchable text'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000081:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Rabin-Karp (RK) algorithm
+  url: https://pdfs.semanticscholar.org/c47d/151f09c567013761632c89e237431c6291a2.pdf
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: Pattern occurrence positions, matches, or the associated string-search report.

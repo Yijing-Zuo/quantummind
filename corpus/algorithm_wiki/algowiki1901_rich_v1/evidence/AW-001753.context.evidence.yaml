@@ -1,0 +1,59 @@
+id: AW-001753
+kind: context
+algorithm_id: AW-001753
+algorithm_name: Chaudhuri
+source_records:
+- access_status: metadata_only
+  digest: a85f8e7f3dc54e46
+  extracted_facts:
+  - 'AlgorithmWiki row name: Chaudhuri'
+  - 'domain: graph'
+  - 'time complexity: O(\log n)'
+  - 'space complexity: O(V^2)'
+  - 'computational model: CRCW PRAM'
+  - 'parameter definitions: n: number of vertices'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(\log n); space O(V^2); work O(n^3 logn); span/depth O(log n); processors O(n^3). Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001753:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Chaudhuri
+  url: https://www.semanticscholar.org/paper/Parallel-algorithms%3A-design-and-analysis-Chaudhuri/b839df4f1527853960e4979d2066fbb07e3debe5
+- access_status: skipped
+  digest: ccaf2e3b96ddd230
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:ed549690e880c95d
+  source_type: other_public_source
+  title: fetch budget exhausted
+  url: https://www.semanticscholar.org/paper/Parallel-algorithms%3A-design-and-analysis-Chaudhuri/b839df4f1527853960e4979d2066fbb07e3debe5
+web_query_attempts:
+- method: search_plan
+  query: Chaudhuri algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Chaudhuri algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Chaudhuri problem definition
+  status: recorded
+- method: search_plan
+  query: Chaudhuri graph algorithm
+  status: recorded
+- method: search_plan
+  query: Chaudhuri site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Chaudhuri algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://www.semanticscholar.org/paper/Parallel-algorithms%3A-design-and-analysis-Chaudhuri/b839df4f1527853960e4979d2066fbb07e3debe5
+  status: recorded
+- method: source_link_html_metadata
+  query: https://www.semanticscholar.org/paper/Parallel-algorithms%3A-design-and-analysis-Chaudhuri/b839df4f1527853960e4979d2066fbb07e3debe5
+  status: skipped
+extracted_problem_statement: 'Chaudhuri is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Chaudhuri. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'Chaudhuri is a graph algorithm record. Classical complexity metadata: time O(\log n); space O(V^2); work O(n^3 logn); span/depth O(log n); processors O(n^3). The stated classical model is CRCW PRAM. Public metadata/source text adds: Chaudhuri graph graph n: number of vertices O(\log n) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

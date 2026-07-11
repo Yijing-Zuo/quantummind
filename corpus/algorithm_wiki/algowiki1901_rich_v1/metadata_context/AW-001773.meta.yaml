@@ -1,0 +1,57 @@
+algorithm_family: graph
+algorithm_id: AW-001773
+approximate: ''
+approximation_factor: ''
+blind_name: Algorithm Wiki public task AW-001773
+canonical_name: Gianinazzi, Besta, Schaffner, Hoefler
+computational_model: ''
+domain: graph
+extracted_description: ''
+extraction_version: algorithm-wiki-rich-context-v1
+family: graph
+inferred_access_model: adjacency_list_query
+inferred_ambiguities:
+- No independent fetched public metadata source resolved this row beyond AlgorithmWiki metadata/source-link facts.
+- Some details are reconstructed from AlgorithmWiki metadata rather than an independently fetched full public description.
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.
+inferred_input_model: explicit_graph_problem
+inferred_output_contract: full_solution
+inferred_problem_statement: 'Gianinazzi, Besta, Schaffner, Hoefler is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Gianinazzi, Besta, Schaffner, Hoefler. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+inferred_promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+inferred_size_parameters:
+- 'Parameter definition: m: number of edges, k: required clique size , \alpha: arboricity, which is worst case \sqrt{m}'
+number_of_processors: ''
+page_digest: ''
+page_fetch_status: not_found
+page_url: ''
+parameter_definitions: 'm: number of edges, k: required clique size , \alpha: arboricity, which is worst case \sqrt{m}'
+problem_name: graph
+quality_flags:
+- domain_inferred
+- problem_statement_inferred
+- io_access_output_inferred
+- has_complexity_semantics
+- has_size_parameters
+quality_score: 100
+randomized: ''
+readiness: READY_PUBLIC_CONTEXT
+review_reasons:
+- duplicate_public_blind_digest:0f06756698822709 kept:AW-001772
+source_link: https://arxiv.org/pdf/2109.09663
+source_link_type: arxiv
+space_complexity: ''
+span_depth: O(log^2 n)
+time_complexity: O(m \alpha^{k-2}) (\alpha = arboricity, which is worst case \sqrt{m})
+variation: ''
+work: O(m \\alpha^{k-2})
+year: '2021'
+rich_card_kind: context
+source_records_used:
+- AW-001773:algorithm_wiki_metadata
+- skipped:0234092333ad13e9
+source_count: 2
+source_quality: HIGH
+confidence_score: 100
+card_digest: 3009aeed1f9d2e26

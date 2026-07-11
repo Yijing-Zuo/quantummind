@@ -1,0 +1,71 @@
+id: AW-001589
+kind: context
+algorithm_id: AW-001589
+algorithm_name: Dekel Nassimi & Sahni
+source_records:
+- access_status: metadata_only
+  digest: 99c20a8457d2db89
+  extracted_facts:
+  - 'AlgorithmWiki row name: Dekel Nassimi & Sahni'
+  - 'domain: graph'
+  - 'time complexity: O(\log^2(n))'
+  - 'computational model: SIMD-PS, SIMD-CC'
+  - 'parameter definitions: n: number of vertices'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(\log^2(n)); work O(n^3*\log^2(n)); span/depth O(log^2(n)); processors n^3. Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001589:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Dekel Nassimi & Sahni
+  url: https://epubs.siam.org/doi/abs/10.1137/0210049
+- access_status: skipped
+  digest: 5daf988d0e6ce820
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:2430e6eb209709e1
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1137/0210049
+- access_status: skipped
+  digest: 4bba3e4243c322c4
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:cceb79525ee491f7
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://epubs.siam.org/doi/abs/10.1137/0210049
+web_query_attempts:
+- method: search_plan
+  query: Dekel Nassimi & Sahni algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Dekel Nassimi & Sahni algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Dekel Nassimi & Sahni problem definition
+  status: recorded
+- method: search_plan
+  query: Dekel Nassimi & Sahni graph algorithm
+  status: recorded
+- method: search_plan
+  query: Dekel Nassimi & Sahni site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Dekel Nassimi & Sahni algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://epubs.siam.org/doi/abs/10.1137/0210049
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1137/0210049
+  status: skipped
+- method: source_link_html_metadata
+  query: https://epubs.siam.org/doi/abs/10.1137/0210049
+  status: skipped
+extracted_problem_statement: 'Dekel Nassimi & Sahni is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Dekel Nassimi & Sahni. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'Dekel Nassimi & Sahni is a graph algorithm record. Classical complexity metadata: time O(\log^2(n)); work O(n^3*\log^2(n)); span/depth O(log^2(n)); processors n^3. The stated classical model is SIMD-PS, SIMD-CC. Public metadata/source text adds: Dekel Nassimi & Sahni graph graph n: number of vertices O(\log^2(n)) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

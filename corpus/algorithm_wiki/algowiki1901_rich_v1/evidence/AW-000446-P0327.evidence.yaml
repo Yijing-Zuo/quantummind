@@ -1,0 +1,60 @@
+id: AW-000446-P0327
+kind: probe
+algorithm_id: AW-000446
+algorithm_name: Mucha, Sankowski (general)
+source_records:
+- access_status: metadata_only
+  digest: ab1adc6c0bd87f02
+  extracted_facts:
+  - 'AlgorithmWiki row name: Mucha, Sankowski (general)'
+  - 'domain: graph'
+  - 'time complexity: O(V^{\omega})'
+  - 'space complexity: O(V^2)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: V: number of vertices, E: number of edges, \omega: matrix multiplication constant'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(V^{\omega}); space O(V^2). Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000446:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Mucha, Sankowski (general)
+  url: https://ieeexplore.ieee.org/document/1366244
+- access_status: fetched
+  digest: 15178d0af2abe20a
+  extracted_facts:
+  - 'source page title: https://ieeexplore.ieee.org/document/1366244'
+  - 'source page description: In order to continue, we need to verify that you''re not a robot.'
+  reliability: HIGH
+  short_quote: In order to continue, we need to verify that you're not a robot.
+  source_id: source:c1533eab53c140c4
+  source_type: publisher_abstract
+  title: https://ieeexplore.ieee.org/document/1366244
+  url: https://ieeexplore.ieee.org/document/1366244
+web_query_attempts:
+- method: search_plan
+  query: Mucha, Sankowski (general) algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Mucha, Sankowski (general) algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Mucha, Sankowski (general) problem definition
+  status: recorded
+- method: search_plan
+  query: Mucha, Sankowski (general) graph algorithm
+  status: recorded
+- method: search_plan
+  query: Mucha, Sankowski (general) site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Mucha, Sankowski (general) algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://ieeexplore.ieee.org/document/1366244
+  status: recorded
+- method: source_link_html_metadata
+  query: https://ieeexplore.ieee.org/document/1366244
+  status: fetched
+extracted_problem_statement: 'Mucha, Sankowski (general) is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Mucha, Sankowski (general). Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The matrix product or bilinear multiplication output.'
+extracted_algorithm_summary: 'Mucha, Sankowski (general) is a graph algorithm record. Classical complexity metadata: time O(V^{\omega}); space O(V^2). The stated classical model is Word RAM. Public metadata/source text adds: Mucha, Sankowski (general) graph graph V: number of vertices, E: number of edges, \omega: matrix multiplication constant O(V^{\omega}) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

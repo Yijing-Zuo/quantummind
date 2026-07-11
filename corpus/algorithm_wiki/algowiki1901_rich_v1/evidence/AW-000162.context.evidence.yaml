@@ -1,0 +1,59 @@
+id: AW-000162
+kind: context
+algorithm_id: AW-000162
+algorithm_name: Alon
+source_records:
+- access_status: metadata_only
+  digest: 5079f67ae52f139a
+  extracted_facts:
+  - 'AlgorithmWiki row name: Alon'
+  - 'domain: graph'
+  - 'time complexity: O(VE + V^{2.66} \log V)'
+  - 'space complexity: O(V + E)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: V: number of vertices, E: number of edges, U: maximum edge capacity'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(VE + V^{2.66} \log V); space O(V + E). Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000162:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Alon
+  url: https://www.sciencedirect.com/science/article/pii/002001909090024R
+- access_status: failed
+  digest: a6ffe9e5516cdb39
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:e9e4ed51f71a58e6
+  source_type: publisher_abstract
+  title: 'HTTP Error 403: Forbidden'
+  url: https://www.sciencedirect.com/science/article/pii/002001909090024R
+web_query_attempts:
+- method: search_plan
+  query: Alon algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Alon algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Alon problem definition
+  status: recorded
+- method: search_plan
+  query: Alon graph algorithm
+  status: recorded
+- method: search_plan
+  query: Alon site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Alon algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://www.sciencedirect.com/science/article/pii/002001909090024R
+  status: recorded
+- method: source_link_html_metadata
+  query: https://www.sciencedirect.com/science/article/pii/002001909090024R
+  status: failed
+extracted_problem_statement: 'Alon is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Alon. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'Alon is a graph algorithm record. Classical complexity metadata: time O(VE + V^{2.66} \log V); space O(V + E). The stated classical model is Word RAM. Public metadata/source text adds: Alon graph graph V: number of vertices, E: number of edges, U: maximum edge capacity O(VE + V^{2.66} \log V) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

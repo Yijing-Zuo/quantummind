@@ -1,0 +1,80 @@
+algorithm_id: AW-000537
+canonical_name: Muller's method
+enrichment_status: THIRD_PASS_SATURATED_INSUFFICIENT
+review_reasons:
+- After the configured source-family cycles, no source-backed concrete task, input semantics, output semantics, and conservative access model could be established.
+source_records:
+- access_status: metadata_only
+  digest: e9255481f498ddeb
+  extracted_facts:
+  - 'AlgorithmWiki row name: Muller''s method'
+  - 'domain: unknown'
+  - 'time complexity: O(n_{max})'
+  - 'space complexity: O(1)'
+  - 'computational model: Word/Real RAM'
+  - 'parameter definitions: \epsilon: (additive) tolerance error, n_{max}: maximum number of iterations'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000537:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Muller's method
+  url: https://www.jstor.org/stable/2001916
+- access_status: failed
+  digest: 9204ffffc37b7530
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:4315e6a9ecc576c5
+  source_type: other_public_source
+  title: 'HTTP Error 403: Forbidden'
+  url: https://www.jstor.org/stable/2001916
+- access_status: fetched
+  digest: a700f07dac35d97c
+  extracted_facts:
+  - "Crossref title-search result: Sonn\u2010Muller Method"
+  reliability: MEDIUM
+  short_quote: ''
+  source_id: crossref_search:c7302dae89771369
+  source_type: doi_metadata
+  title: "Sonn\u2010Muller Method"
+  url: https://doi.org/10.1002/0471743984.vse9064
+- source_id: crossref_search:df8eb956f6b6550b
+  url: https://doi.org/10.1002/0471743984.vse9064
+  title: "Sonn\u2010Muller Method"
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - "Crossref title: Sonn\u2010Muller Method"
+  - 'published year: 2007'
+  - 'container title: Van Nostrand''s Scientific Encyclopedia'
+  short_quote: "Crossref title: Sonn\u2010Muller Method published year: 2007 container title: Van Nostrand's Scientific Encyclopedia"
+  digest: 050b144628899010
+- source_id: openalex:793d00f6ebb0aa73
+  url: https://openalex.org/W2145413386
+  title: Improved Pre-prepared Power Demand Table and Muller's Method to Solve the Profit Based Unit Commitment Problem
+  source_type: openalex
+  access_status: fetched
+  reliability: HIGH
+  extracted_facts:
+  - 'OpenAlex title: Improved Pre-prepared Power Demand Table and Muller''s Method to Solve the Profit Based Unit Commitment Problem'
+  - 'publication year: 2009'
+  - 'abstract summary: This paper presents the Improved Pre-prepared Power Demand (IPPD) table and Muller''s method as a means of solving the Profit Based Unit Commitment (PBUC) problem.'
+  short_quote: 'OpenAlex title: Improved Pre-prepared Power Demand Table and Muller''s Method to Solve the Profit Based Unit Commitment Problem publication year: 2009 abstract summary: This'
+  digest: 24622e12801f637c
+- source_id: wikidata:1493644881cbbb5b
+  url: http://www.wikidata.org/entity/Q2090477
+  title: Muller's method
+  source_type: wikidata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - Muller's method
+  - root-finding algorithm
+  short_quote: Muller's method root-finding algorithm
+  digest: cfad1307c60c2485
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

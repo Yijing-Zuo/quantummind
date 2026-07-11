@@ -1,0 +1,108 @@
+id: AW-001201
+kind: context_recovered
+algorithm_id: AW-001201
+algorithm_name: Olariu, Schwing
+source_records:
+- access_status: metadata_only
+  digest: 22a6ea2a5b0e00e8
+  extracted_facts:
+  - 'AlgorithmWiki row name: Olariu, Schwing'
+  - 'domain: unknown'
+  - 'time complexity: O(1)'
+  - 'computational model: reconfigurable mesh, SIMD'
+  - 'parameter definitions: n: size of list'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001201:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Olariu, Schwing
+  url: https://www.sciencedirect.com/science/article/abs/pii/S0743731596900155
+- access_status: skipped
+  digest: 463b3de078890e9c
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:d96fbe0bde61a470
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://www.sciencedirect.com/science/article/abs/pii/S0743731596900155
+- access_status: fetched
+  digest: eac65bcac63f65f8
+  extracted_facts:
+  - 'Crossref title-search result: An optimal algorithm to fetch DHT routable'
+  reliability: MEDIUM
+  short_quote: ''
+  source_id: crossref_search:0b18e1bdccf3f416
+  source_type: doi_metadata
+  title: An optimal algorithm to fetch DHT routable
+  url: https://doi.org/10.1109/npc.2007.32
+- source_id: failed:73b473f16e49c2bb
+  url: https://www.sciencedirect.com/science/article/abs/pii/S0743731596900155
+  title: 'HTTP Error 403: Forbidden'
+  source_type: original_source
+  access_status: failed
+  reliability: LOW
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  short_quote: 'HTTP Error 403: Forbidden'
+  digest: 85425c56411b073a
+- source_id: crossref_search:268e177ee6017784
+  url: https://doi.org/10.1093/benz/9780199773787.article.b00132630
+  title: Olariu, Octavian
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title: Olariu, Octavian'
+  - 'published year: 2011'
+  - 'container title: Benezit Dictionary of Artists'
+  short_quote: 'Crossref title: Olariu, Octavian published year: 2011 container title: Benezit Dictionary of Artists'
+  digest: 00cf7b0308bf0dc3
+web_query_attempts:
+- cycle: 1
+  query: Olariu, Schwing
+  source_family: algorithm_wiki_local
+  url_or_api_endpoint: https://www.sciencedirect.com/science/article/abs/pii/S0743731596900155
+  status: fetched
+  new_facts_added: 8
+  reason: local metadata
+- cycle: 1
+  query: Olariu, Schwing
+  source_family: local_previous_cache
+  url_or_api_endpoint: ''
+  status: duplicate
+  new_facts_added: 0
+  reason: previous v1/second-pass sources reused
+- cycle: 1
+  query: https://www.sciencedirect.com/science/article/abs/pii/S0743731596900155
+  source_family: original_source
+  url_or_api_endpoint: https://www.sciencedirect.com/science/article/abs/pii/S0743731596900155
+  status: fetch_failed
+  new_facts_added: 0
+  reason: 'HTTP Error 403: Forbidden'
+- cycle: 1
+  query: Olariu, Schwing
+  source_family: crossref
+  url_or_api_endpoint: https://doi.org/10.1093/benz/9780199773787.article.b00132630
+  status: irrelevant
+  new_facts_added: 0
+  reason: Crossref metadata/title search
+- cycle: 1
+  query: Olariu, Schwing
+  source_family: arxiv
+  url_or_api_endpoint: https://export.arxiv.org/api/query?max_results=1&search_query=ti:%22Olariu%2C+Schwing%22
+  status: no_result
+  new_facts_added: 0
+  reason: arXiv title search returned no usable entry
+- cycle: 1
+  query: Olariu, Schwing
+  source_family: wikipedia
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: Wikipedia search returned no relevant page
+extracted_problem_statement: 'Olariu, Schwing is treated as a source-saturated AlgorithmWiki row for maintain a data structure supporting the named operations Input semantics: A set of records and operation sequence for insert, delete, query, or search operations. Output semantics: A maintained representation and answers to the supported queries.'
+extracted_algorithm_summary: 'Olariu, Schwing is reconstructed as a classical data structures task. The source-backed title/name/fact record supports the task: maintain a data structure supporting the named operations.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

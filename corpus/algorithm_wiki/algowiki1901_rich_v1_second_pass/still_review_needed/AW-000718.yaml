@@ -1,0 +1,47 @@
+algorithm_id: AW-000718
+canonical_name: "Kleitman\u2013Wang Algorithm"
+enrichment_status: SECOND_PASS_INSUFFICIENT
+review_reasons:
+- No second-pass rule could identify source-backed task semantics.
+source_records:
+- access_status: metadata_only
+  digest: 9ade86ddbfcea397
+  extracted_facts:
+  - "AlgorithmWiki row name: Kleitman\u2013Wang Algorithm"
+  - 'domain: unknown'
+  - 'time complexity: O(n)'
+  - 'space complexity: O(n)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of degree pairs'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000718:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: "AlgorithmWiki metadata for Kleitman\u2013Wang Algorithm"
+  url: https://linkinghub.elsevier.com/retrieve/pii/0012365X7390037X
+- access_status: fetched
+  digest: 1d7e2f2f330b1a2b
+  extracted_facts:
+  - 'source page title: Redirecting'
+  - 'source page description: Redirecting'
+  reliability: LOW
+  short_quote: Redirecting
+  source_id: source:60b035e5af533e0d
+  source_type: other_public_source
+  title: Redirecting
+  url: https://linkinghub.elsevier.com/retrieve/pii/0012365X7390037X
+- source_id: crossref_search:6a55c0f6c2abec66
+  url: https://doi.org/10.64000/nyrp9-pak70
+  title: Redirecting redirection
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: Redirecting redirection'
+  - 'abstract summary: Crossref has decided to change the HTTP redirect code used by our DOIs from 303 back to the more commonly used 302.'
+  short_quote: Crossref has decided to change the HTTP redirect code used by our DOIs from 303 back to the more commonly used 302.
+  digest: bcbb2f767b0bdc23
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

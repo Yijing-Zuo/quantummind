@@ -1,0 +1,61 @@
+algorithm_family: graph
+algorithm_id: AW-001597
+approximate: '0'
+approximation_factor: ''
+blind_name: Algorithm Wiki public task AW-001597
+canonical_name: Takaoka
+computational_model: PRAM-EREW
+domain: graph
+extracted_description: ''
+extraction_version: algorithm-wiki-rich-context-v1
+family: graph
+inferred_access_model: adjacency_list_query
+inferred_ambiguities:
+- No independent fetched public metadata source resolved this row beyond AlgorithmWiki metadata/source-link facts.
+- Some details are reconstructed from AlgorithmWiki metadata rather than an independently fetched full public description.
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.
+inferred_input_model: explicit_graph_problem
+inferred_output_contract: full_solution
+inferred_problem_statement: 'Takaoka is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Takaoka. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+inferred_promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+- classical_parallel_model_recorded
+inferred_size_parameters:
+- 'Parameter definition: n: number of vertices'
+- p = stated number of processors (O(n^3*log(log n)/log n))
+number_of_processors: O(n^3*log(log n)/log n)
+page_digest: ''
+page_fetch_status: not_found
+page_url: ''
+parameter_definitions: 'n: number of vertices'
+problem_name: graph
+quality_flags:
+- domain_inferred
+- problem_statement_inferred
+- io_access_output_inferred
+- has_complexity_semantics
+- has_size_parameters
+- has_computational_model
+quality_score: 100
+randomized: '0'
+readiness: READY_PUBLIC_CONTEXT
+review_reasons:
+- A previous row has the same canonicalized algorithm name.
+source_link: https://link.springer.com/chapter/10.1007/978-3-540-27798-9_31
+source_link_type: unknown
+space_complexity: ''
+span_depth: O(log log n)
+time_complexity: O(\log \log n)
+variation: ''
+work: O(n^3*\log^2(\log n)/\log n)
+year: '2004'
+rich_card_kind: context
+source_records_used:
+- AW-001597:algorithm_wiki_metadata
+- skipped:c83e0719db29949d
+- skipped:dbb2a83fc5a9a5c1
+source_count: 3
+source_quality: HIGH
+confidence_score: 100
+card_digest: a9b08ddef0658531

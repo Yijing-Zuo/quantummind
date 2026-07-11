@@ -1,0 +1,58 @@
+id: AW-001062
+kind: context
+algorithm_id: AW-001062
+algorithm_name: Kumar and Hirschberg
+source_records:
+- access_status: metadata_only
+  digest: 340971318ddbc614
+  extracted_facts:
+  - 'AlgorithmWiki row name: Kumar and Hirschberg'
+  - 'domain: sorting'
+  - 'time complexity: 11n^(1/2)t_r+2log n^(1/2) t_c +5/2 n^(1/2) t_e'
+  - 'computational model: network sorter, SIMD'
+  - 'parameter definitions: n: size of list, t_r: routing time, t_c: compare-exchange time, t_e: exchange time'
+  - 'precard summary: Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model. Baseline: time 11n^(1/2)t_r+2log n^(1/2) t_c +5/2 n^(1/2) t_e; work 11n^(3/2)t_r+2nlog n^(1/2) t_c +5/2 n^(3/2) t_e; span/depth 11n^(1/2)t_r+2log n^(1/2) t_c +5/2 n^(1/2) t_e; processors n. Bottleneck: comparison, distribution, and full-output movement costs dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001062:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Kumar and Hirschberg
+  url: https://ieeexplore.ieee.org/abstract/document/1676217
+- access_status: skipped
+  digest: 6637f5bf7c572d90
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:7c42d5c060bb99da
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://ieeexplore.ieee.org/abstract/document/1676217
+web_query_attempts:
+- method: search_plan
+  query: Kumar and Hirschberg algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Kumar and Hirschberg algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Kumar and Hirschberg problem definition
+  status: recorded
+- method: search_plan
+  query: Kumar and Hirschberg sorting algorithm
+  status: recorded
+- method: search_plan
+  query: Kumar and Hirschberg site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Kumar and Hirschberg algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://ieeexplore.ieee.org/abstract/document/1676217
+  status: recorded
+- method: source_link_html_metadata
+  query: https://ieeexplore.ieee.org/abstract/document/1676217
+  status: skipped
+extracted_problem_statement: 'Kumar and Hirschberg is treated as a classical sorting task for rich AlgorithmWiki discovery. Problem/task: sort the input sequence using the named classical sorting method. Input semantics: A finite array or list of comparable keys or records. Output semantics: The same items returned in nondecreasing order, usually as a full reordered sequence.'
+extracted_algorithm_summary: 'Kumar and Hirschberg is a sorting algorithm record. Classical complexity metadata: time 11n^(1/2)t_r+2log n^(1/2) t_c +5/2 n^(1/2) t_e; work 11n^(3/2)t_r+2nlog n^(1/2) t_c +5/2 n^(3/2) t_e; span/depth 11n^(1/2)t_r+2log n^(1/2) t_c +5/2 n^(1/2) t_e; processors n. The stated classical model is network sorter, SIMD. Public metadata/source text adds: Kumar and Hirschberg sorting sorting n: size of list, t_r: routing time, t_c: compare-exchange time, t_e: exchange time 11n^(1/2)t_r+2log n^(1/2) t_c +5/2 n^(1/2) t_e Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

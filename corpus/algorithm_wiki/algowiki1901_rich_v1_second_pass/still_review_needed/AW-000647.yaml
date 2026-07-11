@@ -1,0 +1,36 @@
+algorithm_id: AW-000647
+canonical_name: SCAN
+enrichment_status: SECOND_PASS_INSUFFICIENT
+review_reasons:
+- No second-pass rule could identify source-backed task semantics.
+source_records:
+- access_status: metadata_only
+  digest: 24ad8a15ba1ed54a
+  extracted_facts:
+  - 'AlgorithmWiki row name: SCAN'
+  - 'domain: unknown'
+  - 'time complexity: O(n \log n)'
+  - 'space complexity: O(n)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of requests'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000647:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for SCAN
+  url: '-'
+- source_id: crossref_search:96b219c9fdd03e2e
+  url: https://doi.org/10.1145/3274661
+  title: Connection Scan Algorithm
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: Connection Scan Algorithm'
+  - 'abstract summary: We introduce the Connection Scan Algorithm (CSA) to efficiently answer queries to timetable information systems.'
+  short_quote: We introduce the Connection Scan Algorithm (CSA) to efficiently answer queries to timetable information systems.
+  digest: ad6ac7f0a4fa8ebd
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

@@ -1,0 +1,59 @@
+id: AW-001652
+kind: context
+algorithm_id: AW-001652
+algorithm_name: Galil (1)
+source_records:
+- access_status: metadata_only
+  digest: b8718196b83bd5a8
+  extracted_facts:
+  - 'AlgorithmWiki row name: Galil (1)'
+  - 'domain: graph'
+  - 'time complexity: O(\log^3 n)'
+  - 'space complexity: O(1)'
+  - 'computational model: CREW PRAM'
+  - 'parameter definitions: n: number of vertices, m: number of edges, omega: exponent on matrix multiplication complexity'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(\log^3 n); space O(1); work O(n^(1+omega) \log^3 n); span/depth O(log^3 n); processors O(n^(1+omega)). Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001652:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Galil (1)
+  url: https://www.annualreviews.org/doi/pdf/10.1146/annurev.cs.01.060186.001213
+- access_status: skipped
+  digest: 9f5e62f833fff403
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:c1c696f121aab7fa
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1146/annurev.cs.01.060186.001213
+web_query_attempts:
+- method: search_plan
+  query: Galil (1) algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Galil (1) algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Galil (1) problem definition
+  status: recorded
+- method: search_plan
+  query: Galil (1) graph algorithm
+  status: recorded
+- method: search_plan
+  query: Galil (1) site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Galil (1) algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://www.annualreviews.org/doi/pdf/10.1146/annurev.cs.01.060186.001213
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1146/annurev.cs.01.060186.001213
+  status: skipped
+extracted_problem_statement: 'Galil (1) is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Galil (1). Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The matrix product or bilinear multiplication output.'
+extracted_algorithm_summary: 'Galil (1) is a graph algorithm record. Classical complexity metadata: time O(\log^3 n); space O(1); work O(n^(1+omega) \log^3 n); span/depth O(log^3 n); processors O(n^(1+omega)). The stated classical model is CREW PRAM. Public metadata/source text adds: Galil (1) graph graph n: number of vertices, m: number of edges, omega: exponent on matrix multiplication complexity O(\log^3 n) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

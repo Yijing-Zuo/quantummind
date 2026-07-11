@@ -1,0 +1,70 @@
+algorithm_id: AW-000488
+canonical_name: "Rader\u2013Brenner algorithm"
+enrichment_status: THIRD_PASS_SATURATED_INSUFFICIENT
+review_reasons:
+- After the configured source-family cycles, no source-backed concrete task, input semantics, output semantics, and conservative access model could be established.
+source_records:
+- access_status: metadata_only
+  digest: 36fec7c13e102c80
+  extracted_facts:
+  - "AlgorithmWiki row name: Rader\u2013Brenner algorithm"
+  - 'domain: unknown'
+  - 'time complexity: O(n \log n)'
+  - 'space complexity: O(n)'
+  - 'computational model: Word/Real RAM'
+  - 'parameter definitions: n: length of the input data set'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000488:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: "AlgorithmWiki metadata for Rader\u2013Brenner algorithm"
+  url: https://ieeexplore.ieee.org/document/1162805
+- access_status: fetched
+  digest: 2495d20924ca2df8
+  extracted_facts:
+  - 'source page title: https://ieeexplore.ieee.org/document/1162805'
+  - 'source page description: In order to continue, we need to verify that you''re not a robot.'
+  reliability: HIGH
+  short_quote: In order to continue, we need to verify that you're not a robot.
+  source_id: source:329a6f2727809f9b
+  source_type: publisher_abstract
+  title: https://ieeexplore.ieee.org/document/1162805
+  url: https://ieeexplore.ieee.org/document/1162805
+- access_status: fetched
+  digest: f5fa21a6f31a4275
+  extracted_facts:
+  - 'Crossref title-search result: IEEExplore Digital Library'
+  reliability: MEDIUM
+  short_quote: ''
+  source_id: crossref_search:87c756c9c2441ac6
+  source_type: doi_metadata
+  title: IEEExplore Digital Library
+  url: https://doi.org/10.5860/choice.47-6268
+- source_id: crossref_search:6b9e78fd3b494014
+  url: https://doi.org/10.1109/tcsii.2011.2158714
+  title: "Rader\u2013Brenner Algorithm for Computing New Mersenne Number Transform"
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - "Crossref title: Rader\u2013Brenner Algorithm for Computing New Mersenne Number Transform"
+  - 'published year: 2011'
+  - 'container title: IEEE Transactions on Circuits and Systems II: Express Briefs'
+  short_quote: "Crossref title: Rader\u2013Brenner Algorithm for Computing New Mersenne Number Transform published year: 2011 container title: IEEE Transactions on Circuits and Systems II: Express Briefs"
+  digest: 943b451fad0b3984
+- source_id: openalex:141aaf9e39e4e61c
+  url: https://openalex.org/W2103789071
+  title: "Rader\u2013Brenner Algorithm for Computing New Mersenne Number Transform"
+  source_type: openalex
+  access_status: fetched
+  reliability: HIGH
+  extracted_facts:
+  - "OpenAlex title: Rader\u2013Brenner Algorithm for Computing New Mersenne Number Transform"
+  - 'publication year: 2011'
+  - 'abstract summary: Error-free convolutions and correlations can be efficiently computed using number theoretic transforms.'
+  short_quote: "OpenAlex title: Rader\u2013Brenner Algorithm for Computing New Mersenne Number Transform publication year: 2011 abstract summary: Error-free convolutions and correlations can be efficiently computed using"
+  digest: 3e5cca25d1d80bb7
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

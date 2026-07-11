@@ -1,0 +1,61 @@
+algorithm_family: unknown
+algorithm_id: AW-000766
+approximate: '0'
+approximation_factor: ''
+blind_name: Algorithm Wiki public task AW-000766
+canonical_name: Stratonovich
+computational_model: ''
+domain: unknown
+extracted_description: ''
+extraction_version: algorithm-wiki-rich-third-pass-context-v1
+family: unknown
+inferred_access_model: random_access_string
+inferred_ambiguities:
+- Some details are reconstructed from AlgorithmWiki metadata rather than an independently fetched full public description.
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.
+inferred_input_model: explicit_numerical_problem
+inferred_output_contract: estimate
+inferred_problem_statement: 'Stratonovich is treated as a source-saturated AlgorithmWiki row for estimate a latent state from a process model and noisy observations Input semantics: A state-transition model, observation model, covariance/noise parameters, and a sequence of measurements. Output semantics: A filtered or predicted state estimate, usually with covariance or uncertainty information.'
+inferred_promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+inferred_size_parameters:
+- 'Parameter definition: n: number of dimensions in state space'
+number_of_processors: ''
+page_digest: ''
+page_fetch_status: not_found
+page_url: ''
+parameter_definitions: 'n: number of dimensions in state space'
+problem_name: unknown
+quality_flags:
+- has_complexity_semantics
+- has_size_parameters
+quality_score: 100
+randomized: '0'
+readiness: READY_PUBLIC_CONTEXT
+review_reasons:
+- missing_problem_statement
+- unknown_input_model
+- unknown_access_model
+- unknown_output_contract
+- insufficient_algorithm_level_structure
+source_link: ''
+source_link_type: unknown
+space_complexity: ''
+span_depth: ''
+time_complexity: O(n^3)
+variation: ''
+work: ''
+year: '1959'
+rich_card_kind: context_recovered
+source_records_used:
+- AW-000766:algorithm_wiki_metadata
+- crossref_search:b1d9db64cca3ab22
+- crossref_search:67a8be2079171cd4
+- wikidata:7fcf66f6f0b3c8ba
+source_count: 4
+source_quality: HIGH
+confidence_score: 100
+card_digest: a9fd89c7c61293f2
+third_pass_rule: kalman_state_estimation
+saturation_status: RECOVERED_CONTEXT

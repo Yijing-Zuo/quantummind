@@ -1,0 +1,63 @@
+id: AW-000197-P0173
+kind: probe
+algorithm_id: AW-000197
+algorithm_name: Prim's algorithm + adjacency matrix searching
+source_records:
+- access_status: metadata_only
+  digest: c8cbd0f76d819c5a
+  extracted_facts:
+  - 'AlgorithmWiki row name: Prim''s algorithm + adjacency matrix searching'
+  - 'domain: graph'
+  - 'time complexity: O(V^2)'
+  - 'space complexity: O(V)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: V: number of vertices, E: number of edges, U: maximum edge weight'
+  - 'precard summary: Given a weighted undirected graph, compute a minimum spanning tree or spanning forest according to the graph connectivity assumptions. Baseline: time O(V^2); space O(V). Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000197:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Prim's algorithm + adjacency matrix searching
+  url: https://ieeexplore.ieee.org/document/6773228
+- access_status: fetched
+  digest: 461333c45419d53b
+  extracted_facts:
+  - 'source page title: https://ieeexplore.ieee.org/document/6773228'
+  - 'source page description: In order to continue, we need to verify that you''re not a robot.'
+  reliability: HIGH
+  short_quote: In order to continue, we need to verify that you're not a robot.
+  source_id: source:cdff06159e18c583
+  source_type: publisher_abstract
+  title: https://ieeexplore.ieee.org/document/6773228
+  url: https://ieeexplore.ieee.org/document/6773228
+web_query_attempts:
+- method: search_plan
+  query: Prim's algorithm + adjacency matrix searching algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Prim's algorithm + adjacency matrix searching algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Prim's algorithm + adjacency matrix searching problem definition
+  status: recorded
+- method: search_plan
+  query: Prim's algorithm + adjacency matrix searching graph algorithm
+  status: recorded
+- method: search_plan
+  query: Prim's algorithm + adjacency matrix searching site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Prim's algorithm + adjacency matrix searching algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://ieeexplore.ieee.org/document/6773228
+  status: recorded
+- method: source_link_html_metadata
+  query: https://ieeexplore.ieee.org/document/6773228
+  status: fetched
+- method: wikipedia_summary_search
+  query: Prim's algorithm + adjacency matrix searching algorithm
+  status: failed_or_not_relevant
+extracted_problem_statement: 'Prim''s algorithm + adjacency matrix searching is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Prim''s algorithm + adjacency matrix searching. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: A minimum spanning tree or forest for the weighted graph.'
+extracted_algorithm_summary: 'Prim''s algorithm + adjacency matrix searching is a graph algorithm record. Classical complexity metadata: time O(V^2); space O(V). The stated classical model is Word RAM. Public metadata/source text adds: Prim''s algorithm + adjacency matrix searching graph graph V: number of vertices, E: number of edges, U: maximum edge weight O(V^2) Given a weighted undirected graph, compute a minimum spanning tree or spanning forest according to the graph connectivity assumptions.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

@@ -1,0 +1,58 @@
+id: AW-001052
+kind: context
+algorithm_id: AW-001052
+algorithm_name: sorting on two or more ladders - Chin, Fok
+source_records:
+- access_status: metadata_only
+  digest: a5ec563c78dfcd9e
+  extracted_facts:
+  - 'AlgorithmWiki row name: sorting on two or more ladders - Chin, Fok'
+  - 'domain: sorting'
+  - 'time complexity: 2n+1'
+  - 'computational model: hardware sorter'
+  - 'parameter definitions: m: loops per ladder, n: size of list'
+  - 'precard summary: Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model. Baseline: time 2n+1; work O(n^2); span/depth O(n); processors O((n-1)(m-1)). Bottleneck: comparison, distribution, and full-output movement costs dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001052:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for sorting on two or more ladders - Chin, Fok
+  url: https://ieeexplore.ieee.org/abstract/document/1675633
+- access_status: skipped
+  digest: 65915671c5a750c4
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:e88133854632c136
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://ieeexplore.ieee.org/abstract/document/1675633
+web_query_attempts:
+- method: search_plan
+  query: sorting on two or more ladders - Chin, Fok algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: sorting on two or more ladders - Chin, Fok algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: sorting on two or more ladders - Chin, Fok problem definition
+  status: recorded
+- method: search_plan
+  query: sorting on two or more ladders - Chin, Fok sorting algorithm
+  status: recorded
+- method: search_plan
+  query: sorting on two or more ladders - Chin, Fok site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: sorting on two or more ladders - Chin, Fok algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://ieeexplore.ieee.org/abstract/document/1675633
+  status: recorded
+- method: source_link_html_metadata
+  query: https://ieeexplore.ieee.org/abstract/document/1675633
+  status: skipped
+extracted_problem_statement: 'sorting on two or more ladders - Chin, Fok is treated as a classical sorting task for rich AlgorithmWiki discovery. Problem/task: sort the input sequence using the named classical sorting method. Input semantics: A finite array or list of comparable keys or records. Output semantics: The same items returned in nondecreasing order, usually as a full reordered sequence.'
+extracted_algorithm_summary: 'sorting on two or more ladders - Chin, Fok is a sorting algorithm record. Classical complexity metadata: time 2n+1; work O(n^2); span/depth O(n); processors O((n-1)(m-1)). The stated classical model is hardware sorter. Public metadata/source text adds: sorting on two or more ladders - Chin, Fok sorting sorting m: loops per ladder, n: size of list 2n+1 Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

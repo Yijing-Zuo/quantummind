@@ -1,0 +1,31 @@
+algorithm_id: AW-000385
+canonical_name: Shani Brafman & Shimony 2005
+enrichment_status: SECOND_PASS_INSUFFICIENT
+review_reasons:
+- No second-pass rule could identify source-backed task semantics.
+source_records:
+- access_status: metadata_only
+  digest: 47af713359ecf3fa
+  extracted_facts:
+  - 'AlgorithmWiki row name: Shani Brafman & Shimony 2005'
+  - 'domain: unknown'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000385:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Shani Brafman & Shimony 2005
+  url: ''
+- source_id: crossref_search:f24c47ca7beff4bb
+  url: https://doi.org/10.1515/hdao.2.094
+  title: Brafman, Jakov
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: Brafman, Jakov'
+  short_quote: ''
+  digest: d7bead4643e193bd
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

@@ -1,0 +1,81 @@
+id: AW-000750
+kind: context_recovered
+algorithm_id: AW-000750
+algorithm_name: CHEN Z. G. LIU L. G. ZHANG Z. Y. WANG G. J. 2007
+source_records:
+- access_status: metadata_only
+  digest: 8f2b54adfe4d60b8
+  extracted_facts:
+  - 'AlgorithmWiki row name: CHEN Z. G. LIU L. G. ZHANG Z. Y. WANG G. J. 2007'
+  - 'domain: unknown'
+  - 'time complexity: O(n^2)'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000750:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for CHEN Z. G. LIU L. G. ZHANG Z. Y. WANG G. J. 2007
+  url: https://dl.acm.org/doi/10.1145/1236246.1236287
+- access_status: fetched
+  digest: 86f510d409abf198
+  extracted_facts:
+  - 'DOI title: Surface parameterization via aligning optimal local flattening'
+  - 'published year: 2007'
+  - 'container title: Proceedings of the 2007 ACM symposium on Solid and physical modeling'
+  reliability: HIGH
+  short_quote: ''
+  source_id: crossref:dd13d827fc4fb512
+  source_type: doi_metadata
+  title: Surface parameterization via aligning optimal local flattening
+  url: https://doi.org/10.1145/1236246.1236287
+- access_status: failed
+  digest: fc92e1e36f9c7f9d
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:2431f5feca9e52a8
+  source_type: publisher_abstract
+  title: 'HTTP Error 403: Forbidden'
+  url: https://dl.acm.org/doi/10.1145/1236246.1236287
+- source_id: crossref_search:b7c125e2f9e65a87
+  url: https://doi.org/10.1145/1236246.1236287
+  title: Surface parameterization via aligning optimal local flattening
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: Surface parameterization via aligning optimal local flattening'
+  short_quote: ''
+  digest: eaae47be61ba1e7e
+web_query_attempts:
+- query: '"CHEN Z. G. LIU L. G. ZHANG Z. Y. WANG G. J. 2007" algorithm'
+  method: search_plan
+  status: recorded
+- query: '"CHEN Z. G. LIU L. G. ZHANG Z. Y. WANG G. J. 2007" input output'
+  method: search_plan
+  status: recorded
+- query: '"CHEN Z. G. LIU L. G. ZHANG Z. Y. WANG G. J. 2007" time complexity'
+  method: search_plan
+  status: recorded
+- query: '"CHEN Z. G. LIU L. G. ZHANG Z. Y. WANG G. J. 2007" pseudocode'
+  method: search_plan
+  status: recorded
+- query: '"CHEN Z. G. LIU L. G. ZHANG Z. Y. WANG G. J. 2007" problem'
+  method: search_plan
+  status: recorded
+- query: '"CHEN Z. G. LIU L. G. ZHANG Z. Y. WANG G. J. 2007" PDF metadata abstract'
+  method: search_plan
+  status: recorded
+- query: '"Surface parameterization via aligning optimal local flattening" algorithm'
+  method: search_plan
+  status: recorded
+- query: https://dl.acm.org/doi/10.1145/1236246.1236287
+  method: search_plan
+  status: recorded
+- query: Surface parameterization via aligning optimal local flattening algorithm
+  method: crossref_title_search
+  status: fetched
+extracted_problem_statement: 'CHEN Z. G. LIU L. G. ZHANG Z. Y. WANG G. J. 2007 is reconstructed as a classical image processing task. Problem/task: detect local image features such as corners, blobs, or scale-invariant keypoints Input semantics: An image or image pyramid/grid of pixel intensities plus detector parameters. Output semantics: A set of detected feature locations, scales, orientations, or descriptors.'
+extracted_algorithm_summary: 'CHEN Z. G. LIU L. G. ZHANG Z. Y. WANG G. J. 2007 is treated as the named AlgorithmWiki variant for detect local image features such as corners, blobs, or scale-invariant keypoints Classical complexity metadata: time O(n^2). Public metadata/source title support includes Surface parameterization via aligning optimal local flattening.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

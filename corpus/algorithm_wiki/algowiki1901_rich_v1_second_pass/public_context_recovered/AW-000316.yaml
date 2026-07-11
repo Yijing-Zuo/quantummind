@@ -1,0 +1,14 @@
+statement: 'Occlusion Culling is included as a named whole-algorithm context card for a classical computational geometry task. The task is to analyze the classical input-output problem, not to certify an end-to-end improvement claim. Input semantics: A scene/object set, view frustum or occlusion representation, and visibility thresholds. Output semantics: The subset of visible or potentially visible objects. Classical algorithm summary: Occlusion Culling is treated as the named AlgorithmWiki variant for discard scene objects that cannot contribute to a rendered view Classical complexity metadata: time O(n^2). Public metadata/source title support includes Occlusion culling algorithm based on software visibility checks. Classical complexity recorded for this row: time O(n^2); space unknown; computation model not stated. Dominant bottleneck: Geometric visibility tests and maintaining conservative visible sets dominate. The useful review questions are whether the named structure exposes a smaller
+  decision, witness, estimation, or algebraic subproblem; whether the full output size dominates any asymptotic gain; and whether the stated access model is realistic for the original input. Provenance used for reconstruction includes public metadata or abstract sources such as Occlusion culling algorithm based on software visibility checks.'
+input_model: explicit_geometry_problem
+access_model: explicit_geometric_objects
+output_contract: full_solution
+promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+- classical_approximation_algorithm
+size_parameters:
+- 'n: primary input size parameter from the AlgorithmWiki complexity expression.'
+ambiguities:
+- Some details are reconstructed from AlgorithmWiki metadata rather than an independently fetched full public description.
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.

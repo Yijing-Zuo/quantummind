@@ -1,0 +1,73 @@
+id: AW-000910
+kind: context
+algorithm_id: AW-000910
+algorithm_name: Parallel Merge Sort - Cole (1)
+source_records:
+- access_status: metadata_only
+  digest: f7a741c6690253bd
+  extracted_facts:
+  - 'AlgorithmWiki row name: Parallel Merge Sort - Cole (1)'
+  - 'domain: sorting'
+  - 'time complexity: O(logn)'
+  - 'computational model: CREW PRAM'
+  - 'parameter definitions: n: size of list'
+  - 'precard summary: Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model. Baseline: time O(logn); processors O(n). Bottleneck: comparison, distribution, and full-output movement costs dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000910:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Parallel Merge Sort - Cole (1)
+  url: https://epubs.siam.org/doi/abs/10.1137/0217049
+- access_status: fetched
+  digest: 4a32d9f15d631358
+  extracted_facts:
+  - 'DOI title: Parallel Merge Sort'
+  - 'published year: 1988'
+  - 'container title: SIAM Journal on Computing'
+  reliability: HIGH
+  short_quote: ''
+  source_id: crossref:a431fba7224756c9
+  source_type: doi_metadata
+  title: Parallel Merge Sort
+  url: https://doi.org/10.1137/0217049
+- access_status: failed
+  digest: ffd15c85e0c00ac6
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:fb9e4ec9696cffdd
+  source_type: publisher_abstract
+  title: 'HTTP Error 403: Forbidden'
+  url: https://epubs.siam.org/doi/abs/10.1137/0217049
+web_query_attempts:
+- method: search_plan
+  query: Parallel Merge Sort - Cole (1) algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Parallel Merge Sort - Cole (1) algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Parallel Merge Sort - Cole (1) problem definition
+  status: recorded
+- method: search_plan
+  query: Parallel Merge Sort - Cole (1) sorting algorithm
+  status: recorded
+- method: search_plan
+  query: Parallel Merge Sort - Cole (1) site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Parallel Merge Sort - Cole (1) algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://epubs.siam.org/doi/abs/10.1137/0217049
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1137/0217049
+  status: fetched
+- method: source_link_html_metadata
+  query: https://epubs.siam.org/doi/abs/10.1137/0217049
+  status: failed
+extracted_problem_statement: 'Parallel Merge Sort - Cole (1) is treated as a classical sorting task for rich AlgorithmWiki discovery. Problem/task: sort the input sequence using the named classical sorting method. Input semantics: A finite array or list of comparable keys or records. Output semantics: The same items returned in nondecreasing order, usually as a full reordered sequence.'
+extracted_algorithm_summary: 'Parallel Merge Sort - Cole (1) is a sorting algorithm record. Classical complexity metadata: time O(logn); processors O(n). The stated classical model is CREW PRAM. Public metadata/source text adds: Parallel Merge Sort - Cole (1) sorting sorting n: size of list O(logn) Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

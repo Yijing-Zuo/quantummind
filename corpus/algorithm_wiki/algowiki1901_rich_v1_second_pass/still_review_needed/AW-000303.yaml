@@ -1,0 +1,32 @@
+algorithm_id: AW-000303
+canonical_name: Hessain Determinant Lindeberg 1994
+enrichment_status: SECOND_PASS_INSUFFICIENT
+review_reasons:
+- No second-pass rule could identify source-backed task semantics.
+source_records:
+- access_status: metadata_only
+  digest: 872bd1140abcbd90
+  extracted_facts:
+  - 'AlgorithmWiki row name: Hessain Determinant Lindeberg 1994'
+  - 'domain: unknown'
+  - 'time complexity: O(n^3)'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000303:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Hessain Determinant Lindeberg 1994
+  url: ''
+- source_id: crossref_search:b8955f6ae34aedc2
+  url: https://doi.org/10.1090/mbk/121/10
+  title: Lindeberg condition
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: Lindeberg condition'
+  short_quote: ''
+  digest: 4ff403ce18bd6ef0
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

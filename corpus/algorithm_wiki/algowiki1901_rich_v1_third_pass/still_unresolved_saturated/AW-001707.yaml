@@ -1,0 +1,77 @@
+algorithm_id: AW-001707
+canonical_name: Dongarra, Sorensen
+enrichment_status: THIRD_PASS_SATURATED_INSUFFICIENT
+review_reasons:
+- After the configured source-family cycles, no source-backed concrete task, input semantics, output semantics, and conservative access model could be established.
+source_records:
+- access_status: metadata_only
+  digest: e8db3258b3e4f4ed
+  extracted_facts:
+  - 'AlgorithmWiki row name: Dongarra, Sorensen'
+  - 'domain: unknown'
+  - 'time complexity: O( n^3 / p )'
+  - 'computational model: shared memory'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001707:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Dongarra, Sorensen
+  url: https://epubs.siam.org/doi/pdf/10.1137/0908018
+- access_status: skipped
+  digest: ff973f7fd879ab00
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:f7241fdea7412878
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1137/0908018
+- access_status: fetched
+  digest: 19abe89e2462e8c3
+  extracted_facts:
+  - 'DOI title: A Fully Parallel Algorithm for the Symmetric Eigenvalue Problem'
+  - 'published year: 1987'
+  - 'container title: SIAM Journal on Scientific and Statistical Computing'
+  reliability: HIGH
+  short_quote: ''
+  source_id: crossref:e27deb2c874e1171
+  source_type: doi_metadata
+  title: A Fully Parallel Algorithm for the Symmetric Eigenvalue Problem
+  url: https://doi.org/10.1137/0908018
+- access_status: fetched
+  digest: eac65bcac63f65f8
+  extracted_facts:
+  - 'Crossref title-search result: An optimal algorithm to fetch DHT routable'
+  reliability: MEDIUM
+  short_quote: ''
+  source_id: crossref_search:0b18e1bdccf3f416
+  source_type: doi_metadata
+  title: An optimal algorithm to fetch DHT routable
+  url: https://doi.org/10.1109/npc.2007.32
+- source_id: skipped:243dc92dee8dbe99
+  url: https://epubs.siam.org/doi/pdf/10.1137/0908018
+  title: public PDF body was not downloaded
+  source_type: original_source
+  access_status: skipped
+  reliability: LOW
+  extracted_facts:
+  - public PDF body was not downloaded
+  short_quote: public PDF body was not downloaded
+  digest: e996f28e5d9fe7ec
+- source_id: openalex:3cb8b0353f878931
+  url: https://openalex.org/W2047905502
+  title: A Fully Parallel Algorithm for the Symmetric Eigenvalue Problem
+  source_type: openalex
+  access_status: fetched
+  reliability: HIGH
+  extracted_facts:
+  - 'OpenAlex title: A Fully Parallel Algorithm for the Symmetric Eigenvalue Problem'
+  - 'publication year: 1987'
+  - 'abstract summary: In this paper we present a parallel algorithm for the symmetric algebraic eigenvalue problem.'
+  short_quote: 'OpenAlex title: A Fully Parallel Algorithm for the Symmetric Eigenvalue Problem publication year: 1987 abstract summary: In this paper we present a parallel algorithm'
+  digest: ddafca0b48902591
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

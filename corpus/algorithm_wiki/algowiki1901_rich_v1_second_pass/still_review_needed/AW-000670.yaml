@@ -1,0 +1,57 @@
+algorithm_id: AW-000670
+canonical_name: Discrete Cosine Transform
+enrichment_status: SECOND_PASS_INSUFFICIENT
+review_reasons:
+- No second-pass rule could identify source-backed task semantics.
+source_records:
+- access_status: metadata_only
+  digest: 35640546729a1363
+  extracted_facts:
+  - 'AlgorithmWiki row name: Discrete Cosine Transform'
+  - 'domain: unknown'
+  - 'time complexity: O(n \log n)'
+  - 'space complexity: O(n)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of items in input series of data'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000670:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Discrete Cosine Transform
+  url: https://doi.org/10.1109%2FT-C.1974.223784
+- access_status: fetched
+  digest: c20018e0ba41ad8a
+  extracted_facts:
+  - 'DOI title: Discrete Cosine Transform'
+  - 'published year: 1974'
+  - 'container title: IEEE Transactions on Computers'
+  reliability: HIGH
+  short_quote: ''
+  source_id: crossref:3f49f12394953833
+  source_type: doi_metadata
+  title: Discrete Cosine Transform
+  url: https://doi.org/10.1109/T-C.1974.223784
+- access_status: failed
+  digest: 1919b3b1fdcbad68
+  extracted_facts:
+  - 'HTTP Error 420: '
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:88f43adf88518ea7
+  source_type: doi_metadata
+  title: 'HTTP Error 420: '
+  url: https://doi.org/10.1109%2FT-C.1974.223784
+- source_id: crossref_search:bc03d4548bee70ad
+  url: https://doi.org/10.1109/seems.2018.8687354
+  title: Efficient Recursive Algorithm for Discrete Cosine Transform and Inverse Discrete Cosine Transform
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: Efficient Recursive Algorithm for Discrete Cosine Transform and Inverse Discrete Cosine Transform'
+  short_quote: ''
+  digest: 51ea25c3afffabd7
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

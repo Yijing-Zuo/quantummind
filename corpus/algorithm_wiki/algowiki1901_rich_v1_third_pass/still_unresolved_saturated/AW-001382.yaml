@@ -1,0 +1,53 @@
+algorithm_id: AW-001382
+canonical_name: Csanky
+enrichment_status: THIRD_PASS_SATURATED_INSUFFICIENT
+review_reasons:
+- After the configured source-family cycles, no source-backed concrete task, input semantics, output semantics, and conservative access model could be established.
+source_records:
+- access_status: metadata_only
+  digest: 6037835a2c0eade7
+  extracted_facts:
+  - 'AlgorithmWiki row name: Csanky'
+  - 'domain: unknown'
+  - 'computational model: MIMD-TC CRCW'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001382:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Csanky
+  url: https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=4567852
+- access_status: skipped
+  digest: 6cafffad988d5d58
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:a17ffc6c833ce7c2
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=4567852
+- access_status: fetched
+  digest: eac65bcac63f65f8
+  extracted_facts:
+  - 'Crossref title-search result: An optimal algorithm to fetch DHT routable'
+  reliability: MEDIUM
+  short_quote: ''
+  source_id: crossref_search:0b18e1bdccf3f416
+  source_type: doi_metadata
+  title: An optimal algorithm to fetch DHT routable
+  url: https://doi.org/10.1109/npc.2007.32
+- source_id: source:024362446805b3c7
+  url: https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=4567852
+  title: https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=4567852
+  source_type: publisher_abstract
+  access_status: fetched
+  reliability: HIGH
+  extracted_facts:
+  - https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=4567852
+  - In order to continue, we need to verify that you're not a robot.
+  short_quote: https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=4567852 In order to continue, we need to verify that you're not a robot.
+  digest: 8cdb25e2bb87b20b
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

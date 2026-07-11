@@ -1,0 +1,63 @@
+id: AW-000193-P0166
+kind: probe
+algorithm_id: AW-000193
+algorithm_name: OBF Algorithm
+source_records:
+- access_status: metadata_only
+  digest: be2682e7cdd198de
+  extracted_facts:
+  - 'AlgorithmWiki row name: OBF Algorithm'
+  - 'domain: graph'
+  - 'time complexity: O(V(V+E))'
+  - 'space complexity: O(E+V^2) total'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: V: number of vertices, E: number of edges, p: number of processors'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(V(V+E)); space O(E+V^2) total. Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000193:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for OBF Algorithm
+  url: https://ieeexplore.ieee.org/document/8133154
+- access_status: fetched
+  digest: 2496ee9373d6e4fc
+  extracted_facts:
+  - 'source page title: https://ieeexplore.ieee.org/document/8133154'
+  - 'source page description: In order to continue, we need to verify that you''re not a robot.'
+  reliability: HIGH
+  short_quote: In order to continue, we need to verify that you're not a robot.
+  source_id: source:d8f3589b348e1956
+  source_type: publisher_abstract
+  title: https://ieeexplore.ieee.org/document/8133154
+  url: https://ieeexplore.ieee.org/document/8133154
+web_query_attempts:
+- method: search_plan
+  query: OBF Algorithm algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: OBF Algorithm algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: OBF Algorithm problem definition
+  status: recorded
+- method: search_plan
+  query: OBF Algorithm graph algorithm
+  status: recorded
+- method: search_plan
+  query: OBF Algorithm site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: OBF Algorithm algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://ieeexplore.ieee.org/document/8133154
+  status: recorded
+- method: source_link_html_metadata
+  query: https://ieeexplore.ieee.org/document/8133154
+  status: fetched
+- method: wikipedia_summary_search
+  query: OBF Algorithm algorithm
+  status: failed_or_not_relevant
+extracted_problem_statement: 'OBF Algorithm is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with OBF Algorithm. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'OBF Algorithm is a graph algorithm record. Classical complexity metadata: time O(V(V+E)); space O(E+V^2) total. The stated classical model is Word RAM. Public metadata/source text adds: OBF Algorithm graph graph V: number of vertices, E: number of edges, p: number of processors O(V(V+E)) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

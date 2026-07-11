@@ -1,0 +1,45 @@
+id: AW-001082
+kind: context
+algorithm_id: AW-001082
+algorithm_name: Wagner, Han
+source_records:
+- access_status: metadata_only
+  digest: 5bf295dded9a4875
+  extracted_facts:
+  - 'AlgorithmWiki row name: Wagner, Han'
+  - 'domain: parallel_algorithms'
+  - 'time complexity: O(ceiling(log m/ log(n/p + log p))(n/p+log p)'
+  - 'computational model: EREW, CREW PRAM'
+  - 'parameter definitions: n: size of list (ints in range 1,2,...m), p: number of processors'
+  - 'precard summary: Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model. Baseline: time O(ceiling(log m/ log(n/p + log p))(n/p+log p); work O(ceiling(\log m/ \log(n/p + \log p))(n+p \log p); span/depth O(celing(log m/loglog n)log n) [assumed n=p, could have a better result]; processors p. Bottleneck: work, span, communication, and processor-count assumptions dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001082:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Wagner, Han
+  url: http://h.web.umkc.edu/hanyij/html/research/icpp86.pdf
+web_query_attempts:
+- method: search_plan
+  query: Wagner, Han algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Wagner, Han algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Wagner, Han problem definition
+  status: recorded
+- method: search_plan
+  query: Wagner, Han parallel algorithms algorithm
+  status: recorded
+- method: search_plan
+  query: Wagner, Han site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Wagner, Han algorithm wiki
+  status: recorded
+- method: search_plan
+  query: http://h.web.umkc.edu/hanyij/html/research/icpp86.pdf
+  status: recorded
+extracted_problem_statement: 'Wagner, Han is treated as a classical parallel algorithms task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Wagner, Han. Input semantics: The classical input instance named by the row, together with processor/work/span parameters when stated. Output semantics: An edit-distance value, alignment, or dynamic-programming table information for the input strings.'
+extracted_algorithm_summary: 'Wagner, Han is a parallel algorithms algorithm record. Classical complexity metadata: time O(ceiling(log m/ log(n/p + log p))(n/p+log p); work O(ceiling(\log m/ \log(n/p + \log p))(n+p \log p); span/depth O(celing(log m/loglog n)log n) [assumed n=p, could have a better result]; processors p. The stated classical model is EREW, CREW PRAM. Public metadata/source text adds: Wagner, Han parallel_algorithms parallel_algorithms n: size of list (ints in range 1,2,...m), p: number of processors O(ceiling(log m/ log(n/p + log p))(n/p+log p) Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

@@ -1,0 +1,69 @@
+id: AW-000208
+kind: context_recovered
+algorithm_id: AW-000208
+algorithm_name: Hinrichs Nievergelt Schorn
+source_records:
+- access_status: metadata_only
+  digest: 7adfbd68eb11dc3f
+  extracted_facts:
+  - 'AlgorithmWiki row name: Hinrichs Nievergelt Schorn'
+  - 'domain: unknown'
+  - 'time complexity: O(n \log n)'
+  - 'space complexity: O(n)'
+  - 'computational model: Real RAM'
+  - 'parameter definitions: n: number of points'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000208:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Hinrichs Nievergelt Schorn
+  url: https://www.sciencedirect.com/science/article/pii/0020019088901500
+- access_status: failed
+  digest: 0ee3b1848cb932d1
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:3d90f7431e4c533f
+  source_type: publisher_abstract
+  title: 'HTTP Error 403: Forbidden'
+  url: https://www.sciencedirect.com/science/article/pii/0020019088901500
+- source_id: crossref_search:9ca92d07f20a20ab
+  url: https://doi.org/10.24894/sprengglossarium_s04422
+  title: Schorn
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: Schorn'
+  short_quote: ''
+  digest: 9c78be0506fe3a27
+web_query_attempts:
+- query: '"Hinrichs Nievergelt Schorn" algorithm'
+  method: search_plan
+  status: recorded
+- query: '"Hinrichs Nievergelt Schorn" input output'
+  method: search_plan
+  status: recorded
+- query: '"Hinrichs Nievergelt Schorn" time complexity'
+  method: search_plan
+  status: recorded
+- query: '"Hinrichs Nievergelt Schorn" pseudocode'
+  method: search_plan
+  status: recorded
+- query: '"Hinrichs Nievergelt Schorn" problem'
+  method: search_plan
+  status: recorded
+- query: '"Hinrichs Nievergelt Schorn" PDF metadata abstract'
+  method: search_plan
+  status: recorded
+- query: https://www.sciencedirect.com/science/article/pii/0020019088901500
+  method: search_plan
+  status: recorded
+- query: Hinrichs Nievergelt Schorn algorithm
+  method: crossref_title_search
+  status: fetched
+extracted_problem_statement: 'Hinrichs Nievergelt Schorn is reconstructed as a classical computational geometry task. Problem/task: compute a geometric structure or relation over a finite point set Input semantics: A finite set of points, dimension k when stated, and geometric predicate assumptions. Output semantics: A geometric witness, nearest/closest relation, hull, partition, or related structure supported by the named row.'
+extracted_algorithm_summary: 'Hinrichs Nievergelt Schorn is treated as the named AlgorithmWiki variant for compute a geometric structure or relation over a finite point set Classical complexity metadata: time O(n \log n); space O(n). Public metadata/source title support includes Schorn.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

@@ -1,0 +1,15 @@
+statement: 'Nachaoui, Chafik, Daoui is included as a named whole-algorithm context card for a classical parallel algorithms task. The task is to analyze the classical input-output problem, not to certify an end-to-end improvement claim. Input semantics: A set of processes, request/release events, and shared-memory or message-passing assumptions. Output semantics: A protocol state sequence or decision granting safe critical-section access. Classical algorithm summary: Nachaoui, Chafik, Daoui is treated as the named AlgorithmWiki variant for coordinate process access to a critical section without simultaneous entry Classical complexity metadata: time O(npS); work O(AS^2) per iteration; span/depth O(AS^2) per iteration. Public metadata/source title support includes A new parallelized of hierarchical value iteration algorithm for discounted Markov decision processes. Classical complexity recorded for this row: time O(npS); space unknown; computation model Message Passing Interface (MPI). Dominant
+  bottleneck: Message or shared-variable access, waiting conditions, and fairness/progress constraints dominate. The useful review questions are whether the named structure exposes a smaller decision, witness, estimation, or algebraic subproblem; whether the full output size dominates any asymptotic gain; and whether the stated access model is realistic for the original input. Provenance used for reconstruction includes public metadata or abstract sources such as A new parallelized of hierarchical value iteration algorithm for discounted Markov decision processes; An optimal algorithm to fetch DHT routable.'
+input_model: explicit_parallel_algorithm_problem
+access_model: explicit_input_instance
+output_contract: yes_no_decision
+promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+- classical_approximation_algorithm
+size_parameters:
+- 'Parameter definition: A: size of set of actions, S: size of set of states'
+- p = stated number of processors (np)
+ambiguities:
+- Some details are reconstructed from AlgorithmWiki metadata rather than an independently fetched full public description.
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.

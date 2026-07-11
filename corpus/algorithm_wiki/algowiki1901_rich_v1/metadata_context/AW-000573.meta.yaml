@@ -1,0 +1,57 @@
+algorithm_family: graph
+algorithm_id: AW-000573
+approximate: '0'
+approximation_factor: ''
+blind_name: Algorithm Wiki public task AW-000573
+canonical_name: Schieber Vishkin
+computational_model: Word RAM
+domain: graph
+extracted_description: ''
+extraction_version: algorithm-wiki-rich-context-v1
+family: graph
+inferred_access_model: adjacency_list_query
+inferred_ambiguities:
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.
+inferred_input_model: explicit_graph_problem
+inferred_output_contract: full_solution
+inferred_problem_statement: 'Schieber Vishkin is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Schieber Vishkin. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+inferred_promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+inferred_size_parameters:
+- 'Parameter definition: n: number of vertices, m: number of total number of operations (queries, links, and cuts)'
+number_of_processors: ''
+page_digest: ''
+page_fetch_status: not_found
+page_url: ''
+parameter_definitions: 'n: number of vertices, m: number of total number of operations (queries, links, and cuts)'
+problem_name: graph
+quality_flags:
+- domain_inferred
+- problem_statement_inferred
+- io_access_output_inferred
+- has_complexity_semantics
+- has_size_parameters
+- has_computational_model
+quality_score: 100
+randomized: '0'
+readiness: READY_PUBLIC_CONTEXT
+review_reasons:
+- duplicate_public_blind_digest:cfa7a471a2d6e010 kept:AW-000572
+source_link: https://epubs.siam.org/doi/abs/10.1137/0217079?journalCode=smjcat
+source_link_type: siam
+space_complexity: O(n)
+span_depth: ''
+time_complexity: O(n+m)
+variation: ''
+work: ''
+year: '1988'
+rich_card_kind: context
+source_records_used:
+- AW-000573:algorithm_wiki_metadata
+- crossref:6fa0335bb92af26a
+- failed:a67da549ff7a245e
+source_count: 3
+source_quality: HIGH
+confidence_score: 100
+card_digest: 6846b4791843bc44

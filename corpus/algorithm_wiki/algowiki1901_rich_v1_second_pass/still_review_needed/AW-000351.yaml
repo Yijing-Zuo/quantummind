@@ -1,0 +1,31 @@
+algorithm_id: AW-000351
+canonical_name: Coplanar facets merging - M.J. De Haemer and M.J. Zyda 1991
+enrichment_status: SECOND_PASS_INSUFFICIENT
+review_reasons:
+- No second-pass rule could identify source-backed task semantics.
+source_records:
+- access_status: metadata_only
+  digest: d973003b9125a40c
+  extracted_facts:
+  - 'AlgorithmWiki row name: Coplanar facets merging - M.J. De Haemer and M.J. Zyda 1991'
+  - 'domain: unknown'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000351:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Coplanar facets merging - M.J. De Haemer and M.J. Zyda 1991
+  url: ''
+- source_id: crossref_search:208c3ac249d84bc4
+  url: https://doi.org/10.1007/bf02948963
+  title: An algorithm for LOD by merging near coplanar faces based on gauss sphere
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: An algorithm for LOD by merging near coplanar faces based on gauss sphere'
+  short_quote: ''
+  digest: d433e66ca4c1a67c
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

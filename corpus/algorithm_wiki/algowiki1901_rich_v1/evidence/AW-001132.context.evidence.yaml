@@ -1,0 +1,71 @@
+id: AW-001132
+kind: context
+algorithm_id: AW-001132
+algorithm_name: Parasort - Wheat, Evans
+source_records:
+- access_status: metadata_only
+  digest: d0f638ad880f3ed6
+  extracted_facts:
+  - 'AlgorithmWiki row name: Parasort - Wheat, Evans'
+  - 'domain: sorting'
+  - 'time complexity: O((n/p)^2 +(5n/(3p) + 2 \log^2{n/p} +1) \log{p+1} + 2 \log^3{p+1}/3 + p)'
+  - 'computational model: MIMD'
+  - 'parameter definitions: n: size of list, p: number of processors'
+  - 'precard summary: Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model. Baseline: time O((n/p)^2 +(5n/(3p) + 2 \log^2{n/p} +1) \log{p+1} + 2 \log^3{p+1}/3 + p); work O(n^2/p +(5n/3 + 2p \log^2{n/p} +p) \log{p+1} + 2p \log^3{p+1}/3 + p); span/depth O(n); processors p. Bottleneck: comparison, distribution, and full-output movement costs dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001132:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Parasort - Wheat, Evans
+  url: https://www.sciencedirect.com/science/article/pii/016781919290114M
+- access_status: skipped
+  digest: 62f04a43489036dc
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:d7d7f9a35bb70e93
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://www.sciencedirect.com/science/article/pii/016781919290114M
+- access_status: skipped
+  digest: 6c1309937a9ef104
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:71223db8f59b0fab
+  source_type: wikipedia
+  title: fetch budget exhausted
+  url: https://en.wikipedia.org/wiki/Parasort_-_Wheat%2C_Evans
+web_query_attempts:
+- method: search_plan
+  query: Parasort - Wheat, Evans algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Parasort - Wheat, Evans algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Parasort - Wheat, Evans problem definition
+  status: recorded
+- method: search_plan
+  query: Parasort - Wheat, Evans sorting algorithm
+  status: recorded
+- method: search_plan
+  query: Parasort - Wheat, Evans site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Parasort - Wheat, Evans algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://www.sciencedirect.com/science/article/pii/016781919290114M
+  status: recorded
+- method: source_link_html_metadata
+  query: https://www.sciencedirect.com/science/article/pii/016781919290114M
+  status: skipped
+- method: wikipedia_summary_search
+  query: Parasort - Wheat, Evans algorithm
+  status: skipped
+extracted_problem_statement: 'Parasort - Wheat, Evans is treated as a classical sorting task for rich AlgorithmWiki discovery. Problem/task: sort the input sequence using the named classical sorting method. Input semantics: A finite array or list of comparable keys or records. Output semantics: The same items returned in nondecreasing order, usually as a full reordered sequence.'
+extracted_algorithm_summary: 'Parasort - Wheat, Evans is a sorting algorithm record. Classical complexity metadata: time O((n/p)^2 +(5n/(3p) + 2 \log^2{n/p} +1) \log{p+1} + 2 \log^3{p+1}/3 + p); work O(n^2/p +(5n/3 + 2p \log^2{n/p} +p) \log{p+1} + 2p \log^3{p+1}/3 + p); span/depth O(n); processors p. The stated classical model is MIMD. Public metadata/source text adds: Parasort - Wheat, Evans sorting sorting n: size of list, p: number of processors O((n/p)^2 +(5n/(3p) + 2 \log^2{n/p} +1) \log{p+1} + 2 \log^3{p+1}/3 + p) Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

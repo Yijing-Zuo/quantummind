@@ -1,0 +1,54 @@
+algorithm_family: unknown
+algorithm_id: AW-000475
+approximate: '0'
+approximation_factor: ''
+blind_name: Algorithm Wiki public task AW-000475
+canonical_name: Naive algorithm
+computational_model: Word RAM
+domain: unknown
+extracted_description: ''
+extraction_version: algorithm-wiki-rich-context-v1
+family: unknown
+inferred_access_model: offline_batch_queries
+inferred_ambiguities:
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.
+inferred_input_model: explicit_data_structure_problem
+inferred_output_contract: data_structure_output
+inferred_problem_statement: 'Naive algorithm is treated as a classical data structures task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Naive algorithm. Input semantics: A set of records plus update/query operations for the named data structure. Output semantics: A maintained data structure representation and answers to its supported queries.'
+inferred_promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+inferred_size_parameters:
+- 'Parameter definition: n: number of elements'
+number_of_processors: ''
+page_digest: ''
+page_fetch_status: not_found
+page_url: ''
+parameter_definitions: 'n: number of elements'
+problem_name: unknown
+quality_flags:
+- has_complexity_semantics
+- has_size_parameters
+- has_computational_model
+quality_score: 70
+randomized: '0'
+readiness: READY_PUBLIC_CONTEXT
+review_reasons:
+- A previous row has the same canonicalized algorithm name.
+source_link: https://link.springer.com/article/10.1007/BF00264289
+source_link_type: unknown
+space_complexity: O(1)
+span_depth: ''
+time_complexity: O(4^n/n^{3/2})
+variation: ''
+work: ''
+year: '1940'
+rich_card_kind: context
+source_records_used:
+- AW-000475:algorithm_wiki_metadata
+- crossref:dec440b17318492a
+- skipped:3457793f918aa299
+source_count: 3
+source_quality: HIGH
+confidence_score: 70
+card_digest: c93b855efd42a986

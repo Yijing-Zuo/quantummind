@@ -1,0 +1,58 @@
+id: AW-001135
+kind: context
+algorithm_id: AW-001135
+algorithm_name: Heidelberger, Norton, Robinson
+source_records:
+- access_status: metadata_only
+  digest: b94bdb5ead5ae764
+  extracted_facts:
+  - 'AlgorithmWiki row name: Heidelberger, Norton, Robinson'
+  - 'domain: parallel_algorithms'
+  - 'time complexity: O(\log^2{n)})'
+  - 'computational model: CRCW PRAM (assuming O(1) time feth-and-add)'
+  - 'parameter definitions: n: size of list'
+  - 'precard summary: Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model. Baseline: time O(\log^2{n)}); work O(n \\log{n}) expected; span/depth O(\log{n}) expected; processors n. Bottleneck: work, span, communication, and processor-count assumptions dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001135:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Heidelberger, Norton, Robinson
+  url: https://ieeexplore.ieee.org/abstract/document/46289?casa_token=EH1cXGJiDmcAAAAA:cWEfm3FxEXfMA9Q9165CWoFfbV9KAvcsrKzyFUgJAHIpKw7wzvzmSVzulfwDa5Dr0RbLMc1MKA
+- access_status: skipped
+  digest: 7bb2f0242ced42c3
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:5e29b4e71de556e9
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://ieeexplore.ieee.org/abstract/document/46289?casa_token=EH1cXGJiDmcAAAAA:cWEfm3FxEXfMA9Q9165CWoFfbV9KAvcsrKzyFUgJAHIpKw7wzvzmSVzulfwDa5Dr0RbLMc1MKA
+web_query_attempts:
+- method: search_plan
+  query: Heidelberger, Norton, Robinson algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Heidelberger, Norton, Robinson algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Heidelberger, Norton, Robinson problem definition
+  status: recorded
+- method: search_plan
+  query: Heidelberger, Norton, Robinson parallel algorithms algorithm
+  status: recorded
+- method: search_plan
+  query: Heidelberger, Norton, Robinson site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Heidelberger, Norton, Robinson algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://ieeexplore.ieee.org/abstract/document/46289?casa_token=EH1cXGJiDmcAAAAA:cWEfm3FxEXfMA9Q9165CWoFfbV9KAvcsrKzyFUgJAHIpKw7wzvzmSVzulfwDa5Dr0RbLMc1MKA
+  status: recorded
+- method: source_link_html_metadata
+  query: https://ieeexplore.ieee.org/abstract/document/46289?casa_token=EH1cXGJiDmcAAAAA:cWEfm3FxEXfMA9Q9165CWoFfbV9KAvcsrKzyFUgJAHIpKw7wzvzmSVzulfwDa5Dr0RbLMc1MKA
+  status: skipped
+extracted_problem_statement: 'Heidelberger, Norton, Robinson is treated as a classical parallel algorithms task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Heidelberger, Norton, Robinson. Input semantics: The classical input instance named by the row, together with processor/work/span parameters when stated. Output semantics: The same mathematical output as the underlying classical task, annotated by work/span when available.'
+extracted_algorithm_summary: 'Heidelberger, Norton, Robinson is a parallel algorithms algorithm record. Classical complexity metadata: time O(\log^2{n)}); work O(n \\log{n}) expected; span/depth O(\log{n}) expected; processors n. The stated classical model is CRCW PRAM (assuming O(1) time feth-and-add). Public metadata/source text adds: Heidelberger, Norton, Robinson parallel_algorithms parallel_algorithms n: size of list O(\log^2{n)}) Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

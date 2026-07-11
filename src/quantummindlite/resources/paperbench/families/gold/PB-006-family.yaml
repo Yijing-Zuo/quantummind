@@ -1,0 +1,28 @@
+family_id: PB-006-family
+seed_variant_id: seed
+public_digest: 3cb718a216ad5ece
+relations:
+  - variant_id: surface_rewrite
+    expected_relation: PRESERVE
+    diagnostic_only: false
+    seed_projection: {selected_primitive: null, verdict: NEGATIVE, scope: NONE}
+    variant_projection: {selected_primitive: null, verdict: NEGATIVE, scope: NONE}
+    required_invariant_fields: [selected_primitive, verdict, scope]
+  - variant_id: misleading_bait
+    expected_relation: PRESERVE
+    diagnostic_only: false
+    seed_projection: {selected_primitive: null, verdict: NEGATIVE, scope: NONE}
+    variant_projection: {selected_primitive: null, verdict: NEGATIVE, scope: NONE}
+    required_invariant_fields: [selected_primitive, verdict, scope]
+  - variant_id: output_contract_change
+    expected_relation: DIRECTIONAL_CHANGE
+    diagnostic_only: false
+    seed_projection: {selected_primitive: null, verdict: NEGATIVE, scope: NONE}
+    variant_projection: {selected_primitive: amplitude_amplification, verdict: POSITIVE, scope: QUERY}
+    required_changed_fields: [selected_primitive, verdict, scope]
+  - variant_id: exploitable_structure
+    expected_relation: PRESERVE
+    diagnostic_only: true
+  - variant_id: underspecified_access
+    expected_relation: PRESERVE
+    diagnostic_only: true

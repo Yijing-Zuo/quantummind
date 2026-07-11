@@ -1,0 +1,47 @@
+algorithm_id: AW-000611
+canonical_name: 9-point Tensor product
+enrichment_status: SECOND_PASS_INSUFFICIENT
+review_reasons:
+- No second-pass rule could identify source-backed task semantics.
+source_records:
+- access_status: metadata_only
+  digest: b070116648318008
+  extracted_facts:
+  - 'AlgorithmWiki row name: 9-point Tensor product'
+  - 'domain: unknown'
+  - 'time complexity: O(n^4)'
+  - 'space complexity: O(n^3)'
+  - 'computational model: Real RAM'
+  - 'parameter definitions: n: dimension of grid (where grid is discretized)'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000611:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for 9-point Tensor product
+  url: https://epubs.siam.org/doi/pdf/10.1137/0113067
+- access_status: fetched
+  digest: 03208d88cb4fc801
+  extracted_facts:
+  - 'DOI title: Tensor Product Analysis of Alternating Direction Implicit Methods'
+  - 'published year: 1965'
+  - 'container title: Journal of the Society for Industrial and Applied Mathematics'
+  reliability: HIGH
+  short_quote: ''
+  source_id: crossref:9de8b84e47aae2a3
+  source_type: doi_metadata
+  title: Tensor Product Analysis of Alternating Direction Implicit Methods
+  url: https://doi.org/10.1137/0113067
+- source_id: crossref_search:0b893ac69345ca3e
+  url: https://doi.org/10.1137/0113067
+  title: Tensor Product Analysis of Alternating Direction Implicit Methods
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: Tensor Product Analysis of Alternating Direction Implicit Methods'
+  short_quote: ''
+  digest: 02addb5324427301
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

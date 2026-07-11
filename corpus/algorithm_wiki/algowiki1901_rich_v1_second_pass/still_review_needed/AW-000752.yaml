@@ -1,0 +1,42 @@
+algorithm_id: AW-000752
+canonical_name: BEN-CHEN M. GOTSMAN C. BUNIN G. 2008
+enrichment_status: SECOND_PASS_INSUFFICIENT
+review_reasons:
+- No second-pass rule could identify source-backed task semantics.
+source_records:
+- access_status: metadata_only
+  digest: 027ba733f3674645
+  extracted_facts:
+  - 'AlgorithmWiki row name: BEN-CHEN M. GOTSMAN C. BUNIN G. 2008'
+  - 'domain: unknown'
+  - 'time complexity: O(n \log^2 n)'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000752:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for BEN-CHEN M. GOTSMAN C. BUNIN G. 2008
+  url: https://ieeexplore.ieee.org/document/4479457
+- access_status: failed
+  digest: b0c533a5f5d9a768
+  extracted_facts:
+  - 'HTTP Error 420: '
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:6fcd344df1575e23
+  source_type: publisher_abstract
+  title: 'HTTP Error 420: '
+  url: https://ieeexplore.ieee.org/document/4479457
+- source_id: crossref_search:22edc983db8466c4
+  url: https://doi.org/10.1109/mcs.2013.2269749
+  title: Ben M. Chen [People in Control]
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: Ben M. Chen [People in Control]'
+  short_quote: ''
+  digest: ba41e9531b65f304
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

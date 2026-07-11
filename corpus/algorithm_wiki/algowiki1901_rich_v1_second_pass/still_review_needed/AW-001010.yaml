@@ -1,0 +1,35 @@
+algorithm_id: AW-001010
+canonical_name: "Grahne and R\xE4ih\xE4"
+enrichment_status: SECOND_PASS_INSUFFICIENT
+review_reasons:
+- No second-pass rule could identify source-backed task semantics.
+source_records:
+- access_status: metadata_only
+  digest: d2fdb7bf7fda108c
+  extracted_facts:
+  - "AlgorithmWiki row name: Grahne and R\xE4ih\xE4"
+  - 'domain: unknown'
+  - 'time complexity: exponential'
+  - 'space complexity: exponential'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: k: number of multivalued dependencies, n: number of attributes (|U|)'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001010:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: "AlgorithmWiki metadata for Grahne and R\xE4ih\xE4"
+  url: https://www.vldb.org/conf/1983/P186.PDF
+- source_id: crossref_search:1af6b6103d959f6e
+  url: https://doi.org/10.1145/366199.366273
+  title: Remarks on Algorithm 2, Algorithm 3, Algorithm 15, Algorithm 25 and Algorithm 26
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: Remarks on Algorithm 2, Algorithm 3, Algorithm 15, Algorithm 25 and Algorithm 26'
+  short_quote: ''
+  digest: 8d899b0032e17686
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

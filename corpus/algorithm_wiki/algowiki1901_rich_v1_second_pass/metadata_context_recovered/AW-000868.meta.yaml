@@ -1,0 +1,61 @@
+algorithm_id: AW-000868
+canonical_name: RC5
+blind_name: Algorithm Wiki public task AW-000868
+year: '1994'
+domain: unknown
+family: unknown
+variation: ''
+problem_name: unknown
+algorithm_family: unknown
+time_complexity: O(n)
+space_complexity: O(k+rw)
+computational_model: Word RAM
+randomized: '0'
+approximate: '0'
+approximation_factor: ''
+parameter_definitions: 'n: text length (block size), k: key length, r: number of rounds, w: length of word'
+span_depth: ''
+work: ''
+number_of_processors: ''
+source_link: https://link.springer.com/chapter/10.1007/3-540-60590-8_7
+source_link_type: unknown
+page_url: ''
+page_fetch_status: not_found
+page_digest: ''
+extracted_description: ''
+inferred_problem_statement: 'RC5 is reconstructed as a classical string task. Problem/task: find occurrences of a pattern in a text Input semantics: A finite text string, a finite pattern string, and alphabet/hash/preprocessing parameters when stated. Output semantics: One or more occurrence positions or a report that no occurrence exists.'
+inferred_input_model: explicit_string_problem
+inferred_access_model: random_access_string
+inferred_output_contract: one_witness
+inferred_size_parameters:
+- 'Parameter definition: n: text length (block size), k: key length, r: number of rounds, w: length of word'
+inferred_promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+inferred_ambiguities:
+- Some details are reconstructed from AlgorithmWiki metadata rather than an independently fetched full public description.
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.
+quality_score: 90
+quality_flags:
+- has_complexity_semantics
+- has_size_parameters
+- has_computational_model
+readiness: READY_PUBLIC_CONTEXT
+review_reasons:
+- missing_problem_statement
+- unknown_input_model
+- unknown_access_model
+- unknown_output_contract
+- insufficient_algorithm_level_structure
+extraction_version: algorithm-wiki-rich-second-pass-context-v1
+rich_card_kind: context_recovered
+source_records_used:
+- AW-000868:algorithm_wiki_metadata
+- crossref:e5298d8a47facb52
+- skipped:a4911c877d07595b
+- crossref_search:7d54ea218cee9000
+source_count: 4
+source_quality: HIGH
+confidence_score: 90
+card_digest: 1b2cfcb08fea2291
+second_pass_rule: string_matching

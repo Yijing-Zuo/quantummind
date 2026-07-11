@@ -1,0 +1,86 @@
+id: AW-000392-TP0082
+kind: probe_recovered
+algorithm_id: AW-000392
+algorithm_name: Emil Praun
+source_records:
+- access_status: metadata_only
+  digest: 3e666434df1bcfbf
+  extracted_facts:
+  - 'AlgorithmWiki row name: Emil Praun'
+  - 'domain: unknown'
+  - 'time complexity: O(n^3)'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000392:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Emil Praun
+  url: ''
+- access_status: fetched
+  digest: 6054aa350529823f
+  extracted_facts:
+  - 'Crossref title-search result: Praun, Hermann'
+  reliability: MEDIUM
+  short_quote: ''
+  source_id: crossref_search:edf710b3256c88b9
+  source_type: doi_metadata
+  title: Praun, Hermann
+  url: https://doi.org/10.1093/benz/9780199773787.article.b00145651
+- source_id: crossref_search:369f1f82cb7b8701
+  url: https://doi.org/10.1093/benz/9780199773787.article.b00145651
+  title: Praun, Hermann
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title: Praun, Hermann'
+  - 'published year: 2011'
+  - 'container title: Benezit Dictionary of Artists'
+  short_quote: 'Crossref title: Praun, Hermann published year: 2011 container title: Benezit Dictionary of Artists'
+  digest: 06caf5751beafb92
+web_query_attempts:
+- cycle: 1
+  query: Emil Praun
+  source_family: algorithm_wiki_local
+  url_or_api_endpoint: ''
+  status: fetched
+  new_facts_added: 5
+  reason: local metadata
+- cycle: 1
+  query: Emil Praun
+  source_family: local_previous_cache
+  url_or_api_endpoint: ''
+  status: duplicate
+  new_facts_added: 0
+  reason: previous v1/second-pass sources reused
+- cycle: 1
+  query: Emil Praun
+  source_family: original_source
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: no original source link
+- cycle: 1
+  query: Emil Praun
+  source_family: crossref
+  url_or_api_endpoint: https://doi.org/10.1093/benz/9780199773787.article.b00145651
+  status: irrelevant
+  new_facts_added: 0
+  reason: Crossref metadata/title search
+- cycle: 1
+  query: Emil Praun
+  source_family: arxiv
+  url_or_api_endpoint: https://export.arxiv.org/api/query?max_results=1&search_query=ti:%22Emil+Praun%22
+  status: no_result
+  new_facts_added: 0
+  reason: arXiv title search returned no usable entry
+- cycle: 1
+  query: Emil Praun
+  source_family: wikipedia
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: Wikipedia search returned no relevant page
+extracted_problem_statement: 'Emil Praun is treated as a source-saturated AlgorithmWiki row for maintain a data structure supporting the named operations Input semantics: A set of records and operation sequence for insert, delete, query, or search operations. Output semantics: A maintained representation and answers to the supported queries.'
+extracted_algorithm_summary: 'Emil Praun is reconstructed as a classical data structures task. The source-backed title/name/fact record supports the task: maintain a data structure supporting the named operations.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

@@ -1,0 +1,59 @@
+algorithm_id: AW-000257
+canonical_name: Furer's algorithm
+blind_name: Algorithm Wiki public task AW-000257
+year: '2007'
+domain: unknown
+family: unknown
+variation: ''
+problem_name: unknown
+algorithm_family: unknown
+time_complexity: O(n \log n 2^{O(\log^*n)})
+space_complexity: O(n) auxiliary
+computational_model: Word RAM
+randomized: '0'
+approximate: '0'
+approximation_factor: ''
+parameter_definitions: 'n: length of one of the integers, in bits'
+span_depth: ''
+work: ''
+number_of_processors: ''
+source_link: https://web.archive.org/web/20130425232048/http://www.cse.psu.edu/~furer/Papers/mult.pdf
+source_link_type: pdf
+page_url: ''
+page_fetch_status: not_found
+page_digest: ''
+extracted_description: ''
+inferred_problem_statement: 'Furer''s algorithm is reconstructed as a classical combinatorics task. Problem/task: multiply large integers Input semantics: Two integers represented by n-bit or n-limb strings. Output semantics: The exact product integer.'
+inferred_input_model: explicit_combinatorial_problem
+inferred_access_model: random_access_string
+inferred_output_contract: full_solution
+inferred_size_parameters:
+- 'Parameter definition: n: length of one of the integers, in bits'
+inferred_promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+inferred_ambiguities:
+- Some details are reconstructed from AlgorithmWiki metadata rather than an independently fetched full public description.
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.
+quality_score: 80
+quality_flags:
+- has_complexity_semantics
+- has_size_parameters
+- has_computational_model
+readiness: READY_PUBLIC_CONTEXT
+review_reasons:
+- missing_problem_statement
+- unknown_input_model
+- unknown_access_model
+- unknown_output_contract
+- insufficient_algorithm_level_structure
+extraction_version: algorithm-wiki-rich-second-pass-context-v1
+rich_card_kind: context_recovered
+source_records_used:
+- AW-000257:algorithm_wiki_metadata
+- crossref_search:c0868674f98415f8
+source_count: 2
+source_quality: HIGH
+confidence_score: 80
+card_digest: cde1eafad58dc63f
+second_pass_rule: integer_multiplication

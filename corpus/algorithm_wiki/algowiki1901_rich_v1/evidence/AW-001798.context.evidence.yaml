@@ -1,0 +1,70 @@
+id: AW-001798
+kind: context
+algorithm_id: AW-001798
+algorithm_name: Wu et al.
+source_records:
+- access_status: metadata_only
+  digest: 8bca156927e5f624
+  extracted_facts:
+  - 'AlgorithmWiki row name: Wu et al.'
+  - 'domain: parallel_algorithms'
+  - 'computational model: CREW PRAM'
+  - 'parameter definitions: n: number of points, p: number of processors'
+  - 'precard summary: Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model. Baseline: work O(n \log n); span/depth O(n); processors p. Bottleneck: work, span, communication, and processor-count assumptions dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001798:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Wu et al.
+  url: https://www.tandfonline.com/doi/full/10.1080/15481603.2014.946666
+- access_status: skipped
+  digest: 54d27f1602b27744
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:5fc4f2a60d1af9d3
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1080/15481603.2014.946666
+- access_status: skipped
+  digest: 3543e9e24db75e77
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:a46f7bc9c26656a7
+  source_type: other_public_source
+  title: fetch budget exhausted
+  url: https://www.tandfonline.com/doi/full/10.1080/15481603.2014.946666
+web_query_attempts:
+- method: search_plan
+  query: Wu et al. algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Wu et al. algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Wu et al. problem definition
+  status: recorded
+- method: search_plan
+  query: Wu et al. parallel algorithms algorithm
+  status: recorded
+- method: search_plan
+  query: Wu et al. site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Wu et al. algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://www.tandfonline.com/doi/full/10.1080/15481603.2014.946666
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1080/15481603.2014.946666
+  status: skipped
+- method: source_link_html_metadata
+  query: https://www.tandfonline.com/doi/full/10.1080/15481603.2014.946666
+  status: skipped
+extracted_problem_statement: 'Wu et al. is treated as a classical parallel algorithms task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Wu et al.. Input semantics: The classical input instance named by the row, together with processor/work/span parameters when stated. Output semantics: The same mathematical output as the underlying classical task, annotated by work/span when available.'
+extracted_algorithm_summary: 'Wu et al. is a parallel algorithms algorithm record. Classical complexity metadata: work O(n \log n); span/depth O(n); processors p. The stated classical model is CREW PRAM. Public metadata/source text adds: Wu et al. parallel_algorithms parallel_algorithms n: number of points, p: number of processors Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

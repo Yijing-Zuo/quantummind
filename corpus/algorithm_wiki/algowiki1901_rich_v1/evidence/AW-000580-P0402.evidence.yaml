@@ -1,0 +1,74 @@
+id: AW-000580-P0402
+kind: probe
+algorithm_id: AW-000580
+algorithm_name: Neuhaus, Riesen, Bunke
+source_records:
+- access_status: metadata_only
+  digest: 25b519c59a51095c
+  extracted_facts:
+  - 'AlgorithmWiki row name: Neuhaus, Riesen, Bunke'
+  - 'domain: graph'
+  - 'time complexity: O(V^2)'
+  - 'space complexity: O(wV)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: V: number of vertices in the larger of the two graphs, w: the beam width parameter for how many of the best nodes are kept at each layer of the beam search (O(V))'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(V^2); space O(wV). Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000580:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Neuhaus, Riesen, Bunke
+  url: https://link.springer.com/chapter/10.1007/11815921_17
+- access_status: fetched
+  digest: 68db2d4db31e6c8c
+  extracted_facts:
+  - 'DOI title: Fast Suboptimal Algorithms for the Computation of Graph Edit Distance'
+  - 'published year: 2006'
+  - 'container title: Lecture Notes in Computer Science'
+  reliability: HIGH
+  short_quote: ''
+  source_id: crossref:6ecc77a8532d5506
+  source_type: doi_metadata
+  title: Fast Suboptimal Algorithms for the Computation of Graph Edit Distance
+  url: https://doi.org/10.1007/11815921_17
+- access_status: skipped
+  digest: 4c6e5f48af7d7abf
+  extracted_facts:
+  - robots.txt disallowed fetch
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:f011312119e75dca
+  source_type: publisher_abstract
+  title: robots.txt disallowed fetch
+  url: https://link.springer.com/chapter/10.1007/11815921_17
+web_query_attempts:
+- method: search_plan
+  query: Neuhaus, Riesen, Bunke algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Neuhaus, Riesen, Bunke algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Neuhaus, Riesen, Bunke problem definition
+  status: recorded
+- method: search_plan
+  query: Neuhaus, Riesen, Bunke graph algorithm
+  status: recorded
+- method: search_plan
+  query: Neuhaus, Riesen, Bunke site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Neuhaus, Riesen, Bunke algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://link.springer.com/chapter/10.1007/11815921_17
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1007/11815921_17
+  status: fetched
+- method: source_link_html_metadata
+  query: https://link.springer.com/chapter/10.1007/11815921_17
+  status: skipped
+extracted_problem_statement: 'Neuhaus, Riesen, Bunke is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Neuhaus, Riesen, Bunke. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: An edit-distance value, alignment, or dynamic-programming table information for the input strings.'
+extracted_algorithm_summary: 'Neuhaus, Riesen, Bunke is a graph algorithm record. Classical complexity metadata: time O(V^2); space O(wV). The stated classical model is Word RAM. Public metadata/source text adds: Neuhaus, Riesen, Bunke graph graph V: number of vertices in the larger of the two graphs, w: the beam width parameter for how many of the best nodes are kept at each layer of the beam search (O(V)) O(V^2) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

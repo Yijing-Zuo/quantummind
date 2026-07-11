@@ -1,0 +1,46 @@
+id: AW-000587
+kind: context
+algorithm_id: AW-000587
+algorithm_name: Chiba and Nishizeki
+source_records:
+- access_status: metadata_only
+  digest: 23d6612743b23094
+  extracted_facts:
+  - 'AlgorithmWiki row name: Chiba and Nishizeki'
+  - 'domain: graph'
+  - 'time complexity: O(a(G)m 3^{n/3})'
+  - 'space complexity: O(m)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of vertices, m: number of edges, a(G): arboricity of graph (O(n) worst case)'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(a(G)m 3^{n/3}); space O(m). Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000587:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Chiba and Nishizeki
+  url: https://pdfs.semanticscholar.org/0d19/245a27bc65a87a8014d5b8a66fb514c8ff0b.pdf
+web_query_attempts:
+- method: search_plan
+  query: Chiba and Nishizeki algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Chiba and Nishizeki algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Chiba and Nishizeki problem definition
+  status: recorded
+- method: search_plan
+  query: Chiba and Nishizeki graph algorithm
+  status: recorded
+- method: search_plan
+  query: Chiba and Nishizeki site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Chiba and Nishizeki algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://pdfs.semanticscholar.org/0d19/245a27bc65a87a8014d5b8a66fb514c8ff0b.pdf
+  status: recorded
+extracted_problem_statement: 'Chiba and Nishizeki is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Chiba and Nishizeki. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'Chiba and Nishizeki is a graph algorithm record. Classical complexity metadata: time O(a(G)m 3^{n/3}); space O(m). The stated classical model is Word RAM. Public metadata/source text adds: Chiba and Nishizeki graph graph n: number of vertices, m: number of edges, a(G): arboricity of graph (O(n) worst case) O(a(G)m 3^{n/3}) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

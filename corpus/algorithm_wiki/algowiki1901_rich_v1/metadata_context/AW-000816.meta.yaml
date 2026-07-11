@@ -1,0 +1,56 @@
+algorithm_family: graph
+algorithm_id: AW-000816
+approximate: '0'
+approximation_factor: ''
+blind_name: Algorithm Wiki public task AW-000816
+canonical_name: Amir et al.
+computational_model: Word RAM
+domain: graph
+extracted_description: ''
+extraction_version: algorithm-wiki-rich-context-v1
+family: graph
+inferred_access_model: adjacency_list_query
+inferred_ambiguities:
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.
+inferred_input_model: explicit_graph_problem
+inferred_output_contract: full_solution
+inferred_problem_statement: 'Amir et al. is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Amir et al.. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: Pattern occurrence positions, matches, or the associated string-search report.'
+inferred_promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+inferred_size_parameters:
+- 'Parameter definition: V: number of vertices in original hypertext graph, E: number of edges in original hypertext graph, m: length of pattern, n: number of vertices in converted graph (total text size), e: number of edges in converted graph'
+number_of_processors: ''
+page_digest: ''
+page_fetch_status: not_found
+page_url: ''
+parameter_definitions: 'V: number of vertices in original hypertext graph, E: number of edges in original hypertext graph, m: length of pattern, n: number of vertices in converted graph (total text size), e: number of edges in converted graph'
+problem_name: graph
+quality_flags:
+- domain_inferred
+- problem_statement_inferred
+- io_access_output_inferred
+- has_complexity_semantics
+- has_size_parameters
+- has_computational_model
+quality_score: 100
+randomized: '0'
+readiness: READY_PUBLIC_CONTEXT
+review_reasons: []
+source_link: https://link.springer.com/chapter/10.1007/3-540-63307-3_56
+source_link_type: unknown
+space_complexity: O(mn)
+span_depth: ''
+time_complexity: O(m(n \log m + E))
+variation: ''
+work: ''
+year: '1997'
+rich_card_kind: context
+source_records_used:
+- AW-000816:algorithm_wiki_metadata
+- crossref:6a8c2e196d101529
+- skipped:210b77eb20a64c52
+source_count: 3
+source_quality: HIGH
+confidence_score: 100
+card_digest: d1737411e808dda8

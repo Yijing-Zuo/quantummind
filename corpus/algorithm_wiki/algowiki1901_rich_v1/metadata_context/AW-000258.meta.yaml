@@ -1,0 +1,58 @@
+algorithm_family: unknown
+algorithm_id: AW-000258
+approximate: '0'
+approximation_factor: ''
+blind_name: Algorithm Wiki public task AW-000258
+canonical_name: De
+computational_model: Word RAM
+domain: unknown
+extracted_description: ''
+extraction_version: algorithm-wiki-rich-context-v1
+family: unknown
+inferred_access_model: dense_matrix_access
+inferred_ambiguities:
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.
+inferred_input_model: explicit_matrix_problem
+inferred_output_contract: full_classical_output
+inferred_problem_statement: 'De is treated as a classical matrix linear algebra task for rich AlgorithmWiki discovery. Problem/task: multiply matrices using the named bilinear or algebraic multiplication method. Input semantics: One or more explicit matrices or linear systems over the stated arithmetic domain. Output semantics: The matrix product or bilinear multiplication output.'
+inferred_promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+inferred_size_parameters:
+- 'Parameter definition: n: length of one of the integers, in bits'
+number_of_processors: ''
+page_digest: ''
+page_fetch_status: not_found
+page_url: ''
+parameter_definitions: 'n: length of one of the integers, in bits'
+problem_name: unknown
+quality_flags:
+- has_complexity_semantics
+- has_size_parameters
+- has_computational_model
+quality_score: 80
+randomized: '0'
+readiness: READY_PUBLIC_CONTEXT
+review_reasons:
+- missing_problem_statement
+- unknown_input_model
+- unknown_access_model
+- unknown_output_contract
+- insufficient_algorithm_level_structure
+source_link: https://arxiv.org/abs/0801.1416
+source_link_type: arxiv
+space_complexity: O(n) auxiliary
+span_depth: ''
+time_complexity: O(n \log n 2^{O(\log^*n)})
+variation: ''
+work: ''
+year: '2008'
+rich_card_kind: context
+source_records_used:
+- AW-000258:algorithm_wiki_metadata
+- arxiv:0801.1416
+- source:9705f90debffcb47
+source_count: 3
+source_quality: HIGH
+confidence_score: 80
+card_digest: 5ff89dd6283657cf

@@ -1,0 +1,51 @@
+algorithm_id: AW-000562
+canonical_name: Weighted incremental algorithm
+enrichment_status: WEB_INSUFFICIENT
+review_reasons:
+- missing_concrete_problem_statement
+- unknown_input_model
+- unknown_output_contract
+- unknown_access_model
+source_records:
+- access_status: metadata_only
+  digest: 40cd65c67bb04c57
+  extracted_facts:
+  - 'AlgorithmWiki row name: Weighted incremental algorithm'
+  - 'domain: unknown'
+  - 'time complexity: O(n)'
+  - 'space complexity: O(1)'
+  - 'computational model: Word/Real RAM'
+  - 'parameter definitions: n: number of values'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000562:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Weighted incremental algorithm
+  url: https://dl.acm.org/doi/10.1145/359146.359153
+- access_status: fetched
+  digest: 699d5c66d6ab88b0
+  extracted_facts:
+  - 'DOI title: Updating mean and variance estimates'
+  - 'published year: 1979'
+  - 'container title: Communications of the ACM'
+  - 'abstract summary: A method of improved efficiency is given for updating the mean and variance of weighted sampled data when an additional data value is included in the set.'
+  reliability: HIGH
+  short_quote: A method of improved efficiency is given for updating the mean and variance of weighted sampled data when an additional data value is included
+  source_id: crossref:8dff3e224a4e5650
+  source_type: doi_metadata
+  title: Updating mean and variance estimates
+  url: https://doi.org/10.1145/359146.359153
+- access_status: failed
+  digest: b49e52ed7ea027e4
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:2b70025abfa343f2
+  source_type: publisher_abstract
+  title: 'HTTP Error 403: Forbidden'
+  url: https://dl.acm.org/doi/10.1145/359146.359153
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

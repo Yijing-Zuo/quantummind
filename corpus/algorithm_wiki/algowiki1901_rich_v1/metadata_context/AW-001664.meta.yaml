@@ -1,0 +1,63 @@
+algorithm_family: graph
+algorithm_id: AW-001664
+approximate: '0'
+approximation_factor: ''
+blind_name: Algorithm Wiki public task AW-001664
+canonical_name: Kruskal
+computational_model: CREW PRAM
+domain: graph
+extracted_description: ''
+extraction_version: algorithm-wiki-rich-context-v1
+family: graph
+inferred_access_model: edge_list_input
+inferred_ambiguities:
+- The AlgorithmWiki row marks the classical method as randomized.
+- No independent fetched public metadata source resolved this row beyond AlgorithmWiki metadata/source-link facts.
+- Some details are reconstructed from AlgorithmWiki metadata rather than an independently fetched full public description.
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.
+inferred_input_model: explicit_graph_problem
+inferred_output_contract: path_or_tree
+inferred_problem_statement: 'Kruskal is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Kruskal. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: A minimum spanning tree or forest for the weighted graph.'
+inferred_promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+- classical_randomized_algorithm
+- classical_parallel_model_recorded
+inferred_size_parameters:
+- 'Parameter definition: n: number of elements to permute'
+- p = stated number of processors (O(n/log log n))
+number_of_processors: O(n/log log n)
+page_digest: ''
+page_fetch_status: not_found
+page_url: ''
+parameter_definitions: 'n: number of elements to permute'
+problem_name: graph
+quality_flags:
+- domain_inferred
+- problem_statement_inferred
+- io_access_output_inferred
+- has_complexity_semantics
+- has_size_parameters
+- has_computational_model
+- randomized_flag_preserved
+quality_score: 100
+randomized: '1'
+readiness: READY_PUBLIC_CONTEXT
+review_reasons:
+- A previous row has the same canonicalized algorithm name.
+source_link: https://ieeexplore.ieee.org/document/1676138
+source_link_type: unknown
+space_complexity: ''
+span_depth: O(log n log log n)
+time_complexity: O(\log n \log \log n)
+variation: ''
+work: O(n \log n)
+year: '1983'
+rich_card_kind: context
+source_records_used:
+- AW-001664:algorithm_wiki_metadata
+- skipped:920af43a22abe3bf
+source_count: 2
+source_quality: HIGH
+confidence_score: 100
+card_digest: 3363c60d062a4223

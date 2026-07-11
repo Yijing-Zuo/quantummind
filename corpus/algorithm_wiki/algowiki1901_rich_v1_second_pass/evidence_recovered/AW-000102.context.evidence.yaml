@@ -1,0 +1,60 @@
+id: AW-000102
+kind: context_recovered
+algorithm_id: AW-000102
+algorithm_name: Brute Force
+source_records:
+- access_status: metadata_only
+  digest: a34549c46a71c133
+  extracted_facts:
+  - 'AlgorithmWiki row name: Brute Force'
+  - 'domain: unknown'
+  - 'time complexity: O(n^3)'
+  - 'space complexity: O(1)'
+  - 'computational model: Word/Real RAM'
+  - 'parameter definitions: n: length of array'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000102:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Brute Force
+  url: '-'
+- source_id: crossref_search:82936f8d9a01ac51
+  url: https://doi.org/10.12957/cadinf.2024.79821
+  title: Parallel implementations of TSP brute force algorithm
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: Parallel implementations of TSP brute force algorithm'
+  - 'abstract summary: The traveling salesman problem is a famous combinatorial optimization problem.'
+  short_quote: The traveling salesman problem is a famous combinatorial optimization problem.
+  digest: 04df69b7659b2870
+web_query_attempts:
+- query: '"Brute Force" algorithm'
+  method: search_plan
+  status: recorded
+- query: '"Brute Force" input output'
+  method: search_plan
+  status: recorded
+- query: '"Brute Force" time complexity'
+  method: search_plan
+  status: recorded
+- query: '"Brute Force" pseudocode'
+  method: search_plan
+  status: recorded
+- query: '"Brute Force" problem'
+  method: search_plan
+  status: recorded
+- query: '"Brute Force" PDF metadata abstract'
+  method: search_plan
+  status: recorded
+- query: '-'
+  method: search_plan
+  status: recorded
+- query: Brute Force algorithm
+  method: crossref_title_search
+  status: fetched
+extracted_problem_statement: 'Brute Force is reconstructed as a classical image processing task. Problem/task: compute shaded/rendered image values from a geometric scene and illumination model Input semantics: Scene geometry, material parameters, lights, camera/view information, and image resolution. Output semantics: Rendered pixel colors or intermediate shading/visibility values.'
+extracted_algorithm_summary: 'Brute Force is treated as the named AlgorithmWiki variant for compute shaded/rendered image values from a geometric scene and illumination model Classical complexity metadata: time O(n^3); space O(1). Public metadata/source title support includes Parallel implementations of TSP brute force algorithm.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

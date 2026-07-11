@@ -1,0 +1,35 @@
+algorithm_id: AW-000863
+canonical_name: Regula Falsi method
+enrichment_status: SECOND_PASS_INSUFFICIENT
+review_reasons:
+- No second-pass rule could identify source-backed task semantics.
+source_records:
+- access_status: metadata_only
+  digest: 9633f89c02593e4d
+  extracted_facts:
+  - 'AlgorithmWiki row name: Regula Falsi method'
+  - 'domain: unknown'
+  - 'time complexity: O(n_{max})'
+  - 'space complexity: O(1)'
+  - 'computational model: Word/Real RAM'
+  - 'parameter definitions: \epsilon: (additive) tolerance error, a, b: endpoint values, with b>a, n_{max}: maximum number of iterations'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000863:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Regula Falsi method
+  url: ''
+- source_id: crossref_search:f9e018612be39c14
+  url: https://doi.org/10.1017/9781316755686.011
+  title: Regula Falsi Method
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: Regula Falsi Method'
+  short_quote: ''
+  digest: 0818b6d9db25e69b
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

@@ -1,0 +1,62 @@
+algorithm_family: unknown
+algorithm_id: AW-000335
+approximate: '1'
+approximation_factor: ''
+blind_name: Algorithm Wiki public task AW-000335
+canonical_name: Dual clustering - Guberman
+computational_model: ''
+domain: unknown
+extracted_description: ''
+extraction_version: algorithm-wiki-rich-third-pass-context-v1
+family: unknown
+inferred_access_model: adjacency_list_query
+inferred_ambiguities:
+- Some details are reconstructed from AlgorithmWiki metadata rather than an independently fetched full public description.
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.
+inferred_input_model: explicit_image_processing_problem
+inferred_output_contract: path_or_tree
+inferred_problem_statement: 'Dual clustering - Guberman is treated as a source-saturated AlgorithmWiki row for partition an image into regions or labels according to local and model-based criteria Input semantics: An image or pixel graph with neighborhood, feature, or model parameters. Output semantics: A segmentation, region tree, label assignment, or boundary representation.'
+inferred_promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+- classical_approximation_algorithm
+inferred_size_parameters:
+- 'n: primary input size parameter for the source-backed task.'
+number_of_processors: ''
+page_digest: ''
+page_fetch_status: not_found
+page_url: ''
+parameter_definitions: ''
+problem_name: unknown
+quality_flags:
+- has_complexity_semantics
+- approximation_flag_preserved
+quality_score: 100
+randomized: '0'
+readiness: READY_PUBLIC_CONTEXT
+review_reasons:
+- missing_problem_statement
+- unknown_input_model
+- unknown_access_model
+- unknown_output_contract
+- missing_size_parameters
+- insufficient_algorithm_level_structure
+source_link: ''
+source_link_type: unknown
+space_complexity: ''
+span_depth: ''
+time_complexity: O(n \log n)
+variation: ''
+work: ''
+year: '2012'
+rich_card_kind: context_recovered
+source_records_used:
+- AW-000335:algorithm_wiki_metadata
+- crossref_search:1dc071d7a31b732e
+- crossref_search:8717432108c4958e
+source_count: 3
+source_quality: HIGH
+confidence_score: 100
+card_digest: f96828a1ec9918b8
+third_pass_rule: image_segmentation
+saturation_status: RECOVERED_CONTEXT

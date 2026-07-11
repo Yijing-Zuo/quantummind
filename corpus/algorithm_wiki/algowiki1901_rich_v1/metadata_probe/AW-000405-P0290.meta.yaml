@@ -1,0 +1,42 @@
+probe_id: AW-000405-P0290
+algorithm_id: AW-000405-P0290
+canonical_name: Apostolico and Guerra (HS1 Algorithm) search_witness_probe
+readiness: READY_PUBLIC_PROBE
+quality_score: 100
+probe_type: search_witness_probe
+parent_algorithm_id: AW-000405
+parent_algorithm_name: Apostolico and Guerra (HS1 Algorithm)
+source_records_used:
+- AW-000405:algorithm_wiki_metadata
+- crossref:037f19fab04029e7
+- skipped:17f33e649c3186c3
+introduced_assumptions:
+- coherent_boolean_oracle
+- marked_item_exists
+- candidate_indexing
+missing_from_original_problem:
+- oracle construction
+- proof that witness output captures the useful subroutine
+original_output_contract: full_solution
+probe_output_contract: one_witness
+not_end_to_end_claim: true
+expected_authority: query_or_subroutine_hypothesis_only
+why_probe_is_scientifically_interesting: Witness search can isolate a decision or local-output subroutine from a larger classical task.
+why_probe_may_fail: The original algorithm may require full output materialization or an expensive predicate oracle.
+inferred_input_model: explicit_string_problem
+inferred_access_model: coherent_boolean_oracle
+inferred_output_contract: one_witness
+inferred_size_parameters:
+- 'Parameter definition: n: length of the longer input string, m: length of the shorter input string, p: the number of dominant matches (AKA number of minimal candidates), i.e. the total number of ordered pairs of positions at which the two sequences match, s: size of alphabet'
+inferred_promises:
+- marked_item_exists
+- oracle_model_assumption
+inferred_ambiguities:
+- This probe is assumption-bearing and is not an end-to-end speedup claim.
+- coherent predicate construction and candidate indexing may fail for the original full-output problem
+- The parent context card and source records should be checked before live use.
+source_count: 3
+source_quality: HIGH
+confidence_score: 100
+card_digest: f833327c02254459
+extraction_version: algorithm-wiki-rich-probe-v1

@@ -1,0 +1,58 @@
+id: AW-001628
+kind: context
+algorithm_id: AW-001628
+algorithm_name: Apostolico et al. (1)
+source_records:
+- access_status: metadata_only
+  digest: 466957b5b7d5674c
+  extracted_facts:
+  - 'AlgorithmWiki row name: Apostolico et al. (1)'
+  - 'domain: string'
+  - 'time complexity: O(\log m \log n)'
+  - 'computational model: CREW PRAM'
+  - 'parameter definitions: m: length of the shorter string, n: length of the longer string'
+  - 'precard summary: Given one or more explicit strings, compute the matching, indexing, alignment, or transformation output targeted by the record. Baseline: time O(\log m \log n); work O(mn \log n); span/depth O(log m log n); processors O(mn/log m). Bottleneck: string scanning, preprocessing tables, and reporting matches dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001628:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Apostolico et al. (1)
+  url: https://search.proquest.com/openview/efa7264fa824ce7768c53ccdcc6d1458/1?pq-origsite=gscholar&cbl=666313
+- access_status: skipped
+  digest: 9407f40df5134398
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:9b35bbc6c0fdf676
+  source_type: other_public_source
+  title: fetch budget exhausted
+  url: https://search.proquest.com/openview/efa7264fa824ce7768c53ccdcc6d1458/1?pq-origsite=gscholar&cbl=666313
+web_query_attempts:
+- method: search_plan
+  query: Apostolico et al. (1) algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Apostolico et al. (1) algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Apostolico et al. (1) problem definition
+  status: recorded
+- method: search_plan
+  query: Apostolico et al. (1) string algorithm
+  status: recorded
+- method: search_plan
+  query: Apostolico et al. (1) site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Apostolico et al. (1) algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://search.proquest.com/openview/efa7264fa824ce7768c53ccdcc6d1458/1?pq-origsite=gscholar&cbl=666313
+  status: recorded
+- method: source_link_html_metadata
+  query: https://search.proquest.com/openview/efa7264fa824ce7768c53ccdcc6d1458/1?pq-origsite=gscholar&cbl=666313
+  status: skipped
+extracted_problem_statement: 'Apostolico et al. (1) is treated as a classical string task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Apostolico et al. (1). Input semantics: One or more finite strings, sequences, patterns, or alphabets. Output semantics: Pattern occurrence positions, matches, or the associated string-search report.'
+extracted_algorithm_summary: 'Apostolico et al. (1) is a string algorithm record. Classical complexity metadata: time O(\log m \log n); work O(mn \log n); span/depth O(log m log n); processors O(mn/log m). The stated classical model is CREW PRAM. Public metadata/source text adds: Apostolico et al. (1) string string m: length of the shorter string, n: length of the longer string O(\log m \log n) Given one or more explicit strings, compute the matching, indexing, alignment, or transformation output targeted by the record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

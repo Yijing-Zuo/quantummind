@@ -1,0 +1,32 @@
+algorithm_id: AW-000299
+canonical_name: Tao Luo, Zaifeng Shi and Pumeng Wang
+enrichment_status: SECOND_PASS_INSUFFICIENT
+review_reasons:
+- No second-pass rule could identify source-backed task semantics.
+source_records:
+- access_status: metadata_only
+  digest: 44ba1ed1bf39af63
+  extracted_facts:
+  - 'AlgorithmWiki row name: Tao Luo, Zaifeng Shi and Pumeng Wang'
+  - 'domain: unknown'
+  - 'time complexity: O(n^2)'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000299:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Tao Luo, Zaifeng Shi and Pumeng Wang
+  url: ''
+- source_id: crossref_search:8ac20bab3d9b8d90
+  url: https://doi.org/10.5353/th_b4961730
+  title: A study of Wang Tao's early poetry = Wang Tao qian qi shi ge yan jiu
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: A study of Wang Tao''s early poetry = Wang Tao qian qi shi ge yan jiu'
+  short_quote: ''
+  digest: a8cfaa746f3c1d6f
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

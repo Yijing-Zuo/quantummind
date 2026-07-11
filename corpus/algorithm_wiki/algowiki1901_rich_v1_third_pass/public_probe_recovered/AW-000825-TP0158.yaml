@@ -1,0 +1,14 @@
+statement: 'Function Field Sieve (FFS) estimation-sampling probe. This is a subroutine/query-model probe, not an end-to-end claim for the original algorithm. The probe reformulates the row as estimating the mean, probability, count, or numerical quantity of a bounded random variable. Original input context: An explicit graph with vertices, edges, weights, labels, or adjacency access as required by the row. Original output context: A path, tree, component labeling, flow, matching, or witness object for the named graph task. Original bottleneck noted for the rich context card: Traversal, priority/frontier maintenance, and materializing graph outputs dominate. The bounded variable and coherent sampler are introduced assumptions; any positive result would be query-level only. Coherent oracle construction, promise checking, and data-mapping cost remain expert obligations. The original algorithm may still have full-output, preprocessing, or data-loading barriers.'
+input_model: explicit_graph_problem
+access_model: coherent_estimation_oracle
+output_contract: additive_estimate
+promises:
+- bounded_random_variable
+- coherent_access
+- oracle_model_assumption
+size_parameters:
+- 'Parameter definition: n: number of digits/bits in the order of the finite group'
+ambiguities:
+- This probe is assumption-bearing and is not an end-to-end speedup claim.
+- variance bounds, coherent sampler construction, and tolerance mapping remain expert obligations
+- The parent context card and source records should be checked before live use.

@@ -1,0 +1,12 @@
+case_id: QM-PB-002
+statement: "Estimate the fraction or mean of bounded outcomes within additive epsilon using reversible sampling access."
+input_model: "bounded random variable over finite domain"
+access_model: coherent_estimation_oracle
+output_contract: additive_estimate
+promises:
+  - bounded_random_variable
+  - coherent_access
+size_parameters: [epsilon, failure_probability]
+ambiguities:
+  - state preparation cost is external to the query claim
+

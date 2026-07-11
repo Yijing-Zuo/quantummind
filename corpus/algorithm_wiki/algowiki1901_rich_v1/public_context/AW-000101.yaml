@@ -1,0 +1,12 @@
+statement: 'Koiliaris and Xu is included as a named whole-algorithm context card for a classical graph task. The task is to analyze the classical input-output problem, not to certify an end-to-end improvement claim. Input semantics: A finite set or multiset of integers with a target sum parameter. Output semantics: A decision result, feasible subset witness, count, or optimized subset value for the target-sum instance, depending on the row. Classical algorithm summary: Koiliaris and Xu is a graph algorithm record. Classical complexity metadata: time \tilde{O}(\min(\sqrt{n''}t, t^{5/4}, \sigma)); space O(t). The stated classical model is Word RAM. Public metadata/source text adds: Koiliaris and Xu unknown unknown n'': the number of distinct elements in the set, t: the target sum, \sigma: sum of elements in the set \tilde{O}(\min(\sqrt{n''}t, t^{5/4}, \sigma)) No public-ready summary is available because the row lacks enough task semantics. Classical complexity recorded for this row: time
+  \tilde{O}(\min(\sqrt{n''}t, t^{5/4}, \sigma)); space O(t); computation model Word RAM. Dominant bottleneck: graph traversal, priority/frontier maintenance, and materializing graph outputs. The useful review questions are whether the named structure exposes a smaller decision, witness, estimation, or algebraic subproblem; whether the full output size dominates any asymptotic gain; and whether the stated access model is realistic for the original input. Provenance used for reconstruction includes public metadata or abstract sources such as Faster Pseudopolynomial Time Algorithms for Subset Sum.'
+input_model: explicit_combinatorial_problem
+access_model: adjacency_list_query
+output_contract: one_witness
+promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+size_parameters:
+- 'Parameter definition: n'': the number of distinct elements in the set, t: the target sum, \sigma: sum of elements in the set'
+ambiguities:
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.

@@ -1,0 +1,45 @@
+algorithm_id: AW-000468
+canonical_name: "Steinhaus\u2013Johnson\u2013Trotter algorithm"
+enrichment_status: SECOND_PASS_INSUFFICIENT
+review_reasons:
+- No second-pass rule could identify source-backed task semantics.
+source_records:
+- access_status: metadata_only
+  digest: b43fca61afa48fdc
+  extracted_facts:
+  - "AlgorithmWiki row name: Steinhaus\u2013Johnson\u2013Trotter algorithm"
+  - 'domain: unknown'
+  - 'time complexity: O(n \cdot n!)'
+  - 'space complexity: O(1)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of elements'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000468:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: "AlgorithmWiki metadata for Steinhaus\u2013Johnson\u2013Trotter algorithm"
+  url: https://www.ams.org/journals/mcom/1963-17-083/S0025-5718-1963-0159764-2/home.html
+- access_status: failed
+  digest: 53797002b7abab97
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:de57880d83104ddb
+  source_type: other_public_source
+  title: 'HTTP Error 403: Forbidden'
+  url: https://www.ams.org/journals/mcom/1963-17-083/S0025-5718-1963-0159764-2/home.html
+- source_id: crossref_search:700ef43f630c4cd4
+  url: https://doi.org/10.1017/cbo9780511763199.030
+  title: "The Johnson\u2013Trotter algorithm"
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - "Crossref title-search result: The Johnson\u2013Trotter algorithm"
+  short_quote: ''
+  digest: 13e3ff7e6ca899a2
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

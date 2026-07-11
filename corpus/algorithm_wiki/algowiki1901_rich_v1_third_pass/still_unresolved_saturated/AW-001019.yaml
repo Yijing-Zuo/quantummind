@@ -1,0 +1,65 @@
+algorithm_id: AW-001019
+canonical_name: Pomerance, Wagstaff
+enrichment_status: THIRD_PASS_SATURATED_INSUFFICIENT
+review_reasons:
+- After the configured source-family cycles, no source-backed concrete task, input semantics, output semantics, and conservative access model could be established.
+source_records:
+- access_status: metadata_only
+  digest: 815ff934f9f90adc
+  extracted_facts:
+  - 'AlgorithmWiki row name: Pomerance, Wagstaff'
+  - 'domain: unknown'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001019:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Pomerance, Wagstaff
+  url: https://math.dartmouth.edu/~carlp/PDF/implementation.pdf
+- access_status: fetched
+  digest: 6d1be9234c5d24b3
+  extracted_facts:
+  - 'Crossref title-search result: Herbert Pomerance'
+  reliability: MEDIUM
+  short_quote: ''
+  source_id: crossref_search:715598334b05ac9a
+  source_type: doi_metadata
+  title: Herbert Pomerance
+  url: https://doi.org/10.1063/1.2809022
+- source_id: skipped:03f34ac9ccc0437c
+  url: https://math.dartmouth.edu/~carlp/PDF/implementation.pdf
+  title: public PDF body was not downloaded
+  source_type: original_source
+  access_status: skipped
+  reliability: LOW
+  extracted_facts:
+  - public PDF body was not downloaded
+  short_quote: public PDF body was not downloaded
+  digest: ecf6521501134ee3
+- source_id: crossref_search:943971854351d64c
+  url: https://doi.org/10.1063/1.2809022
+  title: Herbert Pomerance
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title: Herbert Pomerance'
+  - 'published year: 1993'
+  - 'container title: Physics Today'
+  short_quote: 'Crossref title: Herbert Pomerance published year: 1993 container title: Physics Today'
+  digest: 282d05991a3fbc30
+- source_id: semantic_scholar:4d6d2a843762d51c
+  url: https://www.semanticscholar.org/paper/a9c675d43a44d22f6c023b1b33a57668a09ce850
+  title: On the Baillie PSW Conjecture
+  source_type: semantic_scholar
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Semantic Scholar title: On the Baillie PSW Conjecture'
+  - 'published year: 2024'
+  - 'abstract summary: None'
+  short_quote: 'Semantic Scholar title: On the Baillie PSW Conjecture published year: 2024 abstract summary: None'
+  digest: 6f6479a64e601ea7
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

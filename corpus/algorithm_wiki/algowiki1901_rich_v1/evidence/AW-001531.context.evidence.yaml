@@ -1,0 +1,45 @@
+id: AW-001531
+kind: context
+algorithm_id: AW-001531
+algorithm_name: Zaroliagis (1)
+source_records:
+- access_status: metadata_only
+  digest: 2596ddc9e4d757f8
+  extracted_facts:
+  - 'AlgorithmWiki row name: Zaroliagis (1)'
+  - 'domain: graph'
+  - 'time complexity: O(\log^2 n)'
+  - 'computational model: EREW PRAM'
+  - 'parameter definitions: n: number of nodes, m: number of edges'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(\log^2 n); work O(m \log n); span/depth O(log^2 n); processors O(m/log n). Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001531:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Zaroliagis (1)
+  url: https://www.researchgate.net/profile/Christos-Zaroliagis/publication/47842817_Simple_and_Work-Efficient_Parallel_Algorithms_for_the_Minimum_Spanning_Tree_Problem/links/53e256010cf275a5fdd6ba3e/Simple-and-Work-Efficient-Parallel-Algorithms-for-the-Minimum-Spanning-Tree-Problem.pdf
+web_query_attempts:
+- method: search_plan
+  query: Zaroliagis (1) algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Zaroliagis (1) algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Zaroliagis (1) problem definition
+  status: recorded
+- method: search_plan
+  query: Zaroliagis (1) graph algorithm
+  status: recorded
+- method: search_plan
+  query: Zaroliagis (1) site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Zaroliagis (1) algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://www.researchgate.net/profile/Christos-Zaroliagis/publication/47842817_Simple_and_Work-Efficient_Parallel_Algorithms_for_the_Minimum_Spanning_Tree_Problem/links/53e256010cf275a5fdd6ba3e/Simple-and-Work-Efficient-Parallel-Algorithms-for-the-Minimum-Spanning-Tree-Problem.pdf
+  status: recorded
+extracted_problem_statement: 'Zaroliagis (1) is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Zaroliagis (1). Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'Zaroliagis (1) is a graph algorithm record. Classical complexity metadata: time O(\log^2 n); work O(m \log n); span/depth O(log^2 n); processors O(m/log n). The stated classical model is EREW PRAM. Public metadata/source text adds: Zaroliagis (1) graph graph n: number of nodes, m: number of edges O(\log^2 n) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

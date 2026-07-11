@@ -1,0 +1,59 @@
+id: AW-001297
+kind: context
+algorithm_id: AW-001297
+algorithm_name: Bradford, Rawlins, Shannon
+source_records:
+- access_status: metadata_only
+  digest: 204be0a911ee4a15
+  extracted_facts:
+  - 'AlgorithmWiki row name: Bradford, Rawlins, Shannon'
+  - 'domain: matrix_linear_algebra'
+  - 'time complexity: O(\log^4 n)'
+  - 'space complexity: O(n)'
+  - 'computational model: COMMON CRCW PRAM'
+  - 'parameter definitions: n: number of matrices in chain'
+  - 'precard summary: Given one or more explicit dense matrices over the stated arithmetic domain, compute the matrix or linear-algebraic output specified by the record. Baseline: time O(\log^4 n); space O(n); work O(n \log^3 n); span/depth O(\log^4 n); processors n / \log n. Bottleneck: dense arithmetic and full matrix output dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001297:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Bradford, Rawlins, Shannon
+  url: https://www.academia.edu/9377391/Matrix_Chain_Ordering_in_Polylog_Time_with_n_lg_n_Processors
+- access_status: skipped
+  digest: 7aa39faae7f73c84
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:55f057006622bbc4
+  source_type: textbook_or_course_notes
+  title: fetch budget exhausted
+  url: https://www.academia.edu/9377391/Matrix_Chain_Ordering_in_Polylog_Time_with_n_lg_n_Processors
+web_query_attempts:
+- method: search_plan
+  query: Bradford, Rawlins, Shannon algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Bradford, Rawlins, Shannon algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Bradford, Rawlins, Shannon problem definition
+  status: recorded
+- method: search_plan
+  query: Bradford, Rawlins, Shannon matrix linear algebra algorithm
+  status: recorded
+- method: search_plan
+  query: Bradford, Rawlins, Shannon site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Bradford, Rawlins, Shannon algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://www.academia.edu/9377391/Matrix_Chain_Ordering_in_Polylog_Time_with_n_lg_n_Processors
+  status: recorded
+- method: source_link_html_metadata
+  query: https://www.academia.edu/9377391/Matrix_Chain_Ordering_in_Polylog_Time_with_n_lg_n_Processors
+  status: skipped
+extracted_problem_statement: 'Bradford, Rawlins, Shannon is treated as a classical matrix linear algebra task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Bradford, Rawlins, Shannon. Input semantics: One or more explicit matrices or linear systems over the stated arithmetic domain. Output semantics: The requested matrix, decomposition, solution vector, or other linear-algebraic output.'
+extracted_algorithm_summary: 'Bradford, Rawlins, Shannon is a matrix linear algebra algorithm record. Classical complexity metadata: time O(\log^4 n); space O(n); work O(n \log^3 n); span/depth O(\log^4 n); processors n / \log n. The stated classical model is COMMON CRCW PRAM. Public metadata/source text adds: Bradford, Rawlins, Shannon matrix_linear_algebra matrix_linear_algebra n: number of matrices in chain O(\log^4 n) Given one or more explicit dense matrices over the stated arithmetic domain, compute the matrix or linear-algebraic output specified by the record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

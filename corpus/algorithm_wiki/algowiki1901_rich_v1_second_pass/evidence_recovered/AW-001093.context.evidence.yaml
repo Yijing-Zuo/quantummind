@@ -1,0 +1,96 @@
+id: AW-001093
+kind: context_recovered
+algorithm_id: AW-001093
+algorithm_name: Kunde
+source_records:
+- access_status: metadata_only
+  digest: 0fdba3fd485c884a
+  extracted_facts:
+  - 'AlgorithmWiki row name: Kunde'
+  - 'domain: unknown'
+  - 'time complexity: rn+O(n^{1-1/r})'
+  - 'computational model: MIMD + describes comp model w/ assumptions'
+  - 'parameter definitions: n: size of list, r: dimensions of processor mesh'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001093:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Kunde
+  url: https://link.springer.com/chapter/10.1007/BFb0040409
+- access_status: skipped
+  digest: ff25687c8c054199
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:0d360bf7207bcfce
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1007/BFb0040409
+- access_status: skipped
+  digest: f2d8ced481316a60
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:5261991f773defdf
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://link.springer.com/chapter/10.1007/BFb0040409
+- source_id: crossref:3fd27047330ec23d
+  url: https://doi.org/10.1007/BFb0040409
+  title: Routing and sorting on mesh-connected arrays
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: HIGH
+  extracted_facts:
+  - 'DOI title: Routing and sorting on mesh-connected arrays'
+  - 'published year: 1988'
+  - 'container title: Lecture Notes in Computer Science'
+  short_quote: ''
+  digest: 9c4be939f9a304d0
+- source_id: crossref_search:0b18e1bdccf3f416
+  url: https://doi.org/10.1109/npc.2007.32
+  title: An optimal algorithm to fetch DHT routable
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: An optimal algorithm to fetch DHT routable'
+  short_quote: ''
+  digest: eac65bcac63f65f8
+web_query_attempts:
+- query: '"Kunde" algorithm'
+  method: search_plan
+  status: recorded
+- query: '"Kunde" input output'
+  method: search_plan
+  status: recorded
+- query: '"Kunde" time complexity'
+  method: search_plan
+  status: recorded
+- query: '"Kunde" pseudocode'
+  method: search_plan
+  status: recorded
+- query: '"Kunde" problem'
+  method: search_plan
+  status: recorded
+- query: '"Kunde" PDF metadata abstract'
+  method: search_plan
+  status: recorded
+- query: '"fetch budget exhausted" algorithm'
+  method: search_plan
+  status: recorded
+- query: https://link.springer.com/chapter/10.1007/BFb0040409
+  method: search_plan
+  status: recorded
+- query: 10.1007/BFb0040409
+  method: crossref_doi_metadata
+  status: fetched
+- query: fetch budget exhausted algorithm
+  method: crossref_title_search
+  status: fetched
+extracted_problem_statement: 'Kunde is reconstructed as a classical image processing task. Problem/task: compute shaded/rendered image values from a geometric scene and illumination model Input semantics: Scene geometry, material parameters, lights, camera/view information, and image resolution. Output semantics: Rendered pixel colors or intermediate shading/visibility values.'
+extracted_algorithm_summary: 'Kunde is treated as the named AlgorithmWiki variant for compute shaded/rendered image values from a geometric scene and illumination model Classical complexity metadata: time rn+O(n^{1-1/r}); work rn^2+O(n^{2-1/r}); span/depth rn+O(n^{1-1/r}). Public metadata/source title support includes Routing and sorting on mesh-connected arrays.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

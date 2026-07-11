@@ -1,0 +1,49 @@
+id: AW-000438
+kind: context
+algorithm_id: AW-000438
+algorithm_name: Sort merge join
+source_records:
+- access_status: metadata_only
+  digest: ae0a5ed712bbfcf1
+  extracted_facts:
+  - 'AlgorithmWiki row name: Sort merge join'
+  - 'domain: sorting'
+  - 'time complexity: O(n \log n + m \log m)'
+  - 'space complexity: O(n+m)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n, m: sizes of input tables'
+  - 'precard summary: Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model. Baseline: time O(n \log n + m \log m); space O(n+m). Bottleneck: comparison, distribution, and full-output movement costs dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000438:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Sort merge join
+  url: '-'
+web_query_attempts:
+- method: search_plan
+  query: Sort merge join algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Sort merge join algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Sort merge join problem definition
+  status: recorded
+- method: search_plan
+  query: Sort merge join sorting algorithm
+  status: recorded
+- method: search_plan
+  query: Sort merge join site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Sort merge join algorithm wiki
+  status: recorded
+- method: search_plan
+  query: '-'
+  status: recorded
+- method: wikipedia_summary_search
+  query: Sort merge join algorithm
+  status: failed_or_not_relevant
+extracted_problem_statement: 'Sort merge join is treated as a classical sorting task for rich AlgorithmWiki discovery. Problem/task: sort the input sequence using the named classical sorting method. Input semantics: A finite array or list of comparable keys or records. Output semantics: The same items returned in nondecreasing order, usually as a full reordered sequence.'
+extracted_algorithm_summary: 'Sort merge join is a sorting algorithm record. Classical complexity metadata: time O(n \log n + m \log m); space O(n+m). The stated classical model is Word RAM. Public metadata/source text adds: Sort merge join sorting sorting n, m: sizes of input tables O(n \log n + m \log m) Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

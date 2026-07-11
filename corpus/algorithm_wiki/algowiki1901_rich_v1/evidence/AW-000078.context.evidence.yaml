@@ -1,0 +1,49 @@
+id: AW-000078
+kind: context
+algorithm_id: AW-000078
+algorithm_name: "Na\xEFve string-search algorithm"
+source_records:
+- access_status: metadata_only
+  digest: 0a0876c07e49a1f2
+  extracted_facts:
+  - "AlgorithmWiki row name: Na\xEFve string-search algorithm"
+  - 'domain: string'
+  - 'time complexity: O(m(n-m+1))'
+  - 'space complexity: O(1)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: m: pattern length, n: length of searchable text'
+  - 'precard summary: Given one or more explicit strings, compute the matching, indexing, alignment, or transformation output targeted by the record. Baseline: time O(m(n-m+1)); space O(1). Bottleneck: string scanning, preprocessing tables, and reporting matches dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000078:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: "AlgorithmWiki metadata for Na\xEFve string-search algorithm"
+  url: '-'
+web_query_attempts:
+- method: search_plan
+  query: "Na\xEFve string-search algorithm algorithm input output complexity"
+  status: recorded
+- method: search_plan
+  query: "Na\xEFve string-search algorithm algorithm pseudocode"
+  status: recorded
+- method: search_plan
+  query: "Na\xEFve string-search algorithm problem definition"
+  status: recorded
+- method: search_plan
+  query: "Na\xEFve string-search algorithm string algorithm"
+  status: recorded
+- method: search_plan
+  query: "Na\xEFve string-search algorithm site:nist.gov DADS"
+  status: recorded
+- method: search_plan
+  query: "Na\xEFve string-search algorithm algorithm wiki"
+  status: recorded
+- method: search_plan
+  query: '-'
+  status: recorded
+- method: wikipedia_summary_search
+  query: "Na\xEFve string-search algorithm algorithm"
+  status: failed_or_not_relevant
+extracted_problem_statement: "Na\xEFve string-search algorithm is treated as a classical string task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Na\xEFve string-search algorithm. Input semantics: One or more finite strings, sequences, patterns, or alphabets. Output semantics: Pattern occurrence positions, matches, or the associated string-search report."
+extracted_algorithm_summary: "Na\xEFve string-search algorithm is a string algorithm record. Classical complexity metadata: time O(m(n-m+1)); space O(1). The stated classical model is Word RAM. Public metadata/source text adds: Na\xEFve string-search algorithm string string m: pattern length, n: length of searchable text O(m(n-m+1)) Given one or more explicit strings, compute the matching, indexing, alignment, or transformation output targeted by the record."
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

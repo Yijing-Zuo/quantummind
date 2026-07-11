@@ -1,0 +1,14 @@
+statement: "V. A. Lyul\u2019ka and A. V. Romanenko is included as a named whole-algorithm context card for a classical computational geometry task. The task is to analyze the classical input-output problem, not to certify an end-to-end improvement claim. Input semantics: A finite set of points, dimension k when stated, and geometric predicate assumptions. Output semantics: A geometric witness, nearest/closest relation, hull, partition, or related structure supported by the named row. Classical algorithm summary: V. A. Lyul\u2019ka and A. V. Romanenko is treated as the named AlgorithmWiki variant for compute a geometric structure or relation over a finite point set Classical complexity metadata: time O(n^5). Public metadata/source title support includes V. A. Lyul'ka, A. V. Romanko, \u201CConstructing interpolation curves by the grid method\u201D, Zh. Vychisl. Mat. Mat. Fiz., 34:6 (1994), 827\u2013836; Comput. Math. Math. Phys., 34:6 (1994), 713\u2013721. Classical complexity recorded for\
+  \ this row: time O(n^5); space unknown; computation model not stated. Dominant bottleneck: Distance/geometric predicate evaluation and output-sensitive structure size dominate. The useful review questions are whether the named structure exposes a smaller decision, witness, estimation, or algebraic subproblem; whether the full output size dominates any asymptotic gain; and whether the stated access model is realistic for the original input. Provenance used for reconstruction includes public metadata or abstract sources such as V. A. Lyul'ka, A. V. Romanko, \u201CConstructing interpolation curves by the grid method\u201D, Zh. Vychisl. Mat. Mat. Fiz., 34:6 ; Math or Mat. Source-backed uncertainty or assumptions: The exact geometric output may need source review when the row is author-only."
+input_model: explicit_geometry_problem
+access_model: explicit_geometric_objects
+output_contract: one_witness
+promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+size_parameters:
+- 'Parameter definition: n: number of points'
+ambiguities:
+- The exact geometric output may need source review when the row is author-only.
+- Some details are reconstructed from AlgorithmWiki metadata rather than an independently fetched full public description.
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.

@@ -1,0 +1,71 @@
+id: AW-001749
+kind: context
+algorithm_id: AW-001749
+algorithm_name: Kahn
+source_records:
+- access_status: metadata_only
+  digest: aa6121541c37a855
+  extracted_facts:
+  - 'AlgorithmWiki row name: Kahn'
+  - 'domain: graph'
+  - 'time complexity: 10(M + M X E + 4A + 6E)*V'
+  - 'space complexity: O(V^2)'
+  - 'parameter definitions: M = max number of events labeled out of order on any, one path (this can be up to V), E = number of activities (edges), V = number of events (nodes)'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time 10(M + M X E + 4A + 6E)*V; space O(V^2); work 10(M + M X E + 4A + 6E)*V; span/depth 10(M + M X E + 4A + 6E). Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001749:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Kahn
+  url: https://dl.acm.org/doi/10.1145/368996.369025
+- access_status: skipped
+  digest: 1bdad6e828fa960e
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:304a85bb33d58a0d
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1145/368996.369025
+- access_status: skipped
+  digest: 654d3aea237a357f
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:06a6efbcc45eba36
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://dl.acm.org/doi/10.1145/368996.369025
+web_query_attempts:
+- method: search_plan
+  query: Kahn algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Kahn algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Kahn problem definition
+  status: recorded
+- method: search_plan
+  query: Kahn graph algorithm
+  status: recorded
+- method: search_plan
+  query: Kahn site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Kahn algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://dl.acm.org/doi/10.1145/368996.369025
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1145/368996.369025
+  status: skipped
+- method: source_link_html_metadata
+  query: https://dl.acm.org/doi/10.1145/368996.369025
+  status: skipped
+extracted_problem_statement: 'Kahn is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Kahn. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'Kahn is a graph algorithm record. Classical complexity metadata: time 10(M + M X E + 4A + 6E)*V; space O(V^2); work 10(M + M X E + 4A + 6E)*V; span/depth 10(M + M X E + 4A + 6E). Public metadata/source text adds: Kahn graph graph M = max number of events labeled out of order on any, one path (this can be up to V), E = number of activities (edges), V = number of events (nodes) 10(M + M X E + 4A + 6E)*V Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

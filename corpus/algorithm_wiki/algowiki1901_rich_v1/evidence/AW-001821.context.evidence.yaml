@@ -1,0 +1,56 @@
+id: AW-001821
+kind: context
+algorithm_id: AW-001821
+algorithm_name: Zaki, Parthasarathy, Ogihara, Li
+source_records:
+- access_status: metadata_only
+  digest: 3a0bb8ad0d6cf58b
+  extracted_facts:
+  - 'AlgorithmWiki row name: Zaki, Parthasarathy, Ogihara, Li'
+  - 'domain: parallel_algorithms'
+  - 'computational model: PRAM'
+  - 'precard summary: Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model. Baseline: work O(n2^n); span/depth O(n2^n). Bottleneck: work, span, communication, and processor-count assumptions dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001821:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Zaki, Parthasarathy, Ogihara, Li
+  url: https://link.springer.com/content/pdf/10.1023/A:1009773317876.pdf
+- access_status: skipped
+  digest: b935ad4ff9916abd
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:362f3dddf63c476f
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1023/A:1009773317876.pdf
+web_query_attempts:
+- method: search_plan
+  query: Zaki, Parthasarathy, Ogihara, Li algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Zaki, Parthasarathy, Ogihara, Li algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Zaki, Parthasarathy, Ogihara, Li problem definition
+  status: recorded
+- method: search_plan
+  query: Zaki, Parthasarathy, Ogihara, Li parallel algorithms algorithm
+  status: recorded
+- method: search_plan
+  query: Zaki, Parthasarathy, Ogihara, Li site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Zaki, Parthasarathy, Ogihara, Li algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://link.springer.com/content/pdf/10.1023/A:1009773317876.pdf
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1023/A:1009773317876.pdf
+  status: skipped
+extracted_problem_statement: 'Zaki, Parthasarathy, Ogihara, Li is treated as a classical parallel algorithms task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Zaki, Parthasarathy, Ogihara, Li. Input semantics: The classical input instance named by the row, together with processor/work/span parameters when stated. Output semantics: The same mathematical output as the underlying classical task, annotated by work/span when available.'
+extracted_algorithm_summary: 'Zaki, Parthasarathy, Ogihara, Li is a parallel algorithms algorithm record. Classical complexity metadata: work O(n2^n); span/depth O(n2^n). The stated classical model is PRAM. Public metadata/source text adds: Zaki, Parthasarathy, Ogihara, Li parallel_algorithms parallel_algorithms Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

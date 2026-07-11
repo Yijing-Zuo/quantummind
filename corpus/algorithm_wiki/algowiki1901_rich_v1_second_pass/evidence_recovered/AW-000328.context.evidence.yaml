@@ -1,0 +1,56 @@
+id: AW-000328
+kind: context_recovered
+algorithm_id: AW-000328
+algorithm_name: "Blinn\u2013Phong"
+source_records:
+- access_status: metadata_only
+  digest: 9bd12a55fa865f9f
+  extracted_facts:
+  - "AlgorithmWiki row name: Blinn\u2013Phong"
+  - 'domain: unknown'
+  - 'time complexity: O(n^3)'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000328:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: "AlgorithmWiki metadata for Blinn\u2013Phong"
+  url: ''
+- source_id: crossref_search:db73435dd213eab1
+  url: https://doi.org/10.2991/cnci-19.2019.3
+  title: A Blinn-Phong Light Enhancement Algorithm Based on the Gradient of Voxel
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: A Blinn-Phong Light Enhancement Algorithm Based on the Gradient of Voxel'
+  short_quote: ''
+  digest: e3b4d8e591262d7c
+web_query_attempts:
+- query: "\"Blinn\u2013Phong\" algorithm"
+  method: search_plan
+  status: recorded
+- query: "\"Blinn\u2013Phong\" input output"
+  method: search_plan
+  status: recorded
+- query: "\"Blinn\u2013Phong\" time complexity"
+  method: search_plan
+  status: recorded
+- query: "\"Blinn\u2013Phong\" pseudocode"
+  method: search_plan
+  status: recorded
+- query: "\"Blinn\u2013Phong\" problem"
+  method: search_plan
+  status: recorded
+- query: "\"Blinn\u2013Phong\" PDF metadata abstract"
+  method: search_plan
+  status: recorded
+- query: "Blinn\u2013Phong algorithm"
+  method: crossref_title_search
+  status: fetched
+- query: "Blinn\u2013Phong algorithm"
+  method: wikipedia_summary_search
+  status: failed_or_not_relevant
+extracted_problem_statement: "Blinn\u2013Phong is reconstructed as a classical image processing task. Problem/task: compute shaded/rendered image values from a geometric scene and illumination model Input semantics: Scene geometry, material parameters, lights, camera/view information, and image resolution. Output semantics: Rendered pixel colors or intermediate shading/visibility values."
+extracted_algorithm_summary: "Blinn\u2013Phong is treated as the named AlgorithmWiki variant for compute shaded/rendered image values from a geometric scene and illumination model Classical complexity metadata: time O(n^3). Public metadata/source title support includes A Blinn-Phong Light Enhancement Algorithm Based on the Gradient of Voxel."
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

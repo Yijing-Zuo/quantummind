@@ -1,0 +1,19 @@
+case_id: QM-PB-002
+title: "Quantum Amplitude Amplification and Estimation"
+authors: [Gilles Brassard, Peter Hoyer, Michele Mosca, Alain Tapp]
+year: 2002
+venue: "Contemporary Mathematics 305 / arXiv"
+official_url: "https://arxiv.org/abs/quant-ph/0005055"
+result_location: "abstract and amplitude-estimation sections"
+result_type: upper_bound
+paraphrased_support: "The paper combines amplitude amplification with phase-estimation ideas to estimate an amplitude and applies this to approximate counting."
+problem_model: "bounded mean or approximate counting"
+promise: "bounded quantity and coherent access"
+access_model: coherent_estimation_oracle
+output_contract: additive_estimate
+classical_complexity: "CLASSICAL: Theta(1/epsilon^2) sampling scale"
+quantum_complexity: "QUERY: O(1/epsilon) amplitude-estimation scale"
+claim_scope: QUERY
+caveats: [coherent access, precision dependence]
+source_status: PRIMARY_SOURCE_CHECKED
+

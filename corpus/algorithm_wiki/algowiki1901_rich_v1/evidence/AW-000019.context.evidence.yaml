@@ -1,0 +1,73 @@
+id: AW-000019
+kind: context
+algorithm_id: AW-000019
+algorithm_name: Spatial GAN-Based Urs Bergmann, Nikolay Jetchev, Roland Vollgraf
+source_records:
+- access_status: metadata_only
+  digest: 6fd1335acb7e0639
+  extracted_facts:
+  - 'AlgorithmWiki row name: Spatial GAN-Based Urs Bergmann, Nikolay Jetchev, Roland Vollgraf'
+  - 'domain: image_processing'
+  - 'time complexity: O(N)'
+  - 'space complexity: O(N)'
+  - 'parameter definitions: N: number of pixels in output image'
+  - 'precard summary: Given an explicit image or grid of pixel values, compute the transformed image, segmentation, or detected structure targeted by the record. Baseline: time O(N); space O(N). Bottleneck: local neighborhood processing and writing image-sized outputs dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000019:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Spatial GAN-Based Urs Bergmann, Nikolay Jetchev, Roland Vollgraf
+  url: https://arxiv.org/abs/1705.06566
+- access_status: fetched
+  digest: 5afa0153e551ea96
+  extracted_facts:
+  - 'arXiv title: Learning Texture Manifolds with the Periodic Spatial GAN'
+  - 'abstract summary: This paper introduces a novel approach to texture synthesis based on generative adversarial networks (GAN) (Goodfellow et al., 2014).'
+  reliability: HIGH
+  short_quote: This paper introduces a novel approach to texture synthesis based on generative adversarial networks (GAN) (Goodfellow et al., 2014).
+  source_id: arxiv:1705.06566
+  source_type: arxiv_abstract
+  title: Learning Texture Manifolds with the Periodic Spatial GAN
+  url: https://arxiv.org/abs/1705.06566
+- access_status: fetched
+  digest: 84619355606bf85d
+  extracted_facts:
+  - 'source page title: [1705.06566] Learning Texture Manifolds with the Periodic Spatial GAN'
+  - 'source page description: Abstract page for arXiv paper 1705.06566: Learning Texture Manifolds with the Periodic Spatial GAN'
+  reliability: HIGH
+  short_quote: 'Abstract page for arXiv paper 1705.06566: Learning Texture Manifolds with the Periodic Spatial GAN'
+  source_id: source:7a69b88a8d17408c
+  source_type: arxiv_abstract
+  title: '[1705.06566] Learning Texture Manifolds with the Periodic Spatial GAN'
+  url: https://arxiv.org/abs/1705.06566
+web_query_attempts:
+- method: search_plan
+  query: Spatial GAN-Based Urs Bergmann, Nikolay Jetchev, Roland Vollgraf algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Spatial GAN-Based Urs Bergmann, Nikolay Jetchev, Roland Vollgraf algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Spatial GAN-Based Urs Bergmann, Nikolay Jetchev, Roland Vollgraf problem definition
+  status: recorded
+- method: search_plan
+  query: Spatial GAN-Based Urs Bergmann, Nikolay Jetchev, Roland Vollgraf image processing algorithm
+  status: recorded
+- method: search_plan
+  query: Spatial GAN-Based Urs Bergmann, Nikolay Jetchev, Roland Vollgraf site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Spatial GAN-Based Urs Bergmann, Nikolay Jetchev, Roland Vollgraf algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://arxiv.org/abs/1705.06566
+  status: recorded
+- method: arxiv_abstract_metadata
+  query: '1705.06566'
+  status: fetched
+- method: source_link_html_metadata
+  query: https://arxiv.org/abs/1705.06566
+  status: fetched
+extracted_problem_statement: 'Spatial GAN-Based Urs Bergmann, Nikolay Jetchev, Roland Vollgraf is treated as a classical image processing task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Spatial GAN-Based Urs Bergmann, Nikolay Jetchev, Roland Vollgraf. Input semantics: An image, grid, point cloud, or signal representation with local or hierarchical processing parameters. Output semantics: A transformed image, segmentation, quantization, feature set, or detected structure.'
+extracted_algorithm_summary: 'Spatial GAN-Based Urs Bergmann, Nikolay Jetchev, Roland Vollgraf is a image processing algorithm record. Classical complexity metadata: time O(N); space O(N). Public metadata/source text adds: Spatial GAN-Based Urs Bergmann, Nikolay Jetchev, Roland Vollgraf image_processing image_processing N: number of pixels in output image O(N) Given an explicit image or grid of pixel values, compute the transformed image, segmentation, or detected structure targeted by the record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

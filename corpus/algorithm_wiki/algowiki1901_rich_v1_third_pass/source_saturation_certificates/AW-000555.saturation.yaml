@@ -1,0 +1,502 @@
+algorithm_id: AW-000555
+canonical_name: Optimal Register Allocation (ORA), Goodwin & Wilken Algorithm
+original_source_link: https://onlinelibrary.wiley.com/doi/10.1002/(SICI)1097-024X(199608)26:8%3C929::AID-SPE40%3E3.0.CO2-T
+source_link_type: unknown
+previous_failure_reasons:
+- No second-pass rule could identify source-backed task semantics.
+previous_source_records:
+- access_status: metadata_only
+  digest: d21d1e9f67b9e747
+  extracted_facts:
+  - 'AlgorithmWiki row name: Optimal Register Allocation (ORA), Goodwin & Wilken Algorithm'
+  - 'domain: unknown'
+  - 'time complexity: O(n^3)'
+  - 'space complexity: Depends on the choice of 0-1 ILP solver'
+  - 'parameter definitions: n: number of live ranges (the number of candidates to reside in registers)'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000555:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Optimal Register Allocation (ORA), Goodwin & Wilken Algorithm
+  url: https://onlinelibrary.wiley.com/doi/10.1002/(SICI)1097-024X(199608)26:8%3C929::AID-SPE40%3E3.0.CO2-T
+- access_status: failed
+  digest: 4de33e97fad5d41d
+  extracted_facts:
+  - 'HTTP Error 404: Not Found'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:f2354104c63acab9
+  source_type: doi_metadata
+  title: 'HTTP Error 404: Not Found'
+  url: https://doi.org/10.1002/(SICI)1097-024X(199608)26:8
+- access_status: failed
+  digest: 76db19d4ac348fae
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:ad5bae876ac1288b
+  source_type: other_public_source
+  title: 'HTTP Error 403: Forbidden'
+  url: https://onlinelibrary.wiley.com/doi/10.1002/(SICI)1097-024X(199608)26:8%3C929::AID-SPE40%3E3.0.CO2-T
+- access_status: fetched
+  digest: ad8b67fcc75b05b5
+  extracted_facts:
+  - 'Crossref title-search result: A register allocation algorithm'
+  reliability: MEDIUM
+  short_quote: ''
+  source_id: crossref_search:9a3e8d49afaea1f5
+  source_type: doi_metadata
+  title: A register allocation algorithm
+  url: https://doi.org/10.1109/eit.2010.5612127
+aliases_tried:
+- Optimal Register Allocation (ORA), Goodwin & Wilken Algorithm
+- Optimal Register Allocation Goodwin & Wilken Algorithm
+- Optimal Register Allocation (ORA), Goodwin & Wilken Algorithm algorithm
+- Optimal Register Allocation (ORA), Goodwin & Wilken Algorithm problem
+- Optimal Register Allocation (ORA), Goodwin & Wilken Algorithm pseudocode
+- Optimal Register Allocation (ORA), Goodwin & Wilken Algorithm time complexity
+- A register allocation algorithm
+- A register allocation algorithm algorithm
+- A register allocation algorithm complexity
+- 10.1002/(SICI)1097-024X(199608)26:8
+query_plan:
+- source_family: original_source
+  primary_query: Optimal Register Allocation (ORA), Goodwin & Wilken Algorithm
+  applicability: applicable
+  purpose: check the row's original source link without storing paywalled or PDF bodies
+- source_family: crossref
+  primary_query: Optimal Register Allocation (ORA), Goodwin & Wilken Algorithm
+  applicability: applicable
+  purpose: recover DOI title, venue, year, and abstract metadata where available
+- source_family: openalex
+  primary_query: Optimal Register Allocation (ORA), Goodwin & Wilken Algorithm
+  applicability: applicable
+  purpose: recover public work metadata and abstract-inverted-index summaries
+- source_family: semantic_scholar
+  primary_query: Optimal Register Allocation (ORA), Goodwin & Wilken Algorithm
+  applicability: applicable
+  purpose: recover CS paper metadata and abstracts without an API key
+- source_family: arxiv
+  primary_query: Optimal Register Allocation (ORA), Goodwin & Wilken Algorithm
+  applicability: title-search-only
+  purpose: recover arXiv title and abstract metadata
+- source_family: dblp
+  primary_query: Optimal Register Allocation (ORA), Goodwin & Wilken Algorithm
+  applicability: applicable
+  purpose: recover bibliographic title/venue metadata for CS publications
+- source_family: publisher_abstract
+  primary_query: Optimal Register Allocation (ORA), Goodwin & Wilken Algorithm
+  applicability: applicable
+  purpose: check accessible publisher abstract pages
+- source_family: citeseerx
+  primary_query: Optimal Register Allocation (ORA), Goodwin & Wilken Algorithm
+  applicability: applicable
+  purpose: record legacy CiteSeerX availability without full PDF storage
+- source_family: wikipedia
+  primary_query: Optimal Register Allocation (ORA), Goodwin & Wilken Algorithm
+  applicability: applicable
+  purpose: check public encyclopedia algorithm descriptions
+- source_family: wikidata
+  primary_query: Optimal Register Allocation (ORA), Goodwin & Wilken Algorithm
+  applicability: applicable
+  purpose: check public entity aliases/descriptions
+- source_family: nist_dads
+  primary_query: Optimal Register Allocation (ORA), Goodwin & Wilken Algorithm
+  applicability: applicable
+  purpose: check whether a DADS-style reference search is applicable
+- source_family: algorithm_wiki_local
+  primary_query: Optimal Register Allocation (ORA), Goodwin & Wilken Algorithm
+  applicability: applicable
+  purpose: reuse AlgorithmWiki metadata as provenance
+- source_family: the_algorithms
+  primary_query: Optimal Register Allocation (ORA), Goodwin & Wilken Algorithm
+  applicability: applicable
+  purpose: check exact public implementation/reference names when available
+- source_family: cp_algorithms
+  primary_query: Optimal Register Allocation (ORA), Goodwin & Wilken Algorithm
+  applicability: applicable
+  purpose: check exact public algorithm reference names when available
+- source_family: course_notes
+  primary_query: Optimal Register Allocation (ORA), Goodwin & Wilken Algorithm
+  applicability: applicable
+  purpose: record absence of configured course-notes search
+- source_family: general_web_search
+  primary_query: Optimal Register Allocation (ORA), Goodwin & Wilken Algorithm
+  applicability: applicable
+  purpose: record absence of a configured general web endpoint
+- source_family: local_previous_cache
+  primary_query: Optimal Register Allocation (ORA), Goodwin & Wilken Algorithm
+  applicability: applicable
+  purpose: reuse v1/second-pass fetched source records
+query_attempts:
+- &id001
+  cycle: 1
+  query: Optimal Register Allocation (ORA), Goodwin & Wilken Algorithm
+  source_family: algorithm_wiki_local
+  url_or_api_endpoint: https://onlinelibrary.wiley.com/doi/10.1002/(SICI)1097-024X(199608)26:8%3C929::AID-SPE40%3E3.0.CO2-T
+  status: fetched
+  new_facts_added: 8
+  reason: local metadata
+- &id002
+  cycle: 1
+  query: Optimal Register Allocation (ORA), Goodwin & Wilken Algorithm
+  source_family: local_previous_cache
+  url_or_api_endpoint: ''
+  status: duplicate
+  new_facts_added: 0
+  reason: previous v1/second-pass sources reused
+- &id003
+  cycle: 1
+  query: https://onlinelibrary.wiley.com/doi/10.1002/(SICI)1097-024X(199608)26:8%3C929::AID-SPE40%3E3.0.CO2-T
+  source_family: original_source
+  url_or_api_endpoint: https://onlinelibrary.wiley.com/doi/10.1002/(SICI)1097-024X(199608)26:8%3C929::AID-SPE40%3E3.0.CO2-T
+  status: fetch_failed
+  new_facts_added: 0
+  reason: 'HTTP Error 403: Forbidden'
+- &id004
+  cycle: 1
+  query: 10.1002/(SICI)1097-024X(199608)26:8
+  source_family: crossref
+  url_or_api_endpoint: https://doi.org/10.1002/(SICI)1097-024X(199608)26:8
+  status: fetched
+  new_facts_added: 1
+  reason: Crossref metadata/title search
+- &id005
+  cycle: 1
+  query: Optimal Register Allocation (ORA), Goodwin & Wilken Algorithm
+  source_family: arxiv
+  url_or_api_endpoint: https://export.arxiv.org/api/query?max_results=1&search_query=ti:%22Optimal+Register+Allocation+%28ORA%29%2C+Goodwin+%26+Wilken+Algorithm%22
+  status: no_result
+  new_facts_added: 0
+  reason: arXiv title search returned no usable entry
+- &id006
+  cycle: 1
+  query: Optimal Register Allocation (ORA), Goodwin & Wilken Algorithm
+  source_family: wikipedia
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: Wikipedia search returned no relevant page
+- &id007
+  cycle: 2
+  query: 10.1002/(SICI)1097-024X(199608)26:8
+  source_family: openalex
+  url_or_api_endpoint: https://api.openalex.org/works/doi:10.1002%2F%28SICI%291097-024X%28199608%2926%3A8
+  status: no_result
+  new_facts_added: 0
+  reason: OpenAlex returned no usable work
+- &id008
+  cycle: 2
+  query: 10.1002/(SICI)1097-024X(199608)26:8
+  source_family: semantic_scholar
+  url_or_api_endpoint: https://api.semanticscholar.org/graph/v1/paper/DOI:10.1002%2F%28SICI%291097-024X%28199608%2926%3A8?fields=title,abstract,year,url,externalIds
+  status: fetch_failed
+  new_facts_added: 0
+  reason: Semantic Scholar returned no usable paper
+- &id009
+  cycle: 2
+  query: Optimal Register Allocation (ORA), Goodwin & Wilken Algorithm
+  source_family: dblp
+  url_or_api_endpoint: https://dblp.org/search/publ/api?format=json&h=1&q=Optimal+Register+Allocation+%28ORA%29%2C+Goodwin+%26+Wilken+Algorithm
+  status: no_result
+  new_facts_added: 0
+  reason: DBLP returned no usable publication
+- &id010
+  cycle: 2
+  query: https://onlinelibrary.wiley.com/doi/10.1002/(SICI)1097-024X(199608)26:8%3C929::AID-SPE40%3E3.0.CO2-T
+  source_family: original_source
+  url_or_api_endpoint: https://onlinelibrary.wiley.com/doi/10.1002/(SICI)1097-024X(199608)26:8%3C929::AID-SPE40%3E3.0.CO2-T
+  status: fetch_failed
+  new_facts_added: 0
+  reason: 'HTTP Error 403: Forbidden'
+- &id011
+  cycle: 2
+  query: Optimal Register Allocation (ORA), Goodwin & Wilken Algorithm
+  source_family: wikidata
+  url_or_api_endpoint: https://www.wikidata.org/w/api.php?action=wbsearchentities&language=en&format=json&limit=1&search=Optimal+Register+Allocation+%28ORA%29%2C+Goodwin+%26+Wilken+Algorithm
+  status: no_result
+  new_facts_added: 0
+  reason: Wikidata returned no entity
+- &id012
+  cycle: 3
+  query: Optimal Register Allocation (ORA), Goodwin & Wilken Algorithm
+  source_family: citeseerx
+  url_or_api_endpoint: ''
+  status: paywalled
+  new_facts_added: 0
+  reason: CiteSeerX link is PDF/legacy metadata; full PDF body skipped
+- &id013
+  cycle: 3
+  query: Optimal Register Allocation (ORA), Goodwin & Wilken Algorithm
+  source_family: nist_dads
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: NIST DADS has no reliable bulk search API in this environment
+- &id014
+  cycle: 3
+  query: Optimal Register Allocation (ORA), Goodwin & Wilken Algorithm
+  source_family: the_algorithms
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: TheAlgorithms search skipped unless a known exact reference is available
+- &id015
+  cycle: 3
+  query: Optimal Register Allocation (ORA), Goodwin & Wilken Algorithm
+  source_family: cp_algorithms
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: CP-Algorithms search skipped unless a known exact reference is available
+- &id016
+  cycle: 3
+  query: Optimal Register Allocation (ORA), Goodwin & Wilken Algorithm
+  source_family: course_notes
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: No configured public course-notes search endpoint
+- &id017
+  cycle: 3
+  query: Optimal Register Allocation (ORA), Goodwin & Wilken Algorithm
+  source_family: general_web_search
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: No configured general web search endpoint; Google Scholar scraping is not used
+source_attempts:
+- *id001
+- *id002
+- *id003
+- *id004
+- *id005
+- *id006
+- *id007
+- *id008
+- *id009
+- *id010
+- *id011
+- *id012
+- *id013
+- *id014
+- *id015
+- *id016
+- *id017
+discovered_sources: []
+discovered_facts:
+- fact_id: AW-000555-Fe214cc1ff5
+  fact_type: alias
+  value: Optimal Register Allocation (ORA), Goodwin & Wilken Algorithm
+  source_id: AW-000555:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: AlgorithmWiki metadata
+- fact_id: AW-000555-F2572474e5e
+  fact_type: time_complexity
+  value: O(n^3)
+  source_id: AW-000555:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: AlgorithmWiki metadata
+- fact_id: AW-000555-Fc183e53e48
+  fact_type: space_complexity
+  value: Depends on the choice of 0-1 ILP solver
+  source_id: AW-000555:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: AlgorithmWiki metadata
+- fact_id: AW-000555-F6637ed372c
+  fact_type: input_semantics
+  value: 'Parameter definitions: n: number of live ranges (the number of candidates to reside in registers)'
+  source_id: AW-000555:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 75
+  conflict_status: weak
+  notes: AlgorithmWiki parameter metadata
+- fact_id: AW-000555-F0a562ff8cd
+  fact_type: authoritative_source_link
+  value: https://onlinelibrary.wiley.com/doi/10.1002/(SICI)1097-024X(199608)26:8%3C929::AID-SPE40%3E3.0.CO2-T
+  source_id: AW-000555:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 70
+  conflict_status: consistent
+  notes: Original source link from AlgorithmWiki metadata
+- fact_id: AW-000555-Ff5b3c2f5d9
+  fact_type: source_title
+  value: AlgorithmWiki metadata for Optimal Register Allocation (ORA), Goodwin & Wilken Algorithm
+  source_id: AW-000555:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000555-Fbabd82249d
+  fact_type: problem_definition
+  value: 'Source title indicates: AlgorithmWiki metadata for Optimal Register Allocation (ORA), Goodwin & Wilken Algorithm'
+  source_id: AW-000555:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: weak
+  notes: previous_source_record
+- fact_id: AW-000555-F64678f1d63
+  fact_type: problem_definition
+  value: 'AlgorithmWiki row name: Optimal Register Allocation (ORA), Goodwin & Wilken Algorithm'
+  source_id: AW-000555:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000555-Fcaffa5fc82
+  fact_type: problem_definition
+  value: 'domain: unknown'
+  source_id: AW-000555:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000555-F136ea442c3
+  fact_type: time_complexity
+  value: 'time complexity: O(n^3)'
+  source_id: AW-000555:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000555-F7d09ce5985
+  fact_type: space_complexity
+  value: 'space complexity: Depends on the choice of 0-1 ILP solver'
+  source_id: AW-000555:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000555-F37d22cebed
+  fact_type: problem_definition
+  value: 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  source_id: AW-000555:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000555-F0892f07f4c
+  fact_type: authoritative_source_link
+  value: https://doi.org/10.1002/(SICI)1097-024X(199608)26:8
+  source_id: failed:f2354104c63acab9
+  reliability: LOW
+  confidence: 45
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000555-Fb8766e3799
+  fact_type: source_title
+  value: A register allocation algorithm
+  source_id: crossref_search:9a3e8d49afaea1f5
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000555-F64fd68a86c
+  fact_type: problem_definition
+  value: 'Source title indicates: A register allocation algorithm'
+  source_id: crossref_search:9a3e8d49afaea1f5
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: weak
+  notes: previous_source_record
+- fact_id: AW-000555-Fb1d2a5dfdf
+  fact_type: problem_definition
+  value: 'Crossref title-search result: A register allocation algorithm'
+  source_id: crossref_search:9a3e8d49afaea1f5
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000555-Fd0f7a60783
+  fact_type: authoritative_source_link
+  value: https://doi.org/10.1109/eit.2010.5612127
+  source_id: crossref_search:9a3e8d49afaea1f5
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: consistent
+  notes: previous_source_record
+duplicate_sources:
+- source_id: AW-000555:algorithm_wiki_metadata
+  url: https://onlinelibrary.wiley.com/doi/10.1002/(SICI)1097-024X(199608)26:8%3C929::AID-SPE40%3E3.0.CO2-T
+  title: AlgorithmWiki metadata for Optimal Register Allocation (ORA), Goodwin & Wilken Algorithm
+  source_type: algorithm_wiki
+  access_status: metadata_only
+  reliability: HIGH
+  extracted_facts:
+  - 'AlgorithmWiki row name: Optimal Register Allocation (ORA), Goodwin & Wilken Algorithm'
+  - 'domain: unknown'
+  - 'time complexity: O(n^3)'
+  - 'space complexity: Depends on the choice of 0-1 ILP solver'
+  - 'parameter definitions: n: number of live ranges (the number of candidates to reside in registers)'
+  short_quote: ''
+  digest: f14b46a9ea12a8d4
+- source_id: failed:ad5bae876ac1288b
+  url: https://onlinelibrary.wiley.com/doi/10.1002/(SICI)1097-024X(199608)26:8%3C929::AID-SPE40%3E3.0.CO2-T
+  title: 'HTTP Error 403: Forbidden'
+  source_type: original_source
+  access_status: failed
+  reliability: LOW
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  short_quote: 'HTTP Error 403: Forbidden'
+  digest: 618b1f167e510102
+- source_id: failed:f2354104c63acab9
+  url: https://doi.org/10.1002/(SICI)1097-024X(199608)26:8
+  title: 'HTTP Error 404: Not Found'
+  source_type: doi_metadata
+  access_status: failed
+  reliability: LOW
+  extracted_facts:
+  - 'HTTP Error 404: Not Found'
+  short_quote: ''
+  digest: 4de33e97fad5d41d
+- source_id: failed:ad5bae876ac1288b
+  url: https://onlinelibrary.wiley.com/doi/10.1002/(SICI)1097-024X(199608)26:8%3C929::AID-SPE40%3E3.0.CO2-T
+  title: 'HTTP Error 403: Forbidden'
+  source_type: original_source
+  access_status: failed
+  reliability: LOW
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  short_quote: 'HTTP Error 403: Forbidden'
+  digest: 618b1f167e510102
+failed_sources: []
+paywalled_or_skipped_sources: []
+source_families_covered:
+- algorithm_wiki_local
+- local_previous_cache
+- original_source
+- crossref
+- arxiv
+- wikipedia
+- openalex
+- semantic_scholar
+- dblp
+- publisher_abstract
+- wikidata
+- citeseerx
+- nist_dads
+- the_algorithms
+- cp_algorithms
+- course_notes
+- general_web_search
+cycles_completed: 3
+new_fact_count_by_cycle:
+- cycle: 1
+  new_facts: 0
+- cycle: 2
+  new_facts: 0
+- cycle: 3
+  new_facts: 0
+no_new_fact_streak: 3
+saturation_status: SATURATED_NO_RECOVERY
+final_reason: After the configured source-family cycles, no source-backed concrete task, input semantics, output semantics, and conservative access model could be established.
+next_manual_action: No automated action recommended; keep saturated certificate with unresolved row.

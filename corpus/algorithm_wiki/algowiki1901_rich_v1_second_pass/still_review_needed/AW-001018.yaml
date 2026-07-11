@@ -1,0 +1,63 @@
+algorithm_id: AW-001018
+canonical_name: Buhler, Lenstra, Pomerance
+enrichment_status: SECOND_PASS_INSUFFICIENT
+review_reasons:
+- source-backed I/O reconstruction is still insufficient
+source_records:
+- access_status: metadata_only
+  digest: e87ec58f952ae9c8
+  extracted_facts:
+  - 'AlgorithmWiki row name: Buhler, Lenstra, Pomerance'
+  - 'domain: unknown'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001018:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Buhler, Lenstra, Pomerance
+  url: https://link.springer.com/chapter/10.1007/BFb0091539
+- access_status: skipped
+  digest: ef6f76543bae7a87
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:49d88c97f2caeac7
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1007/BFb0091539
+- access_status: skipped
+  digest: 079d293760130d74
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:e61abbc4ac6c28d4
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://link.springer.com/chapter/10.1007/BFb0091539
+- source_id: crossref:d7b8b740cb6cd466
+  url: https://doi.org/10.1007/BFb0091539
+  title: Factoring integers with the number field sieve
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: HIGH
+  extracted_facts:
+  - 'DOI title: Factoring integers with the number field sieve'
+  - 'published year: 1993'
+  - 'container title: Lecture Notes in Mathematics'
+  short_quote: ''
+  digest: 8aa57933e15d2de3
+- source_id: crossref_search:0b18e1bdccf3f416
+  url: https://doi.org/10.1109/npc.2007.32
+  title: An optimal algorithm to fetch DHT routable
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: An optimal algorithm to fetch DHT routable'
+  short_quote: ''
+  digest: eac65bcac63f65f8
+extracted_problem_statement: 'Buhler, Lenstra, Pomerance is reconstructed as a classical combinatorics task. Problem/task: find a nontrivial factorization of an integer Input semantics: An integer N represented with n bits and method-specific smoothness or search bounds. Output semantics: A nontrivial factor, a complete factorization, or a failure indication under the method assumptions.'
+extracted_input_semantics: An integer N represented with n bits and method-specific smoothness or search bounds.
+extracted_output_semantics: A nontrivial factor, a complete factorization, or a failure indication under the method assumptions.

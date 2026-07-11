@@ -1,0 +1,71 @@
+id: AW-000781-P0506
+kind: probe
+algorithm_id: AW-000781
+algorithm_name: Bailey TL Elkan C MEME
+source_records:
+- access_status: metadata_only
+  digest: bfe8750c46935d01
+  extracted_facts:
+  - 'AlgorithmWiki row name: Bailey TL Elkan C MEME'
+  - 'domain: unknown'
+  - 'time complexity: O(n^2m^2)'
+  - 'space complexity: O(mn)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of sequences, m: length of sequences'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000781:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Bailey TL Elkan C MEME
+  url: https://link.springer.com/article/10.1007/BF00993379
+- access_status: fetched
+  digest: 321fa04ebf09ee59
+  extracted_facts:
+  - 'DOI title: Unsupervised learning of multiple motifs in biopolymers using expectation maximization'
+  - 'published year: 1995'
+  - 'container title: Machine Learning'
+  reliability: HIGH
+  short_quote: ''
+  source_id: crossref:2e6ba9d6efc4617e
+  source_type: doi_metadata
+  title: Unsupervised learning of multiple motifs in biopolymers using expectation maximization
+  url: https://doi.org/10.1007/BF00993379
+- access_status: skipped
+  digest: b695b65376f74edb
+  extracted_facts:
+  - robots.txt disallowed fetch
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:9ca075b5e261ab14
+  source_type: publisher_abstract
+  title: robots.txt disallowed fetch
+  url: https://link.springer.com/article/10.1007/BF00993379
+web_query_attempts:
+- method: search_plan
+  query: Bailey TL Elkan C MEME algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Bailey TL Elkan C MEME algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Bailey TL Elkan C MEME problem definition
+  status: recorded
+- method: search_plan
+  query: Bailey TL Elkan C MEME site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Bailey TL Elkan C MEME algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://link.springer.com/article/10.1007/BF00993379
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1007/BF00993379
+  status: fetched
+- method: source_link_html_metadata
+  query: https://link.springer.com/article/10.1007/BF00993379
+  status: skipped
+extracted_problem_statement: 'Bailey TL Elkan C MEME is treated as a classical string task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Bailey TL Elkan C MEME. Input semantics: One or more finite strings, sequences, patterns, or alphabets. Output semantics: The requested string matching, alignment, indexing, distance, or transformation result.'
+extracted_algorithm_summary: 'Bailey TL Elkan C MEME is a string algorithm record. Classical complexity metadata: time O(n^2m^2); space O(mn). The stated classical model is Word RAM. Public metadata/source text adds: Bailey TL Elkan C MEME unknown unknown n: number of sequences, m: length of sequences O(n^2m^2) No public-ready summary is available because the row lacks enough task semantics.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

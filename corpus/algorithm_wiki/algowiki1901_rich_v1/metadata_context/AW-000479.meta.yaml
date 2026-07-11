@@ -1,0 +1,58 @@
+algorithm_family: unknown
+algorithm_id: AW-000479
+approximate: '0'
+approximation_factor: ''
+blind_name: Algorithm Wiki public task AW-000479
+canonical_name: "Lemke\u2013Howson algorithm"
+computational_model: Word RAM
+domain: unknown
+extracted_description: ''
+extraction_version: algorithm-wiki-rich-context-v1
+family: unknown
+inferred_access_model: dense_matrix_access
+inferred_ambiguities:
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.
+inferred_input_model: explicit_matrix_problem
+inferred_output_contract: full_classical_output
+inferred_problem_statement: "Lemke\u2013Howson algorithm is treated as a classical matrix linear algebra task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Lemke\u2013Howson algorithm. Input semantics: One or more explicit matrices or linear systems over the stated arithmetic domain. Output semantics: The requested matrix, decomposition, solution vector, or other linear-algebraic output."
+inferred_promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+inferred_size_parameters:
+- 'Parameter definition: n, m: dimensions of payoff matrices'
+number_of_processors: ''
+page_digest: ''
+page_fetch_status: not_found
+page_url: ''
+parameter_definitions: 'n, m: dimensions of payoff matrices'
+problem_name: unknown
+quality_flags:
+- has_complexity_semantics
+- has_size_parameters
+- has_computational_model
+quality_score: 70
+randomized: '0'
+readiness: READY_PUBLIC_CONTEXT
+review_reasons:
+- missing_problem_statement
+- unknown_input_model
+- unknown_access_model
+- unknown_output_contract
+- insufficient_algorithm_level_structure
+source_link: https://epubs.siam.org/doi/abs/10.1137/0112033?journalCode=smjmap.1
+source_link_type: siam
+space_complexity: O(mn)
+span_depth: ''
+time_complexity: 2^{O(n+m)}
+variation: ''
+work: ''
+year: '1964'
+rich_card_kind: context
+source_records_used:
+- AW-000479:algorithm_wiki_metadata
+- crossref:7452e5e84177ee57
+- failed:c065dc8b46041f67
+source_count: 3
+source_quality: HIGH
+confidence_score: 70
+card_digest: e346ac62d47d1c11

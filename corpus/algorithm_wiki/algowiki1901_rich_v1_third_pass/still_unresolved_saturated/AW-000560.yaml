@@ -1,0 +1,59 @@
+algorithm_id: AW-000560
+canonical_name: Two-pass algorithm
+enrichment_status: THIRD_PASS_SATURATED_INSUFFICIENT
+review_reasons:
+- After the configured source-family cycles, no source-backed concrete task, input semantics, output semantics, and conservative access model could be established.
+source_records:
+- access_status: metadata_only
+  digest: b0447c0a0af11819
+  extracted_facts:
+  - 'AlgorithmWiki row name: Two-pass algorithm'
+  - 'domain: unknown'
+  - 'time complexity: O(n)'
+  - 'space complexity: O(1)'
+  - 'computational model: Word/Real RAM'
+  - 'parameter definitions: n: number of values'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000560:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Two-pass algorithm
+  url: '-'
+- access_status: fetched
+  digest: 29795f0126bd2be1
+  extracted_facts:
+  - 'Crossref title-search result: Two-Pass Softmax Algorithm'
+  reliability: MEDIUM
+  short_quote: ''
+  source_id: crossref_search:33e1e11c1e053cec
+  source_type: doi_metadata
+  title: Two-Pass Softmax Algorithm
+  url: https://doi.org/10.1109/ipdpsw50202.2020.00074
+- source_id: crossref_search:e4cd9421448d9ce9
+  url: https://doi.org/10.1109/ipdpsw50202.2020.00074
+  title: Two-Pass Softmax Algorithm
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title: Two-Pass Softmax Algorithm'
+  - 'published year: 2020'
+  - 'container title: 2020 IEEE International Parallel and Distributed Processing Symposium Workshops (IPDPSW)'
+  short_quote: 'Crossref title: Two-Pass Softmax Algorithm published year: 2020 container title: 2020 IEEE International Parallel and Distributed Processing Symposium Workshops (IPDPSW)'
+  digest: 6f3fe45ef150c3dc
+- source_id: openalex:599b57df106d8fe7
+  url: https://openalex.org/W3003257820
+  title: 'SciPy 1.0: fundamental algorithms for scientific computing in Python'
+  source_type: openalex
+  access_status: fetched
+  reliability: HIGH
+  extracted_facts:
+  - 'OpenAlex title: SciPy 1.0: fundamental algorithms for scientific computing in Python'
+  - 'publication year: 2020'
+  - 'abstract summary: SciPy is an open-source scientific computing library for the Python programming language.'
+  short_quote: 'OpenAlex title: SciPy 1.0: fundamental algorithms for scientific computing in Python publication year: 2020 abstract summary: SciPy is an open-source scientific computing library for'
+  digest: 6a65466fb17ff2d2
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

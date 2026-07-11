@@ -1,0 +1,32 @@
+algorithm_id: AW-001709
+canonical_name: Paardekooper
+enrichment_status: SECOND_PASS_INSUFFICIENT
+review_reasons:
+- No second-pass rule could identify source-backed task semantics.
+source_records:
+- access_status: metadata_only
+  digest: 4387203468caebaa
+  extracted_facts:
+  - 'AlgorithmWiki row name: Paardekooper'
+  - 'domain: unknown'
+  - 'computational model: distributed memory'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001709:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Paardekooper
+  url: https://pure.uvt.nl/ws/portalfiles/portal/1142310/PM5621297.pdf.
+- source_id: crossref_search:a4b3f78c50c7835f
+  url: https://doi.org/10.1007/bf01732981
+  title: On the cubic convergence of the Paardekooper method
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: On the cubic convergence of the Paardekooper method'
+  short_quote: ''
+  digest: b475f725c4ac7597
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

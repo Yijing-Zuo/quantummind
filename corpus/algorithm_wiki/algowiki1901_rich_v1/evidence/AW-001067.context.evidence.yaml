@@ -1,0 +1,58 @@
+id: AW-001067
+kind: context
+algorithm_id: AW-001067
+algorithm_name: Bollobas and Thomason
+source_records:
+- access_status: metadata_only
+  digest: a8460701a15f44a5
+  extracted_facts:
+  - 'AlgorithmWiki row name: Bollobas and Thomason'
+  - 'domain: sorting'
+  - 'time complexity: 2 // O(1)'
+  - 'computational model: sorting network'
+  - 'parameter definitions: n: size of list'
+  - 'precard summary: Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model. Baseline: time 2 // O(1); work O(\lfloor n^1.5 \log{n} \rfloor); span/depth O(1); processors O(\lfloor n^1.5 \log{n} \rfloor). Bottleneck: comparison, distribution, and full-output movement costs dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001067:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Bollobas and Thomason
+  url: https://www.sciencedirect.com/science/article/pii/0166218X83900951
+- access_status: skipped
+  digest: ea0b28ccf446a4a5
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:d1581120e8f74267
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://www.sciencedirect.com/science/article/pii/0166218X83900951
+web_query_attempts:
+- method: search_plan
+  query: Bollobas and Thomason algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Bollobas and Thomason algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Bollobas and Thomason problem definition
+  status: recorded
+- method: search_plan
+  query: Bollobas and Thomason sorting algorithm
+  status: recorded
+- method: search_plan
+  query: Bollobas and Thomason site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Bollobas and Thomason algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://www.sciencedirect.com/science/article/pii/0166218X83900951
+  status: recorded
+- method: source_link_html_metadata
+  query: https://www.sciencedirect.com/science/article/pii/0166218X83900951
+  status: skipped
+extracted_problem_statement: 'Bollobas and Thomason is treated as a classical sorting task for rich AlgorithmWiki discovery. Problem/task: sort the input sequence using the named classical sorting method. Input semantics: A finite array or list of comparable keys or records. Output semantics: The same items returned in nondecreasing order, usually as a full reordered sequence.'
+extracted_algorithm_summary: 'Bollobas and Thomason is a sorting algorithm record. Classical complexity metadata: time 2 // O(1); work O(\lfloor n^1.5 \log{n} \rfloor); span/depth O(1); processors O(\lfloor n^1.5 \log{n} \rfloor). The stated classical model is sorting network. Public metadata/source text adds: Bollobas and Thomason sorting sorting n: size of list 2 // O(1) Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

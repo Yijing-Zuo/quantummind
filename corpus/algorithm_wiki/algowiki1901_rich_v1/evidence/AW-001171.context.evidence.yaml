@@ -1,0 +1,70 @@
+id: AW-001171
+kind: context
+algorithm_id: AW-001171
+algorithm_name: T&B sort - Tridgell, Brent
+source_records:
+- access_status: metadata_only
+  digest: 7f5e8ee3549c9e93
+  extracted_facts:
+  - 'AlgorithmWiki row name: T&B sort - Tridgell, Brent'
+  - 'domain: sorting'
+  - 'computational model: MIMD'
+  - 'parameter definitions: n: size of list, p: number of processors'
+  - 'precard summary: Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model. Baseline: processors p. Bottleneck: comparison, distribution, and full-output movement costs dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001171:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for T&B sort - Tridgell, Brent
+  url: https://openresearch-repository.anu.edu.au/handle/1885/40793
+- access_status: skipped
+  digest: 23cd54b2a17c1358
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:e74f030c2fa5224b
+  source_type: textbook_or_course_notes
+  title: fetch budget exhausted
+  url: https://openresearch-repository.anu.edu.au/handle/1885/40793
+- access_status: skipped
+  digest: 28487e8049be2078
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:e931e997ea1e693d
+  source_type: wikipedia
+  title: fetch budget exhausted
+  url: https://en.wikipedia.org/wiki/T%26B_sort_-_Tridgell%2C_Brent
+web_query_attempts:
+- method: search_plan
+  query: T&B sort - Tridgell, Brent algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: T&B sort - Tridgell, Brent algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: T&B sort - Tridgell, Brent problem definition
+  status: recorded
+- method: search_plan
+  query: T&B sort - Tridgell, Brent sorting algorithm
+  status: recorded
+- method: search_plan
+  query: T&B sort - Tridgell, Brent site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: T&B sort - Tridgell, Brent algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://openresearch-repository.anu.edu.au/handle/1885/40793
+  status: recorded
+- method: source_link_html_metadata
+  query: https://openresearch-repository.anu.edu.au/handle/1885/40793
+  status: skipped
+- method: wikipedia_summary_search
+  query: T&B sort - Tridgell, Brent algorithm
+  status: skipped
+extracted_problem_statement: 'T&B sort - Tridgell, Brent is treated as a classical sorting task for rich AlgorithmWiki discovery. Problem/task: sort the input sequence using the named classical sorting method. Input semantics: A finite array or list of comparable keys or records. Output semantics: The same items returned in nondecreasing order, usually as a full reordered sequence.'
+extracted_algorithm_summary: 'T&B sort - Tridgell, Brent is a sorting algorithm record. Classical complexity metadata: processors p. The stated classical model is MIMD. Public metadata/source text adds: T&B sort - Tridgell, Brent sorting sorting n: size of list, p: number of processors Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

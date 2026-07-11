@@ -1,0 +1,35 @@
+algorithm_id: AW-000823
+canonical_name: Trial Multiplication
+enrichment_status: SECOND_PASS_INSUFFICIENT
+review_reasons:
+- No second-pass rule could identify source-backed task semantics.
+source_records:
+- access_status: metadata_only
+  digest: 00f779b4504e8470
+  extracted_facts:
+  - 'AlgorithmWiki row name: Trial Multiplication'
+  - 'domain: unknown'
+  - 'time complexity: O(2^n)'
+  - 'space complexity: O(1)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of digits/bits in the order of the finite group'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000823:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Trial Multiplication
+  url: NA
+- source_id: crossref_search:8b38ae6e21836d45
+  url: https://doi.org/10.1090/mbk/079/06
+  title: The multiplication algorithm
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: The multiplication algorithm'
+  short_quote: ''
+  digest: bb6ffc0d77caf884
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

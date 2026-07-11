@@ -1,0 +1,74 @@
+id: AW-000725
+kind: context
+algorithm_id: AW-000725
+algorithm_name: Sorted Neighborhood Algorithm (SNA)
+source_records:
+- access_status: metadata_only
+  digest: 77e5fb6319da16f0
+  extracted_facts:
+  - 'AlgorithmWiki row name: Sorted Neighborhood Algorithm (SNA)'
+  - 'domain: sorting'
+  - 'time complexity: O(n \log n)'
+  - 'space complexity: O(n)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of records'
+  - 'precard summary: Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model. Baseline: time O(n \log n); space O(n). Bottleneck: comparison, distribution, and full-output movement costs dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000725:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Sorted Neighborhood Algorithm (SNA)
+  url: https://link.springer.com/article/10.1023/A:1009761603038
+- access_status: fetched
+  digest: a42d833a4a7e1fee
+  extracted_facts:
+  - 'DOI title: Real-world Data is Dirty: Data Cleansing and The Merge/Purge Problem'
+  - 'published year: 1998'
+  - 'container title: Data Mining and Knowledge Discovery'
+  reliability: HIGH
+  short_quote: ''
+  source_id: crossref:026309c13dff4fb4
+  source_type: doi_metadata
+  title: 'Real-world Data is Dirty: Data Cleansing and The Merge/Purge Problem'
+  url: https://doi.org/10.1023/A:1009761603038
+- access_status: skipped
+  digest: 588817249de71569
+  extracted_facts:
+  - robots.txt disallowed fetch
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:ff00efba82e7fa33
+  source_type: publisher_abstract
+  title: robots.txt disallowed fetch
+  url: https://link.springer.com/article/10.1023/A:1009761603038
+web_query_attempts:
+- method: search_plan
+  query: Sorted Neighborhood Algorithm (SNA) algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Sorted Neighborhood Algorithm (SNA) algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Sorted Neighborhood Algorithm (SNA) problem definition
+  status: recorded
+- method: search_plan
+  query: Sorted Neighborhood Algorithm (SNA) sorting algorithm
+  status: recorded
+- method: search_plan
+  query: Sorted Neighborhood Algorithm (SNA) site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Sorted Neighborhood Algorithm (SNA) algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://link.springer.com/article/10.1023/A:1009761603038
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1023/A:1009761603038
+  status: fetched
+- method: source_link_html_metadata
+  query: https://link.springer.com/article/10.1023/A:1009761603038
+  status: skipped
+extracted_problem_statement: 'Sorted Neighborhood Algorithm (SNA) is treated as a classical sorting task for rich AlgorithmWiki discovery. Problem/task: sort the input sequence using the named classical sorting method. Input semantics: A finite array or list of comparable keys or records. Output semantics: The same items returned in nondecreasing order, usually as a full reordered sequence.'
+extracted_algorithm_summary: 'Sorted Neighborhood Algorithm (SNA) is a sorting algorithm record. Classical complexity metadata: time O(n \log n); space O(n). The stated classical model is Word RAM. Public metadata/source text adds: Sorted Neighborhood Algorithm (SNA) sorting sorting n: number of records O(n \log n) Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

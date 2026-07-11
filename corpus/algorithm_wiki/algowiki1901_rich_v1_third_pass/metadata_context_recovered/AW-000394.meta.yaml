@@ -1,0 +1,63 @@
+algorithm_family: unknown
+algorithm_id: AW-000394
+approximate: '1'
+approximation_factor: ''
+blind_name: Algorithm Wiki public task AW-000394
+canonical_name: HEALPix mapping Wong
+computational_model: ''
+domain: unknown
+extracted_description: ''
+extraction_version: algorithm-wiki-rich-third-pass-context-v1
+family: unknown
+inferred_access_model: explicit_input_instance
+inferred_ambiguities:
+- Some details are reconstructed from AlgorithmWiki metadata rather than an independently fetched full public description.
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.
+inferred_input_model: explicit_image_processing_problem
+inferred_output_contract: full_solution
+inferred_problem_statement: 'HEALPix mapping Wong is treated as a source-saturated AlgorithmWiki row for compute shaded/rendered image values from a geometric scene and illumination model Input semantics: Scene geometry, material parameters, lights, camera/view information, and image resolution. Output semantics: Rendered pixel colors or intermediate shading/visibility values.'
+inferred_promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+- classical_approximation_algorithm
+inferred_size_parameters:
+- 'n: primary input size parameter for the source-backed task.'
+number_of_processors: ''
+page_digest: ''
+page_fetch_status: not_found
+page_url: ''
+parameter_definitions: ''
+problem_name: unknown
+quality_flags:
+- has_complexity_semantics
+- approximation_flag_preserved
+quality_score: 100
+randomized: '0'
+readiness: READY_PUBLIC_CONTEXT
+review_reasons:
+- missing_problem_statement
+- unknown_input_model
+- unknown_access_model
+- unknown_output_contract
+- missing_size_parameters
+- insufficient_algorithm_level_structure
+source_link: ''
+source_link_type: unknown
+space_complexity: ''
+span_depth: ''
+time_complexity: O(n^2)
+variation: ''
+work: ''
+year: '2008'
+rich_card_kind: context_recovered
+source_records_used:
+- AW-000394:algorithm_wiki_metadata
+- crossref_search:5655893b3994e8dd
+- crossref_search:723ac83e5ed4d4b6
+- openalex:75f8933920b23810
+source_count: 4
+source_quality: HIGH
+confidence_score: 100
+card_digest: 4baf7b39eb60be05
+third_pass_rule: third_pass_reuse_rendering_shading
+saturation_status: RECOVERED_CONTEXT

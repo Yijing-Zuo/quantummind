@@ -1,0 +1,56 @@
+id: AW-000906
+kind: context
+algorithm_id: AW-000906
+algorithm_name: Bansal, Williams
+source_records:
+- access_status: metadata_only
+  digest: 577487d28b737bed
+  extracted_facts:
+  - 'AlgorithmWiki row name: Bansal, Williams'
+  - 'domain: unknown'
+  - 'time complexity: O(n^3 * (log log n)^2 / (w * (log n)^7/6))'
+  - 'computational model: Word RAM with word size w > log n'
+  - 'parameter definitions: n: dimension of the two square matrices, w: size of word'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000906:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Bansal, Williams
+  url: https://ieeexplore.ieee.org/abstract/document/5438580
+- access_status: fetched
+  digest: 6329e99ba9d6d928
+  extracted_facts:
+  - 'source page title: Regularity Lemmas and Combinatorial Algorithms | IEEE Conference Publication | IEEE Xplore'
+  - 'source page description: We present new combinatorial algorithms for Boolean matrix multiplication (BMM) and preprocessing a graph to answer independent set queries.'
+  reliability: HIGH
+  short_quote: We present new combinatorial algorithms for Boolean matrix multiplication (BMM) and preprocessing a graph to answer independent set queries.
+  source_id: source:b25186b75f44a31a
+  source_type: publisher_abstract
+  title: Regularity Lemmas and Combinatorial Algorithms | IEEE Conference Publication | IEEE Xplore
+  url: https://ieeexplore.ieee.org/abstract/document/5438580
+web_query_attempts:
+- method: search_plan
+  query: Bansal, Williams algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Bansal, Williams algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Bansal, Williams problem definition
+  status: recorded
+- method: search_plan
+  query: Bansal, Williams site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Bansal, Williams algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://ieeexplore.ieee.org/abstract/document/5438580
+  status: recorded
+- method: source_link_html_metadata
+  query: https://ieeexplore.ieee.org/abstract/document/5438580
+  status: fetched
+extracted_problem_statement: 'Bansal, Williams is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Bansal, Williams. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The matrix product or bilinear multiplication output.'
+extracted_algorithm_summary: 'Bansal, Williams is a graph algorithm record. Classical complexity metadata: time O(n^3 * (log log n)^2 / (w * (log n)^7/6)). The stated classical model is Word RAM with word size w > log n. Public metadata/source text adds: Bansal, Williams unknown unknown n: dimension of the two square matrices, w: size of word O(n^3 * (log log n)^2 / (w * (log n)^7/6)) No public-ready summary is available because the row lacks enough task semantics.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

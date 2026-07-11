@@ -1,0 +1,63 @@
+id: AW-000183-P0145
+kind: probe
+algorithm_id: AW-000183
+algorithm_name: Tarjan's strongly connected components algorithm
+source_records:
+- access_status: metadata_only
+  digest: 29f965f3918a49eb
+  extracted_facts:
+  - 'AlgorithmWiki row name: Tarjan''s strongly connected components algorithm'
+  - 'domain: graph'
+  - 'time complexity: O(V+E)'
+  - 'space complexity: O(V)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: V: number of vertices, E: number of edges'
+  - 'precard summary: Given a directed graph, partition the vertices into strongly connected components. Baseline: time O(V+E); space O(V). Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000183:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Tarjan's strongly connected components algorithm
+  url: https://www.semanticscholar.org/paper/Depth-First-Search-and-Linear-Graph-Algorithms-Tarjan/385742fffcf113656f0d3cf6c06ef95cb8439dc6
+- access_status: fetched
+  digest: 0930c3aaf2095c7e
+  extracted_facts:
+  - 'source page title: https://www.semanticscholar.org/paper/Depth-First-Search-and-Linear-Graph-Algorithms-Tarjan/385742fffcf113656f0d3cf6c06ef95cb8439dc6'
+  - 'source page description: In order to continue, we need to verify that you''re not a robot.'
+  reliability: LOW
+  short_quote: In order to continue, we need to verify that you're not a robot.
+  source_id: source:1c2a6c3cc9c66406
+  source_type: other_public_source
+  title: https://www.semanticscholar.org/paper/Depth-First-Search-and-Linear-Graph-Algorithms-Tarjan/385742fffcf113656f0d3cf6c06ef95cb8439dc6
+  url: https://www.semanticscholar.org/paper/Depth-First-Search-and-Linear-Graph-Algorithms-Tarjan/385742fffcf113656f0d3cf6c06ef95cb8439dc6
+web_query_attempts:
+- method: search_plan
+  query: Tarjan's strongly connected components algorithm algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Tarjan's strongly connected components algorithm algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Tarjan's strongly connected components algorithm problem definition
+  status: recorded
+- method: search_plan
+  query: Tarjan's strongly connected components algorithm graph algorithm
+  status: recorded
+- method: search_plan
+  query: Tarjan's strongly connected components algorithm site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Tarjan's strongly connected components algorithm algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://www.semanticscholar.org/paper/Depth-First-Search-and-Linear-Graph-Algorithms-Tarjan/385742fffcf113656f0d3cf6c06ef95cb8439dc6
+  status: recorded
+- method: source_link_html_metadata
+  query: https://www.semanticscholar.org/paper/Depth-First-Search-and-Linear-Graph-Algorithms-Tarjan/385742fffcf113656f0d3cf6c06ef95cb8439dc6
+  status: fetched
+- method: wikipedia_summary_search
+  query: Tarjan's strongly connected components algorithm algorithm
+  status: failed_or_not_relevant
+extracted_problem_statement: 'Tarjan''s strongly connected components algorithm is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Tarjan''s strongly connected components algorithm. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'Tarjan''s strongly connected components algorithm is a graph algorithm record. Classical complexity metadata: time O(V+E); space O(V). The stated classical model is Word RAM. Public metadata/source text adds: Tarjan''s strongly connected components algorithm graph graph V: number of vertices, E: number of edges O(V+E) Given a directed graph, partition the vertices into strongly connected components.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

@@ -1,0 +1,60 @@
+id: AW-000115
+kind: context_recovered
+algorithm_id: AW-000115
+algorithm_name: Brute Force
+source_records:
+- access_status: metadata_only
+  digest: b079c5a86ca14527
+  extracted_facts:
+  - 'AlgorithmWiki row name: Brute Force'
+  - 'domain: unknown'
+  - 'time complexity: O(S^n)'
+  - 'space complexity: O(n)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of coin denominations, S: sum to be made'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000115:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Brute Force
+  url: NA
+- source_id: crossref_search:82936f8d9a01ac51
+  url: https://doi.org/10.12957/cadinf.2024.79821
+  title: Parallel implementations of TSP brute force algorithm
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: Parallel implementations of TSP brute force algorithm'
+  - 'abstract summary: The traveling salesman problem is a famous combinatorial optimization problem.'
+  short_quote: The traveling salesman problem is a famous combinatorial optimization problem.
+  digest: 04df69b7659b2870
+web_query_attempts:
+- query: '"Brute Force" algorithm'
+  method: search_plan
+  status: recorded
+- query: '"Brute Force" input output'
+  method: search_plan
+  status: recorded
+- query: '"Brute Force" time complexity'
+  method: search_plan
+  status: recorded
+- query: '"Brute Force" pseudocode'
+  method: search_plan
+  status: recorded
+- query: '"Brute Force" problem'
+  method: search_plan
+  status: recorded
+- query: '"Brute Force" PDF metadata abstract'
+  method: search_plan
+  status: recorded
+- query: NA
+  method: search_plan
+  status: recorded
+- query: Brute Force algorithm
+  method: crossref_title_search
+  status: fetched
+extracted_problem_statement: 'Brute Force is reconstructed as a classical dynamic programming task. Problem/task: make or count ways to make a target sum using coin denominations Input semantics: A set of coin denominations, count n, and target sum S. Output semantics: A feasibility answer, count, or minimum-coin witness depending on the variant.'
+extracted_algorithm_summary: 'Brute Force is treated as the named AlgorithmWiki variant for make or count ways to make a target sum using coin denominations Classical complexity metadata: time O(S^n); space O(n). Public metadata/source title support includes Parallel implementations of TSP brute force algorithm.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

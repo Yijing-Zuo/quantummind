@@ -1,0 +1,46 @@
+id: AW-000097-P0077
+kind: probe
+algorithm_id: AW-000097
+algorithm_name: Zhao-Saalfeld
+source_records:
+- access_status: metadata_only
+  digest: b22a0811f6a1c74c
+  extracted_facts:
+  - 'AlgorithmWiki row name: Zhao-Saalfeld'
+  - 'domain: computational_geometry'
+  - 'time complexity: O(n)'
+  - 'space complexity: O(n)'
+  - 'computational model: Real RAM'
+  - 'parameter definitions: n: number of points (n-1 line segments)'
+  - 'precard summary: Given explicit geometric objects such as points, segments, or polygons, compute the requested geometric structure or witness set. Baseline: time O(n); space O(n). Bottleneck: geometric predicates, ordering events, and output-sensitive structure size dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000097:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Zhao-Saalfeld
+  url: https://citeseerx.ist.psu.edu/pdf/a38573231ae6ef54a1b6117bce64c408aa2c5e3d
+web_query_attempts:
+- method: search_plan
+  query: Zhao-Saalfeld algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Zhao-Saalfeld algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Zhao-Saalfeld problem definition
+  status: recorded
+- method: search_plan
+  query: Zhao-Saalfeld computational geometry algorithm
+  status: recorded
+- method: search_plan
+  query: Zhao-Saalfeld site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Zhao-Saalfeld algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://citeseerx.ist.psu.edu/pdf/a38573231ae6ef54a1b6117bce64c408aa2c5e3d
+  status: recorded
+extracted_problem_statement: 'Zhao-Saalfeld is treated as a classical computational geometry task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Zhao-Saalfeld. Input semantics: Explicit geometric objects such as points, line segments, polygons, or planar subdivisions. Output semantics: The requested geometric structure, simplified curve, clipping result, intersection set, hull, or diagram.'
+extracted_algorithm_summary: 'Zhao-Saalfeld is a computational geometry algorithm record. Classical complexity metadata: time O(n); space O(n). The stated classical model is Real RAM. Public metadata/source text adds: Zhao-Saalfeld computational_geometry computational_geometry n: number of points (n-1 line segments) O(n) Given explicit geometric objects such as points, segments, or polygons, compute the requested geometric structure or witness set.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

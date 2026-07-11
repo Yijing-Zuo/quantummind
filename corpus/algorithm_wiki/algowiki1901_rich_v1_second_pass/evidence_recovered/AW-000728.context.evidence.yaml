@@ -1,0 +1,84 @@
+id: AW-000728
+kind: context_recovered
+algorithm_id: AW-000728
+algorithm_name: B.I. Kvasov
+source_records:
+- access_status: metadata_only
+  digest: 3715d8f4903f9aeb
+  extracted_facts:
+  - 'AlgorithmWiki row name: B.I. Kvasov'
+  - 'domain: unknown'
+  - 'time complexity: O(n^3 \log^2 K)'
+  - 'space complexity: O(n)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of points'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000728:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for B.I. Kvasov
+  url: https://link.springer.com/article/10.1134/S0965542508040039
+- access_status: fetched
+  digest: 0b4d115fd32a4ece
+  extracted_facts:
+  - 'DOI title: Construction of hyperbolic interpolation splines'
+  - 'published year: 2008'
+  - 'container title: Computational Mathematics and Mathematical Physics'
+  reliability: HIGH
+  short_quote: ''
+  source_id: crossref:e4173c9af72cc0e9
+  source_type: doi_metadata
+  title: Construction of hyperbolic interpolation splines
+  url: https://doi.org/10.1134/S0965542508040039
+- access_status: skipped
+  digest: a10ad7850e29a697
+  extracted_facts:
+  - robots.txt disallowed fetch
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:04f38e56fc1b9c99
+  source_type: publisher_abstract
+  title: robots.txt disallowed fetch
+  url: https://link.springer.com/article/10.1134/S0965542508040039
+- source_id: crossref_search:08a9b88318d574e0
+  url: https://doi.org/10.1134/s0965542508040039
+  title: Construction of hyperbolic interpolation splines
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: Construction of hyperbolic interpolation splines'
+  short_quote: ''
+  digest: ff841b4a5a1f8234
+web_query_attempts:
+- query: '"B.I. Kvasov" algorithm'
+  method: search_plan
+  status: recorded
+- query: '"B.I. Kvasov" input output'
+  method: search_plan
+  status: recorded
+- query: '"B.I. Kvasov" time complexity'
+  method: search_plan
+  status: recorded
+- query: '"B.I. Kvasov" pseudocode'
+  method: search_plan
+  status: recorded
+- query: '"B.I. Kvasov" problem'
+  method: search_plan
+  status: recorded
+- query: '"B.I. Kvasov" PDF metadata abstract'
+  method: search_plan
+  status: recorded
+- query: '"Construction of hyperbolic interpolation splines" algorithm'
+  method: search_plan
+  status: recorded
+- query: https://link.springer.com/article/10.1134/S0965542508040039
+  method: search_plan
+  status: recorded
+- query: Construction of hyperbolic interpolation splines algorithm
+  method: crossref_title_search
+  status: fetched
+extracted_problem_statement: 'B.I. Kvasov is reconstructed as a classical computational geometry task. Problem/task: compute a geometric structure or relation over a finite point set Input semantics: A finite set of points, dimension k when stated, and geometric predicate assumptions. Output semantics: A geometric witness, nearest/closest relation, hull, partition, or related structure supported by the named row.'
+extracted_algorithm_summary: 'B.I. Kvasov is treated as the named AlgorithmWiki variant for compute a geometric structure or relation over a finite point set Classical complexity metadata: time O(n^3 \log^2 K); space O(n). Public metadata/source title support includes Construction of hyperbolic interpolation splines.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

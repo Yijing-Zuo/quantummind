@@ -1,0 +1,43 @@
+algorithm_id: AW-000287
+canonical_name: J. J. Koenderink and W. Richards 1988
+enrichment_status: SECOND_PASS_INSUFFICIENT
+review_reasons:
+- No second-pass rule could identify source-backed task semantics.
+source_records:
+- access_status: metadata_only
+  digest: 60839f72c73db116
+  extracted_facts:
+  - 'AlgorithmWiki row name: J. J. Koenderink and W. Richards 1988'
+  - 'domain: unknown'
+  - 'time complexity: O(n^3)'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000287:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for J. J. Koenderink and W. Richards 1988
+  url: https://www.osapublishing.org/josaa/abstract.cfm?uri=josaa-5-7-1136
+- access_status: fetched
+  digest: bb5c0b2255069a6f
+  extracted_facts:
+  - 'source page title: Radware Captcha Page'
+  - 'source page description: ...but your activity and behavior on this site made us think that you are a bot.'
+  reliability: LOW
+  short_quote: '...but your activity and behavior on this site made us think that you are a bot.'
+  source_id: source:6cacd99d7e32479e
+  source_type: other_public_source
+  title: Radware Captcha Page
+  url: https://www.osapublishing.org/josaa/abstract.cfm?uri=josaa-5-7-1136
+- source_id: crossref_search:20042b5eef868508
+  url: https://doi.org/10.1109/icetet.2009.24
+  title: Algorithm to Break Visual CAPTCHA
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: Algorithm to Break Visual CAPTCHA'
+  short_quote: ''
+  digest: e31478e39e3ee272
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

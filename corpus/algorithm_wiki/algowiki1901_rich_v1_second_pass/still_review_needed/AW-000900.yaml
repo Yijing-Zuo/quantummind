@@ -1,0 +1,58 @@
+algorithm_id: AW-000900
+canonical_name: ARIES
+enrichment_status: SECOND_PASS_INSUFFICIENT
+review_reasons:
+- No second-pass rule could identify source-backed task semantics.
+source_records:
+- access_status: metadata_only
+  digest: d44e095ee1ce89f8
+  extracted_facts:
+  - 'AlgorithmWiki row name: ARIES'
+  - 'domain: unknown'
+  - 'time complexity: O(n)'
+  - 'space complexity: O(n)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of transactions before crash'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000900:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for ARIES
+  url: https://dl.acm.org/doi/10.1145/128765.128770
+- access_status: fetched
+  digest: 18f15416426a29a9
+  extracted_facts:
+  - 'DOI title: ARIES'
+  - 'published year: 1992'
+  - 'container title: ACM Transactions on Database Systems'
+  - 'abstract summary: systems. ARIES is applicable not only to database management systems but also to persistent object-oriented languages, recoverable file systems and transaction-based operating systems.'
+  reliability: HIGH
+  short_quote: systems. ARIES is applicable not only to database management systems but also to persistent object-oriented languages, recoverable file systems and transaction-based operating systems.
+  source_id: crossref:5ce27290c13b2a4c
+  source_type: doi_metadata
+  title: ARIES
+  url: https://doi.org/10.1145/128765.128770
+- access_status: failed
+  digest: 602f3b957aac5c0c
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:c50b03501c0f1b95
+  source_type: publisher_abstract
+  title: 'HTTP Error 403: Forbidden'
+  url: https://dl.acm.org/doi/10.1145/128765.128770
+- source_id: crossref_search:d11c6c13780c833a
+  url: https://doi.org/10.1007/978-3-540-74469-6_32
+  title: 'C-ARIES: A Multi-threaded Version of the ARIES Recovery Algorithm'
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: C-ARIES: A Multi-threaded Version of the ARIES Recovery Algorithm'
+  short_quote: ''
+  digest: cbcac4352bd4346f
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

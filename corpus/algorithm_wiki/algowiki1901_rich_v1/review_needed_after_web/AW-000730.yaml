@@ -1,0 +1,36 @@
+algorithm_id: AW-000730
+canonical_name: "V. A. Lyul\u2019ka and I. E. Mikhailov"
+enrichment_status: WEB_INSUFFICIENT
+review_reasons:
+- missing_concrete_problem_statement
+- unknown_input_model
+- unknown_output_contract
+- unknown_access_model
+source_records:
+- access_status: metadata_only
+  digest: 77f1e2b8acae9d15
+  extracted_facts:
+  - "AlgorithmWiki row name: V. A. Lyul\u2019ka and I. E. Mikhailov"
+  - 'domain: unknown'
+  - 'time complexity: O(n^4)'
+  - 'parameter definitions: n: number of points'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000730:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: "AlgorithmWiki metadata for V. A. Lyul\u2019ka and I. E. Mikhailov"
+  url: http://www.mathnet.ru/php/archive.phtml?wshow=paper&jrnid=zvmmf&paperid=943&option_lang=eng
+- access_status: failed
+  digest: fa0e10ff2e12a441
+  extracted_facts:
+  - <urlopen error timed out>
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:f55a11d0eeb8bfe1
+  source_type: other_public_source
+  title: <urlopen error timed out>
+  url: http://www.mathnet.ru/php/archive.phtml?wshow=paper&jrnid=zvmmf&paperid=943&option_lang=eng
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

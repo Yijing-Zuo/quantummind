@@ -1,0 +1,96 @@
+id: AW-001893
+kind: context_recovered
+algorithm_id: AW-001893
+algorithm_name: Eberly
+source_records:
+- access_status: metadata_only
+  digest: 8db334500be5dfe1
+  extracted_facts:
+  - 'AlgorithmWiki row name: Eberly'
+  - 'domain: unknown'
+  - 'time complexity: O(\log n)'
+  - 'computational model: Boolean Circuit'
+  - 'parameter definitions: n: text length (block size)'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001893:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Eberly
+  url: https://epubs.siam.org/doi/abs/10.1137/0218066
+- access_status: skipped
+  digest: 65d7bbf8d7704679
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:c43e7bd1c92d1ca8
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1137/0218066
+- access_status: skipped
+  digest: ad2c978444cb10b9
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:d49e1dd682c59540
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://epubs.siam.org/doi/abs/10.1137/0218066
+- source_id: crossref:583fd60da14c7c6b
+  url: https://doi.org/10.1137/0218066
+  title: Very Fast Parallel Polynomial Arithmetic
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: HIGH
+  extracted_facts:
+  - 'DOI title: Very Fast Parallel Polynomial Arithmetic'
+  - 'published year: 1989'
+  - 'container title: SIAM Journal on Computing'
+  short_quote: ''
+  digest: 26fcaa552fc3b326
+- source_id: crossref_search:0b18e1bdccf3f416
+  url: https://doi.org/10.1109/npc.2007.32
+  title: An optimal algorithm to fetch DHT routable
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: An optimal algorithm to fetch DHT routable'
+  short_quote: ''
+  digest: eac65bcac63f65f8
+web_query_attempts:
+- query: '"Eberly" algorithm'
+  method: search_plan
+  status: recorded
+- query: '"Eberly" input output'
+  method: search_plan
+  status: recorded
+- query: '"Eberly" time complexity'
+  method: search_plan
+  status: recorded
+- query: '"Eberly" pseudocode'
+  method: search_plan
+  status: recorded
+- query: '"Eberly" problem'
+  method: search_plan
+  status: recorded
+- query: '"Eberly" PDF metadata abstract'
+  method: search_plan
+  status: recorded
+- query: '"fetch budget exhausted" algorithm'
+  method: search_plan
+  status: recorded
+- query: https://epubs.siam.org/doi/abs/10.1137/0218066
+  method: search_plan
+  status: recorded
+- query: 10.1137/0218066
+  method: crossref_doi_metadata
+  status: fetched
+- query: fetch budget exhausted algorithm
+  method: crossref_title_search
+  status: fetched
+extracted_problem_statement: 'Eberly is reconstructed as a classical string task. Problem/task: find occurrences of a pattern in a text Input semantics: A finite text string, a finite pattern string, and alphabet/hash/preprocessing parameters when stated. Output semantics: One or more occurrence positions or a report that no occurrence exists.'
+extracted_algorithm_summary: 'Eberly is treated as the named AlgorithmWiki variant for find occurrences of a pattern in a text Classical complexity metadata: time O(\log n); work O(poly(n)); span/depth O(log n). Public metadata/source title support includes Very Fast Parallel Polynomial Arithmetic.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

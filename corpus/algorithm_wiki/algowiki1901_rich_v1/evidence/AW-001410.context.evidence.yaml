@@ -1,0 +1,45 @@
+id: AW-001410
+kind: context
+algorithm_id: AW-001410
+algorithm_name: Akl
+source_records:
+- access_status: metadata_only
+  digest: 7468515f79ec956c
+  extracted_facts:
+  - 'AlgorithmWiki row name: Akl'
+  - 'domain: computational_geometry'
+  - 'time complexity: O(n^eps \log n)'
+  - 'computational model: EREW SM SIMD computer'
+  - 'parameter definitions: n: number of line segments, h: number of points on the convex hull, eps: processor parameter, 0<eps<1'
+  - 'precard summary: Given explicit geometric objects such as points, segments, or polygons, compute the requested geometric structure or witness set. Baseline: time O(n^eps \log n); work O(n \log n); span/depth O(n^eps log n); processors O(n^(1-eps)). Bottleneck: geometric predicates, ordering events, and output-sensitive structure size dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001410:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Akl
+  url: https://research.iaun.ac.ir/pd/saeed-nasri/pdfs/UploadFile_9325.pdf
+web_query_attempts:
+- method: search_plan
+  query: Akl algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Akl algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Akl problem definition
+  status: recorded
+- method: search_plan
+  query: Akl computational geometry algorithm
+  status: recorded
+- method: search_plan
+  query: Akl site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Akl algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://research.iaun.ac.ir/pd/saeed-nasri/pdfs/UploadFile_9325.pdf
+  status: recorded
+extracted_problem_statement: 'Akl is treated as a classical computational geometry task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Akl. Input semantics: Explicit geometric objects such as points, line segments, polygons, or planar subdivisions. Output semantics: The requested geometric structure, simplified curve, clipping result, intersection set, hull, or diagram.'
+extracted_algorithm_summary: 'Akl is a computational geometry algorithm record. Classical complexity metadata: time O(n^eps \log n); work O(n \log n); span/depth O(n^eps log n); processors O(n^(1-eps)). The stated classical model is EREW SM SIMD computer. Public metadata/source text adds: Akl computational_geometry computational_geometry n: number of line segments, h: number of points on the convex hull, eps: processor parameter, 0<eps<1 O(n^eps \log n) Given explicit geometric objects such as points, segments, or polygons, compute the requested geometric structure or witness set.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

@@ -1,0 +1,49 @@
+id: AW-000726
+kind: context
+algorithm_id: AW-000726
+algorithm_name: Duplicate Elimination Sorted Neighborhood Method (DE-SNM)
+source_records:
+- access_status: metadata_only
+  digest: f84f6b7a16dbaabf
+  extracted_facts:
+  - 'AlgorithmWiki row name: Duplicate Elimination Sorted Neighborhood Method (DE-SNM)'
+  - 'domain: sorting'
+  - 'time complexity: O(n \log n)'
+  - 'space complexity: O(n)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of records'
+  - 'precard summary: Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model. Baseline: time O(n \log n); space O(n). Bottleneck: comparison, distribution, and full-output movement costs dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000726:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Duplicate Elimination Sorted Neighborhood Method (DE-SNM)
+  url: https://core.ac.uk/download/pdf/72783552.pdf
+web_query_attempts:
+- method: search_plan
+  query: Duplicate Elimination Sorted Neighborhood Method (DE-SNM) algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Duplicate Elimination Sorted Neighborhood Method (DE-SNM) algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Duplicate Elimination Sorted Neighborhood Method (DE-SNM) problem definition
+  status: recorded
+- method: search_plan
+  query: Duplicate Elimination Sorted Neighborhood Method (DE-SNM) sorting algorithm
+  status: recorded
+- method: search_plan
+  query: Duplicate Elimination Sorted Neighborhood Method (DE-SNM) site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Duplicate Elimination Sorted Neighborhood Method (DE-SNM) algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://core.ac.uk/download/pdf/72783552.pdf
+  status: recorded
+- method: wikipedia_summary_search
+  query: Duplicate Elimination Sorted Neighborhood Method (DE-SNM) algorithm
+  status: failed_or_not_relevant
+extracted_problem_statement: 'Duplicate Elimination Sorted Neighborhood Method (DE-SNM) is treated as a classical sorting task for rich AlgorithmWiki discovery. Problem/task: sort the input sequence using the named classical sorting method. Input semantics: A finite array or list of comparable keys or records. Output semantics: The same items returned in nondecreasing order, usually as a full reordered sequence.'
+extracted_algorithm_summary: 'Duplicate Elimination Sorted Neighborhood Method (DE-SNM) is a sorting algorithm record. Classical complexity metadata: time O(n \log n); space O(n). The stated classical model is Word RAM. Public metadata/source text adds: Duplicate Elimination Sorted Neighborhood Method (DE-SNM) sorting sorting n: number of records O(n \log n) Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

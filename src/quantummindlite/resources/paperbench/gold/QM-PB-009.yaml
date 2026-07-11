@@ -1,0 +1,20 @@
+case_id: QM-PB-009
+access_model: bit_query_oracle
+output_contract: parity_bit
+required_structure_ids: [parity_query_function]
+expected_selected_primitive: parity_query
+expected_speedup_class: CONSTANT_FACTOR_ONLY
+required_caveat_ids: [polynomial_query_lower_bound]
+allowed_verdicts: [NEGATIVE]
+maximum_claim_scope: NONE
+expected_route: STOP
+forbidden_claim_ids: [sublinear_parity_algorithm, promise_problem_speedup]
+evidence_mapping:
+  required_structure_ids: [beals_2001]
+  expected_selected_primitive: [beals_2001]
+  expected_speedup_class: [beals_2001]
+  required_caveat_ids: [beals_2001]
+  allowed_verdicts: [beals_2001]
+  maximum_claim_scope: [beals_2001]
+  expected_route: [beals_2001]
+  forbidden_claim_ids: [beals_2001]

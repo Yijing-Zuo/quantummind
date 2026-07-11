@@ -1,0 +1,96 @@
+algorithm_id: AW-001631
+canonical_name: Chmielowiec (existing FFT-based algorithm)
+enrichment_status: THIRD_PASS_SATURATED_INSUFFICIENT
+review_reasons:
+- After the configured source-family cycles, no source-backed concrete task, input semantics, output semantics, and conservative access model could be established.
+source_records:
+- access_status: metadata_only
+  digest: 128f289d683a9282
+  extracted_facts:
+  - 'AlgorithmWiki row name: Chmielowiec (existing FFT-based algorithm)'
+  - 'domain: unknown'
+  - 'parameter definitions: integers as polynomials base R, n < R, n: degree of the polynomial, k: number of bits of the largest coefficient'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001631:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Chmielowiec (existing FFT-based algorithm)
+  url: https://link.springer.com/chapter/10.1007/978-94-007-6190-2_46
+- access_status: skipped
+  digest: 1f3fe61e84a90f43
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:6ad4986712829a80
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1007/978-94-007-6190-2_46
+- access_status: skipped
+  digest: cf024824e900aa3c
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:b42893602088e086
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://link.springer.com/chapter/10.1007/978-94-007-6190-2_46
+- access_status: skipped
+  digest: de43136a48ccfe5f
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:5487e3f71dbfdc6b
+  source_type: wikipedia
+  title: fetch budget exhausted
+  url: https://en.wikipedia.org/wiki/Chmielowiec_%28existing_FFT-based_algorithm%29
+- access_status: fetched
+  digest: ec45994d0eeb494e
+  extracted_facts:
+  - 'DOI title: Parallel Algorithm for Multiplying Integer Polynomials and Integers'
+  - 'published year: 2013'
+  - 'container title: Lecture Notes in Electrical Engineering'
+  reliability: HIGH
+  short_quote: ''
+  source_id: crossref:1f498fe8bb2d5cca
+  source_type: doi_metadata
+  title: Parallel Algorithm for Multiplying Integer Polynomials and Integers
+  url: https://doi.org/10.1007/978-94-007-6190-2_46
+- access_status: fetched
+  digest: eac65bcac63f65f8
+  extracted_facts:
+  - 'Crossref title-search result: An optimal algorithm to fetch DHT routable'
+  reliability: MEDIUM
+  short_quote: ''
+  source_id: crossref_search:0b18e1bdccf3f416
+  source_type: doi_metadata
+  title: An optimal algorithm to fetch DHT routable
+  url: https://doi.org/10.1109/npc.2007.32
+- source_id: source:2f3f08a5220e4335
+  url: https://link.springer.com/chapter/10.1007/978-94-007-6190-2_46
+  title: Parallel Algorithm for Multiplying Integer Polynomials and Integers | Springer Nature Link
+  source_type: publisher_abstract
+  access_status: fetched
+  reliability: HIGH
+  extracted_facts:
+  - Parallel Algorithm for Multiplying Integer Polynomials and Integers | Springer Nature Link
+  - This chapter aims to develop and analyze an effective parallel algorithm for multiplying integer polynomials and integers.
+  short_quote: Parallel Algorithm for Multiplying Integer Polynomials and Integers | Springer Nature Link This chapter aims to develop and analyze an effective parallel algorithm for
+  digest: a45f87850f1d2f9c
+- source_id: openalex:5b5e27759a67de91
+  url: https://openalex.org/W166048247
+  title: Parallel Algorithm for Multiplying Integer Polynomials and Integers
+  source_type: openalex
+  access_status: fetched
+  reliability: HIGH
+  extracted_facts:
+  - 'OpenAlex title: Parallel Algorithm for Multiplying Integer Polynomials and Integers'
+  - 'publication year: 2013'
+  short_quote: 'OpenAlex title: Parallel Algorithm for Multiplying Integer Polynomials and Integers publication year: 2013'
+  digest: d7e9b4bb14752cb2
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

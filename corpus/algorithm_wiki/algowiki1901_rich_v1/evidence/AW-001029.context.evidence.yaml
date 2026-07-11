@@ -1,0 +1,84 @@
+id: AW-001029
+kind: context
+algorithm_id: AW-001029
+algorithm_name: Bitonic sort - Batcher
+source_records:
+- access_status: metadata_only
+  digest: 116333fade4dd310
+  extracted_facts:
+  - 'AlgorithmWiki row name: Bitonic sort - Batcher'
+  - 'domain: sorting'
+  - 'time complexity: O(\log^2{n})'
+  - 'computational model: sorting network'
+  - 'parameter definitions: n: size of list'
+  - 'precard summary: Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model. Baseline: time O(\log^2{n}); work O(n \log^2{n}); span/depth O(\log^2{n}); processors O(n \log^2{n}). Bottleneck: comparison, distribution, and full-output movement costs dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001029:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Bitonic sort - Batcher
+  url: https://dl.acm.org/doi/abs/10.1145/1468075.1468121
+- access_status: skipped
+  digest: f09c84aa29cc5885
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:f3110aa32b569e28
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1145/1468075.1468121
+- access_status: skipped
+  digest: bc76864699902c22
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:2f8c27c2c203f882
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://dl.acm.org/doi/abs/10.1145/1468075.1468121
+- access_status: skipped
+  digest: bc00e515b3244173
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:eb1b52c3b0c3b4d8
+  source_type: wikipedia
+  title: fetch budget exhausted
+  url: https://en.wikipedia.org/wiki/Bitonic_sort_-_Batcher
+web_query_attempts:
+- method: search_plan
+  query: Bitonic sort - Batcher algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Bitonic sort - Batcher algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Bitonic sort - Batcher problem definition
+  status: recorded
+- method: search_plan
+  query: Bitonic sort - Batcher sorting algorithm
+  status: recorded
+- method: search_plan
+  query: Bitonic sort - Batcher site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Bitonic sort - Batcher algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://dl.acm.org/doi/abs/10.1145/1468075.1468121
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1145/1468075.1468121
+  status: skipped
+- method: source_link_html_metadata
+  query: https://dl.acm.org/doi/abs/10.1145/1468075.1468121
+  status: skipped
+- method: wikipedia_summary_search
+  query: Bitonic sort - Batcher algorithm
+  status: skipped
+extracted_problem_statement: 'Bitonic sort - Batcher is treated as a classical sorting task for rich AlgorithmWiki discovery. Problem/task: sort the input sequence using the named classical sorting method. Input semantics: A finite array or list of comparable keys or records. Output semantics: The same items returned in nondecreasing order, usually as a full reordered sequence.'
+extracted_algorithm_summary: 'Bitonic sort - Batcher is a sorting algorithm record. Classical complexity metadata: time O(\log^2{n}); work O(n \log^2{n}); span/depth O(\log^2{n}); processors O(n \log^2{n}). The stated classical model is sorting network. Public metadata/source text adds: Bitonic sort - Batcher sorting sorting n: size of list O(\log^2{n}) Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

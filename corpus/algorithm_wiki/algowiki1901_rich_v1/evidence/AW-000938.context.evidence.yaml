@@ -1,0 +1,85 @@
+id: AW-000938
+kind: context
+algorithm_id: AW-000938
+algorithm_name: Dial's Algorithm
+source_records:
+- access_status: metadata_only
+  digest: c9423d9b5dfc68ba
+  extracted_facts:
+  - 'AlgorithmWiki row name: Dial''s Algorithm'
+  - 'domain: graph'
+  - 'time complexity: O(E+LV)'
+  - 'space complexity: O(V+L)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: V: number of vertices, E: number of edges, L: maximum absolute value of edge cost'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(E+LV); space O(V+L). Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000938:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Dial's Algorithm
+  url: https://dl.acm.org/doi/10.1145/363269.363610
+- access_status: skipped
+  digest: 9a2794ebfee590e9
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:da7a2abe9025d9b0
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1145/363269.363610
+- access_status: skipped
+  digest: 39d06e577384eba3
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:b666686b4c426b08
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://dl.acm.org/doi/10.1145/363269.363610
+- access_status: skipped
+  digest: 5096c6990bf53d7a
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:65b043266f5d43c2
+  source_type: wikipedia
+  title: fetch budget exhausted
+  url: https://en.wikipedia.org/wiki/Dial%27s_Algorithm
+web_query_attempts:
+- method: search_plan
+  query: Dial's Algorithm algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Dial's Algorithm algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Dial's Algorithm problem definition
+  status: recorded
+- method: search_plan
+  query: Dial's Algorithm graph algorithm
+  status: recorded
+- method: search_plan
+  query: Dial's Algorithm site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Dial's Algorithm algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://dl.acm.org/doi/10.1145/363269.363610
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1145/363269.363610
+  status: skipped
+- method: source_link_html_metadata
+  query: https://dl.acm.org/doi/10.1145/363269.363610
+  status: skipped
+- method: wikipedia_summary_search
+  query: Dial's Algorithm algorithm
+  status: skipped
+extracted_problem_statement: 'Dial''s Algorithm is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Dial''s Algorithm. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'Dial''s Algorithm is a graph algorithm record. Classical complexity metadata: time O(E+LV); space O(V+L). The stated classical model is Word RAM. Public metadata/source text adds: Dial''s Algorithm graph graph V: number of vertices, E: number of edges, L: maximum absolute value of edge cost O(E+LV) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

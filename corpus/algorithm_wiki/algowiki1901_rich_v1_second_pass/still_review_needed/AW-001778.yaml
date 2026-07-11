@@ -1,0 +1,65 @@
+algorithm_id: AW-001778
+canonical_name: Xu, Wang [FDPI]
+enrichment_status: SECOND_PASS_INSUFFICIENT
+review_reasons:
+- No second-pass rule could identify source-backed task semantics.
+source_records:
+- access_status: metadata_only
+  digest: 876dbbda7813100a
+  extracted_facts:
+  - 'AlgorithmWiki row name: Xu, Wang [FDPI]'
+  - 'domain: unknown'
+  - 'computational model: MIMD'
+  - 'parameter definitions: n: dimension of grid (where grid is discretized)'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001778:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Xu, Wang [FDPI]
+  url: https://onlinelibrary.wiley.com/doi/full/10.1002/num.20556
+- access_status: skipped
+  digest: 2763ce96a92de2b8
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:c0bd82a67237f6b1
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1002/num.20556
+- access_status: skipped
+  digest: b36755751ccdcb28
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:c6875a14a1f1bfb4
+  source_type: other_public_source
+  title: fetch budget exhausted
+  url: https://onlinelibrary.wiley.com/doi/full/10.1002/num.20556
+- source_id: crossref:8d75084c183510b2
+  url: https://doi.org/10.1002/num.20556
+  title: A new parallel iterative algorithm for solving 2D poisson equation
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: HIGH
+  extracted_facts:
+  - 'DOI title: A new parallel iterative algorithm for solving 2D poisson equation'
+  - 'published year: 2011'
+  - 'container title: Numerical Methods for Partial Differential Equations'
+  short_quote: ''
+  digest: a4bcded3e03aa52b
+- source_id: crossref_search:0b18e1bdccf3f416
+  url: https://doi.org/10.1109/npc.2007.32
+  title: An optimal algorithm to fetch DHT routable
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: An optimal algorithm to fetch DHT routable'
+  short_quote: ''
+  digest: eac65bcac63f65f8
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

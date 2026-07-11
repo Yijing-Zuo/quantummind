@@ -1,0 +1,68 @@
+algorithm_id: AW-001624
+canonical_name: "Lee, Er\xE7al"
+enrichment_status: THIRD_PASS_SATURATED_INSUFFICIENT
+review_reasons:
+- After the configured source-family cycles, no source-backed concrete task, input semantics, output semantics, and conservative access model could be established.
+source_records:
+- access_status: metadata_only
+  digest: ecc72ccd2e7632e6
+  extracted_facts:
+  - "AlgorithmWiki row name: Lee, Er\xE7al"
+  - 'domain: unknown'
+  - 'time complexity: O(1)'
+  - 'computational model: 2D reconfigurable mesh'
+  - 'parameter definitions: m: length of the text, n: length of the pattern'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001624:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: "AlgorithmWiki metadata for Lee, Er\xE7al"
+  url: https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=645099
+- access_status: skipped
+  digest: 4df1ac38f49d3d50
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:648abfd324418872
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=645099
+- access_status: fetched
+  digest: eac65bcac63f65f8
+  extracted_facts:
+  - 'Crossref title-search result: An optimal algorithm to fetch DHT routable'
+  reliability: MEDIUM
+  short_quote: ''
+  source_id: crossref_search:0b18e1bdccf3f416
+  source_type: doi_metadata
+  title: An optimal algorithm to fetch DHT routable
+  url: https://doi.org/10.1109/npc.2007.32
+- source_id: source:125e0495697832c2
+  url: https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=645099
+  title: https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=645099
+  source_type: publisher_abstract
+  access_status: fetched
+  reliability: HIGH
+  extracted_facts:
+  - https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=645099
+  - In order to continue, we need to verify that you're not a robot.
+  short_quote: https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=645099 In order to continue, we need to verify that you're not a robot.
+  digest: 0f4462d94e5a4831
+- source_id: crossref_search:6090d2b23b4ad9a9
+  url: https://doi.org/10.1093/oso/9780195304497.003.0012
+  title: Grand-Lee (Lee Konitz)
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title: Grand-Lee (Lee Konitz)'
+  - 'published year: 2006'
+  - 'container title: Weather Bird'
+  - "abstract summary: Is there any designation more debilitating to the commercial welfare of an artist than that of \u201Cmusician\u2019s musician\u201D?"
+  short_quote: 'Crossref title: Grand-Lee (Lee Konitz) published year: 2006 container title: Weather Bird abstract summary: Is there any designation more debilitating to the commercial welfare'
+  digest: 8f16fe273d7889cf
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

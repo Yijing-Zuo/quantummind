@@ -1,0 +1,47 @@
+algorithm_id: AW-001893
+canonical_name: Eberly
+enrichment_status: WEB_INSUFFICIENT
+review_reasons:
+- missing_concrete_problem_statement
+- unknown_input_model
+- unknown_output_contract
+- unknown_access_model
+source_records:
+- access_status: metadata_only
+  digest: 8db334500be5dfe1
+  extracted_facts:
+  - 'AlgorithmWiki row name: Eberly'
+  - 'domain: unknown'
+  - 'time complexity: O(\log n)'
+  - 'computational model: Boolean Circuit'
+  - 'parameter definitions: n: text length (block size)'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001893:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Eberly
+  url: https://epubs.siam.org/doi/abs/10.1137/0218066
+- access_status: skipped
+  digest: 65d7bbf8d7704679
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:c43e7bd1c92d1ca8
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1137/0218066
+- access_status: skipped
+  digest: ad2c978444cb10b9
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:d49e1dd682c59540
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://epubs.siam.org/doi/abs/10.1137/0218066
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

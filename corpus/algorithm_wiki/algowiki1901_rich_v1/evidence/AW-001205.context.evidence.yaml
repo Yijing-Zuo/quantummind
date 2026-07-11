@@ -1,0 +1,58 @@
+id: AW-001205
+kind: context
+algorithm_id: AW-001205
+algorithm_name: samplesort - Helman, JaJa, Bader (1)
+source_records:
+- access_status: metadata_only
+  digest: dcf0e53d0921f050
+  extracted_facts:
+  - 'AlgorithmWiki row name: samplesort - Helman, JaJa, Bader (1)'
+  - 'domain: sorting'
+  - 'time complexity: O(n/p \log{n} + \tau + n/p \sigma) whp'
+  - 'computational model: communication model similar to LogP and BSP'
+  - 'parameter definitions: n: size of list (has to be floats), p: number of processors, p^2<n/(3\log{n}) , \sigma and \tau probably small and ignorable'
+  - 'precard summary: Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model. Baseline: time O(n/p \log{n} + \tau + n/p \sigma) whp; work O(n \log{n}); span/depth O(\log{n}); processors p. Bottleneck: comparison, distribution, and full-output movement costs dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001205:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for samplesort - Helman, JaJa, Bader (1)
+  url: https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=1ff21105c4a94c83e227dd52fd1aca13091f14af
+- access_status: skipped
+  digest: 5511af8855d3cc17
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:3c54b82c9d5ab9fe
+  source_type: wikipedia
+  title: fetch budget exhausted
+  url: https://en.wikipedia.org/wiki/samplesort_-_Helman%2C_JaJa%2C_Bader_%281%29
+web_query_attempts:
+- method: search_plan
+  query: samplesort - Helman, JaJa, Bader (1) algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: samplesort - Helman, JaJa, Bader (1) algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: samplesort - Helman, JaJa, Bader (1) problem definition
+  status: recorded
+- method: search_plan
+  query: samplesort - Helman, JaJa, Bader (1) sorting algorithm
+  status: recorded
+- method: search_plan
+  query: samplesort - Helman, JaJa, Bader (1) site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: samplesort - Helman, JaJa, Bader (1) algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=1ff21105c4a94c83e227dd52fd1aca13091f14af
+  status: recorded
+- method: wikipedia_summary_search
+  query: samplesort - Helman, JaJa, Bader (1) algorithm
+  status: skipped
+extracted_problem_statement: 'samplesort - Helman, JaJa, Bader (1) is treated as a classical sorting task for rich AlgorithmWiki discovery. Problem/task: sort the input sequence using the named classical sorting method. Input semantics: A finite array or list of comparable keys or records. Output semantics: The same items returned in nondecreasing order, usually as a full reordered sequence.'
+extracted_algorithm_summary: 'samplesort - Helman, JaJa, Bader (1) is a sorting algorithm record. Classical complexity metadata: time O(n/p \log{n} + \tau + n/p \sigma) whp; work O(n \log{n}); span/depth O(\log{n}); processors p. The stated classical model is communication model similar to LogP and BSP. Public metadata/source text adds: samplesort - Helman, JaJa, Bader (1) sorting sorting n: size of list (has to be floats), p: number of processors, p^2<n/(3\log{n}) , \sigma and \tau probably small and ignorable O(n/p \log{n} + \tau + n/p \sigma) whp Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

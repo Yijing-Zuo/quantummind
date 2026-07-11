@@ -1,0 +1,75 @@
+id: AW-000568-P0385
+kind: probe
+algorithm_id: AW-000568
+algorithm_name: Moore's algorithm
+source_records:
+- access_status: metadata_only
+  digest: e82fe6f43a820a8b
+  extracted_facts:
+  - 'AlgorithmWiki row name: Moore''s algorithm'
+  - 'domain: string'
+  - 'time complexity: O(n^2 k)'
+  - 'space complexity: O(n)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of states, k: size of alphabet'
+  - 'precard summary: Given one or more explicit strings, compute the matching, indexing, alignment, or transformation output targeted by the record. Baseline: time O(n^2 k); space O(n). Bottleneck: string scanning, preprocessing tables, and reporting matches dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000568:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Moore's algorithm
+  url: https://doi.org/10.2307/2964500
+- access_status: fetched
+  digest: b1f2f97cc9dd590f
+  extracted_facts:
+  - "DOI title: Edward F. Moore. Gedanken-experiments on sequential machines. Automata studies, edited by C. E. Shannon and J. McCarthy, Annals of Mathematics studies no. 34, litho-printed, Princeton University Press, Princeton1956, pp. 129\u2013153."
+  - 'published year: 1958'
+  - 'container title: Journal of Symbolic Logic'
+  reliability: HIGH
+  short_quote: ''
+  source_id: crossref:64b392c735bffb89
+  source_type: doi_metadata
+  title: "Edward F. Moore. Gedanken-experiments on sequential machines. Automata studies, edited by C. E. Shannon and J. McCarthy, Annals of Mathematics studies no. 34, litho-printed, Princeton University Press, Princeton1956, pp. 129\u2013153."
+  url: https://doi.org/10.2307/2964500
+- access_status: fetched
+  digest: 0590a0c54dfb4244
+  extracted_facts:
+  - "source page title: Edward F. Moore. Gedanken-experiments on sequential machines. Automata studies, edited by C. E. Shannon and J. McCarthy, Annals of Mathematics studies no. 34, litho-printed, Princeton University Press, Princeton1956, pp. 129\u2013153. | The Jour"
+  - 'source page description: Edward F. Moore. Gedanken-experiments on sequential machines.'
+  reliability: HIGH
+  short_quote: Edward F. Moore. Gedanken-experiments on sequential machines.
+  source_id: source:ac97a9ee519557c7
+  source_type: doi_metadata
+  title: "Edward F. Moore. Gedanken-experiments on sequential machines. Automata studies, edited by C. E. Shannon and J. McCarthy, Annals of Mathematics studies no. 34, litho-printed, Princeton University Press, Princeton1956, pp. 129\u2013153. | The Jour"
+  url: https://doi.org/10.2307/2964500
+web_query_attempts:
+- method: search_plan
+  query: Moore's algorithm algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Moore's algorithm algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Moore's algorithm problem definition
+  status: recorded
+- method: search_plan
+  query: Moore's algorithm string algorithm
+  status: recorded
+- method: search_plan
+  query: Moore's algorithm site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Moore's algorithm algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://doi.org/10.2307/2964500
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.2307/2964500
+  status: fetched
+- method: source_link_html_metadata
+  query: https://doi.org/10.2307/2964500
+  status: fetched
+extracted_problem_statement: 'Moore''s algorithm is treated as a classical string task for rich AlgorithmWiki discovery. Problem/task: compute edit distance or alignment structure for two strings. Input semantics: One or more finite strings, sequences, patterns, or alphabets. Output semantics: Pattern occurrence positions, matches, or the associated string-search report.'
+extracted_algorithm_summary: 'Moore''s algorithm is a string algorithm record. Classical complexity metadata: time O(n^2 k); space O(n). The stated classical model is Word RAM. Public metadata/source text adds: Moore''s algorithm string string n: number of states, k: size of alphabet O(n^2 k) Given one or more explicit strings, compute the matching, indexing, alignment, or transformation output targeted by the record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

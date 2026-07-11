@@ -1,0 +1,62 @@
+id: AW-000809
+kind: context
+algorithm_id: AW-000809
+algorithm_name: Clock-sampling mutual network synchronization
+source_records:
+- access_status: metadata_only
+  digest: 730adee5dd287bf9
+  extracted_facts:
+  - 'AlgorithmWiki row name: Clock-sampling mutual network synchronization'
+  - 'domain: randomized_sampling'
+  - 'time complexity: O(n)'
+  - 'space complexity: O(1) (per node)'
+  - 'computational model: Word/Real RAM (per node)'
+  - 'parameter definitions: n: number of nodes in network'
+  - 'precard summary: Given explicit input data and classical randomness as part of the algorithmic model, produce the sampled or estimated output described by the record. Baseline: time O(n); space O(1) (per node). Bottleneck: sampling variance, success probability, and estimator precision dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000809:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Clock-sampling mutual network synchronization
+  url: https://www.researchgate.net/publication/224306349_Clock-Sampling_Mutual_Network_Synchronization_for_Mobile_Multi-hop_Wireless_Ad_Hoc_Networks
+- access_status: failed
+  digest: 3d45fd32ec3a251d
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:d36720e85afebbe8
+  source_type: other_public_source
+  title: 'HTTP Error 403: Forbidden'
+  url: https://www.researchgate.net/publication/224306349_Clock-Sampling_Mutual_Network_Synchronization_for_Mobile_Multi-hop_Wireless_Ad_Hoc_Networks
+web_query_attempts:
+- method: search_plan
+  query: Clock-sampling mutual network synchronization algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Clock-sampling mutual network synchronization algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Clock-sampling mutual network synchronization problem definition
+  status: recorded
+- method: search_plan
+  query: Clock-sampling mutual network synchronization randomized sampling algorithm
+  status: recorded
+- method: search_plan
+  query: Clock-sampling mutual network synchronization site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Clock-sampling mutual network synchronization algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://www.researchgate.net/publication/224306349_Clock-Sampling_Mutual_Network_Synchronization_for_Mobile_Multi-hop_Wireless_Ad_Hoc_Networks
+  status: recorded
+- method: source_link_html_metadata
+  query: https://www.researchgate.net/publication/224306349_Clock-Sampling_Mutual_Network_Synchronization_for_Mobile_Multi-hop_Wireless_Ad_Hoc_Networks
+  status: failed
+- method: wikipedia_summary_search
+  query: Clock-sampling mutual network synchronization algorithm
+  status: failed_or_not_relevant
+extracted_problem_statement: 'Clock-sampling mutual network synchronization is treated as a classical randomized sampling task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Clock-sampling mutual network synchronization. Input semantics: A probability model, data set, or sampler description together with requested estimator parameters. Output semantics: A sample, estimate, or approximate value with the stated randomized or statistical semantics.'
+extracted_algorithm_summary: 'Clock-sampling mutual network synchronization is a randomized sampling algorithm record. Classical complexity metadata: time O(n); space O(1) (per node). The stated classical model is Word/Real RAM (per node). Public metadata/source text adds: Clock-sampling mutual network synchronization randomized_sampling randomized_sampling n: number of nodes in network O(n) Given explicit input data and classical randomness as part of the algorithmic model, produce the sampled or estimated output described by the record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

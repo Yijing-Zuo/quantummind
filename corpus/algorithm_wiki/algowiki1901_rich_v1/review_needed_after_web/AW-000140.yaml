@@ -1,0 +1,27 @@
+algorithm_id: AW-000140
+canonical_name: Bitap algorithm
+enrichment_status: WEB_INSUFFICIENT
+review_reasons:
+- missing_concrete_problem_statement
+- unknown_input_model
+- unknown_access_model
+source_records:
+- access_status: metadata_only
+  digest: 9dedec8308f24c92
+  extracted_facts:
+  - 'AlgorithmWiki row name: Bitap algorithm'
+  - 'domain: unknown'
+  - 'time complexity: O(mn)'
+  - 'space complexity: O(m)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: m: pattern length, n: text length'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000140:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Bitap algorithm
+  url: https://iiif.library.cmu.edu/file/Newell_box00099_fld07561_doc0001/Newell_box00099_fld07561_doc0001.pdf
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: Pattern occurrence positions, matches, or the associated string-search report.

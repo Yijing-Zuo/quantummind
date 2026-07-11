@@ -1,0 +1,58 @@
+id: AW-001046
+kind: context
+algorithm_id: AW-001046
+algorithm_name: Todd
+source_records:
+- access_status: metadata_only
+  digest: c1e8ee15fe8e5d9d
+  extracted_facts:
+  - 'AlgorithmWiki row name: Todd'
+  - 'domain: sorting'
+  - 'time complexity: 2n+\log{n}-1'
+  - 'computational model: hardware sorter'
+  - 'parameter definitions: n: size of list'
+  - 'precard summary: Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model. Baseline: time 2n+\log{n}-1; work O(n\log{n}); span/depth O(n); processors \log{n}. Bottleneck: comparison, distribution, and full-output movement costs dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001046:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Todd
+  url: https://ieeexplore.ieee.org/abstract/document/5390917
+- access_status: skipped
+  digest: e501917decd62835
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:3f3751baf42a60a7
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://ieeexplore.ieee.org/abstract/document/5390917
+web_query_attempts:
+- method: search_plan
+  query: Todd algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Todd algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Todd problem definition
+  status: recorded
+- method: search_plan
+  query: Todd sorting algorithm
+  status: recorded
+- method: search_plan
+  query: Todd site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Todd algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://ieeexplore.ieee.org/abstract/document/5390917
+  status: recorded
+- method: source_link_html_metadata
+  query: https://ieeexplore.ieee.org/abstract/document/5390917
+  status: skipped
+extracted_problem_statement: 'Todd is treated as a classical sorting task for rich AlgorithmWiki discovery. Problem/task: sort the input sequence using the named classical sorting method. Input semantics: A finite array or list of comparable keys or records. Output semantics: The same items returned in nondecreasing order, usually as a full reordered sequence.'
+extracted_algorithm_summary: 'Todd is a sorting algorithm record. Classical complexity metadata: time 2n+\log{n}-1; work O(n\log{n}); span/depth O(n); processors \log{n}. The stated classical model is hardware sorter. Public metadata/source text adds: Todd sorting sorting n: size of list 2n+\log{n}-1 Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

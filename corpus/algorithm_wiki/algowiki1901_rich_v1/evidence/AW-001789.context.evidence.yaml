@@ -1,0 +1,58 @@
+id: AW-001789
+kind: context
+algorithm_id: AW-001789
+algorithm_name: Belloch et al.
+source_records:
+- access_status: metadata_only
+  digest: a36c8d42586fcc0c
+  extracted_facts:
+  - 'AlgorithmWiki row name: Belloch et al.'
+  - 'domain: computational_geometry'
+  - 'time complexity: O(\log^3 n)'
+  - 'computational model: CREW PRAM'
+  - 'parameter definitions: n: number of points'
+  - 'precard summary: Given explicit geometric objects such as points, segments, or polygons, compute the requested geometric structure or witness set. Baseline: time O(\log^3 n); work O(n\log n); span/depth O(\log^3 n); processors O(n/\log n). Bottleneck: geometric predicates, ordering events, and output-sensitive structure size dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001789:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Belloch et al.
+  url: "Blelloch, G., Miller, G., Hardwick, J. et al. Design and Implementation of a Practical Parallel Delaunay Algorithm . Algorithmica 24, 243\u2013269 (1999). https://doi.org/10.1007/PL00008262"
+- access_status: skipped
+  digest: dc5497216f112c9e
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:163e73fc7a9517f2
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1007/PL00008262
+web_query_attempts:
+- method: search_plan
+  query: Belloch et al. algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Belloch et al. algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Belloch et al. problem definition
+  status: recorded
+- method: search_plan
+  query: Belloch et al. computational geometry algorithm
+  status: recorded
+- method: search_plan
+  query: Belloch et al. site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Belloch et al. algorithm wiki
+  status: recorded
+- method: search_plan
+  query: "Blelloch, G., Miller, G., Hardwick, J. et al. Design and Implementation of a Practical Parallel Delaunay Algorithm . Algorithmica 24, 243\u2013269 (1999). https://doi.org/10.1007/PL00008262"
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1007/PL00008262
+  status: skipped
+extracted_problem_statement: 'Belloch et al. is treated as a classical computational geometry task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Belloch et al.. Input semantics: Explicit geometric objects such as points, line segments, polygons, or planar subdivisions. Output semantics: The requested geometric structure, simplified curve, clipping result, intersection set, hull, or diagram.'
+extracted_algorithm_summary: 'Belloch et al. is a computational geometry algorithm record. Classical complexity metadata: time O(\log^3 n); work O(n\log n); span/depth O(\log^3 n); processors O(n/\log n). The stated classical model is CREW PRAM. Public metadata/source text adds: Belloch et al. computational_geometry computational_geometry n: number of points O(\log^3 n) Given explicit geometric objects such as points, segments, or polygons, compute the requested geometric structure or witness set.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

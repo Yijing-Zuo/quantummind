@@ -1,0 +1,46 @@
+id: AW-000813-P0535
+kind: probe
+algorithm_id: AW-000813
+algorithm_name: Hadlock
+source_records:
+- access_status: metadata_only
+  digest: 2a3c14fad8a1e2fa
+  extracted_facts:
+  - 'AlgorithmWiki row name: Hadlock'
+  - 'domain: graph'
+  - 'time complexity: O(n^4)'
+  - 'space complexity: O(n^2)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of vertices, m: number of edges'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(n^4); space O(n^2). Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000813:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Hadlock
+  url: https://web.eecs.umich.edu/~pettie/matching/Hadlock-maxcut-planar-graph-reduction-to-T-join.pdf
+web_query_attempts:
+- method: search_plan
+  query: Hadlock algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Hadlock algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Hadlock problem definition
+  status: recorded
+- method: search_plan
+  query: Hadlock graph algorithm
+  status: recorded
+- method: search_plan
+  query: Hadlock site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Hadlock algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://web.eecs.umich.edu/~pettie/matching/Hadlock-maxcut-planar-graph-reduction-to-T-join.pdf
+  status: recorded
+extracted_problem_statement: 'Hadlock is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Hadlock. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'Hadlock is a graph algorithm record. Classical complexity metadata: time O(n^4); space O(n^2). The stated classical model is Word RAM. Public metadata/source text adds: Hadlock graph graph n: number of vertices, m: number of edges O(n^4) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

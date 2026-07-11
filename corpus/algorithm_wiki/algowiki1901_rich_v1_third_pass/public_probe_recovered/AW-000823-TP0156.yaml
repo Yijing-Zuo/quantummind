@@ -1,0 +1,13 @@
+statement: 'Trial Multiplication period-structure probe. This is a subroutine/query-model probe, not an end-to-end claim for the original algorithm. The probe isolates an actual period, cycle length, recurrence, or modular structure-finding subroutine. Original input context: An integer N represented with n bits and method-specific smoothness or search bounds. Original output context: A nontrivial factor, a complete factorization, or a failure indication under the method assumptions. Original bottleneck noted for the rich context card: Candidate generation, modular arithmetic, smoothness testing, and relation collection dominate. The periodic promise is introduced only when the public source text supports cycle or period language. Coherent oracle construction, promise checking, and data-mapping cost remain expert obligations. The original algorithm may still have full-output, preprocessing, or data-loading barriers.'
+input_model: explicit_combinatorial_problem
+access_model: coherent_boolean_oracle
+output_contract: exact_value
+promises:
+- periodic_structure
+- oracle_model_assumption
+size_parameters:
+- 'Parameter definition: n: number of digits/bits in the order of the finite group'
+ambiguities:
+- This probe is assumption-bearing and is not an end-to-end speedup claim.
+- periodicity may be incidental metadata rather than the task bottleneck
+- The parent context card and source records should be checked before live use.

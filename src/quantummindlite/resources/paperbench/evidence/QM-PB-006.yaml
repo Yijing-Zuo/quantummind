@@ -1,0 +1,19 @@
+case_id: QM-PB-006
+title: "Quantum complexities of ordered searching, sorting, and element distinctness"
+authors: [Peter Hoyer, Jan Neerbek, Yaoyun Shi]
+year: 2002
+venue: "Algorithmica / arXiv"
+official_url: "https://arxiv.org/abs/quant-ph/0102078"
+result_location: "abstract lower-bound statement"
+result_type: lower_bound
+paraphrased_support: "The paper proves an Omega(N log N) lower bound for sorting by binary comparisons."
+problem_model: "comparison sorting"
+promise: "total order and comparison access"
+access_model: comparison_oracle
+output_contract: sorted_order
+classical_complexity: "CLASSICAL: Theta(N log N) comparisons"
+quantum_complexity: "QUERY: Omega(N log N) binary comparisons"
+claim_scope: NONE
+caveats: [comparison model]
+source_status: PRIMARY_SOURCE_CHECKED
+

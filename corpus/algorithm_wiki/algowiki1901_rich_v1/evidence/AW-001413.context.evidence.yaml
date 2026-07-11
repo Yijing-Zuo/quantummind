@@ -1,0 +1,58 @@
+id: AW-001413
+kind: context
+algorithm_id: AW-001413
+algorithm_name: Gupta, Sen
+source_records:
+- access_status: metadata_only
+  digest: 7478c7261b3cd4f4
+  extracted_facts:
+  - 'AlgorithmWiki row name: Gupta, Sen'
+  - 'domain: computational_geometry'
+  - 'time complexity: O(\log h \log \log n)'
+  - 'computational model: CRCW PRAM'
+  - 'parameter definitions: n: number of line segments, h: number of points on the convex hull'
+  - 'precard summary: Given explicit geometric objects such as points, segments, or polygons, compute the requested geometric structure or witness set. Baseline: time O(\log h \log \log n); work O(n \log h); span/depth O(log h log log n); processors O(n). Bottleneck: geometric predicates, ordering events, and output-sensitive structure size dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001413:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Gupta, Sen
+  url: https://www.sciencedirect.com/science/article/pii/S0925772197000096
+- access_status: skipped
+  digest: 3897ebb1164b6c8b
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:d73a4e9cab0c12d0
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://www.sciencedirect.com/science/article/pii/S0925772197000096
+web_query_attempts:
+- method: search_plan
+  query: Gupta, Sen algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Gupta, Sen algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Gupta, Sen problem definition
+  status: recorded
+- method: search_plan
+  query: Gupta, Sen computational geometry algorithm
+  status: recorded
+- method: search_plan
+  query: Gupta, Sen site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Gupta, Sen algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://www.sciencedirect.com/science/article/pii/S0925772197000096
+  status: recorded
+- method: source_link_html_metadata
+  query: https://www.sciencedirect.com/science/article/pii/S0925772197000096
+  status: skipped
+extracted_problem_statement: 'Gupta, Sen is treated as a classical computational geometry task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Gupta, Sen. Input semantics: Explicit geometric objects such as points, line segments, polygons, or planar subdivisions. Output semantics: The requested geometric structure, simplified curve, clipping result, intersection set, hull, or diagram.'
+extracted_algorithm_summary: 'Gupta, Sen is a computational geometry algorithm record. Classical complexity metadata: time O(\log h \log \log n); work O(n \log h); span/depth O(log h log log n); processors O(n). The stated classical model is CRCW PRAM. Public metadata/source text adds: Gupta, Sen computational_geometry computational_geometry n: number of line segments, h: number of points on the convex hull O(\log h \log \log n) Given explicit geometric objects such as points, segments, or polygons, compute the requested geometric structure or witness set.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

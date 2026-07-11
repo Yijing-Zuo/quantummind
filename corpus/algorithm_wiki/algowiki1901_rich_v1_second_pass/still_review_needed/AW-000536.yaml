@@ -1,0 +1,45 @@
+algorithm_id: AW-000536
+canonical_name: Ridder's method
+enrichment_status: SECOND_PASS_INSUFFICIENT
+review_reasons:
+- No second-pass rule could identify source-backed task semantics.
+source_records:
+- access_status: metadata_only
+  digest: 19c23d43e4521ff7
+  extracted_facts:
+  - 'AlgorithmWiki row name: Ridder''s method'
+  - 'domain: unknown'
+  - 'time complexity: O(n_{max})'
+  - 'space complexity: O(1)'
+  - 'computational model: Word/Real RAM'
+  - 'parameter definitions: \epsilon: (additive) tolerance error, n_{max}: maximum number of iterations'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000536:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Ridder's method
+  url: https://ieeexplore.ieee.org/document/1084580/
+- access_status: failed
+  digest: 804ad89647b0b4c3
+  extracted_facts:
+  - 'HTTP Error 420: '
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:154fd9318fd5a33d
+  source_type: publisher_abstract
+  title: 'HTTP Error 420: '
+  url: https://ieeexplore.ieee.org/document/1084580/
+- source_id: crossref_search:ac38e55f80cca8d2
+  url: https://doi.org/10.1093/oed/9557680360
+  title: "ridder, v.\xB9"
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - "Crossref title-search result: ridder, v.\xB9"
+  short_quote: ''
+  digest: 6c6916b5d81b85e6
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

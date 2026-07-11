@@ -1,0 +1,59 @@
+id: AW-000817
+kind: context
+algorithm_id: AW-000817
+algorithm_name: Navarro
+source_records:
+- access_status: metadata_only
+  digest: f973764e68958dbe
+  extracted_facts:
+  - 'AlgorithmWiki row name: Navarro'
+  - 'domain: graph'
+  - 'time complexity: O(m(V + E))'
+  - 'space complexity: O(V)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: m: length of input sequence, V: number of vertices, E: number of edges'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(m(V + E)); space O(V). Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000817:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Navarro
+  url: https://www.sciencedirect.com/science/article/pii/S0304397599003333
+- access_status: failed
+  digest: 6fcfab90c602a50c
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:cc2f116014c45e9b
+  source_type: publisher_abstract
+  title: 'HTTP Error 403: Forbidden'
+  url: https://www.sciencedirect.com/science/article/pii/S0304397599003333
+web_query_attempts:
+- method: search_plan
+  query: Navarro algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Navarro algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Navarro problem definition
+  status: recorded
+- method: search_plan
+  query: Navarro graph algorithm
+  status: recorded
+- method: search_plan
+  query: Navarro site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Navarro algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://www.sciencedirect.com/science/article/pii/S0304397599003333
+  status: recorded
+- method: source_link_html_metadata
+  query: https://www.sciencedirect.com/science/article/pii/S0304397599003333
+  status: failed
+extracted_problem_statement: 'Navarro is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Navarro. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'Navarro is a graph algorithm record. Classical complexity metadata: time O(m(V + E)); space O(V). The stated classical model is Word RAM. Public metadata/source text adds: Navarro graph graph m: length of input sequence, V: number of vertices, E: number of edges O(m(V + E)) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

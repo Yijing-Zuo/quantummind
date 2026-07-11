@@ -1,0 +1,32 @@
+algorithm_id: AW-000300
+canonical_name: T. Lindeberg DoG 2012
+enrichment_status: SECOND_PASS_INSUFFICIENT
+review_reasons:
+- No second-pass rule could identify source-backed task semantics.
+source_records:
+- access_status: metadata_only
+  digest: b5ba91d381833bb5
+  extracted_facts:
+  - 'AlgorithmWiki row name: T. Lindeberg DoG 2012'
+  - 'domain: unknown'
+  - 'time complexity: O(n^2)'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000300:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for T. Lindeberg DoG 2012
+  url: ''
+- source_id: crossref_search:99a42d3cabf98a62
+  url: https://doi.org/10.1090/mbk/121/10
+  title: Lindeberg condition
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: Lindeberg condition'
+  short_quote: ''
+  digest: c15777f6749b4bd3
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

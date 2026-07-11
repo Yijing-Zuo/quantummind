@@ -1,0 +1,71 @@
+id: AW-000727
+kind: context
+algorithm_id: AW-000727
+algorithm_name: Adaptive Duplicate Detection Algorithm (ADD)
+source_records:
+- access_status: metadata_only
+  digest: ca82509ea6a964f7
+  extracted_facts:
+  - 'AlgorithmWiki row name: Adaptive Duplicate Detection Algorithm (ADD)'
+  - 'domain: unknown'
+  - 'time complexity: O(n^3)'
+  - 'space complexity: O(1)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of records'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000727:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Adaptive Duplicate Detection Algorithm (ADD)
+  url: https://dl.acm.org/doi/10.1145/956750.956759
+- access_status: fetched
+  digest: 1169b77f8ed8f403
+  extracted_facts:
+  - 'DOI title: Adaptive duplicate detection using learnable string similarity measures'
+  - 'published year: 2003'
+  - 'container title: Proceedings of the ninth ACM SIGKDD international conference on Knowledge discovery and data mining'
+  reliability: HIGH
+  short_quote: ''
+  source_id: crossref:e0e1aef1867f693c
+  source_type: doi_metadata
+  title: Adaptive duplicate detection using learnable string similarity measures
+  url: https://doi.org/10.1145/956750.956759
+- access_status: failed
+  digest: c1fbee3690f55338
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:2cf2c66dfec228bc
+  source_type: publisher_abstract
+  title: 'HTTP Error 403: Forbidden'
+  url: https://dl.acm.org/doi/10.1145/956750.956759
+web_query_attempts:
+- method: search_plan
+  query: Adaptive Duplicate Detection Algorithm (ADD) algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Adaptive Duplicate Detection Algorithm (ADD) algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Adaptive Duplicate Detection Algorithm (ADD) problem definition
+  status: recorded
+- method: search_plan
+  query: Adaptive Duplicate Detection Algorithm (ADD) site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Adaptive Duplicate Detection Algorithm (ADD) algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://dl.acm.org/doi/10.1145/956750.956759
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1145/956750.956759
+  status: fetched
+- method: source_link_html_metadata
+  query: https://dl.acm.org/doi/10.1145/956750.956759
+  status: failed
+extracted_problem_statement: 'Adaptive Duplicate Detection Algorithm (ADD) is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Adaptive Duplicate Detection Algorithm (ADD). Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'Adaptive Duplicate Detection Algorithm (ADD) is a graph algorithm record. Classical complexity metadata: time O(n^3); space O(1). The stated classical model is Word RAM. Public metadata/source text adds: Adaptive Duplicate Detection Algorithm (ADD) unknown unknown n: number of records O(n^3) No public-ready summary is available because the row lacks enough task semantics.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

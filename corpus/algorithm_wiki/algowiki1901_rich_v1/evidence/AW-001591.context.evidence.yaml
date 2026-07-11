@@ -1,0 +1,58 @@
+id: AW-001591
+kind: context
+algorithm_id: AW-001591
+algorithm_name: Takaoka
+source_records:
+- access_status: metadata_only
+  digest: 3c491fa951e8bdc7
+  extracted_facts:
+  - 'AlgorithmWiki row name: Takaoka'
+  - 'domain: graph'
+  - 'time complexity: O(\log^2(n))'
+  - 'computational model: PRAM-EREW'
+  - 'parameter definitions: n: number of vertices'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(\log^2(n)); work O(n^3*(\log n)^{1/2}*(\log \log n)^{1/2}); span/depth O(log^2(n)); processors O(n^3*(log log n)^{1/2}/(log n)^{3/2}). Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001591:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Takaoka
+  url: https://www.sciencedirect.com/science/article/pii/002001909290200F
+- access_status: skipped
+  digest: 5bbd1a271c601f28
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:f5746021445d577c
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://www.sciencedirect.com/science/article/pii/002001909290200F
+web_query_attempts:
+- method: search_plan
+  query: Takaoka algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Takaoka algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Takaoka problem definition
+  status: recorded
+- method: search_plan
+  query: Takaoka graph algorithm
+  status: recorded
+- method: search_plan
+  query: Takaoka site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Takaoka algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://www.sciencedirect.com/science/article/pii/002001909290200F
+  status: recorded
+- method: source_link_html_metadata
+  query: https://www.sciencedirect.com/science/article/pii/002001909290200F
+  status: skipped
+extracted_problem_statement: 'Takaoka is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Takaoka. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'Takaoka is a graph algorithm record. Classical complexity metadata: time O(\log^2(n)); work O(n^3*(\log n)^{1/2}*(\log \log n)^{1/2}); span/depth O(log^2(n)); processors O(n^3*(log log n)^{1/2}/(log n)^{3/2}). The stated classical model is PRAM-EREW. Public metadata/source text adds: Takaoka graph graph n: number of vertices O(\log^2(n)) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

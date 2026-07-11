@@ -1,0 +1,12 @@
+statement: 'Chazelle & Edelsbrunner is included as a named whole-algorithm context card for a classical computational geometry task. The task is to analyze the classical input-output problem, not to certify an end-to-end improvement claim. Input semantics: Explicit geometric objects such as points, line segments, polygons, or planar subdivisions. Output semantics: The requested geometric structure, simplified curve, clipping result, intersection set, hull, or diagram. Classical algorithm summary: Chazelle & Edelsbrunner is a computational geometry algorithm record. Classical complexity metadata: time O(n \log n + k); space O(n+k). The stated classical model is Real RAM. Public metadata/source text adds: Chazelle & Edelsbrunner computational_geometry computational_geometry n: number of line segments, k: number of points of intersection O(n \log n + k) Given explicit geometric objects such as points, segments, or polygons, compute the requested geometric structure or witness set. Classical
+  complexity recorded for this row: time O(n \log n + k); space O(n+k); computation model Real RAM. Dominant bottleneck: geometric predicates, event ordering, and output-sensitive structure size. The useful review questions are whether the named structure exposes a smaller decision, witness, estimation, or algebraic subproblem; whether the full output size dominates any asymptotic gain; and whether the stated access model is realistic for the original input. Provenance used for reconstruction includes public metadata or abstract sources such as An optimal algorithm for intersecting line segments in the plane.'
+input_model: explicit_geometry_problem
+access_model: explicit_geometric_objects
+output_contract: full_solution
+promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+size_parameters:
+- 'Parameter definition: n: number of line segments, k: number of points of intersection'
+ambiguities:
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.

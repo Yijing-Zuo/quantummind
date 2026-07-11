@@ -1,0 +1,112 @@
+{
+  "confirmation": {
+    "no_core_workflow_or_b_rules_changed": true,
+    "no_openai_calls_made": true,
+    "operational_saturation_only": true,
+    "paywalled_full_text_not_stored": true
+  },
+  "cycles_completed": 4,
+  "domain_counts": {
+    "combinatorics": 10,
+    "computational_geometry": 15,
+    "data_structures": 28,
+    "dynamic_programming": 3,
+    "graph": 42,
+    "image_processing": 33,
+    "numerical_analysis": 6,
+    "parallel_algorithms": 5
+  },
+  "network_fetches_remaining": 9116,
+  "network_fetches_used": 2884,
+  "new_facts_discovered": 7051,
+  "new_sources_discovered": 692,
+  "nonterminal_row_count": 0,
+  "nonterminal_rows": [],
+  "probe_type_counts": {
+    "estimation_sampling_probe": 14,
+    "graph_walk_probe": 41,
+    "period_structure_probe": 2,
+    "search_witness_probe": 142
+  },
+  "recovered_context_count": 142,
+  "recovered_examples": [
+    "AW-000133 UKF",
+    "AW-000134 Compressed Extended KF",
+    "AW-000237 Williams' p + 1 algorithm",
+    "AW-000261 Covanov and Thom\u00e9",
+    "AW-000263 Harvey Hoeven Lecerf",
+    "AW-000287 J. J. Koenderink and W. Richards 1988",
+    "AW-000292 T. Lindeberg and J. Garding (1997)",
+    "AW-000298 Geert Willems Tinne Tuytelaars and Luc van Gool (2008)",
+    "AW-000299 Tao Luo, Zaifeng Shi and Pumeng Wang",
+    "AW-000300 T. Lindeberg DoG 2012",
+    "AW-000301 T. Lindeberg DoG 2015",
+    "AW-000307 Spatio-temporal Geert Willems Tinne Tuytelaars and Luc van Gool (2008)"
+  ],
+  "recovered_probe_count": 199,
+  "recovery_rate": 0.3776595744680851,
+  "rows_recovered_because_of_each_source_family": {
+    "algorithm_wiki_local": 142,
+    "arxiv": 142,
+    "crossref": 142,
+    "dblp": 39,
+    "local_previous_cache": 142,
+    "openalex": 39,
+    "original_source": 142,
+    "publisher_abstract": 39,
+    "semantic_scholar": 39,
+    "wikidata": 39,
+    "wikipedia": 142
+  },
+  "rows_still_unresolved_by_terminal_status": {
+    "AMBIGUOUS_AUTHOR_TITLE_FRAGMENT": 2,
+    "BLOCKED_BY_PAYWALL_OR_MISSING_SOURCE": 4,
+    "DUPLICATE_OR_VARIANT_ONLY": 1,
+    "SATURATED_NO_RECOVERY": 227
+  },
+  "saturated_examples": [
+    "AW-000002 Karpinski (SATURATED_NO_RECOVERY)",
+    "AW-000004 Larmore (SATURATED_NO_RECOVERY)",
+    "AW-000009 Klinz (SATURATED_NO_RECOVERY)",
+    "AW-000015 Lawrence, Reilly (BLOCKED_BY_PAYWALL_OR_MISSING_SOURCE)",
+    "AW-000100 Psinger (SATURATED_NO_RECOVERY)",
+    "AW-000174 Harrow (Quantum) (SATURATED_NO_RECOVERY)",
+    "AW-000284 A. Chalmers T. Davis and E. Reinhard 2002 (SATURATED_NO_RECOVERY)",
+    "AW-000288 Lindeberg (1994) (SATURATED_NO_RECOVERY)",
+    "AW-000293 Lindeberg 2005 (SATURATED_NO_RECOVERY)",
+    "AW-000294 The Wang and Brady corner detection algorithm 1995 (BLOCKED_BY_PAYWALL_OR_MISSING_SOURCE)",
+    "AW-000303 Hessain Determinant Lindeberg 1994 (SATURATED_NO_RECOVERY)",
+    "AW-000304 Hessain Determinant Lindeberg 1998 (SATURATED_NO_RECOVERY)"
+  ],
+  "source_family_coverage": {
+    "algorithm_wiki_local": 376,
+    "arxiv": 376,
+    "citeseerx": 229,
+    "course_notes": 229,
+    "cp_algorithms": 229,
+    "crossref": 376,
+    "dblp": 270,
+    "general_web_search": 229,
+    "local_previous_cache": 376,
+    "nist_dads": 229,
+    "openalex": 270,
+    "original_source": 376,
+    "publisher_abstract": 270,
+    "semantic_scholar": 270,
+    "the_algorithms": 229,
+    "wikidata": 270,
+    "wikipedia": 376
+  },
+  "starting_unresolved_count": 376,
+  "still_unresolved_saturated_count": 234,
+  "terminal_status_counts_all_rows": {
+    "AMBIGUOUS_AUTHOR_TITLE_FRAGMENT": 2,
+    "BLOCKED_BY_PAYWALL_OR_MISSING_SOURCE": 4,
+    "DUPLICATE_OR_VARIANT_ONLY": 1,
+    "RECOVERED_CONTEXT_AND_PROBE": 142,
+    "SATURATED_NO_RECOVERY": 227
+  },
+  "timestamp": "2026-06-28T19:42:49.457142+00:00",
+  "total_queries_attempted": 5410,
+  "total_urls_or_api_endpoints_attempted": 2813
+}

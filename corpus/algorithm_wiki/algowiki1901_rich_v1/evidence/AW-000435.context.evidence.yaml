@@ -1,0 +1,60 @@
+id: AW-000435
+kind: context
+algorithm_id: AW-000435
+algorithm_name: Gapped BLAST
+source_records:
+- access_status: metadata_only
+  digest: 69250ce538cbc260
+  extracted_facts:
+  - 'AlgorithmWiki row name: Gapped BLAST'
+  - 'domain: string'
+  - 'time complexity: O(mn)'
+  - 'space complexity: O(mn)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n, m: lengths of input strings assume n\geq m'
+  - 'precard summary: Given one or more explicit strings, compute the matching, indexing, alignment, or transformation output targeted by the record. Baseline: time O(mn); space O(mn). Bottleneck: string scanning, preprocessing tables, and reporting matches dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000435:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Gapped BLAST
+  url: https://www.ncbi.nlm.nih.gov/pubmed/9254694
+- access_status: fetched
+  digest: 075107ebde5a6b29
+  extracted_facts:
+  - 'source page title: Gapped BLAST and PSI-BLAST: a new generation of protein database search programs - PubMed'
+  - 'source page description: The BLAST programs are widely used tools for searching protein and DNA databases for sequence similarities.'
+  reliability: LOW
+  short_quote: The BLAST programs are widely used tools for searching protein and DNA databases for sequence similarities.
+  source_id: source:566a74e1844c05c2
+  source_type: other_public_source
+  title: 'Gapped BLAST and PSI-BLAST: a new generation of protein database search programs - PubMed'
+  url: https://www.ncbi.nlm.nih.gov/pubmed/9254694
+web_query_attempts:
+- method: search_plan
+  query: Gapped BLAST algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Gapped BLAST algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Gapped BLAST problem definition
+  status: recorded
+- method: search_plan
+  query: Gapped BLAST string algorithm
+  status: recorded
+- method: search_plan
+  query: Gapped BLAST site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Gapped BLAST algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://www.ncbi.nlm.nih.gov/pubmed/9254694
+  status: recorded
+- method: source_link_html_metadata
+  query: https://www.ncbi.nlm.nih.gov/pubmed/9254694
+  status: fetched
+extracted_problem_statement: 'Gapped BLAST is treated as a classical string task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Gapped BLAST. Input semantics: One or more finite strings, sequences, patterns, or alphabets. Output semantics: Pattern occurrence positions, matches, or the associated string-search report.'
+extracted_algorithm_summary: 'Gapped BLAST is a string algorithm record. Classical complexity metadata: time O(mn); space O(mn). The stated classical model is Word RAM. Public metadata/source text adds: Gapped BLAST string string n, m: lengths of input strings assume n\geq m O(mn) Given one or more explicit strings, compute the matching, indexing, alignment, or transformation output targeted by the record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

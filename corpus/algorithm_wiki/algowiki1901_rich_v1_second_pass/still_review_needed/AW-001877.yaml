@@ -1,0 +1,33 @@
+algorithm_id: AW-001877
+canonical_name: Chafik, Daoui
+enrichment_status: SECOND_PASS_INSUFFICIENT
+review_reasons:
+- No second-pass rule could identify source-backed task semantics.
+source_records:
+- access_status: metadata_only
+  digest: 33e38b2b81808a8a
+  extracted_facts:
+  - 'AlgorithmWiki row name: Chafik, Daoui'
+  - 'domain: unknown'
+  - 'computational model: Open Multi-Processing (Open-MP), programming model shared memory'
+  - 'parameter definitions: A: size of set of actions, S: size of set of states, gamma: discount factor'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001877:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Chafik, Daoui
+  url: https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=1b529e19039739861df028bd3612d451c682ff9f
+- source_id: crossref_search:6c34b00ec342b0c1
+  url: https://doi.org/10.1093/benz/9780199773787.article.b00203138
+  title: Rizk, Chafik
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: Rizk, Chafik'
+  short_quote: ''
+  digest: a7b2157a15d5e347
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

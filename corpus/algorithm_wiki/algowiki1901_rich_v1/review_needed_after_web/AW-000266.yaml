@@ -1,0 +1,49 @@
+algorithm_id: AW-000266
+canonical_name: Taubenfeld's black-white bakery algorithm
+enrichment_status: WEB_INSUFFICIENT
+review_reasons:
+- missing_concrete_problem_statement
+- unknown_input_model
+- unknown_output_contract
+- unknown_access_model
+source_records:
+- access_status: metadata_only
+  digest: 12d67a7e15f979a7
+  extracted_facts:
+  - 'AlgorithmWiki row name: Taubenfeld''s black-white bakery algorithm'
+  - 'domain: unknown'
+  - 'time complexity: O(n)'
+  - 'space complexity: O(1) per process, O(n) total'
+  - 'parameter definitions: n: number of processes'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000266:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Taubenfeld's black-white bakery algorithm
+  url: https://link.springer.com/chapter/10.1007/978-3-540-30186-8_5
+- access_status: fetched
+  digest: c786f1343e364a98
+  extracted_facts:
+  - 'DOI title: The Black-White Bakery Algorithm and Related Bounded-Space, Adaptive, Local-Spinning and FIFO Algorithms'
+  - 'published year: 2004'
+  - 'container title: Lecture Notes in Computer Science'
+  reliability: HIGH
+  short_quote: ''
+  source_id: crossref:2f0e3ccf62f28f8b
+  source_type: doi_metadata
+  title: The Black-White Bakery Algorithm and Related Bounded-Space, Adaptive, Local-Spinning and FIFO Algorithms
+  url: https://doi.org/10.1007/978-3-540-30186-8_5
+- access_status: skipped
+  digest: eb236c7d9439efd1
+  extracted_facts:
+  - robots.txt disallowed fetch
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:b70e7f99331d9f04
+  source_type: publisher_abstract
+  title: robots.txt disallowed fetch
+  url: https://link.springer.com/chapter/10.1007/978-3-540-30186-8_5
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

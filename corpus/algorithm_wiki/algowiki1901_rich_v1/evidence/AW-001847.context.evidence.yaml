@@ -1,0 +1,71 @@
+id: AW-001847
+kind: context
+algorithm_id: AW-001847
+algorithm_name: von zur Gathen
+source_records:
+- access_status: metadata_only
+  digest: b8ae3a4f37291f74
+  extracted_facts:
+  - 'AlgorithmWiki row name: von zur Gathen'
+  - 'domain: graph'
+  - 'time complexity: O(\log^2 n \log^2 k \log p)'
+  - 'computational model: CREW PRAM'
+  - 'parameter definitions: n: degree of polynomial, q: characteristic of finite field, p, k: prime and exponent such that p^k = q'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(\log^2 n \log^2 k \log p); work O(poly(n)); span/depth O(log^2 n log^2 k log p); processors poly(n). Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001847:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for von zur Gathen
+  url: https://dl.acm.org/doi/abs/10.1145/800061.808728
+- access_status: skipped
+  digest: ededf5c9fbc11b5f
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:311607681b943289
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1145/800061.808728
+- access_status: skipped
+  digest: 17658a7691f1dc83
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:8e77bf88e5af4e2e
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://dl.acm.org/doi/abs/10.1145/800061.808728
+web_query_attempts:
+- method: search_plan
+  query: von zur Gathen algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: von zur Gathen algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: von zur Gathen problem definition
+  status: recorded
+- method: search_plan
+  query: von zur Gathen graph algorithm
+  status: recorded
+- method: search_plan
+  query: von zur Gathen site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: von zur Gathen algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://dl.acm.org/doi/abs/10.1145/800061.808728
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1145/800061.808728
+  status: skipped
+- method: source_link_html_metadata
+  query: https://dl.acm.org/doi/abs/10.1145/800061.808728
+  status: skipped
+extracted_problem_statement: 'von zur Gathen is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with von zur Gathen. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'von zur Gathen is a graph algorithm record. Classical complexity metadata: time O(\log^2 n \log^2 k \log p); work O(poly(n)); span/depth O(log^2 n log^2 k log p); processors poly(n). The stated classical model is CREW PRAM. Public metadata/source text adds: von zur Gathen graph graph n: degree of polynomial, q: characteristic of finite field, p, k: prime and exponent such that p^k = q O(\log^2 n \log^2 k \log p) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

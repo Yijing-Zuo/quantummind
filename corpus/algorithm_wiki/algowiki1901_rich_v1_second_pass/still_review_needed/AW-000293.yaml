@@ -1,0 +1,32 @@
+algorithm_id: AW-000293
+canonical_name: Lindeberg 2005
+enrichment_status: SECOND_PASS_INSUFFICIENT
+review_reasons:
+- No second-pass rule could identify source-backed task semantics.
+source_records:
+- access_status: metadata_only
+  digest: 2d735d5d02f484c7
+  extracted_facts:
+  - 'AlgorithmWiki row name: Lindeberg 2005'
+  - 'domain: unknown'
+  - 'time complexity: O(n^2)'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000293:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Lindeberg 2005
+  url: ''
+- source_id: crossref_search:872e457d4ef8ed9c
+  url: https://doi.org/10.1090/mbk/121/10
+  title: Lindeberg condition
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: Lindeberg condition'
+  short_quote: ''
+  digest: 1a67ee729f4b8aa8
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

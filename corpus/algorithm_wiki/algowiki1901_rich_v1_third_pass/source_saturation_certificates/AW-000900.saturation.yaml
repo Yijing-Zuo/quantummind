@@ -1,0 +1,682 @@
+algorithm_id: AW-000900
+canonical_name: ARIES
+original_source_link: https://dl.acm.org/doi/10.1145/128765.128770
+source_link_type: acm
+previous_failure_reasons:
+- No second-pass rule could identify source-backed task semantics.
+previous_source_records:
+- access_status: metadata_only
+  digest: d44e095ee1ce89f8
+  extracted_facts:
+  - 'AlgorithmWiki row name: ARIES'
+  - 'domain: unknown'
+  - 'time complexity: O(n)'
+  - 'space complexity: O(n)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of transactions before crash'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000900:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for ARIES
+  url: https://dl.acm.org/doi/10.1145/128765.128770
+- access_status: fetched
+  digest: 18f15416426a29a9
+  extracted_facts:
+  - 'DOI title: ARIES'
+  - 'published year: 1992'
+  - 'container title: ACM Transactions on Database Systems'
+  - 'abstract summary: systems. ARIES is applicable not only to database management systems but also to persistent object-oriented languages, recoverable file systems and transaction-based operating systems.'
+  reliability: HIGH
+  short_quote: systems. ARIES is applicable not only to database management systems but also to persistent object-oriented languages, recoverable file systems and transaction-based operating systems.
+  source_id: crossref:5ce27290c13b2a4c
+  source_type: doi_metadata
+  title: ARIES
+  url: https://doi.org/10.1145/128765.128770
+- access_status: failed
+  digest: 602f3b957aac5c0c
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:c50b03501c0f1b95
+  source_type: publisher_abstract
+  title: 'HTTP Error 403: Forbidden'
+  url: https://dl.acm.org/doi/10.1145/128765.128770
+- access_status: fetched
+  digest: cbcac4352bd4346f
+  extracted_facts:
+  - 'Crossref title-search result: C-ARIES: A Multi-threaded Version of the ARIES Recovery Algorithm'
+  reliability: MEDIUM
+  short_quote: ''
+  source_id: crossref_search:d11c6c13780c833a
+  source_type: doi_metadata
+  title: 'C-ARIES: A Multi-threaded Version of the ARIES Recovery Algorithm'
+  url: https://doi.org/10.1007/978-3-540-74469-6_32
+aliases_tried:
+- ARIES
+- ARIES algorithm
+- ARIES problem
+- ARIES pseudocode
+- ARIES time complexity
+- ARIES complexity
+- 'C-ARIES: A Multi-threaded Version of the ARIES Recovery Algorithm'
+- 'C-ARIES: A Multi-threaded Version of the ARIES Recovery Algorithm algorithm'
+- 'C-ARIES: A Multi-threaded Version of the ARIES Recovery Algorithm complexity'
+- 10.1145/128765.128770
+query_plan:
+- source_family: original_source
+  primary_query: ARIES
+  applicability: applicable
+  purpose: check the row's original source link without storing paywalled or PDF bodies
+- source_family: crossref
+  primary_query: ARIES
+  applicability: applicable
+  purpose: recover DOI title, venue, year, and abstract metadata where available
+- source_family: openalex
+  primary_query: ARIES
+  applicability: applicable
+  purpose: recover public work metadata and abstract-inverted-index summaries
+- source_family: semantic_scholar
+  primary_query: ARIES
+  applicability: applicable
+  purpose: recover CS paper metadata and abstracts without an API key
+- source_family: arxiv
+  primary_query: ARIES
+  applicability: title-search-only
+  purpose: recover arXiv title and abstract metadata
+- source_family: dblp
+  primary_query: ARIES
+  applicability: applicable
+  purpose: recover bibliographic title/venue metadata for CS publications
+- source_family: publisher_abstract
+  primary_query: ARIES
+  applicability: applicable
+  purpose: check accessible publisher abstract pages
+- source_family: citeseerx
+  primary_query: ARIES
+  applicability: applicable
+  purpose: record legacy CiteSeerX availability without full PDF storage
+- source_family: wikipedia
+  primary_query: ARIES
+  applicability: applicable
+  purpose: check public encyclopedia algorithm descriptions
+- source_family: wikidata
+  primary_query: ARIES
+  applicability: applicable
+  purpose: check public entity aliases/descriptions
+- source_family: nist_dads
+  primary_query: ARIES
+  applicability: applicable
+  purpose: check whether a DADS-style reference search is applicable
+- source_family: algorithm_wiki_local
+  primary_query: ARIES
+  applicability: applicable
+  purpose: reuse AlgorithmWiki metadata as provenance
+- source_family: the_algorithms
+  primary_query: ARIES
+  applicability: applicable
+  purpose: check exact public implementation/reference names when available
+- source_family: cp_algorithms
+  primary_query: ARIES
+  applicability: applicable
+  purpose: check exact public algorithm reference names when available
+- source_family: course_notes
+  primary_query: ARIES
+  applicability: applicable
+  purpose: record absence of configured course-notes search
+- source_family: general_web_search
+  primary_query: ARIES
+  applicability: applicable
+  purpose: record absence of a configured general web endpoint
+- source_family: local_previous_cache
+  primary_query: ARIES
+  applicability: applicable
+  purpose: reuse v1/second-pass fetched source records
+query_attempts:
+- &id001
+  cycle: 1
+  query: ARIES
+  source_family: algorithm_wiki_local
+  url_or_api_endpoint: https://dl.acm.org/doi/10.1145/128765.128770
+  status: fetched
+  new_facts_added: 9
+  reason: local metadata
+- &id002
+  cycle: 1
+  query: ARIES
+  source_family: local_previous_cache
+  url_or_api_endpoint: ''
+  status: duplicate
+  new_facts_added: 0
+  reason: previous v1/second-pass sources reused
+- &id003
+  cycle: 1
+  query: https://dl.acm.org/doi/10.1145/128765.128770
+  source_family: original_source
+  url_or_api_endpoint: https://dl.acm.org/doi/10.1145/128765.128770
+  status: fetch_failed
+  new_facts_added: 0
+  reason: 'HTTP Error 403: Forbidden'
+- &id004
+  cycle: 1
+  query: 10.1145/128765.128770
+  source_family: crossref
+  url_or_api_endpoint: https://doi.org/10.1145/128765.128770
+  status: fetched
+  new_facts_added: 6
+  reason: Crossref metadata/title search
+- &id005
+  cycle: 1
+  query: ARIES
+  source_family: arxiv
+  url_or_api_endpoint: https://export.arxiv.org/api/query?max_results=1&search_query=ti:%22ARIES%22
+  status: no_result
+  new_facts_added: 0
+  reason: arXiv title search returned no usable entry
+- &id006
+  cycle: 1
+  query: ARIES
+  source_family: wikipedia
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: Wikipedia search returned no relevant page
+- &id007
+  cycle: 2
+  query: 10.1145/128765.128770
+  source_family: openalex
+  url_or_api_endpoint: https://api.openalex.org/works/doi:10.1145%2F128765.128770
+  status: fetched
+  new_facts_added: 5
+  reason: OpenAlex work metadata
+- &id008
+  cycle: 2
+  query: 10.1145/128765.128770
+  source_family: semantic_scholar
+  url_or_api_endpoint: https://api.semanticscholar.org/graph/v1/paper/DOI:10.1145%2F128765.128770?fields=title,abstract,year,url,externalIds
+  status: fetch_failed
+  new_facts_added: 0
+  reason: Semantic Scholar returned no usable paper
+- &id009
+  cycle: 2
+  query: ARIES
+  source_family: dblp
+  url_or_api_endpoint: https://dblp.org/search/publ/api?format=json&h=1&q=ARIES
+  status: no_result
+  new_facts_added: 0
+  reason: DBLP returned no usable publication
+- &id010
+  cycle: 2
+  query: https://dl.acm.org/doi/10.1145/128765.128770
+  source_family: original_source
+  url_or_api_endpoint: https://dl.acm.org/doi/10.1145/128765.128770
+  status: fetch_failed
+  new_facts_added: 0
+  reason: 'HTTP Error 403: Forbidden'
+- &id011
+  cycle: 2
+  query: ARIES
+  source_family: wikidata
+  url_or_api_endpoint: https://www.wikidata.org/w/api.php?action=wbsearchentities&language=en&format=json&limit=1&search=ARIES
+  status: no_result
+  new_facts_added: 0
+  reason: Wikidata returned no entity
+- &id012
+  cycle: 3
+  query: ARIES
+  source_family: citeseerx
+  url_or_api_endpoint: ''
+  status: paywalled
+  new_facts_added: 0
+  reason: CiteSeerX link is PDF/legacy metadata; full PDF body skipped
+- &id013
+  cycle: 3
+  query: ARIES
+  source_family: nist_dads
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: NIST DADS has no reliable bulk search API in this environment
+- &id014
+  cycle: 3
+  query: ARIES
+  source_family: the_algorithms
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: TheAlgorithms search skipped unless a known exact reference is available
+- &id015
+  cycle: 3
+  query: ARIES
+  source_family: cp_algorithms
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: CP-Algorithms search skipped unless a known exact reference is available
+- &id016
+  cycle: 3
+  query: ARIES
+  source_family: course_notes
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: No configured public course-notes search endpoint
+- &id017
+  cycle: 3
+  query: ARIES
+  source_family: general_web_search
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: No configured general web search endpoint; Google Scholar scraping is not used
+- &id018
+  cycle: 4
+  query: 10.1145/128765.128770
+  source_family: crossref
+  url_or_api_endpoint: https://doi.org/10.1145/128765.128770
+  status: fetched
+  new_facts_added: 6
+  reason: Crossref metadata/title search
+- &id019
+  cycle: 4
+  query: 10.1145/128765.128770
+  source_family: openalex
+  url_or_api_endpoint: https://api.openalex.org/works/doi:10.1145%2F128765.128770
+  status: fetched
+  new_facts_added: 5
+  reason: OpenAlex work metadata
+- &id020
+  cycle: 4
+  query: 10.1145/128765.128770
+  source_family: semantic_scholar
+  url_or_api_endpoint: https://api.semanticscholar.org/graph/v1/paper/DOI:10.1145%2F128765.128770?fields=title,abstract,year,url,externalIds
+  status: fetch_failed
+  new_facts_added: 0
+  reason: Semantic Scholar returned no usable paper
+- &id021
+  cycle: 4
+  query: ARIES
+  source_family: wikipedia
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: Wikipedia search returned no relevant page
+- &id022
+  cycle: 4
+  query: ARIES
+  source_family: dblp
+  url_or_api_endpoint: https://dblp.org/search/publ/api?format=json&h=1&q=ARIES
+  status: no_result
+  new_facts_added: 0
+  reason: DBLP returned no usable publication
+source_attempts:
+- *id001
+- *id002
+- *id003
+- *id004
+- *id005
+- *id006
+- *id007
+- *id008
+- *id009
+- *id010
+- *id011
+- *id012
+- *id013
+- *id014
+- *id015
+- *id016
+- *id017
+- *id018
+- *id019
+- *id020
+- *id021
+- *id022
+discovered_sources:
+- source_id: openalex:a8bca6054f015bc2
+  url: https://openalex.org/W2104954161
+  title: ARIES
+  source_type: openalex
+  access_status: fetched
+  reliability: HIGH
+  extracted_facts:
+  - 'OpenAlex title: ARIES'
+  - 'publication year: 1992'
+  - 'abstract summary: DB2 TM , IMS, and Tandem TM systems. ARIES is applicable not only to database management systems but also to persistent object-oriented languages, recoverable file systems and transaction-based operating systems.'
+  short_quote: 'OpenAlex title: ARIES publication year: 1992 abstract summary: DB2 TM , IMS, and Tandem TM systems. ARIES is applicable not only to database management'
+  digest: 6ef7c775b2f4bb27
+discovered_facts:
+- fact_id: AW-000900-F577674151e
+  fact_type: alias
+  value: ARIES
+  source_id: AW-000900:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: AlgorithmWiki metadata
+- fact_id: AW-000900-Fa4dfc3ee72
+  fact_type: time_complexity
+  value: O(n)
+  source_id: AW-000900:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: AlgorithmWiki metadata
+- fact_id: AW-000900-F3166238346
+  fact_type: space_complexity
+  value: O(n)
+  source_id: AW-000900:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: AlgorithmWiki metadata
+- fact_id: AW-000900-Ffb26a8411a
+  fact_type: computation_model
+  value: Word RAM
+  source_id: AW-000900:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: AlgorithmWiki metadata
+- fact_id: AW-000900-F877e142ccd
+  fact_type: input_semantics
+  value: 'Parameter definitions: n: number of transactions before crash'
+  source_id: AW-000900:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 75
+  conflict_status: weak
+  notes: AlgorithmWiki parameter metadata
+- fact_id: AW-000900-Fd782031066
+  fact_type: authoritative_source_link
+  value: https://dl.acm.org/doi/10.1145/128765.128770
+  source_id: AW-000900:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 70
+  conflict_status: consistent
+  notes: Original source link from AlgorithmWiki metadata
+- fact_id: AW-000900-F36754f82b3
+  fact_type: source_title
+  value: AlgorithmWiki metadata for ARIES
+  source_id: AW-000900:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000900-F6067334e30
+  fact_type: problem_definition
+  value: 'Source title indicates: AlgorithmWiki metadata for ARIES'
+  source_id: AW-000900:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: weak
+  notes: previous_source_record
+- fact_id: AW-000900-Feede3a9034
+  fact_type: problem_definition
+  value: 'AlgorithmWiki row name: ARIES'
+  source_id: AW-000900:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000900-F28ce3b8681
+  fact_type: problem_definition
+  value: 'domain: unknown'
+  source_id: AW-000900:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000900-F7533d06bf2
+  fact_type: time_complexity
+  value: 'time complexity: O(n)'
+  source_id: AW-000900:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000900-F87e5a260e3
+  fact_type: space_complexity
+  value: 'space complexity: O(n)'
+  source_id: AW-000900:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000900-F3946f9cdf4
+  fact_type: computation_model
+  value: 'computational model: Word RAM'
+  source_id: AW-000900:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000900-F3d9a3926e3
+  fact_type: problem_definition
+  value: 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  source_id: AW-000900:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000900-F7951ade6ad
+  fact_type: source_title
+  value: ARIES
+  source_id: crossref:5ce27290c13b2a4c
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000900-F762b79a7d9
+  fact_type: problem_definition
+  value: 'DOI title: ARIES'
+  source_id: crossref:5ce27290c13b2a4c
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000900-F89ef698564
+  fact_type: problem_definition
+  value: 'published year: 1992'
+  source_id: crossref:5ce27290c13b2a4c
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000900-F034102898a
+  fact_type: problem_definition
+  value: 'container title: ACM Transactions on Database Systems'
+  source_id: crossref:5ce27290c13b2a4c
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000900-F4b87994254
+  fact_type: problem_definition
+  value: 'abstract summary: systems. ARIES is applicable not only to database management systems but also to persistent object-oriented languages, recoverable file systems and transaction-based operating systems.'
+  source_id: crossref:5ce27290c13b2a4c
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000900-Fe5f6666bed
+  fact_type: authoritative_source_link
+  value: https://doi.org/10.1145/128765.128770
+  source_id: crossref:5ce27290c13b2a4c
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000900-F93bd8abb28
+  fact_type: source_title
+  value: 'C-ARIES: A Multi-threaded Version of the ARIES Recovery Algorithm'
+  source_id: crossref_search:d11c6c13780c833a
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000900-Ffefcb87e58
+  fact_type: problem_definition
+  value: 'Source title indicates: C-ARIES: A Multi-threaded Version of the ARIES Recovery Algorithm'
+  source_id: crossref_search:d11c6c13780c833a
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: weak
+  notes: previous_source_record
+- fact_id: AW-000900-F97e39f3efd
+  fact_type: problem_definition
+  value: 'Crossref title-search result: C-ARIES: A Multi-threaded Version of the ARIES Recovery Algorithm'
+  source_id: crossref_search:d11c6c13780c833a
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000900-Fca0dc22413
+  fact_type: authoritative_source_link
+  value: https://doi.org/10.1007/978-3-540-74469-6_32
+  source_id: crossref_search:d11c6c13780c833a
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000900-F244596a26e
+  fact_type: problem_definition
+  value: 'OpenAlex title: ARIES'
+  source_id: openalex:a8bca6054f015bc2
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: openalex
+- fact_id: AW-000900-F6fce0b23fe
+  fact_type: problem_definition
+  value: 'publication year: 1992'
+  source_id: openalex:a8bca6054f015bc2
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: openalex
+- fact_id: AW-000900-F99a2bac2fa
+  fact_type: problem_definition
+  value: 'abstract summary: DB2 TM , IMS, and Tandem TM systems. ARIES is applicable not only to database management systems but also to persistent object-oriented languages, recoverable file systems and transaction-based operating systems.'
+  source_id: openalex:a8bca6054f015bc2
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: openalex
+- fact_id: AW-000900-F498e155d9d
+  fact_type: authoritative_source_link
+  value: https://openalex.org/W2104954161
+  source_id: openalex:a8bca6054f015bc2
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: openalex
+duplicate_sources:
+- source_id: AW-000900:algorithm_wiki_metadata
+  url: https://dl.acm.org/doi/10.1145/128765.128770
+  title: AlgorithmWiki metadata for ARIES
+  source_type: algorithm_wiki
+  access_status: metadata_only
+  reliability: HIGH
+  extracted_facts:
+  - 'AlgorithmWiki row name: ARIES'
+  - 'domain: unknown'
+  - 'time complexity: O(n)'
+  - 'space complexity: O(n)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of transactions before crash'
+  short_quote: ''
+  digest: 6e8b43ae9f700479
+- source_id: failed:c50b03501c0f1b95
+  url: https://dl.acm.org/doi/10.1145/128765.128770
+  title: 'HTTP Error 403: Forbidden'
+  source_type: original_source
+  access_status: failed
+  reliability: LOW
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  short_quote: 'HTTP Error 403: Forbidden'
+  digest: f93e4ba1f71b1353
+- source_id: crossref:5ce27290c13b2a4c
+  url: https://doi.org/10.1145/128765.128770
+  title: ARIES
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: HIGH
+  extracted_facts:
+  - 'DOI title: ARIES'
+  - 'published year: 1992'
+  - 'container title: ACM Transactions on Database Systems'
+  - 'abstract summary: systems. ARIES is applicable not only to database management systems but also to persistent object-oriented languages, recoverable file systems and transaction-based operating systems.'
+  short_quote: systems. ARIES is applicable not only to database management systems but also to persistent object-oriented languages, recoverable file systems and transaction-based operating systems.
+  digest: 18f15416426a29a9
+- source_id: failed:c50b03501c0f1b95
+  url: https://dl.acm.org/doi/10.1145/128765.128770
+  title: 'HTTP Error 403: Forbidden'
+  source_type: original_source
+  access_status: failed
+  reliability: LOW
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  short_quote: 'HTTP Error 403: Forbidden'
+  digest: f93e4ba1f71b1353
+- source_id: crossref:5ce27290c13b2a4c
+  url: https://doi.org/10.1145/128765.128770
+  title: ARIES
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: HIGH
+  extracted_facts:
+  - 'DOI title: ARIES'
+  - 'published year: 1992'
+  - 'container title: ACM Transactions on Database Systems'
+  - 'abstract summary: systems. ARIES is applicable not only to database management systems but also to persistent object-oriented languages, recoverable file systems and transaction-based operating systems.'
+  short_quote: systems. ARIES is applicable not only to database management systems but also to persistent object-oriented languages, recoverable file systems and transaction-based operating systems.
+  digest: 18f15416426a29a9
+- source_id: openalex:a8bca6054f015bc2
+  url: https://openalex.org/W2104954161
+  title: ARIES
+  source_type: openalex
+  access_status: fetched
+  reliability: HIGH
+  extracted_facts:
+  - 'OpenAlex title: ARIES'
+  - 'publication year: 1992'
+  - 'abstract summary: DB2 TM , IMS, and Tandem TM systems. ARIES is applicable not only to database management systems but also to persistent object-oriented languages, recoverable file systems and transaction-based operating systems.'
+  short_quote: 'OpenAlex title: ARIES publication year: 1992 abstract summary: DB2 TM , IMS, and Tandem TM systems. ARIES is applicable not only to database management'
+  digest: 6ef7c775b2f4bb27
+failed_sources: []
+paywalled_or_skipped_sources: []
+source_families_covered:
+- algorithm_wiki_local
+- local_previous_cache
+- original_source
+- crossref
+- arxiv
+- wikipedia
+- openalex
+- semantic_scholar
+- dblp
+- publisher_abstract
+- wikidata
+- citeseerx
+- nist_dads
+- the_algorithms
+- cp_algorithms
+- course_notes
+- general_web_search
+cycles_completed: 4
+new_fact_count_by_cycle:
+- cycle: 1
+  new_facts: 0
+- cycle: 2
+  new_facts: 4
+- cycle: 3
+  new_facts: 0
+- cycle: 4
+  new_facts: 0
+no_new_fact_streak: 2
+saturation_status: SATURATED_NO_RECOVERY
+final_reason: After the configured source-family cycles, no source-backed concrete task, input semantics, output semantics, and conservative access model could be established.
+next_manual_action: No automated action recommended; keep saturated certificate with unresolved row.

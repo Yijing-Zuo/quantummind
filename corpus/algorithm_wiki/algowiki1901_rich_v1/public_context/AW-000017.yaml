@@ -1,0 +1,15 @@
+statement: 'MotifSampler is included as a named whole-algorithm context card for a classical string task. The task is to analyze the classical input-output problem, not to certify an end-to-end improvement claim. Input semantics: One or more finite strings, sequences, patterns, or alphabets. Output semantics: The requested string matching, alignment, indexing, distance, or transformation result. Classical algorithm summary: MotifSampler is a string algorithm record. Classical complexity metadata: time O(nm); space O(n + m). The stated classical model is Word RAM. Public metadata/source text adds: MotifSampler unknown unknown n: number of sequences, m: length of sequences O(nm) No public-ready summary is available because the row lacks enough task semantics. Classical complexity recorded for this row: time O(nm); space O(n + m); computation model Word RAM. Dominant bottleneck: string scanning, dynamic-programming table size, preprocessing, and match reporting. The useful review questions
+  are whether the named structure exposes a smaller decision, witness, estimation, or algebraic subproblem; whether the full output size dominates any asymptotic gain; and whether the stated access model is realistic for the original input. Provenance used for reconstruction includes public metadata or abstract sources such as A Gibbs sampling method to detect overrepresented motifs in the upstream regions of coexpressed genes - PubMed. Source-backed uncertainty or assumptions: The AlgorithmWiki row marks the classical method as approximate.'
+input_model: explicit_string_problem
+access_model: random_access_string
+output_contract: full_solution
+promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+- classical_approximation_algorithm
+size_parameters:
+- 'Parameter definition: n: number of sequences, m: length of sequences'
+ambiguities:
+- The AlgorithmWiki row marks the classical method as approximate.
+- Some details are reconstructed from AlgorithmWiki metadata rather than an independently fetched full public description.
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.

@@ -1,0 +1,53 @@
+id: AW-000341
+kind: context_recovered
+algorithm_id: AW-000341
+algorithm_name: Geman and Geman Markov random fields
+source_records:
+- access_status: metadata_only
+  digest: fb78f6ac3fa87d2e
+  extracted_facts:
+  - 'AlgorithmWiki row name: Geman and Geman Markov random fields'
+  - 'domain: unknown'
+  - 'time complexity: O(n^2)'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000341:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Geman and Geman Markov random fields
+  url: ''
+- source_id: crossref_search:fb63fae369fde9d4
+  url: https://doi.org/10.24894/sprengglossarium_g04827
+  title: Geman
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: Geman'
+  short_quote: ''
+  digest: 2500ec10e764d549
+web_query_attempts:
+- query: '"Geman and Geman Markov random fields" algorithm'
+  method: search_plan
+  status: recorded
+- query: '"Geman and Geman Markov random fields" input output'
+  method: search_plan
+  status: recorded
+- query: '"Geman and Geman Markov random fields" time complexity'
+  method: search_plan
+  status: recorded
+- query: '"Geman and Geman Markov random fields" pseudocode'
+  method: search_plan
+  status: recorded
+- query: '"Geman and Geman Markov random fields" problem'
+  method: search_plan
+  status: recorded
+- query: '"Geman and Geman Markov random fields" PDF metadata abstract'
+  method: search_plan
+  status: recorded
+- query: Geman and Geman Markov random fields algorithm
+  method: crossref_title_search
+  status: fetched
+extracted_problem_statement: 'Geman and Geman Markov random fields is reconstructed as a classical image processing task. Problem/task: partition an image into coherent regions or labels Input semantics: An image grid with pixel intensities/features and model or merge/split parameters. Output semantics: A segmentation labeling, boundary set, or region hierarchy.'
+extracted_algorithm_summary: 'Geman and Geman Markov random fields is treated as the named AlgorithmWiki variant for partition an image into coherent regions or labels Classical complexity metadata: time O(n^2). Public metadata/source title support includes Geman.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

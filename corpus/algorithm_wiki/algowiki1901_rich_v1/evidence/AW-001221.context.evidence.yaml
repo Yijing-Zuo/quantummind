@@ -1,0 +1,71 @@
+id: AW-001221
+kind: context
+algorithm_id: AW-001221
+algorithm_name: partitioned parallel radix (PPR) sort - Lee, Jeon, Sohn, Kim
+source_records:
+- access_status: metadata_only
+  digest: aa3e4f5897dfbd89
+  extracted_facts:
+  - 'AlgorithmWiki row name: partitioned parallel radix (PPR) sort - Lee, Jeon, Sohn, Kim'
+  - 'domain: sorting'
+  - 'time complexity: ceilling(b/g) rounds'
+  - 'computational model: distributed-memory multiprocessors'
+  - 'parameter definitions: n: size of list, p: number of processors, b: number of bits in integer keys, g: group of bits used each round'
+  - 'precard summary: Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model. Baseline: time ceilling(b/g) rounds; work ceilling(b/g)*p + communication; processors p. Bottleneck: comparison, distribution, and full-output movement costs dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001221:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for partitioned parallel radix (PPR) sort - Lee, Jeon, Sohn, Kim
+  url: https://link.springer.com/chapter/10.1007/3-540-39999-2_14 (page 176 of pdf)
+- access_status: skipped
+  digest: 370d5dd1aae8d872
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:22b17b1b7a8dd6e4
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1007/3-540-39999-2_14
+- access_status: skipped
+  digest: 9927819b194e4c35
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:665dd080dc2ff577
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://link.springer.com/chapter/10.1007/3-540-39999-2_14 (page 176 of pdf)
+web_query_attempts:
+- method: search_plan
+  query: partitioned parallel radix (PPR) sort - Lee, Jeon, Sohn, Kim algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: partitioned parallel radix (PPR) sort - Lee, Jeon, Sohn, Kim algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: partitioned parallel radix (PPR) sort - Lee, Jeon, Sohn, Kim problem definition
+  status: recorded
+- method: search_plan
+  query: partitioned parallel radix (PPR) sort - Lee, Jeon, Sohn, Kim sorting algorithm
+  status: recorded
+- method: search_plan
+  query: partitioned parallel radix (PPR) sort - Lee, Jeon, Sohn, Kim site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: partitioned parallel radix (PPR) sort - Lee, Jeon, Sohn, Kim algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://link.springer.com/chapter/10.1007/3-540-39999-2_14 (page 176 of pdf)
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1007/3-540-39999-2_14
+  status: skipped
+- method: source_link_html_metadata
+  query: https://link.springer.com/chapter/10.1007/3-540-39999-2_14 (page 176 of pdf)
+  status: skipped
+extracted_problem_statement: 'partitioned parallel radix (PPR) sort - Lee, Jeon, Sohn, Kim is treated as a classical sorting task for rich AlgorithmWiki discovery. Problem/task: sort the input sequence using the named classical sorting method. Input semantics: A finite array or list of comparable keys or records. Output semantics: The same items returned in nondecreasing order, usually as a full reordered sequence.'
+extracted_algorithm_summary: 'partitioned parallel radix (PPR) sort - Lee, Jeon, Sohn, Kim is a sorting algorithm record. Classical complexity metadata: time ceilling(b/g) rounds; work ceilling(b/g)*p + communication; processors p. The stated classical model is distributed-memory multiprocessors. Public metadata/source text adds: partitioned parallel radix (PPR) sort - Lee, Jeon, Sohn, Kim sorting sorting n: size of list, p: number of processors, b: number of bits in integer keys, g: group of bits used each round ceilling(b/g) rounds Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

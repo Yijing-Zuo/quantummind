@@ -1,0 +1,72 @@
+id: AW-000969
+kind: context
+algorithm_id: AW-000969
+algorithm_name: Harel, Tarjan [Static Trees]
+source_records:
+- access_status: metadata_only
+  digest: 352571e24f4a931e
+  extracted_facts:
+  - 'AlgorithmWiki row name: Harel, Tarjan [Static Trees]'
+  - 'domain: graph'
+  - 'time complexity: O(n+m)'
+  - 'space complexity: O(n)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of vertices, m: number of total number of operations (queries, links, and cuts)'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(n+m); space O(n). Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000969:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Harel, Tarjan [Static Trees]
+  url: https://www.semanticscholar.org/paper/Fast-Algorithms-for-Finding-Nearest-Common-Harel-Tarjan/8867d059dda279b1aed4a0301e4e46f9daf65174
+- access_status: skipped
+  digest: 35935cfb680aff11
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:f376a089f8e2a3fc
+  source_type: other_public_source
+  title: fetch budget exhausted
+  url: https://www.semanticscholar.org/paper/Fast-Algorithms-for-Finding-Nearest-Common-Harel-Tarjan/8867d059dda279b1aed4a0301e4e46f9daf65174
+- access_status: skipped
+  digest: d0dc26ff3629216e
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:8eccbcf897ae02b4
+  source_type: wikipedia
+  title: fetch budget exhausted
+  url: https://en.wikipedia.org/wiki/Harel%2C_Tarjan_%5BStatic_Trees%5D
+web_query_attempts:
+- method: search_plan
+  query: Harel, Tarjan [Static Trees] algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Harel, Tarjan [Static Trees] algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Harel, Tarjan [Static Trees] problem definition
+  status: recorded
+- method: search_plan
+  query: Harel, Tarjan [Static Trees] graph algorithm
+  status: recorded
+- method: search_plan
+  query: Harel, Tarjan [Static Trees] site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Harel, Tarjan [Static Trees] algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://www.semanticscholar.org/paper/Fast-Algorithms-for-Finding-Nearest-Common-Harel-Tarjan/8867d059dda279b1aed4a0301e4e46f9daf65174
+  status: recorded
+- method: source_link_html_metadata
+  query: https://www.semanticscholar.org/paper/Fast-Algorithms-for-Finding-Nearest-Common-Harel-Tarjan/8867d059dda279b1aed4a0301e4e46f9daf65174
+  status: skipped
+- method: wikipedia_summary_search
+  query: Harel, Tarjan [Static Trees] algorithm
+  status: skipped
+extracted_problem_statement: 'Harel, Tarjan [Static Trees] is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Harel, Tarjan [Static Trees]. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'Harel, Tarjan [Static Trees] is a graph algorithm record. Classical complexity metadata: time O(n+m); space O(n). The stated classical model is Word RAM. Public metadata/source text adds: Harel, Tarjan [Static Trees] graph graph n: number of vertices, m: number of total number of operations (queries, links, and cuts) O(n+m) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

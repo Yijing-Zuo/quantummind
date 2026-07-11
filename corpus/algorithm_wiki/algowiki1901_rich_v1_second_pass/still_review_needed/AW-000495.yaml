@@ -1,0 +1,46 @@
+algorithm_id: AW-000495
+canonical_name: Wang-Zhu-Cantor additive FFT
+enrichment_status: SECOND_PASS_INSUFFICIENT
+review_reasons:
+- No second-pass rule could identify source-backed task semantics.
+source_records:
+- access_status: metadata_only
+  digest: 016b7992af0bb0ce
+  extracted_facts:
+  - 'AlgorithmWiki row name: Wang-Zhu-Cantor additive FFT'
+  - 'domain: unknown'
+  - 'time complexity: O(n(\log n)^{1.585})'
+  - 'space complexity: O(n)'
+  - 'computational model: Word/Real RAM'
+  - 'parameter definitions: n: length of the input data set'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000495:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Wang-Zhu-Cantor additive FFT
+  url: https://ieeexplore.ieee.org/document/1926/
+- access_status: fetched
+  digest: ee3328a27d6b7556
+  extracted_facts:
+  - 'source page title: https://ieeexplore.ieee.org/document/1926/'
+  - 'source page description: In order to continue, we need to verify that you''re not a robot.'
+  reliability: HIGH
+  short_quote: In order to continue, we need to verify that you're not a robot.
+  source_id: source:03a6ee16f6e4595b
+  source_type: publisher_abstract
+  title: https://ieeexplore.ieee.org/document/1926/
+  url: https://ieeexplore.ieee.org/document/1926/
+- source_id: crossref_search:51630d2aa1ea05c5
+  url: https://doi.org/10.5860/choice.47-6268
+  title: IEEExplore Digital Library
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: IEEExplore Digital Library'
+  short_quote: ''
+  digest: cbd5be1928dcfe14
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

@@ -1,0 +1,59 @@
+id: AW-000176-P0137
+kind: probe
+algorithm_id: AW-000176
+algorithm_name: CHAZELLE
+source_records:
+- access_status: metadata_only
+  digest: 549c8da0985a181a
+  extracted_facts:
+  - 'AlgorithmWiki row name: CHAZELLE'
+  - 'domain: computational_geometry'
+  - 'time complexity: O(n\log^2(n)/(\log \log n) + k)'
+  - 'space complexity: O(n+k)'
+  - 'computational model: Real RAM'
+  - 'parameter definitions: n: number of line segments, k: number of points of intersection'
+  - 'precard summary: Given explicit geometric objects such as points, segments, or polygons, compute the requested geometric structure or witness set. Baseline: time O(n\log^2(n)/(\log \log n) + k); space O(n+k). Bottleneck: geometric predicates, ordering events, and output-sensitive structure size dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000176:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for CHAZELLE
+  url: https://www.sciencedirect.com/science/article/pii/0022000086900255
+- access_status: failed
+  digest: a4a75270616bf9e1
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:f3e4257f4237f675
+  source_type: publisher_abstract
+  title: 'HTTP Error 403: Forbidden'
+  url: https://www.sciencedirect.com/science/article/pii/0022000086900255
+web_query_attempts:
+- method: search_plan
+  query: CHAZELLE algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: CHAZELLE algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: CHAZELLE problem definition
+  status: recorded
+- method: search_plan
+  query: CHAZELLE computational geometry algorithm
+  status: recorded
+- method: search_plan
+  query: CHAZELLE site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: CHAZELLE algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://www.sciencedirect.com/science/article/pii/0022000086900255
+  status: recorded
+- method: source_link_html_metadata
+  query: https://www.sciencedirect.com/science/article/pii/0022000086900255
+  status: failed
+extracted_problem_statement: 'CHAZELLE is treated as a classical computational geometry task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with CHAZELLE. Input semantics: Explicit geometric objects such as points, line segments, polygons, or planar subdivisions. Output semantics: The requested geometric structure, simplified curve, clipping result, intersection set, hull, or diagram.'
+extracted_algorithm_summary: 'CHAZELLE is a computational geometry algorithm record. Classical complexity metadata: time O(n\log^2(n)/(\log \log n) + k); space O(n+k). The stated classical model is Real RAM. Public metadata/source text adds: CHAZELLE computational_geometry computational_geometry n: number of line segments, k: number of points of intersection O(n\log^2(n)/(\log \log n) + k) Given explicit geometric objects such as points, segments, or polygons, compute the requested geometric structure or witness set.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

@@ -1,0 +1,45 @@
+{
+  "domain_counts": {
+    "combinatorics": 10,
+    "computational_geometry": 73,
+    "data_structures": 30,
+    "dynamic_programming": 16,
+    "graph": 444,
+    "image_processing": 24,
+    "matrix_linear_algebra": 97,
+    "numerical_analysis": 12,
+    "optimization": 6,
+    "parallel_algorithms": 354,
+    "randomized_sampling": 6,
+    "robotics": 2,
+    "sorting": 170,
+    "string": 112
+  },
+  "input_records": 1901,
+  "mode": "context",
+  "output_contract_counts": {
+    "approximation_solution": 6,
+    "assignment_or_schedule": 5,
+    "data_structure_output": 29,
+    "estimate": 13,
+    "full_classical_output": 97,
+    "full_sequence_output": 170,
+    "full_solution": 966,
+    "multiple_witnesses": 6,
+    "one_witness": 22,
+    "path_or_tree": 42
+  },
+  "ready_context_count": 1356,
+  "review_needed_after_web_count": 545,
+  "review_reason_counts": {
+    "missing_algorithm_name": 1,
+    "missing_concrete_problem_statement": 530,
+    "missing_size_parameters": 51,
+    "public_leakage_term_in_name_or_statement": 3,
+    "unknown_access_model": 530,
+    "unknown_input_model": 527,
+    "unknown_output_contract": 519
+  },
+  "seed": 20260627,
+  "timestamp": "2026-06-28T15:54:40.675091+00:00"
+}

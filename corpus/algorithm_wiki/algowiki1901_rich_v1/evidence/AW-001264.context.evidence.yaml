@@ -1,0 +1,44 @@
+id: AW-001264
+kind: context
+algorithm_id: AW-001264
+algorithm_name: Fully Flexible Parallel Merge Sort - Marszalek, Wozniak, Polap
+source_records:
+- access_status: metadata_only
+  digest: 0526146849aecc95
+  extracted_facts:
+  - 'AlgorithmWiki row name: Fully Flexible Parallel Merge Sort - Marszalek, Wozniak, Polap'
+  - 'domain: sorting'
+  - 'computational model: CREW PRAM'
+  - 'parameter definitions: n: size of list, p: number of processors'
+  - 'precard summary: Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model. Baseline: work O(n \log^2(n)); span/depth O(log^2(n)); processors p. Bottleneck: comparison, distribution, and full-output movement costs dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001264:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Fully Flexible Parallel Merge Sort - Marszalek, Wozniak, Polap
+  url: https://downloads.hindawi.com/journals/complexity/2018/8679579.pdf
+web_query_attempts:
+- method: search_plan
+  query: Fully Flexible Parallel Merge Sort - Marszalek, Wozniak, Polap algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Fully Flexible Parallel Merge Sort - Marszalek, Wozniak, Polap algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Fully Flexible Parallel Merge Sort - Marszalek, Wozniak, Polap problem definition
+  status: recorded
+- method: search_plan
+  query: Fully Flexible Parallel Merge Sort - Marszalek, Wozniak, Polap sorting algorithm
+  status: recorded
+- method: search_plan
+  query: Fully Flexible Parallel Merge Sort - Marszalek, Wozniak, Polap site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Fully Flexible Parallel Merge Sort - Marszalek, Wozniak, Polap algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://downloads.hindawi.com/journals/complexity/2018/8679579.pdf
+  status: recorded
+extracted_problem_statement: 'Fully Flexible Parallel Merge Sort - Marszalek, Wozniak, Polap is treated as a classical sorting task for rich AlgorithmWiki discovery. Problem/task: sort the input sequence using the named classical sorting method. Input semantics: A finite array or list of comparable keys or records. Output semantics: The same items returned in nondecreasing order, usually as a full reordered sequence.'
+extracted_algorithm_summary: 'Fully Flexible Parallel Merge Sort - Marszalek, Wozniak, Polap is a sorting algorithm record. Classical complexity metadata: work O(n \log^2(n)); span/depth O(log^2(n)); processors p. The stated classical model is CREW PRAM. Public metadata/source text adds: Fully Flexible Parallel Merge Sort - Marszalek, Wozniak, Polap sorting sorting n: size of list, p: number of processors Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

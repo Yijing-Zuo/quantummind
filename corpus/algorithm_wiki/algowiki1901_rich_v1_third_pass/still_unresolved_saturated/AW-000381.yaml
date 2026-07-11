@@ -1,0 +1,43 @@
+algorithm_id: AW-000381
+canonical_name: BartoBradtke & Singhe 1995
+enrichment_status: THIRD_PASS_SATURATED_INSUFFICIENT
+review_reasons:
+- After the configured source-family cycles, no source-backed concrete task, input semantics, output semantics, and conservative access model could be established.
+source_records:
+- access_status: metadata_only
+  digest: e0d3a17ed19f4a62
+  extracted_facts:
+  - 'AlgorithmWiki row name: BartoBradtke & Singhe 1995'
+  - 'domain: unknown'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000381:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for BartoBradtke & Singhe 1995
+  url: ''
+- access_status: fetched
+  digest: 93b38e851c67119f
+  extracted_facts:
+  - "Crossref title-search result: A spigot algorithm for the digits of \u03C0 (1995)"
+  reliability: MEDIUM
+  short_quote: ''
+  source_id: crossref_search:21e7849fd9a32b44
+  source_type: doi_metadata
+  title: "A spigot algorithm for the digits of \u03C0 (1995)"
+  url: https://doi.org/10.1007/978-3-319-32377-0_13
+- source_id: crossref_search:235f2b9c18f1bd6f
+  url: https://doi.org/10.2307/j.ctt1287bx8.8
+  title: "JANUARY 1995\u2013JUNE 1995"
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - "Crossref title: JANUARY 1995\u2013JUNE 1995"
+  - 'published year: 2017'
+  - 'container title: Pope John Paul II Speaks on Women'
+  short_quote: "Crossref title: JANUARY 1995\u2013JUNE 1995 published year: 2017 container title: Pope John Paul II Speaks on Women"
+  digest: d73fcdc3e88a67bf
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

@@ -1,0 +1,56 @@
+id: AW-001608
+kind: context
+algorithm_id: AW-001608
+algorithm_name: Bouillaguet, Zimmermann (GNFS with structured gaussian elimination as dimension/density reduction before iterative linear solver)
+source_records:
+- access_status: metadata_only
+  digest: 552fedf4628915d4
+  extracted_facts:
+  - 'AlgorithmWiki row name: Bouillaguet, Zimmermann (GNFS with structured gaussian elimination as dimension/density reduction before iterative linear solver)'
+  - 'domain: matrix_linear_algebra'
+  - 'parameter definitions: n: integer to be factorized'
+  - 'precard summary: Given one or more explicit dense matrices over the stated arithmetic domain, compute the matrix or linear-algebraic output specified by the record. Baseline: work L_n[1/3,(64/9)^(1/3)] = exp(((64/9)^(1/3)+o(1))(ln n)^(1/3)(ln ln n)^(2/3)); span/depth L_n[1/3,(8/9)^(1/3)] = exp(((8/9)^(1/3)+o(1))(ln n)^(1/3)(ln ln n)^(2/3)). Bottleneck: dense arithmetic and full matrix output dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001608:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Bouillaguet, Zimmermann (GNFS with structured gaussian elimination as dimension/density reduction before iterative linear solver)
+  url: https://inria.hal.science/hal-02098114/document
+- access_status: skipped
+  digest: 2a70fa764ea58250
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:209e1fd933f2f234
+  source_type: other_public_source
+  title: fetch budget exhausted
+  url: https://inria.hal.science/hal-02098114/document
+web_query_attempts:
+- method: search_plan
+  query: Bouillaguet, Zimmermann (GNFS with structured gaussian elimination as dimension/density reduction before iterative linear solver) algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Bouillaguet, Zimmermann (GNFS with structured gaussian elimination as dimension/density reduction before iterative linear solver) algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Bouillaguet, Zimmermann (GNFS with structured gaussian elimination as dimension/density reduction before iterative linear solver) problem definition
+  status: recorded
+- method: search_plan
+  query: Bouillaguet, Zimmermann (GNFS with structured gaussian elimination as dimension/density reduction before iterative linear solver) matrix linear algebra algorithm
+  status: recorded
+- method: search_plan
+  query: Bouillaguet, Zimmermann (GNFS with structured gaussian elimination as dimension/density reduction before iterative linear solver) site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Bouillaguet, Zimmermann (GNFS with structured gaussian elimination as dimension/density reduction before iterative linear solver) algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://inria.hal.science/hal-02098114/document
+  status: recorded
+- method: source_link_html_metadata
+  query: https://inria.hal.science/hal-02098114/document
+  status: skipped
+extracted_problem_statement: 'Bouillaguet, Zimmermann (GNFS with structured gaussian elimination as dimension/density reduction before iterative linear solver) is treated as a classical matrix linear algebra task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Bouillaguet, Zimmermann (GNFS with structured gaussian elimination as dimension/density reduction before iterative linear solver). Input semantics: One or more explicit matrices or linear systems over the stated arithmetic domain. Output semantics: A solved linear system, echelon form, inverse, or elimination-derived matrix output.'
+extracted_algorithm_summary: 'Bouillaguet, Zimmermann (GNFS with structured gaussian elimination as dimension/density reduction before iterative linear solver) is a matrix linear algebra algorithm record. Classical complexity metadata: work L_n[1/3,(64/9)^(1/3)] = exp(((64/9)^(1/3)+o(1))(ln n)^(1/3)(ln ln n)^(2/3)); span/depth L_n[1/3,(8/9)^(1/3)] = exp(((8/9)^(1/3)+o(1))(ln n)^(1/3)(ln ln n)^(2/3)). Public metadata/source text adds: Bouillaguet, Zimmermann (GNFS with structured gaussian elimination as dimension/density reduction before iterative linear solver) matrix_linear_algebra matrix_linear_algebra n: integer to be factorized Given one or more explicit dense matrices over the stated arithmetic domain, compute the matrix or linear-algebraic output specified by the record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

@@ -1,0 +1,58 @@
+id: AW-001244
+kind: context
+algorithm_id: AW-001244
+algorithm_name: Li, Peng, Chu
+source_records:
+- access_status: metadata_only
+  digest: 748d75a63eeefad7
+  extracted_facts:
+  - 'AlgorithmWiki row name: Li, Peng, Chu'
+  - 'domain: sorting'
+  - 'time complexity: O((m2^k)^2) computation + O((km2^k)^2) communication'
+  - 'computational model: Sorting Network, Recursive Dual-Net (RDN)'
+  - 'parameter definitions: size of list=number of nodes (processors) = 2^(2^k m + 2^k -1), m: dimension of base network (m-cube), k: number of levels in network'
+  - 'precard summary: Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model. Baseline: time O((m2^k)^2) computation + O((km2^k)^2) communication; work O((m2^k)^2)*2^(2^k m + 2^k -1) computation + O((km2^k)^2) communication; span/depth O((m2^k)^2) computation + O((km2^k)^2) communication; processors 2^(2^k m + 2^k -1). Bottleneck: comparison, distribution, and full-output movement costs dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001244:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Li, Peng, Chu
+  url: https://ieeexplore.ieee.org/abstract/document/5704410?casa_token=A6hsJa3ZVl4AAAAA:DOBWUTA6SbQNXTJyTP4P0DKDgGg4fsoyKlIXpqyFmlAXdaQPKxrP0-VaA1num5Kab4SOpEuoPg
+- access_status: skipped
+  digest: 7f3ea8ee6bda845b
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:da9ea459cb05b5ef
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://ieeexplore.ieee.org/abstract/document/5704410?casa_token=A6hsJa3ZVl4AAAAA:DOBWUTA6SbQNXTJyTP4P0DKDgGg4fsoyKlIXpqyFmlAXdaQPKxrP0-VaA1num5Kab4SOpEuoPg
+web_query_attempts:
+- method: search_plan
+  query: Li, Peng, Chu algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Li, Peng, Chu algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Li, Peng, Chu problem definition
+  status: recorded
+- method: search_plan
+  query: Li, Peng, Chu sorting algorithm
+  status: recorded
+- method: search_plan
+  query: Li, Peng, Chu site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Li, Peng, Chu algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://ieeexplore.ieee.org/abstract/document/5704410?casa_token=A6hsJa3ZVl4AAAAA:DOBWUTA6SbQNXTJyTP4P0DKDgGg4fsoyKlIXpqyFmlAXdaQPKxrP0-VaA1num5Kab4SOpEuoPg
+  status: recorded
+- method: source_link_html_metadata
+  query: https://ieeexplore.ieee.org/abstract/document/5704410?casa_token=A6hsJa3ZVl4AAAAA:DOBWUTA6SbQNXTJyTP4P0DKDgGg4fsoyKlIXpqyFmlAXdaQPKxrP0-VaA1num5Kab4SOpEuoPg
+  status: skipped
+extracted_problem_statement: 'Li, Peng, Chu is treated as a classical sorting task for rich AlgorithmWiki discovery. Problem/task: sort the input sequence using the named classical sorting method. Input semantics: A finite array or list of comparable keys or records. Output semantics: The same items returned in nondecreasing order, usually as a full reordered sequence.'
+extracted_algorithm_summary: 'Li, Peng, Chu is a sorting algorithm record. Classical complexity metadata: time O((m2^k)^2) computation + O((km2^k)^2) communication; work O((m2^k)^2)*2^(2^k m + 2^k -1) computation + O((km2^k)^2) communication; span/depth O((m2^k)^2) computation + O((km2^k)^2) communication; processors 2^(2^k m + 2^k -1). The stated classical model is Sorting Network, Recursive Dual-Net (RDN). Public metadata/source text adds: Li, Peng, Chu sorting sorting size of list=number of nodes (processors) = 2^(2^k m + 2^k -1), m: dimension of base network (m-cube), k: number of levels in network O((m2^k)^2) computation + O((km2^k)^2) communication Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

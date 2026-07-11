@@ -1,0 +1,12 @@
+statement: "Bellman dynamic programming algorithm is included as a named whole-algorithm context card for a classical dynamic programming task. The task is to analyze the classical input-output problem, not to certify an end-to-end improvement claim. Input semantics: A finite set or multiset of integers with a target sum parameter. Output semantics: A decision result, feasible subset witness, count, or optimized subset value for the target-sum instance, depending on the row. Classical algorithm summary: Bellman dynamic programming algorithm is a dynamic programming algorithm record. Classical complexity metadata: time O(nt); space O(t). The stated classical model is Word RAM. Public metadata/source text adds: Bellman dynamic programming algorithm dynamic_programming dynamic_programming n: the number of integers in the set, t: the target sum O(nt) Given an explicit instance with overlapping subproblem structure, compute the full classical solution or value targeted by the dynamic-programming\
+  \ recurrence. Classical steps or pseudocode-level structure: Define subproblems, evaluate recurrence transitions, store table values, and reconstruct the requested value or witness when applicable. Classical complexity recorded for this row: time O(nt); space O(t); computation model Word RAM. Dominant bottleneck: dominant bottleneck remains uncertain from the available public source metadata. The useful review questions are whether the named structure exposes a smaller decision, witness, estimation, or algebraic subproblem; whether the full output size dominates any asymptotic gain; and whether the stated access model is realistic for the original input. Provenance used for reconstruction includes public metadata or abstract sources such as Notes on the theory of dynamic programming IV \u2010 Maximization over discrete sets."
+input_model: explicit_dynamic_programming_problem
+access_model: offline_batch_queries
+output_contract: full_solution
+promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+size_parameters:
+- 'Parameter definition: n: the number of integers in the set, t: the target sum'
+ambiguities:
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.

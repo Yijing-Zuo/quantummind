@@ -1,0 +1,71 @@
+id: AW-001381
+kind: context_recovered
+algorithm_id: AW-001381
+algorithm_name: Lee, Aboelaze (Winograd's algorithm)
+source_records:
+- access_status: metadata_only
+  digest: c272a56ce884ac72
+  extracted_facts:
+  - 'AlgorithmWiki row name: Lee, Aboelaze (Winograd''s algorithm)'
+  - 'domain: unknown'
+  - 'time complexity: O(n^2)'
+  - 'computational model: array processor (distributed memory SIMD)'
+  - 'parameter definitions: nxn: size of matrices being multiplied'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001381:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Lee, Aboelaze (Winograd's algorithm)
+  url: http://www.cse.yorku.ca/~aboelaze/publication/LeA91.pdf
+- access_status: skipped
+  digest: 4380c7c2564e136e
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:3592feee324c14bc
+  source_type: wikipedia
+  title: fetch budget exhausted
+  url: https://en.wikipedia.org/wiki/Lee%2C_Aboelaze_%28Winograd%27s_algorithm%29
+- source_id: crossref_search:0b18e1bdccf3f416
+  url: https://doi.org/10.1109/npc.2007.32
+  title: An optimal algorithm to fetch DHT routable
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: An optimal algorithm to fetch DHT routable'
+  short_quote: ''
+  digest: eac65bcac63f65f8
+web_query_attempts:
+- query: '"Lee, Aboelaze (Winograd''s algorithm)" algorithm'
+  method: search_plan
+  status: recorded
+- query: '"Lee, Aboelaze (Winograd''s algorithm)" input output'
+  method: search_plan
+  status: recorded
+- query: '"Lee, Aboelaze (Winograd''s algorithm)" time complexity'
+  method: search_plan
+  status: recorded
+- query: '"Lee, Aboelaze (Winograd''s algorithm)" pseudocode'
+  method: search_plan
+  status: recorded
+- query: '"Lee, Aboelaze (Winograd''s algorithm)" problem'
+  method: search_plan
+  status: recorded
+- query: '"Lee, Aboelaze (Winograd''s algorithm)" PDF metadata abstract'
+  method: search_plan
+  status: recorded
+- query: '"fetch budget exhausted" algorithm'
+  method: search_plan
+  status: recorded
+- query: http://www.cse.yorku.ca/~aboelaze/publication/LeA91.pdf
+  method: search_plan
+  status: recorded
+- query: fetch budget exhausted algorithm
+  method: crossref_title_search
+  status: fetched
+extracted_problem_statement: 'Lee, Aboelaze (Winograd''s algorithm) is reconstructed as a classical image processing task. Problem/task: compute shaded/rendered image values from a geometric scene and illumination model Input semantics: Scene geometry, material parameters, lights, camera/view information, and image resolution. Output semantics: Rendered pixel colors or intermediate shading/visibility values.'
+extracted_algorithm_summary: 'Lee, Aboelaze (Winograd''s algorithm) is treated as the named AlgorithmWiki variant for compute shaded/rendered image values from a geometric scene and illumination model Classical complexity metadata: time O(n^2); work O(n^3); span/depth O(n^2). Public metadata/source title support includes An optimal algorithm to fetch DHT routable.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

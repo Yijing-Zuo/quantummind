@@ -1,0 +1,512 @@
+algorithm_id: AW-001356
+canonical_name: Ballard (CAPS) (same as 2012 paper)
+original_source_link: https://www.proquest.com/docview/1526399338?pq-origsite=gscholar&fromopenview=true
+source_link_type: unknown
+previous_failure_reasons:
+- No second-pass rule could identify source-backed task semantics.
+previous_source_records:
+- access_status: metadata_only
+  digest: 883788d89825d238
+  extracted_facts:
+  - 'AlgorithmWiki row name: Ballard (CAPS) (same as 2012 paper)'
+  - 'domain: unknown'
+  - 'time complexity: O(n^{\log 7}/P)'
+  - 'computational model: distributed memory, message passing'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001356:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Ballard (CAPS) (same as 2012 paper)
+  url: https://www.proquest.com/docview/1526399338?pq-origsite=gscholar&fromopenview=true
+- access_status: skipped
+  digest: 81e6e1a98dc77962
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:ca0e5a2efb46be2e
+  source_type: other_public_source
+  title: fetch budget exhausted
+  url: https://www.proquest.com/docview/1526399338?pq-origsite=gscholar&fromopenview=true
+- access_status: fetched
+  digest: eac65bcac63f65f8
+  extracted_facts:
+  - 'Crossref title-search result: An optimal algorithm to fetch DHT routable'
+  reliability: MEDIUM
+  short_quote: ''
+  source_id: crossref_search:0b18e1bdccf3f416
+  source_type: doi_metadata
+  title: An optimal algorithm to fetch DHT routable
+  url: https://doi.org/10.1109/npc.2007.32
+aliases_tried:
+- Ballard (CAPS) (same as 2012 paper)
+- Ballard
+- Ballard (CAPS) (same as 2012 paper) algorithm
+- Ballard (CAPS) (same as 2012 paper) problem
+- Ballard (CAPS) (same as 2012 paper) pseudocode
+- Ballard (CAPS) (same as 2012 paper) time complexity
+- fetch budget exhausted
+- fetch budget exhausted algorithm
+- fetch budget exhausted complexity
+- An optimal algorithm to fetch DHT routable
+- An optimal algorithm to fetch DHT routable algorithm
+- An optimal algorithm to fetch DHT routable complexity
+query_plan:
+- source_family: original_source
+  primary_query: Ballard (CAPS) (same as 2012 paper)
+  applicability: applicable
+  purpose: check the row's original source link without storing paywalled or PDF bodies
+- source_family: crossref
+  primary_query: Ballard (CAPS) (same as 2012 paper)
+  applicability: title-search-only
+  purpose: recover DOI title, venue, year, and abstract metadata where available
+- source_family: openalex
+  primary_query: Ballard (CAPS) (same as 2012 paper)
+  applicability: applicable
+  purpose: recover public work metadata and abstract-inverted-index summaries
+- source_family: semantic_scholar
+  primary_query: Ballard (CAPS) (same as 2012 paper)
+  applicability: applicable
+  purpose: recover CS paper metadata and abstracts without an API key
+- source_family: arxiv
+  primary_query: Ballard (CAPS) (same as 2012 paper)
+  applicability: title-search-only
+  purpose: recover arXiv title and abstract metadata
+- source_family: dblp
+  primary_query: Ballard (CAPS) (same as 2012 paper)
+  applicability: applicable
+  purpose: recover bibliographic title/venue metadata for CS publications
+- source_family: publisher_abstract
+  primary_query: Ballard (CAPS) (same as 2012 paper)
+  applicability: applicable
+  purpose: check accessible publisher abstract pages
+- source_family: citeseerx
+  primary_query: Ballard (CAPS) (same as 2012 paper)
+  applicability: applicable
+  purpose: record legacy CiteSeerX availability without full PDF storage
+- source_family: wikipedia
+  primary_query: Ballard (CAPS) (same as 2012 paper)
+  applicability: applicable
+  purpose: check public encyclopedia algorithm descriptions
+- source_family: wikidata
+  primary_query: Ballard (CAPS) (same as 2012 paper)
+  applicability: applicable
+  purpose: check public entity aliases/descriptions
+- source_family: nist_dads
+  primary_query: Ballard (CAPS) (same as 2012 paper)
+  applicability: applicable
+  purpose: check whether a DADS-style reference search is applicable
+- source_family: algorithm_wiki_local
+  primary_query: Ballard (CAPS) (same as 2012 paper)
+  applicability: applicable
+  purpose: reuse AlgorithmWiki metadata as provenance
+- source_family: the_algorithms
+  primary_query: Ballard (CAPS) (same as 2012 paper)
+  applicability: applicable
+  purpose: check exact public implementation/reference names when available
+- source_family: cp_algorithms
+  primary_query: Ballard (CAPS) (same as 2012 paper)
+  applicability: applicable
+  purpose: check exact public algorithm reference names when available
+- source_family: course_notes
+  primary_query: Ballard (CAPS) (same as 2012 paper)
+  applicability: applicable
+  purpose: record absence of configured course-notes search
+- source_family: general_web_search
+  primary_query: Ballard (CAPS) (same as 2012 paper)
+  applicability: applicable
+  purpose: record absence of a configured general web endpoint
+- source_family: local_previous_cache
+  primary_query: Ballard (CAPS) (same as 2012 paper)
+  applicability: applicable
+  purpose: reuse v1/second-pass fetched source records
+query_attempts:
+- &id001
+  cycle: 1
+  query: Ballard (CAPS) (same as 2012 paper)
+  source_family: algorithm_wiki_local
+  url_or_api_endpoint: https://www.proquest.com/docview/1526399338?pq-origsite=gscholar&fromopenview=true
+  status: fetched
+  new_facts_added: 7
+  reason: local metadata
+- &id002
+  cycle: 1
+  query: Ballard (CAPS) (same as 2012 paper)
+  source_family: local_previous_cache
+  url_or_api_endpoint: ''
+  status: duplicate
+  new_facts_added: 0
+  reason: previous v1/second-pass sources reused
+- &id003
+  cycle: 1
+  query: https://www.proquest.com/docview/1526399338?pq-origsite=gscholar&fromopenview=true
+  source_family: original_source
+  url_or_api_endpoint: https://www.proquest.com/docview/1526399338?pq-origsite=gscholar&fromopenview=true
+  status: irrelevant
+  new_facts_added: 4
+  reason: original source page metadata
+- &id004
+  cycle: 1
+  query: Ballard (CAPS) (same as 2012 paper)
+  source_family: crossref
+  url_or_api_endpoint: https://doi.org/10.22621/cfn.v126i1.1316
+  status: irrelevant
+  new_facts_added: 0
+  reason: Crossref metadata/title search
+- &id005
+  cycle: 1
+  query: Ballard (CAPS) (same as 2012 paper)
+  source_family: arxiv
+  url_or_api_endpoint: https://export.arxiv.org/api/query?max_results=1&search_query=ti:%22Ballard+%28CAPS%29+%28same+as+2012+paper%29%22
+  status: no_result
+  new_facts_added: 0
+  reason: arXiv title search returned no usable entry
+- &id006
+  cycle: 1
+  query: Ballard (CAPS) (same as 2012 paper)
+  source_family: wikipedia
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: Wikipedia search returned no relevant page
+- &id007
+  cycle: 2
+  query: Ballard (CAPS) (same as 2012 paper)
+  source_family: openalex
+  url_or_api_endpoint: https://api.openalex.org/works?per-page=1&search=Ballard+%28CAPS%29+%28same+as+2012+paper%29
+  status: no_result
+  new_facts_added: 0
+  reason: OpenAlex returned no usable work
+- &id008
+  cycle: 2
+  query: Ballard (CAPS) (same as 2012 paper)
+  source_family: semantic_scholar
+  url_or_api_endpoint: https://api.semanticscholar.org/graph/v1/paper/search?limit=1&fields=title,abstract,year,url,externalIds&query=Ballard+%28CAPS%29+%28same+as+2012+paper%29
+  status: fetch_failed
+  new_facts_added: 0
+  reason: Semantic Scholar returned no usable paper
+- &id009
+  cycle: 2
+  query: Ballard (CAPS) (same as 2012 paper)
+  source_family: dblp
+  url_or_api_endpoint: https://dblp.org/search/publ/api?format=json&h=1&q=Ballard+%28CAPS%29+%28same+as+2012+paper%29
+  status: no_result
+  new_facts_added: 0
+  reason: DBLP returned no usable publication
+- &id010
+  cycle: 2
+  query: https://www.proquest.com/docview/1526399338?pq-origsite=gscholar&fromopenview=true
+  source_family: original_source
+  url_or_api_endpoint: https://www.proquest.com/docview/1526399338?pq-origsite=gscholar&fromopenview=true
+  status: irrelevant
+  new_facts_added: 4
+  reason: original source page metadata
+- &id011
+  cycle: 2
+  query: Ballard (CAPS) (same as 2012 paper)
+  source_family: wikidata
+  url_or_api_endpoint: https://www.wikidata.org/w/api.php?action=wbsearchentities&language=en&format=json&limit=1&search=Ballard+%28CAPS%29+%28same+as+2012+paper%29
+  status: no_result
+  new_facts_added: 0
+  reason: Wikidata returned no entity
+- &id012
+  cycle: 3
+  query: Ballard (CAPS) (same as 2012 paper)
+  source_family: citeseerx
+  url_or_api_endpoint: ''
+  status: paywalled
+  new_facts_added: 0
+  reason: CiteSeerX link is PDF/legacy metadata; full PDF body skipped
+- &id013
+  cycle: 3
+  query: Ballard (CAPS) (same as 2012 paper)
+  source_family: nist_dads
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: NIST DADS has no reliable bulk search API in this environment
+- &id014
+  cycle: 3
+  query: Ballard (CAPS) (same as 2012 paper)
+  source_family: the_algorithms
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: TheAlgorithms search skipped unless a known exact reference is available
+- &id015
+  cycle: 3
+  query: Ballard (CAPS) (same as 2012 paper)
+  source_family: cp_algorithms
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: CP-Algorithms search skipped unless a known exact reference is available
+- &id016
+  cycle: 3
+  query: Ballard (CAPS) (same as 2012 paper)
+  source_family: course_notes
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: No configured public course-notes search endpoint
+- &id017
+  cycle: 3
+  query: Ballard (CAPS) (same as 2012 paper)
+  source_family: general_web_search
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: No configured general web search endpoint; Google Scholar scraping is not used
+source_attempts:
+- *id001
+- *id002
+- *id003
+- *id004
+- *id005
+- *id006
+- *id007
+- *id008
+- *id009
+- *id010
+- *id011
+- *id012
+- *id013
+- *id014
+- *id015
+- *id016
+- *id017
+discovered_sources:
+- source_id: source:e53dd41bb2005962
+  url: https://www.proquest.com/docview/1526399338?pq-origsite=gscholar&fromopenview=true
+  title: Avoiding Communication in Dense Linear Algebra - ProQuest
+  source_type: publisher_abstract
+  access_status: fetched
+  reliability: LOW
+  extracted_facts:
+  - Avoiding Communication in Dense Linear Algebra - ProQuest
+  - "e Linear Algebra - ProQuest You shouldn't see this Skip to main content ProQuest Select language \xD7 \u0627\u0644\u0639\u0631\u0628\u064A\u0629 Az\u0259rbaycan Bahasa Indonesia \u010Ce\u0161tina Deutsch Espa\xF1ol Fran\xE7ais \uD55C\uAD6D\uC5B4 Italiano Magyar \u65E5\u672C\u8A9E Norsk Polski Portugu\xEAs (Brasil) Portugu\xEAs (Portugal) \u0420\u0443\u0441\u0441\u043A\u0438\u0439 \u0E44\u0E17\u0E22 T\xFCrk\xE7e \u4E2D\u6587(\u7B80\u4F53)\u200E \u4E2D\u6587(\u7E41\u9AD4)\u200E Document Preview Copyright information Database copyright ProQuest LLC; ProQuest does not claim copyright in the individual underlying works."
+  short_quote: Avoiding Communication in Dense Linear Algebra - ProQuest e Linear Algebra - ProQuest You shouldn't see this Skip to main content ProQuest Select language
+  digest: a4ec0c7bfce91a39
+- source_id: crossref_search:025b49d56618b797
+  url: https://doi.org/10.22621/cfn.v126i1.1316
+  title: "Dr. Warren Baxter Ballard, Jr. 1947\u20132012"
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - "Crossref title: Dr. Warren Baxter Ballard, Jr. 1947\u20132012"
+  - 'published year: 2012'
+  - 'container title: The Canadian Field-Naturalist'
+  short_quote: "Crossref title: Dr. Warren Baxter Ballard, Jr. 1947\u20132012 published year: 2012 container title: The Canadian Field-Naturalist"
+  digest: 3291ada69dac9c28
+discovered_facts:
+- fact_id: AW-001356-F940642ebe5
+  fact_type: alias
+  value: Ballard (CAPS) (same as 2012 paper)
+  source_id: AW-001356:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: AlgorithmWiki metadata
+- fact_id: AW-001356-Ffb1c3dfc0e
+  fact_type: time_complexity
+  value: O(n^{\log 7}/P)
+  source_id: AW-001356:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: AlgorithmWiki metadata
+- fact_id: AW-001356-Fd24b031d91
+  fact_type: computation_model
+  value: distributed memory, message passing
+  source_id: AW-001356:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: AlgorithmWiki metadata
+- fact_id: AW-001356-F77c94e7ab0
+  fact_type: authoritative_source_link
+  value: https://www.proquest.com/docview/1526399338?pq-origsite=gscholar&fromopenview=true
+  source_id: AW-001356:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 70
+  conflict_status: consistent
+  notes: Original source link from AlgorithmWiki metadata
+- fact_id: AW-001356-Fb3dd3b44f1
+  fact_type: source_title
+  value: AlgorithmWiki metadata for Ballard (CAPS) (same as 2012 paper)
+  source_id: AW-001356:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-001356-F303b935aba
+  fact_type: problem_definition
+  value: 'Source title indicates: AlgorithmWiki metadata for Ballard (CAPS) (same as 2012 paper)'
+  source_id: AW-001356:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: weak
+  notes: previous_source_record
+- fact_id: AW-001356-F2cc31a510f
+  fact_type: problem_definition
+  value: 'AlgorithmWiki row name: Ballard (CAPS) (same as 2012 paper)'
+  source_id: AW-001356:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-001356-Fc89e91badf
+  fact_type: problem_definition
+  value: 'domain: unknown'
+  source_id: AW-001356:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-001356-F531c2705ef
+  fact_type: time_complexity
+  value: 'time complexity: O(n^{\log 7}/P)'
+  source_id: AW-001356:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-001356-Fb47f4cce46
+  fact_type: computation_model
+  value: 'computational model: distributed memory, message passing'
+  source_id: AW-001356:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-001356-F803a27511a
+  fact_type: problem_definition
+  value: 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  source_id: AW-001356:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-001356-F177df22d51
+  fact_type: source_title
+  value: fetch budget exhausted
+  source_id: skipped:ca0e5a2efb46be2e
+  reliability: LOW
+  confidence: 45
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-001356-F07ef2586ce
+  fact_type: source_title
+  value: An optimal algorithm to fetch DHT routable
+  source_id: crossref_search:0b18e1bdccf3f416
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-001356-F2e2911bb49
+  fact_type: problem_definition
+  value: 'Source title indicates: An optimal algorithm to fetch DHT routable'
+  source_id: crossref_search:0b18e1bdccf3f416
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: weak
+  notes: previous_source_record
+- fact_id: AW-001356-Fb8080bd214
+  fact_type: problem_definition
+  value: 'Crossref title-search result: An optimal algorithm to fetch DHT routable'
+  source_id: crossref_search:0b18e1bdccf3f416
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-001356-Fbe5d46ce2e
+  fact_type: authoritative_source_link
+  value: https://doi.org/10.1109/npc.2007.32
+  source_id: crossref_search:0b18e1bdccf3f416
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-001356-F8533862d48
+  fact_type: source_title
+  value: Avoiding Communication in Dense Linear Algebra - ProQuest
+  source_id: source:e53dd41bb2005962
+  reliability: LOW
+  confidence: 45
+  conflict_status: consistent
+  notes: original_source
+- fact_id: AW-001356-F115b841d6b
+  fact_type: problem_definition
+  value: 'Source title indicates: Avoiding Communication in Dense Linear Algebra - ProQuest'
+  source_id: source:e53dd41bb2005962
+  reliability: LOW
+  confidence: 45
+  conflict_status: weak
+  notes: original_source
+- fact_id: AW-001356-F51f38a4f42
+  fact_type: problem_definition
+  value: "e Linear Algebra - ProQuest You shouldn't see this Skip to main content ProQuest Select language \xD7 \u0627\u0644\u0639\u0631\u0628\u064A\u0629 Az\u0259rbaycan Bahasa Indonesia \u010Ce\u0161tina Deutsch Espa\xF1ol Fran\xE7ais \uD55C\uAD6D\uC5B4 Italiano Magyar \u65E5\u672C\u8A9E Norsk Polski Portugu\xEAs (Brasil) Portugu\xEAs (Portugal) \u0420\u0443\u0441\u0441\u043A\u0438\u0439 \u0E44\u0E17\u0E22 T\xFCrk\xE7e \u4E2D\u6587(\u7B80\u4F53)\u200E \u4E2D\u6587(\u7E41\u9AD4)\u200E Document Preview Copyright information Database copyright ProQuest LLC; ProQuest does not claim copyright in the individual underlying works."
+  source_id: source:e53dd41bb2005962
+  reliability: LOW
+  confidence: 45
+  conflict_status: consistent
+  notes: original_source
+duplicate_sources:
+- source_id: AW-001356:algorithm_wiki_metadata
+  url: https://www.proquest.com/docview/1526399338?pq-origsite=gscholar&fromopenview=true
+  title: AlgorithmWiki metadata for Ballard (CAPS) (same as 2012 paper)
+  source_type: algorithm_wiki
+  access_status: metadata_only
+  reliability: HIGH
+  extracted_facts:
+  - 'AlgorithmWiki row name: Ballard (CAPS) (same as 2012 paper)'
+  - 'domain: unknown'
+  - 'time complexity: O(n^{\log 7}/P)'
+  - 'computational model: distributed memory, message passing'
+  short_quote: ''
+  digest: 476c2a64e2ebed8d
+- source_id: source:e53dd41bb2005962
+  url: https://www.proquest.com/docview/1526399338?pq-origsite=gscholar&fromopenview=true
+  title: Avoiding Communication in Dense Linear Algebra - ProQuest
+  source_type: publisher_abstract
+  access_status: fetched
+  reliability: LOW
+  extracted_facts:
+  - Avoiding Communication in Dense Linear Algebra - ProQuest
+  - "e Linear Algebra - ProQuest You shouldn't see this Skip to main content ProQuest Select language \xD7 \u0627\u0644\u0639\u0631\u0628\u064A\u0629 Az\u0259rbaycan Bahasa Indonesia \u010Ce\u0161tina Deutsch Espa\xF1ol Fran\xE7ais \uD55C\uAD6D\uC5B4 Italiano Magyar \u65E5\u672C\u8A9E Norsk Polski Portugu\xEAs (Brasil) Portugu\xEAs (Portugal) \u0420\u0443\u0441\u0441\u043A\u0438\u0439 \u0E44\u0E17\u0E22 T\xFCrk\xE7e \u4E2D\u6587(\u7B80\u4F53)\u200E \u4E2D\u6587(\u7E41\u9AD4)\u200E Document Preview Copyright information Database copyright ProQuest LLC; ProQuest does not claim copyright in the individual underlying works."
+  short_quote: Avoiding Communication in Dense Linear Algebra - ProQuest e Linear Algebra - ProQuest You shouldn't see this Skip to main content ProQuest Select language
+  digest: a4ec0c7bfce91a39
+failed_sources: []
+paywalled_or_skipped_sources: []
+source_families_covered:
+- algorithm_wiki_local
+- local_previous_cache
+- original_source
+- crossref
+- arxiv
+- wikipedia
+- openalex
+- semantic_scholar
+- dblp
+- publisher_abstract
+- wikidata
+- citeseerx
+- nist_dads
+- the_algorithms
+- cp_algorithms
+- course_notes
+- general_web_search
+cycles_completed: 3
+new_fact_count_by_cycle:
+- cycle: 1
+  new_facts: 3
+- cycle: 2
+  new_facts: 0
+- cycle: 3
+  new_facts: 0
+no_new_fact_streak: 2
+saturation_status: DUPLICATE_OR_VARIANT_ONLY
+final_reason: After the configured source-family cycles, no source-backed concrete task, input semantics, output semantics, and conservative access model could be established.
+next_manual_action: Manual curator should compare against the recovered parent before merging variants.

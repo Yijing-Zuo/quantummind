@@ -1,0 +1,615 @@
+algorithm_id: AW-000796
+canonical_name: Chubby (Mike Burrows)
+original_source_link: https://dl.acm.org/doi/10.5555/1298455.1298487
+source_link_type: acm
+previous_failure_reasons:
+- No second-pass rule could identify source-backed task semantics.
+previous_source_records:
+- access_status: metadata_only
+  digest: 9cc6083228f4e20d
+  extracted_facts:
+  - 'AlgorithmWiki row name: Chubby (Mike Burrows)'
+  - 'domain: unknown'
+  - 'time complexity: O(n)'
+  - 'space complexity: O(f)'
+  - 'parameter definitions: n: number of clients, f: number of files'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000796:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Chubby (Mike Burrows)
+  url: https://dl.acm.org/doi/10.5555/1298455.1298487
+- access_status: failed
+  digest: 29f842b841673757
+  extracted_facts:
+  - 'HTTP Error 404: Not Found'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:43db333be4bb19f5
+  source_type: doi_metadata
+  title: 'HTTP Error 404: Not Found'
+  url: https://doi.org/10.5555/1298455.1298487
+- access_status: failed
+  digest: b66ed5d7841539ae
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:4168e4775f84d2db
+  source_type: publisher_abstract
+  title: 'HTTP Error 403: Forbidden'
+  url: https://dl.acm.org/doi/10.5555/1298455.1298487
+- access_status: fetched
+  digest: b52d04798966a255
+  extracted_facts:
+  - "Crossref title-search result: Burrows, Michael [Mike] (1943\u20132022), engineer and cycle designer"
+  reliability: MEDIUM
+  short_quote: ''
+  source_id: crossref_search:76082d59fb7708c6
+  source_type: doi_metadata
+  title: "Burrows, Michael [Mike] (1943\u20132022), engineer and cycle designer"
+  url: https://doi.org/10.1093/odnb/9780198614128.013.90000383058
+aliases_tried:
+- Chubby (Mike Burrows)
+- Chubby
+- Chubby (Mike Burrows) algorithm
+- Chubby (Mike Burrows) problem
+- Chubby (Mike Burrows) pseudocode
+- Chubby (Mike Burrows) time complexity
+- "Burrows, Michael [Mike] (1943\u20132022), engineer and cycle designer"
+- "Burrows, Michael [Mike] (1943\u20132022), engineer and cycle designer algorithm"
+- "Burrows, Michael [Mike] (1943\u20132022), engineer and cycle designer complexity"
+- 10.5555/1298455.1298487
+query_plan:
+- source_family: original_source
+  primary_query: Chubby (Mike Burrows)
+  applicability: applicable
+  purpose: check the row's original source link without storing paywalled or PDF bodies
+- source_family: crossref
+  primary_query: Chubby (Mike Burrows)
+  applicability: applicable
+  purpose: recover DOI title, venue, year, and abstract metadata where available
+- source_family: openalex
+  primary_query: Chubby (Mike Burrows)
+  applicability: applicable
+  purpose: recover public work metadata and abstract-inverted-index summaries
+- source_family: semantic_scholar
+  primary_query: Chubby (Mike Burrows)
+  applicability: applicable
+  purpose: recover CS paper metadata and abstracts without an API key
+- source_family: arxiv
+  primary_query: Chubby (Mike Burrows)
+  applicability: title-search-only
+  purpose: recover arXiv title and abstract metadata
+- source_family: dblp
+  primary_query: Chubby (Mike Burrows)
+  applicability: applicable
+  purpose: recover bibliographic title/venue metadata for CS publications
+- source_family: publisher_abstract
+  primary_query: Chubby (Mike Burrows)
+  applicability: applicable
+  purpose: check accessible publisher abstract pages
+- source_family: citeseerx
+  primary_query: Chubby (Mike Burrows)
+  applicability: applicable
+  purpose: record legacy CiteSeerX availability without full PDF storage
+- source_family: wikipedia
+  primary_query: Chubby (Mike Burrows)
+  applicability: applicable
+  purpose: check public encyclopedia algorithm descriptions
+- source_family: wikidata
+  primary_query: Chubby (Mike Burrows)
+  applicability: applicable
+  purpose: check public entity aliases/descriptions
+- source_family: nist_dads
+  primary_query: Chubby (Mike Burrows)
+  applicability: applicable
+  purpose: check whether a DADS-style reference search is applicable
+- source_family: algorithm_wiki_local
+  primary_query: Chubby (Mike Burrows)
+  applicability: applicable
+  purpose: reuse AlgorithmWiki metadata as provenance
+- source_family: the_algorithms
+  primary_query: Chubby (Mike Burrows)
+  applicability: applicable
+  purpose: check exact public implementation/reference names when available
+- source_family: cp_algorithms
+  primary_query: Chubby (Mike Burrows)
+  applicability: applicable
+  purpose: check exact public algorithm reference names when available
+- source_family: course_notes
+  primary_query: Chubby (Mike Burrows)
+  applicability: applicable
+  purpose: record absence of configured course-notes search
+- source_family: general_web_search
+  primary_query: Chubby (Mike Burrows)
+  applicability: applicable
+  purpose: record absence of a configured general web endpoint
+- source_family: local_previous_cache
+  primary_query: Chubby (Mike Burrows)
+  applicability: applicable
+  purpose: reuse v1/second-pass fetched source records
+query_attempts:
+- &id001
+  cycle: 1
+  query: Chubby (Mike Burrows)
+  source_family: algorithm_wiki_local
+  url_or_api_endpoint: https://dl.acm.org/doi/10.5555/1298455.1298487
+  status: fetched
+  new_facts_added: 8
+  reason: local metadata
+- &id002
+  cycle: 1
+  query: Chubby (Mike Burrows)
+  source_family: local_previous_cache
+  url_or_api_endpoint: ''
+  status: duplicate
+  new_facts_added: 0
+  reason: previous v1/second-pass sources reused
+- &id003
+  cycle: 1
+  query: https://dl.acm.org/doi/10.5555/1298455.1298487
+  source_family: original_source
+  url_or_api_endpoint: https://dl.acm.org/doi/10.5555/1298455.1298487
+  status: fetch_failed
+  new_facts_added: 0
+  reason: 'HTTP Error 403: Forbidden'
+- &id004
+  cycle: 1
+  query: 10.5555/1298455.1298487
+  source_family: crossref
+  url_or_api_endpoint: https://doi.org/10.5555/1298455.1298487
+  status: fetched
+  new_facts_added: 1
+  reason: Crossref metadata/title search
+- &id005
+  cycle: 1
+  query: Chubby (Mike Burrows)
+  source_family: arxiv
+  url_or_api_endpoint: https://export.arxiv.org/api/query?max_results=1&search_query=ti:%22Chubby+%28Mike+Burrows%29%22
+  status: no_result
+  new_facts_added: 0
+  reason: arXiv title search returned no usable entry
+- &id006
+  cycle: 1
+  query: Chubby (Mike Burrows)
+  source_family: wikipedia
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: Wikipedia search returned no relevant page
+- &id007
+  cycle: 2
+  query: 10.5555/1298455.1298487
+  source_family: openalex
+  url_or_api_endpoint: https://api.openalex.org/works/doi:10.5555%2F1298455.1298487
+  status: fetched
+  new_facts_added: 5
+  reason: OpenAlex work metadata
+- &id008
+  cycle: 2
+  query: 10.5555/1298455.1298487
+  source_family: semantic_scholar
+  url_or_api_endpoint: https://api.semanticscholar.org/graph/v1/paper/DOI:10.5555%2F1298455.1298487?fields=title,abstract,year,url,externalIds
+  status: fetch_failed
+  new_facts_added: 0
+  reason: Semantic Scholar returned no usable paper
+- &id009
+  cycle: 2
+  query: Chubby (Mike Burrows)
+  source_family: dblp
+  url_or_api_endpoint: https://dblp.org/search/publ/api?format=json&h=1&q=Chubby+%28Mike+Burrows%29
+  status: no_result
+  new_facts_added: 0
+  reason: DBLP returned no usable publication
+- &id010
+  cycle: 2
+  query: https://dl.acm.org/doi/10.5555/1298455.1298487
+  source_family: original_source
+  url_or_api_endpoint: https://dl.acm.org/doi/10.5555/1298455.1298487
+  status: fetch_failed
+  new_facts_added: 0
+  reason: 'HTTP Error 403: Forbidden'
+- &id011
+  cycle: 2
+  query: Chubby (Mike Burrows)
+  source_family: wikidata
+  url_or_api_endpoint: https://www.wikidata.org/w/api.php?action=wbsearchentities&language=en&format=json&limit=1&search=Chubby+%28Mike+Burrows%29
+  status: no_result
+  new_facts_added: 0
+  reason: Wikidata returned no entity
+- &id012
+  cycle: 3
+  query: Chubby (Mike Burrows)
+  source_family: citeseerx
+  url_or_api_endpoint: ''
+  status: paywalled
+  new_facts_added: 0
+  reason: CiteSeerX link is PDF/legacy metadata; full PDF body skipped
+- &id013
+  cycle: 3
+  query: Chubby (Mike Burrows)
+  source_family: nist_dads
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: NIST DADS has no reliable bulk search API in this environment
+- &id014
+  cycle: 3
+  query: Chubby (Mike Burrows)
+  source_family: the_algorithms
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: TheAlgorithms search skipped unless a known exact reference is available
+- &id015
+  cycle: 3
+  query: Chubby (Mike Burrows)
+  source_family: cp_algorithms
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: CP-Algorithms search skipped unless a known exact reference is available
+- &id016
+  cycle: 3
+  query: Chubby (Mike Burrows)
+  source_family: course_notes
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: No configured public course-notes search endpoint
+- &id017
+  cycle: 3
+  query: Chubby (Mike Burrows)
+  source_family: general_web_search
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: No configured general web search endpoint; Google Scholar scraping is not used
+- &id018
+  cycle: 4
+  query: 10.5555/1298455.1298487
+  source_family: crossref
+  url_or_api_endpoint: https://doi.org/10.5555/1298455.1298487
+  status: fetched
+  new_facts_added: 1
+  reason: Crossref metadata/title search
+- &id019
+  cycle: 4
+  query: 10.5555/1298455.1298487
+  source_family: openalex
+  url_or_api_endpoint: https://api.openalex.org/works/doi:10.5555%2F1298455.1298487
+  status: fetched
+  new_facts_added: 5
+  reason: OpenAlex work metadata
+- &id020
+  cycle: 4
+  query: 10.5555/1298455.1298487
+  source_family: semantic_scholar
+  url_or_api_endpoint: https://api.semanticscholar.org/graph/v1/paper/DOI:10.5555%2F1298455.1298487?fields=title,abstract,year,url,externalIds
+  status: fetch_failed
+  new_facts_added: 0
+  reason: Semantic Scholar returned no usable paper
+- &id021
+  cycle: 4
+  query: Chubby (Mike Burrows)
+  source_family: wikipedia
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: Wikipedia search returned no relevant page
+- &id022
+  cycle: 4
+  query: Chubby (Mike Burrows)
+  source_family: dblp
+  url_or_api_endpoint: https://dblp.org/search/publ/api?format=json&h=1&q=Chubby+%28Mike+Burrows%29
+  status: no_result
+  new_facts_added: 0
+  reason: DBLP returned no usable publication
+source_attempts:
+- *id001
+- *id002
+- *id003
+- *id004
+- *id005
+- *id006
+- *id007
+- *id008
+- *id009
+- *id010
+- *id011
+- *id012
+- *id013
+- *id014
+- *id015
+- *id016
+- *id017
+- *id018
+- *id019
+- *id020
+- *id021
+- *id022
+discovered_sources:
+- source_id: openalex:a5aca0424008f137
+  url: https://openalex.org/W1992479210
+  title: The Chubby lock service for loosely-coupled distributed systems
+  source_type: openalex
+  access_status: fetched
+  reliability: HIGH
+  extracted_facts:
+  - 'OpenAlex title: The Chubby lock service for loosely-coupled distributed systems'
+  - 'publication year: 2006'
+  - 'abstract summary: We describe our experiences with the Chubby lock service, which is intended to provide coarse-grained locking as well as reliable (though low-volume) storage for a loosely-coupled distributed system.'
+  short_quote: 'OpenAlex title: The Chubby lock service for loosely-coupled distributed systems publication year: 2006 abstract summary: We describe our experiences with the Chubby lock service,'
+  digest: c0160cf0e3a55b3d
+discovered_facts:
+- fact_id: AW-000796-Ffabe1a18bc
+  fact_type: alias
+  value: Chubby (Mike Burrows)
+  source_id: AW-000796:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: AlgorithmWiki metadata
+- fact_id: AW-000796-F0620286064
+  fact_type: time_complexity
+  value: O(n)
+  source_id: AW-000796:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: AlgorithmWiki metadata
+- fact_id: AW-000796-F3ce130cb43
+  fact_type: space_complexity
+  value: O(f)
+  source_id: AW-000796:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: AlgorithmWiki metadata
+- fact_id: AW-000796-Ff5f74d5c34
+  fact_type: input_semantics
+  value: 'Parameter definitions: n: number of clients, f: number of files'
+  source_id: AW-000796:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 75
+  conflict_status: weak
+  notes: AlgorithmWiki parameter metadata
+- fact_id: AW-000796-Fbbc3a87ba9
+  fact_type: authoritative_source_link
+  value: https://dl.acm.org/doi/10.5555/1298455.1298487
+  source_id: AW-000796:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 70
+  conflict_status: consistent
+  notes: Original source link from AlgorithmWiki metadata
+- fact_id: AW-000796-F8711b43fba
+  fact_type: source_title
+  value: AlgorithmWiki metadata for Chubby (Mike Burrows)
+  source_id: AW-000796:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000796-Fb45b41906a
+  fact_type: problem_definition
+  value: 'Source title indicates: AlgorithmWiki metadata for Chubby (Mike Burrows)'
+  source_id: AW-000796:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: weak
+  notes: previous_source_record
+- fact_id: AW-000796-F3fba694181
+  fact_type: problem_definition
+  value: 'AlgorithmWiki row name: Chubby (Mike Burrows)'
+  source_id: AW-000796:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000796-F5a67c1312a
+  fact_type: problem_definition
+  value: 'domain: unknown'
+  source_id: AW-000796:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000796-F8aa06e43b4
+  fact_type: time_complexity
+  value: 'time complexity: O(n)'
+  source_id: AW-000796:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000796-F89b745df80
+  fact_type: space_complexity
+  value: 'space complexity: O(f)'
+  source_id: AW-000796:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000796-F6c22c8ec73
+  fact_type: problem_definition
+  value: 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  source_id: AW-000796:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000796-Ffd454f987e
+  fact_type: authoritative_source_link
+  value: https://doi.org/10.5555/1298455.1298487
+  source_id: failed:43db333be4bb19f5
+  reliability: LOW
+  confidence: 45
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000796-Febb727facb
+  fact_type: source_title
+  value: "Burrows, Michael [Mike] (1943\u20132022), engineer and cycle designer"
+  source_id: crossref_search:76082d59fb7708c6
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000796-F36b723561c
+  fact_type: problem_definition
+  value: "Crossref title-search result: Burrows, Michael [Mike] (1943\u20132022), engineer and cycle designer"
+  source_id: crossref_search:76082d59fb7708c6
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000796-F17863a4b2c
+  fact_type: authoritative_source_link
+  value: https://doi.org/10.1093/odnb/9780198614128.013.90000383058
+  source_id: crossref_search:76082d59fb7708c6
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000796-Fac2f949b36
+  fact_type: source_title
+  value: The Chubby lock service for loosely-coupled distributed systems
+  source_id: openalex:a5aca0424008f137
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: openalex
+- fact_id: AW-000796-F7b7f6c25d9
+  fact_type: problem_definition
+  value: 'OpenAlex title: The Chubby lock service for loosely-coupled distributed systems'
+  source_id: openalex:a5aca0424008f137
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: openalex
+- fact_id: AW-000796-F265c4cf939
+  fact_type: problem_definition
+  value: 'publication year: 2006'
+  source_id: openalex:a5aca0424008f137
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: openalex
+- fact_id: AW-000796-Fed2ddeb09b
+  fact_type: problem_definition
+  value: 'abstract summary: We describe our experiences with the Chubby lock service, which is intended to provide coarse-grained locking as well as reliable (though low-volume) storage for a loosely-coupled distributed system.'
+  source_id: openalex:a5aca0424008f137
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: openalex
+- fact_id: AW-000796-Fcd7f4a6aaf
+  fact_type: authoritative_source_link
+  value: https://openalex.org/W1992479210
+  source_id: openalex:a5aca0424008f137
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: openalex
+duplicate_sources:
+- source_id: AW-000796:algorithm_wiki_metadata
+  url: https://dl.acm.org/doi/10.5555/1298455.1298487
+  title: AlgorithmWiki metadata for Chubby (Mike Burrows)
+  source_type: algorithm_wiki
+  access_status: metadata_only
+  reliability: HIGH
+  extracted_facts:
+  - 'AlgorithmWiki row name: Chubby (Mike Burrows)'
+  - 'domain: unknown'
+  - 'time complexity: O(n)'
+  - 'space complexity: O(f)'
+  - 'parameter definitions: n: number of clients, f: number of files'
+  short_quote: ''
+  digest: dfd6ea657ebc67b4
+- source_id: failed:4168e4775f84d2db
+  url: https://dl.acm.org/doi/10.5555/1298455.1298487
+  title: 'HTTP Error 403: Forbidden'
+  source_type: original_source
+  access_status: failed
+  reliability: LOW
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  short_quote: 'HTTP Error 403: Forbidden'
+  digest: d4dbd0781cfdb077
+- source_id: failed:43db333be4bb19f5
+  url: https://doi.org/10.5555/1298455.1298487
+  title: 'HTTP Error 404: Not Found'
+  source_type: doi_metadata
+  access_status: failed
+  reliability: LOW
+  extracted_facts:
+  - 'HTTP Error 404: Not Found'
+  short_quote: ''
+  digest: 29f842b841673757
+- source_id: failed:4168e4775f84d2db
+  url: https://dl.acm.org/doi/10.5555/1298455.1298487
+  title: 'HTTP Error 403: Forbidden'
+  source_type: original_source
+  access_status: failed
+  reliability: LOW
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  short_quote: 'HTTP Error 403: Forbidden'
+  digest: d4dbd0781cfdb077
+- source_id: failed:43db333be4bb19f5
+  url: https://doi.org/10.5555/1298455.1298487
+  title: 'HTTP Error 404: Not Found'
+  source_type: doi_metadata
+  access_status: failed
+  reliability: LOW
+  extracted_facts:
+  - 'HTTP Error 404: Not Found'
+  short_quote: ''
+  digest: 29f842b841673757
+- source_id: openalex:a5aca0424008f137
+  url: https://openalex.org/W1992479210
+  title: The Chubby lock service for loosely-coupled distributed systems
+  source_type: openalex
+  access_status: fetched
+  reliability: HIGH
+  extracted_facts:
+  - 'OpenAlex title: The Chubby lock service for loosely-coupled distributed systems'
+  - 'publication year: 2006'
+  - 'abstract summary: We describe our experiences with the Chubby lock service, which is intended to provide coarse-grained locking as well as reliable (though low-volume) storage for a loosely-coupled distributed system.'
+  short_quote: 'OpenAlex title: The Chubby lock service for loosely-coupled distributed systems publication year: 2006 abstract summary: We describe our experiences with the Chubby lock service,'
+  digest: c0160cf0e3a55b3d
+failed_sources: []
+paywalled_or_skipped_sources: []
+source_families_covered:
+- algorithm_wiki_local
+- local_previous_cache
+- original_source
+- crossref
+- arxiv
+- wikipedia
+- openalex
+- semantic_scholar
+- dblp
+- publisher_abstract
+- wikidata
+- citeseerx
+- nist_dads
+- the_algorithms
+- cp_algorithms
+- course_notes
+- general_web_search
+cycles_completed: 4
+new_fact_count_by_cycle:
+- cycle: 1
+  new_facts: 0
+- cycle: 2
+  new_facts: 5
+- cycle: 3
+  new_facts: 0
+- cycle: 4
+  new_facts: 0
+no_new_fact_streak: 2
+saturation_status: SATURATED_NO_RECOVERY
+final_reason: After the configured source-family cycles, no source-backed concrete task, input semantics, output semantics, and conservative access model could be established.
+next_manual_action: No automated action recommended; keep saturated certificate with unresolved row.

@@ -1,0 +1,44 @@
+id: AW-001816
+kind: context
+algorithm_id: AW-001816
+algorithm_name: Barnard, Skillicorn
+source_records:
+- access_status: metadata_only
+  digest: 8ffde730565da897
+  extracted_facts:
+  - 'AlgorithmWiki row name: Barnard, Skillicorn'
+  - 'domain: parallel_algorithms'
+  - 'time complexity: O(n^2)'
+  - 'computational model: PRAM'
+  - 'precard summary: Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model. Baseline: time O(n^2); work O(n^3); span/depth O(n^2); processors O(n). Bottleneck: work, span, communication, and processor-count assumptions dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001816:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Barnard, Skillicorn
+  url: https://d1wqtxts1xzle7.cloudfront.net/46626362/0096-0551_2892_2990022-f20160619-1704-57z2yz-libre.pdf?1466375637=&response-content-disposition=inline%3B+filename%3DContext_free_parsing_on_O_n_processors.pdf&Expires=1704697901&Signature=RfUXV3Dhjnmy3sy8VCZ~Amm8slq1aJ54V~IRPh3ywZcvOisrgcO0VFwzEn~njPOwrwFCqUXTk7DUhnpJgZCfG8Oqm5v~g2PC1eNhfrBWKe9GSnRIxU-cCG06MFJbVMOIhYvM652Ns1998gs6wa5KTOCHuTnA1VTTt8kdlrH8ZTfZD37GPNJQRpQH9tAyHX49HfoPQmNUZUCXckL1G~AmyaIzjkO2aNJ3QltWlBIz5gK65xc7h1FebZ4CudvZxbrXgH5OT7pZowKy2E0iO~qKl8KtOh~b4lHSoqiBJ36eKe77ymntWKKlyk~PDBFr-cMugULIMW8Bp9P7qW~XufKTog__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA
+web_query_attempts:
+- method: search_plan
+  query: Barnard, Skillicorn algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Barnard, Skillicorn algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Barnard, Skillicorn problem definition
+  status: recorded
+- method: search_plan
+  query: Barnard, Skillicorn parallel algorithms algorithm
+  status: recorded
+- method: search_plan
+  query: Barnard, Skillicorn site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Barnard, Skillicorn algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://d1wqtxts1xzle7.cloudfront.net/46626362/0096-0551_2892_2990022-f20160619-1704-57z2yz-libre.pdf?1466375637=&response-content-disposition=inline%3B+filename%3DContext_free_parsing_on_O_n_processors.pdf&Expires=1704697901&Signature=RfUXV3Dhjnmy3sy8VCZ~Amm8slq1aJ54V~IRPh3ywZcvOisrgcO0VFwzEn~njPOwrwFCqUXTk7DUhnpJgZCfG8Oqm5v~g2PC1eNhfrBWKe9GSnRIxU-cCG06MFJbVMOIhYvM652Ns1998gs6wa5KTOCHuTnA1VTTt8kdlrH8ZTfZD37GPNJQRpQH9tAyHX49HfoPQmNUZUCXckL1G~AmyaIzjkO2aNJ3QltWlBIz5gK65xc7h1FebZ4CudvZxbrXgH5OT7pZowKy2E0iO~qKl8KtOh~b4lHSoqiBJ36eKe77ymntWKKlyk~PDBFr-cMugULIMW8Bp9P7qW~XufKTog__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA
+  status: recorded
+extracted_problem_statement: 'Barnard, Skillicorn is treated as a classical parallel algorithms task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Barnard, Skillicorn. Input semantics: The classical input instance named by the row, together with processor/work/span parameters when stated. Output semantics: The same mathematical output as the underlying classical task, annotated by work/span when available.'
+extracted_algorithm_summary: 'Barnard, Skillicorn is a parallel algorithms algorithm record. Classical complexity metadata: time O(n^2); work O(n^3); span/depth O(n^2); processors O(n). The stated classical model is PRAM. Public metadata/source text adds: Barnard, Skillicorn parallel_algorithms parallel_algorithms O(n^2) Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

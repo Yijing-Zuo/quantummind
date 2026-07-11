@@ -1,0 +1,71 @@
+id: AW-000007
+kind: context
+algorithm_id: AW-000007
+algorithm_name: Faaland
+source_records:
+- access_status: metadata_only
+  digest: 2cff02030607fbeb
+  extracted_facts:
+  - 'AlgorithmWiki row name: Faaland'
+  - 'domain: unknown'
+  - 'time complexity: O(n'' t)'
+  - 'space complexity: O(t)'
+  - 'parameter definitions: n'': number of distinct elements in the set, t: target sum'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000007:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Faaland
+  url: https://doi.org/10.1287/opre.21.1.332
+- access_status: fetched
+  digest: 390fa04595762906
+  extracted_facts:
+  - "DOI title: Technical Note\u2014Solution of the Value-Independent Knapsack Problem by Partitioning"
+  - 'published year: 1973'
+  - 'container title: Operations Research'
+  - 'abstract summary: The value-independent knapsack problem is solved by considering a related problem in the theory of partitions of numbers.'
+  reliability: HIGH
+  short_quote: The value-independent knapsack problem is solved by considering a related problem in the theory of partitions of numbers.
+  source_id: crossref:429bb6b9ae306424
+  source_type: doi_metadata
+  title: "Technical Note\u2014Solution of the Value-Independent Knapsack Problem by Partitioning"
+  url: https://doi.org/10.1287/opre.21.1.332
+- access_status: failed
+  digest: 0520d35f6680aca9
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:85dfbfea546f83e9
+  source_type: doi_metadata
+  title: 'HTTP Error 403: Forbidden'
+  url: https://doi.org/10.1287/opre.21.1.332
+web_query_attempts:
+- method: search_plan
+  query: Faaland algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Faaland algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Faaland problem definition
+  status: recorded
+- method: search_plan
+  query: Faaland site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Faaland algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://doi.org/10.1287/opre.21.1.332
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1287/opre.21.1.332
+  status: fetched
+- method: source_link_html_metadata
+  query: https://doi.org/10.1287/opre.21.1.332
+  status: failed
+extracted_problem_statement: 'Faaland is treated as a classical dynamic programming task for rich AlgorithmWiki discovery. Problem/task: solve a subset-sum or target-sum dynamic-programming/search problem. Input semantics: A finite set or multiset of integers with a target sum parameter. Output semantics: A decision result, feasible subset witness, count, or optimized subset value for the target-sum instance, depending on the row.'
+extracted_algorithm_summary: 'Faaland is a dynamic programming algorithm record. Classical complexity metadata: time O(n'' t); space O(t). Public metadata/source text adds: Faaland unknown unknown n'': number of distinct elements in the set, t: target sum O(n'' t) No public-ready summary is available because the row lacks enough task semantics.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

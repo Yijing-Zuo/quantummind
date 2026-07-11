@@ -1,0 +1,46 @@
+algorithm_id: AW-000676
+canonical_name: Miyake 2006
+enrichment_status: SECOND_PASS_INSUFFICIENT
+review_reasons:
+- No second-pass rule could identify source-backed task semantics.
+source_records:
+- access_status: metadata_only
+  digest: fb6272ef61f425e4
+  extracted_facts:
+  - 'AlgorithmWiki row name: Miyake 2006'
+  - 'domain: unknown'
+  - 'time complexity: O(n 2^n)'
+  - 'space complexity: O(2^n)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: length of input data'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000676:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Miyake 2006
+  url: https://www.semanticscholar.org/paper/Lossy-Data-Compression-over-Zq-by-LDPC-Code-Miyake/652f0438118898b63126f7261ec4cd2002ff0e0b
+- access_status: fetched
+  digest: 5b520ba8c966c569
+  extracted_facts:
+  - 'source page title: https://www.semanticscholar.org/paper/Lossy-Data-Compression-over-Zq-by-LDPC-Code-Miyake/652f0438118898b63126f7261ec4cd2002ff0e0b'
+  - 'source page description: In order to continue, we need to verify that you''re not a robot.'
+  reliability: LOW
+  short_quote: In order to continue, we need to verify that you're not a robot.
+  source_id: source:484e1c5be2815910
+  source_type: other_public_source
+  title: https://www.semanticscholar.org/paper/Lossy-Data-Compression-over-Zq-by-LDPC-Code-Miyake/652f0438118898b63126f7261ec4cd2002ff0e0b
+  url: https://www.semanticscholar.org/paper/Lossy-Data-Compression-over-Zq-by-LDPC-Code-Miyake/652f0438118898b63126f7261ec4cd2002ff0e0b
+- source_id: crossref_search:4ea45953b0e80296
+  url: https://doi.org/10.1109/isit.2006.261726
+  title: Lossy Data Compression over Zq by LDPC Code
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: Lossy Data Compression over Zq by LDPC Code'
+  short_quote: ''
+  digest: 274480575648e354
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

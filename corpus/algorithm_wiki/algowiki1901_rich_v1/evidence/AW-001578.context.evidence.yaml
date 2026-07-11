@@ -1,0 +1,58 @@
+id: AW-001578
+kind: context
+algorithm_id: AW-001578
+algorithm_name: Brodal, Traff, Zaroliagis
+source_records:
+- access_status: metadata_only
+  digest: 0e289ea8a618974e
+  extracted_facts:
+  - 'AlgorithmWiki row name: Brodal, Traff, Zaroliagis'
+  - 'domain: graph'
+  - 'time complexity: O(n)'
+  - 'computational model: CREW PRAM'
+  - 'parameter definitions: n: number of nodes, m: number of edges'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(n); work O(m \log n); span/depth O(n); processors O(m log n / n). Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001578:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Brodal, Traff, Zaroliagis
+  url: https://pure.mpg.de/rest/items/item_1824291_4/component/file_2574443/content
+- access_status: skipped
+  digest: 4dc003e731465988
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:84c29cedcb4f70b7
+  source_type: other_public_source
+  title: fetch budget exhausted
+  url: https://pure.mpg.de/rest/items/item_1824291_4/component/file_2574443/content
+web_query_attempts:
+- method: search_plan
+  query: Brodal, Traff, Zaroliagis algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Brodal, Traff, Zaroliagis algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Brodal, Traff, Zaroliagis problem definition
+  status: recorded
+- method: search_plan
+  query: Brodal, Traff, Zaroliagis graph algorithm
+  status: recorded
+- method: search_plan
+  query: Brodal, Traff, Zaroliagis site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Brodal, Traff, Zaroliagis algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://pure.mpg.de/rest/items/item_1824291_4/component/file_2574443/content
+  status: recorded
+- method: source_link_html_metadata
+  query: https://pure.mpg.de/rest/items/item_1824291_4/component/file_2574443/content
+  status: skipped
+extracted_problem_statement: 'Brodal, Traff, Zaroliagis is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Brodal, Traff, Zaroliagis. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'Brodal, Traff, Zaroliagis is a graph algorithm record. Classical complexity metadata: time O(n); work O(m \log n); span/depth O(n); processors O(m log n / n). The stated classical model is CREW PRAM. Public metadata/source text adds: Brodal, Traff, Zaroliagis graph graph n: number of nodes, m: number of edges O(n) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

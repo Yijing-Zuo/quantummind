@@ -1,0 +1,59 @@
+algorithm_id: AW-000614
+canonical_name: 9-point ADI iteration + smooth guess
+enrichment_status: THIRD_PASS_SATURATED_INSUFFICIENT
+review_reasons:
+- After the configured source-family cycles, no source-backed concrete task, input semantics, output semantics, and conservative access model could be established.
+source_records:
+- access_status: metadata_only
+  digest: d5f9ba0ab8b57625
+  extracted_facts:
+  - 'AlgorithmWiki row name: 9-point ADI iteration + smooth guess'
+  - 'domain: unknown'
+  - 'time complexity: O(n^3 \log n)'
+  - 'space complexity: O(n^3)'
+  - 'computational model: Real RAM'
+  - 'parameter definitions: n: dimension of grid (where grid is discretized)'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000614:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for 9-point ADI iteration + smooth guess
+  url: ''
+- access_status: fetched
+  digest: 7389e2163dc80b80
+  extracted_facts:
+  - 'Crossref title-search result: Smooth Constrained OSEM Iteration Reconstruction Algorithm'
+  reliability: MEDIUM
+  short_quote: ''
+  source_id: crossref_search:666795cc29598216
+  source_type: doi_metadata
+  title: Smooth Constrained OSEM Iteration Reconstruction Algorithm
+  url: https://doi.org/10.3788/lop54.021006
+- source_id: crossref_search:9ae7f2d2e2d34277
+  url: https://doi.org/10.1080/00207169008803868
+  title: Numerical stability of a cyclic adi iteration
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title: Numerical stability of a cyclic adi iteration'
+  - 'published year: 1990'
+  - 'container title: International Journal of Computer Mathematics'
+  short_quote: 'Crossref title: Numerical stability of a cyclic adi iteration published year: 1990 container title: International Journal of Computer Mathematics'
+  digest: 8472f967033f65d5
+- source_id: openalex:c1c2547eb6704876
+  url: https://openalex.org/W563958770
+  title: Guessing human-chosen secrets
+  source_type: openalex
+  access_status: fetched
+  reliability: HIGH
+  extracted_facts:
+  - 'OpenAlex title: Guessing human-chosen secrets'
+  - 'publication year: 2012'
+  - 'abstract summary: Authenticating humans to computers remains a notable weak point in computer security despite decades of effort.'
+  short_quote: 'OpenAlex title: Guessing human-chosen secrets publication year: 2012 abstract summary: Authenticating humans to computers remains a notable weak point in computer security despite decades'
+  digest: 3ef6b0792f5705e1
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

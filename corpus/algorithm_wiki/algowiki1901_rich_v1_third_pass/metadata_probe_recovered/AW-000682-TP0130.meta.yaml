@@ -1,0 +1,46 @@
+probe_id: AW-000682-TP0130
+algorithm_id: AW-000682-TP0130
+canonical_name: "Berlekamp\u2013Massey algorithm search_witness_probe"
+readiness: READY_PUBLIC_PROBE
+quality_score: 100
+probe_type: search_witness_probe
+parent_algorithm_id: AW-000682
+parent_algorithm_name: "Berlekamp\u2013Massey algorithm"
+source_records_used:
+- AW-000682:algorithm_wiki_metadata
+- failed:446ab499a555b0c7
+- crossref_search:6cb0ad9e10241658
+- source:323cc139c308246f
+- crossref_search:df5b565d41fe6f81
+introduced_assumptions:
+- coherent_boolean_oracle
+- marked_item_exists
+- candidate_indexing
+missing_from_original_problem:
+- oracle construction
+- proof that witness output captures the useful subroutine
+original_output_contract: path_or_tree
+probe_output_contract: one_witness
+not_end_to_end_claim: true
+expected_authority: query_or_subroutine_hypothesis_only
+why_probe_is_scientifically_interesting: Witness search can isolate a decision or local-output subroutine from a larger classical task.
+why_probe_may_fail: The original algorithm may require full output materialization or an expensive predicate oracle.
+inferred_input_model: explicit_graph_problem
+inferred_access_model: coherent_boolean_oracle
+inferred_output_contract: one_witness
+inferred_size_parameters:
+- 'Parameter definition: n: size of input stream'
+inferred_promises:
+- marked_item_exists
+- oracle_model_assumption
+inferred_ambiguities:
+- This probe is assumption-bearing and is not an end-to-end speedup claim.
+- coherent predicate construction and candidate indexing may fail for the original full-output problem
+- The parent context card and source records should be checked before live use.
+source_count: 5
+source_quality: HIGH
+confidence_score: 100
+card_digest: f1a51cb384ad73eb
+extraction_version: algorithm-wiki-rich-third-pass-probe-v1
+rich_card_kind: probe_recovered
+saturation_status: RECOVERED_CONTEXT_AND_PROBE

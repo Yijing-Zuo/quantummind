@@ -1,0 +1,74 @@
+id: AW-000586
+kind: context
+algorithm_id: AW-000586
+algorithm_name: "David Eppstein, Maarten L\xF6ffler, Darren Strash"
+source_records:
+- access_status: metadata_only
+  digest: bfceba8f570e4eda
+  extracted_facts:
+  - "AlgorithmWiki row name: David Eppstein, Maarten L\xF6ffler, Darren Strash"
+  - 'domain: graph'
+  - 'time complexity: O(dn 3^{d/3})'
+  - 'space complexity: O(n^2)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of vertices, m: number of edges, d: degeneracy of graph (worst case, d=O(n))'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(dn 3^{d/3}); space O(n^2). Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000586:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: "AlgorithmWiki metadata for David Eppstein, Maarten L\xF6ffler, Darren Strash"
+  url: https://arxiv.org/abs/1006.5440
+- access_status: fetched
+  digest: 9dab3aa50428ed73
+  extracted_facts:
+  - 'arXiv title: Listing All Maximal Cliques in Sparse Graphs in Near-optimal Time'
+  - 'abstract summary: The degeneracy of an $n$-vertex graph $G$ is the smallest number $d$ such that every subgraph of $G$ contains a vertex of degree at most $d$.'
+  reliability: HIGH
+  short_quote: The degeneracy of an $n$-vertex graph $G$ is the smallest number $d$ such that every subgraph of $G$ contains a vertex of degree at
+  source_id: arxiv:1006.5440
+  source_type: arxiv_abstract
+  title: Listing All Maximal Cliques in Sparse Graphs in Near-optimal Time
+  url: https://arxiv.org/abs/1006.5440
+- access_status: fetched
+  digest: 9b5ac59ba5253976
+  extracted_facts:
+  - 'source page title: [1006.5440] Listing All Maximal Cliques in Sparse Graphs in Near-optimal Time'
+  - 'source page description: Abstract page for arXiv paper 1006.5440: Listing All Maximal Cliques in Sparse Graphs in Near-optimal Time'
+  reliability: HIGH
+  short_quote: 'Abstract page for arXiv paper 1006.5440: Listing All Maximal Cliques in Sparse Graphs in Near-optimal Time'
+  source_id: source:f002b8a0399dbaf3
+  source_type: arxiv_abstract
+  title: '[1006.5440] Listing All Maximal Cliques in Sparse Graphs in Near-optimal Time'
+  url: https://arxiv.org/abs/1006.5440
+web_query_attempts:
+- method: search_plan
+  query: "David Eppstein, Maarten L\xF6ffler, Darren Strash algorithm input output complexity"
+  status: recorded
+- method: search_plan
+  query: "David Eppstein, Maarten L\xF6ffler, Darren Strash algorithm pseudocode"
+  status: recorded
+- method: search_plan
+  query: "David Eppstein, Maarten L\xF6ffler, Darren Strash problem definition"
+  status: recorded
+- method: search_plan
+  query: "David Eppstein, Maarten L\xF6ffler, Darren Strash graph algorithm"
+  status: recorded
+- method: search_plan
+  query: "David Eppstein, Maarten L\xF6ffler, Darren Strash site:nist.gov DADS"
+  status: recorded
+- method: search_plan
+  query: "David Eppstein, Maarten L\xF6ffler, Darren Strash algorithm wiki"
+  status: recorded
+- method: search_plan
+  query: https://arxiv.org/abs/1006.5440
+  status: recorded
+- method: arxiv_abstract_metadata
+  query: '1006.5440'
+  status: fetched
+- method: source_link_html_metadata
+  query: https://arxiv.org/abs/1006.5440
+  status: fetched
+extracted_problem_statement: "David Eppstein, Maarten L\xF6ffler, Darren Strash is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with David Eppstein, Maarten L\xF6ffler, Darren Strash. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result."
+extracted_algorithm_summary: "David Eppstein, Maarten L\xF6ffler, Darren Strash is a graph algorithm record. Classical complexity metadata: time O(dn 3^{d/3}); space O(n^2). The stated classical model is Word RAM. Public metadata/source text adds: David Eppstein, Maarten L\xF6ffler, Darren Strash graph graph n: number of vertices, m: number of edges, d: degeneracy of graph (worst case, d=O(n)) O(dn 3^{d/3}) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record."
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

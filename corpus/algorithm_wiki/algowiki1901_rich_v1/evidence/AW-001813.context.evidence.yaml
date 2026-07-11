@@ -1,0 +1,58 @@
+id: AW-001813
+kind: context
+algorithm_id: AW-001813
+algorithm_name: Cesati, Ianni
+source_records:
+- access_status: metadata_only
+  digest: ac7d9e90acfe5af8
+  extracted_facts:
+  - 'AlgorithmWiki row name: Cesati, Ianni'
+  - 'domain: graph'
+  - 'time complexity: 4 log n + O(k^k)'
+  - 'computational model: PRAM'
+  - 'parameter definitions: n: number of vertices, m: number of edges, k: size of vertex cover (worst case O(n))'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time 4 log n + O(k^k); work O(n^2(log n + k^k)); span/depth 4 log n + O(k^k); processors O(n^2). Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001813:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Cesati, Ianni
+  url: https://link.springer.com/content/pdf/10.1007/BFb0057945.pdf
+- access_status: skipped
+  digest: aca3f088fd6ebdbd
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:03a6b1d82364622f
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1007/BFb0057945.pdf
+web_query_attempts:
+- method: search_plan
+  query: Cesati, Ianni algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Cesati, Ianni algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Cesati, Ianni problem definition
+  status: recorded
+- method: search_plan
+  query: Cesati, Ianni graph algorithm
+  status: recorded
+- method: search_plan
+  query: Cesati, Ianni site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Cesati, Ianni algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://link.springer.com/content/pdf/10.1007/BFb0057945.pdf
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1007/BFb0057945.pdf
+  status: skipped
+extracted_problem_statement: 'Cesati, Ianni is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Cesati, Ianni. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'Cesati, Ianni is a graph algorithm record. Classical complexity metadata: time 4 log n + O(k^k); work O(n^2(log n + k^k)); span/depth 4 log n + O(k^k); processors O(n^2). The stated classical model is PRAM. Public metadata/source text adds: Cesati, Ianni graph graph n: number of vertices, m: number of edges, k: size of vertex cover (worst case O(n)) 4 log n + O(k^k) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

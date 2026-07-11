@@ -1,0 +1,61 @@
+id: AW-000920
+kind: context
+algorithm_id: AW-000920
+algorithm_name: N-dimensional Quickhull
+source_records:
+- access_status: metadata_only
+  digest: ee8cf4c53180fbc4
+  extracted_facts:
+  - 'AlgorithmWiki row name: N-dimensional Quickhull'
+  - 'domain: computational_geometry'
+  - 'time complexity: O(n*f(h)/h) where f(h) denotes the maximum number of facets with h vertices'
+  - 'computational model: Real RAM'
+  - 'parameter definitions: n: number of line segments, h: number of points on the convex hull, f_1: number of facets on the convex hull, f_2: number of subfacets on the convex hull'
+  - 'precard summary: Given explicit geometric objects such as points, segments, or polygons, compute the requested geometric structure or witness set. Baseline: time O(n*f(h)/h) where f(h) denotes the maximum number of facets with h vertices. Bottleneck: geometric predicates, ordering events, and output-sensitive structure size dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000920:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for N-dimensional Quickhull
+  url: https://dl.acm.org/doi/pdf/10.1145/235815.235821
+- access_status: fetched
+  digest: 904da2387b310600
+  extracted_facts:
+  - 'DOI title: The quickhull algorithm for convex hulls'
+  - 'published year: 1996'
+  - 'container title: ACM Transactions on Mathematical Software'
+  - 'abstract summary: The convex hull of a set of points is the smallest convex set that contains the points.'
+  reliability: HIGH
+  short_quote: The convex hull of a set of points is the smallest convex set that contains the points.
+  source_id: crossref:093092b1abdce801
+  source_type: doi_metadata
+  title: The quickhull algorithm for convex hulls
+  url: https://doi.org/10.1145/235815.235821
+web_query_attempts:
+- method: search_plan
+  query: N-dimensional Quickhull algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: N-dimensional Quickhull algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: N-dimensional Quickhull problem definition
+  status: recorded
+- method: search_plan
+  query: N-dimensional Quickhull computational geometry algorithm
+  status: recorded
+- method: search_plan
+  query: N-dimensional Quickhull site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: N-dimensional Quickhull algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://dl.acm.org/doi/pdf/10.1145/235815.235821
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1145/235815.235821
+  status: fetched
+extracted_problem_statement: 'N-dimensional Quickhull is treated as a classical computational geometry task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with N-dimensional Quickhull. Input semantics: Explicit geometric objects such as points, line segments, polygons, or planar subdivisions. Output semantics: The requested geometric structure, simplified curve, clipping result, intersection set, hull, or diagram.'
+extracted_algorithm_summary: 'N-dimensional Quickhull is a computational geometry algorithm record. Classical complexity metadata: time O(n*f(h)/h) where f(h) denotes the maximum number of facets with h vertices. The stated classical model is Real RAM. Public metadata/source text adds: ional Quickhull computational_geometry computational_geometry n: number of line segments, h: number of points on the convex hull, f_1: number of facets on the convex hull, f_2: number of subfacets on the convex hull O(n*f(h)/h) where f(h) denotes the maximum number of facets with h vertices Given explicit geometric objects such as points, segments, or polygons, compute the requested geometric structure or witness set.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

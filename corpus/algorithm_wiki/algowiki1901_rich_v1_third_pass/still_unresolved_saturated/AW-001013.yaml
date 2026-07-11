@@ -1,0 +1,102 @@
+algorithm_id: AW-001013
+canonical_name: Fagin
+enrichment_status: THIRD_PASS_SATURATED_INSUFFICIENT
+review_reasons:
+- After the configured source-family cycles, no source-backed concrete task, input semantics, output semantics, and conservative access model could be established.
+source_records:
+- access_status: metadata_only
+  digest: 8655c3d22d8c2028
+  extracted_facts:
+  - 'AlgorithmWiki row name: Fagin'
+  - 'domain: unknown'
+  - 'time complexity: exponential'
+  - 'space complexity: exponential'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: k: number of multivalued dependencies, n: number of attributes (|U|)'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001013:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Fagin
+  url: https://dl.acm.org/doi/abs/10.1145/320557.320571
+- access_status: skipped
+  digest: 8fffb1bd5a156906
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:8ad71346f340f427
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1145/320557.320571
+- access_status: skipped
+  digest: a30e2b1b92ab3532
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:fea2eee914884ae7
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://dl.acm.org/doi/abs/10.1145/320557.320571
+- access_status: fetched
+  digest: 003916513767871b
+  extracted_facts:
+  - 'DOI title: Multivalued dependencies and a new normal form for relational databases'
+  - 'published year: 1977'
+  - 'container title: ACM Transactions on Database Systems'
+  - 'abstract summary: A new type of dependency, which includes the well-known functional dependencies as a special case, is defined for relational databases.'
+  reliability: HIGH
+  short_quote: A new type of dependency, which includes the well-known functional dependencies as a special case, is defined for relational databases.
+  source_id: crossref:c6d4457b8b60554d
+  source_type: doi_metadata
+  title: Multivalued dependencies and a new normal form for relational databases
+  url: https://doi.org/10.1145/320557.320571
+- access_status: fetched
+  digest: eac65bcac63f65f8
+  extracted_facts:
+  - 'Crossref title-search result: An optimal algorithm to fetch DHT routable'
+  reliability: MEDIUM
+  short_quote: ''
+  source_id: crossref_search:0b18e1bdccf3f416
+  source_type: doi_metadata
+  title: An optimal algorithm to fetch DHT routable
+  url: https://doi.org/10.1109/npc.2007.32
+- source_id: failed:e85c68ac1cffeeb6
+  url: https://dl.acm.org/doi/abs/10.1145/320557.320571
+  title: 'HTTP Error 403: Forbidden'
+  source_type: original_source
+  access_status: failed
+  reliability: LOW
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  short_quote: 'HTTP Error 403: Forbidden'
+  digest: 4170bf742db20f07
+- source_id: openalex:7077c9b26cfab612
+  url: https://openalex.org/W2110810394
+  title: Multivalued dependencies and a new normal form for relational databases
+  source_type: openalex
+  access_status: fetched
+  reliability: HIGH
+  extracted_facts:
+  - 'OpenAlex title: Multivalued dependencies and a new normal form for relational databases'
+  - 'publication year: 1977'
+  - 'abstract summary: A new type of dependency, which includes the well-known functional dependencies as a special case, is defined for relational databases.'
+  short_quote: 'OpenAlex title: Multivalued dependencies and a new normal form for relational databases publication year: 1977 abstract summary: A new type of dependency, which includes'
+  digest: 8b7fd844f3480d01
+- source_id: semantic_scholar:6d2e256a3fdbdcfe
+  url: https://www.semanticscholar.org/paper/26bc4626d3c1871b906b9cb0256a6c2594811a1c
+  title: Multivalued dependencies and a new normal form for relational databases
+  source_type: semantic_scholar
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Semantic Scholar title: Multivalued dependencies and a new normal form for relational databases'
+  - 'published year: 1977'
+  - 'abstract summary: None'
+  short_quote: 'Semantic Scholar title: Multivalued dependencies and a new normal form for relational databases published year: 1977 abstract summary: None'
+  digest: 7e75249450a29c3c
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

@@ -1,0 +1,45 @@
+id: AW-001618
+kind: context
+algorithm_id: AW-001618
+algorithm_name: Solomonik, Demmel (Classical 2.5D)
+source_records:
+- access_status: metadata_only
+  digest: 8b05d20bfa642a24
+  extracted_facts:
+  - 'AlgorithmWiki row name: Solomonik, Demmel (Classical 2.5D)'
+  - 'domain: matrix_linear_algebra'
+  - 'time complexity: O(sqrt(pc) \log(p/c) + n^2/sqrt(pc) + n^3/p)'
+  - 'computational model: distributed memory'
+  - 'parameter definitions: n x n matrix'
+  - 'precard summary: Given one or more explicit dense matrices over the stated arithmetic domain, compute the matrix or linear-algebraic output specified by the record. Baseline: time O(sqrt(pc) \log(p/c) + n^2/sqrt(pc) + n^3/p); work O(n^3); span/depth O(n log(n)); processors p<=n^2. Bottleneck: dense arithmetic and full matrix output dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001618:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Solomonik, Demmel (Classical 2.5D)
+  url: https://www2.eecs.berkeley.edu/Pubs/TechRpts/2011/EECS-2011-10.pdf
+web_query_attempts:
+- method: search_plan
+  query: Solomonik, Demmel (Classical 2.5D) algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Solomonik, Demmel (Classical 2.5D) algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Solomonik, Demmel (Classical 2.5D) problem definition
+  status: recorded
+- method: search_plan
+  query: Solomonik, Demmel (Classical 2.5D) matrix linear algebra algorithm
+  status: recorded
+- method: search_plan
+  query: Solomonik, Demmel (Classical 2.5D) site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Solomonik, Demmel (Classical 2.5D) algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://www2.eecs.berkeley.edu/Pubs/TechRpts/2011/EECS-2011-10.pdf
+  status: recorded
+extracted_problem_statement: 'Solomonik, Demmel (Classical 2.5D) is treated as a classical matrix linear algebra task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Solomonik, Demmel (Classical 2.5D). Input semantics: One or more explicit matrices or linear systems over the stated arithmetic domain. Output semantics: The requested matrix, decomposition, solution vector, or other linear-algebraic output.'
+extracted_algorithm_summary: 'Solomonik, Demmel (Classical 2.5D) is a matrix linear algebra algorithm record. Classical complexity metadata: time O(sqrt(pc) \log(p/c) + n^2/sqrt(pc) + n^3/p); work O(n^3); span/depth O(n log(n)); processors p<=n^2. The stated classical model is distributed memory. Public metadata/source text adds: Solomonik, Demmel (Classical 2.5D) matrix_linear_algebra matrix_linear_algebra n x n matrix O(sqrt(pc) \log(p/c) + n^2/sqrt(pc) + n^3/p) Given one or more explicit dense matrices over the stated arithmetic domain, compute the matrix or linear-algebraic output specified by the record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

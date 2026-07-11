@@ -1,0 +1,12 @@
+case_id: QM-PB-003
+statement: "Given reversible evaluation of a function over a finite cyclic domain promised to repeat, recover its period or order."
+input_model: "finite cyclic domain function"
+access_model: reversible_function_evaluation
+output_contract: period_or_order
+promises:
+  - periodic_structure
+  - efficient reversible evaluation
+size_parameters: [domain_size, bit_length]
+ambiguities:
+  - arithmetic implementation cost must be separated
+

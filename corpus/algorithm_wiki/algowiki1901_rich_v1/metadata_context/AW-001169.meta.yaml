@@ -1,0 +1,59 @@
+algorithm_family: unknown
+algorithm_id: AW-001169
+approximate: ''
+approximation_factor: ''
+blind_name: Algorithm Wiki public task AW-001169
+canonical_name: Kale, Krishnan
+computational_model: MIMD
+domain: unknown
+extracted_description: ''
+extraction_version: algorithm-wiki-rich-context-v1
+family: unknown
+inferred_access_model: random_access_array
+inferred_ambiguities:
+- No independent fetched public metadata source resolved this row beyond AlgorithmWiki metadata/source-link facts.
+- Some details are reconstructed from AlgorithmWiki metadata rather than an independently fetched full public description.
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.
+inferred_input_model: explicit_sequence_problem
+inferred_output_contract: full_sequence_output
+inferred_problem_statement: 'Kale, Krishnan is treated as a classical sorting task for rich AlgorithmWiki discovery. Problem/task: sort the input sequence using the named classical sorting method. Input semantics: A finite array or list of comparable keys or records. Output semantics: The same items returned in nondecreasing order, usually as a full reordered sequence.'
+inferred_promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+inferred_size_parameters:
+- 'n: primary input size parameter from the AlgorithmWiki complexity expression.'
+number_of_processors: ''
+page_digest: ''
+page_fetch_status: not_found
+page_url: ''
+parameter_definitions: ''
+problem_name: unknown
+quality_flags:
+- has_complexity_semantics
+- has_computational_model
+quality_score: 50
+randomized: ''
+readiness: READY_PUBLIC_CONTEXT
+review_reasons:
+- missing_problem_statement
+- unknown_input_model
+- unknown_access_model
+- unknown_output_contract
+- missing_size_parameters
+- insufficient_algorithm_level_structure
+source_link: https://ieeexplore.ieee.org/abstract/document/4134268
+source_link_type: unknown
+space_complexity: ''
+span_depth: ''
+time_complexity: local sort time + ceiling(log_k(p))O(\log n)(time per histogram) + data movement and merging
+variation: ''
+work: ''
+year: '1993'
+rich_card_kind: context
+source_records_used:
+- AW-001169:algorithm_wiki_metadata
+- skipped:e8df271f3272601c
+source_count: 2
+source_quality: HIGH
+confidence_score: 50
+card_digest: 9eb3553407f53160

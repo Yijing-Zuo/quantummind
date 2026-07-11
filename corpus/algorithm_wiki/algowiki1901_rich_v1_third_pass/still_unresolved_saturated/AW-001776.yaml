@@ -1,0 +1,53 @@
+algorithm_id: AW-001776
+canonical_name: Multigrid
+enrichment_status: THIRD_PASS_SATURATED_INSUFFICIENT
+review_reasons:
+- After the configured source-family cycles, no source-backed concrete task, input semantics, output semantics, and conservative access model could be established.
+source_records:
+- access_status: metadata_only
+  digest: f82c0650644a6862
+  extracted_facts:
+  - 'AlgorithmWiki row name: Multigrid'
+  - 'domain: unknown'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001776:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Multigrid
+  url: https://www.stat.uchicago.edu/~lekheng/courses/302/classics/brandt.pdf
+- access_status: fetched
+  digest: fc1a3714744cb1fb
+  extracted_facts:
+  - 'Crossref title-search result: Multigrid method versus staging algorithm'
+  reliability: MEDIUM
+  short_quote: ''
+  source_id: crossref_search:93caeb2faa27b2d9
+  source_type: doi_metadata
+  title: Multigrid method versus staging algorithm
+  url: https://doi.org/10.1016/s0009-2614(96)01231-6
+- source_id: skipped:d728460f820c1b9c
+  url: https://www.stat.uchicago.edu/~lekheng/courses/302/classics/brandt.pdf
+  title: public PDF body was not downloaded
+  source_type: original_source
+  access_status: skipped
+  reliability: LOW
+  extracted_facts:
+  - public PDF body was not downloaded
+  short_quote: public PDF body was not downloaded
+  digest: 17ec8bc84b35225d
+- source_id: crossref_search:7985353e110ed269
+  url: https://doi.org/10.1016/s0167-8922(00)80007-3
+  title: Multigrid
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title: Multigrid'
+  - 'published year: 2000'
+  - 'container title: Tribology Series'
+  short_quote: 'Crossref title: Multigrid published year: 2000 container title: Tribology Series'
+  digest: 84ef8b6d22c78575
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

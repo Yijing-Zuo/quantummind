@@ -1,0 +1,717 @@
+algorithm_id: AW-000634
+canonical_name: Liu
+original_source_link: https://doi.org/10.1016/0950-5849(92)90028-N
+source_link_type: doi
+previous_failure_reasons:
+- No second-pass rule could identify source-backed task semantics.
+previous_source_records:
+- access_status: metadata_only
+  digest: 41e0998a26066735
+  extracted_facts:
+  - 'AlgorithmWiki row name: Liu'
+  - 'domain: unknown'
+  - 'time complexity: O(kn^2)'
+  - 'space complexity: O(n)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: size of database, k: number of functional dependencies (assume O(n))'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000634:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Liu
+  url: https://doi.org/10.1016/0950-5849(92)90028-N
+- access_status: fetched
+  digest: 935ec5496fa0a508
+  extracted_facts:
+  - 'DOI title: Method to determine existence of perfect BCNF decomposition'
+  - 'published year: 1992'
+  - 'container title: Information and Software Technology'
+  reliability: HIGH
+  short_quote: ''
+  source_id: crossref:403e9e2cb44576b7
+  source_type: doi_metadata
+  title: Method to determine existence of perfect BCNF decomposition
+  url: https://doi.org/10.1016/0950-5849(92)90028-N
+- access_status: fetched
+  digest: a06c0f5207e4cd3f
+  extracted_facts:
+  - 'source page title: Redirecting'
+  - 'source page description: Redirecting'
+  reliability: HIGH
+  short_quote: Redirecting
+  source_id: source:dfdf2d865ced7395
+  source_type: doi_metadata
+  title: Redirecting
+  url: https://doi.org/10.1016/0950-5849(92)90028-N
+- access_status: fetched
+  digest: 16cce5b57bc4c965
+  extracted_facts:
+  - 'Crossref title-search result: Method to determine existence of perfect BCNF decomposition'
+  reliability: MEDIUM
+  short_quote: ''
+  source_id: crossref_search:9ea22ae99a8e44fd
+  source_type: doi_metadata
+  title: Method to determine existence of perfect BCNF decomposition
+  url: https://doi.org/10.1016/0950-5849(92)90028-n
+aliases_tried:
+- Liu
+- Liu algorithm
+- Liu problem
+- Liu pseudocode
+- Liu time complexity
+- Method to determine existence of perfect BCNF decomposition
+- Method to determine existence of perfect BCNF decomposition algorithm
+- Method to determine existence of perfect BCNF decomposition complexity
+- Redirecting
+- Redirecting algorithm
+- Redirecting complexity
+- 10.1016/0950-5849(92)90028-N
+query_plan:
+- source_family: original_source
+  primary_query: Liu
+  applicability: applicable
+  purpose: check the row's original source link without storing paywalled or PDF bodies
+- source_family: crossref
+  primary_query: Liu
+  applicability: applicable
+  purpose: recover DOI title, venue, year, and abstract metadata where available
+- source_family: openalex
+  primary_query: Liu
+  applicability: applicable
+  purpose: recover public work metadata and abstract-inverted-index summaries
+- source_family: semantic_scholar
+  primary_query: Liu
+  applicability: applicable
+  purpose: recover CS paper metadata and abstracts without an API key
+- source_family: arxiv
+  primary_query: Liu
+  applicability: title-search-only
+  purpose: recover arXiv title and abstract metadata
+- source_family: dblp
+  primary_query: Liu
+  applicability: applicable
+  purpose: recover bibliographic title/venue metadata for CS publications
+- source_family: publisher_abstract
+  primary_query: Liu
+  applicability: applicable
+  purpose: check accessible publisher abstract pages
+- source_family: citeseerx
+  primary_query: Liu
+  applicability: applicable
+  purpose: record legacy CiteSeerX availability without full PDF storage
+- source_family: wikipedia
+  primary_query: Liu
+  applicability: applicable
+  purpose: check public encyclopedia algorithm descriptions
+- source_family: wikidata
+  primary_query: Liu
+  applicability: applicable
+  purpose: check public entity aliases/descriptions
+- source_family: nist_dads
+  primary_query: Liu
+  applicability: applicable
+  purpose: check whether a DADS-style reference search is applicable
+- source_family: algorithm_wiki_local
+  primary_query: Liu
+  applicability: applicable
+  purpose: reuse AlgorithmWiki metadata as provenance
+- source_family: the_algorithms
+  primary_query: Liu
+  applicability: applicable
+  purpose: check exact public implementation/reference names when available
+- source_family: cp_algorithms
+  primary_query: Liu
+  applicability: applicable
+  purpose: check exact public algorithm reference names when available
+- source_family: course_notes
+  primary_query: Liu
+  applicability: applicable
+  purpose: record absence of configured course-notes search
+- source_family: general_web_search
+  primary_query: Liu
+  applicability: applicable
+  purpose: record absence of a configured general web endpoint
+- source_family: local_previous_cache
+  primary_query: Liu
+  applicability: applicable
+  purpose: reuse v1/second-pass fetched source records
+query_attempts:
+- &id001
+  cycle: 1
+  query: Liu
+  source_family: algorithm_wiki_local
+  url_or_api_endpoint: https://doi.org/10.1016/0950-5849(92)90028-N
+  status: fetched
+  new_facts_added: 9
+  reason: local metadata
+- &id002
+  cycle: 1
+  query: Liu
+  source_family: local_previous_cache
+  url_or_api_endpoint: ''
+  status: duplicate
+  new_facts_added: 0
+  reason: previous v1/second-pass sources reused
+- &id003
+  cycle: 1
+  query: https://doi.org/10.1016/0950-5849(92)90028-N
+  source_family: original_source
+  url_or_api_endpoint: https://doi.org/10.1016/0950-5849(92)90028-N
+  status: irrelevant
+  new_facts_added: 2
+  reason: original source page metadata
+- &id004
+  cycle: 1
+  query: 10.1016/0950-5849(92)90028-N
+  source_family: crossref
+  url_or_api_endpoint: https://doi.org/10.1016/0950-5849(92)90028-N
+  status: fetched
+  new_facts_added: 5
+  reason: Crossref metadata/title search
+- &id005
+  cycle: 1
+  query: Liu
+  source_family: arxiv
+  url_or_api_endpoint: https://export.arxiv.org/api/query?max_results=1&search_query=ti:%22Liu%22
+  status: no_result
+  new_facts_added: 0
+  reason: arXiv title search returned no usable entry
+- &id006
+  cycle: 1
+  query: Liu
+  source_family: wikipedia
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: Wikipedia search returned no relevant page
+- &id007
+  cycle: 2
+  query: 10.1016/0950-5849(92)90028-N
+  source_family: openalex
+  url_or_api_endpoint: https://api.openalex.org/works/doi:10.1016%2F0950-5849%2892%2990028-N
+  status: fetched
+  new_facts_added: 4
+  reason: OpenAlex work metadata
+- &id008
+  cycle: 2
+  query: 10.1016/0950-5849(92)90028-N
+  source_family: semantic_scholar
+  url_or_api_endpoint: https://api.semanticscholar.org/graph/v1/paper/DOI:10.1016%2F0950-5849%2892%2990028-N?fields=title,abstract,year,url,externalIds
+  status: fetched
+  new_facts_added: 5
+  reason: Semantic Scholar paper metadata
+- &id009
+  cycle: 2
+  query: Liu
+  source_family: dblp
+  url_or_api_endpoint: https://dblp.org/search/publ/api?format=json&h=1&q=Liu
+  status: no_result
+  new_facts_added: 0
+  reason: DBLP returned no usable publication
+- &id010
+  cycle: 2
+  query: https://doi.org/10.1016/0950-5849(92)90028-N
+  source_family: original_source
+  url_or_api_endpoint: https://doi.org/10.1016/0950-5849(92)90028-N
+  status: irrelevant
+  new_facts_added: 2
+  reason: original source page metadata
+- &id011
+  cycle: 2
+  query: Liu
+  source_family: wikidata
+  url_or_api_endpoint: http://www.wikidata.org/entity/Q39000092
+  status: irrelevant
+  new_facts_added: 0
+  reason: Wikidata entity search
+- &id012
+  cycle: 3
+  query: Liu
+  source_family: citeseerx
+  url_or_api_endpoint: ''
+  status: paywalled
+  new_facts_added: 0
+  reason: CiteSeerX link is PDF/legacy metadata; full PDF body skipped
+- &id013
+  cycle: 3
+  query: Liu
+  source_family: nist_dads
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: NIST DADS has no reliable bulk search API in this environment
+- &id014
+  cycle: 3
+  query: Liu
+  source_family: the_algorithms
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: TheAlgorithms search skipped unless a known exact reference is available
+- &id015
+  cycle: 3
+  query: Liu
+  source_family: cp_algorithms
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: CP-Algorithms search skipped unless a known exact reference is available
+- &id016
+  cycle: 3
+  query: Liu
+  source_family: course_notes
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: No configured public course-notes search endpoint
+- &id017
+  cycle: 3
+  query: Liu
+  source_family: general_web_search
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: No configured general web search endpoint; Google Scholar scraping is not used
+- &id018
+  cycle: 4
+  query: 10.1016/0950-5849(92)90028-N
+  source_family: crossref
+  url_or_api_endpoint: https://doi.org/10.1016/0950-5849(92)90028-N
+  status: fetched
+  new_facts_added: 5
+  reason: Crossref metadata/title search
+- &id019
+  cycle: 4
+  query: 10.1016/0950-5849(92)90028-N
+  source_family: openalex
+  url_or_api_endpoint: https://api.openalex.org/works/doi:10.1016%2F0950-5849%2892%2990028-N
+  status: fetched
+  new_facts_added: 4
+  reason: OpenAlex work metadata
+- &id020
+  cycle: 4
+  query: 10.1016/0950-5849(92)90028-N
+  source_family: semantic_scholar
+  url_or_api_endpoint: https://api.semanticscholar.org/graph/v1/paper/DOI:10.1016%2F0950-5849%2892%2990028-N?fields=title,abstract,year,url,externalIds
+  status: fetched
+  new_facts_added: 5
+  reason: Semantic Scholar paper metadata
+- &id021
+  cycle: 4
+  query: Liu
+  source_family: wikipedia
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: Wikipedia search returned no relevant page
+- &id022
+  cycle: 4
+  query: Liu
+  source_family: dblp
+  url_or_api_endpoint: https://dblp.org/search/publ/api?format=json&h=1&q=Liu
+  status: no_result
+  new_facts_added: 0
+  reason: DBLP returned no usable publication
+source_attempts:
+- *id001
+- *id002
+- *id003
+- *id004
+- *id005
+- *id006
+- *id007
+- *id008
+- *id009
+- *id010
+- *id011
+- *id012
+- *id013
+- *id014
+- *id015
+- *id016
+- *id017
+- *id018
+- *id019
+- *id020
+- *id021
+- *id022
+discovered_sources:
+- source_id: openalex:e4c96c05e5123b5e
+  url: https://openalex.org/W2017128313
+  title: Method to determine existence of perfect BCNF decomposition
+  source_type: openalex
+  access_status: fetched
+  reliability: HIGH
+  extracted_facts:
+  - 'OpenAlex title: Method to determine existence of perfect BCNF decomposition'
+  - 'publication year: 1992'
+  short_quote: 'OpenAlex title: Method to determine existence of perfect BCNF decomposition publication year: 1992'
+  digest: 215858399f787121
+- source_id: semantic_scholar:3d7afb5680d15fd5
+  url: https://www.semanticscholar.org/paper/5adc6ad6418a1fe931cd17215205a8bc6ee8af38
+  title: Method to determine existence of perfect BCNF decomposition
+  source_type: semantic_scholar
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Semantic Scholar title: Method to determine existence of perfect BCNF decomposition'
+  - 'published year: 1992'
+  - 'abstract summary: None'
+  short_quote: 'Semantic Scholar title: Method to determine existence of perfect BCNF decomposition published year: 1992 abstract summary: None'
+  digest: da090f69bc0327be
+- source_id: wikidata:abfbec80f5600c1b
+  url: http://www.wikidata.org/entity/Q39000092
+  title: Liu
+  source_type: wikidata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - Liu
+  - family name
+  short_quote: Liu family name
+  digest: 8bf5d0f048eb48ca
+discovered_facts:
+- fact_id: AW-000634-F2efddd21ef
+  fact_type: alias
+  value: Liu
+  source_id: AW-000634:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: AlgorithmWiki metadata
+- fact_id: AW-000634-Fc375e4c7ff
+  fact_type: time_complexity
+  value: O(kn^2)
+  source_id: AW-000634:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: AlgorithmWiki metadata
+- fact_id: AW-000634-Fe10869b153
+  fact_type: space_complexity
+  value: O(n)
+  source_id: AW-000634:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: AlgorithmWiki metadata
+- fact_id: AW-000634-Ff7c8a057f3
+  fact_type: computation_model
+  value: Word RAM
+  source_id: AW-000634:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: AlgorithmWiki metadata
+- fact_id: AW-000634-F2e67b2e60f
+  fact_type: input_semantics
+  value: 'Parameter definitions: n: size of database, k: number of functional dependencies (assume O(n))'
+  source_id: AW-000634:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 75
+  conflict_status: weak
+  notes: AlgorithmWiki parameter metadata
+- fact_id: AW-000634-F66bb313dbc
+  fact_type: authoritative_source_link
+  value: https://doi.org/10.1016/0950-5849(92)90028-N
+  source_id: AW-000634:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 70
+  conflict_status: consistent
+  notes: Original source link from AlgorithmWiki metadata
+- fact_id: AW-000634-F761c6630b4
+  fact_type: source_title
+  value: AlgorithmWiki metadata for Liu
+  source_id: AW-000634:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000634-F2497030b03
+  fact_type: problem_definition
+  value: 'Source title indicates: AlgorithmWiki metadata for Liu'
+  source_id: AW-000634:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: weak
+  notes: previous_source_record
+- fact_id: AW-000634-Fa0cd650c68
+  fact_type: problem_definition
+  value: 'AlgorithmWiki row name: Liu'
+  source_id: AW-000634:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000634-F57d3df576e
+  fact_type: problem_definition
+  value: 'domain: unknown'
+  source_id: AW-000634:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000634-F29afad7af1
+  fact_type: time_complexity
+  value: 'time complexity: O(kn^2)'
+  source_id: AW-000634:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000634-F1a615665d0
+  fact_type: space_complexity
+  value: 'space complexity: O(n)'
+  source_id: AW-000634:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000634-Fa4e712f256
+  fact_type: computation_model
+  value: 'computational model: Word RAM'
+  source_id: AW-000634:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000634-F923bce29f2
+  fact_type: problem_definition
+  value: 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  source_id: AW-000634:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000634-F277e83a7d1
+  fact_type: source_title
+  value: Method to determine existence of perfect BCNF decomposition
+  source_id: crossref:403e9e2cb44576b7
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000634-F1c11a866e5
+  fact_type: problem_definition
+  value: 'DOI title: Method to determine existence of perfect BCNF decomposition'
+  source_id: crossref:403e9e2cb44576b7
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000634-Ff119396266
+  fact_type: problem_definition
+  value: 'published year: 1992'
+  source_id: crossref:403e9e2cb44576b7
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000634-F1a39979565
+  fact_type: problem_definition
+  value: 'container title: Information and Software Technology'
+  source_id: crossref:403e9e2cb44576b7
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000634-F8abadebe37
+  fact_type: source_title
+  value: Redirecting
+  source_id: source:dfdf2d865ced7395
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000634-Fb725320209
+  fact_type: problem_definition
+  value: 'source page title: Redirecting'
+  source_id: source:dfdf2d865ced7395
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000634-Ff392b32441
+  fact_type: problem_definition
+  value: 'source page description: Redirecting'
+  source_id: source:dfdf2d865ced7395
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000634-F1877692d96
+  fact_type: problem_definition
+  value: 'Crossref title-search result: Method to determine existence of perfect BCNF decomposition'
+  source_id: crossref_search:9ea22ae99a8e44fd
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000634-F3dafadd933
+  fact_type: problem_definition
+  value: 'OpenAlex title: Method to determine existence of perfect BCNF decomposition'
+  source_id: openalex:e4c96c05e5123b5e
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: openalex
+- fact_id: AW-000634-F22b7592ff2
+  fact_type: problem_definition
+  value: 'publication year: 1992'
+  source_id: openalex:e4c96c05e5123b5e
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: openalex
+- fact_id: AW-000634-F9fe5477557
+  fact_type: authoritative_source_link
+  value: https://openalex.org/W2017128313
+  source_id: openalex:e4c96c05e5123b5e
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: openalex
+- fact_id: AW-000634-Fcc4352a36d
+  fact_type: problem_definition
+  value: 'Semantic Scholar title: Method to determine existence of perfect BCNF decomposition'
+  source_id: semantic_scholar:3d7afb5680d15fd5
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: consistent
+  notes: semantic_scholar
+- fact_id: AW-000634-Fbb5fa2eedf
+  fact_type: problem_definition
+  value: 'abstract summary: None'
+  source_id: semantic_scholar:3d7afb5680d15fd5
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: consistent
+  notes: semantic_scholar
+- fact_id: AW-000634-F1c3e7122b4
+  fact_type: authoritative_source_link
+  value: https://www.semanticscholar.org/paper/5adc6ad6418a1fe931cd17215205a8bc6ee8af38
+  source_id: semantic_scholar:3d7afb5680d15fd5
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: consistent
+  notes: semantic_scholar
+duplicate_sources:
+- source_id: AW-000634:algorithm_wiki_metadata
+  url: https://doi.org/10.1016/0950-5849(92)90028-N
+  title: AlgorithmWiki metadata for Liu
+  source_type: algorithm_wiki
+  access_status: metadata_only
+  reliability: HIGH
+  extracted_facts:
+  - 'AlgorithmWiki row name: Liu'
+  - 'domain: unknown'
+  - 'time complexity: O(kn^2)'
+  - 'space complexity: O(n)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: size of database, k: number of functional dependencies (assume O(n))'
+  short_quote: ''
+  digest: d752339c587930be
+- source_id: source:dfdf2d865ced7395
+  url: https://doi.org/10.1016/0950-5849(92)90028-N
+  title: Redirecting
+  source_type: publisher_abstract
+  access_status: fetched
+  reliability: HIGH
+  extracted_facts:
+  - Redirecting
+  - Redirecting
+  short_quote: Redirecting Redirecting
+  digest: 7161c3b6d18e7c30
+- source_id: crossref:403e9e2cb44576b7
+  url: https://doi.org/10.1016/0950-5849(92)90028-N
+  title: Method to determine existence of perfect BCNF decomposition
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: HIGH
+  extracted_facts:
+  - 'DOI title: Method to determine existence of perfect BCNF decomposition'
+  - 'published year: 1992'
+  - 'container title: Information and Software Technology'
+  short_quote: ''
+  digest: 935ec5496fa0a508
+- source_id: source:dfdf2d865ced7395
+  url: https://doi.org/10.1016/0950-5849(92)90028-N
+  title: Redirecting
+  source_type: publisher_abstract
+  access_status: fetched
+  reliability: HIGH
+  extracted_facts:
+  - Redirecting
+  - Redirecting
+  short_quote: Redirecting Redirecting
+  digest: 7161c3b6d18e7c30
+- source_id: crossref:403e9e2cb44576b7
+  url: https://doi.org/10.1016/0950-5849(92)90028-N
+  title: Method to determine existence of perfect BCNF decomposition
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: HIGH
+  extracted_facts:
+  - 'DOI title: Method to determine existence of perfect BCNF decomposition'
+  - 'published year: 1992'
+  - 'container title: Information and Software Technology'
+  short_quote: ''
+  digest: 935ec5496fa0a508
+- source_id: openalex:e4c96c05e5123b5e
+  url: https://openalex.org/W2017128313
+  title: Method to determine existence of perfect BCNF decomposition
+  source_type: openalex
+  access_status: fetched
+  reliability: HIGH
+  extracted_facts:
+  - 'OpenAlex title: Method to determine existence of perfect BCNF decomposition'
+  - 'publication year: 1992'
+  short_quote: 'OpenAlex title: Method to determine existence of perfect BCNF decomposition publication year: 1992'
+  digest: 215858399f787121
+- source_id: semantic_scholar:3d7afb5680d15fd5
+  url: https://www.semanticscholar.org/paper/5adc6ad6418a1fe931cd17215205a8bc6ee8af38
+  title: Method to determine existence of perfect BCNF decomposition
+  source_type: semantic_scholar
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Semantic Scholar title: Method to determine existence of perfect BCNF decomposition'
+  - 'published year: 1992'
+  - 'abstract summary: None'
+  short_quote: 'Semantic Scholar title: Method to determine existence of perfect BCNF decomposition published year: 1992 abstract summary: None'
+  digest: da090f69bc0327be
+failed_sources: []
+paywalled_or_skipped_sources: []
+source_families_covered:
+- algorithm_wiki_local
+- local_previous_cache
+- original_source
+- crossref
+- arxiv
+- wikipedia
+- openalex
+- semantic_scholar
+- dblp
+- publisher_abstract
+- wikidata
+- citeseerx
+- nist_dads
+- the_algorithms
+- cp_algorithms
+- course_notes
+- general_web_search
+cycles_completed: 4
+new_fact_count_by_cycle:
+- cycle: 1
+  new_facts: 0
+- cycle: 2
+  new_facts: 6
+- cycle: 3
+  new_facts: 0
+- cycle: 4
+  new_facts: 0
+no_new_fact_streak: 2
+saturation_status: SATURATED_NO_RECOVERY
+final_reason: After the configured source-family cycles, no source-backed concrete task, input semantics, output semantics, and conservative access model could be established.
+next_manual_action: No automated action recommended; keep saturated certificate with unresolved row.

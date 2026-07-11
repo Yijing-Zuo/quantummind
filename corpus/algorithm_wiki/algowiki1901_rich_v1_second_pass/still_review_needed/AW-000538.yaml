@@ -1,0 +1,47 @@
+algorithm_id: AW-000538
+canonical_name: "Todd\u2013Coxeter algorithm"
+enrichment_status: SECOND_PASS_INSUFFICIENT
+review_reasons:
+- No second-pass rule could identify source-backed task semantics.
+source_records:
+- access_status: metadata_only
+  digest: d5a4f6ada0c0900f
+  extracted_facts:
+  - "AlgorithmWiki row name: Todd\u2013Coxeter algorithm"
+  - 'domain: unknown'
+  - 'time complexity: O(2^n)'
+  - 'space complexity: O(gkc)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of generators, g: order of group (possibly exponential in n), k: number of relations, c: maximum number of generators multiplied together in a relation'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000538:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: "AlgorithmWiki metadata for Todd\u2013Coxeter algorithm"
+  url: https://www.cambridge.org/core/journals/proceedings-of-the-edinburgh-mathematical-society/article/practical-method-for-enumerating-cosets-of-a-finite-abstract-group/0306574AD958F694A0A8339338348AA1
+- access_status: fetched
+  digest: 7fdc7b2532a8254e
+  extracted_facts:
+  - 'source page title: A practical method for enumerating cosets of a finite abstract group | Proceedings of the Edinburgh Mathematical Society | Cambridge Core'
+  - 'source page description: A practical method for enumerating cosets of a finite abstract group - Volume 5 Issue 1'
+  reliability: LOW
+  short_quote: A practical method for enumerating cosets of a finite abstract group - Volume 5 Issue 1
+  source_id: source:80bc567adefeb014
+  source_type: other_public_source
+  title: A practical method for enumerating cosets of a finite abstract group | Proceedings of the Edinburgh Mathematical Society | Cambridge Core
+  url: https://www.cambridge.org/core/journals/proceedings-of-the-edinburgh-mathematical-society/article/practical-method-for-enumerating-cosets-of-a-finite-abstract-group/0306574AD958F694A0A8339338348AA1
+- source_id: crossref_search:136fb48a39a7f5bf
+  url: https://doi.org/10.1017/s0013091500008221
+  title: A practical method for enumerating cosets of a finite abstract group
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: A practical method for enumerating cosets of a finite abstract group'
+  - "abstract summary: An important problem in finite-group theory is the determination of an abstract definition for a given group , that is, a set of relations between k generating operations S 1 , \u2026., S k of , such that every other relation between S 1 , \u2026., S k is an algebraic consequence of (1)."
+  short_quote: An important problem in finite-group theory is the determination of an abstract definition for a given group , that is, a set of relations
+  digest: 0164e01365462d11
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

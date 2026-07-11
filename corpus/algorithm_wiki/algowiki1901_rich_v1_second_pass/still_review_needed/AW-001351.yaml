@@ -1,0 +1,33 @@
+algorithm_id: AW-001351
+canonical_name: Solomonik, Demmel (Classical 2.5D)
+enrichment_status: SECOND_PASS_INSUFFICIENT
+review_reasons:
+- No second-pass rule could identify source-backed task semantics.
+source_records:
+- access_status: metadata_only
+  digest: f2f5fdf06cf7e40f
+  extracted_facts:
+  - 'AlgorithmWiki row name: Solomonik, Demmel (Classical 2.5D)'
+  - 'domain: unknown'
+  - 'time complexity: O(n^3/p)'
+  - 'computational model: synchronous communication'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001351:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Solomonik, Demmel (Classical 2.5D)
+  url: https://www2.eecs.berkeley.edu/Pubs/TechRpts/2011/EECS-2011-10.pdf
+- source_id: crossref_search:651d8a1370e2c1b7
+  url: https://doi.org/10.1093/benz/9780199773787.article.b00049270
+  title: Demmel, Augustin Joseph
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: Demmel, Augustin Joseph'
+  short_quote: ''
+  digest: ddfdac6ca6621d6e
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

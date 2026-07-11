@@ -1,0 +1,49 @@
+probe_id: AW-000718-TP0143
+algorithm_id: AW-000718-TP0143
+canonical_name: "Kleitman\u2013Wang Algorithm graph_walk_probe"
+readiness: READY_PUBLIC_PROBE
+quality_score: 100
+probe_type: graph_walk_probe
+parent_algorithm_id: AW-000718
+parent_algorithm_name: "Kleitman\u2013Wang Algorithm"
+source_records_used:
+- AW-000718:algorithm_wiki_metadata
+- source:60b035e5af533e0d
+- crossref_search:6a55c0f6c2abec66
+- crossref_search:48e4a6aa7121d3ee
+- openalex:0dfb1384c65700ba
+- wikidata:b6df57611630607e
+introduced_assumptions:
+- local_graph_transition_oracle
+- marked_vertex_or_edge
+- query_model_subroutine
+missing_from_original_problem:
+- marked-state definition
+- transition implementation
+- end-to-end output reconstruction
+original_output_contract: path_or_tree
+probe_output_contract: one_witness
+not_end_to_end_claim: true
+expected_authority: query_or_subroutine_hypothesis_only
+why_probe_is_scientifically_interesting: Graph search rows often hide local witness or hitting subroutines behind full-output tasks.
+why_probe_may_fail: The useful result may require reporting a complete path, tree, or component labeling.
+inferred_input_model: explicit_graph_problem
+inferred_access_model: local_graph_transition_oracle
+inferred_output_contract: one_witness
+inferred_size_parameters:
+- 'Parameter definition: n: number of degree pairs'
+inferred_promises:
+- marked_item_exists
+- local_transition_access
+- oracle_model_assumption
+inferred_ambiguities:
+- This probe is assumption-bearing and is not an end-to-end speedup claim.
+- local transition access may not represent the original graph input cheaply
+- The parent context card and source records should be checked before live use.
+source_count: 6
+source_quality: HIGH
+confidence_score: 100
+card_digest: 343f30eb39d5a40f
+extraction_version: algorithm-wiki-rich-third-pass-probe-v1
+rich_card_kind: probe_recovered
+saturation_status: RECOVERED_CONTEXT_AND_PROBE

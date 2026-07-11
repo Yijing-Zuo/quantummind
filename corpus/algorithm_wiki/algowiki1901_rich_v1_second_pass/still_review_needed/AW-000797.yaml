@@ -1,0 +1,32 @@
+algorithm_id: AW-000797
+canonical_name: Tushar Deepak Chandra and Sam Toueg
+enrichment_status: SECOND_PASS_INSUFFICIENT
+review_reasons:
+- No second-pass rule could identify source-backed task semantics.
+source_records:
+- access_status: metadata_only
+  digest: 52ba1f7c9f1bc166
+  extracted_facts:
+  - 'AlgorithmWiki row name: Tushar Deepak Chandra and Sam Toueg'
+  - 'domain: unknown'
+  - 'time complexity: O(n)'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000797:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Tushar Deepak Chandra and Sam Toueg
+  url: https://www.cs.utexas.edu/~lorenzo/corsi/cs380d/papers/p225-chandra.pdf
+- source_id: crossref_search:6d70af710b3295ce
+  url: https://doi.org/10.1007/springerreference_57659
+  title: Failure Detectors, 1996; Chandra, Toueg
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: Failure Detectors, 1996; Chandra, Toueg'
+  short_quote: ''
+  digest: 2f70d3c5ad68d30f
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

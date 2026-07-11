@@ -1,0 +1,61 @@
+id: AW-000179-P0140
+kind: probe
+algorithm_id: AW-000179
+algorithm_name: Balaban.
+source_records:
+- access_status: metadata_only
+  digest: ad5971250eccc3a2
+  extracted_facts:
+  - 'AlgorithmWiki row name: Balaban.'
+  - 'domain: computational_geometry'
+  - 'time complexity: O(n \log n + k)'
+  - 'space complexity: O(n)'
+  - 'computational model: Real RAM'
+  - 'parameter definitions: n: number of line segments, k: number of points of intersection'
+  - 'precard summary: Given explicit geometric objects such as points, segments, or polygons, compute the requested geometric structure or witness set. Baseline: time O(n \log n + k); space O(n). Bottleneck: geometric predicates, ordering events, and output-sensitive structure size dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000179:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Balaban.
+  url: https://dl.acm.org/doi/pdf/10.1145/220279.220302
+- access_status: fetched
+  digest: d98c78eda745e205
+  extracted_facts:
+  - 'DOI title: An optimal algorithm for finding segments intersections'
+  - 'published year: 1995'
+  - 'container title: Proceedings of the eleventh annual symposium on Computational geometry - SCG ''95'
+  reliability: HIGH
+  short_quote: ''
+  source_id: crossref:e2b791e47207e973
+  source_type: doi_metadata
+  title: An optimal algorithm for finding segments intersections
+  url: https://doi.org/10.1145/220279.220302
+web_query_attempts:
+- method: search_plan
+  query: Balaban. algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Balaban. algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Balaban. problem definition
+  status: recorded
+- method: search_plan
+  query: Balaban. computational geometry algorithm
+  status: recorded
+- method: search_plan
+  query: Balaban. site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Balaban. algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://dl.acm.org/doi/pdf/10.1145/220279.220302
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1145/220279.220302
+  status: fetched
+extracted_problem_statement: 'Balaban. is treated as a classical computational geometry task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Balaban.. Input semantics: Explicit geometric objects such as points, line segments, polygons, or planar subdivisions. Output semantics: The requested geometric structure, simplified curve, clipping result, intersection set, hull, or diagram.'
+extracted_algorithm_summary: 'Balaban. is a computational geometry algorithm record. Classical complexity metadata: time O(n \log n + k); space O(n). The stated classical model is Real RAM. Public metadata/source text adds: Balaban. computational_geometry computational_geometry n: number of line segments, k: number of points of intersection O(n \log n + k) Given explicit geometric objects such as points, segments, or polygons, compute the requested geometric structure or witness set.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

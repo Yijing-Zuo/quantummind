@@ -1,0 +1,46 @@
+id: AW-001387
+kind: context
+algorithm_id: AW-001387
+algorithm_name: Kaltofen, Pan
+source_records:
+- access_status: metadata_only
+  digest: 91b0a42adb25c5d7
+  extracted_facts:
+  - 'AlgorithmWiki row name: Kaltofen, Pan'
+  - 'domain: matrix_linear_algebra'
+  - 'time complexity: O(gammak(n,p) \\log^2{n}) where gammak(n,p)=O(\\log^3{n}) for singular matrices O(gammak(n,p) \\log{n}) for non-singular so, O(\\log^5{n}) or O(\\log^4{n}) Field must be characteristic 1<p<n as well to be log(n) faster, but reals are characteristic 0, so O(\\log^5(n))'
+  - 'computational model: probabilistic algebraic random access machine defined formally in (Kaltofen 1988)'
+  - 'parameter definitions: nxn: size of matrix A, M(n): processor complexity of parallel matrix multiplication, currently n^2.3755'
+  - 'precard summary: Given one or more explicit dense matrices over the stated arithmetic domain, compute the matrix or linear-algebraic output specified by the record. Baseline: time O(gammak(n,p) \\log^2{n}) where gammak(n,p)=O(\\log^3{n}) for singular matrices O(gammak(n,p) \\log{n}) for non-singular so, O(\\log^5{n}) or O(\\log^4{n}) Field must be characteristic 1<p<n as well to be log(n) faster, but reals are characteristic 0, so O(\\log^5(n)); work O(\\log^6{n}*n^2.3755); span/depth O(\log^5{n}); processors max{M(n)\log{n}, n^2 \log{n} \log{\log{n}}}. Bottleneck: dense arithmetic and full matrix output dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001387:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Kaltofen, Pan
+  url: https://users.cs.duke.edu/~elk27/bibliography/92/KaPa92.pdf
+web_query_attempts:
+- method: search_plan
+  query: Kaltofen, Pan algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Kaltofen, Pan algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Kaltofen, Pan problem definition
+  status: recorded
+- method: search_plan
+  query: Kaltofen, Pan matrix linear algebra algorithm
+  status: recorded
+- method: search_plan
+  query: Kaltofen, Pan site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Kaltofen, Pan algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://users.cs.duke.edu/~elk27/bibliography/92/KaPa92.pdf
+  status: recorded
+extracted_problem_statement: 'Kaltofen, Pan is treated as a classical matrix linear algebra task for rich AlgorithmWiki discovery. Problem/task: multiply matrices using the named bilinear or algebraic multiplication method. Input semantics: One or more explicit matrices or linear systems over the stated arithmetic domain. Output semantics: The matrix product or bilinear multiplication output.'
+extracted_algorithm_summary: 'Kaltofen, Pan is a matrix linear algebra algorithm record. Classical complexity metadata: time O(gammak(n,p) \\log^2{n}) where gammak(n,p)=O(\\log^3{n}) for singular matrices O(gammak(n,p) \\log{n}) for non-singular so, O(\\log^5{n}) or O(\\log^4{n}) Field must be characteristic 1<p<n as well to be log(n) faster, but reals are characteristic 0, so O(\\log^5(n)); work O(\\log^6{n}*n^2.3755); span/depth O(\log^5{n}); processors max{M(n)\log{n}, n^2 \log{n} \log{\log{n}}}. The stated classical model is probabilistic algebraic random access machine defined formally in (Kaltofen 1988). Public metadata/source text adds: 3755 O(gammak(n,p) \\log^2{n}) where gammak(n,p)=O(\\log^3{n}) for singular matrices O(gammak(n,p) \\log{n}) for non-singular so, O(\\log^5{n}) or O(\\log^4{n}) Field must be characteristic 1<p<n as well to be log(n) faster, but reals are characteristic 0, so O(\\log^5(n)) Given one or more explicit dense matrices over the stated arithmetic domain,
+  compute the matrix or linear-algebraic output specified by the record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

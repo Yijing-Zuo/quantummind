@@ -1,0 +1,59 @@
+id: AW-000458-P0339
+kind: probe
+algorithm_id: AW-000458
+algorithm_name: Gosper's algorithm
+source_records:
+- access_status: metadata_only
+  digest: 34ca7f2f4598d84f
+  extracted_facts:
+  - 'AlgorithmWiki row name: Gosper''s algorithm'
+  - 'domain: unknown'
+  - 'time complexity: O((\lambda + \mu) \log(\lambda + \mu) t_f)'
+  - 'space complexity: \Theta(\log(\mu + \lambda))'
+  - 'parameter definitions: t_f: time to perform one evaluation of f, \mu: the starting index of the cycle, \lambda: the period of the cycle'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000458:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Gosper's algorithm
+  url: https://web.archive.org/web/20200318230848/http://www.inwap.com/pdp10/hbaker/hakmem/flows.html
+- access_status: fetched
+  digest: b22dda3165492c77
+  extracted_facts:
+  - 'source page title: HAKMEM -- FLOWS AND ITERATED FUNCTIONS -- DRAFT, NOT YET PROOFED'
+  - 'source page description: Beeler, M., Gosper, R.W., and Schroeppel, R.'
+  reliability: LOW
+  short_quote: Beeler, M., Gosper, R.W., and Schroeppel, R.
+  source_id: source:72545ecc48b68d34
+  source_type: other_public_source
+  title: HAKMEM -- FLOWS AND ITERATED FUNCTIONS -- DRAFT, NOT YET PROOFED
+  url: https://web.archive.org/web/20200318230848/http://www.inwap.com/pdp10/hbaker/hakmem/flows.html
+web_query_attempts:
+- method: search_plan
+  query: Gosper's algorithm algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Gosper's algorithm algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Gosper's algorithm problem definition
+  status: recorded
+- method: search_plan
+  query: Gosper's algorithm site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Gosper's algorithm algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://web.archive.org/web/20200318230848/http://www.inwap.com/pdp10/hbaker/hakmem/flows.html
+  status: recorded
+- method: source_link_html_metadata
+  query: https://web.archive.org/web/20200318230848/http://www.inwap.com/pdp10/hbaker/hakmem/flows.html
+  status: fetched
+- method: wikipedia_summary_search
+  query: Gosper's algorithm algorithm
+  status: failed_or_not_relevant
+extracted_problem_statement: 'Gosper''s algorithm is treated as a classical combinatorics task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Gosper''s algorithm. Input semantics: An iterated function or sequence representation with parameters for the preperiod and cycle length. Output semantics: A count, witness, construction, ordering, subset, cycle, or other finite combinatorial output.'
+extracted_algorithm_summary: 'Gosper''s algorithm is a combinatorics algorithm record. Classical complexity metadata: time O((\lambda + \mu) \log(\lambda + \mu) t_f); space \Theta(\log(\mu + \lambda)). Public metadata/source text adds: Gosper''s algorithm unknown unknown t_f: time to perform one evaluation of f, \mu: the starting index of the cycle, \lambda: the period of the cycle O((\lambda + \mu) \log(\lambda + \mu) t_f) No public-ready summary is available because the row lacks enough task semantics.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

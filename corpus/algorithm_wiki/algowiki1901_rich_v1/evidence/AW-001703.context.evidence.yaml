@@ -1,0 +1,45 @@
+id: AW-001703
+kind: context
+algorithm_id: AW-001703
+algorithm_name: Ashan, Puri, Prasad
+source_records:
+- access_status: metadata_only
+  digest: a8d8d5d38f9ee49c
+  extracted_facts:
+  - 'AlgorithmWiki row name: Ashan, Puri, Prasad'
+  - 'domain: graph'
+  - 'time complexity: O(\log{n})'
+  - 'computational model: CREW PRAM'
+  - 'parameter definitions: n: number of vertices, k: number of edge intersections'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(\log{n}); work O(\log{n}(n+k)); span/depth O(\log{n}); processors O(n+k). Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001703:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Ashan, Puri, Prasad
+  url: https://www.cs.mu.edu/~satish/papers/GH_GPU_Camera_ready.pdf
+web_query_attempts:
+- method: search_plan
+  query: Ashan, Puri, Prasad algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Ashan, Puri, Prasad algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Ashan, Puri, Prasad problem definition
+  status: recorded
+- method: search_plan
+  query: Ashan, Puri, Prasad graph algorithm
+  status: recorded
+- method: search_plan
+  query: Ashan, Puri, Prasad site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Ashan, Puri, Prasad algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://www.cs.mu.edu/~satish/papers/GH_GPU_Camera_ready.pdf
+  status: recorded
+extracted_problem_statement: 'Ashan, Puri, Prasad is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Ashan, Puri, Prasad. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'Ashan, Puri, Prasad is a graph algorithm record. Classical complexity metadata: time O(\log{n}); work O(\log{n}(n+k)); span/depth O(\log{n}); processors O(n+k). The stated classical model is CREW PRAM. Public metadata/source text adds: Ashan, Puri, Prasad graph graph n: number of vertices, k: number of edge intersections O(\log{n}) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

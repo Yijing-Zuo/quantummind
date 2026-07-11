@@ -1,0 +1,46 @@
+id: AW-000581
+kind: context
+algorithm_id: AW-000581
+algorithm_name: Finch
+source_records:
+- access_status: metadata_only
+  digest: be67f7b33eeb0ae9
+  extracted_facts:
+  - 'AlgorithmWiki row name: Finch'
+  - 'domain: graph'
+  - 'time complexity: O(V^2 E)'
+  - 'space complexity: O(V^2)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: V: number of vertices in the larger of the two graphs, E: number of edges in the larger of the two graphs'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(V^2 E); space O(V^2). Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000581:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Finch
+  url: https://direct.mit.edu/neco/article-pdf/10/7/1873/813998/089976698300017188.pdf?casa_token=nCYv9xO_Cc4AAAAA:EHiG4v8QmQju6u9RE6w4X6EGRtk5O5W6hIGy-_0A3HSit43f__4oSd4wjAtFIGJuopGMZzU
+web_query_attempts:
+- method: search_plan
+  query: Finch algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Finch algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Finch problem definition
+  status: recorded
+- method: search_plan
+  query: Finch graph algorithm
+  status: recorded
+- method: search_plan
+  query: Finch site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Finch algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://direct.mit.edu/neco/article-pdf/10/7/1873/813998/089976698300017188.pdf?casa_token=nCYv9xO_Cc4AAAAA:EHiG4v8QmQju6u9RE6w4X6EGRtk5O5W6hIGy-_0A3HSit43f__4oSd4wjAtFIGJuopGMZzU
+  status: recorded
+extracted_problem_statement: 'Finch is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Finch. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'Finch is a graph algorithm record. Classical complexity metadata: time O(V^2 E); space O(V^2). The stated classical model is Word RAM. Public metadata/source text adds: Finch graph graph V: number of vertices in the larger of the two graphs, E: number of edges in the larger of the two graphs O(V^2 E) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

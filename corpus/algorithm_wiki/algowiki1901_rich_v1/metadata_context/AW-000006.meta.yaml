@@ -1,0 +1,58 @@
+algorithm_family: unknown
+algorithm_id: AW-000006
+approximate: '0'
+approximation_factor: ''
+blind_name: Algorithm Wiki public task AW-000006
+canonical_name: Pisinger
+computational_model: Word RAM
+domain: unknown
+extracted_description: ''
+extraction_version: algorithm-wiki-rich-context-v1
+family: unknown
+inferred_access_model: offline_batch_queries
+inferred_ambiguities:
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.
+inferred_input_model: explicit_combinatorial_problem
+inferred_output_contract: one_witness
+inferred_problem_statement: 'Pisinger is treated as a classical dynamic programming task for rich AlgorithmWiki discovery. Problem/task: solve a subset-sum or target-sum dynamic-programming/search problem. Input semantics: A finite set or multiset of integers with a target sum parameter. Output semantics: A decision result, feasible subset witness, count, or optimized subset value for the target-sum instance, depending on the row.'
+inferred_promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+inferred_size_parameters:
+- 'Parameter definition: n: number of elements in the set, t: target sum'
+number_of_processors: ''
+page_digest: ''
+page_fetch_status: not_found
+page_url: ''
+parameter_definitions: 'n: number of elements in the set, t: target sum'
+problem_name: unknown
+quality_flags:
+- has_complexity_semantics
+- has_size_parameters
+- has_computational_model
+quality_score: 70
+randomized: '0'
+readiness: READY_PUBLIC_CONTEXT
+review_reasons:
+- missing_problem_statement
+- unknown_input_model
+- unknown_access_model
+- unknown_output_contract
+- insufficient_algorithm_level_structure
+source_link: https://link.springer.com/article/10.1007/s00453-002-0989-y
+source_link_type: unknown
+space_complexity: O(t/\log t)
+span_depth: ''
+time_complexity: O(nt/\log t)
+variation: ''
+work: ''
+year: '2003'
+rich_card_kind: context
+source_records_used:
+- AW-000006:algorithm_wiki_metadata
+- crossref:f41853efbaf753bb
+- skipped:2ee4a97772503ad3
+source_count: 3
+source_quality: HIGH
+confidence_score: 70
+card_digest: bda64be0dc4a375e

@@ -1,0 +1,84 @@
+id: AW-001092
+kind: context
+algorithm_id: AW-001092
+algorithm_name: paralleldouble distributive partitioning sort - Noga
+source_records:
+- access_status: metadata_only
+  digest: d77c3e24dd79f218
+  extracted_facts:
+  - 'AlgorithmWiki row name: paralleldouble distributive partitioning sort - Noga'
+  - 'domain: sorting'
+  - 'time complexity: O(n)'
+  - 'computational model: MIMD'
+  - 'parameter definitions: n: size of list, p: number of processors'
+  - 'precard summary: Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model. Baseline: time O(n); work O(n^2); span/depth O(n); processors p. Bottleneck: comparison, distribution, and full-output movement costs dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001092:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for paralleldouble distributive partitioning sort - Noga
+  url: https://link.springer.com/article/10.1007/BF01933729
+- access_status: skipped
+  digest: 5a0a17094e348b3b
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:38064468f5b7e929
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1007/BF01933729
+- access_status: skipped
+  digest: 46c1eab13475d581
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:977dbd5461f49da5
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://link.springer.com/article/10.1007/BF01933729
+- access_status: skipped
+  digest: 59f1e4159ae2aeb7
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:8958cc521c0e8c07
+  source_type: wikipedia
+  title: fetch budget exhausted
+  url: https://en.wikipedia.org/wiki/paralleldouble_distributive_partitioning_sort_-_Noga
+web_query_attempts:
+- method: search_plan
+  query: paralleldouble distributive partitioning sort - Noga algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: paralleldouble distributive partitioning sort - Noga algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: paralleldouble distributive partitioning sort - Noga problem definition
+  status: recorded
+- method: search_plan
+  query: paralleldouble distributive partitioning sort - Noga sorting algorithm
+  status: recorded
+- method: search_plan
+  query: paralleldouble distributive partitioning sort - Noga site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: paralleldouble distributive partitioning sort - Noga algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://link.springer.com/article/10.1007/BF01933729
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1007/BF01933729
+  status: skipped
+- method: source_link_html_metadata
+  query: https://link.springer.com/article/10.1007/BF01933729
+  status: skipped
+- method: wikipedia_summary_search
+  query: paralleldouble distributive partitioning sort - Noga algorithm
+  status: skipped
+extracted_problem_statement: 'paralleldouble distributive partitioning sort - Noga is treated as a classical sorting task for rich AlgorithmWiki discovery. Problem/task: sort the input sequence using the named classical sorting method. Input semantics: A finite array or list of comparable keys or records. Output semantics: The same items returned in nondecreasing order, usually as a full reordered sequence.'
+extracted_algorithm_summary: 'paralleldouble distributive partitioning sort - Noga is a sorting algorithm record. Classical complexity metadata: time O(n); work O(n^2); span/depth O(n); processors p. The stated classical model is MIMD. Public metadata/source text adds: paralleldouble distributive partitioning sort - Noga sorting sorting n: size of list, p: number of processors O(n) Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

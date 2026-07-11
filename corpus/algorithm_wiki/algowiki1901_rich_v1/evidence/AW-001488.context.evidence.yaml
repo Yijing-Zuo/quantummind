@@ -1,0 +1,71 @@
+id: AW-001488
+kind: context
+algorithm_id: AW-001488
+algorithm_name: Savage and Ja'Ja'
+source_records:
+- access_status: metadata_only
+  digest: 8c6cb6d64812d472
+  extracted_facts:
+  - 'AlgorithmWiki row name: Savage and Ja''Ja'''
+  - 'domain: graph'
+  - 'time complexity: O(\log^2(n))'
+  - 'computational model: SIMD-SM-R (CREW PRAM)'
+  - 'parameter definitions: n: number of vertices'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(\log^2(n)); work O(n^2*\log^2(n)); span/depth O(log^2(n)); processors n^2. Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001488:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Savage and Ja'Ja'
+  url: https://epubs.siam.org/doi/abs/10.1137/0210051
+- access_status: skipped
+  digest: 48b4b3fe5721a5b3
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:01050f9d9380866c
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1137/0210051
+- access_status: skipped
+  digest: 4a7f3bb1ae46e8fe
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:c2d91d791ea1d1e6
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://epubs.siam.org/doi/abs/10.1137/0210051
+web_query_attempts:
+- method: search_plan
+  query: Savage and Ja'Ja' algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Savage and Ja'Ja' algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Savage and Ja'Ja' problem definition
+  status: recorded
+- method: search_plan
+  query: Savage and Ja'Ja' graph algorithm
+  status: recorded
+- method: search_plan
+  query: Savage and Ja'Ja' site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Savage and Ja'Ja' algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://epubs.siam.org/doi/abs/10.1137/0210051
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1137/0210051
+  status: skipped
+- method: source_link_html_metadata
+  query: https://epubs.siam.org/doi/abs/10.1137/0210051
+  status: skipped
+extracted_problem_statement: 'Savage and Ja''Ja'' is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Savage and Ja''Ja''. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'Savage and Ja''Ja'' is a graph algorithm record. Classical complexity metadata: time O(\log^2(n)); work O(n^2*\log^2(n)); span/depth O(log^2(n)); processors n^2. The stated classical model is SIMD-SM-R (CREW PRAM). Public metadata/source text adds: Savage and Ja''Ja'' graph graph n: number of vertices O(\log^2(n)) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

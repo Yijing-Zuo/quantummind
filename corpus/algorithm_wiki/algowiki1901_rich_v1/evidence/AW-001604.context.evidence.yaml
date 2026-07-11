@@ -1,0 +1,58 @@
+id: AW-001604
+kind: context
+algorithm_id: AW-001604
+algorithm_name: Yan (trial division)
+source_records:
+- access_status: metadata_only
+  digest: f3c6d73923371284
+  extracted_facts:
+  - 'AlgorithmWiki row name: Yan (trial division)'
+  - 'domain: graph'
+  - 'time complexity: pi(sqrt(n))/p'
+  - 'computational model: MIMD'
+  - 'parameter definitions: n: integer to be factorized, pi(x): the number of primes up to x, p: number of processors'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time pi(sqrt(n))/p; work pi(sqrt(n)); span/depth pi(sqrt(n))/p; processors p. Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001604:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Yan (trial division)
+  url: https://www.tandfonline.com/doi/pdf/10.1080/0020739930240317
+- access_status: skipped
+  digest: c8430a8dc08f4fbf
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:90644398bf94d317
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1080/0020739930240317
+web_query_attempts:
+- method: search_plan
+  query: Yan (trial division) algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Yan (trial division) algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Yan (trial division) problem definition
+  status: recorded
+- method: search_plan
+  query: Yan (trial division) graph algorithm
+  status: recorded
+- method: search_plan
+  query: Yan (trial division) site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Yan (trial division) algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://www.tandfonline.com/doi/pdf/10.1080/0020739930240317
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1080/0020739930240317
+  status: skipped
+extracted_problem_statement: 'Yan (trial division) is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Yan (trial division). Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'Yan (trial division) is a graph algorithm record. Classical complexity metadata: time pi(sqrt(n))/p; work pi(sqrt(n)); span/depth pi(sqrt(n))/p; processors p. The stated classical model is MIMD. Public metadata/source text adds: Yan (trial division) graph graph n: integer to be factorized, pi(x): the number of primes up to x, p: number of processors pi(sqrt(n))/p Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

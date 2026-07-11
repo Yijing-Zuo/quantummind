@@ -1,0 +1,59 @@
+id: AW-000164
+kind: context
+algorithm_id: AW-000164
+algorithm_name: Phillips & Westbrook
+source_records:
+- access_status: metadata_only
+  digest: fa35aff44777a05b
+  extracted_facts:
+  - 'AlgorithmWiki row name: Phillips & Westbrook'
+  - 'domain: graph'
+  - 'time complexity: O(VE(\log(V)/\log(V/E) + (\log V)^2))'
+  - 'space complexity: O(V + E)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: V: number of vertices, E: number of edges, U: maximum edge capacity'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(VE(\log(V)/\log(V/E) + (\log V)^2)); space O(V + E). Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000164:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Phillips & Westbrook
+  url: https://dl.acm.org/citation.cfm?id=167201
+- access_status: failed
+  digest: 04ed67cc05f5732f
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:da52a9dbfee43358
+  source_type: publisher_abstract
+  title: 'HTTP Error 403: Forbidden'
+  url: https://dl.acm.org/citation.cfm?id=167201
+web_query_attempts:
+- method: search_plan
+  query: Phillips & Westbrook algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Phillips & Westbrook algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Phillips & Westbrook problem definition
+  status: recorded
+- method: search_plan
+  query: Phillips & Westbrook graph algorithm
+  status: recorded
+- method: search_plan
+  query: Phillips & Westbrook site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Phillips & Westbrook algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://dl.acm.org/citation.cfm?id=167201
+  status: recorded
+- method: source_link_html_metadata
+  query: https://dl.acm.org/citation.cfm?id=167201
+  status: failed
+extracted_problem_statement: 'Phillips & Westbrook is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Phillips & Westbrook. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'Phillips & Westbrook is a graph algorithm record. Classical complexity metadata: time O(VE(\log(V)/\log(V/E) + (\log V)^2)); space O(V + E). The stated classical model is Word RAM. Public metadata/source text adds: Phillips & Westbrook graph graph V: number of vertices, E: number of edges, U: maximum edge capacity O(VE(\log(V)/\log(V/E) + (\log V)^2)) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

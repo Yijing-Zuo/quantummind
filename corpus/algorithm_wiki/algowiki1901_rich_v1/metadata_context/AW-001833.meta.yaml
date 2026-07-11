@@ -1,0 +1,63 @@
+algorithm_family: string
+algorithm_id: AW-001833
+approximate: ''
+approximation_factor: ''
+blind_name: Algorithm Wiki public task AW-001833
+canonical_name: Naor
+computational_model: CRCW PRAM
+domain: string
+extracted_description: ''
+extraction_version: algorithm-wiki-rich-context-v1
+family: string
+inferred_access_model: random_access_string
+inferred_ambiguities:
+- The AlgorithmWiki row marks the classical method as randomized.
+- No independent fetched public metadata source resolved this row beyond AlgorithmWiki metadata/source-link facts.
+- Some details are reconstructed from AlgorithmWiki metadata rather than an independently fetched full public description.
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.
+inferred_input_model: explicit_string_problem
+inferred_output_contract: full_solution
+inferred_problem_statement: 'Naor is treated as a classical string task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Naor. Input semantics: One or more finite strings, sequences, patterns, or alphabets. Output semantics: Pattern occurrence positions, matches, or the associated string-search report.'
+inferred_promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+- classical_randomized_algorithm
+- classical_parallel_model_recorded
+inferred_size_parameters:
+- 'Parameter definition: n: input string length'
+- p = stated number of processors (O(n))
+number_of_processors: O(n)
+page_digest: ''
+page_fetch_status: not_found
+page_url: ''
+parameter_definitions: 'n: input string length'
+problem_name: string
+quality_flags:
+- domain_inferred
+- problem_statement_inferred
+- io_access_output_inferred
+- has_complexity_semantics
+- has_size_parameters
+- has_computational_model
+- randomized_flag_preserved
+quality_score: 100
+randomized: '1'
+readiness: READY_PUBLIC_CONTEXT
+review_reasons: []
+source_link: https://link.springer.com/chapter/10.1007/3-540-54233-7_179
+source_link_type: unknown
+space_complexity: ''
+span_depth: O(\log{n}) expected
+time_complexity: O(\log{n}) expected
+variation: ''
+work: O(n \\log{n}) expected
+year: '1991'
+rich_card_kind: context
+source_records_used:
+- AW-001833:algorithm_wiki_metadata
+- skipped:4f860c256c65bdba
+- skipped:919eb87702575f66
+source_count: 3
+source_quality: HIGH
+confidence_score: 100
+card_digest: 7a15af27276dfe53

@@ -1,0 +1,36 @@
+algorithm_id: AW-000397
+canonical_name: srba
+enrichment_status: SECOND_PASS_INSUFFICIENT
+review_reasons:
+- No second-pass rule could identify source-backed task semantics.
+source_records:
+- access_status: metadata_only
+  digest: 25ad13cb427cbf1d
+  extracted_facts:
+  - 'AlgorithmWiki row name: srba'
+  - 'domain: unknown'
+  - 'time complexity: O(n^2)'
+  - 'space complexity: O(n^2)'
+  - 'computational model: Real RAM'
+  - 'parameter definitions: n: number of dimensions in state space'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000397:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for srba
+  url: http://ingmec.ual.es/~jlblanco/papers/blanco2013rba.pdf
+- source_id: crossref_search:f73921012cda7002
+  url: https://doi.org/10.22182/ni.4022021.6
+  title: DOBROVOLjNA ASIMILACIJA SRBA ?
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: DOBROVOLjNA ASIMILACIJA SRBA ?'
+  - "abstract summary: Posle svih nepravdi koje su me\u0111unarodni faktori, pre svega ratni neprijatelji, ali i kasniji mirotvorci, u\u010Dinili srpskom narodu u dva svetska rata, u planiranom razbijanju SFRJ \u2013 medijskom harangom, sankcijama i agresijom NATO na SRJ i Srbiju, jasno je da tada, pa ni danas nije bilo lako biti Srbin."
+  short_quote: "Posle svih nepravdi koje su me\u0111unarodni faktori, pre svega ratni neprijatelji, ali i kasniji mirotvorci, u\u010Dinili srpskom narodu u dva svetska rata, u planiranom"
+  digest: efd09763a154cf5a
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

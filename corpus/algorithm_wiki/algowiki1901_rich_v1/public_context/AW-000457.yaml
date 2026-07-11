@@ -1,0 +1,14 @@
+statement: 'Brent''s algorithm is included as a named whole-algorithm context card for a classical combinatorics task. The task is to analyze the classical input-output problem, not to certify an end-to-end improvement claim. Input semantics: An iterated function or sequence representation with parameters for the preperiod and cycle length. Output semantics: A count, witness, construction, ordering, subset, cycle, or other finite combinatorial output. Classical algorithm summary: Brent''s algorithm is a combinatorics algorithm record. Classical complexity metadata: time O((\lambda + \mu) t_f); space O(1). Public metadata/source text adds: Brent''s algorithm unknown unknown t_f: time to perform one evaluation of f, \mu: the starting index of the cycle, \lambda: the period of the cycle O((\lambda + \mu) t_f) No public-ready summary is available because the row lacks enough task semantics. Classical complexity recorded for this row: time O((\lambda + \mu) t_f); space O(1); computation model
+  not stated. Dominant bottleneck: dominant bottleneck remains uncertain from the available public source metadata. The useful review questions are whether the named structure exposes a smaller decision, witness, estimation, or algebraic subproblem; whether the full output size dominates any asymptotic gain; and whether the stated access model is realistic for the original input. Provenance is limited to AlgorithmWiki metadata and source-link facts; unresolved details are kept as ambiguities. Source-backed uncertainty or assumptions: No independent fetched public metadata source resolved this row beyond AlgorithmWiki metadata/source-link facts.'
+input_model: explicit_combinatorial_problem
+access_model: random_access_string
+output_contract: one_witness
+promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+size_parameters:
+- 'Parameter definition: t_f: time to perform one evaluation of f, \mu: the starting index of the cycle, \lambda: the period of the cycle'
+ambiguities:
+- No independent fetched public metadata source resolved this row beyond AlgorithmWiki metadata/source-link facts.
+- Some details are reconstructed from AlgorithmWiki metadata rather than an independently fetched full public description.
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.

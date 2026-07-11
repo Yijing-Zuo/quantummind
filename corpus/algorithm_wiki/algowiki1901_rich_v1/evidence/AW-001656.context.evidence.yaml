@@ -1,0 +1,58 @@
+id: AW-001656
+kind: context
+algorithm_id: AW-001656
+algorithm_name: Reif
+source_records:
+- access_status: metadata_only
+  digest: ed155f20fafbaef0
+  extracted_facts:
+  - 'AlgorithmWiki row name: Reif'
+  - 'domain: parallel_algorithms'
+  - 'time complexity: O(\log n)'
+  - 'computational model: CRCW PRAM'
+  - 'parameter definitions: n: number of elements to permute'
+  - 'precard summary: Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model. Baseline: time O(\log n); work O(n); span/depth O(log n); processors O(n/log n). Bottleneck: work, span, communication, and processor-count assumptions dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001656:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Reif
+  url: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=4568176
+- access_status: skipped
+  digest: dbc60be94cd6ebff
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:815ea4c542dcf224
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=4568176
+web_query_attempts:
+- method: search_plan
+  query: Reif algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Reif algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Reif problem definition
+  status: recorded
+- method: search_plan
+  query: Reif parallel algorithms algorithm
+  status: recorded
+- method: search_plan
+  query: Reif site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Reif algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=4568176
+  status: recorded
+- method: source_link_html_metadata
+  query: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=4568176
+  status: skipped
+extracted_problem_statement: 'Reif is treated as a classical parallel algorithms task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Reif. Input semantics: The classical input instance named by the row, together with processor/work/span parameters when stated. Output semantics: The same mathematical output as the underlying classical task, annotated by work/span when available.'
+extracted_algorithm_summary: 'Reif is a parallel algorithms algorithm record. Classical complexity metadata: time O(\log n); work O(n); span/depth O(log n); processors O(n/log n). The stated classical model is CRCW PRAM. Public metadata/source text adds: Reif parallel_algorithms parallel_algorithms n: number of elements to permute O(\log n) Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

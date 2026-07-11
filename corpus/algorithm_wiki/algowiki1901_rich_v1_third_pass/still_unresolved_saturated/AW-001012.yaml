@@ -1,0 +1,88 @@
+algorithm_id: AW-001012
+canonical_name: Sciore
+enrichment_status: THIRD_PASS_SATURATED_INSUFFICIENT
+review_reasons:
+- After the configured source-family cycles, no source-backed concrete task, input semantics, output semantics, and conservative access model could be established.
+source_records:
+- access_status: metadata_only
+  digest: 61ab431f12436afc
+  extracted_facts:
+  - 'AlgorithmWiki row name: Sciore'
+  - 'domain: unknown'
+  - 'time complexity: poly-time'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: k: number of multivalued dependencies, n: number of attributes (|U|)'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001012:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Sciore
+  url: https://dl.acm.org/doi/abs/10.1145/582318.582337
+- access_status: skipped
+  digest: 7e5ad95cbb89f8c0
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:ba177052b73453ae
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1145/582318.582337
+- access_status: skipped
+  digest: cbec1c18011d6786
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:cf68926fdb1d823e
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://dl.acm.org/doi/abs/10.1145/582318.582337
+- access_status: fetched
+  digest: e93f038ec51b833c
+  extracted_facts:
+  - 'DOI title: Real-world MVD''s'
+  - 'published year: 1981'
+  - 'container title: Proceedings of the 1981 ACM SIGMOD international conference on Management of data - SIGMOD ''81'
+  reliability: HIGH
+  short_quote: ''
+  source_id: crossref:93034346fd3b47b0
+  source_type: doi_metadata
+  title: Real-world MVD's
+  url: https://doi.org/10.1145/582318.582337
+- access_status: fetched
+  digest: eac65bcac63f65f8
+  extracted_facts:
+  - 'Crossref title-search result: An optimal algorithm to fetch DHT routable'
+  reliability: MEDIUM
+  short_quote: ''
+  source_id: crossref_search:0b18e1bdccf3f416
+  source_type: doi_metadata
+  title: An optimal algorithm to fetch DHT routable
+  url: https://doi.org/10.1109/npc.2007.32
+- source_id: failed:abc6dc12c0f5f80a
+  url: https://dl.acm.org/doi/abs/10.1145/582318.582337
+  title: 'HTTP Error 403: Forbidden'
+  source_type: original_source
+  access_status: failed
+  reliability: LOW
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  short_quote: 'HTTP Error 403: Forbidden'
+  digest: e1965828339f9702
+- source_id: openalex:9d39934fa9590f23
+  url: https://openalex.org/W2001605229
+  title: Real-world MVD's
+  source_type: openalex
+  access_status: fetched
+  reliability: HIGH
+  extracted_facts:
+  - 'OpenAlex title: Real-world MVD''s'
+  - 'publication year: 1981'
+  - 'abstract summary: According to database theory, a database designer can specify any set of data dependencies, no matter how complex, to constrain a database scheme.'
+  short_quote: 'OpenAlex title: Real-world MVD''s publication year: 1981 abstract summary: According to database theory, a database designer can specify any set of data dependencies, no'
+  digest: 69d1ace75434c353
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

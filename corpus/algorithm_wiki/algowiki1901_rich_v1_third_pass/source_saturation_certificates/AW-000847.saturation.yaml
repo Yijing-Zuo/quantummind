@@ -1,0 +1,481 @@
+algorithm_id: AW-000847
+canonical_name: Recursion based
+original_source_link: NA
+source_link_type: unknown
+previous_failure_reasons:
+- No second-pass rule could identify source-backed task semantics.
+previous_source_records:
+- access_status: metadata_only
+  digest: aeb3bd2b29bde2d9
+  extracted_facts:
+  - 'AlgorithmWiki row name: Recursion based'
+  - 'domain: unknown'
+  - 'time complexity: O(2^n)'
+  - 'space complexity: O(n \log n)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of disks'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000847:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Recursion based
+  url: NA
+- access_status: fetched
+  digest: 655866210828f3f1
+  extracted_facts:
+  - 'Crossref title-search result: Attribute reduction recursion algorithm based on attribute diminishing strategy'
+  reliability: MEDIUM
+  short_quote: ''
+  source_id: crossref_search:3ee00f023d503548
+  source_type: doi_metadata
+  title: Attribute reduction recursion algorithm based on attribute diminishing strategy
+  url: https://doi.org/10.1109/csip.2012.6309088
+aliases_tried:
+- Recursion based
+- Recursion based algorithm
+- Recursion based problem
+- Recursion based pseudocode
+- Recursion based time complexity
+- Attribute reduction recursion algorithm based on attribute diminishing strategy
+- Attribute reduction recursion algorithm based on attribute diminishing strategy algorithm
+- Attribute reduction recursion algorithm based on attribute diminishing strategy complexity
+query_plan:
+- source_family: original_source
+  primary_query: Recursion based
+  applicability: applicable
+  purpose: check the row's original source link without storing paywalled or PDF bodies
+- source_family: crossref
+  primary_query: Recursion based
+  applicability: title-search-only
+  purpose: recover DOI title, venue, year, and abstract metadata where available
+- source_family: openalex
+  primary_query: Recursion based
+  applicability: applicable
+  purpose: recover public work metadata and abstract-inverted-index summaries
+- source_family: semantic_scholar
+  primary_query: Recursion based
+  applicability: applicable
+  purpose: recover CS paper metadata and abstracts without an API key
+- source_family: arxiv
+  primary_query: Recursion based
+  applicability: title-search-only
+  purpose: recover arXiv title and abstract metadata
+- source_family: dblp
+  primary_query: Recursion based
+  applicability: applicable
+  purpose: recover bibliographic title/venue metadata for CS publications
+- source_family: publisher_abstract
+  primary_query: Recursion based
+  applicability: applicable
+  purpose: check accessible publisher abstract pages
+- source_family: citeseerx
+  primary_query: Recursion based
+  applicability: applicable
+  purpose: record legacy CiteSeerX availability without full PDF storage
+- source_family: wikipedia
+  primary_query: Recursion based
+  applicability: applicable
+  purpose: check public encyclopedia algorithm descriptions
+- source_family: wikidata
+  primary_query: Recursion based
+  applicability: applicable
+  purpose: check public entity aliases/descriptions
+- source_family: nist_dads
+  primary_query: Recursion based
+  applicability: applicable
+  purpose: check whether a DADS-style reference search is applicable
+- source_family: algorithm_wiki_local
+  primary_query: Recursion based
+  applicability: applicable
+  purpose: reuse AlgorithmWiki metadata as provenance
+- source_family: the_algorithms
+  primary_query: Recursion based
+  applicability: applicable
+  purpose: check exact public implementation/reference names when available
+- source_family: cp_algorithms
+  primary_query: Recursion based
+  applicability: applicable
+  purpose: check exact public algorithm reference names when available
+- source_family: course_notes
+  primary_query: Recursion based
+  applicability: applicable
+  purpose: record absence of configured course-notes search
+- source_family: general_web_search
+  primary_query: Recursion based
+  applicability: applicable
+  purpose: record absence of a configured general web endpoint
+- source_family: local_previous_cache
+  primary_query: Recursion based
+  applicability: applicable
+  purpose: reuse v1/second-pass fetched source records
+query_attempts:
+- &id001
+  cycle: 1
+  query: Recursion based
+  source_family: algorithm_wiki_local
+  url_or_api_endpoint: NA
+  status: fetched
+  new_facts_added: 9
+  reason: local metadata
+- &id002
+  cycle: 1
+  query: Recursion based
+  source_family: local_previous_cache
+  url_or_api_endpoint: ''
+  status: duplicate
+  new_facts_added: 0
+  reason: previous v1/second-pass sources reused
+- &id003
+  cycle: 1
+  query: Recursion based
+  source_family: original_source
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: no original source link
+- &id004
+  cycle: 1
+  query: Recursion based
+  source_family: crossref
+  url_or_api_endpoint: https://doi.org/10.1142/9789811238659_others02
+  status: irrelevant
+  new_facts_added: 0
+  reason: Crossref metadata/title search
+- &id005
+  cycle: 1
+  query: Recursion based
+  source_family: arxiv
+  url_or_api_endpoint: https://export.arxiv.org/api/query?max_results=1&search_query=ti:%22Recursion+based%22
+  status: no_result
+  new_facts_added: 0
+  reason: arXiv title search returned no usable entry
+- &id006
+  cycle: 1
+  query: Recursion based
+  source_family: wikipedia
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: Wikipedia search returned no relevant page
+- &id007
+  cycle: 2
+  query: Recursion based
+  source_family: openalex
+  url_or_api_endpoint: https://api.openalex.org/works?per-page=1&search=Recursion+based
+  status: no_result
+  new_facts_added: 0
+  reason: OpenAlex returned no usable work
+- &id008
+  cycle: 2
+  query: Recursion based
+  source_family: semantic_scholar
+  url_or_api_endpoint: https://api.semanticscholar.org/graph/v1/paper/search?limit=1&fields=title,abstract,year,url,externalIds&query=Recursion+based
+  status: fetched
+  new_facts_added: 6
+  reason: Semantic Scholar paper metadata
+- &id009
+  cycle: 2
+  query: Recursion based
+  source_family: dblp
+  url_or_api_endpoint: https://dblp.org/search/publ/api?format=json&h=1&q=Recursion+based
+  status: no_result
+  new_facts_added: 0
+  reason: DBLP returned no usable publication
+- &id010
+  cycle: 2
+  query: Recursion based
+  source_family: publisher_abstract
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: no applicable publisher abstract URL
+- &id011
+  cycle: 2
+  query: Recursion based
+  source_family: wikidata
+  url_or_api_endpoint: http://www.wikidata.org/entity/Q40578983
+  status: irrelevant
+  new_facts_added: 0
+  reason: Wikidata entity search
+source_attempts:
+- *id001
+- *id002
+- *id003
+- *id004
+- *id005
+- *id006
+- *id007
+- *id008
+- *id009
+- *id010
+- *id011
+discovered_sources:
+- source_id: crossref_search:e83bf2c3ba84a3aa
+  url: https://doi.org/10.1142/9789811238659_others02
+  title: Techniques Based on Recursion
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title: Techniques Based on Recursion'
+  - 'published year: 2021'
+  - 'container title: Lecture Notes Series on Computing'
+  short_quote: 'Crossref title: Techniques Based on Recursion published year: 2021 container title: Lecture Notes Series on Computing'
+  digest: 368e7c56105bed79
+- source_id: semantic_scholar:03cfbf8c910311cc
+  url: https://www.semanticscholar.org/paper/7fe2137a68f9e84cd6750a1ac09dace5a3ef1e00
+  title: 'GR-GNN: Gated Recursion-Based Graph Neural Network Algorithm'
+  source_type: semantic_scholar
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Semantic Scholar title: GR-GNN: Gated Recursion-Based Graph Neural Network Algorithm'
+  - 'published year: 2022'
+  - "abstract summary: Under an internet background involving artificial intelligence and big data\u2014unstructured, materialized, network graph-structured data, such as social networks, knowledge graphs, and compound molecules, have gradually entered into various specific business scenarios."
+  short_quote: 'Semantic Scholar title: GR-GNN: Gated Recursion-Based Graph Neural Network Algorithm published year: 2022 abstract summary: Under an internet background involving artificial intelligence and big'
+  digest: 856715abe3b4edb8
+- source_id: wikidata:13480db1d6a32411
+  url: http://www.wikidata.org/entity/Q40578983
+  title: Recursion-based depletion of human immunodeficiency virus-specific naive CD4(+) T cells may facilitate persistent viral replication and chronic viraemia leading to acquired immunodeficiency syndrome.
+  source_type: wikidata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - Recursion-based depletion of human immunodeficiency virus-specific naive CD4(+) T cells may facilitate persistent viral replication and chronic viraemia leading to acquired immunodeficiency syndrome.
+  - scientific article published on 4 July 2016
+  short_quote: Recursion-based depletion of human immunodeficiency virus-specific naive CD4(+) T cells may facilitate persistent viral replication and chronic viraemia leading to acquired immunodeficiency syndrome. scientific
+  digest: fabf9544c69dd498
+discovered_facts:
+- fact_id: AW-000847-F0bb7cf34c3
+  fact_type: alias
+  value: Recursion based
+  source_id: AW-000847:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: AlgorithmWiki metadata
+- fact_id: AW-000847-Ffca13d8176
+  fact_type: time_complexity
+  value: O(2^n)
+  source_id: AW-000847:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: AlgorithmWiki metadata
+- fact_id: AW-000847-F9f3bf4a761
+  fact_type: space_complexity
+  value: O(n \log n)
+  source_id: AW-000847:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: AlgorithmWiki metadata
+- fact_id: AW-000847-F5ded2199f5
+  fact_type: computation_model
+  value: Word RAM
+  source_id: AW-000847:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: AlgorithmWiki metadata
+- fact_id: AW-000847-Fcff098227e
+  fact_type: input_semantics
+  value: 'Parameter definitions: n: number of disks'
+  source_id: AW-000847:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 75
+  conflict_status: weak
+  notes: AlgorithmWiki parameter metadata
+- fact_id: AW-000847-Fce73cdbed6
+  fact_type: authoritative_source_link
+  value: NA
+  source_id: AW-000847:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 70
+  conflict_status: consistent
+  notes: Original source link from AlgorithmWiki metadata
+- fact_id: AW-000847-F8c143cbab0
+  fact_type: source_title
+  value: AlgorithmWiki metadata for Recursion based
+  source_id: AW-000847:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000847-Fb62e0fe2ab
+  fact_type: problem_definition
+  value: 'Source title indicates: AlgorithmWiki metadata for Recursion based'
+  source_id: AW-000847:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: weak
+  notes: previous_source_record
+- fact_id: AW-000847-Ff318f54a2d
+  fact_type: problem_definition
+  value: 'AlgorithmWiki row name: Recursion based'
+  source_id: AW-000847:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000847-F4f833c1727
+  fact_type: problem_definition
+  value: 'domain: unknown'
+  source_id: AW-000847:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000847-Fe87c13c7ab
+  fact_type: time_complexity
+  value: 'time complexity: O(2^n)'
+  source_id: AW-000847:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000847-F1b8d89f740
+  fact_type: space_complexity
+  value: 'space complexity: O(n \log n)'
+  source_id: AW-000847:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000847-Fd35cb8d8dc
+  fact_type: computation_model
+  value: 'computational model: Word RAM'
+  source_id: AW-000847:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000847-Fa6a0eef085
+  fact_type: problem_definition
+  value: 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  source_id: AW-000847:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000847-F9a0ccd24f9
+  fact_type: source_title
+  value: Attribute reduction recursion algorithm based on attribute diminishing strategy
+  source_id: crossref_search:3ee00f023d503548
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000847-Fcb117e6748
+  fact_type: problem_definition
+  value: 'Source title indicates: Attribute reduction recursion algorithm based on attribute diminishing strategy'
+  source_id: crossref_search:3ee00f023d503548
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: weak
+  notes: previous_source_record
+- fact_id: AW-000847-F63be82e104
+  fact_type: problem_definition
+  value: 'Crossref title-search result: Attribute reduction recursion algorithm based on attribute diminishing strategy'
+  source_id: crossref_search:3ee00f023d503548
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000847-F13a0dc27f7
+  fact_type: authoritative_source_link
+  value: https://doi.org/10.1109/csip.2012.6309088
+  source_id: crossref_search:3ee00f023d503548
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000847-F38c7757e12
+  fact_type: source_title
+  value: 'GR-GNN: Gated Recursion-Based Graph Neural Network Algorithm'
+  source_id: semantic_scholar:03cfbf8c910311cc
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: consistent
+  notes: semantic_scholar
+- fact_id: AW-000847-Ff0d086f8da
+  fact_type: problem_definition
+  value: 'Source title indicates: GR-GNN: Gated Recursion-Based Graph Neural Network Algorithm'
+  source_id: semantic_scholar:03cfbf8c910311cc
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: weak
+  notes: semantic_scholar
+- fact_id: AW-000847-Fd83605a1fa
+  fact_type: problem_definition
+  value: 'Semantic Scholar title: GR-GNN: Gated Recursion-Based Graph Neural Network Algorithm'
+  source_id: semantic_scholar:03cfbf8c910311cc
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: consistent
+  notes: semantic_scholar
+- fact_id: AW-000847-F49f4a6e3af
+  fact_type: problem_definition
+  value: 'published year: 2022'
+  source_id: semantic_scholar:03cfbf8c910311cc
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: consistent
+  notes: semantic_scholar
+- fact_id: AW-000847-Fb0316712ce
+  fact_type: problem_definition
+  value: "abstract summary: Under an internet background involving artificial intelligence and big data\u2014unstructured, materialized, network graph-structured data, such as social networks, knowledge graphs, and compound molecules, have gradually entered into various specific business scenarios."
+  source_id: semantic_scholar:03cfbf8c910311cc
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: consistent
+  notes: semantic_scholar
+- fact_id: AW-000847-F1b3fc594a3
+  fact_type: authoritative_source_link
+  value: https://www.semanticscholar.org/paper/7fe2137a68f9e84cd6750a1ac09dace5a3ef1e00
+  source_id: semantic_scholar:03cfbf8c910311cc
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: consistent
+  notes: semantic_scholar
+duplicate_sources:
+- source_id: AW-000847:algorithm_wiki_metadata
+  url: NA
+  title: AlgorithmWiki metadata for Recursion based
+  source_type: algorithm_wiki
+  access_status: metadata_only
+  reliability: HIGH
+  extracted_facts:
+  - 'AlgorithmWiki row name: Recursion based'
+  - 'domain: unknown'
+  - 'time complexity: O(2^n)'
+  - 'space complexity: O(n \log n)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of disks'
+  short_quote: ''
+  digest: 20054d33deb13295
+failed_sources: []
+paywalled_or_skipped_sources: []
+source_families_covered:
+- algorithm_wiki_local
+- local_previous_cache
+- original_source
+- crossref
+- arxiv
+- wikipedia
+- openalex
+- semantic_scholar
+- dblp
+- publisher_abstract
+- wikidata
+cycles_completed: 2
+new_fact_count_by_cycle:
+- cycle: 1
+  new_facts: 0
+- cycle: 2
+  new_facts: 6
+no_new_fact_streak: 1
+saturation_status: RECOVERED_CONTEXT_AND_PROBE
+final_reason: Source-saturation pass found enough task, input, output, and access semantics for a context card.
+next_manual_action: Audit recovered card before any optional live analyze run.

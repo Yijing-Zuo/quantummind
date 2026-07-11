@@ -1,0 +1,76 @@
+algorithm_id: AW-001827
+canonical_name: Cheung, Hu, Xia
+enrichment_status: THIRD_PASS_SATURATED_INSUFFICIENT
+review_reasons:
+- After the configured source-family cycles, no source-backed concrete task, input semantics, output semantics, and conservative access model could be established.
+source_records:
+- access_status: metadata_only
+  digest: 8e5f859ed36cbcf4
+  extracted_facts:
+  - 'AlgorithmWiki row name: Cheung, Hu, Xia'
+  - 'domain: unknown'
+  - 'computational model: SMP (shared memory)'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001827:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Cheung, Hu, Xia
+  url: https://dl.acm.org/doi/pdf/10.1145/277651.277694
+- access_status: skipped
+  digest: 44e184c4bfd95228
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:f0bf52a23b7c8be2
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1145/277651.277694
+- access_status: fetched
+  digest: 948f3fbf902c485e
+  extracted_facts:
+  - 'DOI title: Asynchronous parallel algorithm for mining association rules on a shared-memory multi-processors'
+  - 'published year: 1998'
+  - 'container title: Proceedings of the tenth annual ACM symposium on Parallel algorithms and architectures - SPAA ''98'
+  reliability: HIGH
+  short_quote: ''
+  source_id: crossref:d3914aa73a2be33c
+  source_type: doi_metadata
+  title: Asynchronous parallel algorithm for mining association rules on a shared-memory multi-processors
+  url: https://doi.org/10.1145/277651.277694
+- access_status: fetched
+  digest: eac65bcac63f65f8
+  extracted_facts:
+  - 'Crossref title-search result: An optimal algorithm to fetch DHT routable'
+  reliability: MEDIUM
+  short_quote: ''
+  source_id: crossref_search:0b18e1bdccf3f416
+  source_type: doi_metadata
+  title: An optimal algorithm to fetch DHT routable
+  url: https://doi.org/10.1109/npc.2007.32
+- source_id: skipped:7d4fe83c66da5bea
+  url: https://dl.acm.org/doi/pdf/10.1145/277651.277694
+  title: public PDF body was not downloaded
+  source_type: original_source
+  access_status: skipped
+  reliability: LOW
+  extracted_facts:
+  - public PDF body was not downloaded
+  short_quote: public PDF body was not downloaded
+  digest: f5cd53ef58aaadd2
+- source_id: openalex:e05221bdd6223de4
+  url: https://openalex.org/W1974710420
+  title: Asynchronous parallel algorithm for mining association rules on a shared-memory multi-processors
+  source_type: openalex
+  access_status: fetched
+  reliability: HIGH
+  extracted_facts:
+  - 'OpenAlex title: Asynchronous parallel algorithm for mining association rules on a shared-memory multi-processors'
+  - 'publication year: 1998'
+  - 'abstract summary: Mining association rules from large databases is an important problem in data mining.'
+  short_quote: 'OpenAlex title: Asynchronous parallel algorithm for mining association rules on a shared-memory multi-processors publication year: 1998 abstract summary: Mining association rules from large databases'
+  digest: b8e3d8e394157376
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

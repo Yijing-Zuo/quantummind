@@ -1,0 +1,42 @@
+algorithm_id: AW-001257
+canonical_name: Bosakova-Ardenska, Vasilev, Kostadinova-Georgieva
+enrichment_status: SECOND_PASS_INSUFFICIENT
+review_reasons:
+- No second-pass rule could identify source-backed task semantics.
+source_records:
+- access_status: metadata_only
+  digest: 5208380d2e4348ce
+  extracted_facts:
+  - 'AlgorithmWiki row name: Bosakova-Ardenska, Vasilev, Kostadinova-Georgieva'
+  - 'domain: unknown'
+  - 'computational model: Multiple Program Multiple Data (MPMD) model'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001257:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Bosakova-Ardenska, Vasilev, Kostadinova-Georgieva
+  url: https://www.elibrary.ru/item.asp?id=25518905
+- access_status: skipped
+  digest: cf66b4c78d59d9e8
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:5a18e574bcb09f14
+  source_type: other_public_source
+  title: fetch budget exhausted
+  url: https://www.elibrary.ru/item.asp?id=25518905
+- source_id: crossref_search:0b18e1bdccf3f416
+  url: https://doi.org/10.1109/npc.2007.32
+  title: An optimal algorithm to fetch DHT routable
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: An optimal algorithm to fetch DHT routable'
+  short_quote: ''
+  digest: eac65bcac63f65f8
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

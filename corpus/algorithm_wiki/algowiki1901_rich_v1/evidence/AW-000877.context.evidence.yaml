@@ -1,0 +1,74 @@
+id: AW-000877
+kind: context
+algorithm_id: AW-000877
+algorithm_name: Binary GCD algorithm
+source_records:
+- access_status: metadata_only
+  digest: 0fda4629afe8489c
+  extracted_facts:
+  - 'AlgorithmWiki row name: Binary GCD algorithm'
+  - 'domain: combinatorics'
+  - 'time complexity: O(n^2)'
+  - 'space complexity: O(n)'
+  - 'computational model: Word RAM words size O(1)'
+  - 'parameter definitions: n: sum of number of bits among the two integers'
+  - 'precard summary: Given an explicit combinatorial object or parameter set, compute the requested count, construction, witness set, or ordering. Baseline: time O(n^2); space O(n). Bottleneck: search, enumeration, arithmetic, and witness materialization dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000877:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Binary GCD algorithm
+  url: https://arxiv.org/abs/0910.0095
+- access_status: fetched
+  digest: b6ecb92abe67de94
+  extracted_facts:
+  - 'arXiv title: The concept of primes and the algorithm for counting the greatest common divisor in Ancient China'
+  - 'abstract summary: When people mention the number theoretical achievements in Ancient China, the famous Chinese Remainder Theorem always springs to mind.'
+  reliability: HIGH
+  short_quote: When people mention the number theoretical achievements in Ancient China, the famous Chinese Remainder Theorem always springs to mind.
+  source_id: arxiv:0910.0095
+  source_type: arxiv_abstract
+  title: The concept of primes and the algorithm for counting the greatest common divisor in Ancient China
+  url: https://arxiv.org/abs/0910.0095
+- access_status: fetched
+  digest: 1a5ac2ced9d7220e
+  extracted_facts:
+  - 'source page title: [0910.0095] The concept of primes and the algorithm for counting the greatest common divisor in Ancient China'
+  - 'source page description: Abstract page for arXiv paper 0910.0095: The concept of primes and the algorithm for counting the greatest common divisor in Ancient China'
+  reliability: HIGH
+  short_quote: 'Abstract page for arXiv paper 0910.0095: The concept of primes and the algorithm for counting the greatest common divisor in Ancient China'
+  source_id: source:2bb3c22649fbe0bc
+  source_type: arxiv_abstract
+  title: '[0910.0095] The concept of primes and the algorithm for counting the greatest common divisor in Ancient China'
+  url: https://arxiv.org/abs/0910.0095
+web_query_attempts:
+- method: search_plan
+  query: Binary GCD algorithm algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Binary GCD algorithm algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Binary GCD algorithm problem definition
+  status: recorded
+- method: search_plan
+  query: Binary GCD algorithm combinatorics algorithm
+  status: recorded
+- method: search_plan
+  query: Binary GCD algorithm site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Binary GCD algorithm algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://arxiv.org/abs/0910.0095
+  status: recorded
+- method: arxiv_abstract_metadata
+  query: '0910.0095'
+  status: fetched
+- method: source_link_html_metadata
+  query: https://arxiv.org/abs/0910.0095
+  status: fetched
+extracted_problem_statement: 'Binary GCD algorithm is treated as a classical combinatorics task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Binary GCD algorithm. Input semantics: A finite combinatorial object, integer set, board, recurrence, or witness-search instance. Output semantics: A count, witness, construction, ordering, subset, cycle, or other finite combinatorial output.'
+extracted_algorithm_summary: 'Binary GCD algorithm is a combinatorics algorithm record. Classical complexity metadata: time O(n^2); space O(n). The stated classical model is Word RAM words size O(1). Public metadata/source text adds: Binary GCD algorithm combinatorics combinatorics n: sum of number of bits among the two integers O(n^2) Given an explicit combinatorial object or parameter set, compute the requested count, construction, witness set, or ordering.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

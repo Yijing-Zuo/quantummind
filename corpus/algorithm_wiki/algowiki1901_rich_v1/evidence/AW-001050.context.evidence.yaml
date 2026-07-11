@@ -1,0 +1,58 @@
+id: AW-001050
+kind: context
+algorithm_id: AW-001050
+algorithm_name: modified Stone sort - Hsiao and Menon (2)
+source_records:
+- access_status: metadata_only
+  digest: 16f6ca73cf820f50
+  extracted_facts:
+  - 'AlgorithmWiki row name: modified Stone sort - Hsiao and Menon (2)'
+  - 'domain: sorting'
+  - 'time complexity: O(n/p \log{n/p} + n/p \log^2{p})'
+  - 'computational model: hardware sorter'
+  - 'parameter definitions: n: size of list, p: number of processors, p - has to be a power of 2, n restricted (only) to memeory size of each processor = n/p'
+  - 'precard summary: Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model. Baseline: time O(n/p \log{n/p} + n/p \log^2{p}); work O(n \log{n/p} + n \log^2{p}); span/depth O(\log^2{n}); processors p. Bottleneck: comparison, distribution, and full-output movement costs dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001050:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for modified Stone sort - Hsiao and Menon (2)
+  url: https://apps.dtic.mil/sti/citations/ADA090192
+- access_status: skipped
+  digest: 2c87693cd8a88673
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:e3ef6812e0f1b968
+  source_type: other_public_source
+  title: fetch budget exhausted
+  url: https://apps.dtic.mil/sti/citations/ADA090192
+web_query_attempts:
+- method: search_plan
+  query: modified Stone sort - Hsiao and Menon (2) algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: modified Stone sort - Hsiao and Menon (2) algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: modified Stone sort - Hsiao and Menon (2) problem definition
+  status: recorded
+- method: search_plan
+  query: modified Stone sort - Hsiao and Menon (2) sorting algorithm
+  status: recorded
+- method: search_plan
+  query: modified Stone sort - Hsiao and Menon (2) site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: modified Stone sort - Hsiao and Menon (2) algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://apps.dtic.mil/sti/citations/ADA090192
+  status: recorded
+- method: source_link_html_metadata
+  query: https://apps.dtic.mil/sti/citations/ADA090192
+  status: skipped
+extracted_problem_statement: 'modified Stone sort - Hsiao and Menon (2) is treated as a classical sorting task for rich AlgorithmWiki discovery. Problem/task: sort the input sequence using the named classical sorting method. Input semantics: A finite array or list of comparable keys or records. Output semantics: The same items returned in nondecreasing order, usually as a full reordered sequence.'
+extracted_algorithm_summary: 'modified Stone sort - Hsiao and Menon (2) is a sorting algorithm record. Classical complexity metadata: time O(n/p \log{n/p} + n/p \log^2{p}); work O(n \log{n/p} + n \log^2{p}); span/depth O(\log^2{n}); processors p. The stated classical model is hardware sorter. Public metadata/source text adds: modified Stone sort - Hsiao and Menon (2) sorting sorting n: size of list, p: number of processors, p - has to be a power of 2, n restricted (only) to memeory size of each processor = n/p O(n/p \log{n/p} + n/p \log^2{p}) Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

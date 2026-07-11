@@ -1,0 +1,58 @@
+algorithm_id: AW-000559
+canonical_name: "Na\xEFve algorithm"
+enrichment_status: THIRD_PASS_SATURATED_INSUFFICIENT
+review_reasons:
+- After the configured source-family cycles, no source-backed concrete task, input semantics, output semantics, and conservative access model could be established.
+source_records:
+- access_status: metadata_only
+  digest: e7b0f262bc8ea82b
+  extracted_facts:
+  - "AlgorithmWiki row name: Na\xEFve algorithm"
+  - 'domain: unknown'
+  - 'time complexity: O(n)'
+  - 'space complexity: O(1)'
+  - 'computational model: Word/Real RAM'
+  - 'parameter definitions: n: number of values'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000559:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: "AlgorithmWiki metadata for Na\xEFve algorithm"
+  url: '-'
+- access_status: fetched
+  digest: b59fae9c08790565
+  extracted_facts:
+  - "Crossref title-search result: Collaborative Filtering Recommendation Algorithm Based on AdaBoost-Na\xEFve Bayesian Algorithm"
+  reliability: MEDIUM
+  short_quote: ''
+  source_id: crossref_search:58c574305588997a
+  source_type: doi_metadata
+  title: "Collaborative Filtering Recommendation Algorithm Based on AdaBoost-Na\xEFve Bayesian Algorithm"
+  url: https://doi.org/10.1007/978-3-030-15127-0_39
+- source_id: crossref_search:b7d2b6c6a6cf7178
+  url: https://doi.org/10.1016/j.knosys.2010.09.007
+  title: "NB+: An improved Na\xEFve Bayesian algorithm"
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - "Crossref title: NB+: An improved Na\xEFve Bayesian algorithm"
+  - 'published year: 2011'
+  - 'container title: Knowledge-Based Systems'
+  short_quote: "Crossref title: NB+: An improved Na\xEFve Bayesian algorithm published year: 2011 container title: Knowledge-Based Systems"
+  digest: 794e6abada21198b
+- source_id: openalex:4a2abd9aa892c674
+  url: https://openalex.org/W2996283780
+  title: "A novel selective na\xEFve Bayes algorithm"
+  source_type: openalex
+  access_status: fetched
+  reliability: HIGH
+  extracted_facts:
+  - "OpenAlex title: A novel selective na\xEFve Bayes algorithm"
+  - 'publication year: 2019'
+  short_quote: "OpenAlex title: A novel selective na\xEFve Bayes algorithm publication year: 2019"
+  digest: 7f4785808364a16e
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

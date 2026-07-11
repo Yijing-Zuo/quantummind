@@ -1,0 +1,58 @@
+algorithm_family: sorting
+algorithm_id: AW-001049
+approximate: '0'
+approximation_factor: ''
+blind_name: Algorithm Wiki public task AW-001049
+canonical_name: odd-even sort - Hsiao and Menon (1)
+computational_model: hardware sorter
+domain: sorting
+extracted_description: ''
+extraction_version: algorithm-wiki-rich-context-v1
+family: sorting
+inferred_access_model: random_access_array
+inferred_ambiguities:
+- No independent fetched public metadata source resolved this row beyond AlgorithmWiki metadata/source-link facts.
+- Some details are reconstructed from AlgorithmWiki metadata rather than an independently fetched full public description.
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.
+inferred_input_model: explicit_sequence_problem
+inferred_output_contract: full_sequence_output
+inferred_problem_statement: 'odd-even sort - Hsiao and Menon (1) is treated as a classical sorting task for rich AlgorithmWiki discovery. Problem/task: sort the input sequence using the named classical sorting method. Input semantics: A finite array or list of comparable keys or records. Output semantics: The same items returned in nondecreasing order, usually as a full reordered sequence.'
+inferred_promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+inferred_size_parameters:
+- 'Parameter definition: n: size of list, p: number of processors, n restricted (only) to memeory size of each processor = n/p'
+- p = stated number of processors (p)
+number_of_processors: p
+page_digest: ''
+page_fetch_status: not_found
+page_url: ''
+parameter_definitions: 'n: size of list, p: number of processors, n restricted (only) to memeory size of each processor = n/p'
+problem_name: sorting
+quality_flags:
+- domain_inferred
+- problem_statement_inferred
+- io_access_output_inferred
+- has_complexity_semantics
+- has_size_parameters
+- has_computational_model
+quality_score: 100
+randomized: '0'
+readiness: READY_PUBLIC_CONTEXT
+review_reasons: []
+source_link: https://apps.dtic.mil/sti/citations/ADA090192
+source_link_type: unknown
+space_complexity: ''
+span_depth: O(n)
+time_complexity: O(n/p \log{n/p} + n)
+variation: ''
+work: O(n \log{n/p} + np)
+year: '1980'
+rich_card_kind: context
+source_records_used:
+- AW-001049:algorithm_wiki_metadata
+- skipped:e3ef6812e0f1b968
+source_count: 2
+source_quality: HIGH
+confidence_score: 100
+card_digest: 750ddf988d40895a

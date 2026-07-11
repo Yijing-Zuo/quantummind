@@ -1,0 +1,55 @@
+algorithm_family: graph
+algorithm_id: AW-000818
+approximate: '0'
+approximation_factor: ''
+blind_name: Algorithm Wiki public task AW-000818
+canonical_name: HybridSpades
+computational_model: Word RAM
+domain: graph
+extracted_description: ''
+extraction_version: algorithm-wiki-rich-context-v1
+family: graph
+inferred_access_model: adjacency_list_query
+inferred_ambiguities:
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.
+inferred_input_model: explicit_graph_problem
+inferred_output_contract: full_solution
+inferred_problem_statement: 'HybridSpades is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with HybridSpades. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+inferred_promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+inferred_size_parameters:
+- 'Parameter definition: m: length of input sequence, V: number of vertices, E: number of edges'
+number_of_processors: ''
+page_digest: ''
+page_fetch_status: not_found
+page_url: ''
+parameter_definitions: 'm: length of input sequence, V: number of vertices, E: number of edges'
+problem_name: graph
+quality_flags:
+- domain_inferred
+- problem_statement_inferred
+- io_access_output_inferred
+- has_complexity_semantics
+- has_size_parameters
+- has_computational_model
+quality_score: 100
+randomized: '0'
+readiness: READY_PUBLIC_CONTEXT
+review_reasons: []
+source_link: https://www.ncbi.nlm.nih.gov/pubmed/26589280
+source_link_type: unknown
+space_complexity: O(m(V+E))
+span_depth: ''
+time_complexity: O(m(V \log(mV) + E))
+variation: ''
+work: ''
+year: '2015'
+rich_card_kind: context
+source_records_used:
+- AW-000818:algorithm_wiki_metadata
+- source:5d3ad631e666cc80
+source_count: 2
+source_quality: HIGH
+confidence_score: 100
+card_digest: 2ae3b107f2430a03

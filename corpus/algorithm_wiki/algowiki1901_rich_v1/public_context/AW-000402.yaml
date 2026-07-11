@@ -1,0 +1,14 @@
+statement: 'Prakesh Ramanan is included as a named whole-algorithm context card for a classical parallel algorithms task. The task is to analyze the classical input-output problem, not to certify an end-to-end improvement claim. Input semantics: The classical input instance named by the row, together with processor/work/span parameters when stated. Output semantics: The same mathematical output as the underlying classical task, annotated by work/span when available. Classical algorithm summary: Prakesh Ramanan is a parallel algorithms algorithm record. Classical complexity metadata: time O(\log^4 n); space O(n); processors n. The stated classical model is CREW PRAM. Public metadata/source text adds: Prakesh Ramanan parallel_algorithms parallel_algorithms n: number of matrices O(\log^4 n) Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model. Classical complexity recorded for this row: time
+  O(\log^4 n); space O(n); computation model CREW PRAM. Dominant bottleneck: work, span/depth, processor count, and communication/synchronization assumptions. The useful review questions are whether the named structure exposes a smaller decision, witness, estimation, or algebraic subproblem; whether the full output size dominates any asymptotic gain; and whether the stated access model is realistic for the original input. Provenance used for reconstruction includes public metadata or abstract sources such as An Efficient Parallel Algorithm for the Matrix-Chain-Product Problem.'
+input_model: explicit_parallel_algorithm_problem
+access_model: explicit_input_instance
+output_contract: full_solution
+promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+- classical_parallel_model_recorded
+size_parameters:
+- 'Parameter definition: n: number of matrices'
+- p = stated number of processors (n)
+ambiguities:
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.

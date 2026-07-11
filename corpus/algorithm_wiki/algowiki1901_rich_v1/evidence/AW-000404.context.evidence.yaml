@@ -1,0 +1,59 @@
+id: AW-000404
+kind: context
+algorithm_id: AW-000404
+algorithm_name: Hsu and Du (Scheme 2)
+source_records:
+- access_status: metadata_only
+  digest: afebf7cb5ffb496f
+  extracted_facts:
+  - 'AlgorithmWiki row name: Hsu and Du (Scheme 2)'
+  - 'domain: string'
+  - 'time complexity: O(rm \log(n/r) + rm)'
+  - 'space complexity: O(rm)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: length of the longer input string, m: length of the shorter input string, r: length of the LCS'
+  - 'precard summary: Given one or more explicit strings, compute the matching, indexing, alignment, or transformation output targeted by the record. Baseline: time O(rm \log(n/r) + rm); space O(rm). Bottleneck: string scanning, preprocessing tables, and reporting matches dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000404:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Hsu and Du (Scheme 2)
+  url: https://www.sciencedirect.com/science/article/pii/0022000084900254
+- access_status: failed
+  digest: 5c74ba3e3d857abf
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:2eb669d8da2b294b
+  source_type: publisher_abstract
+  title: 'HTTP Error 403: Forbidden'
+  url: https://www.sciencedirect.com/science/article/pii/0022000084900254
+web_query_attempts:
+- method: search_plan
+  query: Hsu and Du (Scheme 2) algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Hsu and Du (Scheme 2) algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Hsu and Du (Scheme 2) problem definition
+  status: recorded
+- method: search_plan
+  query: Hsu and Du (Scheme 2) string algorithm
+  status: recorded
+- method: search_plan
+  query: Hsu and Du (Scheme 2) site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Hsu and Du (Scheme 2) algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://www.sciencedirect.com/science/article/pii/0022000084900254
+  status: recorded
+- method: source_link_html_metadata
+  query: https://www.sciencedirect.com/science/article/pii/0022000084900254
+  status: failed
+extracted_problem_statement: 'Hsu and Du (Scheme 2) is treated as a classical string task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Hsu and Du (Scheme 2). Input semantics: One or more finite strings, sequences, patterns, or alphabets. Output semantics: Pattern occurrence positions, matches, or the associated string-search report.'
+extracted_algorithm_summary: 'Hsu and Du (Scheme 2) is a string algorithm record. Classical complexity metadata: time O(rm \log(n/r) + rm); space O(rm). The stated classical model is Word RAM. Public metadata/source text adds: Hsu and Du (Scheme 2) string string n: length of the longer input string, m: length of the shorter input string, r: length of the LCS O(rm \log(n/r) + rm) Given one or more explicit strings, compute the matching, indexing, alignment, or transformation output targeted by the record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

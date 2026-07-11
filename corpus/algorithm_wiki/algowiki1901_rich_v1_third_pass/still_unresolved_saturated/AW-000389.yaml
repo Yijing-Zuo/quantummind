@@ -1,0 +1,67 @@
+algorithm_id: AW-000389
+canonical_name: Nate Green
+enrichment_status: THIRD_PASS_SATURATED_INSUFFICIENT
+review_reasons:
+- After the configured source-family cycles, no source-backed concrete task, input semantics, output semantics, and conservative access model could be established.
+source_records:
+- access_status: metadata_only
+  digest: 324aba73b8de75ba
+  extracted_facts:
+  - 'AlgorithmWiki row name: Nate Green'
+  - 'domain: unknown'
+  - 'time complexity: O(n^4)'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000389:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Nate Green
+  url: ''
+- access_status: fetched
+  digest: ab2138a7758e30f0
+  extracted_facts:
+  - 'Crossref title-search result: Nate que nate'
+  reliability: MEDIUM
+  short_quote: ''
+  source_id: crossref_search:941165bd0a6c21fc
+  source_type: doi_metadata
+  title: Nate que nate
+  url: https://doi.org/10.3406/roma.1948.3647
+- source_id: crossref_search:c95b09ded3bd5623
+  url: https://doi.org/10.3406/roma.1948.3647
+  title: Nate que nate
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title: Nate que nate'
+  - 'published year: 1948'
+  - 'container title: Romania'
+  short_quote: 'Crossref title: Nate que nate published year: 1948 container title: Romania'
+  digest: b4c9cbb34827b661
+- source_id: openalex:db7183c71833d075
+  url: https://openalex.org/W2024755553
+  title: 'Green Inhibitors for Corrosion Protection of Metals and Alloys: An Overview'
+  source_type: openalex
+  access_status: fetched
+  reliability: HIGH
+  extracted_facts:
+  - 'OpenAlex title: Green Inhibitors for Corrosion Protection of Metals and Alloys: An Overview'
+  - 'publication year: 2011'
+  - 'abstract summary: Corrosion control of metals is of technical, economical, environmental, and aesthetical importance.'
+  short_quote: 'OpenAlex title: Green Inhibitors for Corrosion Protection of Metals and Alloys: An Overview publication year: 2011 abstract summary: Corrosion control of metals is of'
+  digest: fc8ea09433216e85
+- source_id: wikidata:e2997db853d1b8b3
+  url: http://www.wikidata.org/entity/Q100982398
+  title: Nate Green
+  source_type: wikidata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - Nate Green
+  - "college basketball player (1994\u20131997) Idaho State"
+  short_quote: "Nate Green college basketball player (1994\u20131997) Idaho State"
+  digest: 8902f33c8f44a95b
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

@@ -1,0 +1,84 @@
+id: AW-001219
+kind: context
+algorithm_id: AW-001219
+algorithm_name: ZZ-sort - Zheng, Calidas, Zhang
+source_records:
+- access_status: metadata_only
+  digest: cfb99e65491643af
+  extracted_facts:
+  - 'AlgorithmWiki row name: ZZ-sort - Zheng, Calidas, Zhang'
+  - 'domain: sorting'
+  - 'time complexity: O(n/p log p (f(p)+log(n/p))'
+  - 'computational model: distributed memory parallel computer'
+  - 'parameter definitions: n: size of list, p: number of processors, n>=p, f(p): time to sort p elements, one per processor'
+  - 'precard summary: Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model. Baseline: time O(n/p log p (f(p)+log(n/p)); work O(n \log p (f(p)+\log(n/p)); span/depth O(log n f(n)); processors p. Bottleneck: comparison, distribution, and full-output movement costs dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001219:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for ZZ-sort - Zheng, Calidas, Zhang
+  url: https://link.springer.com/article/10.1023/A:1008173729055
+- access_status: skipped
+  digest: c4af9fdd30f3aa83
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:f6fe604a4cf3943e
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1023/A:1008173729055
+- access_status: skipped
+  digest: a0b715b8f0d84b7f
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:45e0c789fcd2361a
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://link.springer.com/article/10.1023/A:1008173729055
+- access_status: skipped
+  digest: 23dfd232d59a043a
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:8fa0835c57f4088c
+  source_type: wikipedia
+  title: fetch budget exhausted
+  url: https://en.wikipedia.org/wiki/ZZ-sort_-_Zheng%2C_Calidas%2C_Zhang
+web_query_attempts:
+- method: search_plan
+  query: ZZ-sort - Zheng, Calidas, Zhang algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: ZZ-sort - Zheng, Calidas, Zhang algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: ZZ-sort - Zheng, Calidas, Zhang problem definition
+  status: recorded
+- method: search_plan
+  query: ZZ-sort - Zheng, Calidas, Zhang sorting algorithm
+  status: recorded
+- method: search_plan
+  query: ZZ-sort - Zheng, Calidas, Zhang site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: ZZ-sort - Zheng, Calidas, Zhang algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://link.springer.com/article/10.1023/A:1008173729055
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1023/A:1008173729055
+  status: skipped
+- method: source_link_html_metadata
+  query: https://link.springer.com/article/10.1023/A:1008173729055
+  status: skipped
+- method: wikipedia_summary_search
+  query: ZZ-sort - Zheng, Calidas, Zhang algorithm
+  status: skipped
+extracted_problem_statement: 'ZZ-sort - Zheng, Calidas, Zhang is treated as a classical sorting task for rich AlgorithmWiki discovery. Problem/task: sort the input sequence using the named classical sorting method. Input semantics: A finite array or list of comparable keys or records. Output semantics: The same items returned in nondecreasing order, usually as a full reordered sequence.'
+extracted_algorithm_summary: 'ZZ-sort - Zheng, Calidas, Zhang is a sorting algorithm record. Classical complexity metadata: time O(n/p log p (f(p)+log(n/p)); work O(n \log p (f(p)+\log(n/p)); span/depth O(log n f(n)); processors p. The stated classical model is distributed memory parallel computer. Public metadata/source text adds: ZZ-sort - Zheng, Calidas, Zhang sorting sorting n: size of list, p: number of processors, n>=p, f(p): time to sort p elements, one per processor O(n/p log p (f(p)+log(n/p)) Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

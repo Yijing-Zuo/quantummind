@@ -1,0 +1,71 @@
+id: AW-001858
+kind: context
+algorithm_id: AW-001858
+algorithm_name: Alves, Caceres, Song (2)
+source_records:
+- access_status: metadata_only
+  digest: 98edd97ad74d581b
+  extracted_facts:
+  - 'AlgorithmWiki row name: Alves, Caceres, Song (2)'
+  - 'domain: parallel_algorithms'
+  - 'time complexity: O(n^3 / p)'
+  - 'computational model: BSP'
+  - 'parameter definitions: n: dimension of array, p: number of processors'
+  - 'precard summary: Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model. Baseline: time O(n^3 / p); work O(n^3); span/depth O(n^3 / p); processors arbitrary p. Bottleneck: work, span, communication, and processor-count assumptions dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001858:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Alves, Caceres, Song (2)
+  url: https://link.springer.com/chapter/10.1007/978-3-540-30218-6_24
+- access_status: skipped
+  digest: dacb5c2f5f705b33
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:518f7ed6fdd79a01
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1007/978-3-540-30218-6_24
+- access_status: skipped
+  digest: bcb675e6028a39bc
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:8ce6036e3b5743c0
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://link.springer.com/chapter/10.1007/978-3-540-30218-6_24
+web_query_attempts:
+- method: search_plan
+  query: Alves, Caceres, Song (2) algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Alves, Caceres, Song (2) algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Alves, Caceres, Song (2) problem definition
+  status: recorded
+- method: search_plan
+  query: Alves, Caceres, Song (2) parallel algorithms algorithm
+  status: recorded
+- method: search_plan
+  query: Alves, Caceres, Song (2) site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Alves, Caceres, Song (2) algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://link.springer.com/chapter/10.1007/978-3-540-30218-6_24
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1007/978-3-540-30218-6_24
+  status: skipped
+- method: source_link_html_metadata
+  query: https://link.springer.com/chapter/10.1007/978-3-540-30218-6_24
+  status: skipped
+extracted_problem_statement: 'Alves, Caceres, Song (2) is treated as a classical parallel algorithms task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Alves, Caceres, Song (2). Input semantics: The classical input instance named by the row, together with processor/work/span parameters when stated. Output semantics: The same mathematical output as the underlying classical task, annotated by work/span when available.'
+extracted_algorithm_summary: 'Alves, Caceres, Song (2) is a parallel algorithms algorithm record. Classical complexity metadata: time O(n^3 / p); work O(n^3); span/depth O(n^3 / p); processors arbitrary p. The stated classical model is BSP. Public metadata/source text adds: Alves, Caceres, Song (2) parallel_algorithms parallel_algorithms n: dimension of array, p: number of processors O(n^3 / p) Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

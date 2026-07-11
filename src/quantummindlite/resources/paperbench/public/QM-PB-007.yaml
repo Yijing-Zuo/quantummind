@@ -1,0 +1,11 @@
+case_id: QM-PB-007
+statement: "Find a target position in a monotone ordered list using ordered queries and return the rank or position."
+input_model: "monotone ordered list"
+access_model: ordered_query_access
+output_contract: rank_or_position
+promises:
+  - monotone_order
+size_parameters: [N]
+ambiguities:
+  - only asymptotic class change is scored
+

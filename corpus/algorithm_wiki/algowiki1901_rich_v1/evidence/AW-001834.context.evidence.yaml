@@ -1,0 +1,71 @@
+id: AW-001834
+kind: context
+algorithm_id: AW-001834
+algorithm_name: optimal - Hirschberg, Stauffer (1)
+source_records:
+- access_status: metadata_only
+  digest: 9549307b8e740b27
+  extracted_facts:
+  - 'AlgorithmWiki row name: optimal - Hirschberg, Stauffer (1)'
+  - 'domain: string'
+  - 'time complexity: O(m+\log{m}\log{n})'
+  - 'computational model: CREW PRAM'
+  - 'parameter definitions: n: input string length, m: max length of entry in dictionary'
+  - 'precard summary: Given one or more explicit strings, compute the matching, indexing, alignment, or transformation output targeted by the record. Baseline: time O(m+\log{m}\log{n}); work O(nm^3+nm^2\log{m}\log{n}); span/depth O(m+\log{m}\log{n}); processors O(nm^2). Bottleneck: string scanning, preprocessing tables, and reporting matches dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001834:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for optimal - Hirschberg, Stauffer (1)
+  url: https://www.worldscientific.com/doi/abs/10.1142/S0129626497000310
+- access_status: skipped
+  digest: a1db6e850f2bd30f
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:c23a03a309a63a1c
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1142/S0129626497000310
+- access_status: skipped
+  digest: 4bdee0413dc51be7
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:a87b6b860990a5dc
+  source_type: other_public_source
+  title: fetch budget exhausted
+  url: https://www.worldscientific.com/doi/abs/10.1142/S0129626497000310
+web_query_attempts:
+- method: search_plan
+  query: optimal - Hirschberg, Stauffer (1) algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: optimal - Hirschberg, Stauffer (1) algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: optimal - Hirschberg, Stauffer (1) problem definition
+  status: recorded
+- method: search_plan
+  query: optimal - Hirschberg, Stauffer (1) string algorithm
+  status: recorded
+- method: search_plan
+  query: optimal - Hirschberg, Stauffer (1) site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: optimal - Hirschberg, Stauffer (1) algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://www.worldscientific.com/doi/abs/10.1142/S0129626497000310
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1142/S0129626497000310
+  status: skipped
+- method: source_link_html_metadata
+  query: https://www.worldscientific.com/doi/abs/10.1142/S0129626497000310
+  status: skipped
+extracted_problem_statement: 'optimal - Hirschberg, Stauffer (1) is treated as a classical string task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with optimal - Hirschberg, Stauffer (1). Input semantics: One or more finite strings, sequences, patterns, or alphabets. Output semantics: Pattern occurrence positions, matches, or the associated string-search report.'
+extracted_algorithm_summary: 'optimal - Hirschberg, Stauffer (1) is a string algorithm record. Classical complexity metadata: time O(m+\log{m}\log{n}); work O(nm^3+nm^2\log{m}\log{n}); span/depth O(m+\log{m}\log{n}); processors O(nm^2). The stated classical model is CREW PRAM. Public metadata/source text adds: optimal - Hirschberg, Stauffer (1) string string n: input string length, m: max length of entry in dictionary O(m+\log{m}\log{n}) Given one or more explicit strings, compute the matching, indexing, alignment, or transformation output targeted by the record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

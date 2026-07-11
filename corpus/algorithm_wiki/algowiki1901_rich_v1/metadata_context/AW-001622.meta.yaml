@@ -1,0 +1,60 @@
+algorithm_family: parallel algorithms
+algorithm_id: AW-001622
+approximate: '0'
+approximation_factor: ''
+blind_name: Algorithm Wiki public task AW-001622
+canonical_name: Vishkin
+computational_model: CRCW PRAM
+domain: parallel_algorithms
+extracted_description: ''
+extraction_version: algorithm-wiki-rich-context-v1
+family: parallel_algorithms
+inferred_access_model: explicit_input_instance
+inferred_ambiguities:
+- No independent fetched public metadata source resolved this row beyond AlgorithmWiki metadata/source-link facts.
+- Some details are reconstructed from AlgorithmWiki metadata rather than an independently fetched full public description.
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.
+inferred_input_model: explicit_parallel_algorithm_problem
+inferred_output_contract: full_solution
+inferred_problem_statement: 'Vishkin is treated as a classical parallel algorithms task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Vishkin. Input semantics: The classical input instance named by the row, together with processor/work/span parameters when stated. Output semantics: Pattern occurrence positions, matches, or the associated string-search report.'
+inferred_promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+- classical_parallel_model_recorded
+inferred_size_parameters:
+- 'Parameter definition: n: length of text, m: length of pattern'
+- p = stated number of processors (O(n/log m))
+number_of_processors: O(n/log m)
+page_digest: ''
+page_fetch_status: not_found
+page_url: ''
+parameter_definitions: 'n: length of text, m: length of pattern'
+problem_name: parallel algorithms
+quality_flags:
+- domain_inferred
+- problem_statement_inferred
+- io_access_output_inferred
+- has_complexity_semantics
+- has_size_parameters
+- has_computational_model
+quality_score: 100
+randomized: '0'
+readiness: READY_PUBLIC_CONTEXT
+review_reasons:
+- A previous row has the same canonicalized algorithm name.
+source_link: https://www.sciencedirect.com/science/article/pii/S0019995885800280
+source_link_type: sciencedirect
+space_complexity: ''
+span_depth: O(log m)
+time_complexity: O(\log m)
+variation: ''
+work: O(n)
+year: '1985'
+rich_card_kind: context
+source_records_used:
+- AW-001622:algorithm_wiki_metadata
+- skipped:f9df58d9d88a82df
+source_count: 2
+source_quality: HIGH
+confidence_score: 100
+card_digest: 2d00d6c9cdd27213

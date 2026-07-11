@@ -1,0 +1,72 @@
+id: AW-001761
+kind: context
+algorithm_id: AW-001761
+algorithm_name: Tsin, Chin
+source_records:
+- access_status: metadata_only
+  digest: a69c076f0a76161d
+  extracted_facts:
+  - 'AlgorithmWiki row name: Tsin, Chin'
+  - 'domain: graph'
+  - 'time complexity: O(ceil(m/(nK)) \log n + n/K)'
+  - 'space complexity: https://www.proquest.com/docview/919780720?pq-origsite=gscholar&fromopenview=true'
+  - 'computational model: (SIMD-type) PRAM CREW'
+  - 'parameter definitions: n: number of vertices, m: number of total number of op.s (queries, links, cuts), K: processor parameter'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(ceil(m/(nK)) \log n + n/K); work O(m \log n + n^2); span/depth O(log n); processors nK. Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001761:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Tsin, Chin
+  url: https://epubs.siam.org/doi/abs/10.1137/0213036
+- access_status: skipped
+  digest: 506d197f31c9eadb
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:1fb4c62d070244a9
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1137/0213036
+- access_status: skipped
+  digest: 568fdd4cad5f7155
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:36cb8cde624e9aa0
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://epubs.siam.org/doi/abs/10.1137/0213036
+web_query_attempts:
+- method: search_plan
+  query: Tsin, Chin algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Tsin, Chin algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Tsin, Chin problem definition
+  status: recorded
+- method: search_plan
+  query: Tsin, Chin graph algorithm
+  status: recorded
+- method: search_plan
+  query: Tsin, Chin site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Tsin, Chin algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://epubs.siam.org/doi/abs/10.1137/0213036
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1137/0213036
+  status: skipped
+- method: source_link_html_metadata
+  query: https://epubs.siam.org/doi/abs/10.1137/0213036
+  status: skipped
+extracted_problem_statement: 'Tsin, Chin is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Tsin, Chin. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'Tsin, Chin is a graph algorithm record. Classical complexity metadata: time O(ceil(m/(nK)) \log n + n/K); space https://www.proquest.com/docview/919780720?pq-origsite=gscholar&fromopenview=true; work O(m \log n + n^2); span/depth O(log n); processors nK. The stated classical model is (SIMD-type) PRAM CREW. Public metadata/source text adds: Tsin, Chin graph graph n: number of vertices, m: number of total number of op.s (queries, links, cuts), K: processor parameter O(ceil(m/(nK)) \log n + n/K) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

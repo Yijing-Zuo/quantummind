@@ -1,0 +1,59 @@
+id: AW-001810
+kind: context
+algorithm_id: AW-001810
+algorithm_name: Bokhari
+source_records:
+- access_status: metadata_only
+  digest: bf3c9ce4c76396e4
+  extracted_facts:
+  - 'AlgorithmWiki row name: Bokhari'
+  - 'domain: parallel_algorithms'
+  - 'time complexity: O(nt/p)'
+  - 'space complexity: O(n)'
+  - 'computational model: CREW PRAM'
+  - "parameter definitions: n: the number of integers in the set, t: target sum, p: number of processors 1\u2264p\u2264t"
+  - 'precard summary: Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model. Baseline: time O(nt/p); space O(n); work O(nt); span/depth O(n); processors p. Bottleneck: work, span, communication, and processor-count assumptions dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001810:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Bokhari
+  url: https://onlinelibrary.wiley.com/doi/pdf/10.1002/cpe.2800
+- access_status: skipped
+  digest: 1775ae00ce5ad548
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:e80d61ae7650c925
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1002/cpe.2800
+web_query_attempts:
+- method: search_plan
+  query: Bokhari algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Bokhari algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Bokhari problem definition
+  status: recorded
+- method: search_plan
+  query: Bokhari parallel algorithms algorithm
+  status: recorded
+- method: search_plan
+  query: Bokhari site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Bokhari algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://onlinelibrary.wiley.com/doi/pdf/10.1002/cpe.2800
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1002/cpe.2800
+  status: skipped
+extracted_problem_statement: 'Bokhari is treated as a classical parallel algorithms task for rich AlgorithmWiki discovery. Problem/task: solve a subset-sum or target-sum dynamic-programming/search problem. Input semantics: A finite set or multiset of integers with a target sum parameter. Output semantics: A decision result, feasible subset witness, count, or optimized subset value for the target-sum instance, depending on the row.'
+extracted_algorithm_summary: "Bokhari is a parallel algorithms algorithm record. Classical complexity metadata: time O(nt/p); space O(n); work O(nt); span/depth O(n); processors p. The stated classical model is CREW PRAM. Public metadata/source text adds: Bokhari parallel_algorithms parallel_algorithms n: the number of integers in the set, t: target sum, p: number of processors 1\u2264p\u2264t O(nt/p) Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model."
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

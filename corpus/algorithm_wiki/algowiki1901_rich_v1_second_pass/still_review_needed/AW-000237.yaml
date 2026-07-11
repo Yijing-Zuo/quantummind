@@ -1,0 +1,45 @@
+algorithm_id: AW-000237
+canonical_name: Williams' p + 1 algorithm
+enrichment_status: SECOND_PASS_INSUFFICIENT
+review_reasons:
+- No second-pass rule could identify source-backed task semantics.
+source_records:
+- access_status: metadata_only
+  digest: a5921459f62cee2c
+  extracted_facts:
+  - 'AlgorithmWiki row name: Williams'' p + 1 algorithm'
+  - 'domain: unknown'
+  - 'time complexity: O(2^n)'
+  - 'space complexity: O(n)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of bits in the integer'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000237:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Williams' p + 1 algorithm
+  url: https://www.jstor.org/stable/2007633?origin=crossref
+- access_status: failed
+  digest: 84e5731572d48822
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:69aba049affec05d
+  source_type: other_public_source
+  title: 'HTTP Error 403: Forbidden'
+  url: https://www.jstor.org/stable/2007633?origin=crossref
+- source_id: crossref_search:9e861763d5c5b229
+  url: https://doi.org/10.1016/j.tws.2021.107448
+  title: A general adaptive finite element eigen-algorithm stemming from Wittrick-Williams algorithm
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: A general adaptive finite element eigen-algorithm stemming from Wittrick-Williams algorithm'
+  short_quote: ''
+  digest: 767bdaa1fc01750b
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

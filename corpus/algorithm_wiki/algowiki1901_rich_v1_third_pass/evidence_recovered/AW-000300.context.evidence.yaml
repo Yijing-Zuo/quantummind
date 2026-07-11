@@ -1,0 +1,86 @@
+id: AW-000300
+kind: context_recovered
+algorithm_id: AW-000300
+algorithm_name: T. Lindeberg DoG 2012
+source_records:
+- access_status: metadata_only
+  digest: b5ba91d381833bb5
+  extracted_facts:
+  - 'AlgorithmWiki row name: T. Lindeberg DoG 2012'
+  - 'domain: unknown'
+  - 'time complexity: O(n^2)'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000300:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for T. Lindeberg DoG 2012
+  url: ''
+- access_status: fetched
+  digest: c15777f6749b4bd3
+  extracted_facts:
+  - 'Crossref title-search result: Lindeberg condition'
+  reliability: MEDIUM
+  short_quote: ''
+  source_id: crossref_search:99a42d3cabf98a62
+  source_type: doi_metadata
+  title: Lindeberg condition
+  url: https://doi.org/10.1090/mbk/121/10
+- source_id: crossref_search:c62ff1691bc77128
+  url: https://doi.org/10.1090/mbk/121/10
+  title: Lindeberg condition
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title: Lindeberg condition'
+  - 'published year: 2019'
+  - 'container title: 100 Years of Math Milestones'
+  short_quote: 'Crossref title: Lindeberg condition published year: 2019 container title: 100 Years of Math Milestones'
+  digest: ba37454cf91f2a39
+web_query_attempts:
+- cycle: 1
+  query: T. Lindeberg DoG 2012
+  source_family: algorithm_wiki_local
+  url_or_api_endpoint: ''
+  status: fetched
+  new_facts_added: 5
+  reason: local metadata
+- cycle: 1
+  query: T. Lindeberg DoG 2012
+  source_family: local_previous_cache
+  url_or_api_endpoint: ''
+  status: duplicate
+  new_facts_added: 0
+  reason: previous v1/second-pass sources reused
+- cycle: 1
+  query: T. Lindeberg DoG 2012
+  source_family: original_source
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: no original source link
+- cycle: 1
+  query: T. Lindeberg DoG 2012
+  source_family: crossref
+  url_or_api_endpoint: https://doi.org/10.1090/mbk/121/10
+  status: irrelevant
+  new_facts_added: 0
+  reason: Crossref metadata/title search
+- cycle: 1
+  query: T. Lindeberg DoG 2012
+  source_family: arxiv
+  url_or_api_endpoint: https://export.arxiv.org/api/query?max_results=1&search_query=ti:%22T.+Lindeberg+DoG+2012%22
+  status: no_result
+  new_facts_added: 0
+  reason: arXiv title search returned no usable entry
+- cycle: 1
+  query: T. Lindeberg DoG 2012
+  source_family: wikipedia
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: Wikipedia search returned no relevant page
+extracted_problem_statement: 'T. Lindeberg DoG 2012 is treated as a source-saturated AlgorithmWiki row for detect salient image features, corners, blobs, or stable regions Input semantics: An image or image sequence with pixel/grid dimensions and scale or detector parameters when stated. Output semantics: A set of detected feature locations, regions, descriptors, or detector responses.'
+extracted_algorithm_summary: 'T. Lindeberg DoG 2012 is reconstructed as a classical image processing task. The source-backed title/name/fact record supports the task: detect salient image features, corners, blobs, or stable regions.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

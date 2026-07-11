@@ -1,0 +1,71 @@
+id: AW-001111
+kind: context
+algorithm_id: AW-001111
+algorithm_name: SmoothSort - Plaxton (nonadaptive)
+source_records:
+- access_status: metadata_only
+  digest: 6ab1c8ef8632b1a8
+  extracted_facts:
+  - 'AlgorithmWiki row name: SmoothSort - Plaxton (nonadaptive)'
+  - 'domain: sorting'
+  - 'time complexity: O(n/p \log^2{p} / \log{n/(p \log{p})})'
+  - 'computational model: sorting network'
+  - 'parameter definitions: n: size of list, p: number of processors'
+  - 'precard summary: Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model. Baseline: time O(n/p \log^2{p} / \log{n/(p \log{p})}); work O(n \log^2{p} / \log{n/(p \log{p})}); span/depth O(\log^2{n}/ \log{log{n}}); processors p. Bottleneck: comparison, distribution, and full-output movement costs dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001111:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for SmoothSort - Plaxton (nonadaptive)
+  url: https://www.proquest.com/docview/303808287?pq-origsite=gscholar&fromopenview=true
+- access_status: skipped
+  digest: 6106af8dd6fafe8c
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:c02260e8c6d2b28a
+  source_type: other_public_source
+  title: fetch budget exhausted
+  url: https://www.proquest.com/docview/303808287?pq-origsite=gscholar&fromopenview=true
+- access_status: skipped
+  digest: 1ec1d0a7277d83e5
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:677c2fd4ab9ece5f
+  source_type: wikipedia
+  title: fetch budget exhausted
+  url: https://en.wikipedia.org/wiki/SmoothSort_-_Plaxton_%28nonadaptive%29
+web_query_attempts:
+- method: search_plan
+  query: SmoothSort - Plaxton (nonadaptive) algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: SmoothSort - Plaxton (nonadaptive) algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: SmoothSort - Plaxton (nonadaptive) problem definition
+  status: recorded
+- method: search_plan
+  query: SmoothSort - Plaxton (nonadaptive) sorting algorithm
+  status: recorded
+- method: search_plan
+  query: SmoothSort - Plaxton (nonadaptive) site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: SmoothSort - Plaxton (nonadaptive) algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://www.proquest.com/docview/303808287?pq-origsite=gscholar&fromopenview=true
+  status: recorded
+- method: source_link_html_metadata
+  query: https://www.proquest.com/docview/303808287?pq-origsite=gscholar&fromopenview=true
+  status: skipped
+- method: wikipedia_summary_search
+  query: SmoothSort - Plaxton (nonadaptive) algorithm
+  status: skipped
+extracted_problem_statement: 'SmoothSort - Plaxton (nonadaptive) is treated as a classical sorting task for rich AlgorithmWiki discovery. Problem/task: sort the input sequence using the named classical sorting method. Input semantics: A finite array or list of comparable keys or records. Output semantics: The same items returned in nondecreasing order, usually as a full reordered sequence.'
+extracted_algorithm_summary: 'SmoothSort - Plaxton (nonadaptive) is a sorting algorithm record. Classical complexity metadata: time O(n/p \log^2{p} / \log{n/(p \log{p})}); work O(n \log^2{p} / \log{n/(p \log{p})}); span/depth O(\log^2{n}/ \log{log{n}}); processors p. The stated classical model is sorting network. Public metadata/source text adds: SmoothSort - Plaxton (nonadaptive) sorting sorting n: size of list, p: number of processors O(n/p \log^2{p} / \log{n/(p \log{p})}) Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

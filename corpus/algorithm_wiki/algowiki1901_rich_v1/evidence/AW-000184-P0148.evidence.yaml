@@ -1,0 +1,62 @@
+id: AW-000184-P0148
+kind: probe
+algorithm_id: AW-000184
+algorithm_name: Path-based strong components algorithm Dijkstra
+source_records:
+- access_status: metadata_only
+  digest: f93b776a12c366bf
+  extracted_facts:
+  - 'AlgorithmWiki row name: Path-based strong components algorithm Dijkstra'
+  - 'domain: graph'
+  - 'time complexity: O(V+E)'
+  - 'space complexity: O(V)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: V: number of vertices, E: number of edges'
+  - 'precard summary: Given a weighted graph and a source or source-target specification, compute shortest-path distances or a shortest-path tree. Baseline: time O(V+E); space O(V). Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000184:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Path-based strong components algorithm Dijkstra
+  url: https://www.worldcat.org/title/discipline-of-programming/oclc/1958445
+- access_status: failed
+  digest: 1419d8975fa47a78
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:19508f19b6458c2a
+  source_type: other_public_source
+  title: 'HTTP Error 403: Forbidden'
+  url: https://www.worldcat.org/title/discipline-of-programming/oclc/1958445
+web_query_attempts:
+- method: search_plan
+  query: Path-based strong components algorithm Dijkstra algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Path-based strong components algorithm Dijkstra algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Path-based strong components algorithm Dijkstra problem definition
+  status: recorded
+- method: search_plan
+  query: Path-based strong components algorithm Dijkstra graph algorithm
+  status: recorded
+- method: search_plan
+  query: Path-based strong components algorithm Dijkstra site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Path-based strong components algorithm Dijkstra algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://www.worldcat.org/title/discipline-of-programming/oclc/1958445
+  status: recorded
+- method: source_link_html_metadata
+  query: https://www.worldcat.org/title/discipline-of-programming/oclc/1958445
+  status: failed
+- method: wikipedia_summary_search
+  query: Path-based strong components algorithm Dijkstra algorithm
+  status: failed_or_not_relevant
+extracted_problem_statement: 'Path-based strong components algorithm Dijkstra is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Path-based strong components algorithm Dijkstra. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'Path-based strong components algorithm Dijkstra is a graph algorithm record. Classical complexity metadata: time O(V+E); space O(V). The stated classical model is Word RAM. Public metadata/source text adds: Path-based strong components algorithm Dijkstra graph graph V: number of vertices, E: number of edges O(V+E) Given a weighted graph and a source or source-target specification, compute shortest-path distances or a shortest-path tree.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

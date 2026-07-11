@@ -1,0 +1,47 @@
+algorithm_id: AW-001502
+canonical_name: Akl
+enrichment_status: WEB_INSUFFICIENT
+review_reasons:
+- missing_concrete_problem_statement
+- unknown_input_model
+- unknown_output_contract
+- unknown_access_model
+source_records:
+- access_status: metadata_only
+  digest: 3c6342006fdc6c0e
+  extracted_facts:
+  - 'AlgorithmWiki row name: Akl'
+  - 'domain: unknown'
+  - 'time complexity: O(n)'
+  - 'computational model: SM-SIMD (CRCW)'
+  - 'parameter definitions: n: number of nodes'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001502:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Akl
+  url: https://link.springer.com/article/10.1007/BF02240073
+- access_status: skipped
+  digest: 20b44d7f96c3e67a
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:be763693f6fcfbdb
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1007/BF02240073
+- access_status: skipped
+  digest: 0aea64cc44a7d2ef
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:376d1a745905a297
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://link.springer.com/article/10.1007/BF02240073
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

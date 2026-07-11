@@ -1,0 +1,71 @@
+id: AW-001150
+kind: context
+algorithm_id: AW-001150
+algorithm_name: Parallel Quicksort - Chlebus, Vrt'o
+source_records:
+- access_status: metadata_only
+  digest: fe44f4a813d84c0d
+  extracted_facts:
+  - 'AlgorithmWiki row name: Parallel Quicksort - Chlebus, Vrt''o'
+  - 'domain: sorting'
+  - 'time complexity: O(\log{n}) w/ high probability'
+  - 'computational model: CRCW PRAM'
+  - 'parameter definitions: n: size of list'
+  - 'precard summary: Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model. Baseline: time O(\log{n}) w/ high probability; work O(n \\log{n}) expected; span/depth O(\log{n}) expected; processors n. Bottleneck: comparison, distribution, and full-output movement costs dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001150:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Parallel Quicksort - Chlebus, Vrt'o
+  url: https://www.sciencedirect.com/science/article/pii/074373159190040G
+- access_status: skipped
+  digest: 7a313505f5df697a
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:9efe16a02afdba4a
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://www.sciencedirect.com/science/article/pii/074373159190040G
+- access_status: skipped
+  digest: 2843c261f5d1c905
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:32bcaf48baa1622f
+  source_type: wikipedia
+  title: fetch budget exhausted
+  url: https://en.wikipedia.org/wiki/Parallel_Quicksort_-_Chlebus%2C_Vrt%27o
+web_query_attempts:
+- method: search_plan
+  query: Parallel Quicksort - Chlebus, Vrt'o algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Parallel Quicksort - Chlebus, Vrt'o algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Parallel Quicksort - Chlebus, Vrt'o problem definition
+  status: recorded
+- method: search_plan
+  query: Parallel Quicksort - Chlebus, Vrt'o sorting algorithm
+  status: recorded
+- method: search_plan
+  query: Parallel Quicksort - Chlebus, Vrt'o site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Parallel Quicksort - Chlebus, Vrt'o algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://www.sciencedirect.com/science/article/pii/074373159190040G
+  status: recorded
+- method: source_link_html_metadata
+  query: https://www.sciencedirect.com/science/article/pii/074373159190040G
+  status: skipped
+- method: wikipedia_summary_search
+  query: Parallel Quicksort - Chlebus, Vrt'o algorithm
+  status: skipped
+extracted_problem_statement: 'Parallel Quicksort - Chlebus, Vrt''o is treated as a classical sorting task for rich AlgorithmWiki discovery. Problem/task: sort the input sequence using the named classical sorting method. Input semantics: A finite array or list of comparable keys or records. Output semantics: The same items returned in nondecreasing order, usually as a full reordered sequence.'
+extracted_algorithm_summary: 'Parallel Quicksort - Chlebus, Vrt''o is a sorting algorithm record. Classical complexity metadata: time O(\log{n}) w/ high probability; work O(n \\log{n}) expected; span/depth O(\log{n}) expected; processors n. The stated classical model is CRCW PRAM. Public metadata/source text adds: Parallel Quicksort - Chlebus, Vrt''o sorting sorting n: size of list O(\log{n}) w/ high probability Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

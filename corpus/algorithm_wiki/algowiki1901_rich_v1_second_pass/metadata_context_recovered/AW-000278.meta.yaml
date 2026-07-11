@@ -1,0 +1,61 @@
+algorithm_id: AW-000278
+canonical_name: Overlap Layout Consensus
+blind_name: Algorithm Wiki public task AW-000278
+year: '1987'
+domain: unknown
+family: unknown
+variation: ''
+problem_name: unknown
+algorithm_family: unknown
+time_complexity: O(n^2)
+space_complexity: O(n^2)
+computational_model: Word RAM
+randomized: '0'
+approximate: '1'
+approximation_factor: ''
+parameter_definitions: 'n: sum of lengths of reads, f: number of input sequences'
+span_depth: ''
+work: ''
+number_of_processors: ''
+source_link: ''
+source_link_type: unknown
+page_url: ''
+page_fetch_status: not_found
+page_digest: ''
+extracted_description: ''
+inferred_problem_statement: 'Overlap Layout Consensus is reconstructed as a classical string task. Problem/task: assemble sequences from reads using overlap/layout/consensus structure Input semantics: A collection of sequence reads and their total length or count. Output semantics: An assembled sequence, overlap graph/layout, or consensus representation.'
+inferred_input_model: explicit_string_problem
+inferred_access_model: random_access_string
+inferred_output_contract: full_solution
+inferred_size_parameters:
+- 'Parameter definition: n: sum of lengths of reads, f: number of input sequences'
+inferred_promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+- classical_approximation_algorithm
+inferred_ambiguities:
+- Some details are reconstructed from AlgorithmWiki metadata rather than an independently fetched full public description.
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.
+quality_score: 80
+quality_flags:
+- has_complexity_semantics
+- has_size_parameters
+- has_computational_model
+- approximation_flag_preserved
+readiness: READY_PUBLIC_CONTEXT
+review_reasons:
+- missing_problem_statement
+- unknown_input_model
+- unknown_access_model
+- unknown_output_contract
+- insufficient_algorithm_level_structure
+extraction_version: algorithm-wiki-rich-second-pass-context-v1
+rich_card_kind: context_recovered
+source_records_used:
+- AW-000278:algorithm_wiki_metadata
+- crossref_search:43918e1942828c24
+source_count: 2
+source_quality: HIGH
+confidence_score: 80
+card_digest: 37639f0065e0ee43
+second_pass_rule: sequence_assembly

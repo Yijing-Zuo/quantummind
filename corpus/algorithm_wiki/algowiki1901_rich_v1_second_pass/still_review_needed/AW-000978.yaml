@@ -1,0 +1,67 @@
+algorithm_id: AW-000978
+canonical_name: Chan
+enrichment_status: SECOND_PASS_INSUFFICIENT
+review_reasons:
+- No second-pass rule could identify source-backed task semantics.
+source_records:
+- access_status: metadata_only
+  digest: 892182c3f8840a80
+  extracted_facts:
+  - 'AlgorithmWiki row name: Chan'
+  - 'domain: unknown'
+  - 'time complexity: O(n^2*(log log n)^{O(1)}/(log n)^2)'
+  - 'computational model: Real RAM'
+  - 'parameter definitions: n: size of set'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000978:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Chan
+  url: https://dl.acm.org/doi/abs/10.1145/3363541
+- access_status: skipped
+  digest: 673d319b928bb773
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:2fbaf283373c17ec
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1145/3363541
+- access_status: skipped
+  digest: 47328e5f5286a185
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:0e9edb702b8624d3
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://dl.acm.org/doi/abs/10.1145/3363541
+- source_id: crossref:e3f65b662fc0a4a7
+  url: https://doi.org/10.1145/3363541
+  title: More Logarithmic-factor Speedups for 3SUM, (median,+)-convolution, and Some Geometric 3SUM-hard Problems
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: HIGH
+  extracted_facts:
+  - 'DOI title: More Logarithmic-factor Speedups for 3SUM, (median,+)-convolution, and Some Geometric 3SUM-hard Problems'
+  - 'published year: 2020'
+  - 'container title: ACM Transactions on Algorithms'
+  - 'abstract summary: ) time, improving previous solutions by about a logarithmic factor.'
+  short_quote: ) time, improving previous solutions by about a logarithmic factor.
+  digest: 5604efb99557a330
+- source_id: crossref_search:0b18e1bdccf3f416
+  url: https://doi.org/10.1109/npc.2007.32
+  title: An optimal algorithm to fetch DHT routable
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: An optimal algorithm to fetch DHT routable'
+  short_quote: ''
+  digest: eac65bcac63f65f8
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

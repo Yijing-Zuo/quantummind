@@ -1,0 +1,70 @@
+id: AW-001209
+kind: context
+algorithm_id: AW-001209
+algorithm_name: Shear-sort - De et al.
+source_records:
+- access_status: metadata_only
+  digest: d1c9a120aaa2562c
+  extracted_facts:
+  - 'AlgorithmWiki row name: Shear-sort - De et al.'
+  - 'domain: sorting'
+  - 'time complexity: O(n^(1/4))'
+  - 'computational model: SIMD'
+  - 'precard summary: Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model. Baseline: time O(n^(1/4)); span/depth O(n^(1/4)); processors sqrt(n). Bottleneck: comparison, distribution, and full-output movement costs dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001209:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Shear-sort - De et al.
+  url: https://ieeexplore.ieee.org/abstract/document/628397
+- access_status: skipped
+  digest: d450aef6a9902b53
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:0befa02802fda445
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://ieeexplore.ieee.org/abstract/document/628397
+- access_status: skipped
+  digest: 4ed07c0e4fffc2f1
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:abb0caa86e60e3af
+  source_type: wikipedia
+  title: fetch budget exhausted
+  url: https://en.wikipedia.org/wiki/Shear-sort_-_De_et_al.
+web_query_attempts:
+- method: search_plan
+  query: Shear-sort - De et al. algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Shear-sort - De et al. algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Shear-sort - De et al. problem definition
+  status: recorded
+- method: search_plan
+  query: Shear-sort - De et al. sorting algorithm
+  status: recorded
+- method: search_plan
+  query: Shear-sort - De et al. site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Shear-sort - De et al. algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://ieeexplore.ieee.org/abstract/document/628397
+  status: recorded
+- method: source_link_html_metadata
+  query: https://ieeexplore.ieee.org/abstract/document/628397
+  status: skipped
+- method: wikipedia_summary_search
+  query: Shear-sort - De et al. algorithm
+  status: skipped
+extracted_problem_statement: 'Shear-sort - De et al. is treated as a classical sorting task for rich AlgorithmWiki discovery. Problem/task: sort the input sequence using the named classical sorting method. Input semantics: A finite array or list of comparable keys or records. Output semantics: The same items returned in nondecreasing order, usually as a full reordered sequence.'
+extracted_algorithm_summary: 'Shear-sort - De et al. is a sorting algorithm record. Classical complexity metadata: time O(n^(1/4)); span/depth O(n^(1/4)); processors sqrt(n). The stated classical model is SIMD. Public metadata/source text adds: Shear-sort - De et al. sorting sorting O(n^(1/4)) Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

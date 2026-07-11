@@ -1,0 +1,61 @@
+id: AW-000270
+kind: context
+algorithm_id: AW-000270
+algorithm_name: Power Iteration
+source_records:
+- access_status: metadata_only
+  digest: b5c82af50eed6df4
+  extracted_facts:
+  - 'AlgorithmWiki row name: Power Iteration'
+  - 'domain: matrix_linear_algebra'
+  - 'time complexity: O(n^2)'
+  - 'space complexity: O(n)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: dimension of matrix'
+  - 'precard summary: Given one or more explicit dense matrices over the stated arithmetic domain, compute the matrix or linear-algebraic output specified by the record. Baseline: time O(n^2); space O(n). Bottleneck: dense arithmetic and full matrix output dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000270:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Power Iteration
+  url: https://onlinelibrary.wiley.com/doi/pdf/10.1002/zamm.19290090105?casa_token=xSwK6PkV010AAAAA:j_1-JKs0GG-KuwUUyM_dIt8kmOa5z6lvp_GABgDryAYxKdYvChyNGA9VA5CZLyAurWOVYPRn45geRTFk
+- access_status: fetched
+  digest: ad813fea43252779
+  extracted_facts:
+  - "DOI title: Praktische Verfahren der Gleichungsaufl\xF6sung ."
+  - 'published year: 1929'
+  - "container title: ZAMM - Journal of Applied Mathematics and Mechanics / Zeitschrift f\xFCr Angewandte Mathematik und Mechanik"
+  reliability: HIGH
+  short_quote: ''
+  source_id: crossref:adb2bcce55fdfdef
+  source_type: doi_metadata
+  title: "Praktische Verfahren der Gleichungsaufl\xF6sung ."
+  url: https://doi.org/10.1002/zamm.19290090105
+web_query_attempts:
+- method: search_plan
+  query: Power Iteration algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Power Iteration algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Power Iteration problem definition
+  status: recorded
+- method: search_plan
+  query: Power Iteration matrix linear algebra algorithm
+  status: recorded
+- method: search_plan
+  query: Power Iteration site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Power Iteration algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://onlinelibrary.wiley.com/doi/pdf/10.1002/zamm.19290090105?casa_token=xSwK6PkV010AAAAA:j_1-JKs0GG-KuwUUyM_dIt8kmOa5z6lvp_GABgDryAYxKdYvChyNGA9VA5CZLyAurWOVYPRn45geRTFk
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1002/zamm.19290090105
+  status: fetched
+extracted_problem_statement: 'Power Iteration is treated as a classical matrix linear algebra task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Power Iteration. Input semantics: One or more explicit matrices or linear systems over the stated arithmetic domain. Output semantics: The requested matrix, decomposition, solution vector, or other linear-algebraic output.'
+extracted_algorithm_summary: 'Power Iteration is a matrix linear algebra algorithm record. Classical complexity metadata: time O(n^2); space O(n). The stated classical model is Word RAM. Public metadata/source text adds: Power Iteration matrix_linear_algebra matrix_linear_algebra n: dimension of matrix O(n^2) Given one or more explicit dense matrices over the stated arithmetic domain, compute the matrix or linear-algebraic output specified by the record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

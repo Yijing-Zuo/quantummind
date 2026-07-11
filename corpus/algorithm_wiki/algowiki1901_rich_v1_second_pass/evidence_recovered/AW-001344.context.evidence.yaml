@@ -1,0 +1,95 @@
+id: AW-001344
+kind: context_recovered
+algorithm_id: AW-001344
+algorithm_name: Dekel Nassimi & Sahni (5)
+source_records:
+- access_status: metadata_only
+  digest: 34fb8db0df9831e3
+  extracted_facts:
+  - 'AlgorithmWiki row name: Dekel Nassimi & Sahni (5)'
+  - 'domain: unknown'
+  - 'time complexity: O(\log n)'
+  - 'computational model: SIMD-PS'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001344:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Dekel Nassimi & Sahni (5)
+  url: https://epubs.siam.org/doi/abs/10.1137/0210049
+- access_status: skipped
+  digest: 5daf988d0e6ce820
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:2430e6eb209709e1
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1137/0210049
+- access_status: skipped
+  digest: 4bba3e4243c322c4
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:cceb79525ee491f7
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://epubs.siam.org/doi/abs/10.1137/0210049
+- source_id: crossref:bf7702f99ef428ad
+  url: https://doi.org/10.1137/0210049
+  title: Parallel Matrix and Graph Algorithms
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: HIGH
+  extracted_facts:
+  - 'DOI title: Parallel Matrix and Graph Algorithms'
+  - 'published year: 1981'
+  - 'container title: SIAM Journal on Computing'
+  short_quote: ''
+  digest: 95acdebcefeb049a
+- source_id: crossref_search:0b18e1bdccf3f416
+  url: https://doi.org/10.1109/npc.2007.32
+  title: An optimal algorithm to fetch DHT routable
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: An optimal algorithm to fetch DHT routable'
+  short_quote: ''
+  digest: eac65bcac63f65f8
+web_query_attempts:
+- query: '"Dekel Nassimi & Sahni (5)" algorithm'
+  method: search_plan
+  status: recorded
+- query: '"Dekel Nassimi & Sahni (5)" input output'
+  method: search_plan
+  status: recorded
+- query: '"Dekel Nassimi & Sahni (5)" time complexity'
+  method: search_plan
+  status: recorded
+- query: '"Dekel Nassimi & Sahni (5)" pseudocode'
+  method: search_plan
+  status: recorded
+- query: '"Dekel Nassimi & Sahni (5)" problem'
+  method: search_plan
+  status: recorded
+- query: '"Dekel Nassimi & Sahni (5)" PDF metadata abstract'
+  method: search_plan
+  status: recorded
+- query: '"fetch budget exhausted" algorithm'
+  method: search_plan
+  status: recorded
+- query: https://epubs.siam.org/doi/abs/10.1137/0210049
+  method: search_plan
+  status: recorded
+- query: 10.1137/0210049
+  method: crossref_doi_metadata
+  status: fetched
+- query: fetch budget exhausted algorithm
+  method: crossref_title_search
+  status: fetched
+extracted_problem_statement: 'Dekel Nassimi & Sahni (5) is reconstructed as a classical graph task. Problem/task: solve the named graph task indicated by the public source metadata Input semantics: An explicit graph with vertices, edges, weights, labels, or adjacency access as required by the row. Output semantics: A path, tree, component labeling, flow, matching, or witness object for the named graph task.'
+extracted_algorithm_summary: 'Dekel Nassimi & Sahni (5) is treated as the named AlgorithmWiki variant for solve the named graph task indicated by the public source metadata Classical complexity metadata: time O(\log n); work O(n^3*\log n); span/depth O(log n). Public metadata/source title support includes Parallel Matrix and Graph Algorithms.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

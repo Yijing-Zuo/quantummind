@@ -1,0 +1,84 @@
+id: AW-000269
+kind: context_recovered
+algorithm_id: AW-000269
+algorithm_name: Suzuki-Kasami's algorithm
+source_records:
+- access_status: metadata_only
+  digest: 222894e10f9647f7
+  extracted_facts:
+  - 'AlgorithmWiki row name: Suzuki-Kasami''s algorithm'
+  - 'domain: unknown'
+  - 'time complexity: O(n) (originally this had O(\log n))'
+  - 'space complexity: O(1) per process, O(n) total'
+  - 'parameter definitions: n: number of processes'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000269:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Suzuki-Kasami's algorithm
+  url: https://dl.acm.org/doi/10.1145/6110.214406
+- access_status: fetched
+  digest: 0f073d426885fc16
+  extracted_facts:
+  - 'DOI title: A distributed mutual exclusion algorithm'
+  - 'published year: 1985'
+  - 'container title: ACM Transactions on Computer Systems'
+  - 'abstract summary: message exchanges for one mutual exclusion invocation.'
+  reliability: HIGH
+  short_quote: message exchanges for one mutual exclusion invocation.
+  source_id: crossref:7b4b3b011e96c25a
+  source_type: doi_metadata
+  title: A distributed mutual exclusion algorithm
+  url: https://doi.org/10.1145/6110.214406
+- access_status: failed
+  digest: 66463976b8393d01
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:cde3fd06c8a4e190
+  source_type: publisher_abstract
+  title: 'HTTP Error 403: Forbidden'
+  url: https://dl.acm.org/doi/10.1145/6110.214406
+- source_id: crossref_search:b0eb8d89bee80c36
+  url: https://doi.org/10.5121/ijp2p.2011.2302
+  title: NTBCBT:A Distributed Mutual Exclusion Algorithm
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: NTBCBT:A Distributed Mutual Exclusion Algorithm'
+  short_quote: ''
+  digest: c7354c9b37fa0063
+web_query_attempts:
+- query: '"Suzuki-Kasami''s algorithm" algorithm'
+  method: search_plan
+  status: recorded
+- query: '"Suzuki-Kasami''s algorithm" input output'
+  method: search_plan
+  status: recorded
+- query: '"Suzuki-Kasami''s algorithm" time complexity'
+  method: search_plan
+  status: recorded
+- query: '"Suzuki-Kasami''s algorithm" pseudocode'
+  method: search_plan
+  status: recorded
+- query: '"Suzuki-Kasami''s algorithm" problem'
+  method: search_plan
+  status: recorded
+- query: '"Suzuki-Kasami''s algorithm" PDF metadata abstract'
+  method: search_plan
+  status: recorded
+- query: '"A distributed mutual exclusion algorithm" algorithm'
+  method: search_plan
+  status: recorded
+- query: https://dl.acm.org/doi/10.1145/6110.214406
+  method: search_plan
+  status: recorded
+- query: A distributed mutual exclusion algorithm algorithm
+  method: crossref_title_search
+  status: fetched
+extracted_problem_statement: 'Suzuki-Kasami''s algorithm is reconstructed as a classical parallel algorithms task. Problem/task: coordinate process access to a critical section without simultaneous entry Input semantics: A set of processes, request/release events, and shared-memory or message-passing assumptions. Output semantics: A protocol state sequence or decision granting safe critical-section access.'
+extracted_algorithm_summary: 'Suzuki-Kasami''s algorithm is treated as the named AlgorithmWiki variant for coordinate process access to a critical section without simultaneous entry Classical complexity metadata: time O(n) (originally this had O(\log n)); space O(1) per process, O(n) total. Public metadata/source title support includes A distributed mutual exclusion algorithm.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

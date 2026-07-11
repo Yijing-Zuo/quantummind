@@ -1,0 +1,59 @@
+id: AW-000786-P0511
+kind: probe
+algorithm_id: AW-000786
+algorithm_name: The (Hyperlink-Induced Topic Search) HITS Algorithm
+source_records:
+- access_status: metadata_only
+  digest: ab43eaea5ea95134
+  extracted_facts:
+  - 'AlgorithmWiki row name: The (Hyperlink-Induced Topic Search) HITS Algorithm'
+  - 'domain: unknown'
+  - 'time complexity: O(n^2 k)'
+  - 'space complexity: O(n)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of pages, m: number of hyperlinks, k: number of iterations'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000786:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for The (Hyperlink-Induced Topic Search) HITS Algorithm
+  url: https://dl.acm.org/doi/pdf/10.1145/324133.324140
+- access_status: fetched
+  digest: 7b7827e55ef845b2
+  extracted_facts:
+  - 'DOI title: Authoritative sources in a hyperlinked environment'
+  - 'published year: 1999'
+  - 'container title: Journal of the ACM'
+  - 'abstract summary: The network structure of a hyperlinked environment can be a rich source of information about the content of the environment, provided we have effective means for understanding it.'
+  reliability: HIGH
+  short_quote: The network structure of a hyperlinked environment can be a rich source of information about the content of the environment, provided we have effective
+  source_id: crossref:c3f5ba0cd5cd5537
+  source_type: doi_metadata
+  title: Authoritative sources in a hyperlinked environment
+  url: https://doi.org/10.1145/324133.324140
+web_query_attempts:
+- method: search_plan
+  query: The (Hyperlink-Induced Topic Search) HITS Algorithm algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: The (Hyperlink-Induced Topic Search) HITS Algorithm algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: The (Hyperlink-Induced Topic Search) HITS Algorithm problem definition
+  status: recorded
+- method: search_plan
+  query: The (Hyperlink-Induced Topic Search) HITS Algorithm site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: The (Hyperlink-Induced Topic Search) HITS Algorithm algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://dl.acm.org/doi/pdf/10.1145/324133.324140
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1145/324133.324140
+  status: fetched
+extracted_problem_statement: 'The (Hyperlink-Induced Topic Search) HITS Algorithm is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with The (Hyperlink-Induced Topic Search) HITS Algorithm. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'The (Hyperlink-Induced Topic Search) HITS Algorithm is a graph algorithm record. Classical complexity metadata: time O(n^2 k); space O(n). The stated classical model is Word RAM. Public metadata/source text adds: The (Hyperlink-Induced Topic Search) HITS Algorithm unknown unknown n: number of pages, m: number of hyperlinks, k: number of iterations O(n^2 k) No public-ready summary is available because the row lacks enough task semantics.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

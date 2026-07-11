@@ -1,0 +1,71 @@
+id: AW-001254
+kind: context
+algorithm_id: AW-001254
+algorithm_name: Han, He (1)
+source_records:
+- access_status: metadata_only
+  digest: 47247d9f9e4e53f2
+  extracted_facts:
+  - 'AlgorithmWiki row name: Han, He (1)'
+  - 'domain: parallel_algorithms'
+  - 'time complexity: O(\log^1.5{n}/ \log{\log{n}})'
+  - 'computational model: CREW PRAM'
+  - 'parameter definitions: n: number of integers in range {0,1,2,..., n^0.5}'
+  - 'precard summary: Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model. Baseline: time O(\log^1.5{n}/ \log{\log{n}}); work O(n (\log{n}/ \log{\log{n}})^0.5); span/depth O(\log^1.5{n}/ \log{\log{n}}); processors O(n \log^0.5{\log{n}}/ \log{n}). Bottleneck: work, span, communication, and processor-count assumptions dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001254:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Han, He (1)
+  url: https://link.springer.com/chapter/10.1007/978-3-642-29700-7_26
+- access_status: skipped
+  digest: 2611494b0a2eadda
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:ccc0bff06fa2031c
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1007/978-3-642-29700-7_26
+- access_status: skipped
+  digest: d8ee4f4b05a74079
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:aa9723d9a3d5d487
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://link.springer.com/chapter/10.1007/978-3-642-29700-7_26
+web_query_attempts:
+- method: search_plan
+  query: Han, He (1) algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Han, He (1) algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Han, He (1) problem definition
+  status: recorded
+- method: search_plan
+  query: Han, He (1) parallel algorithms algorithm
+  status: recorded
+- method: search_plan
+  query: Han, He (1) site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Han, He (1) algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://link.springer.com/chapter/10.1007/978-3-642-29700-7_26
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1007/978-3-642-29700-7_26
+  status: skipped
+- method: source_link_html_metadata
+  query: https://link.springer.com/chapter/10.1007/978-3-642-29700-7_26
+  status: skipped
+extracted_problem_statement: 'Han, He (1) is treated as a classical parallel algorithms task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Han, He (1). Input semantics: The classical input instance named by the row, together with processor/work/span parameters when stated. Output semantics: The same mathematical output as the underlying classical task, annotated by work/span when available.'
+extracted_algorithm_summary: 'Han, He (1) is a parallel algorithms algorithm record. Classical complexity metadata: time O(\log^1.5{n}/ \log{\log{n}}); work O(n (\log{n}/ \log{\log{n}})^0.5); span/depth O(\log^1.5{n}/ \log{\log{n}}); processors O(n \log^0.5{\log{n}}/ \log{n}). The stated classical model is CREW PRAM. Public metadata/source text adds: Han, He (1) parallel_algorithms parallel_algorithms n: number of integers in range {0,1,2,..., n^0.5} O(\log^1.5{n}/ \log{\log{n}}) Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

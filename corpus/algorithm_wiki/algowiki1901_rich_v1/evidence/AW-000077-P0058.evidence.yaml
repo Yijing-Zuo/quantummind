@@ -1,0 +1,45 @@
+id: AW-000077-P0058
+kind: probe
+algorithm_id: AW-000077
+algorithm_name: Time-Bounded A* (TBA*)
+source_records:
+- access_status: metadata_only
+  digest: ef500dfbc89bca81
+  extracted_facts:
+  - 'AlgorithmWiki row name: Time-Bounded A* (TBA*)'
+  - 'domain: graph'
+  - 'time complexity: O(b^d)'
+  - 'space complexity: O(b^d)'
+  - 'parameter definitions: b: branching factor (the average number of successors per state), d: the depth of the solution (the shortest path)'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(b^d); space O(b^d). Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000077:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Time-Bounded A* (TBA*)
+  url: https://www.cs.du.edu/~sturtevant/papers/TBA.pdf
+web_query_attempts:
+- method: search_plan
+  query: Time-Bounded A* (TBA*) algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Time-Bounded A* (TBA*) algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Time-Bounded A* (TBA*) problem definition
+  status: recorded
+- method: search_plan
+  query: Time-Bounded A* (TBA*) graph algorithm
+  status: recorded
+- method: search_plan
+  query: Time-Bounded A* (TBA*) site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Time-Bounded A* (TBA*) algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://www.cs.du.edu/~sturtevant/papers/TBA.pdf
+  status: recorded
+extracted_problem_statement: 'Time-Bounded A* (TBA*) is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: find a low-cost or shortest path in a graph or state-space search instance. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: A path, path cost, or predecessor structure connecting the requested graph states.'
+extracted_algorithm_summary: 'Time-Bounded A* (TBA*) is a graph algorithm record. Classical complexity metadata: time O(b^d); space O(b^d). Public metadata/source text adds: Time-Bounded A* (TBA*) graph graph b: branching factor (the average number of successors per state), d: the depth of the solution (the shortest path) O(b^d) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

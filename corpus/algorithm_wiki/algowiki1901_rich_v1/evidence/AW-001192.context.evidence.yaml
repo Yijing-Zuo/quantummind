@@ -1,0 +1,71 @@
+id: AW-001192
+kind: context
+algorithm_id: AW-001192
+algorithm_name: MM-sort - Zhang, Zheng
+source_records:
+- access_status: metadata_only
+  digest: cb4e99b5d306584a
+  extracted_facts:
+  - 'AlgorithmWiki row name: MM-sort - Zhang, Zheng'
+  - 'domain: sorting'
+  - 'time complexity: O(n/p \log p)'
+  - 'computational model: fixed-size sorting network (inner sorter)'
+  - 'parameter definitions: n: size of list, p: number of local queues // number of processors equivalent'
+  - 'precard summary: Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model. Baseline: time O(n/p \log p); work O(n \log p); span/depth O(log n); processors p. Bottleneck: comparison, distribution, and full-output movement costs dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001192:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for MM-sort - Zhang, Zheng
+  url: https://ieeexplore.ieee.org/abstract/document/530744?casa_token=fWv_XUrk-IsAAAAA:VrU2_Uiu4y99b7ZD6KtQPQ4JDX6-zWPqwFlrtWs8pl3FDAd4YtsmHuOi4MQC9bURA7xhuf9g5g
+- access_status: skipped
+  digest: 01aa46e822edaf4c
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:56a3d61a50f3993d
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://ieeexplore.ieee.org/abstract/document/530744?casa_token=fWv_XUrk-IsAAAAA:VrU2_Uiu4y99b7ZD6KtQPQ4JDX6-zWPqwFlrtWs8pl3FDAd4YtsmHuOi4MQC9bURA7xhuf9g5g
+- access_status: skipped
+  digest: 0d0cefb675606d55
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:9ae64475fba8897f
+  source_type: wikipedia
+  title: fetch budget exhausted
+  url: https://en.wikipedia.org/wiki/MM-sort_-_Zhang%2C_Zheng
+web_query_attempts:
+- method: search_plan
+  query: MM-sort - Zhang, Zheng algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: MM-sort - Zhang, Zheng algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: MM-sort - Zhang, Zheng problem definition
+  status: recorded
+- method: search_plan
+  query: MM-sort - Zhang, Zheng sorting algorithm
+  status: recorded
+- method: search_plan
+  query: MM-sort - Zhang, Zheng site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: MM-sort - Zhang, Zheng algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://ieeexplore.ieee.org/abstract/document/530744?casa_token=fWv_XUrk-IsAAAAA:VrU2_Uiu4y99b7ZD6KtQPQ4JDX6-zWPqwFlrtWs8pl3FDAd4YtsmHuOi4MQC9bURA7xhuf9g5g
+  status: recorded
+- method: source_link_html_metadata
+  query: https://ieeexplore.ieee.org/abstract/document/530744?casa_token=fWv_XUrk-IsAAAAA:VrU2_Uiu4y99b7ZD6KtQPQ4JDX6-zWPqwFlrtWs8pl3FDAd4YtsmHuOi4MQC9bURA7xhuf9g5g
+  status: skipped
+- method: wikipedia_summary_search
+  query: MM-sort - Zhang, Zheng algorithm
+  status: skipped
+extracted_problem_statement: 'MM-sort - Zhang, Zheng is treated as a classical sorting task for rich AlgorithmWiki discovery. Problem/task: sort the input sequence using the named classical sorting method. Input semantics: A finite array or list of comparable keys or records. Output semantics: The same items returned in nondecreasing order, usually as a full reordered sequence.'
+extracted_algorithm_summary: 'MM-sort - Zhang, Zheng is a sorting algorithm record. Classical complexity metadata: time O(n/p \log p); work O(n \log p); span/depth O(log n); processors p. The stated classical model is fixed-size sorting network (inner sorter). Public metadata/source text adds: MM-sort - Zhang, Zheng sorting sorting n: size of list, p: number of local queues // number of processors equivalent O(n/p \log p) Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

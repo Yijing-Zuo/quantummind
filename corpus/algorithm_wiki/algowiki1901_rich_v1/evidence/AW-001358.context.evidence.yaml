@@ -1,0 +1,57 @@
+id: AW-001358
+kind: context
+algorithm_id: AW-001358
+algorithm_name: Ballard (Strassen-2.5D) (2)
+source_records:
+- access_status: metadata_only
+  digest: 0f74b8acd273352a
+  extracted_facts:
+  - 'AlgorithmWiki row name: Ballard (Strassen-2.5D) (2)'
+  - 'domain: matrix_linear_algebra'
+  - 'time complexity: (7/8)^l n^3/P'
+  - 'computational model: distributed memory, message passing'
+  - 'precard summary: Given one or more explicit dense matrices over the stated arithmetic domain, compute the matrix or linear-algebraic output specified by the record. Baseline: time (7/8)^l n^3/P; work (7/8)^l n^3; span/depth (7/8)^l n^3/P; processors P. Bottleneck: dense arithmetic and full matrix output dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001358:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Ballard (Strassen-2.5D) (2)
+  url: https://www.proquest.com/docview/1526399338?pq-origsite=gscholar&fromopenview=true
+- access_status: skipped
+  digest: 81e6e1a98dc77962
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:ca0e5a2efb46be2e
+  source_type: other_public_source
+  title: fetch budget exhausted
+  url: https://www.proquest.com/docview/1526399338?pq-origsite=gscholar&fromopenview=true
+web_query_attempts:
+- method: search_plan
+  query: Ballard (Strassen-2.5D) (2) algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Ballard (Strassen-2.5D) (2) algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Ballard (Strassen-2.5D) (2) problem definition
+  status: recorded
+- method: search_plan
+  query: Ballard (Strassen-2.5D) (2) matrix linear algebra algorithm
+  status: recorded
+- method: search_plan
+  query: Ballard (Strassen-2.5D) (2) site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Ballard (Strassen-2.5D) (2) algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://www.proquest.com/docview/1526399338?pq-origsite=gscholar&fromopenview=true
+  status: recorded
+- method: source_link_html_metadata
+  query: https://www.proquest.com/docview/1526399338?pq-origsite=gscholar&fromopenview=true
+  status: skipped
+extracted_problem_statement: 'Ballard (Strassen-2.5D) (2) is treated as a classical matrix linear algebra task for rich AlgorithmWiki discovery. Problem/task: multiply matrices using the named bilinear or algebraic multiplication method. Input semantics: One or more explicit matrices or linear systems over the stated arithmetic domain. Output semantics: The matrix product or bilinear multiplication output.'
+extracted_algorithm_summary: 'Ballard (Strassen-2.5D) (2) is a matrix linear algebra algorithm record. Classical complexity metadata: time (7/8)^l n^3/P; work (7/8)^l n^3; span/depth (7/8)^l n^3/P; processors P. The stated classical model is distributed memory, message passing. Public metadata/source text adds: Ballard (Strassen-2.5D) (2) matrix_linear_algebra matrix_linear_algebra (7/8)^l n^3/P Given one or more explicit dense matrices over the stated arithmetic domain, compute the matrix or linear-algebraic output specified by the record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

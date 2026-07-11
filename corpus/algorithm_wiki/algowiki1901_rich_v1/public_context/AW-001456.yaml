@@ -1,0 +1,18 @@
+statement: 'Reif is included as a named whole-algorithm context card for a classical graph task. The task is to analyze the classical input-output problem, not to certify an end-to-end improvement claim. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result. Classical algorithm summary: Reif is a graph algorithm record. Classical complexity metadata: time O(\log n); work O(m+n); span/depth O(log n); processors O((m+n)/log(n)). The stated classical model is CRCW PRAM. Public metadata/source text adds: Reif graph graph n: number of vertices, m: number of edges O(\log n) Given an explicit graph instance, the concrete classical graph task associated with Reif. Classical complexity recorded for this row: time O(\log n); space unknown; computation model CRCW PRAM.
+  Dominant bottleneck: graph traversal, priority/frontier maintenance, and materializing graph outputs. The useful review questions are whether the named structure exposes a smaller decision, witness, estimation, or algebraic subproblem; whether the full output size dominates any asymptotic gain; and whether the stated access model is realistic for the original input. Provenance is limited to AlgorithmWiki metadata and source-link facts; unresolved details are kept as ambiguities. Source-backed uncertainty or assumptions: The AlgorithmWiki row marks the classical method as randomized.; No independent fetched public metadata source resolved this row beyond AlgorithmWiki metadata/source-link facts.'
+input_model: explicit_graph_problem
+access_model: adjacency_list_query
+output_contract: full_solution
+promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+- classical_randomized_algorithm
+- classical_parallel_model_recorded
+size_parameters:
+- 'Parameter definition: n: number of vertices, m: number of edges'
+- p = stated number of processors (O((m+n)/log(n)))
+ambiguities:
+- The AlgorithmWiki row marks the classical method as randomized.
+- No independent fetched public metadata source resolved this row beyond AlgorithmWiki metadata/source-link facts.
+- Some details are reconstructed from AlgorithmWiki metadata rather than an independently fetched full public description.
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.

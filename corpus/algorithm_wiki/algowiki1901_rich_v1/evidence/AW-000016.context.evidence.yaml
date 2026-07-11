@@ -1,0 +1,62 @@
+id: AW-000016
+kind: context
+algorithm_id: AW-000016
+algorithm_name: Lawrence Gibbs Sampling
+source_records:
+- access_status: metadata_only
+  digest: c4acce0fb6b048ac
+  extracted_facts:
+  - 'AlgorithmWiki row name: Lawrence Gibbs Sampling'
+  - 'domain: randomized_sampling'
+  - 'time complexity: O(nm)'
+  - 'space complexity: O(n + m)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of sequences, m: length of sequences'
+  - 'precard summary: Given explicit input data and classical randomness as part of the algorithmic model, produce the sampled or estimated output described by the record. Baseline: time O(nm); space O(n + m). Bottleneck: sampling variance, success probability, and estimator precision dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000016:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Lawrence Gibbs Sampling
+  url: https://science.sciencemag.org/content/262/5131/208
+- access_status: failed
+  digest: 899e17e8d643e766
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:2e0c2b897665b152
+  source_type: other_public_source
+  title: 'HTTP Error 403: Forbidden'
+  url: https://science.sciencemag.org/content/262/5131/208
+web_query_attempts:
+- method: search_plan
+  query: Lawrence Gibbs Sampling algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Lawrence Gibbs Sampling algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Lawrence Gibbs Sampling problem definition
+  status: recorded
+- method: search_plan
+  query: Lawrence Gibbs Sampling randomized sampling algorithm
+  status: recorded
+- method: search_plan
+  query: Lawrence Gibbs Sampling site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Lawrence Gibbs Sampling algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://science.sciencemag.org/content/262/5131/208
+  status: recorded
+- method: source_link_html_metadata
+  query: https://science.sciencemag.org/content/262/5131/208
+  status: failed
+- method: wikipedia_summary_search
+  query: Lawrence Gibbs Sampling algorithm
+  status: failed_or_not_relevant
+extracted_problem_statement: 'Lawrence Gibbs Sampling is treated as a classical randomized sampling task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Lawrence Gibbs Sampling. Input semantics: A probability model, data set, or sampler description together with requested estimator parameters. Output semantics: A sample, estimate, or approximate value with the stated randomized or statistical semantics.'
+extracted_algorithm_summary: 'Lawrence Gibbs Sampling is a randomized sampling algorithm record. Classical complexity metadata: time O(nm); space O(n + m). The stated classical model is Word RAM. Public metadata/source text adds: Lawrence Gibbs Sampling randomized_sampling randomized_sampling n: number of sequences, m: length of sequences O(nm) Given explicit input data and classical randomness as part of the algorithmic model, produce the sampled or estimated output described by the record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

@@ -1,0 +1,71 @@
+id: AW-001402
+kind: context
+algorithm_id: AW-001402
+algorithm_name: Nath, Maheshwari, Bhatt [CONVEXHULL-5]
+source_records:
+- access_status: metadata_only
+  digest: 82fbbbb77e223e1a
+  extracted_facts:
+  - 'AlgorithmWiki row name: Nath, Maheshwari, Bhatt [CONVEXHULL-5]'
+  - 'domain: computational_geometry'
+  - 'time complexity: O(k \log n)'
+  - 'computational model: SIMD-SM-R'
+  - "parameter definitions: n: number of line segments, h: number of points on the convex hull, k: processor parameter, 1\u2264k\u2264log n"
+  - 'precard summary: Given explicit geometric objects such as points, segments, or polygons, compute the requested geometric structure or witness set. Baseline: time O(k \log n); work O(n \log^2(n)); span/depth O(log^2(n)); processors n^(1+1/k). Bottleneck: geometric predicates, ordering events, and output-sensitive structure size dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001402:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Nath, Maheshwari, Bhatt [CONVEXHULL-5]
+  url: https://link.springer.com/chapter/10.1007/BFb0105130
+- access_status: skipped
+  digest: 24a44b0893b70726
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:c8dacc9ee86f7b15
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1007/BFb0105130
+- access_status: skipped
+  digest: 8c5e8333bc0913d0
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:55410e8600094926
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://link.springer.com/chapter/10.1007/BFb0105130
+web_query_attempts:
+- method: search_plan
+  query: Nath, Maheshwari, Bhatt [CONVEXHULL-5] algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Nath, Maheshwari, Bhatt [CONVEXHULL-5] algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Nath, Maheshwari, Bhatt [CONVEXHULL-5] problem definition
+  status: recorded
+- method: search_plan
+  query: Nath, Maheshwari, Bhatt [CONVEXHULL-5] computational geometry algorithm
+  status: recorded
+- method: search_plan
+  query: Nath, Maheshwari, Bhatt [CONVEXHULL-5] site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Nath, Maheshwari, Bhatt [CONVEXHULL-5] algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://link.springer.com/chapter/10.1007/BFb0105130
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1007/BFb0105130
+  status: skipped
+- method: source_link_html_metadata
+  query: https://link.springer.com/chapter/10.1007/BFb0105130
+  status: skipped
+extracted_problem_statement: 'Nath, Maheshwari, Bhatt [CONVEXHULL-5] is treated as a classical computational geometry task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Nath, Maheshwari, Bhatt [CONVEXHULL-5]. Input semantics: Explicit geometric objects such as points, line segments, polygons, or planar subdivisions. Output semantics: The requested geometric structure, simplified curve, clipping result, intersection set, hull, or diagram.'
+extracted_algorithm_summary: "Nath, Maheshwari, Bhatt [CONVEXHULL-5] is a computational geometry algorithm record. Classical complexity metadata: time O(k \\log n); work O(n \\log^2(n)); span/depth O(log^2(n)); processors n^(1+1/k). The stated classical model is SIMD-SM-R. Public metadata/source text adds: Nath, Maheshwari, Bhatt [CONVEXHULL-5] computational_geometry computational_geometry n: number of line segments, h: number of points on the convex hull, k: processor parameter, 1\u2264k\u2264log n O(k \\log n) Given explicit geometric objects such as points, segments, or polygons, compute the requested geometric structure or witness set."
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

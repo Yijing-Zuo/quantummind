@@ -1,0 +1,668 @@
+algorithm_id: AW-000462
+canonical_name: Sattolo's algorithm
+original_source_link: https://www.sciencedirect.com/science/article/abs/pii/0020019086900736
+source_link_type: sciencedirect
+previous_failure_reasons:
+- No second-pass rule could identify source-backed task semantics.
+previous_source_records:
+- access_status: metadata_only
+  digest: ceede9529d00b34f
+  extracted_facts:
+  - 'AlgorithmWiki row name: Sattolo''s algorithm'
+  - 'domain: unknown'
+  - 'time complexity: O(n)'
+  - 'space complexity: O(1)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of elements'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000462:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Sattolo's algorithm
+  url: https://www.sciencedirect.com/science/article/abs/pii/0020019086900736
+- access_status: failed
+  digest: a0bff49a8f4e9ddf
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:524d469bd0379811
+  source_type: publisher_abstract
+  title: 'HTTP Error 403: Forbidden'
+  url: https://www.sciencedirect.com/science/article/abs/pii/0020019086900736
+- access_status: fetched
+  digest: a66325182eaf00da
+  extracted_facts:
+  - 'Crossref title-search result: Learn Muay Thai Basic Movement in Virtual Reality and Sattolo Shuffle Algorithm'
+  - 'abstract summary: Muay Thai is a martial art from Thailand that uses punches and various clinching movements.'
+  reliability: MEDIUM
+  short_quote: Muay Thai is a martial art from Thailand that uses punches and various clinching movements.
+  source_id: crossref_search:96e739b368fbddf0
+  source_type: doi_metadata
+  title: Learn Muay Thai Basic Movement in Virtual Reality and Sattolo Shuffle Algorithm
+  url: https://doi.org/10.46729/ijstm.v4i2.759
+aliases_tried:
+- Sattolo's algorithm
+- Sattolo's algorithm algorithm
+- Sattolo's algorithm problem
+- Sattolo's algorithm pseudocode
+- Sattolo's algorithm time complexity
+- Learn Muay Thai Basic Movement in Virtual Reality and Sattolo Shuffle Algorithm
+- Learn Muay Thai Basic Movement in Virtual Reality and Sattolo Shuffle Algorithm algorithm
+- Learn Muay Thai Basic Movement in Virtual Reality and Sattolo Shuffle Algorithm complexity
+query_plan:
+- source_family: original_source
+  primary_query: Sattolo's algorithm
+  applicability: applicable
+  purpose: check the row's original source link without storing paywalled or PDF bodies
+- source_family: crossref
+  primary_query: Sattolo's algorithm
+  applicability: title-search-only
+  purpose: recover DOI title, venue, year, and abstract metadata where available
+- source_family: openalex
+  primary_query: Sattolo's algorithm
+  applicability: applicable
+  purpose: recover public work metadata and abstract-inverted-index summaries
+- source_family: semantic_scholar
+  primary_query: Sattolo's algorithm
+  applicability: applicable
+  purpose: recover CS paper metadata and abstracts without an API key
+- source_family: arxiv
+  primary_query: Sattolo's algorithm
+  applicability: title-search-only
+  purpose: recover arXiv title and abstract metadata
+- source_family: dblp
+  primary_query: Sattolo's algorithm
+  applicability: applicable
+  purpose: recover bibliographic title/venue metadata for CS publications
+- source_family: publisher_abstract
+  primary_query: Sattolo's algorithm
+  applicability: applicable
+  purpose: check accessible publisher abstract pages
+- source_family: citeseerx
+  primary_query: Sattolo's algorithm
+  applicability: applicable
+  purpose: record legacy CiteSeerX availability without full PDF storage
+- source_family: wikipedia
+  primary_query: Sattolo's algorithm
+  applicability: applicable
+  purpose: check public encyclopedia algorithm descriptions
+- source_family: wikidata
+  primary_query: Sattolo's algorithm
+  applicability: applicable
+  purpose: check public entity aliases/descriptions
+- source_family: nist_dads
+  primary_query: Sattolo's algorithm
+  applicability: applicable
+  purpose: check whether a DADS-style reference search is applicable
+- source_family: algorithm_wiki_local
+  primary_query: Sattolo's algorithm
+  applicability: applicable
+  purpose: reuse AlgorithmWiki metadata as provenance
+- source_family: the_algorithms
+  primary_query: Sattolo's algorithm
+  applicability: applicable
+  purpose: check exact public implementation/reference names when available
+- source_family: cp_algorithms
+  primary_query: Sattolo's algorithm
+  applicability: applicable
+  purpose: check exact public algorithm reference names when available
+- source_family: course_notes
+  primary_query: Sattolo's algorithm
+  applicability: applicable
+  purpose: record absence of configured course-notes search
+- source_family: general_web_search
+  primary_query: Sattolo's algorithm
+  applicability: applicable
+  purpose: record absence of a configured general web endpoint
+- source_family: local_previous_cache
+  primary_query: Sattolo's algorithm
+  applicability: applicable
+  purpose: reuse v1/second-pass fetched source records
+query_attempts:
+- &id001
+  cycle: 1
+  query: Sattolo's algorithm
+  source_family: algorithm_wiki_local
+  url_or_api_endpoint: https://www.sciencedirect.com/science/article/abs/pii/0020019086900736
+  status: fetched
+  new_facts_added: 9
+  reason: local metadata
+- &id002
+  cycle: 1
+  query: Sattolo's algorithm
+  source_family: local_previous_cache
+  url_or_api_endpoint: ''
+  status: duplicate
+  new_facts_added: 0
+  reason: previous v1/second-pass sources reused
+- &id003
+  cycle: 1
+  query: https://www.sciencedirect.com/science/article/abs/pii/0020019086900736
+  source_family: original_source
+  url_or_api_endpoint: https://www.sciencedirect.com/science/article/abs/pii/0020019086900736
+  status: fetch_failed
+  new_facts_added: 0
+  reason: 'HTTP Error 403: Forbidden'
+- &id004
+  cycle: 1
+  query: Sattolo's algorithm
+  source_family: crossref
+  url_or_api_endpoint: https://doi.org/10.46729/ijstm.v4i2.759
+  status: fetched
+  new_facts_added: 7
+  reason: Crossref metadata/title search
+- &id005
+  cycle: 1
+  query: Sattolo's algorithm
+  source_family: arxiv
+  url_or_api_endpoint: https://export.arxiv.org/api/query?max_results=1&search_query=ti:%22Sattolo%27s+algorithm%22
+  status: no_result
+  new_facts_added: 0
+  reason: arXiv title search returned no usable entry
+- &id006
+  cycle: 1
+  query: Sattolo's algorithm
+  source_family: wikipedia
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: Wikipedia search returned no relevant page
+- &id007
+  cycle: 2
+  query: Sattolo's algorithm
+  source_family: openalex
+  url_or_api_endpoint: https://api.openalex.org/works?per-page=1&search=Sattolo%27s+algorithm
+  status: fetched
+  new_facts_added: 6
+  reason: OpenAlex work metadata
+- &id008
+  cycle: 2
+  query: Sattolo's algorithm
+  source_family: semantic_scholar
+  url_or_api_endpoint: https://api.semanticscholar.org/graph/v1/paper/search?limit=1&fields=title,abstract,year,url,externalIds&query=Sattolo%27s+algorithm
+  status: fetch_failed
+  new_facts_added: 0
+  reason: Semantic Scholar returned no usable paper
+- &id009
+  cycle: 2
+  query: Sattolo's algorithm
+  source_family: dblp
+  url_or_api_endpoint: https://dblp.org/search/publ/api?format=json&h=1&q=Sattolo%27s+algorithm
+  status: no_result
+  new_facts_added: 0
+  reason: DBLP returned no usable publication
+- &id010
+  cycle: 2
+  query: https://www.sciencedirect.com/science/article/abs/pii/0020019086900736
+  source_family: original_source
+  url_or_api_endpoint: https://www.sciencedirect.com/science/article/abs/pii/0020019086900736
+  status: fetch_failed
+  new_facts_added: 0
+  reason: 'HTTP Error 403: Forbidden'
+- &id011
+  cycle: 2
+  query: Sattolo's algorithm
+  source_family: wikidata
+  url_or_api_endpoint: https://www.wikidata.org/w/api.php?action=wbsearchentities&language=en&format=json&limit=1&search=Sattolo%27s+algorithm
+  status: no_result
+  new_facts_added: 0
+  reason: Wikidata returned no entity
+- &id012
+  cycle: 3
+  query: Sattolo's algorithm
+  source_family: citeseerx
+  url_or_api_endpoint: ''
+  status: paywalled
+  new_facts_added: 0
+  reason: CiteSeerX link is PDF/legacy metadata; full PDF body skipped
+- &id013
+  cycle: 3
+  query: Sattolo's algorithm
+  source_family: nist_dads
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: NIST DADS has no reliable bulk search API in this environment
+- &id014
+  cycle: 3
+  query: Sattolo's algorithm
+  source_family: the_algorithms
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: TheAlgorithms search skipped unless a known exact reference is available
+- &id015
+  cycle: 3
+  query: Sattolo's algorithm
+  source_family: cp_algorithms
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: CP-Algorithms search skipped unless a known exact reference is available
+- &id016
+  cycle: 3
+  query: Sattolo's algorithm
+  source_family: course_notes
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: No configured public course-notes search endpoint
+- &id017
+  cycle: 3
+  query: Sattolo's algorithm
+  source_family: general_web_search
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: No configured general web search endpoint; Google Scholar scraping is not used
+- &id018
+  cycle: 4
+  query: Sattolo's algorithm
+  source_family: crossref
+  url_or_api_endpoint: https://doi.org/10.46729/ijstm.v4i2.759
+  status: fetched
+  new_facts_added: 7
+  reason: Crossref metadata/title search
+- &id019
+  cycle: 4
+  query: Sattolo's algorithm
+  source_family: openalex
+  url_or_api_endpoint: https://api.openalex.org/works?per-page=1&search=Sattolo%27s+algorithm
+  status: fetched
+  new_facts_added: 6
+  reason: OpenAlex work metadata
+- &id020
+  cycle: 4
+  query: Sattolo's algorithm
+  source_family: semantic_scholar
+  url_or_api_endpoint: https://api.semanticscholar.org/graph/v1/paper/search?limit=1&fields=title,abstract,year,url,externalIds&query=Sattolo%27s+algorithm
+  status: fetch_failed
+  new_facts_added: 0
+  reason: Semantic Scholar returned no usable paper
+- &id021
+  cycle: 4
+  query: Sattolo's algorithm
+  source_family: wikipedia
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: Wikipedia search returned no relevant page
+- &id022
+  cycle: 4
+  query: Sattolo's algorithm
+  source_family: dblp
+  url_or_api_endpoint: https://dblp.org/search/publ/api?format=json&h=1&q=Sattolo%27s+algorithm
+  status: no_result
+  new_facts_added: 0
+  reason: DBLP returned no usable publication
+source_attempts:
+- *id001
+- *id002
+- *id003
+- *id004
+- *id005
+- *id006
+- *id007
+- *id008
+- *id009
+- *id010
+- *id011
+- *id012
+- *id013
+- *id014
+- *id015
+- *id016
+- *id017
+- *id018
+- *id019
+- *id020
+- *id021
+- *id022
+discovered_sources:
+- source_id: crossref_search:e952d518e3da2d44
+  url: https://doi.org/10.46729/ijstm.v4i2.759
+  title: Learn Muay Thai Basic Movement in Virtual Reality and Sattolo Shuffle Algorithm
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title: Learn Muay Thai Basic Movement in Virtual Reality and Sattolo Shuffle Algorithm'
+  - 'published year: 2023'
+  - 'container title: International Journal of Science, Technology &amp; Management'
+  - 'abstract summary: Muay Thai is a martial art from Thailand that uses punches and various clinching movements.'
+  short_quote: 'Crossref title: Learn Muay Thai Basic Movement in Virtual Reality and Sattolo Shuffle Algorithm published year: 2023 container title: International Journal of Science, Technology'
+  digest: 2927e05a11d1730f
+- source_id: openalex:052e4bbf9368d295
+  url: https://openalex.org/W2034868258
+  title: Mixed distributions in Sattolo's algorithm for cyclic permutations via randomization and derandomization
+  source_type: openalex
+  access_status: fetched
+  reliability: HIGH
+  extracted_facts:
+  - 'OpenAlex title: Mixed distributions in Sattolo''s algorithm for cyclic permutations via randomization and derandomization'
+  - 'publication year: 2003'
+  - 'abstract summary: We investigate the limit distributions associated with cost measures in Sattolo''s algorithm for generating random cyclic permutations.'
+  short_quote: 'OpenAlex title: Mixed distributions in Sattolo''s algorithm for cyclic permutations via randomization and derandomization publication year: 2003 abstract summary: We investigate the limit distributions'
+  digest: f07891ff9536a91b
+discovered_facts:
+- fact_id: AW-000462-F3d7fedcb11
+  fact_type: alias
+  value: Sattolo's algorithm
+  source_id: AW-000462:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: AlgorithmWiki metadata
+- fact_id: AW-000462-F381242e19b
+  fact_type: time_complexity
+  value: O(n)
+  source_id: AW-000462:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: AlgorithmWiki metadata
+- fact_id: AW-000462-F872427799c
+  fact_type: space_complexity
+  value: O(1)
+  source_id: AW-000462:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: AlgorithmWiki metadata
+- fact_id: AW-000462-F57016f8735
+  fact_type: computation_model
+  value: Word RAM
+  source_id: AW-000462:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: AlgorithmWiki metadata
+- fact_id: AW-000462-F5113e616ff
+  fact_type: input_semantics
+  value: 'Parameter definitions: n: number of elements'
+  source_id: AW-000462:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 75
+  conflict_status: weak
+  notes: AlgorithmWiki parameter metadata
+- fact_id: AW-000462-F8070c3a5da
+  fact_type: authoritative_source_link
+  value: https://www.sciencedirect.com/science/article/abs/pii/0020019086900736
+  source_id: AW-000462:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 70
+  conflict_status: consistent
+  notes: Original source link from AlgorithmWiki metadata
+- fact_id: AW-000462-F3ea6dac651
+  fact_type: source_title
+  value: AlgorithmWiki metadata for Sattolo's algorithm
+  source_id: AW-000462:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000462-F6b7e7f82ca
+  fact_type: problem_definition
+  value: 'Source title indicates: AlgorithmWiki metadata for Sattolo''s algorithm'
+  source_id: AW-000462:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: weak
+  notes: previous_source_record
+- fact_id: AW-000462-F80bf050005
+  fact_type: problem_definition
+  value: 'AlgorithmWiki row name: Sattolo''s algorithm'
+  source_id: AW-000462:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000462-F48f1dd9e90
+  fact_type: problem_definition
+  value: 'domain: unknown'
+  source_id: AW-000462:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000462-F75f6aab6ca
+  fact_type: time_complexity
+  value: 'time complexity: O(n)'
+  source_id: AW-000462:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000462-Fc891d80a96
+  fact_type: space_complexity
+  value: 'space complexity: O(1)'
+  source_id: AW-000462:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000462-F2c60dc9df6
+  fact_type: computation_model
+  value: 'computational model: Word RAM'
+  source_id: AW-000462:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000462-Fcd2af67948
+  fact_type: problem_definition
+  value: 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  source_id: AW-000462:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000462-F2dba4213c0
+  fact_type: source_title
+  value: Learn Muay Thai Basic Movement in Virtual Reality and Sattolo Shuffle Algorithm
+  source_id: crossref_search:96e739b368fbddf0
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000462-F65665bf94f
+  fact_type: problem_definition
+  value: 'Source title indicates: Learn Muay Thai Basic Movement in Virtual Reality and Sattolo Shuffle Algorithm'
+  source_id: crossref_search:96e739b368fbddf0
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: weak
+  notes: previous_source_record
+- fact_id: AW-000462-F71b8e4e346
+  fact_type: problem_definition
+  value: 'Crossref title-search result: Learn Muay Thai Basic Movement in Virtual Reality and Sattolo Shuffle Algorithm'
+  source_id: crossref_search:96e739b368fbddf0
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000462-F48843ed4ec
+  fact_type: problem_definition
+  value: 'abstract summary: Muay Thai is a martial art from Thailand that uses punches and various clinching movements.'
+  source_id: crossref_search:96e739b368fbddf0
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000462-F9b58afcc33
+  fact_type: authoritative_source_link
+  value: https://doi.org/10.46729/ijstm.v4i2.759
+  source_id: crossref_search:96e739b368fbddf0
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000462-F0a2fdeb05c
+  fact_type: problem_definition
+  value: 'Crossref title: Learn Muay Thai Basic Movement in Virtual Reality and Sattolo Shuffle Algorithm'
+  source_id: crossref_search:e952d518e3da2d44
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: consistent
+  notes: crossref
+- fact_id: AW-000462-F073e874731
+  fact_type: problem_definition
+  value: 'published year: 2023'
+  source_id: crossref_search:e952d518e3da2d44
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: consistent
+  notes: crossref
+- fact_id: AW-000462-F44b55c100e
+  fact_type: problem_definition
+  value: 'container title: International Journal of Science, Technology &amp; Management'
+  source_id: crossref_search:e952d518e3da2d44
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: consistent
+  notes: crossref
+- fact_id: AW-000462-F828f11bd6b
+  fact_type: source_title
+  value: Mixed distributions in Sattolo's algorithm for cyclic permutations via randomization and derandomization
+  source_id: openalex:052e4bbf9368d295
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: openalex
+- fact_id: AW-000462-F06e3988d8f
+  fact_type: problem_definition
+  value: 'Source title indicates: Mixed distributions in Sattolo''s algorithm for cyclic permutations via randomization and derandomization'
+  source_id: openalex:052e4bbf9368d295
+  reliability: HIGH
+  confidence: 85
+  conflict_status: weak
+  notes: openalex
+- fact_id: AW-000462-Ff4a6546210
+  fact_type: problem_definition
+  value: 'OpenAlex title: Mixed distributions in Sattolo''s algorithm for cyclic permutations via randomization and derandomization'
+  source_id: openalex:052e4bbf9368d295
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: openalex
+- fact_id: AW-000462-F2ade4c2d08
+  fact_type: problem_definition
+  value: 'publication year: 2003'
+  source_id: openalex:052e4bbf9368d295
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: openalex
+- fact_id: AW-000462-Fa6feed3f1f
+  fact_type: problem_definition
+  value: 'abstract summary: We investigate the limit distributions associated with cost measures in Sattolo''s algorithm for generating random cyclic permutations.'
+  source_id: openalex:052e4bbf9368d295
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: openalex
+- fact_id: AW-000462-F901bf5442e
+  fact_type: authoritative_source_link
+  value: https://openalex.org/W2034868258
+  source_id: openalex:052e4bbf9368d295
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: openalex
+duplicate_sources:
+- source_id: AW-000462:algorithm_wiki_metadata
+  url: https://www.sciencedirect.com/science/article/abs/pii/0020019086900736
+  title: AlgorithmWiki metadata for Sattolo's algorithm
+  source_type: algorithm_wiki
+  access_status: metadata_only
+  reliability: HIGH
+  extracted_facts:
+  - 'AlgorithmWiki row name: Sattolo''s algorithm'
+  - 'domain: unknown'
+  - 'time complexity: O(n)'
+  - 'space complexity: O(1)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of elements'
+  short_quote: ''
+  digest: 316a4e8ff182b49c
+- source_id: failed:524d469bd0379811
+  url: https://www.sciencedirect.com/science/article/abs/pii/0020019086900736
+  title: 'HTTP Error 403: Forbidden'
+  source_type: original_source
+  access_status: failed
+  reliability: LOW
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  short_quote: 'HTTP Error 403: Forbidden'
+  digest: 0fe9bed83bad626c
+- source_id: failed:524d469bd0379811
+  url: https://www.sciencedirect.com/science/article/abs/pii/0020019086900736
+  title: 'HTTP Error 403: Forbidden'
+  source_type: original_source
+  access_status: failed
+  reliability: LOW
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  short_quote: 'HTTP Error 403: Forbidden'
+  digest: 0fe9bed83bad626c
+- source_id: crossref_search:e952d518e3da2d44
+  url: https://doi.org/10.46729/ijstm.v4i2.759
+  title: Learn Muay Thai Basic Movement in Virtual Reality and Sattolo Shuffle Algorithm
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title: Learn Muay Thai Basic Movement in Virtual Reality and Sattolo Shuffle Algorithm'
+  - 'published year: 2023'
+  - 'container title: International Journal of Science, Technology &amp; Management'
+  - 'abstract summary: Muay Thai is a martial art from Thailand that uses punches and various clinching movements.'
+  short_quote: 'Crossref title: Learn Muay Thai Basic Movement in Virtual Reality and Sattolo Shuffle Algorithm published year: 2023 container title: International Journal of Science, Technology'
+  digest: 2927e05a11d1730f
+- source_id: openalex:052e4bbf9368d295
+  url: https://openalex.org/W2034868258
+  title: Mixed distributions in Sattolo's algorithm for cyclic permutations via randomization and derandomization
+  source_type: openalex
+  access_status: fetched
+  reliability: HIGH
+  extracted_facts:
+  - 'OpenAlex title: Mixed distributions in Sattolo''s algorithm for cyclic permutations via randomization and derandomization'
+  - 'publication year: 2003'
+  - 'abstract summary: We investigate the limit distributions associated with cost measures in Sattolo''s algorithm for generating random cyclic permutations.'
+  short_quote: 'OpenAlex title: Mixed distributions in Sattolo''s algorithm for cyclic permutations via randomization and derandomization publication year: 2003 abstract summary: We investigate the limit distributions'
+  digest: f07891ff9536a91b
+failed_sources: []
+paywalled_or_skipped_sources: []
+source_families_covered:
+- algorithm_wiki_local
+- local_previous_cache
+- original_source
+- crossref
+- arxiv
+- wikipedia
+- openalex
+- semantic_scholar
+- dblp
+- publisher_abstract
+- wikidata
+- citeseerx
+- nist_dads
+- the_algorithms
+- cp_algorithms
+- course_notes
+- general_web_search
+cycles_completed: 4
+new_fact_count_by_cycle:
+- cycle: 1
+  new_facts: 3
+- cycle: 2
+  new_facts: 6
+- cycle: 3
+  new_facts: 0
+- cycle: 4
+  new_facts: 0
+no_new_fact_streak: 2
+saturation_status: SATURATED_NO_RECOVERY
+final_reason: After the configured source-family cycles, no source-backed concrete task, input semantics, output semantics, and conservative access model could be established.
+next_manual_action: No automated action recommended; keep saturated certificate with unresolved row.

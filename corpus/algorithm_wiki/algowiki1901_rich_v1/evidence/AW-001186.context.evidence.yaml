@@ -1,0 +1,58 @@
+id: AW-001186
+kind: context
+algorithm_id: AW-001186
+algorithm_name: Bast, Hagerup
+source_records:
+- access_status: metadata_only
+  digest: c8bf6bf2371124a7
+  extracted_facts:
+  - 'AlgorithmWiki row name: Bast, Hagerup'
+  - 'domain: parallel_algorithms'
+  - 'time complexity: O(\log{n}/ \log{\log{n}}) whp'
+  - 'computational model: CRCW PRAM'
+  - 'parameter definitions: n: number of integers in range 1...n'
+  - 'precard summary: Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model. Baseline: time O(\log{n}/ \log{\log{n}}) whp; work O(n); span/depth O(\log{n}/ \log{\log{n}}); processors O(n \log{\log{n}}/ \log{n}). Bottleneck: work, span, communication, and processor-count assumptions dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001186:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Bast, Hagerup
+  url: https://www.infona.pl/resource/bwmeta1.element.elsevier-27dbeebf-1d67-3c08-a222-c630ae81af5c
+- access_status: skipped
+  digest: eaea6eda997c531d
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:c769eb82457c44b7
+  source_type: other_public_source
+  title: fetch budget exhausted
+  url: https://www.infona.pl/resource/bwmeta1.element.elsevier-27dbeebf-1d67-3c08-a222-c630ae81af5c
+web_query_attempts:
+- method: search_plan
+  query: Bast, Hagerup algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Bast, Hagerup algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Bast, Hagerup problem definition
+  status: recorded
+- method: search_plan
+  query: Bast, Hagerup parallel algorithms algorithm
+  status: recorded
+- method: search_plan
+  query: Bast, Hagerup site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Bast, Hagerup algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://www.infona.pl/resource/bwmeta1.element.elsevier-27dbeebf-1d67-3c08-a222-c630ae81af5c
+  status: recorded
+- method: source_link_html_metadata
+  query: https://www.infona.pl/resource/bwmeta1.element.elsevier-27dbeebf-1d67-3c08-a222-c630ae81af5c
+  status: skipped
+extracted_problem_statement: 'Bast, Hagerup is treated as a classical parallel algorithms task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Bast, Hagerup. Input semantics: The classical input instance named by the row, together with processor/work/span parameters when stated. Output semantics: The same mathematical output as the underlying classical task, annotated by work/span when available.'
+extracted_algorithm_summary: 'Bast, Hagerup is a parallel algorithms algorithm record. Classical complexity metadata: time O(\log{n}/ \log{\log{n}}) whp; work O(n); span/depth O(\log{n}/ \log{\log{n}}); processors O(n \log{\log{n}}/ \log{n}). The stated classical model is CRCW PRAM. Public metadata/source text adds: Bast, Hagerup parallel_algorithms parallel_algorithms n: number of integers in range 1...n O(\log{n}/ \log{\log{n}}) whp Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

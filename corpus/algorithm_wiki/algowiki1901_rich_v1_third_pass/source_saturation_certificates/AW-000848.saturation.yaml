@@ -1,0 +1,463 @@
+algorithm_id: AW-000848
+canonical_name: Non-recursion based
+original_source_link: NA
+source_link_type: unknown
+previous_failure_reasons:
+- No second-pass rule could identify source-backed task semantics.
+previous_source_records:
+- access_status: metadata_only
+  digest: 553c5dcbc3454f7d
+  extracted_facts:
+  - 'AlgorithmWiki row name: Non-recursion based'
+  - 'domain: unknown'
+  - 'time complexity: O(2^n)'
+  - 'space complexity: O(n)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of disks'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000848:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Non-recursion based
+  url: NA
+- access_status: fetched
+  digest: 559d08345e5c8978
+  extracted_facts:
+  - 'Crossref title-search result: Explore a New Way to Convert a Recursion Algorithm into a Non-recursion Algorithm'
+  reliability: MEDIUM
+  short_quote: ''
+  source_id: crossref_search:fff0ee99728449a9
+  source_type: doi_metadata
+  title: Explore a New Way to Convert a Recursion Algorithm into a Non-recursion Algorithm
+  url: https://doi.org/10.1007/978-0-387-77251-6_21
+aliases_tried:
+- Non-recursion based
+- Non-recursion based algorithm
+- Non-recursion based problem
+- Non-recursion based pseudocode
+- Non-recursion based time complexity
+- Explore a New Way to Convert a Recursion Algorithm into a Non-recursion Algorithm
+- Explore a New Way to Convert a Recursion Algorithm into a Non-recursion Algorithm algorithm
+- Explore a New Way to Convert a Recursion Algorithm into a Non-recursion Algorithm complexity
+query_plan:
+- source_family: original_source
+  primary_query: Non-recursion based
+  applicability: applicable
+  purpose: check the row's original source link without storing paywalled or PDF bodies
+- source_family: crossref
+  primary_query: Non-recursion based
+  applicability: title-search-only
+  purpose: recover DOI title, venue, year, and abstract metadata where available
+- source_family: openalex
+  primary_query: Non-recursion based
+  applicability: applicable
+  purpose: recover public work metadata and abstract-inverted-index summaries
+- source_family: semantic_scholar
+  primary_query: Non-recursion based
+  applicability: applicable
+  purpose: recover CS paper metadata and abstracts without an API key
+- source_family: arxiv
+  primary_query: Non-recursion based
+  applicability: title-search-only
+  purpose: recover arXiv title and abstract metadata
+- source_family: dblp
+  primary_query: Non-recursion based
+  applicability: applicable
+  purpose: recover bibliographic title/venue metadata for CS publications
+- source_family: publisher_abstract
+  primary_query: Non-recursion based
+  applicability: applicable
+  purpose: check accessible publisher abstract pages
+- source_family: citeseerx
+  primary_query: Non-recursion based
+  applicability: applicable
+  purpose: record legacy CiteSeerX availability without full PDF storage
+- source_family: wikipedia
+  primary_query: Non-recursion based
+  applicability: applicable
+  purpose: check public encyclopedia algorithm descriptions
+- source_family: wikidata
+  primary_query: Non-recursion based
+  applicability: applicable
+  purpose: check public entity aliases/descriptions
+- source_family: nist_dads
+  primary_query: Non-recursion based
+  applicability: applicable
+  purpose: check whether a DADS-style reference search is applicable
+- source_family: algorithm_wiki_local
+  primary_query: Non-recursion based
+  applicability: applicable
+  purpose: reuse AlgorithmWiki metadata as provenance
+- source_family: the_algorithms
+  primary_query: Non-recursion based
+  applicability: applicable
+  purpose: check exact public implementation/reference names when available
+- source_family: cp_algorithms
+  primary_query: Non-recursion based
+  applicability: applicable
+  purpose: check exact public algorithm reference names when available
+- source_family: course_notes
+  primary_query: Non-recursion based
+  applicability: applicable
+  purpose: record absence of configured course-notes search
+- source_family: general_web_search
+  primary_query: Non-recursion based
+  applicability: applicable
+  purpose: record absence of a configured general web endpoint
+- source_family: local_previous_cache
+  primary_query: Non-recursion based
+  applicability: applicable
+  purpose: reuse v1/second-pass fetched source records
+query_attempts:
+- &id001
+  cycle: 1
+  query: Non-recursion based
+  source_family: algorithm_wiki_local
+  url_or_api_endpoint: NA
+  status: fetched
+  new_facts_added: 9
+  reason: local metadata
+- &id002
+  cycle: 1
+  query: Non-recursion based
+  source_family: local_previous_cache
+  url_or_api_endpoint: ''
+  status: duplicate
+  new_facts_added: 0
+  reason: previous v1/second-pass sources reused
+- &id003
+  cycle: 1
+  query: Non-recursion based
+  source_family: original_source
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: no original source link
+- &id004
+  cycle: 1
+  query: Non-recursion based
+  source_family: crossref
+  url_or_api_endpoint: https://doi.org/10.1145/24686.24691
+  status: irrelevant
+  new_facts_added: 0
+  reason: Crossref metadata/title search
+- &id005
+  cycle: 1
+  query: Non-recursion based
+  source_family: arxiv
+  url_or_api_endpoint: https://export.arxiv.org/api/query?max_results=1&search_query=ti:%22Non-recursion+based%22
+  status: no_result
+  new_facts_added: 0
+  reason: arXiv title search returned no usable entry
+- &id006
+  cycle: 1
+  query: Non-recursion based
+  source_family: wikipedia
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: Wikipedia search returned no relevant page
+- &id007
+  cycle: 2
+  query: Non-recursion based
+  source_family: openalex
+  url_or_api_endpoint: https://api.openalex.org/works?per-page=1&search=Non-recursion+based
+  status: no_result
+  new_facts_added: 0
+  reason: OpenAlex returned no usable work
+- &id008
+  cycle: 2
+  query: Non-recursion based
+  source_family: semantic_scholar
+  url_or_api_endpoint: https://api.semanticscholar.org/graph/v1/paper/search?limit=1&fields=title,abstract,year,url,externalIds&query=Non-recursion+based
+  status: fetched
+  new_facts_added: 5
+  reason: Semantic Scholar paper metadata
+- &id009
+  cycle: 2
+  query: Non-recursion based
+  source_family: dblp
+  url_or_api_endpoint: https://dblp.org/search/publ/api?format=json&h=1&q=Non-recursion+based
+  status: no_result
+  new_facts_added: 0
+  reason: DBLP returned no usable publication
+- &id010
+  cycle: 2
+  query: Non-recursion based
+  source_family: publisher_abstract
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: no applicable publisher abstract URL
+- &id011
+  cycle: 2
+  query: Non-recursion based
+  source_family: wikidata
+  url_or_api_endpoint: https://www.wikidata.org/w/api.php?action=wbsearchentities&language=en&format=json&limit=1&search=Non-recursion+based
+  status: no_result
+  new_facts_added: 0
+  reason: Wikidata returned no entity
+source_attempts:
+- *id001
+- *id002
+- *id003
+- *id004
+- *id005
+- *id006
+- *id007
+- *id008
+- *id009
+- *id010
+- *id011
+discovered_sources:
+- source_id: crossref_search:ca63b90a247f487b
+  url: https://doi.org/10.1145/24686.24691
+  title: 'Recursion versus non-recursion in Pascal: recursion can be faster'
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title: Recursion versus non-recursion in Pascal: recursion can be faster'
+  - 'published year: 1987'
+  - 'container title: ACM SIGPLAN Notices'
+  - 'abstract summary: A timing study of two Pascal programs on three machines provides some evidence that, for modern machines and compilers, the cost of removing recursion in non-trivial situations can sometimes be greater than the cost of the recursive procedure calls.'
+  short_quote: 'Crossref title: Recursion versus non-recursion in Pascal: recursion can be faster published year: 1987 container title: ACM SIGPLAN Notices abstract summary: A timing study'
+  digest: 874e04e86fdd3741
+- source_id: semantic_scholar:c9f8c5f356acb691
+  url: https://www.semanticscholar.org/paper/6652b1a8dfec3fef10f0d8d7aa3924108aeb4bbc
+  title: New recursion formula for the interior polynomial based on non-expanding sets
+  source_type: semantic_scholar
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Semantic Scholar title: New recursion formula for the interior polynomial based on non-expanding sets'
+  - 'published year: 2025'
+  - 'abstract summary: The interior polynomial was originally defined for hypergraphs and later shown to coincide with the Ehrhart polynomial of the root polytope of an associated bipartite graph.'
+  short_quote: 'Semantic Scholar title: New recursion formula for the interior polynomial based on non-expanding sets published year: 2025 abstract summary: The interior polynomial was originally'
+  digest: 0af8a9f2226c079d
+discovered_facts:
+- fact_id: AW-000848-F9c2068977a
+  fact_type: alias
+  value: Non-recursion based
+  source_id: AW-000848:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: AlgorithmWiki metadata
+- fact_id: AW-000848-F9e51f640cc
+  fact_type: time_complexity
+  value: O(2^n)
+  source_id: AW-000848:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: AlgorithmWiki metadata
+- fact_id: AW-000848-Ff58b8623ea
+  fact_type: space_complexity
+  value: O(n)
+  source_id: AW-000848:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: AlgorithmWiki metadata
+- fact_id: AW-000848-F09592a4b00
+  fact_type: computation_model
+  value: Word RAM
+  source_id: AW-000848:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: AlgorithmWiki metadata
+- fact_id: AW-000848-Ff7c780a375
+  fact_type: input_semantics
+  value: 'Parameter definitions: n: number of disks'
+  source_id: AW-000848:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 75
+  conflict_status: weak
+  notes: AlgorithmWiki parameter metadata
+- fact_id: AW-000848-F4bf76ed134
+  fact_type: authoritative_source_link
+  value: NA
+  source_id: AW-000848:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 70
+  conflict_status: consistent
+  notes: Original source link from AlgorithmWiki metadata
+- fact_id: AW-000848-F7ae7e4f10b
+  fact_type: source_title
+  value: AlgorithmWiki metadata for Non-recursion based
+  source_id: AW-000848:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000848-F32c0606b9c
+  fact_type: problem_definition
+  value: 'Source title indicates: AlgorithmWiki metadata for Non-recursion based'
+  source_id: AW-000848:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: weak
+  notes: previous_source_record
+- fact_id: AW-000848-Fbe43439139
+  fact_type: problem_definition
+  value: 'AlgorithmWiki row name: Non-recursion based'
+  source_id: AW-000848:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000848-Fa7b978aa8d
+  fact_type: problem_definition
+  value: 'domain: unknown'
+  source_id: AW-000848:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000848-Fe489b8d362
+  fact_type: time_complexity
+  value: 'time complexity: O(2^n)'
+  source_id: AW-000848:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000848-F4055a961d8
+  fact_type: space_complexity
+  value: 'space complexity: O(n)'
+  source_id: AW-000848:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000848-F986456ad28
+  fact_type: computation_model
+  value: 'computational model: Word RAM'
+  source_id: AW-000848:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000848-Ff269218791
+  fact_type: problem_definition
+  value: 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  source_id: AW-000848:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000848-F9c4c249924
+  fact_type: source_title
+  value: Explore a New Way to Convert a Recursion Algorithm into a Non-recursion Algorithm
+  source_id: crossref_search:fff0ee99728449a9
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000848-Feead2fc2ab
+  fact_type: problem_definition
+  value: 'Source title indicates: Explore a New Way to Convert a Recursion Algorithm into a Non-recursion Algorithm'
+  source_id: crossref_search:fff0ee99728449a9
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: weak
+  notes: previous_source_record
+- fact_id: AW-000848-F171bc93af7
+  fact_type: problem_definition
+  value: 'Crossref title-search result: Explore a New Way to Convert a Recursion Algorithm into a Non-recursion Algorithm'
+  source_id: crossref_search:fff0ee99728449a9
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000848-Ff5ce4c7d60
+  fact_type: authoritative_source_link
+  value: https://doi.org/10.1007/978-0-387-77251-6_21
+  source_id: crossref_search:fff0ee99728449a9
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000848-F0175819538
+  fact_type: source_title
+  value: New recursion formula for the interior polynomial based on non-expanding sets
+  source_id: semantic_scholar:c9f8c5f356acb691
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: consistent
+  notes: semantic_scholar
+- fact_id: AW-000848-F4bb22a0f83
+  fact_type: problem_definition
+  value: 'Semantic Scholar title: New recursion formula for the interior polynomial based on non-expanding sets'
+  source_id: semantic_scholar:c9f8c5f356acb691
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: consistent
+  notes: semantic_scholar
+- fact_id: AW-000848-F4c385af4ad
+  fact_type: problem_definition
+  value: 'published year: 2025'
+  source_id: semantic_scholar:c9f8c5f356acb691
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: consistent
+  notes: semantic_scholar
+- fact_id: AW-000848-Fb8d08b2e55
+  fact_type: problem_definition
+  value: 'abstract summary: The interior polynomial was originally defined for hypergraphs and later shown to coincide with the Ehrhart polynomial of the root polytope of an associated bipartite graph.'
+  source_id: semantic_scholar:c9f8c5f356acb691
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: consistent
+  notes: semantic_scholar
+- fact_id: AW-000848-F7191e34606
+  fact_type: authoritative_source_link
+  value: https://www.semanticscholar.org/paper/6652b1a8dfec3fef10f0d8d7aa3924108aeb4bbc
+  source_id: semantic_scholar:c9f8c5f356acb691
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: consistent
+  notes: semantic_scholar
+duplicate_sources:
+- source_id: AW-000848:algorithm_wiki_metadata
+  url: NA
+  title: AlgorithmWiki metadata for Non-recursion based
+  source_type: algorithm_wiki
+  access_status: metadata_only
+  reliability: HIGH
+  extracted_facts:
+  - 'AlgorithmWiki row name: Non-recursion based'
+  - 'domain: unknown'
+  - 'time complexity: O(2^n)'
+  - 'space complexity: O(n)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of disks'
+  short_quote: ''
+  digest: 6bf3b73a70f310f2
+failed_sources: []
+paywalled_or_skipped_sources: []
+source_families_covered:
+- algorithm_wiki_local
+- local_previous_cache
+- original_source
+- crossref
+- arxiv
+- wikipedia
+- openalex
+- semantic_scholar
+- dblp
+- publisher_abstract
+- wikidata
+cycles_completed: 2
+new_fact_count_by_cycle:
+- cycle: 1
+  new_facts: 0
+- cycle: 2
+  new_facts: 5
+no_new_fact_streak: 1
+saturation_status: RECOVERED_CONTEXT_AND_PROBE
+final_reason: Source-saturation pass found enough task, input, output, and access semantics for a context card.
+next_manual_action: Audit recovered card before any optional live analyze run.

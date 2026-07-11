@@ -1,0 +1,20 @@
+case_id: QM-PB-008
+access_model: coherent_boolean_oracle
+output_contract: full_oracle_string
+required_structure_ids: [complete_oracle_recovery]
+expected_selected_primitive: oracle_interrogation
+expected_speedup_class: CONSTANT_FACTOR_ONLY
+required_caveat_ids: [full_output_information]
+allowed_verdicts: [NEGATIVE]
+maximum_claim_scope: NONE
+expected_route: STOP
+forbidden_claim_ids: [sublinear_complete_recovery, exponential_oracle_recovery]
+evidence_mapping:
+  required_structure_ids: [van_dam_1998]
+  expected_selected_primitive: [van_dam_1998]
+  expected_speedup_class: [van_dam_1998]
+  required_caveat_ids: [van_dam_1998]
+  allowed_verdicts: [van_dam_1998]
+  maximum_claim_scope: [van_dam_1998]
+  expected_route: [van_dam_1998]
+  forbidden_claim_ids: [van_dam_1998]

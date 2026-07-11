@@ -1,0 +1,57 @@
+algorithm_id: AW-000792
+canonical_name: Richardson and Domingos
+enrichment_status: THIRD_PASS_SATURATED_INSUFFICIENT
+review_reasons:
+- After the configured source-family cycles, no source-backed concrete task, input semantics, output semantics, and conservative access model could be established.
+source_records:
+- access_status: metadata_only
+  digest: 33f16dcc818324b4
+  extracted_facts:
+  - 'AlgorithmWiki row name: Richardson and Domingos'
+  - 'domain: unknown'
+  - 'time complexity: O(mn)'
+  - 'space complexity: O(nl)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of pages, m: number of hyperlinks, l: number of words in lexicon'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000792:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Richardson and Domingos
+  url: https://homes.cs.washington.edu/~pedrod/papers/nips01b.pdf
+- access_status: fetched
+  digest: 5e2efaf17b23f4ea
+  extracted_facts:
+  - 'Crossref title-search result: A Metaphorical Analysis of P. Domingos" The Master Algorithm'
+  reliability: MEDIUM
+  short_quote: ''
+  source_id: crossref_search:20efd2b6410de94b
+  source_type: doi_metadata
+  title: A Metaphorical Analysis of P. Domingos" The Master Algorithm
+  url: https://doi.org/10.31325/kjr.2022.12.45.99
+- source_id: skipped:45f5710c1b2ec50c
+  url: https://homes.cs.washington.edu/~pedrod/papers/nips01b.pdf
+  title: public PDF body was not downloaded
+  source_type: original_source
+  access_status: skipped
+  reliability: LOW
+  extracted_facts:
+  - public PDF body was not downloaded
+  short_quote: public PDF body was not downloaded
+  digest: c61769e16a7205e9
+- source_id: crossref_search:75ac0ab48cc5ca2f
+  url: https://doi.org/10.58277/kmlk7838
+  title: Vandelli, Domingos
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title: Vandelli, Domingos'
+  - 'published year: 2023'
+  - "container title: Dicion\xE1rio Biogr\xE1fico de Cientistas, Engenheiros e M\xE9dicos em Portugal"
+  short_quote: "Crossref title: Vandelli, Domingos published year: 2023 container title: Dicion\xE1rio Biogr\xE1fico de Cientistas, Engenheiros e M\xE9dicos em Portugal"
+  digest: 22cc6121dfeeacc9
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

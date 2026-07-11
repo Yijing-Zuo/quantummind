@@ -1,0 +1,55 @@
+algorithm_id: AW-001313
+canonical_name: Galper, Brutlag (asynchronous Row Wavefront approach) (also asynch DWF) (2)
+enrichment_status: THIRD_PASS_SATURATED_INSUFFICIENT
+review_reasons:
+- After the configured source-family cycles, no source-backed concrete task, input semantics, output semantics, and conservative access model could be established.
+source_records:
+- access_status: metadata_only
+  digest: b34141aa5c45610f
+  extracted_facts:
+  - 'AlgorithmWiki row name: Galper, Brutlag (asynchronous Row Wavefront approach) (also asynch DWF) (2)'
+  - 'domain: unknown'
+  - 'time complexity: O(ceil(mn/p + p))'
+  - 'computational model: shared memory'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001313:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Galper, Brutlag (asynchronous Row Wavefront approach) (also asynch DWF) (2)
+  url: https://wayback.stanford.edu/was/20180312101809mp_/http://cmgm.stanford.edu/~brutlag/Papers/galper90.pdf
+- access_status: fetched
+  digest: 6754954456196d03
+  extracted_facts:
+  - 'Crossref title-search result: Galper, Hal'
+  reliability: MEDIUM
+  short_quote: ''
+  source_id: crossref_search:962b80c49955d21d
+  source_type: doi_metadata
+  title: Galper, Hal
+  url: https://doi.org/10.1093/gmo/9781561592630.article.j162300
+- source_id: skipped:a39c993b464459da
+  url: https://wayback.stanford.edu/was/20180312101809mp_/http://cmgm.stanford.edu/~brutlag/Papers/galper90.pdf
+  title: public PDF body was not downloaded
+  source_type: original_source
+  access_status: skipped
+  reliability: LOW
+  extracted_facts:
+  - public PDF body was not downloaded
+  short_quote: public PDF body was not downloaded
+  digest: 097e1853bce1db76
+- source_id: crossref_search:2d1f9a934caf5cf1
+  url: https://doi.org/10.1093/gmo/9781561592630.article.j162300
+  title: Galper, Hal
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title: Galper, Hal'
+  - 'published year: 2003'
+  - 'container title: Oxford Music Online'
+  short_quote: 'Crossref title: Galper, Hal published year: 2003 container title: Oxford Music Online'
+  digest: 6af2eb67a75a9f40
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

@@ -1,0 +1,58 @@
+id: AW-001674
+kind: context
+algorithm_id: AW-001674
+algorithm_name: Kechid, Myoupo
+source_records:
+- access_status: metadata_only
+  digest: 525c85d048968388
+  extracted_facts:
+  - 'AlgorithmWiki row name: Kechid, Myoupo'
+  - 'domain: parallel_algorithms'
+  - 'time complexity: O(n^2/p + p)'
+  - 'computational model: CGM'
+  - 'parameter definitions: n: number of elements, p: number of processors'
+  - 'precard summary: Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model. Baseline: time O(n^2/p + p); work O(n^2); span/depth O(n); processors p. Bottleneck: work, span, communication, and processor-count assumptions dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001674:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Kechid, Myoupo
+  url: https://ieeexplore.ieee.org/abstract/document/4492658
+- access_status: skipped
+  digest: fc10d854f9de2680
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:832e2e6402565292
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://ieeexplore.ieee.org/abstract/document/4492658
+web_query_attempts:
+- method: search_plan
+  query: Kechid, Myoupo algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Kechid, Myoupo algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Kechid, Myoupo problem definition
+  status: recorded
+- method: search_plan
+  query: Kechid, Myoupo parallel algorithms algorithm
+  status: recorded
+- method: search_plan
+  query: Kechid, Myoupo site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Kechid, Myoupo algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://ieeexplore.ieee.org/abstract/document/4492658
+  status: recorded
+- method: source_link_html_metadata
+  query: https://ieeexplore.ieee.org/abstract/document/4492658
+  status: skipped
+extracted_problem_statement: 'Kechid, Myoupo is treated as a classical parallel algorithms task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Kechid, Myoupo. Input semantics: The classical input instance named by the row, together with processor/work/span parameters when stated. Output semantics: The same mathematical output as the underlying classical task, annotated by work/span when available.'
+extracted_algorithm_summary: 'Kechid, Myoupo is a parallel algorithms algorithm record. Classical complexity metadata: time O(n^2/p + p); work O(n^2); span/depth O(n); processors p. The stated classical model is CGM. Public metadata/source text adds: Kechid, Myoupo parallel_algorithms parallel_algorithms n: number of elements, p: number of processors O(n^2/p + p) Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

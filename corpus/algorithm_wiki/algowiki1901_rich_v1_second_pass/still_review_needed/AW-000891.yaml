@@ -1,0 +1,36 @@
+algorithm_id: AW-000891
+canonical_name: Not recently used
+enrichment_status: SECOND_PASS_INSUFFICIENT
+review_reasons:
+- No second-pass rule could identify source-backed task semantics.
+source_records:
+- access_status: metadata_only
+  digest: 6e7a1393ab3e0b8c
+  extracted_facts:
+  - 'AlgorithmWiki row name: Not recently used'
+  - 'domain: unknown'
+  - 'time complexity: O(nk)'
+  - 'space complexity: O(k)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of page requests, k: number of pages able to fit in cache'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000891:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Not recently used
+  url: ''
+- source_id: crossref_search:d57315aa4b4513be
+  url: https://doi.org/10.11591/ijeecs.v38.i1.pp417-427
+  title: An enhanced least recently used page replacement algorithm
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: An enhanced least recently used page replacement algorithm'
+  - 'abstract summary: Page replacement algorithms play a crucial role in enhancing the performance issue brought on by variations in processor speeds and memory by effectively removing pages from computer memory to improve overall efficiency.'
+  short_quote: Page replacement algorithms play a crucial role in enhancing the performance issue brought on by variations in processor speeds and memory by effectively removing
+  digest: fb82b162c9186021
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

@@ -1,0 +1,71 @@
+id: AW-001658
+kind: context
+algorithm_id: AW-001658
+algorithm_name: Czumaj et al. (1)
+source_records:
+- access_status: metadata_only
+  digest: a75718e813733a8f
+  extracted_facts:
+  - 'AlgorithmWiki row name: Czumaj et al. (1)'
+  - 'domain: parallel_algorithms'
+  - 'time complexity: O(\log \log n)'
+  - 'computational model: CREW PRAM'
+  - 'parameter definitions: n: number of elements to permute'
+  - 'precard summary: Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model. Baseline: time O(\log \log n); work O(n \log \log n); span/depth O(log log n); processors O(n^(1 + 1/c * log log n)). Bottleneck: work, span, communication, and processor-count assumptions dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001658:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Czumaj et al. (1)
+  url: https://link.springer.com/article/10.1007/PL00009206
+- access_status: skipped
+  digest: 37ba281a81e3f6a9
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:48f44767b34af8a8
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1007/PL00009206
+- access_status: skipped
+  digest: 0db7fe200d10a0f7
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:a1547a26d871b383
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://link.springer.com/article/10.1007/PL00009206
+web_query_attempts:
+- method: search_plan
+  query: Czumaj et al. (1) algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Czumaj et al. (1) algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Czumaj et al. (1) problem definition
+  status: recorded
+- method: search_plan
+  query: Czumaj et al. (1) parallel algorithms algorithm
+  status: recorded
+- method: search_plan
+  query: Czumaj et al. (1) site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Czumaj et al. (1) algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://link.springer.com/article/10.1007/PL00009206
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1007/PL00009206
+  status: skipped
+- method: source_link_html_metadata
+  query: https://link.springer.com/article/10.1007/PL00009206
+  status: skipped
+extracted_problem_statement: 'Czumaj et al. (1) is treated as a classical parallel algorithms task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Czumaj et al. (1). Input semantics: The classical input instance named by the row, together with processor/work/span parameters when stated. Output semantics: The same mathematical output as the underlying classical task, annotated by work/span when available.'
+extracted_algorithm_summary: 'Czumaj et al. (1) is a parallel algorithms algorithm record. Classical complexity metadata: time O(\log \log n); work O(n \log \log n); span/depth O(log log n); processors O(n^(1 + 1/c * log log n)). The stated classical model is CREW PRAM. Public metadata/source text adds: Czumaj et al. (1) parallel_algorithms parallel_algorithms n: number of elements to permute O(\log \log n) Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

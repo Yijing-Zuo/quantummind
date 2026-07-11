@@ -1,0 +1,75 @@
+id: AW-000121-P0093
+kind: probe
+algorithm_id: AW-000121
+algorithm_name: Dantzig-Fulkerson-Johnson (DFJ) formulation
+source_records:
+- access_status: metadata_only
+  digest: a77bbb527a049936
+  extracted_facts:
+  - 'AlgorithmWiki row name: Dantzig-Fulkerson-Johnson (DFJ) formulation'
+  - 'domain: graph'
+  - 'time complexity: O(\text{exp}(V))'
+  - 'space complexity: O(V^2 2^V)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: V: number of vertices, E: number of edges'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(\text{exp}(V)); space O(V^2 2^V). Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000121:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Dantzig-Fulkerson-Johnson (DFJ) formulation
+  url: https://doi.org/10.1287/opre.2.4.393
+- access_status: fetched
+  digest: 38a8d38696d2c69b
+  extracted_facts:
+  - 'DOI title: Solution of a Large-Scale Traveling-Salesman Problem'
+  - 'published year: 1954'
+  - 'container title: Journal of the Operations Research Society of America'
+  - 'abstract summary: It is shown that a certain tour of 49 cities, one in each of the 48 states and Washington, D.C., has the shortest road distance.'
+  reliability: HIGH
+  short_quote: It is shown that a certain tour of 49 cities, one in each of the 48 states and Washington, D.C., has the shortest road
+  source_id: crossref:4e6feb0c1f6fb9e8
+  source_type: doi_metadata
+  title: Solution of a Large-Scale Traveling-Salesman Problem
+  url: https://doi.org/10.1287/opre.2.4.393
+- access_status: failed
+  digest: 00afeaf621ddca4c
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:3848fdf839ef5a9e
+  source_type: doi_metadata
+  title: 'HTTP Error 403: Forbidden'
+  url: https://doi.org/10.1287/opre.2.4.393
+web_query_attempts:
+- method: search_plan
+  query: Dantzig-Fulkerson-Johnson (DFJ) formulation algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Dantzig-Fulkerson-Johnson (DFJ) formulation algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Dantzig-Fulkerson-Johnson (DFJ) formulation problem definition
+  status: recorded
+- method: search_plan
+  query: Dantzig-Fulkerson-Johnson (DFJ) formulation graph algorithm
+  status: recorded
+- method: search_plan
+  query: Dantzig-Fulkerson-Johnson (DFJ) formulation site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Dantzig-Fulkerson-Johnson (DFJ) formulation algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://doi.org/10.1287/opre.2.4.393
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1287/opre.2.4.393
+  status: fetched
+- method: source_link_html_metadata
+  query: https://doi.org/10.1287/opre.2.4.393
+  status: failed
+extracted_problem_statement: 'Dantzig-Fulkerson-Johnson (DFJ) formulation is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Dantzig-Fulkerson-Johnson (DFJ) formulation. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'Dantzig-Fulkerson-Johnson (DFJ) formulation is a graph algorithm record. Classical complexity metadata: time O(\text{exp}(V)); space O(V^2 2^V). The stated classical model is Word RAM. Public metadata/source text adds: Dantzig-Fulkerson-Johnson (DFJ) formulation graph graph V: number of vertices, E: number of edges O(\text{exp}(V)) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

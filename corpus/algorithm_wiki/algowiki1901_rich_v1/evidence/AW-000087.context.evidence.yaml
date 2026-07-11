@@ -1,0 +1,59 @@
+id: AW-000087
+kind: context
+algorithm_id: AW-000087
+algorithm_name: Fast clipping
+source_records:
+- access_status: metadata_only
+  digest: b8a2f15d7790ca59
+  extracted_facts:
+  - 'AlgorithmWiki row name: Fast clipping'
+  - 'domain: unknown'
+  - 'time complexity: O(n)'
+  - 'space complexity: O(1)'
+  - 'computational model: Word/Real RAM'
+  - 'parameter definitions: n: number of lines'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000087:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Fast clipping
+  url: https://www.sciencedirect.com/science/article/pii/0097849387900616
+- access_status: failed
+  digest: e9d93b407f0ec89a
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:1cec7e3cd0b43a7a
+  source_type: publisher_abstract
+  title: 'HTTP Error 403: Forbidden'
+  url: https://www.sciencedirect.com/science/article/pii/0097849387900616
+web_query_attempts:
+- method: search_plan
+  query: Fast clipping algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Fast clipping algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Fast clipping problem definition
+  status: recorded
+- method: search_plan
+  query: Fast clipping site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Fast clipping algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://www.sciencedirect.com/science/article/pii/0097849387900616
+  status: recorded
+- method: source_link_html_metadata
+  query: https://www.sciencedirect.com/science/article/pii/0097849387900616
+  status: failed
+- method: wikipedia_summary_search
+  query: Fast clipping algorithm
+  status: failed_or_not_relevant
+extracted_problem_statement: 'Fast clipping is treated as a classical computational geometry task for rich AlgorithmWiki discovery. Problem/task: clip geometric primitives against a polygonal or rectangular clipping region. Input semantics: Explicit geometric objects such as points, line segments, polygons, or planar subdivisions. Output semantics: The requested geometric structure, simplified curve, clipping result, intersection set, hull, or diagram.'
+extracted_algorithm_summary: 'Fast clipping is a computational geometry algorithm record. Classical complexity metadata: time O(n); space O(1). The stated classical model is Word/Real RAM. Public metadata/source text adds: Fast clipping unknown unknown n: number of lines O(n) No public-ready summary is available because the row lacks enough task semantics.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

@@ -1,0 +1,58 @@
+id: AW-001650
+kind: context
+algorithm_id: AW-001650
+algorithm_name: Kim, Chwa
+source_records:
+- access_status: metadata_only
+  digest: 1c42ccc899f78621
+  extracted_facts:
+  - 'AlgorithmWiki row name: Kim, Chwa'
+  - 'domain: graph'
+  - 'time complexity: O(n \log n \log \log n)'
+  - 'computational model: CREW PRAM'
+  - 'parameter definitions: n: number of vertices, m: number of edges'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(n \log n \log \log n); work O(n^4 \log \log n); span/depth O(n log n log log n); processors O(n^3/log n). Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001650:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Kim, Chwa
+  url: https://www.sciencedirect.com/science/article/pii/0020019087901931
+- access_status: skipped
+  digest: 6e08585db998c627
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:49d2808d791986cf
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://www.sciencedirect.com/science/article/pii/0020019087901931
+web_query_attempts:
+- method: search_plan
+  query: Kim, Chwa algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Kim, Chwa algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Kim, Chwa problem definition
+  status: recorded
+- method: search_plan
+  query: Kim, Chwa graph algorithm
+  status: recorded
+- method: search_plan
+  query: Kim, Chwa site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Kim, Chwa algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://www.sciencedirect.com/science/article/pii/0020019087901931
+  status: recorded
+- method: source_link_html_metadata
+  query: https://www.sciencedirect.com/science/article/pii/0020019087901931
+  status: skipped
+extracted_problem_statement: 'Kim, Chwa is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Kim, Chwa. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'Kim, Chwa is a graph algorithm record. Classical complexity metadata: time O(n \log n \log \log n); work O(n^4 \log \log n); span/depth O(n log n log log n); processors O(n^3/log n). The stated classical model is CREW PRAM. Public metadata/source text adds: Kim, Chwa graph graph n: number of vertices, m: number of edges O(n \log n \log \log n) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

@@ -1,0 +1,57 @@
+algorithm_family: unknown
+algorithm_id: AW-000623
+approximate: '1'
+approximation_factor: O(1/(n\epsilon))
+blind_name: Algorithm Wiki public task AW-000623
+canonical_name: Fortune
+computational_model: Approximate Arithmitic
+domain: unknown
+extracted_description: ''
+extraction_version: algorithm-wiki-rich-context-v1
+family: unknown
+inferred_access_model: explicit_geometric_objects
+inferred_ambiguities:
+- The AlgorithmWiki row marks the classical method as approximate.
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.
+inferred_input_model: explicit_geometry_problem
+inferred_output_contract: full_solution
+inferred_problem_statement: 'Fortune is treated as a classical computational geometry task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Fortune. Input semantics: Explicit geometric objects such as points, line segments, polygons, or planar subdivisions. Output semantics: The requested geometric structure, simplified curve, clipping result, intersection set, hull, or diagram.'
+inferred_promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+- classical_approximation_algorithm
+inferred_size_parameters:
+- 'Parameter definition: n: number of points'
+number_of_processors: ''
+page_digest: ''
+page_fetch_status: not_found
+page_url: ''
+parameter_definitions: 'n: number of points'
+problem_name: unknown
+quality_flags:
+- has_complexity_semantics
+- has_size_parameters
+- has_computational_model
+- approximation_flag_preserved
+quality_score: 70
+randomized: '0'
+readiness: READY_PUBLIC_CONTEXT
+review_reasons:
+- A previous row has the same canonicalized algorithm name.
+source_link: https://dl.acm.org/doi/10.1145/142675.142695
+source_link_type: acm
+space_complexity: O(n)
+span_depth: ''
+time_complexity: O(n^2)
+variation: ''
+work: ''
+year: '1992'
+rich_card_kind: context
+source_records_used:
+- AW-000623:algorithm_wiki_metadata
+- crossref:b2037317ff8427cf
+- failed:945d823764ed9b05
+source_count: 3
+source_quality: HIGH
+confidence_score: 70
+card_digest: 7c11798052f5c4d9

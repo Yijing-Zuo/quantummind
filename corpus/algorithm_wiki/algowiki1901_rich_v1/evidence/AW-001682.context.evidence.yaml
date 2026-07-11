@@ -1,0 +1,58 @@
+id: AW-001682
+kind: context
+algorithm_id: AW-001682
+algorithm_name: Fayyazi, Kaeli, Meleis
+source_records:
+- access_status: metadata_only
+  digest: 8709646b0b64d157
+  extracted_facts:
+  - 'AlgorithmWiki row name: Fayyazi, Kaeli, Meleis'
+  - 'domain: graph'
+  - 'space complexity: O(1)'
+  - 'computational model: CRCW PRAM'
+  - "parameter definitions: n: number of vertices, m: number of edges, w: processor parameter w\u22651"
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: space O(1); work O((n/\omega) * n^{max(2\omega,4+\omega})); span/depth O(n / \omega); processors O(n^(max(2w, 4+w))). Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001682:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Fayyazi, Kaeli, Meleis
+  url: https://www.sciencedirect.com/science/article/abs/pii/S0020019005003108
+- access_status: skipped
+  digest: 11541b5737314126
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:4e1a383a0bfb6dd9
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://www.sciencedirect.com/science/article/abs/pii/S0020019005003108
+web_query_attempts:
+- method: search_plan
+  query: Fayyazi, Kaeli, Meleis algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Fayyazi, Kaeli, Meleis algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Fayyazi, Kaeli, Meleis problem definition
+  status: recorded
+- method: search_plan
+  query: Fayyazi, Kaeli, Meleis graph algorithm
+  status: recorded
+- method: search_plan
+  query: Fayyazi, Kaeli, Meleis site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Fayyazi, Kaeli, Meleis algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://www.sciencedirect.com/science/article/abs/pii/S0020019005003108
+  status: recorded
+- method: source_link_html_metadata
+  query: https://www.sciencedirect.com/science/article/abs/pii/S0020019005003108
+  status: skipped
+extracted_problem_statement: 'Fayyazi, Kaeli, Meleis is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Fayyazi, Kaeli, Meleis. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: "Fayyazi, Kaeli, Meleis is a graph algorithm record. Classical complexity metadata: space O(1); work O((n/\\omega) * n^{max(2\\omega,4+\\omega})); span/depth O(n / \\omega); processors O(n^(max(2w, 4+w))). The stated classical model is CRCW PRAM. Public metadata/source text adds: Fayyazi, Kaeli, Meleis graph graph n: number of vertices, m: number of edges, w: processor parameter w\u22651 Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record."
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

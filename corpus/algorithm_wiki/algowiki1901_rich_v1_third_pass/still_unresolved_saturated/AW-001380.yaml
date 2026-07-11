@@ -1,0 +1,87 @@
+algorithm_id: AW-001380
+canonical_name: "Bj\xF8rstad, Manne, S\xF8revik, Vajter\u0161ic (Winograd's algorithm)"
+enrichment_status: THIRD_PASS_SATURATED_INSUFFICIENT
+review_reasons:
+- After the configured source-family cycles, no source-backed concrete task, input semantics, output semantics, and conservative access model could be established.
+source_records:
+- access_status: metadata_only
+  digest: 3c20e7e449e9ba80
+  extracted_facts:
+  - "AlgorithmWiki row name: Bj\xF8rstad, Manne, S\xF8revik, Vajter\u0161ic (Winograd's algorithm)"
+  - 'domain: unknown'
+  - 'time complexity: O(n^3/p)'
+  - 'computational model: SIMD with distributed memory'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001380:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: "AlgorithmWiki metadata for Bj\xF8rstad, Manne, S\xF8revik, Vajter\u0161ic (Winograd's algorithm)"
+  url: https://epubs.siam.org/doi/pdf/10.1137/0613026
+- access_status: skipped
+  digest: e47b6118b5669cee
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:e6da763376703a81
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1137/0613026
+- access_status: skipped
+  digest: c9d8479a09bdad73
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:ada706f31938ad05
+  source_type: wikipedia
+  title: fetch budget exhausted
+  url: https://en.wikipedia.org/wiki/Bj%C3%B8rstad%2C_Manne%2C_S%C3%B8revik%2C_Vajter%C5%A1ic_%28Winograd%27s_algorithm%29
+- access_status: fetched
+  digest: 33070344b319ec50
+  extracted_facts:
+  - 'DOI title: Efficient Matrix Multiplication on SIMD Computers'
+  - 'published year: 1992'
+  - 'container title: SIAM Journal on Matrix Analysis and Applications'
+  reliability: HIGH
+  short_quote: ''
+  source_id: crossref:c5e1e07a4eb60abf
+  source_type: doi_metadata
+  title: Efficient Matrix Multiplication on SIMD Computers
+  url: https://doi.org/10.1137/0613026
+- access_status: fetched
+  digest: eac65bcac63f65f8
+  extracted_facts:
+  - 'Crossref title-search result: An optimal algorithm to fetch DHT routable'
+  reliability: MEDIUM
+  short_quote: ''
+  source_id: crossref_search:0b18e1bdccf3f416
+  source_type: doi_metadata
+  title: An optimal algorithm to fetch DHT routable
+  url: https://doi.org/10.1109/npc.2007.32
+- source_id: skipped:e2adb5ff63dd701c
+  url: https://epubs.siam.org/doi/pdf/10.1137/0613026
+  title: public PDF body was not downloaded
+  source_type: original_source
+  access_status: skipped
+  reliability: LOW
+  extracted_facts:
+  - public PDF body was not downloaded
+  short_quote: public PDF body was not downloaded
+  digest: f4a03c1bcc003c99
+- source_id: openalex:a005ba5149ef8c0d
+  url: https://openalex.org/W1993644742
+  title: Efficient Matrix Multiplication on SIMD Computers
+  source_type: openalex
+  access_status: fetched
+  reliability: HIGH
+  extracted_facts:
+  - 'OpenAlex title: Efficient Matrix Multiplication on SIMD Computers'
+  - 'publication year: 1992'
+  - 'abstract summary: Efficient algorithms are described for matrix multiplication on SIMD computers.'
+  short_quote: 'OpenAlex title: Efficient Matrix Multiplication on SIMD Computers publication year: 1992 abstract summary: Efficient algorithms are described for matrix multiplication on SIMD computers.'
+  digest: cbe365695e48f58d
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

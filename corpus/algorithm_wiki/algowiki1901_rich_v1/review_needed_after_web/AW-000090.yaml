@@ -1,0 +1,28 @@
+algorithm_id: AW-000090
+canonical_name: Toom-3
+enrichment_status: WEB_INSUFFICIENT
+review_reasons:
+- missing_concrete_problem_statement
+- unknown_input_model
+- unknown_output_contract
+- unknown_access_model
+source_records:
+- access_status: metadata_only
+  digest: 6ff3c68258e305db
+  extracted_facts:
+  - 'AlgorithmWiki row name: Toom-3'
+  - 'domain: unknown'
+  - 'time complexity: O(n^{1.46})'
+  - 'space complexity: O(n)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: length of one of the integers, in bits'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000090:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Toom-3
+  url: https://www.ams.org/journals/tran/1969-142-00/S0002-9947-1969-0249212-8/S0002-9947-1969-0249212-8.pdf
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

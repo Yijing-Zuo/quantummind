@@ -1,0 +1,47 @@
+probe_id: AW-000375-TP0069
+algorithm_id: AW-000375-TP0069
+canonical_name: Braziunas & Boutilier 2004 estimation_sampling_probe
+readiness: READY_PUBLIC_PROBE
+quality_score: 100
+probe_type: estimation_sampling_probe
+parent_algorithm_id: AW-000375
+parent_algorithm_name: Braziunas & Boutilier 2004
+source_records_used:
+- AW-000375:algorithm_wiki_metadata
+- crossref_search:45bc59964be15c60
+- crossref_search:f98045962fe0f0d1
+- openalex:6bfdefc5e66ecae8
+introduced_assumptions:
+- coherent_estimation_oracle
+- bounded_random_variable
+- coherent_sampler
+missing_from_original_problem:
+- sampler reversibility
+- variance bound
+- query-to-runtime translation
+original_output_contract: path_or_tree
+probe_output_contract: additive_estimate
+not_end_to_end_claim: true
+expected_authority: query_or_subroutine_hypothesis_only
+why_probe_is_scientifically_interesting: Estimation tasks can expose query-level structure even when the full algorithm remains classical.
+why_probe_may_fail: Sampling or approximation may not be the bottleneck, or coherent access may be more expensive than the original method.
+inferred_input_model: explicit_dynamic_programming_problem
+inferred_access_model: coherent_estimation_oracle
+inferred_output_contract: additive_estimate
+inferred_size_parameters:
+- 'n: primary input size parameter for the source-backed task.'
+inferred_promises:
+- bounded_random_variable
+- coherent_access
+- oracle_model_assumption
+inferred_ambiguities:
+- This probe is assumption-bearing and is not an end-to-end speedup claim.
+- variance bounds, coherent sampler construction, and tolerance mapping remain expert obligations
+- The parent context card and source records should be checked before live use.
+source_count: 4
+source_quality: HIGH
+confidence_score: 100
+card_digest: bf5e1e54c9d52c2e
+extraction_version: algorithm-wiki-rich-third-pass-probe-v1
+rich_card_kind: probe_recovered
+saturation_status: RECOVERED_CONTEXT_AND_PROBE

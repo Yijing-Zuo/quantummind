@@ -1,0 +1,60 @@
+algorithm_family: graph
+algorithm_id: AW-001063
+approximate: '0'
+approximation_factor: ''
+blind_name: Algorithm Wiki public task AW-001063
+canonical_name: Kruskal
+computational_model: CREW PRAM
+domain: graph
+extracted_description: ''
+extraction_version: algorithm-wiki-rich-context-v1
+family: graph
+inferred_access_model: edge_list_input
+inferred_ambiguities:
+- No independent fetched public metadata source resolved this row beyond AlgorithmWiki metadata/source-link facts.
+- Some details are reconstructed from AlgorithmWiki metadata rather than an independently fetched full public description.
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.
+inferred_input_model: explicit_graph_problem
+inferred_output_contract: path_or_tree
+inferred_problem_statement: 'Kruskal is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Kruskal. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: A minimum spanning tree or forest for the weighted graph.'
+inferred_promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+- classical_parallel_model_recorded
+inferred_size_parameters:
+- 'Parameter definition: n: size of list, p: number of processors, G: number of processor groups'
+- p = stated number of processors (n)
+number_of_processors: n
+page_digest: ''
+page_fetch_status: not_found
+page_url: ''
+parameter_definitions: 'n: size of list, p: number of processors, G: number of processor groups'
+problem_name: graph
+quality_flags:
+- domain_inferred
+- problem_statement_inferred
+- io_access_output_inferred
+- has_complexity_semantics
+- has_size_parameters
+- has_computational_model
+quality_score: 100
+randomized: '0'
+readiness: READY_PUBLIC_CONTEXT
+review_reasons:
+- insufficient_algorithm_level_structure
+source_link: https://ieeexplore.ieee.org/abstract/document/1676138/authors#authors
+source_link_type: unknown
+space_complexity: ''
+span_depth: ceiling(log n/log G)((G-1)/floor(p/n)+log((G-1)/floor(p/n))+3/log3 loglog(p^2/n) +6) +O(Gn/p) =
+time_complexity: 1.893 log n loglog n / logloglog n
+variation: ''
+work: O(n \\log{n} \\log{\\log{n}} / \\log{\\log{\\log{n}}})
+year: '1983'
+rich_card_kind: context
+source_records_used:
+- AW-001063:algorithm_wiki_metadata
+- skipped:f47de6cada574bc2
+source_count: 2
+source_quality: HIGH
+confidence_score: 100
+card_digest: 063a9d664a1442db

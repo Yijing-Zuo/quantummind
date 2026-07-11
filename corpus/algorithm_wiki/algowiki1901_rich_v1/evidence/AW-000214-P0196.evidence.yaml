@@ -1,0 +1,59 @@
+id: AW-000214-P0196
+kind: probe
+algorithm_id: AW-000214
+algorithm_name: Dijkstra's algorithm with list (Whiting & Hillier 1960)
+source_records:
+- access_status: metadata_only
+  digest: 598f748824ea27bd
+  extracted_facts:
+  - 'AlgorithmWiki row name: Dijkstra''s algorithm with list (Whiting & Hillier 1960)'
+  - 'domain: graph'
+  - 'time complexity: O(V^2)'
+  - 'space complexity: O(V)'
+  - 'computational model: Word/Real RAM'
+  - 'parameter definitions: V: number of vertices, E: number of edges, L: maximum absolute value of edge cost'
+  - 'precard summary: Given a weighted graph and a source or source-target specification, compute shortest-path distances or a shortest-path tree. Baseline: time O(V^2); space O(V). Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000214:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Dijkstra's algorithm with list (Whiting & Hillier 1960)
+  url: https://www.jstor.org/stable/3007178?seq=1#page_scan_tab_contents
+- access_status: failed
+  digest: 3d5299675811aefa
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:5708b8c22a3cb97e
+  source_type: other_public_source
+  title: 'HTTP Error 403: Forbidden'
+  url: https://www.jstor.org/stable/3007178?seq=1#page_scan_tab_contents
+web_query_attempts:
+- method: search_plan
+  query: Dijkstra's algorithm with list (Whiting & Hillier 1960) algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Dijkstra's algorithm with list (Whiting & Hillier 1960) algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Dijkstra's algorithm with list (Whiting & Hillier 1960) problem definition
+  status: recorded
+- method: search_plan
+  query: Dijkstra's algorithm with list (Whiting & Hillier 1960) graph algorithm
+  status: recorded
+- method: search_plan
+  query: Dijkstra's algorithm with list (Whiting & Hillier 1960) site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Dijkstra's algorithm with list (Whiting & Hillier 1960) algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://www.jstor.org/stable/3007178?seq=1#page_scan_tab_contents
+  status: recorded
+- method: source_link_html_metadata
+  query: https://www.jstor.org/stable/3007178?seq=1#page_scan_tab_contents
+  status: failed
+extracted_problem_statement: 'Dijkstra''s algorithm with list (Whiting & Hillier 1960) is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Dijkstra''s algorithm with list (Whiting & Hillier 1960). Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'Dijkstra''s algorithm with list (Whiting & Hillier 1960) is a graph algorithm record. Classical complexity metadata: time O(V^2); space O(V). The stated classical model is Word/Real RAM. Public metadata/source text adds: Dijkstra''s algorithm with list (Whiting & Hillier 1960) graph graph V: number of vertices, E: number of edges, L: maximum absolute value of edge cost O(V^2) Given a weighted graph and a source or source-target specification, compute shortest-path distances or a shortest-path tree.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

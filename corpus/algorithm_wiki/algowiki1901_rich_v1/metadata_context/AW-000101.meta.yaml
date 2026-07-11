@@ -1,0 +1,57 @@
+algorithm_family: unknown
+algorithm_id: AW-000101
+approximate: '0'
+approximation_factor: ''
+blind_name: Algorithm Wiki public task AW-000101
+canonical_name: Koiliaris and Xu
+computational_model: Word RAM
+domain: unknown
+extracted_description: ''
+extraction_version: algorithm-wiki-rich-context-v1
+family: unknown
+inferred_access_model: adjacency_list_query
+inferred_ambiguities:
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.
+inferred_input_model: explicit_combinatorial_problem
+inferred_output_contract: one_witness
+inferred_problem_statement: 'Koiliaris and Xu is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: solve a subset-sum or target-sum dynamic-programming/search problem. Input semantics: A finite set or multiset of integers with a target sum parameter. Output semantics: A decision result, feasible subset witness, count, or optimized subset value for the target-sum instance, depending on the row.'
+inferred_promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+inferred_size_parameters:
+- 'Parameter definition: n'': the number of distinct elements in the set, t: the target sum, \sigma: sum of elements in the set'
+number_of_processors: ''
+page_digest: ''
+page_fetch_status: not_found
+page_url: ''
+parameter_definitions: 'n'': the number of distinct elements in the set, t: the target sum, \sigma: sum of elements in the set'
+problem_name: unknown
+quality_flags:
+- has_complexity_semantics
+- has_size_parameters
+- has_computational_model
+quality_score: 70
+randomized: '0'
+readiness: READY_PUBLIC_CONTEXT
+review_reasons:
+- missing_problem_statement
+- unknown_input_model
+- unknown_access_model
+- unknown_output_contract
+- insufficient_algorithm_level_structure
+source_link: https://dl.acm.org/doi/pdf/10.1145/3329863
+source_link_type: acm
+space_complexity: O(t)
+span_depth: ''
+time_complexity: \tilde{O}(\min(\sqrt{n'}t, t^{5/4}, \sigma))
+variation: ''
+work: ''
+year: '2019'
+rich_card_kind: context
+source_records_used:
+- AW-000101:algorithm_wiki_metadata
+- crossref:1647fca20335cd7e
+source_count: 2
+source_quality: HIGH
+confidence_score: 70
+card_digest: 72d2a16bd0d06604

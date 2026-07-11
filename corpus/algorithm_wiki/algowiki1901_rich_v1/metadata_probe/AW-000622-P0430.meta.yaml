@@ -1,0 +1,42 @@
+probe_id: AW-000622-P0430
+algorithm_id: AW-000622-P0430
+canonical_name: Guibas Stofli search_witness_probe
+readiness: READY_PUBLIC_PROBE
+quality_score: 70
+probe_type: search_witness_probe
+parent_algorithm_id: AW-000622
+parent_algorithm_name: Guibas Stofli
+source_records_used:
+- AW-000622:algorithm_wiki_metadata
+- crossref:c2f7743e0e6932d9
+- failed:c1e2e31920ad6259
+introduced_assumptions:
+- coherent_boolean_oracle
+- marked_item_exists
+- candidate_indexing
+missing_from_original_problem:
+- oracle construction
+- proof that witness output captures the useful subroutine
+original_output_contract: path_or_tree
+probe_output_contract: one_witness
+not_end_to_end_claim: true
+expected_authority: query_or_subroutine_hypothesis_only
+why_probe_is_scientifically_interesting: Witness search can isolate a decision or local-output subroutine from a larger classical task.
+why_probe_may_fail: The original algorithm may require full output materialization or an expensive predicate oracle.
+inferred_input_model: explicit_graph_problem
+inferred_access_model: coherent_boolean_oracle
+inferred_output_contract: one_witness
+inferred_size_parameters:
+- 'Parameter definition: n: number of points'
+inferred_promises:
+- marked_item_exists
+- oracle_model_assumption
+inferred_ambiguities:
+- This probe is assumption-bearing and is not an end-to-end speedup claim.
+- coherent predicate construction and candidate indexing may fail for the original full-output problem
+- The parent context card and source records should be checked before live use.
+source_count: 3
+source_quality: HIGH
+confidence_score: 70
+card_digest: 2360dd9ac9d7d6b0
+extraction_version: algorithm-wiki-rich-probe-v1

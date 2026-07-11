@@ -1,0 +1,44 @@
+id: AW-001530
+kind: context
+algorithm_id: AW-001530
+algorithm_name: Poon, Ramachandran
+source_records:
+- access_status: metadata_only
+  digest: 4928c107a36d3448
+  extracted_facts:
+  - 'AlgorithmWiki row name: Poon, Ramachandran'
+  - 'domain: graph'
+  - 'computational model: EREW PRAM'
+  - 'parameter definitions: n: number of nodes, m: number of edges'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: span/depth O(log n log log n 2^{log* n}). Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001530:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Poon, Ramachandran
+  url: https://www.cs.utexas.edu/~vlr/papers/mst97.pdf
+web_query_attempts:
+- method: search_plan
+  query: Poon, Ramachandran algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Poon, Ramachandran algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Poon, Ramachandran problem definition
+  status: recorded
+- method: search_plan
+  query: Poon, Ramachandran graph algorithm
+  status: recorded
+- method: search_plan
+  query: Poon, Ramachandran site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Poon, Ramachandran algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://www.cs.utexas.edu/~vlr/papers/mst97.pdf
+  status: recorded
+extracted_problem_statement: 'Poon, Ramachandran is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Poon, Ramachandran. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'Poon, Ramachandran is a graph algorithm record. Classical complexity metadata: span/depth O(log n log log n 2^{log* n}). The stated classical model is EREW PRAM. Public metadata/source text adds: Poon, Ramachandran graph graph n: number of nodes, m: number of edges Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

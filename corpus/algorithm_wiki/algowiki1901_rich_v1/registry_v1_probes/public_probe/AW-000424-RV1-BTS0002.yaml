@@ -1,0 +1,18 @@
+statement: 'Two-way String-Matching Algorithm registry-v1 bounded tree-search probe. This is a bounded-depth backtracking-tree query-model subroutine probe, not an end-to-end claim for the original algorithm. The represented task is to find one solution leaf in an implicit finite search tree with coherent child and predicate access introduced only for this probe. Source-backed parent context: One or more finite strings, sequences, patterns, or alphabets. Pattern occurrence positions, matches, or the associated string-search report. string scanning, dynamic-programming table size, preprocessing, and match reporting. Two-way String-Matching Algorithm search_witness_probe Two-way String-Matching Algorithm search-witness probe. This is a subroutine/query-model probe, not an end-to-end claim for the original algorithm. The probe asks whether a predicate over candidates can expose one valid witness, counterexample, path element, pattern occurrence, or feasible object. Original input context: One
+  or more finite strings, sequences, patterns, or alphabets. Original output context: Pattern It is not a full A*/shortest-path run, an end-to-end dynamic-programming claim, a full optimization workflow, or an all-solutions enumeration. Tree size/depth bounds and reversible child/predicate oracles are introduced assumptions and expert obligations.'
+input_model: implicit_backtracking_tree_problem
+access_model: coherent_backtracking_tree_oracle
+output_contract: one_solution_leaf
+promises:
+- bounded_backtracking_tree
+- bounded_tree_depth
+- coherent_child_and_predicate_oracles
+- marked_leaf_exists
+- oracle_model_assumption
+size_parameters:
+- 'Parameter definition: m: pattern length, n: length of searchable text'
+- 'T, d: introduced search-tree size and depth bounds for the isolated subroutine.'
+ambiguities:
+- This is an assumption-bearing query/subroutine probe and is not an end-to-end speedup claim.
+- Search-tree bounds, child generation, and predicate reversibility are introduced assumptions.
+- The parent task may require dynamic-programming tables, full paths, or all solutions outside this probe.

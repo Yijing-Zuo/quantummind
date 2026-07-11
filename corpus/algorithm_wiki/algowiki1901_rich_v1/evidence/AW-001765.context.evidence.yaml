@@ -1,0 +1,46 @@
+id: AW-001765
+kind: context
+algorithm_id: AW-001765
+algorithm_name: Berkman, Vishkin
+source_records:
+- access_status: metadata_only
+  digest: 2b06f7d7ced2b15b
+  extracted_facts:
+  - 'AlgorithmWiki row name: Berkman, Vishkin'
+  - 'domain: graph'
+  - 'time complexity: O(m*alpha(n))'
+  - 'space complexity: https://www.proquest.com/docview/919780720?pq-origsite=gscholar&fromopenview=true'
+  - 'computational model: Common CRCW PRAM'
+  - 'parameter definitions: n: number of vertices, m: number of total number of op.s (queries, links, cuts)'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(m*alpha(n)); work O(m + n); span/depth O(m*alpha(n)); processors O(n). Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001765:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Berkman, Vishkin
+  url: https://apps.dtic.mil/sti/tr/pdf/ADA227803.pdf
+web_query_attempts:
+- method: search_plan
+  query: Berkman, Vishkin algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Berkman, Vishkin algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Berkman, Vishkin problem definition
+  status: recorded
+- method: search_plan
+  query: Berkman, Vishkin graph algorithm
+  status: recorded
+- method: search_plan
+  query: Berkman, Vishkin site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Berkman, Vishkin algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://apps.dtic.mil/sti/tr/pdf/ADA227803.pdf
+  status: recorded
+extracted_problem_statement: 'Berkman, Vishkin is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Berkman, Vishkin. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'Berkman, Vishkin is a graph algorithm record. Classical complexity metadata: time O(m*alpha(n)); space https://www.proquest.com/docview/919780720?pq-origsite=gscholar&fromopenview=true; work O(m + n); span/depth O(m*alpha(n)); processors O(n). The stated classical model is Common CRCW PRAM. Public metadata/source text adds: Berkman, Vishkin graph graph n: number of vertices, m: number of total number of op.s (queries, links, cuts) O(m*alpha(n)) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

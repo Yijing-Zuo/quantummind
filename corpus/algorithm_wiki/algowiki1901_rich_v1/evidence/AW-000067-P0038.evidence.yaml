@@ -1,0 +1,62 @@
+id: AW-000067-P0038
+kind: probe
+algorithm_id: AW-000067
+algorithm_name: A* Algorithm
+source_records:
+- access_status: metadata_only
+  digest: caf8ead8ddbdd3e7
+  extracted_facts:
+  - 'AlgorithmWiki row name: A* Algorithm'
+  - 'domain: graph'
+  - 'time complexity: O(b^d)'
+  - 'space complexity: O(b^d)'
+  - 'parameter definitions: b: branching factor (the average number of successors per state), d: the depth of the solution (the shortest path)'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(b^d); space O(b^d). Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000067:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for A* Algorithm
+  url: https://ieeexplore.ieee.org/document/4082128/
+- access_status: fetched
+  digest: 4c9fc45c32de5073
+  extracted_facts:
+  - 'source page title: https://ieeexplore.ieee.org/document/4082128/'
+  - 'source page description: In order to continue, we need to verify that you''re not a robot.'
+  reliability: HIGH
+  short_quote: In order to continue, we need to verify that you're not a robot.
+  source_id: source:5c0c271c7b34ef2c
+  source_type: publisher_abstract
+  title: https://ieeexplore.ieee.org/document/4082128/
+  url: https://ieeexplore.ieee.org/document/4082128/
+web_query_attempts:
+- method: search_plan
+  query: A* Algorithm algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: A* Algorithm algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: A* Algorithm problem definition
+  status: recorded
+- method: search_plan
+  query: A* Algorithm graph algorithm
+  status: recorded
+- method: search_plan
+  query: A* Algorithm site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: A* Algorithm algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://ieeexplore.ieee.org/document/4082128/
+  status: recorded
+- method: source_link_html_metadata
+  query: https://ieeexplore.ieee.org/document/4082128/
+  status: fetched
+- method: wikipedia_summary_search
+  query: A* Algorithm algorithm
+  status: failed_or_not_relevant
+extracted_problem_statement: 'A* Algorithm is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: find a low-cost or shortest path in a graph or state-space search instance. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: A path, path cost, or predecessor structure connecting the requested graph states.'
+extracted_algorithm_summary: 'A* Algorithm is a graph algorithm record. Classical complexity metadata: time O(b^d); space O(b^d). Public metadata/source text adds: A* Algorithm graph graph b: branching factor (the average number of successors per state), d: the depth of the solution (the shortest path) O(b^d) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

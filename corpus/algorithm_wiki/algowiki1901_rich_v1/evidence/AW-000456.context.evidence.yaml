@@ -1,0 +1,45 @@
+id: AW-000456
+kind: context
+algorithm_id: AW-000456
+algorithm_name: Floyd's tortoise and hare algorithm
+source_records:
+- access_status: metadata_only
+  digest: 8d6dd11d2025694f
+  extracted_facts:
+  - 'AlgorithmWiki row name: Floyd''s tortoise and hare algorithm'
+  - 'domain: unknown'
+  - 'time complexity: O((\lambda + \mu) t_f)'
+  - 'space complexity: O(1)'
+  - 'parameter definitions: t_f: time to perform one evaluation of f, \mu: the starting index of the cycle, \lambda: the period of the cycle'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000456:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Floyd's tortoise and hare algorithm
+  url: '-'
+web_query_attempts:
+- method: search_plan
+  query: Floyd's tortoise and hare algorithm algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Floyd's tortoise and hare algorithm algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Floyd's tortoise and hare algorithm problem definition
+  status: recorded
+- method: search_plan
+  query: Floyd's tortoise and hare algorithm site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Floyd's tortoise and hare algorithm algorithm wiki
+  status: recorded
+- method: search_plan
+  query: '-'
+  status: recorded
+- method: wikipedia_summary_search
+  query: Floyd's tortoise and hare algorithm algorithm
+  status: failed_or_not_relevant
+extracted_problem_statement: 'Floyd''s tortoise and hare algorithm is treated as a classical combinatorics task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Floyd''s tortoise and hare algorithm. Input semantics: An iterated function or sequence representation with parameters for the preperiod and cycle length. Output semantics: A count, witness, construction, ordering, subset, cycle, or other finite combinatorial output.'
+extracted_algorithm_summary: 'Floyd''s tortoise and hare algorithm is a combinatorics algorithm record. Classical complexity metadata: time O((\lambda + \mu) t_f); space O(1). Public metadata/source text adds: Floyd''s tortoise and hare algorithm unknown unknown t_f: time to perform one evaluation of f, \mu: the starting index of the cycle, \lambda: the period of the cycle O((\lambda + \mu) t_f) No public-ready summary is available because the row lacks enough task semantics.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

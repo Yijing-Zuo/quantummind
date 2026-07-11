@@ -1,0 +1,62 @@
+id: AW-000224-P0215
+kind: probe
+algorithm_id: AW-000224
+algorithm_name: Seidel's algorithm
+source_records:
+- access_status: metadata_only
+  digest: 3c6244a3dd8cfb37
+  extracted_facts:
+  - 'AlgorithmWiki row name: Seidel''s algorithm'
+  - 'domain: graph'
+  - 'time complexity: O(n^{2.373} \log n)'
+  - 'space complexity: O(n^2)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of vertices, m: number of edges'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(n^{2.373} \log n); space O(n^2). Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000224:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Seidel's algorithm
+  url: https://www.sciencedirect.com/science/article/pii/S0022000085710781
+- access_status: failed
+  digest: 25fe3f7f8b75cd70
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:65c3d926f27834f4
+  source_type: publisher_abstract
+  title: 'HTTP Error 403: Forbidden'
+  url: https://www.sciencedirect.com/science/article/pii/S0022000085710781
+web_query_attempts:
+- method: search_plan
+  query: Seidel's algorithm algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Seidel's algorithm algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Seidel's algorithm problem definition
+  status: recorded
+- method: search_plan
+  query: Seidel's algorithm graph algorithm
+  status: recorded
+- method: search_plan
+  query: Seidel's algorithm site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Seidel's algorithm algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://www.sciencedirect.com/science/article/pii/S0022000085710781
+  status: recorded
+- method: source_link_html_metadata
+  query: https://www.sciencedirect.com/science/article/pii/S0022000085710781
+  status: failed
+- method: wikipedia_summary_search
+  query: Seidel's algorithm algorithm
+  status: failed_or_not_relevant
+extracted_problem_statement: 'Seidel''s algorithm is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Seidel''s algorithm. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'Seidel''s algorithm is a graph algorithm record. Classical complexity metadata: time O(n^{2.373} \log n); space O(n^2). The stated classical model is Word RAM. Public metadata/source text adds: Seidel''s algorithm graph graph n: number of vertices, m: number of edges O(n^{2.373} \log n) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

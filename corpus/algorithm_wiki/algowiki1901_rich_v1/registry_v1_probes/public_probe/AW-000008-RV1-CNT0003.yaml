@@ -1,0 +1,17 @@
+statement: 'Pferschy registry-v1 approximate counting probe. This is a query-model approximate marked-set counting subroutine probe, not an end-to-end claim for the original algorithm. The represented task is to estimate the number or fraction of marked items in a finite search space using coherent Boolean predicate access introduced only for this probe. Source-backed parent context: A finite set or multiset of integers with a target sum parameter. A decision result, feasible subset witness, count, or optimized subset value for the target-sum instance, depending on the row. dominant bottleneck remains uncertain from the available public source metadata. Pferschy search_witness_probe Pferschy search-witness probe. This is a subroutine/query-model probe, not an end-to-end claim for the original algorithm. The probe asks whether a predicate over candidates can expose one valid witness, counterexample, path element, pattern occurrence, or feasible object. Original input context: A finite set
+  or multiset of integers with a target sum parameter. Original output context: A deci It does not output all marked items, an exact full list, or a full enumeration. Precision dependence, predicate construction, and data-loading cost remain expert obligations; the full original algorithm speedup is not claimed.'
+input_model: marked_set_counting_problem
+access_model: coherent_boolean_oracle
+output_contract: additive_count_estimate
+promises:
+- finite_search_space
+- coherent_boolean_oracle_available
+- count_precision_specified
+- oracle_model_assumption
+size_parameters:
+- 'Parameter definition: n'': number of distinct elements in the set, t: target sum'
+- 'N, epsilon: finite search-space size and requested count-estimation precision.'
+ambiguities:
+- This is an assumption-bearing query/subroutine probe and is not an end-to-end speedup claim.
+- The marked-set predicate, finite search space, and count precision are introduced assumptions.
+- The parent task may require outputting marked objects or exact enumeration outside this probe.

@@ -1,0 +1,11 @@
+case_id: QM-PB-009
+statement: "Compute the parity, or XOR, of N input bits in the black-box query model with bounded error."
+input_model: "Boolean input string"
+access_model: bit_query_oracle
+output_contract: parity_bit
+promises:
+  - total_boolean_function
+size_parameters: [N]
+ambiguities:
+  - promise-problem variants are outside scope
+

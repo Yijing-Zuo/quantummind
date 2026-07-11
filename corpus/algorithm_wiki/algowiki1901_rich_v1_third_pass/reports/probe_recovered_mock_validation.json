@@ -1,0 +1,404 @@
+{
+  "duplicate_digest_group_count": 8,
+  "duplicate_digest_groups": {
+    "07ca43846bda6706": [
+      "AW-000601-TP0105.yaml",
+      "AW-000602-TP0107.yaml",
+      "AW-000603-TP0109.yaml",
+      "AW-000604-TP0111.yaml",
+      "AW-000613-TP0117.yaml"
+    ],
+    "42766a01a358a44c": [
+      "AW-000766-TP0150.yaml",
+      "AW-000767-TP0152.yaml"
+    ],
+    "936244a4a3115cb4": [
+      "AW-000601-TP0104.yaml",
+      "AW-000602-TP0106.yaml",
+      "AW-000603-TP0108.yaml",
+      "AW-000604-TP0110.yaml",
+      "AW-000613-TP0116.yaml"
+    ],
+    "b38116b44d98f7af": [
+      "AW-000593-TP0100.yaml",
+      "AW-000605-TP0112.yaml"
+    ],
+    "d5851448d089571b": [
+      "AW-000594-TP0102.yaml",
+      "AW-000606-TP0114.yaml"
+    ],
+    "dc290c149e928881": [
+      "AW-000766-TP0149.yaml",
+      "AW-000767-TP0151.yaml"
+    ],
+    "e6bce87b9b2b1983": [
+      "AW-000594-TP0103.yaml",
+      "AW-000606-TP0115.yaml"
+    ],
+    "fcc7c5f15feae306": [
+      "AW-000593-TP0101.yaml",
+      "AW-000605-TP0113.yaml"
+    ]
+  },
+  "errors": [],
+  "largest_duplicate_digest_group_size": 5,
+  "metadata_dir": "corpus\\algorithm_wiki\\algowiki1901_rich_v1_third_pass\\metadata_probe_recovered",
+  "min_ready": 1,
+  "mock_analyze": [
+    {
+      "card": "AW-000986-TP0172.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1_third_pass\\reports\\probe_recovered_mock_validation_mock_analyze_runs\\qml-5b20b4f025f5"
+    },
+    {
+      "card": "AW-001265-TP0192.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1_third_pass\\reports\\probe_recovered_mock_validation_mock_analyze_runs\\qml-ae01753399e8"
+    },
+    {
+      "card": "AW-000883-TP0167.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1_third_pass\\reports\\probe_recovered_mock_validation_mock_analyze_runs\\qml-173cb010cbbf"
+    },
+    {
+      "card": "AW-000631-TP0119.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1_third_pass\\reports\\probe_recovered_mock_validation_mock_analyze_runs\\qml-c5064d4b4d2e"
+    },
+    {
+      "card": "AW-000603-TP0108.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1_third_pass\\reports\\probe_recovered_mock_validation_mock_analyze_runs\\qml-405fd88dea48"
+    },
+    {
+      "card": "AW-000988-TP0175.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1_third_pass\\reports\\probe_recovered_mock_validation_mock_analyze_runs\\qml-749beab4351c"
+    },
+    {
+      "card": "AW-000684-TP0134.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1_third_pass\\reports\\probe_recovered_mock_validation_mock_analyze_runs\\qml-b791bb1dbdbe"
+    },
+    {
+      "card": "AW-000385-TP0078.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1_third_pass\\reports\\probe_recovered_mock_validation_mock_analyze_runs\\qml-490941a047de"
+    },
+    {
+      "card": "AW-000394-TP0083.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1_third_pass\\reports\\probe_recovered_mock_validation_mock_analyze_runs\\qml-af24cbee3482"
+    },
+    {
+      "card": "AW-000681-TP0129.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1_third_pass\\reports\\probe_recovered_mock_validation_mock_analyze_runs\\qml-2ed33782e01c"
+    },
+    {
+      "card": "AW-000718-TP0143.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1_third_pass\\reports\\probe_recovered_mock_validation_mock_analyze_runs\\qml-9a59980221ed"
+    },
+    {
+      "card": "AW-000345-TP0035.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1_third_pass\\reports\\probe_recovered_mock_validation_mock_analyze_runs\\qml-235017566171"
+    },
+    {
+      "card": "AW-000892-TP0168.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1_third_pass\\reports\\probe_recovered_mock_validation_mock_analyze_runs\\qml-142e734a2de0"
+    },
+    {
+      "card": "AW-000701-TP0137.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1_third_pass\\reports\\probe_recovered_mock_validation_mock_analyze_runs\\qml-032bc59092b8"
+    },
+    {
+      "card": "AW-001018-TP0183.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1_third_pass\\reports\\probe_recovered_mock_validation_mock_analyze_runs\\qml-0ccc833b3474"
+    },
+    {
+      "card": "AW-000368-TP0060.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1_third_pass\\reports\\probe_recovered_mock_validation_mock_analyze_runs\\qml-ac315c7678e2"
+    },
+    {
+      "card": "AW-000848-TP0161.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1_third_pass\\reports\\probe_recovered_mock_validation_mock_analyze_runs\\qml-1384b1de725a"
+    },
+    {
+      "card": "AW-000682-TP0130.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1_third_pass\\reports\\probe_recovered_mock_validation_mock_analyze_runs\\qml-f7b564908b2c"
+    },
+    {
+      "card": "AW-000668-TP0125.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1_third_pass\\reports\\probe_recovered_mock_validation_mock_analyze_runs\\qml-5dcd60b78224"
+    },
+    {
+      "card": "AW-000261-TP0006.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1_third_pass\\reports\\probe_recovered_mock_validation_mock_analyze_runs\\qml-0cbe4489598d"
+    },
+    {
+      "card": "AW-000301-TP0014.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1_third_pass\\reports\\probe_recovered_mock_validation_mock_analyze_runs\\qml-279cb97af0a9"
+    },
+    {
+      "card": "AW-001691-TP0195.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1_third_pass\\reports\\probe_recovered_mock_validation_mock_analyze_runs\\qml-e2c4e73663d2"
+    },
+    {
+      "card": "AW-001014-TP0179.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1_third_pass\\reports\\probe_recovered_mock_validation_mock_analyze_runs\\qml-f1ee20413985"
+    },
+    {
+      "card": "AW-000487-TP0091.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1_third_pass\\reports\\probe_recovered_mock_validation_mock_analyze_runs\\qml-9d0346f4470c"
+    },
+    {
+      "card": "AW-001351-TP0193.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1_third_pass\\reports\\probe_recovered_mock_validation_mock_analyze_runs\\qml-ebd622faf77c"
+    },
+    {
+      "card": "AW-000320-TP0021.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1_third_pass\\reports\\probe_recovered_mock_validation_mock_analyze_runs\\qml-92c2ff4d4a33"
+    },
+    {
+      "card": "AW-000363-TP0055.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1_third_pass\\reports\\probe_recovered_mock_validation_mock_analyze_runs\\qml-2e27d0aaa507"
+    },
+    {
+      "card": "AW-000682-TP0131.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1_third_pass\\reports\\probe_recovered_mock_validation_mock_analyze_runs\\qml-417c31d4b0f4"
+    },
+    {
+      "card": "AW-000784-TP0154.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1_third_pass\\reports\\probe_recovered_mock_validation_mock_analyze_runs\\qml-257754f2224c"
+    },
+    {
+      "card": "AW-000683-TP0132.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1_third_pass\\reports\\probe_recovered_mock_validation_mock_analyze_runs\\qml-385975eebac3"
+    },
+    {
+      "card": "AW-000601-TP0104.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1_third_pass\\reports\\probe_recovered_mock_validation_mock_analyze_runs\\qml-ab4a40de3597"
+    },
+    {
+      "card": "AW-001355-TP0194.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1_third_pass\\reports\\probe_recovered_mock_validation_mock_analyze_runs\\qml-3a70d7faf7f1"
+    },
+    {
+      "card": "AW-000601-TP0105.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1_third_pass\\reports\\probe_recovered_mock_validation_mock_analyze_runs\\qml-d992382e5755"
+    },
+    {
+      "card": "AW-000604-TP0111.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1_third_pass\\reports\\probe_recovered_mock_validation_mock_analyze_runs\\qml-d53298554870"
+    },
+    {
+      "card": "AW-000357-TP0047.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1_third_pass\\reports\\probe_recovered_mock_validation_mock_analyze_runs\\qml-54400c349c55"
+    },
+    {
+      "card": "AW-000366-TP0058.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1_third_pass\\reports\\probe_recovered_mock_validation_mock_analyze_runs\\qml-8640cbb2f9a8"
+    },
+    {
+      "card": "AW-000388-TP0079.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1_third_pass\\reports\\probe_recovered_mock_validation_mock_analyze_runs\\qml-20e70864f073"
+    },
+    {
+      "card": "AW-000860-TP0163.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1_third_pass\\reports\\probe_recovered_mock_validation_mock_analyze_runs\\qml-6655585a2af7"
+    },
+    {
+      "card": "AW-000292-TP0009.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1_third_pass\\reports\\probe_recovered_mock_validation_mock_analyze_runs\\qml-16441449f786"
+    },
+    {
+      "card": "AW-000766-TP0150.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1_third_pass\\reports\\probe_recovered_mock_validation_mock_analyze_runs\\qml-35943bf736ac"
+    },
+    {
+      "card": "AW-000748-TP0147.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1_third_pass\\reports\\probe_recovered_mock_validation_mock_analyze_runs\\qml-ea4a2d958b81"
+    },
+    {
+      "card": "AW-000378-TP0071.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1_third_pass\\reports\\probe_recovered_mock_validation_mock_analyze_runs\\qml-79237851c336"
+    },
+    {
+      "card": "AW-000486-TP0089.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1_third_pass\\reports\\probe_recovered_mock_validation_mock_analyze_runs\\qml-85e9ce4006f4"
+    },
+    {
+      "card": "AW-000356-TP0045.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1_third_pass\\reports\\probe_recovered_mock_validation_mock_analyze_runs\\qml-24eb52524487"
+    },
+    {
+      "card": "AW-000342-TP0033.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1_third_pass\\reports\\probe_recovered_mock_validation_mock_analyze_runs\\qml-91bff8575473"
+    },
+    {
+      "card": "AW-001877-TP0199.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1_third_pass\\reports\\probe_recovered_mock_validation_mock_analyze_runs\\qml-0df40cd69e66"
+    },
+    {
+      "card": "AW-000477-TP0088.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1_third_pass\\reports\\probe_recovered_mock_validation_mock_analyze_runs\\qml-6e388b636d6a"
+    },
+    {
+      "card": "AW-000364-TP0056.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1_third_pass\\reports\\probe_recovered_mock_validation_mock_analyze_runs\\qml-7cce8d2d67f7"
+    },
+    {
+      "card": "AW-000823-TP0155.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1_third_pass\\reports\\probe_recovered_mock_validation_mock_analyze_runs\\qml-6a88ecfb3aeb"
+    },
+    {
+      "card": "AW-000337-TP0032.yaml",
+      "error": "",
+      "ok": true,
+      "returncode": 0,
+      "run_dir": "C:\\Users\\z1585\\projects\\quantummindlite\\corpus\\algorithm_wiki\\algowiki1901_rich_v1_third_pass\\reports\\probe_recovered_mock_validation_mock_analyze_runs\\qml-3f047ecd5a55"
+    }
+  ],
+  "ok": true,
+  "public_dir": "corpus\\algorithm_wiki\\algowiki1901_rich_v1_third_pass\\public_probe_recovered",
+  "ready_cards": 199,
+  "timestamp": "2026-06-28T19:43:44.040453+00:00",
+  "total_public_cards": 199
+}

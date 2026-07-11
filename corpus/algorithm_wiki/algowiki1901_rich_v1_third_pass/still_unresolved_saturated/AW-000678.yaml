@@ -1,0 +1,68 @@
+algorithm_id: AW-000678
+canonical_name: Jalali and T. Weissman
+enrichment_status: THIRD_PASS_SATURATED_INSUFFICIENT
+review_reasons:
+- After the configured source-family cycles, no source-backed concrete task, input semantics, output semantics, and conservative access model could be established.
+source_records:
+- access_status: metadata_only
+  digest: e9ce1c9b5fbd97ec
+  extracted_facts:
+  - 'AlgorithmWiki row name: Jalali and T. Weissman'
+  - 'domain: unknown'
+  - 'time complexity: O(n)'
+  - 'space complexity: O(n)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: length of input data'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000678:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Jalali and T. Weissman
+  url: https://web.stanford.edu/~tsachy/pdf_files/Lossy%20Source%20Coding%20via%20Markov%20Chain%20Monte%20Carlo.pdf
+- access_status: fetched
+  digest: f90878e5ee488173
+  extracted_facts:
+  - 'Crossref title-search result: Jalali, Shakir'
+  reliability: MEDIUM
+  short_quote: ''
+  source_id: crossref_search:a1b99ee9995e3506
+  source_type: doi_metadata
+  title: Jalali, Shakir
+  url: https://doi.org/10.1163/1570-6664_iyb_sim_person_56940
+- source_id: skipped:f5d9035ecf8b4d76
+  url: https://web.stanford.edu/~tsachy/pdf_files/Lossy%20Source%20Coding%20via%20Markov%20Chain%20Monte%20Carlo.pdf
+  title: public PDF body was not downloaded
+  source_type: original_source
+  access_status: skipped
+  reliability: LOW
+  extracted_facts:
+  - public PDF body was not downloaded
+  short_quote: public PDF body was not downloaded
+  digest: f5f94c5d83fa002f
+- source_id: crossref_search:2797e0cab3d5e337
+  url: https://doi.org/10.1163/1570-6664_iyb_sim_person_56940
+  title: Jalali, Shakir
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title: Jalali, Shakir'
+  - 'published year: 2024'
+  - 'container title: International Year Book and Statesmen''s Who''s Who'
+  short_quote: 'Crossref title: Jalali, Shakir published year: 2024 container title: International Year Book and Statesmen''s Who''s Who'
+  digest: fd586dce99c1440c
+- source_id: openalex:f121797224bd9dff
+  url: https://openalex.org/W4408283632
+  title: 'From concept to cure: The evolution of CAR-T cell therapy'
+  source_type: openalex
+  access_status: fetched
+  reliability: HIGH
+  extracted_facts:
+  - 'OpenAlex title: From concept to cure: The evolution of CAR-T cell therapy'
+  - 'publication year: 2025'
+  short_quote: 'OpenAlex title: From concept to cure: The evolution of CAR-T cell therapy publication year: 2025'
+  digest: 41fa2830ca4e43f5
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

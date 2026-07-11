@@ -1,0 +1,69 @@
+id: AW-000774
+kind: context_recovered
+algorithm_id: AW-000774
+algorithm_name: Bellman Value Iteration (VI)
+source_records:
+- access_status: metadata_only
+  digest: 82c859b5bdeceaba
+  extracted_facts:
+  - 'AlgorithmWiki row name: Bellman Value Iteration (VI)'
+  - 'domain: unknown'
+  - 'time complexity: O(2^n)'
+  - 'space complexity: O(n)'
+  - 'computational model: Word/Real RAM'
+  - 'parameter definitions: n: number of states'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000774:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Bellman Value Iteration (VI)
+  url: https://www.jstor.org/stable/24900506
+- access_status: failed
+  digest: 7a22f663a55326cc
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:b298e56f4a1a82e1
+  source_type: other_public_source
+  title: 'HTTP Error 403: Forbidden'
+  url: https://www.jstor.org/stable/24900506
+- source_id: crossref_search:4678f9cbf779f60c
+  url: https://doi.org/10.1109/tsp.2026.3671726
+  title: Nonparametric Bellman Mappings for Value Iteration in Distributed Reinforcement Learning
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: Nonparametric Bellman Mappings for Value Iteration in Distributed Reinforcement Learning'
+  short_quote: ''
+  digest: ef0062eb4caab3af
+web_query_attempts:
+- query: '"Bellman Value Iteration (VI)" algorithm'
+  method: search_plan
+  status: recorded
+- query: '"Bellman Value Iteration (VI)" input output'
+  method: search_plan
+  status: recorded
+- query: '"Bellman Value Iteration (VI)" time complexity'
+  method: search_plan
+  status: recorded
+- query: '"Bellman Value Iteration (VI)" pseudocode'
+  method: search_plan
+  status: recorded
+- query: '"Bellman Value Iteration (VI)" problem'
+  method: search_plan
+  status: recorded
+- query: '"Bellman Value Iteration (VI)" PDF metadata abstract'
+  method: search_plan
+  status: recorded
+- query: https://www.jstor.org/stable/24900506
+  method: search_plan
+  status: recorded
+- query: Bellman Value Iteration (VI) algorithm
+  method: crossref_title_search
+  status: fetched
+extracted_problem_statement: 'Bellman Value Iteration (VI) is reconstructed as a classical combinatorics task. Problem/task: convert a nondeterministic finite automaton into an equivalent deterministic automaton Input semantics: A finite automaton with n states, alphabet, transition relation, start states, and accepting states. Output semantics: The reachable deterministic automaton states and transition table.'
+extracted_algorithm_summary: 'Bellman Value Iteration (VI) is treated as the named AlgorithmWiki variant for convert a nondeterministic finite automaton into an equivalent deterministic automaton Classical complexity metadata: time O(2^n); space O(n). Public metadata/source title support includes Nonparametric Bellman Mappings for Value Iteration in Distributed Reinforcement Learning.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

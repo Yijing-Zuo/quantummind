@@ -1,0 +1,56 @@
+algorithm_family: graph
+algorithm_id: AW-000577
+approximate: '0'
+approximation_factor: ''
+blind_name: Algorithm Wiki public task AW-000577
+canonical_name: X Chen
+computational_model: Word RAM
+domain: graph
+extracted_description: ''
+extraction_version: algorithm-wiki-rich-context-v1
+family: graph
+inferred_access_model: adjacency_list_query
+inferred_ambiguities:
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.
+inferred_input_model: explicit_graph_problem
+inferred_output_contract: full_solution
+inferred_problem_statement: 'X Chen is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with X Chen. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: An edit-distance value, alignment, or dynamic-programming table information for the input strings.'
+inferred_promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+inferred_size_parameters:
+- 'Parameter definition: V: number of vertices in the larger of the two graphs, S: size of the search tree (\exp(V)), w: the beam width parameter for how many of the best nodes are kept at each layer of the beam search (O(V))'
+number_of_processors: ''
+page_digest: ''
+page_fetch_status: not_found
+page_url: ''
+parameter_definitions: 'V: number of vertices in the larger of the two graphs, S: size of the search tree (\exp(V)), w: the beam width parameter for how many of the best nodes are kept at each layer of the beam search (O(V))'
+problem_name: graph
+quality_flags:
+- domain_inferred
+- problem_statement_inferred
+- io_access_output_inferred
+- has_complexity_semantics
+- has_size_parameters
+- has_computational_model
+quality_score: 100
+randomized: '0'
+readiness: READY_PUBLIC_CONTEXT
+review_reasons: []
+source_link: https://doi.org/10.1016/j.knosys.2018.10.002
+source_link_type: doi
+space_complexity: O(wV^2)
+span_depth: ''
+time_complexity: O(V!)
+variation: ''
+work: ''
+year: '2019'
+rich_card_kind: context
+source_records_used:
+- AW-000577:algorithm_wiki_metadata
+- crossref:501b1b79818f32f9
+- source:99210fe4cdd67b8f
+source_count: 3
+source_quality: HIGH
+confidence_score: 100
+card_digest: 3f7d773ec12ada8f

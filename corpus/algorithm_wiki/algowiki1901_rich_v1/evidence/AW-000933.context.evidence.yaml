@@ -1,0 +1,49 @@
+id: AW-000933
+kind: context
+algorithm_id: AW-000933
+algorithm_name: Chu-Liu-Edmonds Algorithm
+source_records:
+- access_status: metadata_only
+  digest: 917f72d377d2642b
+  extracted_facts:
+  - 'AlgorithmWiki row name: Chu-Liu-Edmonds Algorithm'
+  - 'domain: graph'
+  - 'time complexity: O(EV)'
+  - 'space complexity: O(E+V)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: V: number of vertices, E: number of edges, U: maximum edge weight'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(EV); space O(E+V). Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000933:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Chu-Liu-Edmonds Algorithm
+  url: https://nvlpubs.nist.gov/nistpubs/jres/71b/jresv71bn4p233_a1b.pdf
+web_query_attempts:
+- method: search_plan
+  query: Chu-Liu-Edmonds Algorithm algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Chu-Liu-Edmonds Algorithm algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Chu-Liu-Edmonds Algorithm problem definition
+  status: recorded
+- method: search_plan
+  query: Chu-Liu-Edmonds Algorithm graph algorithm
+  status: recorded
+- method: search_plan
+  query: Chu-Liu-Edmonds Algorithm site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Chu-Liu-Edmonds Algorithm algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://nvlpubs.nist.gov/nistpubs/jres/71b/jresv71bn4p233_a1b.pdf
+  status: recorded
+- method: wikipedia_summary_search
+  query: Chu-Liu-Edmonds Algorithm algorithm
+  status: failed_or_not_relevant
+extracted_problem_statement: 'Chu-Liu-Edmonds Algorithm is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Chu-Liu-Edmonds Algorithm. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'Chu-Liu-Edmonds Algorithm is a graph algorithm record. Classical complexity metadata: time O(EV); space O(E+V). The stated classical model is Word RAM. Public metadata/source text adds: Chu-Liu-Edmonds Algorithm graph graph V: number of vertices, E: number of edges, U: maximum edge weight O(EV) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

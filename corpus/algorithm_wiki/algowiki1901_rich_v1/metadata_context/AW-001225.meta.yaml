@@ -1,0 +1,61 @@
+algorithm_family: parallel algorithms
+algorithm_id: AW-001225
+approximate: ''
+approximation_factor: ''
+blind_name: Algorithm Wiki public task AW-001225
+canonical_name: Gerbessiotis, Siniolakis
+computational_model: BSP
+domain: parallel_algorithms
+extracted_description: ''
+extraction_version: algorithm-wiki-rich-context-v1
+family: parallel_algorithms
+inferred_access_model: explicit_input_instance
+inferred_ambiguities:
+- The AlgorithmWiki row marks the classical method as randomized.
+- No independent fetched public metadata source resolved this row beyond AlgorithmWiki metadata/source-link facts.
+- Some details are reconstructed from AlgorithmWiki metadata rather than an independently fetched full public description.
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.
+inferred_input_model: explicit_parallel_algorithm_problem
+inferred_output_contract: full_solution
+inferred_problem_statement: 'Gerbessiotis, Siniolakis is treated as a classical parallel algorithms task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Gerbessiotis, Siniolakis. Input semantics: The classical input instance named by the row, together with processor/work/span parameters when stated. Output semantics: The same mathematical output as the underlying classical task, annotated by work/span when available.'
+inferred_promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+- classical_randomized_algorithm
+inferred_size_parameters:
+- 'Parameter definition: n: number of ints in range [0,...R-1], p: number of processors, r=ceilling(lg R/ lg max{ceilling(n/p), t ceilling(log_t p)}), t: int 2<=t<=p'
+- p = stated number of processors (p)
+number_of_processors: p
+page_digest: ''
+page_fetch_status: not_found
+page_url: ''
+parameter_definitions: 'n: number of ints in range [0,...R-1], p: number of processors, r=ceilling(lg R/ lg max{ceilling(n/p), t ceilling(log_t p)}), t: int 2<=t<=p'
+problem_name: parallel algorithms
+quality_flags:
+- domain_inferred
+- problem_statement_inferred
+- io_access_output_inferred
+- has_complexity_semantics
+- has_size_parameters
+- has_computational_model
+- randomized_flag_preserved
+quality_score: 100
+randomized: '1'
+readiness: READY_PUBLIC_CONTEXT
+review_reasons:
+- A previous row has the same canonicalized algorithm name.
+source_link: https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=a867d950e57eacf0da9dd17cc80073f124d438ce
+source_link_type: citeseerx
+space_complexity: ''
+span_depth: ''
+time_complexity: (1+2/\omeg_n) n \log{n}/p + O(n/p(\delta \log{\log{n}} +m^2 +\log{n}/ \log{n/p} + \log{n/p}/ \log^0.5{n}) + \log{n}\log{p}/ \log{n/p} + L\log{n} + L\log{n}\log{p}/ \log{n/p}) computation, O(L\log{n}\log{p}/\log{n/p} + L\log{n} + g n/p \log{n}/ \log{n/p} + g\log{n}\log{p}/ \log{n/p} + g\log{n} + n/p mg) communication if l=r, , (1-1/2^m)(1+2/\omega_n)n\log{n}/p + O(n/p \log^4{\log{n}} + n/p \log{n}/\log{n/p} + \log{n}\log{p}/\log{n/p} + L\log{n} + L\log{n}\log{p}/\log{n/p}) computation, O(gn/p \log^4{\log{n}} + L\log{n}\log{p}/\log{n/p} +L\log{n} + gn/p \log{n}/\log{n/p} + g\log{n}\log{p}/\log{n/p} + g\log{n}) communication if l=/r and N<=\log^{\log{\log{n}}}{n}
+variation: ''
+work: ''
+year: '2001'
+rich_card_kind: context
+source_records_used:
+- AW-001225:algorithm_wiki_metadata
+source_count: 1
+source_quality: HIGH
+confidence_score: 100
+card_digest: 3b51bdd3586a6376

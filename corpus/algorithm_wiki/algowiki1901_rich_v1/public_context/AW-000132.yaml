@@ -1,0 +1,16 @@
+statement: 'EKF SLAM is included as a named whole-algorithm context card for a classical robotics task. The task is to analyze the classical input-output problem, not to certify an end-to-end improvement claim. Input semantics: A robot state-estimation or planning instance with observations, controls, map, or configuration constraints. Output semantics: A state estimate, map, path, configuration sequence, or control-relevant output. Classical algorithm summary: EKF SLAM is a robotics algorithm record. Classical complexity metadata: time O(n^3); space O(n^2). The stated classical model is Real RAM. Public metadata/source text adds: EKF SLAM robotics robotics n: number of dimensions in state space O(n^3) Given an explicit robotics planning instance, compute a feasible path, motion plan, or configuration sequence under the stated constraints. Classical complexity recorded for this row: time O(n^3); space O(n^2); computation model Real RAM. Dominant bottleneck: dominant bottleneck remains uncertain
+  from the available public source metadata. The useful review questions are whether the named structure exposes a smaller decision, witness, estimation, or algebraic subproblem; whether the full output size dominates any asymptotic gain; and whether the stated access model is realistic for the original input. Provenance is limited to AlgorithmWiki metadata and source-link facts; unresolved details are kept as ambiguities. Source-backed uncertainty or assumptions: The AlgorithmWiki row marks the classical method as approximate.; No independent fetched public metadata source resolved this row beyond AlgorithmWiki metadata/source-link facts.'
+input_model: explicit_robotics_problem
+access_model: explicit_input_instance
+output_contract: full_solution
+promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+- classical_approximation_algorithm
+size_parameters:
+- 'Parameter definition: n: number of dimensions in state space'
+ambiguities:
+- The AlgorithmWiki row marks the classical method as approximate.
+- No independent fetched public metadata source resolved this row beyond AlgorithmWiki metadata/source-link facts.
+- Some details are reconstructed from AlgorithmWiki metadata rather than an independently fetched full public description.
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.

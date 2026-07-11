@@ -1,0 +1,46 @@
+id: AW-000454
+kind: context
+algorithm_id: AW-000454
+algorithm_name: Gaussian Elimination
+source_records:
+- access_status: metadata_only
+  digest: 9f102e5ae0bdc232
+  extracted_facts:
+  - 'AlgorithmWiki row name: Gaussian Elimination'
+  - 'domain: matrix_linear_algebra'
+  - 'time complexity: O(n^3)'
+  - 'space complexity: O(n^2)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: dimension of matrix'
+  - 'precard summary: Given one or more explicit dense matrices over the stated arithmetic domain, compute the matrix or linear-algebraic output specified by the record. Baseline: time O(n^3); space O(n^2). Bottleneck: dense arithmetic and full matrix output dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000454:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Gaussian Elimination
+  url: '-'
+web_query_attempts:
+- method: search_plan
+  query: Gaussian Elimination algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Gaussian Elimination algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Gaussian Elimination problem definition
+  status: recorded
+- method: search_plan
+  query: Gaussian Elimination matrix linear algebra algorithm
+  status: recorded
+- method: search_plan
+  query: Gaussian Elimination site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Gaussian Elimination algorithm wiki
+  status: recorded
+- method: search_plan
+  query: '-'
+  status: recorded
+extracted_problem_statement: 'Gaussian Elimination is treated as a classical matrix linear algebra task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Gaussian Elimination. Input semantics: One or more explicit matrices or linear systems over the stated arithmetic domain. Output semantics: A solved linear system, echelon form, inverse, or elimination-derived matrix output.'
+extracted_algorithm_summary: 'Gaussian Elimination is a matrix linear algebra algorithm record. Classical complexity metadata: time O(n^3); space O(n^2). The stated classical model is Word RAM. Public metadata/source text adds: Gaussian Elimination matrix_linear_algebra matrix_linear_algebra n: dimension of matrix O(n^3) Given one or more explicit dense matrices over the stated arithmetic domain, compute the matrix or linear-algebraic output specified by the record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

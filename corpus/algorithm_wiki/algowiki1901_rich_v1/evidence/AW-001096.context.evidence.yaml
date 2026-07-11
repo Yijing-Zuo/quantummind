@@ -1,0 +1,71 @@
+id: AW-001096
+kind: context
+algorithm_id: AW-001096
+algorithm_name: parallel shellsort - Quinn
+source_records:
+- access_status: metadata_only
+  digest: 3a8af1d0cf95781e
+  extracted_facts:
+  - 'AlgorithmWiki row name: parallel shellsort - Quinn'
+  - 'domain: sorting'
+  - 'time complexity: O(n^{3/2})'
+  - 'computational model: tightly coupled multiprocessor model'
+  - 'parameter definitions: n: size of list, p: number of processors'
+  - 'precard summary: Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model. Baseline: time O(n^{3/2}); work O(p n^{3/2}); span/depth O(n^{3/2}); processors p. Bottleneck: comparison, distribution, and full-output movement costs dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001096:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for parallel shellsort - Quinn
+  url: https://www.sciencedirect.com/science/article/pii/0167819188900750
+- access_status: skipped
+  digest: e7a0d39e55128322
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:c7b8df3abad26914
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://www.sciencedirect.com/science/article/pii/0167819188900750
+- access_status: skipped
+  digest: 3f54bfbd5d9c00c1
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:f2c2d265bbc6e1b8
+  source_type: wikipedia
+  title: fetch budget exhausted
+  url: https://en.wikipedia.org/wiki/parallel_shellsort_-_Quinn
+web_query_attempts:
+- method: search_plan
+  query: parallel shellsort - Quinn algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: parallel shellsort - Quinn algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: parallel shellsort - Quinn problem definition
+  status: recorded
+- method: search_plan
+  query: parallel shellsort - Quinn sorting algorithm
+  status: recorded
+- method: search_plan
+  query: parallel shellsort - Quinn site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: parallel shellsort - Quinn algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://www.sciencedirect.com/science/article/pii/0167819188900750
+  status: recorded
+- method: source_link_html_metadata
+  query: https://www.sciencedirect.com/science/article/pii/0167819188900750
+  status: skipped
+- method: wikipedia_summary_search
+  query: parallel shellsort - Quinn algorithm
+  status: skipped
+extracted_problem_statement: 'parallel shellsort - Quinn is treated as a classical sorting task for rich AlgorithmWiki discovery. Problem/task: sort the input sequence using the named classical sorting method. Input semantics: A finite array or list of comparable keys or records. Output semantics: The same items returned in nondecreasing order, usually as a full reordered sequence.'
+extracted_algorithm_summary: 'parallel shellsort - Quinn is a sorting algorithm record. Classical complexity metadata: time O(n^{3/2}); work O(p n^{3/2}); span/depth O(n^{3/2}); processors p. The stated classical model is tightly coupled multiprocessor model. Public metadata/source text adds: parallel shellsort - Quinn sorting sorting n: size of list, p: number of processors O(n^{3/2}) Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

@@ -1,0 +1,3482 @@
+{
+  "columns": [
+    "Name",
+    "Year",
+    "Time Complexity",
+    "Space Complexity",
+    "Computational Model",
+    "Randomized",
+    "Randomized Type",
+    "Approximate",
+    "Approximation Factor",
+    "Parameter Definitions",
+    "Span Depth",
+    "Work",
+    "Number Of Processors",
+    "Link"
+  ],
+  "computational_model_counts": {
+    "\"Intersecting Broadcast Machine\"; MIMD": 1,
+    "\"comparator network - deterministic sequence of switches\"": 1,
+    "\"distributed memory parallel computer\"": 1,
+    "\"multiprocessor system\", \"shared memory\"": 2,
+    "\"parallel disk model (PDM)\"": 1,
+    "\"tightly coupled multiprocessor model\"": 2,
+    "(CREW) PRAM": 2,
+    "(SIMD-type) PRAM CREW": 3,
+    "(any) PRAM": 1,
+    "(fixed-size) sorting network": 1,
+    "(shared memory no communication)": 1,
+    "2D mesh": 4,
+    "2D reconfigurable mesh": 1,
+    "3-d reconfigurable mesh; sorting network": 1,
+    "ARBITRARY CRCW PRAM": 2,
+    "Approximate Arithmitic": 1,
+    "Arbitrary CRCW PRAM": 1,
+    "Arithmetic Circuit": 1,
+    "BSP": 22,
+    "BSP (written for SPMD)": 1,
+    "BSP/CGM": 3,
+    "Biswapped Network (BSN); BSN-mesh": 1,
+    "Block PRAM": 1,
+    "Boolean Circuit": 1,
+    "Bulk-Synchronous Parallel (BSP) [has section on comp model]": 1,
+    "CGM": 7,
+    "CGM/BSP": 1,
+    "COMMON CRCW PRAM": 7,
+    "CRCW MIMD-TC": 1,
+    "CRCW PRAM": 101,
+    "CRCW PRAM (ARBITRARY)": 1,
+    "CRCW PRAM (TOLERANT PRAM submodel, also works on ARBITRARY and PRIORITY PRAMs)": 1,
+    "CRCW PRAM (assuming O(1) time feth-and-add)": 1,
+    "CRCW PRAM w/ asymetric write costs (writes cost k, other instructions cost 1)": 1,
+    "CRCW PRAM; arbitrary CRCW PRAM": 2,
+    "CRCW SIMD": 1,
+    "CRCW and EREW PRAM": 2,
+    "CREW PRAM": 119,
+    "CREW PRAM (Shared Memory)": 1,
+    "CREW PRAM (TRAM)": 1,
+    "CREW PRAM algorithm implemented in MPI": 1,
+    "CREW PRAM, SIMD": 1,
+    "CREW SIMD PRAM": 2,
+    "CRQW PRAM": 1,
+    "CUDA": 1,
+    "Circuits, simulatable in PRAM": 1,
+    "Common CRCW PRAM": 2,
+    "Communication network": 1,
+    "Distributed memory MIMD, like the Intel Touchstone Delta": 1,
+    "Double-tape TM": 1,
+    "EREW PRAM": 98,
+    "EREW PRAM (nonstandard word length of O(log n loglog n log m) bits": 2,
+    "EREW PRAM, MIMD machine": 1,
+    "EREW PRAM, possibly others (see paper)": 1,
+    "EREW SM SIMD computer": 1,
+    "EREW() PRAM": 1,
+    "EREW, CREW PRAM": 2,
+    "Hypercube, Star, or Pancake interconnection network": 1,
+    "Intel Paragon": 1,
+    "LPRAM": 2,
+    "MIMD": 22,
+    "MIMD + describes comp model w/ assumptions": 1,
+    "MIMD EREW": 4,
+    "MIMD and SIMD": 1,
+    "MIMD hypercube": 1,
+    "MIMD hypercubes": 1,
+    "MIMD with regular interconnection networks bet proc": 1,
+    "MIMD-TC": 6,
+    "MIMD-TC CRCW": 1,
+    "MIMD-TC-R": 1,
+    "MIMD-like machine": 1,
+    "MPI": 7,
+    "MPI-based": 2,
+    "MPP": 1,
+    "Message Passing Interface (MPI)": 1,
+    "Multi-Mesh network, SIMD": 1,
+    "Multiple Program Multiple Data (MPMD) model": 1,
+    "OPTICAL hardware sorter": 1,
+    "OR CRCW PRAM": 6,
+    "Open Multi-Processing (Open-MP) programming model; shared memory": 1,
+    "Oracle query returns gradient at a point": 1,
+    "PRAC (shared-memory multiprocessor of the EREW PRAM variety)": 2,
+    "PRAM": 43,
+    "PRAM (not sure what type), SIMD computers": 1,
+    "PRAM (not sure which type)": 1,
+    "PRAM - CREW": 1,
+    "PRAM CRCW": 2,
+    "PRAM CREW": 2,
+    "PRAM EREW": 1,
+    "PRAM-CRCW": 11,
+    "PRAM-CREW": 2,
+    "PRAM-CREW and PRAM-EREW": 1,
+    "PRAM-EREW": 2,
+    "PRAM/SMPs": 2,
+    "Parallel RAM": 4,
+    "Pointer Machine": 2,
+    "Priority CRCW PRAM": 1,
+    "QRQW ASYNCRONOUS PRAM": 1,
+    "Quantum Adiabatic Computing": 1,
+    "Quantum Computer": 1,
+    "Query Complexity": 1,
+    "Real RAM": 87,
+    "Real RAM, under more restrictions/considerations (predicate arithmetic)": 1,
+    "Real RAM, under more restrictions/considerations (predicate arithmetic, exact arithmetic)": 1,
+    "SIMD": 18,
+    "SIMD (ICL DAP)": 1,
+    "SIMD (synch, CRCW)": 1,
+    "SIMD (synchronous, CRCW)": 1,
+    "SIMD PRAM CREW": 1,
+    "SIMD with distributed memory": 1,
+    "SIMD with unbounded fan-in/CRCW PRAM": 1,
+    "SIMD, MIMD": 1,
+    "SIMD, multi-mesh of trees (MMT) architecture": 1,
+    "SIMD-CC": 4,
+    "SIMD-PS": 3,
+    "SIMD-PS, SIMD-CC": 1,
+    "SIMD-R": 1,
+    "SIMD-SM (CREW PRAM)": 2,
+    "SIMD-SM (EREW PRAM)": 3,
+    "SIMD-SM (no memory fetch conflicts)": 1,
+    "SIMD-SM CREW": 4,
+    "SIMD-SM-R": 6,
+    "SIMD-SM-R (CREW PRAM)": 21,
+    "SIMD-SM-R (memory fetch conflicts)": 1,
+    "SIMD-SM-RW (CRCW PRAM)": 4,
+    "SIMD-SM-RW (arbitrary-CRCW PRAM)": 1,
+    "SIMD; MIMD": 1,
+    "SM-SIMD (CRCW)": 2,
+    "SMP (shared memory)": 2,
+    "Serial": 1,
+    "Shenteng 1800 using MPI": 2,
+    "Shuffle-exchange network": 2,
+    "Sorting Network": 1,
+    "Sorting Network, Recursive Dual-Net (RDN)": 1,
+    "TSVQ Tree": 1,
+    "Trans-dichotomous": 1,
+    "Uniform-Cost RAM (is this the same as Word RAM)": 1,
+    "WPRAM": 2,
+    "Word RAM": 545,
+    "Word RAM (implemented on ALGOL)": 1,
+    "Word RAM (or unit-cost RAM, more generally)": 2,
+    "Word RAM (without O(1) multiplication)": 2,
+    "Word RAM and multitape TM": 1,
+    "Word RAM with word size w = Omega(log n)": 1,
+    "Word RAM with word size w = log n": 2,
+    "Word RAM words size O(1)": 4,
+    "Word/Real RAM": 101,
+    "Word/Real RAM (per node)": 3,
+    "an r x c mesh of processors, message passing": 1,
+    "arbitrary CRCW PRAM": 8,
+    "arbitrary-CRCW PRAM": 2,
+    "array processor (distributed memory SIMD)": 1,
+    "binary tree network - sorting network": 1,
+    "boolean circuits": 1,
+    "boolean cube (MIMD and SIMD)": 1,
+    "coarse grained multicomputer model (CGM) [w/ a PRAM architecture]": 1,
+    "common CRCW PRAM": 3,
+    "communication model similar to LogP and BSP": 2,
+    "data parallel, hypercube (CM-200)": 1,
+    "distributed MIMD w/ k hyper-torus network": 1,
+    "distributed MIMD w/ ring network": 1,
+    "distributed memory": 17,
+    "distributed memory (spark)": 1,
+    "distributed memory MIMD (like Intel Paragon)": 1,
+    "distributed memory MIMD, w/ at least a 2D mesh topology": 1,
+    "distributed memory architecture": 1,
+    "distributed memory concurrent computers": 1,
+    "distributed memory, message passing": 5,
+    "distributed message passing": 2,
+    "distributed-memory MIMD": 2,
+    "distributed-memory model": 2,
+    "distributed-memory multiprocessors": 1,
+    "distributed-memory parallel architecture, pipelined hypercube": 1,
+    "distributed-memory; also shared-memory system with non-uniform access": 1,
+    "fixed-size sorting network (inner sorter)": 1,
+    "for ILLIAC architecture; processor array; EREW PRAM": 1,
+    "fork/join shared memory": 2,
+    "generalization of BSP": 1,
+    "hardware sorter": 15,
+    "hypercube": 2,
+    "hypercube (MIMD)": 1,
+    "hypercubes": 1,
+    "interconnection network w/ distributed shared memory": 1,
+    "k-d reconfigurable mesh; sorting network": 1,
+    "log-space pyramid cellular automaton": 1,
+    "massively parallel (based on ILLAC mention)": 3,
+    "massively parallel; linear array of processors": 1,
+    "master-worker model": 1,
+    "mesh array": 1,
+    "message-passing network - BSP without the bulk-synchrony requirement": 1,
+    "min-CRCW PRAM": 2,
+    "model to be implemented on Message Passing Interface (MPI)": 1,
+    "model to be implemented on a Sympetric Multiprocessor (SMP)": 1,
+    "multidimensional mesh-connected multiprocessors (MMCM); SIMD": 1,
+    "multiple processors that access a shared memory (ex: Symmetric Multiple Processor) that supports atomic read-update-write": 1,
+    "multiprocessor task programming model (uses distributed memory)": 1,
+    "n-Hypercube": 1,
+    "nearest neighbor connected array; MIMD": 1,
+    "network or hardware (VLSI) sorter": 1,
+    "network sorter (hypercube, shuffle-exchange or CCC), \"SIMD fashion\"": 1,
+    "network sorter, SIMD": 1,
+    "network sorter, SIMD (Cube connected and perfect shuffle)": 1,
+    "network sorter; \"compliant with VLSI design\"; Cube connected cycles": 1,
+    "networked computers": 1,
+    "neural network": 1,
+    "not mentioned": 2,
+    "p synchronous processors, w/ communication cost": 2,
+    "priority CRCW PRAM": 2,
+    "probabilistic algebraic random access machine defined formally in (Kaltofen 1988)": 1,
+    "processor array (with reconfigurable bus system)": 1,
+    "processor network": 1,
+    "queue-read queue write (QRQW) PRAM [CRCW PRAM but with additional cost in proportion to number of readers/writers to location]": 1,
+    "reconfigurable mesh, SIMD": 1,
+    "shared memory": 10,
+    "shared memory (CRCW PRAM)": 1,
+    "shared memory (implements OpenMP)": 2,
+    "shared memory MIMD": 2,
+    "shared memory SIMD": 2,
+    "shared memory and remote memory access (RMA) communication": 1,
+    "shared memory multiprocessor (PRAM or similar)": 1,
+    "shared-memory multicore machine in the binary-forking model": 3,
+    "similar to ILLIAC IV machine, SIMD, mesh-connected array": 2,
+    "some type of message passing": 1,
+    "sorting network": 26,
+    "sorting network (fault tolerant)": 1,
+    "sorting network (hypercube)": 4,
+    "sorting network (reconfigurable mesh)": 1,
+    "sorting network (serial memories)": 2,
+    "sorting network, suitable for VLSI": 1,
+    "sorting network, t-dimensional mesh": 1,
+    "sorting network; metacube": 1,
+    "synchronous communication": 1,
+    "systolic tree (VHDL simulation)": 1,
+    "transputer systems (distributed memory)": 1,
+    "unknown": 260,
+    "unlisted, assume MIMD": 1,
+    "unlisted; assumed CREW PRAM": 1,
+    "unspecified PRAM": 1,
+    "work-depth": 1,
+    "work-depth CRCW": 4
+  },
+  "duplicate_names": {
+    "5 point adi iteration": [
+      {
+        "algorithm_id": "AW-000596",
+        "name": "5-point ADI iteration"
+      },
+      {
+        "algorithm_id": "AW-000605",
+        "name": "5-point ADI iteration"
+      }
+    ],
+    "5 point fft": [
+      {
+        "algorithm_id": "AW-000600",
+        "name": "5-point FFT"
+      },
+      {
+        "algorithm_id": "AW-000609",
+        "name": "5-point FFT"
+      }
+    ],
+    "5 point gauss elimination": [
+      {
+        "algorithm_id": "AW-000593",
+        "name": "5-point Gauss elimination"
+      },
+      {
+        "algorithm_id": "AW-000602",
+        "name": "5-point Gauss elimination"
+      }
+    ],
+    "5 point gauss seidel iteration": [
+      {
+        "algorithm_id": "AW-000594",
+        "name": "5-point Gauss Seidel iteration"
+      },
+      {
+        "algorithm_id": "AW-000603",
+        "name": "5-point Gauss Seidel iteration"
+      }
+    ],
+    "5 point sor iteration": [
+      {
+        "algorithm_id": "AW-000595",
+        "name": "5-point SOR iteration"
+      },
+      {
+        "algorithm_id": "AW-000604",
+        "name": "5-point SOR iteration"
+      }
+    ],
+    "5 point star cramers rule": [
+      {
+        "algorithm_id": "AW-000592",
+        "name": "5-point star Cramer's rule"
+      },
+      {
+        "algorithm_id": "AW-000601",
+        "name": "5-point star Cramer's rule"
+      }
+    ],
+    "9 point adi iteration": [
+      {
+        "algorithm_id": "AW-000599",
+        "name": "9-point ADI iteration"
+      },
+      {
+        "algorithm_id": "AW-000608",
+        "name": "9-point ADI iteration"
+      }
+    ],
+    "9 point sor iteration": [
+      {
+        "algorithm_id": "AW-000597",
+        "name": "9-point SOR iteration"
+      },
+      {
+        "algorithm_id": "AW-000606",
+        "name": "9-point SOR iteration"
+      }
+    ],
+    "9 point tensor product": [
+      {
+        "algorithm_id": "AW-000598",
+        "name": "9-point Tensor product"
+      },
+      {
+        "algorithm_id": "AW-000607",
+        "name": "9-point Tensor product"
+      }
+    ],
+    "adler dittrich juurlink kutylowski rieping": [
+      {
+        "algorithm_id": "AW-001516",
+        "name": "Adler, Dittrich, Juurlink, Kutylowski, Rieping (1)"
+      },
+      {
+        "algorithm_id": "AW-001517",
+        "name": "Adler, Dittrich, Juurlink, Kutylowski, Rieping (2)"
+      },
+      {
+        "algorithm_id": "AW-001518",
+        "name": "Adler, Dittrich, Juurlink, Kutylowski, Rieping (3)"
+      },
+      {
+        "algorithm_id": "AW-001519",
+        "name": "Adler, Dittrich, Juurlink, Kutylowski, Rieping (3)"
+      }
+    ],
+    "aggarwal chandra snir": [
+      {
+        "algorithm_id": "AW-001100",
+        "name": "Aggarwal, Chandra, Snir"
+      },
+      {
+        "algorithm_id": "AW-001111",
+        "name": "AGGARWAL, CHANDRA, SNIR"
+      },
+      {
+        "algorithm_id": "AW-001330",
+        "name": "AGGARWAL, CHANDRA, SNIR"
+      }
+    ],
+    "aggarwal chazelle guibas d nlaing yap": [
+      {
+        "algorithm_id": "AW-001377",
+        "name": "Aggarwal, Chazelle, Guibas, \u00d3'D\u00fanlaing, Yap"
+      },
+      {
+        "algorithm_id": "AW-001389",
+        "name": "Aggarwal, Chazelle, Guibas, \u00d3'D\u00fanlaing, Yap"
+      },
+      {
+        "algorithm_id": "AW-001399",
+        "name": "Aggarwal, Chazelle, Guibas, \u00d3'D\u00fanlaing, Yap"
+      },
+      {
+        "algorithm_id": "AW-001708",
+        "name": "Aggarwal, Chazelle, Guibas, \u00d3'D\u00fanlaing, Yap"
+      },
+      {
+        "algorithm_id": "AW-001756",
+        "name": "Aggarwal, Chazelle, Guibas, \u00d3'D\u00fanlaing, Yap"
+      }
+    ],
+    "agostino storer": [
+      {
+        "algorithm_id": "AW-001813",
+        "name": "Agostino, Storer (1)"
+      },
+      {
+        "algorithm_id": "AW-001814",
+        "name": "Agostino, Storer (2)"
+      }
+    ],
+    "ahrabian nowzari dalini": [
+      {
+        "algorithm_id": "AW-001537",
+        "name": "AHRABIAN, NOWZARI-DALINI (1)"
+      },
+      {
+        "algorithm_id": "AW-001538",
+        "name": "AHRABIAN, NOWZARI-DALINI (1)"
+      },
+      {
+        "algorithm_id": "AW-001539",
+        "name": "AHRABIAN, NOWZARI-DALINI (2)"
+      },
+      {
+        "algorithm_id": "AW-001540",
+        "name": "AHRABIAN, NOWZARI-DALINI (2)"
+      }
+    ],
+    "akl": [
+      {
+        "algorithm_id": "AW-001048",
+        "name": "Akl"
+      },
+      {
+        "algorithm_id": "AW-001272",
+        "name": "Akl"
+      },
+      {
+        "algorithm_id": "AW-001384",
+        "name": "Akl"
+      },
+      {
+        "algorithm_id": "AW-001385",
+        "name": "Akl"
+      },
+      {
+        "algorithm_id": "AW-001391",
+        "name": "Akl"
+      },
+      {
+        "algorithm_id": "AW-001483",
+        "name": "Akl"
+      },
+      {
+        "algorithm_id": "AW-001484",
+        "name": "Akl"
+      },
+      {
+        "algorithm_id": "AW-001648",
+        "name": "Akl"
+      },
+      {
+        "algorithm_id": "AW-001854",
+        "name": "Akl"
+      }
+    ],
+    "albers hagerup": [
+      {
+        "algorithm_id": "AW-001193",
+        "name": "Albers, Hagerup (1)"
+      },
+      {
+        "algorithm_id": "AW-001194",
+        "name": "Albers, Hagerup (1)"
+      },
+      {
+        "algorithm_id": "AW-001195",
+        "name": "Albers, Hagerup (2)"
+      },
+      {
+        "algorithm_id": "AW-001196",
+        "name": "Albers, Hagerup (2)"
+      },
+      {
+        "algorithm_id": "AW-001197",
+        "name": "Albers, Hagerup (3)"
+      },
+      {
+        "algorithm_id": "AW-001198",
+        "name": "Albers, Hagerup (3)"
+      }
+    ],
+    "alves c ceres song": [
+      {
+        "algorithm_id": "AW-001286",
+        "name": "Alves, C\u00e1ceres, Song"
+      },
+      {
+        "algorithm_id": "AW-001287",
+        "name": "Alves, C\u00e1ceres, Song"
+      }
+    ],
+    "alves caceres song": [
+      {
+        "algorithm_id": "AW-001829",
+        "name": "Alves, Caceres, Song (1)"
+      },
+      {
+        "algorithm_id": "AW-001830",
+        "name": "Alves, Caceres, Song (2)"
+      }
+    ],
+    "amato goodrich ramos randomized": [
+      {
+        "algorithm_id": "AW-001407",
+        "name": "Amato, Goodrich, Ramos [randomized] (2)"
+      },
+      {
+        "algorithm_id": "AW-001408",
+        "name": "Amato, Goodrich, Ramos [randomized] (3)"
+      }
+    ],
+    "andersson hagerup nilsson raman": [
+      {
+        "algorithm_id": "AW-001171",
+        "name": "Andersson, Hagerup, Nilsson, Raman (1)"
+      },
+      {
+        "algorithm_id": "AW-001172",
+        "name": "Andersson, Hagerup, Nilsson, Raman (1)"
+      },
+      {
+        "algorithm_id": "AW-001173",
+        "name": "Andersson, Hagerup, Nilsson, Raman (2)"
+      },
+      {
+        "algorithm_id": "AW-001174",
+        "name": "Andersson, Hagerup, Nilsson, Raman (2)"
+      }
+    ],
+    "andrews et al": [
+      {
+        "algorithm_id": "AW-001630",
+        "name": "Andrews et al. (1)"
+      },
+      {
+        "algorithm_id": "AW-001631",
+        "name": "Andrews et al. (2)"
+      }
+    ],
+    "apostolico and guerra": [
+      {
+        "algorithm_id": "AW-000404",
+        "name": "Apostolico and Guerra (HS1 Algorithm)"
+      },
+      {
+        "algorithm_id": "AW-000410",
+        "name": "Apostolico and Guerra (Algorithm 2)"
+      }
+    ],
+    "apostolico atallah larmore mcfaddin": [
+      {
+        "algorithm_id": "AW-001288",
+        "name": "Apostolico, Atallah, Larmore, McFaddin (1)"
+      },
+      {
+        "algorithm_id": "AW-001289",
+        "name": "Apostolico, Atallah, Larmore, McFaddin (2)"
+      }
+    ],
+    "apostolico et al": [
+      {
+        "algorithm_id": "AW-001604",
+        "name": "Apostolico et al. (1)"
+      },
+      {
+        "algorithm_id": "AW-001605",
+        "name": "Apostolico et al. (2)"
+      }
+    ],
+    "atallah goodrich": [
+      {
+        "algorithm_id": "AW-001378",
+        "name": "Atallah, Goodrich (1)"
+      },
+      {
+        "algorithm_id": "AW-001379",
+        "name": "Atallah, Goodrich (2)"
+      },
+      {
+        "algorithm_id": "AW-001386",
+        "name": "Atallah, Goodrich"
+      },
+      {
+        "algorithm_id": "AW-001546",
+        "name": "Atallah, Goodrich"
+      }
+    ],
+    "avl tree": [
+      {
+        "algorithm_id": "AW-000979",
+        "name": "AVL Tree"
+      },
+      {
+        "algorithm_id": "AW-000984",
+        "name": "AVL Tree"
+      },
+      {
+        "algorithm_id": "AW-000989",
+        "name": "AVL Tree"
+      }
+    ],
+    "awerbuch shiloach": [
+      {
+        "algorithm_id": "AW-001441",
+        "name": "Awerbuch, Shiloach"
+      },
+      {
+        "algorithm_id": "AW-001487",
+        "name": "Awerbuch, Shiloach (1)"
+      },
+      {
+        "algorithm_id": "AW-001488",
+        "name": "Awerbuch, Shiloach (1)"
+      },
+      {
+        "algorithm_id": "AW-001489",
+        "name": "Awerbuch, Shiloach (2)"
+      }
+    ],
+    "b i kvasov": [
+      {
+        "algorithm_id": "AW-000718",
+        "name": "B.I. Kvasov"
+      },
+      {
+        "algorithm_id": "AW-000723",
+        "name": "B. I. Kvasov"
+      }
+    ],
+    "babu saxena": [
+      {
+        "algorithm_id": "AW-001290",
+        "name": "Babu, Saxena (1)"
+      },
+      {
+        "algorithm_id": "AW-001291",
+        "name": "Babu, Saxena (2)"
+      }
+    ],
+    "bader and cong parallel implementation": [
+      {
+        "algorithm_id": "AW-000420",
+        "name": "Bader & Cong Parallel Implementation"
+      },
+      {
+        "algorithm_id": "AW-001541",
+        "name": "Bader & Cong Parallel Implementation"
+      }
+    ],
+    "ballard": [
+      {
+        "algorithm_id": "AW-001338",
+        "name": "Ballard (CAPS) (same as 2012 paper)"
+      },
+      {
+        "algorithm_id": "AW-001339",
+        "name": "Ballard (2.5D-Strassen) (1)"
+      },
+      {
+        "algorithm_id": "AW-001340",
+        "name": "Ballard (Strassen-2.5D) (2)"
+      }
+    ],
+    "bareiss algorithm": [
+      {
+        "algorithm_id": "AW-000056",
+        "name": "Bareiss Algorithm"
+      },
+      {
+        "algorithm_id": "AW-000804",
+        "name": "Bareiss algorithm"
+      }
+    ],
+    "bast hagerup": [
+      {
+        "algorithm_id": "AW-001168",
+        "name": "Bast, Hagerup"
+      },
+      {
+        "algorithm_id": "AW-001169",
+        "name": "Bast, Hagerup"
+      }
+    ],
+    "bayer mccreight b tree": [
+      {
+        "algorithm_id": "AW-000981",
+        "name": "Bayer, McCreight B-Tree"
+      },
+      {
+        "algorithm_id": "AW-000986",
+        "name": "Bayer, McCreight B-Tree"
+      },
+      {
+        "algorithm_id": "AW-000991",
+        "name": "Bayer, McCreight B-Tree"
+      }
+    ],
+    "beigel and eppstein": [
+      {
+        "algorithm_id": "AW-000169",
+        "name": "Beigel & Eppstein"
+      },
+      {
+        "algorithm_id": "AW-000170",
+        "name": "Beigel & Eppstein"
+      }
+    ],
+    "bellman ford algorithm": [
+      {
+        "algorithm_id": "AW-000210",
+        "name": "Bellman\u2013Ford algorithm (Ford 1956)"
+      },
+      {
+        "algorithm_id": "AW-000211",
+        "name": "Bellman\u2013Ford algorithm (Shimbel 1955; Bellman 1958; Moore 1959)"
+      },
+      {
+        "algorithm_id": "AW-000212",
+        "name": "Bellman\u2013Ford algorithm (Dantzig 1960)"
+      }
+    ],
+    "ben or feig kozen tiwari": [
+      {
+        "algorithm_id": "AW-001688",
+        "name": "Ben-Or, Feig, Kozen, Tiwari (BFKT)"
+      },
+      {
+        "algorithm_id": "AW-001689",
+        "name": "Ben-Or, Feig, Kozen, Tiwari (BFKT)"
+      }
+    ],
+    "berkman et al": [
+      {
+        "algorithm_id": "AW-001597",
+        "name": "Berkman et al."
+      },
+      {
+        "algorithm_id": "AW-001641",
+        "name": "Berkman et al."
+      }
+    ],
+    "berkman vishkin": [
+      {
+        "algorithm_id": "AW-000573",
+        "name": "Berkman; Vishkin"
+      },
+      {
+        "algorithm_id": "AW-001738",
+        "name": "Berkman, Vishkin"
+      }
+    ],
+    "bhatt diks hagerup prasad radzik saxena": [
+      {
+        "algorithm_id": "AW-001126",
+        "name": "Bhatt, Diks, Hagerup, Prasad, Radzik, Saxena"
+      },
+      {
+        "algorithm_id": "AW-001127",
+        "name": "Bhatt, Diks, Hagerup, Prasad, Radzik, Saxena"
+      }
+    ],
+    "bisection method": [
+      {
+        "algorithm_id": "AW-000513",
+        "name": "Bisection method"
+      },
+      {
+        "algorithm_id": "AW-000531",
+        "name": "Bisection method"
+      },
+      {
+        "algorithm_id": "AW-000852",
+        "name": "Bisection method"
+      }
+    ],
+    "blelloch gu shun sun": [
+      {
+        "algorithm_id": "AW-001409",
+        "name": "Blelloch, Gu, Shun, Sun (1)"
+      },
+      {
+        "algorithm_id": "AW-001410",
+        "name": "Blelloch, Gu, Shun, Sun (2)"
+      },
+      {
+        "algorithm_id": "AW-001547",
+        "name": "Blelloch, Gu, Shun, Sun"
+      }
+    ],
+    "bowyer watson algorithm": [
+      {
+        "algorithm_id": "AW-000557",
+        "name": "Bowyer\u2013Watson algorithm"
+      },
+      {
+        "algorithm_id": "AW-000616",
+        "name": "Bowyer\u2013Watson algorithm"
+      }
+    ],
+    "bradford rawlins shannon": [
+      {
+        "algorithm_id": "AW-001279",
+        "name": "Bradford, Rawlins, Shannon"
+      },
+      {
+        "algorithm_id": "AW-001281",
+        "name": "Bradford, Rawlins, Shannon (1)"
+      },
+      {
+        "algorithm_id": "AW-001282",
+        "name": "Bradford, Rawlins, Shannon (2)"
+      },
+      {
+        "algorithm_id": "AW-001283",
+        "name": "Bradford, Rawlins, Shannon (3)"
+      }
+    ],
+    "brute force": [
+      {
+        "algorithm_id": "AW-000034",
+        "name": "Brute Force"
+      },
+      {
+        "algorithm_id": "AW-000047",
+        "name": "Brute force"
+      },
+      {
+        "algorithm_id": "AW-000102",
+        "name": "Brute Force"
+      },
+      {
+        "algorithm_id": "AW-000113",
+        "name": "Brute Force"
+      },
+      {
+        "algorithm_id": "AW-000115",
+        "name": "Brute Force"
+      },
+      {
+        "algorithm_id": "AW-000641",
+        "name": "Brute force (backtracking search)"
+      },
+      {
+        "algorithm_id": "AW-000663",
+        "name": "Brute force"
+      },
+      {
+        "algorithm_id": "AW-000769",
+        "name": "Brute force"
+      },
+      {
+        "algorithm_id": "AW-000788",
+        "name": "Brute force"
+      },
+      {
+        "algorithm_id": "AW-000802",
+        "name": "Brute Force"
+      }
+    ],
+    "brute force algorithm": [
+      {
+        "algorithm_id": "AW-000628",
+        "name": "Brute force algorithm"
+      },
+      {
+        "algorithm_id": "AW-000869",
+        "name": "Brute force algorithm"
+      }
+    ],
+    "bucket sort johnsson": [
+      {
+        "algorithm_id": "AW-001054",
+        "name": "Bucket sort - Johnsson (3)"
+      },
+      {
+        "algorithm_id": "AW-001055",
+        "name": "Bucket sort - Johnsson (3)"
+      }
+    ],
+    "callahan kosaraju": [
+      {
+        "algorithm_id": "AW-001699",
+        "name": "Callahan, Kosaraju"
+      },
+      {
+        "algorithm_id": "AW-001700",
+        "name": "Callahan, Kosaraju"
+      }
+    ],
+    "carmon jambulapati jin lee liu sidford tian": [
+      {
+        "algorithm_id": "AW-001646",
+        "name": "Carmon, Jambulapati, Jin, Lee, Liu, Sidford, Tian (Parallel EpochSGD)"
+      },
+      {
+        "algorithm_id": "AW-001647",
+        "name": "Carmon, Jambulapati, Jin, Lee, Liu, Sidford, Tian (Parallel AC-SA)"
+      }
+    ],
+    "cesari maeder": [
+      {
+        "algorithm_id": "AW-001608",
+        "name": "CESARI, MAEDER (parallel Karatsuba's) (1)"
+      },
+      {
+        "algorithm_id": "AW-001609",
+        "name": "CESARI, MAEDER (parallel Karatsuba's) (2)"
+      }
+    ],
+    "chan": [
+      {
+        "algorithm_id": "AW-000229",
+        "name": "Chan (Geometrically Weighted)"
+      },
+      {
+        "algorithm_id": "AW-000230",
+        "name": "Chan"
+      },
+      {
+        "algorithm_id": "AW-000231",
+        "name": "Chan"
+      },
+      {
+        "algorithm_id": "AW-000895",
+        "name": "Chan"
+      },
+      {
+        "algorithm_id": "AW-000963",
+        "name": "Chan"
+      },
+      {
+        "algorithm_id": "AW-001000",
+        "name": "Chan"
+      },
+      {
+        "algorithm_id": "AW-001007",
+        "name": "Chan"
+      }
+    ],
+    "chandra": [
+      {
+        "algorithm_id": "AW-001320",
+        "name": "Chandra (1)"
+      },
+      {
+        "algorithm_id": "AW-001321",
+        "name": "Chandra (2)"
+      },
+      {
+        "algorithm_id": "AW-001411",
+        "name": "Chandra"
+      }
+    ],
+    "chedid": [
+      {
+        "algorithm_id": "AW-001778",
+        "name": "Chedid"
+      },
+      {
+        "algorithm_id": "AW-001784",
+        "name": "Chedid"
+      }
+    ],
+    "chen": [
+      {
+        "algorithm_id": "AW-001120",
+        "name": "Chen (1)"
+      },
+      {
+        "algorithm_id": "AW-001121",
+        "name": "Chen (1)"
+      },
+      {
+        "algorithm_id": "AW-001122",
+        "name": "Chen (2)"
+      },
+      {
+        "algorithm_id": "AW-001123",
+        "name": "Chen (2)"
+      },
+      {
+        "algorithm_id": "AW-001752",
+        "name": "Chen"
+      }
+    ],
+    "chen chen": [
+      {
+        "algorithm_id": "AW-001160",
+        "name": "Chen, Chen"
+      },
+      {
+        "algorithm_id": "AW-001161",
+        "name": "Chen, Chen (generalized)"
+      }
+    ],
+    "chen das": [
+      {
+        "algorithm_id": "AW-001148",
+        "name": "Chen, Das"
+      },
+      {
+        "algorithm_id": "AW-001149",
+        "name": "Chen, Das"
+      }
+    ],
+    "chen i kanj and w jia": [
+      {
+        "algorithm_id": "AW-000643",
+        "name": "Chen; I. Kanj; and W. Jia."
+      },
+      {
+        "algorithm_id": "AW-000645",
+        "name": "Chen; I. Kanj; and W. Jia."
+      }
+    ],
+    "cheriton tarjan": [
+      {
+        "algorithm_id": "AW-000914",
+        "name": "Cheriton-Tarjan (dense)"
+      },
+      {
+        "algorithm_id": "AW-000915",
+        "name": "Cheriton-Tarjan (planar)"
+      }
+    ],
+    "chin et al": [
+      {
+        "algorithm_id": "AW-001428",
+        "name": "Chin et al."
+      },
+      {
+        "algorithm_id": "AW-001429",
+        "name": "Chin et al."
+      },
+      {
+        "algorithm_id": "AW-001430",
+        "name": "Chin et al."
+      },
+      {
+        "algorithm_id": "AW-001476",
+        "name": "Chin et al."
+      },
+      {
+        "algorithm_id": "AW-001477",
+        "name": "Chin et al."
+      }
+    ],
+    "chong": [
+      {
+        "algorithm_id": "AW-001507",
+        "name": "Chong"
+      },
+      {
+        "algorithm_id": "AW-001508",
+        "name": "Chong"
+      }
+    ],
+    "chong han igarashi lam": [
+      {
+        "algorithm_id": "AW-001528",
+        "name": "Chong, Han, Igarashi, Lam (1)"
+      },
+      {
+        "algorithm_id": "AW-001529",
+        "name": "Chong, Han, Igarashi, Lam (1)"
+      },
+      {
+        "algorithm_id": "AW-001530",
+        "name": "Chong, Han, Igarashi, Lam (2)"
+      },
+      {
+        "algorithm_id": "AW-001531",
+        "name": "Chong, Han, Igarashi, Lam (2)"
+      },
+      {
+        "algorithm_id": "AW-001532",
+        "name": "Chong, Han, Igarashi, Lam (3)"
+      }
+    ],
+    "chong han lam": [
+      {
+        "algorithm_id": "AW-001520",
+        "name": "Chong, Han, Lam"
+      },
+      {
+        "algorithm_id": "AW-001521",
+        "name": "Chong, Han, Lam"
+      },
+      {
+        "algorithm_id": "AW-001533",
+        "name": "Chong, Han, Lam"
+      },
+      {
+        "algorithm_id": "AW-001534",
+        "name": "Chong, Han, Lam"
+      }
+    ],
+    "chong lam": [
+      {
+        "algorithm_id": "AW-001452",
+        "name": "Chong, Lam"
+      },
+      {
+        "algorithm_id": "AW-001503",
+        "name": "Chong, Lam"
+      },
+      {
+        "algorithm_id": "AW-001504",
+        "name": "Chong, Lam"
+      }
+    ],
+    "chow": [
+      {
+        "algorithm_id": "AW-001381",
+        "name": "Chow"
+      },
+      {
+        "algorithm_id": "AW-001396",
+        "name": "Chow"
+      },
+      {
+        "algorithm_id": "AW-001706",
+        "name": "Chow"
+      }
+    ],
+    "cohen": [
+      {
+        "algorithm_id": "AW-001558",
+        "name": "Cohen (d=sqrt(n))"
+      },
+      {
+        "algorithm_id": "AW-001559",
+        "name": "Cohen (d=n)"
+      }
+    ],
+    "cole klein tarjan": [
+      {
+        "algorithm_id": "AW-001505",
+        "name": "Cole, Klein, Tarjan"
+      },
+      {
+        "algorithm_id": "AW-001506",
+        "name": "Cole, Klein, Tarjan"
+      }
+    ],
+    "cole vishkin": [
+      {
+        "algorithm_id": "AW-001274",
+        "name": "Cole, Vishkin"
+      },
+      {
+        "algorithm_id": "AW-001439",
+        "name": "Cole, Vishkin"
+      },
+      {
+        "algorithm_id": "AW-001440",
+        "name": "Cole, Vishkin"
+      },
+      {
+        "algorithm_id": "AW-001447",
+        "name": "Cole, Vishkin"
+      },
+      {
+        "algorithm_id": "AW-001485",
+        "name": "Cole, Vishkin"
+      },
+      {
+        "algorithm_id": "AW-001486",
+        "name": "Cole, Vishkin"
+      },
+      {
+        "algorithm_id": "AW-001493",
+        "name": "Cole, Vishkin"
+      },
+      {
+        "algorithm_id": "AW-001494",
+        "name": "Cole, Vishkin"
+      }
+    ],
+    "connor kumar": [
+      {
+        "algorithm_id": "AW-001703",
+        "name": "Connor, Kumar"
+      },
+      {
+        "algorithm_id": "AW-001704",
+        "name": "Connor, Kumar"
+      }
+    ],
+    "coppersmith winograd algorithm": [
+      {
+        "algorithm_id": "AW-000041",
+        "name": "Coppersmith\u2013Winograd algorithm"
+      },
+      {
+        "algorithm_id": "AW-000043",
+        "name": "Coppersmith\u2013Winograd algorithm"
+      }
+    ],
+    "cosnard robert trystram": [
+      {
+        "algorithm_id": "AW-001366",
+        "name": "Cosnard, Robert, Trystram (Jordan method)"
+      },
+      {
+        "algorithm_id": "AW-001367",
+        "name": "Cosnard, Robert, Trystram (Huard method)"
+      }
+    ],
+    "covanov and thom": [
+      {
+        "algorithm_id": "AW-000260",
+        "name": "Covanov and Thom\u00e9"
+      },
+      {
+        "algorithm_id": "AW-000261",
+        "name": "Covanov and Thom\u00e9"
+      }
+    ],
+    "cyclic partitioning xiao biros": [
+      {
+        "algorithm_id": "AW-001695",
+        "name": "Cyclic partitioning - Xiao, Biros (2)"
+      },
+      {
+        "algorithm_id": "AW-001696",
+        "name": "Cyclic partitioning - Xiao, Biros (2)"
+      }
+    ],
+    "cyrus beck": [
+      {
+        "algorithm_id": "AW-000084",
+        "name": "Cyrus\u2013Beck"
+      },
+      {
+        "algorithm_id": "AW-000085",
+        "name": "Cyrus\u2013Beck"
+      }
+    ],
+    "czumaj": [
+      {
+        "algorithm_id": "AW-000402",
+        "name": "Czumaj"
+      },
+      {
+        "algorithm_id": "AW-001284",
+        "name": "Czumaj"
+      }
+    ],
+    "czumaj et al": [
+      {
+        "algorithm_id": "AW-001634",
+        "name": "Czumaj et al. (1)"
+      },
+      {
+        "algorithm_id": "AW-001635",
+        "name": "Czumaj et al. (2)"
+      }
+    ],
+    "czumaj galil g sieniec park plandowski": [
+      {
+        "algorithm_id": "AW-001601",
+        "name": "Czumaj, Galil, G\u0105sieniec, Park, Plandowski (1)"
+      },
+      {
+        "algorithm_id": "AW-001602",
+        "name": "Czumaj, Galil, G\u0105sieniec, Park, Plandowski (2)"
+      }
+    ],
+    "de stefani": [
+      {
+        "algorithm_id": "AW-001614",
+        "name": "De Stefani (COPSIM)"
+      },
+      {
+        "algorithm_id": "AW-001615",
+        "name": "De Stefani (COPK - Karatsuba)"
+      }
+    ],
+    "dekel nassimi and sahni": [
+      {
+        "algorithm_id": "AW-001322",
+        "name": "Dekel; Nassimi & Sahni (1)"
+      },
+      {
+        "algorithm_id": "AW-001323",
+        "name": "Dekel; Nassimi & Sahni (2)"
+      },
+      {
+        "algorithm_id": "AW-001324",
+        "name": "Dekel; Nassimi & Sahni (3)"
+      },
+      {
+        "algorithm_id": "AW-001325",
+        "name": "Dekel; Nassimi & Sahni (4)"
+      },
+      {
+        "algorithm_id": "AW-001326",
+        "name": "Dekel; Nassimi & Sahni (5)"
+      },
+      {
+        "algorithm_id": "AW-001327",
+        "name": "Dekel; Nassimi & Sahni (6)"
+      },
+      {
+        "algorithm_id": "AW-001328",
+        "name": "Dekel; Nassimi & Sahni (7)"
+      },
+      {
+        "algorithm_id": "AW-001568",
+        "name": "Dekel; Nassimi & Sahni"
+      }
+    ],
+    "deo and yoo": [
+      {
+        "algorithm_id": "AW-001464",
+        "name": "Deo and Yoo (1)"
+      },
+      {
+        "algorithm_id": "AW-001465",
+        "name": "Deo and Yoo (1)"
+      },
+      {
+        "algorithm_id": "AW-001466",
+        "name": "Deo and Yoo (2)"
+      },
+      {
+        "algorithm_id": "AW-001467",
+        "name": "Deo and Yoo (2)"
+      }
+    ],
+    "dhulipala blelloch shun": [
+      {
+        "algorithm_id": "AW-001553",
+        "name": "Dhulipala, Blelloch, Shun (1)"
+      },
+      {
+        "algorithm_id": "AW-001554",
+        "name": "Dhulipala, Blelloch, Shun (1)"
+      },
+      {
+        "algorithm_id": "AW-001555",
+        "name": "Dhulipala, Blelloch, Shun (2)"
+      },
+      {
+        "algorithm_id": "AW-001556",
+        "name": "Dhulipala, Blelloch, Shun (2)"
+      }
+    ],
+    "digital differential analyzer": [
+      {
+        "algorithm_id": "AW-000385",
+        "name": "Digital Differential Analyzer (DDA)"
+      },
+      {
+        "algorithm_id": "AW-000497",
+        "name": "Digital Differential Analyzer"
+      }
+    ],
+    "dijkstra": [
+      {
+        "algorithm_id": "AW-000827",
+        "name": "Dijkstra"
+      },
+      {
+        "algorithm_id": "AW-000828",
+        "name": "Dijkstra"
+      }
+    ],
+    "dijkstras algorithm with fibonacci heap": [
+      {
+        "algorithm_id": "AW-000215",
+        "name": "Dijkstra's algorithm with Fibonacci heap (Fredman & Tarjan 1984; Fredman & Tarjan 1987)"
+      },
+      {
+        "algorithm_id": "AW-000216",
+        "name": "Dijkstra's algorithm with Fibonacci heap (Johnson 1981; Karlsson & Poblete 1983)"
+      }
+    ],
+    "divide and conquer": [
+      {
+        "algorithm_id": "AW-000519",
+        "name": "Divide-and-conquer"
+      },
+      {
+        "algorithm_id": "AW-000520",
+        "name": "Divide-and-conquer"
+      },
+      {
+        "algorithm_id": "AW-000937",
+        "name": "Divide and Conquer"
+      }
+    ],
+    "driscoll gabow shrairman tarjan": [
+      {
+        "algorithm_id": "AW-001490",
+        "name": "Driscoll, Gabow, Shrairman, Tarjan"
+      },
+      {
+        "algorithm_id": "AW-001549",
+        "name": "Driscoll, Gabow, Shrairman, Tarjan"
+      }
+    ],
+    "dumitrescu roch trystram": [
+      {
+        "algorithm_id": "AW-001344",
+        "name": "Dumitrescu, Roch, Trystram (1)"
+      },
+      {
+        "algorithm_id": "AW-001345",
+        "name": "Dumitrescu, Roch, Trystram (2)"
+      }
+    ],
+    "dyer": [
+      {
+        "algorithm_id": "AW-000209",
+        "name": "Dyer"
+      },
+      {
+        "algorithm_id": "AW-001372",
+        "name": "Dyer"
+      }
+    ],
+    "dynamic programming": [
+      {
+        "algorithm_id": "AW-000114",
+        "name": "Dynamic Programming"
+      },
+      {
+        "algorithm_id": "AW-000116",
+        "name": "Dynamic Programming"
+      },
+      {
+        "algorithm_id": "AW-000700",
+        "name": "Dynamic Programming"
+      }
+    ],
+    "ebnenasir qiu": [
+      {
+        "algorithm_id": "AW-001848",
+        "name": "Ebnenasir, Qiu (recursEMS)"
+      },
+      {
+        "algorithm_id": "AW-001849",
+        "name": "Ebnenasir, Qiu (parEMS)"
+      }
+    ],
+    "em algorithm": [
+      {
+        "algorithm_id": "AW-000545",
+        "name": "\u03b1-EM algorithm"
+      },
+      {
+        "algorithm_id": "AW-000749",
+        "name": "\u03b1-EM Algorithm"
+      }
+    ],
+    "eppstein": [
+      {
+        "algorithm_id": "AW-000010",
+        "name": "Eppstein"
+      },
+      {
+        "algorithm_id": "AW-001011",
+        "name": "Eppstein"
+      }
+    ],
+    "exhaustive search": [
+      {
+        "algorithm_id": "AW-000964",
+        "name": "Exhaustive search"
+      },
+      {
+        "algorithm_id": "AW-000969",
+        "name": "Exhaustive search"
+      },
+      {
+        "algorithm_id": "AW-000970",
+        "name": "Exhaustive search"
+      }
+    ],
+    "expectation conditional maximization": [
+      {
+        "algorithm_id": "AW-000543",
+        "name": "Expectation conditional maximization (ECM)"
+      },
+      {
+        "algorithm_id": "AW-000747",
+        "name": "Expectation conditional maximization (ECM)"
+      }
+    ],
+    "expectation maximization algorithm": [
+      {
+        "algorithm_id": "AW-000540",
+        "name": "Expectation\u2013maximization (EM) algorithm"
+      },
+      {
+        "algorithm_id": "AW-000744",
+        "name": "Expectation-Maximization (EM) algorithm"
+      }
+    ],
+    "farach": [
+      {
+        "algorithm_id": "AW-000688",
+        "name": "Farach"
+      },
+      {
+        "algorithm_id": "AW-001838",
+        "name": "Farach"
+      }
+    ],
+    "farach muthukrishnan": [
+      {
+        "algorithm_id": "AW-001803",
+        "name": "Farach, Muthukrishnan (1)"
+      },
+      {
+        "algorithm_id": "AW-001804",
+        "name": "Farach, Muthukrishnan (2)"
+      }
+    ],
+    "folded spectrum method": [
+      {
+        "algorithm_id": "AW-000526",
+        "name": "Folded spectrum method"
+      },
+      {
+        "algorithm_id": "AW-000527",
+        "name": "Folded spectrum method"
+      },
+      {
+        "algorithm_id": "AW-000528",
+        "name": "Folded spectrum method"
+      }
+    ],
+    "folwell guha suzuki": [
+      {
+        "algorithm_id": "AW-001190",
+        "name": "Folwell, Guha, Suzuki"
+      },
+      {
+        "algorithm_id": "AW-001191",
+        "name": "Folwell, Guha, Suzuki"
+      }
+    ],
+    "fortune": [
+      {
+        "algorithm_id": "AW-000270",
+        "name": "Fortune"
+      },
+      {
+        "algorithm_id": "AW-000619",
+        "name": "Fortune"
+      }
+    ],
+    "frieze miller teng": [
+      {
+        "algorithm_id": "AW-001701",
+        "name": "Frieze, Miller, Teng"
+      },
+      {
+        "algorithm_id": "AW-001702",
+        "name": "Frieze, Miller, Teng"
+      }
+    ],
+    "galil": [
+      {
+        "algorithm_id": "AW-001596",
+        "name": "Galil"
+      },
+      {
+        "algorithm_id": "AW-001628",
+        "name": "Galil (1)"
+      },
+      {
+        "algorithm_id": "AW-001629",
+        "name": "Galil (2)"
+      }
+    ],
+    "galper brutlag": [
+      {
+        "algorithm_id": "AW-001294",
+        "name": "Galper, Brutlag (synchronous Row Wavefront approach) (1)"
+      },
+      {
+        "algorithm_id": "AW-001295",
+        "name": "Galper, Brutlag (asynchronous Row Wavefront approach) (also asynch DWF) (2)"
+      },
+      {
+        "algorithm_id": "AW-001296",
+        "name": "Galper, Brutlag (synchronous Diagonal Wavefront approach) (3)"
+      }
+    ],
+    "garcia": [
+      {
+        "algorithm_id": "AW-001743",
+        "name": "Garcia"
+      },
+      {
+        "algorithm_id": "AW-001744",
+        "name": "Garcia"
+      }
+    ],
+    "gaussian elimination": [
+      {
+        "algorithm_id": "AW-000453",
+        "name": "Gaussian Elimination"
+      },
+      {
+        "algorithm_id": "AW-000861",
+        "name": "Gaussian elimination"
+      }
+    ],
+    "gaussian jordan elimination": [
+      {
+        "algorithm_id": "AW-000048",
+        "name": "Gaussian-Jordan Elimination"
+      },
+      {
+        "algorithm_id": "AW-000049",
+        "name": "Gaussian-Jordan Elimination"
+      },
+      {
+        "algorithm_id": "AW-000050",
+        "name": "Gaussian-Jordan Elimination"
+      },
+      {
+        "algorithm_id": "AW-000051",
+        "name": "Gaussian-Jordan Elimination"
+      },
+      {
+        "algorithm_id": "AW-000052",
+        "name": "Gaussian-Jordan Elimination"
+      }
+    ],
+    "gazit": [
+      {
+        "algorithm_id": "AW-001438",
+        "name": "Gazit"
+      },
+      {
+        "algorithm_id": "AW-001495",
+        "name": "Gazit"
+      },
+      {
+        "algorithm_id": "AW-001496",
+        "name": "Gazit"
+      }
+    ],
+    "gerbessiotis": [
+      {
+        "algorithm_id": "AW-001233",
+        "name": "Gerbessiotis"
+      },
+      {
+        "algorithm_id": "AW-001234",
+        "name": "Gerbessiotis"
+      }
+    ],
+    "gerbessiotis siniolakis": [
+      {
+        "algorithm_id": "AW-001183",
+        "name": "Gerbessiotis, Siniolakis"
+      },
+      {
+        "algorithm_id": "AW-001208",
+        "name": "Gerbessiotis, Siniolakis"
+      }
+    ],
+    "ghouse goodrich": [
+      {
+        "algorithm_id": "AW-001392",
+        "name": "Ghouse, Goodrich (following [Kirkpatrick, Seidel (1986)])"
+      },
+      {
+        "algorithm_id": "AW-001400",
+        "name": "Ghouse, Goodrich (following [Edelsbrunner, Shi (1991)])"
+      }
+    ],
+    "gibbons matias ramachandran": [
+      {
+        "algorithm_id": "AW-001162",
+        "name": "Gibbons, Matias, Ramachandran (1)"
+      },
+      {
+        "algorithm_id": "AW-001163",
+        "name": "Gibbons, Matias, Ramachandran (2)"
+      },
+      {
+        "algorithm_id": "AW-001164",
+        "name": "Gibbons, Matias, Ramachandran (3)"
+      }
+    ],
+    "goldberg and rao": [
+      {
+        "algorithm_id": "AW-000165",
+        "name": "Goldberg & Rao"
+      },
+      {
+        "algorithm_id": "AW-000901",
+        "name": "Goldberg & Rao (Parallel)"
+      },
+      {
+        "algorithm_id": "AW-001316",
+        "name": "Goldberg & Rao (Parallel) (1)"
+      },
+      {
+        "algorithm_id": "AW-001317",
+        "name": "Goldberg & Rao (Parallel) (2)"
+      }
+    ],
+    "goodrich": [
+      {
+        "algorithm_id": "AW-000180",
+        "name": "Goodrich"
+      },
+      {
+        "algorithm_id": "AW-001182",
+        "name": "Goodrich"
+      },
+      {
+        "algorithm_id": "AW-001404",
+        "name": "Goodrich"
+      },
+      {
+        "algorithm_id": "AW-001697",
+        "name": "Goodrich"
+      }
+    ],
+    "goyal": [
+      {
+        "algorithm_id": "AW-001253",
+        "name": "Goyal (1)"
+      },
+      {
+        "algorithm_id": "AW-001254",
+        "name": "Goyal (1)"
+      },
+      {
+        "algorithm_id": "AW-001255",
+        "name": "Goyal (2)"
+      },
+      {
+        "algorithm_id": "AW-001256",
+        "name": "Goyal (2)"
+      }
+    ],
+    "gunther determinants solution": [
+      {
+        "algorithm_id": "AW-000831",
+        "name": "Gunther Determinants solution"
+      },
+      {
+        "algorithm_id": "AW-000832",
+        "name": "Gunther Determinants solution"
+      }
+    ],
+    "gupta sen": [
+      {
+        "algorithm_id": "AW-001394",
+        "name": "Gupta, Sen"
+      },
+      {
+        "algorithm_id": "AW-001406",
+        "name": "Gupta, Sen"
+      }
+    ],
+    "hagerup": [
+      {
+        "algorithm_id": "AW-001073",
+        "name": "Hagerup"
+      },
+      {
+        "algorithm_id": "AW-001074",
+        "name": "Hagerup"
+      },
+      {
+        "algorithm_id": "AW-001636",
+        "name": "Hagerup (1)"
+      },
+      {
+        "algorithm_id": "AW-001637",
+        "name": "Hagerup (2)"
+      },
+      {
+        "algorithm_id": "AW-001638",
+        "name": "Hagerup (3)"
+      },
+      {
+        "algorithm_id": "AW-001639",
+        "name": "Hagerup (4)"
+      }
+    ],
+    "hagerup raman": [
+      {
+        "algorithm_id": "AW-001141",
+        "name": "Hagerup, Raman (comparsion)"
+      },
+      {
+        "algorithm_id": "AW-001142",
+        "name": "Hagerup, Raman (random ints)"
+      },
+      {
+        "algorithm_id": "AW-001143",
+        "name": "Hagerup, Raman (random ints)"
+      },
+      {
+        "algorithm_id": "AW-001144",
+        "name": "Hagerup, Raman (ints in range)"
+      },
+      {
+        "algorithm_id": "AW-001145",
+        "name": "Hagerup, Raman (ints in range)"
+      },
+      {
+        "algorithm_id": "AW-001146",
+        "name": "Hagerup, Raman (ints in range, stable)"
+      },
+      {
+        "algorithm_id": "AW-001147",
+        "name": "Hagerup, Raman (ints in range, stable)"
+      }
+    ],
+    "hagerup shen": [
+      {
+        "algorithm_id": "AW-001103",
+        "name": "Hagerup, Shen"
+      },
+      {
+        "algorithm_id": "AW-001104",
+        "name": "Hagerup, Shen"
+      }
+    ],
+    "halperin zwick": [
+      {
+        "algorithm_id": "AW-001453",
+        "name": "Halperin, Zwick"
+      },
+      {
+        "algorithm_id": "AW-001526",
+        "name": "Halperin, Zwick"
+      },
+      {
+        "algorithm_id": "AW-001527",
+        "name": "Halperin, Zwick"
+      }
+    ],
+    "han": [
+      {
+        "algorithm_id": "AW-001065",
+        "name": "Han"
+      },
+      {
+        "algorithm_id": "AW-001206",
+        "name": "Han"
+      },
+      {
+        "algorithm_id": "AW-001207",
+        "name": "Han"
+      }
+    ],
+    "han and shen": [
+      {
+        "algorithm_id": "AW-001166",
+        "name": "Han and Shen"
+      },
+      {
+        "algorithm_id": "AW-001167",
+        "name": "Han and Shen"
+      }
+    ],
+    "han he": [
+      {
+        "algorithm_id": "AW-001235",
+        "name": "Han, He (1)"
+      },
+      {
+        "algorithm_id": "AW-001236",
+        "name": "Han, He (1)"
+      },
+      {
+        "algorithm_id": "AW-001237",
+        "name": "Han, He (2)"
+      },
+      {
+        "algorithm_id": "AW-001238",
+        "name": "Han, He (2)"
+      },
+      {
+        "algorithm_id": "AW-001261",
+        "name": "Han, He"
+      },
+      {
+        "algorithm_id": "AW-001262",
+        "name": "Han, He"
+      }
+    ],
+    "han pan and reif": [
+      {
+        "algorithm_id": "AW-001570",
+        "name": "Han, Pan & Reif (1)"
+      },
+      {
+        "algorithm_id": "AW-001571",
+        "name": "Han, Pan & Reif (2)"
+      },
+      {
+        "algorithm_id": "AW-001572",
+        "name": "Han, Pan & Reif (3)"
+      }
+    ],
+    "han shen": [
+      {
+        "algorithm_id": "AW-001210",
+        "name": "Han, Shen"
+      },
+      {
+        "algorithm_id": "AW-001211",
+        "name": "Han, Shen"
+      }
+    ],
+    "han wagner": [
+      {
+        "algorithm_id": "AW-001444",
+        "name": "Han, Wagner (1)"
+      },
+      {
+        "algorithm_id": "AW-001446",
+        "name": "Han, Wagner (2)"
+      }
+    ],
+    "harvey hoeven lecerf": [
+      {
+        "algorithm_id": "AW-000259",
+        "name": "Harvey; Hoeven; Lecerf"
+      },
+      {
+        "algorithm_id": "AW-000262",
+        "name": "Harvey; Hoeven; Lecerf"
+      }
+    ],
+    "harvey van der hoeven": [
+      {
+        "algorithm_id": "AW-001622",
+        "name": "Harvey, van der Hoeven (2017)"
+      },
+      {
+        "algorithm_id": "AW-001623",
+        "name": "Harvey, van der Hoeven (2018)"
+      },
+      {
+        "algorithm_id": "AW-001624",
+        "name": "Harvey, van der Hoeven (2019)"
+      }
+    ],
+    "hertli": [
+      {
+        "algorithm_id": "AW-000932",
+        "name": "Hertli (Modified PPSZ)"
+      },
+      {
+        "algorithm_id": "AW-000933",
+        "name": "Hertli (Modified PPSZ)"
+      }
+    ],
+    "hirschberg": [
+      {
+        "algorithm_id": "AW-000408",
+        "name": "Hirschberg"
+      },
+      {
+        "algorithm_id": "AW-001412",
+        "name": "Hirschberg (1)"
+      },
+      {
+        "algorithm_id": "AW-001413",
+        "name": "Hirschberg (2)"
+      },
+      {
+        "algorithm_id": "AW-001478",
+        "name": "Hirschberg"
+      },
+      {
+        "algorithm_id": "AW-001479",
+        "name": "Hirschberg"
+      }
+    ],
+    "hirschberg chandra sarwate": [
+      {
+        "algorithm_id": "AW-001426",
+        "name": "Hirschberg, Chandra, Sarwate"
+      },
+      {
+        "algorithm_id": "AW-001427",
+        "name": "Hirschberg, Chandra, Sarwate"
+      },
+      {
+        "algorithm_id": "AW-001462",
+        "name": "Hirschberg, Chandra, Sarwate"
+      },
+      {
+        "algorithm_id": "AW-001463",
+        "name": "Hirschberg, Chandra, Sarwate"
+      }
+    ],
+    "hirschberg et al": [
+      {
+        "algorithm_id": "AW-001422",
+        "name": "Hirschberg et al."
+      },
+      {
+        "algorithm_id": "AW-001423",
+        "name": "Hirschberg et al."
+      },
+      {
+        "algorithm_id": "AW-001424",
+        "name": "Hirschberg et al."
+      }
+    ],
+    "homotopy method": [
+      {
+        "algorithm_id": "AW-000521",
+        "name": "Homotopy method"
+      },
+      {
+        "algorithm_id": "AW-000522",
+        "name": "Homotopy method"
+      },
+      {
+        "algorithm_id": "AW-000523",
+        "name": "Homotopy method"
+      },
+      {
+        "algorithm_id": "AW-000524",
+        "name": "Homotopy method"
+      },
+      {
+        "algorithm_id": "AW-000525",
+        "name": "Homotopy method"
+      }
+    ],
+    "hsu and du": [
+      {
+        "algorithm_id": "AW-000403",
+        "name": "Hsu and Du (Scheme 2)"
+      },
+      {
+        "algorithm_id": "AW-000409",
+        "name": "Hsu and Du (Scheme 1)"
+      }
+    ],
+    "insertion sort": [
+      {
+        "algorithm_id": "AW-000023",
+        "name": "Insertion Sort"
+      },
+      {
+        "algorithm_id": "AW-000151",
+        "name": "Insertion Sort"
+      }
+    ],
+    "inverse iteration": [
+      {
+        "algorithm_id": "AW-000505",
+        "name": "Inverse iteration"
+      },
+      {
+        "algorithm_id": "AW-000506",
+        "name": "Inverse iteration"
+      },
+      {
+        "algorithm_id": "AW-000507",
+        "name": "Inverse iteration"
+      }
+    ],
+    "jacobi eigenvalue algorithm": [
+      {
+        "algorithm_id": "AW-000517",
+        "name": "Jacobi eigenvalue algorithm"
+      },
+      {
+        "algorithm_id": "AW-000518",
+        "name": "Jacobi eigenvalue algorithm"
+      }
+    ],
+    "jaja": [
+      {
+        "algorithm_id": "AW-001419",
+        "name": "Ja'Ja'"
+      },
+      {
+        "algorithm_id": "AW-001420",
+        "name": "Ja'Ja'"
+      },
+      {
+        "algorithm_id": "AW-001421",
+        "name": "Ja'Ja'"
+      }
+    ],
+    "jaja ryu vishkin": [
+      {
+        "algorithm_id": "AW-001186",
+        "name": "JaJa, Ryu, Vishkin (1)"
+      },
+      {
+        "algorithm_id": "AW-001187",
+        "name": "JaJa, Ryu, Vishkin (2)"
+      }
+    ],
+    "johnson metaxas": [
+      {
+        "algorithm_id": "AW-001448",
+        "name": "Johnson, Metaxas"
+      },
+      {
+        "algorithm_id": "AW-001497",
+        "name": "Johnson, Metaxas"
+      },
+      {
+        "algorithm_id": "AW-001498",
+        "name": "Johnson, Metaxas"
+      }
+    ],
+    "karger": [
+      {
+        "algorithm_id": "AW-001499",
+        "name": "Karger"
+      },
+      {
+        "algorithm_id": "AW-001500",
+        "name": "Karger"
+      }
+    ],
+    "karger nisan parnas": [
+      {
+        "algorithm_id": "AW-001449",
+        "name": "Karger, Nisan, Parnas (1)"
+      },
+      {
+        "algorithm_id": "AW-001450",
+        "name": "Karger, Nisan, Parnas (2)"
+      },
+      {
+        "algorithm_id": "AW-001451",
+        "name": "Karger, Nisan, Parnas (3)"
+      }
+    ],
+    "kasani": [
+      {
+        "algorithm_id": "AW-001268",
+        "name": "Kasani (1)"
+      },
+      {
+        "algorithm_id": "AW-001269",
+        "name": "Kasani (2)"
+      }
+    ],
+    "koubek kr kov": [
+      {
+        "algorithm_id": "AW-001435",
+        "name": "Koubek, Kr\u0161\u0148\u00e1kov\u00e1 (1)"
+      },
+      {
+        "algorithm_id": "AW-001436",
+        "name": "Koubek, Kr\u0161\u0148\u00e1kov\u00e1 (2)"
+      }
+    ],
+    "krusche tiskin": [
+      {
+        "algorithm_id": "AW-001299",
+        "name": "Krusche, Tiskin (dynamic programming)"
+      },
+      {
+        "algorithm_id": "AW-001300",
+        "name": "Krusche, Tiskin (dynamic programming)"
+      },
+      {
+        "algorithm_id": "AW-001301",
+        "name": "Krusche, Tiskin"
+      }
+    ],
+    "kruskal": [
+      {
+        "algorithm_id": "AW-001047",
+        "name": "Kruskal"
+      },
+      {
+        "algorithm_id": "AW-001640",
+        "name": "Kruskal"
+      }
+    ],
+    "kruskal rudolph snir": [
+      {
+        "algorithm_id": "AW-001112",
+        "name": "Kruskal, Rudolph, Snir"
+      },
+      {
+        "algorithm_id": "AW-001442",
+        "name": "Kruskal, Rudolph, Snir"
+      },
+      {
+        "algorithm_id": "AW-001443",
+        "name": "Kruskal, Rudolph, Snir"
+      },
+      {
+        "algorithm_id": "AW-001491",
+        "name": "Kruskal, Rudolph, Snir"
+      },
+      {
+        "algorithm_id": "AW-001492",
+        "name": "Kruskal, Rudolph, Snir"
+      }
+    ],
+    "kucera": [
+      {
+        "algorithm_id": "AW-001434",
+        "name": "Kucera"
+      },
+      {
+        "algorithm_id": "AW-001474",
+        "name": "Kucera"
+      },
+      {
+        "algorithm_id": "AW-001475",
+        "name": "Kucera"
+      },
+      {
+        "algorithm_id": "AW-001569",
+        "name": "Kucera"
+      }
+    ],
+    "kuck sameh": [
+      {
+        "algorithm_id": "AW-001680",
+        "name": "Kuck, Sameh (Jacobi's method)"
+      },
+      {
+        "algorithm_id": "AW-001681",
+        "name": "Kuck, Sameh (Householder's method)"
+      },
+      {
+        "algorithm_id": "AW-001682",
+        "name": "Kuck, Sameh (QR algorithm)"
+      }
+    ],
+    "kunde": [
+      {
+        "algorithm_id": "AW-001069",
+        "name": "Kunde"
+      },
+      {
+        "algorithm_id": "AW-001077",
+        "name": "Kunde"
+      }
+    ],
+    "lawler": [
+      {
+        "algorithm_id": "AW-000167",
+        "name": "Lawler"
+      },
+      {
+        "algorithm_id": "AW-000171",
+        "name": "Lawler"
+      }
+    ],
+    "leighton plaxton": [
+      {
+        "algorithm_id": "AW-001108",
+        "name": "Leighton, Plaxton (1)"
+      },
+      {
+        "algorithm_id": "AW-001109",
+        "name": "Leighton, Plaxton (2)"
+      }
+    ],
+    "li peng chu": [
+      {
+        "algorithm_id": "AW-001222",
+        "name": "Li, Peng, Chu"
+      },
+      {
+        "algorithm_id": "AW-001226",
+        "name": "Li, Peng, Chu"
+      }
+    ],
+    "lindeberg": [
+      {
+        "algorithm_id": "AW-000287",
+        "name": "Lindeberg (1994)"
+      },
+      {
+        "algorithm_id": "AW-000288",
+        "name": "Lindeberg (1998)"
+      }
+    ],
+    "lobpcg algorithm": [
+      {
+        "algorithm_id": "AW-000510",
+        "name": "LOBPCG algorithm"
+      },
+      {
+        "algorithm_id": "AW-000511",
+        "name": "LOBPCG algorithm"
+      },
+      {
+        "algorithm_id": "AW-000512",
+        "name": "LOBPCG algorithm"
+      }
+    ],
+    "lu and lin": [
+      {
+        "algorithm_id": "AW-001306",
+        "name": "Lu & Lin (1)"
+      },
+      {
+        "algorithm_id": "AW-001307",
+        "name": "Lu & Lin (2)"
+      }
+    ],
+    "luo drake": [
+      {
+        "algorithm_id": "AW-001335",
+        "name": "Luo, Drake (2D-Strassen) (1)"
+      },
+      {
+        "algorithm_id": "AW-001336",
+        "name": "Luo, Drake (Strassen-2D) (2)"
+      }
+    ],
+    "mathies": [
+      {
+        "algorithm_id": "AW-001308",
+        "name": "Mathies"
+      },
+      {
+        "algorithm_id": "AW-001606",
+        "name": "Mathies"
+      }
+    ],
+    "matias vishkin": [
+      {
+        "algorithm_id": "AW-001128",
+        "name": "Matias, Vishkin (random)"
+      },
+      {
+        "algorithm_id": "AW-001129",
+        "name": "Matias, Vishkin (random)"
+      },
+      {
+        "algorithm_id": "AW-001130",
+        "name": "Matias, Vishkin (deterministic)"
+      },
+      {
+        "algorithm_id": "AW-001131",
+        "name": "Matias, Vishkin (deterministic)"
+      }
+    ],
+    "method of determinants": [
+      {
+        "algorithm_id": "AW-000829",
+        "name": "Method of determinants"
+      },
+      {
+        "algorithm_id": "AW-000830",
+        "name": "Method of determinants"
+      }
+    ],
+    "mrrr algorithm": [
+      {
+        "algorithm_id": "AW-000529",
+        "name": "MRRR algorithm"
+      },
+      {
+        "algorithm_id": "AW-000530",
+        "name": "MRRR algorithm"
+      }
+    ],
+    "naive": [
+      {
+        "algorithm_id": "AW-000058",
+        "name": "Naive"
+      },
+      {
+        "algorithm_id": "AW-000682",
+        "name": "Naive"
+      },
+      {
+        "algorithm_id": "AW-000699",
+        "name": "Naive"
+      },
+      {
+        "algorithm_id": "AW-000773",
+        "name": "Naive"
+      }
+    ],
+    "naive 1 queen per row restriction": [
+      {
+        "algorithm_id": "AW-000825",
+        "name": "Naive + 1 queen per row restriction"
+      },
+      {
+        "algorithm_id": "AW-000826",
+        "name": "Naive + 1 queen per row restriction"
+      }
+    ],
+    "naive algorithm": [
+      {
+        "algorithm_id": "AW-000037",
+        "name": "Naive algorithm"
+      },
+      {
+        "algorithm_id": "AW-000465",
+        "name": "Naive algorithm"
+      },
+      {
+        "algorithm_id": "AW-000474",
+        "name": "Naive algorithm"
+      },
+      {
+        "algorithm_id": "AW-000485",
+        "name": "Naive algorithm"
+      },
+      {
+        "algorithm_id": "AW-000496",
+        "name": "Naive algorithm"
+      },
+      {
+        "algorithm_id": "AW-000613",
+        "name": "Naive algorithm"
+      },
+      {
+        "algorithm_id": "AW-000627",
+        "name": "Naive algorithm"
+      },
+      {
+        "algorithm_id": "AW-000823",
+        "name": "Naive Algorithm"
+      },
+      {
+        "algorithm_id": "AW-000824",
+        "name": "Naive Algorithm"
+      }
+    ],
+    "naive implementation": [
+      {
+        "algorithm_id": "AW-000063",
+        "name": "Naive Implementation"
+      },
+      {
+        "algorithm_id": "AW-000454",
+        "name": "Naive Implementation"
+      }
+    ],
+    "naive solution": [
+      {
+        "algorithm_id": "AW-000546",
+        "name": "Naive solution"
+      },
+      {
+        "algorithm_id": "AW-000834",
+        "name": "Naive Solution"
+      },
+      {
+        "algorithm_id": "AW-000835",
+        "name": "Naive solution"
+      },
+      {
+        "algorithm_id": "AW-000841",
+        "name": "Naive solution"
+      }
+    ],
+    "narendran tiwari": [
+      {
+        "algorithm_id": "AW-001686",
+        "name": "Narendran, Tiwari"
+      },
+      {
+        "algorithm_id": "AW-001687",
+        "name": "Narendran, Tiwari"
+      }
+    ],
+    "nath and maheshwari": [
+      {
+        "algorithm_id": "AW-001431",
+        "name": "Nath and Maheshwari"
+      },
+      {
+        "algorithm_id": "AW-001470",
+        "name": "Nath and Maheshwari (1)"
+      },
+      {
+        "algorithm_id": "AW-001471",
+        "name": "Nath and Maheshwari (1)"
+      },
+      {
+        "algorithm_id": "AW-001472",
+        "name": "Nath and Maheshwari (2)"
+      },
+      {
+        "algorithm_id": "AW-001473",
+        "name": "Nath and Maheshwari (2)"
+      }
+    ],
+    "neff": [
+      {
+        "algorithm_id": "AW-001690",
+        "name": "Neff"
+      },
+      {
+        "algorithm_id": "AW-001691",
+        "name": "Neff"
+      }
+    ],
+    "newtons method": [
+      {
+        "algorithm_id": "AW-000533",
+        "name": "Newton's method"
+      },
+      {
+        "algorithm_id": "AW-000855",
+        "name": "Newton's method"
+      }
+    ],
+    "nievergelt j and preparata": [
+      {
+        "algorithm_id": "AW-000176",
+        "name": "NIEVERGELT. J.. AND PREPARATA (Section 3)"
+      },
+      {
+        "algorithm_id": "AW-000903",
+        "name": "NIEVERGELT. J.. AND PREPARATA (Section 2)"
+      }
+    ],
+    "nordbeck and rystedt": [
+      {
+        "algorithm_id": "AW-000791",
+        "name": "Nordbeck and Rystedt (Grid Method)"
+      },
+      {
+        "algorithm_id": "AW-000793",
+        "name": "Nordbeck and Rystedt (Sum of area)"
+      },
+      {
+        "algorithm_id": "AW-000797",
+        "name": "Nordbeck and Rystedt (Orientation)"
+      }
+    ],
+    "o dynamic programming": [
+      {
+        "algorithm_id": "AW-000870",
+        "name": "$O(n^3)$ Dynamic Programming"
+      },
+      {
+        "algorithm_id": "AW-000871",
+        "name": "$O(n^2)$ Dynamic Programming"
+      },
+      {
+        "algorithm_id": "AW-000872",
+        "name": "$O(n\\log n)$ Dynamic Programming"
+      }
+    ],
+    "owens jaja": [
+      {
+        "algorithm_id": "AW-001062",
+        "name": "Owens, JaJa (1)"
+      },
+      {
+        "algorithm_id": "AW-001063",
+        "name": "Owens, JaJa (2)"
+      }
+    ],
+    "parallel bucket sort hirschberg": [
+      {
+        "algorithm_id": "AW-001020",
+        "name": "Parallel bucket-sort - Hirschberg (1)"
+      },
+      {
+        "algorithm_id": "AW-001021",
+        "name": "Parallel bucket-sort - Hirschberg (1)"
+      },
+      {
+        "algorithm_id": "AW-001022",
+        "name": "Parallel bucket-sort - Hirschberg (2)"
+      },
+      {
+        "algorithm_id": "AW-001023",
+        "name": "Parallel bucket-sort - Hirschberg (2)"
+      }
+    ],
+    "parallel iterated bucket sort chlebus": [
+      {
+        "algorithm_id": "AW-001091",
+        "name": "Parallel iterated bucket sort - Chlebus"
+      },
+      {
+        "algorithm_id": "AW-001092",
+        "name": "Parallel iterated bucket sort - Chlebus"
+      }
+    ],
+    "parallel merge sort cole": [
+      {
+        "algorithm_id": "AW-000897",
+        "name": "Parallel Merge Sort - Cole (1)"
+      },
+      {
+        "algorithm_id": "AW-000898",
+        "name": "Parallel Merge Sort - Cole (2)"
+      }
+    ],
+    "parallel quick sort algorithm and merging subarrays from quick sort algorithm zeng": [
+      {
+        "algorithm_id": "AW-001258",
+        "name": "Parallel Quick Sort Algorithm (PQSA) and Merging Subarrays from Quick Sort Algorithm (MSQSA) - Zeng"
+      },
+      {
+        "algorithm_id": "AW-001259",
+        "name": "Parallel Quick Sort Algorithm (PQSA) and Merging Subarrays from Quick Sort Algorithm (MSQSA) - Zeng"
+      }
+    ],
+    "parallel sorting by overpartitioning li sevcik": [
+      {
+        "algorithm_id": "AW-001158",
+        "name": "Parallel Sorting by OverPartitioning (PSOP) - Li, Sevcik (Quicksort / PQOP)"
+      },
+      {
+        "algorithm_id": "AW-001159",
+        "name": "Parallel Sorting by OverPartitioning (PSOP) - Li, Sevcik (Quicksort / PQOP)"
+      }
+    ],
+    "perumalla and deo": [
+      {
+        "algorithm_id": "AW-000107",
+        "name": "Perumalla and Deo"
+      },
+      {
+        "algorithm_id": "AW-001823",
+        "name": "Perumalla and Deo"
+      }
+    ],
+    "pettie and ramachandran": [
+      {
+        "algorithm_id": "AW-000225",
+        "name": "Pettie & Ramachandran"
+      },
+      {
+        "algorithm_id": "AW-000226",
+        "name": "Pettie & Ramachandran"
+      }
+    ],
+    "pettie ramachandran": [
+      {
+        "algorithm_id": "AW-000918",
+        "name": "Pettie, Ramachandran"
+      },
+      {
+        "algorithm_id": "AW-001455",
+        "name": "Pettie, Ramachandran"
+      },
+      {
+        "algorithm_id": "AW-001522",
+        "name": "PETTIE, RAMACHANDRAN (1)"
+      },
+      {
+        "algorithm_id": "AW-001523",
+        "name": "PETTIE, RAMACHANDRAN (1)"
+      },
+      {
+        "algorithm_id": "AW-001524",
+        "name": "Pettie, Ramachandran (2)"
+      },
+      {
+        "algorithm_id": "AW-001525",
+        "name": "Pettie, Ramachandran (2)"
+      },
+      {
+        "algorithm_id": "AW-001535",
+        "name": "Pettie, Ramachandran"
+      },
+      {
+        "algorithm_id": "AW-001536",
+        "name": "Pettie, Ramachandran"
+      }
+    ],
+    "pollards rho algorithm": [
+      {
+        "algorithm_id": "AW-000234",
+        "name": "Pollard's rho algorithm"
+      },
+      {
+        "algorithm_id": "AW-000818",
+        "name": "Pollard's rho algorithm"
+      }
+    ],
+    "poon ramachandran": [
+      {
+        "algorithm_id": "AW-001509",
+        "name": "Poon, Ramachandran"
+      },
+      {
+        "algorithm_id": "AW-001510",
+        "name": "Poon, Ramachandran"
+      }
+    ],
+    "prakesh ramanan": [
+      {
+        "algorithm_id": "AW-000401",
+        "name": "Prakesh Ramanan"
+      },
+      {
+        "algorithm_id": "AW-001280",
+        "name": "Prakesh Ramanan"
+      }
+    ],
+    "preparata and shamos": [
+      {
+        "algorithm_id": "AW-000794",
+        "name": "Preparata and Shamos (Wedge)"
+      },
+      {
+        "algorithm_id": "AW-000796",
+        "name": "Preparata and Shamos (Intersection sum of angle)"
+      }
+    ],
+    "preperata": [
+      {
+        "algorithm_id": "AW-001024",
+        "name": "Preperata (1)"
+      },
+      {
+        "algorithm_id": "AW-001025",
+        "name": "Preperata (2)"
+      }
+    ],
+    "qr algorithm": [
+      {
+        "algorithm_id": "AW-000515",
+        "name": "QR algorithm"
+      },
+      {
+        "algorithm_id": "AW-000516",
+        "name": "QR algorithm"
+      }
+    ],
+    "rajesekaran reif": [
+      {
+        "algorithm_id": "AW-001083",
+        "name": "Rajesekaran, Reif (1)"
+      },
+      {
+        "algorithm_id": "AW-001084",
+        "name": "Rajesekaran, Reif (1)"
+      },
+      {
+        "algorithm_id": "AW-001085",
+        "name": "Rajesekaran, Reif (2)"
+      },
+      {
+        "algorithm_id": "AW-001086",
+        "name": "Rajesekaran, Reif (3)"
+      },
+      {
+        "algorithm_id": "AW-001087",
+        "name": "Rajesekaran, Reif (3)"
+      }
+    ],
+    "rajesekaran sen": [
+      {
+        "algorithm_id": "AW-001139",
+        "name": "Rajesekaran, Sen"
+      },
+      {
+        "algorithm_id": "AW-001140",
+        "name": "Rajesekaran, Sen"
+      }
+    ],
+    "raman": [
+      {
+        "algorithm_id": "AW-001105",
+        "name": "Raman"
+      },
+      {
+        "algorithm_id": "AW-001106",
+        "name": "Raman"
+      }
+    ],
+    "rayleigh quotient iteration": [
+      {
+        "algorithm_id": "AW-000508",
+        "name": "Rayleigh quotient iteration"
+      },
+      {
+        "algorithm_id": "AW-000509",
+        "name": "Rayleigh quotient iteration"
+      }
+    ],
+    "reghbati and corneil": [
+      {
+        "algorithm_id": "AW-001414",
+        "name": "Reghbati (Arjomandi) and Corneil (1)"
+      },
+      {
+        "algorithm_id": "AW-001415",
+        "name": "Reghbati (Arjomandi) and Corneil (1)"
+      },
+      {
+        "algorithm_id": "AW-001416",
+        "name": "Reghbati (Arjomandi) and Corneil (2)"
+      },
+      {
+        "algorithm_id": "AW-001417",
+        "name": "Reghbati (Arjomandi) and Corneil (2)"
+      },
+      {
+        "algorithm_id": "AW-001418",
+        "name": "Reghbati (Arjomandi) and Corneil (2)"
+      }
+    ],
+    "reif": [
+      {
+        "algorithm_id": "AW-001057",
+        "name": "Reif"
+      },
+      {
+        "algorithm_id": "AW-001058",
+        "name": "Reif"
+      },
+      {
+        "algorithm_id": "AW-001437",
+        "name": "Reif"
+      },
+      {
+        "algorithm_id": "AW-001632",
+        "name": "Reif"
+      },
+      {
+        "algorithm_id": "AW-001861",
+        "name": "Reif"
+      }
+    ],
+    "reif sen": [
+      {
+        "algorithm_id": "AW-001375",
+        "name": "Reif, Sen (implicit)"
+      },
+      {
+        "algorithm_id": "AW-001403",
+        "name": "Reif, Sen"
+      },
+      {
+        "algorithm_id": "AW-001717",
+        "name": "Reif, Sen"
+      },
+      {
+        "algorithm_id": "AW-001770",
+        "name": "Reif, Sen"
+      }
+    ],
+    "reischuk": [
+      {
+        "algorithm_id": "AW-001040",
+        "name": "Reischuk"
+      },
+      {
+        "algorithm_id": "AW-001059",
+        "name": "Reischuk"
+      }
+    ],
+    "rick": [
+      {
+        "algorithm_id": "AW-000406",
+        "name": "Rick (Algorithm 2)"
+      },
+      {
+        "algorithm_id": "AW-000407",
+        "name": "Rick (Section 4)"
+      }
+    ],
+    "rytter": [
+      {
+        "algorithm_id": "AW-000689",
+        "name": "Rytter"
+      },
+      {
+        "algorithm_id": "AW-001276",
+        "name": "Rytter"
+      }
+    ],
+    "savage": [
+      {
+        "algorithm_id": "AW-001460",
+        "name": "Savage"
+      },
+      {
+        "algorithm_id": "AW-001461",
+        "name": "Savage"
+      },
+      {
+        "algorithm_id": "AW-001567",
+        "name": "Savage"
+      }
+    ],
+    "savage and jaja": [
+      {
+        "algorithm_id": "AW-001468",
+        "name": "Savage and Ja'Ja'"
+      },
+      {
+        "algorithm_id": "AW-001469",
+        "name": "Savage and Ja'Ja'"
+      }
+    ],
+    "saxena bhatt prasad": [
+      {
+        "algorithm_id": "AW-001082",
+        "name": "Saxena, Bhatt, Prasad"
+      },
+      {
+        "algorithm_id": "AW-001718",
+        "name": "Saxena, Bhatt, Prasad (1)"
+      },
+      {
+        "algorithm_id": "AW-001719",
+        "name": "Saxena, Bhatt, Prasad (2)"
+      },
+      {
+        "algorithm_id": "AW-001720",
+        "name": "Saxena, Bhatt, Prasad (3)"
+      },
+      {
+        "algorithm_id": "AW-001721",
+        "name": "Saxena, Bhatt, Prasad (4)"
+      },
+      {
+        "algorithm_id": "AW-001758",
+        "name": "Saxena, Bhatt, Prasad (1)"
+      },
+      {
+        "algorithm_id": "AW-001759",
+        "name": "Saxena, Bhatt, Prasad (2)"
+      },
+      {
+        "algorithm_id": "AW-001760",
+        "name": "Saxena, Bhatt, Prasad (3)"
+      },
+      {
+        "algorithm_id": "AW-001761",
+        "name": "Saxena, Bhatt, Prasad (4)"
+      }
+    ],
+    "scapegoat tree": [
+      {
+        "algorithm_id": "AW-000976",
+        "name": "Scapegoat Tree"
+      },
+      {
+        "algorithm_id": "AW-000982",
+        "name": "Scapegoat Tree"
+      },
+      {
+        "algorithm_id": "AW-000987",
+        "name": "Scapegoat Tree"
+      },
+      {
+        "algorithm_id": "AW-000992",
+        "name": "Scapegoat Tree"
+      }
+    ],
+    "schieber vishkin": [
+      {
+        "algorithm_id": "AW-000572",
+        "name": "Schieber; Vishkin"
+      },
+      {
+        "algorithm_id": "AW-001698",
+        "name": "Schieber, Vishkin"
+      }
+    ],
+    "schudy": [
+      {
+        "algorithm_id": "AW-001456",
+        "name": "Schudy"
+      },
+      {
+        "algorithm_id": "AW-001457",
+        "name": "Schudy"
+      },
+      {
+        "algorithm_id": "AW-001729",
+        "name": "Schudy"
+      }
+    ],
+    "secant method": [
+      {
+        "algorithm_id": "AW-000534",
+        "name": "Secant method"
+      },
+      {
+        "algorithm_id": "AW-000854",
+        "name": "Secant method"
+      }
+    ],
+    "seidels algorithm": [
+      {
+        "algorithm_id": "AW-000222",
+        "name": "Seidel's algorithm"
+      },
+      {
+        "algorithm_id": "AW-000223",
+        "name": "Seidel's algorithm"
+      }
+    ],
+    "serang": [
+      {
+        "algorithm_id": "AW-000011",
+        "name": "Serang"
+      },
+      {
+        "algorithm_id": "AW-000012",
+        "name": "Serang"
+      }
+    ],
+    "shell sort": [
+      {
+        "algorithm_id": "AW-000145",
+        "name": "Shell Sort (Shell)"
+      },
+      {
+        "algorithm_id": "AW-000146",
+        "name": "Shell Sort (Frank & Lazarus)"
+      },
+      {
+        "algorithm_id": "AW-000147",
+        "name": "Shell Sort (Pratt)"
+      },
+      {
+        "algorithm_id": "AW-000148",
+        "name": "Shell Sort (Sedgewick)"
+      }
+    ],
+    "shi spencer": [
+      {
+        "algorithm_id": "AW-001560",
+        "name": "Shi, Spencer (1) (t=log(n))"
+      },
+      {
+        "algorithm_id": "AW-001561",
+        "name": "Shi, Spencer (1) (t=sqrt(n))"
+      },
+      {
+        "algorithm_id": "AW-001562",
+        "name": "Shi, Spencer (2) (t=log(n))"
+      },
+      {
+        "algorithm_id": "AW-001563",
+        "name": "Shi, Spencer (2) (t=n)"
+      }
+    ],
+    "shiloach and vishkin": [
+      {
+        "algorithm_id": "AW-001039",
+        "name": "Shiloach and Vishkin"
+      },
+      {
+        "algorithm_id": "AW-001432",
+        "name": "Shiloach and Vishkin"
+      }
+    ],
+    "shiloach vishkin": [
+      {
+        "algorithm_id": "AW-001311",
+        "name": "Shiloach, Vishkin"
+      },
+      {
+        "algorithm_id": "AW-001625",
+        "name": "Shiloach, Vishkin"
+      }
+    ],
+    "siebert wolf": [
+      {
+        "algorithm_id": "AW-001228",
+        "name": "Siebert, Wolf"
+      },
+      {
+        "algorithm_id": "AW-001243",
+        "name": "Siebert, Wolf"
+      }
+    ],
+    "smoothsort plaxton": [
+      {
+        "algorithm_id": "AW-001093",
+        "name": "SmoothSort - Plaxton (adaptive)"
+      },
+      {
+        "algorithm_id": "AW-001094",
+        "name": "SmoothSort - Plaxton (nonadaptive)"
+      }
+    ],
+    "solomonik demmel": [
+      {
+        "algorithm_id": "AW-001333",
+        "name": "Solomonik, Demmel (Classical 2.5D)"
+      },
+      {
+        "algorithm_id": "AW-001594",
+        "name": "Solomonik, Demmel (Classical 2.5D)"
+      }
+    ],
+    "sorenson": [
+      {
+        "algorithm_id": "AW-001589",
+        "name": "Sorenson"
+      },
+      {
+        "algorithm_id": "AW-001866",
+        "name": "Sorenson (left shift k-ary)"
+      },
+      {
+        "algorithm_id": "AW-001867",
+        "name": "Sorenson (right shift k-ary)"
+      },
+      {
+        "algorithm_id": "AW-001869",
+        "name": "Sorenson"
+      }
+    ],
+    "strassens algorithm": [
+      {
+        "algorithm_id": "AW-000038",
+        "name": "Strassen's algorithm"
+      },
+      {
+        "algorithm_id": "AW-000042",
+        "name": "Strassen's algorithm"
+      }
+    ],
+    "stratonovich": [
+      {
+        "algorithm_id": "AW-000756",
+        "name": "Stratonovich"
+      },
+      {
+        "algorithm_id": "AW-000757",
+        "name": "Stratonovich"
+      }
+    ],
+    "suraweera bhattacharya": [
+      {
+        "algorithm_id": "AW-001501",
+        "name": "Suraweera, Bhattacharya"
+      },
+      {
+        "algorithm_id": "AW-001502",
+        "name": "Suraweera, Bhattacharya"
+      }
+    ],
+    "takaoka": [
+      {
+        "algorithm_id": "AW-000999",
+        "name": "Takaoka"
+      },
+      {
+        "algorithm_id": "AW-001005",
+        "name": "Takaoka"
+      },
+      {
+        "algorithm_id": "AW-001573",
+        "name": "Takaoka"
+      },
+      {
+        "algorithm_id": "AW-001833",
+        "name": "Takaoka"
+      }
+    ],
+    "tango tree": [
+      {
+        "algorithm_id": "AW-000978",
+        "name": "Tango Tree"
+      },
+      {
+        "algorithm_id": "AW-000994",
+        "name": "Tango Tree"
+      }
+    ],
+    "tarjan": [
+      {
+        "algorithm_id": "AW-000920",
+        "name": "Tarjan (directed, general)"
+      },
+      {
+        "algorithm_id": "AW-000921",
+        "name": "Tarjan (directed, dense)"
+      }
+    ],
+    "tarjan splay tree": [
+      {
+        "algorithm_id": "AW-000980",
+        "name": "Tarjan Splay Tree"
+      },
+      {
+        "algorithm_id": "AW-000985",
+        "name": "Tarjan Splay Tree"
+      },
+      {
+        "algorithm_id": "AW-000990",
+        "name": "Tarjan Splay Tree"
+      }
+    ],
+    "tchendji myoupo dequen": [
+      {
+        "algorithm_id": "AW-001652",
+        "name": "Tchendji, Myoupo, Dequen (1)"
+      },
+      {
+        "algorithm_id": "AW-001653",
+        "name": "Tchendji, Myoupo, Dequen (2)"
+      }
+    ],
+    "tembhurne sathe": [
+      {
+        "algorithm_id": "AW-001612",
+        "name": "Tembhurne, Sathe (1)"
+      },
+      {
+        "algorithm_id": "AW-001613",
+        "name": "Tembhurne, Sathe (2)"
+      }
+    ],
+    "theoharis page": [
+      {
+        "algorithm_id": "AW-001676",
+        "name": "Theoharis, Page (1)"
+      },
+      {
+        "algorithm_id": "AW-001677",
+        "name": "Theoharis, Page (2)"
+      }
+    ],
+    "thorup": [
+      {
+        "algorithm_id": "AW-000203",
+        "name": "Thorup (reverse-delete)"
+      },
+      {
+        "algorithm_id": "AW-000227",
+        "name": "Thorup"
+      },
+      {
+        "algorithm_id": "AW-000228",
+        "name": "Thorup"
+      }
+    ],
+    "tiskin": [
+      {
+        "algorithm_id": "AW-001298",
+        "name": "Tiskin"
+      },
+      {
+        "algorithm_id": "AW-001574",
+        "name": "Tiskin"
+      }
+    ],
+    "treap": [
+      {
+        "algorithm_id": "AW-000977",
+        "name": "Treap"
+      },
+      {
+        "algorithm_id": "AW-000983",
+        "name": "Treap"
+      },
+      {
+        "algorithm_id": "AW-000988",
+        "name": "Treap"
+      },
+      {
+        "algorithm_id": "AW-000993",
+        "name": "Treap"
+      }
+    ],
+    "tripathy ray": [
+      {
+        "algorithm_id": "AW-001542",
+        "name": "Tripathy, Ray"
+      },
+      {
+        "algorithm_id": "AW-001543",
+        "name": "Tripathy, Ray"
+      }
+    ],
+    "tsin chin": [
+      {
+        "algorithm_id": "AW-001482",
+        "name": "Tsin, Chin"
+      },
+      {
+        "algorithm_id": "AW-001735",
+        "name": "Tsin, Chin"
+      }
+    ],
+    "tsukennan gray stewart uren vaughan": [
+      {
+        "algorithm_id": "AW-001071",
+        "name": "Tsukennan, Gray, Stewart, Uren, Vaughan"
+      },
+      {
+        "algorithm_id": "AW-001072",
+        "name": "Tsukennan, Gray, Stewart, Uren, Vaughan"
+      }
+    ],
+    "two dimensional partitioning with query point replication xiao biros": [
+      {
+        "algorithm_id": "AW-001693",
+        "name": "Two-dimensional partitioning with query point replication - Xiao, Biros (1)"
+      },
+      {
+        "algorithm_id": "AW-001694",
+        "name": "Two-dimensional partitioning with query point replication - Xiao, Biros (1)"
+      }
+    ],
+    "van de vorst": [
+      {
+        "algorithm_id": "AW-001591",
+        "name": "van de Vorst (grids) (1)"
+      },
+      {
+        "algorithm_id": "AW-001592",
+        "name": "van de Vorst (blocks) (2)"
+      }
+    ],
+    "vazirani": [
+      {
+        "algorithm_id": "AW-000767",
+        "name": "Vazirani (ILP, chapters 13-15)"
+      },
+      {
+        "algorithm_id": "AW-000768",
+        "name": "Vazirani (ILP, chapters 13-15)"
+      }
+    ],
+    "vishkin": [
+      {
+        "algorithm_id": "AW-001273",
+        "name": "Vishkin"
+      },
+      {
+        "algorithm_id": "AW-001433",
+        "name": "Vishkin"
+      },
+      {
+        "algorithm_id": "AW-001598",
+        "name": "Vishkin"
+      }
+    ],
+    "wagner han": [
+      {
+        "algorithm_id": "AW-001066",
+        "name": "Wagner, Han"
+      },
+      {
+        "algorithm_id": "AW-001067",
+        "name": "Wagner, Han"
+      }
+    ],
+    "wen": [
+      {
+        "algorithm_id": "AW-001824",
+        "name": "Wen (1)"
+      },
+      {
+        "algorithm_id": "AW-001827",
+        "name": "Wen (2)"
+      }
+    ],
+    "wu et al": [
+      {
+        "algorithm_id": "AW-000414",
+        "name": "Wu et al."
+      },
+      {
+        "algorithm_id": "AW-001771",
+        "name": "Wu et al."
+      }
+    ],
+    "yoo": [
+      {
+        "algorithm_id": "AW-001480",
+        "name": "Yoo"
+      },
+      {
+        "algorithm_id": "AW-001481",
+        "name": "Yoo"
+      }
+    ],
+    "zaroliagis": [
+      {
+        "algorithm_id": "AW-001511",
+        "name": "Zaroliagis (1)"
+      },
+      {
+        "algorithm_id": "AW-001512",
+        "name": "Zaroliagis (1)"
+      },
+      {
+        "algorithm_id": "AW-001513",
+        "name": "Zaroliagis (2)"
+      },
+      {
+        "algorithm_id": "AW-001514",
+        "name": "Zaroliagis (2)"
+      }
+    ],
+    "zhang zheng": [
+      {
+        "algorithm_id": "AW-001181",
+        "name": "Zhang, Zheng"
+      },
+      {
+        "algorithm_id": "AW-001203",
+        "name": "Zhang, Zheng"
+      }
+    ]
+  },
+  "link_counts": {
+    "acm": 281,
+    "arxiv": 36,
+    "citeseerx": 49,
+    "doi": 29,
+    "pdf": 306,
+    "sciencedirect": 180,
+    "siam": 84,
+    "unknown": 905
+  },
+  "missingness": {
+    "Approximate": 162,
+    "Approximation Factor": 1830,
+    "Computational Model": 260,
+    "Link": 228,
+    "Name": 0,
+    "Number Of Processors": 1094,
+    "Parameter Definitions": 141,
+    "Randomized": 148,
+    "Randomized Type": 1809,
+    "Space Complexity": 995,
+    "Span Depth": 1032,
+    "Time Complexity": 116,
+    "Work": 1033,
+    "Year": 1
+  },
+  "normalized_columns": {
+    "Approximate": "approximate",
+    "Approximation Factor": "approximation_factor",
+    "Computational Model": "computational_model",
+    "Link": "link",
+    "Name": "name",
+    "Number Of Processors": "number_of_processors",
+    "Parameter Definitions": "parameter_definitions",
+    "Randomized": "randomized",
+    "Randomized Type": "randomized_type",
+    "Space Complexity": "space_complexity",
+    "Span Depth": "span_depth",
+    "Time Complexity": "time_complexity",
+    "Work": "work",
+    "Year": "year"
+  },
+  "row_count": 1870,
+  "unique_name_count": 1435
+}

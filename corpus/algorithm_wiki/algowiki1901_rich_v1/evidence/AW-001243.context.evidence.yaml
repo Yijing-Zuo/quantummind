@@ -1,0 +1,58 @@
+id: AW-001243
+kind: context
+algorithm_id: AW-001243
+algorithm_name: Parallel Sorting by Approximate Selection (PSAS) - Wu, Wu, Shang, Fang
+source_records:
+- access_status: metadata_only
+  digest: c69b8fee7b5b6a14
+  extracted_facts:
+  - 'AlgorithmWiki row name: Parallel Sorting by Approximate Selection (PSAS) - Wu, Wu, Shang, Fang'
+  - 'domain: sorting'
+  - 'time complexity: O(n + n/p \log(n/p))'
+  - 'computational model: PRAM'
+  - 'parameter definitions: n: size of list, p: number of processors'
+  - 'precard summary: Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model. Baseline: time O(n + n/p \log(n/p)); work O(np + n \log(n/p)); span/depth O(n); processors p. Bottleneck: comparison, distribution, and full-output movement costs dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001243:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Parallel Sorting by Approximate Selection (PSAS) - Wu, Wu, Shang, Fang
+  url: https://ieeexplore.ieee.org/abstract/document/5533008
+- access_status: skipped
+  digest: 8a47d474f1cafac9
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:a93257aae13adcc1
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://ieeexplore.ieee.org/abstract/document/5533008
+web_query_attempts:
+- method: search_plan
+  query: Parallel Sorting by Approximate Selection (PSAS) - Wu, Wu, Shang, Fang algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Parallel Sorting by Approximate Selection (PSAS) - Wu, Wu, Shang, Fang algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Parallel Sorting by Approximate Selection (PSAS) - Wu, Wu, Shang, Fang problem definition
+  status: recorded
+- method: search_plan
+  query: Parallel Sorting by Approximate Selection (PSAS) - Wu, Wu, Shang, Fang sorting algorithm
+  status: recorded
+- method: search_plan
+  query: Parallel Sorting by Approximate Selection (PSAS) - Wu, Wu, Shang, Fang site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Parallel Sorting by Approximate Selection (PSAS) - Wu, Wu, Shang, Fang algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://ieeexplore.ieee.org/abstract/document/5533008
+  status: recorded
+- method: source_link_html_metadata
+  query: https://ieeexplore.ieee.org/abstract/document/5533008
+  status: skipped
+extracted_problem_statement: 'Parallel Sorting by Approximate Selection (PSAS) - Wu, Wu, Shang, Fang is treated as a classical sorting task for rich AlgorithmWiki discovery. Problem/task: sort the input sequence using the named classical sorting method. Input semantics: A finite array or list of comparable keys or records. Output semantics: The same items returned in nondecreasing order, usually as a full reordered sequence.'
+extracted_algorithm_summary: 'Parallel Sorting by Approximate Selection (PSAS) - Wu, Wu, Shang, Fang is a sorting algorithm record. Classical complexity metadata: time O(n + n/p \log(n/p)); work O(np + n \log(n/p)); span/depth O(n); processors p. The stated classical model is PRAM. Public metadata/source text adds: Parallel Sorting by Approximate Selection (PSAS) - Wu, Wu, Shang, Fang sorting sorting n: size of list, p: number of processors O(n + n/p \log(n/p)) Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

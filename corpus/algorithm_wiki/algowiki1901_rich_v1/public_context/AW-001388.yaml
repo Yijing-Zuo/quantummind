@@ -1,0 +1,17 @@
+statement: "Kamdoum is included as a named whole-algorithm context card for a classical parallel algorithms task. The task is to analyze the classical input-output problem, not to certify an end-to-end improvement claim. Input semantics: The classical input instance named by the row, together with processor/work/span parameters when stated. Output semantics: The same mathematical output as the underlying classical task, annotated by work/span when available. Classical algorithm summary: Kamdoum is a parallel algorithms algorithm record. Classical complexity metadata: time Worth mentioning that the typical bad case for simplex is O(2^n) iterations, with d=Theta(n). https://mathoverflow.net/questions/127423/how-many-vertices-can-a-convex-polytope-have says guaranteed bound O(n^floor(d/2)). I've plugged in 2^n iterations here, because that's probably the more cited worst case.; work O(nd*2^d); span/depth O(2^d*log(dn)); processors p. The stated classical model is EREW PRAM. Public metadata/source\
+  \ text adds: Kamdoum parallel_algorithms parallel_algorithms n: number of constraints, d: number of dimensions, p: number of processors, p\u2264d Worth mentioning that the typical bad case for simplex is O(2^n) iterations, with d=Theta(n). Classical complexity recorded for this row: time Worth mentioning that the typical bad case for simplex is O(2^n) iterations, with d=Theta(n). https://mathoverflow.net/questions/127423/how-many-vertices-can-a-convex-polytope-have says guaranteed bound O(n^floor(d/2)). I've plugged in 2^n iterations here, because that's probably the more cited worst case.; space unknown; computation model EREW PRAM. Dominant bottleneck: work, span/depth, processor count, and communication/synchronization assumptions. The useful review questions are whether the named structure exposes a smaller decision, witness, estimation, or algebraic subproblem; whether the full output size dominates any asymptotic gain; and whether the stated access model is realistic for the original\
+  \ input. Provenance is limited to AlgorithmWiki metadata and source-link facts; unresolved details are kept as ambiguities. Source-backed uncertainty or assumptions: No independent fetched public metadata source resolved this row beyond AlgorithmWiki metadata/source-link facts."
+input_model: explicit_parallel_algorithm_problem
+access_model: explicit_input_instance
+output_contract: full_solution
+promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+- classical_parallel_model_recorded
+size_parameters:
+- "Parameter definition: n: number of constraints, d: number of dimensions, p: number of processors, p\u2264d"
+- p = stated number of processors (p)
+ambiguities:
+- No independent fetched public metadata source resolved this row beyond AlgorithmWiki metadata/source-link facts.
+- Some details are reconstructed from AlgorithmWiki metadata rather than an independently fetched full public description.
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.

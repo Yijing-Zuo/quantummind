@@ -1,0 +1,58 @@
+algorithm_family: unknown
+algorithm_id: AW-000773
+approximate: '0'
+approximation_factor: ''
+blind_name: Algorithm Wiki public task AW-000773
+canonical_name: Ocone
+computational_model: ''
+domain: unknown
+extracted_description: ''
+extraction_version: algorithm-wiki-rich-context-v1
+family: unknown
+inferred_access_model: explicit_input_instance
+inferred_ambiguities:
+- Some details are reconstructed from AlgorithmWiki metadata rather than an independently fetched full public description.
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.
+inferred_input_model: explicit_optimization_problem
+inferred_output_contract: estimate
+inferred_problem_statement: 'Ocone is treated as a classical optimization task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Ocone. Input semantics: An explicit feasible-region, objective, scheduling, assignment, or knapsack-style instance. Output semantics: An optimal or approximate feasible solution with its objective value or schedule/assignment representation.'
+inferred_promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+inferred_size_parameters:
+- 'Parameter definition: n: number of dimensions in state space'
+number_of_processors: ''
+page_digest: ''
+page_fetch_status: not_found
+page_url: ''
+parameter_definitions: 'n: number of dimensions in state space'
+problem_name: unknown
+quality_flags:
+- has_complexity_semantics
+- has_size_parameters
+quality_score: 65
+randomized: '0'
+readiness: READY_PUBLIC_CONTEXT
+review_reasons:
+- missing_problem_statement
+- unknown_input_model
+- unknown_access_model
+- unknown_output_contract
+- insufficient_algorithm_level_structure
+source_link: https://link.springer.com/chapter/10.1007/978-1-4612-1784-8_28
+source_link_type: unknown
+space_complexity: ''
+span_depth: ''
+time_complexity: O(n^2)
+variation: ''
+work: ''
+year: '1999'
+rich_card_kind: context
+source_records_used:
+- AW-000773:algorithm_wiki_metadata
+- crossref:201a59dd4cf2f083
+- skipped:9babbdffbb73cee1
+source_count: 3
+source_quality: HIGH
+confidence_score: 65
+card_digest: 07d38089549f2cf1

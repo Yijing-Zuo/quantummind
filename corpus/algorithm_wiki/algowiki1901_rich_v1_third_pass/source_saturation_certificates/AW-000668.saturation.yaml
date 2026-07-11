@@ -1,0 +1,407 @@
+algorithm_id: AW-000668
+canonical_name: The Multihash Algorithm
+original_source_link: http://ilpubs.stanford.edu:8090/423/
+source_link_type: unknown
+previous_failure_reasons:
+- No second-pass rule could identify source-backed task semantics.
+previous_source_records:
+- access_status: metadata_only
+  digest: cd706aba9d469f45
+  extracted_facts:
+  - 'AlgorithmWiki row name: The Multihash Algorithm'
+  - 'domain: unknown'
+  - 'time complexity: O(n^2)'
+  - 'space complexity: O(n^2)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: total number of transactions (size of database)'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000668:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for The Multihash Algorithm
+  url: http://ilpubs.stanford.edu:8090/423/
+- access_status: fetched
+  digest: 753d13891d19f7bd
+  extracted_facts:
+  - 'source page title: Error - Stanford InfoLab Publication Server'
+  - 'source page description: Feel free to contact Stanford InfoLab Publication Server administration with details.'
+  reliability: MEDIUM
+  short_quote: Feel free to contact Stanford InfoLab Publication Server administration with details.
+  source_id: source:4eebe28161e6121e
+  source_type: textbook_or_course_notes
+  title: Error - Stanford InfoLab Publication Server
+  url: http://ilpubs.stanford.edu:8090/423/
+- access_status: fetched
+  digest: dde4ff0acc60a3ae
+  extracted_facts:
+  - 'Crossref title-search result: Publication Error'
+  reliability: MEDIUM
+  short_quote: ''
+  source_id: crossref_search:290a462660b63d43
+  source_type: doi_metadata
+  title: Publication Error
+  url: https://doi.org/10.1016/j.jana.2009.04.001
+aliases_tried:
+- The Multihash Algorithm
+- The Multihash Algorithm algorithm
+- The Multihash Algorithm problem
+- The Multihash Algorithm pseudocode
+- The Multihash Algorithm time complexity
+- Error - Stanford InfoLab Publication Server
+- Error - Stanford InfoLab Publication Server algorithm
+- Error - Stanford InfoLab Publication Server complexity
+- Publication Error
+- Publication Error algorithm
+- Publication Error complexity
+query_plan:
+- source_family: original_source
+  primary_query: The Multihash Algorithm
+  applicability: applicable
+  purpose: check the row's original source link without storing paywalled or PDF bodies
+- source_family: crossref
+  primary_query: The Multihash Algorithm
+  applicability: title-search-only
+  purpose: recover DOI title, venue, year, and abstract metadata where available
+- source_family: openalex
+  primary_query: The Multihash Algorithm
+  applicability: applicable
+  purpose: recover public work metadata and abstract-inverted-index summaries
+- source_family: semantic_scholar
+  primary_query: The Multihash Algorithm
+  applicability: applicable
+  purpose: recover CS paper metadata and abstracts without an API key
+- source_family: arxiv
+  primary_query: The Multihash Algorithm
+  applicability: title-search-only
+  purpose: recover arXiv title and abstract metadata
+- source_family: dblp
+  primary_query: The Multihash Algorithm
+  applicability: applicable
+  purpose: recover bibliographic title/venue metadata for CS publications
+- source_family: publisher_abstract
+  primary_query: The Multihash Algorithm
+  applicability: applicable
+  purpose: check accessible publisher abstract pages
+- source_family: citeseerx
+  primary_query: The Multihash Algorithm
+  applicability: applicable
+  purpose: record legacy CiteSeerX availability without full PDF storage
+- source_family: wikipedia
+  primary_query: The Multihash Algorithm
+  applicability: applicable
+  purpose: check public encyclopedia algorithm descriptions
+- source_family: wikidata
+  primary_query: The Multihash Algorithm
+  applicability: applicable
+  purpose: check public entity aliases/descriptions
+- source_family: nist_dads
+  primary_query: The Multihash Algorithm
+  applicability: applicable
+  purpose: check whether a DADS-style reference search is applicable
+- source_family: algorithm_wiki_local
+  primary_query: The Multihash Algorithm
+  applicability: applicable
+  purpose: reuse AlgorithmWiki metadata as provenance
+- source_family: the_algorithms
+  primary_query: The Multihash Algorithm
+  applicability: applicable
+  purpose: check exact public implementation/reference names when available
+- source_family: cp_algorithms
+  primary_query: The Multihash Algorithm
+  applicability: applicable
+  purpose: check exact public algorithm reference names when available
+- source_family: course_notes
+  primary_query: The Multihash Algorithm
+  applicability: applicable
+  purpose: record absence of configured course-notes search
+- source_family: general_web_search
+  primary_query: The Multihash Algorithm
+  applicability: applicable
+  purpose: record absence of a configured general web endpoint
+- source_family: local_previous_cache
+  primary_query: The Multihash Algorithm
+  applicability: applicable
+  purpose: reuse v1/second-pass fetched source records
+query_attempts:
+- &id001
+  cycle: 1
+  query: The Multihash Algorithm
+  source_family: algorithm_wiki_local
+  url_or_api_endpoint: http://ilpubs.stanford.edu:8090/423/
+  status: fetched
+  new_facts_added: 9
+  reason: local metadata
+- &id002
+  cycle: 1
+  query: The Multihash Algorithm
+  source_family: local_previous_cache
+  url_or_api_endpoint: ''
+  status: duplicate
+  new_facts_added: 0
+  reason: previous v1/second-pass sources reused
+- &id003
+  cycle: 1
+  query: http://ilpubs.stanford.edu:8090/423/
+  source_family: original_source
+  url_or_api_endpoint: http://ilpubs.stanford.edu:8090/423/
+  status: irrelevant
+  new_facts_added: 3
+  reason: original source page metadata
+- &id004
+  cycle: 1
+  query: The Multihash Algorithm
+  source_family: crossref
+  url_or_api_endpoint: https://doi.org/10.1109/etncc66224.2025.11299661
+  status: irrelevant
+  new_facts_added: 0
+  reason: Crossref metadata/title search
+- &id005
+  cycle: 1
+  query: The Multihash Algorithm
+  source_family: arxiv
+  url_or_api_endpoint: https://export.arxiv.org/api/query?max_results=1&search_query=ti:%22The+Multihash+Algorithm%22
+  status: no_result
+  new_facts_added: 0
+  reason: arXiv title search returned no usable entry
+- &id006
+  cycle: 1
+  query: The Multihash Algorithm
+  source_family: wikipedia
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: Wikipedia search returned no relevant page
+source_attempts:
+- *id001
+- *id002
+- *id003
+- *id004
+- *id005
+- *id006
+discovered_sources:
+- source_id: crossref_search:b96e10c411a5d39f
+  url: https://doi.org/10.1109/etncc66224.2025.11299661
+  title: 'From Capture to Court in Crime Scene Investigations: A Blockchain-Based Tamper-Proof File Sharing System Utilizing IPFS Multihash'
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title: From Capture to Court in Crime Scene Investigations: A Blockchain-Based Tamper-Proof File Sharing System Utilizing IPFS Multihash'
+  - 'published year: 2025'
+  - 'container title: 2025 International Conference on Emerging Trends in Networks and Computer Communications (ETNCC)'
+  short_quote: 'Crossref title: From Capture to Court in Crime Scene Investigations: A Blockchain-Based Tamper-Proof File Sharing System Utilizing IPFS Multihash published year: 2025 container title:'
+  digest: 6138514d60b3ff47
+discovered_facts:
+- fact_id: AW-000668-F3467a1675e
+  fact_type: alias
+  value: The Multihash Algorithm
+  source_id: AW-000668:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: AlgorithmWiki metadata
+- fact_id: AW-000668-F56b317d4bc
+  fact_type: time_complexity
+  value: O(n^2)
+  source_id: AW-000668:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: AlgorithmWiki metadata
+- fact_id: AW-000668-Fbab6a78ec1
+  fact_type: space_complexity
+  value: O(n^2)
+  source_id: AW-000668:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: AlgorithmWiki metadata
+- fact_id: AW-000668-F0e94b793dd
+  fact_type: computation_model
+  value: Word RAM
+  source_id: AW-000668:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: AlgorithmWiki metadata
+- fact_id: AW-000668-Fbccfb15bdd
+  fact_type: input_semantics
+  value: 'Parameter definitions: n: total number of transactions (size of database)'
+  source_id: AW-000668:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 75
+  conflict_status: weak
+  notes: AlgorithmWiki parameter metadata
+- fact_id: AW-000668-Feaba16156e
+  fact_type: authoritative_source_link
+  value: http://ilpubs.stanford.edu:8090/423/
+  source_id: AW-000668:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 70
+  conflict_status: consistent
+  notes: Original source link from AlgorithmWiki metadata
+- fact_id: AW-000668-F1d5ec6b507
+  fact_type: source_title
+  value: AlgorithmWiki metadata for The Multihash Algorithm
+  source_id: AW-000668:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000668-F2f6cdc9a65
+  fact_type: problem_definition
+  value: 'Source title indicates: AlgorithmWiki metadata for The Multihash Algorithm'
+  source_id: AW-000668:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: weak
+  notes: previous_source_record
+- fact_id: AW-000668-F96579036c7
+  fact_type: problem_definition
+  value: 'AlgorithmWiki row name: The Multihash Algorithm'
+  source_id: AW-000668:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000668-Fbba4e26ad2
+  fact_type: problem_definition
+  value: 'domain: unknown'
+  source_id: AW-000668:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000668-F6782e4c416
+  fact_type: time_complexity
+  value: 'time complexity: O(n^2)'
+  source_id: AW-000668:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000668-F49f5aa1296
+  fact_type: space_complexity
+  value: 'space complexity: O(n^2)'
+  source_id: AW-000668:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000668-F6694d4f33e
+  fact_type: computation_model
+  value: 'computational model: Word RAM'
+  source_id: AW-000668:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000668-F0b5448bdb6
+  fact_type: problem_definition
+  value: 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  source_id: AW-000668:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000668-F27dfad4407
+  fact_type: source_title
+  value: Error - Stanford InfoLab Publication Server
+  source_id: source:4eebe28161e6121e
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000668-Fa5b0e97248
+  fact_type: problem_definition
+  value: 'source page title: Error - Stanford InfoLab Publication Server'
+  source_id: source:4eebe28161e6121e
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000668-F794179b144
+  fact_type: problem_definition
+  value: 'source page description: Feel free to contact Stanford InfoLab Publication Server administration with details.'
+  source_id: source:4eebe28161e6121e
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000668-F3d9078e73d
+  fact_type: source_title
+  value: Publication Error
+  source_id: crossref_search:290a462660b63d43
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000668-Faec59bb1ef
+  fact_type: problem_definition
+  value: 'Crossref title-search result: Publication Error'
+  source_id: crossref_search:290a462660b63d43
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000668-F2dff06e21e
+  fact_type: authoritative_source_link
+  value: https://doi.org/10.1016/j.jana.2009.04.001
+  source_id: crossref_search:290a462660b63d43
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000668-Fea21b778fd
+  fact_type: problem_definition
+  value: Feel free to contact Stanford InfoLab Publication Server administration with details.
+  source_id: source:4eebe28161e6121e
+  reliability: LOW
+  confidence: 45
+  conflict_status: consistent
+  notes: original_source
+duplicate_sources:
+- source_id: AW-000668:algorithm_wiki_metadata
+  url: http://ilpubs.stanford.edu:8090/423/
+  title: AlgorithmWiki metadata for The Multihash Algorithm
+  source_type: algorithm_wiki
+  access_status: metadata_only
+  reliability: HIGH
+  extracted_facts:
+  - 'AlgorithmWiki row name: The Multihash Algorithm'
+  - 'domain: unknown'
+  - 'time complexity: O(n^2)'
+  - 'space complexity: O(n^2)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: total number of transactions (size of database)'
+  short_quote: ''
+  digest: abe352901525de41
+- source_id: source:4eebe28161e6121e
+  url: http://ilpubs.stanford.edu:8090/423/
+  title: Error - Stanford InfoLab Publication Server
+  source_type: publisher_abstract
+  access_status: fetched
+  reliability: LOW
+  extracted_facts:
+  - Error - Stanford InfoLab Publication Server
+  - Feel free to contact Stanford InfoLab Publication Server administration with details.
+  short_quote: Error - Stanford InfoLab Publication Server Feel free to contact Stanford InfoLab Publication Server administration with details.
+  digest: 3e251b67e776fe7d
+failed_sources: []
+paywalled_or_skipped_sources: []
+source_families_covered:
+- algorithm_wiki_local
+- local_previous_cache
+- original_source
+- crossref
+- arxiv
+- wikipedia
+cycles_completed: 1
+new_fact_count_by_cycle:
+- cycle: 1
+  new_facts: 1
+no_new_fact_streak: 0
+saturation_status: RECOVERED_CONTEXT_AND_PROBE
+final_reason: Source-saturation pass found enough task, input, output, and access semantics for a context card.
+next_manual_action: Audit recovered card before any optional live analyze run.

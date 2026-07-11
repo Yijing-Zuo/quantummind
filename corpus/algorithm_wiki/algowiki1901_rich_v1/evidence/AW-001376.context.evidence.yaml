@@ -1,0 +1,58 @@
+id: AW-001376
+kind: context
+algorithm_id: AW-001376
+algorithm_name: Mathur, Johnsson (multiple algorithms)
+source_records:
+- access_status: metadata_only
+  digest: fad2864a5a04185b
+  extracted_facts:
+  - 'AlgorithmWiki row name: Mathur, Johnsson (multiple algorithms)'
+  - 'domain: parallel_algorithms'
+  - 'time complexity: O(PQR/N)'
+  - 'computational model: data parallel, hypercube (CM-200)'
+  - 'parameter definitions: PxQ, QxR: sizes of matrices being multiplied, N: number of processors'
+  - 'precard summary: Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model. Baseline: time O(PQR/N); work O(PQR); span/depth O(PQR/N); processors N. Bottleneck: work, span, communication, and processor-count assumptions dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001376:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Mathur, Johnsson (multiple algorithms)
+  url: https://dash.harvard.edu/bitstream/handle/1/23017262/tr-01-92.pdf
+- access_status: skipped
+  digest: a769be1cfbeac75b
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:f187e16f190a50da
+  source_type: wikipedia
+  title: fetch budget exhausted
+  url: https://en.wikipedia.org/wiki/Mathur%2C_Johnsson_%28multiple_algorithms%29
+web_query_attempts:
+- method: search_plan
+  query: Mathur, Johnsson (multiple algorithms) algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Mathur, Johnsson (multiple algorithms) algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Mathur, Johnsson (multiple algorithms) problem definition
+  status: recorded
+- method: search_plan
+  query: Mathur, Johnsson (multiple algorithms) parallel algorithms algorithm
+  status: recorded
+- method: search_plan
+  query: Mathur, Johnsson (multiple algorithms) site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Mathur, Johnsson (multiple algorithms) algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://dash.harvard.edu/bitstream/handle/1/23017262/tr-01-92.pdf
+  status: recorded
+- method: wikipedia_summary_search
+  query: Mathur, Johnsson (multiple algorithms) algorithm
+  status: skipped
+extracted_problem_statement: 'Mathur, Johnsson (multiple algorithms) is treated as a classical parallel algorithms task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Mathur, Johnsson (multiple algorithms). Input semantics: The classical input instance named by the row, together with processor/work/span parameters when stated. Output semantics: The same mathematical output as the underlying classical task, annotated by work/span when available.'
+extracted_algorithm_summary: 'Mathur, Johnsson (multiple algorithms) is a parallel algorithms algorithm record. Classical complexity metadata: time O(PQR/N); work O(PQR); span/depth O(PQR/N); processors N. The stated classical model is data parallel, hypercube (CM-200). Public metadata/source text adds: Mathur, Johnsson (multiple algorithms) parallel_algorithms parallel_algorithms PxQ, QxR: sizes of matrices being multiplied, N: number of processors O(PQR/N) Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

@@ -1,0 +1,87 @@
+id: AW-000954
+kind: context_recovered
+algorithm_id: AW-000954
+algorithm_name: Ord-Smith
+source_records:
+- access_status: metadata_only
+  digest: 7fdd9de3fa427fbd
+  extracted_facts:
+  - 'AlgorithmWiki row name: Ord-Smith'
+  - 'domain: unknown'
+  - 'time complexity: O(n!)'
+  - 'space complexity: O(n) auxiliary'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of elements'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000954:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Ord-Smith
+  url: https://dl.acm.org/doi/pdf/10.1145/362896.362913
+- access_status: skipped
+  digest: efc79912545d0c61
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:98e437fce6c88adf
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1145/362896.362913
+- source_id: crossref:15c995d87429f7ad
+  url: https://doi.org/10.1145/362896.362913
+  title: Algorithm 323:Generation of permutations in lexicographic order
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: HIGH
+  extracted_facts:
+  - 'DOI title: Algorithm 323:Generation of permutations in lexicographic order'
+  - 'published year: 1968'
+  - 'container title: Communications of the ACM'
+  short_quote: ''
+  digest: 6e54c349b7c4c8b1
+- source_id: crossref_search:0b18e1bdccf3f416
+  url: https://doi.org/10.1109/npc.2007.32
+  title: An optimal algorithm to fetch DHT routable
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: An optimal algorithm to fetch DHT routable'
+  short_quote: ''
+  digest: eac65bcac63f65f8
+web_query_attempts:
+- query: '"Ord-Smith" algorithm'
+  method: search_plan
+  status: recorded
+- query: '"Ord-Smith" input output'
+  method: search_plan
+  status: recorded
+- query: '"Ord-Smith" time complexity'
+  method: search_plan
+  status: recorded
+- query: '"Ord-Smith" pseudocode'
+  method: search_plan
+  status: recorded
+- query: '"Ord-Smith" problem'
+  method: search_plan
+  status: recorded
+- query: '"Ord-Smith" PDF metadata abstract'
+  method: search_plan
+  status: recorded
+- query: '"fetch budget exhausted" algorithm'
+  method: search_plan
+  status: recorded
+- query: https://dl.acm.org/doi/pdf/10.1145/362896.362913
+  method: search_plan
+  status: recorded
+- query: 10.1145/362896.362913
+  method: crossref_doi_metadata
+  status: fetched
+- query: fetch budget exhausted algorithm
+  method: crossref_title_search
+  status: fetched
+extracted_problem_statement: 'Ord-Smith is reconstructed as a classical graph task. Problem/task: solve the named graph task indicated by the public source metadata Input semantics: An explicit graph with vertices, edges, weights, labels, or adjacency access as required by the row. Output semantics: A path, tree, component labeling, flow, matching, or witness object for the named graph task.'
+extracted_algorithm_summary: 'Ord-Smith is treated as the named AlgorithmWiki variant for solve the named graph task indicated by the public source metadata Classical complexity metadata: time O(n!); space O(n) auxiliary. Public metadata/source title support includes Algorithm 323:Generation of permutations in lexicographic order.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

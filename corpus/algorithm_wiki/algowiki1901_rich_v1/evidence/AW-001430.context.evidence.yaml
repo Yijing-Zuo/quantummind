@@ -1,0 +1,57 @@
+id: AW-001430
+kind: context
+algorithm_id: AW-001430
+algorithm_name: Chandra
+source_records:
+- access_status: metadata_only
+  digest: e81b5b3a9097ad55
+  extracted_facts:
+  - 'AlgorithmWiki row name: Chandra'
+  - 'domain: parallel_algorithms'
+  - 'time complexity: O(\log^2(n))'
+  - 'computational model: SIMD-SM-R (CREW PRAM)'
+  - 'precard summary: Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model. Baseline: time O(\log^2(n)); work n^(log7)*\log(n); span/depth O(log^2(n)); processors n^(log7)/log(n). Bottleneck: work, span, communication, and processor-count assumptions dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001430:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Chandra
+  url: https://cir.nii.ac.jp/crid/1573105974323147776
+- access_status: skipped
+  digest: e8f1cb259f905034
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:d4ff01ce39eeaf2d
+  source_type: other_public_source
+  title: fetch budget exhausted
+  url: https://cir.nii.ac.jp/crid/1573105974323147776
+web_query_attempts:
+- method: search_plan
+  query: Chandra algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Chandra algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Chandra problem definition
+  status: recorded
+- method: search_plan
+  query: Chandra parallel algorithms algorithm
+  status: recorded
+- method: search_plan
+  query: Chandra site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Chandra algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://cir.nii.ac.jp/crid/1573105974323147776
+  status: recorded
+- method: source_link_html_metadata
+  query: https://cir.nii.ac.jp/crid/1573105974323147776
+  status: skipped
+extracted_problem_statement: 'Chandra is treated as a classical parallel algorithms task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Chandra. Input semantics: The classical input instance named by the row, together with processor/work/span parameters when stated. Output semantics: The same mathematical output as the underlying classical task, annotated by work/span when available.'
+extracted_algorithm_summary: 'Chandra is a parallel algorithms algorithm record. Classical complexity metadata: time O(\log^2(n)); work n^(log7)*\log(n); span/depth O(log^2(n)); processors n^(log7)/log(n). The stated classical model is SIMD-SM-R (CREW PRAM). Public metadata/source text adds: Chandra parallel_algorithms parallel_algorithms O(\log^2(n)) Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

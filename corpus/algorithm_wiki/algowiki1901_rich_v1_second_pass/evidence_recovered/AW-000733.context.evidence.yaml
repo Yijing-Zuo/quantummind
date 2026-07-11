@@ -1,0 +1,59 @@
+id: AW-000733
+kind: context_recovered
+algorithm_id: AW-000733
+algorithm_name: B. I. Kvasov
+source_records:
+- access_status: metadata_only
+  digest: 5a5ec6b6a77aa668
+  extracted_facts:
+  - 'AlgorithmWiki row name: B. I. Kvasov'
+  - 'domain: unknown'
+  - 'time complexity: O(n^4)'
+  - 'space complexity: O(n)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of points'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000733:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for B. I. Kvasov
+  url: http://sutir.sut.ac.th:8080/sutir/bitstream/123456789/431/1/bib115.pdf
+- source_id: crossref_search:8f1cc3891b57a263
+  url: https://doi.org/10.1093/gao/9781884446054.article.t048408
+  title: Kvasov, Aleksey
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: Kvasov, Aleksey'
+  short_quote: ''
+  digest: 27b087a8607d7023
+web_query_attempts:
+- query: '"B. I. Kvasov" algorithm'
+  method: search_plan
+  status: recorded
+- query: '"B. I. Kvasov" input output'
+  method: search_plan
+  status: recorded
+- query: '"B. I. Kvasov" time complexity'
+  method: search_plan
+  status: recorded
+- query: '"B. I. Kvasov" pseudocode'
+  method: search_plan
+  status: recorded
+- query: '"B. I. Kvasov" problem'
+  method: search_plan
+  status: recorded
+- query: '"B. I. Kvasov" PDF metadata abstract'
+  method: search_plan
+  status: recorded
+- query: http://sutir.sut.ac.th:8080/sutir/bitstream/123456789/431/1/bib115.pdf
+  method: search_plan
+  status: recorded
+- query: B. I. Kvasov algorithm
+  method: crossref_title_search
+  status: fetched
+extracted_problem_statement: 'B. I. Kvasov is reconstructed as a classical computational geometry task. Problem/task: compute a geometric structure or relation over a finite point set Input semantics: A finite set of points, dimension k when stated, and geometric predicate assumptions. Output semantics: A geometric witness, nearest/closest relation, hull, partition, or related structure supported by the named row.'
+extracted_algorithm_summary: 'B. I. Kvasov is treated as the named AlgorithmWiki variant for compute a geometric structure or relation over a finite point set Classical complexity metadata: time O(n^4); space O(n). Public metadata/source title support includes Kvasov, Aleksey.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

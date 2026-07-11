@@ -1,0 +1,72 @@
+id: AW-001333
+kind: context
+algorithm_id: AW-001333
+algorithm_name: Ahuja, Orlin
+source_records:
+- access_status: metadata_only
+  digest: de7cfd51da497a1e
+  extracted_facts:
+  - 'AlgorithmWiki row name: Ahuja, Orlin'
+  - 'domain: graph'
+  - 'time complexity: O(V^2 \log(U) \log(E/V))'
+  - 'space complexity: can be derived'
+  - 'computational model: EREW PRAM'
+  - 'parameter definitions: V: number of vertices, E: number of edges, U: maximum edge capacity'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(V^2 \log(U) \log(E/V)); space can be derived; work O(VE \log(U) \log(E/V)); span/depth O(V^2 log(U) log(E/V)); processors O(E/V). Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001333:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Ahuja, Orlin
+  url: https://pubsonline.informs.org/doi/abs/10.1287/opre.37.5.748
+- access_status: skipped
+  digest: 1cac592bf8923b86
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:d71383397ab4aa5e
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1287/opre.37.5.748
+- access_status: skipped
+  digest: d69b3e0bf10badeb
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:51d3bd0d22daf3df
+  source_type: other_public_source
+  title: fetch budget exhausted
+  url: https://pubsonline.informs.org/doi/abs/10.1287/opre.37.5.748
+web_query_attempts:
+- method: search_plan
+  query: Ahuja, Orlin algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Ahuja, Orlin algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Ahuja, Orlin problem definition
+  status: recorded
+- method: search_plan
+  query: Ahuja, Orlin graph algorithm
+  status: recorded
+- method: search_plan
+  query: Ahuja, Orlin site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Ahuja, Orlin algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://pubsonline.informs.org/doi/abs/10.1287/opre.37.5.748
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1287/opre.37.5.748
+  status: skipped
+- method: source_link_html_metadata
+  query: https://pubsonline.informs.org/doi/abs/10.1287/opre.37.5.748
+  status: skipped
+extracted_problem_statement: 'Ahuja, Orlin is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Ahuja, Orlin. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'Ahuja, Orlin is a graph algorithm record. Classical complexity metadata: time O(V^2 \log(U) \log(E/V)); space can be derived; work O(VE \log(U) \log(E/V)); span/depth O(V^2 log(U) log(E/V)); processors O(E/V). The stated classical model is EREW PRAM. Public metadata/source text adds: Ahuja, Orlin graph graph V: number of vertices, E: number of edges, U: maximum edge capacity O(V^2 \log(U) \log(E/V)) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

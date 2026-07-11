@@ -1,0 +1,42 @@
+id: AW-001786
+kind: context
+algorithm_id: AW-001786
+algorithm_name: Saxena, Bhatt, Prasad (2)
+source_records:
+- access_status: metadata_only
+  digest: fbeee147031b3555
+  extracted_facts:
+  - 'AlgorithmWiki row name: Saxena, Bhatt, Prasad (2)'
+  - 'domain: parallel_algorithms'
+  - 'time complexity: O(\log n \log \log n)'
+  - 'computational model: CREW PRAM'
+  - 'parameter definitions: n: number of points'
+  - 'precard summary: Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model. Baseline: time O(\log n \log \log n); work O(n^2 \log n \log \log n); span/depth O(log n log log n); processors O(n^2). Bottleneck: work, span, communication, and processor-count assumptions dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001786:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Saxena, Bhatt, Prasad (2)
+  url: ''
+web_query_attempts:
+- method: search_plan
+  query: Saxena, Bhatt, Prasad (2) algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Saxena, Bhatt, Prasad (2) algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Saxena, Bhatt, Prasad (2) problem definition
+  status: recorded
+- method: search_plan
+  query: Saxena, Bhatt, Prasad (2) parallel algorithms algorithm
+  status: recorded
+- method: search_plan
+  query: Saxena, Bhatt, Prasad (2) site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Saxena, Bhatt, Prasad (2) algorithm wiki
+  status: recorded
+extracted_problem_statement: 'Saxena, Bhatt, Prasad (2) is treated as a classical parallel algorithms task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Saxena, Bhatt, Prasad (2). Input semantics: The classical input instance named by the row, together with processor/work/span parameters when stated. Output semantics: The same mathematical output as the underlying classical task, annotated by work/span when available.'
+extracted_algorithm_summary: 'Saxena, Bhatt, Prasad (2) is a parallel algorithms algorithm record. Classical complexity metadata: time O(\log n \log \log n); work O(n^2 \log n \log \log n); span/depth O(log n log log n); processors O(n^2). The stated classical model is CREW PRAM. Public metadata/source text adds: Saxena, Bhatt, Prasad (2) parallel_algorithms parallel_algorithms n: number of points O(\log n \log \log n) Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

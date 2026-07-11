@@ -1,0 +1,74 @@
+id: AW-000428
+kind: context
+algorithm_id: AW-000428
+algorithm_name: Backward Non-Deterministic DAWG Matching (BNDM)
+source_records:
+- access_status: metadata_only
+  digest: c30144f280c3f81a
+  extracted_facts:
+  - 'AlgorithmWiki row name: Backward Non-Deterministic DAWG Matching (BNDM)'
+  - 'domain: combinatorics'
+  - 'time complexity: O(n+m)'
+  - 'space complexity: O(sm)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: m: pattern length, n: length of searchable text, s: size of the alphabet'
+  - 'precard summary: Given an explicit combinatorial object or parameter set, compute the requested count, construction, witness set, or ordering. Baseline: time O(n+m); space O(sm). Bottleneck: search, enumeration, arithmetic, and witness materialization dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000428:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Backward Non-Deterministic DAWG Matching (BNDM)
+  url: https://link.springer.com/chapter/10.1007/BFb0030778
+- access_status: fetched
+  digest: 8747a599d2381cb3
+  extracted_facts:
+  - 'DOI title: A bit-parallel approach to suffix automata: Fast extended string matching'
+  - 'published year: 1998'
+  - 'container title: Lecture Notes in Computer Science'
+  reliability: HIGH
+  short_quote: ''
+  source_id: crossref:67553e8769d1536c
+  source_type: doi_metadata
+  title: 'A bit-parallel approach to suffix automata: Fast extended string matching'
+  url: https://doi.org/10.1007/BFb0030778
+- access_status: skipped
+  digest: 0cd9b6a7dabb96d5
+  extracted_facts:
+  - robots.txt disallowed fetch
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:8c5f2ce061696d79
+  source_type: publisher_abstract
+  title: robots.txt disallowed fetch
+  url: https://link.springer.com/chapter/10.1007/BFb0030778
+web_query_attempts:
+- method: search_plan
+  query: Backward Non-Deterministic DAWG Matching (BNDM) algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Backward Non-Deterministic DAWG Matching (BNDM) algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Backward Non-Deterministic DAWG Matching (BNDM) problem definition
+  status: recorded
+- method: search_plan
+  query: Backward Non-Deterministic DAWG Matching (BNDM) combinatorics algorithm
+  status: recorded
+- method: search_plan
+  query: Backward Non-Deterministic DAWG Matching (BNDM) site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Backward Non-Deterministic DAWG Matching (BNDM) algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://link.springer.com/chapter/10.1007/BFb0030778
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1007/BFb0030778
+  status: fetched
+- method: source_link_html_metadata
+  query: https://link.springer.com/chapter/10.1007/BFb0030778
+  status: skipped
+extracted_problem_statement: 'Backward Non-Deterministic DAWG Matching (BNDM) is treated as a classical combinatorics task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Backward Non-Deterministic DAWG Matching (BNDM). Input semantics: A finite combinatorial object, integer set, board, recurrence, or witness-search instance. Output semantics: Pattern occurrence positions, matches, or the associated string-search report.'
+extracted_algorithm_summary: 'Backward Non-Deterministic DAWG Matching (BNDM) is a combinatorics algorithm record. Classical complexity metadata: time O(n+m); space O(sm). The stated classical model is Word RAM. Public metadata/source text adds: Backward Non-Deterministic DAWG Matching (BNDM) combinatorics combinatorics m: pattern length, n: length of searchable text, s: size of the alphabet O(n+m) Given an explicit combinatorial object or parameter set, compute the requested count, construction, witness set, or ordering.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

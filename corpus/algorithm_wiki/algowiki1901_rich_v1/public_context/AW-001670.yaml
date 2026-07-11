@@ -1,0 +1,16 @@
+statement: 'Carmon, Jambulapati, Jin, Lee, Liu, Sidford, Tian (Parallel EpochSGD) is included as a named whole-algorithm context card for a classical parallel algorithms task. The task is to analyze the classical input-output problem, not to certify an end-to-end improvement claim. Input semantics: The classical input instance named by the row, together with processor/work/span parameters when stated. Output semantics: The same mathematical output as the underlying classical task, annotated by work/span when available. Classical algorithm summary: Carmon, Jambulapati, Jin, Lee, Liu, Sidford, Tian (Parallel EpochSGD) is a parallel algorithms algorithm record. Classical complexity metadata: work O((d^(1/3)*K^(2/3)*\log^3(dK)+K^2*\log^4(dK))*(d+q)); span/depth O(d^(1/3)*K^(2/3)*log^3(dK)*q+K^2*log^4(dK)). Public metadata/source text adds: Carmon, Jambulapati, Jin, Lee, Liu, Sidford, Tian (Parallel EpochSGD) parallel_algorithms parallel_algorithms d: variable dimension (i.e. Classical complexity
+  recorded for this row: time unknown; space unknown; computation model not stated. Dominant bottleneck: work, span/depth, processor count, and communication/synchronization assumptions. The useful review questions are whether the named structure exposes a smaller decision, witness, estimation, or algebraic subproblem; whether the full output size dominates any asymptotic gain; and whether the stated access model is realistic for the original input. Provenance is limited to AlgorithmWiki metadata and source-link facts; unresolved details are kept as ambiguities. Source-backed uncertainty or assumptions: The AlgorithmWiki row marks the classical method as randomized.; No independent fetched public metadata source resolved this row beyond AlgorithmWiki metadata/source-link facts.'
+input_model: explicit_parallel_algorithm_problem
+access_model: explicit_input_instance
+output_contract: full_solution
+promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+- classical_randomized_algorithm
+size_parameters:
+- 'Parameter definition: d: variable dimension (i.e. f:R^d->R), K: LR/epsilon, where L is the lipschitz parameter and R is the distance from initial point to optimum point, q: Oracle query time'
+ambiguities:
+- The AlgorithmWiki row marks the classical method as randomized.
+- No independent fetched public metadata source resolved this row beyond AlgorithmWiki metadata/source-link facts.
+- Some details are reconstructed from AlgorithmWiki metadata rather than an independently fetched full public description.
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.

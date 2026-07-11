@@ -1,0 +1,35 @@
+algorithm_id: AW-000607
+canonical_name: 5-point Gauss Seidel iteration
+enrichment_status: SECOND_PASS_INSUFFICIENT
+review_reasons:
+- No second-pass rule could identify source-backed task semantics.
+source_records:
+- access_status: metadata_only
+  digest: 06beb8646958186f
+  extracted_facts:
+  - 'AlgorithmWiki row name: 5-point Gauss Seidel iteration'
+  - 'domain: unknown'
+  - 'time complexity: O(n^5 \log n)'
+  - 'space complexity: O(n^3)'
+  - 'computational model: Real RAM'
+  - 'parameter definitions: n: dimension of grid (where grid is discretized)'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000607:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for 5-point Gauss Seidel iteration
+  url: ''
+- source_id: crossref_search:872399ec85573d0b
+  url: https://doi.org/10.1002/9781118445112.stat02249
+  title: "Gauss\u2010Seidel Iteration"
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - "Crossref title-search result: Gauss\u2010Seidel Iteration"
+  short_quote: ''
+  digest: 9967e5308d937816
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

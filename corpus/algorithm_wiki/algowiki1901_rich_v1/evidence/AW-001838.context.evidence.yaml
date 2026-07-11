@@ -1,0 +1,58 @@
+id: AW-001838
+kind: context
+algorithm_id: AW-001838
+algorithm_name: Nagumo, Lu, Watson (1)
+source_records:
+- access_status: metadata_only
+  digest: 089ddee47cfcecaf
+  extracted_facts:
+  - 'AlgorithmWiki row name: Nagumo, Lu, Watson (1)'
+  - 'domain: parallel_algorithms'
+  - 'time complexity: O(L+\log{n})'
+  - 'computational model: CREW PRAM'
+  - 'parameter definitions: n: input length, L: max allowed length of dictionary entries, is O(\log{n})'
+  - 'precard summary: Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model. Baseline: time O(L+\log{n}); work O((L+\log{n})n); span/depth O(L+\log{n}); processors O(n). Bottleneck: work, span, communication, and processor-count assumptions dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001838:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Nagumo, Lu, Watson (1)
+  url: https://ieeexplore.ieee.org/abstract/document/515506
+- access_status: skipped
+  digest: 662c8c0db9d0e93a
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:3a36935fa6e78a0c
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://ieeexplore.ieee.org/abstract/document/515506
+web_query_attempts:
+- method: search_plan
+  query: Nagumo, Lu, Watson (1) algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Nagumo, Lu, Watson (1) algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Nagumo, Lu, Watson (1) problem definition
+  status: recorded
+- method: search_plan
+  query: Nagumo, Lu, Watson (1) parallel algorithms algorithm
+  status: recorded
+- method: search_plan
+  query: Nagumo, Lu, Watson (1) site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Nagumo, Lu, Watson (1) algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://ieeexplore.ieee.org/abstract/document/515506
+  status: recorded
+- method: source_link_html_metadata
+  query: https://ieeexplore.ieee.org/abstract/document/515506
+  status: skipped
+extracted_problem_statement: 'Nagumo, Lu, Watson (1) is treated as a classical parallel algorithms task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Nagumo, Lu, Watson (1). Input semantics: The classical input instance named by the row, together with processor/work/span parameters when stated. Output semantics: The same mathematical output as the underlying classical task, annotated by work/span when available.'
+extracted_algorithm_summary: 'Nagumo, Lu, Watson (1) is a parallel algorithms algorithm record. Classical complexity metadata: time O(L+\log{n}); work O((L+\log{n})n); span/depth O(L+\log{n}); processors O(n). The stated classical model is CREW PRAM. Public metadata/source text adds: Nagumo, Lu, Watson (1) parallel_algorithms parallel_algorithms n: input length, L: max allowed length of dictionary entries, is O(\log{n}) O(L+\log{n}) Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

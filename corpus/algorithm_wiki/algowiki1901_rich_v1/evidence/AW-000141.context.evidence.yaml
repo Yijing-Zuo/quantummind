@@ -1,0 +1,74 @@
+id: AW-000141
+kind: context
+algorithm_id: AW-000141
+algorithm_name: Tree sort
+source_records:
+- access_status: metadata_only
+  digest: e72de7602b555112
+  extracted_facts:
+  - 'AlgorithmWiki row name: Tree sort'
+  - 'domain: sorting'
+  - 'time complexity: O(n \log n)'
+  - 'space complexity: O(n)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: size of list'
+  - 'precard summary: Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model. Baseline: time O(n \log n); space O(n). Bottleneck: comparison, distribution, and full-output movement costs dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000141:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Tree sort
+  url: https://link.springer.com/chapter/10.1007/978-1-349-08147-9_4
+- access_status: fetched
+  digest: 82fb83c7470c8ca1
+  extracted_facts:
+  - 'DOI title: Binary Tree Sort'
+  - 'published year: 1986'
+  - 'container title: Sorting Routines for Microcomputers'
+  reliability: HIGH
+  short_quote: ''
+  source_id: crossref:f30aa9f07ff305ec
+  source_type: doi_metadata
+  title: Binary Tree Sort
+  url: https://doi.org/10.1007/978-1-349-08147-9_4
+- access_status: skipped
+  digest: a15de22bb1e2baef
+  extracted_facts:
+  - robots.txt disallowed fetch
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:2584b9adbe21da32
+  source_type: publisher_abstract
+  title: robots.txt disallowed fetch
+  url: https://link.springer.com/chapter/10.1007/978-1-349-08147-9_4
+web_query_attempts:
+- method: search_plan
+  query: Tree sort algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Tree sort algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Tree sort problem definition
+  status: recorded
+- method: search_plan
+  query: Tree sort sorting algorithm
+  status: recorded
+- method: search_plan
+  query: Tree sort site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Tree sort algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://link.springer.com/chapter/10.1007/978-1-349-08147-9_4
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1007/978-1-349-08147-9_4
+  status: fetched
+- method: source_link_html_metadata
+  query: https://link.springer.com/chapter/10.1007/978-1-349-08147-9_4
+  status: skipped
+extracted_problem_statement: 'Tree sort is treated as a classical sorting task for rich AlgorithmWiki discovery. Problem/task: sort the input sequence using the named classical sorting method. Input semantics: A finite array or list of comparable keys or records. Output semantics: The same items returned in nondecreasing order, usually as a full reordered sequence.'
+extracted_algorithm_summary: 'Tree sort is a sorting algorithm record. Classical complexity metadata: time O(n \log n); space O(n). The stated classical model is Word RAM. Public metadata/source text adds: Tree sort sorting sorting n: size of list O(n \log n) Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

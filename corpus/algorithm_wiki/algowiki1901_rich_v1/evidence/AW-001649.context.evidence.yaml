@@ -1,0 +1,45 @@
+id: AW-001649
+kind: context
+algorithm_id: AW-001649
+algorithm_name: Shiloach, Vishkin
+source_records:
+- access_status: metadata_only
+  digest: 96d726cc42f77b8e
+  extracted_facts:
+  - 'AlgorithmWiki row name: Shiloach, Vishkin'
+  - 'domain: graph'
+  - 'time complexity: O(n^1.5 \log n)'
+  - 'computational model: CREW PRAM'
+  - 'parameter definitions: n: number of vertices, m: number of edges'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(n^1.5 \log n); work O(m*sqrt(n) \log n); span/depth O(n^1.5 log n); processors m/n. Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001649:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Shiloach, Vishkin
+  url: https://users.umiacs.umd.edu/~vishkin/TEACHING/4CLASS/SV82-maxflow.pdf
+web_query_attempts:
+- method: search_plan
+  query: Shiloach, Vishkin algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Shiloach, Vishkin algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Shiloach, Vishkin problem definition
+  status: recorded
+- method: search_plan
+  query: Shiloach, Vishkin graph algorithm
+  status: recorded
+- method: search_plan
+  query: Shiloach, Vishkin site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Shiloach, Vishkin algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://users.umiacs.umd.edu/~vishkin/TEACHING/4CLASS/SV82-maxflow.pdf
+  status: recorded
+extracted_problem_statement: 'Shiloach, Vishkin is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Shiloach, Vishkin. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'Shiloach, Vishkin is a graph algorithm record. Classical complexity metadata: time O(n^1.5 \log n); work O(m*sqrt(n) \log n); span/depth O(n^1.5 log n); processors m/n. The stated classical model is CREW PRAM. Public metadata/source text adds: Shiloach, Vishkin graph graph n: number of vertices, m: number of edges O(n^1.5 \log n) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

@@ -1,0 +1,47 @@
+algorithm_id: AW-001207
+canonical_name: Folwell, Guha, Suzuki
+enrichment_status: WEB_INSUFFICIENT
+review_reasons:
+- missing_concrete_problem_statement
+- unknown_input_model
+- unknown_output_contract
+- unknown_access_model
+source_records:
+- access_status: metadata_only
+  digest: b3580633abb3ff25
+  extracted_facts:
+  - 'AlgorithmWiki row name: Folwell, Guha, Suzuki'
+  - 'domain: unknown'
+  - 'time complexity: O(n^0.5)'
+  - 'computational model: SIMD'
+  - 'parameter definitions: n: number of integerst in range 1... n^0.5'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001207:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Folwell, Guha, Suzuki
+  url: https://www.tandfonline.com/doi/abs/10.1080/01495739708941425
+- access_status: skipped
+  digest: c88bc582cbc087c2
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:2ec1b86e533ac0d9
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1080/01495739708941425
+- access_status: skipped
+  digest: 83de63e0935e9c69
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:3fcbb50e11bfe21d
+  source_type: other_public_source
+  title: fetch budget exhausted
+  url: https://www.tandfonline.com/doi/abs/10.1080/01495739708941425
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

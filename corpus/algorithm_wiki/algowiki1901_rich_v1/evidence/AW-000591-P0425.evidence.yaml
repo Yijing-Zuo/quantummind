@@ -1,0 +1,62 @@
+id: AW-000591-P0425
+kind: probe
+algorithm_id: AW-000591
+algorithm_name: "Held\u2013Karp algorithm"
+source_records:
+- access_status: metadata_only
+  digest: ddfd45472ab3f1ea
+  extracted_facts:
+  - "AlgorithmWiki row name: Held\u2013Karp algorithm"
+  - 'domain: graph'
+  - 'time complexity: O(V^2 2^V)'
+  - 'space complexity: O(V 2^V)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: V: number of vertices, E: number of edges'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(V^2 2^V); space O(V 2^V). Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000591:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: "AlgorithmWiki metadata for Held\u2013Karp algorithm"
+  url: https://www.jstor.org/stable/2098806
+- access_status: failed
+  digest: 859dd78427c64fcf
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:aace567fca2a338b
+  source_type: other_public_source
+  title: 'HTTP Error 403: Forbidden'
+  url: https://www.jstor.org/stable/2098806
+web_query_attempts:
+- method: search_plan
+  query: "Held\u2013Karp algorithm algorithm input output complexity"
+  status: recorded
+- method: search_plan
+  query: "Held\u2013Karp algorithm algorithm pseudocode"
+  status: recorded
+- method: search_plan
+  query: "Held\u2013Karp algorithm problem definition"
+  status: recorded
+- method: search_plan
+  query: "Held\u2013Karp algorithm graph algorithm"
+  status: recorded
+- method: search_plan
+  query: "Held\u2013Karp algorithm site:nist.gov DADS"
+  status: recorded
+- method: search_plan
+  query: "Held\u2013Karp algorithm algorithm wiki"
+  status: recorded
+- method: search_plan
+  query: https://www.jstor.org/stable/2098806
+  status: recorded
+- method: source_link_html_metadata
+  query: https://www.jstor.org/stable/2098806
+  status: failed
+- method: wikipedia_summary_search
+  query: "Held\u2013Karp algorithm algorithm"
+  status: failed_or_not_relevant
+extracted_problem_statement: "Held\u2013Karp algorithm is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Held\u2013Karp algorithm. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result."
+extracted_algorithm_summary: "Held\u2013Karp algorithm is a graph algorithm record. Classical complexity metadata: time O(V^2 2^V); space O(V 2^V). The stated classical model is Word RAM. Public metadata/source text adds: Held\u2013Karp algorithm graph graph V: number of vertices, E: number of edges O(V^2 2^V) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record."
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

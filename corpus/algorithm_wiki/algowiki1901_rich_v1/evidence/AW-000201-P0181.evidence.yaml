@@ -1,0 +1,74 @@
+id: AW-000201-P0181
+kind: probe
+algorithm_id: AW-000201
+algorithm_name: Cheriton-Tarjan Algorithm
+source_records:
+- access_status: metadata_only
+  digest: 7ce4eb5c72c4984f
+  extracted_facts:
+  - 'AlgorithmWiki row name: Cheriton-Tarjan Algorithm'
+  - 'domain: graph'
+  - 'time complexity: O(E \log \log V)'
+  - 'space complexity: O(E)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: V: number of vertices, E: number of edges, U: maximum edge weight'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(E \log \log V); space O(E). Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000201:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Cheriton-Tarjan Algorithm
+  url: https://epubs.siam.org/doi/abs/10.1137/0205051
+- access_status: fetched
+  digest: 1bd5a6c88aabcd92
+  extracted_facts:
+  - 'DOI title: Finding Minimum Spanning Trees'
+  - 'published year: 1976'
+  - 'container title: SIAM Journal on Computing'
+  reliability: HIGH
+  short_quote: ''
+  source_id: crossref:b0ecd7af3bb41883
+  source_type: doi_metadata
+  title: Finding Minimum Spanning Trees
+  url: https://doi.org/10.1137/0205051
+- access_status: failed
+  digest: f0135e0aadab611a
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:e8c384d08483f683
+  source_type: publisher_abstract
+  title: 'HTTP Error 403: Forbidden'
+  url: https://epubs.siam.org/doi/abs/10.1137/0205051
+web_query_attempts:
+- method: search_plan
+  query: Cheriton-Tarjan Algorithm algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Cheriton-Tarjan Algorithm algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Cheriton-Tarjan Algorithm problem definition
+  status: recorded
+- method: search_plan
+  query: Cheriton-Tarjan Algorithm graph algorithm
+  status: recorded
+- method: search_plan
+  query: Cheriton-Tarjan Algorithm site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Cheriton-Tarjan Algorithm algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://epubs.siam.org/doi/abs/10.1137/0205051
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1137/0205051
+  status: fetched
+- method: source_link_html_metadata
+  query: https://epubs.siam.org/doi/abs/10.1137/0205051
+  status: failed
+extracted_problem_statement: 'Cheriton-Tarjan Algorithm is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Cheriton-Tarjan Algorithm. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: A minimum spanning tree or forest for the weighted graph.'
+extracted_algorithm_summary: 'Cheriton-Tarjan Algorithm is a graph algorithm record. Classical complexity metadata: time O(E \log \log V); space O(E). The stated classical model is Word RAM. Public metadata/source text adds: Cheriton-Tarjan Algorithm graph graph V: number of vertices, E: number of edges, U: maximum edge weight O(E \log \log V) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

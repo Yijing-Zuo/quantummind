@@ -1,0 +1,44 @@
+probe_id: AW-000755-P0502
+algorithm_id: AW-000755-P0502
+canonical_name: EM with Quasi-Newton Methods (Jamshidian Mortaza Jennrich Robert I.) estimation_sampling_probe
+readiness: READY_PUBLIC_PROBE
+quality_score: 100
+probe_type: estimation_sampling_probe
+parent_algorithm_id: AW-000755
+parent_algorithm_name: EM with Quasi-Newton Methods (Jamshidian Mortaza Jennrich Robert I.)
+source_records_used:
+- AW-000755:algorithm_wiki_metadata
+- crossref:ef0e17444d85a2ad
+- skipped:ce4de9fedd96ed73
+introduced_assumptions:
+- coherent_estimation_oracle
+- bounded_random_variable
+- coherent_sampler
+missing_from_original_problem:
+- sampler reversibility
+- variance bound
+- query-to-runtime translation
+original_output_contract: estimate
+probe_output_contract: additive_estimate
+not_end_to_end_claim: true
+expected_authority: query_or_subroutine_hypothesis_only
+why_probe_is_scientifically_interesting: Estimation tasks can expose query-level structure even when the full algorithm remains classical.
+why_probe_may_fail: Sampling or approximation may not be the bottleneck, or coherent access may be more expensive than the original method.
+inferred_input_model: explicit_numerical_problem
+inferred_access_model: coherent_estimation_oracle
+inferred_output_contract: additive_estimate
+inferred_size_parameters:
+- 'Parameter definition: n: number of observations in sample, r: number of parameters + latent variables'
+inferred_promises:
+- bounded_random_variable
+- coherent_access
+- oracle_model_assumption
+inferred_ambiguities:
+- This probe is assumption-bearing and is not an end-to-end speedup claim.
+- variance bounds, coherent sampler construction, and tolerance mapping remain expert obligations
+- The parent context card and source records should be checked before live use.
+source_count: 3
+source_quality: HIGH
+confidence_score: 100
+card_digest: 75cd3ed2eabd0850
+extraction_version: algorithm-wiki-rich-probe-v1

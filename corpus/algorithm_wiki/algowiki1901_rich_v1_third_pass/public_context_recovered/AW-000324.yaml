@@ -1,0 +1,14 @@
+statement: 'Nakamae E. Kaneda K. Okamoto T. and, Nishita 1990 is included as a named whole-algorithm context card for a classical image processing task. The task is to analyze the classical input-output problem, not to certify an end-to-end improvement claim. Input semantics: Scene geometry, materials or textures, lighting/view parameters, and output-image dimensions. Output semantics: A rendered image, shading value field, or illumination/texture representation. Classical algorithm summary: Nakamae E. Kaneda K. Okamoto T. and, Nishita 1990 is reconstructed as a classical image processing task. The source-backed title/name/fact record supports the task: compute rendered appearance or illumination for a scene or surface model. Classical complexity recorded for this row: time O(k^3 n^2); space not stated; computation model not stated. Dominant bottleneck: Visibility, lighting integration, texture evaluation, and writing the image-sized output dominate. The useful review questions are whether
+  the named structure exposes a smaller decision, witness, estimation, or algebraic subproblem; whether the full output size dominates any asymptotic gain; and whether the stated access model is realistic for the original input. Provenance used for reconstruction includes public metadata or abstract sources such as Okamoto-Uchiyama Algorithm; Kiyoshi Kaneda.'
+input_model: explicit_image_processing_problem
+access_model: explicit_input_instance
+output_contract: full_solution
+promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+- classical_approximation_algorithm
+size_parameters:
+- 'n: primary input size parameter for the source-backed task.'
+ambiguities:
+- Some details are reconstructed from AlgorithmWiki metadata rather than an independently fetched full public description.
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.

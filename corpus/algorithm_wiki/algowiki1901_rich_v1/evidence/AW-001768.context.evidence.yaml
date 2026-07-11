@@ -1,0 +1,71 @@
+id: AW-001768
+kind: context
+algorithm_id: AW-001768
+algorithm_name: Dahlhaus, Karpinski
+source_records:
+- access_status: metadata_only
+  digest: bc5eac3a7bea62ba
+  extracted_facts:
+  - 'AlgorithmWiki row name: Dahlhaus, Karpinski'
+  - 'domain: graph'
+  - 'time complexity: O(\log^3{nM})'
+  - 'computational model: CREW PRAM'
+  - 'parameter definitions: n: number of vertices, M: number of cliques'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(\log^3{nM}); work O(M^6 n^2 \log^3{nM}); span/depth O(\log^3{nM}); processors O(M^6 n^2). Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001768:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Dahlhaus, Karpinski
+  url: https://link.springer.com/chapter/10.1007/3-540-19487-8_16
+- access_status: skipped
+  digest: 871aa7f547ed71ea
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:742b05148120cf23
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1007/3-540-19487-8_16
+- access_status: skipped
+  digest: 91bcd78242945c0a
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:2d543b692080cb89
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://link.springer.com/chapter/10.1007/3-540-19487-8_16
+web_query_attempts:
+- method: search_plan
+  query: Dahlhaus, Karpinski algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Dahlhaus, Karpinski algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Dahlhaus, Karpinski problem definition
+  status: recorded
+- method: search_plan
+  query: Dahlhaus, Karpinski graph algorithm
+  status: recorded
+- method: search_plan
+  query: Dahlhaus, Karpinski site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Dahlhaus, Karpinski algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://link.springer.com/chapter/10.1007/3-540-19487-8_16
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1007/3-540-19487-8_16
+  status: skipped
+- method: source_link_html_metadata
+  query: https://link.springer.com/chapter/10.1007/3-540-19487-8_16
+  status: skipped
+extracted_problem_statement: 'Dahlhaus, Karpinski is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Dahlhaus, Karpinski. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'Dahlhaus, Karpinski is a graph algorithm record. Classical complexity metadata: time O(\log^3{nM}); work O(M^6 n^2 \log^3{nM}); span/depth O(\log^3{nM}); processors O(M^6 n^2). The stated classical model is CREW PRAM. Public metadata/source text adds: Dahlhaus, Karpinski graph graph n: number of vertices, M: number of cliques O(\log^3{nM}) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

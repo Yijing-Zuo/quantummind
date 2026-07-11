@@ -1,0 +1,87 @@
+id: AW-001639
+kind: context_recovered
+algorithm_id: AW-001639
+algorithm_name: De Stefani (COPK - Karatsuba)
+source_records:
+- access_status: metadata_only
+  digest: a0c8de2a24385474
+  extracted_facts:
+  - 'AlgorithmWiki row name: De Stefani (COPK - Karatsuba)'
+  - 'domain: unknown'
+  - 'computational model: distributed memory'
+  - 'parameter definitions: n: length of the integers'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001639:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for De Stefani (COPK - Karatsuba)
+  url: https://arxiv.org/pdf/2009.14590
+- access_status: skipped
+  digest: 372132428410aba9
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:20b91c90972d6231
+  source_type: arxiv_abstract
+  title: fetch budget exhausted
+  url: https://arxiv.org/abs/2009.14590
+- source_id: arxiv:2009.14590
+  url: https://arxiv.org/abs/2009.14590
+  title: Communication-Optimal Parallel Standard and Karatsuba Integer Multiplication in the Distributed Memory Model
+  source_type: arxiv_abstract
+  access_status: fetched
+  reliability: HIGH
+  extracted_facts:
+  - 'arXiv title: Communication-Optimal Parallel Standard and Karatsuba Integer Multiplication in the Distributed Memory Model'
+  - 'abstract summary: We present COPSIM a parallel implementation of standard integer multiplication for the distributed memory setting, and COPK a parallel implementation of Karatsuba''s fast integer multiplication algorithm for a distributed memory setting.'
+  short_quote: We present COPSIM a parallel implementation of standard integer multiplication for the distributed memory setting, and COPK a parallel implementation of Karatsuba's fast integer
+  digest: e11673d297fed1f9
+- source_id: crossref_search:0b18e1bdccf3f416
+  url: https://doi.org/10.1109/npc.2007.32
+  title: An optimal algorithm to fetch DHT routable
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: An optimal algorithm to fetch DHT routable'
+  short_quote: ''
+  digest: eac65bcac63f65f8
+web_query_attempts:
+- query: '"De Stefani (COPK - Karatsuba)" algorithm'
+  method: search_plan
+  status: recorded
+- query: '"De Stefani (COPK - Karatsuba)" input output'
+  method: search_plan
+  status: recorded
+- query: '"De Stefani (COPK - Karatsuba)" time complexity'
+  method: search_plan
+  status: recorded
+- query: '"De Stefani (COPK - Karatsuba)" pseudocode'
+  method: search_plan
+  status: recorded
+- query: '"De Stefani (COPK - Karatsuba)" problem'
+  method: search_plan
+  status: recorded
+- query: '"De Stefani (COPK - Karatsuba)" PDF metadata abstract'
+  method: search_plan
+  status: recorded
+- query: '"fetch budget exhausted" algorithm'
+  method: search_plan
+  status: recorded
+- query: https://arxiv.org/pdf/2009.14590
+  method: search_plan
+  status: recorded
+- query: '2009.14590'
+  method: arxiv_abstract_metadata
+  status: fetched
+- query: fetch budget exhausted algorithm
+  method: crossref_title_search
+  status: fetched
+- query: De Stefani (COPK - Karatsuba) algorithm
+  method: wikipedia_summary_search
+  status: failed_or_not_relevant
+extracted_problem_statement: 'De Stefani (COPK - Karatsuba) is reconstructed as a classical combinatorics task. Problem/task: multiply large integers Input semantics: Two integers represented by n-bit or n-limb strings. Output semantics: The exact product integer.'
+extracted_algorithm_summary: 'De Stefani (COPK - Karatsuba) is treated as the named AlgorithmWiki variant for multiply large integers Classical complexity metadata: work O(n^\log 3); span/depth O(n^{log 3 -1}). Public metadata/source title support includes Communication-Optimal Parallel Standard and Karatsuba Integer Multiplication in the Distributed Memory Model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

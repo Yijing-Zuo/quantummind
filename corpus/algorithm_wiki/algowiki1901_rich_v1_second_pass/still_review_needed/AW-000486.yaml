@@ -1,0 +1,35 @@
+algorithm_id: AW-000486
+canonical_name: Naive algorithm
+enrichment_status: SECOND_PASS_INSUFFICIENT
+review_reasons:
+- No second-pass rule could identify source-backed task semantics.
+source_records:
+- access_status: metadata_only
+  digest: 874a4beeedbf1d54
+  extracted_facts:
+  - 'AlgorithmWiki row name: Naive algorithm'
+  - 'domain: unknown'
+  - 'time complexity: O(n^2)'
+  - 'space complexity: O(1)'
+  - 'computational model: Word/Real RAM'
+  - 'parameter definitions: n: length of the input data set'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000486:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Naive algorithm
+  url: '-'
+- source_id: crossref_search:39f69c168e863d01
+  url: https://doi.org/10.1007/978-3-319-21936-3_15
+  title: "The \u201CNaive\u201D RSA Algorithm"
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - "Crossref title-search result: The \u201CNaive\u201D RSA Algorithm"
+  short_quote: ''
+  digest: 0c74865fe56517b0
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

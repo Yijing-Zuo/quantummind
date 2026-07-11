@@ -1,0 +1,64 @@
+family_id: PB-001-family
+seed_variant_id: seed
+variants:
+  - variant_id: seed
+    public_case:
+      case_id: PB-001-F0
+      statement: "Given a black-box predicate over N labeled items with M marked items, return any marked item."
+      input_model: "finite labeled domain with Boolean predicate"
+      access_model: coherent_boolean_oracle
+      output_contract: one_witness
+      promises: [marked_item_exists, coherent predicate evaluation is available]
+      size_parameters: [N, M]
+      ambiguities: [oracle construction cost is not specified]
+  - variant_id: surface_rewrite
+    public_case:
+      case_id: PB-001-F1
+      statement: "From N candidate records with a reversible yes/no test, output one record that passes the test."
+      input_model: "finite candidate set"
+      access_model: coherent_boolean_oracle
+      output_contract: one_witness
+      promises: [marked_item_exists, coherent predicate evaluation is available]
+      size_parameters: [N, M]
+      ambiguities: [oracle construction cost is not specified]
+  - variant_id: misleading_bait
+    public_case:
+      case_id: PB-001-F2
+      statement: "Given a graph-shaped list of N candidates with a Boolean mark test, return one marked candidate."
+      input_model: "finite labeled domain with irrelevant adjacency hints"
+      access_model: coherent_boolean_oracle
+      output_contract: one_witness
+      promises: [marked_item_exists, coherent predicate evaluation is available]
+      size_parameters: [N, M]
+      ambiguities: [graph hints may be irrelevant]
+  - variant_id: no_coherent_oracle
+    public_case:
+      case_id: PB-001-F3
+      statement: "Given only classical random samples from candidates and a yes/no test, return one passing candidate."
+      input_model: "sample-only candidate source"
+      access_model: sample_only
+      output_contract: one_witness
+      promises: [marked_item_exists]
+      size_parameters: [N, M]
+      ambiguities: [coherent access is unavailable]
+  - variant_id: estimate_output
+    public_case:
+      case_id: PB-001-F4
+      statement: "Estimate the fraction of candidates passing a yes/no test within additive epsilon."
+      input_model: "finite candidate set"
+      access_model: coherent_estimation_oracle
+      output_contract: additive_estimate
+      promises: [bounded_random_variable, coherent_access]
+      size_parameters: [N, epsilon]
+      ambiguities: [state preparation cost is external]
+  - variant_id: ambiguous_access
+    public_case:
+      case_id: PB-001-F5
+      statement: "Find a passing candidate, but the access method and reversibility assumptions are unspecified."
+      input_model: "underspecified candidate source"
+      access_model: unspecified
+      output_contract: one_witness
+      promises: [marked_item_exists]
+      size_parameters: [N]
+      ambiguities: [access model is underspecified]
+

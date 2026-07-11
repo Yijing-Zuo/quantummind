@@ -1,0 +1,45 @@
+algorithm_id: AW-000689
+canonical_name: S. S. TSENG and R. C. T. LEE
+enrichment_status: SECOND_PASS_INSUFFICIENT
+review_reasons:
+- No second-pass rule could identify source-backed task semantics.
+source_records:
+- access_status: metadata_only
+  digest: d3062287c5af6236
+  extracted_facts:
+  - 'AlgorithmWiki row name: S. S. TSENG and R. C. T. LEE'
+  - 'domain: unknown'
+  - 'time complexity: O(n^2)'
+  - 'space complexity: O(n) per processor'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of men and number of women'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000689:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for S. S. TSENG and R. C. T. LEE
+  url: https://link.springer.com/content/pdf/10.1007/BF02136029.pdf
+- access_status: failed
+  digest: 21e0748011c5d1f6
+  extracted_facts:
+  - PDF download skipped
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:8a1b9c08124f672b
+  source_type: doi_metadata
+  title: PDF download skipped
+  url: https://doi.org/10.1007/BF02136029.pdf
+- source_id: crossref_search:5e40e0fdc8cec961
+  url: https://doi.org/10.59794/rscd.2022.v8i8.107
+  title: Download full issue PDF
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: Download full issue PDF'
+  short_quote: ''
+  digest: f61ae09b0dc304c6
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

@@ -1,0 +1,58 @@
+id: AW-001451
+kind: context
+algorithm_id: AW-001451
+algorithm_name: Shiloach and Vishkin
+source_records:
+- access_status: metadata_only
+  digest: de64f43a2c54c1f1
+  extracted_facts:
+  - 'AlgorithmWiki row name: Shiloach and Vishkin'
+  - 'domain: graph'
+  - 'time complexity: O(\log(n))'
+  - 'computational model: SIMD-SM-RW (arbitrary-CRCW PRAM)'
+  - 'parameter definitions: n: number of nodes, m: number of edges'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(\log(n)); work O(m*\log(n)); span/depth O(log(n)); processors n+2m. Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001451:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Shiloach and Vishkin
+  url: https://www.sciencedirect.com/science/article/pii/0196677482900086
+- access_status: skipped
+  digest: 9c171f6bf0eeeafd
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:4fcd29ebb6f3bbb4
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://www.sciencedirect.com/science/article/pii/0196677482900086
+web_query_attempts:
+- method: search_plan
+  query: Shiloach and Vishkin algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Shiloach and Vishkin algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Shiloach and Vishkin problem definition
+  status: recorded
+- method: search_plan
+  query: Shiloach and Vishkin graph algorithm
+  status: recorded
+- method: search_plan
+  query: Shiloach and Vishkin site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Shiloach and Vishkin algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://www.sciencedirect.com/science/article/pii/0196677482900086
+  status: recorded
+- method: source_link_html_metadata
+  query: https://www.sciencedirect.com/science/article/pii/0196677482900086
+  status: skipped
+extracted_problem_statement: 'Shiloach and Vishkin is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Shiloach and Vishkin. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'Shiloach and Vishkin is a graph algorithm record. Classical complexity metadata: time O(\log(n)); work O(m*\log(n)); span/depth O(log(n)); processors n+2m. The stated classical model is SIMD-SM-RW (arbitrary-CRCW PRAM). Public metadata/source text adds: Shiloach and Vishkin graph graph n: number of nodes, m: number of edges O(\log(n)) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

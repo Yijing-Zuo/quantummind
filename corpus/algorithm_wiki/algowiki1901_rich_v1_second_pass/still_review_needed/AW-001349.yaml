@@ -1,0 +1,43 @@
+algorithm_id: AW-001349
+canonical_name: Agarwal, Gustavson, Zubair
+enrichment_status: SECOND_PASS_INSUFFICIENT
+review_reasons:
+- No second-pass rule could identify source-backed task semantics.
+source_records:
+- access_status: metadata_only
+  digest: b728330d1e22c913
+  extracted_facts:
+  - 'AlgorithmWiki row name: Agarwal, Gustavson, Zubair'
+  - 'domain: unknown'
+  - 'time complexity: O(n^3/p)'
+  - 'computational model: MIMD-like machine'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001349:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Agarwal, Gustavson, Zubair
+  url: https://ieeexplore.ieee.org/abstract/document/5389494
+- access_status: skipped
+  digest: 62880dd535652f78
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:a39591de4922818c
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://ieeexplore.ieee.org/abstract/document/5389494
+- source_id: crossref_search:0b18e1bdccf3f416
+  url: https://doi.org/10.1109/npc.2007.32
+  title: An optimal algorithm to fetch DHT routable
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: An optimal algorithm to fetch DHT routable'
+  short_quote: ''
+  digest: eac65bcac63f65f8
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

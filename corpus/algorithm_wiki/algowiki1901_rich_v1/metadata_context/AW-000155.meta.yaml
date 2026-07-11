@@ -1,0 +1,56 @@
+algorithm_family: sorting
+algorithm_id: AW-000155
+approximate: '0'
+approximation_factor: ''
+blind_name: Algorithm Wiki public task AW-000155
+canonical_name: Spreadsort
+computational_model: Word RAM
+domain: sorting
+extracted_description: ''
+extraction_version: algorithm-wiki-rich-context-v1
+family: sorting
+inferred_access_model: random_access_array
+inferred_ambiguities:
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.
+inferred_input_model: explicit_sequence_problem
+inferred_output_contract: full_sequence_output
+inferred_problem_statement: 'Spreadsort is treated as a classical sorting task for rich AlgorithmWiki discovery. Problem/task: sort the input sequence using the named classical sorting method. Input semantics: A finite array or list of comparable keys or records. Output semantics: The same items returned in nondecreasing order, usually as a full reordered sequence.'
+inferred_promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+inferred_size_parameters:
+- 'Parameter definition: n: size of list'
+number_of_processors: ''
+page_digest: ''
+page_fetch_status: not_found
+page_url: ''
+parameter_definitions: 'n: size of list'
+problem_name: sorting
+quality_flags:
+- domain_inferred
+- problem_statement_inferred
+- io_access_output_inferred
+- has_complexity_semantics
+- has_size_parameters
+- has_computational_model
+quality_score: 100
+randomized: '0'
+readiness: READY_PUBLIC_CONTEXT
+review_reasons:
+- duplicate_public_blind_digest:9f453ca959738d6f kept:AW-000025
+source_link: https://www.semanticscholar.org/paper/The-Spreadsort-High-performance-General-case-Ross/41f5b49e9843b2d98b6b22a84924dae5761e6e52
+source_link_type: unknown
+space_complexity: O(n)
+span_depth: ''
+time_complexity: O(n \log n)
+variation: ''
+work: ''
+year: '2002'
+rich_card_kind: context
+source_records_used:
+- AW-000155:algorithm_wiki_metadata
+- source:a0e24fbf8fa4250a
+source_count: 2
+source_quality: HIGH
+confidence_score: 100
+card_digest: 551f78fb66f91445

@@ -1,0 +1,57 @@
+algorithm_family: unknown
+algorithm_id: AW-000457
+approximate: '0'
+approximation_factor: ''
+blind_name: Algorithm Wiki public task AW-000457
+canonical_name: Brent's algorithm
+computational_model: ''
+domain: unknown
+extracted_description: ''
+extraction_version: algorithm-wiki-rich-context-v1
+family: unknown
+inferred_access_model: random_access_string
+inferred_ambiguities:
+- No independent fetched public metadata source resolved this row beyond AlgorithmWiki metadata/source-link facts.
+- Some details are reconstructed from AlgorithmWiki metadata rather than an independently fetched full public description.
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.
+inferred_input_model: explicit_combinatorial_problem
+inferred_output_contract: one_witness
+inferred_problem_statement: 'Brent''s algorithm is treated as a classical combinatorics task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Brent''s algorithm. Input semantics: An iterated function or sequence representation with parameters for the preperiod and cycle length. Output semantics: A count, witness, construction, ordering, subset, cycle, or other finite combinatorial output.'
+inferred_promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+inferred_size_parameters:
+- 'Parameter definition: t_f: time to perform one evaluation of f, \mu: the starting index of the cycle, \lambda: the period of the cycle'
+number_of_processors: ''
+page_digest: ''
+page_fetch_status: not_found
+page_url: ''
+parameter_definitions: 't_f: time to perform one evaluation of f, \mu: the starting index of the cycle, \lambda: the period of the cycle'
+problem_name: unknown
+quality_flags:
+- has_complexity_semantics
+- has_size_parameters
+quality_score: 55
+randomized: '0'
+readiness: READY_PUBLIC_CONTEXT
+review_reasons:
+- missing_problem_statement
+- unknown_input_model
+- unknown_access_model
+- unknown_output_contract
+- insufficient_algorithm_level_structure
+source_link: https://maths-people.anu.edu.au/~brent/pd/rpb051i.pdf
+source_link_type: pdf
+space_complexity: O(1)
+span_depth: ''
+time_complexity: O((\lambda + \mu) t_f)
+variation: ''
+work: ''
+year: '1973'
+rich_card_kind: context
+source_records_used:
+- AW-000457:algorithm_wiki_metadata
+source_count: 1
+source_quality: HIGH
+confidence_score: 55
+card_digest: cf72de43d02512e5

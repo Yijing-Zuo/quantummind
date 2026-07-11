@@ -1,0 +1,71 @@
+id: AW-001735
+kind: context
+algorithm_id: AW-001735
+algorithm_name: Levcopoulos, Katajainen, Lingas
+source_records:
+- access_status: metadata_only
+  digest: fe0e87bcfa466669
+  extracted_facts:
+  - 'AlgorithmWiki row name: Levcopoulos, Katajainen, Lingas'
+  - 'domain: parallel_algorithms'
+  - 'time complexity: O(\log^2 n)'
+  - 'computational model: CRCW PRAM'
+  - 'parameter definitions: n: number of points'
+  - 'precard summary: Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model. Baseline: time O(\log^2 n); work O(n \log n); span/depth O(log^2 n); processors O(n/log n). Bottleneck: work, span, communication, and processor-count assumptions dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001735:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Levcopoulos, Katajainen, Lingas
+  url: https://link.springer.com/chapter/10.1007/3-540-19487-8_21
+- access_status: skipped
+  digest: 17f88582eb089a55
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:ddc920c5f44f13df
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1007/3-540-19487-8_21
+- access_status: skipped
+  digest: 4fb98d187d896fda
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:4b94143714568ca4
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://link.springer.com/chapter/10.1007/3-540-19487-8_21
+web_query_attempts:
+- method: search_plan
+  query: Levcopoulos, Katajainen, Lingas algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Levcopoulos, Katajainen, Lingas algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Levcopoulos, Katajainen, Lingas problem definition
+  status: recorded
+- method: search_plan
+  query: Levcopoulos, Katajainen, Lingas parallel algorithms algorithm
+  status: recorded
+- method: search_plan
+  query: Levcopoulos, Katajainen, Lingas site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Levcopoulos, Katajainen, Lingas algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://link.springer.com/chapter/10.1007/3-540-19487-8_21
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1007/3-540-19487-8_21
+  status: skipped
+- method: source_link_html_metadata
+  query: https://link.springer.com/chapter/10.1007/3-540-19487-8_21
+  status: skipped
+extracted_problem_statement: 'Levcopoulos, Katajainen, Lingas is treated as a classical parallel algorithms task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Levcopoulos, Katajainen, Lingas. Input semantics: The classical input instance named by the row, together with processor/work/span parameters when stated. Output semantics: The same mathematical output as the underlying classical task, annotated by work/span when available.'
+extracted_algorithm_summary: 'Levcopoulos, Katajainen, Lingas is a parallel algorithms algorithm record. Classical complexity metadata: time O(\log^2 n); work O(n \log n); span/depth O(log^2 n); processors O(n/log n). The stated classical model is CRCW PRAM. Public metadata/source text adds: Levcopoulos, Katajainen, Lingas parallel_algorithms parallel_algorithms n: number of points O(\log^2 n) Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

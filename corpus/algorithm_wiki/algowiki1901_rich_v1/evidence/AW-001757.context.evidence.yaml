@@ -1,0 +1,58 @@
+id: AW-001757
+kind: context
+algorithm_id: AW-001757
+algorithm_name: Cho, Huynh
+source_records:
+- access_status: metadata_only
+  digest: 12f1027c426d2693
+  extracted_facts:
+  - 'AlgorithmWiki row name: Cho, Huynh'
+  - 'domain: parallel_algorithms'
+  - 'time complexity: O(\log^2 n)'
+  - 'computational model: EREW PRAM'
+  - 'parameter definitions: n: number of states, k: size of alphabet'
+  - 'precard summary: Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model. Baseline: time O(\log^2 n); work O(n^6); span/depth O(log^2 n); processors O(n^6). Bottleneck: work, span, communication, and processor-count assumptions dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001757:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Cho, Huynh
+  url: https://www.sciencedirect.com/science/article/pii/002001909290095D
+- access_status: skipped
+  digest: 572661faf5b0c8c1
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:6f4943814bfc150c
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://www.sciencedirect.com/science/article/pii/002001909290095D
+web_query_attempts:
+- method: search_plan
+  query: Cho, Huynh algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Cho, Huynh algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Cho, Huynh problem definition
+  status: recorded
+- method: search_plan
+  query: Cho, Huynh parallel algorithms algorithm
+  status: recorded
+- method: search_plan
+  query: Cho, Huynh site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Cho, Huynh algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://www.sciencedirect.com/science/article/pii/002001909290095D
+  status: recorded
+- method: source_link_html_metadata
+  query: https://www.sciencedirect.com/science/article/pii/002001909290095D
+  status: skipped
+extracted_problem_statement: 'Cho, Huynh is treated as a classical parallel algorithms task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Cho, Huynh. Input semantics: The classical input instance named by the row, together with processor/work/span parameters when stated. Output semantics: The same mathematical output as the underlying classical task, annotated by work/span when available.'
+extracted_algorithm_summary: 'Cho, Huynh is a parallel algorithms algorithm record. Classical complexity metadata: time O(\log^2 n); work O(n^6); span/depth O(log^2 n); processors O(n^6). The stated classical model is EREW PRAM. Public metadata/source text adds: Cho, Huynh parallel_algorithms parallel_algorithms n: number of states, k: size of alphabet O(\log^2 n) Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

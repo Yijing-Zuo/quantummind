@@ -1,0 +1,51 @@
+algorithm_id: AW-000714
+canonical_name: Demand-Driven Register Allocation
+enrichment_status: WEB_INSUFFICIENT
+review_reasons:
+- missing_concrete_problem_statement
+- unknown_input_model
+- unknown_output_contract
+- unknown_access_model
+source_records:
+- access_status: metadata_only
+  digest: 469ea51e21d14269
+  extracted_facts:
+  - 'AlgorithmWiki row name: Demand-Driven Register Allocation'
+  - 'domain: unknown'
+  - 'time complexity: O(n^2)'
+  - 'space complexity: O(n^2)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of instructions in procedure'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000714:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Demand-Driven Register Allocation
+  url: https://dl.acm.org/doi/10.1145/236114.236117
+- access_status: fetched
+  digest: db767a3ed633ab59
+  extracted_facts:
+  - 'DOI title: Demand-driven register allocation'
+  - 'published year: 1996'
+  - 'container title: ACM Transactions on Programming Languages and Systems'
+  - 'abstract summary: A new global register allocation technique, demand-driven register allocation , is described.'
+  reliability: HIGH
+  short_quote: A new global register allocation technique, demand-driven register allocation , is described.
+  source_id: crossref:512ac37a6ee02f32
+  source_type: doi_metadata
+  title: Demand-driven register allocation
+  url: https://doi.org/10.1145/236114.236117
+- access_status: failed
+  digest: 7fec03ce8638a35e
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:f92a31f01e07360e
+  source_type: publisher_abstract
+  title: 'HTTP Error 403: Forbidden'
+  url: https://dl.acm.org/doi/10.1145/236114.236117
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

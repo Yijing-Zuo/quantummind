@@ -1,0 +1,20 @@
+case_id: QM-PB-004
+access_model: sparse_matrix_oracle
+output_contract: state_or_expectation
+required_structure_ids: [sparse_linear_system]
+expected_selected_primitive: quantum_linear_systems_state_output
+expected_speedup_class: ASYMPTOTIC
+required_caveat_ids: [state_preparation, condition_number, readout]
+allowed_verdicts: [POSITIVE]
+maximum_claim_scope: QUERY
+expected_route: EXPERT_REVIEW
+forbidden_claim_ids: [full_classical_vector_speedup, no_readout_caveat]
+evidence_mapping:
+  required_structure_ids: [harrow_hassidim_lloyd_2009]
+  expected_selected_primitive: [harrow_hassidim_lloyd_2009]
+  expected_speedup_class: [harrow_hassidim_lloyd_2009]
+  required_caveat_ids: [harrow_hassidim_lloyd_2009]
+  allowed_verdicts: [harrow_hassidim_lloyd_2009]
+  maximum_claim_scope: [harrow_hassidim_lloyd_2009]
+  expected_route: [harrow_hassidim_lloyd_2009]
+  forbidden_claim_ids: [harrow_hassidim_lloyd_2009]

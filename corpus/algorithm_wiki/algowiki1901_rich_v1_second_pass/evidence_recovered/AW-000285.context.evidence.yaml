@@ -1,0 +1,56 @@
+id: AW-000285
+kind: context_recovered
+algorithm_id: AW-000285
+algorithm_name: Moravec's algorithm 1980
+source_records:
+- access_status: metadata_only
+  digest: 1d68a80c4b336b99
+  extracted_facts:
+  - 'AlgorithmWiki row name: Moravec''s algorithm 1980'
+  - 'domain: unknown'
+  - 'time complexity: O(n^3)'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000285:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Moravec's algorithm 1980
+  url: https://www.ri.cmu.edu/pub_files/pub4/moravec_hans_1980_1/moravec_hans_1980_1.pdf
+- source_id: crossref_search:07a51c84e5229608
+  url: https://doi.org/10.1093/gmo/9781561592630.article.a2257699
+  title: Moravec, Paul
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: Moravec, Paul'
+  short_quote: ''
+  digest: 4544860d89056737
+web_query_attempts:
+- query: '"Moravec''s algorithm 1980" algorithm'
+  method: search_plan
+  status: recorded
+- query: '"Moravec''s algorithm 1980" input output'
+  method: search_plan
+  status: recorded
+- query: '"Moravec''s algorithm 1980" time complexity'
+  method: search_plan
+  status: recorded
+- query: '"Moravec''s algorithm 1980" pseudocode'
+  method: search_plan
+  status: recorded
+- query: '"Moravec''s algorithm 1980" problem'
+  method: search_plan
+  status: recorded
+- query: '"Moravec''s algorithm 1980" PDF metadata abstract'
+  method: search_plan
+  status: recorded
+- query: https://www.ri.cmu.edu/pub_files/pub4/moravec_hans_1980_1/moravec_hans_1980_1.pdf
+  method: search_plan
+  status: recorded
+- query: Moravec's algorithm 1980 algorithm
+  method: crossref_title_search
+  status: fetched
+extracted_problem_statement: 'Moravec''s algorithm 1980 is reconstructed as a classical image processing task. Problem/task: detect local image features such as corners, blobs, or scale-invariant keypoints Input semantics: An image or image pyramid/grid of pixel intensities plus detector parameters. Output semantics: A set of detected feature locations, scales, orientations, or descriptors.'
+extracted_algorithm_summary: 'Moravec''s algorithm 1980 is treated as the named AlgorithmWiki variant for detect local image features such as corners, blobs, or scale-invariant keypoints Classical complexity metadata: time O(n^3). Public metadata/source title support includes Moravec, Paul.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

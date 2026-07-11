@@ -1,0 +1,58 @@
+id: AW-001098
+kind: context
+algorithm_id: AW-001098
+algorithm_name: Jagadish
+source_records:
+- access_status: metadata_only
+  digest: 2e0dbb30d1ef4b67
+  extracted_facts:
+  - 'AlgorithmWiki row name: Jagadish'
+  - 'domain: parallel_algorithms'
+  - 'time complexity: O(n)'
+  - 'computational model: nearest neighbor connected array MIMD'
+  - 'parameter definitions: n: size of list, p: number of processors p>=O(n/p)'
+  - 'precard summary: Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model. Baseline: time O(n); work O(np); span/depth O(n); processors p. Bottleneck: work, span, communication, and processor-count assumptions dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001098:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Jagadish
+  url: https://www.computer.org/csdl/proceedings-article/iccd/1988/00025654/12OmNwdtwk0
+- access_status: skipped
+  digest: 39f2781ac452a0b1
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:db3d406879f7a11a
+  source_type: other_public_source
+  title: fetch budget exhausted
+  url: https://www.computer.org/csdl/proceedings-article/iccd/1988/00025654/12OmNwdtwk0
+web_query_attempts:
+- method: search_plan
+  query: Jagadish algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Jagadish algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Jagadish problem definition
+  status: recorded
+- method: search_plan
+  query: Jagadish parallel algorithms algorithm
+  status: recorded
+- method: search_plan
+  query: Jagadish site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Jagadish algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://www.computer.org/csdl/proceedings-article/iccd/1988/00025654/12OmNwdtwk0
+  status: recorded
+- method: source_link_html_metadata
+  query: https://www.computer.org/csdl/proceedings-article/iccd/1988/00025654/12OmNwdtwk0
+  status: skipped
+extracted_problem_statement: 'Jagadish is treated as a classical parallel algorithms task for rich AlgorithmWiki discovery. Problem/task: answer approximate nearest-neighbor search queries using a navigable small-world graph structure. Input semantics: A metric or vector data set, query points, and graph/search parameters for nearest-neighbor lookup. Output semantics: Nearest-neighbor or approximate nearest-neighbor identifiers and distances for the query points.'
+extracted_algorithm_summary: 'Jagadish is a parallel algorithms algorithm record. Classical complexity metadata: time O(n); work O(np); span/depth O(n); processors p. The stated classical model is nearest neighbor connected array MIMD. Public metadata/source text adds: Jagadish parallel_algorithms parallel_algorithms n: size of list, p: number of processors p>=O(n/p) O(n) Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

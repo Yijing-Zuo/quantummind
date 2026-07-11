@@ -1,0 +1,74 @@
+id: AW-000576
+kind: context
+algorithm_id: AW-000576
+algorithm_name: Stephen Alstrup, Cyril Gavoille, Haim Kaplan & Theis Rauhe
+source_records:
+- access_status: metadata_only
+  digest: 08b483d6b2674ca6
+  extracted_facts:
+  - 'AlgorithmWiki row name: Stephen Alstrup, Cyril Gavoille, Haim Kaplan & Theis Rauhe'
+  - 'domain: graph'
+  - 'time complexity: O(n+m)'
+  - 'space complexity: O(n)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of vertices, m: number of total number of operations (queries, links, and cuts)'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(n+m); space O(n). Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000576:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Stephen Alstrup, Cyril Gavoille, Haim Kaplan & Theis Rauhe
+  url: https://link.springer.com/article/10.1007/s00224-004-1155-5
+- access_status: fetched
+  digest: f54bdbe23e8f2844
+  extracted_facts:
+  - 'DOI title: Nearest Common Ancestors: A Survey and a New Algorithm for a Distributed Environment'
+  - 'published year: 2004'
+  - 'container title: Theory of Computing Systems'
+  reliability: HIGH
+  short_quote: ''
+  source_id: crossref:7b4e3278623c89b7
+  source_type: doi_metadata
+  title: 'Nearest Common Ancestors: A Survey and a New Algorithm for a Distributed Environment'
+  url: https://doi.org/10.1007/s00224-004-1155-5
+- access_status: skipped
+  digest: 67f0fcc36bc17ad9
+  extracted_facts:
+  - robots.txt disallowed fetch
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:1b52aebb25beee53
+  source_type: publisher_abstract
+  title: robots.txt disallowed fetch
+  url: https://link.springer.com/article/10.1007/s00224-004-1155-5
+web_query_attempts:
+- method: search_plan
+  query: Stephen Alstrup, Cyril Gavoille, Haim Kaplan & Theis Rauhe algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Stephen Alstrup, Cyril Gavoille, Haim Kaplan & Theis Rauhe algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Stephen Alstrup, Cyril Gavoille, Haim Kaplan & Theis Rauhe problem definition
+  status: recorded
+- method: search_plan
+  query: Stephen Alstrup, Cyril Gavoille, Haim Kaplan & Theis Rauhe graph algorithm
+  status: recorded
+- method: search_plan
+  query: Stephen Alstrup, Cyril Gavoille, Haim Kaplan & Theis Rauhe site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Stephen Alstrup, Cyril Gavoille, Haim Kaplan & Theis Rauhe algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://link.springer.com/article/10.1007/s00224-004-1155-5
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1007/s00224-004-1155-5
+  status: fetched
+- method: source_link_html_metadata
+  query: https://link.springer.com/article/10.1007/s00224-004-1155-5
+  status: skipped
+extracted_problem_statement: 'Stephen Alstrup, Cyril Gavoille, Haim Kaplan & Theis Rauhe is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Stephen Alstrup, Cyril Gavoille, Haim Kaplan & Theis Rauhe. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'Stephen Alstrup, Cyril Gavoille, Haim Kaplan & Theis Rauhe is a graph algorithm record. Classical complexity metadata: time O(n+m); space O(n). The stated classical model is Word RAM. Public metadata/source text adds: Stephen Alstrup, Cyril Gavoille, Haim Kaplan & Theis Rauhe graph graph n: number of vertices, m: number of total number of operations (queries, links, and cuts) O(n+m) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

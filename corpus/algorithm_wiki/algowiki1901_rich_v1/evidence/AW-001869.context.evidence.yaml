@@ -1,0 +1,59 @@
+id: AW-001869
+kind: context
+algorithm_id: AW-001869
+algorithm_name: Rytter
+source_records:
+- access_status: metadata_only
+  digest: 3c4a16cb1be55a72
+  extracted_facts:
+  - 'AlgorithmWiki row name: Rytter'
+  - 'domain: string'
+  - 'time complexity: O(\\log n)'
+  - 'space complexity: O(n)'
+  - 'computational model: CREW PRAM'
+  - 'parameter definitions: n: length of string'
+  - 'precard summary: Given one or more explicit strings, compute the matching, indexing, alignment, or transformation output targeted by the record. Baseline: time O(\\log n); space O(n); work O(n\log n); span/depth O(\log n); processors O(n). Bottleneck: string scanning, preprocessing tables, and reporting matches dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001869:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Rytter
+  url: https://www.researchgate.net/publication/228945502_On_parallel_transformations_of_suffix_arrays_into_suffix_trees
+- access_status: skipped
+  digest: b8fd1b107a71e962
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:4176adbadf3a98d5
+  source_type: other_public_source
+  title: fetch budget exhausted
+  url: https://www.researchgate.net/publication/228945502_On_parallel_transformations_of_suffix_arrays_into_suffix_trees
+web_query_attempts:
+- method: search_plan
+  query: Rytter algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Rytter algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Rytter problem definition
+  status: recorded
+- method: search_plan
+  query: Rytter string algorithm
+  status: recorded
+- method: search_plan
+  query: Rytter site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Rytter algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://www.researchgate.net/publication/228945502_On_parallel_transformations_of_suffix_arrays_into_suffix_trees
+  status: recorded
+- method: source_link_html_metadata
+  query: https://www.researchgate.net/publication/228945502_On_parallel_transformations_of_suffix_arrays_into_suffix_trees
+  status: skipped
+extracted_problem_statement: 'Rytter is treated as a classical string task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Rytter. Input semantics: One or more finite strings, sequences, patterns, or alphabets. Output semantics: Pattern occurrence positions, matches, or the associated string-search report.'
+extracted_algorithm_summary: 'Rytter is a string algorithm record. Classical complexity metadata: time O(\\log n); space O(n); work O(n\log n); span/depth O(\log n); processors O(n). The stated classical model is CREW PRAM. Public metadata/source text adds: Rytter string string n: length of string O(\\log n) Given one or more explicit strings, compute the matching, indexing, alignment, or transformation output targeted by the record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

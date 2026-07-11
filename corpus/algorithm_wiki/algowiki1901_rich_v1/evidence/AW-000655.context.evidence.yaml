@@ -1,0 +1,46 @@
+id: AW-000655
+kind: context
+algorithm_id: AW-000655
+algorithm_name: Chen I. Kanj and W. Jia.
+source_records:
+- access_status: metadata_only
+  digest: 1676424c098736c2
+  extracted_facts:
+  - 'AlgorithmWiki row name: Chen I. Kanj and W. Jia.'
+  - 'domain: graph'
+  - 'time complexity: O(1.2738^k+ kn)'
+  - 'space complexity: O(\text{poly}(n))'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of vertices, m: number of edges, k: size of vertex cover (worst case O(n))'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(1.2738^k+ kn); space O(\text{poly}(n)). Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000655:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Chen I. Kanj and W. Jia.
+  url: https://www.cs.lafayette.edu/~gexia/research/mfcs06.pdf
+web_query_attempts:
+- method: search_plan
+  query: Chen I. Kanj and W. Jia. algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Chen I. Kanj and W. Jia. algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Chen I. Kanj and W. Jia. problem definition
+  status: recorded
+- method: search_plan
+  query: Chen I. Kanj and W. Jia. graph algorithm
+  status: recorded
+- method: search_plan
+  query: Chen I. Kanj and W. Jia. site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Chen I. Kanj and W. Jia. algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://www.cs.lafayette.edu/~gexia/research/mfcs06.pdf
+  status: recorded
+extracted_problem_statement: 'Chen I. Kanj and W. Jia. is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Chen I. Kanj and W. Jia.. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'Chen I. Kanj and W. Jia. is a graph algorithm record. Classical complexity metadata: time O(1.2738^k+ kn); space O(\text{poly}(n)). The stated classical model is Word RAM. Public metadata/source text adds: Chen I. Kanj and W. Jia. graph graph n: number of vertices, m: number of edges, k: size of vertex cover (worst case O(n)) O(1.2738^k+ kn) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

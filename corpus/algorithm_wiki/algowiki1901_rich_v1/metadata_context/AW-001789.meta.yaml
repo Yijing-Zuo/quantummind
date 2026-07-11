@@ -1,0 +1,59 @@
+algorithm_family: computational geometry
+algorithm_id: AW-001789
+approximate: ''
+approximation_factor: ''
+blind_name: Algorithm Wiki public task AW-001789
+canonical_name: Belloch et al.
+computational_model: CREW PRAM
+domain: computational_geometry
+extracted_description: ''
+extraction_version: algorithm-wiki-rich-context-v1
+family: computational_geometry
+inferred_access_model: explicit_geometric_objects
+inferred_ambiguities:
+- No independent fetched public metadata source resolved this row beyond AlgorithmWiki metadata/source-link facts.
+- Some details are reconstructed from AlgorithmWiki metadata rather than an independently fetched full public description.
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.
+inferred_input_model: explicit_geometry_problem
+inferred_output_contract: full_solution
+inferred_problem_statement: 'Belloch et al. is treated as a classical computational geometry task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Belloch et al.. Input semantics: Explicit geometric objects such as points, line segments, polygons, or planar subdivisions. Output semantics: The requested geometric structure, simplified curve, clipping result, intersection set, hull, or diagram.'
+inferred_promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+- classical_parallel_model_recorded
+inferred_size_parameters:
+- 'Parameter definition: n: number of points'
+- p = stated number of processors (O(n/\log n))
+number_of_processors: O(n/\log n)
+page_digest: ''
+page_fetch_status: not_found
+page_url: ''
+parameter_definitions: 'n: number of points'
+problem_name: computational geometry
+quality_flags:
+- domain_inferred
+- problem_statement_inferred
+- io_access_output_inferred
+- has_complexity_semantics
+- has_size_parameters
+- has_computational_model
+quality_score: 100
+randomized: '0'
+readiness: READY_PUBLIC_CONTEXT
+review_reasons: []
+source_link: "Blelloch, G., Miller, G., Hardwick, J. et al. Design and Implementation of a Practical Parallel Delaunay Algorithm . Algorithmica 24, 243\u2013269 (1999). https://doi.org/10.1007/PL00008262"
+source_link_type: doi
+space_complexity: ''
+span_depth: O(\log^3 n)
+time_complexity: O(\log^3 n)
+variation: ''
+work: O(n\log n)
+year: '1999'
+rich_card_kind: context
+source_records_used:
+- AW-001789:algorithm_wiki_metadata
+- skipped:163e73fc7a9517f2
+source_count: 2
+source_quality: HIGH
+confidence_score: 100
+card_digest: 39195a10c582ba10

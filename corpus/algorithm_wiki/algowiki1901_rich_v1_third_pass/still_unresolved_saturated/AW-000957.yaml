@@ -1,0 +1,111 @@
+algorithm_id: AW-000957
+canonical_name: Illinois Algorithm
+enrichment_status: THIRD_PASS_SATURATED_INSUFFICIENT
+review_reasons:
+- After the configured source-family cycles, no source-backed concrete task, input semantics, output semantics, and conservative access model could be established.
+source_records:
+- access_status: metadata_only
+  digest: 27658235360bc3c2
+  extracted_facts:
+  - 'AlgorithmWiki row name: Illinois Algorithm'
+  - 'domain: unknown'
+  - 'time complexity: O(n_max)'
+  - 'space complexity: O(1)'
+  - 'computational model: Word/Real RAM'
+  - 'parameter definitions: epsilon: (additive) tolerance error, a, b: endpoint values, with b>a, n_max: maximum number of iterations'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000957:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Illinois Algorithm
+  url: https://link.springer.com/article/10.1007/BF01934364
+- access_status: skipped
+  digest: 6f05283cfc6fe199
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:31a9047d9f2f15bb
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1007/BF01934364
+- access_status: skipped
+  digest: a197c388dd7703ec
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:5a67202490483d14
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://link.springer.com/article/10.1007/BF01934364
+- access_status: skipped
+  digest: 1238d2e63ebbaffb
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:486a2e9eb9d215f8
+  source_type: wikipedia
+  title: fetch budget exhausted
+  url: https://en.wikipedia.org/wiki/Illinois_Algorithm
+- access_status: fetched
+  digest: ecb59a7ea73cc6e6
+  extracted_facts:
+  - 'DOI title: A modified regula falsi method for computing the root of an equation'
+  - 'published year: 1971'
+  - 'container title: BIT'
+  reliability: HIGH
+  short_quote: ''
+  source_id: crossref:b3de10623c029fea
+  source_type: doi_metadata
+  title: A modified regula falsi method for computing the root of an equation
+  url: https://doi.org/10.1007/BF01934364
+- access_status: fetched
+  digest: eac65bcac63f65f8
+  extracted_facts:
+  - 'Crossref title-search result: An optimal algorithm to fetch DHT routable'
+  reliability: MEDIUM
+  short_quote: ''
+  source_id: crossref_search:0b18e1bdccf3f416
+  source_type: doi_metadata
+  title: An optimal algorithm to fetch DHT routable
+  url: https://doi.org/10.1109/npc.2007.32
+- source_id: source:cc19405290fa64bc
+  url: https://link.springer.com/article/10.1007/BF01934364
+  title: A modified regula falsi method for computing the root of an equation | BIT Numerical Mathematics | Springer Nature Link
+  source_type: publisher_abstract
+  access_status: fetched
+  reliability: HIGH
+  extracted_facts:
+  - A modified regula falsi method for computing the root of an equation | BIT Numerical Mathematics | Springer Nature Link
+  - The Illinois method is briefly described and the asymptotic convergence of the method investigated.
+  short_quote: A modified regula falsi method for computing the root of an equation | BIT Numerical Mathematics | Springer Nature Link The Illinois method is
+  digest: 14e2d083dbcc71ce
+- source_id: openalex:b5c9acc0dbdefb3a
+  url: https://openalex.org/W2073556275
+  title: A modified regula falsi method for computing the root of an equation
+  source_type: openalex
+  access_status: fetched
+  reliability: HIGH
+  extracted_facts:
+  - 'OpenAlex title: A modified regula falsi method for computing the root of an equation'
+  - 'publication year: 1971'
+  short_quote: 'OpenAlex title: A modified regula falsi method for computing the root of an equation publication year: 1971'
+  digest: 14309adf8350e791
+- source_id: semantic_scholar:017b02bd374bd50c
+  url: https://www.semanticscholar.org/paper/1c8fafa88ff7d12b881440f316b67af71c912adf
+  title: A modified regula falsi method for computing the root of an equation
+  source_type: semantic_scholar
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Semantic Scholar title: A modified regula falsi method for computing the root of an equation'
+  - 'published year: 1971'
+  - 'abstract summary: None'
+  short_quote: 'Semantic Scholar title: A modified regula falsi method for computing the root of an equation published year: 1971 abstract summary: None'
+  digest: ddbfc7b87790d024
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

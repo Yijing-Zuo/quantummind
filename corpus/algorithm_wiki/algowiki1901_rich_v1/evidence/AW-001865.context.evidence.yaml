@@ -1,0 +1,71 @@
+id: AW-001865
+kind: context
+algorithm_id: AW-001865
+algorithm_name: Blelloch, Shun
+source_records:
+- access_status: metadata_only
+  digest: 657f92aa64b49e76
+  extracted_facts:
+  - 'AlgorithmWiki row name: Blelloch, Shun'
+  - 'domain: string'
+  - 'time complexity: O(\log^2(n))'
+  - 'computational model: CRCW PRAM'
+  - 'parameter definitions: n: length of string'
+  - 'precard summary: Given one or more explicit strings, compute the matching, indexing, alignment, or transformation output targeted by the record. Baseline: time O(\log^2(n)); work O(n); span/depth O(log^2(n)); processors O(n). Bottleneck: string scanning, preprocessing tables, and reporting matches dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001865:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Blelloch, Shun
+  url: https://epubs.siam.org/doi/abs/10.1137/1.9781611972917.5
+- access_status: skipped
+  digest: c2c010544e7ed48b
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:37e256df6cb6dc62
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1137/1.9781611972917.5
+- access_status: skipped
+  digest: 91a7ac7161a2992d
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:191c425cc217fe02
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://epubs.siam.org/doi/abs/10.1137/1.9781611972917.5
+web_query_attempts:
+- method: search_plan
+  query: Blelloch, Shun algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Blelloch, Shun algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Blelloch, Shun problem definition
+  status: recorded
+- method: search_plan
+  query: Blelloch, Shun string algorithm
+  status: recorded
+- method: search_plan
+  query: Blelloch, Shun site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Blelloch, Shun algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://epubs.siam.org/doi/abs/10.1137/1.9781611972917.5
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1137/1.9781611972917.5
+  status: skipped
+- method: source_link_html_metadata
+  query: https://epubs.siam.org/doi/abs/10.1137/1.9781611972917.5
+  status: skipped
+extracted_problem_statement: 'Blelloch, Shun is treated as a classical string task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Blelloch, Shun. Input semantics: One or more finite strings, sequences, patterns, or alphabets. Output semantics: Pattern occurrence positions, matches, or the associated string-search report.'
+extracted_algorithm_summary: 'Blelloch, Shun is a string algorithm record. Classical complexity metadata: time O(\log^2(n)); work O(n); span/depth O(log^2(n)); processors O(n). The stated classical model is CRCW PRAM. Public metadata/source text adds: Blelloch, Shun string string n: length of string O(\log^2(n)) Given one or more explicit strings, compute the matching, indexing, alignment, or transformation output targeted by the record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

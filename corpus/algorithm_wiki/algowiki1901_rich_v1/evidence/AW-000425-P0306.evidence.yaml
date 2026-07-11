@@ -1,0 +1,49 @@
+id: AW-000425-P0306
+kind: probe
+algorithm_id: AW-000425
+algorithm_name: String-Matching with Finite Automata
+source_records:
+- access_status: metadata_only
+  digest: a357c069b1fe8d6b
+  extracted_facts:
+  - 'AlgorithmWiki row name: String-Matching with Finite Automata'
+  - 'domain: string'
+  - 'time complexity: O(mn)'
+  - 'space complexity: O(m)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: m: pattern length, n: length of searchable text'
+  - 'precard summary: Given one or more explicit strings, compute the matching, indexing, alignment, or transformation output targeted by the record. Baseline: time O(mn); space O(m). Bottleneck: string scanning, preprocessing tables, and reporting matches dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000425:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for String-Matching with Finite Automata
+  url: '-'
+web_query_attempts:
+- method: search_plan
+  query: String-Matching with Finite Automata algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: String-Matching with Finite Automata algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: String-Matching with Finite Automata problem definition
+  status: recorded
+- method: search_plan
+  query: String-Matching with Finite Automata string algorithm
+  status: recorded
+- method: search_plan
+  query: String-Matching with Finite Automata site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: String-Matching with Finite Automata algorithm wiki
+  status: recorded
+- method: search_plan
+  query: '-'
+  status: recorded
+- method: wikipedia_summary_search
+  query: String-Matching with Finite Automata algorithm
+  status: failed_or_not_relevant
+extracted_problem_statement: 'String-Matching with Finite Automata is treated as a classical string task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with String-Matching with Finite Automata. Input semantics: One or more finite strings, sequences, patterns, or alphabets. Output semantics: Pattern occurrence positions, matches, or the associated string-search report.'
+extracted_algorithm_summary: 'String-Matching with Finite Automata is a string algorithm record. Classical complexity metadata: time O(mn); space O(m). The stated classical model is Word RAM. Public metadata/source text adds: String-Matching with Finite Automata string string m: pattern length, n: length of searchable text O(mn) Given one or more explicit strings, compute the matching, indexing, alignment, or transformation output targeted by the record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

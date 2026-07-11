@@ -1,0 +1,57 @@
+id: AW-000779-SP0019
+kind: probe_recovered
+algorithm_id: AW-000779
+algorithm_name: Brute force
+source_records:
+- access_status: metadata_only
+  digest: 7aa98e868fb36a19
+  extracted_facts:
+  - 'AlgorithmWiki row name: Brute force'
+  - 'domain: unknown'
+  - 'time complexity: O(U 2^n)'
+  - 'space complexity: O(U)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of sets, U: size of universe'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000779:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Brute force
+  url: ''
+- source_id: crossref_search:9fdb778db8297876
+  url: https://doi.org/10.54209/infosains.v10i1.29
+  title: Brute Force Algorithm Implementation Of Dictionary Search
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: Brute Force Algorithm Implementation Of Dictionary Search'
+  - 'abstract summary: In the manual dictionary the more words are accommodated, the heavier the dictionary.'
+  short_quote: In the manual dictionary the more words are accommodated, the heavier the dictionary.
+  digest: ac7faad601f6f571
+web_query_attempts:
+- query: '"Brute force" algorithm'
+  method: search_plan
+  status: recorded
+- query: '"Brute force" input output'
+  method: search_plan
+  status: recorded
+- query: '"Brute force" time complexity'
+  method: search_plan
+  status: recorded
+- query: '"Brute force" pseudocode'
+  method: search_plan
+  status: recorded
+- query: '"Brute force" problem'
+  method: search_plan
+  status: recorded
+- query: '"Brute force" PDF metadata abstract'
+  method: search_plan
+  status: recorded
+- query: Brute force algorithm
+  method: crossref_title_search
+  status: fetched
+extracted_problem_statement: 'Brute force is reconstructed as a classical data structures task. Problem/task: maintain a data structure supporting the named operations Input semantics: A set of records and operation sequence for insert, delete, query, or search operations. Output semantics: A maintained representation and answers to the supported queries.'
+extracted_algorithm_summary: 'Brute force is treated as the named AlgorithmWiki variant for maintain a data structure supporting the named operations Classical complexity metadata: time O(U 2^n); space O(U). Public metadata/source title support includes Brute Force Algorithm Implementation Of Dictionary Search.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

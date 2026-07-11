@@ -1,0 +1,59 @@
+algorithm_family: sorting
+algorithm_id: AW-001221
+approximate: ''
+approximation_factor: ''
+blind_name: Algorithm Wiki public task AW-001221
+canonical_name: partitioned parallel radix (PPR) sort - Lee, Jeon, Sohn, Kim
+computational_model: distributed-memory multiprocessors
+domain: sorting
+extracted_description: ''
+extraction_version: algorithm-wiki-rich-context-v1
+family: sorting
+inferred_access_model: random_access_array
+inferred_ambiguities:
+- No independent fetched public metadata source resolved this row beyond AlgorithmWiki metadata/source-link facts.
+- Some details are reconstructed from AlgorithmWiki metadata rather than an independently fetched full public description.
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.
+inferred_input_model: explicit_sequence_problem
+inferred_output_contract: full_sequence_output
+inferred_problem_statement: 'partitioned parallel radix (PPR) sort - Lee, Jeon, Sohn, Kim is treated as a classical sorting task for rich AlgorithmWiki discovery. Problem/task: sort the input sequence using the named classical sorting method. Input semantics: A finite array or list of comparable keys or records. Output semantics: The same items returned in nondecreasing order, usually as a full reordered sequence.'
+inferred_promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+inferred_size_parameters:
+- 'Parameter definition: n: size of list, p: number of processors, b: number of bits in integer keys, g: group of bits used each round'
+- p = stated number of processors (p)
+number_of_processors: p
+page_digest: ''
+page_fetch_status: not_found
+page_url: ''
+parameter_definitions: 'n: size of list, p: number of processors, b: number of bits in integer keys, g: group of bits used each round'
+problem_name: sorting
+quality_flags:
+- domain_inferred
+- problem_statement_inferred
+- io_access_output_inferred
+- has_complexity_semantics
+- has_size_parameters
+- has_computational_model
+quality_score: 100
+randomized: ''
+readiness: READY_PUBLIC_CONTEXT
+review_reasons: []
+source_link: https://link.springer.com/chapter/10.1007/3-540-39999-2_14 (page 176 of pdf)
+source_link_type: unknown
+space_complexity: ''
+span_depth: ''
+time_complexity: ceilling(b/g) rounds
+variation: ''
+work: ceilling(b/g)*p + communication
+year: '2000'
+rich_card_kind: context
+source_records_used:
+- AW-001221:algorithm_wiki_metadata
+- skipped:22b17b1b7a8dd6e4
+- skipped:665dd080dc2ff577
+source_count: 3
+source_quality: HIGH
+confidence_score: 100
+card_digest: 2b76ac87916c670d

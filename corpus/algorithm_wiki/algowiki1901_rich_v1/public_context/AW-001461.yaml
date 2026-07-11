@@ -1,0 +1,16 @@
+statement: 'Kruskal, Rudolph, Snir is included as a named whole-algorithm context card for a classical graph task. The task is to analyze the classical input-output problem, not to certify an end-to-end improvement claim. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: A minimum spanning tree or forest for the weighted graph. Classical algorithm summary: Kruskal, Rudolph, Snir is a graph algorithm record. Classical complexity metadata: time O(m/p*\log(n)/\log(m/(p^2*\log(p))) + n/p*\log(p)); work O(m*\log(n)/\log(m) + n); span/depth O(n^{1+2eps}*log(n)/log(n^{4eps}/log(n)) + n/n^{1-2eps}*log(n); processors p <= m^{1/2-eps} for any eps>0, log p <= m/n. The stated classical model is MIMD EREW. Public metadata/source text adds: Kruskal, Rudolph, Snir graph graph n: number of nodes, m: number of edges, p: number of processors O(m/p*\log(n)/\log(m/(p^2*\log(p))) + n/p*\log(p)) Given a weighted
+  undirected graph, compute a minimum spanning tree or spanning forest according to the graph connectivity assumptions. Classical steps or pseudocode-level structure: Sort or bucket edges by weight, scan candidate edges, and use connectivity tests to add safe edges to the spanning forest. Classical complexity recorded for this row: time O(m/p*\log(n)/\log(m/(p^2*\log(p))) + n/p*\log(p)); space unknown; computation model MIMD EREW. Dominant bottleneck: graph traversal, priority/frontier maintenance, and materializing graph outputs. The useful review questions are whether the named structure exposes a smaller decision, witness, estimation, or algebraic subproblem; whether the full output size dominates any asymptotic gain; and whether the stated access model is realistic for the original input. Provenance is limited to AlgorithmWiki metadata and source-link facts; unresolved details are kept as ambiguities. Source-backed uncertainty or assumptions: No independent fetched public metadata source
+  resolved this row beyond AlgorithmWiki metadata/source-link facts.'
+input_model: explicit_graph_problem
+access_model: edge_list_input
+output_contract: path_or_tree
+promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+size_parameters:
+- 'Parameter definition: n: number of nodes, m: number of edges, p: number of processors'
+- p = stated number of processors (p <= m^{1/2-eps} for any eps>0, log p <= m/n)
+ambiguities:
+- No independent fetched public metadata source resolved this row beyond AlgorithmWiki metadata/source-link facts.
+- Some details are reconstructed from AlgorithmWiki metadata rather than an independently fetched full public description.
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.

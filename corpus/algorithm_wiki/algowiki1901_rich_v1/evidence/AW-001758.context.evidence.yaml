@@ -1,0 +1,58 @@
+id: AW-001758
+kind: context
+algorithm_id: AW-001758
+algorithm_name: Ravikumar, Xiong
+source_records:
+- access_status: metadata_only
+  digest: b7c5ca15b7295be4
+  extracted_facts:
+  - 'AlgorithmWiki row name: Ravikumar, Xiong'
+  - 'domain: parallel_algorithms'
+  - 'time complexity: O((kn \log n)*max(1, (\log n)/p))'
+  - 'computational model: EREW PRAM'
+  - 'parameter definitions: n: number of states, k: size of alphabet, p: number of processors'
+  - 'precard summary: Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model. Baseline: time O((kn \log n)*max(1, (\log n)/p)); work O(kn \log^2 n); span/depth O(kn log n); processors p. Bottleneck: work, span, communication, and processor-count assumptions dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001758:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Ravikumar, Xiong
+  url: https://ieeexplore.ieee.org/abstract/document/508056
+- access_status: skipped
+  digest: b37948e687fd43b6
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:8a550ee52bb7117f
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://ieeexplore.ieee.org/abstract/document/508056
+web_query_attempts:
+- method: search_plan
+  query: Ravikumar, Xiong algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Ravikumar, Xiong algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Ravikumar, Xiong problem definition
+  status: recorded
+- method: search_plan
+  query: Ravikumar, Xiong parallel algorithms algorithm
+  status: recorded
+- method: search_plan
+  query: Ravikumar, Xiong site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Ravikumar, Xiong algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://ieeexplore.ieee.org/abstract/document/508056
+  status: recorded
+- method: source_link_html_metadata
+  query: https://ieeexplore.ieee.org/abstract/document/508056
+  status: skipped
+extracted_problem_statement: 'Ravikumar, Xiong is treated as a classical parallel algorithms task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Ravikumar, Xiong. Input semantics: The classical input instance named by the row, together with processor/work/span parameters when stated. Output semantics: The same mathematical output as the underlying classical task, annotated by work/span when available.'
+extracted_algorithm_summary: 'Ravikumar, Xiong is a parallel algorithms algorithm record. Classical complexity metadata: time O((kn \log n)*max(1, (\log n)/p)); work O(kn \log^2 n); span/depth O(kn log n); processors p. The stated classical model is EREW PRAM. Public metadata/source text adds: Ravikumar, Xiong parallel_algorithms parallel_algorithms n: number of states, k: size of alphabet, p: number of processors O((kn \log n)*max(1, (\log n)/p)) Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

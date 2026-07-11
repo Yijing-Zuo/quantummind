@@ -1,0 +1,44 @@
+probe_id: AW-000618-P0429
+algorithm_id: AW-000618-P0429
+canonical_name: Flipping algorithm graph_walk_probe
+readiness: READY_PUBLIC_PROBE
+quality_score: 70
+probe_type: graph_walk_probe
+parent_algorithm_id: AW-000618
+parent_algorithm_name: Flipping algorithm
+source_records_used:
+- AW-000618:algorithm_wiki_metadata
+- crossref:63819e8c4c7badb6
+- skipped:25271275288c93e9
+introduced_assumptions:
+- local_graph_transition_oracle
+- marked_vertex_or_edge
+- query_model_subroutine
+missing_from_original_problem:
+- marked-state definition
+- transition implementation
+- end-to-end output reconstruction
+original_output_contract: path_or_tree
+probe_output_contract: one_witness
+not_end_to_end_claim: true
+expected_authority: query_or_subroutine_hypothesis_only
+why_probe_is_scientifically_interesting: Graph search rows often hide local witness or hitting subroutines behind full-output tasks.
+why_probe_may_fail: The useful result may require reporting a complete path, tree, or component labeling.
+inferred_input_model: explicit_graph_problem
+inferred_access_model: local_graph_transition_oracle
+inferred_output_contract: one_witness
+inferred_size_parameters:
+- 'Parameter definition: n: number of points'
+inferred_promises:
+- marked_item_exists
+- local_transition_access
+- oracle_model_assumption
+inferred_ambiguities:
+- This probe is assumption-bearing and is not an end-to-end speedup claim.
+- local transition access may not represent the original graph input cheaply
+- The parent context card and source records should be checked before live use.
+source_count: 3
+source_quality: HIGH
+confidence_score: 70
+card_digest: a8c2f795828b4a2d
+extraction_version: algorithm-wiki-rich-probe-v1

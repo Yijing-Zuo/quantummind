@@ -1,0 +1,74 @@
+id: AW-000066
+kind: context
+algorithm_id: AW-000066
+algorithm_name: Okunev Johnson
+source_records:
+- access_status: metadata_only
+  digest: 5f25f322602ba47c
+  extracted_facts:
+  - 'AlgorithmWiki row name: Okunev Johnson'
+  - 'domain: matrix_linear_algebra'
+  - 'time complexity: O(n^3)'
+  - 'space complexity: O(1)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: dimension of square matrix'
+  - 'precard summary: Given one or more explicit dense matrices over the stated arithmetic domain, compute the matrix or linear-algebraic output specified by the record. Baseline: time O(n^3); space O(1). Bottleneck: dense arithmetic and full matrix output dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000066:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Okunev Johnson
+  url: https://arxiv.org/abs/math/0506382
+- access_status: fetched
+  digest: 12ae70112a3ba5f6
+  extracted_facts:
+  - 'arXiv title: Necessary And Sufficient Conditions For Existence of the LU Factorization of an Arbitrary Matrix'
+  - 'abstract summary: If $A$ is an n-by-n matrix over a field $F$ ($A\in M_{n}(F)$), then $A$ is said to ``have an LU factorization'''' if there exists a lower triangular matrix $L\in M_{n}(F)$ and an upper triangular matrix $U\in M_{n}(F)$ such that $$A=LU.$$ We give necessary and sufficient conditions for LU factorability of a matrix.'
+  reliability: HIGH
+  short_quote: If $A$ is an n-by-n matrix over a field $F$ ($A\in M_{n}(F)$), then $A$ is said to ``have an LU factorization'' if there exists
+  source_id: arxiv:math/0506382
+  source_type: arxiv_abstract
+  title: Necessary And Sufficient Conditions For Existence of the LU Factorization of an Arbitrary Matrix
+  url: https://arxiv.org/abs/math/0506382
+- access_status: fetched
+  digest: 7ac2380ea3055e42
+  extracted_facts:
+  - 'source page title: [math/0506382] Necessary And Sufficient Conditions For Existence of the LU Factorization of an Arbitrary Matrix'
+  - 'source page description: Abstract page for arXiv paper math/0506382: Necessary And Sufficient Conditions For Existence of the LU Factorization of an Arbitrary Matrix'
+  reliability: HIGH
+  short_quote: 'Abstract page for arXiv paper math/0506382: Necessary And Sufficient Conditions For Existence of the LU Factorization of an Arbitrary Matrix'
+  source_id: source:cc7cc23205a34b77
+  source_type: arxiv_abstract
+  title: '[math/0506382] Necessary And Sufficient Conditions For Existence of the LU Factorization of an Arbitrary Matrix'
+  url: https://arxiv.org/abs/math/0506382
+web_query_attempts:
+- method: search_plan
+  query: Okunev Johnson algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Okunev Johnson algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Okunev Johnson problem definition
+  status: recorded
+- method: search_plan
+  query: Okunev Johnson matrix linear algebra algorithm
+  status: recorded
+- method: search_plan
+  query: Okunev Johnson site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Okunev Johnson algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://arxiv.org/abs/math/0506382
+  status: recorded
+- method: arxiv_abstract_metadata
+  query: math/0506382
+  status: fetched
+- method: source_link_html_metadata
+  query: https://arxiv.org/abs/math/0506382
+  status: fetched
+extracted_problem_statement: 'Okunev Johnson is treated as a classical matrix linear algebra task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Okunev Johnson. Input semantics: One or more explicit matrices or linear systems over the stated arithmetic domain. Output semantics: The requested matrix, decomposition, solution vector, or other linear-algebraic output.'
+extracted_algorithm_summary: 'Okunev Johnson is a matrix linear algebra algorithm record. Classical complexity metadata: time O(n^3); space O(1). The stated classical model is Word RAM. Public metadata/source text adds: Okunev Johnson matrix_linear_algebra matrix_linear_algebra n: dimension of square matrix O(n^3) Given one or more explicit dense matrices over the stated arithmetic domain, compute the matrix or linear-algebraic output specified by the record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

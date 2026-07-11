@@ -1,0 +1,57 @@
+id: AW-001880
+kind: context
+algorithm_id: AW-001880
+algorithm_name: Ebnenasir, Qiu (parEMS)
+source_records:
+- access_status: metadata_only
+  digest: 58c72db6d6238c23
+  extracted_facts:
+  - 'AlgorithmWiki row name: Ebnenasir, Qiu (parEMS)'
+  - 'domain: string'
+  - 'computational model: PRAM'
+  - 'parameter definitions: n: number of strings, m: length of individual string, l: motif length, d: max distance from motif, sigma: alphabet size, alpha: hash table load factor'
+  - 'precard summary: Given one or more explicit strings, compute the matching, indexing, alignment, or transformation output targeted by the record. Baseline: not stated. Bottleneck: string scanning, preprocessing tables, and reporting matches dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001880:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Ebnenasir, Qiu (parEMS)
+  url: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9900440
+- access_status: skipped
+  digest: 4cec03704f9c8276
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:27d415eed997405b
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9900440
+web_query_attempts:
+- method: search_plan
+  query: Ebnenasir, Qiu (parEMS) algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Ebnenasir, Qiu (parEMS) algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Ebnenasir, Qiu (parEMS) problem definition
+  status: recorded
+- method: search_plan
+  query: Ebnenasir, Qiu (parEMS) string algorithm
+  status: recorded
+- method: search_plan
+  query: Ebnenasir, Qiu (parEMS) site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Ebnenasir, Qiu (parEMS) algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9900440
+  status: recorded
+- method: source_link_html_metadata
+  query: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9900440
+  status: skipped
+extracted_problem_statement: 'Ebnenasir, Qiu (parEMS) is treated as a classical string task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Ebnenasir, Qiu (parEMS). Input semantics: One or more finite strings, sequences, patterns, or alphabets. Output semantics: Pattern occurrence positions, matches, or the associated string-search report.'
+extracted_algorithm_summary: 'Ebnenasir, Qiu (parEMS) is a string algorithm record. Classical complexity is not stated. The stated classical model is PRAM. Public metadata/source text adds: Ebnenasir, Qiu (parEMS) string string n: number of strings, m: length of individual string, l: motif length, d: max distance from motif, sigma: alphabet size, alpha: hash table load factor Given one or more explicit strings, compute the matching, indexing, alignment, or transformation output targeted by the record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

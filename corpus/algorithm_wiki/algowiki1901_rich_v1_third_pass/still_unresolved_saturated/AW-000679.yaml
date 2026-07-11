@@ -1,0 +1,81 @@
+algorithm_id: AW-000679
+canonical_name: Jalali A. Montanari and T. Weissman
+enrichment_status: THIRD_PASS_SATURATED_INSUFFICIENT
+review_reasons:
+- After the configured source-family cycles, no source-backed concrete task, input semantics, output semantics, and conservative access model could be established.
+source_records:
+- access_status: metadata_only
+  digest: 07a4e63cb512689c
+  extracted_facts:
+  - 'AlgorithmWiki row name: Jalali A. Montanari and T. Weissman'
+  - 'domain: unknown'
+  - 'time complexity: O(n)'
+  - 'space complexity: O(n)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: length of input data'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000679:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Jalali A. Montanari and T. Weissman
+  url: https://authors.library.caltech.edu/17983/1/Jalali2010p7459Ieee_T_Inform_Theory.pdf
+- access_status: fetched
+  digest: f00a383c9f1f0694
+  extracted_facts:
+  - 'Crossref title-search result: Jalali, Shakir'
+  reliability: MEDIUM
+  short_quote: ''
+  source_id: crossref_search:e261682d1036dac5
+  source_type: doi_metadata
+  title: Jalali, Shakir
+  url: https://doi.org/10.1163/1570-6664_iyb_sim_person_56940
+- source_id: skipped:75e16dd8cac0f614
+  url: https://authors.library.caltech.edu/17983/1/Jalali2010p7459Ieee_T_Inform_Theory.pdf
+  title: public PDF body was not downloaded
+  source_type: original_source
+  access_status: skipped
+  reliability: LOW
+  extracted_facts:
+  - public PDF body was not downloaded
+  short_quote: public PDF body was not downloaded
+  digest: e6bb9095e04d18a0
+- source_id: crossref_search:bae5035632c583c0
+  url: https://doi.org/10.1163/1570-6664_iyb_sim_person_56940
+  title: Jalali, Shakir
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title: Jalali, Shakir'
+  - 'published year: 2024'
+  - 'container title: International Year Book and Statesmen''s Who''s Who'
+  short_quote: 'Crossref title: Jalali, Shakir published year: 2024 container title: International Year Book and Statesmen''s Who''s Who'
+  digest: a802ad89fb340b9e
+- source_id: openalex:daa05f2c44ad2998
+  url: https://openalex.org/W2586845858
+  title: Statistical Physics and Information Theory Perspectives on Linear Inverse Problems
+  source_type: openalex
+  access_status: fetched
+  reliability: HIGH
+  extracted_facts:
+  - 'OpenAlex title: Statistical Physics and Information Theory Perspectives on Linear Inverse Problems'
+  - 'publication year: 2017'
+  - 'abstract summary: Many real-world problems in machine learning, signal processing, and communications assume that an unknown vector $x$ is measured by a matrix A, resulting in a vector $y=Ax+z$, where $z$ denotes the noise; we call this a single measurement vector (SMV) problem.'
+  short_quote: 'OpenAlex title: Statistical Physics and Information Theory Perspectives on Linear Inverse Problems publication year: 2017 abstract summary: Many real-world problems in machine learning, signal'
+  digest: d782f28fcf7714db
+- source_id: semantic_scholar:47f9a9458e31c9f7
+  url: https://www.semanticscholar.org/paper/02f47bd1ec5ec7dfa32e50012bfb18c0d16bfdfd
+  title: 'Adherence 1003 The Other Half: Integrating Qualitative Analyses across Three Cohorts of Black and Latino Persons Living with HIV who Are Not HIV Virally Suppressed'
+  source_type: semantic_scholar
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Semantic Scholar title: Adherence 1003 The Other Half: Integrating Qualitative Analyses across Three Cohorts of Black and Latino Persons Living with HIV who Are Not HIV Virally Suppressed'
+  - 'published year: None'
+  - 'abstract summary: None'
+  short_quote: 'Semantic Scholar title: Adherence 1003 The Other Half: Integrating Qualitative Analyses across Three Cohorts of Black and Latino Persons Living with HIV who Are'
+  digest: ea8967e825c9b9ca
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

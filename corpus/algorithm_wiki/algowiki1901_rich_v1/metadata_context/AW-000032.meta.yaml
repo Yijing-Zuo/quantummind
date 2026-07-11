@@ -1,0 +1,58 @@
+algorithm_family: unknown
+algorithm_id: AW-000032
+approximate: '0'
+approximation_factor: ''
+blind_name: Algorithm Wiki public task AW-000032
+canonical_name: Naive Selection
+computational_model: Word RAM
+domain: unknown
+extracted_description: ''
+extraction_version: algorithm-wiki-rich-context-v1
+family: unknown
+inferred_access_model: random_access_array
+inferred_ambiguities:
+- No independent fetched public metadata source resolved this row beyond AlgorithmWiki metadata/source-link facts.
+- Some details are reconstructed from AlgorithmWiki metadata rather than an independently fetched full public description.
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.
+inferred_input_model: explicit_sequence_problem
+inferred_output_contract: full_sequence_output
+inferred_problem_statement: 'Naive Selection is treated as a classical sorting task for rich AlgorithmWiki discovery. Problem/task: sort the input sequence using the named classical sorting method. Input semantics: A finite array or list of comparable keys or records. Output semantics: The selected order statistic or item of requested rank.'
+inferred_promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+inferred_size_parameters:
+- 'Parameter definition: n: size of list'
+number_of_processors: ''
+page_digest: ''
+page_fetch_status: not_found
+page_url: ''
+parameter_definitions: 'n: size of list'
+problem_name: unknown
+quality_flags:
+- has_complexity_semantics
+- has_size_parameters
+- has_computational_model
+quality_score: 60
+randomized: '0'
+readiness: READY_PUBLIC_CONTEXT
+review_reasons:
+- missing_problem_statement
+- unknown_input_model
+- unknown_access_model
+- unknown_output_contract
+- insufficient_algorithm_level_structure
+source_link: '-'
+source_link_type: unknown
+space_complexity: O(1)
+span_depth: ''
+time_complexity: O(n \log n)
+variation: ''
+work: ''
+year: '1940'
+rich_card_kind: context
+source_records_used:
+- AW-000032:algorithm_wiki_metadata
+source_count: 1
+source_quality: HIGH
+confidence_score: 60
+card_digest: e3e9883f93e0564d

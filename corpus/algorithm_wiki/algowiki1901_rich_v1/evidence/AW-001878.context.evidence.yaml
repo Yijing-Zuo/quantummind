@@ -1,0 +1,57 @@
+id: AW-001878
+kind: context
+algorithm_id: AW-001878
+algorithm_name: Anchor-changing Regularized Natural Policy Gradient (ARNPG) framework - Zhou, Liu, Kalathil, Kumar, Tian
+source_records:
+- access_status: metadata_only
+  digest: a09749ed4d349b18
+  extracted_facts:
+  - 'AlgorithmWiki row name: Anchor-changing Regularized Natural Policy Gradient (ARNPG) framework - Zhou, Liu, Kalathil, Kumar, Tian'
+  - 'domain: parallel_algorithms'
+  - 'computational model: PRAM'
+  - 'parameter definitions: A: size of set of actions, S: size of set of states, gamma: discount factor, eps: error parameter'
+  - 'precard summary: Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model. Baseline: work O((S^3+AS)*(1/(1-\gamma))^5*(1/(\epsilon))*\log(1/\epsilon)); span/depth O(S*(1/(1-gamma))^5*(1/(epsilon))*log(1/epsilon)). Bottleneck: work, span, communication, and processor-count assumptions dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001878:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Anchor-changing Regularized Natural Policy Gradient (ARNPG) framework - Zhou, Liu, Kalathil, Kumar, Tian
+  url: https://proceedings.neurips.cc/paper_files/paper/2022/hash/57fbe68cb318cad62c4ae4c91c83cba3-Abstract-Conference.html
+- access_status: skipped
+  digest: b22a230c2064a0f4
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:0b6c65149f528999
+  source_type: other_public_source
+  title: fetch budget exhausted
+  url: https://proceedings.neurips.cc/paper_files/paper/2022/hash/57fbe68cb318cad62c4ae4c91c83cba3-Abstract-Conference.html
+web_query_attempts:
+- method: search_plan
+  query: Anchor-changing Regularized Natural Policy Gradient (ARNPG) framework - Zhou, Liu, Kalathil, Kumar, Tian algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Anchor-changing Regularized Natural Policy Gradient (ARNPG) framework - Zhou, Liu, Kalathil, Kumar, Tian algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Anchor-changing Regularized Natural Policy Gradient (ARNPG) framework - Zhou, Liu, Kalathil, Kumar, Tian problem definition
+  status: recorded
+- method: search_plan
+  query: Anchor-changing Regularized Natural Policy Gradient (ARNPG) framework - Zhou, Liu, Kalathil, Kumar, Tian parallel algorithms algorithm
+  status: recorded
+- method: search_plan
+  query: Anchor-changing Regularized Natural Policy Gradient (ARNPG) framework - Zhou, Liu, Kalathil, Kumar, Tian site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Anchor-changing Regularized Natural Policy Gradient (ARNPG) framework - Zhou, Liu, Kalathil, Kumar, Tian algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://proceedings.neurips.cc/paper_files/paper/2022/hash/57fbe68cb318cad62c4ae4c91c83cba3-Abstract-Conference.html
+  status: recorded
+- method: source_link_html_metadata
+  query: https://proceedings.neurips.cc/paper_files/paper/2022/hash/57fbe68cb318cad62c4ae4c91c83cba3-Abstract-Conference.html
+  status: skipped
+extracted_problem_statement: 'Anchor-changing Regularized Natural Policy Gradient (ARNPG) framework - Zhou, Liu, Kalathil, Kumar, Tian is treated as a classical parallel algorithms task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Anchor-changing Regularized Natural Policy Gradient (ARNPG) framework - Zhou, Liu, Kalathil, Kumar, Tian. Input semantics: The classical input instance named by the row, together with processor/work/span parameters when stated. Output semantics: The same mathematical output as the underlying classical task, annotated by work/span when available.'
+extracted_algorithm_summary: 'Anchor-changing Regularized Natural Policy Gradient (ARNPG) framework - Zhou, Liu, Kalathil, Kumar, Tian is a parallel algorithms algorithm record. Classical complexity metadata: work O((S^3+AS)*(1/(1-\gamma))^5*(1/(\epsilon))*\log(1/\epsilon)); span/depth O(S*(1/(1-gamma))^5*(1/(epsilon))*log(1/epsilon)). The stated classical model is PRAM. Public metadata/source text adds: Anchor-changing Regularized Natural Policy Gradient (ARNPG) framework - Zhou, Liu, Kalathil, Kumar, Tian parallel_algorithms parallel_algorithms A: size of set of actions, S: size of set of states, gamma: discount factor, eps: error parameter Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

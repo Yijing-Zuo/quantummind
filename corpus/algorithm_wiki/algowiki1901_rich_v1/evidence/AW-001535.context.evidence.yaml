@@ -1,0 +1,58 @@
+id: AW-001535
+kind: context
+algorithm_id: AW-001535
+algorithm_name: Dehne, Gotz
+source_records:
+- access_status: metadata_only
+  digest: 283316d5ed0eafda
+  extracted_facts:
+  - 'AlgorithmWiki row name: Dehne, Gotz'
+  - 'domain: graph'
+  - 'time complexity: O(\log p)'
+  - 'computational model: BSP'
+  - 'parameter definitions: n: number of nodes, m: number of edges'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(\log p); work T_seq(n,m/p) + 2*T_seq(n, Dn) + O(n) + g*n + L*\log p; span/depth O(log p); processors p (<= m/n). Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001535:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Dehne, Gotz
+  url: https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=740525
+- access_status: skipped
+  digest: 117a5fc47fc1c1f0
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:80808d50a5eee9bd
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=740525
+web_query_attempts:
+- method: search_plan
+  query: Dehne, Gotz algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Dehne, Gotz algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Dehne, Gotz problem definition
+  status: recorded
+- method: search_plan
+  query: Dehne, Gotz graph algorithm
+  status: recorded
+- method: search_plan
+  query: Dehne, Gotz site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Dehne, Gotz algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=740525
+  status: recorded
+- method: source_link_html_metadata
+  query: https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=740525
+  status: skipped
+extracted_problem_statement: 'Dehne, Gotz is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Dehne, Gotz. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'Dehne, Gotz is a graph algorithm record. Classical complexity metadata: time O(\log p); work T_seq(n,m/p) + 2*T_seq(n, Dn) + O(n) + g*n + L*\log p; span/depth O(log p); processors p (<= m/n). The stated classical model is BSP. Public metadata/source text adds: Dehne, Gotz graph graph n: number of nodes, m: number of edges O(\log p) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

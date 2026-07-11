@@ -1,0 +1,15 @@
+statement: 'Harvey (2017) is included as a named whole-algorithm context card for a classical parallel algorithms task. The task is to analyze the classical input-output problem, not to certify an end-to-end improvement claim. Input semantics: The classical input instance named by the row, together with processor/work/span parameters when stated. Output semantics: The same mathematical output as the underlying classical task, annotated by work/span when available. Classical algorithm summary: Harvey (2017) is a parallel algorithms algorithm record. Classical complexity metadata: work O(n \log n 6^(\log* n); span/depth O(log n). The stated classical model is PRAM. Public metadata/source text adds: Harvey (2017) parallel_algorithms parallel_algorithms Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model. Classical complexity recorded for this row: time unknown; space unknown; computation model
+  PRAM. Dominant bottleneck: work, span/depth, processor count, and communication/synchronization assumptions. The useful review questions are whether the named structure exposes a smaller decision, witness, estimation, or algebraic subproblem; whether the full output size dominates any asymptotic gain; and whether the stated access model is realistic for the original input. Provenance is limited to AlgorithmWiki metadata and source-link facts; unresolved details are kept as ambiguities. Source-backed uncertainty or assumptions: No independent fetched public metadata source resolved this row beyond AlgorithmWiki metadata/source-link facts.'
+input_model: explicit_parallel_algorithm_problem
+access_model: explicit_input_instance
+output_contract: full_solution
+promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+- classical_parallel_model_recorded
+size_parameters:
+- 'n: primary input size parameter from the AlgorithmWiki complexity expression.'
+ambiguities:
+- No independent fetched public metadata source resolved this row beyond AlgorithmWiki metadata/source-link facts.
+- Some details are reconstructed from AlgorithmWiki metadata rather than an independently fetched full public description.
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.

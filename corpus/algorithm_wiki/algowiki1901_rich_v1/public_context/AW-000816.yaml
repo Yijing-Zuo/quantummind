@@ -1,0 +1,12 @@
+statement: 'Amir et al. is included as a named whole-algorithm context card for a classical graph task. The task is to analyze the classical input-output problem, not to certify an end-to-end improvement claim. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: Pattern occurrence positions, matches, or the associated string-search report. Classical algorithm summary: Amir et al. is a graph algorithm record. Classical complexity metadata: time O(m(n \log m + E)); space O(mn). The stated classical model is Word RAM. Public metadata/source text adds: Amir et al. graph graph V: number of vertices in original hypertext graph, E: number of edges in original hypertext graph, m: length of pattern, n: number of vertices in converted graph (total text size), e: number of edges in converted graph O(m(n \log m + E)) Given an explicit graph instance, the concrete classical graph task associated with Amir
+  et al.. Classical complexity recorded for this row: time O(m(n \log m + E)); space O(mn); computation model Word RAM. Dominant bottleneck: graph traversal, priority/frontier maintenance, and materializing graph outputs. The useful review questions are whether the named structure exposes a smaller decision, witness, estimation, or algebraic subproblem; whether the full output size dominates any asymptotic gain; and whether the stated access model is realistic for the original input. Provenance used for reconstruction includes public metadata or abstract sources such as Pattern matching in hypertext.'
+input_model: explicit_graph_problem
+access_model: adjacency_list_query
+output_contract: full_solution
+promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+size_parameters:
+- 'Parameter definition: V: number of vertices in original hypertext graph, E: number of edges in original hypertext graph, m: length of pattern, n: number of vertices in converted graph (total text size), e: number of edges in converted graph'
+ambiguities:
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.

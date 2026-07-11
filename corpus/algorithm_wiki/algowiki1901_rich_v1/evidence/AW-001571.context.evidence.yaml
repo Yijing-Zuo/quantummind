@@ -1,0 +1,58 @@
+id: AW-001571
+kind: context
+algorithm_id: AW-001571
+algorithm_name: Klein, Subramanian
+source_records:
+- access_status: metadata_only
+  digest: 6b2d22cf9d8acc3c
+  extracted_facts:
+  - 'AlgorithmWiki row name: Klein, Subramanian'
+  - 'domain: graph'
+  - 'time complexity: O(sqrt(n) \log(L) \log(n) \log*(n))'
+  - 'computational model: ARBITRARY CRCW PRAM'
+  - 'parameter definitions: n: number of nodes, m: number of edges, L: sum of edge lengths'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(sqrt(n) \log(L) \log(n) \log*(n)); work O(m sqrt(n) \log(L) \log(n)); span/depth O(sqrt(n) log(L) log(n) log*(n)); processors O(m/log*n). Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001571:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Klein, Subramanian
+  url: https://www.sciencedirect.com/science/article/abs/pii/S0196677497908889
+- access_status: skipped
+  digest: 469df87844fddb14
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:da96039a1fa9a246
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://www.sciencedirect.com/science/article/abs/pii/S0196677497908889
+web_query_attempts:
+- method: search_plan
+  query: Klein, Subramanian algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Klein, Subramanian algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Klein, Subramanian problem definition
+  status: recorded
+- method: search_plan
+  query: Klein, Subramanian graph algorithm
+  status: recorded
+- method: search_plan
+  query: Klein, Subramanian site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Klein, Subramanian algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://www.sciencedirect.com/science/article/abs/pii/S0196677497908889
+  status: recorded
+- method: source_link_html_metadata
+  query: https://www.sciencedirect.com/science/article/abs/pii/S0196677497908889
+  status: skipped
+extracted_problem_statement: 'Klein, Subramanian is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Klein, Subramanian. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'Klein, Subramanian is a graph algorithm record. Classical complexity metadata: time O(sqrt(n) \log(L) \log(n) \log*(n)); work O(m sqrt(n) \log(L) \log(n)); span/depth O(sqrt(n) log(L) log(n) log*(n)); processors O(m/log*n). The stated classical model is ARBITRARY CRCW PRAM. Public metadata/source text adds: Klein, Subramanian graph graph n: number of nodes, m: number of edges, L: sum of edge lengths O(sqrt(n) \log(L) \log(n) \log*(n)) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

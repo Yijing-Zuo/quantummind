@@ -1,0 +1,57 @@
+algorithm_family: combinatorics
+algorithm_id: AW-000877
+approximate: '0'
+approximation_factor: ''
+blind_name: Algorithm Wiki public task AW-000877
+canonical_name: Binary GCD algorithm
+computational_model: Word RAM words size O(1)
+domain: combinatorics
+extracted_description: ''
+extraction_version: algorithm-wiki-rich-context-v1
+family: combinatorics
+inferred_access_model: explicit_input_instance
+inferred_ambiguities:
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.
+inferred_input_model: explicit_combinatorial_problem
+inferred_output_contract: full_solution
+inferred_problem_statement: 'Binary GCD algorithm is treated as a classical combinatorics task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Binary GCD algorithm. Input semantics: A finite combinatorial object, integer set, board, recurrence, or witness-search instance. Output semantics: A count, witness, construction, ordering, subset, cycle, or other finite combinatorial output.'
+inferred_promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+inferred_size_parameters:
+- 'Parameter definition: n: sum of number of bits among the two integers'
+number_of_processors: ''
+page_digest: ''
+page_fetch_status: not_found
+page_url: ''
+parameter_definitions: 'n: sum of number of bits among the two integers'
+problem_name: combinatorics
+quality_flags:
+- domain_inferred
+- problem_statement_inferred
+- io_access_output_inferred
+- has_complexity_semantics
+- has_size_parameters
+- has_computational_model
+quality_score: 100
+randomized: '0'
+readiness: READY_PUBLIC_CONTEXT
+review_reasons:
+- duplicate_public_blind_digest:c56118e9dfd1b34a kept:AW-000876
+source_link: https://arxiv.org/abs/0910.0095
+source_link_type: arxiv
+space_complexity: O(n)
+span_depth: ''
+time_complexity: O(n^2)
+variation: ''
+work: ''
+year: '1967'
+rich_card_kind: context
+source_records_used:
+- AW-000877:algorithm_wiki_metadata
+- arxiv:0910.0095
+- source:2bb3c22649fbe0bc
+source_count: 3
+source_quality: HIGH
+confidence_score: 100
+card_digest: b2e3827e7fb20214

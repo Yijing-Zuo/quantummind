@@ -1,0 +1,40 @@
+probe_id: AW-000456-P0334
+algorithm_id: AW-000456-P0334
+canonical_name: Floyd's tortoise and hare algorithm search_witness_probe
+readiness: READY_PUBLIC_PROBE
+quality_score: 55
+probe_type: search_witness_probe
+parent_algorithm_id: AW-000456
+parent_algorithm_name: Floyd's tortoise and hare algorithm
+source_records_used:
+- AW-000456:algorithm_wiki_metadata
+introduced_assumptions:
+- coherent_boolean_oracle
+- marked_item_exists
+- candidate_indexing
+missing_from_original_problem:
+- oracle construction
+- proof that witness output captures the useful subroutine
+original_output_contract: one_witness
+probe_output_contract: one_witness
+not_end_to_end_claim: true
+expected_authority: query_or_subroutine_hypothesis_only
+why_probe_is_scientifically_interesting: Witness search can isolate a decision or local-output subroutine from a larger classical task.
+why_probe_may_fail: The original algorithm may require full output materialization or an expensive predicate oracle.
+inferred_input_model: explicit_combinatorial_problem
+inferred_access_model: coherent_boolean_oracle
+inferred_output_contract: one_witness
+inferred_size_parameters:
+- 'Parameter definition: t_f: time to perform one evaluation of f, \mu: the starting index of the cycle, \lambda: the period of the cycle'
+inferred_promises:
+- marked_item_exists
+- oracle_model_assumption
+inferred_ambiguities:
+- This probe is assumption-bearing and is not an end-to-end speedup claim.
+- coherent predicate construction and candidate indexing may fail for the original full-output problem
+- The parent context card and source records should be checked before live use.
+source_count: 1
+source_quality: HIGH
+confidence_score: 55
+card_digest: 2cb640d3a4128c2f
+extraction_version: algorithm-wiki-rich-probe-v1

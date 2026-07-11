@@ -1,0 +1,58 @@
+id: AW-001318
+kind: context
+algorithm_id: AW-001318
+algorithm_name: Krusche, Tiskin (dynamic programming)
+source_records:
+- access_status: metadata_only
+  digest: f9b0a1bdd314d570
+  extracted_facts:
+  - 'AlgorithmWiki row name: Krusche, Tiskin (dynamic programming)'
+  - 'domain: graph'
+  - "time complexity: O(n^2/p \xB7 ( f + g/b + l/b^2))"
+  - 'computational model: BSP'
+  - 'parameter definitions: n: length of both strings, f: primitive operation time, g: communication gap, l: communication latency, b: memory block size'
+  - "precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(n^2/p \xB7 ( f + g/b + l/b^2)); work O(n^2 \xB7 ( f + g/b + l/b^2)); span/depth O(n^2/p \xB7 ( f + g/b + l/b^2)); processors p. Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates."
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001318:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Krusche, Tiskin (dynamic programming)
+  url: https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=dd15623d9907870e7e7094a1570f40f6286a0891
+- access_status: skipped
+  digest: c2aa99d14307f888
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:fe20d9b8ceda2a9f
+  source_type: wikipedia
+  title: fetch budget exhausted
+  url: https://en.wikipedia.org/wiki/Krusche%2C_Tiskin_%28dynamic_programming%29
+web_query_attempts:
+- method: search_plan
+  query: Krusche, Tiskin (dynamic programming) algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Krusche, Tiskin (dynamic programming) algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Krusche, Tiskin (dynamic programming) problem definition
+  status: recorded
+- method: search_plan
+  query: Krusche, Tiskin (dynamic programming) graph algorithm
+  status: recorded
+- method: search_plan
+  query: Krusche, Tiskin (dynamic programming) site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Krusche, Tiskin (dynamic programming) algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=dd15623d9907870e7e7094a1570f40f6286a0891
+  status: recorded
+- method: wikipedia_summary_search
+  query: Krusche, Tiskin (dynamic programming) algorithm
+  status: skipped
+extracted_problem_statement: 'Krusche, Tiskin (dynamic programming) is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Krusche, Tiskin (dynamic programming). Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: "Krusche, Tiskin (dynamic programming) is a graph algorithm record. Classical complexity metadata: time O(n^2/p \xB7 ( f + g/b + l/b^2)); work O(n^2 \xB7 ( f + g/b + l/b^2)); span/depth O(n^2/p \xB7 ( f + g/b + l/b^2)); processors p. The stated classical model is BSP. Public metadata/source text adds: Krusche, Tiskin (dynamic programming) graph graph n: length of both strings, f: primitive operation time, g: communication gap, l: communication latency, b: memory block size O(n^2/p \xB7 ( f + g/b + l/b^2)) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record."
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

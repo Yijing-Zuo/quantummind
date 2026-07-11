@@ -1,0 +1,31 @@
+algorithm_id: AW-000373
+canonical_name: Hauskrecht 2000
+enrichment_status: SECOND_PASS_INSUFFICIENT
+review_reasons:
+- No second-pass rule could identify source-backed task semantics.
+source_records:
+- access_status: metadata_only
+  digest: cbb35bd61782d223
+  extracted_facts:
+  - 'AlgorithmWiki row name: Hauskrecht 2000'
+  - 'domain: unknown'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000373:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Hauskrecht 2000
+  url: ''
+- source_id: crossref_search:d0628570008c1620
+  url: https://doi.org/10.1007/3-540-44985-x
+  title: Algorithm Theory - SWAT 2000
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: Algorithm Theory - SWAT 2000'
+  short_quote: ''
+  digest: 60fd9bd5f47308c6
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

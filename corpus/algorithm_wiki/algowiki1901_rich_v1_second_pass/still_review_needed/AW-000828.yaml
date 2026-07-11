@@ -1,0 +1,35 @@
+algorithm_id: AW-000828
+canonical_name: Pollard's rho algorithm
+enrichment_status: SECOND_PASS_INSUFFICIENT
+review_reasons:
+- No second-pass rule could identify source-backed task semantics.
+source_records:
+- access_status: metadata_only
+  digest: 20bf6d42b440724b
+  extracted_facts:
+  - 'AlgorithmWiki row name: Pollard''s rho algorithm'
+  - 'domain: unknown'
+  - 'time complexity: O(2^{n/2})'
+  - 'space complexity: O(1)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of digits/bits in the order of the finite group'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000828:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Pollard's rho algorithm
+  url: https://www.ams.org/mcom/1978-32-143/S0025-5718-1978-0491431-9/S0025-5718-1978-0491431-9.pdf
+- source_id: crossref_search:5545b74c74603990
+  url: https://doi.org/10.1090/mbk/139/32
+  title: The Pollard Rho factorisaction algorithm
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: The Pollard Rho factorisaction algorithm'
+  short_quote: ''
+  digest: ed8c244d242298d7
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

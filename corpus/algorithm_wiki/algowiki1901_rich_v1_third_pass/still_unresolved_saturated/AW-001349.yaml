@@ -1,0 +1,67 @@
+algorithm_id: AW-001349
+canonical_name: Agarwal, Gustavson, Zubair
+enrichment_status: THIRD_PASS_SATURATED_INSUFFICIENT
+review_reasons:
+- After the configured source-family cycles, no source-backed concrete task, input semantics, output semantics, and conservative access model could be established.
+source_records:
+- access_status: metadata_only
+  digest: b728330d1e22c913
+  extracted_facts:
+  - 'AlgorithmWiki row name: Agarwal, Gustavson, Zubair'
+  - 'domain: unknown'
+  - 'time complexity: O(n^3/p)'
+  - 'computational model: MIMD-like machine'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001349:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Agarwal, Gustavson, Zubair
+  url: https://ieeexplore.ieee.org/abstract/document/5389494
+- access_status: skipped
+  digest: 62880dd535652f78
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:a39591de4922818c
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://ieeexplore.ieee.org/abstract/document/5389494
+- access_status: fetched
+  digest: eac65bcac63f65f8
+  extracted_facts:
+  - 'Crossref title-search result: An optimal algorithm to fetch DHT routable'
+  reliability: MEDIUM
+  short_quote: ''
+  source_id: crossref_search:0b18e1bdccf3f416
+  source_type: doi_metadata
+  title: An optimal algorithm to fetch DHT routable
+  url: https://doi.org/10.1109/npc.2007.32
+- source_id: source:1326ebf222c14eb3
+  url: https://ieeexplore.ieee.org/abstract/document/5389494
+  title: A high-performance matrix-multiplication algorithm on a distributed-memory parallel computer, using overlapped communication | IBM Journals & Magazine | IEEE Xplore
+  source_type: publisher_abstract
+  access_status: fetched
+  reliability: HIGH
+  extracted_facts:
+  - A high-performance matrix-multiplication algorithm on a distributed-memory parallel computer, using overlapped communication | IBM Journals & Magazine | IEEE Xplore
+  - In this paper, we propose a scheme for matrix-matrix multiplication on a distributed-memory parallel computer.
+  short_quote: A high-performance matrix-multiplication algorithm on a distributed-memory parallel computer, using overlapped communication | IBM Journals & Magazine | IEEE Xplore In this paper, we
+  digest: 588302c9267fc573
+- source_id: crossref_search:dfbccdfce904147f
+  url: https://doi.org/10.1093/med/9780197809020.003.0060
+  title: Gustavson Syndrome
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title: Gustavson Syndrome'
+  - 'published year: 2026'
+  - 'container title: Atlas of X-Linked Intellectual Disability Syndromes'
+  - 'abstract summary: This chapter provides pictures and clinical details of Gustavson syndrome, an XLID with intrauterine growth retardation, microcephaly, hypotonia, severe global developmental delay, and profoundly impaired intellectual development with absent speech, poor reaction to stimuli, optic atrophy, deafness, seizures, spasticity, and restriction of the large joints.'
+  short_quote: 'Crossref title: Gustavson Syndrome published year: 2026 container title: Atlas of X-Linked Intellectual Disability Syndromes abstract summary: This chapter provides pictures and clinical details'
+  digest: f0308ebcdd171091
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

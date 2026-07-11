@@ -1,0 +1,57 @@
+id: AW-001369
+kind: context
+algorithm_id: AW-001369
+algorithm_name: Van De Geijn, Watts (SUMMA, Classical 2D)
+source_records:
+- access_status: metadata_only
+  digest: aa7bc6ca50214037
+  extracted_facts:
+  - 'AlgorithmWiki row name: Van De Geijn, Watts (SUMMA, Classical 2D)'
+  - 'domain: parallel_algorithms'
+  - 'time complexity: O(n^3/p)'
+  - 'computational model: an r x c mesh of processors, message passing'
+  - 'precard summary: Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model. Baseline: time O(n^3/p); work O(n^3); span/depth O(n^3/p); processors p. Bottleneck: work, span, communication, and processor-count assumptions dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001369:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Van De Geijn, Watts (SUMMA, Classical 2D)
+  url: https://onlinelibrary.wiley.com/doi/pdf/10.1002/(SICI)1096-9128(199704)9:4%3C255::AID-CPE250%3E3.0.CO2-2
+- access_status: skipped
+  digest: 25936ebf1f885b33
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:949d2c123e4e4804
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1002/(SICI)1096-9128(199704)9:4
+web_query_attempts:
+- method: search_plan
+  query: Van De Geijn, Watts (SUMMA, Classical 2D) algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Van De Geijn, Watts (SUMMA, Classical 2D) algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Van De Geijn, Watts (SUMMA, Classical 2D) problem definition
+  status: recorded
+- method: search_plan
+  query: Van De Geijn, Watts (SUMMA, Classical 2D) parallel algorithms algorithm
+  status: recorded
+- method: search_plan
+  query: Van De Geijn, Watts (SUMMA, Classical 2D) site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Van De Geijn, Watts (SUMMA, Classical 2D) algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://onlinelibrary.wiley.com/doi/pdf/10.1002/(SICI)1096-9128(199704)9:4%3C255::AID-CPE250%3E3.0.CO2-2
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1002/(SICI)1096-9128(199704)9:4
+  status: skipped
+extracted_problem_statement: 'Van De Geijn, Watts (SUMMA, Classical 2D) is treated as a classical parallel algorithms task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Van De Geijn, Watts (SUMMA, Classical 2D). Input semantics: The classical input instance named by the row, together with processor/work/span parameters when stated. Output semantics: The same mathematical output as the underlying classical task, annotated by work/span when available.'
+extracted_algorithm_summary: 'Van De Geijn, Watts (SUMMA, Classical 2D) is a parallel algorithms algorithm record. Classical complexity metadata: time O(n^3/p); work O(n^3); span/depth O(n^3/p); processors p. The stated classical model is an r x c mesh of processors, message passing. Public metadata/source text adds: Van De Geijn, Watts (SUMMA, Classical 2D) parallel_algorithms parallel_algorithms O(n^3/p) Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

@@ -1,0 +1,45 @@
+algorithm_id: AW-001290
+canonical_name: Akl
+enrichment_status: SECOND_PASS_INSUFFICIENT
+review_reasons:
+- No second-pass rule could identify source-backed task semantics.
+source_records:
+- access_status: metadata_only
+  digest: 135893f655b29672
+  extracted_facts:
+  - 'AlgorithmWiki row name: Akl'
+  - 'domain: unknown'
+  - 'time complexity: O(n^eps)'
+  - 'space complexity: O(n)'
+  - 'computational model: SIMD (synch, CRCW)'
+  - 'parameter definitions: n: size of list, eps: processor parameter'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001290:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Akl
+  url: https://www.sciencedirect.com/science/article/pii/0020019084901285
+- access_status: skipped
+  digest: 8da707b6a53a780e
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:e23ad88d5b1921c9
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://www.sciencedirect.com/science/article/pii/0020019084901285
+- source_id: crossref_search:0b18e1bdccf3f416
+  url: https://doi.org/10.1109/npc.2007.32
+  title: An optimal algorithm to fetch DHT routable
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: An optimal algorithm to fetch DHT routable'
+  short_quote: ''
+  digest: eac65bcac63f65f8
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

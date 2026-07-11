@@ -1,0 +1,58 @@
+id: AW-001250
+kind: context
+algorithm_id: AW-001250
+algorithm_name: Cache-efficient Parallel Sort - Odeh, Green, Mwassi, Shmueli, Birk
+source_records:
+- access_status: metadata_only
+  digest: f6b57fe8f9465f04
+  extracted_facts:
+  - 'AlgorithmWiki row name: Cache-efficient Parallel Sort - Odeh, Green, Mwassi, Shmueli, Birk'
+  - 'domain: sorting'
+  - 'time complexity: O(n/p \log n + n/c \log p \log c)'
+  - 'computational model: CREW PRAM'
+  - 'parameter definitions: n: size of list, p: number of processors, c: cache size'
+  - 'precard summary: Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model. Baseline: time O(n/p \log n + n/c \log p \log c); work O(n \log n + np/c \log p \log c); span/depth O(log n); processors p. Bottleneck: comparison, distribution, and full-output movement costs dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001250:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Cache-efficient Parallel Sort - Odeh, Green, Mwassi, Shmueli, Birk
+  url: https://ieeexplore.ieee.org/abstract/document/6270834
+- access_status: skipped
+  digest: 0e48880a11987267
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:792d0a3c83b63d5d
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://ieeexplore.ieee.org/abstract/document/6270834
+web_query_attempts:
+- method: search_plan
+  query: Cache-efficient Parallel Sort - Odeh, Green, Mwassi, Shmueli, Birk algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Cache-efficient Parallel Sort - Odeh, Green, Mwassi, Shmueli, Birk algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Cache-efficient Parallel Sort - Odeh, Green, Mwassi, Shmueli, Birk problem definition
+  status: recorded
+- method: search_plan
+  query: Cache-efficient Parallel Sort - Odeh, Green, Mwassi, Shmueli, Birk sorting algorithm
+  status: recorded
+- method: search_plan
+  query: Cache-efficient Parallel Sort - Odeh, Green, Mwassi, Shmueli, Birk site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Cache-efficient Parallel Sort - Odeh, Green, Mwassi, Shmueli, Birk algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://ieeexplore.ieee.org/abstract/document/6270834
+  status: recorded
+- method: source_link_html_metadata
+  query: https://ieeexplore.ieee.org/abstract/document/6270834
+  status: skipped
+extracted_problem_statement: 'Cache-efficient Parallel Sort - Odeh, Green, Mwassi, Shmueli, Birk is treated as a classical sorting task for rich AlgorithmWiki discovery. Problem/task: sort the input sequence using the named classical sorting method. Input semantics: A finite array or list of comparable keys or records. Output semantics: The same items returned in nondecreasing order, usually as a full reordered sequence.'
+extracted_algorithm_summary: 'Cache-efficient Parallel Sort - Odeh, Green, Mwassi, Shmueli, Birk is a sorting algorithm record. Classical complexity metadata: time O(n/p \log n + n/c \log p \log c); work O(n \log n + np/c \log p \log c); span/depth O(log n); processors p. The stated classical model is CREW PRAM. Public metadata/source text adds: Cache-efficient Parallel Sort - Odeh, Green, Mwassi, Shmueli, Birk sorting sorting n: size of list, p: number of processors, c: cache size O(n/p \log n + n/c \log p \log c) Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

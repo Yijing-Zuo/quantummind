@@ -1,0 +1,43 @@
+id: AW-001603
+kind: context
+algorithm_id: AW-001603
+algorithm_name: "\xC5sbrink, Brynielsson (quadratic sieve with only parallel sieving)"
+source_records:
+- access_status: metadata_only
+  digest: de802090f2ac6382
+  extracted_facts:
+  - "AlgorithmWiki row name: \xC5sbrink, Brynielsson (quadratic sieve with only parallel sieving)"
+  - 'domain: parallel_algorithms'
+  - 'computational model: MPI'
+  - 'precard summary: Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model. Baseline: work L_n[1/2,(9/8)^(1/2)] = exp((sqrt(9/8)+o(1)) * sqrt(ln n * ln ln n)); span/depth L_n[1/2,(9/8)^(1/2)] = exp((sqrt(9/8)+o(1)) * sqrt(ln n * ln ln n)). Bottleneck: work, span, communication, and processor-count assumptions dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001603:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: "AlgorithmWiki metadata for \xC5sbrink, Brynielsson (quadratic sieve with only parallel sieving)"
+  url: https://www.csc.kth.se/~joel/qs.pdf
+web_query_attempts:
+- method: search_plan
+  query: "\xC5sbrink, Brynielsson (quadratic sieve with only parallel sieving) algorithm input output complexity"
+  status: recorded
+- method: search_plan
+  query: "\xC5sbrink, Brynielsson (quadratic sieve with only parallel sieving) algorithm pseudocode"
+  status: recorded
+- method: search_plan
+  query: "\xC5sbrink, Brynielsson (quadratic sieve with only parallel sieving) problem definition"
+  status: recorded
+- method: search_plan
+  query: "\xC5sbrink, Brynielsson (quadratic sieve with only parallel sieving) parallel algorithms algorithm"
+  status: recorded
+- method: search_plan
+  query: "\xC5sbrink, Brynielsson (quadratic sieve with only parallel sieving) site:nist.gov DADS"
+  status: recorded
+- method: search_plan
+  query: "\xC5sbrink, Brynielsson (quadratic sieve with only parallel sieving) algorithm wiki"
+  status: recorded
+- method: search_plan
+  query: https://www.csc.kth.se/~joel/qs.pdf
+  status: recorded
+extracted_problem_statement: "\xC5sbrink, Brynielsson (quadratic sieve with only parallel sieving) is treated as a classical parallel algorithms task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with \xC5sbrink, Brynielsson (quadratic sieve with only parallel sieving). Input semantics: The classical input instance named by the row, together with processor/work/span parameters when stated. Output semantics: The same mathematical output as the underlying classical task, annotated by work/span when available."
+extracted_algorithm_summary: "\xC5sbrink, Brynielsson (quadratic sieve with only parallel sieving) is a parallel algorithms algorithm record. Classical complexity metadata: work L_n[1/2,(9/8)^(1/2)] = exp((sqrt(9/8)+o(1)) * sqrt(ln n * ln ln n)); span/depth L_n[1/2,(9/8)^(1/2)] = exp((sqrt(9/8)+o(1)) * sqrt(ln n * ln ln n)). The stated classical model is MPI. Public metadata/source text adds: \xC5sbrink, Brynielsson (quadratic sieve with only parallel sieving) parallel_algorithms parallel_algorithms Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model."
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

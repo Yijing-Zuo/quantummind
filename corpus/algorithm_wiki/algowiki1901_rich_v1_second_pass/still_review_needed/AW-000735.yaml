@@ -1,0 +1,32 @@
+algorithm_id: AW-000735
+canonical_name: FLOATER 1997
+enrichment_status: SECOND_PASS_INSUFFICIENT
+review_reasons:
+- No second-pass rule could identify source-backed task semantics.
+source_records:
+- access_status: metadata_only
+  digest: a4f03bd1db37dd5e
+  extracted_facts:
+  - 'AlgorithmWiki row name: FLOATER 1997'
+  - 'domain: unknown'
+  - 'time complexity: O(n^2)'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000735:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for FLOATER 1997
+  url: http://www.cs.jhu.edu/~misha/Fall09/Floater97.pdf
+- source_id: crossref_search:d587111766408a6a
+  url: https://doi.org/10.1145/2582112.2595649
+  title: Visualization of Floater and Gotsman's Morphing Algorithm
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: Visualization of Floater and Gotsman''s Morphing Algorithm'
+  short_quote: ''
+  digest: ca22964574ab99a6
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

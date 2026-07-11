@@ -1,0 +1,71 @@
+id: AW-000012-P0008
+kind: probe
+algorithm_id: AW-000012
+algorithm_name: Serang
+source_records:
+- access_status: metadata_only
+  digest: 0aaa3098ab69ddf8
+  extracted_facts:
+  - 'AlgorithmWiki row name: Serang'
+  - 'domain: unknown'
+  - 'time complexity: \tilde{O}(n \max(S))'
+  - 'space complexity: O(t\log t)'
+  - 'parameter definitions: n: number of elements in the set, S: the set, t: target sum'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000012:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Serang
+  url: https://www.liebertpub.com/doi/10.1089/cmb.2015.0013
+- access_status: fetched
+  digest: d406fb5a0c2a98a8
+  extracted_facts:
+  - 'DOI title: A Fast Numerical Method for Max-Convolution and the Application to Efficient Max-Product Inference in Bayesian Networks'
+  - 'published year: 2015'
+  - 'container title: Journal of Computational Biology'
+  - 'abstract summary: ), and has potential application to the all-pairs shortest paths problem.'
+  reliability: HIGH
+  short_quote: ), and has potential application to the all-pairs shortest paths problem.
+  source_id: crossref:bd32e115c96e5e62
+  source_type: doi_metadata
+  title: A Fast Numerical Method for Max-Convolution and the Application to Efficient Max-Product Inference in Bayesian Networks
+  url: https://doi.org/10.1089/cmb.2015.0013
+- access_status: failed
+  digest: d62fd096634bd954
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:6a0c9e778fcaec47
+  source_type: other_public_source
+  title: 'HTTP Error 403: Forbidden'
+  url: https://www.liebertpub.com/doi/10.1089/cmb.2015.0013
+web_query_attempts:
+- method: search_plan
+  query: Serang algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Serang algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Serang problem definition
+  status: recorded
+- method: search_plan
+  query: Serang site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Serang algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://www.liebertpub.com/doi/10.1089/cmb.2015.0013
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1089/cmb.2015.0013
+  status: fetched
+- method: source_link_html_metadata
+  query: https://www.liebertpub.com/doi/10.1089/cmb.2015.0013
+  status: failed
+extracted_problem_statement: 'Serang is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: solve a subset-sum or target-sum dynamic-programming/search problem. Input semantics: A finite set or multiset of integers with a target sum parameter. Output semantics: A decision result, feasible subset witness, count, or optimized subset value for the target-sum instance, depending on the row.'
+extracted_algorithm_summary: 'Serang is a graph algorithm record. Classical complexity metadata: time \tilde{O}(n \max(S)); space O(t\log t). Public metadata/source text adds: Serang unknown unknown n: number of elements in the set, S: the set, t: target sum \tilde{O}(n \max(S)) No public-ready summary is available because the row lacks enough task semantics.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

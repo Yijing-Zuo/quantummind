@@ -1,0 +1,74 @@
+id: AW-000695-P0467
+kind: probe
+algorithm_id: AW-000695
+algorithm_name: Ukkonen and D. Wood
+source_records:
+- access_status: metadata_only
+  digest: 5ef9286fb7977ba8
+  extracted_facts:
+  - 'AlgorithmWiki row name: Ukkonen and D. Wood'
+  - 'domain: string'
+  - 'time complexity: O(n^2)'
+  - 'space complexity: O(n^2)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: length of string'
+  - 'precard summary: Given one or more explicit strings, compute the matching, indexing, alignment, or transformation output targeted by the record. Baseline: time O(n^2); space O(n^2). Bottleneck: string scanning, preprocessing tables, and reporting matches dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000695:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Ukkonen and D. Wood
+  url: https://link.springer.com/article/10.1007/BF01769703
+- access_status: fetched
+  digest: b74e55ce0c2b53c5
+  extracted_facts:
+  - 'DOI title: Approximate string matching with suffix automata'
+  - 'published year: 1993'
+  - 'container title: Algorithmica'
+  reliability: HIGH
+  short_quote: ''
+  source_id: crossref:7c1ac3dc568025fc
+  source_type: doi_metadata
+  title: Approximate string matching with suffix automata
+  url: https://doi.org/10.1007/BF01769703
+- access_status: skipped
+  digest: eb04d2d45cae246b
+  extracted_facts:
+  - robots.txt disallowed fetch
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:1e702a0135c1b6fc
+  source_type: publisher_abstract
+  title: robots.txt disallowed fetch
+  url: https://link.springer.com/article/10.1007/BF01769703
+web_query_attempts:
+- method: search_plan
+  query: Ukkonen and D. Wood algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Ukkonen and D. Wood algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Ukkonen and D. Wood problem definition
+  status: recorded
+- method: search_plan
+  query: Ukkonen and D. Wood string algorithm
+  status: recorded
+- method: search_plan
+  query: Ukkonen and D. Wood site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Ukkonen and D. Wood algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://link.springer.com/article/10.1007/BF01769703
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1007/BF01769703
+  status: fetched
+- method: source_link_html_metadata
+  query: https://link.springer.com/article/10.1007/BF01769703
+  status: skipped
+extracted_problem_statement: 'Ukkonen and D. Wood is treated as a classical string task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Ukkonen and D. Wood. Input semantics: One or more finite strings, sequences, patterns, or alphabets. Output semantics: Pattern occurrence positions, matches, or the associated string-search report.'
+extracted_algorithm_summary: 'Ukkonen and D. Wood is a string algorithm record. Classical complexity metadata: time O(n^2); space O(n^2). The stated classical model is Word RAM. Public metadata/source text adds: Ukkonen and D. Wood string string n: length of string O(n^2) Given one or more explicit strings, compute the matching, indexing, alignment, or transformation output targeted by the record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

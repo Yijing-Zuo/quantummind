@@ -1,0 +1,46 @@
+id: AW-000277-P0257
+kind: probe
+algorithm_id: AW-000277
+algorithm_name: "Lin\u2013Kernighan"
+source_records:
+- access_status: metadata_only
+  digest: ecaedd3a249d3ef6
+  extracted_facts:
+  - "AlgorithmWiki row name: Lin\u2013Kernighan"
+  - 'domain: graph'
+  - 'time complexity: O(V^2)'
+  - 'space complexity: O(V)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: V: number of vertices, E: number of edges'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(V^2); space O(V). Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000277:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: "AlgorithmWiki metadata for Lin\u2013Kernighan"
+  url: https://www.cs.princeton.edu/~bwk/btl.mirror/tsp.pdf
+web_query_attempts:
+- method: search_plan
+  query: "Lin\u2013Kernighan algorithm input output complexity"
+  status: recorded
+- method: search_plan
+  query: "Lin\u2013Kernighan algorithm pseudocode"
+  status: recorded
+- method: search_plan
+  query: "Lin\u2013Kernighan problem definition"
+  status: recorded
+- method: search_plan
+  query: "Lin\u2013Kernighan graph algorithm"
+  status: recorded
+- method: search_plan
+  query: "Lin\u2013Kernighan site:nist.gov DADS"
+  status: recorded
+- method: search_plan
+  query: "Lin\u2013Kernighan algorithm wiki"
+  status: recorded
+- method: search_plan
+  query: https://www.cs.princeton.edu/~bwk/btl.mirror/tsp.pdf
+  status: recorded
+extracted_problem_statement: "Lin\u2013Kernighan is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Lin\u2013Kernighan. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result."
+extracted_algorithm_summary: "Lin\u2013Kernighan is a graph algorithm record. Classical complexity metadata: time O(V^2); space O(V). The stated classical model is Word RAM. Public metadata/source text adds: Lin\u2013Kernighan graph graph V: number of vertices, E: number of edges O(V^2) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record."
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

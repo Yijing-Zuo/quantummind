@@ -1,0 +1,96 @@
+id: AW-001874
+kind: context_recovered
+algorithm_id: AW-001874
+algorithm_name: Nachaoui, Chafik, Daoui
+source_records:
+- access_status: metadata_only
+  digest: a18277f5a8c46315
+  extracted_facts:
+  - 'AlgorithmWiki row name: Nachaoui, Chafik, Daoui'
+  - 'domain: unknown'
+  - 'time complexity: O(npS)'
+  - 'computational model: Message Passing Interface (MPI)'
+  - 'parameter definitions: A: size of set of actions, S: size of set of states'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001874:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Nachaoui, Chafik, Daoui
+  url: https://www.aimsciences.org/article/doi/10.3934/dcdss.2022189?viewType=HTML
+- access_status: skipped
+  digest: 88a585d61c2b4ca1
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:5d1a65fd6deb0842
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.3934/dcdss.2022189
+- access_status: skipped
+  digest: 9bc9685dc2991e50
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:b8ddb540861a7fbf
+  source_type: other_public_source
+  title: fetch budget exhausted
+  url: https://www.aimsciences.org/article/doi/10.3934/dcdss.2022189?viewType=HTML
+- source_id: crossref:c7afe64292beaaa6
+  url: https://doi.org/10.3934/dcdss.2022189
+  title: A new parallelized of hierarchical value iteration algorithm for discounted Markov decision processes
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: HIGH
+  extracted_facts:
+  - 'DOI title: A new parallelized of hierarchical value iteration algorithm for discounted Markov decision processes'
+  - 'published year: 2025'
+  - 'container title: Discrete and Continuous Dynamical Systems - S'
+  short_quote: ''
+  digest: 63de84a662e4119b
+- source_id: crossref_search:0b18e1bdccf3f416
+  url: https://doi.org/10.1109/npc.2007.32
+  title: An optimal algorithm to fetch DHT routable
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: An optimal algorithm to fetch DHT routable'
+  short_quote: ''
+  digest: eac65bcac63f65f8
+web_query_attempts:
+- query: '"Nachaoui, Chafik, Daoui" algorithm'
+  method: search_plan
+  status: recorded
+- query: '"Nachaoui, Chafik, Daoui" input output'
+  method: search_plan
+  status: recorded
+- query: '"Nachaoui, Chafik, Daoui" time complexity'
+  method: search_plan
+  status: recorded
+- query: '"Nachaoui, Chafik, Daoui" pseudocode'
+  method: search_plan
+  status: recorded
+- query: '"Nachaoui, Chafik, Daoui" problem'
+  method: search_plan
+  status: recorded
+- query: '"Nachaoui, Chafik, Daoui" PDF metadata abstract'
+  method: search_plan
+  status: recorded
+- query: '"fetch budget exhausted" algorithm'
+  method: search_plan
+  status: recorded
+- query: https://www.aimsciences.org/article/doi/10.3934/dcdss.2022189?viewType=HTML
+  method: search_plan
+  status: recorded
+- query: 10.3934/dcdss.2022189
+  method: crossref_doi_metadata
+  status: fetched
+- query: fetch budget exhausted algorithm
+  method: crossref_title_search
+  status: fetched
+extracted_problem_statement: 'Nachaoui, Chafik, Daoui is reconstructed as a classical parallel algorithms task. Problem/task: coordinate process access to a critical section without simultaneous entry Input semantics: A set of processes, request/release events, and shared-memory or message-passing assumptions. Output semantics: A protocol state sequence or decision granting safe critical-section access.'
+extracted_algorithm_summary: 'Nachaoui, Chafik, Daoui is treated as the named AlgorithmWiki variant for coordinate process access to a critical section without simultaneous entry Classical complexity metadata: time O(npS); work O(AS^2) per iteration; span/depth O(AS^2) per iteration. Public metadata/source title support includes A new parallelized of hierarchical value iteration algorithm for discounted Markov decision processes.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

@@ -1,0 +1,21 @@
+probe_id: AW-000424-RV1-BTS0002
+kind: registry_v1_probe
+parent_algorithm_id: AW-000424
+parent_algorithm_name: Two-way String-Matching Algorithm
+source_card_paths:
+- corpus\algorithm_wiki\algowiki1901_rich_v1\public_context\AW-000424.yaml
+- corpus\algorithm_wiki\algowiki1901_rich_v1\public_probe\AW-000424-P0305.yaml
+source_metadata_paths:
+- corpus\algorithm_wiki\algowiki1901_rich_v1\metadata_probe\AW-000424-P0305.meta.yaml
+source_records_used:
+- AW-000424:algorithm_wiki_metadata
+short_paraphrased_support: 'Two-way String-Matching Algorithm Two-way String-Matching Algorithm is treated as a classical string task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Two-way String-Matching Algorithm. Input semantics: One or more finite strings, sequences, patterns, or alphabets. Output semantics: Pattern occurrence positions, matches, or the associated string-search report. Two-way String-Matching Algorithm is a string algorithm record. Classical complexity metadata: time O(n + m); space O(1). The stated classical model is Word RAM. Public metadata/source text adds: Two-way String-Matching Algorithm string string m: pattern length, n: length of searchable text O(n + m) Given one or more explicit strings, compute the matching, indexing, alignment, or transformation output targeted by the record. One or more finite strings, sequences, patterns, or a'
+introduced_assumptions:
+- bounded_backtracking_tree
+- bounded_tree_depth
+- coherent_child_and_predicate_oracles
+limitations:
+- The probe is a public query/subroutine hypothesis only.
+- It does not assert a full original-algorithm speedup.
+- Oracle, promise, and data-representation costs require expert review.
+confirmation: Public provenance sidecar only; no evaluator label or private benchmark answer is encoded.

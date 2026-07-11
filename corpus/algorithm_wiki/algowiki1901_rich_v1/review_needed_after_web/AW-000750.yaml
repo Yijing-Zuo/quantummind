@@ -1,0 +1,47 @@
+algorithm_id: AW-000750
+canonical_name: CHEN Z. G. LIU L. G. ZHANG Z. Y. WANG G. J. 2007
+enrichment_status: WEB_INSUFFICIENT
+review_reasons:
+- missing_concrete_problem_statement
+- unknown_input_model
+- unknown_output_contract
+- unknown_access_model
+source_records:
+- access_status: metadata_only
+  digest: 8f2b54adfe4d60b8
+  extracted_facts:
+  - 'AlgorithmWiki row name: CHEN Z. G. LIU L. G. ZHANG Z. Y. WANG G. J. 2007'
+  - 'domain: unknown'
+  - 'time complexity: O(n^2)'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000750:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for CHEN Z. G. LIU L. G. ZHANG Z. Y. WANG G. J. 2007
+  url: https://dl.acm.org/doi/10.1145/1236246.1236287
+- access_status: fetched
+  digest: 86f510d409abf198
+  extracted_facts:
+  - 'DOI title: Surface parameterization via aligning optimal local flattening'
+  - 'published year: 2007'
+  - 'container title: Proceedings of the 2007 ACM symposium on Solid and physical modeling'
+  reliability: HIGH
+  short_quote: ''
+  source_id: crossref:dd13d827fc4fb512
+  source_type: doi_metadata
+  title: Surface parameterization via aligning optimal local flattening
+  url: https://doi.org/10.1145/1236246.1236287
+- access_status: failed
+  digest: fc92e1e36f9c7f9d
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:2431f5feca9e52a8
+  source_type: publisher_abstract
+  title: 'HTTP Error 403: Forbidden'
+  url: https://dl.acm.org/doi/10.1145/1236246.1236287
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

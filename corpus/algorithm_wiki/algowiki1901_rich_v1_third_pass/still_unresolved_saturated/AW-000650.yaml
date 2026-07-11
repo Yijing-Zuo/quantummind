@@ -1,0 +1,59 @@
+algorithm_id: AW-000650
+canonical_name: C-LOOK
+enrichment_status: THIRD_PASS_SATURATED_INSUFFICIENT
+review_reasons:
+- After the configured source-family cycles, no source-backed concrete task, input semantics, output semantics, and conservative access model could be established.
+source_records:
+- access_status: metadata_only
+  digest: 35929fc90efbc633
+  extracted_facts:
+  - 'AlgorithmWiki row name: C-LOOK'
+  - 'domain: unknown'
+  - 'time complexity: O(n \log n)'
+  - 'space complexity: O(n)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of requests'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000650:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for C-LOOK
+  url: '-'
+- access_status: fetched
+  digest: bafcabc57ec80c56
+  extracted_facts:
+  - 'Crossref title-search result: Another look at a algorithm'
+  reliability: MEDIUM
+  short_quote: ''
+  source_id: crossref_search:c95b761a31819a67
+  source_type: doi_metadata
+  title: Another look at a algorithm
+  url: https://doi.org/10.33545/2707661x.2021.v2.i1a.23
+- source_id: crossref_search:867c13932ffa0d86
+  url: https://doi.org/10.1353/bcc.2006.0292
+  title: Look! Look! Look! (review)
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title: Look! Look! Look! (review)'
+  - 'published year: 2006'
+  - 'container title: Bulletin of the Center for Children''s Books'
+  short_quote: 'Crossref title: Look! Look! Look! (review) published year: 2006 container title: Bulletin of the Center for Children''s Books'
+  digest: 52bc70a494ff6ce3
+- source_id: openalex:2423ee785ba39dd1
+  url: https://openalex.org/W2530409471
+  title: "Job demands\u2013resources theory: Taking stock and looking forward."
+  source_type: openalex
+  access_status: fetched
+  reliability: HIGH
+  extracted_facts:
+  - "OpenAlex title: Job demands\u2013resources theory: Taking stock and looking forward."
+  - 'publication year: 2016'
+  - 'abstract summary: The job demands-resources (JD-R) model was introduced in the international literature 15 years ago (Demerouti, Bakker, Nachreiner, & Schaufeli, 2001).'
+  short_quote: "OpenAlex title: Job demands\u2013resources theory: Taking stock and looking forward. publication year: 2016 abstract summary: The job demands-resources (JD-R) model was introduced in the"
+  digest: 993b37543263c0c4
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

@@ -1,0 +1,42 @@
+algorithm_id: AW-000419
+canonical_name: Johnson
+enrichment_status: SECOND_PASS_INSUFFICIENT
+review_reasons:
+- No second-pass rule could identify source-backed task semantics.
+source_records:
+- access_status: metadata_only
+  digest: e4ccf12b04d3f115
+  extracted_facts:
+  - 'AlgorithmWiki row name: Johnson'
+  - 'domain: unknown'
+  - 'time complexity: O(1.4422^n)'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000419:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Johnson
+  url: https://www.sciencedirect.com/science/article/abs/pii/0020019088900658
+- access_status: failed
+  digest: 7d33806be44fd4c6
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:e8c000758b4409c0
+  source_type: publisher_abstract
+  title: 'HTTP Error 403: Forbidden'
+  url: https://www.sciencedirect.com/science/article/abs/pii/0020019088900658
+- source_id: crossref_search:90c9f95d92fa2a20
+  url: https://doi.org/10.1017/cbo9780511763199.030
+  title: "The Johnson\u2013Trotter algorithm"
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - "Crossref title-search result: The Johnson\u2013Trotter algorithm"
+  short_quote: ''
+  digest: 93c8fd42c8a572ff
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

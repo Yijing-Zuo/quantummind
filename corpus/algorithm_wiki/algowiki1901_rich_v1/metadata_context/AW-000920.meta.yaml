@@ -1,0 +1,55 @@
+algorithm_family: computational geometry
+algorithm_id: AW-000920
+approximate: '0'
+approximation_factor: ''
+blind_name: Algorithm Wiki public task AW-000920
+canonical_name: N-dimensional Quickhull
+computational_model: Real RAM
+domain: computational_geometry
+extracted_description: ''
+extraction_version: algorithm-wiki-rich-context-v1
+family: computational_geometry
+inferred_access_model: explicit_geometric_objects
+inferred_ambiguities:
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.
+inferred_input_model: explicit_geometry_problem
+inferred_output_contract: multiple_witnesses
+inferred_problem_statement: 'N-dimensional Quickhull is treated as a classical computational geometry task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with N-dimensional Quickhull. Input semantics: Explicit geometric objects such as points, line segments, polygons, or planar subdivisions. Output semantics: The requested geometric structure, simplified curve, clipping result, intersection set, hull, or diagram.'
+inferred_promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+inferred_size_parameters:
+- 'Parameter definition: n: number of line segments, h: number of points on the convex hull, f_1: number of facets on the convex hull, f_2: number of subfacets on the convex hull'
+number_of_processors: ''
+page_digest: ''
+page_fetch_status: not_found
+page_url: ''
+parameter_definitions: 'n: number of line segments, h: number of points on the convex hull, f_1: number of facets on the convex hull, f_2: number of subfacets on the convex hull'
+problem_name: computational geometry
+quality_flags:
+- domain_inferred
+- problem_statement_inferred
+- io_access_output_inferred
+- has_complexity_semantics
+- has_size_parameters
+- has_computational_model
+quality_score: 100
+randomized: '0'
+readiness: READY_PUBLIC_CONTEXT
+review_reasons: []
+source_link: https://dl.acm.org/doi/pdf/10.1145/235815.235821
+source_link_type: acm
+space_complexity: ''
+span_depth: ''
+time_complexity: O(n*f(h)/h) where f(h) denotes the maximum number of facets with h vertices
+variation: ''
+work: ''
+year: '1996'
+rich_card_kind: context
+source_records_used:
+- AW-000920:algorithm_wiki_metadata
+- crossref:093092b1abdce801
+source_count: 2
+source_quality: HIGH
+confidence_score: 100
+card_digest: 311d37369779172d

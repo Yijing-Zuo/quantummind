@@ -1,0 +1,39 @@
+probe_id: AW-000022-P0020
+algorithm_id: AW-000022-P0020
+canonical_name: Nivasch period_structure_probe
+readiness: READY_PUBLIC_PROBE
+quality_score: 65
+probe_type: period_structure_probe
+parent_algorithm_id: AW-000022
+parent_algorithm_name: Nivasch
+source_records_used:
+- AW-000022:algorithm_wiki_metadata
+- source:a7c350166579a214
+introduced_assumptions:
+- periodic_structure
+- coherent_function_access
+missing_from_original_problem:
+- proof that period finding is the relevant subroutine
+original_output_contract: one_witness
+probe_output_contract: exact_value
+not_end_to_end_claim: true
+expected_authority: query_or_subroutine_hypothesis_only
+why_probe_is_scientifically_interesting: Cycle and period rows can expose sharply structured query tasks.
+why_probe_may_fail: The original row may require explicit enumeration or full-output reconstruction after detecting a period.
+inferred_input_model: explicit_combinatorial_problem
+inferred_access_model: coherent_boolean_oracle
+inferred_output_contract: exact_value
+inferred_size_parameters:
+- 'Parameter definition: \mu: index of first element in cycle, \lambda: cycle length'
+inferred_promises:
+- periodic_structure
+- oracle_model_assumption
+inferred_ambiguities:
+- This probe is assumption-bearing and is not an end-to-end speedup claim.
+- periodicity may be incidental metadata rather than the task bottleneck
+- The parent context card and source records should be checked before live use.
+source_count: 2
+source_quality: HIGH
+confidence_score: 65
+card_digest: b0bb330e3e522eab
+extraction_version: algorithm-wiki-rich-probe-v1

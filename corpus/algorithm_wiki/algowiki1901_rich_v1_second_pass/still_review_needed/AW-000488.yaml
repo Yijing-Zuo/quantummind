@@ -1,0 +1,46 @@
+algorithm_id: AW-000488
+canonical_name: "Rader\u2013Brenner algorithm"
+enrichment_status: SECOND_PASS_INSUFFICIENT
+review_reasons:
+- No second-pass rule could identify source-backed task semantics.
+source_records:
+- access_status: metadata_only
+  digest: 36fec7c13e102c80
+  extracted_facts:
+  - "AlgorithmWiki row name: Rader\u2013Brenner algorithm"
+  - 'domain: unknown'
+  - 'time complexity: O(n \log n)'
+  - 'space complexity: O(n)'
+  - 'computational model: Word/Real RAM'
+  - 'parameter definitions: n: length of the input data set'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000488:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: "AlgorithmWiki metadata for Rader\u2013Brenner algorithm"
+  url: https://ieeexplore.ieee.org/document/1162805
+- access_status: fetched
+  digest: 2495d20924ca2df8
+  extracted_facts:
+  - 'source page title: https://ieeexplore.ieee.org/document/1162805'
+  - 'source page description: In order to continue, we need to verify that you''re not a robot.'
+  reliability: HIGH
+  short_quote: In order to continue, we need to verify that you're not a robot.
+  source_id: source:329a6f2727809f9b
+  source_type: publisher_abstract
+  title: https://ieeexplore.ieee.org/document/1162805
+  url: https://ieeexplore.ieee.org/document/1162805
+- source_id: crossref_search:87c756c9c2441ac6
+  url: https://doi.org/10.5860/choice.47-6268
+  title: IEEExplore Digital Library
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: IEEExplore Digital Library'
+  short_quote: ''
+  digest: f5fa21a6f31a4275
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

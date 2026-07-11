@@ -1,0 +1,53 @@
+id: AW-000295
+kind: context_recovered
+algorithm_id: AW-000295
+algorithm_name: The Trajkovic and Hedley corner detector 1998
+source_records:
+- access_status: metadata_only
+  digest: 86602b5cef0ca6d9
+  extracted_facts:
+  - 'AlgorithmWiki row name: The Trajkovic and Hedley corner detector 1998'
+  - 'domain: unknown'
+  - 'time complexity: O(n^2 \log^2 n)'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000295:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for The Trajkovic and Hedley corner detector 1998
+  url: ''
+- source_id: crossref_search:044932883dca2791
+  url: https://doi.org/10.14257/ijfgcn.2016.9.11.20
+  title: News Video Text Area Positioning Based on an Improved Trajkovic Corner Detector
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: News Video Text Area Positioning Based on an Improved Trajkovic Corner Detector'
+  short_quote: ''
+  digest: 8c2e898e88c9e22b
+web_query_attempts:
+- query: '"The Trajkovic and Hedley corner detector 1998" algorithm'
+  method: search_plan
+  status: recorded
+- query: '"The Trajkovic and Hedley corner detector 1998" input output'
+  method: search_plan
+  status: recorded
+- query: '"The Trajkovic and Hedley corner detector 1998" time complexity'
+  method: search_plan
+  status: recorded
+- query: '"The Trajkovic and Hedley corner detector 1998" pseudocode'
+  method: search_plan
+  status: recorded
+- query: '"The Trajkovic and Hedley corner detector 1998" problem'
+  method: search_plan
+  status: recorded
+- query: '"The Trajkovic and Hedley corner detector 1998" PDF metadata abstract'
+  method: search_plan
+  status: recorded
+- query: The Trajkovic and Hedley corner detector 1998 algorithm
+  method: crossref_title_search
+  status: fetched
+extracted_problem_statement: 'The Trajkovic and Hedley corner detector 1998 is reconstructed as a classical image processing task. Problem/task: detect local image features such as corners, blobs, or scale-invariant keypoints Input semantics: An image or image pyramid/grid of pixel intensities plus detector parameters. Output semantics: A set of detected feature locations, scales, orientations, or descriptors.'
+extracted_algorithm_summary: 'The Trajkovic and Hedley corner detector 1998 is treated as the named AlgorithmWiki variant for detect local image features such as corners, blobs, or scale-invariant keypoints Classical complexity metadata: time O(n^2 \log^2 n). Public metadata/source title support includes News Video Text Area Positioning Based on an Improved Trajkovic Corner Detector.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

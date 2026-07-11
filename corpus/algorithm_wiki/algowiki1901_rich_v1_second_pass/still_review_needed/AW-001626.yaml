@@ -1,0 +1,56 @@
+algorithm_id: AW-001626
+canonical_name: "Czumaj, Galil, G\u0105sieniec, Park, Plandowski (2)"
+enrichment_status: SECOND_PASS_INSUFFICIENT
+review_reasons:
+- No second-pass rule could identify source-backed task semantics.
+source_records:
+- access_status: metadata_only
+  digest: d43cf0de76c74261
+  extracted_facts:
+  - "AlgorithmWiki row name: Czumaj, Galil, G\u0105sieniec, Park, Plandowski (2)"
+  - 'domain: unknown'
+  - 'time complexity: O(\log n)'
+  - 'computational model: hypercube (MIMD)'
+  - 'parameter definitions: n: length of text, m: length of pattern'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001626:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: "AlgorithmWiki metadata for Czumaj, Galil, G\u0105sieniec, Park, Plandowski (2)"
+  url: https://dl.acm.org/doi/pdf/10.1145/225058.225289
+- access_status: skipped
+  digest: 154d9f5cdf8ad291
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:9cb9d81b4f01381c
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1145/225058.225289
+- source_id: crossref:15d4584a3c2b3216
+  url: https://doi.org/10.1145/225058.225289
+  title: Work-time-optimal parallel algorithms for string problems
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: HIGH
+  extracted_facts:
+  - 'DOI title: Work-time-optimal parallel algorithms for string problems'
+  - 'published year: 1995'
+  - 'container title: Proceedings of the twenty-seventh annual ACM symposium on Theory of computing - STOC ''95'
+  short_quote: ''
+  digest: b99588d9e7d8ec34
+- source_id: crossref_search:0b18e1bdccf3f416
+  url: https://doi.org/10.1109/npc.2007.32
+  title: An optimal algorithm to fetch DHT routable
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: An optimal algorithm to fetch DHT routable'
+  short_quote: ''
+  digest: eac65bcac63f65f8
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

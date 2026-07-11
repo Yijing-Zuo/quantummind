@@ -1,0 +1,75 @@
+id: AW-000755-P0502
+kind: probe
+algorithm_id: AW-000755
+algorithm_name: EM with Quasi-Newton Methods (Jamshidian Mortaza Jennrich Robert I.)
+source_records:
+- access_status: metadata_only
+  digest: 05d7f374d8c3e8a8
+  extracted_facts:
+  - 'AlgorithmWiki row name: EM with Quasi-Newton Methods (Jamshidian Mortaza Jennrich Robert I.)'
+  - 'domain: numerical_analysis'
+  - 'time complexity: O(n^2 \log^3 n)'
+  - 'space complexity: O(n+r^2)'
+  - 'computational model: Real RAM'
+  - 'parameter definitions: n: number of observations in sample, r: number of parameters + latent variables'
+  - 'precard summary: Given explicit numeric parameters or a classical function-evaluation interface, compute the requested numerical value or approximation to the stated tolerance. Baseline: time O(n^2 \log^3 n); space O(n+r^2). Bottleneck: precision, convergence, and function-evaluation costs dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000755:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for EM with Quasi-Newton Methods (Jamshidian Mortaza Jennrich Robert I.)
+  url: https://rss.onlinelibrary.wiley.com/doi/abs/10.1111/1467-9868.00083
+- access_status: fetched
+  digest: 1fa183d7f8fa2205
+  extracted_facts:
+  - 'DOI title: Acceleration of the EM Algorithm by using Quasi-Newton Methods'
+  - 'published year: 1997'
+  - 'container title: Journal of the Royal Statistical Society Series B: Statistical Methodology'
+  - 'abstract summary: The EM algorithm is a popular method for maximum likelihood estimation.'
+  reliability: HIGH
+  short_quote: The EM algorithm is a popular method for maximum likelihood estimation.
+  source_id: crossref:ef0e17444d85a2ad
+  source_type: doi_metadata
+  title: Acceleration of the EM Algorithm by using Quasi-Newton Methods
+  url: https://doi.org/10.1111/1467-9868.00083
+- access_status: skipped
+  digest: a9b0adb387aeea17
+  extracted_facts:
+  - robots.txt disallowed fetch
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:ce4de9fedd96ed73
+  source_type: other_public_source
+  title: robots.txt disallowed fetch
+  url: https://rss.onlinelibrary.wiley.com/doi/abs/10.1111/1467-9868.00083
+web_query_attempts:
+- method: search_plan
+  query: EM with Quasi-Newton Methods (Jamshidian Mortaza Jennrich Robert I.) algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: EM with Quasi-Newton Methods (Jamshidian Mortaza Jennrich Robert I.) algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: EM with Quasi-Newton Methods (Jamshidian Mortaza Jennrich Robert I.) problem definition
+  status: recorded
+- method: search_plan
+  query: EM with Quasi-Newton Methods (Jamshidian Mortaza Jennrich Robert I.) numerical analysis algorithm
+  status: recorded
+- method: search_plan
+  query: EM with Quasi-Newton Methods (Jamshidian Mortaza Jennrich Robert I.) site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: EM with Quasi-Newton Methods (Jamshidian Mortaza Jennrich Robert I.) algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://rss.onlinelibrary.wiley.com/doi/abs/10.1111/1467-9868.00083
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1111/1467-9868.00083
+  status: fetched
+- method: source_link_html_metadata
+  query: https://rss.onlinelibrary.wiley.com/doi/abs/10.1111/1467-9868.00083
+  status: skipped
+extracted_problem_statement: 'EM with Quasi-Newton Methods (Jamshidian Mortaza Jennrich Robert I.) is treated as a classical numerical analysis task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with EM with Quasi-Newton Methods (Jamshidian Mortaza Jennrich Robert I.). Input semantics: Numeric parameters, functions, samples, tolerances, or distributions for the stated numerical task. Output semantics: An exact or approximate numerical value, estimate, approximation, or fitted representation.'
+extracted_algorithm_summary: 'EM with Quasi-Newton Methods (Jamshidian Mortaza Jennrich Robert I.) is a numerical analysis algorithm record. Classical complexity metadata: time O(n^2 \log^3 n); space O(n+r^2). The stated classical model is Real RAM. Public metadata/source text adds: EM with Quasi-Newton Methods (Jamshidian Mortaza Jennrich Robert I.) numerical_analysis numerical_analysis n: number of observations in sample, r: number of parameters + latent variables O(n^2 \log^3 n) Given explicit numeric parameters or a classical function-evaluation interface, compute the requested numerical value or approximation to the stated tolerance.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

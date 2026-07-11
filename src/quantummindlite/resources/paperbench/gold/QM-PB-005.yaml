@@ -1,0 +1,20 @@
+case_id: QM-PB-005
+access_model: value_query_oracle
+output_contract: collision_or_distinctness
+required_structure_ids: [collision_query_structure]
+expected_selected_primitive: quantum_walk_element_distinctness
+expected_speedup_class: ASYMPTOTIC
+required_caveat_ids: [query_only_scope, output_contract]
+allowed_verdicts: [POSITIVE]
+maximum_claim_scope: QUERY
+expected_route: EXPERT_REVIEW
+forbidden_claim_ids: [sorting_speedup, end_to_end_speedup_proven]
+evidence_mapping:
+  required_structure_ids: [ambainis_2007]
+  expected_selected_primitive: [ambainis_2007]
+  expected_speedup_class: [ambainis_2007]
+  required_caveat_ids: [ambainis_2007]
+  allowed_verdicts: [ambainis_2007]
+  maximum_claim_scope: [ambainis_2007]
+  expected_route: [ambainis_2007]
+  forbidden_claim_ids: [ambainis_2007]

@@ -1,0 +1,60 @@
+id: AW-000811-P0531
+kind: probe
+algorithm_id: AW-000811
+algorithm_name: Iterative naive
+source_records:
+- access_status: metadata_only
+  digest: 9e6107617e2aa055
+  extracted_facts:
+  - 'AlgorithmWiki row name: Iterative naive'
+  - 'domain: string'
+  - 'time complexity: O(f_{bin}(\sigma-1, n, d)) where f_{bin}(x, y, z) = \sum_{i=0}^z \binom{y}{i}x^i'
+  - 'space complexity: O(n)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: length of string, d: neighborhood distance threshold, \sigma: size of alphabet'
+  - 'precard summary: Given one or more explicit strings, compute the matching, indexing, alignment, or transformation output targeted by the record. Baseline: time O(f_{bin}(\sigma-1, n, d)) where f_{bin}(x, y, z) = \sum_{i=0}^z \binom{y}{i}x^i; space O(n). Bottleneck: string scanning, preprocessing tables, and reporting matches dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000811:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Iterative naive
+  url: http://rosalind.info/problems/ba1n/
+- access_status: fetched
+  digest: c3369acf62980466
+  extracted_facts:
+  - 'source page title: ROSALIND | Generate the d-Neighborhood of a String'
+  - 'source page description: It appears that your browser has JavaScript disabled.'
+  reliability: LOW
+  short_quote: It appears that your browser has JavaScript disabled.
+  source_id: source:8b40b87ab68c24c0
+  source_type: other_public_source
+  title: ROSALIND | Generate the d-Neighborhood of a String
+  url: http://rosalind.info/problems/ba1n/
+web_query_attempts:
+- method: search_plan
+  query: Iterative naive algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Iterative naive algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Iterative naive problem definition
+  status: recorded
+- method: search_plan
+  query: Iterative naive string algorithm
+  status: recorded
+- method: search_plan
+  query: Iterative naive site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Iterative naive algorithm wiki
+  status: recorded
+- method: search_plan
+  query: http://rosalind.info/problems/ba1n/
+  status: recorded
+- method: source_link_html_metadata
+  query: http://rosalind.info/problems/ba1n/
+  status: fetched
+extracted_problem_statement: 'Iterative naive is treated as a classical string task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Iterative naive. Input semantics: One or more finite strings, sequences, patterns, or alphabets. Output semantics: Pattern occurrence positions, matches, or the associated string-search report.'
+extracted_algorithm_summary: 'Iterative naive is a string algorithm record. Classical complexity metadata: time O(f_{bin}(\sigma-1, n, d)) where f_{bin}(x, y, z) = \sum_{i=0}^z \binom{y}{i}x^i; space O(n). The stated classical model is Word RAM. Public metadata/source text adds: Iterative naive string string n: length of string, d: neighborhood distance threshold, \sigma: size of alphabet O(f_{bin}(\sigma-1, n, d)) where f_{bin}(x, y, z) = \sum_{i=0}^z \binom{y}{i}x^i Given one or more explicit strings, compute the matching, indexing, alignment, or transformation output targeted by the record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

@@ -1,0 +1,58 @@
+id: AW-001587
+kind: context
+algorithm_id: AW-001587
+algorithm_name: Garg
+source_records:
+- access_status: metadata_only
+  digest: b05a4848fe9011df
+  extracted_facts:
+  - 'AlgorithmWiki row name: Garg'
+  - 'domain: graph'
+  - 'time complexity: O(n \log \log n)'
+  - 'computational model: common CRCW PRAM'
+  - 'parameter definitions: n: number of vertices, m: number of edges'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(n \log \log n); work O(nm); span/depth O(n log log n); processors m. Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001587:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Garg
+  url: https://arxiv.org/pdf/1812.10499
+- access_status: skipped
+  digest: d91a8486a9ba8b90
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:d975268ee74920c3
+  source_type: arxiv_abstract
+  title: fetch budget exhausted
+  url: https://arxiv.org/abs/1812.10499
+web_query_attempts:
+- method: search_plan
+  query: Garg algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Garg algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Garg problem definition
+  status: recorded
+- method: search_plan
+  query: Garg graph algorithm
+  status: recorded
+- method: search_plan
+  query: Garg site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Garg algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://arxiv.org/pdf/1812.10499
+  status: recorded
+- method: arxiv_abstract_metadata
+  query: '1812.10499'
+  status: skipped
+extracted_problem_statement: 'Garg is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Garg. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'Garg is a graph algorithm record. Classical complexity metadata: time O(n \log \log n); work O(nm); span/depth O(n log log n); processors m. The stated classical model is common CRCW PRAM. Public metadata/source text adds: Garg graph graph n: number of vertices, m: number of edges O(n \log \log n) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

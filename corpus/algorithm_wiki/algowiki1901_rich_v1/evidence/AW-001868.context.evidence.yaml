@@ -1,0 +1,46 @@
+id: AW-001868
+kind: context
+algorithm_id: AW-001868
+algorithm_name: Farach
+source_records:
+- access_status: metadata_only
+  digest: 98c3cbfcfbcfbdcd
+  extracted_facts:
+  - 'AlgorithmWiki row name: Farach'
+  - 'domain: string'
+  - 'time complexity: O(\\log n)'
+  - 'space complexity: O(n)'
+  - 'computational model: CRCW PRAM'
+  - 'parameter definitions: n: length of string'
+  - 'precard summary: Given one or more explicit strings, compute the matching, indexing, alignment, or transformation output targeted by the record. Baseline: time O(\\log n); space O(n); work O(n); span/depth O(\log n); processors O(n). Bottleneck: string scanning, preprocessing tables, and reporting matches dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001868:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Farach
+  url: https://www.cs.rutgers.edu/~farach/pubs/PRAMSuffixICALP.pdf
+web_query_attempts:
+- method: search_plan
+  query: Farach algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Farach algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Farach problem definition
+  status: recorded
+- method: search_plan
+  query: Farach string algorithm
+  status: recorded
+- method: search_plan
+  query: Farach site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Farach algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://www.cs.rutgers.edu/~farach/pubs/PRAMSuffixICALP.pdf
+  status: recorded
+extracted_problem_statement: 'Farach is treated as a classical string task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Farach. Input semantics: One or more finite strings, sequences, patterns, or alphabets. Output semantics: Pattern occurrence positions, matches, or the associated string-search report.'
+extracted_algorithm_summary: 'Farach is a string algorithm record. Classical complexity metadata: time O(\\log n); space O(n); work O(n); span/depth O(\log n); processors O(n). The stated classical model is CRCW PRAM. Public metadata/source text adds: Farach string string n: length of string O(\\log n) Given one or more explicit strings, compute the matching, indexing, alignment, or transformation output targeted by the record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

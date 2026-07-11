@@ -1,0 +1,58 @@
+id: AW-000227
+kind: context
+algorithm_id: AW-000227
+algorithm_name: Pettie & Ramachandran
+source_records:
+- access_status: metadata_only
+  digest: fc15d8fe8e350e23
+  extracted_facts:
+  - 'AlgorithmWiki row name: Pettie & Ramachandran'
+  - 'domain: graph'
+  - 'time complexity: O(mn \log \alpha(m,n))'
+  - 'computational model: Pointer Machine'
+  - 'parameter definitions: n: number of vertices, m: number of edges, \alpha:'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(mn \log \alpha(m,n)). Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000227:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Pettie & Ramachandran
+  url: https://dl.acm.org/citation.cfm?id=545417
+- access_status: failed
+  digest: 333394af8dab5f36
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:8665e11f2e7d3e62
+  source_type: publisher_abstract
+  title: 'HTTP Error 403: Forbidden'
+  url: https://dl.acm.org/citation.cfm?id=545417
+web_query_attempts:
+- method: search_plan
+  query: Pettie & Ramachandran algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Pettie & Ramachandran algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Pettie & Ramachandran problem definition
+  status: recorded
+- method: search_plan
+  query: Pettie & Ramachandran graph algorithm
+  status: recorded
+- method: search_plan
+  query: Pettie & Ramachandran site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Pettie & Ramachandran algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://dl.acm.org/citation.cfm?id=545417
+  status: recorded
+- method: source_link_html_metadata
+  query: https://dl.acm.org/citation.cfm?id=545417
+  status: failed
+extracted_problem_statement: 'Pettie & Ramachandran is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Pettie & Ramachandran. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'Pettie & Ramachandran is a graph algorithm record. Classical complexity metadata: time O(mn \log \alpha(m,n)). The stated classical model is Pointer Machine. Public metadata/source text adds: Pettie & Ramachandran graph graph n: number of vertices, m: number of edges, \alpha: O(mn \log \alpha(m,n)) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

@@ -1,0 +1,84 @@
+id: AW-001044
+kind: context
+algorithm_id: AW-001044
+algorithm_name: Rebound sort - Chen, Lum, Tung
+source_records:
+- access_status: metadata_only
+  digest: f776402b4eb87753
+  extracted_facts:
+  - 'AlgorithmWiki row name: Rebound sort - Chen, Lum, Tung'
+  - 'domain: sorting'
+  - 'time complexity: O(n)'
+  - 'computational model: hardware sorter'
+  - 'parameter definitions: n: size of list'
+  - 'precard summary: Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model. Baseline: time O(n); work O(n^2); span/depth O(n); processors n-1. Bottleneck: comparison, distribution, and full-output movement costs dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001044:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Rebound sort - Chen, Lum, Tung
+  url: https://dl.acm.org/doi/abs/10.5555/1286643.1286685 //, https://drive.google.com/file/d/1LOwpJ7Ct7aSE07Ks0xPWbXtSx2DUZP1p/view?usp=sharing (section 2.2.3)
+- access_status: skipped
+  digest: a0a9953954c97275
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:f5494684ae608938
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.5555/1286643.1286685
+- access_status: skipped
+  digest: 72e49fd665179e8f
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:0dc2b13f62aa81ac
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://dl.acm.org/doi/abs/10.5555/1286643.1286685 //, https://drive.google.com/file/d/1LOwpJ7Ct7aSE07Ks0xPWbXtSx2DUZP1p/view?usp=sharing (section 2.2.3)
+- access_status: skipped
+  digest: a4d5a0604413b6b1
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:daf87519a480fdcb
+  source_type: wikipedia
+  title: fetch budget exhausted
+  url: https://en.wikipedia.org/wiki/Rebound_sort_-_Chen%2C_Lum%2C_Tung
+web_query_attempts:
+- method: search_plan
+  query: Rebound sort - Chen, Lum, Tung algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Rebound sort - Chen, Lum, Tung algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Rebound sort - Chen, Lum, Tung problem definition
+  status: recorded
+- method: search_plan
+  query: Rebound sort - Chen, Lum, Tung sorting algorithm
+  status: recorded
+- method: search_plan
+  query: Rebound sort - Chen, Lum, Tung site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Rebound sort - Chen, Lum, Tung algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://dl.acm.org/doi/abs/10.5555/1286643.1286685 //, https://drive.google.com/file/d/1LOwpJ7Ct7aSE07Ks0xPWbXtSx2DUZP1p/view?usp=sharing (section 2.2.3)
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.5555/1286643.1286685
+  status: skipped
+- method: source_link_html_metadata
+  query: https://dl.acm.org/doi/abs/10.5555/1286643.1286685 //, https://drive.google.com/file/d/1LOwpJ7Ct7aSE07Ks0xPWbXtSx2DUZP1p/view?usp=sharing (section 2.2.3)
+  status: skipped
+- method: wikipedia_summary_search
+  query: Rebound sort - Chen, Lum, Tung algorithm
+  status: skipped
+extracted_problem_statement: 'Rebound sort - Chen, Lum, Tung is treated as a classical sorting task for rich AlgorithmWiki discovery. Problem/task: sort the input sequence using the named classical sorting method. Input semantics: A finite array or list of comparable keys or records. Output semantics: The same items returned in nondecreasing order, usually as a full reordered sequence.'
+extracted_algorithm_summary: 'Rebound sort - Chen, Lum, Tung is a sorting algorithm record. Classical complexity metadata: time O(n); work O(n^2); span/depth O(n); processors n-1. The stated classical model is hardware sorter. Public metadata/source text adds: Rebound sort - Chen, Lum, Tung sorting sorting n: size of list O(n) Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

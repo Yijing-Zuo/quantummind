@@ -1,0 +1,58 @@
+algorithm_family: unknown
+algorithm_id: AW-000544
+approximate: '0'
+approximation_factor: ''
+blind_name: Algorithm Wiki public task AW-000544
+canonical_name: Expectation conditional maximization (ECM)
+computational_model: Real RAM
+domain: unknown
+extracted_description: ''
+extraction_version: algorithm-wiki-rich-context-v1
+family: unknown
+inferred_access_model: adjacency_list_query
+inferred_ambiguities:
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.
+inferred_input_model: explicit_graph_problem
+inferred_output_contract: full_solution
+inferred_problem_statement: 'Expectation conditional maximization (ECM) is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Expectation conditional maximization (ECM). Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: A solved linear system, echelon form, inverse, or elimination-derived matrix output.'
+inferred_promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+inferred_size_parameters:
+- 'Parameter definition: n: number of observations in sample, r: number of parameters + latent variables'
+number_of_processors: ''
+page_digest: ''
+page_fetch_status: not_found
+page_url: ''
+parameter_definitions: 'n: number of observations in sample, r: number of parameters + latent variables'
+problem_name: unknown
+quality_flags:
+- has_complexity_semantics
+- has_size_parameters
+- has_computational_model
+quality_score: 80
+randomized: '0'
+readiness: READY_PUBLIC_CONTEXT
+review_reasons:
+- missing_problem_statement
+- unknown_input_model
+- unknown_access_model
+- unknown_output_contract
+- insufficient_algorithm_level_structure
+source_link: https://arxiv.org/abs/1709.06970
+source_link_type: arxiv
+space_complexity: O(n+r)
+span_depth: ''
+time_complexity: O(n^2 \log n)
+variation: ''
+work: ''
+year: '2017'
+rich_card_kind: context
+source_records_used:
+- AW-000544:algorithm_wiki_metadata
+- arxiv:1709.06970
+- source:759a7787df8e3a0f
+source_count: 3
+source_quality: HIGH
+confidence_score: 80
+card_digest: ae929e85d4a89f03

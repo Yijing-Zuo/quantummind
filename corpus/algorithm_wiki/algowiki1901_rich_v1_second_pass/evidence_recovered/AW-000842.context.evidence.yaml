@@ -1,0 +1,56 @@
+id: AW-000842
+kind: context_recovered
+algorithm_id: AW-000842
+algorithm_name: Gunther Determinants solution
+source_records:
+- access_status: metadata_only
+  digest: 945670610b05a374
+  extracted_facts:
+  - 'AlgorithmWiki row name: Gunther Determinants solution'
+  - 'domain: unknown'
+  - 'time complexity: O(n!)'
+  - 'space complexity: O(n!)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: size of chessboard'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000842:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Gunther Determinants solution
+  url: ''
+- source_id: crossref_search:25467bcaae4e16f4
+  url: https://doi.org/10.1093/omo/9781561592630.013.90000380612
+  title: Schuller, Gunther
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: Schuller, Gunther'
+  short_quote: ''
+  digest: 8ddbfdb8459ed6e9
+web_query_attempts:
+- query: '"Gunther Determinants solution" algorithm'
+  method: search_plan
+  status: recorded
+- query: '"Gunther Determinants solution" input output'
+  method: search_plan
+  status: recorded
+- query: '"Gunther Determinants solution" time complexity'
+  method: search_plan
+  status: recorded
+- query: '"Gunther Determinants solution" pseudocode'
+  method: search_plan
+  status: recorded
+- query: '"Gunther Determinants solution" problem'
+  method: search_plan
+  status: recorded
+- query: '"Gunther Determinants solution" PDF metadata abstract'
+  method: search_plan
+  status: recorded
+- query: Gunther Determinants solution algorithm
+  method: crossref_title_search
+  status: fetched
+extracted_problem_statement: 'Gunther Determinants solution is reconstructed as a classical combinatorics task. Problem/task: place queens on a board subject to nonattacking constraints Input semantics: A board dimension n and a requested number of queens k when stated. Output semantics: A feasible placement or decision that no such placement exists.'
+extracted_algorithm_summary: 'Gunther Determinants solution is treated as the named AlgorithmWiki variant for place queens on a board subject to nonattacking constraints Classical complexity metadata: time O(n!); space O(n!). Public metadata/source title support includes Schuller, Gunther.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

@@ -1,0 +1,60 @@
+id: AW-000398
+kind: context
+algorithm_id: AW-000398
+algorithm_name: Probabilistic Convolution Tree
+source_records:
+- access_status: metadata_only
+  digest: 77a4ec33272324e4
+  extracted_facts:
+  - 'AlgorithmWiki row name: Probabilistic Convolution Tree'
+  - 'domain: unknown'
+  - 'time complexity: O(n \log n)'
+  - 'space complexity: O(n \log n)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of coins'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000398:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Probabilistic Convolution Tree
+  url: https://www.ncbi.nlm.nih.gov/pubmed/24626234
+- access_status: fetched
+  digest: 09629999adfd5176
+  extracted_facts:
+  - 'source page title: The probabilistic convolution tree: efficient exact Bayesian inference for faster LC-MS/MS protein inference - PubMed'
+  - 'source page description: Exact Bayesian inference can sometimes be performed efficiently for special cases where a function has commutative and associative symmetry of its inputs (called "causal independence").'
+  reliability: LOW
+  short_quote: Exact Bayesian inference can sometimes be performed efficiently for special cases where a function has commutative and associative symmetry of its inputs (called "causal
+  source_id: source:2156c9e71cfe68a8
+  source_type: other_public_source
+  title: 'The probabilistic convolution tree: efficient exact Bayesian inference for faster LC-MS/MS protein inference - PubMed'
+  url: https://www.ncbi.nlm.nih.gov/pubmed/24626234
+web_query_attempts:
+- method: search_plan
+  query: Probabilistic Convolution Tree algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Probabilistic Convolution Tree algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Probabilistic Convolution Tree problem definition
+  status: recorded
+- method: search_plan
+  query: Probabilistic Convolution Tree site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Probabilistic Convolution Tree algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://www.ncbi.nlm.nih.gov/pubmed/24626234
+  status: recorded
+- method: source_link_html_metadata
+  query: https://www.ncbi.nlm.nih.gov/pubmed/24626234
+  status: fetched
+- method: wikipedia_summary_search
+  query: Probabilistic Convolution Tree algorithm
+  status: failed_or_not_relevant
+extracted_problem_statement: 'Probabilistic Convolution Tree is treated as a classical data structures task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Probabilistic Convolution Tree. Input semantics: A set of records plus update/query operations for the named data structure. Output semantics: A maintained data structure representation and answers to its supported queries.'
+extracted_algorithm_summary: 'Probabilistic Convolution Tree is a data structures algorithm record. Classical complexity metadata: time O(n \log n); space O(n \log n). The stated classical model is Word RAM. Public metadata/source text adds: Probabilistic Convolution Tree unknown unknown n: number of coins O(n \log n) No public-ready summary is available because the row lacks enough task semantics.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

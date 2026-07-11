@@ -1,0 +1,71 @@
+id: AW-000475-P0347
+kind: probe
+algorithm_id: AW-000475
+algorithm_name: Naive algorithm
+source_records:
+- access_status: metadata_only
+  digest: d87299cd522c4324
+  extracted_facts:
+  - 'AlgorithmWiki row name: Naive algorithm'
+  - 'domain: unknown'
+  - 'time complexity: O(4^n/n^{3/2})'
+  - 'space complexity: O(1)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of elements'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000475:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Naive algorithm
+  url: https://link.springer.com/article/10.1007/BF00264289
+- access_status: fetched
+  digest: 027598a4a09c890c
+  extracted_facts:
+  - 'DOI title: Optimum binary search trees'
+  - 'published year: 1971'
+  - 'container title: Acta Informatica'
+  reliability: HIGH
+  short_quote: ''
+  source_id: crossref:dec440b17318492a
+  source_type: doi_metadata
+  title: Optimum binary search trees
+  url: https://doi.org/10.1007/BF00264289
+- access_status: skipped
+  digest: e5d632e6be0ee835
+  extracted_facts:
+  - robots.txt disallowed fetch
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:3457793f918aa299
+  source_type: publisher_abstract
+  title: robots.txt disallowed fetch
+  url: https://link.springer.com/article/10.1007/BF00264289
+web_query_attempts:
+- method: search_plan
+  query: Naive algorithm algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Naive algorithm algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Naive algorithm problem definition
+  status: recorded
+- method: search_plan
+  query: Naive algorithm site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Naive algorithm algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://link.springer.com/article/10.1007/BF00264289
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1007/BF00264289
+  status: fetched
+- method: source_link_html_metadata
+  query: https://link.springer.com/article/10.1007/BF00264289
+  status: skipped
+extracted_problem_statement: 'Naive algorithm is treated as a classical data structures task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Naive algorithm. Input semantics: A set of records plus update/query operations for the named data structure. Output semantics: A maintained data structure representation and answers to its supported queries.'
+extracted_algorithm_summary: 'Naive algorithm is a data structures algorithm record. Classical complexity metadata: time O(4^n/n^{3/2}); space O(1). The stated classical model is Word RAM. Public metadata/source text adds: Naive algorithm unknown unknown n: number of elements O(4^n/n^{3/2}) No public-ready summary is available because the row lacks enough task semantics.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

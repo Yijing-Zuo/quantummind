@@ -1,0 +1,20 @@
+case_id: QM-PB-003
+access_model: reversible_function_evaluation
+output_contract: period_or_order
+required_structure_ids: [periodic_group_structure]
+expected_selected_primitive: qft_period_finding
+expected_speedup_class: ASYMPTOTIC
+required_caveat_ids: [reversible_arithmetic, classical_postprocessing]
+allowed_verdicts: [POSITIVE]
+maximum_claim_scope: QUERY
+expected_route: EXPERT_REVIEW
+forbidden_claim_ids: [new_factoring_proof, no_arithmetic_cost]
+evidence_mapping:
+  required_structure_ids: [shor_1997]
+  expected_selected_primitive: [shor_1997]
+  expected_speedup_class: [shor_1997]
+  required_caveat_ids: [shor_1997]
+  allowed_verdicts: [shor_1997]
+  maximum_claim_scope: [shor_1997]
+  expected_route: [shor_1997]
+  forbidden_claim_ids: [shor_1997]

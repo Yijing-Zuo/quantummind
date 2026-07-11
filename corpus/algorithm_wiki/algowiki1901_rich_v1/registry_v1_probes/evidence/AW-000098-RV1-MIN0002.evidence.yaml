@@ -1,0 +1,23 @@
+probe_id: AW-000098-RV1-MIN0002
+kind: registry_v1_probe
+parent_algorithm_id: AW-000098
+parent_algorithm_name: Horowitz and Sahni
+source_card_paths:
+- corpus\algorithm_wiki\algowiki1901_rich_v1\public_context\AW-000098.yaml
+- corpus\algorithm_wiki\algowiki1901_rich_v1\public_probe\AW-000098-P0078.yaml
+source_metadata_paths:
+- corpus\algorithm_wiki\algowiki1901_rich_v1\metadata_probe\AW-000098-P0078.meta.yaml
+source_records_used:
+- AW-000098:algorithm_wiki_metadata
+- crossref:97ecb4d4bc957b7f
+- failed:1673c0aa50afedbd
+short_paraphrased_support: 'Horowitz and Sahni Horowitz and Sahni is treated as a classical dynamic programming task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Horowitz and Sahni. Input semantics: An explicit optimization or recurrence instance with overlapping subproblems. Output semantics: The optimal value, witness, schedule, segmentation, or table-derived solution for the recurrence. Horowitz and Sahni is a dynamic programming algorithm record. Classical complexity metadata: time O(2^{(n/2)} n); space O(2^{n/2}). The stated classical model is Word RAM. Public metadata/source text adds: Horowitz and Sahni unknown unknown n: the number of integers in the set O(2^{(n/2)} n) No public-ready summary is available because the row lacks enough task semantics. An explicit optimization or recurrence instance with overlapping subproblems. The optimal value, witness,'
+introduced_assumptions:
+- finite_candidate_set
+- total_ordered_objective
+- coherent_value_oracle
+limitations:
+- The probe is a public query/subroutine hypothesis only.
+- It does not assert a full original-algorithm speedup.
+- Oracle, promise, and data-representation costs require expert review.
+confirmation: Public provenance sidecar only; no evaluator label or private benchmark answer is encoded.

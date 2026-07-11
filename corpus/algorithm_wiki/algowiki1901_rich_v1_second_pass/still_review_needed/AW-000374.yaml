@@ -1,0 +1,31 @@
+algorithm_id: AW-000374
+canonical_name: Pineau Gordon & Thrun 2003
+enrichment_status: SECOND_PASS_INSUFFICIENT
+review_reasons:
+- No second-pass rule could identify source-backed task semantics.
+source_records:
+- access_status: metadata_only
+  digest: 87f41e0876518b70
+  extracted_facts:
+  - 'AlgorithmWiki row name: Pineau Gordon & Thrun 2003'
+  - 'domain: unknown'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000374:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Pineau Gordon & Thrun 2003
+  url: ''
+- source_id: crossref_search:94a6c9efe1b750d0
+  url: https://doi.org/10.1093/benz/9780199773787.article.b00182534
+  title: Thrun, Mathias
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: Thrun, Mathias'
+  short_quote: ''
+  digest: b22fdf1aa1c4e391
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

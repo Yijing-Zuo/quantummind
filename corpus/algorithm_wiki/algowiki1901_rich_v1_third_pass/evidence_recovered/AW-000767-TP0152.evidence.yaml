@@ -1,0 +1,133 @@
+id: AW-000767-TP0152
+kind: probe_recovered
+algorithm_id: AW-000767
+algorithm_name: Stratonovich
+source_records:
+- access_status: metadata_only
+  digest: 52eaeb5e03d7e9f7
+  extracted_facts:
+  - 'AlgorithmWiki row name: Stratonovich'
+  - 'domain: unknown'
+  - 'time complexity: O(n^3)'
+  - 'parameter definitions: n: number of dimensions in state space'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000767:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Stratonovich
+  url: ''
+- access_status: fetched
+  digest: 4fa1310766e8f65f
+  extracted_facts:
+  - 'Crossref title-search result: Stratonovich Integration'
+  reliability: MEDIUM
+  short_quote: ''
+  source_id: crossref_search:b1d9db64cca3ab22
+  source_type: doi_metadata
+  title: Stratonovich Integration
+  url: https://doi.org/10.1201/9781003484912-6
+- source_id: crossref_search:67a8be2079171cd4
+  url: https://doi.org/10.1201/9781003484912-6
+  title: Stratonovich Integration
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title: Stratonovich Integration'
+  - 'published year: 2025'
+  - 'container title: Theory of Stochastic Integrals'
+  short_quote: 'Crossref title: Stratonovich Integration published year: 2025 container title: Theory of Stochastic Integrals'
+  digest: 8449d21cb74be9bd
+- source_id: wikidata:7fcf66f6f0b3c8ba
+  url: http://www.wikidata.org/entity/Q846780
+  title: Kalman filter
+  source_type: wikidata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - Kalman filter
+  - algorithm that estimates unknowns from a series of measurements over time
+  short_quote: Kalman filter algorithm that estimates unknowns from a series of measurements over time
+  digest: 5f47234bb26ac061
+web_query_attempts:
+- cycle: 1
+  query: Stratonovich
+  source_family: algorithm_wiki_local
+  url_or_api_endpoint: ''
+  status: fetched
+  new_facts_added: 6
+  reason: local metadata
+- cycle: 1
+  query: Stratonovich
+  source_family: local_previous_cache
+  url_or_api_endpoint: ''
+  status: duplicate
+  new_facts_added: 0
+  reason: previous v1/second-pass sources reused
+- cycle: 1
+  query: Stratonovich
+  source_family: original_source
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: no original source link
+- cycle: 1
+  query: Stratonovich
+  source_family: crossref
+  url_or_api_endpoint: https://doi.org/10.1201/9781003484912-6
+  status: irrelevant
+  new_facts_added: 0
+  reason: Crossref metadata/title search
+- cycle: 1
+  query: Stratonovich
+  source_family: arxiv
+  url_or_api_endpoint: https://export.arxiv.org/api/query?max_results=1&search_query=ti:%22Stratonovich%22
+  status: no_result
+  new_facts_added: 0
+  reason: arXiv title search returned no usable entry
+- cycle: 1
+  query: Stratonovich
+  source_family: wikipedia
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: Wikipedia search returned no relevant page
+- cycle: 2
+  query: Stratonovich
+  source_family: openalex
+  url_or_api_endpoint: https://api.openalex.org/works?per-page=1&search=Stratonovich
+  status: no_result
+  new_facts_added: 0
+  reason: OpenAlex returned no usable work
+- cycle: 2
+  query: Stratonovich
+  source_family: semantic_scholar
+  url_or_api_endpoint: https://api.semanticscholar.org/graph/v1/paper/search?limit=1&fields=title,abstract,year,url,externalIds&query=Stratonovich
+  status: fetch_failed
+  new_facts_added: 0
+  reason: Semantic Scholar returned no usable paper
+- cycle: 2
+  query: Stratonovich
+  source_family: dblp
+  url_or_api_endpoint: https://dblp.org/search/publ/api?format=json&h=1&q=Stratonovich
+  status: no_result
+  new_facts_added: 0
+  reason: DBLP returned no usable publication
+- cycle: 2
+  query: Stratonovich
+  source_family: publisher_abstract
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: no applicable publisher abstract URL
+- cycle: 2
+  query: Stratonovich
+  source_family: wikidata
+  url_or_api_endpoint: http://www.wikidata.org/entity/Q846780
+  status: fetched
+  new_facts_added: 4
+  reason: Wikidata entity search
+extracted_problem_statement: 'Stratonovich is treated as a source-saturated AlgorithmWiki row for estimate a latent state from a process model and noisy observations Input semantics: A state-transition model, observation model, covariance/noise parameters, and a sequence of measurements. Output semantics: A filtered or predicted state estimate, usually with covariance or uncertainty information.'
+extracted_algorithm_summary: 'Stratonovich is reconstructed as a classical numerical analysis task. The source-backed title/name/fact record supports the task: estimate a latent state from a process model and noisy observations.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

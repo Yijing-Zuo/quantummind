@@ -1,0 +1,65 @@
+id: AW-000125
+kind: context
+algorithm_id: AW-000125
+algorithm_name: Alon Moshkovitz & Safra
+source_records:
+- access_status: metadata_only
+  digest: 1054b228e0abc9e4
+  extracted_facts:
+  - 'AlgorithmWiki row name: Alon Moshkovitz & Safra'
+  - 'domain: unknown'
+  - 'time complexity: O(n \log n)'
+  - 'parameter definitions: n: number of elements in the universe'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000125:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Alon Moshkovitz & Safra
+  url: https://dl.acm.org/doi/pdf/10.1145/1150334.1150336
+- access_status: fetched
+  digest: e8e71d9c7a935f34
+  extracted_facts:
+  - 'DOI title: Algorithmic construction of sets for
+
+    <i>k</i>
+
+    -restrictions'
+  - 'published year: 2006'
+  - 'container title: ACM Transactions on Algorithms'
+  - 'abstract summary: positions and every demand, there must be at least one string in the list that satisfies the demand at these positions.'
+  reliability: HIGH
+  short_quote: positions and every demand, there must be at least one string in the list that satisfies the demand at these positions.
+  source_id: crossref:7eb402379ec01bb0
+  source_type: doi_metadata
+  title: 'Algorithmic construction of sets for
+
+    <i>k</i>
+
+    -restrictions'
+  url: https://doi.org/10.1145/1150334.1150336
+web_query_attempts:
+- method: search_plan
+  query: Alon Moshkovitz & Safra algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Alon Moshkovitz & Safra algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Alon Moshkovitz & Safra problem definition
+  status: recorded
+- method: search_plan
+  query: Alon Moshkovitz & Safra site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Alon Moshkovitz & Safra algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://dl.acm.org/doi/pdf/10.1145/1150334.1150336
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1145/1150334.1150336
+  status: fetched
+extracted_problem_statement: 'Alon Moshkovitz & Safra is treated as a classical string task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Alon Moshkovitz & Safra. Input semantics: One or more finite strings, sequences, patterns, or alphabets. Output semantics: The requested string matching, alignment, indexing, distance, or transformation result.'
+extracted_algorithm_summary: 'Alon Moshkovitz & Safra is a string algorithm record. Classical complexity metadata: time O(n \log n). Public metadata/source text adds: Alon Moshkovitz & Safra unknown unknown n: number of elements in the universe O(n \log n) No public-ready summary is available because the row lacks enough task semantics.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

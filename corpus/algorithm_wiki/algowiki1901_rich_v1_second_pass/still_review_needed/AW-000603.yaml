@@ -1,0 +1,36 @@
+algorithm_id: AW-000603
+canonical_name: 5-point FFT
+enrichment_status: SECOND_PASS_INSUFFICIENT
+review_reasons:
+- No second-pass rule could identify source-backed task semantics.
+source_records:
+- access_status: metadata_only
+  digest: 31ca4899bc050afc
+  extracted_facts:
+  - 'AlgorithmWiki row name: 5-point FFT'
+  - 'domain: unknown'
+  - 'time complexity: O(n^2 \log n)'
+  - 'space complexity: O(n^2)'
+  - 'computational model: Real RAM'
+  - 'parameter definitions: n: dimension of grid (where grid is discretized)'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000603:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for 5-point FFT
+  url: ''
+- source_id: crossref_search:2d7daf81eb0133fe
+  url: https://doi.org/10.46610/josh.2021.v06i02.002
+  title: 8 Point DIT-FFT Algorithm Using Verilog
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: 8 Point DIT-FFT Algorithm Using Verilog'
+  - 'abstract summary: The importance of Digital Signal method (DSP) algorithms has increased drastically in recent times, the two very important techniques of DSP unit the Distinct Fourier rework (DFT) and thus the fast Fourier rework (FFT).'
+  short_quote: The importance of Digital Signal method (DSP) algorithms has increased drastically in recent times, the two very important techniques of DSP unit the Distinct
+  digest: 966f158c36194a96
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

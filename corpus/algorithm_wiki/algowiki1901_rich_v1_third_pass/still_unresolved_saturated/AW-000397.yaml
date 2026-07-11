@@ -1,0 +1,71 @@
+algorithm_id: AW-000397
+canonical_name: srba
+enrichment_status: THIRD_PASS_SATURATED_INSUFFICIENT
+review_reasons:
+- After the configured source-family cycles, no source-backed concrete task, input semantics, output semantics, and conservative access model could be established.
+source_records:
+- access_status: metadata_only
+  digest: 25ad13cb427cbf1d
+  extracted_facts:
+  - 'AlgorithmWiki row name: srba'
+  - 'domain: unknown'
+  - 'time complexity: O(n^2)'
+  - 'space complexity: O(n^2)'
+  - 'computational model: Real RAM'
+  - 'parameter definitions: n: number of dimensions in state space'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000397:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for srba
+  url: http://ingmec.ual.es/~jlblanco/papers/blanco2013rba.pdf
+- access_status: fetched
+  digest: efd09763a154cf5a
+  extracted_facts:
+  - 'Crossref title-search result: DOBROVOLjNA ASIMILACIJA SRBA ?'
+  - "abstract summary: Posle svih nepravdi koje su me\u0111unarodni faktori, pre svega ratni neprijatelji, ali i kasniji mirotvorci, u\u010Dinili srpskom narodu u dva svetska rata, u planiranom razbijanju SFRJ \u2013 medijskom harangom, sankcijama i agresijom NATO na SRJ i Srbiju, jasno je da tada, pa ni danas nije bilo lako biti Srbin."
+  reliability: MEDIUM
+  short_quote: "Posle svih nepravdi koje su me\u0111unarodni faktori, pre svega ratni neprijatelji, ali i kasniji mirotvorci, u\u010Dinili srpskom narodu u dva svetska rata, u planiranom"
+  source_id: crossref_search:f73921012cda7002
+  source_type: doi_metadata
+  title: DOBROVOLjNA ASIMILACIJA SRBA ?
+  url: https://doi.org/10.22182/ni.4022021.6
+- source_id: skipped:def5658919c04ed0
+  url: http://ingmec.ual.es/~jlblanco/papers/blanco2013rba.pdf
+  title: public PDF body was not downloaded
+  source_type: original_source
+  access_status: skipped
+  reliability: LOW
+  extracted_facts:
+  - public PDF body was not downloaded
+  short_quote: public PDF body was not downloaded
+  digest: c8ad20d300839e4f
+- source_id: crossref_search:c1044b94394b998f
+  url: https://doi.org/10.22182/ni.4022021.6
+  title: DOBROVOLjNA ASIMILACIJA SRBA ?
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title: DOBROVOLjNA ASIMILACIJA SRBA ?'
+  - 'published year: 2021'
+  - 'container title: Nacionalni interes'
+  - "abstract summary: Posle svih nepravdi koje su me\u0111unarodni faktori, pre svega ratni neprijatelji, ali i kasniji mirotvorci, u\u010Dinili srpskom narodu u dva svetska rata, u planiranom razbijanju SFRJ \u2013 medijskom harangom, sankcijama i agresijom NATO na SRJ i Srbiju, jasno je da tada, pa ni danas nije bilo lako biti Srbin."
+  short_quote: "Crossref title: DOBROVOLjNA ASIMILACIJA SRBA ? published year: 2021 container title: Nacionalni interes abstract summary: Posle svih nepravdi koje su me\u0111unarodni faktori, pre svega"
+  digest: c0a61f7028f804e3
+- source_id: openalex:25d66ad3d8ad8426
+  url: https://openalex.org/W2071848825
+  title: ChIP-seq and In Vivo Transcriptome Analyses of the Aspergillus fumigatus SREBP SrbA Reveals a New Regulator of the Fungal Hypoxia Response and Virulence
+  source_type: openalex
+  access_status: fetched
+  reliability: HIGH
+  extracted_facts:
+  - 'OpenAlex title: ChIP-seq and In Vivo Transcriptome Analyses of the Aspergillus fumigatus SREBP SrbA Reveals a New Regulator of the Fungal Hypoxia Response and Virulence'
+  - 'publication year: 2014'
+  - 'abstract summary: The Aspergillus fumigatus sterol regulatory element binding protein (SREBP) SrbA belongs to the basic Helix-Loop-Helix (bHLH) family of transcription factors and is crucial for antifungal drug resistance and virulence.'
+  short_quote: 'OpenAlex title: ChIP-seq and In Vivo Transcriptome Analyses of the Aspergillus fumigatus SREBP SrbA Reveals a New Regulator of the Fungal Hypoxia Response and'
+  digest: 1ca564423f13dc19
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

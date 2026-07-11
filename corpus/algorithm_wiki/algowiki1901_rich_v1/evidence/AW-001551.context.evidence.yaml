@@ -1,0 +1,58 @@
+id: AW-001551
+kind: context
+algorithm_id: AW-001551
+algorithm_name: Chong, Han, Igarashi, Lam (2)
+source_records:
+- access_status: metadata_only
+  digest: 28ba2ba66e0025cc
+  extracted_facts:
+  - 'AlgorithmWiki row name: Chong, Han, Igarashi, Lam (2)'
+  - 'domain: graph'
+  - 'time complexity: O(\log n)'
+  - 'computational model: CRCW PRAM'
+  - 'parameter definitions: n: number of nodes, m: number of edges'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(\log n); work O((m+n)*\log \log n); span/depth O(log n); processors O((m+n)*log log n/log n). Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001551:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Chong, Han, Igarashi, Lam (2)
+  url: https://www.sciencedirect.com/science/article/pii/S0166218X02005607
+- access_status: skipped
+  digest: 47182b1dec882a6a
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:6831f8748c5173bf
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://www.sciencedirect.com/science/article/pii/S0166218X02005607
+web_query_attempts:
+- method: search_plan
+  query: Chong, Han, Igarashi, Lam (2) algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Chong, Han, Igarashi, Lam (2) algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Chong, Han, Igarashi, Lam (2) problem definition
+  status: recorded
+- method: search_plan
+  query: Chong, Han, Igarashi, Lam (2) graph algorithm
+  status: recorded
+- method: search_plan
+  query: Chong, Han, Igarashi, Lam (2) site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Chong, Han, Igarashi, Lam (2) algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://www.sciencedirect.com/science/article/pii/S0166218X02005607
+  status: recorded
+- method: source_link_html_metadata
+  query: https://www.sciencedirect.com/science/article/pii/S0166218X02005607
+  status: skipped
+extracted_problem_statement: 'Chong, Han, Igarashi, Lam (2) is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Chong, Han, Igarashi, Lam (2). Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'Chong, Han, Igarashi, Lam (2) is a graph algorithm record. Classical complexity metadata: time O(\log n); work O((m+n)*\log \log n); span/depth O(log n); processors O((m+n)*log log n/log n). The stated classical model is CRCW PRAM. Public metadata/source text adds: Chong, Han, Igarashi, Lam (2) graph graph n: number of nodes, m: number of edges O(\log n) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

@@ -1,0 +1,58 @@
+id: AW-001568
+kind: context
+algorithm_id: AW-001568
+algorithm_name: Blelloch, Gu, Shun, Sun
+source_records:
+- access_status: metadata_only
+  digest: 1079dc635eb6d116
+  extracted_facts:
+  - 'AlgorithmWiki row name: Blelloch, Gu, Shun, Sun'
+  - 'domain: parallel_algorithms'
+  - "time complexity: O(\\log n \\log^\u2217 n) whp"
+  - 'computational model: ARBITRARY CRCW PRAM'
+  - 'parameter definitions: n: number of points'
+  - "precard summary: Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model. Baseline: time O(\\log n \\log^\u2217 n) whp; work O(n) expected; span/depth O(log n log^\u2217 n) whp. Bottleneck: work, span, communication, and processor-count assumptions dominate."
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001568:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Blelloch, Gu, Shun, Sun
+  url: https://dl.acm.org/doi/pdf/10.1145/3402819
+- access_status: skipped
+  digest: 00a9f28b51caeca7
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:d7a485522bac27d8
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1145/3402819
+web_query_attempts:
+- method: search_plan
+  query: Blelloch, Gu, Shun, Sun algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Blelloch, Gu, Shun, Sun algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Blelloch, Gu, Shun, Sun problem definition
+  status: recorded
+- method: search_plan
+  query: Blelloch, Gu, Shun, Sun parallel algorithms algorithm
+  status: recorded
+- method: search_plan
+  query: Blelloch, Gu, Shun, Sun site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Blelloch, Gu, Shun, Sun algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://dl.acm.org/doi/pdf/10.1145/3402819
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1145/3402819
+  status: skipped
+extracted_problem_statement: 'Blelloch, Gu, Shun, Sun is treated as a classical parallel algorithms task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Blelloch, Gu, Shun, Sun. Input semantics: The classical input instance named by the row, together with processor/work/span parameters when stated. Output semantics: The same mathematical output as the underlying classical task, annotated by work/span when available.'
+extracted_algorithm_summary: "Blelloch, Gu, Shun, Sun is a parallel algorithms algorithm record. Classical complexity metadata: time O(\\log n \\log^\u2217 n) whp; work O(n) expected; span/depth O(log n log^\u2217 n) whp. The stated classical model is ARBITRARY CRCW PRAM. Public metadata/source text adds: Blelloch, Gu, Shun, Sun parallel_algorithms parallel_algorithms n: number of points O(\\log n \\log^\u2217 n) whp Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model."
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

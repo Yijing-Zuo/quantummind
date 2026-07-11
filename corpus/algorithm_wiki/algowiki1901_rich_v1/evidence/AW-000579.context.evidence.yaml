@@ -1,0 +1,75 @@
+id: AW-000579
+kind: context
+algorithm_id: AW-000579
+algorithm_name: K Riesen
+source_records:
+- access_status: metadata_only
+  digest: 3b9dea0affe4b2f9
+  extracted_facts:
+  - 'AlgorithmWiki row name: K Riesen'
+  - 'domain: graph'
+  - 'time complexity: O(V^2)'
+  - 'space complexity: O(V)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: V: number of vertices in the larger of the two graphs'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(V^2); space O(V). Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000579:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for K Riesen
+  url: https://doi.org/10.1007/978-3-642-38221-5_15
+- access_status: fetched
+  digest: e150af228e708315
+  extracted_facts:
+  - 'DOI title: A Novel Software Toolkit for Graph Edit Distance Computation'
+  - 'published year: 2013'
+  - 'container title: Lecture Notes in Computer Science'
+  reliability: HIGH
+  short_quote: ''
+  source_id: crossref:ddf0814d334365df
+  source_type: doi_metadata
+  title: A Novel Software Toolkit for Graph Edit Distance Computation
+  url: https://doi.org/10.1007/978-3-642-38221-5_15
+- access_status: fetched
+  digest: 9c6deed4147fcb47
+  extracted_facts:
+  - 'source page title: A Novel Software Toolkit for Graph Edit Distance Computation | Springer Nature Link'
+  - 'source page description: Graph edit distance is one of the most flexible mechanisms for error-tolerant graph matching.'
+  reliability: HIGH
+  short_quote: Graph edit distance is one of the most flexible mechanisms for error-tolerant graph matching.
+  source_id: source:f400a94c53c6ab7f
+  source_type: doi_metadata
+  title: A Novel Software Toolkit for Graph Edit Distance Computation | Springer Nature Link
+  url: https://doi.org/10.1007/978-3-642-38221-5_15
+web_query_attempts:
+- method: search_plan
+  query: K Riesen algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: K Riesen algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: K Riesen problem definition
+  status: recorded
+- method: search_plan
+  query: K Riesen graph algorithm
+  status: recorded
+- method: search_plan
+  query: K Riesen site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: K Riesen algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://doi.org/10.1007/978-3-642-38221-5_15
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1007/978-3-642-38221-5_15
+  status: fetched
+- method: source_link_html_metadata
+  query: https://doi.org/10.1007/978-3-642-38221-5_15
+  status: fetched
+extracted_problem_statement: 'K Riesen is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with K Riesen. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: An edit-distance value, alignment, or dynamic-programming table information for the input strings.'
+extracted_algorithm_summary: 'K Riesen is a graph algorithm record. Classical complexity metadata: time O(V^2); space O(V). The stated classical model is Word RAM. Public metadata/source text adds: K Riesen graph graph V: number of vertices in the larger of the two graphs O(V^2) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

@@ -1,0 +1,19 @@
+case_id: QM-PB-001
+title: "A fast quantum mechanical algorithm for database search"
+authors: [Lov K. Grover]
+year: 1996
+venue: "STOC 1996 / arXiv"
+official_url: "https://arxiv.org/abs/quant-ph/9605043"
+result_location: "abstract and STOC result statement"
+result_type: upper_bound
+paraphrased_support: "The paper gives O(sqrt(N)) oracle search for an unordered database and notes classical search needs linear queries."
+problem_model: "black-box predicate search"
+promise: "at least one marked item, query access"
+access_model: coherent_boolean_oracle
+output_contract: one_witness
+classical_complexity: "CLASSICAL: Theta(N/M) query scale for unstructured marked-item search"
+quantum_complexity: "QUERY: O(sqrt(N/M)) with coherent oracle access"
+claim_scope: QUERY
+caveats: [coherent Boolean oracle, query-level only]
+source_status: PRIMARY_SOURCE_CHECKED
+

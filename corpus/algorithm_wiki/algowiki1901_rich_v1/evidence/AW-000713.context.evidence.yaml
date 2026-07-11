@@ -1,0 +1,60 @@
+id: AW-000713
+kind: context
+algorithm_id: AW-000713
+algorithm_name: Gusfield
+source_records:
+- access_status: metadata_only
+  digest: e8f05d7d078dec4d
+  extracted_facts:
+  - 'AlgorithmWiki row name: Gusfield'
+  - 'domain: string'
+  - 'time complexity: O(n)'
+  - 'space complexity: O(n)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: length of given string'
+  - 'precard summary: Given one or more explicit strings, compute the matching, indexing, alignment, or transformation output targeted by the record. Baseline: time O(n); space O(n). Bottleneck: string scanning, preprocessing tables, and reporting matches dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000713:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Gusfield
+  url: https://www.cambridge.org/core/books/algorithms-on-strings-trees-and-sequences/F0B095049C7E6EF5356F0A26686C20D3
+- access_status: fetched
+  digest: c771ff0bab68db14
+  extracted_facts:
+  - 'source page title: Algorithms on Strings, Trees, and Sequences'
+  - 'source page description: Cambridge Core - Algorithmics, Complexity, Computer Algebra, Computational Geometry - Algorithms on Strings, Trees, and Sequences'
+  reliability: LOW
+  short_quote: Cambridge Core - Algorithmics, Complexity, Computer Algebra, Computational Geometry - Algorithms on Strings, Trees, and Sequences
+  source_id: source:51d6f2e0ef117192
+  source_type: other_public_source
+  title: Algorithms on Strings, Trees, and Sequences
+  url: https://www.cambridge.org/core/books/algorithms-on-strings-trees-and-sequences/F0B095049C7E6EF5356F0A26686C20D3
+web_query_attempts:
+- method: search_plan
+  query: Gusfield algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Gusfield algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Gusfield problem definition
+  status: recorded
+- method: search_plan
+  query: Gusfield string algorithm
+  status: recorded
+- method: search_plan
+  query: Gusfield site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Gusfield algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://www.cambridge.org/core/books/algorithms-on-strings-trees-and-sequences/F0B095049C7E6EF5356F0A26686C20D3
+  status: recorded
+- method: source_link_html_metadata
+  query: https://www.cambridge.org/core/books/algorithms-on-strings-trees-and-sequences/F0B095049C7E6EF5356F0A26686C20D3
+  status: fetched
+extracted_problem_statement: 'Gusfield is treated as a classical string task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Gusfield. Input semantics: One or more finite strings, sequences, patterns, or alphabets. Output semantics: Pattern occurrence positions, matches, or the associated string-search report.'
+extracted_algorithm_summary: 'Gusfield is a string algorithm record. Classical complexity metadata: time O(n); space O(n). The stated classical model is Word RAM. Public metadata/source text adds: Gusfield string string n: length of given string O(n) Given one or more explicit strings, compute the matching, indexing, alignment, or transformation output targeted by the record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

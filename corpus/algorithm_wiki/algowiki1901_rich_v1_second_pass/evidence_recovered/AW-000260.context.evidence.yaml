@@ -1,0 +1,84 @@
+id: AW-000260
+kind: context_recovered
+algorithm_id: AW-000260
+algorithm_name: Harvey Hoeven Lecerf
+source_records:
+- access_status: metadata_only
+  digest: bcac9be074001d9f
+  extracted_facts:
+  - 'AlgorithmWiki row name: Harvey Hoeven Lecerf'
+  - 'domain: unknown'
+  - 'time complexity: O(n \log n 2^{3 \log^*n})'
+  - 'space complexity: O(n) auxiliary'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: length of one of the integers, in bits'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000260:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Harvey Hoeven Lecerf
+  url: https://arxiv.org/abs/1407.3360
+- access_status: fetched
+  digest: 5701f498c0fd8206
+  extracted_facts:
+  - 'arXiv title: Even faster integer multiplication'
+  - "abstract summary: We give a new proof of F\xFCrer's bound for the cost of multiplying n-bit integers in the bit complexity model."
+  reliability: HIGH
+  short_quote: "We give a new proof of F\xFCrer's bound for the cost of multiplying n-bit integers in the bit complexity model."
+  source_id: arxiv:1407.3360
+  source_type: arxiv_abstract
+  title: Even faster integer multiplication
+  url: https://arxiv.org/abs/1407.3360
+- access_status: fetched
+  digest: 65ad231261ff8b4a
+  extracted_facts:
+  - 'source page title: [1407.3360] Even faster integer multiplication'
+  - 'source page description: Abstract page for arXiv paper 1407.3360: Even faster integer multiplication'
+  reliability: HIGH
+  short_quote: 'Abstract page for arXiv paper 1407.3360: Even faster integer multiplication'
+  source_id: source:ba0dc256ee8ab6ed
+  source_type: arxiv_abstract
+  title: '[1407.3360] Even faster integer multiplication'
+  url: https://arxiv.org/abs/1407.3360
+- source_id: crossref_search:b2823657ab0141bd
+  url: https://doi.org/10.1016/j.jco.2016.03.001
+  title: Even faster integer multiplication
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: Even faster integer multiplication'
+  short_quote: ''
+  digest: 16f659e3d8e05d25
+web_query_attempts:
+- query: '"Harvey Hoeven Lecerf" algorithm'
+  method: search_plan
+  status: recorded
+- query: '"Harvey Hoeven Lecerf" input output'
+  method: search_plan
+  status: recorded
+- query: '"Harvey Hoeven Lecerf" time complexity'
+  method: search_plan
+  status: recorded
+- query: '"Harvey Hoeven Lecerf" pseudocode'
+  method: search_plan
+  status: recorded
+- query: '"Harvey Hoeven Lecerf" problem'
+  method: search_plan
+  status: recorded
+- query: '"Harvey Hoeven Lecerf" PDF metadata abstract'
+  method: search_plan
+  status: recorded
+- query: '"Even faster integer multiplication" algorithm'
+  method: search_plan
+  status: recorded
+- query: https://arxiv.org/abs/1407.3360
+  method: search_plan
+  status: recorded
+- query: Even faster integer multiplication algorithm
+  method: crossref_title_search
+  status: fetched
+extracted_problem_statement: 'Harvey Hoeven Lecerf is reconstructed as a classical combinatorics task. Problem/task: multiply large integers Input semantics: Two integers represented by n-bit or n-limb strings. Output semantics: The exact product integer.'
+extracted_algorithm_summary: 'Harvey Hoeven Lecerf is treated as the named AlgorithmWiki variant for multiply large integers Classical complexity metadata: time O(n \log n 2^{3 \log^*n}); space O(n) auxiliary. Public metadata/source title support includes Even faster integer multiplication.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

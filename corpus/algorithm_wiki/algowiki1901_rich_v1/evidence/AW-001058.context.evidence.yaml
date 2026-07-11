@@ -1,0 +1,58 @@
+id: AW-001058
+kind: context
+algorithm_id: AW-001058
+algorithm_name: Parallel enumeration sorting scheme - Yasuura et al.
+source_records:
+- access_status: metadata_only
+  digest: 694ac77c77eb8639
+  extracted_facts:
+  - 'AlgorithmWiki row name: Parallel enumeration sorting scheme - Yasuura et al.'
+  - 'domain: sorting'
+  - 'time complexity: 2n'
+  - 'computational model: hardware sorter'
+  - 'parameter definitions: n: size of list (has integer keys, binary representation)'
+  - 'precard summary: Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model. Baseline: time 2n; work O(n^2); span/depth O(n); processors n. Bottleneck: comparison, distribution, and full-output movement costs dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001058:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Parallel enumeration sorting scheme - Yasuura et al.
+  url: https://ieeexplore.ieee.org/abstract/document/1675943
+- access_status: skipped
+  digest: 9a041e152025df17
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:429f0494fb073600
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://ieeexplore.ieee.org/abstract/document/1675943
+web_query_attempts:
+- method: search_plan
+  query: Parallel enumeration sorting scheme - Yasuura et al. algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Parallel enumeration sorting scheme - Yasuura et al. algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Parallel enumeration sorting scheme - Yasuura et al. problem definition
+  status: recorded
+- method: search_plan
+  query: Parallel enumeration sorting scheme - Yasuura et al. sorting algorithm
+  status: recorded
+- method: search_plan
+  query: Parallel enumeration sorting scheme - Yasuura et al. site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Parallel enumeration sorting scheme - Yasuura et al. algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://ieeexplore.ieee.org/abstract/document/1675943
+  status: recorded
+- method: source_link_html_metadata
+  query: https://ieeexplore.ieee.org/abstract/document/1675943
+  status: skipped
+extracted_problem_statement: 'Parallel enumeration sorting scheme - Yasuura et al. is treated as a classical sorting task for rich AlgorithmWiki discovery. Problem/task: sort the input sequence using the named classical sorting method. Input semantics: A finite array or list of comparable keys or records. Output semantics: The same items returned in nondecreasing order, usually as a full reordered sequence.'
+extracted_algorithm_summary: 'Parallel enumeration sorting scheme - Yasuura et al. is a sorting algorithm record. Classical complexity metadata: time 2n; work O(n^2); span/depth O(n); processors n. The stated classical model is hardware sorter. Public metadata/source text adds: Parallel enumeration sorting scheme - Yasuura et al.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

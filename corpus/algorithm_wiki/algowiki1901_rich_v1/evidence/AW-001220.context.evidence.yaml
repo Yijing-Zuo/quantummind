@@ -1,0 +1,45 @@
+id: AW-001220
+kind: context
+algorithm_id: AW-001220
+algorithm_name: Zhang, Zheng
+source_records:
+- access_status: metadata_only
+  digest: e528ce2cd62c71c6
+  extracted_facts:
+  - 'AlgorithmWiki row name: Zhang, Zheng'
+  - 'domain: sorting'
+  - 'time complexity: O(n/p \log p)'
+  - 'computational model: (fixed-size) sorting network'
+  - 'parameter definitions: n: size of list, p: number of queues =number of processors'
+  - 'precard summary: Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model. Baseline: time O(n/p \log p); work O(n \log p); span/depth O(log n); processors p. Bottleneck: comparison, distribution, and full-output movement costs dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001220:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Zhang, Zheng
+  url: https://downloads.hindawi.com/archive/2000/014617.pdf
+web_query_attempts:
+- method: search_plan
+  query: Zhang, Zheng algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Zhang, Zheng algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Zhang, Zheng problem definition
+  status: recorded
+- method: search_plan
+  query: Zhang, Zheng sorting algorithm
+  status: recorded
+- method: search_plan
+  query: Zhang, Zheng site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Zhang, Zheng algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://downloads.hindawi.com/archive/2000/014617.pdf
+  status: recorded
+extracted_problem_statement: 'Zhang, Zheng is treated as a classical sorting task for rich AlgorithmWiki discovery. Problem/task: sort the input sequence using the named classical sorting method. Input semantics: A finite array or list of comparable keys or records. Output semantics: The same items returned in nondecreasing order, usually as a full reordered sequence.'
+extracted_algorithm_summary: 'Zhang, Zheng is a sorting algorithm record. Classical complexity metadata: time O(n/p \log p); work O(n \log p); span/depth O(log n); processors p. The stated classical model is (fixed-size) sorting network. Public metadata/source text adds: Zhang, Zheng sorting sorting n: size of list, p: number of queues =number of processors O(n/p \log p) Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

@@ -1,0 +1,49 @@
+algorithm_id: AW-000908
+canonical_name: Chan
+enrichment_status: WEB_INSUFFICIENT
+review_reasons:
+- missing_concrete_problem_statement
+- unknown_input_model
+- unknown_output_contract
+- unknown_access_model
+source_records:
+- access_status: metadata_only
+  digest: 54105aefdb3fb7ea
+  extracted_facts:
+  - 'AlgorithmWiki row name: Chan'
+  - 'domain: unknown'
+  - 'time complexity: O(n^3 * (log w)^3 / (w * log^2 n))'
+  - 'computational model: Word RAM with word size w > log n'
+  - 'parameter definitions: n: dimension of the two square matrices, w: size of word'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000908:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Chan
+  url: https://epubs.siam.org/doi/abs/10.1137/1.9781611973730.16
+- access_status: fetched
+  digest: 88a12a7ac0e50f52
+  extracted_facts:
+  - 'DOI title: Speeding up the Four Russians Algorithm by About One More Logarithmic Factor'
+  - 'published year: 2015'
+  - 'container title: Proceedings of the Twenty-Sixth Annual ACM-SIAM Symposium on Discrete Algorithms'
+  reliability: HIGH
+  short_quote: ''
+  source_id: crossref:b7a05501b62dc8e4
+  source_type: doi_metadata
+  title: Speeding up the Four Russians Algorithm by About One More Logarithmic Factor
+  url: https://doi.org/10.1137/1.9781611973730.16
+- access_status: failed
+  digest: 5c2a9782d88de754
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:e12487e6dfc435ac
+  source_type: publisher_abstract
+  title: 'HTTP Error 403: Forbidden'
+  url: https://epubs.siam.org/doi/abs/10.1137/1.9781611973730.16
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

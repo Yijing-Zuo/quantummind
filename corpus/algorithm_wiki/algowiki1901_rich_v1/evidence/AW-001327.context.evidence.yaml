@@ -1,0 +1,58 @@
+id: AW-001327
+kind: context
+algorithm_id: AW-001327
+algorithm_name: Tchendji, Tepiele, Onabid, Myoupo
+source_records:
+- access_status: metadata_only
+  digest: 646b13932bca0b1b
+  extracted_facts:
+  - 'AlgorithmWiki row name: Tchendji, Tepiele, Onabid, Myoupo'
+  - 'domain: string'
+  - 'time complexity: O((mnr + (m+n)|\sigma|)/p + p)'
+  - 'computational model: CGM/BSP'
+  - 'parameter definitions: m,n: substring lengths, p: number of processors, \sigma: alphabet, r: total length of constraint sequence strings'
+  - 'precard summary: Given one or more explicit strings, compute the matching, indexing, alignment, or transformation output targeted by the record. Baseline: time O((mnr + (m+n)|\sigma|)/p + p); work O(mnr+(m+n)|\sigma|); span/depth O(sqrt(mnr + (m+n)|\sigma|)); processors p<=O(sqrt(mnr + (m+n)|\sigma|)). Bottleneck: string scanning, preprocessing tables, and reporting matches dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001327:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Tchendji, Tepiele, Onabid, Myoupo
+  url: https://www.sciencedirect.com/science/article/pii/S016781912200028X
+- access_status: skipped
+  digest: 6e3cef7c3ef725f3
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:49e947b0a5c8303c
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://www.sciencedirect.com/science/article/pii/S016781912200028X
+web_query_attempts:
+- method: search_plan
+  query: Tchendji, Tepiele, Onabid, Myoupo algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Tchendji, Tepiele, Onabid, Myoupo algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Tchendji, Tepiele, Onabid, Myoupo problem definition
+  status: recorded
+- method: search_plan
+  query: Tchendji, Tepiele, Onabid, Myoupo string algorithm
+  status: recorded
+- method: search_plan
+  query: Tchendji, Tepiele, Onabid, Myoupo site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Tchendji, Tepiele, Onabid, Myoupo algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://www.sciencedirect.com/science/article/pii/S016781912200028X
+  status: recorded
+- method: source_link_html_metadata
+  query: https://www.sciencedirect.com/science/article/pii/S016781912200028X
+  status: skipped
+extracted_problem_statement: 'Tchendji, Tepiele, Onabid, Myoupo is treated as a classical string task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Tchendji, Tepiele, Onabid, Myoupo. Input semantics: One or more finite strings, sequences, patterns, or alphabets. Output semantics: Pattern occurrence positions, matches, or the associated string-search report.'
+extracted_algorithm_summary: 'Tchendji, Tepiele, Onabid, Myoupo is a string algorithm record. Classical complexity metadata: time O((mnr + (m+n)|\sigma|)/p + p); work O(mnr+(m+n)|\sigma|); span/depth O(sqrt(mnr + (m+n)|\sigma|)); processors p<=O(sqrt(mnr + (m+n)|\sigma|)). The stated classical model is CGM/BSP. Public metadata/source text adds: Tchendji, Tepiele, Onabid, Myoupo string string m,n: substring lengths, p: number of processors, \sigma: alphabet, r: total length of constraint sequence strings O((mnr + (m+n)|\sigma|)/p + p) Given one or more explicit strings, compute the matching, indexing, alignment, or transformation output targeted by the record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

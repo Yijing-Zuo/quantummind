@@ -1,0 +1,86 @@
+id: AW-000266
+kind: context_recovered
+algorithm_id: AW-000266
+algorithm_name: Taubenfeld's black-white bakery algorithm
+source_records:
+- access_status: metadata_only
+  digest: 12d67a7e15f979a7
+  extracted_facts:
+  - 'AlgorithmWiki row name: Taubenfeld''s black-white bakery algorithm'
+  - 'domain: unknown'
+  - 'time complexity: O(n)'
+  - 'space complexity: O(1) per process, O(n) total'
+  - 'parameter definitions: n: number of processes'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000266:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Taubenfeld's black-white bakery algorithm
+  url: https://link.springer.com/chapter/10.1007/978-3-540-30186-8_5
+- access_status: fetched
+  digest: c786f1343e364a98
+  extracted_facts:
+  - 'DOI title: The Black-White Bakery Algorithm and Related Bounded-Space, Adaptive, Local-Spinning and FIFO Algorithms'
+  - 'published year: 2004'
+  - 'container title: Lecture Notes in Computer Science'
+  reliability: HIGH
+  short_quote: ''
+  source_id: crossref:2f0e3ccf62f28f8b
+  source_type: doi_metadata
+  title: The Black-White Bakery Algorithm and Related Bounded-Space, Adaptive, Local-Spinning and FIFO Algorithms
+  url: https://doi.org/10.1007/978-3-540-30186-8_5
+- access_status: skipped
+  digest: eb236c7d9439efd1
+  extracted_facts:
+  - robots.txt disallowed fetch
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:b70e7f99331d9f04
+  source_type: publisher_abstract
+  title: robots.txt disallowed fetch
+  url: https://link.springer.com/chapter/10.1007/978-3-540-30186-8_5
+- source_id: crossref_search:267e75ef64e56d0f
+  url: https://doi.org/10.1007/978-3-540-30186-8_5
+  title: The Black-White Bakery Algorithm and Related Bounded-Space, Adaptive, Local-Spinning and FIFO Algorithms
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: The Black-White Bakery Algorithm and Related Bounded-Space, Adaptive, Local-Spinning and FIFO Algorithms'
+  short_quote: ''
+  digest: 5917ffdd46778262
+web_query_attempts:
+- query: '"Taubenfeld''s black-white bakery algorithm" algorithm'
+  method: search_plan
+  status: recorded
+- query: '"Taubenfeld''s black-white bakery algorithm" input output'
+  method: search_plan
+  status: recorded
+- query: '"Taubenfeld''s black-white bakery algorithm" time complexity'
+  method: search_plan
+  status: recorded
+- query: '"Taubenfeld''s black-white bakery algorithm" pseudocode'
+  method: search_plan
+  status: recorded
+- query: '"Taubenfeld''s black-white bakery algorithm" problem'
+  method: search_plan
+  status: recorded
+- query: '"Taubenfeld''s black-white bakery algorithm" PDF metadata abstract'
+  method: search_plan
+  status: recorded
+- query: '"The Black-White Bakery Algorithm and Related Bounded-Space, Adaptive, Local-Spinning and FIFO Algorithms" algorithm'
+  method: search_plan
+  status: recorded
+- query: https://link.springer.com/chapter/10.1007/978-3-540-30186-8_5
+  method: search_plan
+  status: recorded
+- query: The Black-White Bakery Algorithm and Related Bounded-Space, Adaptive, Local-Spinning and FIFO Algorithms algorithm
+  method: crossref_title_search
+  status: fetched
+- query: Taubenfeld's black-white bakery algorithm algorithm
+  method: wikipedia_summary_search
+  status: failed_or_not_relevant
+extracted_problem_statement: 'Taubenfeld''s black-white bakery algorithm is reconstructed as a classical parallel algorithms task. Problem/task: coordinate process access to a critical section without simultaneous entry Input semantics: A set of processes, request/release events, and shared-memory or message-passing assumptions. Output semantics: A protocol state sequence or decision granting safe critical-section access.'
+extracted_algorithm_summary: 'Taubenfeld''s black-white bakery algorithm is treated as the named AlgorithmWiki variant for coordinate process access to a critical section without simultaneous entry Classical complexity metadata: time O(n); space O(1) per process, O(n) total. Public metadata/source title support includes The Black-White Bakery Algorithm and Related Bounded-Space, Adaptive, Local-Spinning and FIFO Algorithms.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

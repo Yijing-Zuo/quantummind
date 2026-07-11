@@ -1,0 +1,99 @@
+id: AW-000690-TP0136
+kind: probe_recovered
+algorithm_id: AW-000690
+algorithm_name: "Tomas Feder, Nimrod Megiddoy, Serge A\x01 Plotki"
+source_records:
+- access_status: metadata_only
+  digest: e9e94c4f85790d86
+  extracted_facts:
+  - "AlgorithmWiki row name: Tomas Feder, Nimrod Megiddoy, Serge A\x01 Plotki"
+  - 'domain: unknown'
+  - 'time complexity: O(n^{0.5})'
+  - 'space complexity: O(n^{0.5}) auxiliary per processor'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of men and number of women'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000690:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: "AlgorithmWiki metadata for Tomas Feder, Nimrod Megiddoy, Serge A\x01 Plotki"
+  url: http://theory.stanford.edu/~megiddo/pdf/soda94.pdf
+- access_status: fetched
+  digest: fa6133b168822216
+  extracted_facts:
+  - 'Crossref title-search result: Nimrod'
+  reliability: MEDIUM
+  short_quote: ''
+  source_id: crossref_search:8826929f74935b8c
+  source_type: doi_metadata
+  title: Nimrod
+  url: https://doi.org/10.1163/2589-7802_dddo_nimrod
+- source_id: skipped:a0998e5ed3dd7724
+  url: http://theory.stanford.edu/~megiddo/pdf/soda94.pdf
+  title: public PDF body was not downloaded
+  source_type: original_source
+  access_status: skipped
+  reliability: LOW
+  extracted_facts:
+  - public PDF body was not downloaded
+  short_quote: public PDF body was not downloaded
+  digest: c5c3b63576cd4db7
+- source_id: crossref_search:0776520fb3956111
+  url: https://doi.org/10.1163/2589-7802_dddo_nimrod
+  title: Nimrod
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title: Nimrod'
+  - 'published year: 2018'
+  - 'container title: Dictionary of Deities and Demons in the Bible Online'
+  short_quote: 'Crossref title: Nimrod published year: 2018 container title: Dictionary of Deities and Demons in the Bible Online'
+  digest: 212488d1d0e7d777
+web_query_attempts:
+- cycle: 1
+  query: "Tomas Feder, Nimrod Megiddoy, Serge A\x01 Plotki"
+  source_family: algorithm_wiki_local
+  url_or_api_endpoint: http://theory.stanford.edu/~megiddo/pdf/soda94.pdf
+  status: fetched
+  new_facts_added: 9
+  reason: local metadata
+- cycle: 1
+  query: "Tomas Feder, Nimrod Megiddoy, Serge A\x01 Plotki"
+  source_family: local_previous_cache
+  url_or_api_endpoint: ''
+  status: duplicate
+  new_facts_added: 0
+  reason: previous v1/second-pass sources reused
+- cycle: 1
+  query: http://theory.stanford.edu/~megiddo/pdf/soda94.pdf
+  source_family: original_source
+  url_or_api_endpoint: http://theory.stanford.edu/~megiddo/pdf/soda94.pdf
+  status: paywalled
+  new_facts_added: 0
+  reason: PDF body skipped
+- cycle: 1
+  query: "Tomas Feder, Nimrod Megiddoy, Serge A\x01 Plotki"
+  source_family: crossref
+  url_or_api_endpoint: https://doi.org/10.1163/2589-7802_dddo_nimrod
+  status: irrelevant
+  new_facts_added: 0
+  reason: Crossref metadata/title search
+- cycle: 1
+  query: "Tomas Feder, Nimrod Megiddoy, Serge A\x01 Plotki"
+  source_family: arxiv
+  url_or_api_endpoint: https://export.arxiv.org/api/query?max_results=1&search_query=ti:%22Tomas+Feder%2C+Nimrod+Megiddoy%2C+Serge+A%01+Plotki%22
+  status: no_result
+  new_facts_added: 0
+  reason: arXiv title search returned no usable entry
+- cycle: 1
+  query: "Tomas Feder, Nimrod Megiddoy, Serge A\x01 Plotki"
+  source_family: wikipedia
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: Wikipedia search returned no relevant page
+extracted_problem_statement: "Tomas Feder, Nimrod Megiddoy, Serge A\x01 Plotki is treated as a source-saturated AlgorithmWiki row for maintain a data structure supporting the named operations Input semantics: A set of records and operation sequence for insert, delete, query, or search operations. Output semantics: A maintained representation and answers to the supported queries."
+extracted_algorithm_summary: "Tomas Feder, Nimrod Megiddoy, Serge A\x01 Plotki is reconstructed as a classical data structures task. The source-backed title/name/fact record supports the task: maintain a data structure supporting the named operations."
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

@@ -1,0 +1,71 @@
+id: AW-000479
+kind: context
+algorithm_id: AW-000479
+algorithm_name: "Lemke\u2013Howson algorithm"
+source_records:
+- access_status: metadata_only
+  digest: 9ac6658a5d079ae2
+  extracted_facts:
+  - "AlgorithmWiki row name: Lemke\u2013Howson algorithm"
+  - 'domain: unknown'
+  - 'time complexity: 2^{O(n+m)}'
+  - 'space complexity: O(mn)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n, m: dimensions of payoff matrices'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000479:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: "AlgorithmWiki metadata for Lemke\u2013Howson algorithm"
+  url: https://epubs.siam.org/doi/abs/10.1137/0112033?journalCode=smjmap.1
+- access_status: fetched
+  digest: 050d9f32927f6eaa
+  extracted_facts:
+  - 'DOI title: Equilibrium Points of Bimatrix Games'
+  - 'published year: 1964'
+  - 'container title: Journal of the Society for Industrial and Applied Mathematics'
+  reliability: HIGH
+  short_quote: ''
+  source_id: crossref:7452e5e84177ee57
+  source_type: doi_metadata
+  title: Equilibrium Points of Bimatrix Games
+  url: https://doi.org/10.1137/0112033
+- access_status: failed
+  digest: ae92695923788b74
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:c065dc8b46041f67
+  source_type: publisher_abstract
+  title: 'HTTP Error 403: Forbidden'
+  url: https://epubs.siam.org/doi/abs/10.1137/0112033?journalCode=smjmap.1
+web_query_attempts:
+- method: search_plan
+  query: "Lemke\u2013Howson algorithm algorithm input output complexity"
+  status: recorded
+- method: search_plan
+  query: "Lemke\u2013Howson algorithm algorithm pseudocode"
+  status: recorded
+- method: search_plan
+  query: "Lemke\u2013Howson algorithm problem definition"
+  status: recorded
+- method: search_plan
+  query: "Lemke\u2013Howson algorithm site:nist.gov DADS"
+  status: recorded
+- method: search_plan
+  query: "Lemke\u2013Howson algorithm algorithm wiki"
+  status: recorded
+- method: search_plan
+  query: https://epubs.siam.org/doi/abs/10.1137/0112033?journalCode=smjmap.1
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1137/0112033
+  status: fetched
+- method: source_link_html_metadata
+  query: https://epubs.siam.org/doi/abs/10.1137/0112033?journalCode=smjmap.1
+  status: failed
+extracted_problem_statement: "Lemke\u2013Howson algorithm is treated as a classical matrix linear algebra task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Lemke\u2013Howson algorithm. Input semantics: One or more explicit matrices or linear systems over the stated arithmetic domain. Output semantics: The requested matrix, decomposition, solution vector, or other linear-algebraic output."
+extracted_algorithm_summary: "Lemke\u2013Howson algorithm is a matrix linear algebra algorithm record. Classical complexity metadata: time 2^{O(n+m)}; space O(mn). The stated classical model is Word RAM. Public metadata/source text adds: Lemke\u2013Howson algorithm unknown unknown n, m: dimensions of payoff matrices 2^{O(n+m)} No public-ready summary is available because the row lacks enough task semantics."
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

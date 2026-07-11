@@ -1,0 +1,60 @@
+id: AW-000448-P0331
+kind: probe
+algorithm_id: AW-000448
+algorithm_name: "Diffie\u2013Hellman key exchange"
+source_records:
+- access_status: metadata_only
+  digest: 83422588393a9539
+  extracted_facts:
+  - "AlgorithmWiki row name: Diffie\u2013Hellman key exchange"
+  - 'domain: graph'
+  - 'time complexity: O(n\cdot \text{mult}(n))'
+  - 'space complexity: O(n)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: maximum size of numbers (prime, base, keys), in bits, \text{mult}(n): running time on n-bit multiplication'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(n\cdot \text{mult}(n)); space O(n). Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000448:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: "AlgorithmWiki metadata for Diffie\u2013Hellman key exchange"
+  url: https://ieeexplore.ieee.org/document/1055638
+- access_status: fetched
+  digest: 7b35bf3e704da3a7
+  extracted_facts:
+  - 'source page title: https://ieeexplore.ieee.org/document/1055638'
+  - 'source page description: In order to continue, we need to verify that you''re not a robot.'
+  reliability: HIGH
+  short_quote: In order to continue, we need to verify that you're not a robot.
+  source_id: source:44e4153e3687b88f
+  source_type: publisher_abstract
+  title: https://ieeexplore.ieee.org/document/1055638
+  url: https://ieeexplore.ieee.org/document/1055638
+web_query_attempts:
+- method: search_plan
+  query: "Diffie\u2013Hellman key exchange algorithm input output complexity"
+  status: recorded
+- method: search_plan
+  query: "Diffie\u2013Hellman key exchange algorithm pseudocode"
+  status: recorded
+- method: search_plan
+  query: "Diffie\u2013Hellman key exchange problem definition"
+  status: recorded
+- method: search_plan
+  query: "Diffie\u2013Hellman key exchange graph algorithm"
+  status: recorded
+- method: search_plan
+  query: "Diffie\u2013Hellman key exchange site:nist.gov DADS"
+  status: recorded
+- method: search_plan
+  query: "Diffie\u2013Hellman key exchange algorithm wiki"
+  status: recorded
+- method: search_plan
+  query: https://ieeexplore.ieee.org/document/1055638
+  status: recorded
+- method: source_link_html_metadata
+  query: https://ieeexplore.ieee.org/document/1055638
+  status: fetched
+extracted_problem_statement: "Diffie\u2013Hellman key exchange is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Diffie\u2013Hellman key exchange. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result."
+extracted_algorithm_summary: "Diffie\u2013Hellman key exchange is a graph algorithm record. Classical complexity metadata: time O(n\\cdot \\text{mult}(n)); space O(n). The stated classical model is Word RAM. Public metadata/source text adds: Diffie\u2013Hellman key exchange graph graph n: maximum size of numbers (prime, base, keys), in bits, \\text{mult}(n): running time on n-bit multiplication O(n\\cdot \\text{mult}(n)) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record."
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

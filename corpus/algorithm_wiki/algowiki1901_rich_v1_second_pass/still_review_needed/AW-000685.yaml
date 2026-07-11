@@ -1,0 +1,35 @@
+algorithm_id: AW-000685
+canonical_name: Manlove Malley
+enrichment_status: SECOND_PASS_INSUFFICIENT
+review_reasons:
+- No second-pass rule could identify source-backed task semantics.
+source_records:
+- access_status: metadata_only
+  digest: 95bcda25c3845926
+  extracted_facts:
+  - 'AlgorithmWiki row name: Manlove Malley'
+  - 'domain: unknown'
+  - 'time complexity: O(n^2)'
+  - 'space complexity: O(n^2)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of men and number of women'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000685:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Manlove Malley
+  url: http://www.dcs.gla.ac.uk/~davidm/pubs/7981.pdf
+- source_id: crossref_search:6b15b791c49c038f
+  url: https://doi.org/10.1093/nq/cxcvi.jun09.259e
+  title: Malley
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: Malley'
+  short_quote: ''
+  digest: 28547c1fc3eeca96
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

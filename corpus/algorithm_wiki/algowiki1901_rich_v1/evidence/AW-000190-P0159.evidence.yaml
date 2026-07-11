@@ -1,0 +1,74 @@
+id: AW-000190-P0159
+kind: probe
+algorithm_id: AW-000190
+algorithm_name: "Renault\u2019s Algorithm"
+source_records:
+- access_status: metadata_only
+  digest: 406b99cf4b8c94c3
+  extracted_facts:
+  - "AlgorithmWiki row name: Renault\u2019s Algorithm"
+  - 'domain: graph'
+  - 'time complexity: O(p(V+E) \alpha(V, E))'
+  - 'space complexity: O(V) per processor'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: V: number of vertices, E: number of edges, p: number of processors'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(p(V+E) \alpha(V, E)); space O(V) per processor. Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000190:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: "AlgorithmWiki metadata for Renault\u2019s Algorithm"
+  url: https://link.springer.com/chapter/10.1007/978-3-642-45221-5_44
+- access_status: fetched
+  digest: 1272bcfb5de22aff
+  extracted_facts:
+  - "DOI title: Three SCC-Based Emptiness Checks for Generalized B\xFCchi Automata"
+  - 'published year: 2013'
+  - 'container title: Lecture Notes in Computer Science'
+  reliability: HIGH
+  short_quote: ''
+  source_id: crossref:a7adda6fd6e1df53
+  source_type: doi_metadata
+  title: "Three SCC-Based Emptiness Checks for Generalized B\xFCchi Automata"
+  url: https://doi.org/10.1007/978-3-642-45221-5_44
+- access_status: skipped
+  digest: 20eeebd52db129fd
+  extracted_facts:
+  - robots.txt disallowed fetch
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:e42048ca58ccc857
+  source_type: publisher_abstract
+  title: robots.txt disallowed fetch
+  url: https://link.springer.com/chapter/10.1007/978-3-642-45221-5_44
+web_query_attempts:
+- method: search_plan
+  query: "Renault\u2019s Algorithm algorithm input output complexity"
+  status: recorded
+- method: search_plan
+  query: "Renault\u2019s Algorithm algorithm pseudocode"
+  status: recorded
+- method: search_plan
+  query: "Renault\u2019s Algorithm problem definition"
+  status: recorded
+- method: search_plan
+  query: "Renault\u2019s Algorithm graph algorithm"
+  status: recorded
+- method: search_plan
+  query: "Renault\u2019s Algorithm site:nist.gov DADS"
+  status: recorded
+- method: search_plan
+  query: "Renault\u2019s Algorithm algorithm wiki"
+  status: recorded
+- method: search_plan
+  query: https://link.springer.com/chapter/10.1007/978-3-642-45221-5_44
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1007/978-3-642-45221-5_44
+  status: fetched
+- method: source_link_html_metadata
+  query: https://link.springer.com/chapter/10.1007/978-3-642-45221-5_44
+  status: skipped
+extracted_problem_statement: "Renault\u2019s Algorithm is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Renault\u2019s Algorithm. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result."
+extracted_algorithm_summary: "Renault\u2019s Algorithm is a graph algorithm record. Classical complexity metadata: time O(p(V+E) \\alpha(V, E)); space O(V) per processor. The stated classical model is Word RAM. Public metadata/source text adds: Renault\u2019s Algorithm graph graph V: number of vertices, E: number of edges, p: number of processors O(p(V+E) \\alpha(V, E)) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record."
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

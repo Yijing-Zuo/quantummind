@@ -1,0 +1,73 @@
+id: AW-000239-SP0005
+kind: probe_recovered
+algorithm_id: AW-000239
+algorithm_name: Fermat's factorization method
+source_records:
+- access_status: metadata_only
+  digest: e869f55b2b78f5d1
+  extracted_facts:
+  - 'AlgorithmWiki row name: Fermat''s factorization method'
+  - 'domain: unknown'
+  - 'time complexity: O(2^n)'
+  - 'space complexity: O(n)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of bits in the integer'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000239:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Fermat's factorization method
+  url: https://archive.org/details/oeuvresdefermat02ferm
+- access_status: fetched
+  digest: 9c63ad9b1cfed2cd
+  extracted_facts:
+  - 'source page title: Oeuvres de Fermat : Fermat, Pierre de, 1601-1665 : Free Download, Borrow, and Streaming : Internet Archive'
+  - 'source page description: Apollonii Pergaei libri duo de locis planis restituti: v.'
+  reliability: LOW
+  short_quote: 'Apollonii Pergaei libri duo de locis planis restituti: v.'
+  source_id: source:fae453ffd94b6c5f
+  source_type: other_public_source
+  title: 'Oeuvres de Fermat : Fermat, Pierre de, 1601-1665 : Free Download, Borrow, and Streaming : Internet Archive'
+  url: https://archive.org/details/oeuvresdefermat02ferm
+- source_id: crossref_search:bd0e76d93cb55fea
+  url: https://doi.org/10.1007/978-3-662-65417-0_6
+  title: Pierre de Fermat (1601?-1665)
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: Pierre de Fermat (1601?-1665)'
+  short_quote: ''
+  digest: 1eeded06950024f7
+web_query_attempts:
+- query: '"Fermat''s factorization method" algorithm'
+  method: search_plan
+  status: recorded
+- query: '"Fermat''s factorization method" input output'
+  method: search_plan
+  status: recorded
+- query: '"Fermat''s factorization method" time complexity'
+  method: search_plan
+  status: recorded
+- query: '"Fermat''s factorization method" pseudocode'
+  method: search_plan
+  status: recorded
+- query: '"Fermat''s factorization method" problem'
+  method: search_plan
+  status: recorded
+- query: '"Fermat''s factorization method" PDF metadata abstract'
+  method: search_plan
+  status: recorded
+- query: '"Oeuvres de Fermat : Fermat, Pierre de, 1601-1665 : Free Download, Borrow, and Streaming : Internet Archive" algorithm'
+  method: search_plan
+  status: recorded
+- query: https://archive.org/details/oeuvresdefermat02ferm
+  method: search_plan
+  status: recorded
+- query: 'Oeuvres de Fermat : Fermat, Pierre de, 1601-1665 : Free Download, Borrow, and Streaming : Internet Archive algorithm'
+  method: crossref_title_search
+  status: fetched
+extracted_problem_statement: 'Fermat''s factorization method is reconstructed as a classical combinatorics task. Problem/task: find a nontrivial factorization of an integer Input semantics: An integer N represented with n bits and method-specific smoothness or search bounds. Output semantics: A nontrivial factor, a complete factorization, or a failure indication under the method assumptions.'
+extracted_algorithm_summary: 'Fermat''s factorization method is treated as the named AlgorithmWiki variant for find a nontrivial factorization of an integer Classical complexity metadata: time O(2^n); space O(n). Public metadata/source title support includes Oeuvres de Fermat : Fermat, Pierre de, 1601-1665 : Free Download, Borrow, and Streaming : Internet Archive.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

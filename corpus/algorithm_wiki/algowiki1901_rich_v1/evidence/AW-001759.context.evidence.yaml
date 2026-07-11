@@ -1,0 +1,71 @@
+id: AW-001759
+kind: context
+algorithm_id: AW-001759
+algorithm_name: Tewari, Srivastava, Gupta
+source_records:
+- access_status: metadata_only
+  digest: 1a004746b9468c03
+  extracted_facts:
+  - 'AlgorithmWiki row name: Tewari, Srivastava, Gupta'
+  - 'domain: parallel_algorithms'
+  - 'time complexity: O(kn \log n)'
+  - 'computational model: Arbitrary CRCW PRAM'
+  - 'parameter definitions: n: number of states, k: size of alphabet'
+  - 'precard summary: Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model. Baseline: time O(kn \log n); work O(kn^2); span/depth O(kn log n); processors O(n/log n). Bottleneck: work, span, communication, and processor-count assumptions dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001759:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Tewari, Srivastava, Gupta
+  url: https://link.springer.com/chapter/10.1007/3-540-36265-7_4
+- access_status: skipped
+  digest: f0c496aab8faeb1c
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:468165bb61e4d994
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1007/3-540-36265-7_4
+- access_status: skipped
+  digest: 33d287d4f573cdbe
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:6dc73b96b9dc755f
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://link.springer.com/chapter/10.1007/3-540-36265-7_4
+web_query_attempts:
+- method: search_plan
+  query: Tewari, Srivastava, Gupta algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Tewari, Srivastava, Gupta algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Tewari, Srivastava, Gupta problem definition
+  status: recorded
+- method: search_plan
+  query: Tewari, Srivastava, Gupta parallel algorithms algorithm
+  status: recorded
+- method: search_plan
+  query: Tewari, Srivastava, Gupta site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Tewari, Srivastava, Gupta algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://link.springer.com/chapter/10.1007/3-540-36265-7_4
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1007/3-540-36265-7_4
+  status: skipped
+- method: source_link_html_metadata
+  query: https://link.springer.com/chapter/10.1007/3-540-36265-7_4
+  status: skipped
+extracted_problem_statement: 'Tewari, Srivastava, Gupta is treated as a classical parallel algorithms task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Tewari, Srivastava, Gupta. Input semantics: The classical input instance named by the row, together with processor/work/span parameters when stated. Output semantics: The same mathematical output as the underlying classical task, annotated by work/span when available.'
+extracted_algorithm_summary: 'Tewari, Srivastava, Gupta is a parallel algorithms algorithm record. Classical complexity metadata: time O(kn \log n); work O(kn^2); span/depth O(kn log n); processors O(n/log n). The stated classical model is Arbitrary CRCW PRAM. Public metadata/source text adds: Tewari, Srivastava, Gupta parallel_algorithms parallel_algorithms n: number of states, k: size of alphabet O(kn \log n) Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

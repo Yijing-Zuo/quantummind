@@ -1,0 +1,71 @@
+id: AW-001496
+kind: context
+algorithm_id: AW-001496
+algorithm_name: Chin et al.
+source_records:
+- access_status: metadata_only
+  digest: 38aaa5065623a53e
+  extracted_facts:
+  - 'AlgorithmWiki row name: Chin et al.'
+  - 'domain: graph'
+  - 'time complexity: O(\log^2(n))'
+  - 'computational model: SIMD-SM-R (CREW PRAM)'
+  - 'parameter definitions: n: number of vertices'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(\log^2(n)); work O(n^2); span/depth O(log^2(n)); processors n ceiling(n/log^2(n)). Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001496:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Chin et al.
+  url: https://dl.acm.org/doi/abs/10.1145/358628.358650
+- access_status: skipped
+  digest: 0e3a1ad61075f506
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:8e520b5179099bb1
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1145/358628.358650
+- access_status: skipped
+  digest: 4747bb02ae4f6b83
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:042b77da0521de3b
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://dl.acm.org/doi/abs/10.1145/358628.358650
+web_query_attempts:
+- method: search_plan
+  query: Chin et al. algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Chin et al. algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Chin et al. problem definition
+  status: recorded
+- method: search_plan
+  query: Chin et al. graph algorithm
+  status: recorded
+- method: search_plan
+  query: Chin et al. site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Chin et al. algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://dl.acm.org/doi/abs/10.1145/358628.358650
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1145/358628.358650
+  status: skipped
+- method: source_link_html_metadata
+  query: https://dl.acm.org/doi/abs/10.1145/358628.358650
+  status: skipped
+extracted_problem_statement: 'Chin et al. is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Chin et al.. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'Chin et al. is a graph algorithm record. Classical complexity metadata: time O(\log^2(n)); work O(n^2); span/depth O(log^2(n)); processors n ceiling(n/log^2(n)). The stated classical model is SIMD-SM-R (CREW PRAM). Public metadata/source text adds: Chin et al. graph graph n: number of vertices O(\log^2(n)) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

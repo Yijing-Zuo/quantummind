@@ -1,0 +1,59 @@
+id: AW-000821
+kind: context
+algorithm_id: AW-000821
+algorithm_name: Jain, Chang
+source_records:
+- access_status: metadata_only
+  digest: 5082906de8811beb
+  extracted_facts:
+  - 'AlgorithmWiki row name: Jain, Chang'
+  - 'domain: graph'
+  - 'time complexity: O(V + mE)'
+  - 'space complexity: O(V)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: m: length of input sequence, V: number of vertices, E: number of edges'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(V + mE); space O(V). Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000821:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Jain, Chang
+  url: https://www.biorxiv.org/content/10.1101/522912v1.full.pdf
+- access_status: failed
+  digest: 29f700dae5fcb293
+  extracted_facts:
+  - PDF download skipped
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:84a120b28fa4f001
+  source_type: doi_metadata
+  title: PDF download skipped
+  url: https://doi.org/10.1101/522912v1.full.pdf
+web_query_attempts:
+- method: search_plan
+  query: Jain, Chang algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Jain, Chang algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Jain, Chang problem definition
+  status: recorded
+- method: search_plan
+  query: Jain, Chang graph algorithm
+  status: recorded
+- method: search_plan
+  query: Jain, Chang site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Jain, Chang algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://www.biorxiv.org/content/10.1101/522912v1.full.pdf
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1101/522912v1.full.pdf
+  status: failed
+extracted_problem_statement: 'Jain, Chang is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Jain, Chang. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'Jain, Chang is a graph algorithm record. Classical complexity metadata: time O(V + mE); space O(V). The stated classical model is Word RAM. Public metadata/source text adds: Jain, Chang graph graph m: length of input sequence, V: number of vertices, E: number of edges O(V + mE) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

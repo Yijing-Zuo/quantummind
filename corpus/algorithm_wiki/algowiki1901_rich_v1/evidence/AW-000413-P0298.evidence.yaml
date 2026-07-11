@@ -1,0 +1,74 @@
+id: AW-000413-P0298
+kind: probe
+algorithm_id: AW-000413
+algorithm_name: Nakatsu et al.
+source_records:
+- access_status: metadata_only
+  digest: e53e678ca55c2f07
+  extracted_facts:
+  - 'AlgorithmWiki row name: Nakatsu et al.'
+  - 'domain: string'
+  - 'time complexity: O(n(m-r))'
+  - 'space complexity: O(m^2)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: length of the longer input string, m: length of the shorter input string, r: length of the LCS'
+  - 'precard summary: Given one or more explicit strings, compute the matching, indexing, alignment, or transformation output targeted by the record. Baseline: time O(n(m-r)); space O(m^2). Bottleneck: string scanning, preprocessing tables, and reporting matches dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000413:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Nakatsu et al.
+  url: https://link.springer.com/article/10.1007/BF00264437
+- access_status: fetched
+  digest: 5de42cff6dad80fe
+  extracted_facts:
+  - 'DOI title: A longest common subsequence algorithm suitable for similar text strings'
+  - 'published year: 1982'
+  - 'container title: Acta Informatica'
+  reliability: HIGH
+  short_quote: ''
+  source_id: crossref:75f390fe3b3c5cda
+  source_type: doi_metadata
+  title: A longest common subsequence algorithm suitable for similar text strings
+  url: https://doi.org/10.1007/BF00264437
+- access_status: skipped
+  digest: 07e334233a4cd5a5
+  extracted_facts:
+  - robots.txt disallowed fetch
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:a65e8fb359d7e473
+  source_type: publisher_abstract
+  title: robots.txt disallowed fetch
+  url: https://link.springer.com/article/10.1007/BF00264437
+web_query_attempts:
+- method: search_plan
+  query: Nakatsu et al. algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Nakatsu et al. algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Nakatsu et al. problem definition
+  status: recorded
+- method: search_plan
+  query: Nakatsu et al. string algorithm
+  status: recorded
+- method: search_plan
+  query: Nakatsu et al. site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Nakatsu et al. algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://link.springer.com/article/10.1007/BF00264437
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1007/BF00264437
+  status: fetched
+- method: source_link_html_metadata
+  query: https://link.springer.com/article/10.1007/BF00264437
+  status: skipped
+extracted_problem_statement: 'Nakatsu et al. is treated as a classical string task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Nakatsu et al.. Input semantics: One or more finite strings, sequences, patterns, or alphabets. Output semantics: Pattern occurrence positions, matches, or the associated string-search report.'
+extracted_algorithm_summary: 'Nakatsu et al. is a string algorithm record. Classical complexity metadata: time O(n(m-r)); space O(m^2). The stated classical model is Word RAM. Public metadata/source text adds: Nakatsu et al. string string n: length of the longer input string, m: length of the shorter input string, r: length of the LCS O(n(m-r)) Given one or more explicit strings, compute the matching, indexing, alignment, or transformation output targeted by the record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

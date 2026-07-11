@@ -1,0 +1,84 @@
+id: AW-000732
+kind: context_recovered
+algorithm_id: AW-000732
+algorithm_name: P. Costantini, B. I. Kvasov, and C. Manni
+source_records:
+- access_status: metadata_only
+  digest: c536954cc9062739
+  extracted_facts:
+  - 'AlgorithmWiki row name: P. Costantini, B. I. Kvasov, and C. Manni'
+  - 'domain: unknown'
+  - 'time complexity: O(n^5 \log K)'
+  - 'space complexity: O(n)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of points'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000732:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for P. Costantini, B. I. Kvasov, and C. Manni
+  url: https://link.springer.com/article/10.1023/A:1018988312596
+- access_status: fetched
+  digest: d2beee63e85cec17
+  extracted_facts:
+  - 'DOI title: On discrete hyperbolic tension splines'
+  - 'published year: 1999'
+  - 'container title: Advances in Computational Mathematics'
+  reliability: HIGH
+  short_quote: ''
+  source_id: crossref:8e06486ebe9f582b
+  source_type: doi_metadata
+  title: On discrete hyperbolic tension splines
+  url: https://doi.org/10.1023/A:1018988312596
+- access_status: skipped
+  digest: 099a5d222dd0933c
+  extracted_facts:
+  - robots.txt disallowed fetch
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:5619fe22fea3f569
+  source_type: publisher_abstract
+  title: robots.txt disallowed fetch
+  url: https://link.springer.com/article/10.1023/A:1018988312596
+- source_id: crossref_search:2bc6b24bf0e17fc3
+  url: https://doi.org/10.1023/a:1018988312596
+  title: On discrete hyperbolic tension splines
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: On discrete hyperbolic tension splines'
+  short_quote: ''
+  digest: 658474fb9116fe07
+web_query_attempts:
+- query: '"P. Costantini, B. I. Kvasov, and C. Manni" algorithm'
+  method: search_plan
+  status: recorded
+- query: '"P. Costantini, B. I. Kvasov, and C. Manni" input output'
+  method: search_plan
+  status: recorded
+- query: '"P. Costantini, B. I. Kvasov, and C. Manni" time complexity'
+  method: search_plan
+  status: recorded
+- query: '"P. Costantini, B. I. Kvasov, and C. Manni" pseudocode'
+  method: search_plan
+  status: recorded
+- query: '"P. Costantini, B. I. Kvasov, and C. Manni" problem'
+  method: search_plan
+  status: recorded
+- query: '"P. Costantini, B. I. Kvasov, and C. Manni" PDF metadata abstract'
+  method: search_plan
+  status: recorded
+- query: '"On discrete hyperbolic tension splines" algorithm'
+  method: search_plan
+  status: recorded
+- query: https://link.springer.com/article/10.1023/A:1018988312596
+  method: search_plan
+  status: recorded
+- query: On discrete hyperbolic tension splines algorithm
+  method: crossref_title_search
+  status: fetched
+extracted_problem_statement: 'P. Costantini, B. I. Kvasov, and C. Manni is reconstructed as a classical computational geometry task. Problem/task: compute a geometric structure or relation over a finite point set Input semantics: A finite set of points, dimension k when stated, and geometric predicate assumptions. Output semantics: A geometric witness, nearest/closest relation, hull, partition, or related structure supported by the named row.'
+extracted_algorithm_summary: 'P. Costantini, B. I. Kvasov, and C. Manni is treated as the named AlgorithmWiki variant for compute a geometric structure or relation over a finite point set Classical complexity metadata: time O(n^5 \log K); space O(n). Public metadata/source title support includes On discrete hyperbolic tension splines.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

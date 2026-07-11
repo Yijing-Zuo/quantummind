@@ -1,0 +1,56 @@
+algorithm_id: AW-001708
+canonical_name: Sameh (Jacobi)
+enrichment_status: THIRD_PASS_SATURATED_INSUFFICIENT
+review_reasons:
+- After the configured source-family cycles, no source-backed concrete task, input semantics, output semantics, and conservative access model could be established.
+source_records:
+- access_status: metadata_only
+  digest: 16c22bc6b8785870
+  extracted_facts:
+  - 'AlgorithmWiki row name: Sameh (Jacobi)'
+  - 'domain: unknown'
+  - 'time complexity: O( ( n^2 / p + \log(n) ) n \log(n) )'
+  - 'computational model: distributed memory'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001708:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Sameh (Jacobi)
+  url: https://www.ams.org/journals/mcom/1971-25-115/S0025-5718-1971-0297131-6/S0025-5718-1971-0297131-6.pdf
+- access_status: fetched
+  digest: 385f9a58e9e54e75
+  extracted_facts:
+  - "Crossref title-search result: Jacobi\u2013Perron algorithm"
+  - 'abstract summary: Basic references are Perron 1907, Bernstein 1971 and Schweiger 1973b (unfortunately the latter contains misprints and some errors).'
+  reliability: MEDIUM
+  short_quote: Basic references are Perron 1907, Bernstein 1971 and Schweiger 1973b (unfortunately the latter contains misprints and some errors).
+  source_id: crossref_search:3c5e9ea272d6e01c
+  source_type: doi_metadata
+  title: "Jacobi\u2013Perron algorithm"
+  url: https://doi.org/10.1093/oso/9780198506867.003.0004
+- source_id: skipped:d5bd197f28ef6af6
+  url: https://www.ams.org/journals/mcom/1971-25-115/S0025-5718-1971-0297131-6/S0025-5718-1971-0297131-6.pdf
+  title: public PDF body was not downloaded
+  source_type: original_source
+  access_status: skipped
+  reliability: LOW
+  extracted_facts:
+  - public PDF body was not downloaded
+  short_quote: public PDF body was not downloaded
+  digest: 4a6625de5a2e9d14
+- source_id: crossref_search:cfefd09baed49647
+  url: https://doi.org/10.1163/1570-6664_iyb_sim_person_53928
+  title: Shokri Selim, Sameh Hassan
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title: Shokri Selim, Sameh Hassan'
+  - 'published year: 2017'
+  - 'container title: International Year Book and Statesmen''s Who''s Who'
+  short_quote: 'Crossref title: Shokri Selim, Sameh Hassan published year: 2017 container title: International Year Book and Statesmen''s Who''s Who'
+  digest: c920e4708c501f1f
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

@@ -1,0 +1,63 @@
+algorithm_family: parallel algorithms
+algorithm_id: AW-001872
+approximate: '1'
+approximation_factor: eps
+blind_name: Algorithm Wiki public task AW-001872
+canonical_name: Liu, Zhou, Kalathil, Kumar, Tian
+computational_model: PRAM
+domain: parallel_algorithms
+extracted_description: ''
+extraction_version: algorithm-wiki-rich-context-v1
+family: parallel_algorithms
+inferred_access_model: explicit_input_instance
+inferred_ambiguities:
+- The AlgorithmWiki row marks the classical method as approximate.
+- No independent fetched public metadata source resolved this row beyond AlgorithmWiki metadata/source-link facts.
+- Some details are reconstructed from AlgorithmWiki metadata rather than an independently fetched full public description.
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.
+inferred_input_model: explicit_parallel_algorithm_problem
+inferred_output_contract: full_solution
+inferred_problem_statement: 'Liu, Zhou, Kalathil, Kumar, Tian is treated as a classical parallel algorithms task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Liu, Zhou, Kalathil, Kumar, Tian. Input semantics: The classical input instance named by the row, together with processor/work/span parameters when stated. Output semantics: The same mathematical output as the underlying classical task, annotated by work/span when available.'
+inferred_promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+- classical_approximation_algorithm
+- classical_parallel_model_recorded
+inferred_size_parameters:
+- 'Parameter definition: A: size of set of actions, S: size of set of states, gamma: discount factor, eps: error parameter'
+number_of_processors: ''
+page_digest: ''
+page_fetch_status: not_found
+page_url: ''
+parameter_definitions: 'A: size of set of actions, S: size of set of states, gamma: discount factor, eps: error parameter'
+problem_name: parallel algorithms
+quality_flags:
+- domain_inferred
+- problem_statement_inferred
+- io_access_output_inferred
+- has_complexity_semantics
+- has_size_parameters
+- has_computational_model
+- approximation_flag_preserved
+quality_score: 100
+randomized: ''
+readiness: READY_PUBLIC_CONTEXT
+review_reasons:
+- insufficient_algorithm_level_structure
+source_link: https://arxiv.org/abs/2111.00552
+source_link_type: arxiv
+space_complexity: ''
+span_depth: O(S*(1/(1-gamma))^5*(1/(epsilon))*log(1/epsilon))
+time_complexity: ''
+variation: ''
+work: O((S^3+AS)*(1/(1-\gamma))^5*(1/(\epsilon))*\log(1/\epsilon))
+year: '2021'
+rich_card_kind: context
+source_records_used:
+- AW-001872:algorithm_wiki_metadata
+- skipped:65e138c8113e5ef7
+- skipped:65e138c8113e5ef7
+source_count: 3
+source_quality: HIGH
+confidence_score: 100
+card_digest: b1737cbf4c2f81ba

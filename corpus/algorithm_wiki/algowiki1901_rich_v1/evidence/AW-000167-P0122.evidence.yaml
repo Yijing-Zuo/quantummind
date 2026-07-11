@@ -1,0 +1,59 @@
+id: AW-000167-P0122
+kind: probe
+algorithm_id: AW-000167
+algorithm_name: James B Orlin's + KRT (King Rao Tarjan)'s algorithm
+source_records:
+- access_status: metadata_only
+  digest: 43c468ce2df9f1c1
+  extracted_facts:
+  - 'AlgorithmWiki row name: James B Orlin''s + KRT (King Rao Tarjan)''s algorithm'
+  - 'domain: graph'
+  - 'time complexity: O(VE)'
+  - 'space complexity: O(V + E)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: V: number of vertices, E: number of edges, U: maximum edge capacity'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(VE); space O(V + E). Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000167:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for James B Orlin's + KRT (King Rao Tarjan)'s algorithm
+  url: https://dl.acm.org/citation.cfm?id=2488705
+- access_status: failed
+  digest: b44a20548a255466
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:b5b2fce37ccc03e5
+  source_type: publisher_abstract
+  title: 'HTTP Error 403: Forbidden'
+  url: https://dl.acm.org/citation.cfm?id=2488705
+web_query_attempts:
+- method: search_plan
+  query: James B Orlin's + KRT (King Rao Tarjan)'s algorithm algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: James B Orlin's + KRT (King Rao Tarjan)'s algorithm algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: James B Orlin's + KRT (King Rao Tarjan)'s algorithm problem definition
+  status: recorded
+- method: search_plan
+  query: James B Orlin's + KRT (King Rao Tarjan)'s algorithm graph algorithm
+  status: recorded
+- method: search_plan
+  query: James B Orlin's + KRT (King Rao Tarjan)'s algorithm site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: James B Orlin's + KRT (King Rao Tarjan)'s algorithm algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://dl.acm.org/citation.cfm?id=2488705
+  status: recorded
+- method: source_link_html_metadata
+  query: https://dl.acm.org/citation.cfm?id=2488705
+  status: failed
+extracted_problem_statement: 'James B Orlin''s + KRT (King Rao Tarjan)''s algorithm is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with James B Orlin''s + KRT (King Rao Tarjan)''s algorithm. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'James B Orlin''s + KRT (King Rao Tarjan)''s algorithm is a graph algorithm record. Classical complexity metadata: time O(VE); space O(V + E). The stated classical model is Word RAM. Public metadata/source text adds: James B Orlin''s + KRT (King Rao Tarjan)''s algorithm graph graph V: number of vertices, E: number of edges, U: maximum edge capacity O(VE) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

@@ -1,0 +1,58 @@
+id: AW-001696
+kind: context
+algorithm_id: AW-001696
+algorithm_name: Pang
+source_records:
+- access_status: metadata_only
+  digest: 8e8ccde523a40b63
+  extracted_facts:
+  - 'AlgorithmWiki row name: Pang'
+  - 'domain: image_processing'
+  - 'time complexity: O(n/p)'
+  - 'computational model: SIMD'
+  - 'parameter definitions: n: number of pixels the line goes through, p: number of processors'
+  - 'precard summary: Given an explicit image or grid of pixel values, compute the transformed image, segmentation, or detected structure targeted by the record. Baseline: time O(n/p); work O(n); span/depth O(1); processors p. Bottleneck: local neighborhood processing and writing image-sized outputs dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001696:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Pang
+  url: https://ieeexplore.ieee.org/abstract/document/59037
+- access_status: skipped
+  digest: 72892b6516214ab1
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:433a4efab00a9473
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://ieeexplore.ieee.org/abstract/document/59037
+web_query_attempts:
+- method: search_plan
+  query: Pang algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Pang algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Pang problem definition
+  status: recorded
+- method: search_plan
+  query: Pang image processing algorithm
+  status: recorded
+- method: search_plan
+  query: Pang site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Pang algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://ieeexplore.ieee.org/abstract/document/59037
+  status: recorded
+- method: source_link_html_metadata
+  query: https://ieeexplore.ieee.org/abstract/document/59037
+  status: skipped
+extracted_problem_statement: 'Pang is treated as a classical image processing task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Pang. Input semantics: An image, grid, point cloud, or signal representation with local or hierarchical processing parameters. Output semantics: A transformed image, segmentation, quantization, feature set, or detected structure.'
+extracted_algorithm_summary: 'Pang is a image processing algorithm record. Classical complexity metadata: time O(n/p); work O(n); span/depth O(1); processors p. The stated classical model is SIMD. Public metadata/source text adds: Pang image_processing image_processing n: number of pixels the line goes through, p: number of processors O(n/p) Given an explicit image or grid of pixel values, compute the transformed image, segmentation, or detected structure targeted by the record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

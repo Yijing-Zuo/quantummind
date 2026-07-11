@@ -1,0 +1,71 @@
+id: AW-001270
+kind: context
+algorithm_id: AW-001270
+algorithm_name: modified parallel merge sort - Marszalek, Capizzi
+source_records:
+- access_status: metadata_only
+  digest: 065a9a8ea610306a
+  extracted_facts:
+  - 'AlgorithmWiki row name: modified parallel merge sort - Marszalek, Capizzi'
+  - 'domain: sorting'
+  - 'time complexity: n -1/3'
+  - 'computational model: CREW PRAM'
+  - 'parameter definitions: n: size of list'
+  - 'precard summary: Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model. Baseline: time n -1/3; work O(n^2); span/depth O(n); processors n. Bottleneck: comparison, distribution, and full-output movement costs dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001270:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for modified parallel merge sort - Marszalek, Capizzi
+  url: https://link.springer.com/chapter/10.1007/978-3-030-30275-7_33
+- access_status: skipped
+  digest: f085517541fa5904
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:4d732e5ef14f2b5f
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1007/978-3-030-30275-7_33
+- access_status: skipped
+  digest: dcf7170517f0f747
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:c75529fb05f3a980
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://link.springer.com/chapter/10.1007/978-3-030-30275-7_33
+web_query_attempts:
+- method: search_plan
+  query: modified parallel merge sort - Marszalek, Capizzi algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: modified parallel merge sort - Marszalek, Capizzi algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: modified parallel merge sort - Marszalek, Capizzi problem definition
+  status: recorded
+- method: search_plan
+  query: modified parallel merge sort - Marszalek, Capizzi sorting algorithm
+  status: recorded
+- method: search_plan
+  query: modified parallel merge sort - Marszalek, Capizzi site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: modified parallel merge sort - Marszalek, Capizzi algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://link.springer.com/chapter/10.1007/978-3-030-30275-7_33
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1007/978-3-030-30275-7_33
+  status: skipped
+- method: source_link_html_metadata
+  query: https://link.springer.com/chapter/10.1007/978-3-030-30275-7_33
+  status: skipped
+extracted_problem_statement: 'modified parallel merge sort - Marszalek, Capizzi is treated as a classical sorting task for rich AlgorithmWiki discovery. Problem/task: sort the input sequence using the named classical sorting method. Input semantics: A finite array or list of comparable keys or records. Output semantics: The same items returned in nondecreasing order, usually as a full reordered sequence.'
+extracted_algorithm_summary: 'modified parallel merge sort - Marszalek, Capizzi is a sorting algorithm record. Classical complexity metadata: time n -1/3; work O(n^2); span/depth O(n); processors n. The stated classical model is CREW PRAM. Public metadata/source text adds: modified parallel merge sort - Marszalek, Capizzi sorting sorting n: size of list n -1/3 Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

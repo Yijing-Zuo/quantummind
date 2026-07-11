@@ -1,0 +1,60 @@
+id: AW-000160
+kind: context
+algorithm_id: AW-000160
+algorithm_name: Cheriyan & Hagerup
+source_records:
+- access_status: metadata_only
+  digest: 04f310c6accebb28
+  extracted_facts:
+  - 'AlgorithmWiki row name: Cheriyan & Hagerup'
+  - 'domain: graph'
+  - 'time complexity: O(VE \log V)'
+  - 'space complexity: O(V + E)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: V: number of vertices, E: number of edges, U: maximum edge capacity'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(VE \log V); space O(V + E). Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000160:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Cheriyan & Hagerup
+  url: https://ieeexplore.ieee.org/document/63465
+- access_status: fetched
+  digest: 8cd294fe24111ed3
+  extracted_facts:
+  - 'source page title: https://ieeexplore.ieee.org/document/63465'
+  - 'source page description: In order to continue, we need to verify that you''re not a robot.'
+  reliability: HIGH
+  short_quote: In order to continue, we need to verify that you're not a robot.
+  source_id: source:75a5182edd5ab7a5
+  source_type: publisher_abstract
+  title: https://ieeexplore.ieee.org/document/63465
+  url: https://ieeexplore.ieee.org/document/63465
+web_query_attempts:
+- method: search_plan
+  query: Cheriyan & Hagerup algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Cheriyan & Hagerup algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Cheriyan & Hagerup problem definition
+  status: recorded
+- method: search_plan
+  query: Cheriyan & Hagerup graph algorithm
+  status: recorded
+- method: search_plan
+  query: Cheriyan & Hagerup site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Cheriyan & Hagerup algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://ieeexplore.ieee.org/document/63465
+  status: recorded
+- method: source_link_html_metadata
+  query: https://ieeexplore.ieee.org/document/63465
+  status: fetched
+extracted_problem_statement: 'Cheriyan & Hagerup is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Cheriyan & Hagerup. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'Cheriyan & Hagerup is a graph algorithm record. Classical complexity metadata: time O(VE \log V); space O(V + E). The stated classical model is Word RAM. Public metadata/source text adds: Cheriyan & Hagerup graph graph V: number of vertices, E: number of edges, U: maximum edge capacity O(VE \log V) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

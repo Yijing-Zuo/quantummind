@@ -1,0 +1,296 @@
+algorithm_id: AW-000334
+canonical_name: Barghout Lauren Visual Taxometric approach
+original_source_link: ''
+source_link_type: unknown
+previous_failure_reasons:
+- No second-pass rule could identify source-backed task semantics.
+previous_source_records:
+- access_status: metadata_only
+  digest: ede2bfc72753d59c
+  extracted_facts:
+  - 'AlgorithmWiki row name: Barghout Lauren Visual Taxometric approach'
+  - 'domain: unknown'
+  - 'time complexity: O(n \log n)'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000334:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Barghout Lauren Visual Taxometric approach
+  url: ''
+- access_status: fetched
+  digest: beed4c563e361632
+  extracted_facts:
+  - 'Crossref title-search result: Taxometric Maps'
+  reliability: MEDIUM
+  short_quote: ''
+  source_id: crossref_search:324d9a5e6fa8a6b6
+  source_type: doi_metadata
+  title: Taxometric Maps
+  url: https://doi.org/10.2307/2412184
+aliases_tried:
+- Barghout Lauren Visual Taxometric approach
+- Barghout Lauren Visual Taxometric approach algorithm
+- Barghout Lauren Visual Taxometric approach problem
+- Barghout Lauren Visual Taxometric approach pseudocode
+- Barghout Lauren Visual Taxometric approach time complexity
+- Taxometric Maps
+- Taxometric Maps algorithm
+- Taxometric Maps complexity
+query_plan:
+- source_family: original_source
+  primary_query: Barghout Lauren Visual Taxometric approach
+  applicability: applicable
+  purpose: check the row's original source link without storing paywalled or PDF bodies
+- source_family: crossref
+  primary_query: Barghout Lauren Visual Taxometric approach
+  applicability: title-search-only
+  purpose: recover DOI title, venue, year, and abstract metadata where available
+- source_family: openalex
+  primary_query: Barghout Lauren Visual Taxometric approach
+  applicability: applicable
+  purpose: recover public work metadata and abstract-inverted-index summaries
+- source_family: semantic_scholar
+  primary_query: Barghout Lauren Visual Taxometric approach
+  applicability: applicable
+  purpose: recover CS paper metadata and abstracts without an API key
+- source_family: arxiv
+  primary_query: Barghout Lauren Visual Taxometric approach
+  applicability: title-search-only
+  purpose: recover arXiv title and abstract metadata
+- source_family: dblp
+  primary_query: Barghout Lauren Visual Taxometric approach
+  applicability: applicable
+  purpose: recover bibliographic title/venue metadata for CS publications
+- source_family: publisher_abstract
+  primary_query: Barghout Lauren Visual Taxometric approach
+  applicability: applicable
+  purpose: check accessible publisher abstract pages
+- source_family: citeseerx
+  primary_query: Barghout Lauren Visual Taxometric approach
+  applicability: applicable
+  purpose: record legacy CiteSeerX availability without full PDF storage
+- source_family: wikipedia
+  primary_query: Barghout Lauren Visual Taxometric approach
+  applicability: applicable
+  purpose: check public encyclopedia algorithm descriptions
+- source_family: wikidata
+  primary_query: Barghout Lauren Visual Taxometric approach
+  applicability: applicable
+  purpose: check public entity aliases/descriptions
+- source_family: nist_dads
+  primary_query: Barghout Lauren Visual Taxometric approach
+  applicability: applicable
+  purpose: check whether a DADS-style reference search is applicable
+- source_family: algorithm_wiki_local
+  primary_query: Barghout Lauren Visual Taxometric approach
+  applicability: applicable
+  purpose: reuse AlgorithmWiki metadata as provenance
+- source_family: the_algorithms
+  primary_query: Barghout Lauren Visual Taxometric approach
+  applicability: applicable
+  purpose: check exact public implementation/reference names when available
+- source_family: cp_algorithms
+  primary_query: Barghout Lauren Visual Taxometric approach
+  applicability: applicable
+  purpose: check exact public algorithm reference names when available
+- source_family: course_notes
+  primary_query: Barghout Lauren Visual Taxometric approach
+  applicability: applicable
+  purpose: record absence of configured course-notes search
+- source_family: general_web_search
+  primary_query: Barghout Lauren Visual Taxometric approach
+  applicability: applicable
+  purpose: record absence of a configured general web endpoint
+- source_family: local_previous_cache
+  primary_query: Barghout Lauren Visual Taxometric approach
+  applicability: applicable
+  purpose: reuse v1/second-pass fetched source records
+query_attempts:
+- &id001
+  cycle: 1
+  query: Barghout Lauren Visual Taxometric approach
+  source_family: algorithm_wiki_local
+  url_or_api_endpoint: ''
+  status: fetched
+  new_facts_added: 5
+  reason: local metadata
+- &id002
+  cycle: 1
+  query: Barghout Lauren Visual Taxometric approach
+  source_family: local_previous_cache
+  url_or_api_endpoint: ''
+  status: duplicate
+  new_facts_added: 0
+  reason: previous v1/second-pass sources reused
+- &id003
+  cycle: 1
+  query: Barghout Lauren Visual Taxometric approach
+  source_family: original_source
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: no original source link
+- &id004
+  cycle: 1
+  query: Barghout Lauren Visual Taxometric approach
+  source_family: crossref
+  url_or_api_endpoint: https://doi.org/10.2307/2412184
+  status: irrelevant
+  new_facts_added: 0
+  reason: Crossref metadata/title search
+- &id005
+  cycle: 1
+  query: Barghout Lauren Visual Taxometric approach
+  source_family: arxiv
+  url_or_api_endpoint: https://export.arxiv.org/api/query?max_results=1&search_query=ti:%22Barghout+Lauren+Visual+Taxometric+approach%22
+  status: no_result
+  new_facts_added: 0
+  reason: arXiv title search returned no usable entry
+- &id006
+  cycle: 1
+  query: Barghout Lauren Visual Taxometric approach
+  source_family: wikipedia
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: Wikipedia search returned no relevant page
+source_attempts:
+- *id001
+- *id002
+- *id003
+- *id004
+- *id005
+- *id006
+discovered_sources:
+- source_id: crossref_search:b46cb6ac20a72f83
+  url: https://doi.org/10.2307/2412184
+  title: Taxometric Maps
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title: Taxometric Maps'
+  - 'published year: 1969'
+  - 'container title: Systematic Zoology'
+  short_quote: 'Crossref title: Taxometric Maps published year: 1969 container title: Systematic Zoology'
+  digest: b10d9d186599ae64
+discovered_facts:
+- fact_id: AW-000334-Fb545a96a47
+  fact_type: alias
+  value: Barghout Lauren Visual Taxometric approach
+  source_id: AW-000334:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: AlgorithmWiki metadata
+- fact_id: AW-000334-F1a0e7d7c50
+  fact_type: time_complexity
+  value: O(n \log n)
+  source_id: AW-000334:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: AlgorithmWiki metadata
+- fact_id: AW-000334-Fd39a39dd06
+  fact_type: source_title
+  value: AlgorithmWiki metadata for Barghout Lauren Visual Taxometric approach
+  source_id: AW-000334:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000334-Fbaf87cb7ab
+  fact_type: problem_definition
+  value: 'Source title indicates: AlgorithmWiki metadata for Barghout Lauren Visual Taxometric approach'
+  source_id: AW-000334:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: weak
+  notes: previous_source_record
+- fact_id: AW-000334-Fcdd131f4be
+  fact_type: problem_definition
+  value: 'AlgorithmWiki row name: Barghout Lauren Visual Taxometric approach'
+  source_id: AW-000334:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000334-F14bfeb28d2
+  fact_type: problem_definition
+  value: 'domain: unknown'
+  source_id: AW-000334:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000334-F3e6611c0de
+  fact_type: time_complexity
+  value: 'time complexity: O(n \log n)'
+  source_id: AW-000334:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000334-F16b1d17524
+  fact_type: problem_definition
+  value: 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  source_id: AW-000334:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000334-F8783292994
+  fact_type: source_title
+  value: Taxometric Maps
+  source_id: crossref_search:324d9a5e6fa8a6b6
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000334-F5a5d1ef8ed
+  fact_type: problem_definition
+  value: 'Crossref title-search result: Taxometric Maps'
+  source_id: crossref_search:324d9a5e6fa8a6b6
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000334-F677437051c
+  fact_type: authoritative_source_link
+  value: https://doi.org/10.2307/2412184
+  source_id: crossref_search:324d9a5e6fa8a6b6
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: consistent
+  notes: previous_source_record
+duplicate_sources:
+- source_id: AW-000334:algorithm_wiki_metadata
+  url: ''
+  title: AlgorithmWiki metadata for Barghout Lauren Visual Taxometric approach
+  source_type: algorithm_wiki
+  access_status: metadata_only
+  reliability: HIGH
+  extracted_facts:
+  - 'AlgorithmWiki row name: Barghout Lauren Visual Taxometric approach'
+  - 'domain: unknown'
+  - 'time complexity: O(n \log n)'
+  short_quote: ''
+  digest: 29accdef53c7c9ad
+failed_sources: []
+paywalled_or_skipped_sources: []
+source_families_covered:
+- algorithm_wiki_local
+- local_previous_cache
+- original_source
+- crossref
+- arxiv
+- wikipedia
+cycles_completed: 1
+new_fact_count_by_cycle:
+- cycle: 1
+  new_facts: 0
+no_new_fact_streak: 0
+saturation_status: RECOVERED_CONTEXT_AND_PROBE
+final_reason: Source-saturation pass found enough task, input, output, and access semantics for a context card.
+next_manual_action: Audit recovered card before any optional live analyze run.

@@ -1,0 +1,47 @@
+algorithm_id: AW-001260
+canonical_name: SPMS - Cole, Ramachandran
+enrichment_status: WEB_INSUFFICIENT
+review_reasons:
+- missing_concrete_problem_statement
+- unknown_input_model
+- unknown_output_contract
+- unknown_access_model
+source_records:
+- access_status: metadata_only
+  digest: 90e5b63af8d55ad6
+  extracted_facts:
+  - 'AlgorithmWiki row name: SPMS - Cole, Ramachandran'
+  - 'domain: unknown'
+  - 'time complexity: O(\log n loglog n)'
+  - 'computational model: shared memory'
+  - 'parameter definitions: n: size of list'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001260:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for SPMS - Cole, Ramachandran
+  url: https://dl.acm.org/doi/abs/10.1145/3040221
+- access_status: skipped
+  digest: 6ded2f84c0e5c249
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:00e1d539975c3505
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1145/3040221
+- access_status: skipped
+  digest: c5f479808b43af40
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:42d6a3c73f3268f3
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://dl.acm.org/doi/abs/10.1145/3040221
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

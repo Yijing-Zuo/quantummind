@@ -1,0 +1,44 @@
+id: AW-001817
+kind: context
+algorithm_id: AW-001817
+algorithm_name: Craus, Archip
+source_records:
+- access_status: metadata_only
+  digest: a51a39e9ddd467bc
+  extracted_facts:
+  - 'AlgorithmWiki row name: Craus, Archip'
+  - 'domain: parallel_algorithms'
+  - 'computational model: distributed memory'
+  - 'parameter definitions: n: number of individual frequent items'
+  - 'precard summary: Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model. Baseline: work O(n2^n); span/depth O(2^n); processors m<=n. Bottleneck: work, span, communication, and processor-count assumptions dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001817:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Craus, Archip
+  url: https://www.researchgate.net/profile/Alexandru-Archip/publication/234803256_A_generalized_parallel_algorithm_for_frequent_itemset_mining/links/54bcda5a0cf253b50e2d6afe/A-generalized-parallel-algorithm-for-frequent-itemset-mining.pdf
+web_query_attempts:
+- method: search_plan
+  query: Craus, Archip algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Craus, Archip algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Craus, Archip problem definition
+  status: recorded
+- method: search_plan
+  query: Craus, Archip parallel algorithms algorithm
+  status: recorded
+- method: search_plan
+  query: Craus, Archip site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Craus, Archip algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://www.researchgate.net/profile/Alexandru-Archip/publication/234803256_A_generalized_parallel_algorithm_for_frequent_itemset_mining/links/54bcda5a0cf253b50e2d6afe/A-generalized-parallel-algorithm-for-frequent-itemset-mining.pdf
+  status: recorded
+extracted_problem_statement: 'Craus, Archip is treated as a classical parallel algorithms task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Craus, Archip. Input semantics: The classical input instance named by the row, together with processor/work/span parameters when stated. Output semantics: The same mathematical output as the underlying classical task, annotated by work/span when available.'
+extracted_algorithm_summary: 'Craus, Archip is a parallel algorithms algorithm record. Classical complexity metadata: work O(n2^n); span/depth O(2^n); processors m<=n. The stated classical model is distributed memory. Public metadata/source text adds: Craus, Archip parallel_algorithms parallel_algorithms n: number of individual frequent items Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

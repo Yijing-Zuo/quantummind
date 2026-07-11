@@ -1,0 +1,58 @@
+id: AW-001664
+kind: context
+algorithm_id: AW-001664
+algorithm_name: Kruskal
+source_records:
+- access_status: metadata_only
+  digest: deb93af8b133dfc1
+  extracted_facts:
+  - 'AlgorithmWiki row name: Kruskal'
+  - 'domain: graph'
+  - 'time complexity: O(\log n \log \log n)'
+  - 'computational model: CREW PRAM'
+  - 'parameter definitions: n: number of elements to permute'
+  - 'precard summary: Given a weighted undirected graph, compute a minimum spanning tree or spanning forest according to the graph connectivity assumptions. Baseline: time O(\log n \log \log n); work O(n \log n); span/depth O(log n log log n); processors O(n/log log n). Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001664:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Kruskal
+  url: https://ieeexplore.ieee.org/document/1676138
+- access_status: skipped
+  digest: e4cc93c7df68690e
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:920af43a22abe3bf
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://ieeexplore.ieee.org/document/1676138
+web_query_attempts:
+- method: search_plan
+  query: Kruskal algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Kruskal algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Kruskal problem definition
+  status: recorded
+- method: search_plan
+  query: Kruskal graph algorithm
+  status: recorded
+- method: search_plan
+  query: Kruskal site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Kruskal algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://ieeexplore.ieee.org/document/1676138
+  status: recorded
+- method: source_link_html_metadata
+  query: https://ieeexplore.ieee.org/document/1676138
+  status: skipped
+extracted_problem_statement: 'Kruskal is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Kruskal. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: A minimum spanning tree or forest for the weighted graph.'
+extracted_algorithm_summary: 'Kruskal is a graph algorithm record. Classical complexity metadata: time O(\log n \log \log n); work O(n \log n); span/depth O(log n log log n); processors O(n/log log n). The stated classical model is CREW PRAM. Public metadata/source text adds: Kruskal graph graph n: number of elements to permute O(\log n \log \log n) Given a weighted undirected graph, compute a minimum spanning tree or spanning forest according to the graph connectivity assumptions.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

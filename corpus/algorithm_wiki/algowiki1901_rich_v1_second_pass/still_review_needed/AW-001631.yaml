@@ -1,0 +1,74 @@
+algorithm_id: AW-001631
+canonical_name: Chmielowiec (existing FFT-based algorithm)
+enrichment_status: SECOND_PASS_INSUFFICIENT
+review_reasons:
+- No second-pass rule could identify source-backed task semantics.
+source_records:
+- access_status: metadata_only
+  digest: 128f289d683a9282
+  extracted_facts:
+  - 'AlgorithmWiki row name: Chmielowiec (existing FFT-based algorithm)'
+  - 'domain: unknown'
+  - 'parameter definitions: integers as polynomials base R, n < R, n: degree of the polynomial, k: number of bits of the largest coefficient'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001631:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Chmielowiec (existing FFT-based algorithm)
+  url: https://link.springer.com/chapter/10.1007/978-94-007-6190-2_46
+- access_status: skipped
+  digest: 1f3fe61e84a90f43
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:6ad4986712829a80
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1007/978-94-007-6190-2_46
+- access_status: skipped
+  digest: cf024824e900aa3c
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:b42893602088e086
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://link.springer.com/chapter/10.1007/978-94-007-6190-2_46
+- access_status: skipped
+  digest: de43136a48ccfe5f
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:5487e3f71dbfdc6b
+  source_type: wikipedia
+  title: fetch budget exhausted
+  url: https://en.wikipedia.org/wiki/Chmielowiec_%28existing_FFT-based_algorithm%29
+- source_id: crossref:1f498fe8bb2d5cca
+  url: https://doi.org/10.1007/978-94-007-6190-2_46
+  title: Parallel Algorithm for Multiplying Integer Polynomials and Integers
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: HIGH
+  extracted_facts:
+  - 'DOI title: Parallel Algorithm for Multiplying Integer Polynomials and Integers'
+  - 'published year: 2013'
+  - 'container title: Lecture Notes in Electrical Engineering'
+  short_quote: ''
+  digest: ec45994d0eeb494e
+- source_id: crossref_search:0b18e1bdccf3f416
+  url: https://doi.org/10.1109/npc.2007.32
+  title: An optimal algorithm to fetch DHT routable
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: An optimal algorithm to fetch DHT routable'
+  short_quote: ''
+  digest: eac65bcac63f65f8
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

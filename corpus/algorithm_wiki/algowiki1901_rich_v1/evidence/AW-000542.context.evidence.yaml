@@ -1,0 +1,49 @@
+id: AW-000542
+kind: context
+algorithm_id: AW-000542
+algorithm_name: "Newton\u2013Raphson algorithm"
+source_records:
+- access_status: metadata_only
+  digest: 652d14e01a973b94
+  extracted_facts:
+  - "AlgorithmWiki row name: Newton\u2013Raphson algorithm"
+  - 'domain: numerical_analysis'
+  - 'time complexity: O(n^3)'
+  - 'space complexity: O(n+r^2)'
+  - 'computational model: Real RAM'
+  - 'parameter definitions: n: number of observations in sample, r: number of parameters + latent variables'
+  - 'precard summary: Given explicit numeric parameters or a classical function-evaluation interface, compute the requested numerical value or approximation to the stated tolerance. Baseline: time O(n^3); space O(n+r^2). Bottleneck: precision, convergence, and function-evaluation costs dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000542:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: "AlgorithmWiki metadata for Newton\u2013Raphson algorithm"
+  url: '-'
+web_query_attempts:
+- method: search_plan
+  query: "Newton\u2013Raphson algorithm algorithm input output complexity"
+  status: recorded
+- method: search_plan
+  query: "Newton\u2013Raphson algorithm algorithm pseudocode"
+  status: recorded
+- method: search_plan
+  query: "Newton\u2013Raphson algorithm problem definition"
+  status: recorded
+- method: search_plan
+  query: "Newton\u2013Raphson algorithm numerical analysis algorithm"
+  status: recorded
+- method: search_plan
+  query: "Newton\u2013Raphson algorithm site:nist.gov DADS"
+  status: recorded
+- method: search_plan
+  query: "Newton\u2013Raphson algorithm algorithm wiki"
+  status: recorded
+- method: search_plan
+  query: '-'
+  status: recorded
+- method: wikipedia_summary_search
+  query: "Newton\u2013Raphson algorithm algorithm"
+  status: failed_or_not_relevant
+extracted_problem_statement: "Newton\u2013Raphson algorithm is treated as a classical numerical analysis task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Newton\u2013Raphson algorithm. Input semantics: Numeric parameters, functions, samples, tolerances, or distributions for the stated numerical task. Output semantics: An exact or approximate numerical value, estimate, approximation, or fitted representation."
+extracted_algorithm_summary: "Newton\u2013Raphson algorithm is a numerical analysis algorithm record. Classical complexity metadata: time O(n^3); space O(n+r^2). The stated classical model is Real RAM. Public metadata/source text adds: Newton\u2013Raphson algorithm numerical_analysis numerical_analysis n: number of observations in sample, r: number of parameters + latent variables O(n^3) Given explicit numeric parameters or a classical function-evaluation interface, compute the requested numerical value or approximation to the stated tolerance."
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

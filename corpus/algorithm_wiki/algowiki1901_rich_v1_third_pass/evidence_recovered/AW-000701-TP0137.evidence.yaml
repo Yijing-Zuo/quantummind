@@ -1,0 +1,99 @@
+id: AW-000701-TP0137
+kind: probe_recovered
+algorithm_id: AW-000701
+algorithm_name: Fellegi & Sunter Model
+source_records:
+- access_status: metadata_only
+  digest: 6a8528eab3bd3ed9
+  extracted_facts:
+  - 'AlgorithmWiki row name: Fellegi & Sunter Model'
+  - 'domain: unknown'
+  - 'time complexity: O(n^3 k)'
+  - 'space complexity: O(k)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of records, k: number of features (can be up to O(\sqrt{n}))'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000701:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Fellegi & Sunter Model
+  url: https://courses.cs.washington.edu/courses/cse590q/04au/papers/Felligi69.pdf
+- access_status: fetched
+  digest: e79d544d6af755c9
+  extracted_facts:
+  - "Crossref title-search result: Estimating the Parameters of the Fellegi\u2013Sunter Record Linkage Model"
+  reliability: MEDIUM
+  short_quote: ''
+  source_id: crossref_search:982a7237fd56a6e8
+  source_type: doi_metadata
+  title: "Estimating the Parameters of the Fellegi\u2013Sunter Record Linkage Model"
+  url: https://doi.org/10.1007/0-387-69505-2_9
+- source_id: skipped:72fb7582481741db
+  url: https://courses.cs.washington.edu/courses/cse590q/04au/papers/Felligi69.pdf
+  title: public PDF body was not downloaded
+  source_type: original_source
+  access_status: skipped
+  reliability: LOW
+  extracted_facts:
+  - public PDF body was not downloaded
+  short_quote: public PDF body was not downloaded
+  digest: dd0316c424fc3456
+- source_id: crossref_search:3d94f45a87ddd66d
+  url: https://doi.org/10.1007/0-387-69505-2_9
+  title: "Estimating the Parameters of the Fellegi\u2013Sunter Record Linkage Model"
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - "Crossref title: Estimating the Parameters of the Fellegi\u2013Sunter Record Linkage Model"
+  - 'published year: 2007'
+  - 'container title: Data Quality and Record Linkage Techniques'
+  short_quote: "Crossref title: Estimating the Parameters of the Fellegi\u2013Sunter Record Linkage Model published year: 2007 container title: Data Quality and Record Linkage Techniques"
+  digest: 0a77f124941a19fd
+web_query_attempts:
+- cycle: 1
+  query: Fellegi & Sunter Model
+  source_family: algorithm_wiki_local
+  url_or_api_endpoint: https://courses.cs.washington.edu/courses/cse590q/04au/papers/Felligi69.pdf
+  status: fetched
+  new_facts_added: 9
+  reason: local metadata
+- cycle: 1
+  query: Fellegi & Sunter Model
+  source_family: local_previous_cache
+  url_or_api_endpoint: ''
+  status: duplicate
+  new_facts_added: 0
+  reason: previous v1/second-pass sources reused
+- cycle: 1
+  query: https://courses.cs.washington.edu/courses/cse590q/04au/papers/Felligi69.pdf
+  source_family: original_source
+  url_or_api_endpoint: https://courses.cs.washington.edu/courses/cse590q/04au/papers/Felligi69.pdf
+  status: paywalled
+  new_facts_added: 0
+  reason: PDF body skipped
+- cycle: 1
+  query: Fellegi & Sunter Model
+  source_family: crossref
+  url_or_api_endpoint: https://doi.org/10.1007/0-387-69505-2_9
+  status: irrelevant
+  new_facts_added: 0
+  reason: Crossref metadata/title search
+- cycle: 1
+  query: Fellegi & Sunter Model
+  source_family: arxiv
+  url_or_api_endpoint: https://export.arxiv.org/api/query?max_results=1&search_query=ti:%22Fellegi+%26+Sunter+Model%22
+  status: no_result
+  new_facts_added: 0
+  reason: arXiv title search returned no usable entry
+- cycle: 1
+  query: Fellegi & Sunter Model
+  source_family: wikipedia
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: Wikipedia search returned no relevant page
+extracted_problem_statement: 'Fellegi & Sunter Model is treated as a source-saturated AlgorithmWiki row for detect salient image features, corners, blobs, or stable regions Input semantics: An image or image sequence with pixel/grid dimensions and scale or detector parameters when stated. Output semantics: A set of detected feature locations, regions, descriptors, or detector responses.'
+extracted_algorithm_summary: 'Fellegi & Sunter Model is reconstructed as a classical image processing task. The source-backed title/name/fact record supports the task: detect salient image features, corners, blobs, or stable regions.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

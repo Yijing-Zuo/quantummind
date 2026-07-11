@@ -1,0 +1,71 @@
+id: AW-001437
+kind: context
+algorithm_id: AW-001437
+algorithm_name: Reghbati (Arjomandi) and Corneil (2)
+source_records:
+- access_status: metadata_only
+  digest: 671f879b2a350612
+  extracted_facts:
+  - 'AlgorithmWiki row name: Reghbati (Arjomandi) and Corneil (2)'
+  - 'domain: graph'
+  - 'time complexity: O(\log^2(n))'
+  - 'computational model: SIMD-SM-R (CREW PRAM)'
+  - 'parameter definitions: n: number of vertices'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(\log^2(n)); work O(n^3 \log^2(n)); span/depth O(log^2(n)); processors n^3. Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001437:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Reghbati (Arjomandi) and Corneil (2)
+  url: https://epubs.siam.org/doi/abs/10.1137/0207020
+- access_status: skipped
+  digest: 63b6fae43c4c96dd
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:d8fa5e635b7babfb
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1137/0207020
+- access_status: skipped
+  digest: 25ada3262f2a45ad
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:128831cd2551cdb5
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://epubs.siam.org/doi/abs/10.1137/0207020
+web_query_attempts:
+- method: search_plan
+  query: Reghbati (Arjomandi) and Corneil (2) algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Reghbati (Arjomandi) and Corneil (2) algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Reghbati (Arjomandi) and Corneil (2) problem definition
+  status: recorded
+- method: search_plan
+  query: Reghbati (Arjomandi) and Corneil (2) graph algorithm
+  status: recorded
+- method: search_plan
+  query: Reghbati (Arjomandi) and Corneil (2) site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Reghbati (Arjomandi) and Corneil (2) algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://epubs.siam.org/doi/abs/10.1137/0207020
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1137/0207020
+  status: skipped
+- method: source_link_html_metadata
+  query: https://epubs.siam.org/doi/abs/10.1137/0207020
+  status: skipped
+extracted_problem_statement: 'Reghbati (Arjomandi) and Corneil (2) is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Reghbati (Arjomandi) and Corneil (2). Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'Reghbati (Arjomandi) and Corneil (2) is a graph algorithm record. Classical complexity metadata: time O(\log^2(n)); work O(n^3 \log^2(n)); span/depth O(log^2(n)); processors n^3. The stated classical model is SIMD-SM-R (CREW PRAM). Public metadata/source text adds: Reghbati (Arjomandi) and Corneil (2) graph graph n: number of vertices O(\log^2(n)) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

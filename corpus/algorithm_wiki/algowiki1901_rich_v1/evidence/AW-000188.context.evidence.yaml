@@ -1,0 +1,74 @@
+id: AW-000188
+kind: context
+algorithm_id: AW-000188
+algorithm_name: Paul Purdom
+source_records:
+- access_status: metadata_only
+  digest: 18e016ea55ff73b9
+  extracted_facts:
+  - 'AlgorithmWiki row name: Paul Purdom'
+  - 'domain: graph'
+  - 'time complexity: O(V^2+VE)'
+  - 'space complexity: O(V^2)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: V: number of vertices, E: number of edges'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(V^2+VE); space O(V^2). Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000188:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Paul Purdom
+  url: https://link.springer.com/article/10.1007%2FBF01940892
+- access_status: fetched
+  digest: 4d3803453487c818
+  extracted_facts:
+  - 'DOI title: A transitive closure algorithm'
+  - 'published year: 1970'
+  - 'container title: BIT Numerical Mathematics'
+  reliability: HIGH
+  short_quote: ''
+  source_id: crossref:b61177466792fa74
+  source_type: doi_metadata
+  title: A transitive closure algorithm
+  url: https://doi.org/10.1007/BF01940892
+- access_status: skipped
+  digest: a297ba82765d0fd8
+  extracted_facts:
+  - robots.txt disallowed fetch
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:a7a862a73a665d08
+  source_type: publisher_abstract
+  title: robots.txt disallowed fetch
+  url: https://link.springer.com/article/10.1007%2FBF01940892
+web_query_attempts:
+- method: search_plan
+  query: Paul Purdom algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Paul Purdom algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Paul Purdom problem definition
+  status: recorded
+- method: search_plan
+  query: Paul Purdom graph algorithm
+  status: recorded
+- method: search_plan
+  query: Paul Purdom site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Paul Purdom algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://link.springer.com/article/10.1007%2FBF01940892
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1007/BF01940892
+  status: fetched
+- method: source_link_html_metadata
+  query: https://link.springer.com/article/10.1007%2FBF01940892
+  status: skipped
+extracted_problem_statement: 'Paul Purdom is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Paul Purdom. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'Paul Purdom is a graph algorithm record. Classical complexity metadata: time O(V^2+VE); space O(V^2). The stated classical model is Word RAM. Public metadata/source text adds: Paul Purdom graph graph V: number of vertices, E: number of edges O(V^2+VE) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

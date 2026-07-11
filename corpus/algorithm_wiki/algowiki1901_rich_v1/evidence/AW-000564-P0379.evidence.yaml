@@ -1,0 +1,75 @@
+id: AW-000564-P0379
+kind: probe
+algorithm_id: AW-000564
+algorithm_name: Kahn's algorithm
+source_records:
+- access_status: metadata_only
+  digest: 10d7b0222f3b41d9
+  extracted_facts:
+  - 'AlgorithmWiki row name: Kahn''s algorithm'
+  - 'domain: graph'
+  - 'time complexity: O(V+E)'
+  - 'space complexity: O(V)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: V: number of vertices, E: number of edges'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(V+E); space O(V). Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000564:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Kahn's algorithm
+  url: https://dl.acm.org/doi/10.1145/368996.369025
+- access_status: fetched
+  digest: d8d7cbcec5a3da41
+  extracted_facts:
+  - 'DOI title: Topological sorting of large networks'
+  - 'published year: 1962'
+  - 'container title: Communications of the ACM'
+  - 'abstract summary: Topological Sorting is a procedure required for many problems involving analysis of networks.'
+  reliability: HIGH
+  short_quote: Topological Sorting is a procedure required for many problems involving analysis of networks.
+  source_id: crossref:58e86ce7b84b6b4c
+  source_type: doi_metadata
+  title: Topological sorting of large networks
+  url: https://doi.org/10.1145/368996.369025
+- access_status: failed
+  digest: 6ba24b80cf446108
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:26976bca01e22786
+  source_type: publisher_abstract
+  title: 'HTTP Error 403: Forbidden'
+  url: https://dl.acm.org/doi/10.1145/368996.369025
+web_query_attempts:
+- method: search_plan
+  query: Kahn's algorithm algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Kahn's algorithm algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Kahn's algorithm problem definition
+  status: recorded
+- method: search_plan
+  query: Kahn's algorithm graph algorithm
+  status: recorded
+- method: search_plan
+  query: Kahn's algorithm site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Kahn's algorithm algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://dl.acm.org/doi/10.1145/368996.369025
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1145/368996.369025
+  status: fetched
+- method: source_link_html_metadata
+  query: https://dl.acm.org/doi/10.1145/368996.369025
+  status: failed
+extracted_problem_statement: 'Kahn''s algorithm is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Kahn''s algorithm. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'Kahn''s algorithm is a graph algorithm record. Classical complexity metadata: time O(V+E); space O(V). The stated classical model is Word RAM. Public metadata/source text adds: Kahn''s algorithm graph graph V: number of vertices, E: number of edges O(V+E) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

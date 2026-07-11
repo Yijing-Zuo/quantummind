@@ -1,0 +1,63 @@
+id: AW-000628
+kind: context
+algorithm_id: AW-000628
+algorithm_name: String Graph (Myers)
+source_records:
+- access_status: metadata_only
+  digest: 0b963250392e6602
+  extracted_facts:
+  - 'AlgorithmWiki row name: String Graph (Myers)'
+  - 'domain: graph'
+  - 'time complexity: O(n \log n)'
+  - 'space complexity: O(n)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: sum of lengths of reads, f: number of input sequences'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(n \log n); space O(n). Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000628:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for String Graph (Myers)
+  url: https://www.ncbi.nlm.nih.gov/pubmed/7497129
+- access_status: fetched
+  digest: 0a04231b906f1a0e
+  extracted_facts:
+  - 'source page title: Toward simplifying and accurately formulating fragment assembly - PubMed'
+  - 'source page description: The fragment assembly problem is that of reconstructing a DNA sequence from a collection of randomly sampled fragments.'
+  reliability: LOW
+  short_quote: The fragment assembly problem is that of reconstructing a DNA sequence from a collection of randomly sampled fragments.
+  source_id: source:3e6b96dedcc6764b
+  source_type: other_public_source
+  title: Toward simplifying and accurately formulating fragment assembly - PubMed
+  url: https://www.ncbi.nlm.nih.gov/pubmed/7497129
+web_query_attempts:
+- method: search_plan
+  query: String Graph (Myers) algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: String Graph (Myers) algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: String Graph (Myers) problem definition
+  status: recorded
+- method: search_plan
+  query: String Graph (Myers) graph algorithm
+  status: recorded
+- method: search_plan
+  query: String Graph (Myers) site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: String Graph (Myers) algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://www.ncbi.nlm.nih.gov/pubmed/7497129
+  status: recorded
+- method: source_link_html_metadata
+  query: https://www.ncbi.nlm.nih.gov/pubmed/7497129
+  status: fetched
+- method: wikipedia_summary_search
+  query: String Graph (Myers) algorithm
+  status: failed_or_not_relevant
+extracted_problem_statement: 'String Graph (Myers) is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with String Graph (Myers). Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'String Graph (Myers) is a graph algorithm record. Classical complexity metadata: time O(n \log n); space O(n). The stated classical model is Word RAM. Public metadata/source text adds: String Graph (Myers) graph graph n: sum of lengths of reads, f: number of input sequences O(n \log n) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

@@ -1,0 +1,13 @@
+statement: 'Faster Brute Force (via x[L:U] = x[L:U-1]+x[U]) is included as a named whole-algorithm context card for a classical dynamic programming task. The task is to analyze the classical input-output problem, not to certify an end-to-end improvement claim. Input semantics: A numeric array of length n. Output semantics: The maximum subarray value and optionally the interval attaining it. Classical algorithm summary: Faster Brute Force (via x[L:U] = x[L:U-1]+x[U]) is treated as the named AlgorithmWiki variant for find a contiguous subarray with maximum sum Classical complexity metadata: time O(n^2); space O(1). Public metadata/source title support includes Programming pearls. Classical complexity recorded for this row: time O(n^2); space O(1); computation model Word/Real RAM. Dominant bottleneck: Scanning candidate intervals or maintaining dynamic prefix information dominates. The useful review questions are whether the named structure exposes a smaller decision, witness, estimation, or
+  algebraic subproblem; whether the full output size dominates any asymptotic gain; and whether the stated access model is realistic for the original input. Provenance used for reconstruction includes public metadata or abstract sources such as Programming pearls; Programming pearls.'
+input_model: explicit_dynamic_programming_problem
+access_model: random_access_array
+output_contract: full_solution
+promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+size_parameters:
+- 'Parameter definition: n: length of array'
+ambiguities:
+- Some details are reconstructed from AlgorithmWiki metadata rather than an independently fetched full public description.
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.

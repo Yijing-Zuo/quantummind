@@ -1,0 +1,81 @@
+algorithm_id: AW-000754
+canonical_name: Expectation-Maximization (EM) algorithm
+enrichment_status: THIRD_PASS_RECOVERED
+review_reasons:
+- Source-saturation pass found enough task, input, output, and access semantics for a context card.; public_leakage_term_in_name_or_statement
+source_records:
+- access_status: metadata_only
+  digest: 59c52281e515bb8f
+  extracted_facts:
+  - 'AlgorithmWiki row name: Expectation-Maximization (EM) algorithm'
+  - 'domain: unknown'
+  - 'time complexity: O(n^3)'
+  - 'space complexity: O(n+r)'
+  - 'computational model: Real RAM'
+  - 'parameter definitions: n: number of observations in sample, r: number of parameters + latent variables'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000754:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Expectation-Maximization (EM) algorithm
+  url: https://www.jstor.org/stable/2984875
+- access_status: failed
+  digest: 0549982cdc60393c
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:b338ecd21b7b6c64
+  source_type: other_public_source
+  title: 'HTTP Error 403: Forbidden'
+  url: https://www.jstor.org/stable/2984875
+- access_status: fetched
+  digest: 8128633b6a02307a
+  extracted_facts:
+  - "Crossref title-search result: Expectation\u2013Maximization (EM) Algorithm"
+  reliability: MEDIUM
+  short_quote: ''
+  source_id: crossref_search:c3048354cbc80dd9
+  source_type: doi_metadata
+  title: "Expectation\u2013Maximization (EM) Algorithm"
+  url: https://doi.org/10.1201/9781003104315-9
+- source_id: crossref_search:fd3c34f065facdd7
+  url: https://doi.org/10.1201/9781003104315-9
+  title: "Expectation\u2013Maximization (EM) Algorithm"
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - "Crossref title: Expectation\u2013Maximization (EM) Algorithm"
+  - 'published year: 2025'
+  - 'container title: Applications of Big Data and Machine Learning in Galaxy Formation and Evolution'
+  short_quote: "Crossref title: Expectation\u2013Maximization (EM) Algorithm published year: 2025 container title: Applications of Big Data and Machine Learning in Galaxy Formation and Evolution"
+  digest: 39196a358005f10e
+- source_id: openalex:8e5e5630f546ebc9
+  url: https://openalex.org/W2048869777
+  title: An expectation maximization (EM) algorithm for the identification and characterization of common sites in unaligned biopolymer sequences
+  source_type: openalex
+  access_status: fetched
+  reliability: HIGH
+  extracted_facts:
+  - 'OpenAlex title: An expectation maximization (EM) algorithm for the identification and characterization of common sites in unaligned biopolymer sequences'
+  - 'publication year: 1990'
+  - 'abstract summary: Statistical methodology for the identification and characterization of protein binding sites in a set of unaligned DNA fragments is presented.'
+  short_quote: 'OpenAlex title: An expectation maximization (EM) algorithm for the identification and characterization of common sites in unaligned biopolymer sequences publication year: 1990 abstract summary:'
+  digest: 67787ae7bede4680
+- source_id: semantic_scholar:3f9c64f29a042166
+  url: https://www.semanticscholar.org/paper/edeba543db37bc727bf3a693167e02c0b632bb1b
+  title: Expectation Maximization (EM) Algorithm
+  source_type: semantic_scholar
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Semantic Scholar title: Expectation Maximization (EM) Algorithm'
+  - 'published year: 2020'
+  - 'abstract summary: None'
+  short_quote: 'Semantic Scholar title: Expectation Maximization (EM) Algorithm published year: 2020 abstract summary: None'
+  digest: e03f690b37c2aade
+extracted_problem_statement: 'Expectation-Maximization (EM) algorithm is treated as a source-saturated AlgorithmWiki row for identify shared motifs or common sites in biological sequences Input semantics: A collection of sequences, sequence length parameters, alphabet information, and motif/model parameters. Output semantics: Motif locations, motif model parameters, or a scored set of common sequence sites.'
+extracted_input_semantics: A collection of sequences, sequence length parameters, alphabet information, and motif/model parameters.
+extracted_output_semantics: Motif locations, motif model parameters, or a scored set of common sequence sites.

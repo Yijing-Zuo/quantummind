@@ -1,0 +1,59 @@
+id: AW-001684
+kind: context
+algorithm_id: AW-001684
+algorithm_name: Atallah, Vishkin
+source_records:
+- access_status: metadata_only
+  digest: 26e19f7b037528c7
+  extracted_facts:
+  - 'AlgorithmWiki row name: Atallah, Vishkin'
+  - 'domain: graph'
+  - 'time complexity: O(\log V)'
+  - 'space complexity: O(1)'
+  - 'computational model: CRCW PRAM'
+  - 'parameter definitions: V: number of vertices, E: number of edges'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(\log V); space O(1); work O(E \log V); span/depth O(log V); processors O(E). Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001684:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Atallah, Vishkin
+  url: https://www.sciencedirect.com/science/article/pii/0022000084900035
+- access_status: skipped
+  digest: c8ee13e1ab95b259
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:1e33f0802969454a
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://www.sciencedirect.com/science/article/pii/0022000084900035
+web_query_attempts:
+- method: search_plan
+  query: Atallah, Vishkin algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Atallah, Vishkin algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Atallah, Vishkin problem definition
+  status: recorded
+- method: search_plan
+  query: Atallah, Vishkin graph algorithm
+  status: recorded
+- method: search_plan
+  query: Atallah, Vishkin site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Atallah, Vishkin algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://www.sciencedirect.com/science/article/pii/0022000084900035
+  status: recorded
+- method: source_link_html_metadata
+  query: https://www.sciencedirect.com/science/article/pii/0022000084900035
+  status: skipped
+extracted_problem_statement: 'Atallah, Vishkin is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Atallah, Vishkin. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'Atallah, Vishkin is a graph algorithm record. Classical complexity metadata: time O(\log V); space O(1); work O(E \log V); span/depth O(log V); processors O(E). The stated classical model is CRCW PRAM. Public metadata/source text adds: Atallah, Vishkin graph graph V: number of vertices, E: number of edges O(\log V) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

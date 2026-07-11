@@ -1,0 +1,59 @@
+id: AW-000173
+kind: context
+algorithm_id: AW-000173
+algorithm_name: Byskov
+source_records:
+- access_status: metadata_only
+  digest: 9e4b7e0272cc926e
+  extracted_facts:
+  - 'AlgorithmWiki row name: Byskov'
+  - 'domain: graph'
+  - 'time complexity: O(1.7504^n)'
+  - 'space complexity: O(n^2)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of vertices, m: number of edges'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(1.7504^n); space O(n^2). Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000173:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Byskov
+  url: https://www.sciencedirect.com/science/article/abs/pii/S0167637704000409
+- access_status: failed
+  digest: 7af67507d3a7b566
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:073df41f2f5ca9be
+  source_type: publisher_abstract
+  title: 'HTTP Error 403: Forbidden'
+  url: https://www.sciencedirect.com/science/article/abs/pii/S0167637704000409
+web_query_attempts:
+- method: search_plan
+  query: Byskov algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Byskov algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Byskov problem definition
+  status: recorded
+- method: search_plan
+  query: Byskov graph algorithm
+  status: recorded
+- method: search_plan
+  query: Byskov site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Byskov algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://www.sciencedirect.com/science/article/abs/pii/S0167637704000409
+  status: recorded
+- method: source_link_html_metadata
+  query: https://www.sciencedirect.com/science/article/abs/pii/S0167637704000409
+  status: failed
+extracted_problem_statement: 'Byskov is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Byskov. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'Byskov is a graph algorithm record. Classical complexity metadata: time O(1.7504^n); space O(n^2). The stated classical model is Word RAM. Public metadata/source text adds: Byskov graph graph n: number of vertices, m: number of edges O(1.7504^n) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

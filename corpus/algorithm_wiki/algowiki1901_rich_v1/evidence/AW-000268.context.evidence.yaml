@@ -1,0 +1,71 @@
+id: AW-000268
+kind: context
+algorithm_id: AW-000268
+algorithm_name: Raymond's algorithm
+source_records:
+- access_status: metadata_only
+  digest: 4300e46ee55906b2
+  extracted_facts:
+  - 'AlgorithmWiki row name: Raymond''s algorithm'
+  - 'domain: unknown'
+  - 'time complexity: O(\log n) (originally this had O(n))'
+  - 'space complexity: O(1) per process, O(n) total'
+  - 'parameter definitions: n: number of processes'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000268:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Raymond's algorithm
+  url: https://dl.acm.org/doi/abs/10.1145/58564.59295
+- access_status: fetched
+  digest: ffa660227c2b2736
+  extracted_facts:
+  - 'DOI title: A tree-based algorithm for distributed mutual exclusion'
+  - 'published year: 1989'
+  - 'container title: ACM Transactions on Computer Systems'
+  - 'abstract summary: nodes that communicate by messages rather than shared memory.'
+  reliability: HIGH
+  short_quote: nodes that communicate by messages rather than shared memory.
+  source_id: crossref:e46ac3cf5ad55e18
+  source_type: doi_metadata
+  title: A tree-based algorithm for distributed mutual exclusion
+  url: https://doi.org/10.1145/58564.59295
+- access_status: failed
+  digest: 2067b1ca0d3a6ca2
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:154dd3ab447ef6dc
+  source_type: publisher_abstract
+  title: 'HTTP Error 403: Forbidden'
+  url: https://dl.acm.org/doi/abs/10.1145/58564.59295
+web_query_attempts:
+- method: search_plan
+  query: Raymond's algorithm algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Raymond's algorithm algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Raymond's algorithm problem definition
+  status: recorded
+- method: search_plan
+  query: Raymond's algorithm site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Raymond's algorithm algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://dl.acm.org/doi/abs/10.1145/58564.59295
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1145/58564.59295
+  status: fetched
+- method: source_link_html_metadata
+  query: https://dl.acm.org/doi/abs/10.1145/58564.59295
+  status: failed
+extracted_problem_statement: 'Raymond''s algorithm is treated as a classical data structures task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Raymond''s algorithm. Input semantics: A set of records plus update/query operations for the named data structure. Output semantics: A maintained data structure representation and answers to its supported queries.'
+extracted_algorithm_summary: 'Raymond''s algorithm is a data structures algorithm record. Classical complexity metadata: time O(\log n) (originally this had O(n)); space O(1) per process, O(n) total. Public metadata/source text adds: Raymond''s algorithm unknown unknown n: number of processes O(\log n) (originally this had O(n)) No public-ready summary is available because the row lacks enough task semantics.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

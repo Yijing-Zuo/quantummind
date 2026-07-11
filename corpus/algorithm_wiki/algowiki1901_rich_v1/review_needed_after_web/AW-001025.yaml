@@ -1,0 +1,35 @@
+algorithm_id: AW-001025
+canonical_name: Kose, Weckwerth, Linke, Fiehn
+enrichment_status: WEB_INSUFFICIENT
+review_reasons:
+- missing_concrete_problem_statement
+- unknown_input_model
+- unknown_output_contract
+- unknown_access_model
+- missing_size_parameters
+source_records:
+- access_status: metadata_only
+  digest: 53ccaa8447ec094c
+  extracted_facts:
+  - 'AlgorithmWiki row name: Kose, Weckwerth, Linke, Fiehn'
+  - 'domain: unknown'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001025:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Kose, Weckwerth, Linke, Fiehn
+  url: https://academic.oup.com/bioinformatics/article/17/12/1198/225504
+- access_status: skipped
+  digest: 5c147fb772bde854
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:c6227e31d7e6c581
+  source_type: other_public_source
+  title: fetch budget exhausted
+  url: https://academic.oup.com/bioinformatics/article/17/12/1198/225504
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

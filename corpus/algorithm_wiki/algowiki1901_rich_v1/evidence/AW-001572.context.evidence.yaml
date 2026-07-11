@@ -1,0 +1,71 @@
+id: AW-001572
+kind: context
+algorithm_id: AW-001572
+algorithm_name: "Maleki, Nguyen, Lenharth, Garzar\xE1n, Padua, Pingali"
+source_records:
+- access_status: metadata_only
+  digest: be22f226d9523049
+  extracted_facts:
+  - "AlgorithmWiki row name: Maleki, Nguyen, Lenharth, Garzar\xE1n, Padua, Pingali"
+  - 'domain: graph'
+  - 'time complexity: O((|E| + L_D)/P + (|E| + L_D)/D)'
+  - 'computational model: BSP (written for SPMD)'
+  - 'parameter definitions: |E|: number of edges, P: number of processors, D: number of edge relaxations between communications, L_D: work overhead'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O((|E| + L_D)/P + (|E| + L_D)/D); work O((|E| + L_D) + (|E| + L_D)P/D); span/depth O((|E| + L_D)/P + (|E| + L_D)/D); processors P. Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001572:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: "AlgorithmWiki metadata for Maleki, Nguyen, Lenharth, Garzar\xE1n, Padua, Pingali"
+  url: https://dl.acm.org/doi/abs/10.1145/2925426.2926287
+- access_status: skipped
+  digest: 07c4a2c1e3ca64b9
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:4b8ac464a206438b
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1145/2925426.2926287
+- access_status: skipped
+  digest: 662eff7fe7179f22
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:fc01ba9e1d2030f2
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://dl.acm.org/doi/abs/10.1145/2925426.2926287
+web_query_attempts:
+- method: search_plan
+  query: "Maleki, Nguyen, Lenharth, Garzar\xE1n, Padua, Pingali algorithm input output complexity"
+  status: recorded
+- method: search_plan
+  query: "Maleki, Nguyen, Lenharth, Garzar\xE1n, Padua, Pingali algorithm pseudocode"
+  status: recorded
+- method: search_plan
+  query: "Maleki, Nguyen, Lenharth, Garzar\xE1n, Padua, Pingali problem definition"
+  status: recorded
+- method: search_plan
+  query: "Maleki, Nguyen, Lenharth, Garzar\xE1n, Padua, Pingali graph algorithm"
+  status: recorded
+- method: search_plan
+  query: "Maleki, Nguyen, Lenharth, Garzar\xE1n, Padua, Pingali site:nist.gov DADS"
+  status: recorded
+- method: search_plan
+  query: "Maleki, Nguyen, Lenharth, Garzar\xE1n, Padua, Pingali algorithm wiki"
+  status: recorded
+- method: search_plan
+  query: https://dl.acm.org/doi/abs/10.1145/2925426.2926287
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1145/2925426.2926287
+  status: skipped
+- method: source_link_html_metadata
+  query: https://dl.acm.org/doi/abs/10.1145/2925426.2926287
+  status: skipped
+extracted_problem_statement: "Maleki, Nguyen, Lenharth, Garzar\xE1n, Padua, Pingali is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Maleki, Nguyen, Lenharth, Garzar\xE1n, Padua, Pingali. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result."
+extracted_algorithm_summary: "Maleki, Nguyen, Lenharth, Garzar\xE1n, Padua, Pingali is a graph algorithm record. Classical complexity metadata: time O((|E| + L_D)/P + (|E| + L_D)/D); work O((|E| + L_D) + (|E| + L_D)P/D); span/depth O((|E| + L_D)/P + (|E| + L_D)/D); processors P. The stated classical model is BSP (written for SPMD). Public metadata/source text adds: Maleki, Nguyen, Lenharth, Garzar\xE1n, Padua, Pingali graph graph |E|: number of edges, P: number of processors, D: number of edge relaxations between communications, L_D: work overhead O((|E| + L_D)/P + (|E| + L_D)/D) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record."
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

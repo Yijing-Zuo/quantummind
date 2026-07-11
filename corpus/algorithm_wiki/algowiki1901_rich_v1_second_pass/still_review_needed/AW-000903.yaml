@@ -1,0 +1,33 @@
+algorithm_id: AW-000903
+canonical_name: O'Neil 1973
+enrichment_status: SECOND_PASS_INSUFFICIENT
+review_reasons:
+- No second-pass rule could identify source-backed task semantics.
+source_records:
+- access_status: metadata_only
+  digest: 49dbe3be84efbd40
+  extracted_facts:
+  - 'AlgorithmWiki row name: O''Neil 1973'
+  - 'domain: unknown'
+  - 'time complexity: O(n^3)'
+  - 'parameter definitions: n: dimension of the two square matrices'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000903:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for O'Neil 1973
+  url: https://core.ac.uk/download/pdf/82467126.pdf
+- source_id: crossref_search:5d983100bc04c388
+  url: https://doi.org/10.5040/9798881833374.415
+  title: "Harris, Neil Patrick (1973\u2013)."
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - "Crossref title-search result: Harris, Neil Patrick (1973\u2013)."
+  short_quote: ''
+  digest: 77b001c0de933f3c
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

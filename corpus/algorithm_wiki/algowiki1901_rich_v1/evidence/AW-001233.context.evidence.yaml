@@ -1,0 +1,45 @@
+id: AW-001233
+kind: context
+algorithm_id: AW-001233
+algorithm_name: Arefin, Hasan
+source_records:
+- access_status: metadata_only
+  digest: 8f7356729d90d919
+  extracted_facts:
+  - 'AlgorithmWiki row name: Arefin, Hasan'
+  - 'domain: sorting'
+  - 'time complexity: O(n/p \log^2{n})'
+  - 'computational model: SIMD'
+  - 'parameter definitions: n: size of list, p: number of processors, p=2^m and n=2^k where m<k'
+  - 'precard summary: Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model. Baseline: time O(n/p \log^2{n}); work O(n \log^2{n}); span/depth O(\log^2{n}); processors p. Bottleneck: comparison, distribution, and full-output movement costs dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001233:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Arefin, Hasan
+  url: https://d1wqtxts1xzle7.cloudfront.net/62387187/497-263-libre.pdf?1584493306=&response-content-disposition=inline%3B+filename%3DAn_improvement_of_bitonic_sorting_for_pa.pdf&Expires=1697227017&Signature=Vvn~Pm~bDEr3CtevY~6HvLW1kn~GklUkg3rgPQKGUNQMiu4TQwovBAIX0OXYjLw21v6TeP~6iilbkYwXqjRgprdZsAlri7qQQJU-blV2-cPKxuwz5GFugIMqCJBz-riYUhrWpWh9Ot7E~oQNp8TM5zIi3zMN-AEJ8pGYx-3uwa1WYQEGHMn-KaD9k0DyFUF2GzzZo190xonEh01XK2nj4tZFK-QFy7DiZ3Nk1OhR5QrzYMCqHHN9hxvxZmP11YJI192Kfu8yLPio6JUfNLteY0ZZqkRY-ahx8qR7GYPlmx8IVAF--pis86dqeg6MsX5YyZK3PoqT01INvoQi1SjplA__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA
+web_query_attempts:
+- method: search_plan
+  query: Arefin, Hasan algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Arefin, Hasan algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Arefin, Hasan problem definition
+  status: recorded
+- method: search_plan
+  query: Arefin, Hasan sorting algorithm
+  status: recorded
+- method: search_plan
+  query: Arefin, Hasan site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Arefin, Hasan algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://d1wqtxts1xzle7.cloudfront.net/62387187/497-263-libre.pdf?1584493306=&response-content-disposition=inline%3B+filename%3DAn_improvement_of_bitonic_sorting_for_pa.pdf&Expires=1697227017&Signature=Vvn~Pm~bDEr3CtevY~6HvLW1kn~GklUkg3rgPQKGUNQMiu4TQwovBAIX0OXYjLw21v6TeP~6iilbkYwXqjRgprdZsAlri7qQQJU-blV2-cPKxuwz5GFugIMqCJBz-riYUhrWpWh9Ot7E~oQNp8TM5zIi3zMN-AEJ8pGYx-3uwa1WYQEGHMn-KaD9k0DyFUF2GzzZo190xonEh01XK2nj4tZFK-QFy7DiZ3Nk1OhR5QrzYMCqHHN9hxvxZmP11YJI192Kfu8yLPio6JUfNLteY0ZZqkRY-ahx8qR7GYPlmx8IVAF--pis86dqeg6MsX5YyZK3PoqT01INvoQi1SjplA__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA
+  status: recorded
+extracted_problem_statement: 'Arefin, Hasan is treated as a classical sorting task for rich AlgorithmWiki discovery. Problem/task: sort the input sequence using the named classical sorting method. Input semantics: A finite array or list of comparable keys or records. Output semantics: The same items returned in nondecreasing order, usually as a full reordered sequence.'
+extracted_algorithm_summary: 'Arefin, Hasan is a sorting algorithm record. Classical complexity metadata: time O(n/p \log^2{n}); work O(n \log^2{n}); span/depth O(\log^2{n}); processors p. The stated classical model is SIMD. Public metadata/source text adds: Arefin, Hasan sorting sorting n: size of list, p: number of processors, p=2^m and n=2^k where m<k O(n/p \log^2{n}) Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

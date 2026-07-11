@@ -1,0 +1,87 @@
+algorithm_id: AW-000944
+canonical_name: Lewis 1978
+enrichment_status: THIRD_PASS_SATURATED_INSUFFICIENT
+review_reasons:
+- After the configured source-family cycles, no source-backed concrete task, input semantics, output semantics, and conservative access model could be established.
+source_records:
+- access_status: metadata_only
+  digest: 44eb3f076c3689c2
+  extracted_facts:
+  - 'AlgorithmWiki row name: Lewis 1978'
+  - 'domain: unknown'
+  - 'time complexity: O(mn^2)'
+  - 'parameter definitions: n: number of variables, m: number of clauses'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000944:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Lewis 1978
+  url: https://dl.acm.org/doi/10.1145/322047.322059
+- access_status: skipped
+  digest: 6304df95cc3f3a60
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:b7cac1ec77d81823
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1145/322047.322059
+- access_status: skipped
+  digest: e74a17c35436fb60
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:51bae75d826ace52
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://dl.acm.org/doi/10.1145/322047.322059
+- access_status: fetched
+  digest: 46615e1c230bca88
+  extracted_facts:
+  - 'DOI title: Renaming a Set of Clauses as a Horn Set'
+  - 'published year: 1978'
+  - 'container title: Journal of the ACM'
+  reliability: HIGH
+  short_quote: ''
+  source_id: crossref:bf0fa814a960653f
+  source_type: doi_metadata
+  title: Renaming a Set of Clauses as a Horn Set
+  url: https://doi.org/10.1145/322047.322059
+- access_status: fetched
+  digest: eac65bcac63f65f8
+  extracted_facts:
+  - 'Crossref title-search result: An optimal algorithm to fetch DHT routable'
+  reliability: MEDIUM
+  short_quote: ''
+  source_id: crossref_search:0b18e1bdccf3f416
+  source_type: doi_metadata
+  title: An optimal algorithm to fetch DHT routable
+  url: https://doi.org/10.1109/npc.2007.32
+- source_id: failed:ae99b45b4dac6933
+  url: https://dl.acm.org/doi/10.1145/322047.322059
+  title: 'HTTP Error 403: Forbidden'
+  source_type: original_source
+  access_status: failed
+  reliability: LOW
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  short_quote: 'HTTP Error 403: Forbidden'
+  digest: d7a20a602135e4a6
+- source_id: openalex:b81abc09eef4654e
+  url: https://openalex.org/W1981549588
+  title: Renaming a Set of Clauses as a Horn Set
+  source_type: openalex
+  access_status: fetched
+  reliability: HIGH
+  extracted_facts:
+  - 'OpenAlex title: Renaming a Set of Clauses as a Horn Set'
+  - 'publication year: 1978'
+  - 'abstract summary: No abstract available.'
+  short_quote: 'OpenAlex title: Renaming a Set of Clauses as a Horn Set publication year: 1978 abstract summary: No abstract available.'
+  digest: 9eda9565dc19ea8b
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

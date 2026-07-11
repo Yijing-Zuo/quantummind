@@ -1,0 +1,80 @@
+b_rule_implementation:
+  identifier: quantummindlite.validation:RULE_IDS
+  rule_ids:
+  - B1_SELECTED_MATCH_CONSISTENCY
+  - B2_REGISTRY_AND_STRUCTURE_COMPATIBLE
+  - B3_ASYMPTOTIC_SPEEDUP_CERTIFICATE
+  - B4_ACCESS_MODEL_COMPATIBLE
+  - B5_OUTPUT_CONTRACT_COMPATIBLE
+  - B6_REQUIRED_PROMISES_REPRESENTED
+  - B7_APPLICABLE_CRITICAL_BARRIER
+  - B8_SCOPE_NON_ESCALATION
+  - B9_PRIOR_ART_AND_NOVELTY
+  - B10_GOLD_NOT_VISIBLE
+benchmark_version: 0.1.0
+created_at: '2026-07-10T16:10:13.706788+00:00'
+files:
+  configs/primitives.yaml: 501e8b5140ec542f
+  configs/sources.yaml: 0c2066482cc8d36b
+  paperbench/evidence/QM-PB-001.yaml: b154f34918817a8a
+  paperbench/evidence/QM-PB-002.yaml: ed09bf5730ad185b
+  paperbench/evidence/QM-PB-003.yaml: a4fc82f1776dc0b6
+  paperbench/evidence/QM-PB-004.yaml: be020f799b109e60
+  paperbench/evidence/QM-PB-005.yaml: eb3a76f1fa5aae9c
+  paperbench/evidence/QM-PB-006.yaml: 6a71678dd2648762
+  paperbench/evidence/QM-PB-007.yaml: 082a0ca1ac1095e7
+  paperbench/evidence/QM-PB-008.yaml: 376ced80edd21fb9
+  paperbench/evidence/QM-PB-009.yaml: a9c31a7836c125c8
+  paperbench/evidence/QM-PB-010.yaml: 8c111c3e3dba3388
+  paperbench/families/gold/PB-001-family.yaml: a41dc786cb347b6d
+  paperbench/families/gold/PB-006-family.yaml: 7b6e6f31944773db
+  paperbench/families/public/PB-001-family.yaml: ee86ad2fb957158a
+  paperbench/families/public/PB-006-family.yaml: cfe106ec49564125
+  paperbench/gold/QM-PB-001.yaml: b435c327ba694176
+  paperbench/gold/QM-PB-002.yaml: 069e00f8a7c5d33f
+  paperbench/gold/QM-PB-003.yaml: f04bd960a9082954
+  paperbench/gold/QM-PB-004.yaml: f020d3ba00aab0e5
+  paperbench/gold/QM-PB-005.yaml: 2483ffa277a8c7ba
+  paperbench/gold/QM-PB-006.yaml: 602d32021b182195
+  paperbench/gold/QM-PB-007.yaml: 84e7d74a71d88a64
+  paperbench/gold/QM-PB-008.yaml: feaf42501c79bad9
+  paperbench/gold/QM-PB-009.yaml: 2f14f438cc7836d7
+  paperbench/gold/QM-PB-010.yaml: da704e2232343cb6
+  paperbench/manifest.yaml: 011135891d9049ea
+  paperbench/public/QM-PB-001.yaml: 80c9b29f0e1fc49f
+  paperbench/public/QM-PB-002.yaml: 67cccd6f06a95795
+  paperbench/public/QM-PB-003.yaml: e0eea5b733055c3a
+  paperbench/public/QM-PB-004.yaml: b4e03a80bbed7ed4
+  paperbench/public/QM-PB-005.yaml: cc696b5d00af57d2
+  paperbench/public/QM-PB-006.yaml: ff2d7fbb4af81b18
+  paperbench/public/QM-PB-007.yaml: 9d49f9134f5302a4
+  paperbench/public/QM-PB-008.yaml: f28a3adecc35a00f
+  paperbench/public/QM-PB-009.yaml: 7905df7080f5664b
+  paperbench/public/QM-PB-010.yaml: 4ffdb79a4a94c3c8
+  prompts/barrier_critic.md: d19569d2648e5d14
+  prompts/consistency_reviewer.md: 6159e2321bc252f2
+  prompts/formalizer.md: 89c960bf4ed36e63
+  prompts/literature_analyst.md: efe96341546a511a
+  prompts/primitive_matcher.md: fefd640b648c19f4
+  prompts/scheme_generator.md: 1721cbf204b7d825
+  prompts/structure_analyst.md: d5189f84720e3778
+  python/_graph_compile.py: 0da73c004977e5dc
+  python/_graph_projection.py: 46b4485d432cb1cc
+  python/_graph_verify.py: def5141297362dd1
+  python/agent.py: 253b823ed396acf4
+  python/cli.py: ff0ebb007c2baf20
+  python/evaluation.py: d968e1c8ad42ca96
+  python/graph.py: 6cf9d7cd8acf8bb7
+  python/llm.py: 08b37931f3a0c99a
+  python/messages.py: 27c92ab46ccbaeca
+  python/models.py: 0b2f4ed6bc7d76c9
+  python/openai_provider.py: e3727a64f14eb718
+  python/registry.py: 8432e8841b03ac52
+  python/storage.py: 6a29d6f0ebe2fc0a
+  python/validation.py: bb2186f0ef56d062
+  python/workflow.py: f93d02d0a2b9f2a6
+freeze_id: PaperBench-10-0.1.0
+git:
+  commit: null
+  dirty: true
+  status: no commits

@@ -1,0 +1,58 @@
+id: AW-001310
+kind: context
+algorithm_id: AW-001310
+algorithm_name: Chen, Wan, Liu
+source_records:
+- access_status: metadata_only
+  digest: e9b1dff93e278170
+  extracted_facts:
+  - 'AlgorithmWiki row name: Chen, Wan, Liu'
+  - 'domain: string'
+  - 'time complexity: O(|LCS(X,Y)|)'
+  - 'computational model: MPP'
+  - 'parameter definitions: m: length of shorter string, n: length of longer string, L: number of identical char pairs'
+  - 'precard summary: Given one or more explicit strings, compute the matching, indexing, alignment, or transformation output targeted by the record. Baseline: time O(|LCS(X,Y)|); work O(L); span/depth O(|LCS(X,Y)|); processors O(L/|LCS(X,Y)|). Bottleneck: string scanning, preprocessing tables, and reporting matches dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001310:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Chen, Wan, Liu
+  url: https://link.springer.com/content/pdf/10.1186/1471-2105-7-S4-S4.pdf
+- access_status: skipped
+  digest: 972fab4fa714bece
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:9c463d8ebe00e23d
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1186/1471-2105-7-S4-S4.pdf
+web_query_attempts:
+- method: search_plan
+  query: Chen, Wan, Liu algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Chen, Wan, Liu algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Chen, Wan, Liu problem definition
+  status: recorded
+- method: search_plan
+  query: Chen, Wan, Liu string algorithm
+  status: recorded
+- method: search_plan
+  query: Chen, Wan, Liu site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Chen, Wan, Liu algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://link.springer.com/content/pdf/10.1186/1471-2105-7-S4-S4.pdf
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1186/1471-2105-7-S4-S4.pdf
+  status: skipped
+extracted_problem_statement: 'Chen, Wan, Liu is treated as a classical string task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Chen, Wan, Liu. Input semantics: One or more finite strings, sequences, patterns, or alphabets. Output semantics: Pattern occurrence positions, matches, or the associated string-search report.'
+extracted_algorithm_summary: 'Chen, Wan, Liu is a string algorithm record. Classical complexity metadata: time O(|LCS(X,Y)|); work O(L); span/depth O(|LCS(X,Y)|); processors O(L/|LCS(X,Y)|). The stated classical model is MPP. Public metadata/source text adds: Chen, Wan, Liu string string m: length of shorter string, n: length of longer string, L: number of identical char pairs O(|LCS(X,Y)|) Given one or more explicit strings, compute the matching, indexing, alignment, or transformation output targeted by the record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

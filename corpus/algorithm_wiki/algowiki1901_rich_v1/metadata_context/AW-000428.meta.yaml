@@ -1,0 +1,56 @@
+algorithm_family: combinatorics
+algorithm_id: AW-000428
+approximate: '0'
+approximation_factor: ''
+blind_name: Algorithm Wiki public task AW-000428
+canonical_name: Backward Non-Deterministic DAWG Matching (BNDM)
+computational_model: Word RAM
+domain: combinatorics
+extracted_description: ''
+extraction_version: algorithm-wiki-rich-context-v1
+family: combinatorics
+inferred_access_model: explicit_input_instance
+inferred_ambiguities:
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.
+inferred_input_model: explicit_combinatorial_problem
+inferred_output_contract: full_solution
+inferred_problem_statement: 'Backward Non-Deterministic DAWG Matching (BNDM) is treated as a classical combinatorics task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Backward Non-Deterministic DAWG Matching (BNDM). Input semantics: A finite combinatorial object, integer set, board, recurrence, or witness-search instance. Output semantics: Pattern occurrence positions, matches, or the associated string-search report.'
+inferred_promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+inferred_size_parameters:
+- 'Parameter definition: m: pattern length, n: length of searchable text, s: size of the alphabet'
+number_of_processors: ''
+page_digest: ''
+page_fetch_status: not_found
+page_url: ''
+parameter_definitions: 'm: pattern length, n: length of searchable text, s: size of the alphabet'
+problem_name: combinatorics
+quality_flags:
+- domain_inferred
+- problem_statement_inferred
+- io_access_output_inferred
+- has_complexity_semantics
+- has_size_parameters
+- has_computational_model
+quality_score: 100
+randomized: '0'
+readiness: READY_PUBLIC_CONTEXT
+review_reasons: []
+source_link: https://link.springer.com/chapter/10.1007/BFb0030778
+source_link_type: unknown
+space_complexity: O(sm)
+span_depth: ''
+time_complexity: O(n+m)
+variation: ''
+work: ''
+year: '1998'
+rich_card_kind: context
+source_records_used:
+- AW-000428:algorithm_wiki_metadata
+- crossref:67553e8769d1536c
+- skipped:8c5f2ce061696d79
+source_count: 3
+source_quality: HIGH
+confidence_score: 100
+card_digest: 422567f63e7976ca

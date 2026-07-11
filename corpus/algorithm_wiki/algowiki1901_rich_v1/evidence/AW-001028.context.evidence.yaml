@@ -1,0 +1,84 @@
+id: AW-001028
+kind: context
+algorithm_id: AW-001028
+algorithm_name: odd-even sort - Batcher
+source_records:
+- access_status: metadata_only
+  digest: 5d29dcd85b9a3672
+  extracted_facts:
+  - 'AlgorithmWiki row name: odd-even sort - Batcher'
+  - 'domain: sorting'
+  - 'time complexity: O(\log^2{n})'
+  - 'computational model: sorting network'
+  - 'parameter definitions: n: size of list'
+  - 'precard summary: Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model. Baseline: time O(\log^2{n}); work O(n \log^2{n}); span/depth O(\log^2{n}); processors O(n \log^2{n}). Bottleneck: comparison, distribution, and full-output movement costs dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001028:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for odd-even sort - Batcher
+  url: https://link.springer.com/article/10.1007/BF00991185
+- access_status: skipped
+  digest: 3c5a149a31cdd547
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:18c3048f1a8ddfd6
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1007/BF00991185
+- access_status: skipped
+  digest: b59fbe49352b6e00
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:db318d6b775f88b1
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://link.springer.com/article/10.1007/BF00991185
+- access_status: skipped
+  digest: d0e1642e2bc859c8
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:097daa876f000109
+  source_type: wikipedia
+  title: fetch budget exhausted
+  url: https://en.wikipedia.org/wiki/odd-even_sort_-_Batcher
+web_query_attempts:
+- method: search_plan
+  query: odd-even sort - Batcher algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: odd-even sort - Batcher algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: odd-even sort - Batcher problem definition
+  status: recorded
+- method: search_plan
+  query: odd-even sort - Batcher sorting algorithm
+  status: recorded
+- method: search_plan
+  query: odd-even sort - Batcher site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: odd-even sort - Batcher algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://link.springer.com/article/10.1007/BF00991185
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1007/BF00991185
+  status: skipped
+- method: source_link_html_metadata
+  query: https://link.springer.com/article/10.1007/BF00991185
+  status: skipped
+- method: wikipedia_summary_search
+  query: odd-even sort - Batcher algorithm
+  status: skipped
+extracted_problem_statement: 'odd-even sort - Batcher is treated as a classical sorting task for rich AlgorithmWiki discovery. Problem/task: sort the input sequence using the named classical sorting method. Input semantics: A finite array or list of comparable keys or records. Output semantics: The same items returned in nondecreasing order, usually as a full reordered sequence.'
+extracted_algorithm_summary: 'odd-even sort - Batcher is a sorting algorithm record. Classical complexity metadata: time O(\log^2{n}); work O(n \log^2{n}); span/depth O(\log^2{n}); processors O(n \log^2{n}). The stated classical model is sorting network. Public metadata/source text adds: odd-even sort - Batcher sorting sorting n: size of list O(\log^2{n}) Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

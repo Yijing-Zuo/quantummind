@@ -1,0 +1,25 @@
+algorithm_id: AW-000326
+canonical_name: Westin S. H. Arvo J. R. and Torrance K. E 1992
+enrichment_status: WEB_INSUFFICIENT
+review_reasons:
+- missing_concrete_problem_statement
+- unknown_input_model
+- unknown_output_contract
+- unknown_access_model
+source_records:
+- access_status: metadata_only
+  digest: 00a6cbaeb0c2ac18
+  extracted_facts:
+  - 'AlgorithmWiki row name: Westin S. H. Arvo J. R. and Torrance K. E 1992'
+  - 'domain: unknown'
+  - 'time complexity: O(k n^2)'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000326:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Westin S. H. Arvo J. R. and Torrance K. E 1992
+  url: ''
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

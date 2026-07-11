@@ -1,0 +1,58 @@
+id: AW-001467
+kind: context
+algorithm_id: AW-001467
+algorithm_name: Johnson, Metaxas
+source_records:
+- access_status: metadata_only
+  digest: 6e3251b2602da42d
+  extracted_facts:
+  - 'AlgorithmWiki row name: Johnson, Metaxas'
+  - 'domain: graph'
+  - 'time complexity: O(\log^{3/2}(n))'
+  - 'computational model: CREW PRAM'
+  - 'parameter definitions: n: number of vertices, m: number of edges'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(\log^{3/2}(n)); work O((m+n)\log^{3/2}(n)); span/depth O(log^{3/2}(n)); processors m+n. Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001467:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Johnson, Metaxas
+  url: https://digitalcommons.dartmouth.edu/cgi/viewcontent.cgi?article=1061&context=cs_tr
+- access_status: skipped
+  digest: 91cb2192a6edff0e
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:4939dbde4905f42b
+  source_type: textbook_or_course_notes
+  title: fetch budget exhausted
+  url: https://digitalcommons.dartmouth.edu/cgi/viewcontent.cgi?article=1061&context=cs_tr
+web_query_attempts:
+- method: search_plan
+  query: Johnson, Metaxas algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Johnson, Metaxas algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Johnson, Metaxas problem definition
+  status: recorded
+- method: search_plan
+  query: Johnson, Metaxas graph algorithm
+  status: recorded
+- method: search_plan
+  query: Johnson, Metaxas site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Johnson, Metaxas algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://digitalcommons.dartmouth.edu/cgi/viewcontent.cgi?article=1061&context=cs_tr
+  status: recorded
+- method: source_link_html_metadata
+  query: https://digitalcommons.dartmouth.edu/cgi/viewcontent.cgi?article=1061&context=cs_tr
+  status: skipped
+extracted_problem_statement: 'Johnson, Metaxas is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Johnson, Metaxas. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'Johnson, Metaxas is a graph algorithm record. Classical complexity metadata: time O(\log^{3/2}(n)); work O((m+n)\log^{3/2}(n)); span/depth O(log^{3/2}(n)); processors m+n. The stated classical model is CREW PRAM. Public metadata/source text adds: Johnson, Metaxas graph graph n: number of vertices, m: number of edges O(\log^{3/2}(n)) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

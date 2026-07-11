@@ -1,0 +1,48 @@
+algorithm_id: AW-000945
+canonical_name: "Paturi, Pudl\xE1k, Saks, Zane (PPSZ) 2005"
+enrichment_status: WEB_INSUFFICIENT
+review_reasons:
+- missing_concrete_problem_statement
+- unknown_input_model
+- unknown_output_contract
+- unknown_access_model
+source_records:
+- access_status: metadata_only
+  digest: ca6bd172f0958d13
+  extracted_facts:
+  - "AlgorithmWiki row name: Paturi, Pudl\xE1k, Saks, Zane (PPSZ) 2005"
+  - 'domain: unknown'
+  - 'time complexity: O^*(2^{n-cn/k})'
+  - 'space complexity: O(kn)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of clauses, k: number of variables per clause'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000945:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: "AlgorithmWiki metadata for Paturi, Pudl\xE1k, Saks, Zane (PPSZ) 2005"
+  url: https://dl.acm.org/doi/abs/10.1145/1066100.1066101
+- access_status: skipped
+  digest: d9b3a723faeabb8a
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:7cf15727a35bd635
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1145/1066100.1066101
+- access_status: skipped
+  digest: df7c6350c6ff1c83
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:6edefeaefd4e155b
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://dl.acm.org/doi/abs/10.1145/1066100.1066101
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

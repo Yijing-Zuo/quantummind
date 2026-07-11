@@ -1,0 +1,46 @@
+id: AW-001300
+kind: context
+algorithm_id: AW-001300
+algorithm_name: Bradford, Rawlins, Shannon (2)
+source_records:
+- access_status: metadata_only
+  digest: e1657e7f8415b2ae
+  extracted_facts:
+  - 'AlgorithmWiki row name: Bradford, Rawlins, Shannon (2)'
+  - 'domain: parallel_algorithms'
+  - 'time complexity: O(\log^2 n \log \log n)'
+  - 'space complexity: O(n)'
+  - 'computational model: CRCW PRAM'
+  - 'parameter definitions: n: number of matrices'
+  - 'precard summary: Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model. Baseline: time O(\log^2 n \log \log n); space O(n); work O(n\log^2 n); span/depth O(log^2 n log log n); processors n / \log \log n. Bottleneck: work, span, communication, and processor-count assumptions dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001300:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Bradford, Rawlins, Shannon (2)
+  url: https://cse.hkust.edu.hk/mjg_lib/bibs/DPSu/DPSu.Files/00288295.pdf
+web_query_attempts:
+- method: search_plan
+  query: Bradford, Rawlins, Shannon (2) algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Bradford, Rawlins, Shannon (2) algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Bradford, Rawlins, Shannon (2) problem definition
+  status: recorded
+- method: search_plan
+  query: Bradford, Rawlins, Shannon (2) parallel algorithms algorithm
+  status: recorded
+- method: search_plan
+  query: Bradford, Rawlins, Shannon (2) site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Bradford, Rawlins, Shannon (2) algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://cse.hkust.edu.hk/mjg_lib/bibs/DPSu/DPSu.Files/00288295.pdf
+  status: recorded
+extracted_problem_statement: 'Bradford, Rawlins, Shannon (2) is treated as a classical parallel algorithms task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Bradford, Rawlins, Shannon (2). Input semantics: The classical input instance named by the row, together with processor/work/span parameters when stated. Output semantics: The same mathematical output as the underlying classical task, annotated by work/span when available.'
+extracted_algorithm_summary: 'Bradford, Rawlins, Shannon (2) is a parallel algorithms algorithm record. Classical complexity metadata: time O(\log^2 n \log \log n); space O(n); work O(n\log^2 n); span/depth O(log^2 n log log n); processors n / \log \log n. The stated classical model is CRCW PRAM. Public metadata/source text adds: Bradford, Rawlins, Shannon (2) parallel_algorithms parallel_algorithms n: number of matrices O(\log^2 n \log \log n) Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

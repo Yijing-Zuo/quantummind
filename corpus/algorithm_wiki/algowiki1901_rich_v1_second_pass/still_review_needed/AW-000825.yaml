@@ -1,0 +1,44 @@
+algorithm_id: AW-000825
+canonical_name: Function Field Sieve (FFS)
+enrichment_status: SECOND_PASS_INSUFFICIENT
+review_reasons:
+- No second-pass rule could identify source-backed task semantics.
+source_records:
+- access_status: metadata_only
+  digest: 468c219a01fb89f2
+  extracted_facts:
+  - 'AlgorithmWiki row name: Function Field Sieve (FFS)'
+  - 'domain: unknown'
+  - 'time complexity: O(\exp((1+o(1))(32n/9)^{1/3}(\log n)^{2/3})), under assumption about numbers in a sequence behaving randomly in a given range'
+  - 'space complexity: O(n^{2/3})'
+  - 'parameter definitions: n: number of digits/bits in the order of the finite group'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000825:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Function Field Sieve (FFS)
+  url: https://www.sciencedirect.com/science/article/pii/S0890540198927614
+- access_status: failed
+  digest: 32a4ea8f882abde6
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:f6181a57e4a18371
+  source_type: publisher_abstract
+  title: 'HTTP Error 403: Forbidden'
+  url: https://www.sciencedirect.com/science/article/pii/S0890540198927614
+- source_id: crossref_search:b596469beb5c15c7
+  url: https://doi.org/10.1007/978-1-4419-5906-5_450
+  title: Function Field Sieve
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: Function Field Sieve'
+  short_quote: ''
+  digest: 6ce69cc1f01a9f86
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

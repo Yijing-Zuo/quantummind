@@ -1,0 +1,13 @@
+statement: 'Raymond''s algorithm is included as a named whole-algorithm context card for a classical data structures task. The task is to analyze the classical input-output problem, not to certify an end-to-end improvement claim. Input semantics: A set of records plus update/query operations for the named data structure. Output semantics: A maintained data structure representation and answers to its supported queries. Classical algorithm summary: Raymond''s algorithm is a data structures algorithm record. Classical complexity metadata: time O(\log n) (originally this had O(n)); space O(1) per process, O(n) total. Public metadata/source text adds: Raymond''s algorithm unknown unknown n: number of processes O(\log n) (originally this had O(n)) No public-ready summary is available because the row lacks enough task semantics. Classical complexity recorded for this row: time O(\log n) (originally this had O(n)); space O(1) per process, O(n) total; computation model not stated. Dominant bottleneck:
+  update/query costs, balancing, and representation size. The useful review questions are whether the named structure exposes a smaller decision, witness, estimation, or algebraic subproblem; whether the full output size dominates any asymptotic gain; and whether the stated access model is realistic for the original input. Provenance used for reconstruction includes public metadata or abstract sources such as A tree-based algorithm for distributed mutual exclusion.'
+input_model: explicit_data_structure_problem
+access_model: offline_batch_queries
+output_contract: data_structure_output
+promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+size_parameters:
+- 'Parameter definition: n: number of processes'
+ambiguities:
+- Some details are reconstructed from AlgorithmWiki metadata rather than an independently fetched full public description.
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.

@@ -1,0 +1,42 @@
+probe_id: AW-000823-TP0156
+algorithm_id: AW-000823-TP0156
+canonical_name: Trial Multiplication period_structure_probe
+readiness: READY_PUBLIC_PROBE
+quality_score: 100
+probe_type: period_structure_probe
+parent_algorithm_id: AW-000823
+parent_algorithm_name: Trial Multiplication
+source_records_used:
+- AW-000823:algorithm_wiki_metadata
+- crossref_search:8b38ae6e21836d45
+- crossref_search:98679a763ec9aa9c
+introduced_assumptions:
+- periodic_structure
+- coherent_function_access
+missing_from_original_problem:
+- proof that period finding is the relevant subroutine
+original_output_contract: full_solution
+probe_output_contract: exact_value
+not_end_to_end_claim: true
+expected_authority: query_or_subroutine_hypothesis_only
+why_probe_is_scientifically_interesting: Cycle and period rows can expose sharply structured query tasks.
+why_probe_may_fail: The original row may require explicit enumeration or full-output reconstruction after detecting a period.
+inferred_input_model: explicit_combinatorial_problem
+inferred_access_model: coherent_boolean_oracle
+inferred_output_contract: exact_value
+inferred_size_parameters:
+- 'Parameter definition: n: number of digits/bits in the order of the finite group'
+inferred_promises:
+- periodic_structure
+- oracle_model_assumption
+inferred_ambiguities:
+- This probe is assumption-bearing and is not an end-to-end speedup claim.
+- periodicity may be incidental metadata rather than the task bottleneck
+- The parent context card and source records should be checked before live use.
+source_count: 3
+source_quality: HIGH
+confidence_score: 100
+card_digest: 4df9adb9a00a4b24
+extraction_version: algorithm-wiki-rich-third-pass-probe-v1
+rich_card_kind: probe_recovered
+saturation_status: RECOVERED_CONTEXT_AND_PROBE

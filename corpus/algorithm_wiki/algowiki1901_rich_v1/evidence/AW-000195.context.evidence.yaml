@@ -1,0 +1,49 @@
+id: AW-000195
+kind: context
+algorithm_id: AW-000195
+algorithm_name: "Hong\u2019s algorithm"
+source_records:
+- access_status: metadata_only
+  digest: b78c53e3b576ce08
+  extracted_facts:
+  - "AlgorithmWiki row name: Hong\u2019s algorithm"
+  - 'domain: graph'
+  - 'time complexity: O(V(V+E))'
+  - 'space complexity: O(V+E)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: V: number of vertices, E: number of edges, p: number of processors'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(V(V+E)); space O(V+E). Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000195:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: "AlgorithmWiki metadata for Hong\u2019s algorithm"
+  url: https://stanford-ppl.github.io/website/papers/sc13-hong.pdf
+web_query_attempts:
+- method: search_plan
+  query: "Hong\u2019s algorithm algorithm input output complexity"
+  status: recorded
+- method: search_plan
+  query: "Hong\u2019s algorithm algorithm pseudocode"
+  status: recorded
+- method: search_plan
+  query: "Hong\u2019s algorithm problem definition"
+  status: recorded
+- method: search_plan
+  query: "Hong\u2019s algorithm graph algorithm"
+  status: recorded
+- method: search_plan
+  query: "Hong\u2019s algorithm site:nist.gov DADS"
+  status: recorded
+- method: search_plan
+  query: "Hong\u2019s algorithm algorithm wiki"
+  status: recorded
+- method: search_plan
+  query: https://stanford-ppl.github.io/website/papers/sc13-hong.pdf
+  status: recorded
+- method: wikipedia_summary_search
+  query: "Hong\u2019s algorithm algorithm"
+  status: failed_or_not_relevant
+extracted_problem_statement: "Hong\u2019s algorithm is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Hong\u2019s algorithm. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result."
+extracted_algorithm_summary: "Hong\u2019s algorithm is a graph algorithm record. Classical complexity metadata: time O(V(V+E)); space O(V+E). The stated classical model is Word RAM. Public metadata/source text adds: Hong\u2019s algorithm graph graph V: number of vertices, E: number of edges, p: number of processors O(V(V+E)) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record."
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

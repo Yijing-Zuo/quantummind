@@ -1,0 +1,60 @@
+id: AW-000112-P0086
+kind: probe
+algorithm_id: AW-000112
+algorithm_name: PMS
+source_records:
+- access_status: metadata_only
+  digest: 64d16c4a6491fc53
+  extracted_facts:
+  - 'AlgorithmWiki row name: PMS'
+  - 'domain: string'
+  - 'time complexity: O(nm^2 \sigma)'
+  - 'space complexity: O(m^2 n)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: size of set of input strings, m: size of input strings, k: length of substrings, \sigma: function V(k, m) defined as the number of k-mers that are at most m Hamming distance from the motif space, w: size of a word machine'
+  - 'precard summary: Given one or more explicit strings, compute the matching, indexing, alignment, or transformation output targeted by the record. Baseline: time O(nm^2 \sigma); space O(m^2 n). Bottleneck: string scanning, preprocessing tables, and reporting matches dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000112:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for PMS
+  url: https://ieeexplore.ieee.org/abstract/document/4359890
+- access_status: fetched
+  digest: 47f670c12d665ed6
+  extracted_facts:
+  - 'source page title: Fast and Practical Algorithms for Planted (l, d) Motif Search | IEEE Journals & Magazine | IEEE Xplore'
+  - 'source page description: We consider the planted (I, d) motif search problem, which consists of finding a substring of length I that occurs in a set of input sequences {si,.'
+  reliability: HIGH
+  short_quote: We consider the planted (I, d) motif search problem, which consists of finding a substring of length I that occurs in a set of
+  source_id: source:4b58edb7c5f20c1a
+  source_type: publisher_abstract
+  title: Fast and Practical Algorithms for Planted (l, d) Motif Search | IEEE Journals & Magazine | IEEE Xplore
+  url: https://ieeexplore.ieee.org/abstract/document/4359890
+web_query_attempts:
+- method: search_plan
+  query: PMS algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: PMS algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: PMS problem definition
+  status: recorded
+- method: search_plan
+  query: PMS string algorithm
+  status: recorded
+- method: search_plan
+  query: PMS site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: PMS algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://ieeexplore.ieee.org/abstract/document/4359890
+  status: recorded
+- method: source_link_html_metadata
+  query: https://ieeexplore.ieee.org/abstract/document/4359890
+  status: fetched
+extracted_problem_statement: 'PMS is treated as a classical string task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with PMS. Input semantics: One or more finite strings, sequences, patterns, or alphabets. Output semantics: Pattern occurrence positions, matches, or the associated string-search report.'
+extracted_algorithm_summary: 'PMS is a string algorithm record. Classical complexity metadata: time O(nm^2 \sigma); space O(m^2 n). The stated classical model is Word RAM. Public metadata/source text adds: PMS string string n: size of set of input strings, m: size of input strings, k: length of substrings, \sigma: function V(k, m) defined as the number of k-mers that are at most m Hamming distance from the motif space, w: size of a word machine O(nm^2 \sigma) Given one or more explicit strings, compute the matching, indexing, alignment, or transformation output targeted by the record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

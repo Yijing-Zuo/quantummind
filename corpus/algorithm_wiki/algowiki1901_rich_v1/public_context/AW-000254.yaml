@@ -1,0 +1,14 @@
+statement: 'Tuned Boyer-Moore algorithm is included as a named whole-algorithm context card for a classical string task. The task is to analyze the classical input-output problem, not to certify an end-to-end improvement claim. Input semantics: One or more finite strings, sequences, patterns, or alphabets. Output semantics: Pattern occurrence positions, matches, or the associated string-search report. Classical algorithm summary: Tuned Boyer-Moore algorithm is a string algorithm record. Classical complexity metadata: time O(mn); space O(m + s). The stated classical model is Word RAM. Public metadata/source text adds: Tuned Boyer-Moore algorithm string string m: pattern length, n: length of searchable text, s: size of the alphabet O(mn) Given one or more explicit strings, compute the matching, indexing, alignment, or transformation output the concrete classical string task associated with Tuned Boyer-Moore algorithm. Classical complexity recorded for this row: time O(mn); space O(m + s);
+  computation model Word RAM. Dominant bottleneck: string scanning, dynamic-programming table size, preprocessing, and match reporting. The useful review questions are whether the named structure exposes a smaller decision, witness, estimation, or algebraic subproblem; whether the full output size dominates any asymptotic gain; and whether the stated access model is realistic for the original input. Provenance is limited to AlgorithmWiki metadata and source-link facts; unresolved details are kept as ambiguities. Source-backed uncertainty or assumptions: No independent fetched public metadata source resolved this row beyond AlgorithmWiki metadata/source-link facts.'
+input_model: explicit_string_problem
+access_model: random_access_string
+output_contract: full_solution
+promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+size_parameters:
+- 'Parameter definition: m: pattern length, n: length of searchable text, s: size of the alphabet'
+ambiguities:
+- No independent fetched public metadata source resolved this row beyond AlgorithmWiki metadata/source-link facts.
+- Some details are reconstructed from AlgorithmWiki metadata rather than an independently fetched full public description.
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.

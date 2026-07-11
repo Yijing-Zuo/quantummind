@@ -1,0 +1,56 @@
+id: AW-001774
+kind: context
+algorithm_id: AW-001774
+algorithm_name: Buzbee [MD]
+source_records:
+- access_status: metadata_only
+  digest: 27dbb9e9f24c508f
+  extracted_facts:
+  - 'AlgorithmWiki row name: Buzbee [MD]'
+  - 'domain: parallel_algorithms'
+  - 'parameter definitions: n: dimension of grid (where grid is discretized), p: number of processors'
+  - 'precard summary: Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model. Baseline: work O(n^3); span/depth O(n); processors p. Bottleneck: work, span, communication, and processor-count assumptions dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001774:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Buzbee [MD]
+  url: https://ieeexplore.ieee.org/document/5009160
+- access_status: skipped
+  digest: befa707027d03eba
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:3ac941b0b2d1ed28
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://ieeexplore.ieee.org/document/5009160
+web_query_attempts:
+- method: search_plan
+  query: Buzbee [MD] algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Buzbee [MD] algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Buzbee [MD] problem definition
+  status: recorded
+- method: search_plan
+  query: Buzbee [MD] parallel algorithms algorithm
+  status: recorded
+- method: search_plan
+  query: Buzbee [MD] site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Buzbee [MD] algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://ieeexplore.ieee.org/document/5009160
+  status: recorded
+- method: source_link_html_metadata
+  query: https://ieeexplore.ieee.org/document/5009160
+  status: skipped
+extracted_problem_statement: 'Buzbee [MD] is treated as a classical parallel algorithms task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Buzbee [MD]. Input semantics: The classical input instance named by the row, together with processor/work/span parameters when stated. Output semantics: The same mathematical output as the underlying classical task, annotated by work/span when available.'
+extracted_algorithm_summary: 'Buzbee [MD] is a parallel algorithms algorithm record. Classical complexity metadata: work O(n^3); span/depth O(n); processors p. Public metadata/source text adds: Buzbee [MD] parallel_algorithms parallel_algorithms n: dimension of grid (where grid is discretized), p: number of processors Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

@@ -1,0 +1,64 @@
+algorithm_id: AW-001136
+canonical_name: Tang
+enrichment_status: THIRD_PASS_SATURATED_INSUFFICIENT
+review_reasons:
+- After the configured source-family cycles, no source-backed concrete task, input semantics, output semantics, and conservative access model could be established.
+source_records:
+- access_status: metadata_only
+  digest: 7e2bb2b6ca81b1b1
+  extracted_facts:
+  - 'AlgorithmWiki row name: Tang'
+  - 'domain: unknown'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001136:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Tang
+  url: https://www.computer.org/csdl/proceedings-article/dmcc/1990/00555389/12OmNBZpH74
+- access_status: skipped
+  digest: a5216193c6377ea3
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:24f20f83af1600be
+  source_type: other_public_source
+  title: fetch budget exhausted
+  url: https://www.computer.org/csdl/proceedings-article/dmcc/1990/00555389/12OmNBZpH74
+- access_status: fetched
+  digest: eac65bcac63f65f8
+  extracted_facts:
+  - 'Crossref title-search result: An optimal algorithm to fetch DHT routable'
+  reliability: MEDIUM
+  short_quote: ''
+  source_id: crossref_search:0b18e1bdccf3f416
+  source_type: doi_metadata
+  title: An optimal algorithm to fetch DHT routable
+  url: https://doi.org/10.1109/npc.2007.32
+- source_id: source:02a37fdb102e66cf
+  url: https://www.computer.org/csdl/proceedings-article/dmcc/1990/00555389/12OmNBZpH74
+  title: CSDL | IEEE Computer Society
+  source_type: publisher_abstract
+  access_status: fetched
+  reliability: LOW
+  extracted_facts:
+  - CSDL | IEEE Computer Society
+  - CSDL | IEEE Computer Society
+  short_quote: CSDL | IEEE Computer Society CSDL | IEEE Computer Society
+  digest: 98e8d97cca5475a1
+- source_id: crossref_search:6cc87e80655e8287
+  url: https://doi.org/10.5962/p.399809
+  title: Tang Tang Excursion
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title: Tang Tang Excursion'
+  - 'published year: 1989'
+  - 'container title: Castlemaine Naturalist'
+  short_quote: 'Crossref title: Tang Tang Excursion published year: 1989 container title: Castlemaine Naturalist'
+  digest: cff05fbb815af112
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

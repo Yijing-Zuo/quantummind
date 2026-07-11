@@ -1,0 +1,63 @@
+family_id: PB-006-family
+seed_variant_id: seed
+variants:
+  - variant_id: seed
+    public_case:
+      case_id: PB-006-F0
+      statement: "Sort N items when the only allowed operation is a pairwise comparison, and output the complete sorted order."
+      input_model: "comparison model"
+      access_model: comparison_oracle
+      output_contract: sorted_order
+      promises: [total_order]
+      size_parameters: [N]
+      ambiguities: [ties are outside the stated model]
+  - variant_id: surface_rewrite
+    public_case:
+      case_id: PB-006-F1
+      statement: "Using only pair comparisons, arrange all N records into nondecreasing order."
+      input_model: "comparison model"
+      access_model: comparison_oracle
+      output_contract: sorted_order
+      promises: [total_order]
+      size_parameters: [N]
+      ambiguities: [ties are outside the stated model]
+  - variant_id: misleading_bait
+    public_case:
+      case_id: PB-006-F2
+      statement: "Sort N items by repeatedly asking pair comparisons, despite a tempting marked-pair subroutine description."
+      input_model: "comparison model with irrelevant bait"
+      access_model: comparison_oracle
+      output_contract: sorted_order
+      promises: [total_order]
+      size_parameters: [N]
+      ambiguities: [bait does not change the output contract]
+  - variant_id: output_contract_change
+    public_case:
+      case_id: PB-006-F3
+      statement: "Given a reversible yes/no threshold test over N candidates, return one candidate that passes the test."
+      input_model: "threshold predicate task"
+      access_model: coherent_boolean_oracle
+      output_contract: one_witness
+      promises: [marked_item_exists, coherent predicate evaluation is available]
+      size_parameters: [N]
+      ambiguities: [not a full sorting request]
+  - variant_id: exploitable_structure
+    public_case:
+      case_id: PB-006-F4
+      statement: "Items are integers from a tiny known range with direct bucket counts available; output the sorted order."
+      input_model: "bounded integer multiset"
+      access_model: histogram_access
+      output_contract: sorted_order
+      promises: [small_value_range]
+      size_parameters: [N, range_size]
+      ambiguities: [not the pure comparison model]
+  - variant_id: underspecified_access
+    public_case:
+      case_id: PB-006-F5
+      statement: "Sort N items, but the allowed input operation and output cost model are unspecified."
+      input_model: "underspecified sorting task"
+      access_model: unspecified
+      output_contract: sorted_order
+      promises: []
+      size_parameters: [N]
+      ambiguities: [access model is underspecified]

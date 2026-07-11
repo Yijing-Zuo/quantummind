@@ -1,0 +1,33 @@
+algorithm_id: AW-000420
+canonical_name: Alon and Kahale
+enrichment_status: SECOND_PASS_INSUFFICIENT
+review_reasons:
+- No second-pass rule could identify source-backed task semantics.
+source_records:
+- access_status: metadata_only
+  digest: 9963ce580c4987f0
+  extracted_facts:
+  - 'AlgorithmWiki row name: Alon and Kahale'
+  - 'domain: unknown'
+  - 'time complexity: O(\text{poly}(n))'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000420:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Alon and Kahale
+  url: http://www.cs.tau.ac.il/~nogaa/PDFS/spectcolpr1.pdf
+- source_id: crossref_search:eff3bf36f4c7ab2a
+  url: https://doi.org/10.46298/dmtcs.3546
+  title: 'Message passing for the coloring problem: Gallager meets Alon and Kahale'
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: Message passing for the coloring problem: Gallager meets Alon and Kahale'
+  - 'abstract summary: Message passing algorithms are popular in many combinatorial optimization problems.'
+  short_quote: Message passing algorithms are popular in many combinatorial optimization problems.
+  digest: f0ae0ae07a5d9aa9
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

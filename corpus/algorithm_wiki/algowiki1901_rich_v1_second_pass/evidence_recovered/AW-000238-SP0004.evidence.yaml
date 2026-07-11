@@ -1,0 +1,69 @@
+id: AW-000238-SP0004
+kind: probe_recovered
+algorithm_id: AW-000238
+algorithm_name: Lenstra elliptic curve factorization
+source_records:
+- access_status: metadata_only
+  digest: 8dc02aef7b75603a
+  extracted_facts:
+  - 'AlgorithmWiki row name: Lenstra elliptic curve factorization'
+  - 'domain: unknown'
+  - 'time complexity: O(e^{\sqrt{(1+o(1))n\log n}})'
+  - 'space complexity: O(n)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of bits in the integer'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000238:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Lenstra elliptic curve factorization
+  url: https://www.jstor.org/stable/1971363?origin=crossref&seq=1
+- access_status: failed
+  digest: 717f40abe0ac2132
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:bb3e047d55496b20
+  source_type: other_public_source
+  title: 'HTTP Error 403: Forbidden'
+  url: https://www.jstor.org/stable/1971363?origin=crossref&seq=1
+- source_id: crossref_search:9d58a702c0006540
+  url: https://doi.org/10.29042/2018-2996-3003
+  title: Analysis of the Lenstra Elliptic Curves Factorization Method
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: Analysis of the Lenstra Elliptic Curves Factorization Method'
+  short_quote: ''
+  digest: b3ad2c1de562668c
+web_query_attempts:
+- query: '"Lenstra elliptic curve factorization" algorithm'
+  method: search_plan
+  status: recorded
+- query: '"Lenstra elliptic curve factorization" input output'
+  method: search_plan
+  status: recorded
+- query: '"Lenstra elliptic curve factorization" time complexity'
+  method: search_plan
+  status: recorded
+- query: '"Lenstra elliptic curve factorization" pseudocode'
+  method: search_plan
+  status: recorded
+- query: '"Lenstra elliptic curve factorization" problem'
+  method: search_plan
+  status: recorded
+- query: '"Lenstra elliptic curve factorization" PDF metadata abstract'
+  method: search_plan
+  status: recorded
+- query: https://www.jstor.org/stable/1971363?origin=crossref&seq=1
+  method: search_plan
+  status: recorded
+- query: Lenstra elliptic curve factorization algorithm
+  method: crossref_title_search
+  status: fetched
+extracted_problem_statement: 'Lenstra elliptic curve factorization is reconstructed as a classical combinatorics task. Problem/task: find a nontrivial factorization of an integer Input semantics: An integer N represented with n bits and method-specific smoothness or search bounds. Output semantics: A nontrivial factor, a complete factorization, or a failure indication under the method assumptions.'
+extracted_algorithm_summary: 'Lenstra elliptic curve factorization is treated as the named AlgorithmWiki variant for find a nontrivial factorization of an integer Classical complexity metadata: time O(e^{\sqrt{(1+o(1))n\log n}}); space O(n). Public metadata/source title support includes Analysis of the Lenstra Elliptic Curves Factorization Method.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

@@ -1,0 +1,44 @@
+id: AW-001632
+kind: context
+algorithm_id: AW-001632
+algorithm_name: CESARI, MAEDER (parallel Karatsuba's) (1)
+source_records:
+- access_status: metadata_only
+  digest: 4b8c5a131eed55dc
+  extracted_facts:
+  - 'AlgorithmWiki row name: CESARI, MAEDER (parallel Karatsuba''s) (1)'
+  - 'domain: parallel_algorithms'
+  - 'computational model: distributed message passing'
+  - 'parameter definitions: n: length of the integers'
+  - 'precard summary: Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model. Baseline: work O(n^{1+\log 3}); span/depth O(n); processors n^log 3. Bottleneck: work, span, communication, and processor-count assumptions dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001632:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for CESARI, MAEDER (parallel Karatsuba's) (1)
+  url: https://core.ac.uk/download/pdf/82467764.pdf
+web_query_attempts:
+- method: search_plan
+  query: CESARI, MAEDER (parallel Karatsuba's) (1) algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: CESARI, MAEDER (parallel Karatsuba's) (1) algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: CESARI, MAEDER (parallel Karatsuba's) (1) problem definition
+  status: recorded
+- method: search_plan
+  query: CESARI, MAEDER (parallel Karatsuba's) (1) parallel algorithms algorithm
+  status: recorded
+- method: search_plan
+  query: CESARI, MAEDER (parallel Karatsuba's) (1) site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: CESARI, MAEDER (parallel Karatsuba's) (1) algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://core.ac.uk/download/pdf/82467764.pdf
+  status: recorded
+extracted_problem_statement: 'CESARI, MAEDER (parallel Karatsuba''s) (1) is treated as a classical parallel algorithms task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with CESARI, MAEDER (parallel Karatsuba''s) (1). Input semantics: The classical input instance named by the row, together with processor/work/span parameters when stated. Output semantics: The same mathematical output as the underlying classical task, annotated by work/span when available.'
+extracted_algorithm_summary: 'CESARI, MAEDER (parallel Karatsuba''s) (1) is a parallel algorithms algorithm record. Classical complexity metadata: work O(n^{1+\log 3}); span/depth O(n); processors n^log 3. The stated classical model is distributed message passing. Public metadata/source text adds: CESARI, MAEDER (parallel Karatsuba''s) (1) parallel_algorithms parallel_algorithms n: length of the integers Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

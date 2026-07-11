@@ -1,0 +1,58 @@
+id: AW-001263
+kind: context
+algorithm_id: AW-001263
+algorithm_name: Saukas-Song Selection Algorithm - Boxer
+source_records:
+- access_status: metadata_only
+  digest: 85fe49aca7f50dfd
+  extracted_facts:
+  - 'AlgorithmWiki row name: Saukas-Song Selection Algorithm - Boxer'
+  - 'domain: sorting'
+  - 'time complexity: O(n/p^(1/2) \log p + n/p \log n)'
+  - 'computational model: coarse grained multicomputer model (CGM) [w/ a PRAM architecture]'
+  - 'parameter definitions: n: size of list, p: number of processors'
+  - 'precard summary: Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model. Baseline: time O(n/p^(1/2) \log p + n/p \log n); work O(n p^(1/2) \log p + n \log n); span/depth O(\log{n}); processors p. Bottleneck: comparison, distribution, and full-output movement costs dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001263:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Saukas-Song Selection Algorithm - Boxer
+  url: https://www.researchgate.net/profile/Laurence-Boxer/publication/321510698_The_Saukas-Song_Selection_Algorithm_and_Coarse_Grained_Parallel_Sorting/links/5a383e0ba6fdccdd41fdebfa/The-Saukas-Song-Selection-Algorithm-and-Coarse-Grained-Parallel-Sorting.pdf
+- access_status: skipped
+  digest: 837ee73c8e84e38a
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:a7fb57551a97aed3
+  source_type: wikipedia
+  title: fetch budget exhausted
+  url: https://en.wikipedia.org/wiki/Saukas-Song_Selection_Algorithm_-_Boxer
+web_query_attempts:
+- method: search_plan
+  query: Saukas-Song Selection Algorithm - Boxer algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Saukas-Song Selection Algorithm - Boxer algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Saukas-Song Selection Algorithm - Boxer problem definition
+  status: recorded
+- method: search_plan
+  query: Saukas-Song Selection Algorithm - Boxer sorting algorithm
+  status: recorded
+- method: search_plan
+  query: Saukas-Song Selection Algorithm - Boxer site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Saukas-Song Selection Algorithm - Boxer algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://www.researchgate.net/profile/Laurence-Boxer/publication/321510698_The_Saukas-Song_Selection_Algorithm_and_Coarse_Grained_Parallel_Sorting/links/5a383e0ba6fdccdd41fdebfa/The-Saukas-Song-Selection-Algorithm-and-Coarse-Grained-Parallel-Sorting.pdf
+  status: recorded
+- method: wikipedia_summary_search
+  query: Saukas-Song Selection Algorithm - Boxer algorithm
+  status: skipped
+extracted_problem_statement: 'Saukas-Song Selection Algorithm - Boxer is treated as a classical sorting task for rich AlgorithmWiki discovery. Problem/task: sort the input sequence using the named classical sorting method. Input semantics: A finite array or list of comparable keys or records. Output semantics: The same items returned in nondecreasing order, usually as a full reordered sequence.'
+extracted_algorithm_summary: 'Saukas-Song Selection Algorithm - Boxer is a sorting algorithm record. Classical complexity metadata: time O(n/p^(1/2) \log p + n/p \log n); work O(n p^(1/2) \log p + n \log n); span/depth O(\log{n}); processors p. The stated classical model is coarse grained multicomputer model (CGM) [w/ a PRAM architecture]. Public metadata/source text adds: Saukas-Song Selection Algorithm - Boxer sorting sorting n: size of list, p: number of processors O(n/p^(1/2) \log p + n/p \log n) Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

@@ -1,0 +1,59 @@
+id: AW-001688
+kind: context
+algorithm_id: AW-001688
+algorithm_name: Caceres, Nasu
+source_records:
+- access_status: metadata_only
+  digest: 913635e5870074b5
+  extracted_facts:
+  - 'AlgorithmWiki row name: Caceres, Nasu'
+  - 'domain: graph'
+  - 'time complexity: O((E \log p)/p)'
+  - 'space complexity: O(1)'
+  - 'computational model: BSP'
+  - 'parameter definitions: V: number of vertices, E: number of edges, p: number of processors'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O((E \log p)/p); space O(1); work O(E \log p); span/depth O(log V); processors p. Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001688:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Caceres, Nasu
+  url: https://ieeexplore.ieee.org/document/1250336
+- access_status: skipped
+  digest: 3f6604abc362b6b4
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:d18a206a9f0a76e6
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://ieeexplore.ieee.org/document/1250336
+web_query_attempts:
+- method: search_plan
+  query: Caceres, Nasu algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Caceres, Nasu algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Caceres, Nasu problem definition
+  status: recorded
+- method: search_plan
+  query: Caceres, Nasu graph algorithm
+  status: recorded
+- method: search_plan
+  query: Caceres, Nasu site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Caceres, Nasu algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://ieeexplore.ieee.org/document/1250336
+  status: recorded
+- method: source_link_html_metadata
+  query: https://ieeexplore.ieee.org/document/1250336
+  status: skipped
+extracted_problem_statement: 'Caceres, Nasu is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Caceres, Nasu. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'Caceres, Nasu is a graph algorithm record. Classical complexity metadata: time O((E \log p)/p); space O(1); work O(E \log p); span/depth O(log V); processors p. The stated classical model is BSP. Public metadata/source text adds: Caceres, Nasu graph graph V: number of vertices, E: number of edges, p: number of processors O((E \log p)/p) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

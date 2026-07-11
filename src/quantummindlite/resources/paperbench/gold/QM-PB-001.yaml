@@ -1,0 +1,20 @@
+case_id: QM-PB-001
+access_model: coherent_boolean_oracle
+output_contract: one_witness
+required_structure_ids: [black_box_witness_search]
+expected_selected_primitive: amplitude_amplification
+expected_speedup_class: ASYMPTOTIC
+required_caveat_ids: [oracle_construction, query_only_scope]
+allowed_verdicts: [POSITIVE]
+maximum_claim_scope: QUERY
+expected_route: EXPERT_REVIEW
+forbidden_claim_ids: [end_to_end_speedup_proven, global_novelty_claim]
+evidence_mapping:
+  required_structure_ids: [grover_1996]
+  expected_selected_primitive: [grover_1996, brassard_hoyer_mosca_tapp_2002]
+  expected_speedup_class: [grover_1996]
+  required_caveat_ids: [grover_1996]
+  allowed_verdicts: [grover_1996]
+  maximum_claim_scope: [grover_1996]
+  expected_route: [grover_1996]
+  forbidden_claim_ids: [grover_1996]

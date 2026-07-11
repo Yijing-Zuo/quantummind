@@ -1,0 +1,59 @@
+id: AW-000101-P0080
+kind: probe
+algorithm_id: AW-000101
+algorithm_name: Koiliaris and Xu
+source_records:
+- access_status: metadata_only
+  digest: 628727220e6243f9
+  extracted_facts:
+  - 'AlgorithmWiki row name: Koiliaris and Xu'
+  - 'domain: unknown'
+  - 'time complexity: \tilde{O}(\min(\sqrt{n''}t, t^{5/4}, \sigma))'
+  - 'space complexity: O(t)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n'': the number of distinct elements in the set, t: the target sum, \sigma: sum of elements in the set'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000101:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Koiliaris and Xu
+  url: https://dl.acm.org/doi/pdf/10.1145/3329863
+- access_status: fetched
+  digest: ad9261f825c7d000
+  extracted_facts:
+  - 'DOI title: Faster Pseudopolynomial Time Algorithms for Subset Sum'
+  - 'published year: 2019'
+  - 'container title: ACM Transactions on Algorithms'
+  - 'abstract summary: ) time. To the best of our knowledge, the new algorithms are the fastest deterministic algorithms for this problem.'
+  reliability: HIGH
+  short_quote: ) time. To the best of our knowledge, the new algorithms are the fastest deterministic algorithms for this problem.
+  source_id: crossref:1647fca20335cd7e
+  source_type: doi_metadata
+  title: Faster Pseudopolynomial Time Algorithms for Subset Sum
+  url: https://doi.org/10.1145/3329863
+web_query_attempts:
+- method: search_plan
+  query: Koiliaris and Xu algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Koiliaris and Xu algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Koiliaris and Xu problem definition
+  status: recorded
+- method: search_plan
+  query: Koiliaris and Xu site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Koiliaris and Xu algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://dl.acm.org/doi/pdf/10.1145/3329863
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1145/3329863
+  status: fetched
+extracted_problem_statement: 'Koiliaris and Xu is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: solve a subset-sum or target-sum dynamic-programming/search problem. Input semantics: A finite set or multiset of integers with a target sum parameter. Output semantics: A decision result, feasible subset witness, count, or optimized subset value for the target-sum instance, depending on the row.'
+extracted_algorithm_summary: 'Koiliaris and Xu is a graph algorithm record. Classical complexity metadata: time \tilde{O}(\min(\sqrt{n''}t, t^{5/4}, \sigma)); space O(t). The stated classical model is Word RAM. Public metadata/source text adds: Koiliaris and Xu unknown unknown n'': the number of distinct elements in the set, t: the target sum, \sigma: sum of elements in the set \tilde{O}(\min(\sqrt{n''}t, t^{5/4}, \sigma)) No public-ready summary is available because the row lacks enough task semantics.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

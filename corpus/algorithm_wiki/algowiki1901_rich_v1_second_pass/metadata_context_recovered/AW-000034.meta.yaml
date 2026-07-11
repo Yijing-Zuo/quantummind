@@ -1,0 +1,59 @@
+algorithm_id: AW-000034
+canonical_name: Brute Force
+blind_name: Algorithm Wiki public task AW-000034
+year: '1940'
+domain: unknown
+family: unknown
+variation: ''
+problem_name: unknown
+algorithm_family: unknown
+time_complexity: O(4^n)
+space_complexity: O(n)
+computational_model: Word RAM
+randomized: '0'
+approximate: '0'
+approximation_factor: ''
+parameter_definitions: 'n: number of matrices'
+span_depth: ''
+work: ''
+number_of_processors: ''
+source_link: '-'
+source_link_type: unknown
+page_url: ''
+page_fetch_status: not_found
+page_digest: ''
+extracted_description: ''
+inferred_problem_statement: 'Brute Force is reconstructed as a classical dynamic programming task. Problem/task: choose a parenthesization/order for multiplying a chain of matrices Input semantics: A sequence of matrix dimensions for n matrices. Output semantics: An optimal parenthesization or multiplication cost for the matrix chain.'
+inferred_input_model: explicit_dynamic_programming_problem
+inferred_access_model: random_access_string
+inferred_output_contract: full_solution
+inferred_size_parameters:
+- 'Parameter definition: n: number of matrices'
+inferred_promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+inferred_ambiguities:
+- Some details are reconstructed from AlgorithmWiki metadata rather than an independently fetched full public description.
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.
+quality_score: 80
+quality_flags:
+- has_complexity_semantics
+- has_size_parameters
+- has_computational_model
+readiness: READY_PUBLIC_CONTEXT
+review_reasons:
+- missing_problem_statement
+- unknown_input_model
+- unknown_access_model
+- unknown_output_contract
+- insufficient_algorithm_level_structure
+extraction_version: algorithm-wiki-rich-second-pass-context-v1
+rich_card_kind: context_recovered
+source_records_used:
+- AW-000034:algorithm_wiki_metadata
+- crossref_search:82936f8d9a01ac51
+source_count: 2
+source_quality: HIGH
+confidence_score: 80
+card_digest: 1d84c71173505749
+second_pass_rule: matrix_chain_ordering

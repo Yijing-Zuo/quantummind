@@ -1,0 +1,49 @@
+id: AW-000046-P0023
+kind: probe
+algorithm_id: AW-000046
+algorithm_name: Brute-force search
+source_records:
+- access_status: metadata_only
+  digest: c078fab2ac5689ed
+  extracted_facts:
+  - 'AlgorithmWiki row name: Brute-force search'
+  - 'domain: graph'
+  - 'time complexity: O((m+n) 3^n)'
+  - 'space complexity: O(n)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of vertices, m: number of edges'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O((m+n) 3^n); space O(n). Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000046:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Brute-force search
+  url: '-'
+web_query_attempts:
+- method: search_plan
+  query: Brute-force search algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Brute-force search algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Brute-force search problem definition
+  status: recorded
+- method: search_plan
+  query: Brute-force search graph algorithm
+  status: recorded
+- method: search_plan
+  query: Brute-force search site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Brute-force search algorithm wiki
+  status: recorded
+- method: search_plan
+  query: '-'
+  status: recorded
+- method: wikipedia_summary_search
+  query: Brute-force search algorithm
+  status: failed_or_not_relevant
+extracted_problem_statement: 'Brute-force search is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Brute-force search. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'Brute-force search is a graph algorithm record. Classical complexity metadata: time O((m+n) 3^n); space O(n). The stated classical model is Word RAM. Public metadata/source text adds: Brute-force search graph graph n: number of vertices, m: number of edges O((m+n) 3^n) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

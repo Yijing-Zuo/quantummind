@@ -1,0 +1,59 @@
+algorithm_id: AW-000243
+canonical_name: Quadratic sieve
+blind_name: Algorithm Wiki public task AW-000243
+year: '1981'
+domain: unknown
+family: unknown
+variation: ''
+problem_name: unknown
+algorithm_family: unknown
+time_complexity: O(e^{\sqrt{(1+o(1))n \log n}}), under assumption about numbers in a sequence behaving randomly in a given range
+space_complexity: O(n+(B/\log B)^2)
+computational_model: Word RAM
+randomized: '0'
+approximate: '0'
+approximation_factor: ''
+parameter_definitions: 'n: number of bits in the integer, B: bound parameter'
+span_depth: ''
+work: ''
+number_of_processors: ''
+source_link: https://www.cs.umd.edu/users/gasarch/TOPICS/factoring/compare.pdf
+source_link_type: pdf
+page_url: ''
+page_fetch_status: not_found
+page_digest: ''
+extracted_description: ''
+inferred_problem_statement: 'Quadratic sieve is reconstructed as a classical combinatorics task. Problem/task: find a nontrivial factorization of an integer Input semantics: An integer N represented with n bits and method-specific smoothness or search bounds. Output semantics: A nontrivial factor, a complete factorization, or a failure indication under the method assumptions.'
+inferred_input_model: explicit_combinatorial_problem
+inferred_access_model: explicit_input_instance
+inferred_output_contract: full_solution
+inferred_size_parameters:
+- 'Parameter definition: n: number of bits in the integer, B: bound parameter'
+inferred_promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+inferred_ambiguities:
+- Some details are reconstructed from AlgorithmWiki metadata rather than an independently fetched full public description.
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.
+quality_score: 80
+quality_flags:
+- has_complexity_semantics
+- has_size_parameters
+- has_computational_model
+readiness: READY_PUBLIC_CONTEXT
+review_reasons:
+- missing_problem_statement
+- unknown_input_model
+- unknown_access_model
+- unknown_output_contract
+- insufficient_algorithm_level_structure
+extraction_version: algorithm-wiki-rich-second-pass-context-v1
+rich_card_kind: context_recovered
+source_records_used:
+- AW-000243:algorithm_wiki_metadata
+- crossref_search:6c7f894b37485d15
+source_count: 2
+source_quality: HIGH
+confidence_score: 80
+card_digest: a44ee8b3cbe13958
+second_pass_rule: integer_factorization

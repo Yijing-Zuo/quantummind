@@ -1,0 +1,66 @@
+algorithm_id: AW-001775
+canonical_name: Sameh, Chen, Kuck
+enrichment_status: SECOND_PASS_INSUFFICIENT
+review_reasons:
+- No second-pass rule could identify source-backed task semantics.
+source_records:
+- access_status: metadata_only
+  digest: 0c21c1fdb9455d30
+  extracted_facts:
+  - 'AlgorithmWiki row name: Sameh, Chen, Kuck'
+  - 'domain: unknown'
+  - 'time complexity: O(\log n)'
+  - 'computational model: shared memory MIMD'
+  - 'parameter definitions: n: dimension of grid (where grid is discretized)'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001775:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Sameh, Chen, Kuck
+  url: https://link.springer.com/article/10.1007/BF02259647
+- access_status: skipped
+  digest: a2400be0cd07448c
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:68d0c422a27fd6c7
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1007/BF02259647
+- access_status: skipped
+  digest: 0a1b06bd8d492bdb
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:927698f70e841e7c
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://link.springer.com/article/10.1007/BF02259647
+- source_id: crossref:2b968b879d99cb2c
+  url: https://doi.org/10.1007/BF02259647
+  title: Parallel Poisson and Biharmonic solvers
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: HIGH
+  extracted_facts:
+  - 'DOI title: Parallel Poisson and Biharmonic solvers'
+  - 'published year: 1976'
+  - 'container title: Computing'
+  short_quote: ''
+  digest: b0103c9eb1da677d
+- source_id: crossref_search:0b18e1bdccf3f416
+  url: https://doi.org/10.1109/npc.2007.32
+  title: An optimal algorithm to fetch DHT routable
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: An optimal algorithm to fetch DHT routable'
+  short_quote: ''
+  digest: eac65bcac63f65f8
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

@@ -1,0 +1,58 @@
+id: AW-001276
+kind: context
+algorithm_id: AW-001276
+algorithm_name: Parallel Quick Sort Algorithm, (PQSA) and Merging Subarrays from Quick Sort Algorithm, (MSQSA) - Zeng
+source_records:
+- access_status: metadata_only
+  digest: f061eef3ac1f02e2
+  extracted_facts:
+  - 'AlgorithmWiki row name: Parallel Quick Sort Algorithm, (PQSA) and Merging Subarrays from Quick Sort Algorithm, (MSQSA) - Zeng'
+  - 'domain: sorting'
+  - 'time complexity: O(n/p \log(n/p))'
+  - 'computational model: shared memory (implements OpenMP)'
+  - 'parameter definitions: n: size of list, p: number of threads (->procesors)'
+  - 'precard summary: Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model. Baseline: time O(n/p \log(n/p)); work O(n \log(n/p)); span/depth O(1); processors p. Bottleneck: comparison, distribution, and full-output movement costs dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001276:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Parallel Quick Sort Algorithm, (PQSA) and Merging Subarrays from Quick Sort Algorithm, (MSQSA) - Zeng
+  url: https://ieeexplore.ieee.org/abstract/document/9498124
+- access_status: skipped
+  digest: fd9bcee121deab2f
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:9dc0a99f156f550b
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://ieeexplore.ieee.org/abstract/document/9498124
+web_query_attempts:
+- method: search_plan
+  query: Parallel Quick Sort Algorithm, (PQSA) and Merging Subarrays from Quick Sort Algorithm, (MSQSA) - Zeng algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Parallel Quick Sort Algorithm, (PQSA) and Merging Subarrays from Quick Sort Algorithm, (MSQSA) - Zeng algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Parallel Quick Sort Algorithm, (PQSA) and Merging Subarrays from Quick Sort Algorithm, (MSQSA) - Zeng problem definition
+  status: recorded
+- method: search_plan
+  query: Parallel Quick Sort Algorithm, (PQSA) and Merging Subarrays from Quick Sort Algorithm, (MSQSA) - Zeng sorting algorithm
+  status: recorded
+- method: search_plan
+  query: Parallel Quick Sort Algorithm, (PQSA) and Merging Subarrays from Quick Sort Algorithm, (MSQSA) - Zeng site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Parallel Quick Sort Algorithm, (PQSA) and Merging Subarrays from Quick Sort Algorithm, (MSQSA) - Zeng algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://ieeexplore.ieee.org/abstract/document/9498124
+  status: recorded
+- method: source_link_html_metadata
+  query: https://ieeexplore.ieee.org/abstract/document/9498124
+  status: skipped
+extracted_problem_statement: 'Parallel Quick Sort Algorithm, (PQSA) and Merging Subarrays from Quick Sort Algorithm, (MSQSA) - Zeng is treated as a classical sorting task for rich AlgorithmWiki discovery. Problem/task: sort the input sequence using the named classical sorting method. Input semantics: A finite array or list of comparable keys or records. Output semantics: The same items returned in nondecreasing order, usually as a full reordered sequence.'
+extracted_algorithm_summary: 'Parallel Quick Sort Algorithm, (PQSA) and Merging Subarrays from Quick Sort Algorithm, (MSQSA) - Zeng is a sorting algorithm record. Classical complexity metadata: time O(n/p \log(n/p)); work O(n \log(n/p)); span/depth O(1); processors p. The stated classical model is shared memory (implements OpenMP). Public metadata/source text adds: Parallel Quick Sort Algorithm, (PQSA) and Merging Subarrays from Quick Sort Algorithm, (MSQSA) - Zeng sorting sorting n: size of list, p: number of threads (->procesors) O(n/p \log(n/p)) Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

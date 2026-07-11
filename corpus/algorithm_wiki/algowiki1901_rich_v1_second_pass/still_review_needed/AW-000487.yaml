@@ -1,0 +1,35 @@
+algorithm_id: AW-000487
+canonical_name: "Cooley\u2013Tukey algorithm"
+enrichment_status: SECOND_PASS_INSUFFICIENT
+review_reasons:
+- No second-pass rule could identify source-backed task semantics.
+source_records:
+- access_status: metadata_only
+  digest: 2134dbc136a7b63c
+  extracted_facts:
+  - "AlgorithmWiki row name: Cooley\u2013Tukey algorithm"
+  - 'domain: unknown'
+  - 'time complexity: O(n \log n)'
+  - 'space complexity: O(n)'
+  - 'computational model: Word/Real RAM'
+  - 'parameter definitions: n: length of the input data set'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000487:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: "AlgorithmWiki metadata for Cooley\u2013Tukey algorithm"
+  url: https://www.ams.org/journals/mcom/1965-19-090/S0025-5718-1965-0178586-1/S0025-5718-1965-0178586-1.pdf
+- source_id: crossref_search:8599ceaa39aa74bd
+  url: https://doi.org/10.1016/b978-0-12-085150-8.50022-x
+  title: "The Cooley\u2013Tukey Algorithm"
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - "Crossref title-search result: The Cooley\u2013Tukey Algorithm"
+  short_quote: ''
+  digest: 63d7e8102bc94039
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

@@ -1,0 +1,28 @@
+algorithm_id: AW-000678
+canonical_name: Jalali and T. Weissman
+enrichment_status: WEB_INSUFFICIENT
+review_reasons:
+- missing_concrete_problem_statement
+- unknown_input_model
+- unknown_output_contract
+- unknown_access_model
+source_records:
+- access_status: metadata_only
+  digest: e9ce1c9b5fbd97ec
+  extracted_facts:
+  - 'AlgorithmWiki row name: Jalali and T. Weissman'
+  - 'domain: unknown'
+  - 'time complexity: O(n)'
+  - 'space complexity: O(n)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: length of input data'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000678:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Jalali and T. Weissman
+  url: https://web.stanford.edu/~tsachy/pdf_files/Lossy%20Source%20Coding%20via%20Markov%20Chain%20Monte%20Carlo.pdf
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

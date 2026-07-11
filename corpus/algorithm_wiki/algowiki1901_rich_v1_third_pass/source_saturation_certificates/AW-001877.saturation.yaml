@@ -1,0 +1,327 @@
+algorithm_id: AW-001877
+canonical_name: Chafik, Daoui
+original_source_link: https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=1b529e19039739861df028bd3612d451c682ff9f
+source_link_type: citeseerx
+previous_failure_reasons:
+- No second-pass rule could identify source-backed task semantics.
+previous_source_records:
+- access_status: metadata_only
+  digest: 33e38b2b81808a8a
+  extracted_facts:
+  - 'AlgorithmWiki row name: Chafik, Daoui'
+  - 'domain: unknown'
+  - 'computational model: Open Multi-Processing (Open-MP), programming model shared memory'
+  - 'parameter definitions: A: size of set of actions, S: size of set of states, gamma: discount factor'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001877:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Chafik, Daoui
+  url: https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=1b529e19039739861df028bd3612d451c682ff9f
+- access_status: fetched
+  digest: a7b2157a15d5e347
+  extracted_facts:
+  - 'Crossref title-search result: Rizk, Chafik'
+  reliability: MEDIUM
+  short_quote: ''
+  source_id: crossref_search:6c34b00ec342b0c1
+  source_type: doi_metadata
+  title: Rizk, Chafik
+  url: https://doi.org/10.1093/benz/9780199773787.article.b00203138
+aliases_tried:
+- Chafik, Daoui
+- Chafik Daoui
+- Chafik, Daoui algorithm
+- Chafik, Daoui problem
+- Chafik, Daoui pseudocode
+- Chafik, Daoui time complexity
+- Rizk, Chafik
+- Rizk, Chafik algorithm
+- Rizk, Chafik complexity
+query_plan:
+- source_family: original_source
+  primary_query: Chafik, Daoui
+  applicability: applicable
+  purpose: check the row's original source link without storing paywalled or PDF bodies
+- source_family: crossref
+  primary_query: Chafik, Daoui
+  applicability: title-search-only
+  purpose: recover DOI title, venue, year, and abstract metadata where available
+- source_family: openalex
+  primary_query: Chafik, Daoui
+  applicability: applicable
+  purpose: recover public work metadata and abstract-inverted-index summaries
+- source_family: semantic_scholar
+  primary_query: Chafik, Daoui
+  applicability: applicable
+  purpose: recover CS paper metadata and abstracts without an API key
+- source_family: arxiv
+  primary_query: Chafik, Daoui
+  applicability: title-search-only
+  purpose: recover arXiv title and abstract metadata
+- source_family: dblp
+  primary_query: Chafik, Daoui
+  applicability: applicable
+  purpose: recover bibliographic title/venue metadata for CS publications
+- source_family: publisher_abstract
+  primary_query: Chafik, Daoui
+  applicability: applicable
+  purpose: check accessible publisher abstract pages
+- source_family: citeseerx
+  primary_query: Chafik, Daoui
+  applicability: applicable
+  purpose: record legacy CiteSeerX availability without full PDF storage
+- source_family: wikipedia
+  primary_query: Chafik, Daoui
+  applicability: applicable
+  purpose: check public encyclopedia algorithm descriptions
+- source_family: wikidata
+  primary_query: Chafik, Daoui
+  applicability: applicable
+  purpose: check public entity aliases/descriptions
+- source_family: nist_dads
+  primary_query: Chafik, Daoui
+  applicability: applicable
+  purpose: check whether a DADS-style reference search is applicable
+- source_family: algorithm_wiki_local
+  primary_query: Chafik, Daoui
+  applicability: applicable
+  purpose: reuse AlgorithmWiki metadata as provenance
+- source_family: the_algorithms
+  primary_query: Chafik, Daoui
+  applicability: applicable
+  purpose: check exact public implementation/reference names when available
+- source_family: cp_algorithms
+  primary_query: Chafik, Daoui
+  applicability: applicable
+  purpose: check exact public algorithm reference names when available
+- source_family: course_notes
+  primary_query: Chafik, Daoui
+  applicability: applicable
+  purpose: record absence of configured course-notes search
+- source_family: general_web_search
+  primary_query: Chafik, Daoui
+  applicability: applicable
+  purpose: record absence of a configured general web endpoint
+- source_family: local_previous_cache
+  primary_query: Chafik, Daoui
+  applicability: applicable
+  purpose: reuse v1/second-pass fetched source records
+query_attempts:
+- &id001
+  cycle: 1
+  query: Chafik, Daoui
+  source_family: algorithm_wiki_local
+  url_or_api_endpoint: https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=1b529e19039739861df028bd3612d451c682ff9f
+  status: fetched
+  new_facts_added: 7
+  reason: local metadata
+- &id002
+  cycle: 1
+  query: Chafik, Daoui
+  source_family: local_previous_cache
+  url_or_api_endpoint: ''
+  status: duplicate
+  new_facts_added: 0
+  reason: previous v1/second-pass sources reused
+- &id003
+  cycle: 1
+  query: https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=1b529e19039739861df028bd3612d451c682ff9f
+  source_family: original_source
+  url_or_api_endpoint: https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=1b529e19039739861df028bd3612d451c682ff9f
+  status: fetch_failed
+  new_facts_added: 0
+  reason: PDF download skipped
+- &id004
+  cycle: 1
+  query: Chafik, Daoui
+  source_family: crossref
+  url_or_api_endpoint: https://doi.org/10.1093/benz/9780199773787.article.b00203138
+  status: irrelevant
+  new_facts_added: 0
+  reason: Crossref metadata/title search
+- &id005
+  cycle: 1
+  query: Chafik, Daoui
+  source_family: arxiv
+  url_or_api_endpoint: https://export.arxiv.org/api/query?max_results=1&search_query=ti:%22Chafik%2C+Daoui%22
+  status: no_result
+  new_facts_added: 0
+  reason: arXiv title search returned no usable entry
+- &id006
+  cycle: 1
+  query: Chafik, Daoui
+  source_family: wikipedia
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: Wikipedia search returned no relevant page
+source_attempts:
+- *id001
+- *id002
+- *id003
+- *id004
+- *id005
+- *id006
+discovered_sources:
+- &id007
+  source_id: failed:5bf7820a52e2a789
+  url: https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=1b529e19039739861df028bd3612d451c682ff9f
+  title: PDF download skipped
+  source_type: original_source
+  access_status: failed
+  reliability: LOW
+  extracted_facts:
+  - PDF download skipped
+  short_quote: PDF download skipped
+  digest: 1a32ff03d637c652
+- source_id: crossref_search:05d0e9c431dcc750
+  url: https://doi.org/10.1093/benz/9780199773787.article.b00203138
+  title: Rizk, Chafik
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title: Rizk, Chafik'
+  - 'published year: 2011'
+  - 'container title: Benezit Dictionary of Artists'
+  short_quote: 'Crossref title: Rizk, Chafik published year: 2011 container title: Benezit Dictionary of Artists'
+  digest: dfa9d077774a4fda
+discovered_facts:
+- fact_id: AW-001877-F86094f09b9
+  fact_type: alias
+  value: Chafik, Daoui
+  source_id: AW-001877:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: AlgorithmWiki metadata
+- fact_id: AW-001877-F90d1f9cd40
+  fact_type: computation_model
+  value: Open Multi-Processing (Open-MP), programming model shared memory
+  source_id: AW-001877:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: AlgorithmWiki metadata
+- fact_id: AW-001877-F1196037aca
+  fact_type: input_semantics
+  value: 'Parameter definitions: A: size of set of actions, S: size of set of states, gamma: discount factor'
+  source_id: AW-001877:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 75
+  conflict_status: weak
+  notes: AlgorithmWiki parameter metadata
+- fact_id: AW-001877-Fb2d64a3523
+  fact_type: authoritative_source_link
+  value: https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=1b529e19039739861df028bd3612d451c682ff9f
+  source_id: AW-001877:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 70
+  conflict_status: consistent
+  notes: Original source link from AlgorithmWiki metadata
+- fact_id: AW-001877-F526121f398
+  fact_type: source_title
+  value: AlgorithmWiki metadata for Chafik, Daoui
+  source_id: AW-001877:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-001877-Ffbd6501997
+  fact_type: problem_definition
+  value: 'Source title indicates: AlgorithmWiki metadata for Chafik, Daoui'
+  source_id: AW-001877:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: weak
+  notes: previous_source_record
+- fact_id: AW-001877-F6b899b73b7
+  fact_type: problem_definition
+  value: 'AlgorithmWiki row name: Chafik, Daoui'
+  source_id: AW-001877:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-001877-Fb7c4401a1a
+  fact_type: problem_definition
+  value: 'domain: unknown'
+  source_id: AW-001877:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-001877-F1534b6c31e
+  fact_type: computation_model
+  value: 'computational model: Open Multi-Processing (Open-MP), programming model shared memory'
+  source_id: AW-001877:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-001877-F3ce3a60d50
+  fact_type: problem_definition
+  value: 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  source_id: AW-001877:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-001877-F521ed97b16
+  fact_type: source_title
+  value: Rizk, Chafik
+  source_id: crossref_search:6c34b00ec342b0c1
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-001877-Fc8271abed2
+  fact_type: problem_definition
+  value: 'Crossref title-search result: Rizk, Chafik'
+  source_id: crossref_search:6c34b00ec342b0c1
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-001877-F35c4223ded
+  fact_type: authoritative_source_link
+  value: https://doi.org/10.1093/benz/9780199773787.article.b00203138
+  source_id: crossref_search:6c34b00ec342b0c1
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: consistent
+  notes: previous_source_record
+duplicate_sources:
+- source_id: AW-001877:algorithm_wiki_metadata
+  url: https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=1b529e19039739861df028bd3612d451c682ff9f
+  title: AlgorithmWiki metadata for Chafik, Daoui
+  source_type: algorithm_wiki
+  access_status: metadata_only
+  reliability: HIGH
+  extracted_facts:
+  - 'AlgorithmWiki row name: Chafik, Daoui'
+  - 'domain: unknown'
+  - 'computational model: Open Multi-Processing (Open-MP), programming model shared memory'
+  - 'parameter definitions: A: size of set of actions, S: size of set of states, gamma: discount factor'
+  short_quote: ''
+  digest: 115036836b9aae8e
+failed_sources:
+- *id007
+paywalled_or_skipped_sources: []
+source_families_covered:
+- algorithm_wiki_local
+- local_previous_cache
+- original_source
+- crossref
+- arxiv
+- wikipedia
+cycles_completed: 1
+new_fact_count_by_cycle:
+- cycle: 1
+  new_facts: 0
+no_new_fact_streak: 0
+saturation_status: RECOVERED_CONTEXT_AND_PROBE
+final_reason: Source-saturation pass found enough task, input, output, and access semantics for a context card.
+next_manual_action: Audit recovered card before any optional live analyze run.

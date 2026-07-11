@@ -1,0 +1,59 @@
+id: AW-000171-P0131
+kind: probe
+algorithm_id: AW-000171
+algorithm_name: Beigel & Eppstein
+source_records:
+- access_status: metadata_only
+  digest: 1cae44d1c3da234c
+  extracted_facts:
+  - 'AlgorithmWiki row name: Beigel & Eppstein'
+  - 'domain: graph'
+  - 'time complexity: O(1.3289^n)'
+  - 'space complexity: O(n^2)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of vertices, m: number of edges'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(1.3289^n); space O(n^2). Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000171:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Beigel & Eppstein
+  url: https://www.sciencedirect.com/science/article/pii/S0196677404001117?via%3Dihub
+- access_status: failed
+  digest: 51304523debf6ff4
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:ef8fd87f64e9ef64
+  source_type: publisher_abstract
+  title: 'HTTP Error 403: Forbidden'
+  url: https://www.sciencedirect.com/science/article/pii/S0196677404001117?via%3Dihub
+web_query_attempts:
+- method: search_plan
+  query: Beigel & Eppstein algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Beigel & Eppstein algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Beigel & Eppstein problem definition
+  status: recorded
+- method: search_plan
+  query: Beigel & Eppstein graph algorithm
+  status: recorded
+- method: search_plan
+  query: Beigel & Eppstein site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Beigel & Eppstein algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://www.sciencedirect.com/science/article/pii/S0196677404001117?via%3Dihub
+  status: recorded
+- method: source_link_html_metadata
+  query: https://www.sciencedirect.com/science/article/pii/S0196677404001117?via%3Dihub
+  status: failed
+extracted_problem_statement: 'Beigel & Eppstein is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Beigel & Eppstein. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'Beigel & Eppstein is a graph algorithm record. Classical complexity metadata: time O(1.3289^n); space O(n^2). The stated classical model is Word RAM. Public metadata/source text adds: Beigel & Eppstein graph graph n: number of vertices, m: number of edges O(1.3289^n) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

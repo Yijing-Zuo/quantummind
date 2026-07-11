@@ -1,0 +1,40 @@
+algorithm_id: AW-000104
+canonical_name: Faster Brute Force (via x[L:U] = x[L:U-1]+x[U])
+enrichment_status: WEB_INSUFFICIENT
+review_reasons:
+- missing_concrete_problem_statement
+- unknown_input_model
+- unknown_output_contract
+- unknown_access_model
+source_records:
+- access_status: metadata_only
+  digest: d2e66a3e542704f7
+  extracted_facts:
+  - 'AlgorithmWiki row name: Faster Brute Force (via x[L:U] = x[L:U-1]+x[U])'
+  - 'domain: unknown'
+  - 'time complexity: O(n^2)'
+  - 'space complexity: O(1)'
+  - 'computational model: Word/Real RAM'
+  - 'parameter definitions: n: length of array'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000104:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Faster Brute Force (via x[L:U] = x[L:U-1]+x[U])
+  url: https://dl.acm.org/doi/pdf/10.1145/358234.381162
+- access_status: fetched
+  digest: 9a42491c7ff398d5
+  extracted_facts:
+  - 'DOI title: Programming pearls'
+  - 'published year: 1984'
+  - 'container title: Communications of the ACM'
+  reliability: HIGH
+  short_quote: ''
+  source_id: crossref:0eafb38be4c80208
+  source_type: doi_metadata
+  title: Programming pearls
+  url: https://doi.org/10.1145/358234.381162
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

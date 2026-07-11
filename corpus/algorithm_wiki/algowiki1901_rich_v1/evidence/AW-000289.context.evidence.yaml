@@ -1,0 +1,68 @@
+id: AW-000289
+kind: context
+algorithm_id: AW-000289
+algorithm_name: Lindeberg (1998)
+source_records:
+- access_status: metadata_only
+  digest: 3a31de659a7542d6
+  extracted_facts:
+  - 'AlgorithmWiki row name: Lindeberg (1998)'
+  - 'domain: unknown'
+  - 'time complexity: O(n^2)'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000289:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Lindeberg (1998)
+  url: https://link.springer.com/article/10.1023/A:1008045108935
+- access_status: fetched
+  digest: 42efba4bd898cb29
+  extracted_facts:
+  - 'DOI title: Feature Detection with Automatic Scale Selection'
+  - 'published year: 1998'
+  - 'container title: International Journal of Computer Vision'
+  reliability: HIGH
+  short_quote: ''
+  source_id: crossref:6de125072bf2e197
+  source_type: doi_metadata
+  title: Feature Detection with Automatic Scale Selection
+  url: https://doi.org/10.1023/A:1008045108935
+- access_status: skipped
+  digest: bb7f921bc0eb2bc6
+  extracted_facts:
+  - robots.txt disallowed fetch
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:90a9df0de4d7a967
+  source_type: publisher_abstract
+  title: robots.txt disallowed fetch
+  url: https://link.springer.com/article/10.1023/A:1008045108935
+web_query_attempts:
+- method: search_plan
+  query: Lindeberg (1998) algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Lindeberg (1998) algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Lindeberg (1998) problem definition
+  status: recorded
+- method: search_plan
+  query: Lindeberg (1998) site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Lindeberg (1998) algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://link.springer.com/article/10.1023/A:1008045108935
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1023/A:1008045108935
+  status: fetched
+- method: source_link_html_metadata
+  query: https://link.springer.com/article/10.1023/A:1008045108935
+  status: skipped
+extracted_problem_statement: 'Lindeberg (1998) is treated as a classical sorting task for rich AlgorithmWiki discovery. Problem/task: sort the input sequence using the named classical sorting method. Input semantics: A finite array or list of comparable keys or records. Output semantics: The selected order statistic or item of requested rank.'
+extracted_algorithm_summary: 'Lindeberg (1998) is a sorting algorithm record. Classical complexity metadata: time O(n^2). Public metadata/source text adds: Lindeberg (1998) unknown unknown O(n^2) No public-ready summary is available because the row lacks enough task semantics.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

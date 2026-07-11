@@ -1,0 +1,65 @@
+algorithm_id: AW-001380
+canonical_name: "Bj\xF8rstad, Manne, S\xF8revik, Vajter\u0161ic (Winograd's algorithm)"
+enrichment_status: SECOND_PASS_INSUFFICIENT
+review_reasons:
+- No second-pass rule could identify source-backed task semantics.
+source_records:
+- access_status: metadata_only
+  digest: 3c20e7e449e9ba80
+  extracted_facts:
+  - "AlgorithmWiki row name: Bj\xF8rstad, Manne, S\xF8revik, Vajter\u0161ic (Winograd's algorithm)"
+  - 'domain: unknown'
+  - 'time complexity: O(n^3/p)'
+  - 'computational model: SIMD with distributed memory'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001380:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: "AlgorithmWiki metadata for Bj\xF8rstad, Manne, S\xF8revik, Vajter\u0161ic (Winograd's algorithm)"
+  url: https://epubs.siam.org/doi/pdf/10.1137/0613026
+- access_status: skipped
+  digest: e47b6118b5669cee
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:e6da763376703a81
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1137/0613026
+- access_status: skipped
+  digest: c9d8479a09bdad73
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:ada706f31938ad05
+  source_type: wikipedia
+  title: fetch budget exhausted
+  url: https://en.wikipedia.org/wiki/Bj%C3%B8rstad%2C_Manne%2C_S%C3%B8revik%2C_Vajter%C5%A1ic_%28Winograd%27s_algorithm%29
+- source_id: crossref:c5e1e07a4eb60abf
+  url: https://doi.org/10.1137/0613026
+  title: Efficient Matrix Multiplication on SIMD Computers
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: HIGH
+  extracted_facts:
+  - 'DOI title: Efficient Matrix Multiplication on SIMD Computers'
+  - 'published year: 1992'
+  - 'container title: SIAM Journal on Matrix Analysis and Applications'
+  short_quote: ''
+  digest: 33070344b319ec50
+- source_id: crossref_search:0b18e1bdccf3f416
+  url: https://doi.org/10.1109/npc.2007.32
+  title: An optimal algorithm to fetch DHT routable
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: An optimal algorithm to fetch DHT routable'
+  short_quote: ''
+  digest: eac65bcac63f65f8
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

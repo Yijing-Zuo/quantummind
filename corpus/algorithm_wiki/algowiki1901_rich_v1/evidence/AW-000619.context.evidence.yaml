@@ -1,0 +1,71 @@
+id: AW-000619
+kind: context
+algorithm_id: AW-000619
+algorithm_name: de Berg Cheong
+source_records:
+- access_status: metadata_only
+  digest: 0abc42e98f87d9ec
+  extracted_facts:
+  - 'AlgorithmWiki row name: de Berg Cheong'
+  - 'domain: unknown'
+  - 'time complexity: O(n \log n)'
+  - 'space complexity: O(n)'
+  - 'computational model: Real RAM'
+  - 'parameter definitions: n: number of points'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000619:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for de Berg Cheong
+  url: https://link.springer.com/chapter/10.1007/978-3-662-03427-9_9
+- access_status: fetched
+  digest: 77499fefba01a932
+  extracted_facts:
+  - 'DOI title: Delaunay Triangulations'
+  - 'published year: 1997'
+  - 'container title: Computational Geometry'
+  reliability: HIGH
+  short_quote: ''
+  source_id: crossref:1bd5a2658c3e0e2c
+  source_type: doi_metadata
+  title: Delaunay Triangulations
+  url: https://doi.org/10.1007/978-3-662-03427-9_9
+- access_status: skipped
+  digest: 72840d8096c99dfb
+  extracted_facts:
+  - robots.txt disallowed fetch
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:182b9b0ff5245fb4
+  source_type: publisher_abstract
+  title: robots.txt disallowed fetch
+  url: https://link.springer.com/chapter/10.1007/978-3-662-03427-9_9
+web_query_attempts:
+- method: search_plan
+  query: de Berg Cheong algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: de Berg Cheong algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: de Berg Cheong problem definition
+  status: recorded
+- method: search_plan
+  query: de Berg Cheong site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: de Berg Cheong algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://link.springer.com/chapter/10.1007/978-3-662-03427-9_9
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1007/978-3-662-03427-9_9
+  status: fetched
+- method: source_link_html_metadata
+  query: https://link.springer.com/chapter/10.1007/978-3-662-03427-9_9
+  status: skipped
+extracted_problem_statement: 'de Berg Cheong is treated as a classical computational geometry task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with de Berg Cheong. Input semantics: Explicit geometric objects such as points, line segments, polygons, or planar subdivisions. Output semantics: The requested geometric structure, simplified curve, clipping result, intersection set, hull, or diagram.'
+extracted_algorithm_summary: 'de Berg Cheong is a computational geometry algorithm record. Classical complexity metadata: time O(n \log n); space O(n). The stated classical model is Real RAM. Public metadata/source text adds: de Berg Cheong unknown unknown n: number of points O(n \log n) No public-ready summary is available because the row lacks enough task semantics.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

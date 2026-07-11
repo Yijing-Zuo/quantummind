@@ -1,0 +1,71 @@
+id: AW-001262
+kind: context
+algorithm_id: AW-001262
+algorithm_name: Parallel modified merge sort - Marszalek
+source_records:
+- access_status: metadata_only
+  digest: c1387497322e20bf
+  extracted_facts:
+  - 'AlgorithmWiki row name: Parallel modified merge sort - Marszalek'
+  - 'domain: sorting'
+  - 'time complexity: 2n - log n -2'
+  - 'computational model: PRAM'
+  - 'parameter definitions: n: size of list'
+  - 'precard summary: Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model. Baseline: time 2n - log n -2; work O(n^2); span/depth O(n); processors n/2. Bottleneck: comparison, distribution, and full-output movement costs dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001262:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Parallel modified merge sort - Marszalek
+  url: https://www.mdpi.com/2073-8994/9/9/176
+- access_status: skipped
+  digest: dfc5cc81b491a11d
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:6f6d22357f79e377
+  source_type: other_public_source
+  title: fetch budget exhausted
+  url: https://www.mdpi.com/2073-8994/9/9/176
+- access_status: skipped
+  digest: 80772277aeebe042
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:a20bde4ad018a8b5
+  source_type: wikipedia
+  title: fetch budget exhausted
+  url: https://en.wikipedia.org/wiki/Parallel_modified_merge_sort_-_Marszalek
+web_query_attempts:
+- method: search_plan
+  query: Parallel modified merge sort - Marszalek algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Parallel modified merge sort - Marszalek algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Parallel modified merge sort - Marszalek problem definition
+  status: recorded
+- method: search_plan
+  query: Parallel modified merge sort - Marszalek sorting algorithm
+  status: recorded
+- method: search_plan
+  query: Parallel modified merge sort - Marszalek site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Parallel modified merge sort - Marszalek algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://www.mdpi.com/2073-8994/9/9/176
+  status: recorded
+- method: source_link_html_metadata
+  query: https://www.mdpi.com/2073-8994/9/9/176
+  status: skipped
+- method: wikipedia_summary_search
+  query: Parallel modified merge sort - Marszalek algorithm
+  status: skipped
+extracted_problem_statement: 'Parallel modified merge sort - Marszalek is treated as a classical sorting task for rich AlgorithmWiki discovery. Problem/task: sort the input sequence using the named classical sorting method. Input semantics: A finite array or list of comparable keys or records. Output semantics: The same items returned in nondecreasing order, usually as a full reordered sequence.'
+extracted_algorithm_summary: 'Parallel modified merge sort - Marszalek is a sorting algorithm record. Classical complexity metadata: time 2n - log n -2; work O(n^2); span/depth O(n); processors n/2. The stated classical model is PRAM. Public metadata/source text adds: Parallel modified merge sort - Marszalek sorting sorting n: size of list 2n - log n -2 Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

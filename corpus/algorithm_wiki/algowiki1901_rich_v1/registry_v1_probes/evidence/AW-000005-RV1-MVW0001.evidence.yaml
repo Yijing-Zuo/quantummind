@@ -1,0 +1,23 @@
+probe_id: AW-000005-RV1-MVW0001
+kind: registry_v1_probe
+parent_algorithm_id: AW-000005
+parent_algorithm_name: Hierarchical Navigable Small World (HNSW)
+source_card_paths:
+- corpus\algorithm_wiki\algowiki1901_rich_v1\public_context\AW-000005.yaml
+- corpus\algorithm_wiki\algowiki1901_rich_v1\public_probe\AW-000005-P0003.yaml
+source_metadata_paths:
+- corpus\algorithm_wiki\algowiki1901_rich_v1\metadata_probe\AW-000005-P0003.meta.yaml
+source_records_used:
+- AW-000005:algorithm_wiki_metadata
+- crossref:a65e05e1b63447fb
+- source:fdca4b1a400ad71d
+short_paraphrased_support: 'Hierarchical Navigable Small World (HNSW) Hierarchical Navigable Small World (HNSW) is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: answer approximate nearest-neighbor search queries using a navigable small-world graph structure. Input semantics: A metric or vector data set, query points, and graph/search parameters for nearest-neighbor lookup. Output semantics: Nearest-neighbor or approximate nearest-neighbor identifiers and distances for the query points. Hierarchical Navigable Small World (HNSW) is a graph algorithm record. Classical complexity metadata: time O(n \log n); space O(M). Public metadata/source text adds: Hierarchical Navigable Small World (HNSW) unknown unknown n: number of elements, M: heuristic choice -- number of closest neighbors for a part of the algo O(n \log n) No public-ready summary is available because the row lacks enough ta'
+introduced_assumptions:
+- reversible_ergodic_markov_chain
+- coherent_markov_chain_walk_oracle
+- marked_fraction_and_spectral_gap_bounds
+limitations:
+- The probe is a public query/subroutine hypothesis only.
+- It does not assert a full original-algorithm speedup.
+- Oracle, promise, and data-representation costs require expert review.
+confirmation: Public provenance sidecar only; no evaluator label or private benchmark answer is encoded.

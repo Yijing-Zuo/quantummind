@@ -1,0 +1,62 @@
+id: AW-000387
+kind: context
+algorithm_id: AW-000387
+algorithm_name: Bresenham Algorithm
+source_records:
+- access_status: metadata_only
+  digest: 335a6eb8816ae800
+  extracted_facts:
+  - 'AlgorithmWiki row name: Bresenham Algorithm'
+  - 'domain: graph'
+  - 'time complexity: O(n)'
+  - 'space complexity: O(1)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: dimension of image'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(n); space O(1). Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000387:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Bresenham Algorithm
+  url: https://www.academia.edu/5750589/Computer_Graphics_C_Version_by_Donald_Hearn_and_M_Pauline_Baker_II_Edition
+- access_status: skipped
+  digest: 8ddf84f4a8ecd605
+  extracted_facts:
+  - robots.txt disallowed fetch
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:5736725f1d1f30a8
+  source_type: textbook_or_course_notes
+  title: robots.txt disallowed fetch
+  url: https://www.academia.edu/5750589/Computer_Graphics_C_Version_by_Donald_Hearn_and_M_Pauline_Baker_II_Edition
+web_query_attempts:
+- method: search_plan
+  query: Bresenham Algorithm algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Bresenham Algorithm algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Bresenham Algorithm problem definition
+  status: recorded
+- method: search_plan
+  query: Bresenham Algorithm graph algorithm
+  status: recorded
+- method: search_plan
+  query: Bresenham Algorithm site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Bresenham Algorithm algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://www.academia.edu/5750589/Computer_Graphics_C_Version_by_Donald_Hearn_and_M_Pauline_Baker_II_Edition
+  status: recorded
+- method: source_link_html_metadata
+  query: https://www.academia.edu/5750589/Computer_Graphics_C_Version_by_Donald_Hearn_and_M_Pauline_Baker_II_Edition
+  status: skipped
+- method: wikipedia_summary_search
+  query: Bresenham Algorithm algorithm
+  status: failed_or_not_relevant
+extracted_problem_statement: 'Bresenham Algorithm is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Bresenham Algorithm. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'Bresenham Algorithm is a graph algorithm record. Classical complexity metadata: time O(n); space O(1). The stated classical model is Word RAM. Public metadata/source text adds: Bresenham Algorithm graph graph n: dimension of image O(n) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

@@ -1,0 +1,33 @@
+family_id: PB-001-family
+seed_variant_id: seed
+public_digest: 3ef5a90c3d26a37c
+relations:
+  - variant_id: surface_rewrite
+    expected_relation: PRESERVE
+    diagnostic_only: false
+    seed_projection: {selected_primitive: amplitude_amplification, verdict: POSITIVE, scope: QUERY}
+    variant_projection: {selected_primitive: amplitude_amplification, verdict: POSITIVE, scope: QUERY}
+    required_invariant_fields: [selected_primitive, verdict, scope]
+  - variant_id: misleading_bait
+    expected_relation: PRESERVE
+    diagnostic_only: false
+    seed_projection: {selected_primitive: amplitude_amplification, verdict: POSITIVE, scope: QUERY}
+    variant_projection: {selected_primitive: amplitude_amplification, verdict: POSITIVE, scope: QUERY}
+    required_invariant_fields: [selected_primitive, verdict, scope]
+  - variant_id: no_coherent_oracle
+    expected_relation: FORCE_ABSTAIN
+    diagnostic_only: false
+    seed_projection: {selected_primitive: amplitude_amplification, verdict: POSITIVE, scope: QUERY}
+    variant_projection: {selected_primitive: amplitude_amplification, verdict: INVALID, scope: NONE}
+    required_changed_fields: [verdict, scope]
+    required_invariant_fields: [selected_primitive]
+  - variant_id: estimate_output
+    expected_relation: DIRECTIONAL_CHANGE
+    diagnostic_only: false
+    seed_projection: {selected_primitive: amplitude_amplification, verdict: POSITIVE, scope: QUERY}
+    variant_projection: {selected_primitive: amplitude_estimation, verdict: POSITIVE, scope: QUERY}
+    required_changed_fields: [selected_primitive]
+    required_invariant_fields: [verdict, scope]
+  - variant_id: ambiguous_access
+    expected_relation: FORCE_ABSTAIN
+    diagnostic_only: true

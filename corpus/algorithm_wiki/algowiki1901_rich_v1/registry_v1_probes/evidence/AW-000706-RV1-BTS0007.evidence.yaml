@@ -1,0 +1,23 @@
+probe_id: AW-000706-RV1-BTS0007
+kind: registry_v1_probe
+parent_algorithm_id: AW-000706
+parent_algorithm_name: Bellare Active Learning
+source_card_paths:
+- corpus\algorithm_wiki\algowiki1901_rich_v1\public_context\AW-000706.yaml
+- corpus\algorithm_wiki\algowiki1901_rich_v1\public_probe\AW-000706-P0475.yaml
+source_metadata_paths:
+- corpus\algorithm_wiki\algowiki1901_rich_v1\metadata_probe\AW-000706-P0475.meta.yaml
+source_records_used:
+- AW-000706:algorithm_wiki_metadata
+- crossref:a5cde89255a9000d
+- failed:53cafa6a42bc87f7
+short_paraphrased_support: 'Bellare Active Learning Bellare Active Learning is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Bellare Active Learning. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: Pattern occurrence positions, matches, or the associated string-search report. Bellare Active Learning is a graph algorithm record. Classical complexity metadata: time O(n^2 \log n c \log c). The stated classical model is Word RAM. Public metadata/source text adds: Bellare Active Learning unknown unknown n: number of records, k: number of features (can be up to O(\sqrt{n})) O(n^2 \log n c \log c) No public-ready summary is available because the row lacks enough task semantics. An explicit graph instance with vertices, edges, weights,'
+introduced_assumptions:
+- bounded_backtracking_tree
+- bounded_tree_depth
+- coherent_child_and_predicate_oracles
+limitations:
+- The probe is a public query/subroutine hypothesis only.
+- It does not assert a full original-algorithm speedup.
+- Oracle, promise, and data-representation costs require expert review.
+confirmation: Public provenance sidecar only; no evaluator label or private benchmark answer is encoded.

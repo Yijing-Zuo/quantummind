@@ -1,0 +1,14 @@
+statement: 'Bansal, Williams is included as a named whole-algorithm context card for a classical graph task. The task is to analyze the classical input-output problem, not to certify an end-to-end improvement claim. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The matrix product or bilinear multiplication output. Classical algorithm summary: Bansal, Williams is a graph algorithm record. Classical complexity metadata: time O(n^3 * (log log n)^2 / (w * (log n)^7/6)). The stated classical model is Word RAM with word size w > log n. Public metadata/source text adds: Bansal, Williams unknown unknown n: dimension of the two square matrices, w: size of word O(n^3 * (log log n)^2 / (w * (log n)^7/6)) No public-ready summary is available because the row lacks enough task semantics. Classical complexity recorded for this row: time O(n^3 * (log log n)^2 / (w * (log n)^7/6)); space unknown; computation
+  model Word RAM with word size w > log n. Dominant bottleneck: graph traversal, priority/frontier maintenance, and materializing graph outputs. The useful review questions are whether the named structure exposes a smaller decision, witness, estimation, or algebraic subproblem; whether the full output size dominates any asymptotic gain; and whether the stated access model is realistic for the original input. Provenance used for reconstruction includes public metadata or abstract sources such as Regularity Lemmas and Combinatorial Algorithms | IEEE Conference Publication | IEEE Xplore. Source-backed uncertainty or assumptions: The AlgorithmWiki row marks the classical method as randomized.'
+input_model: explicit_graph_problem
+access_model: adjacency_list_query
+output_contract: full_solution
+promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+- classical_randomized_algorithm
+size_parameters:
+- 'Parameter definition: n: dimension of the two square matrices, w: size of word'
+ambiguities:
+- The AlgorithmWiki row marks the classical method as randomized.
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.

@@ -1,0 +1,62 @@
+id: AW-000255-P0248
+kind: probe
+algorithm_id: AW-000255
+algorithm_name: O(lg N) algorithm
+source_records:
+- access_status: metadata_only
+  digest: 6e6f9e88a3f13002
+  extracted_facts:
+  - 'AlgorithmWiki row name: O(lg N) algorithm'
+  - 'domain: graph'
+  - 'time complexity: O(n \log p)'
+  - 'space complexity: O(1) auxiliary'
+  - 'computational model: Word/Real RAM'
+  - 'parameter definitions: n: number of lines, p: number of edges on polygon'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(n \log p); space O(1) auxiliary. Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000255:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for O(lg N) algorithm
+  url: https://www.sciencedirect.com/science/article/pii/0097849394900647
+- access_status: failed
+  digest: 2f89dcaf5cf7be70
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:0f06c9a67b945759
+  source_type: publisher_abstract
+  title: 'HTTP Error 403: Forbidden'
+  url: https://www.sciencedirect.com/science/article/pii/0097849394900647
+web_query_attempts:
+- method: search_plan
+  query: O(lg N) algorithm algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: O(lg N) algorithm algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: O(lg N) algorithm problem definition
+  status: recorded
+- method: search_plan
+  query: O(lg N) algorithm graph algorithm
+  status: recorded
+- method: search_plan
+  query: O(lg N) algorithm site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: O(lg N) algorithm algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://www.sciencedirect.com/science/article/pii/0097849394900647
+  status: recorded
+- method: source_link_html_metadata
+  query: https://www.sciencedirect.com/science/article/pii/0097849394900647
+  status: failed
+- method: wikipedia_summary_search
+  query: O(lg N) algorithm algorithm
+  status: failed_or_not_relevant
+extracted_problem_statement: 'O(lg N) algorithm is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with O(lg N) algorithm. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'O(lg N) algorithm is a graph algorithm record. Classical complexity metadata: time O(n \log p); space O(1) auxiliary. The stated classical model is Word/Real RAM. Public metadata/source text adds: O(lg N) algorithm graph graph n: number of lines, p: number of edges on polygon O(n \log p) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

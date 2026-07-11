@@ -1,0 +1,45 @@
+id: AW-001322
+kind: context
+algorithm_id: AW-001322
+algorithm_name: Liu, Chen, Chen, Qin
+source_records:
+- access_status: metadata_only
+  digest: 2c7da3e1c4f309b3
+  extracted_facts:
+  - 'AlgorithmWiki row name: Liu, Chen, Chen, Qin'
+  - 'domain: dynamic_programming'
+  - 'time complexity: O(|LCS(X,Y)|)'
+  - 'computational model: Shenteng 1800 using MPI'
+  - 'parameter definitions: L: number of identical character pairs , |LCS(X,Y)|: the length of the LCS of X, Y.'
+  - 'precard summary: Given an explicit instance with overlapping subproblem structure, compute the full classical solution or value targeted by the dynamic-programming recurrence. Baseline: time O(|LCS(X,Y)|); work O(L); span/depth O(|LCS(X,Y)|). Bottleneck: subproblem count, transition evaluation, and table output dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001322:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Liu, Chen, Chen, Qin
+  url: https://ieeexplore.ieee.org/iel5/10901/4673510/04673521.pdf
+web_query_attempts:
+- method: search_plan
+  query: Liu, Chen, Chen, Qin algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Liu, Chen, Chen, Qin algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Liu, Chen, Chen, Qin problem definition
+  status: recorded
+- method: search_plan
+  query: Liu, Chen, Chen, Qin dynamic programming algorithm
+  status: recorded
+- method: search_plan
+  query: Liu, Chen, Chen, Qin site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Liu, Chen, Chen, Qin algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://ieeexplore.ieee.org/iel5/10901/4673510/04673521.pdf
+  status: recorded
+extracted_problem_statement: 'Liu, Chen, Chen, Qin is treated as a classical dynamic programming task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Liu, Chen, Chen, Qin. Input semantics: An explicit optimization or recurrence instance with overlapping subproblems. Output semantics: The optimal value, witness, schedule, segmentation, or table-derived solution for the recurrence.'
+extracted_algorithm_summary: 'Liu, Chen, Chen, Qin is a dynamic programming algorithm record. Classical complexity metadata: time O(|LCS(X,Y)|); work O(L); span/depth O(|LCS(X,Y)|). The stated classical model is Shenteng 1800 using MPI. Public metadata/source text adds: Liu, Chen, Chen, Qin dynamic_programming dynamic_programming L: number of identical character pairs , |LCS(X,Y)|: the length of the LCS of X, Y.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

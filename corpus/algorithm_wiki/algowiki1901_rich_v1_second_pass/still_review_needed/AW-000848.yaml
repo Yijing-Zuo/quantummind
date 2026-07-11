@@ -1,0 +1,35 @@
+algorithm_id: AW-000848
+canonical_name: Non-recursion based
+enrichment_status: SECOND_PASS_INSUFFICIENT
+review_reasons:
+- No second-pass rule could identify source-backed task semantics.
+source_records:
+- access_status: metadata_only
+  digest: 553c5dcbc3454f7d
+  extracted_facts:
+  - 'AlgorithmWiki row name: Non-recursion based'
+  - 'domain: unknown'
+  - 'time complexity: O(2^n)'
+  - 'space complexity: O(n)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of disks'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000848:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Non-recursion based
+  url: NA
+- source_id: crossref_search:fff0ee99728449a9
+  url: https://doi.org/10.1007/978-0-387-77251-6_21
+  title: Explore a New Way to Convert a Recursion Algorithm into a Non-recursion Algorithm
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: Explore a New Way to Convert a Recursion Algorithm into a Non-recursion Algorithm'
+  short_quote: ''
+  digest: 559d08345e5c8978
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

@@ -1,0 +1,36 @@
+algorithm_id: AW-000704
+canonical_name: EM Based Winkler
+enrichment_status: SECOND_PASS_INSUFFICIENT
+review_reasons:
+- No second-pass rule could identify source-backed task semantics.
+source_records:
+- access_status: metadata_only
+  digest: c30af195a02ef160
+  extracted_facts:
+  - 'AlgorithmWiki row name: EM Based Winkler'
+  - 'domain: unknown'
+  - 'time complexity: O(n^3 k)'
+  - 'space complexity: O(k)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of records, k: number of features (can be up to O(\sqrt{n}))'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000704:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for EM Based Winkler
+  url: https://courses.cs.washington.edu/courses/cse590q/04au/papers/WinklerEM.pdf
+- source_id: crossref_search:35529b5ffa4706fd
+  url: https://doi.org/10.25130/tjps.v21i6.1095
+  title: Design Secured Smart Door Lock Based on Jaro Winkler Algorithm
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: Design Secured Smart Door Lock Based on Jaro Winkler Algorithm'
+  - 'abstract summary: The security nowadays considered as significant topic specifically in design smart home.'
+  short_quote: The security nowadays considered as significant topic specifically in design smart home.
+  digest: b0cd2bf904097b3b
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

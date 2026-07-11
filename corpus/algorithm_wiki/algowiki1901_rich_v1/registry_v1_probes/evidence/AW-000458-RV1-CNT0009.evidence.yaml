@@ -1,0 +1,22 @@
+probe_id: AW-000458-RV1-CNT0009
+kind: registry_v1_probe
+parent_algorithm_id: AW-000458
+parent_algorithm_name: Gosper's algorithm
+source_card_paths:
+- corpus\algorithm_wiki\algowiki1901_rich_v1\public_context\AW-000458.yaml
+- corpus\algorithm_wiki\algowiki1901_rich_v1\public_probe\AW-000458-P0338.yaml
+source_metadata_paths:
+- corpus\algorithm_wiki\algowiki1901_rich_v1\metadata_probe\AW-000458-P0338.meta.yaml
+source_records_used:
+- AW-000458:algorithm_wiki_metadata
+- source:72545ecc48b68d34
+short_paraphrased_support: 'Gosper''s algorithm Gosper''s algorithm is treated as a classical combinatorics task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Gosper''s algorithm. Input semantics: An iterated function or sequence representation with parameters for the preperiod and cycle length. Output semantics: A count, witness, construction, ordering, subset, cycle, or other finite combinatorial output. Gosper''s algorithm is a combinatorics algorithm record. Classical complexity metadata: time O((\lambda + \mu) \log(\lambda + \mu) t_f); space \Theta(\log(\mu + \lambda)). Public metadata/source text adds: Gosper''s algorithm unknown unknown t_f: time to perform one evaluation of f, \mu: the starting index of the cycle, \lambda: the period of the cycle O((\lambda + \mu) \log(\lambda + \mu) t_f) No public-ready summary is available because the row lacks enough task '
+introduced_assumptions:
+- finite_search_space
+- coherent_boolean_oracle
+- count_precision_specified
+limitations:
+- The probe is a public query/subroutine hypothesis only.
+- It does not assert a full original-algorithm speedup.
+- Oracle, promise, and data-representation costs require expert review.
+confirmation: Public provenance sidecar only; no evaluator label or private benchmark answer is encoded.

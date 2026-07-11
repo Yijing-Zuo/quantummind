@@ -1,0 +1,46 @@
+algorithm_id: AW-000785
+canonical_name: The PAGERANK Algorithm
+enrichment_status: SECOND_PASS_INSUFFICIENT
+review_reasons:
+- No second-pass rule could identify source-backed task semantics.
+source_records:
+- access_status: metadata_only
+  digest: 1a5949fa07d5bd96
+  extracted_facts:
+  - 'AlgorithmWiki row name: The PAGERANK Algorithm'
+  - 'domain: unknown'
+  - 'time complexity: O(n^3)'
+  - 'space complexity: O(n)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of pages, m: number of hyperlinks'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000785:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for The PAGERANK Algorithm
+  url: http://ilpubs.stanford.edu:8090/422/?utm_campaign=Technical%20SEO%20Weekly&utm_medium=email&utm_source=Revue%20newsletter
+- access_status: fetched
+  digest: ae20ce164b555247
+  extracted_facts:
+  - 'source page title: Error - Stanford InfoLab Publication Server'
+  - 'source page description: Feel free to contact Stanford InfoLab Publication Server administration with details.'
+  reliability: MEDIUM
+  short_quote: Feel free to contact Stanford InfoLab Publication Server administration with details.
+  source_id: source:77dcaf88e745e8c1
+  source_type: textbook_or_course_notes
+  title: Error - Stanford InfoLab Publication Server
+  url: http://ilpubs.stanford.edu:8090/422/?utm_campaign=Technical%20SEO%20Weekly&utm_medium=email&utm_source=Revue%20newsletter
+- source_id: crossref_search:290a462660b63d43
+  url: https://doi.org/10.1016/j.jana.2009.04.001
+  title: Publication Error
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: Publication Error'
+  short_quote: ''
+  digest: dde4ff0acc60a3ae
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

@@ -1,0 +1,46 @@
+id: AW-000806
+kind: context
+algorithm_id: AW-000806
+algorithm_name: Preparata and Shamos (Intersection sum of angle)
+source_records:
+- access_status: metadata_only
+  digest: eaf64ed6f08b232d
+  extracted_facts:
+  - 'AlgorithmWiki row name: Preparata and Shamos (Intersection sum of angle)'
+  - 'domain: graph'
+  - 'time complexity: O(n)'
+  - 'space complexity: O(1)'
+  - 'computational model: Real RAM'
+  - 'parameter definitions: n: number of edges of polygon'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(n); space O(1). Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000806:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Preparata and Shamos (Intersection sum of angle)
+  url: http://www.cs.kent.edu/~dragan/CG/CG-Book.pdf
+web_query_attempts:
+- method: search_plan
+  query: Preparata and Shamos (Intersection sum of angle) algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Preparata and Shamos (Intersection sum of angle) algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Preparata and Shamos (Intersection sum of angle) problem definition
+  status: recorded
+- method: search_plan
+  query: Preparata and Shamos (Intersection sum of angle) graph algorithm
+  status: recorded
+- method: search_plan
+  query: Preparata and Shamos (Intersection sum of angle) site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Preparata and Shamos (Intersection sum of angle) algorithm wiki
+  status: recorded
+- method: search_plan
+  query: http://www.cs.kent.edu/~dragan/CG/CG-Book.pdf
+  status: recorded
+extracted_problem_statement: 'Preparata and Shamos (Intersection sum of angle) is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Preparata and Shamos (Intersection sum of angle). Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'Preparata and Shamos (Intersection sum of angle) is a graph algorithm record. Classical complexity metadata: time O(n); space O(1). The stated classical model is Real RAM. Public metadata/source text adds: Preparata and Shamos (Intersection sum of angle) graph graph n: number of edges of polygon O(n) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

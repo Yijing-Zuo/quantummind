@@ -1,0 +1,63 @@
+id: AW-000502
+kind: context
+algorithm_id: AW-000502
+algorithm_name: "Greiner\u2013Hormann clipping algorithm"
+source_records:
+- access_status: metadata_only
+  digest: 9ca301423dc7fc99
+  extracted_facts:
+  - "AlgorithmWiki row name: Greiner\u2013Hormann clipping algorithm"
+  - 'domain: computational_geometry'
+  - 'time complexity: O(n^2)'
+  - 'space complexity: O(n^2)'
+  - 'computational model: Word/Real RAM'
+  - 'parameter definitions: n: maximum number of sides of either input polygon or clipping polygon'
+  - 'precard summary: Given explicit geometric objects such as points, segments, or polygons, compute the requested geometric structure or witness set. Baseline: time O(n^2); space O(n^2). Bottleneck: geometric predicates, ordering events, and output-sensitive structure size dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000502:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: "AlgorithmWiki metadata for Greiner\u2013Hormann clipping algorithm"
+  url: http://davis.wpi.edu/~matt/courses/clipping/
+- access_status: fetched
+  digest: 62f7a322b0cb56ed
+  extracted_facts:
+  - 'source page title: http://davis.wpi.edu/~matt/courses/clipping/'
+  - 'source page description: Clipping is an essential part of image synthesis.'
+  reliability: MEDIUM
+  short_quote: Clipping is an essential part of image synthesis.
+  source_id: source:b581765129fb563b
+  source_type: textbook_or_course_notes
+  title: http://davis.wpi.edu/~matt/courses/clipping/
+  url: http://davis.wpi.edu/~matt/courses/clipping/
+web_query_attempts:
+- method: search_plan
+  query: "Greiner\u2013Hormann clipping algorithm algorithm input output complexity"
+  status: recorded
+- method: search_plan
+  query: "Greiner\u2013Hormann clipping algorithm algorithm pseudocode"
+  status: recorded
+- method: search_plan
+  query: "Greiner\u2013Hormann clipping algorithm problem definition"
+  status: recorded
+- method: search_plan
+  query: "Greiner\u2013Hormann clipping algorithm computational geometry algorithm"
+  status: recorded
+- method: search_plan
+  query: "Greiner\u2013Hormann clipping algorithm site:nist.gov DADS"
+  status: recorded
+- method: search_plan
+  query: "Greiner\u2013Hormann clipping algorithm algorithm wiki"
+  status: recorded
+- method: search_plan
+  query: http://davis.wpi.edu/~matt/courses/clipping/
+  status: recorded
+- method: source_link_html_metadata
+  query: http://davis.wpi.edu/~matt/courses/clipping/
+  status: fetched
+- method: wikipedia_summary_search
+  query: "Greiner\u2013Hormann clipping algorithm algorithm"
+  status: failed_or_not_relevant
+extracted_problem_statement: "Greiner\u2013Hormann clipping algorithm is treated as a classical computational geometry task for rich AlgorithmWiki discovery. Problem/task: clip geometric primitives against a polygonal or rectangular clipping region. Input semantics: Explicit geometric objects such as points, line segments, polygons, or planar subdivisions. Output semantics: The requested geometric structure, simplified curve, clipping result, intersection set, hull, or diagram."
+extracted_algorithm_summary: "Greiner\u2013Hormann clipping algorithm is a computational geometry algorithm record. Classical complexity metadata: time O(n^2); space O(n^2). The stated classical model is Word/Real RAM. Public metadata/source text adds: Greiner\u2013Hormann clipping algorithm computational_geometry computational_geometry n: maximum number of sides of either input polygon or clipping polygon O(n^2) Given explicit geometric objects such as points, segments, or polygons, compute the requested geometric structure or witness set."
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

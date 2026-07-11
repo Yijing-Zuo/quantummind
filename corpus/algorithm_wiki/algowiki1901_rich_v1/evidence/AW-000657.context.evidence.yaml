@@ -1,0 +1,46 @@
+id: AW-000657
+kind: context
+algorithm_id: AW-000657
+algorithm_name: Balasubramanian Fellows
+source_records:
+- access_status: metadata_only
+  digest: 22bf6911729162e2
+  extracted_facts:
+  - 'AlgorithmWiki row name: Balasubramanian Fellows'
+  - 'domain: graph'
+  - 'time complexity: O(kn + 1.324718^k k^2)'
+  - 'space complexity: O(k^3) auxiliary (potentially O(k^2))'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of vertices, m: number of edges, k: size of vertex cover (worst case O(n))'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(kn + 1.324718^k k^2); space O(k^3) auxiliary (potentially O(k^2)). Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000657:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Balasubramanian Fellows
+  url: https://citeseerx.ist.psu.edu/pdf/3c5a4c3ecf51bbb467c9c38220b95fc643499c98
+web_query_attempts:
+- method: search_plan
+  query: Balasubramanian Fellows algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Balasubramanian Fellows algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Balasubramanian Fellows problem definition
+  status: recorded
+- method: search_plan
+  query: Balasubramanian Fellows graph algorithm
+  status: recorded
+- method: search_plan
+  query: Balasubramanian Fellows site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Balasubramanian Fellows algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://citeseerx.ist.psu.edu/pdf/3c5a4c3ecf51bbb467c9c38220b95fc643499c98
+  status: recorded
+extracted_problem_statement: 'Balasubramanian Fellows is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Balasubramanian Fellows. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'Balasubramanian Fellows is a graph algorithm record. Classical complexity metadata: time O(kn + 1.324718^k k^2); space O(k^3) auxiliary (potentially O(k^2)). The stated classical model is Word RAM. Public metadata/source text adds: Balasubramanian Fellows graph graph n: number of vertices, m: number of edges, k: size of vertex cover (worst case O(n)) O(kn + 1.324718^k k^2) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

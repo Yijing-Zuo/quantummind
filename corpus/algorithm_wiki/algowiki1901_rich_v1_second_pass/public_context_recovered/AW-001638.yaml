@@ -1,0 +1,14 @@
+statement: 'De Stefani (COPSIM) is included as a named whole-algorithm context card for a classical combinatorics task. The task is to analyze the classical input-output problem, not to certify an end-to-end improvement claim. Input semantics: Two integers represented by n-bit or n-limb strings. Output semantics: The exact product integer. Classical algorithm summary: De Stefani (COPSIM) is treated as the named AlgorithmWiki variant for multiply large integers Classical complexity metadata: work O(n^2); span/depth O(n). Public metadata/source title support includes Communication-Optimal Parallel Standard and Karatsuba Integer Multiplication in the Distributed Memory Model. Classical complexity recorded for this row: time unknown; space unknown; computation model distributed memory. Dominant bottleneck: Recursive splitting, convolution, carry propagation, and writing the full product dominate. The useful review questions are whether the named structure exposes a smaller decision, witness,
+  estimation, or algebraic subproblem; whether the full output size dominates any asymptotic gain; and whether the stated access model is realistic for the original input. Provenance used for reconstruction includes public metadata or abstract sources such as Communication-Optimal Parallel Standard and Karatsuba Integer Multiplication in the Distributed Memory Model; An optimal algorithm to fetch DHT routable.'
+input_model: explicit_combinatorial_problem
+access_model: random_access_string
+output_contract: full_solution
+promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+size_parameters:
+- 'Parameter definition: n: length of the integers'
+- p = stated number of processors (O(n))
+ambiguities:
+- Some details are reconstructed from AlgorithmWiki metadata rather than an independently fetched full public description.
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.

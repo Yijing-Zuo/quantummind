@@ -1,0 +1,660 @@
+algorithm_id: AW-000537
+canonical_name: Muller's method
+original_source_link: https://www.jstor.org/stable/2001916
+source_link_type: unknown
+previous_failure_reasons:
+- No second-pass rule could identify source-backed task semantics.
+previous_source_records:
+- access_status: metadata_only
+  digest: e9255481f498ddeb
+  extracted_facts:
+  - 'AlgorithmWiki row name: Muller''s method'
+  - 'domain: unknown'
+  - 'time complexity: O(n_{max})'
+  - 'space complexity: O(1)'
+  - 'computational model: Word/Real RAM'
+  - 'parameter definitions: \epsilon: (additive) tolerance error, n_{max}: maximum number of iterations'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000537:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Muller's method
+  url: https://www.jstor.org/stable/2001916
+- access_status: failed
+  digest: 9204ffffc37b7530
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:4315e6a9ecc576c5
+  source_type: other_public_source
+  title: 'HTTP Error 403: Forbidden'
+  url: https://www.jstor.org/stable/2001916
+- access_status: fetched
+  digest: a700f07dac35d97c
+  extracted_facts:
+  - "Crossref title-search result: Sonn\u2010Muller Method"
+  reliability: MEDIUM
+  short_quote: ''
+  source_id: crossref_search:c7302dae89771369
+  source_type: doi_metadata
+  title: "Sonn\u2010Muller Method"
+  url: https://doi.org/10.1002/0471743984.vse9064
+aliases_tried:
+- Muller's method
+- Muller's method algorithm
+- Muller's method problem
+- Muller's method pseudocode
+- Muller's method time complexity
+- "Sonn\u2010Muller Method"
+- "Sonn\u2010Muller Method algorithm"
+- "Sonn\u2010Muller Method complexity"
+query_plan:
+- source_family: original_source
+  primary_query: Muller's method
+  applicability: applicable
+  purpose: check the row's original source link without storing paywalled or PDF bodies
+- source_family: crossref
+  primary_query: Muller's method
+  applicability: title-search-only
+  purpose: recover DOI title, venue, year, and abstract metadata where available
+- source_family: openalex
+  primary_query: Muller's method
+  applicability: applicable
+  purpose: recover public work metadata and abstract-inverted-index summaries
+- source_family: semantic_scholar
+  primary_query: Muller's method
+  applicability: applicable
+  purpose: recover CS paper metadata and abstracts without an API key
+- source_family: arxiv
+  primary_query: Muller's method
+  applicability: title-search-only
+  purpose: recover arXiv title and abstract metadata
+- source_family: dblp
+  primary_query: Muller's method
+  applicability: applicable
+  purpose: recover bibliographic title/venue metadata for CS publications
+- source_family: publisher_abstract
+  primary_query: Muller's method
+  applicability: applicable
+  purpose: check accessible publisher abstract pages
+- source_family: citeseerx
+  primary_query: Muller's method
+  applicability: applicable
+  purpose: record legacy CiteSeerX availability without full PDF storage
+- source_family: wikipedia
+  primary_query: Muller's method
+  applicability: applicable
+  purpose: check public encyclopedia algorithm descriptions
+- source_family: wikidata
+  primary_query: Muller's method
+  applicability: applicable
+  purpose: check public entity aliases/descriptions
+- source_family: nist_dads
+  primary_query: Muller's method
+  applicability: applicable
+  purpose: check whether a DADS-style reference search is applicable
+- source_family: algorithm_wiki_local
+  primary_query: Muller's method
+  applicability: applicable
+  purpose: reuse AlgorithmWiki metadata as provenance
+- source_family: the_algorithms
+  primary_query: Muller's method
+  applicability: applicable
+  purpose: check exact public implementation/reference names when available
+- source_family: cp_algorithms
+  primary_query: Muller's method
+  applicability: applicable
+  purpose: check exact public algorithm reference names when available
+- source_family: course_notes
+  primary_query: Muller's method
+  applicability: applicable
+  purpose: record absence of configured course-notes search
+- source_family: general_web_search
+  primary_query: Muller's method
+  applicability: applicable
+  purpose: record absence of a configured general web endpoint
+- source_family: local_previous_cache
+  primary_query: Muller's method
+  applicability: applicable
+  purpose: reuse v1/second-pass fetched source records
+query_attempts:
+- &id001
+  cycle: 1
+  query: Muller's method
+  source_family: algorithm_wiki_local
+  url_or_api_endpoint: https://www.jstor.org/stable/2001916
+  status: fetched
+  new_facts_added: 9
+  reason: local metadata
+- &id002
+  cycle: 1
+  query: Muller's method
+  source_family: local_previous_cache
+  url_or_api_endpoint: ''
+  status: duplicate
+  new_facts_added: 0
+  reason: previous v1/second-pass sources reused
+- &id003
+  cycle: 1
+  query: https://www.jstor.org/stable/2001916
+  source_family: original_source
+  url_or_api_endpoint: https://www.jstor.org/stable/2001916
+  status: fetch_failed
+  new_facts_added: 0
+  reason: 'HTTP Error 403: Forbidden'
+- &id004
+  cycle: 1
+  query: Muller's method
+  source_family: crossref
+  url_or_api_endpoint: https://doi.org/10.1002/0471743984.vse9064
+  status: irrelevant
+  new_facts_added: 0
+  reason: Crossref metadata/title search
+- &id005
+  cycle: 1
+  query: Muller's method
+  source_family: arxiv
+  url_or_api_endpoint: https://export.arxiv.org/api/query?max_results=1&search_query=ti:%22Muller%27s+method%22
+  status: no_result
+  new_facts_added: 0
+  reason: arXiv title search returned no usable entry
+- &id006
+  cycle: 1
+  query: Muller's method
+  source_family: wikipedia
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: Wikipedia search returned no relevant page
+- &id007
+  cycle: 2
+  query: Muller's method
+  source_family: openalex
+  url_or_api_endpoint: https://api.openalex.org/works?per-page=1&search=Muller%27s+method
+  status: fetched
+  new_facts_added: 6
+  reason: OpenAlex work metadata
+- &id008
+  cycle: 2
+  query: Muller's method
+  source_family: semantic_scholar
+  url_or_api_endpoint: https://api.semanticscholar.org/graph/v1/paper/search?limit=1&fields=title,abstract,year,url,externalIds&query=Muller%27s+method
+  status: fetch_failed
+  new_facts_added: 0
+  reason: Semantic Scholar returned no usable paper
+- &id009
+  cycle: 2
+  query: Muller's method
+  source_family: dblp
+  url_or_api_endpoint: https://dblp.org/search/publ/api?format=json&h=1&q=Muller%27s+method
+  status: no_result
+  new_facts_added: 0
+  reason: DBLP returned no usable publication
+- &id010
+  cycle: 2
+  query: https://www.jstor.org/stable/2001916
+  source_family: original_source
+  url_or_api_endpoint: https://www.jstor.org/stable/2001916
+  status: fetch_failed
+  new_facts_added: 0
+  reason: 'HTTP Error 403: Forbidden'
+- &id011
+  cycle: 2
+  query: Muller's method
+  source_family: wikidata
+  url_or_api_endpoint: http://www.wikidata.org/entity/Q2090477
+  status: fetched
+  new_facts_added: 3
+  reason: Wikidata entity search
+- &id012
+  cycle: 3
+  query: Muller's method
+  source_family: citeseerx
+  url_or_api_endpoint: ''
+  status: paywalled
+  new_facts_added: 0
+  reason: CiteSeerX link is PDF/legacy metadata; full PDF body skipped
+- &id013
+  cycle: 3
+  query: Muller's method
+  source_family: nist_dads
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: NIST DADS has no reliable bulk search API in this environment
+- &id014
+  cycle: 3
+  query: Muller's method
+  source_family: the_algorithms
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: TheAlgorithms search skipped unless a known exact reference is available
+- &id015
+  cycle: 3
+  query: Muller's method
+  source_family: cp_algorithms
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: CP-Algorithms search skipped unless a known exact reference is available
+- &id016
+  cycle: 3
+  query: Muller's method
+  source_family: course_notes
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: No configured public course-notes search endpoint
+- &id017
+  cycle: 3
+  query: Muller's method
+  source_family: general_web_search
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: No configured general web search endpoint; Google Scholar scraping is not used
+- &id018
+  cycle: 4
+  query: Muller's method
+  source_family: crossref
+  url_or_api_endpoint: https://doi.org/10.1002/0471743984.vse9064
+  status: irrelevant
+  new_facts_added: 0
+  reason: Crossref metadata/title search
+- &id019
+  cycle: 4
+  query: Muller's method
+  source_family: openalex
+  url_or_api_endpoint: https://api.openalex.org/works?per-page=1&search=Muller%27s+method
+  status: fetched
+  new_facts_added: 6
+  reason: OpenAlex work metadata
+- &id020
+  cycle: 4
+  query: Muller's method
+  source_family: semantic_scholar
+  url_or_api_endpoint: https://api.semanticscholar.org/graph/v1/paper/search?limit=1&fields=title,abstract,year,url,externalIds&query=Muller%27s+method
+  status: fetch_failed
+  new_facts_added: 0
+  reason: Semantic Scholar returned no usable paper
+- &id021
+  cycle: 4
+  query: Muller's method
+  source_family: wikipedia
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: Wikipedia search returned no relevant page
+- &id022
+  cycle: 4
+  query: Muller's method
+  source_family: dblp
+  url_or_api_endpoint: https://dblp.org/search/publ/api?format=json&h=1&q=Muller%27s+method
+  status: no_result
+  new_facts_added: 0
+  reason: DBLP returned no usable publication
+source_attempts:
+- *id001
+- *id002
+- *id003
+- *id004
+- *id005
+- *id006
+- *id007
+- *id008
+- *id009
+- *id010
+- *id011
+- *id012
+- *id013
+- *id014
+- *id015
+- *id016
+- *id017
+- *id018
+- *id019
+- *id020
+- *id021
+- *id022
+discovered_sources:
+- source_id: crossref_search:df8eb956f6b6550b
+  url: https://doi.org/10.1002/0471743984.vse9064
+  title: "Sonn\u2010Muller Method"
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - "Crossref title: Sonn\u2010Muller Method"
+  - 'published year: 2007'
+  - 'container title: Van Nostrand''s Scientific Encyclopedia'
+  short_quote: "Crossref title: Sonn\u2010Muller Method published year: 2007 container title: Van Nostrand's Scientific Encyclopedia"
+  digest: 050b144628899010
+- source_id: openalex:793d00f6ebb0aa73
+  url: https://openalex.org/W2145413386
+  title: Improved Pre-prepared Power Demand Table and Muller's Method to Solve the Profit Based Unit Commitment Problem
+  source_type: openalex
+  access_status: fetched
+  reliability: HIGH
+  extracted_facts:
+  - 'OpenAlex title: Improved Pre-prepared Power Demand Table and Muller''s Method to Solve the Profit Based Unit Commitment Problem'
+  - 'publication year: 2009'
+  - 'abstract summary: This paper presents the Improved Pre-prepared Power Demand (IPPD) table and Muller''s method as a means of solving the Profit Based Unit Commitment (PBUC) problem.'
+  short_quote: 'OpenAlex title: Improved Pre-prepared Power Demand Table and Muller''s Method to Solve the Profit Based Unit Commitment Problem publication year: 2009 abstract summary: This'
+  digest: 24622e12801f637c
+- source_id: wikidata:1493644881cbbb5b
+  url: http://www.wikidata.org/entity/Q2090477
+  title: Muller's method
+  source_type: wikidata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - Muller's method
+  - root-finding algorithm
+  short_quote: Muller's method root-finding algorithm
+  digest: cfad1307c60c2485
+discovered_facts:
+- fact_id: AW-000537-Fd16b6a90a4
+  fact_type: alias
+  value: Muller's method
+  source_id: AW-000537:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: AlgorithmWiki metadata
+- fact_id: AW-000537-Fb4a23ecce0
+  fact_type: time_complexity
+  value: O(n_{max})
+  source_id: AW-000537:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: AlgorithmWiki metadata
+- fact_id: AW-000537-F20ddc0d725
+  fact_type: space_complexity
+  value: O(1)
+  source_id: AW-000537:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: AlgorithmWiki metadata
+- fact_id: AW-000537-F9f764cf080
+  fact_type: computation_model
+  value: Word/Real RAM
+  source_id: AW-000537:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: AlgorithmWiki metadata
+- fact_id: AW-000537-F397f84a236
+  fact_type: input_semantics
+  value: 'Parameter definitions: \epsilon: (additive) tolerance error, n_{max}: maximum number of iterations'
+  source_id: AW-000537:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 75
+  conflict_status: weak
+  notes: AlgorithmWiki parameter metadata
+- fact_id: AW-000537-F3439a37c96
+  fact_type: authoritative_source_link
+  value: https://www.jstor.org/stable/2001916
+  source_id: AW-000537:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 70
+  conflict_status: consistent
+  notes: Original source link from AlgorithmWiki metadata
+- fact_id: AW-000537-F624e1493c8
+  fact_type: source_title
+  value: AlgorithmWiki metadata for Muller's method
+  source_id: AW-000537:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000537-F8420ab0502
+  fact_type: problem_definition
+  value: 'Source title indicates: AlgorithmWiki metadata for Muller''s method'
+  source_id: AW-000537:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: weak
+  notes: previous_source_record
+- fact_id: AW-000537-Facdc211ede
+  fact_type: problem_definition
+  value: 'AlgorithmWiki row name: Muller''s method'
+  source_id: AW-000537:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000537-Fa34bee8eb1
+  fact_type: problem_definition
+  value: 'domain: unknown'
+  source_id: AW-000537:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000537-Fc2433c2852
+  fact_type: time_complexity
+  value: 'time complexity: O(n_{max})'
+  source_id: AW-000537:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000537-F5994c35805
+  fact_type: space_complexity
+  value: 'space complexity: O(1)'
+  source_id: AW-000537:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000537-F7521e57da6
+  fact_type: computation_model
+  value: 'computational model: Word/Real RAM'
+  source_id: AW-000537:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000537-F25330044b7
+  fact_type: problem_definition
+  value: 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  source_id: AW-000537:algorithm_wiki_metadata
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000537-Fbba0fee4c5
+  fact_type: source_title
+  value: "Sonn\u2010Muller Method"
+  source_id: crossref_search:c7302dae89771369
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000537-Fb498294f65
+  fact_type: problem_definition
+  value: "Crossref title-search result: Sonn\u2010Muller Method"
+  source_id: crossref_search:c7302dae89771369
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000537-F3d94888e73
+  fact_type: authoritative_source_link
+  value: https://doi.org/10.1002/0471743984.vse9064
+  source_id: crossref_search:c7302dae89771369
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: consistent
+  notes: previous_source_record
+- fact_id: AW-000537-Fc2ba4cb090
+  fact_type: source_title
+  value: Improved Pre-prepared Power Demand Table and Muller's Method to Solve the Profit Based Unit Commitment Problem
+  source_id: openalex:793d00f6ebb0aa73
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: openalex
+- fact_id: AW-000537-F040dca4b89
+  fact_type: problem_definition
+  value: 'Source title indicates: Improved Pre-prepared Power Demand Table and Muller''s Method to Solve the Profit Based Unit Commitment Problem'
+  source_id: openalex:793d00f6ebb0aa73
+  reliability: HIGH
+  confidence: 85
+  conflict_status: weak
+  notes: openalex
+- fact_id: AW-000537-F6b8368e398
+  fact_type: problem_definition
+  value: 'OpenAlex title: Improved Pre-prepared Power Demand Table and Muller''s Method to Solve the Profit Based Unit Commitment Problem'
+  source_id: openalex:793d00f6ebb0aa73
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: openalex
+- fact_id: AW-000537-Ff8a8400dab
+  fact_type: problem_definition
+  value: 'publication year: 2009'
+  source_id: openalex:793d00f6ebb0aa73
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: openalex
+- fact_id: AW-000537-Ff3c879b91b
+  fact_type: problem_definition
+  value: 'abstract summary: This paper presents the Improved Pre-prepared Power Demand (IPPD) table and Muller''s method as a means of solving the Profit Based Unit Commitment (PBUC) problem.'
+  source_id: openalex:793d00f6ebb0aa73
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: openalex
+- fact_id: AW-000537-F077978abfa
+  fact_type: authoritative_source_link
+  value: https://openalex.org/W2145413386
+  source_id: openalex:793d00f6ebb0aa73
+  reliability: HIGH
+  confidence: 85
+  conflict_status: consistent
+  notes: openalex
+- fact_id: AW-000537-Fcddd88079f
+  fact_type: source_title
+  value: Muller's method
+  source_id: wikidata:1493644881cbbb5b
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: consistent
+  notes: wikidata
+- fact_id: AW-000537-F36c7461d73
+  fact_type: problem_definition
+  value: root-finding algorithm
+  source_id: wikidata:1493644881cbbb5b
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: consistent
+  notes: wikidata
+- fact_id: AW-000537-Fa5c5363f89
+  fact_type: authoritative_source_link
+  value: http://www.wikidata.org/entity/Q2090477
+  source_id: wikidata:1493644881cbbb5b
+  reliability: MEDIUM
+  confidence: 70
+  conflict_status: consistent
+  notes: wikidata
+duplicate_sources:
+- source_id: AW-000537:algorithm_wiki_metadata
+  url: https://www.jstor.org/stable/2001916
+  title: AlgorithmWiki metadata for Muller's method
+  source_type: algorithm_wiki
+  access_status: metadata_only
+  reliability: HIGH
+  extracted_facts:
+  - 'AlgorithmWiki row name: Muller''s method'
+  - 'domain: unknown'
+  - 'time complexity: O(n_{max})'
+  - 'space complexity: O(1)'
+  - 'computational model: Word/Real RAM'
+  - 'parameter definitions: \epsilon: (additive) tolerance error, n_{max}: maximum number of iterations'
+  short_quote: ''
+  digest: 39b3c08638e0219f
+- source_id: failed:4315e6a9ecc576c5
+  url: https://www.jstor.org/stable/2001916
+  title: 'HTTP Error 403: Forbidden'
+  source_type: original_source
+  access_status: failed
+  reliability: LOW
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  short_quote: 'HTTP Error 403: Forbidden'
+  digest: d9d3e979a75535c9
+- source_id: failed:4315e6a9ecc576c5
+  url: https://www.jstor.org/stable/2001916
+  title: 'HTTP Error 403: Forbidden'
+  source_type: original_source
+  access_status: failed
+  reliability: LOW
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  short_quote: 'HTTP Error 403: Forbidden'
+  digest: d9d3e979a75535c9
+- source_id: crossref_search:df8eb956f6b6550b
+  url: https://doi.org/10.1002/0471743984.vse9064
+  title: "Sonn\u2010Muller Method"
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - "Crossref title: Sonn\u2010Muller Method"
+  - 'published year: 2007'
+  - 'container title: Van Nostrand''s Scientific Encyclopedia'
+  short_quote: "Crossref title: Sonn\u2010Muller Method published year: 2007 container title: Van Nostrand's Scientific Encyclopedia"
+  digest: 050b144628899010
+- source_id: openalex:793d00f6ebb0aa73
+  url: https://openalex.org/W2145413386
+  title: Improved Pre-prepared Power Demand Table and Muller's Method to Solve the Profit Based Unit Commitment Problem
+  source_type: openalex
+  access_status: fetched
+  reliability: HIGH
+  extracted_facts:
+  - 'OpenAlex title: Improved Pre-prepared Power Demand Table and Muller''s Method to Solve the Profit Based Unit Commitment Problem'
+  - 'publication year: 2009'
+  - 'abstract summary: This paper presents the Improved Pre-prepared Power Demand (IPPD) table and Muller''s method as a means of solving the Profit Based Unit Commitment (PBUC) problem.'
+  short_quote: 'OpenAlex title: Improved Pre-prepared Power Demand Table and Muller''s Method to Solve the Profit Based Unit Commitment Problem publication year: 2009 abstract summary: This'
+  digest: 24622e12801f637c
+failed_sources: []
+paywalled_or_skipped_sources: []
+source_families_covered:
+- algorithm_wiki_local
+- local_previous_cache
+- original_source
+- crossref
+- arxiv
+- wikipedia
+- openalex
+- semantic_scholar
+- dblp
+- publisher_abstract
+- wikidata
+- citeseerx
+- nist_dads
+- the_algorithms
+- cp_algorithms
+- course_notes
+- general_web_search
+cycles_completed: 4
+new_fact_count_by_cycle:
+- cycle: 1
+  new_facts: 0
+- cycle: 2
+  new_facts: 9
+- cycle: 3
+  new_facts: 0
+- cycle: 4
+  new_facts: 0
+no_new_fact_streak: 2
+saturation_status: SATURATED_NO_RECOVERY
+final_reason: After the configured source-family cycles, no source-backed concrete task, input semantics, output semantics, and conservative access model could be established.
+next_manual_action: No automated action recommended; keep saturated certificate with unresolved row.

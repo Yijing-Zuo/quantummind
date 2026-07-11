@@ -1,0 +1,35 @@
+algorithm_id: AW-000860
+canonical_name: Shamir's scheme
+enrichment_status: SECOND_PASS_INSUFFICIENT
+review_reasons:
+- No second-pass rule could identify source-backed task semantics.
+source_records:
+- access_status: metadata_only
+  digest: 7b0328bf0536d6a8
+  extracted_facts:
+  - 'AlgorithmWiki row name: Shamir''s scheme'
+  - 'domain: unknown'
+  - 'time complexity: O(t^2)'
+  - 'space complexity: O(1) per person, O(t^2) to figure out secret'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: size of the group the secret is being shared with, t: threshold number of players'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000860:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Shamir's scheme
+  url: ''
+- source_id: crossref_search:80784b479aa6b857
+  url: https://doi.org/10.1007/978-1-4419-5906-5_1408
+  title: "Feige\u2013Fiat\u2013Shamir Signature Scheme"
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - "Crossref title-search result: Feige\u2013Fiat\u2013Shamir Signature Scheme"
+  short_quote: ''
+  digest: 076ebac010a08f3f
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

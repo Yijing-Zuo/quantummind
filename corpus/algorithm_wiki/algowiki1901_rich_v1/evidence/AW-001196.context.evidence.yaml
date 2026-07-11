@@ -1,0 +1,58 @@
+id: AW-001196
+kind: context
+algorithm_id: AW-001196
+algorithm_name: Parallel Sorting by Median-Median (PSMM) - Min
+source_records:
+- access_status: metadata_only
+  digest: ddddc19e487e931f
+  extracted_facts:
+  - 'AlgorithmWiki row name: Parallel Sorting by Median-Median (PSMM) - Min'
+  - 'domain: sorting'
+  - 'time complexity: O(n/p \log{n/p} +p^2 \log{n/p})'
+  - 'computational model: EREW PRAM'
+  - 'parameter definitions: n: size of list, p: number of processors'
+  - 'precard summary: Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model. Baseline: time O(n/p \log{n/p} +p^2 \log{n/p}); work O(n \log{n/p} +p^3 \log{n/p}); span/depth O(n^{2/3} \log{n^{2/3}}); processors p. Bottleneck: comparison, distribution, and full-output movement costs dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001196:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Parallel Sorting by Median-Median (PSMM) - Min
+  url: https://www.dbpia.co.kr/Journal/articleDetail?nodeId=NODE09537281
+- access_status: skipped
+  digest: 2dbbf5b848c0ed51
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:bd9a440941cce40e
+  source_type: other_public_source
+  title: fetch budget exhausted
+  url: https://www.dbpia.co.kr/Journal/articleDetail?nodeId=NODE09537281
+web_query_attempts:
+- method: search_plan
+  query: Parallel Sorting by Median-Median (PSMM) - Min algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Parallel Sorting by Median-Median (PSMM) - Min algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Parallel Sorting by Median-Median (PSMM) - Min problem definition
+  status: recorded
+- method: search_plan
+  query: Parallel Sorting by Median-Median (PSMM) - Min sorting algorithm
+  status: recorded
+- method: search_plan
+  query: Parallel Sorting by Median-Median (PSMM) - Min site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Parallel Sorting by Median-Median (PSMM) - Min algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://www.dbpia.co.kr/Journal/articleDetail?nodeId=NODE09537281
+  status: recorded
+- method: source_link_html_metadata
+  query: https://www.dbpia.co.kr/Journal/articleDetail?nodeId=NODE09537281
+  status: skipped
+extracted_problem_statement: 'Parallel Sorting by Median-Median (PSMM) - Min is treated as a classical sorting task for rich AlgorithmWiki discovery. Problem/task: sort the input sequence using the named classical sorting method. Input semantics: A finite array or list of comparable keys or records. Output semantics: The same items returned in nondecreasing order, usually as a full reordered sequence.'
+extracted_algorithm_summary: 'Parallel Sorting by Median-Median (PSMM) - Min is a sorting algorithm record. Classical complexity metadata: time O(n/p \log{n/p} +p^2 \log{n/p}); work O(n \log{n/p} +p^3 \log{n/p}); span/depth O(n^{2/3} \log{n^{2/3}}); processors p. The stated classical model is EREW PRAM. Public metadata/source text adds: Parallel Sorting by Median-Median (PSMM) - Min sorting sorting n: size of list, p: number of processors O(n/p \log{n/p} +p^2 \log{n/p}) Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

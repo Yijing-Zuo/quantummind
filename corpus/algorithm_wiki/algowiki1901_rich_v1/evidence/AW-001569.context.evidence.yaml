@@ -1,0 +1,45 @@
+id: AW-001569
+kind: context
+algorithm_id: AW-001569
+algorithm_name: Callahan
+source_records:
+- access_status: metadata_only
+  digest: 51f5defa82983350
+  extracted_facts:
+  - 'AlgorithmWiki row name: Callahan'
+  - 'domain: parallel_algorithms'
+  - 'time complexity: O(\log n)'
+  - 'computational model: CREW PRAM'
+  - 'parameter definitions: n: number of points'
+  - 'precard summary: Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model. Baseline: time O(\log n); work O(n \log n); span/depth O(log n); processors O(n). Bottleneck: work, span, communication, and processor-count assumptions dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001569:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Callahan
+  url: https://www.researchgate.net/profile/Paul-Callahan-3/publication/221498722_Optimal_Parallel_All-Nearest-Neighbors_Using_the_Well-Separated_Pair_Decomposition_Preliminary_Version/links/5453daa60cf2bccc490b2619/Optimal-Parallel-All-Nearest-Neighbors-Using-the-Well-Separated-Pair-Decomposition-Preliminary-Version.pdf
+web_query_attempts:
+- method: search_plan
+  query: Callahan algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Callahan algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Callahan problem definition
+  status: recorded
+- method: search_plan
+  query: Callahan parallel algorithms algorithm
+  status: recorded
+- method: search_plan
+  query: Callahan site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Callahan algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://www.researchgate.net/profile/Paul-Callahan-3/publication/221498722_Optimal_Parallel_All-Nearest-Neighbors_Using_the_Well-Separated_Pair_Decomposition_Preliminary_Version/links/5453daa60cf2bccc490b2619/Optimal-Parallel-All-Nearest-Neighbors-Using-the-Well-Separated-Pair-Decomposition-Preliminary-Version.pdf
+  status: recorded
+extracted_problem_statement: 'Callahan is treated as a classical parallel algorithms task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Callahan. Input semantics: The classical input instance named by the row, together with processor/work/span parameters when stated. Output semantics: The same mathematical output as the underlying classical task, annotated by work/span when available.'
+extracted_algorithm_summary: 'Callahan is a parallel algorithms algorithm record. Classical complexity metadata: time O(\log n); work O(n \log n); span/depth O(log n); processors O(n). The stated classical model is CREW PRAM. Public metadata/source text adds: Callahan parallel_algorithms parallel_algorithms n: number of points O(\log n) Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

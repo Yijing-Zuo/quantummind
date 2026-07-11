@@ -1,0 +1,72 @@
+id: AW-000974
+kind: context
+algorithm_id: AW-000974
+algorithm_name: Kazuhisa Makino, Takeaki Uno Section 6
+source_records:
+- access_status: metadata_only
+  digest: 1bd1a68490f5398e
+  extracted_facts:
+  - 'AlgorithmWiki row name: Kazuhisa Makino, Takeaki Uno Section 6'
+  - 'domain: graph'
+  - 'time complexity: O(delta^4)'
+  - 'space complexity: O(n+m) auxiliary()'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of vertices, m: number of edges, delta: maximum degree of any vertex'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(delta^4); space O(n+m) auxiliary(). Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000974:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Kazuhisa Makino, Takeaki Uno Section 6
+  url: https://link.springer.com/chapter/10.1007/978-3-540-27810-8_23
+- access_status: skipped
+  digest: f8423d3df4418a56
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:2f8b7453220e6909
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1007/978-3-540-27810-8_23
+- access_status: skipped
+  digest: f210c9dec48621ec
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:71743b535fcfb6c7
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://link.springer.com/chapter/10.1007/978-3-540-27810-8_23
+web_query_attempts:
+- method: search_plan
+  query: Kazuhisa Makino, Takeaki Uno Section 6 algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Kazuhisa Makino, Takeaki Uno Section 6 algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Kazuhisa Makino, Takeaki Uno Section 6 problem definition
+  status: recorded
+- method: search_plan
+  query: Kazuhisa Makino, Takeaki Uno Section 6 graph algorithm
+  status: recorded
+- method: search_plan
+  query: Kazuhisa Makino, Takeaki Uno Section 6 site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Kazuhisa Makino, Takeaki Uno Section 6 algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://link.springer.com/chapter/10.1007/978-3-540-27810-8_23
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1007/978-3-540-27810-8_23
+  status: skipped
+- method: source_link_html_metadata
+  query: https://link.springer.com/chapter/10.1007/978-3-540-27810-8_23
+  status: skipped
+extracted_problem_statement: 'Kazuhisa Makino, Takeaki Uno Section 6 is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Kazuhisa Makino, Takeaki Uno Section 6. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'Kazuhisa Makino, Takeaki Uno Section 6 is a graph algorithm record. Classical complexity metadata: time O(delta^4); space O(n+m) auxiliary(). The stated classical model is Word RAM. Public metadata/source text adds: Kazuhisa Makino, Takeaki Uno Section 6 graph graph n: number of vertices, m: number of edges, delta: maximum degree of any vertex O(delta^4) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

@@ -1,0 +1,18 @@
+statement: 'HyperLogLog algorithm is included as a named whole-algorithm context card for a classical numerical analysis task. The task is to analyze the classical input-output problem, not to certify an end-to-end improvement claim. Input semantics: Numeric parameters, functions, samples, tolerances, or distributions for the stated numerical task. Output semantics: An exact or approximate numerical value, estimate, approximation, or fitted representation. Classical algorithm summary: HyperLogLog algorithm is a numerical analysis algorithm record. Classical complexity metadata: time O(N); space O(\epsilon^{-2}\log(\log n))+\log n). The stated classical model is Word RAM. Public metadata/source text adds: HyperLogLog algorithm numerical_analysis numerical_analysis N: number of values in multiset, n: cardinality of multiset (not known), \epsilon: approximation parameter O(N) Given explicit numeric parameters or a classical function-evaluation interface, compute the requested numerical value
+  or approximation to the stated tolerance. Classical complexity recorded for this row: time O(N); space O(\epsilon^{-2}\log(\log n))+\log n); computation model Word RAM. Dominant bottleneck: precision, convergence, sample complexity, and estimator variance. The useful review questions are whether the named structure exposes a smaller decision, witness, estimation, or algebraic subproblem; whether the full output size dominates any asymptotic gain; and whether the stated access model is realistic for the original input. Provenance is limited to AlgorithmWiki metadata and source-link facts; unresolved details are kept as ambiguities. Source-backed uncertainty or assumptions: The AlgorithmWiki row marks the classical method as approximate.; The AlgorithmWiki row marks the classical method as randomized.; No independent fetched public metadata source resolved this row beyond AlgorithmWiki metadata/source-link facts.'
+input_model: explicit_numerical_problem
+access_model: explicit_numeric_parameters
+output_contract: approximation_solution
+promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+- classical_randomized_algorithm
+- classical_approximation_algorithm
+size_parameters:
+- 'Parameter definition: N: number of values in multiset, n: cardinality of multiset (not known), \epsilon: approximation parameter'
+ambiguities:
+- The AlgorithmWiki row marks the classical method as approximate.
+- The AlgorithmWiki row marks the classical method as randomized.
+- No independent fetched public metadata source resolved this row beyond AlgorithmWiki metadata/source-link facts.
+- Some details are reconstructed from AlgorithmWiki metadata rather than an independently fetched full public description.
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.

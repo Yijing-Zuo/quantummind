@@ -1,0 +1,60 @@
+id: AW-000170-P0128
+kind: probe
+algorithm_id: AW-000170
+algorithm_name: Beigel & Eppstein
+source_records:
+- access_status: metadata_only
+  digest: 08237ccb96ea1a57
+  extracted_facts:
+  - 'AlgorithmWiki row name: Beigel & Eppstein'
+  - 'domain: graph'
+  - 'time complexity: O(1.3446^n)'
+  - 'space complexity: O(n^2)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of vertices, m: number of edges'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(1.3446^n); space O(n^2). Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000170:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Beigel & Eppstein
+  url: https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=492575
+- access_status: fetched
+  digest: 3ae1ea0cb1f6994e
+  extracted_facts:
+  - 'source page title: https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=492575'
+  - 'source page description: In order to continue, we need to verify that you''re not a robot.'
+  reliability: HIGH
+  short_quote: In order to continue, we need to verify that you're not a robot.
+  source_id: source:97456470ea22d27b
+  source_type: publisher_abstract
+  title: https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=492575
+  url: https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=492575
+web_query_attempts:
+- method: search_plan
+  query: Beigel & Eppstein algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Beigel & Eppstein algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Beigel & Eppstein problem definition
+  status: recorded
+- method: search_plan
+  query: Beigel & Eppstein graph algorithm
+  status: recorded
+- method: search_plan
+  query: Beigel & Eppstein site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Beigel & Eppstein algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=492575
+  status: recorded
+- method: source_link_html_metadata
+  query: https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=492575
+  status: fetched
+extracted_problem_statement: 'Beigel & Eppstein is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Beigel & Eppstein. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'Beigel & Eppstein is a graph algorithm record. Classical complexity metadata: time O(1.3446^n); space O(n^2). The stated classical model is Word RAM. Public metadata/source text adds: Beigel & Eppstein graph graph n: number of vertices, m: number of edges O(1.3446^n) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

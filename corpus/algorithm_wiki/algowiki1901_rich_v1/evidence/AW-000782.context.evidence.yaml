@@ -1,0 +1,71 @@
+id: AW-000782
+kind: context
+algorithm_id: AW-000782
+algorithm_name: Kingsford
+source_records:
+- access_status: metadata_only
+  digest: 1064b9f18197324c
+  extracted_facts:
+  - 'AlgorithmWiki row name: Kingsford'
+  - 'domain: unknown'
+  - 'time complexity: O(mn)'
+  - 'space complexity: O(m^2n^2)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of sequences, m: length of sequences'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000782:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Kingsford
+  url: https://link.springer.com/chapter/10.1007/11780441_22
+- access_status: fetched
+  digest: e8f9d69e5b6f79b2
+  extracted_facts:
+  - 'DOI title: A Compact Mathematical Programming Formulation for DNA Motif Finding'
+  - 'published year: 2006'
+  - 'container title: Lecture Notes in Computer Science'
+  reliability: HIGH
+  short_quote: ''
+  source_id: crossref:71517e1c8021418f
+  source_type: doi_metadata
+  title: A Compact Mathematical Programming Formulation for DNA Motif Finding
+  url: https://doi.org/10.1007/11780441_22
+- access_status: skipped
+  digest: edcc7550dbd6d202
+  extracted_facts:
+  - robots.txt disallowed fetch
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:bb506acaa0778257
+  source_type: publisher_abstract
+  title: robots.txt disallowed fetch
+  url: https://link.springer.com/chapter/10.1007/11780441_22
+web_query_attempts:
+- method: search_plan
+  query: Kingsford algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Kingsford algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Kingsford problem definition
+  status: recorded
+- method: search_plan
+  query: Kingsford site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Kingsford algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://link.springer.com/chapter/10.1007/11780441_22
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1007/11780441_22
+  status: fetched
+- method: source_link_html_metadata
+  query: https://link.springer.com/chapter/10.1007/11780441_22
+  status: skipped
+extracted_problem_statement: 'Kingsford is treated as a classical string task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Kingsford. Input semantics: One or more finite strings, sequences, patterns, or alphabets. Output semantics: The requested string matching, alignment, indexing, distance, or transformation result.'
+extracted_algorithm_summary: 'Kingsford is a string algorithm record. Classical complexity metadata: time O(mn); space O(m^2n^2). The stated classical model is Word RAM. Public metadata/source text adds: Kingsford unknown unknown n: number of sequences, m: length of sequences O(mn) No public-ready summary is available because the row lacks enough task semantics.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

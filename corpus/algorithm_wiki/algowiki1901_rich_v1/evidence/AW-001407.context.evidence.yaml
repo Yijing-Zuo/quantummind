@@ -1,0 +1,46 @@
+id: AW-001407
+kind: context
+algorithm_id: AW-001407
+algorithm_name: Miller Stout
+source_records:
+- access_status: metadata_only
+  digest: c41f8e461de26ba5
+  extracted_facts:
+  - 'AlgorithmWiki row name: Miller Stout'
+  - 'domain: computational_geometry'
+  - 'time complexity: O(\log n)'
+  - 'space complexity: O(n) total'
+  - 'computational model: EREW PRAM, possibly others (see paper)'
+  - 'parameter definitions: n: number of line segments, h: number of points on the convex hull'
+  - 'precard summary: Given explicit geometric objects such as points, segments, or polygons, compute the requested geometric structure or witness set. Baseline: time O(\log n); space O(n) total; work O(n \log n); span/depth O(\log n); processors O(n). Bottleneck: geometric predicates, ordering events, and output-sensitive structure size dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001407:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Miller Stout
+  url: https://cse.buffalo.edu/faculty/miller/Papers/IEEETC88a.pdf
+web_query_attempts:
+- method: search_plan
+  query: Miller Stout algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Miller Stout algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Miller Stout problem definition
+  status: recorded
+- method: search_plan
+  query: Miller Stout computational geometry algorithm
+  status: recorded
+- method: search_plan
+  query: Miller Stout site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Miller Stout algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://cse.buffalo.edu/faculty/miller/Papers/IEEETC88a.pdf
+  status: recorded
+extracted_problem_statement: 'Miller Stout is treated as a classical computational geometry task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Miller Stout. Input semantics: Explicit geometric objects such as points, line segments, polygons, or planar subdivisions. Output semantics: The requested geometric structure, simplified curve, clipping result, intersection set, hull, or diagram.'
+extracted_algorithm_summary: 'Miller Stout is a computational geometry algorithm record. Classical complexity metadata: time O(\log n); space O(n) total; work O(n \log n); span/depth O(\log n); processors O(n). The stated classical model is EREW PRAM, possibly others (see paper). Public metadata/source text adds: Miller Stout computational_geometry computational_geometry n: number of line segments, h: number of points on the convex hull O(\log n) Given explicit geometric objects such as points, segments, or polygons, compute the requested geometric structure or witness set.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

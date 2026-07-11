@@ -1,0 +1,57 @@
+algorithm_family: graph
+algorithm_id: AW-000199
+approximate: '0'
+approximation_factor: ''
+blind_name: Algorithm Wiki public task AW-000199
+canonical_name: Kruskal's algorithm
+computational_model: Word RAM
+domain: graph
+extracted_description: ''
+extraction_version: algorithm-wiki-rich-context-v1
+family: graph
+inferred_access_model: edge_list_input
+inferred_ambiguities:
+- No independent fetched public metadata source resolved this row beyond AlgorithmWiki metadata/source-link facts.
+- Some details are reconstructed from AlgorithmWiki metadata rather than an independently fetched full public description.
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.
+inferred_input_model: explicit_graph_problem
+inferred_output_contract: path_or_tree
+inferred_problem_statement: 'Kruskal''s algorithm is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Kruskal''s algorithm. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: A minimum spanning tree or forest for the weighted graph.'
+inferred_promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+inferred_size_parameters:
+- 'Parameter definition: V: number of vertices, E: number of edges, U: maximum edge weight'
+number_of_processors: ''
+page_digest: ''
+page_fetch_status: not_found
+page_url: ''
+parameter_definitions: 'V: number of vertices, E: number of edges, U: maximum edge weight'
+problem_name: graph
+quality_flags:
+- domain_inferred
+- problem_statement_inferred
+- io_access_output_inferred
+- has_complexity_semantics
+- has_size_parameters
+- has_computational_model
+quality_score: 100
+randomized: '0'
+readiness: READY_PUBLIC_CONTEXT
+review_reasons: []
+source_link: https://www.jstor.org/stable/2033241
+source_link_type: unknown
+space_complexity: O(E)
+span_depth: ''
+time_complexity: O(E \log E)
+variation: ''
+work: ''
+year: '1956'
+rich_card_kind: context
+source_records_used:
+- AW-000199:algorithm_wiki_metadata
+- failed:87cfdcf0cdafc27f
+source_count: 2
+source_quality: HIGH
+confidence_score: 100
+card_digest: c86c245d39f2c6f6

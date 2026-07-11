@@ -1,0 +1,69 @@
+id: AW-001105
+kind: context
+algorithm_id: AW-001105
+algorithm_name: shearsort - Scherson, Sen
+source_records:
+- access_status: metadata_only
+  digest: 74b8ff024b8ade13
+  extracted_facts:
+  - 'AlgorithmWiki row name: shearsort - Scherson, Sen'
+  - 'domain: sorting'
+  - 'computational model: SIMD, MIMD'
+  - 'precard summary: Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model. Baseline: work n \log{n} +O(n \log{\log{n}}). Bottleneck: comparison, distribution, and full-output movement costs dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001105:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for shearsort - Scherson, Sen
+  url: https://ieeexplore.ieee.org/abstract/document/16500
+- access_status: skipped
+  digest: c5f85faa813dbced
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:c75a9a52d4fd7ee4
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://ieeexplore.ieee.org/abstract/document/16500
+- access_status: skipped
+  digest: e211db89acc93a1f
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:0bdd5c125cb52e09
+  source_type: wikipedia
+  title: fetch budget exhausted
+  url: https://en.wikipedia.org/wiki/shearsort_-_Scherson%2C_Sen
+web_query_attempts:
+- method: search_plan
+  query: shearsort - Scherson, Sen algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: shearsort - Scherson, Sen algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: shearsort - Scherson, Sen problem definition
+  status: recorded
+- method: search_plan
+  query: shearsort - Scherson, Sen sorting algorithm
+  status: recorded
+- method: search_plan
+  query: shearsort - Scherson, Sen site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: shearsort - Scherson, Sen algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://ieeexplore.ieee.org/abstract/document/16500
+  status: recorded
+- method: source_link_html_metadata
+  query: https://ieeexplore.ieee.org/abstract/document/16500
+  status: skipped
+- method: wikipedia_summary_search
+  query: shearsort - Scherson, Sen algorithm
+  status: skipped
+extracted_problem_statement: 'shearsort - Scherson, Sen is treated as a classical sorting task for rich AlgorithmWiki discovery. Problem/task: sort the input sequence using the named classical sorting method. Input semantics: A finite array or list of comparable keys or records. Output semantics: The same items returned in nondecreasing order, usually as a full reordered sequence.'
+extracted_algorithm_summary: 'shearsort - Scherson, Sen is a sorting algorithm record. Classical complexity metadata: work n \log{n} +O(n \log{\log{n}}). The stated classical model is SIMD, MIMD. Public metadata/source text adds: shearsort - Scherson, Sen sorting sorting Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

@@ -1,0 +1,58 @@
+id: AW-001594
+kind: context
+algorithm_id: AW-001594
+algorithm_name: Han, Pan & Reif (3)
+source_records:
+- access_status: metadata_only
+  digest: cecf7ee317f960ec
+  extracted_facts:
+  - 'AlgorithmWiki row name: Han, Pan & Reif (3)'
+  - 'domain: graph'
+  - 'time complexity: O(\log n)'
+  - 'computational model: PRAM-CRCW'
+  - 'parameter definitions: n: number of vertices, p: number of processors'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(\log n); work O(n^3); span/depth O(log n); processors n^3. Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001594:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Han, Pan & Reif (3)
+  url: https://dl.acm.org/doi/pdf/10.1145/140901.141913
+- access_status: skipped
+  digest: 876fd601cc208508
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:145dc4481c16f251
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1145/140901.141913
+web_query_attempts:
+- method: search_plan
+  query: Han, Pan & Reif (3) algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Han, Pan & Reif (3) algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Han, Pan & Reif (3) problem definition
+  status: recorded
+- method: search_plan
+  query: Han, Pan & Reif (3) graph algorithm
+  status: recorded
+- method: search_plan
+  query: Han, Pan & Reif (3) site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Han, Pan & Reif (3) algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://dl.acm.org/doi/pdf/10.1145/140901.141913
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1145/140901.141913
+  status: skipped
+extracted_problem_statement: 'Han, Pan & Reif (3) is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Han, Pan & Reif (3). Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'Han, Pan & Reif (3) is a graph algorithm record. Classical complexity metadata: time O(\log n); work O(n^3); span/depth O(log n); processors n^3. The stated classical model is PRAM-CRCW. Public metadata/source text adds: Han, Pan & Reif (3) graph graph n: number of vertices, p: number of processors O(\log n) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

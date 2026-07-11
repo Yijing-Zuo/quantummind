@@ -1,0 +1,72 @@
+id: AW-000951
+kind: context
+algorithm_id: AW-000951
+algorithm_name: Divide and Conquer
+source_records:
+- access_status: metadata_only
+  digest: 2ca92ad97f60806d
+  extracted_facts:
+  - 'AlgorithmWiki row name: Divide and Conquer'
+  - 'domain: matrix_linear_algebra'
+  - 'time complexity: O(m*log(n))'
+  - 'space complexity: O(log(n)) auxiliary'
+  - 'computational model: Word RAM'
+  - "parameter definitions: n, m: dimensions of matrix assume m\u2265n, possibly uses a function f to define entries assume evaluation of f takes time O(1)"
+  - 'precard summary: Given one or more explicit dense matrices over the stated arithmetic domain, compute the matrix or linear-algebraic output specified by the record. Baseline: time O(m*log(n)); space O(log(n)) auxiliary. Bottleneck: dense arithmetic and full matrix output dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000951:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Divide and Conquer
+  url: https://link.springer.com/article/10.1007/BF01840359
+- access_status: skipped
+  digest: 52112d9b314963c6
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:0bc88f9ccba87cbf
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1007/BF01840359
+- access_status: skipped
+  digest: 52e52b0636b892d3
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:e214c0c5b16165fe
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://link.springer.com/article/10.1007/BF01840359
+web_query_attempts:
+- method: search_plan
+  query: Divide and Conquer algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Divide and Conquer algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Divide and Conquer problem definition
+  status: recorded
+- method: search_plan
+  query: Divide and Conquer matrix linear algebra algorithm
+  status: recorded
+- method: search_plan
+  query: Divide and Conquer site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Divide and Conquer algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://link.springer.com/article/10.1007/BF01840359
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1007/BF01840359
+  status: skipped
+- method: source_link_html_metadata
+  query: https://link.springer.com/article/10.1007/BF01840359
+  status: skipped
+extracted_problem_statement: 'Divide and Conquer is treated as a classical matrix linear algebra task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Divide and Conquer. Input semantics: One or more explicit matrices or linear systems over the stated arithmetic domain. Output semantics: The requested matrix, decomposition, solution vector, or other linear-algebraic output.'
+extracted_algorithm_summary: "Divide and Conquer is a matrix linear algebra algorithm record. Classical complexity metadata: time O(m*log(n)); space O(log(n)) auxiliary. The stated classical model is Word RAM. Public metadata/source text adds: Divide and Conquer matrix_linear_algebra matrix_linear_algebra n, m: dimensions of matrix assume m\u2265n, possibly uses a function f to define entries assume evaluation of f takes time O(1) O(m*log(n)) Given one or more explicit dense matrices over the stated arithmetic domain, compute the matrix or linear-algebraic output specified by the record."
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

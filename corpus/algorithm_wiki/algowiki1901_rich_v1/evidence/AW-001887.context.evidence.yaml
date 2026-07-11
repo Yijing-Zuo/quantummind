@@ -1,0 +1,58 @@
+id: AW-001887
+kind: context
+algorithm_id: AW-001887
+algorithm_name: Gibbons et al.
+source_records:
+- access_status: metadata_only
+  digest: 9bb82a1d0427f390
+  extracted_facts:
+  - 'AlgorithmWiki row name: Gibbons et al.'
+  - 'domain: graph'
+  - 'time complexity: O(\log^4 n)'
+  - 'computational model: CREW PRAM'
+  - 'parameter definitions: n: number of vertices, m: number of edges'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(\log^4 n); work O(n^3 \log^4 n); span/depth O(log^4 n); processors O(n^3). Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001887:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Gibbons et al.
+  url: https://www.osti.gov/biblio/6980369
+- access_status: skipped
+  digest: 30131e53d1a52668
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:1d1dea416219bad3
+  source_type: other_public_source
+  title: fetch budget exhausted
+  url: https://www.osti.gov/biblio/6980369
+web_query_attempts:
+- method: search_plan
+  query: Gibbons et al. algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Gibbons et al. algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Gibbons et al. problem definition
+  status: recorded
+- method: search_plan
+  query: Gibbons et al. graph algorithm
+  status: recorded
+- method: search_plan
+  query: Gibbons et al. site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Gibbons et al. algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://www.osti.gov/biblio/6980369
+  status: recorded
+- method: source_link_html_metadata
+  query: https://www.osti.gov/biblio/6980369
+  status: skipped
+extracted_problem_statement: 'Gibbons et al. is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Gibbons et al.. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'Gibbons et al. is a graph algorithm record. Classical complexity metadata: time O(\log^4 n); work O(n^3 \log^4 n); span/depth O(log^4 n); processors O(n^3). The stated classical model is CREW PRAM. Public metadata/source text adds: Gibbons et al. graph graph n: number of vertices, m: number of edges O(\log^4 n) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

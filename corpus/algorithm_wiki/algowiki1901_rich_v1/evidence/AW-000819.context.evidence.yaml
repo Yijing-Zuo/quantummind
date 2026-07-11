@@ -1,0 +1,72 @@
+id: AW-000819
+kind: context
+algorithm_id: AW-000819
+algorithm_name: V-ALIGN
+source_records:
+- access_status: metadata_only
+  digest: aebe1f303f1d8ab0
+  extracted_facts:
+  - 'AlgorithmWiki row name: V-ALIGN'
+  - 'domain: graph'
+  - 'time complexity: O(mVE)'
+  - 'space complexity: O(mV)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: m: length of input sequence, V: number of vertices, E: number of edges'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(mVE); space O(mV). Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000819:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for V-ALIGN
+  url: https://www.biorxiv.org/content/10.1101/124941v1.full
+- access_status: failed
+  digest: c387231b220dbd45
+  extracted_facts:
+  - 'HTTP Error 404: Not Found'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:03d4fb661ccb5252
+  source_type: doi_metadata
+  title: 'HTTP Error 404: Not Found'
+  url: https://doi.org/10.1101/124941v1.full
+- access_status: failed
+  digest: e5b4c660c0bf405c
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:76e3afad780f80af
+  source_type: other_public_source
+  title: 'HTTP Error 403: Forbidden'
+  url: https://www.biorxiv.org/content/10.1101/124941v1.full
+web_query_attempts:
+- method: search_plan
+  query: V-ALIGN algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: V-ALIGN algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: V-ALIGN problem definition
+  status: recorded
+- method: search_plan
+  query: V-ALIGN graph algorithm
+  status: recorded
+- method: search_plan
+  query: V-ALIGN site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: V-ALIGN algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://www.biorxiv.org/content/10.1101/124941v1.full
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1101/124941v1.full
+  status: failed
+- method: source_link_html_metadata
+  query: https://www.biorxiv.org/content/10.1101/124941v1.full
+  status: failed
+extracted_problem_statement: 'V-ALIGN is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with V-ALIGN. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'V-ALIGN is a graph algorithm record. Classical complexity metadata: time O(mVE); space O(mV). The stated classical model is Word RAM. Public metadata/source text adds: V-ALIGN graph graph m: length of input sequence, V: number of vertices, E: number of edges O(mVE) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

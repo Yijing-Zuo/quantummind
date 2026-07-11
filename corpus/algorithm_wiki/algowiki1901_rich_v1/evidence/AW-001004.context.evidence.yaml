@@ -1,0 +1,56 @@
+id: AW-001004
+kind: context
+algorithm_id: AW-001004
+algorithm_name: AVL Tree
+source_records:
+- access_status: metadata_only
+  digest: 2b57691fb35cef59
+  extracted_facts:
+  - 'AlgorithmWiki row name: AVL Tree'
+  - 'domain: data_structures'
+  - 'time complexity: O(logn)'
+  - 'space complexity: O(1)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of nodes'
+  - 'precard summary: Given an explicit collection of keys, items, or offline operations, construct or return the data-structure output targeted by the record. Baseline: time O(logn); space O(1). Bottleneck: updates, queries, balancing, and stored representation size dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001004:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for AVL Tree
+  url: ''
+- access_status: skipped
+  digest: 583019463fd643c9
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:64682fd6fe970835
+  source_type: wikipedia
+  title: fetch budget exhausted
+  url: https://en.wikipedia.org/wiki/AVL_Tree
+web_query_attempts:
+- method: search_plan
+  query: AVL Tree algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: AVL Tree algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: AVL Tree problem definition
+  status: recorded
+- method: search_plan
+  query: AVL Tree data structures algorithm
+  status: recorded
+- method: search_plan
+  query: AVL Tree site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: AVL Tree algorithm wiki
+  status: recorded
+- method: wikipedia_summary_search
+  query: AVL Tree algorithm
+  status: skipped
+extracted_problem_statement: 'AVL Tree is treated as a classical data structures task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with AVL Tree. Input semantics: A set of records plus update/query operations for the named data structure. Output semantics: A maintained data structure representation and answers to its supported queries.'
+extracted_algorithm_summary: 'AVL Tree is a data structures algorithm record. Classical complexity metadata: time O(logn); space O(1). The stated classical model is Word RAM. Public metadata/source text adds: AVL Tree data_structures data_structures n: number of nodes O(logn) Given an explicit collection of keys, items, or offline operations, construct or return the data-structure output targeted by the record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

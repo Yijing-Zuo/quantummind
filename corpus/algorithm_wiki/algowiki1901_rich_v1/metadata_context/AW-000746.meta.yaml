@@ -1,0 +1,57 @@
+algorithm_family: unknown
+algorithm_id: AW-000746
+approximate: '0'
+approximation_factor: ''
+blind_name: Algorithm Wiki public task AW-000746
+canonical_name: SANDER P. V. SNYDER J. GORTER S. J. HOPPE 2001
+computational_model: ''
+domain: unknown
+extracted_description: ''
+extraction_version: algorithm-wiki-rich-context-v1
+family: unknown
+inferred_access_model: adjacency_list_query
+inferred_ambiguities:
+- Some details are reconstructed from AlgorithmWiki metadata rather than an independently fetched full public description.
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.
+inferred_input_model: explicit_graph_problem
+inferred_output_contract: path_or_tree
+inferred_problem_statement: 'SANDER P. V. SNYDER J. GORTER S. J. HOPPE 2001 is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with SANDER P. V. SNYDER J. GORTER S. J. HOPPE 2001. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+inferred_promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+inferred_size_parameters:
+- 'n: primary input size parameter from the AlgorithmWiki complexity expression.'
+number_of_processors: ''
+page_digest: ''
+page_fetch_status: not_found
+page_url: ''
+parameter_definitions: ''
+problem_name: unknown
+quality_flags:
+- has_complexity_semantics
+quality_score: 55
+randomized: '0'
+readiness: READY_PUBLIC_CONTEXT
+review_reasons:
+- missing_problem_statement
+- unknown_input_model
+- unknown_access_model
+- unknown_output_contract
+- missing_size_parameters
+- insufficient_algorithm_level_structure
+source_link: https://dl.acm.org/doi/pdf/10.1145/383259.383307
+source_link_type: acm
+space_complexity: ''
+span_depth: ''
+time_complexity: O(n^2)
+variation: ''
+work: ''
+year: '2001'
+rich_card_kind: context
+source_records_used:
+- AW-000746:algorithm_wiki_metadata
+- crossref:3099f537087e12b3
+source_count: 2
+source_quality: HIGH
+confidence_score: 55
+card_digest: 1f25517995137237

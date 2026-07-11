@@ -1,0 +1,60 @@
+id: AW-000918-P0598
+kind: probe
+algorithm_id: AW-000918
+algorithm_name: Seidel's Shelling Algorithm
+source_records:
+- access_status: metadata_only
+  digest: 2dda6d7749ae22fa
+  extracted_facts:
+  - 'AlgorithmWiki row name: Seidel''s Shelling Algorithm'
+  - 'domain: computational_geometry'
+  - 'time complexity: O(n^2+f_1*log(n))'
+  - 'computational model: Real RAM'
+  - 'parameter definitions: n: number of line segments, h: number of points on the convex hull, f_1: number of facets on the convex hull (potentially \theta(n^{d/2}), f_2: number of subfacets on the convex hull'
+  - 'precard summary: Given explicit geometric objects such as points, segments, or polygons, compute the requested geometric structure or witness set. Baseline: time O(n^2+f_1*log(n)). Bottleneck: geometric predicates, ordering events, and output-sensitive structure size dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000918:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Seidel's Shelling Algorithm
+  url: https://dl.acm.org/doi/pdf/10.1145/12130.12172
+- access_status: fetched
+  digest: 04155e1653b8489e
+  extracted_facts:
+  - 'DOI title: Constructing higher-dimensional convex hulls at logarithmic cost per face'
+  - 'published year: 1986'
+  - 'container title: Proceedings of the eighteenth annual ACM symposium on Theory of computing - STOC ''86'
+  reliability: HIGH
+  short_quote: ''
+  source_id: crossref:d82ddc8b3fba3019
+  source_type: doi_metadata
+  title: Constructing higher-dimensional convex hulls at logarithmic cost per face
+  url: https://doi.org/10.1145/12130.12172
+web_query_attempts:
+- method: search_plan
+  query: Seidel's Shelling Algorithm algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Seidel's Shelling Algorithm algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Seidel's Shelling Algorithm problem definition
+  status: recorded
+- method: search_plan
+  query: Seidel's Shelling Algorithm computational geometry algorithm
+  status: recorded
+- method: search_plan
+  query: Seidel's Shelling Algorithm site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Seidel's Shelling Algorithm algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://dl.acm.org/doi/pdf/10.1145/12130.12172
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1145/12130.12172
+  status: fetched
+extracted_problem_statement: 'Seidel''s Shelling Algorithm is treated as a classical computational geometry task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Seidel''s Shelling Algorithm. Input semantics: Explicit geometric objects such as points, line segments, polygons, or planar subdivisions. Output semantics: The requested geometric structure, simplified curve, clipping result, intersection set, hull, or diagram.'
+extracted_algorithm_summary: 'Seidel''s Shelling Algorithm is a computational geometry algorithm record. Classical complexity metadata: time O(n^2+f_1*log(n)). The stated classical model is Real RAM. Public metadata/source text adds: Seidel''s Shelling Algorithm computational_geometry computational_geometry n: number of line segments, h: number of points on the convex hull, f_1: number of facets on the convex hull (potentially \theta(n^{d/2}), f_2: number of subfacets on the convex hull O(n^2+f_1*log(n)) Given explicit geometric objects such as points, segments, or polygons, compute the requested geometric structure or witness set.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

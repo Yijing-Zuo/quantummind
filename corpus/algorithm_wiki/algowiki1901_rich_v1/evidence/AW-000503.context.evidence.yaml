@@ -1,0 +1,75 @@
+id: AW-000503
+kind: context
+algorithm_id: AW-000503
+algorithm_name: "Sutherland\u2013Hodgman algorithm"
+source_records:
+- access_status: metadata_only
+  digest: 80d0d39e88712c93
+  extracted_facts:
+  - "AlgorithmWiki row name: Sutherland\u2013Hodgman algorithm"
+  - 'domain: computational_geometry'
+  - 'time complexity: O(n^2)'
+  - 'space complexity: O(n)'
+  - 'computational model: Word/Real RAM'
+  - 'parameter definitions: n: maximum number of sides of either input polygon or clipping polygon'
+  - 'precard summary: Given explicit geometric objects such as points, segments, or polygons, compute the requested geometric structure or witness set. Baseline: time O(n^2); space O(n). Bottleneck: geometric predicates, ordering events, and output-sensitive structure size dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000503:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: "AlgorithmWiki metadata for Sutherland\u2013Hodgman algorithm"
+  url: https://dl.acm.org/doi/10.1145/360767.360802
+- access_status: fetched
+  digest: 8545816d6a51add8
+  extracted_facts:
+  - 'DOI title: Reentrant polygon clipping'
+  - 'published year: 1974'
+  - 'container title: Communications of the ACM'
+  - 'abstract summary: A new family of clipping algorithms is described.'
+  reliability: HIGH
+  short_quote: A new family of clipping algorithms is described.
+  source_id: crossref:60771186d1129269
+  source_type: doi_metadata
+  title: Reentrant polygon clipping
+  url: https://doi.org/10.1145/360767.360802
+- access_status: failed
+  digest: 30239c77c235fb93
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:5f4b39189530e65e
+  source_type: publisher_abstract
+  title: 'HTTP Error 403: Forbidden'
+  url: https://dl.acm.org/doi/10.1145/360767.360802
+web_query_attempts:
+- method: search_plan
+  query: "Sutherland\u2013Hodgman algorithm algorithm input output complexity"
+  status: recorded
+- method: search_plan
+  query: "Sutherland\u2013Hodgman algorithm algorithm pseudocode"
+  status: recorded
+- method: search_plan
+  query: "Sutherland\u2013Hodgman algorithm problem definition"
+  status: recorded
+- method: search_plan
+  query: "Sutherland\u2013Hodgman algorithm computational geometry algorithm"
+  status: recorded
+- method: search_plan
+  query: "Sutherland\u2013Hodgman algorithm site:nist.gov DADS"
+  status: recorded
+- method: search_plan
+  query: "Sutherland\u2013Hodgman algorithm algorithm wiki"
+  status: recorded
+- method: search_plan
+  query: https://dl.acm.org/doi/10.1145/360767.360802
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1145/360767.360802
+  status: fetched
+- method: source_link_html_metadata
+  query: https://dl.acm.org/doi/10.1145/360767.360802
+  status: failed
+extracted_problem_statement: "Sutherland\u2013Hodgman algorithm is treated as a classical computational geometry task for rich AlgorithmWiki discovery. Problem/task: clip geometric primitives against a polygonal or rectangular clipping region. Input semantics: Explicit geometric objects such as points, line segments, polygons, or planar subdivisions. Output semantics: The requested geometric structure, simplified curve, clipping result, intersection set, hull, or diagram."
+extracted_algorithm_summary: "Sutherland\u2013Hodgman algorithm is a computational geometry algorithm record. Classical complexity metadata: time O(n^2); space O(n). The stated classical model is Word/Real RAM. Public metadata/source text adds: Sutherland\u2013Hodgman algorithm computational_geometry computational_geometry n: maximum number of sides of either input polygon or clipping polygon O(n^2) Given explicit geometric objects such as points, segments, or polygons, compute the requested geometric structure or witness set."
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

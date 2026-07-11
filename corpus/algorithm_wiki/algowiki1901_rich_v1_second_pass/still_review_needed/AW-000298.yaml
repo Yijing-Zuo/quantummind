@@ -1,0 +1,32 @@
+algorithm_id: AW-000298
+canonical_name: Geert Willems Tinne Tuytelaars and Luc van Gool (2008)
+enrichment_status: SECOND_PASS_INSUFFICIENT
+review_reasons:
+- No second-pass rule could identify source-backed task semantics.
+source_records:
+- access_status: metadata_only
+  digest: 26e14c9091ea92b4
+  extracted_facts:
+  - 'AlgorithmWiki row name: Geert Willems Tinne Tuytelaars and Luc van Gool (2008)'
+  - 'domain: unknown'
+  - 'time complexity: O(n^2)'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000298:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Geert Willems Tinne Tuytelaars and Luc van Gool (2008)
+  url: https://citeseerx.ist.psu.edu/pdf/117d576d72515e900e6fc5a4a0e7f1d0142a8924
+- source_id: crossref_search:006d29e0960324f5
+  url: https://doi.org/10.1093/benz/9780199773787.article.b00076856
+  title: Gool, Daniel van
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: Gool, Daniel van'
+  short_quote: ''
+  digest: cfcbcae78e30ef04
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

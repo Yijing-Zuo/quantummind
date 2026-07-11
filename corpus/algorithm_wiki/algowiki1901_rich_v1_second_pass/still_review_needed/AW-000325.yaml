@@ -1,0 +1,32 @@
+algorithm_id: AW-000325
+canonical_name: Cabral B. Max N. and Springmeyer R 1990
+enrichment_status: SECOND_PASS_INSUFFICIENT
+review_reasons:
+- No second-pass rule could identify source-backed task semantics.
+source_records:
+- access_status: metadata_only
+  digest: 931fe93fad2967c0
+  extracted_facts:
+  - 'AlgorithmWiki row name: Cabral B. Max N. and Springmeyer R 1990'
+  - 'domain: unknown'
+  - 'time complexity: O(k n^2)'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000325:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Cabral B. Max N. and Springmeyer R 1990
+  url: ''
+- source_id: crossref_search:75532634de75e6d1
+  url: https://doi.org/10.1016/s0190-9622(08)80992-9
+  title: "Max Wolf (1892\u20131990)"
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - "Crossref title-search result: Max Wolf (1892\u20131990)"
+  short_quote: ''
+  digest: d1f23ee8ff355496
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

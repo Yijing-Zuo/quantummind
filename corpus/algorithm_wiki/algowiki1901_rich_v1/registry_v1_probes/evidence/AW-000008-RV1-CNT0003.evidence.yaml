@@ -1,0 +1,23 @@
+probe_id: AW-000008-RV1-CNT0003
+kind: registry_v1_probe
+parent_algorithm_id: AW-000008
+parent_algorithm_name: Pferschy
+source_card_paths:
+- corpus\algorithm_wiki\algowiki1901_rich_v1\public_context\AW-000008.yaml
+- corpus\algorithm_wiki\algowiki1901_rich_v1\public_probe\AW-000008-P0006.yaml
+source_metadata_paths:
+- corpus\algorithm_wiki\algowiki1901_rich_v1\metadata_probe\AW-000008-P0006.meta.yaml
+source_records_used:
+- AW-000008:algorithm_wiki_metadata
+- crossref:bb56616e432499b9
+- skipped:3c28ce093f7c64e6
+short_paraphrased_support: 'Pferschy Pferschy is treated as a classical dynamic programming task for rich AlgorithmWiki discovery. Problem/task: solve a subset-sum or target-sum dynamic-programming/search problem. Input semantics: A finite set or multiset of integers with a target sum parameter. Output semantics: A decision result, feasible subset witness, count, or optimized subset value for the target-sum instance, depending on the row. Pferschy is a dynamic programming algorithm record. Classical complexity metadata: time O(n'' t); space O(t). Public metadata/source text adds: Pferschy unknown unknown n'': number of distinct elements in the set, t: target sum O(n'' t) No public-ready summary is available because the row lacks enough task semantics. A finite set or multiset of integers with a target sum parameter. A decision result, feasible subset witness, count, or optimized subset value for the target-sum instanc'
+introduced_assumptions:
+- finite_search_space
+- coherent_boolean_oracle
+- count_precision_specified
+limitations:
+- The probe is a public query/subroutine hypothesis only.
+- It does not assert a full original-algorithm speedup.
+- Oracle, promise, and data-representation costs require expert review.
+confirmation: Public provenance sidecar only; no evaluator label or private benchmark answer is encoded.

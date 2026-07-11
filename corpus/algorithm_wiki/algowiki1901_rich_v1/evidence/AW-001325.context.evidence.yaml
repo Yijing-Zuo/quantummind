@@ -1,0 +1,58 @@
+id: AW-001325
+kind: context
+algorithm_id: AW-001325
+algorithm_name: Lu & Lin (2)
+source_records:
+- access_status: metadata_only
+  digest: 61918da6ec299b6b
+  extracted_facts:
+  - 'AlgorithmWiki row name: Lu & Lin (2)'
+  - 'domain: string'
+  - 'time complexity: O(\log^2 m \log \log m) if log^2 m log log m > log n else O(\log n)'
+  - 'computational model: CREW PRAM'
+  - 'parameter definitions: m: length of shorter string, n: length of longer string'
+  - 'precard summary: Given one or more explicit strings, compute the matching, indexing, alignment, or transformation output targeted by the record. Baseline: time O(\log^2 m \log \log m) if log^2 m log log m > log n else O(\log n); work O(mn); span/depth O(log^2 m log log m + log n); processors O(mn/(log^2 m , log log m)) if, log^2 m log log m, < log n else, O(mn/log n). Bottleneck: string scanning, preprocessing tables, and reporting matches dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001325:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Lu & Lin (2)
+  url: https://ieeexplore.ieee.org/document/298210
+- access_status: skipped
+  digest: 74d2fc2f47f491e8
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:fc2f8c59d323494a
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://ieeexplore.ieee.org/document/298210
+web_query_attempts:
+- method: search_plan
+  query: Lu & Lin (2) algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Lu & Lin (2) algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Lu & Lin (2) problem definition
+  status: recorded
+- method: search_plan
+  query: Lu & Lin (2) string algorithm
+  status: recorded
+- method: search_plan
+  query: Lu & Lin (2) site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Lu & Lin (2) algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://ieeexplore.ieee.org/document/298210
+  status: recorded
+- method: source_link_html_metadata
+  query: https://ieeexplore.ieee.org/document/298210
+  status: skipped
+extracted_problem_statement: 'Lu & Lin (2) is treated as a classical string task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Lu & Lin (2). Input semantics: One or more finite strings, sequences, patterns, or alphabets. Output semantics: Pattern occurrence positions, matches, or the associated string-search report.'
+extracted_algorithm_summary: 'Lu & Lin (2) is a string algorithm record. Classical complexity metadata: time O(\log^2 m \log \log m) if log^2 m log log m > log n else O(\log n); work O(mn); span/depth O(log^2 m log log m + log n); processors O(mn/(log^2 m , log log m)) if, log^2 m log log m, < log n else, O(mn/log n). The stated classical model is CREW PRAM. Public metadata/source text adds: Lu & Lin (2) string string m: length of shorter string, n: length of longer string O(\log^2 m \log \log m) if log^2 m log log m > log n else O(\log n) Given one or more explicit strings, compute the matching, indexing, alignment, or transformation output targeted by the record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

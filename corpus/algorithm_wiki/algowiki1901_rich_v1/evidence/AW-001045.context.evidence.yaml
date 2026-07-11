@@ -1,0 +1,71 @@
+id: AW-001045
+kind: context
+algorithm_id: AW-001045
+algorithm_name: Odd-even transposition sort w/ uniform ladder - Chen, Eswaran, Lum, Tung
+source_records:
+- access_status: metadata_only
+  digest: 4daac75d32030b1a
+  extracted_facts:
+  - 'AlgorithmWiki row name: Odd-even transposition sort w/ uniform ladder - Chen, Eswaran, Lum, Tung'
+  - 'domain: sorting'
+  - 'time complexity: (n+1)/2'
+  - 'computational model: hardware sorter'
+  - 'parameter definitions: n: size of list'
+  - 'precard summary: Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model. Baseline: time (n+1)/2; work O(n^2); span/depth O(n); processors n-1. Bottleneck: comparison, distribution, and full-output movement costs dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001045:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Odd-even transposition sort w/ uniform ladder - Chen, Eswaran, Lum, Tung
+  url: https://link.springer.com/article/10.1007/BF00991635
+- access_status: skipped
+  digest: c5088a9e5b4d7b66
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:1049bac29a4f3dd7
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1007/BF00991635
+- access_status: skipped
+  digest: e890887363616d9d
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:88c0a6fbfc5368c9
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://link.springer.com/article/10.1007/BF00991635
+web_query_attempts:
+- method: search_plan
+  query: Odd-even transposition sort w/ uniform ladder - Chen, Eswaran, Lum, Tung algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Odd-even transposition sort w/ uniform ladder - Chen, Eswaran, Lum, Tung algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Odd-even transposition sort w/ uniform ladder - Chen, Eswaran, Lum, Tung problem definition
+  status: recorded
+- method: search_plan
+  query: Odd-even transposition sort w/ uniform ladder - Chen, Eswaran, Lum, Tung sorting algorithm
+  status: recorded
+- method: search_plan
+  query: Odd-even transposition sort w/ uniform ladder - Chen, Eswaran, Lum, Tung site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Odd-even transposition sort w/ uniform ladder - Chen, Eswaran, Lum, Tung algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://link.springer.com/article/10.1007/BF00991635
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1007/BF00991635
+  status: skipped
+- method: source_link_html_metadata
+  query: https://link.springer.com/article/10.1007/BF00991635
+  status: skipped
+extracted_problem_statement: 'Odd-even transposition sort w/ uniform ladder - Chen, Eswaran, Lum, Tung is treated as a classical sorting task for rich AlgorithmWiki discovery. Problem/task: sort the input sequence using the named classical sorting method. Input semantics: A finite array or list of comparable keys or records. Output semantics: The same items returned in nondecreasing order, usually as a full reordered sequence.'
+extracted_algorithm_summary: 'Odd-even transposition sort w/ uniform ladder - Chen, Eswaran, Lum, Tung is a sorting algorithm record. Classical complexity metadata: time (n+1)/2; work O(n^2); span/depth O(n); processors n-1. The stated classical model is hardware sorter. Public metadata/source text adds: Odd-even transposition sort w/ uniform ladder - Chen, Eswaran, Lum, Tung sorting sorting n: size of list (n+1)/2 Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

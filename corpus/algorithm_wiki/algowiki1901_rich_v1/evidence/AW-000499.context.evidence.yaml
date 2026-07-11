@@ -1,0 +1,49 @@
+id: AW-000499
+kind: context
+algorithm_id: AW-000499
+algorithm_name: Bresenham's line algorithm
+source_records:
+- access_status: metadata_only
+  digest: b4d9d1151dfae1fd
+  extracted_facts:
+  - 'AlgorithmWiki row name: Bresenham''s line algorithm'
+  - 'domain: image_processing'
+  - 'time complexity: O(n)'
+  - 'space complexity: O(1)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of pixels the line goes through'
+  - 'precard summary: Given an explicit image or grid of pixel values, compute the transformed image, segmentation, or detected structure targeted by the record. Baseline: time O(n); space O(1). Bottleneck: local neighborhood processing and writing image-sized outputs dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000499:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Bresenham's line algorithm
+  url: https://web.archive.org/web/20080528040104/http://www.research.ibm.com/journal/sj/041/ibmsjIVRIC.pdf
+web_query_attempts:
+- method: search_plan
+  query: Bresenham's line algorithm algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Bresenham's line algorithm algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Bresenham's line algorithm problem definition
+  status: recorded
+- method: search_plan
+  query: Bresenham's line algorithm image processing algorithm
+  status: recorded
+- method: search_plan
+  query: Bresenham's line algorithm site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Bresenham's line algorithm algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://web.archive.org/web/20080528040104/http://www.research.ibm.com/journal/sj/041/ibmsjIVRIC.pdf
+  status: recorded
+- method: wikipedia_summary_search
+  query: Bresenham's line algorithm algorithm
+  status: failed_or_not_relevant
+extracted_problem_statement: 'Bresenham''s line algorithm is treated as a classical image processing task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Bresenham''s line algorithm. Input semantics: An image, grid, point cloud, or signal representation with local or hierarchical processing parameters. Output semantics: A transformed image, segmentation, quantization, feature set, or detected structure.'
+extracted_algorithm_summary: 'Bresenham''s line algorithm is a image processing algorithm record. Classical complexity metadata: time O(n); space O(1). The stated classical model is Word RAM. Public metadata/source text adds: Bresenham''s line algorithm image_processing image_processing n: number of pixels the line goes through O(n) Given an explicit image or grid of pixel values, compute the transformed image, segmentation, or detected structure targeted by the record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

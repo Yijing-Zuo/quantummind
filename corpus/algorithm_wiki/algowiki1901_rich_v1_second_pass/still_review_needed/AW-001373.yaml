@@ -1,0 +1,44 @@
+algorithm_id: AW-001373
+canonical_name: Demmel, Eliahu, Fox, Kamil, Lipshitz, Schwartz, Spillinger (CARMA)
+enrichment_status: SECOND_PASS_INSUFFICIENT
+review_reasons:
+- No second-pass rule could identify source-backed task semantics.
+source_records:
+- access_status: metadata_only
+  digest: a62797e2e0257cdc
+  extracted_facts:
+  - 'AlgorithmWiki row name: Demmel, Eliahu, Fox, Kamil, Lipshitz, Schwartz, Spillinger (CARMA)'
+  - 'domain: unknown'
+  - 'time complexity: O(mnk/p)'
+  - 'computational model: distributed-memory also shared-memory system with non-uniform access'
+  - 'parameter definitions: m x k and k x n matrices'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001373:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Demmel, Eliahu, Fox, Kamil, Lipshitz, Schwartz, Spillinger (CARMA)
+  url: https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=6569817
+- access_status: skipped
+  digest: dbd241b3b3ffec08
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:f2cfec69d7a8616f
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=6569817
+- source_id: crossref_search:0b18e1bdccf3f416
+  url: https://doi.org/10.1109/npc.2007.32
+  title: An optimal algorithm to fetch DHT routable
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: An optimal algorithm to fetch DHT routable'
+  short_quote: ''
+  digest: eac65bcac63f65f8
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

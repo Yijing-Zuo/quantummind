@@ -1,0 +1,49 @@
+id: AW-000151
+kind: context
+algorithm_id: AW-000151
+algorithm_name: Insertion Sort
+source_records:
+- access_status: metadata_only
+  digest: 58c3d853989f6402
+  extracted_facts:
+  - 'AlgorithmWiki row name: Insertion Sort'
+  - 'domain: sorting'
+  - 'time complexity: O(n^2)'
+  - 'space complexity: O(1)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: size of list'
+  - 'precard summary: Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model. Baseline: time O(n^2); space O(1). Bottleneck: comparison, distribution, and full-output movement costs dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000151:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Insertion Sort
+  url: '-'
+web_query_attempts:
+- method: search_plan
+  query: Insertion Sort algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Insertion Sort algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Insertion Sort problem definition
+  status: recorded
+- method: search_plan
+  query: Insertion Sort sorting algorithm
+  status: recorded
+- method: search_plan
+  query: Insertion Sort site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Insertion Sort algorithm wiki
+  status: recorded
+- method: search_plan
+  query: '-'
+  status: recorded
+- method: wikipedia_summary_search
+  query: Insertion Sort algorithm
+  status: failed_or_not_relevant
+extracted_problem_statement: 'Insertion Sort is treated as a classical sorting task for rich AlgorithmWiki discovery. Problem/task: sort the input sequence using the named classical sorting method. Input semantics: A finite array or list of comparable keys or records. Output semantics: The same items returned in nondecreasing order, usually as a full reordered sequence.'
+extracted_algorithm_summary: 'Insertion Sort is a sorting algorithm record. Classical complexity metadata: time O(n^2); space O(1). The stated classical model is Word RAM. Public metadata/source text adds: Insertion Sort sorting sorting n: size of list O(n^2) Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

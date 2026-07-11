@@ -1,0 +1,58 @@
+id: AW-001509
+kind: context
+algorithm_id: AW-001509
+algorithm_name: Awerbuch, Shiloach (2)
+source_records:
+- access_status: metadata_only
+  digest: 1377f299bae272b0
+  extracted_facts:
+  - 'AlgorithmWiki row name: Awerbuch, Shiloach (2)'
+  - 'domain: graph'
+  - 'time complexity: O(\log m)'
+  - 'computational model: PRAM-CRCW'
+  - 'parameter definitions: m: number of edges'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(\log m); work O(m \log m); span/depth O(log m); processors m. Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001509:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Awerbuch, Shiloach (2)
+  url: https://ieeexplore.ieee.org/document/1676869
+- access_status: skipped
+  digest: a9d3c6eb3c36075f
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:27e093d0bcaed09e
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://ieeexplore.ieee.org/document/1676869
+web_query_attempts:
+- method: search_plan
+  query: Awerbuch, Shiloach (2) algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Awerbuch, Shiloach (2) algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Awerbuch, Shiloach (2) problem definition
+  status: recorded
+- method: search_plan
+  query: Awerbuch, Shiloach (2) graph algorithm
+  status: recorded
+- method: search_plan
+  query: Awerbuch, Shiloach (2) site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Awerbuch, Shiloach (2) algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://ieeexplore.ieee.org/document/1676869
+  status: recorded
+- method: source_link_html_metadata
+  query: https://ieeexplore.ieee.org/document/1676869
+  status: skipped
+extracted_problem_statement: 'Awerbuch, Shiloach (2) is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Awerbuch, Shiloach (2). Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'Awerbuch, Shiloach (2) is a graph algorithm record. Classical complexity metadata: time O(\log m); work O(m \log m); span/depth O(log m); processors m. The stated classical model is PRAM-CRCW. Public metadata/source text adds: Awerbuch, Shiloach (2) graph graph m: number of edges O(\log m) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

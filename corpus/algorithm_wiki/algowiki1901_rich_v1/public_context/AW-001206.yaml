@@ -1,0 +1,15 @@
+statement: 'regular sampling - Helman, JaJa, Bader (2) is included as a named whole-algorithm context card for a classical randomized sampling task. The task is to analyze the classical input-output problem, not to certify an end-to-end improvement claim. Input semantics: A probability model, data set, or sampler description together with requested estimator parameters. Output semantics: A sample, estimate, or approximate value with the stated randomized or statistical semantics. Classical algorithm summary: regular sampling - Helman, JaJa, Bader (2) is a randomized sampling algorithm record. Classical complexity metadata: time O(n/p \log{n} + \tau + n/p \sigma); work O(n \log{n}); span/depth O(\log{n}); processors p. The stated classical model is communication model similar to LogP and BSP. Public metadata/source text adds: regular sampling - Helman, JaJa, Bader (2) randomized_sampling randomized_sampling n: size of list (has to be floats), p: number of processors, \sigma and \tau probably
+  small and ignorable O(n/p \log{n} + \tau + n/p \sigma) Given explicit input data and classical randomness as part of the algorithmic model, produce the sampled or estimated output described by the record. Classical complexity recorded for this row: time O(n/p \log{n} + \tau + n/p \sigma); space unknown; computation model communication model similar to LogP and BSP. Dominant bottleneck: precision, convergence, sample complexity, and estimator variance. The useful review questions are whether the named structure exposes a smaller decision, witness, estimation, or algebraic subproblem; whether the full output size dominates any asymptotic gain; and whether the stated access model is realistic for the original input. Provenance is limited to AlgorithmWiki metadata and source-link facts; unresolved details are kept as ambiguities. Source-backed uncertainty or assumptions: No independent fetched public metadata source resolved this row beyond AlgorithmWiki metadata/source-link facts.'
+input_model: explicit_numerical_problem
+access_model: explicit_numeric_parameters
+output_contract: estimate
+promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+size_parameters:
+- 'Parameter definition: n: size of list (has to be floats), p: number of processors, \sigma and \tau probably small and ignorable'
+- p = stated number of processors (p)
+ambiguities:
+- No independent fetched public metadata source resolved this row beyond AlgorithmWiki metadata/source-link facts.
+- Some details are reconstructed from AlgorithmWiki metadata rather than an independently fetched full public description.
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.

@@ -1,0 +1,56 @@
+algorithm_family: parallel algorithms
+algorithm_id: AW-000810
+approximate: '0'
+approximation_factor: ''
+blind_name: Algorithm Wiki public task AW-000810
+canonical_name: MATSF
+computational_model: Word/Real RAM (per node)
+domain: parallel_algorithms
+extracted_description: ''
+extraction_version: algorithm-wiki-rich-context-v1
+family: parallel_algorithms
+inferred_access_model: explicit_input_instance
+inferred_ambiguities:
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.
+inferred_input_model: explicit_parallel_algorithm_problem
+inferred_output_contract: full_solution
+inferred_problem_statement: 'MATSF is treated as a classical parallel algorithms task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with MATSF. Input semantics: The classical input instance named by the row, together with processor/work/span parameters when stated. Output semantics: The same mathematical output as the underlying classical task, annotated by work/span when available.'
+inferred_promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+inferred_size_parameters:
+- 'Parameter definition: n: number of nodes in network'
+number_of_processors: ''
+page_digest: ''
+page_fetch_status: not_found
+page_url: ''
+parameter_definitions: 'n: number of nodes in network'
+problem_name: parallel algorithms
+quality_flags:
+- domain_inferred
+- problem_statement_inferred
+- io_access_output_inferred
+- has_complexity_semantics
+- has_size_parameters
+- has_computational_model
+quality_score: 100
+randomized: '0'
+readiness: READY_PUBLIC_CONTEXT
+review_reasons:
+- duplicate_public_blind_digest:a3bd8ed886d20537 kept:AW-000808
+source_link: https://ieeexplore.ieee.org/document/4359404
+source_link_type: unknown
+space_complexity: O(n) (per node)
+span_depth: ''
+time_complexity: O(n)
+variation: ''
+work: ''
+year: '2004'
+rich_card_kind: context
+source_records_used:
+- AW-000810:algorithm_wiki_metadata
+- source:1c2631a823c5eee0
+source_count: 2
+source_quality: HIGH
+confidence_score: 100
+card_digest: 818012a6c890122b

@@ -1,0 +1,68 @@
+algorithm_id: AW-000423
+canonical_name: General number field sieve
+enrichment_status: THIRD_PASS_SATURATED_INSUFFICIENT
+review_reasons:
+- After the configured source-family cycles, no source-backed concrete task, input semantics, output semantics, and conservative access model could be established.
+source_records:
+- access_status: metadata_only
+  digest: c9b556e071b65505
+  extracted_facts:
+  - 'AlgorithmWiki row name: General number field sieve'
+  - 'domain: unknown'
+  - 'time complexity: O(\exp((1+o(1))(64n/9)^{1/3}(log n)^{2/3}), under assumption about numbers in a sequence behaving randomly in a given range'
+  - 'space complexity: O(\Gamma n^{4/3} \log n)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of bits in the integer, \Gamma: number of smooth pairs'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000423:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for General number field sieve
+  url: http://www.ams.org/notices/199612/pomerance.pdf
+- access_status: fetched
+  digest: 8a60a941226bfbaf
+  extracted_facts:
+  - 'Crossref title-search result: A general number field sieve implementation'
+  reliability: MEDIUM
+  short_quote: ''
+  source_id: crossref_search:76c4dc8afc0338db
+  source_type: doi_metadata
+  title: A general number field sieve implementation
+  url: https://doi.org/10.1007/bfb0091541
+- source_id: skipped:10ea166cf76abdad
+  url: http://www.ams.org/notices/199612/pomerance.pdf
+  title: public PDF body was not downloaded
+  source_type: original_source
+  access_status: skipped
+  reliability: LOW
+  extracted_facts:
+  - public PDF body was not downloaded
+  short_quote: public PDF body was not downloaded
+  digest: 8bde926caa5cf900
+- source_id: crossref_search:05f1c2c5c99935df
+  url: https://doi.org/10.1007/bfb0091541
+  title: A general number field sieve implementation
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title: A general number field sieve implementation'
+  - 'published year: 1993'
+  - 'container title: Lecture Notes in Mathematics'
+  short_quote: 'Crossref title: A general number field sieve implementation published year: 1993 container title: Lecture Notes in Mathematics'
+  digest: 4237ca82a1d0772c
+- source_id: openalex:6223b6b6bb343d86
+  url: https://openalex.org/W2119819322
+  title: A general number field sieve implementation
+  source_type: openalex
+  access_status: fetched
+  reliability: HIGH
+  extracted_facts:
+  - 'OpenAlex title: A general number field sieve implementation'
+  - 'publication year: 1993'
+  short_quote: 'OpenAlex title: A general number field sieve implementation publication year: 1993'
+  digest: 4606bcf2a9cb649d
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

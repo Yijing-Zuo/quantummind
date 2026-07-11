@@ -1,0 +1,74 @@
+id: AW-000110
+kind: context
+algorithm_id: AW-000110
+algorithm_name: Census
+source_records:
+- access_status: metadata_only
+  digest: 325e3a4b9fc732bb
+  extracted_facts:
+  - 'AlgorithmWiki row name: Census'
+  - 'domain: string'
+  - 'time complexity: O(k nm \sigma)'
+  - 'space complexity: O(mnk)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: size of set of input strings, m: size of input strings, k: length of substrings, \sigma: function V(k, m) defined as the number of k-mers that are at most m Hamming distance from the motif space, w: size of a word machine'
+  - 'precard summary: Given one or more explicit strings, compute the matching, indexing, alignment, or transformation output targeted by the record. Baseline: time O(k nm \sigma); space O(mnk). Bottleneck: string scanning, preprocessing tables, and reporting matches dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000110:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Census
+  url: https://link.springer.com/chapter/10.1007/978-3-540-45078-8_5
+- access_status: fetched
+  digest: eb726b346c8ab4b0
+  extracted_facts:
+  - 'DOI title: Toward Optimal Motif Enumeration'
+  - 'published year: 2003'
+  - 'container title: Lecture Notes in Computer Science'
+  reliability: HIGH
+  short_quote: ''
+  source_id: crossref:0fbc1b8cdd4b8f70
+  source_type: doi_metadata
+  title: Toward Optimal Motif Enumeration
+  url: https://doi.org/10.1007/978-3-540-45078-8_5
+- access_status: skipped
+  digest: e4bf4d5ff002ed91
+  extracted_facts:
+  - robots.txt disallowed fetch
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:43adf7f41d1e6fe2
+  source_type: publisher_abstract
+  title: robots.txt disallowed fetch
+  url: https://link.springer.com/chapter/10.1007/978-3-540-45078-8_5
+web_query_attempts:
+- method: search_plan
+  query: Census algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Census algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Census problem definition
+  status: recorded
+- method: search_plan
+  query: Census string algorithm
+  status: recorded
+- method: search_plan
+  query: Census site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Census algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://link.springer.com/chapter/10.1007/978-3-540-45078-8_5
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1007/978-3-540-45078-8_5
+  status: fetched
+- method: source_link_html_metadata
+  query: https://link.springer.com/chapter/10.1007/978-3-540-45078-8_5
+  status: skipped
+extracted_problem_statement: 'Census is treated as a classical string task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Census. Input semantics: One or more finite strings, sequences, patterns, or alphabets. Output semantics: Pattern occurrence positions, matches, or the associated string-search report.'
+extracted_algorithm_summary: 'Census is a string algorithm record. Classical complexity metadata: time O(k nm \sigma); space O(mnk). The stated classical model is Word RAM. Public metadata/source text adds: Census string string n: size of set of input strings, m: size of input strings, k: length of substrings, \sigma: function V(k, m) defined as the number of k-mers that are at most m Hamming distance from the motif space, w: size of a word machine O(k nm \sigma) Given one or more explicit strings, compute the matching, indexing, alignment, or transformation output targeted by the record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

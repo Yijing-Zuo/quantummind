@@ -1,0 +1,73 @@
+id: AW-000716
+kind: context
+algorithm_id: AW-000716
+algorithm_name: Babai and Luks
+source_records:
+- access_status: metadata_only
+  digest: c63fae2b93507707
+  extracted_facts:
+  - 'AlgorithmWiki row name: Babai and Luks'
+  - 'domain: graph'
+  - 'time complexity: \exp(n^{1/2 + o(1)})'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of vertices'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time \exp(n^{1/2 + o(1)}). Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000716:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Babai and Luks
+  url: https://dl.acm.org/doi/10.1145/800061.808746
+- access_status: fetched
+  digest: ab6757ee12584947
+  extracted_facts:
+  - 'DOI title: Canonical labeling of graphs'
+  - 'published year: 1983'
+  - 'container title: Proceedings of the fifteenth annual ACM symposium on Theory of computing - STOC ''83'
+  reliability: HIGH
+  short_quote: ''
+  source_id: crossref:000ea47eb6eca859
+  source_type: doi_metadata
+  title: Canonical labeling of graphs
+  url: https://doi.org/10.1145/800061.808746
+- access_status: failed
+  digest: ce8380a12db126a0
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:7b8dadf8e4154776
+  source_type: publisher_abstract
+  title: 'HTTP Error 403: Forbidden'
+  url: https://dl.acm.org/doi/10.1145/800061.808746
+web_query_attempts:
+- method: search_plan
+  query: Babai and Luks algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Babai and Luks algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Babai and Luks problem definition
+  status: recorded
+- method: search_plan
+  query: Babai and Luks graph algorithm
+  status: recorded
+- method: search_plan
+  query: Babai and Luks site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Babai and Luks algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://dl.acm.org/doi/10.1145/800061.808746
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1145/800061.808746
+  status: fetched
+- method: source_link_html_metadata
+  query: https://dl.acm.org/doi/10.1145/800061.808746
+  status: failed
+extracted_problem_statement: 'Babai and Luks is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Babai and Luks. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'Babai and Luks is a graph algorithm record. Classical complexity metadata: time \exp(n^{1/2 + o(1)}). The stated classical model is Word RAM. Public metadata/source text adds: Babai and Luks graph graph n: number of vertices \exp(n^{1/2 + o(1)}) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

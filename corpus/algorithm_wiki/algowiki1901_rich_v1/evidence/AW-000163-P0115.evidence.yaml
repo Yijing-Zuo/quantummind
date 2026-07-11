@@ -1,0 +1,59 @@
+id: AW-000163-P0115
+kind: probe
+algorithm_id: AW-000163
+algorithm_name: King et al. (KRT)
+source_records:
+- access_status: metadata_only
+  digest: d801a95583c1ff31
+  extracted_facts:
+  - 'AlgorithmWiki row name: King et al. (KRT)'
+  - 'domain: graph'
+  - 'time complexity: O(VE + V^{2+\epsilon})'
+  - 'space complexity: O(V + E)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: V: number of vertices, E: number of edges, U: maximum edge capacity, \epsilon: any positive real number'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(VE + V^{2+\epsilon}); space O(V + E). Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000163:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for King et al. (KRT)
+  url: https://dl.acm.org/citation.cfm?id=139438
+- access_status: failed
+  digest: b5147fd5b64228c1
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:e7594f85ebe24da6
+  source_type: publisher_abstract
+  title: 'HTTP Error 403: Forbidden'
+  url: https://dl.acm.org/citation.cfm?id=139438
+web_query_attempts:
+- method: search_plan
+  query: King et al. (KRT) algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: King et al. (KRT) algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: King et al. (KRT) problem definition
+  status: recorded
+- method: search_plan
+  query: King et al. (KRT) graph algorithm
+  status: recorded
+- method: search_plan
+  query: King et al. (KRT) site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: King et al. (KRT) algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://dl.acm.org/citation.cfm?id=139438
+  status: recorded
+- method: source_link_html_metadata
+  query: https://dl.acm.org/citation.cfm?id=139438
+  status: failed
+extracted_problem_statement: 'King et al. (KRT) is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with King et al. (KRT). Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'King et al. (KRT) is a graph algorithm record. Classical complexity metadata: time O(VE + V^{2+\epsilon}); space O(V + E). The stated classical model is Word RAM. Public metadata/source text adds: King et al. (KRT) graph graph V: number of vertices, E: number of edges, U: maximum edge capacity, \epsilon: any positive real number O(VE + V^{2+\epsilon}) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

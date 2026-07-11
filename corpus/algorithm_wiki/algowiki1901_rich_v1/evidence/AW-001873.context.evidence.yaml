@@ -1,0 +1,57 @@
+id: AW-001873
+kind: context
+algorithm_id: AW-001873
+algorithm_name: Primal-Dual Stochastic Mirror Descent - Tiapkin, Gasnikov
+source_records:
+- access_status: metadata_only
+  digest: ca3df8ecc7a7589a
+  extracted_facts:
+  - 'AlgorithmWiki row name: Primal-Dual Stochastic Mirror Descent - Tiapkin, Gasnikov'
+  - 'domain: graph'
+  - 'computational model: PRAM'
+  - 'parameter definitions: A: size of set of actions, S: size of set of states, t_mix: mixing time of mdp for any policy, eps: error parameter, delta: failure probability'
+  - 'precard summary: Given a weighted undirected graph, compute a minimum spanning tree or spanning forest according to the graph connectivity assumptions. Baseline: work O((t_mix^2*S^2*A*\log(1/\\delta))/(\epsilon^2)); span/depth O((t_mix^2*S*log(1/delta))/(epsilon^2)); processors A_tot. Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001873:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Primal-Dual Stochastic Mirror Descent - Tiapkin, Gasnikov
+  url: https://proceedings.mlr.press/v151/tiapkin22a.html?roistat_visit=8274511
+- access_status: skipped
+  digest: 4f38376dbd98ff82
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:8d58807b10051e24
+  source_type: other_public_source
+  title: fetch budget exhausted
+  url: https://proceedings.mlr.press/v151/tiapkin22a.html?roistat_visit=8274511
+web_query_attempts:
+- method: search_plan
+  query: Primal-Dual Stochastic Mirror Descent - Tiapkin, Gasnikov algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Primal-Dual Stochastic Mirror Descent - Tiapkin, Gasnikov algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Primal-Dual Stochastic Mirror Descent - Tiapkin, Gasnikov problem definition
+  status: recorded
+- method: search_plan
+  query: Primal-Dual Stochastic Mirror Descent - Tiapkin, Gasnikov graph algorithm
+  status: recorded
+- method: search_plan
+  query: Primal-Dual Stochastic Mirror Descent - Tiapkin, Gasnikov site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Primal-Dual Stochastic Mirror Descent - Tiapkin, Gasnikov algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://proceedings.mlr.press/v151/tiapkin22a.html?roistat_visit=8274511
+  status: recorded
+- method: source_link_html_metadata
+  query: https://proceedings.mlr.press/v151/tiapkin22a.html?roistat_visit=8274511
+  status: skipped
+extracted_problem_statement: 'Primal-Dual Stochastic Mirror Descent - Tiapkin, Gasnikov is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: find a low-cost or shortest path in a graph or state-space search instance. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: A path, path cost, or predecessor structure connecting the requested graph states.'
+extracted_algorithm_summary: 'Primal-Dual Stochastic Mirror Descent - Tiapkin, Gasnikov is a graph algorithm record. Classical complexity metadata: work O((t_mix^2*S^2*A*\log(1/\\delta))/(\epsilon^2)); span/depth O((t_mix^2*S*log(1/delta))/(epsilon^2)); processors A_tot. The stated classical model is PRAM. Public metadata/source text adds: Primal-Dual Stochastic Mirror Descent - Tiapkin, Gasnikov graph graph A: size of set of actions, S: size of set of states, t_mix: mixing time of mdp for any policy, eps: error parameter, delta: failure probability Given a weighted undirected graph, compute a minimum spanning tree or spanning forest according to the graph connectivity assumptions.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

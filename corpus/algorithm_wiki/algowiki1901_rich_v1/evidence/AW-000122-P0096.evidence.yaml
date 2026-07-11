@@ -1,0 +1,57 @@
+id: AW-000122-P0096
+kind: probe
+algorithm_id: AW-000122
+algorithm_name: Harris and Stephens algorithm
+source_records:
+- access_status: metadata_only
+  digest: 2b9bbe7a202d3436
+  extracted_facts:
+  - 'AlgorithmWiki row name: Harris and Stephens algorithm'
+  - 'domain: unknown'
+  - 'time complexity: O(n^2)'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000122:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Harris and Stephens algorithm
+  url: https://www.semanticscholar.org/paper/A-Combined-Corner-and-Edge-Detector-Harris-Stephens/6818668fb895d95861a2eb9673ddc3a41e27b3b3
+- access_status: fetched
+  digest: ef24e3132ef9fe62
+  extracted_facts:
+  - 'source page title: https://www.semanticscholar.org/paper/A-Combined-Corner-and-Edge-Detector-Harris-Stephens/6818668fb895d95861a2eb9673ddc3a41e27b3b3'
+  - 'source page description: In order to continue, we need to verify that you''re not a robot.'
+  reliability: LOW
+  short_quote: In order to continue, we need to verify that you're not a robot.
+  source_id: source:7e8cadf33d20f534
+  source_type: other_public_source
+  title: https://www.semanticscholar.org/paper/A-Combined-Corner-and-Edge-Detector-Harris-Stephens/6818668fb895d95861a2eb9673ddc3a41e27b3b3
+  url: https://www.semanticscholar.org/paper/A-Combined-Corner-and-Edge-Detector-Harris-Stephens/6818668fb895d95861a2eb9673ddc3a41e27b3b3
+web_query_attempts:
+- method: search_plan
+  query: Harris and Stephens algorithm algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Harris and Stephens algorithm algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Harris and Stephens algorithm problem definition
+  status: recorded
+- method: search_plan
+  query: Harris and Stephens algorithm site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Harris and Stephens algorithm algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://www.semanticscholar.org/paper/A-Combined-Corner-and-Edge-Detector-Harris-Stephens/6818668fb895d95861a2eb9673ddc3a41e27b3b3
+  status: recorded
+- method: source_link_html_metadata
+  query: https://www.semanticscholar.org/paper/A-Combined-Corner-and-Edge-Detector-Harris-Stephens/6818668fb895d95861a2eb9673ddc3a41e27b3b3
+  status: fetched
+- method: wikipedia_summary_search
+  query: Harris and Stephens algorithm algorithm
+  status: failed_or_not_relevant
+extracted_problem_statement: 'Harris and Stephens algorithm is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Harris and Stephens algorithm. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'Harris and Stephens algorithm is a graph algorithm record. Classical complexity metadata: time O(n^2). Public metadata/source text adds: Harris and Stephens algorithm unknown unknown O(n^2) No public-ready summary is available because the row lacks enough task semantics.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

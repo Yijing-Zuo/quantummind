@@ -1,0 +1,71 @@
+id: AW-001584
+kind: context
+algorithm_id: AW-001584
+algorithm_name: Shi, Spencer (2) (t=n)
+source_records:
+- access_status: metadata_only
+  digest: c331299066f96efa
+  extracted_facts:
+  - 'AlgorithmWiki row name: Shi, Spencer (2) (t=n)'
+  - 'domain: graph'
+  - 'time complexity: O(t \log n)'
+  - 'computational model: EREW PRAM'
+  - 'parameter definitions: n: number of nodes, m: number of edges, log n <= t <= n'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(t \log n); work O((n^3/t^3 + mn/t) \log n) for any t in the range \log n <= t <= n; span/depth O(t log n); processors O(n^3/t^4 + mn/t^2) for any t in the range log n <= t <= n. Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001584:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Shi, Spencer (2) (t=n)
+  url: https://dl.acm.org/doi/abs/10.1006/jagm.1998.0968
+- access_status: skipped
+  digest: b719f32c5ecf26ba
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:f3ed515f79fe44d3
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1006/jagm.1998.0968
+- access_status: skipped
+  digest: e7fac5ef82631c22
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:adf3417d2e193829
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://dl.acm.org/doi/abs/10.1006/jagm.1998.0968
+web_query_attempts:
+- method: search_plan
+  query: Shi, Spencer (2) (t=n) algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Shi, Spencer (2) (t=n) algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Shi, Spencer (2) (t=n) problem definition
+  status: recorded
+- method: search_plan
+  query: Shi, Spencer (2) (t=n) graph algorithm
+  status: recorded
+- method: search_plan
+  query: Shi, Spencer (2) (t=n) site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Shi, Spencer (2) (t=n) algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://dl.acm.org/doi/abs/10.1006/jagm.1998.0968
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1006/jagm.1998.0968
+  status: skipped
+- method: source_link_html_metadata
+  query: https://dl.acm.org/doi/abs/10.1006/jagm.1998.0968
+  status: skipped
+extracted_problem_statement: 'Shi, Spencer (2) (t=n) is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Shi, Spencer (2) (t=n). Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'Shi, Spencer (2) (t=n) is a graph algorithm record. Classical complexity metadata: time O(t \log n); work O((n^3/t^3 + mn/t) \log n) for any t in the range \log n <= t <= n; span/depth O(t log n); processors O(n^3/t^4 + mn/t^2) for any t in the range log n <= t <= n. The stated classical model is EREW PRAM. Public metadata/source text adds: Shi, Spencer (2) (t=n) graph graph n: number of nodes, m: number of edges, log n <= t <= n O(t \log n) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

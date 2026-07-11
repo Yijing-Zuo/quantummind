@@ -1,0 +1,68 @@
+id: AW-000010
+kind: context_recovered
+algorithm_id: AW-000010
+algorithm_name: Eppstein
+source_records:
+- access_status: metadata_only
+  digest: f3d502c2961159ed
+  extracted_facts:
+  - 'AlgorithmWiki row name: Eppstein'
+  - 'domain: unknown'
+  - 'time complexity: \tilde{O}(n \max(S))'
+  - 'space complexity: O(t\log t)'
+  - 'parameter definitions: n: number of elements in the set, S: the set, t: target sum'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000010:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Eppstein
+  url: https://www.sciencedirect.com/science/article/abs/pii/S019667749690841X?via%3Dihub
+- access_status: failed
+  digest: 0f51e43c54616c96
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:bed5dfb3ef79b628
+  source_type: publisher_abstract
+  title: 'HTTP Error 403: Forbidden'
+  url: https://www.sciencedirect.com/science/article/abs/pii/S019667749690841X?via%3Dihub
+- source_id: crossref_search:fd37b88046a42ef0
+  url: https://doi.org/10.1093/gmo/9781561592630.article.08897
+  title: Eppstein, Hans
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: Eppstein, Hans'
+  short_quote: ''
+  digest: da17ba854899b906
+web_query_attempts:
+- query: '"Eppstein" algorithm'
+  method: search_plan
+  status: recorded
+- query: '"Eppstein" input output'
+  method: search_plan
+  status: recorded
+- query: '"Eppstein" time complexity'
+  method: search_plan
+  status: recorded
+- query: '"Eppstein" pseudocode'
+  method: search_plan
+  status: recorded
+- query: '"Eppstein" problem'
+  method: search_plan
+  status: recorded
+- query: '"Eppstein" PDF metadata abstract'
+  method: search_plan
+  status: recorded
+- query: https://www.sciencedirect.com/science/article/abs/pii/S019667749690841X?via%3Dihub
+  method: search_plan
+  status: recorded
+- query: Eppstein algorithm
+  method: crossref_title_search
+  status: fetched
+extracted_problem_statement: 'Eppstein is reconstructed as a classical dynamic programming task. Problem/task: solve a subset-sum or target-sum decision/witness instance Input semantics: A finite set or multiset of integers S, its size n, and a target value t. Output semantics: A yes/no decision and, when requested, a subset whose sum equals the target.'
+extracted_algorithm_summary: 'Eppstein is treated as the named AlgorithmWiki variant for solve a subset-sum or target-sum decision/witness instance Classical complexity metadata: time \tilde{O}(n \max(S)); space O(t\log t). Public metadata/source title support includes Eppstein, Hans.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

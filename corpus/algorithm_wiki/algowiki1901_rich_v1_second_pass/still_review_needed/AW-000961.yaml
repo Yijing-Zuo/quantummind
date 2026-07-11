@@ -1,0 +1,35 @@
+algorithm_id: AW-000961
+canonical_name: Inverse quadratic interpolation
+enrichment_status: SECOND_PASS_INSUFFICIENT
+review_reasons:
+- No second-pass rule could identify source-backed task semantics.
+source_records:
+- access_status: metadata_only
+  digest: 9b3c55d3950facd1
+  extracted_facts:
+  - 'AlgorithmWiki row name: Inverse quadratic interpolation'
+  - 'domain: unknown'
+  - 'time complexity: O(n_max)'
+  - 'space complexity: O(1)'
+  - 'computational model: Word/Real RAM'
+  - 'parameter definitions: epsilon: (additive) tolerance error, n_max: maximum number of iterations'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000961:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Inverse quadratic interpolation
+  url: ''
+- source_id: crossref_search:62b58624949ad4b1
+  url: https://doi.org/10.1016/s1474-6670(17)47625-7
+  title: 'Robot Arm Movement Inverse Problem: A Quadratic Interpolation Solution'
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: Robot Arm Movement Inverse Problem: A Quadratic Interpolation Solution'
+  short_quote: ''
+  digest: cf9e7922a0d88597
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

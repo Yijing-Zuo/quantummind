@@ -1,0 +1,33 @@
+algorithm_id: AW-000766
+canonical_name: Stratonovich
+enrichment_status: SECOND_PASS_INSUFFICIENT
+review_reasons:
+- No second-pass rule could identify source-backed task semantics.
+source_records:
+- access_status: metadata_only
+  digest: 8ae70f9ac0b19d30
+  extracted_facts:
+  - 'AlgorithmWiki row name: Stratonovich'
+  - 'domain: unknown'
+  - 'time complexity: O(n^3)'
+  - 'parameter definitions: n: number of dimensions in state space'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000766:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Stratonovich
+  url: ''
+- source_id: crossref_search:b1d9db64cca3ab22
+  url: https://doi.org/10.1201/9781003484912-6
+  title: Stratonovich Integration
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: Stratonovich Integration'
+  short_quote: ''
+  digest: 4fa1310766e8f65f
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

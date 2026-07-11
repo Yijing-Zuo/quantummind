@@ -1,0 +1,72 @@
+algorithm_id: AW-000723
+canonical_name: BST Algorithm
+enrichment_status: THIRD_PASS_SATURATED_INSUFFICIENT
+review_reasons:
+- After the configured source-family cycles, no source-backed concrete task, input semantics, output semantics, and conservative access model could be established.
+source_records:
+- access_status: metadata_only
+  digest: 0bcb5ce34b0d7280
+  extracted_facts:
+  - 'AlgorithmWiki row name: BST Algorithm'
+  - 'domain: unknown'
+  - 'time complexity: O(n \log n)'
+  - 'space complexity: O(\log n)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of records'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000723:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for BST Algorithm
+  url: ''
+- access_status: fetched
+  digest: 64ea4e54844b3d64
+  extracted_facts:
+  - 'Crossref title-search result: BST Algorithm for Duplicate Elimination in Data Warehouse'
+  - 'abstract summary: Data warehousing is an emerging technology and has proved to be very important for an organization.'
+  reliability: MEDIUM
+  short_quote: Data warehousing is an emerging technology and has proved to be very important for an organization.
+  source_id: crossref_search:a0c41bda9e8c80cb
+  source_type: doi_metadata
+  title: BST Algorithm for Duplicate Elimination in Data Warehouse
+  url: https://doi.org/10.24297/ijmit.v4i1.4636
+- source_id: crossref_search:30b6e98819f524df
+  url: https://doi.org/10.24297/ijmit.v4i1.4636
+  title: BST Algorithm for Duplicate Elimination in Data Warehouse
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title: BST Algorithm for Duplicate Elimination in Data Warehouse'
+  - 'published year: 2013'
+  - 'container title: INTERNATIONAL JOURNAL OF MANAGEMENT &amp; INFORMATION TECHNOLOGY'
+  - 'abstract summary: Data warehousing is an emerging technology and has proved to be very important for an organization.'
+  short_quote: 'Crossref title: BST Algorithm for Duplicate Elimination in Data Warehouse published year: 2013 container title: INTERNATIONAL JOURNAL OF MANAGEMENT &amp; INFORMATION TECHNOLOGY abstract summary:'
+  digest: b5f03b2b8e885ab6
+- source_id: openalex:78021020d4237cbc
+  url: https://openalex.org/W2152254315
+  title: BST Algorithm for Duplicate Elimination in Data Warehouse
+  source_type: openalex
+  access_status: fetched
+  reliability: HIGH
+  extracted_facts:
+  - 'OpenAlex title: BST Algorithm for Duplicate Elimination in Data Warehouse'
+  - 'publication year: 2013'
+  - 'abstract summary: Data warehousing is an emerging technology and has proved to be very important for an organization.'
+  short_quote: 'OpenAlex title: BST Algorithm for Duplicate Elimination in Data Warehouse publication year: 2013 abstract summary: Data warehousing is an emerging technology and has proved'
+  digest: 2eb5296e7023ded0
+- source_id: wikidata:f274eefcfa5b25f8
+  url: http://www.wikidata.org/entity/Q128374286
+  title: BST Algorithm for Duplicate Elimination in Data Warehouse
+  source_type: wikidata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - BST Algorithm for Duplicate Elimination in Data Warehouse
+  - scholarly article
+  short_quote: BST Algorithm for Duplicate Elimination in Data Warehouse scholarly article
+  digest: e94a39d1a7c088bb
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

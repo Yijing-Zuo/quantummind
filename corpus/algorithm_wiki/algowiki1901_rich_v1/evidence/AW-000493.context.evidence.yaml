@@ -1,0 +1,63 @@
+id: AW-000493
+kind: context
+algorithm_id: AW-000493
+algorithm_name: Extended Split Radix FFT algorithm
+source_records:
+- access_status: metadata_only
+  digest: 3d3653f4f1a0b01c
+  extracted_facts:
+  - 'AlgorithmWiki row name: Extended Split Radix FFT algorithm'
+  - 'domain: sorting'
+  - 'time complexity: O(n \log n)'
+  - 'space complexity: O(n)'
+  - 'computational model: Word/Real RAM'
+  - 'parameter definitions: n: length of the input data set'
+  - 'precard summary: Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model. Baseline: time O(n \log n); space O(n). Bottleneck: comparison, distribution, and full-output movement costs dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000493:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Extended Split Radix FFT algorithm
+  url: https://ieeexplore.ieee.org/document/917698
+- access_status: fetched
+  digest: 814f211ae8473264
+  extracted_facts:
+  - 'source page title: https://ieeexplore.ieee.org/document/917698'
+  - 'source page description: In order to continue, we need to verify that you''re not a robot.'
+  reliability: HIGH
+  short_quote: In order to continue, we need to verify that you're not a robot.
+  source_id: source:7d4cc344f7d104b7
+  source_type: publisher_abstract
+  title: https://ieeexplore.ieee.org/document/917698
+  url: https://ieeexplore.ieee.org/document/917698
+web_query_attempts:
+- method: search_plan
+  query: Extended Split Radix FFT algorithm algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Extended Split Radix FFT algorithm algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Extended Split Radix FFT algorithm problem definition
+  status: recorded
+- method: search_plan
+  query: Extended Split Radix FFT algorithm sorting algorithm
+  status: recorded
+- method: search_plan
+  query: Extended Split Radix FFT algorithm site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Extended Split Radix FFT algorithm algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://ieeexplore.ieee.org/document/917698
+  status: recorded
+- method: source_link_html_metadata
+  query: https://ieeexplore.ieee.org/document/917698
+  status: fetched
+- method: wikipedia_summary_search
+  query: Extended Split Radix FFT algorithm algorithm
+  status: failed_or_not_relevant
+extracted_problem_statement: 'Extended Split Radix FFT algorithm is treated as a classical sorting task for rich AlgorithmWiki discovery. Problem/task: sort the input sequence using the named classical sorting method. Input semantics: A finite array or list of comparable keys or records. Output semantics: The same items returned in nondecreasing order, usually as a full reordered sequence.'
+extracted_algorithm_summary: 'Extended Split Radix FFT algorithm is a sorting algorithm record. Classical complexity metadata: time O(n \log n); space O(n). The stated classical model is Word/Real RAM. Public metadata/source text adds: Extended Split Radix FFT algorithm sorting sorting n: length of the input data set O(n \log n) Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

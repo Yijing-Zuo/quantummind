@@ -1,0 +1,68 @@
+id: AW-000740-P0494
+kind: probe
+algorithm_id: AW-000740
+algorithm_name: "L\xC9VY B. PETITJEAN S. RAY N. MAILLOT J 2002"
+source_records:
+- access_status: metadata_only
+  digest: 881200b6a293e9f6
+  extracted_facts:
+  - "AlgorithmWiki row name: L\xC9VY B. PETITJEAN S. RAY N. MAILLOT J 2002"
+  - 'domain: unknown'
+  - 'time complexity: O(n \log^{2.5} n)'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000740:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: "AlgorithmWiki metadata for L\xC9VY B. PETITJEAN S. RAY N. MAILLOT J 2002"
+  url: https://dl.acm.org/doi/abs/10.1145/3596711.3596734
+- access_status: fetched
+  digest: 6cb76d290bc55f4e
+  extracted_facts:
+  - 'DOI title: Least squares conformal maps for automatic texture atlas generation'
+  - 'published year: 2023'
+  - 'container title: Seminal Graphics Papers: Pushing the Boundaries, Volume 2'
+  reliability: HIGH
+  short_quote: ''
+  source_id: crossref:43b1d5758219b668
+  source_type: doi_metadata
+  title: Least squares conformal maps for automatic texture atlas generation
+  url: https://doi.org/10.1145/3596711.3596734
+- access_status: failed
+  digest: 184f564f97b8b84d
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:0c467ea0db2f0a9e
+  source_type: publisher_abstract
+  title: 'HTTP Error 403: Forbidden'
+  url: https://dl.acm.org/doi/abs/10.1145/3596711.3596734
+web_query_attempts:
+- method: search_plan
+  query: "L\xC9VY B. PETITJEAN S. RAY N. MAILLOT J 2002 algorithm input output complexity"
+  status: recorded
+- method: search_plan
+  query: "L\xC9VY B. PETITJEAN S. RAY N. MAILLOT J 2002 algorithm pseudocode"
+  status: recorded
+- method: search_plan
+  query: "L\xC9VY B. PETITJEAN S. RAY N. MAILLOT J 2002 problem definition"
+  status: recorded
+- method: search_plan
+  query: "L\xC9VY B. PETITJEAN S. RAY N. MAILLOT J 2002 site:nist.gov DADS"
+  status: recorded
+- method: search_plan
+  query: "L\xC9VY B. PETITJEAN S. RAY N. MAILLOT J 2002 algorithm wiki"
+  status: recorded
+- method: search_plan
+  query: https://dl.acm.org/doi/abs/10.1145/3596711.3596734
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1145/3596711.3596734
+  status: fetched
+- method: source_link_html_metadata
+  query: https://dl.acm.org/doi/abs/10.1145/3596711.3596734
+  status: failed
+extracted_problem_statement: "L\xC9VY B. PETITJEAN S. RAY N. MAILLOT J 2002 is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with L\xC9VY B. PETITJEAN S. RAY N. MAILLOT J 2002. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result."
+extracted_algorithm_summary: "L\xC9VY B. PETITJEAN S. RAY N. MAILLOT J 2002 is a graph algorithm record. Classical complexity metadata: time O(n \\log^{2.5} n). Public metadata/source text adds: L\xC9VY B. PETITJEAN S. RAY N. MAILLOT J 2002 unknown unknown O(n \\log^{2.5} n) No public-ready summary is available because the row lacks enough task semantics."
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

@@ -1,0 +1,67 @@
+id: AW-000483-P0357
+kind: probe
+algorithm_id: AW-000483
+algorithm_name: Fleury's algorithm + Tarjan
+source_records:
+- access_status: metadata_only
+  digest: af238eba0f313dd8
+  extracted_facts:
+  - 'AlgorithmWiki row name: Fleury''s algorithm + Tarjan'
+  - 'domain: graph'
+  - 'time complexity: O(E^2)'
+  - 'space complexity: O(E)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: V: number of vertices, E: number of edges'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(E^2); space O(E). Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000483:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Fleury's algorithm + Tarjan
+  url: https://collaborate.princeton.edu/en/publications/a-note-on-finding-the-bridges-of-a-graph
+- access_status: fetched
+  digest: c33beb20454b65d9
+  extracted_facts:
+  - 'source page title: A note on finding the bridges of a graph
+
+    - Princeton University'
+  - "source page description: A note on finding the bridges of a graph\n- Princeton University\n\nSkip to main navigation\n\nSkip to search\n\nSkip to main content\n\nPrinceton University Home\n\nHelp & FAQ\nLink opens in a new tab\n\nSearch content at Princeton University\n\nHome\n\nProfiles\n\nResearch units\n\nFacilities\n\nProjects\n\nResearch output\n\nPress/Media\n\nA note on finding the bridges of a graph\nR. Endre Tarjan\n\nResearch output : Contribution to journal \u203A Art"
+  reliability: MEDIUM
+  short_quote: A note on finding the bridges of a graph - Princeton University Skip to main navigation Skip to search Skip to main content Princeton
+  source_id: source:ce84720b6db753a6
+  source_type: textbook_or_course_notes
+  title: 'A note on finding the bridges of a graph
+
+    - Princeton University'
+  url: https://collaborate.princeton.edu/en/publications/a-note-on-finding-the-bridges-of-a-graph
+web_query_attempts:
+- method: search_plan
+  query: Fleury's algorithm + Tarjan algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Fleury's algorithm + Tarjan algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Fleury's algorithm + Tarjan problem definition
+  status: recorded
+- method: search_plan
+  query: Fleury's algorithm + Tarjan graph algorithm
+  status: recorded
+- method: search_plan
+  query: Fleury's algorithm + Tarjan site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Fleury's algorithm + Tarjan algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://collaborate.princeton.edu/en/publications/a-note-on-finding-the-bridges-of-a-graph
+  status: recorded
+- method: source_link_html_metadata
+  query: https://collaborate.princeton.edu/en/publications/a-note-on-finding-the-bridges-of-a-graph
+  status: fetched
+- method: wikipedia_summary_search
+  query: Fleury's algorithm + Tarjan algorithm
+  status: failed_or_not_relevant
+extracted_problem_statement: 'Fleury''s algorithm + Tarjan is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Fleury''s algorithm + Tarjan. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'Fleury''s algorithm + Tarjan is a graph algorithm record. Classical complexity metadata: time O(E^2); space O(E). The stated classical model is Word RAM. Public metadata/source text adds: Fleury''s algorithm + Tarjan graph graph V: number of vertices, E: number of edges O(E^2) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

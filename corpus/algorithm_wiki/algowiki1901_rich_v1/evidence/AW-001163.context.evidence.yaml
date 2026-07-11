@@ -1,0 +1,58 @@
+id: AW-001163
+kind: context
+algorithm_id: AW-001163
+algorithm_name: Hagerup, Raman (ints in range, stable)
+source_records:
+- access_status: metadata_only
+  digest: e5676249e4ce005c
+  extracted_facts:
+  - 'AlgorithmWiki row name: Hagerup, Raman (ints in range, stable)'
+  - 'domain: parallel_algorithms'
+  - 'time complexity: O(\log{\log{n}/ \log{k}) w/ high probability'
+  - 'computational model: OR CRCW PRAM'
+  - 'parameter definitions: n: size of list, integers in range 1..n, 2<=k<=log n'
+  - 'precard summary: Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model. Baseline: time O(\log{\log{n}/ \log{k}) w/ high probability; work O(kn \\log{\\log{n}}/ \\log{k}) expected; span/depth O(1) expected; processors kn. Bottleneck: work, span, communication, and processor-count assumptions dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001163:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Hagerup, Raman (ints in range, stable)
+  url: https://pure.mpg.de/pubman/faces/ViewItemOverviewPage.jsp?itemId=item_1834884
+- access_status: skipped
+  digest: 63e36a9d434afcf3
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:18cd43b21c943f1b
+  source_type: other_public_source
+  title: fetch budget exhausted
+  url: https://pure.mpg.de/pubman/faces/ViewItemOverviewPage.jsp?itemId=item_1834884
+web_query_attempts:
+- method: search_plan
+  query: Hagerup, Raman (ints in range, stable) algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Hagerup, Raman (ints in range, stable) algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Hagerup, Raman (ints in range, stable) problem definition
+  status: recorded
+- method: search_plan
+  query: Hagerup, Raman (ints in range, stable) parallel algorithms algorithm
+  status: recorded
+- method: search_plan
+  query: Hagerup, Raman (ints in range, stable) site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Hagerup, Raman (ints in range, stable) algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://pure.mpg.de/pubman/faces/ViewItemOverviewPage.jsp?itemId=item_1834884
+  status: recorded
+- method: source_link_html_metadata
+  query: https://pure.mpg.de/pubman/faces/ViewItemOverviewPage.jsp?itemId=item_1834884
+  status: skipped
+extracted_problem_statement: 'Hagerup, Raman (ints in range, stable) is treated as a classical parallel algorithms task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Hagerup, Raman (ints in range, stable). Input semantics: The classical input instance named by the row, together with processor/work/span parameters when stated. Output semantics: The same mathematical output as the underlying classical task, annotated by work/span when available.'
+extracted_algorithm_summary: 'Hagerup, Raman (ints in range, stable) is a parallel algorithms algorithm record. Classical complexity metadata: time O(\log{\log{n}/ \log{k}) w/ high probability; work O(kn \\log{\\log{n}}/ \\log{k}) expected; span/depth O(1) expected; processors kn. The stated classical model is OR CRCW PRAM. Public metadata/source text adds: Hagerup, Raman (ints in range, stable) parallel_algorithms parallel_algorithms n: size of list, integers in range 1..n, 2<=k<=log n O(\log{\log{n}/ \log{k}) w/ high probability Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

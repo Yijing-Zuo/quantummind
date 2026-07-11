@@ -1,0 +1,107 @@
+id: AW-001257
+kind: context_recovered
+algorithm_id: AW-001257
+algorithm_name: Bosakova-Ardenska, Vasilev, Kostadinova-Georgieva
+source_records:
+- access_status: metadata_only
+  digest: 5208380d2e4348ce
+  extracted_facts:
+  - 'AlgorithmWiki row name: Bosakova-Ardenska, Vasilev, Kostadinova-Georgieva'
+  - 'domain: unknown'
+  - 'computational model: Multiple Program Multiple Data (MPMD) model'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001257:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Bosakova-Ardenska, Vasilev, Kostadinova-Georgieva
+  url: https://www.elibrary.ru/item.asp?id=25518905
+- access_status: skipped
+  digest: cf66b4c78d59d9e8
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:5a18e574bcb09f14
+  source_type: other_public_source
+  title: fetch budget exhausted
+  url: https://www.elibrary.ru/item.asp?id=25518905
+- access_status: fetched
+  digest: eac65bcac63f65f8
+  extracted_facts:
+  - 'Crossref title-search result: An optimal algorithm to fetch DHT routable'
+  reliability: MEDIUM
+  short_quote: ''
+  source_id: crossref_search:0b18e1bdccf3f416
+  source_type: doi_metadata
+  title: An optimal algorithm to fetch DHT routable
+  url: https://doi.org/10.1109/npc.2007.32
+- source_id: source:4ab478f86d29251f
+  url: https://www.elibrary.ru/item.asp?id=25518905
+  title: https://www.elibrary.ru/item.asp?id=25518905
+  source_type: publisher_abstract
+  access_status: fetched
+  reliability: LOW
+  extracted_facts:
+  - https://www.elibrary.ru/item.asp?id=25518905
+  - "\u041E\u0448\u0438\u0431\u043A\u0430 \u0432 \u043F\u0430\u0440\u0430\u043C\u0435\u0442\u0440\u0430\u0445 \u0441\u0442\u0440\u0430\u043D\u0438\u0446\u044B,\n\u0438\u043B\u0438 \u043D\u0435\u0434\u043E\u0441\u0442\u0430\u0442\u043E\u0447\u043D\u043E \u043F\u0440\u0430\u0432 \u0434\u043B\u044F \u043E\u0442\u043A\u0440\u044B\u0442\u0438\u044F \u0441\u0442\u0440\u0430\u043D\u0438\u0446\u044B,\n\u0438\u043B\u0438 \u0437\u0430\u043A\u043E\u043D\u0447\u0438\u043B\u0430\u0441\u044C \u0442\u0435\u043A\u0443\u0449\u0430\u044F \u0441\u0435\u0441\u0441\u0438\u044F.\n\n\u0423\u0442\u043E\u0447\u043D\u0438\u0442\u0435 \u0437\u0430\u043F\u0440\u043E\u0441 \u0438\u043B\u0438\n\u043F\u0435\u0440\u0435\u0439\u0434\u0438\u0442\u0435 \u043D\u0430 \u0433\u043B\u0430\u0432\u043D\u0443\u044E \u0441\u0442\u0440\u0430\u043D\u0438\u0446\u0443 \u0441\u0430\u0439\u0442\u0430"
+  short_quote: "https://www.elibrary.ru/item.asp?id=25518905 \u041E\u0448\u0438\u0431\u043A\u0430 \u0432 \u043F\u0430\u0440\u0430\u043C\u0435\u0442\u0440\u0430\u0445 \u0441\u0442\u0440\u0430\u043D\u0438\u0446\u044B, \u0438\u043B\u0438 \u043D\u0435\u0434\u043E\u0441\u0442\u0430\u0442\u043E\u0447\u043D\u043E \u043F\u0440\u0430\u0432 \u0434\u043B\u044F \u043E\u0442\u043A\u0440\u044B\u0442\u0438\u044F \u0441\u0442\u0440\u0430\u043D\u0438\u0446\u044B, \u0438\u043B\u0438 \u0437\u0430\u043A\u043E\u043D\u0447\u0438\u043B\u0430\u0441\u044C \u0442\u0435\u043A\u0443\u0449\u0430\u044F \u0441\u0435\u0441\u0441\u0438\u044F. \u0423\u0442\u043E\u0447\u043D\u0438\u0442\u0435 \u0437\u0430\u043F\u0440\u043E\u0441 \u0438\u043B\u0438 \u043F\u0435\u0440\u0435\u0439\u0434\u0438\u0442\u0435 \u043D\u0430 \u0433\u043B\u0430\u0432\u043D\u0443\u044E \u0441\u0442\u0440\u0430\u043D\u0438\u0446\u0443 \u0441\u0430\u0439\u0442\u0430"
+  digest: 5f7d408643d9e478
+- source_id: crossref_search:87199efad991d612
+  url: https://doi.org/10.1093/benz/9780199773787.article.b00194781
+  title: Vasilev, Jakob
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title: Vasilev, Jakob'
+  - 'published year: 2011'
+  - 'container title: Benezit Dictionary of Artists'
+  short_quote: 'Crossref title: Vasilev, Jakob published year: 2011 container title: Benezit Dictionary of Artists'
+  digest: b88f6447c5e75276
+web_query_attempts:
+- cycle: 1
+  query: Bosakova-Ardenska, Vasilev, Kostadinova-Georgieva
+  source_family: algorithm_wiki_local
+  url_or_api_endpoint: https://www.elibrary.ru/item.asp?id=25518905
+  status: fetched
+  new_facts_added: 6
+  reason: local metadata
+- cycle: 1
+  query: Bosakova-Ardenska, Vasilev, Kostadinova-Georgieva
+  source_family: local_previous_cache
+  url_or_api_endpoint: ''
+  status: duplicate
+  new_facts_added: 0
+  reason: previous v1/second-pass sources reused
+- cycle: 1
+  query: https://www.elibrary.ru/item.asp?id=25518905
+  source_family: original_source
+  url_or_api_endpoint: https://www.elibrary.ru/item.asp?id=25518905
+  status: irrelevant
+  new_facts_added: 3
+  reason: original source page metadata
+- cycle: 1
+  query: Bosakova-Ardenska, Vasilev, Kostadinova-Georgieva
+  source_family: crossref
+  url_or_api_endpoint: https://doi.org/10.1093/benz/9780199773787.article.b00194781
+  status: irrelevant
+  new_facts_added: 0
+  reason: Crossref metadata/title search
+- cycle: 1
+  query: Bosakova-Ardenska, Vasilev, Kostadinova-Georgieva
+  source_family: arxiv
+  url_or_api_endpoint: https://export.arxiv.org/api/query?max_results=1&search_query=ti:%22Bosakova-Ardenska%2C+Vasilev%2C+Kostadinova-Georgieva%22
+  status: no_result
+  new_facts_added: 0
+  reason: arXiv title search returned no usable entry
+- cycle: 1
+  query: Bosakova-Ardenska, Vasilev, Kostadinova-Georgieva
+  source_family: wikipedia
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: Wikipedia search returned no relevant page
+extracted_problem_statement: 'Bosakova-Ardenska, Vasilev, Kostadinova-Georgieva is treated as a source-saturated AlgorithmWiki row for maintain a data structure supporting the named operations Input semantics: A set of records and operation sequence for insert, delete, query, or search operations. Output semantics: A maintained representation and answers to the supported queries.'
+extracted_algorithm_summary: 'Bosakova-Ardenska, Vasilev, Kostadinova-Georgieva is reconstructed as a classical data structures task. The source-backed title/name/fact record supports the task: maintain a data structure supporting the named operations.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

@@ -1,0 +1,58 @@
+algorithm_id: AW-000634
+canonical_name: Liu
+enrichment_status: SECOND_PASS_INSUFFICIENT
+review_reasons:
+- No second-pass rule could identify source-backed task semantics.
+source_records:
+- access_status: metadata_only
+  digest: 41e0998a26066735
+  extracted_facts:
+  - 'AlgorithmWiki row name: Liu'
+  - 'domain: unknown'
+  - 'time complexity: O(kn^2)'
+  - 'space complexity: O(n)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: size of database, k: number of functional dependencies (assume O(n))'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000634:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Liu
+  url: https://doi.org/10.1016/0950-5849(92)90028-N
+- access_status: fetched
+  digest: 935ec5496fa0a508
+  extracted_facts:
+  - 'DOI title: Method to determine existence of perfect BCNF decomposition'
+  - 'published year: 1992'
+  - 'container title: Information and Software Technology'
+  reliability: HIGH
+  short_quote: ''
+  source_id: crossref:403e9e2cb44576b7
+  source_type: doi_metadata
+  title: Method to determine existence of perfect BCNF decomposition
+  url: https://doi.org/10.1016/0950-5849(92)90028-N
+- access_status: fetched
+  digest: a06c0f5207e4cd3f
+  extracted_facts:
+  - 'source page title: Redirecting'
+  - 'source page description: Redirecting'
+  reliability: HIGH
+  short_quote: Redirecting
+  source_id: source:dfdf2d865ced7395
+  source_type: doi_metadata
+  title: Redirecting
+  url: https://doi.org/10.1016/0950-5849(92)90028-N
+- source_id: crossref_search:9ea22ae99a8e44fd
+  url: https://doi.org/10.1016/0950-5849(92)90028-n
+  title: Method to determine existence of perfect BCNF decomposition
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: Method to determine existence of perfect BCNF decomposition'
+  short_quote: ''
+  digest: 16cce5b57bc4c965
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

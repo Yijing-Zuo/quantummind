@@ -1,0 +1,74 @@
+id: AW-000473-P0345
+kind: probe
+algorithm_id: AW-000473
+algorithm_name: Knuth's DP algorithm
+source_records:
+- access_status: metadata_only
+  digest: 27a3d1e20ba1d495
+  extracted_facts:
+  - 'AlgorithmWiki row name: Knuth''s DP algorithm'
+  - 'domain: string'
+  - 'time complexity: O(n^2)'
+  - 'space complexity: O(n^2)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of elements'
+  - 'precard summary: Given one or more explicit strings, compute the matching, indexing, alignment, or transformation output targeted by the record. Baseline: time O(n^2); space O(n^2). Bottleneck: string scanning, preprocessing tables, and reporting matches dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000473:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Knuth's DP algorithm
+  url: https://link.springer.com/article/10.1007/BF00264289
+- access_status: fetched
+  digest: 027598a4a09c890c
+  extracted_facts:
+  - 'DOI title: Optimum binary search trees'
+  - 'published year: 1971'
+  - 'container title: Acta Informatica'
+  reliability: HIGH
+  short_quote: ''
+  source_id: crossref:dec440b17318492a
+  source_type: doi_metadata
+  title: Optimum binary search trees
+  url: https://doi.org/10.1007/BF00264289
+- access_status: skipped
+  digest: e5d632e6be0ee835
+  extracted_facts:
+  - robots.txt disallowed fetch
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:3457793f918aa299
+  source_type: publisher_abstract
+  title: robots.txt disallowed fetch
+  url: https://link.springer.com/article/10.1007/BF00264289
+web_query_attempts:
+- method: search_plan
+  query: Knuth's DP algorithm algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Knuth's DP algorithm algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Knuth's DP algorithm problem definition
+  status: recorded
+- method: search_plan
+  query: Knuth's DP algorithm string algorithm
+  status: recorded
+- method: search_plan
+  query: Knuth's DP algorithm site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Knuth's DP algorithm algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://link.springer.com/article/10.1007/BF00264289
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1007/BF00264289
+  status: fetched
+- method: source_link_html_metadata
+  query: https://link.springer.com/article/10.1007/BF00264289
+  status: skipped
+extracted_problem_statement: 'Knuth''s DP algorithm is treated as a classical string task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Knuth''s DP algorithm. Input semantics: One or more finite strings, sequences, patterns, or alphabets. Output semantics: Pattern occurrence positions, matches, or the associated string-search report.'
+extracted_algorithm_summary: 'Knuth''s DP algorithm is a string algorithm record. Classical complexity metadata: time O(n^2); space O(n^2). The stated classical model is Word RAM. Public metadata/source text adds: Knuth''s DP algorithm string string n: number of elements O(n^2) Given one or more explicit strings, compute the matching, indexing, alignment, or transformation output targeted by the record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

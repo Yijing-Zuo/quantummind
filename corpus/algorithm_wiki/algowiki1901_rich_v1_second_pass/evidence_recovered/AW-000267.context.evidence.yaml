@@ -1,0 +1,61 @@
+id: AW-000267
+kind: context_recovered
+algorithm_id: AW-000267
+algorithm_name: Maekawa's algorithm
+source_records:
+- access_status: metadata_only
+  digest: 8c9471f63ecac66b
+  extracted_facts:
+  - 'AlgorithmWiki row name: Maekawa''s algorithm'
+  - 'domain: unknown'
+  - 'time complexity: O(n^{0.5})'
+  - 'space complexity: O(1) per process, O(n) total'
+  - 'parameter definitions: n: number of processes'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000267:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Maekawa's algorithm
+  url: https://cseweb.ucsd.edu/classes/wi09/cse223a/p145-maekawa.pdf
+- source_id: crossref_search:51205f693fd0f985
+  url: https://doi.org/10.1093/benz/9780199773787.article.b00202879
+  title: Maekawa, Sempan
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: Maekawa, Sempan'
+  short_quote: ''
+  digest: 8475aa83ceb1a687
+web_query_attempts:
+- query: '"Maekawa''s algorithm" algorithm'
+  method: search_plan
+  status: recorded
+- query: '"Maekawa''s algorithm" input output'
+  method: search_plan
+  status: recorded
+- query: '"Maekawa''s algorithm" time complexity'
+  method: search_plan
+  status: recorded
+- query: '"Maekawa''s algorithm" pseudocode'
+  method: search_plan
+  status: recorded
+- query: '"Maekawa''s algorithm" problem'
+  method: search_plan
+  status: recorded
+- query: '"Maekawa''s algorithm" PDF metadata abstract'
+  method: search_plan
+  status: recorded
+- query: https://cseweb.ucsd.edu/classes/wi09/cse223a/p145-maekawa.pdf
+  method: search_plan
+  status: recorded
+- query: Maekawa's algorithm algorithm
+  method: crossref_title_search
+  status: fetched
+- query: Maekawa's algorithm algorithm
+  method: wikipedia_summary_search
+  status: failed_or_not_relevant
+extracted_problem_statement: 'Maekawa''s algorithm is reconstructed as a classical parallel algorithms task. Problem/task: coordinate process access to a critical section without simultaneous entry Input semantics: A set of processes, request/release events, and shared-memory or message-passing assumptions. Output semantics: A protocol state sequence or decision granting safe critical-section access.'
+extracted_algorithm_summary: 'Maekawa''s algorithm is treated as the named AlgorithmWiki variant for coordinate process access to a critical section without simultaneous entry Classical complexity metadata: time O(n^{0.5}); space O(1) per process, O(n) total. Public metadata/source title support includes Maekawa, Sempan.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

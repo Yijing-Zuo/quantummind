@@ -1,0 +1,31 @@
+algorithm_id: AW-001026
+canonical_name: Mongelli et. al.
+enrichment_status: SECOND_PASS_INSUFFICIENT
+review_reasons:
+- No second-pass rule could identify source-backed task semantics.
+source_records:
+- access_status: metadata_only
+  digest: 664f64f4aaac5eba
+  extracted_facts:
+  - 'AlgorithmWiki row name: Mongelli et. al.'
+  - 'domain: parallel_algorithms'
+  - 'precard summary: Given the explicit input instance for the stated classical task, execute or analyze the parallel algorithm under its work, span, and processor-count model. Baseline: not stated. Bottleneck: work, span, communication, and processor-count assumptions dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001026:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Mongelli et. al.
+  url: https://www.researchgate.net/profile/Henrique-Mongelli/publication/228439792_An_Alternative_Implementation_for_the_FPT_k-Vertex_Cover_Parallel_Algorithm/links/0a85e53584fdabd8da000000/An-Alternative-Implementation-for-the-FPT-k-Vertex-Cover-Parallel-Algorithm.pdf
+- source_id: crossref_search:8225cc3322cf31b0
+  url: https://doi.org/10.3109/01443615.2010.505307
+  title: 'Re: Letter by Mongelli and Gardosi'
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: Re: Letter by Mongelli and Gardosi'
+  short_quote: ''
+  digest: 04c43acf11653006
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

@@ -1,0 +1,19 @@
+case_id: QM-PB-005
+title: "Quantum walk algorithm for element distinctness"
+authors: [Andris Ambainis]
+year: 2007
+venue: "SIAM Journal on Computing / arXiv"
+official_url: "https://arxiv.org/abs/quant-ph/0311001"
+result_location: "abstract"
+result_type: upper_bound
+paraphrased_support: "The paper gives an O(N^(2/3)) query algorithm for finding two equal items among N queried values, matching the known lower-bound scale."
+problem_model: "element distinctness query problem"
+promise: "indexed value oracle"
+access_model: value_query_oracle
+output_contract: collision_or_distinctness
+classical_complexity: "CLASSICAL: Theta(N) randomized query scale"
+quantum_complexity: "QUERY: O(N^(2/3))"
+claim_scope: QUERY
+caveats: [query model, collision/distinctness output]
+source_status: PRIMARY_SOURCE_CHECKED
+

@@ -1,0 +1,49 @@
+id: AW-000485
+kind: context
+algorithm_id: AW-000485
+algorithm_name: Fleury's algorithm + Thorup
+source_records:
+- access_status: metadata_only
+  digest: 3e8b372da0f0ffd4
+  extracted_facts:
+  - 'AlgorithmWiki row name: Fleury''s algorithm + Thorup'
+  - 'domain: graph'
+  - 'time complexity: O(E \log^3(E) \log\log E)'
+  - 'space complexity: O(E)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: V: number of vertices, E: number of edges'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(E \log^3(E) \log\log E); space O(E). Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000485:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Fleury's algorithm + Thorup
+  url: https://www.cs.princeton.edu/courses/archive/spr10/cos423/handouts/NearOpt.pdf
+web_query_attempts:
+- method: search_plan
+  query: Fleury's algorithm + Thorup algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Fleury's algorithm + Thorup algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Fleury's algorithm + Thorup problem definition
+  status: recorded
+- method: search_plan
+  query: Fleury's algorithm + Thorup graph algorithm
+  status: recorded
+- method: search_plan
+  query: Fleury's algorithm + Thorup site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Fleury's algorithm + Thorup algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://www.cs.princeton.edu/courses/archive/spr10/cos423/handouts/NearOpt.pdf
+  status: recorded
+- method: wikipedia_summary_search
+  query: Fleury's algorithm + Thorup algorithm
+  status: failed_or_not_relevant
+extracted_problem_statement: 'Fleury''s algorithm + Thorup is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Fleury''s algorithm + Thorup. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'Fleury''s algorithm + Thorup is a graph algorithm record. Classical complexity metadata: time O(E \log^3(E) \log\log E); space O(E). The stated classical model is Word RAM. Public metadata/source text adds: Fleury''s algorithm + Thorup graph graph V: number of vertices, E: number of edges O(E \log^3(E) \log\log E) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

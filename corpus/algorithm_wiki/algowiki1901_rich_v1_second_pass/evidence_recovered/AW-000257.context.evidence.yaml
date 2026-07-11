@@ -1,0 +1,59 @@
+id: AW-000257
+kind: context_recovered
+algorithm_id: AW-000257
+algorithm_name: Furer's algorithm
+source_records:
+- access_status: metadata_only
+  digest: 509ca22da68d550c
+  extracted_facts:
+  - 'AlgorithmWiki row name: Furer''s algorithm'
+  - 'domain: unknown'
+  - 'time complexity: O(n \log n 2^{O(\log^*n)})'
+  - 'space complexity: O(n) auxiliary'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: length of one of the integers, in bits'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000257:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Furer's algorithm
+  url: https://web.archive.org/web/20130425232048/http://www.cse.psu.edu/~furer/Papers/mult.pdf
+- source_id: crossref_search:c0868674f98415f8
+  url: https://doi.org/10.5749/9780816692262-050
+  title: Furer
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: Furer'
+  short_quote: ''
+  digest: 8835bbae4cc5fe39
+web_query_attempts:
+- query: '"Furer''s algorithm" algorithm'
+  method: search_plan
+  status: recorded
+- query: '"Furer''s algorithm" input output'
+  method: search_plan
+  status: recorded
+- query: '"Furer''s algorithm" time complexity'
+  method: search_plan
+  status: recorded
+- query: '"Furer''s algorithm" pseudocode'
+  method: search_plan
+  status: recorded
+- query: '"Furer''s algorithm" problem'
+  method: search_plan
+  status: recorded
+- query: '"Furer''s algorithm" PDF metadata abstract'
+  method: search_plan
+  status: recorded
+- query: https://web.archive.org/web/20130425232048/http://www.cse.psu.edu/~furer/Papers/mult.pdf
+  method: search_plan
+  status: recorded
+- query: Furer's algorithm algorithm
+  method: crossref_title_search
+  status: fetched
+extracted_problem_statement: 'Furer''s algorithm is reconstructed as a classical combinatorics task. Problem/task: multiply large integers Input semantics: Two integers represented by n-bit or n-limb strings. Output semantics: The exact product integer.'
+extracted_algorithm_summary: 'Furer''s algorithm is treated as the named AlgorithmWiki variant for multiply large integers Classical complexity metadata: time O(n \log n 2^{O(\log^*n)}); space O(n) auxiliary. Public metadata/source title support includes Furer.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

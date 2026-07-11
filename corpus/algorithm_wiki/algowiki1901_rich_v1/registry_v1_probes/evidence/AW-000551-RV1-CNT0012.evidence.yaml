@@ -1,0 +1,21 @@
+probe_id: AW-000551-RV1-CNT0012
+kind: registry_v1_probe
+parent_algorithm_id: AW-000551
+parent_algorithm_name: HyperLogLog++
+source_card_paths:
+- corpus\algorithm_wiki\algowiki1901_rich_v1\public_context\AW-000551.yaml
+- corpus\algorithm_wiki\algowiki1901_rich_v1\public_probe\AW-000551-P0375.yaml
+source_metadata_paths:
+- corpus\algorithm_wiki\algowiki1901_rich_v1\metadata_probe\AW-000551-P0375.meta.yaml
+source_records_used:
+- AW-000551:algorithm_wiki_metadata
+short_paraphrased_support: 'HyperLogLog++ HyperLogLog++ is treated as a classical numerical analysis task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with HyperLogLog++. Input semantics: Numeric parameters, functions, samples, tolerances, or distributions for the stated numerical task. Output semantics: An exact or approximate numerical value, estimate, approximation, or fitted representation. HyperLogLog++ is a numerical analysis algorithm record. Classical complexity metadata: time O(N); space O(\epsilon^{-2}\log(\log n))+\log n). The stated classical model is Word RAM. Public metadata/source text adds: HyperLogLog++ numerical_analysis numerical_analysis N: number of values in multiset, n: cardinality of multiset (not known), \epsilon: approximation parameter O(N) Given explicit numeric parameters or a classical function-evaluation interface, compute the requeste'
+introduced_assumptions:
+- finite_search_space
+- coherent_boolean_oracle
+- count_precision_specified
+limitations:
+- The probe is a public query/subroutine hypothesis only.
+- It does not assert a full original-algorithm speedup.
+- Oracle, promise, and data-representation costs require expert review.
+confirmation: Public provenance sidecar only; no evaluator label or private benchmark answer is encoded.

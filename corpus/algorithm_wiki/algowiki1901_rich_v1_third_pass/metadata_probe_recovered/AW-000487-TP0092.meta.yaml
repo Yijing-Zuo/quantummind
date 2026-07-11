@@ -1,0 +1,44 @@
+probe_id: AW-000487-TP0092
+algorithm_id: AW-000487-TP0092
+canonical_name: "Cooley\u2013Tukey algorithm period_structure_probe"
+readiness: READY_PUBLIC_PROBE
+quality_score: 100
+probe_type: period_structure_probe
+parent_algorithm_id: AW-000487
+parent_algorithm_name: "Cooley\u2013Tukey algorithm"
+source_records_used:
+- AW-000487:algorithm_wiki_metadata
+- crossref_search:8599ceaa39aa74bd
+- skipped:86800b65d514ba87
+- crossref_search:aefbf295a322bc35
+- openalex:dc707be619c6c257
+introduced_assumptions:
+- periodic_structure
+- coherent_function_access
+missing_from_original_problem:
+- proof that period finding is the relevant subroutine
+original_output_contract: one_witness
+probe_output_contract: exact_value
+not_end_to_end_claim: true
+expected_authority: query_or_subroutine_hypothesis_only
+why_probe_is_scientifically_interesting: Cycle and period rows can expose sharply structured query tasks.
+why_probe_may_fail: The original row may require explicit enumeration or full-output reconstruction after detecting a period.
+inferred_input_model: explicit_combinatorial_problem
+inferred_access_model: coherent_boolean_oracle
+inferred_output_contract: exact_value
+inferred_size_parameters:
+- 'Parameter definition: n: length of the input data set'
+inferred_promises:
+- periodic_structure
+- oracle_model_assumption
+inferred_ambiguities:
+- This probe is assumption-bearing and is not an end-to-end speedup claim.
+- periodicity may be incidental metadata rather than the task bottleneck
+- The parent context card and source records should be checked before live use.
+source_count: 5
+source_quality: HIGH
+confidence_score: 100
+card_digest: 0db9c34d7634f0d7
+extraction_version: algorithm-wiki-rich-third-pass-probe-v1
+rich_card_kind: probe_recovered
+saturation_status: RECOVERED_CONTEXT_AND_PROBE

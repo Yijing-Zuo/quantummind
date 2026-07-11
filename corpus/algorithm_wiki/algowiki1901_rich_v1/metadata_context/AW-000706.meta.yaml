@@ -1,0 +1,58 @@
+algorithm_family: unknown
+algorithm_id: AW-000706
+approximate: '0'
+approximation_factor: ''
+blind_name: Algorithm Wiki public task AW-000706
+canonical_name: Bellare Active Learning
+computational_model: Word RAM
+domain: unknown
+extracted_description: ''
+extraction_version: algorithm-wiki-rich-context-v1
+family: unknown
+inferred_access_model: adjacency_list_query
+inferred_ambiguities:
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.
+inferred_input_model: explicit_graph_problem
+inferred_output_contract: one_witness
+inferred_problem_statement: 'Bellare Active Learning is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Bellare Active Learning. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: Pattern occurrence positions, matches, or the associated string-search report.'
+inferred_promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+inferred_size_parameters:
+- 'Parameter definition: n: number of records, k: number of features (can be up to O(\sqrt{n}))'
+number_of_processors: ''
+page_digest: ''
+page_fetch_status: not_found
+page_url: ''
+parameter_definitions: 'n: number of records, k: number of features (can be up to O(\sqrt{n}))'
+problem_name: unknown
+quality_flags:
+- has_complexity_semantics
+- has_size_parameters
+- has_computational_model
+quality_score: 70
+randomized: '0'
+readiness: READY_PUBLIC_CONTEXT
+review_reasons:
+- missing_problem_statement
+- unknown_input_model
+- unknown_access_model
+- unknown_output_contract
+- insufficient_algorithm_level_structure
+source_link: https://dl.acm.org/doi/10.1145/2339530.2339707
+source_link_type: acm
+space_complexity: ''
+span_depth: ''
+time_complexity: O(n^2 \log n c \log c)
+variation: ''
+work: ''
+year: '2012'
+rich_card_kind: context
+source_records_used:
+- AW-000706:algorithm_wiki_metadata
+- crossref:a5cde89255a9000d
+- failed:53cafa6a42bc87f7
+source_count: 3
+source_quality: HIGH
+confidence_score: 70
+card_digest: e6ecae2c7ea39fbd

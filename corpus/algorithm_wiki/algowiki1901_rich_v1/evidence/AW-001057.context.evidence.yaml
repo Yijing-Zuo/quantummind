@@ -1,0 +1,71 @@
+id: AW-001057
+kind: context
+algorithm_id: AW-001057
+algorithm_name: Dohi et al.
+source_records:
+- access_status: metadata_only
+  digest: 91b76fe7f4bafdf9
+  extracted_facts:
+  - 'AlgorithmWiki row name: Dohi et al.'
+  - 'domain: sorting'
+  - 'time complexity: n b tau (a+1+(n-l)/2^(l-1))'
+  - 'computational model: hardware sorter'
+  - 'parameter definitions: n: size of list (power of two), b: length of data items in bytes, l: level of bottom processors, tau=1/T: average time to send byte from node after sorting, M: bus transfer rate, a=T/M'
+  - 'precard summary: Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model. Baseline: time n b tau (a+1+(n-l)/2^(l-1)); work 2^l n b \tau (a+1+(n-l)/2^(l-1)); span/depth n b tau (a+1+(n-l)/2^(l-1)); processors 2^l. Bottleneck: comparison, distribution, and full-output movement costs dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001057:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Dohi et al.
+  url: https://dl.acm.org/doi/abs/10.1145/1067649.801730
+- access_status: skipped
+  digest: d458a811f75e4c23
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:0fde12059aa7f131
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1145/1067649.801730
+- access_status: skipped
+  digest: 862172b4c1512702
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:5f751f9e85cc49af
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://dl.acm.org/doi/abs/10.1145/1067649.801730
+web_query_attempts:
+- method: search_plan
+  query: Dohi et al. algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Dohi et al. algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Dohi et al. problem definition
+  status: recorded
+- method: search_plan
+  query: Dohi et al. sorting algorithm
+  status: recorded
+- method: search_plan
+  query: Dohi et al. site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Dohi et al. algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://dl.acm.org/doi/abs/10.1145/1067649.801730
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1145/1067649.801730
+  status: skipped
+- method: source_link_html_metadata
+  query: https://dl.acm.org/doi/abs/10.1145/1067649.801730
+  status: skipped
+extracted_problem_statement: 'Dohi et al. is treated as a classical sorting task for rich AlgorithmWiki discovery. Problem/task: sort the input sequence using the named classical sorting method. Input semantics: A finite array or list of comparable keys or records. Output semantics: The same items returned in nondecreasing order, usually as a full reordered sequence.'
+extracted_algorithm_summary: 'Dohi et al. is a sorting algorithm record. Classical complexity metadata: time n b tau (a+1+(n-l)/2^(l-1)); work 2^l n b \tau (a+1+(n-l)/2^(l-1)); span/depth n b tau (a+1+(n-l)/2^(l-1)); processors 2^l. The stated classical model is hardware sorter. Public metadata/source text adds: Dohi et al. sorting sorting n: size of list (power of two), b: length of data items in bytes, l: level of bottom processors, tau=1/T: average time to send byte from node after sorting, M: bus transfer rate, a=T/M n b tau (a+1+(n-l)/2^(l-1)) Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

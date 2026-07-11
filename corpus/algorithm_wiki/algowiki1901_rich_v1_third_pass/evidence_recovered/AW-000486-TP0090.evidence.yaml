@@ -1,0 +1,89 @@
+id: AW-000486-TP0090
+kind: probe_recovered
+algorithm_id: AW-000486
+algorithm_name: Naive algorithm
+source_records:
+- access_status: metadata_only
+  digest: 874a4beeedbf1d54
+  extracted_facts:
+  - 'AlgorithmWiki row name: Naive algorithm'
+  - 'domain: unknown'
+  - 'time complexity: O(n^2)'
+  - 'space complexity: O(1)'
+  - 'computational model: Word/Real RAM'
+  - 'parameter definitions: n: length of the input data set'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000486:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Naive algorithm
+  url: '-'
+- access_status: fetched
+  digest: 0c74865fe56517b0
+  extracted_facts:
+  - "Crossref title-search result: The \u201CNaive\u201D RSA Algorithm"
+  reliability: MEDIUM
+  short_quote: ''
+  source_id: crossref_search:39f69c168e863d01
+  source_type: doi_metadata
+  title: "The \u201CNaive\u201D RSA Algorithm"
+  url: https://doi.org/10.1007/978-3-319-21936-3_15
+- source_id: crossref_search:42b001a7bb3db940
+  url: https://doi.org/10.1007/978-3-319-21936-3_15
+  title: "The \u201CNaive\u201D RSA Algorithm"
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - "Crossref title: The \u201CNaive\u201D RSA Algorithm"
+  - 'published year: 2016'
+  - 'container title: Information Security and Cryptography'
+  short_quote: "Crossref title: The \u201CNaive\u201D RSA Algorithm published year: 2016 container title: Information Security and Cryptography"
+  digest: 0c19903d44277128
+web_query_attempts:
+- cycle: 1
+  query: Naive algorithm
+  source_family: algorithm_wiki_local
+  url_or_api_endpoint: '-'
+  status: fetched
+  new_facts_added: 9
+  reason: local metadata
+- cycle: 1
+  query: Naive algorithm
+  source_family: local_previous_cache
+  url_or_api_endpoint: ''
+  status: duplicate
+  new_facts_added: 0
+  reason: previous v1/second-pass sources reused
+- cycle: 1
+  query: Naive algorithm
+  source_family: original_source
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: no original source link
+- cycle: 1
+  query: Naive algorithm
+  source_family: crossref
+  url_or_api_endpoint: https://doi.org/10.1007/978-3-319-21936-3_15
+  status: fetched
+  new_facts_added: 6
+  reason: Crossref metadata/title search
+- cycle: 1
+  query: Naive algorithm
+  source_family: arxiv
+  url_or_api_endpoint: https://export.arxiv.org/api/query?max_results=1&search_query=ti:%22Naive+algorithm%22
+  status: no_result
+  new_facts_added: 0
+  reason: arXiv title search returned no usable entry
+- cycle: 1
+  query: Naive algorithm
+  source_family: wikipedia
+  url_or_api_endpoint: ''
+  status: no_result
+  new_facts_added: 0
+  reason: Wikipedia search returned no relevant page
+extracted_problem_statement: 'Naive algorithm is treated as a source-saturated AlgorithmWiki row for solve the named graph task indicated by the public source metadata Input semantics: An explicit graph with vertices, edges, weights, labels, or adjacency access as required by the row. Output semantics: A path, tree, component labeling, flow, matching, or witness object for the named graph task.'
+extracted_algorithm_summary: 'Naive algorithm is reconstructed as a classical graph task. The source-backed title/name/fact record supports the task: solve the named graph task indicated by the public source metadata.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

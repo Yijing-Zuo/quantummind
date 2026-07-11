@@ -1,0 +1,59 @@
+algorithm_id: AW-001093
+canonical_name: Kunde
+blind_name: Algorithm Wiki public task AW-001093
+year: '1988'
+domain: unknown
+family: unknown
+variation: ''
+problem_name: unknown
+algorithm_family: unknown
+time_complexity: rn+O(n^{1-1/r})
+space_complexity: ''
+computational_model: MIMD + describes comp model w/ assumptions
+randomized: '0'
+approximate: '0'
+approximation_factor: ''
+parameter_definitions: 'n: size of list, r: dimensions of processor mesh'
+span_depth: rn+O(n^{1-1/r})
+work: rn^2+O(n^{2-1/r})
+number_of_processors: n
+source_link: https://link.springer.com/chapter/10.1007/BFb0040409
+source_link_type: unknown
+page_url: ''
+page_fetch_status: not_found
+page_digest: ''
+extracted_description: ''
+inferred_problem_statement: 'Kunde is reconstructed as a classical image processing task. Problem/task: compute shaded/rendered image values from a geometric scene and illumination model Input semantics: Scene geometry, material parameters, lights, camera/view information, and image resolution. Output semantics: Rendered pixel colors or intermediate shading/visibility values.'
+inferred_input_model: explicit_image_processing_problem
+inferred_access_model: explicit_input_instance
+inferred_output_contract: full_solution
+inferred_size_parameters:
+- 'Parameter definition: n: size of list, r: dimensions of processor mesh'
+- p = stated number of processors (n)
+inferred_promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+inferred_ambiguities:
+- Some details are reconstructed from AlgorithmWiki metadata rather than an independently fetched full public description.
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.
+quality_score: 90
+quality_flags:
+- has_complexity_semantics
+- has_size_parameters
+- has_computational_model
+readiness: READY_PUBLIC_CONTEXT
+review_reasons:
+- A previous row has the same canonicalized algorithm name.
+extraction_version: algorithm-wiki-rich-second-pass-context-v1
+rich_card_kind: context_recovered
+source_records_used:
+- AW-001093:algorithm_wiki_metadata
+- skipped:0d360bf7207bcfce
+- skipped:5261991f773defdf
+- crossref:3fd27047330ec23d
+- crossref_search:0b18e1bdccf3f416
+source_count: 5
+source_quality: HIGH
+confidence_score: 90
+card_digest: 3640ff5fa99b7420
+second_pass_rule: rendering_shading

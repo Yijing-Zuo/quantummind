@@ -1,0 +1,74 @@
+id: AW-000178-P0139
+kind: probe
+algorithm_id: AW-000178
+algorithm_name: Jean-Daniel Boissonnat and Franco P., Preparata.
+source_records:
+- access_status: metadata_only
+  digest: c1a0e7efdf84498e
+  extracted_facts:
+  - 'AlgorithmWiki row name: Jean-Daniel Boissonnat and Franco P., Preparata.'
+  - 'domain: computational_geometry'
+  - 'time complexity: O((n+k) \log n)'
+  - 'space complexity: O(n)'
+  - 'computational model: Real RAM, under more restrictions/considerations (predicate arithmetic, exact arithmetic)'
+  - 'parameter definitions: n: number of line segments, k: number of points of intersection'
+  - 'precard summary: Given explicit geometric objects such as points, segments, or polygons, compute the requested geometric structure or witness set. Baseline: time O((n+k) \log n); space O(n). Bottleneck: geometric predicates, ordering events, and output-sensitive structure size dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000178:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Jean-Daniel Boissonnat and Franco P., Preparata.
+  url: https://epubs.siam.org/doi/abs/10.1137/S0097539797329373
+- access_status: fetched
+  digest: 0586e2c01ab354c8
+  extracted_facts:
+  - 'DOI title: Robust Plane Sweep for Intersecting Segments'
+  - 'published year: 2000'
+  - 'container title: SIAM Journal on Computing'
+  reliability: HIGH
+  short_quote: ''
+  source_id: crossref:239f152e2f913fda
+  source_type: doi_metadata
+  title: Robust Plane Sweep for Intersecting Segments
+  url: https://doi.org/10.1137/S0097539797329373
+- access_status: failed
+  digest: e0bc387344a1f797
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:fbdbda96a55fc994
+  source_type: publisher_abstract
+  title: 'HTTP Error 403: Forbidden'
+  url: https://epubs.siam.org/doi/abs/10.1137/S0097539797329373
+web_query_attempts:
+- method: search_plan
+  query: Jean-Daniel Boissonnat and Franco P., Preparata. algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Jean-Daniel Boissonnat and Franco P., Preparata. algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Jean-Daniel Boissonnat and Franco P., Preparata. problem definition
+  status: recorded
+- method: search_plan
+  query: Jean-Daniel Boissonnat and Franco P., Preparata. computational geometry algorithm
+  status: recorded
+- method: search_plan
+  query: Jean-Daniel Boissonnat and Franco P., Preparata. site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Jean-Daniel Boissonnat and Franco P., Preparata. algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://epubs.siam.org/doi/abs/10.1137/S0097539797329373
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1137/S0097539797329373
+  status: fetched
+- method: source_link_html_metadata
+  query: https://epubs.siam.org/doi/abs/10.1137/S0097539797329373
+  status: failed
+extracted_problem_statement: 'Jean-Daniel Boissonnat and Franco P., Preparata. is treated as a classical computational geometry task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Jean-Daniel Boissonnat and Franco P., Preparata.. Input semantics: Explicit geometric objects such as points, line segments, polygons, or planar subdivisions. Output semantics: The requested geometric structure, simplified curve, clipping result, intersection set, hull, or diagram.'
+extracted_algorithm_summary: 'Jean-Daniel Boissonnat and Franco P., Preparata. is a computational geometry algorithm record. Classical complexity metadata: time O((n+k) \log n); space O(n). The stated classical model is Real RAM, under more restrictions/considerations (predicate arithmetic, exact arithmetic). Public metadata/source text adds: Jean-Daniel Boissonnat and Franco P., Preparata.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

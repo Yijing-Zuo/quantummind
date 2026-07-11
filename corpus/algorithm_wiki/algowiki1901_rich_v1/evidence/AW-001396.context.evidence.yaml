@@ -1,0 +1,59 @@
+id: AW-001396
+kind: context
+algorithm_id: AW-001396
+algorithm_name: "Aggarwal, Chazelle, Guibas, \xD3'D\xFAnlaing, Yap"
+source_records:
+- access_status: metadata_only
+  digest: 8be2b56daf7098fc
+  extracted_facts:
+  - "AlgorithmWiki row name: Aggarwal, Chazelle, Guibas, \xD3'D\xFAnlaing, Yap"
+  - 'domain: computational_geometry'
+  - 'time complexity: O(\log n)'
+  - 'space complexity: O(n+k) total'
+  - 'computational model: CREW PRAM'
+  - 'parameter definitions: n: number of line segments'
+  - 'precard summary: Given explicit geometric objects such as points, segments, or polygons, compute the requested geometric structure or witness set. Baseline: time O(\log n); space O(n+k) total; work O(n(\log n)^2); span/depth O(log n); processors O(n log n). Bottleneck: geometric predicates, ordering events, and output-sensitive structure size dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001396:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: "AlgorithmWiki metadata for Aggarwal, Chazelle, Guibas, \xD3'D\xFAnlaing, Yap"
+  url: https://link.springer.com/content/pdf/10.1007/BF01762120.pdf
+- access_status: skipped
+  digest: f458d89060afc64d
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:33fd4a1aaf3e45dd
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1007/BF01762120.pdf
+web_query_attempts:
+- method: search_plan
+  query: "Aggarwal, Chazelle, Guibas, \xD3'D\xFAnlaing, Yap algorithm input output complexity"
+  status: recorded
+- method: search_plan
+  query: "Aggarwal, Chazelle, Guibas, \xD3'D\xFAnlaing, Yap algorithm pseudocode"
+  status: recorded
+- method: search_plan
+  query: "Aggarwal, Chazelle, Guibas, \xD3'D\xFAnlaing, Yap problem definition"
+  status: recorded
+- method: search_plan
+  query: "Aggarwal, Chazelle, Guibas, \xD3'D\xFAnlaing, Yap computational geometry algorithm"
+  status: recorded
+- method: search_plan
+  query: "Aggarwal, Chazelle, Guibas, \xD3'D\xFAnlaing, Yap site:nist.gov DADS"
+  status: recorded
+- method: search_plan
+  query: "Aggarwal, Chazelle, Guibas, \xD3'D\xFAnlaing, Yap algorithm wiki"
+  status: recorded
+- method: search_plan
+  query: https://link.springer.com/content/pdf/10.1007/BF01762120.pdf
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1007/BF01762120.pdf
+  status: skipped
+extracted_problem_statement: "Aggarwal, Chazelle, Guibas, \xD3'D\xFAnlaing, Yap is treated as a classical computational geometry task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Aggarwal, Chazelle, Guibas, \xD3'D\xFAnlaing, Yap. Input semantics: Explicit geometric objects such as points, line segments, polygons, or planar subdivisions. Output semantics: The requested geometric structure, simplified curve, clipping result, intersection set, hull, or diagram."
+extracted_algorithm_summary: "Aggarwal, Chazelle, Guibas, \xD3'D\xFAnlaing, Yap is a computational geometry algorithm record. Classical complexity metadata: time O(\\log n); space O(n+k) total; work O(n(\\log n)^2); span/depth O(log n); processors O(n log n). The stated classical model is CREW PRAM. Public metadata/source text adds: Aggarwal, Chazelle, Guibas, \xD3'D\xFAnlaing, Yap computational_geometry computational_geometry n: number of line segments O(\\log n) Given explicit geometric objects such as points, segments, or polygons, compute the requested geometric structure or witness set."
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

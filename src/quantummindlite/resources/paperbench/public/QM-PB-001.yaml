@@ -1,0 +1,12 @@
+case_id: QM-PB-001
+statement: "Given a black-box predicate over N labeled items with M marked items, return any marked item."
+input_model: "finite labeled domain with Boolean predicate"
+access_model: coherent_boolean_oracle
+output_contract: one_witness
+promises:
+  - marked_item_exists
+  - coherent predicate evaluation is available
+size_parameters: [N, M]
+ambiguities:
+  - oracle construction cost is not specified
+

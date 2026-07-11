@@ -1,0 +1,33 @@
+algorithm_id: AW-000640
+canonical_name: Xu Renio
+enrichment_status: SECOND_PASS_INSUFFICIENT
+review_reasons:
+- No second-pass rule could identify source-backed task semantics.
+source_records:
+- access_status: metadata_only
+  digest: 97ac2470146c95f0
+  extracted_facts:
+  - 'AlgorithmWiki row name: Xu Renio'
+  - 'domain: unknown'
+  - 'time complexity: O(2^n)'
+  - 'parameter definitions: n: number of attributes'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000640:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Xu Renio
+  url: ''
+- source_id: crossref_search:bafda30d9316819a
+  url: https://doi.org/10.1016/j.bbabio.2018.09.149
+  title: Acclimation of Danio Renio (zebrafish) embryos to the cold
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: Acclimation of Danio Renio (zebrafish) embryos to the cold'
+  short_quote: ''
+  digest: 1ef5a22c3ddd5099
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

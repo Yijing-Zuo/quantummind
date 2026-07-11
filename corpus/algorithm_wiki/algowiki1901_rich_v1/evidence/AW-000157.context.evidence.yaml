@@ -1,0 +1,71 @@
+id: AW-000157
+kind: context
+algorithm_id: AW-000157
+algorithm_name: T. C. Hu M. T. Shing
+source_records:
+- access_status: metadata_only
+  digest: 4beb05d65a690572
+  extracted_facts:
+  - 'AlgorithmWiki row name: T. C. Hu M. T. Shing'
+  - 'domain: unknown'
+  - 'time complexity: O(n \log n)'
+  - 'space complexity: O(n)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of matrices'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000157:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for T. C. Hu M. T. Shing
+  url: https://doi.org/10.1137/0211028
+- access_status: fetched
+  digest: fa053586117ef669
+  extracted_facts:
+  - 'DOI title: Computation of Matrix Chain Products. Part I'
+  - 'published year: 1982'
+  - 'container title: SIAM Journal on Computing'
+  reliability: HIGH
+  short_quote: ''
+  source_id: crossref:1a5d2b5e85cc7dfd
+  source_type: doi_metadata
+  title: Computation of Matrix Chain Products. Part I
+  url: https://doi.org/10.1137/0211028
+- access_status: failed
+  digest: 95655b7890c2a84d
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:72c09bec3105fdaf
+  source_type: doi_metadata
+  title: 'HTTP Error 403: Forbidden'
+  url: https://doi.org/10.1137/0211028
+web_query_attempts:
+- method: search_plan
+  query: T. C. Hu M. T. Shing algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: T. C. Hu M. T. Shing algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: T. C. Hu M. T. Shing problem definition
+  status: recorded
+- method: search_plan
+  query: T. C. Hu M. T. Shing site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: T. C. Hu M. T. Shing algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://doi.org/10.1137/0211028
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1137/0211028
+  status: fetched
+- method: source_link_html_metadata
+  query: https://doi.org/10.1137/0211028
+  status: failed
+extracted_problem_statement: 'T. C. Hu M. T. Shing is treated as a classical matrix linear algebra task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with T. C. Hu M. T. Shing. Input semantics: One or more explicit matrices or linear systems over the stated arithmetic domain. Output semantics: The requested matrix, decomposition, solution vector, or other linear-algebraic output.'
+extracted_algorithm_summary: 'T. C. Hu M. T. Shing is a matrix linear algebra algorithm record. Classical complexity metadata: time O(n \log n); space O(n). The stated classical model is Word RAM. Public metadata/source text adds: T. C. Hu M. T. Shing unknown unknown n: number of matrices O(n \log n) No public-ready summary is available because the row lacks enough task semantics.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

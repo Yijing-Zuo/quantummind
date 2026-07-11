@@ -1,0 +1,43 @@
+id: AW-000852-P0563
+kind: probe
+algorithm_id: AW-000852
+algorithm_name: Rabin-Karp (hashing-based)
+source_records:
+- access_status: metadata_only
+  digest: 925a536138f194e6
+  extracted_facts:
+  - 'AlgorithmWiki row name: Rabin-Karp (hashing-based)'
+  - 'domain: string'
+  - 'time complexity: O(k(n-k))'
+  - 'space complexity: O(\max(n, \sigma^k))'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: length of string, k: length of words, \sigma: size of alphabet'
+  - 'precard summary: Given one or more explicit strings, compute the matching, indexing, alignment, or transformation output targeted by the record. Baseline: time O(k(n-k)); space O(\max(n, \sigma^k)). Bottleneck: string scanning, preprocessing tables, and reporting matches dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000852:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Rabin-Karp (hashing-based)
+  url: ''
+web_query_attempts:
+- method: search_plan
+  query: Rabin-Karp (hashing-based) algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Rabin-Karp (hashing-based) algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Rabin-Karp (hashing-based) problem definition
+  status: recorded
+- method: search_plan
+  query: Rabin-Karp (hashing-based) string algorithm
+  status: recorded
+- method: search_plan
+  query: Rabin-Karp (hashing-based) site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Rabin-Karp (hashing-based) algorithm wiki
+  status: recorded
+extracted_problem_statement: 'Rabin-Karp (hashing-based) is treated as a classical string task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Rabin-Karp (hashing-based). Input semantics: One or more finite strings, sequences, patterns, or alphabets. Output semantics: Pattern occurrence positions, matches, or the associated string-search report.'
+extracted_algorithm_summary: 'Rabin-Karp (hashing-based) is a string algorithm record. Classical complexity metadata: time O(k(n-k)); space O(\max(n, \sigma^k)). The stated classical model is Word RAM. Public metadata/source text adds: Rabin-Karp (hashing-based) string string n: length of string, k: length of words, \sigma: size of alphabet O(k(n-k)) Given one or more explicit strings, compute the matching, indexing, alignment, or transformation output targeted by the record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

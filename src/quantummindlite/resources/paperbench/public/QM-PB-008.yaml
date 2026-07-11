@@ -1,0 +1,11 @@
+case_id: QM-PB-008
+statement: "Recover the complete N-bit string represented by a black-box Boolean function and output all N bits."
+input_model: "binary oracle string"
+access_model: coherent_boolean_oracle
+output_contract: full_oracle_string
+promises:
+  - oracle_bits_are_fixed
+size_parameters: [N]
+ambiguities:
+  - partial recovery is not the requested output
+

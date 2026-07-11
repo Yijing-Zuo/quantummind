@@ -1,0 +1,70 @@
+algorithm_id: AW-000437
+canonical_name: Nested loop join
+enrichment_status: THIRD_PASS_SATURATED_INSUFFICIENT
+review_reasons:
+- After the configured source-family cycles, no source-backed concrete task, input semantics, output semantics, and conservative access model could be established.
+source_records:
+- access_status: metadata_only
+  digest: b898d23730cdb748
+  extracted_facts:
+  - 'AlgorithmWiki row name: Nested loop join'
+  - 'domain: unknown'
+  - 'time complexity: O(nm)'
+  - 'space complexity: O(1)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n, m: sizes of input tables'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000437:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Nested loop join
+  url: '-'
+- access_status: fetched
+  digest: e0ccda0db9178d7f
+  extracted_facts:
+  - 'Crossref title-search result: Nested Loop Join'
+  reliability: MEDIUM
+  short_quote: ''
+  source_id: crossref_search:993f7e14f08358b3
+  source_type: doi_metadata
+  title: Nested Loop Join
+  url: https://doi.org/10.1007/978-1-4899-7993-3_868-2
+- source_id: crossref_search:29a41c1360811880
+  url: https://doi.org/10.1007/978-1-4899-7993-3_868-2
+  title: Nested Loop Join
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title: Nested Loop Join'
+  - 'published year: 2017'
+  - 'container title: Encyclopedia of Database Systems'
+  short_quote: 'Crossref title: Nested Loop Join published year: 2017 container title: Encyclopedia of Database Systems'
+  digest: f9c9b1ff06fea005
+- source_id: openalex:0de6f1aeae0e5fe0
+  url: https://openalex.org/W2129281431
+  title: Efficient algorithms for mining outliers from large data sets
+  source_type: openalex
+  access_status: fetched
+  reliability: HIGH
+  extracted_facts:
+  - 'OpenAlex title: Efficient algorithms for mining outliers from large data sets'
+  - 'publication year: 2000'
+  - 'abstract summary: In this paper, we propose a novel formulation for distance-based outliers that is based on the distance of a point from its k th nearest neighbor.'
+  short_quote: 'OpenAlex title: Efficient algorithms for mining outliers from large data sets publication year: 2000 abstract summary: In this paper, we propose a novel formulation'
+  digest: 43c8a2c99e7125e5
+- source_id: wikidata:620eb091bca6a130
+  url: http://www.wikidata.org/entity/Q4060687
+  title: nested loop join
+  source_type: wikidata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - nested loop join
+  - naive algorithm that joins two relations by using two nested loops
+  short_quote: nested loop join naive algorithm that joins two relations by using two nested loops
+  digest: 1c5dd96b3e800aff
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

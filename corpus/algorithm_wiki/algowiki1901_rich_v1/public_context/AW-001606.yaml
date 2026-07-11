@@ -1,0 +1,14 @@
+statement: 'Daoud, Gad (GNFS with parallel sieving) is included as a named whole-algorithm context card for a classical parallel algorithms task. The task is to analyze the classical input-output problem, not to certify an end-to-end improvement claim. Input semantics: The classical input instance named by the row, together with processor/work/span parameters when stated. Output semantics: The same mathematical output as the underlying classical task, annotated by work/span when available. Classical algorithm summary: Daoud, Gad (GNFS with parallel sieving) is a parallel algorithms algorithm record. Classical complexity metadata: work L_n[1/3,(64/9)^(1/3)] = exp(((64/9)^(1/3)+o(1))(ln n)^(1/3)(ln ln n)^(2/3)); span/depth L_n[1/3,(64/9)^(1/3)] = exp(((64/9)^(1/3)+o(1))(ln n)^(1/3)(ln ln n)^(2/3)). Public metadata/source text adds: Daoud, Gad (GNFS with parallel sieving) parallel_algorithms parallel_algorithms n: integer to be factorized Given the explicit input instance for the stated classical
+  task, execute or analyze the parallel algorithm under its work, span, and processor-count model. Classical complexity recorded for this row: time unknown; space unknown; computation model not stated. Dominant bottleneck: work, span/depth, processor count, and communication/synchronization assumptions. The useful review questions are whether the named structure exposes a smaller decision, witness, estimation, or algebraic subproblem; whether the full output size dominates any asymptotic gain; and whether the stated access model is realistic for the original input. Provenance is limited to AlgorithmWiki metadata and source-link facts; unresolved details are kept as ambiguities. Source-backed uncertainty or assumptions: No independent fetched public metadata source resolved this row beyond AlgorithmWiki metadata/source-link facts.'
+input_model: explicit_parallel_algorithm_problem
+access_model: explicit_input_instance
+output_contract: full_solution
+promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+size_parameters:
+- 'Parameter definition: n: integer to be factorized'
+ambiguities:
+- No independent fetched public metadata source resolved this row beyond AlgorithmWiki metadata/source-link facts.
+- Some details are reconstructed from AlgorithmWiki metadata rather than an independently fetched full public description.
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.

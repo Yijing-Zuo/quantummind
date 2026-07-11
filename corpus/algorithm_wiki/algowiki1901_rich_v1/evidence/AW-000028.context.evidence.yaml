@@ -1,0 +1,63 @@
+id: AW-000028
+kind: context
+algorithm_id: AW-000028
+algorithm_name: Heap Sort
+source_records:
+- access_status: metadata_only
+  digest: 758d63205eec9099
+  extracted_facts:
+  - 'AlgorithmWiki row name: Heap Sort'
+  - 'domain: sorting'
+  - 'time complexity: O(n \log n)'
+  - 'space complexity: O(1)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: size of list'
+  - 'precard summary: Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model. Baseline: time O(n \log n); space O(1). Bottleneck: comparison, distribution, and full-output movement costs dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000028:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Heap Sort
+  url: https://www.bibsonomy.org/bibtex/2f485e4ea9a877871b59ab503151a7f10/bjoern
+- access_status: fetched
+  digest: 8d755954449b1743
+  extracted_facts:
+  - 'source page title: BibSonomy'
+  - 'source page description: The blue social bookmark and publication sharing system.'
+  reliability: LOW
+  short_quote: The blue social bookmark and publication sharing system.
+  source_id: source:56addd42a58ed5b8
+  source_type: other_public_source
+  title: BibSonomy
+  url: https://www.bibsonomy.org/bibtex/2f485e4ea9a877871b59ab503151a7f10/bjoern
+web_query_attempts:
+- method: search_plan
+  query: Heap Sort algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Heap Sort algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Heap Sort problem definition
+  status: recorded
+- method: search_plan
+  query: Heap Sort sorting algorithm
+  status: recorded
+- method: search_plan
+  query: Heap Sort site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Heap Sort algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://www.bibsonomy.org/bibtex/2f485e4ea9a877871b59ab503151a7f10/bjoern
+  status: recorded
+- method: source_link_html_metadata
+  query: https://www.bibsonomy.org/bibtex/2f485e4ea9a877871b59ab503151a7f10/bjoern
+  status: fetched
+- method: wikipedia_summary_search
+  query: Heap Sort algorithm
+  status: failed_or_not_relevant
+extracted_problem_statement: 'Heap Sort is treated as a classical sorting task for rich AlgorithmWiki discovery. Problem/task: sort the input sequence using the named classical sorting method. Input semantics: A finite array or list of comparable keys or records. Output semantics: The same items returned in nondecreasing order, usually as a full reordered sequence.'
+extracted_algorithm_summary: 'Heap Sort is a sorting algorithm record. Classical complexity metadata: time O(n \log n); space O(1). The stated classical model is Word RAM. Public metadata/source text adds: Heap Sort sorting sorting n: size of list O(n \log n) Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

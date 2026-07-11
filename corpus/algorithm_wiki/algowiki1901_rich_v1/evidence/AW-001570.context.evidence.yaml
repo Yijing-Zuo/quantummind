@@ -1,0 +1,58 @@
+id: AW-001570
+kind: context
+algorithm_id: AW-001570
+algorithm_name: Driscoll, Gabow, Shrairman, Tarjan
+source_records:
+- access_status: metadata_only
+  digest: 8b97c718e7df6408
+  extracted_facts:
+  - 'AlgorithmWiki row name: Driscoll, Gabow, Shrairman, Tarjan'
+  - 'domain: graph'
+  - 'time complexity: O(m/p + n \log n)'
+  - 'computational model: EREW PRAM'
+  - 'parameter definitions: n: number of nodes, m: number of edges, p: number of processors'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(m/p + n \log n); work O(m + np \log n); span/depth O(m/p + n log n); processors p <= m/(n log n). Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001570:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Driscoll, Gabow, Shrairman, Tarjan
+  url: https://dl.acm.org/doi/pdf/10.1145/50087.50096
+- access_status: skipped
+  digest: 4b0bac54cad057e0
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:a005a72cac4f9585
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1145/50087.50096
+web_query_attempts:
+- method: search_plan
+  query: Driscoll, Gabow, Shrairman, Tarjan algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Driscoll, Gabow, Shrairman, Tarjan algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Driscoll, Gabow, Shrairman, Tarjan problem definition
+  status: recorded
+- method: search_plan
+  query: Driscoll, Gabow, Shrairman, Tarjan graph algorithm
+  status: recorded
+- method: search_plan
+  query: Driscoll, Gabow, Shrairman, Tarjan site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Driscoll, Gabow, Shrairman, Tarjan algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://dl.acm.org/doi/pdf/10.1145/50087.50096
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1145/50087.50096
+  status: skipped
+extracted_problem_statement: 'Driscoll, Gabow, Shrairman, Tarjan is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Driscoll, Gabow, Shrairman, Tarjan. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'Driscoll, Gabow, Shrairman, Tarjan is a graph algorithm record. Classical complexity metadata: time O(m/p + n \log n); work O(m + np \log n); span/depth O(m/p + n log n); processors p <= m/(n log n). The stated classical model is EREW PRAM. Public metadata/source text adds: Driscoll, Gabow, Shrairman, Tarjan graph graph n: number of nodes, m: number of edges, p: number of processors O(m/p + n \log n) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

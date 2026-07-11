@@ -1,0 +1,45 @@
+id: AW-001305
+kind: context
+algorithm_id: AW-001305
+algorithm_name: "Alves, C\xE1ceres, Song"
+source_records:
+- access_status: metadata_only
+  digest: 523412135334051a
+  extracted_facts:
+  - "AlgorithmWiki row name: Alves, C\xE1ceres, Song"
+  - 'domain: string'
+  - 'time complexity: O(mn/p + \log p)'
+  - 'computational model: BSP/CGM'
+  - 'parameter definitions: n, m: lengths of strings'
+  - 'precard summary: Given one or more explicit strings, compute the matching, indexing, alignment, or transformation output targeted by the record. Baseline: time O(mn/p + \log p); work O(mn); span/depth O(log(mn)/log(log(mn))); processors p < sqrt(m). Bottleneck: string scanning, preprocessing tables, and reporting matches dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001305:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: "AlgorithmWiki metadata for Alves, C\xE1ceres, Song"
+  url: https://ieeexplore.ieee.org/iel5/8608/27277/01213150.pdf
+web_query_attempts:
+- method: search_plan
+  query: "Alves, C\xE1ceres, Song algorithm input output complexity"
+  status: recorded
+- method: search_plan
+  query: "Alves, C\xE1ceres, Song algorithm pseudocode"
+  status: recorded
+- method: search_plan
+  query: "Alves, C\xE1ceres, Song problem definition"
+  status: recorded
+- method: search_plan
+  query: "Alves, C\xE1ceres, Song string algorithm"
+  status: recorded
+- method: search_plan
+  query: "Alves, C\xE1ceres, Song site:nist.gov DADS"
+  status: recorded
+- method: search_plan
+  query: "Alves, C\xE1ceres, Song algorithm wiki"
+  status: recorded
+- method: search_plan
+  query: https://ieeexplore.ieee.org/iel5/8608/27277/01213150.pdf
+  status: recorded
+extracted_problem_statement: "Alves, C\xE1ceres, Song is treated as a classical string task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Alves, C\xE1ceres, Song. Input semantics: One or more finite strings, sequences, patterns, or alphabets. Output semantics: Pattern occurrence positions, matches, or the associated string-search report."
+extracted_algorithm_summary: "Alves, C\xE1ceres, Song is a string algorithm record. Classical complexity metadata: time O(mn/p + \\log p); work O(mn); span/depth O(log(mn)/log(log(mn))); processors p < sqrt(m). The stated classical model is BSP/CGM. Public metadata/source text adds: Alves, C\xE1ceres, Song string string n, m: lengths of strings O(mn/p + \\log p) Given one or more explicit strings, compute the matching, indexing, alignment, or transformation output targeted by the record."
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

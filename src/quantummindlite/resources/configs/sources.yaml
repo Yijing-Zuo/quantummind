@@ -1,0 +1,85 @@
+sources:
+  - source_id: grover_1996
+    title: "A fast quantum mechanical algorithm for database search"
+    year: 1996
+    result_type: asymptotic_query_upper_bound
+    status: primary_source_checked
+    primitive_ids: [amplitude_amplification]
+    official_url: "https://doi.org/10.1145/237814.237866"
+  - source_id: brassard_hoyer_mosca_tapp_2002
+    title: "Quantum amplitude amplification and estimation"
+    year: 2002
+    result_type: asymptotic_query_upper_bound
+    status: primary_source_checked
+    primitive_ids: [amplitude_amplification, amplitude_estimation, quantum_counting]
+    official_url: "https://arxiv.org/abs/quant-ph/0005055"
+  - source_id: shor_1997
+    title: "Polynomial-time algorithms for prime factorization and discrete logarithms on a quantum computer"
+    year: 1997
+    result_type: asymptotic_gate_upper_bound
+    status: primary_source_checked
+    primitive_ids: [qft_period_finding]
+    official_url: "https://doi.org/10.1137/S0097539795293172"
+  - source_id: ambainis_2007
+    title: "Quantum walk algorithm for element distinctness"
+    year: 2007
+    result_type: asymptotic_query_upper_bound
+    status: primary_source_checked
+    primitive_ids: [quantum_walk_element_distinctness]
+    official_url: "https://doi.org/10.1137/S0097539705447311"
+  - source_id: harrow_hassidim_lloyd_2009
+    title: "Quantum algorithm for linear systems of equations"
+    year: 2009
+    result_type: conditional_asymptotic_state_output_upper_bound
+    status: primary_source_checked
+    primitive_ids: [quantum_linear_systems_state_output, dense_linear_system_full_output_stress]
+    official_url: "https://doi.org/10.1103/PhysRevLett.103.150502"
+  - source_id: hoyer_neerbek_shi_2002
+    title: "Quantum complexities of ordered searching, sorting, and element distinctness"
+    year: 2002
+    result_type: lower_bound_with_constant_factor_upper_bound
+    status: primary_source_checked
+    primitive_ids: [ordered_search, comparison_sorting_no_asymptotic_speedup]
+    official_url: "https://arxiv.org/abs/quant-ph/0102078"
+  - source_id: van_dam_1998
+    title: "Quantum oracle interrogation"
+    year: 1998
+    result_type: constant_factor_query_upper_bound
+    status: primary_source_checked
+    primitive_ids: [oracle_interrogation]
+    official_url: "https://arxiv.org/abs/quant-ph/9805006"
+  - source_id: beals_2001
+    title: "Quantum lower bounds by polynomials"
+    year: 2001
+    result_type: query_lower_bound
+    status: primary_source_checked
+    primitive_ids: [parity_query]
+    official_url: "https://doi.org/10.1145/502090.502097"
+  - source_id: durr_hoyer_1996
+    title: "A quantum algorithm for finding the minimum"
+    year: 1996
+    result_type: asymptotic_query_upper_bound
+    status: primary_source_checked
+    primitive_ids: [quantum_minimum_finding]
+    official_url: "https://arxiv.org/abs/quant-ph/9607014"
+  - source_id: montanaro_2015_backtracking
+    title: "Quantum walk speedup of backtracking algorithms"
+    year: 2015
+    result_type: asymptotic_query_upper_bound
+    status: primary_source_checked
+    primitive_ids: [quantum_backtracking_tree_search]
+    official_url: "https://arxiv.org/abs/1509.02374"
+  - source_id: magniez_nayak_roland_santha_2011
+    title: "Search via quantum walk"
+    year: 2011
+    result_type: asymptotic_query_upper_bound
+    status: primary_source_checked
+    primitive_ids: [quantum_walk_marked_vertex_search]
+    official_url: "https://doi.org/10.1137/090745854"
+  - source_id: brassard_hoyer_tapp_1998
+    title: "Quantum counting"
+    year: 1998
+    result_type: asymptotic_query_upper_bound
+    status: primary_source_checked
+    primitive_ids: [quantum_counting]
+    official_url: "https://arxiv.org/abs/quant-ph/9805082"

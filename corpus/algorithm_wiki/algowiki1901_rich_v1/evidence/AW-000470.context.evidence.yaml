@@ -1,0 +1,59 @@
+id: AW-000470
+kind: context
+algorithm_id: AW-000470
+algorithm_name: Heap's algorithm
+source_records:
+- access_status: metadata_only
+  digest: ac33e729d86e35ac
+  extracted_facts:
+  - 'AlgorithmWiki row name: Heap''s algorithm'
+  - 'domain: unknown'
+  - 'time complexity: O(n \cdot n!)'
+  - 'space complexity: O(n)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of elements'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000470:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Heap's algorithm
+  url: https://academic.oup.com/comjnl/article/6/3/293/360213
+- access_status: failed
+  digest: d0ebc7aee0967b4a
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:350c5c8e7dc940c7
+  source_type: other_public_source
+  title: 'HTTP Error 403: Forbidden'
+  url: https://academic.oup.com/comjnl/article/6/3/293/360213
+web_query_attempts:
+- method: search_plan
+  query: Heap's algorithm algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Heap's algorithm algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Heap's algorithm problem definition
+  status: recorded
+- method: search_plan
+  query: Heap's algorithm site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Heap's algorithm algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://academic.oup.com/comjnl/article/6/3/293/360213
+  status: recorded
+- method: source_link_html_metadata
+  query: https://academic.oup.com/comjnl/article/6/3/293/360213
+  status: failed
+- method: wikipedia_summary_search
+  query: Heap's algorithm algorithm
+  status: failed_or_not_relevant
+extracted_problem_statement: 'Heap''s algorithm is treated as a classical data structures task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Heap''s algorithm. Input semantics: A set of records plus update/query operations for the named data structure. Output semantics: A maintained data structure representation and answers to its supported queries.'
+extracted_algorithm_summary: 'Heap''s algorithm is a data structures algorithm record. Classical complexity metadata: time O(n \cdot n!); space O(n). The stated classical model is Word RAM. Public metadata/source text adds: Heap''s algorithm unknown unknown n: number of elements O(n \cdot n!) No public-ready summary is available because the row lacks enough task semantics.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

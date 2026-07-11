@@ -1,0 +1,49 @@
+id: AW-000461
+kind: context
+algorithm_id: AW-000461
+algorithm_name: Radix sorting method
+source_records:
+- access_status: metadata_only
+  digest: 95ee0653929a7ec8
+  extracted_facts:
+  - 'AlgorithmWiki row name: Radix sorting method'
+  - 'domain: sorting'
+  - 'time complexity: O(n)'
+  - 'space complexity: O(n)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of elements'
+  - 'precard summary: Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model. Baseline: time O(n); space O(n). Bottleneck: comparison, distribution, and full-output movement costs dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000461:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Radix sorting method
+  url: '-'
+web_query_attempts:
+- method: search_plan
+  query: Radix sorting method algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Radix sorting method algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Radix sorting method problem definition
+  status: recorded
+- method: search_plan
+  query: Radix sorting method sorting algorithm
+  status: recorded
+- method: search_plan
+  query: Radix sorting method site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Radix sorting method algorithm wiki
+  status: recorded
+- method: search_plan
+  query: '-'
+  status: recorded
+- method: wikipedia_summary_search
+  query: Radix sorting method algorithm
+  status: failed_or_not_relevant
+extracted_problem_statement: 'Radix sorting method is treated as a classical sorting task for rich AlgorithmWiki discovery. Problem/task: sort the input sequence using the named classical sorting method. Input semantics: A finite array or list of comparable keys or records. Output semantics: The same items returned in nondecreasing order, usually as a full reordered sequence.'
+extracted_algorithm_summary: 'Radix sorting method is a sorting algorithm record. Classical complexity metadata: time O(n); space O(n). The stated classical model is Word RAM. Public metadata/source text adds: Radix sorting method sorting sorting n: number of elements O(n) Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

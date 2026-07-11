@@ -1,0 +1,31 @@
+algorithm_id: AW-000383
+canonical_name: McAllester & Singh 1999
+enrichment_status: SECOND_PASS_INSUFFICIENT
+review_reasons:
+- No second-pass rule could identify source-backed task semantics.
+source_records:
+- access_status: metadata_only
+  digest: a3c2087f815f16d9
+  extracted_facts:
+  - 'AlgorithmWiki row name: McAllester & Singh 1999'
+  - 'domain: unknown'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000383:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for McAllester & Singh 1999
+  url: ''
+- source_id: crossref_search:d0741b99c208f727
+  url: https://doi.org/10.1075/lplp.24.1.12stc
+  title: 'Review of Singh (1999): The Yearbook of South Asian Languages and Linguistics, 1999'
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: Review of Singh (1999): The Yearbook of South Asian Languages and Linguistics, 1999'
+  short_quote: ''
+  digest: b285c6a4a95fba91
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

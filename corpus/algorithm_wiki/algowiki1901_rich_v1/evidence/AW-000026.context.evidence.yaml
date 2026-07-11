@@ -1,0 +1,60 @@
+id: AW-000026
+kind: context
+algorithm_id: AW-000026
+algorithm_name: Bubble Sort
+source_records:
+- access_status: metadata_only
+  digest: afbf8c561cc3829f
+  extracted_facts:
+  - 'AlgorithmWiki row name: Bubble Sort'
+  - 'domain: sorting'
+  - 'time complexity: O(n^2)'
+  - 'space complexity: O(1)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: size of list'
+  - 'precard summary: Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model. Baseline: time O(n^2); space O(1). Bottleneck: comparison, distribution, and full-output movement costs dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000026:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Bubble Sort
+  url: '-'
+- access_status: fetched
+  digest: c3d12521f13bc56b
+  extracted_facts:
+  - 'Wikipedia page: Bubble sort algorithm'
+  - 'summary: Bubble sort, sometimes referred to as sinking sort, is a simple sorting algorithm that repeatedly steps through the input list element by element, comparing the current element with the one after it, swapping their values if needed.'
+  reliability: MEDIUM
+  short_quote: Bubble sort, sometimes referred to as sinking sort, is a simple sorting algorithm that repeatedly steps through the input list element by element, comparing
+  source_id: wikipedia:a31c3ef01f0fc2af
+  source_type: wikipedia
+  title: Bubble sort algorithm
+  url: https://en.wikipedia.org/wiki/Bubble_sort_algorithm
+web_query_attempts:
+- method: search_plan
+  query: Bubble Sort algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Bubble Sort algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Bubble Sort problem definition
+  status: recorded
+- method: search_plan
+  query: Bubble Sort sorting algorithm
+  status: recorded
+- method: search_plan
+  query: Bubble Sort site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Bubble Sort algorithm wiki
+  status: recorded
+- method: search_plan
+  query: '-'
+  status: recorded
+- method: wikipedia_summary_search
+  query: Bubble Sort algorithm
+  status: fetched
+extracted_problem_statement: 'Bubble Sort is treated as a classical sorting task for rich AlgorithmWiki discovery. Problem/task: sort the input sequence using the named classical sorting method. Input semantics: A finite array or list of comparable keys or records. Output semantics: The same items returned in nondecreasing order, usually as a full reordered sequence.'
+extracted_algorithm_summary: 'Bubble Sort is a sorting algorithm record. Classical complexity metadata: time O(n^2); space O(1). The stated classical model is Word RAM. Public metadata/source text adds: Bubble Sort sorting sorting n: size of list O(n^2) Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

@@ -1,0 +1,12 @@
+statement: "Damiano Brigo Bernard Hanzon and Fran\xE7ois LeGland is included as a named whole-algorithm context card for a classical computational geometry task. The task is to analyze the classical input-output problem, not to certify an end-to-end improvement claim. Input semantics: Explicit geometric objects such as points, line segments, polygons, or planar subdivisions. Output semantics: The requested geometric structure, simplified curve, clipping result, intersection set, hull, or diagram. Classical algorithm summary: Damiano Brigo Bernard Hanzon and Fran\xE7ois LeGland is a computational geometry algorithm record. Classical complexity metadata: time O(n^{2.45} \\log n). The stated classical model is Word/Real RAM. Public metadata/source text adds: Damiano Brigo Bernard Hanzon and Fran\xE7ois LeGland unknown unknown n: number of dimensions in state space O(n^{2.45} \\log n) No public-ready summary is available because the row lacks enough task semantics. Classical complexity recorded\
+  \ for this row: time O(n^{2.45} \\log n); space unknown; computation model Word/Real RAM. Dominant bottleneck: geometric predicates, event ordering, and output-sensitive structure size. The useful review questions are whether the named structure exposes a smaller decision, witness, estimation, or algebraic subproblem; whether the full output size dominates any asymptotic gain; and whether the stated access model is realistic for the original input. Provenance used for reconstruction includes public metadata or abstract sources such as A differential geometric approach to nonlinear filtering: the projection filter | IEEE Journals & Magazine | IEEE Xplore."
+input_model: explicit_geometry_problem
+access_model: explicit_geometric_objects
+output_contract: full_solution
+promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+size_parameters:
+- 'Parameter definition: n: number of dimensions in state space'
+ambiguities:
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.

@@ -1,0 +1,32 @@
+algorithm_id: AW-000310
+canonical_name: A. Baumberg. 2000
+enrichment_status: SECOND_PASS_INSUFFICIENT
+review_reasons:
+- No second-pass rule could identify source-backed task semantics.
+source_records:
+- access_status: metadata_only
+  digest: 916d38d5e061a269
+  extracted_facts:
+  - 'AlgorithmWiki row name: A. Baumberg. 2000'
+  - 'domain: unknown'
+  - 'time complexity: O(n^3)'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000310:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for A. Baumberg. 2000
+  url: ''
+- source_id: crossref_search:3ec0ab3f0dc30e9c
+  url: https://doi.org/10.1553/0x00280f64
+  title: Baumberg, Gabriele
+  source_type: doi_metadata
+  access_status: fetched
+  reliability: MEDIUM
+  extracted_facts:
+  - 'Crossref title-search result: Baumberg, Gabriele'
+  short_quote: ''
+  digest: e4a1c3961eb30f15
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

@@ -1,0 +1,58 @@
+id: AW-001654
+kind: context
+algorithm_id: AW-001654
+algorithm_name: Andrews et al. (1)
+source_records:
+- access_status: metadata_only
+  digest: b51a76454159d821
+  extracted_facts:
+  - 'AlgorithmWiki row name: Andrews et al. (1)'
+  - 'domain: graph'
+  - 'time complexity: O(\log^3 n)'
+  - 'computational model: EREW PRAM'
+  - 'parameter definitions: n: number of intervals representing the graph'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(\log^3 n); work O(n \log n); span/depth O(log^3 n); processors O(n/log^2 n). Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001654:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Andrews et al. (1)
+  url: https://ieeexplore.ieee.org/document/395918
+- access_status: skipped
+  digest: 41853ad802cd43d8
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:a9ff334f66b5bda3
+  source_type: publisher_abstract
+  title: fetch budget exhausted
+  url: https://ieeexplore.ieee.org/document/395918
+web_query_attempts:
+- method: search_plan
+  query: Andrews et al. (1) algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Andrews et al. (1) algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Andrews et al. (1) problem definition
+  status: recorded
+- method: search_plan
+  query: Andrews et al. (1) graph algorithm
+  status: recorded
+- method: search_plan
+  query: Andrews et al. (1) site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Andrews et al. (1) algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://ieeexplore.ieee.org/document/395918
+  status: recorded
+- method: source_link_html_metadata
+  query: https://ieeexplore.ieee.org/document/395918
+  status: skipped
+extracted_problem_statement: 'Andrews et al. (1) is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Andrews et al. (1). Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'Andrews et al. (1) is a graph algorithm record. Classical complexity metadata: time O(\log^3 n); work O(n \log n); span/depth O(log^3 n); processors O(n/log^2 n). The stated classical model is EREW PRAM. Public metadata/source text adds: Andrews et al. (1) graph graph n: number of intervals representing the graph O(\log^3 n) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

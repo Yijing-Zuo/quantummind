@@ -1,0 +1,20 @@
+case_id: QM-PB-010
+access_model: dense_matrix_input
+output_contract: full_classical_vector
+required_structure_ids: [linear_system_full_output_stress]
+expected_selected_primitive: null
+expected_speedup_class: NONE
+required_caveat_ids: [loading_condition_readout]
+allowed_verdicts: [NEGATIVE]
+maximum_claim_scope: NONE
+expected_route: STOP
+forbidden_claim_ids: [full_classical_vector_speedup, condition_free_linear_solve]
+evidence_mapping:
+  required_structure_ids: [harrow_hassidim_lloyd_2009]
+  expected_selected_primitive: [harrow_hassidim_lloyd_2009]
+  expected_speedup_class: [harrow_hassidim_lloyd_2009]
+  required_caveat_ids: [harrow_hassidim_lloyd_2009]
+  allowed_verdicts: [harrow_hassidim_lloyd_2009]
+  maximum_claim_scope: [harrow_hassidim_lloyd_2009]
+  expected_route: [harrow_hassidim_lloyd_2009]
+  forbidden_claim_ids: [harrow_hassidim_lloyd_2009]

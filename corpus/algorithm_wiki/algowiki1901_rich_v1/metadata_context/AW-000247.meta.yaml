@@ -1,0 +1,64 @@
+algorithm_family: matrix linear algebra
+algorithm_id: AW-000247
+approximate: '1'
+approximation_factor: See Theorem 4.3 in original paper for error bound
+blind_name: Algorithm Wiki public task AW-000247
+canonical_name: Randomized LU Decomposition
+computational_model: Word RAM
+domain: matrix_linear_algebra
+extracted_description: ''
+extraction_version: algorithm-wiki-rich-context-v1
+family: matrix_linear_algebra
+inferred_access_model: dense_matrix_access
+inferred_ambiguities:
+- The AlgorithmWiki row marks the classical method as approximate.
+- The AlgorithmWiki row marks the classical method as randomized.
+- No independent fetched public metadata source resolved this row beyond AlgorithmWiki metadata/source-link facts.
+- Some details are reconstructed from AlgorithmWiki metadata rather than an independently fetched full public description.
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.
+inferred_input_model: explicit_matrix_problem
+inferred_output_contract: full_classical_output
+inferred_problem_statement: 'Randomized LU Decomposition is treated as a classical matrix linear algebra task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Randomized LU Decomposition. Input semantics: One or more explicit matrices or linear systems over the stated arithmetic domain. Output semantics: The requested matrix, decomposition, solution vector, or other linear-algebraic output.'
+inferred_promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+- classical_randomized_algorithm
+- classical_approximation_algorithm
+inferred_size_parameters:
+- 'Parameter definition: m: number of rows in input matrix, n: number of columns in input matrix, l: number of columns chosen to use in the decomposition (l \geq k), k: desired rank of decomposition'
+number_of_processors: ''
+page_digest: ''
+page_fetch_status: not_found
+page_url: ''
+parameter_definitions: 'm: number of rows in input matrix, n: number of columns in input matrix, l: number of columns chosen to use in the decomposition (l \geq k), k: desired rank of decomposition'
+problem_name: matrix linear algebra
+quality_flags:
+- domain_inferred
+- problem_statement_inferred
+- io_access_output_inferred
+- has_complexity_semantics
+- has_size_parameters
+- has_computational_model
+- randomized_flag_preserved
+- approximation_flag_preserved
+quality_score: 100
+randomized: '1'
+readiness: READY_PUBLIC_CONTEXT
+review_reasons:
+- 'public_card_validation_failed: blind public card contains the canonical algorithm name'
+source_link: https://www.sciencedirect.com/science/article/pii/S1063520316300069
+source_link_type: sciencedirect
+space_complexity: \tilde{O}(nl + ml)
+span_depth: ''
+time_complexity: O(n^3)
+variation: ''
+work: ''
+year: '2016'
+rich_card_kind: context
+source_records_used:
+- AW-000247:algorithm_wiki_metadata
+- failed:6b78ffa5ed12326f
+source_count: 2
+source_quality: HIGH
+confidence_score: 100
+card_digest: c605e4fb1ff303b9

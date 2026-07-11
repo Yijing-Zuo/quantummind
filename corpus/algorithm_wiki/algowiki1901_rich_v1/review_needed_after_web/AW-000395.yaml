@@ -1,0 +1,25 @@
+algorithm_id: AW-000395
+canonical_name: Maximum a Posteriori Occupancy Mapping
+enrichment_status: WEB_INSUFFICIENT
+review_reasons:
+- missing_concrete_problem_statement
+- unknown_input_model
+- unknown_output_contract
+- unknown_access_model
+source_records:
+- access_status: metadata_only
+  digest: 2d4a4d6cfb33270f
+  extracted_facts:
+  - 'AlgorithmWiki row name: Maximum a Posteriori Occupancy Mapping'
+  - 'domain: unknown'
+  - 'time complexity: O(n^3)'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000395:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Maximum a Posteriori Occupancy Mapping
+  url: ''
+extracted_problem_statement: ''
+extracted_input_semantics: ''
+extracted_output_semantics: ''

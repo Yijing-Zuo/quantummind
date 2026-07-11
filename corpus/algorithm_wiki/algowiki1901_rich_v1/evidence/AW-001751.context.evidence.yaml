@@ -1,0 +1,57 @@
+id: AW-001751
+kind: context
+algorithm_id: AW-001751
+algorithm_name: Er
+source_records:
+- access_status: metadata_only
+  digest: a0a088fbfeb335b3
+  extracted_facts:
+  - 'AlgorithmWiki row name: Er'
+  - 'domain: graph'
+  - 'computational model: SIMD'
+  - 'parameter definitions: n: number of vertices, m: number of edges, L: length of longest path from sink to source'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: work O(Ln); span/depth O(L); processors O(n). Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001751:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Er
+  url: https://academic.oup.com/comjnl/article/26/4/293/377400
+- access_status: skipped
+  digest: 850b8ee422664c46
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:0e2565821a400a71
+  source_type: other_public_source
+  title: fetch budget exhausted
+  url: https://academic.oup.com/comjnl/article/26/4/293/377400
+web_query_attempts:
+- method: search_plan
+  query: Er algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Er algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Er problem definition
+  status: recorded
+- method: search_plan
+  query: Er graph algorithm
+  status: recorded
+- method: search_plan
+  query: Er site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Er algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://academic.oup.com/comjnl/article/26/4/293/377400
+  status: recorded
+- method: source_link_html_metadata
+  query: https://academic.oup.com/comjnl/article/26/4/293/377400
+  status: skipped
+extracted_problem_statement: 'Er is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Er. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: The graph-specific object requested by the named problem, such as a path, tree, matching, flow, component labeling, or traversal result.'
+extracted_algorithm_summary: 'Er is a graph algorithm record. Classical complexity metadata: work O(Ln); span/depth O(L); processors O(n). The stated classical model is SIMD. Public metadata/source text adds: Er graph graph n: number of vertices, m: number of edges, L: length of longest path from sink to source Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

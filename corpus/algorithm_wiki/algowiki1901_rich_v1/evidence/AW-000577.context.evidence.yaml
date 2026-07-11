@@ -1,0 +1,75 @@
+id: AW-000577
+kind: context
+algorithm_id: AW-000577
+algorithm_name: X Chen
+source_records:
+- access_status: metadata_only
+  digest: dc7303992bf64a2e
+  extracted_facts:
+  - 'AlgorithmWiki row name: X Chen'
+  - 'domain: graph'
+  - 'time complexity: O(V!)'
+  - 'space complexity: O(wV^2)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: V: number of vertices in the larger of the two graphs, S: size of the search tree (\exp(V)), w: the beam width parameter for how many of the best nodes are kept at each layer of the beam search (O(V))'
+  - 'precard summary: Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record. Baseline: time O(V!); space O(wV^2). Bottleneck: graph traversal plus writing a tree, path, partition, or full graph solution dominates.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000577:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for X Chen
+  url: https://doi.org/10.1016/j.knosys.2018.10.002
+- access_status: fetched
+  digest: ba5c54b1d332e9dc
+  extracted_facts:
+  - 'DOI title: An efficient algorithm for graph edit distance computation'
+  - 'published year: 2019'
+  - 'container title: Knowledge-Based Systems'
+  reliability: HIGH
+  short_quote: ''
+  source_id: crossref:501b1b79818f32f9
+  source_type: doi_metadata
+  title: An efficient algorithm for graph edit distance computation
+  url: https://doi.org/10.1016/j.knosys.2018.10.002
+- access_status: fetched
+  digest: b159037de70cf9c5
+  extracted_facts:
+  - 'source page title: Redirecting'
+  - 'source page description: Redirecting'
+  reliability: HIGH
+  short_quote: Redirecting
+  source_id: source:99210fe4cdd67b8f
+  source_type: doi_metadata
+  title: Redirecting
+  url: https://doi.org/10.1016/j.knosys.2018.10.002
+web_query_attempts:
+- method: search_plan
+  query: X Chen algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: X Chen algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: X Chen problem definition
+  status: recorded
+- method: search_plan
+  query: X Chen graph algorithm
+  status: recorded
+- method: search_plan
+  query: X Chen site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: X Chen algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://doi.org/10.1016/j.knosys.2018.10.002
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1016/j.knosys.2018.10.002
+  status: fetched
+- method: source_link_html_metadata
+  query: https://doi.org/10.1016/j.knosys.2018.10.002
+  status: fetched
+extracted_problem_statement: 'X Chen is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with X Chen. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: An edit-distance value, alignment, or dynamic-programming table information for the input strings.'
+extracted_algorithm_summary: 'X Chen is a graph algorithm record. Classical complexity metadata: time O(V!); space O(wV^2). The stated classical model is Word RAM. Public metadata/source text adds: X Chen graph graph V: number of vertices in the larger of the two graphs, S: size of the search tree (\exp(V)), w: the beam width parameter for how many of the best nodes are kept at each layer of the beam search (O(V)) O(V!) Given an explicit graph instance, compute the graph object or decomposition targeted by the classical algorithm record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

@@ -1,0 +1,74 @@
+id: AW-000407-P0292
+kind: probe
+algorithm_id: AW-000407
+algorithm_name: Rick (Algorithm 2)
+source_records:
+- access_status: metadata_only
+  digest: ed394bea67913775
+  extracted_facts:
+  - 'AlgorithmWiki row name: Rick (Algorithm 2)'
+  - 'domain: string'
+  - 'time complexity: O(sn + \min(r(n - r), rm))'
+  - 'space complexity: O(sn + p)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: length of the longer input string, m: length of the shorter input string, r: length of the LCS, p: the number of dominant matches (AKA number of minimal candidates), i.e. the total number of ordered pairs of positions at which the two sequences match, s: size of alphabet'
+  - 'precard summary: Given one or more explicit strings, compute the matching, indexing, alignment, or transformation output targeted by the record. Baseline: time O(sn + \min(r(n - r), rm)); space O(sn + p). Bottleneck: string scanning, preprocessing tables, and reporting matches dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000407:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Rick (Algorithm 2)
+  url: https://link.springer.com/chapter/10.1007/3-540-60044-2_53
+- access_status: fetched
+  digest: ce3895de7a75bcb8
+  extracted_facts:
+  - 'DOI title: A new flexible algorithm for the longest common subsequence problem'
+  - 'published year: 1995'
+  - 'container title: Lecture Notes in Computer Science'
+  reliability: HIGH
+  short_quote: ''
+  source_id: crossref:a1260498248f632b
+  source_type: doi_metadata
+  title: A new flexible algorithm for the longest common subsequence problem
+  url: https://doi.org/10.1007/3-540-60044-2_53
+- access_status: skipped
+  digest: ae98d7c37e0dbf09
+  extracted_facts:
+  - robots.txt disallowed fetch
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:28e4cb0ac4a4db54
+  source_type: publisher_abstract
+  title: robots.txt disallowed fetch
+  url: https://link.springer.com/chapter/10.1007/3-540-60044-2_53
+web_query_attempts:
+- method: search_plan
+  query: Rick (Algorithm 2) algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Rick (Algorithm 2) algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Rick (Algorithm 2) problem definition
+  status: recorded
+- method: search_plan
+  query: Rick (Algorithm 2) string algorithm
+  status: recorded
+- method: search_plan
+  query: Rick (Algorithm 2) site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Rick (Algorithm 2) algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://link.springer.com/chapter/10.1007/3-540-60044-2_53
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1007/3-540-60044-2_53
+  status: fetched
+- method: source_link_html_metadata
+  query: https://link.springer.com/chapter/10.1007/3-540-60044-2_53
+  status: skipped
+extracted_problem_statement: 'Rick (Algorithm 2) is treated as a classical string task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Rick (Algorithm 2). Input semantics: One or more finite strings, sequences, patterns, or alphabets. Output semantics: Pattern occurrence positions, matches, or the associated string-search report.'
+extracted_algorithm_summary: 'Rick (Algorithm 2) is a string algorithm record. Classical complexity metadata: time O(sn + \min(r(n - r), rm)); space O(sn + p). The stated classical model is Word RAM. Public metadata/source text adds: Rick (Algorithm 2) string string n: length of the longer input string, m: length of the shorter input string, r: length of the LCS, p: the number of dominant matches (AKA number of minimal candidates), i.e.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

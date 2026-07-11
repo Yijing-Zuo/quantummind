@@ -1,0 +1,62 @@
+algorithm_family: unknown
+algorithm_id: AW-000478
+approximate: '1'
+approximation_factor: 'Upper bound: H + 1 - p_0 - p_n + p_{max}'
+blind_name: Algorithm Wiki public task AW-000478
+canonical_name: de Prisco
+computational_model: Word RAM
+domain: unknown
+extracted_description: ''
+extraction_version: algorithm-wiki-rich-context-v1
+family: unknown
+inferred_access_model: function_evaluation_oracle_classical
+inferred_ambiguities:
+- The AlgorithmWiki row marks the classical method as approximate.
+- No independent fetched public metadata source resolved this row beyond AlgorithmWiki metadata/source-link facts.
+- Some details are reconstructed from AlgorithmWiki metadata rather than an independently fetched full public description.
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.
+inferred_input_model: explicit_numerical_problem
+inferred_output_contract: estimate
+inferred_problem_statement: 'de Prisco is treated as a classical numerical analysis task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with de Prisco. Input semantics: Numeric parameters, functions, samples, tolerances, or distributions for the stated numerical task. Output semantics: An exact or approximate numerical value, estimate, approximation, or fitted representation.'
+inferred_promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+- classical_approximation_algorithm
+inferred_size_parameters:
+- 'Parameter definition: n: number of elements, H: entropy of the given distribution, p_0: first element, p_n: last element, p_{max}: largest element'
+number_of_processors: ''
+page_digest: ''
+page_fetch_status: not_found
+page_url: ''
+parameter_definitions: 'n: number of elements, H: entropy of the given distribution, p_0: first element, p_n: last element, p_{max}: largest element'
+problem_name: unknown
+quality_flags:
+- has_complexity_semantics
+- has_size_parameters
+- has_computational_model
+- approximation_flag_preserved
+quality_score: 60
+randomized: '0'
+readiness: READY_PUBLIC_CONTEXT
+review_reasons:
+- missing_problem_statement
+- unknown_input_model
+- unknown_access_model
+- unknown_output_contract
+- insufficient_algorithm_level_structure
+source_link: https://www.sciencedirect.com/science/article/pii/002001909390212R
+source_link_type: sciencedirect
+space_complexity: O(n)
+span_depth: ''
+time_complexity: O(n)
+variation: ''
+work: ''
+year: '1993'
+rich_card_kind: context
+source_records_used:
+- AW-000478:algorithm_wiki_metadata
+- failed:82784982c6aa10c1
+source_count: 2
+source_quality: HIGH
+confidence_score: 60
+card_digest: f6b7382c2817bc92

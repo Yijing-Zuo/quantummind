@@ -1,0 +1,11 @@
+case_id: QM-PB-005
+statement: "Given oracle access to N values, decide whether all values are distinct or produce a colliding pair."
+input_model: "indexed value list"
+access_model: value_query_oracle
+output_contract: collision_or_distinctness
+promises:
+  - query_model_values
+size_parameters: [N, value_range]
+ambiguities:
+  - only query complexity is requested
+

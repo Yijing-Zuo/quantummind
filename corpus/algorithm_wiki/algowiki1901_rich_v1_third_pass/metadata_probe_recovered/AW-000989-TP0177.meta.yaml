@@ -1,0 +1,49 @@
+probe_id: AW-000989-TP0177
+algorithm_id: AW-000989-TP0177
+canonical_name: Reduction to Chan, Williams estimation_sampling_probe
+readiness: READY_PUBLIC_PROBE
+quality_score: 100
+probe_type: estimation_sampling_probe
+parent_algorithm_id: AW-000989
+parent_algorithm_name: Reduction to Chan, Williams
+source_records_used:
+- AW-000989:algorithm_wiki_metadata
+- skipped:b272aaf0949be40e
+- skipped:22ad82dd502b5fba
+- crossref:b34bd561e27983fb
+- crossref_search:0b18e1bdccf3f416
+- failed:c4b223ee4d0c4ea7
+introduced_assumptions:
+- coherent_estimation_oracle
+- bounded_random_variable
+- coherent_sampler
+missing_from_original_problem:
+- sampler reversibility
+- variance bound
+- query-to-runtime translation
+original_output_contract: full_solution
+probe_output_contract: additive_estimate
+not_end_to_end_claim: true
+expected_authority: query_or_subroutine_hypothesis_only
+why_probe_is_scientifically_interesting: Estimation tasks can expose query-level structure even when the full algorithm remains classical.
+why_probe_may_fail: Sampling or approximation may not be the bottleneck, or coherent access may be more expensive than the original method.
+inferred_input_model: explicit_combinatorial_problem
+inferred_access_model: coherent_estimation_oracle
+inferred_output_contract: additive_estimate
+inferred_size_parameters:
+- 'Parameter definition: n: number of vectors per set, k: number of sets, d: dimension of each vector d = omega(log(n))'
+inferred_promises:
+- bounded_random_variable
+- coherent_access
+- oracle_model_assumption
+inferred_ambiguities:
+- This probe is assumption-bearing and is not an end-to-end speedup claim.
+- variance bounds, coherent sampler construction, and tolerance mapping remain expert obligations
+- The parent context card and source records should be checked before live use.
+source_count: 6
+source_quality: HIGH
+confidence_score: 100
+card_digest: 0926e8cf0f2caecf
+extraction_version: algorithm-wiki-rich-third-pass-probe-v1
+rich_card_kind: probe_recovered
+saturation_status: RECOVERED_CONTEXT_AND_PROBE

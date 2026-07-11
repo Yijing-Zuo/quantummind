@@ -1,0 +1,59 @@
+id: AW-000033
+kind: context
+algorithm_id: AW-000033
+algorithm_name: Hoare's Selection Algorithm (QuickSelect)
+source_records:
+- access_status: metadata_only
+  digest: 61eefdb052230ebc
+  extracted_facts:
+  - 'AlgorithmWiki row name: Hoare''s Selection Algorithm (QuickSelect)'
+  - 'domain: unknown'
+  - 'time complexity: O(n^2)'
+  - 'space complexity: O(1)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: size of list'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000033:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Hoare's Selection Algorithm (QuickSelect)
+  url: https://dl.acm.org/citation.cfm?doid=366622.366647
+- access_status: failed
+  digest: 0bf7711c9d66dfde
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:10e599dbba9c5958
+  source_type: publisher_abstract
+  title: 'HTTP Error 403: Forbidden'
+  url: https://dl.acm.org/citation.cfm?doid=366622.366647
+web_query_attempts:
+- method: search_plan
+  query: Hoare's Selection Algorithm (QuickSelect) algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Hoare's Selection Algorithm (QuickSelect) algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Hoare's Selection Algorithm (QuickSelect) problem definition
+  status: recorded
+- method: search_plan
+  query: Hoare's Selection Algorithm (QuickSelect) site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Hoare's Selection Algorithm (QuickSelect) algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://dl.acm.org/citation.cfm?doid=366622.366647
+  status: recorded
+- method: source_link_html_metadata
+  query: https://dl.acm.org/citation.cfm?doid=366622.366647
+  status: failed
+- method: wikipedia_summary_search
+  query: Hoare's Selection Algorithm (QuickSelect) algorithm
+  status: failed_or_not_relevant
+extracted_problem_statement: 'Hoare''s Selection Algorithm (QuickSelect) is treated as a classical sorting task for rich AlgorithmWiki discovery. Problem/task: sort the input sequence using the named classical sorting method. Input semantics: A finite array or list of comparable keys or records. Output semantics: The selected order statistic or item of requested rank.'
+extracted_algorithm_summary: 'Hoare''s Selection Algorithm (QuickSelect) is a sorting algorithm record. Classical complexity metadata: time O(n^2); space O(1). The stated classical model is Word RAM. Public metadata/source text adds: Hoare''s Selection Algorithm (QuickSelect) unknown unknown n: size of list O(n^2) No public-ready summary is available because the row lacks enough task semantics.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

@@ -1,0 +1,62 @@
+id: AW-000146
+kind: context
+algorithm_id: AW-000146
+algorithm_name: Shell Sort (Frank & Lazarus)
+source_records:
+- access_status: metadata_only
+  digest: d7160210caa08749
+  extracted_facts:
+  - 'AlgorithmWiki row name: Shell Sort (Frank & Lazarus)'
+  - 'domain: sorting'
+  - 'time complexity: O(n^{1.5})'
+  - 'space complexity: O(1)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: size of list'
+  - 'precard summary: Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model. Baseline: time O(n^{1.5}); space O(1). Bottleneck: comparison, distribution, and full-output movement costs dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000146:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Shell Sort (Frank & Lazarus)
+  url: https://dl.acm.org/citation.cfm?doid=366947.366957
+- access_status: failed
+  digest: 41e5b61cca7905f8
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:1546e6763eeb568e
+  source_type: publisher_abstract
+  title: 'HTTP Error 403: Forbidden'
+  url: https://dl.acm.org/citation.cfm?doid=366947.366957
+web_query_attempts:
+- method: search_plan
+  query: Shell Sort (Frank & Lazarus) algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Shell Sort (Frank & Lazarus) algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Shell Sort (Frank & Lazarus) problem definition
+  status: recorded
+- method: search_plan
+  query: Shell Sort (Frank & Lazarus) sorting algorithm
+  status: recorded
+- method: search_plan
+  query: Shell Sort (Frank & Lazarus) site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Shell Sort (Frank & Lazarus) algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://dl.acm.org/citation.cfm?doid=366947.366957
+  status: recorded
+- method: source_link_html_metadata
+  query: https://dl.acm.org/citation.cfm?doid=366947.366957
+  status: failed
+- method: wikipedia_summary_search
+  query: Shell Sort (Frank & Lazarus) algorithm
+  status: failed_or_not_relevant
+extracted_problem_statement: 'Shell Sort (Frank & Lazarus) is treated as a classical sorting task for rich AlgorithmWiki discovery. Problem/task: sort the input sequence using the named classical sorting method. Input semantics: A finite array or list of comparable keys or records. Output semantics: The same items returned in nondecreasing order, usually as a full reordered sequence.'
+extracted_algorithm_summary: 'Shell Sort (Frank & Lazarus) is a sorting algorithm record. Classical complexity metadata: time O(n^{1.5}); space O(1). The stated classical model is Word RAM. Public metadata/source text adds: Shell Sort (Frank & Lazarus) sorting sorting n: size of list O(n^{1.5}) Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

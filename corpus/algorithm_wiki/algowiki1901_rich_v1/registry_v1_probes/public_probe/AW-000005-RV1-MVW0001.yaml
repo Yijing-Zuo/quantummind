@@ -1,0 +1,19 @@
+statement: 'Hierarchical Navigable Small World (HNSW) registry-v1 marked-state walk-search probe. This is a query-model marked-state walk subroutine probe, not an end-to-end claim for the original graph algorithm. The represented task is to return one marked vertex from a reversible ergodic Markov-chain state space with coherent walk and marking access introduced only for this probe. Source-backed parent context: A metric or vector data set, query points, and graph/search parameters for nearest-neighbor lookup. Nearest-neighbor or approximate nearest-neighbor identifiers and distances for the query points. graph traversal, priority/frontier maintenance, and materializing graph outputs. Hierarchical Navigable Small World (HNSW) graph_walk_probe Hierarchical Navigable Small World (HNSW) graph-walk probe. This is a subroutine/query-model probe, not an end-to-end claim for the original algorithm. The probe asks whether local graph transitions and marked vertices or edges define a hitting, path,
+  or witness subroutine. Original input context: A metric or vector data set, query points, and graph/search para It is not full graph traversal, all paths, component decomposition, spanning-tree output, full shortest-path output, or a whole-graph speedup claim. Spectral-gap and marked-fraction lower bounds are assumptions, and coherent walk/reflection implementation remains expert work.'
+input_model: marked_markov_chain_search_problem
+access_model: coherent_markov_chain_walk_oracle
+output_contract: one_marked_vertex
+promises:
+- reversible_ergodic_markov_chain
+- efficient_marking_check
+- marked_vertex_exists
+- marked_fraction_lower_bound
+- spectral_gap_lower_bound
+- oracle_model_assumption
+size_parameters:
+- 'Parameter definition: n: number of elements, M: heuristic choice -- number of closest neighbors for a part of the algo'
+- 'N, delta, epsilon: chain size, spectral-gap lower bound, and marked-fraction lower bound.'
+ambiguities:
+- This is an assumption-bearing query/subroutine probe and is not an end-to-end speedup claim.
+- The reversible-chain model, spectral gap, and marked fraction are introduced assumptions.
+- The parent graph task may require full traversal, full paths, preprocessing, or output reconstruction.

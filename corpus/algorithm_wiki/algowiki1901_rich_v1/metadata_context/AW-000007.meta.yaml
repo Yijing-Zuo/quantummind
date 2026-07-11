@@ -1,0 +1,58 @@
+algorithm_family: unknown
+algorithm_id: AW-000007
+approximate: '0'
+approximation_factor: ''
+blind_name: Algorithm Wiki public task AW-000007
+canonical_name: Faaland
+computational_model: ''
+domain: unknown
+extracted_description: ''
+extraction_version: algorithm-wiki-rich-context-v1
+family: unknown
+inferred_access_model: offline_batch_queries
+inferred_ambiguities:
+- Some details are reconstructed from AlgorithmWiki metadata rather than an independently fetched full public description.
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.
+inferred_input_model: explicit_combinatorial_problem
+inferred_output_contract: one_witness
+inferred_problem_statement: 'Faaland is treated as a classical dynamic programming task for rich AlgorithmWiki discovery. Problem/task: solve a subset-sum or target-sum dynamic-programming/search problem. Input semantics: A finite set or multiset of integers with a target sum parameter. Output semantics: A decision result, feasible subset witness, count, or optimized subset value for the target-sum instance, depending on the row.'
+inferred_promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+inferred_size_parameters:
+- 'Parameter definition: n'': number of distinct elements in the set, t: target sum'
+number_of_processors: ''
+page_digest: ''
+page_fetch_status: not_found
+page_url: ''
+parameter_definitions: 'n'': number of distinct elements in the set, t: target sum'
+problem_name: unknown
+quality_flags:
+- has_complexity_semantics
+- has_size_parameters
+quality_score: 65
+randomized: '0'
+readiness: READY_PUBLIC_CONTEXT
+review_reasons:
+- missing_problem_statement
+- unknown_input_model
+- unknown_access_model
+- unknown_output_contract
+- insufficient_algorithm_level_structure
+source_link: https://doi.org/10.1287/opre.21.1.332
+source_link_type: doi
+space_complexity: O(t)
+span_depth: ''
+time_complexity: O(n' t)
+variation: ''
+work: ''
+year: '1973'
+rich_card_kind: context
+source_records_used:
+- AW-000007:algorithm_wiki_metadata
+- crossref:429bb6b9ae306424
+- failed:85dfbfea546f83e9
+source_count: 3
+source_quality: HIGH
+confidence_score: 65
+card_digest: cde5e12aec6352f9

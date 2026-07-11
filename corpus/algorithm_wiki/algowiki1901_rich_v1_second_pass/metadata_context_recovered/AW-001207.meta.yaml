@@ -1,0 +1,63 @@
+algorithm_id: AW-001207
+canonical_name: Folwell, Guha, Suzuki
+blind_name: Algorithm Wiki public task AW-001207
+year: '1996'
+domain: unknown
+family: unknown
+variation: ''
+problem_name: unknown
+algorithm_family: unknown
+time_complexity: O(n^0.5)
+space_complexity: ''
+computational_model: SIMD
+randomized: '0'
+approximate: '0'
+approximation_factor: ''
+parameter_definitions: 'n: number of integerst in range 1... n^0.5'
+span_depth: O(n^0.5)
+work: O(n^2.5)
+number_of_processors: n^2
+source_link: https://www.tandfonline.com/doi/abs/10.1080/01495739708941425
+source_link_type: unknown
+page_url: ''
+page_fetch_status: not_found
+page_digest: ''
+extracted_description: ''
+inferred_problem_statement: 'Folwell, Guha, Suzuki is reconstructed as a classical parallel algorithms task. Problem/task: coordinate process access to a critical section without simultaneous entry Input semantics: A set of processes, request/release events, and shared-memory or message-passing assumptions. Output semantics: A protocol state sequence or decision granting safe critical-section access.'
+inferred_input_model: explicit_parallel_algorithm_problem
+inferred_access_model: explicit_input_instance
+inferred_output_contract: yes_no_decision
+inferred_size_parameters:
+- 'Parameter definition: n: number of integerst in range 1... n^0.5'
+- p = stated number of processors (n^2)
+inferred_promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+inferred_ambiguities:
+- Some details are reconstructed from AlgorithmWiki metadata rather than an independently fetched full public description.
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.
+quality_score: 90
+quality_flags:
+- has_complexity_semantics
+- has_size_parameters
+- has_computational_model
+readiness: READY_PUBLIC_CONTEXT
+review_reasons:
+- missing_problem_statement
+- unknown_input_model
+- unknown_access_model
+- unknown_output_contract
+- insufficient_algorithm_level_structure
+extraction_version: algorithm-wiki-rich-second-pass-context-v1
+rich_card_kind: context_recovered
+source_records_used:
+- AW-001207:algorithm_wiki_metadata
+- skipped:2ec1b86e533ac0d9
+- skipped:3fcbb50e11bfe21d
+- crossref:868f51bb8d385af6
+- crossref_search:0b18e1bdccf3f416
+source_count: 5
+source_quality: HIGH
+confidence_score: 90
+card_digest: 263ebbfc5ee16f8b
+second_pass_rule: distributed_mutual_exclusion

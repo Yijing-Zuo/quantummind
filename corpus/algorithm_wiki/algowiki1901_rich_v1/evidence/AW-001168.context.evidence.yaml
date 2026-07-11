@@ -1,0 +1,71 @@
+id: AW-001168
+kind: context
+algorithm_id: AW-001168
+algorithm_name: Padded-sort - Hagerup, Raman
+source_records:
+- access_status: metadata_only
+  digest: 5ab3e4abdec77442
+  extracted_facts:
+  - 'AlgorithmWiki row name: Padded-sort - Hagerup, Raman'
+  - 'domain: sorting'
+  - 'time complexity: n \log{n}/ \log{k} (\log{\log{k})^5(2^(O(\log*{n}-\log*{k}+1)))'
+  - 'computational model: CRCW PRAM (TOLERANT PRAM submodel, also works on ARBITRARY and PRIORITY PRAMs)'
+  - 'parameter definitions: n: size of list, 4<k<n'
+  - 'precard summary: Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model. Baseline: time n \log{n}/ \log{k} (\log{\log{k})^5(2^(O(\log*{n}-\log*{k}+1))); work kn^2 \log{n}/ \log{k} (\log{\log{k}})^5(2^(O(\log*{n}-\log*{k}+1))); span/depth O(n (\log{\log{n}})^5); processors kn. Bottleneck: comparison, distribution, and full-output movement costs dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-001168:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Padded-sort - Hagerup, Raman
+  url: https://dl.acm.org/doi/pdf/10.1145/165231.157380
+- access_status: skipped
+  digest: d760cc7b4693dedf
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:cf96fd2aee9ad39b
+  source_type: doi_metadata
+  title: fetch budget exhausted
+  url: https://doi.org/10.1145/165231.157380
+- access_status: skipped
+  digest: 6fcad23961d3b768
+  extracted_facts:
+  - fetch budget exhausted
+  reliability: LOW
+  short_quote: ''
+  source_id: skipped:1c10d44106afded8
+  source_type: wikipedia
+  title: fetch budget exhausted
+  url: https://en.wikipedia.org/wiki/Padded-sort_-_Hagerup%2C_Raman
+web_query_attempts:
+- method: search_plan
+  query: Padded-sort - Hagerup, Raman algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Padded-sort - Hagerup, Raman algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Padded-sort - Hagerup, Raman problem definition
+  status: recorded
+- method: search_plan
+  query: Padded-sort - Hagerup, Raman sorting algorithm
+  status: recorded
+- method: search_plan
+  query: Padded-sort - Hagerup, Raman site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Padded-sort - Hagerup, Raman algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://dl.acm.org/doi/pdf/10.1145/165231.157380
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1145/165231.157380
+  status: skipped
+- method: wikipedia_summary_search
+  query: Padded-sort - Hagerup, Raman algorithm
+  status: skipped
+extracted_problem_statement: 'Padded-sort - Hagerup, Raman is treated as a classical sorting task for rich AlgorithmWiki discovery. Problem/task: sort the input sequence using the named classical sorting method. Input semantics: A finite array or list of comparable keys or records. Output semantics: The same items returned in nondecreasing order, usually as a full reordered sequence.'
+extracted_algorithm_summary: 'Padded-sort - Hagerup, Raman is a sorting algorithm record. Classical complexity metadata: time n \log{n}/ \log{k} (\log{\log{k})^5(2^(O(\log*{n}-\log*{k}+1))); work kn^2 \log{n}/ \log{k} (\log{\log{k}})^5(2^(O(\log*{n}-\log*{k}+1))); span/depth O(n (\log{\log{n}})^5); processors kn. The stated classical model is CRCW PRAM (TOLERANT PRAM submodel, also works on ARBITRARY and PRIORITY PRAMs). Public metadata/source text adds: Padded-sort - Hagerup, Raman sorting sorting n: size of list, 4<k<n n \log{n}/ \log{k} (\log{\log{k})^5(2^(O(\log*{n}-\log*{k}+1))) Given a finite sequence of comparable keys or records, produce the same items in nondecreasing order under the stated classical input model.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

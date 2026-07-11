@@ -1,0 +1,70 @@
+id: AW-000706-P0475
+kind: probe
+algorithm_id: AW-000706
+algorithm_name: Bellare Active Learning
+source_records:
+- access_status: metadata_only
+  digest: 0b4b7aa8d25c5a1e
+  extracted_facts:
+  - 'AlgorithmWiki row name: Bellare Active Learning'
+  - 'domain: unknown'
+  - 'time complexity: O(n^2 \log n c \log c)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of records, k: number of features (can be up to O(\sqrt{n}))'
+  - 'precard summary: No public-ready summary is available because the row lacks enough task semantics.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000706:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Bellare Active Learning
+  url: https://dl.acm.org/doi/10.1145/2339530.2339707
+- access_status: fetched
+  digest: a3874afefa378f4d
+  extracted_facts:
+  - 'DOI title: Active sampling for entity matching'
+  - 'published year: 2012'
+  - 'container title: Proceedings of the 18th ACM SIGKDD international conference on Knowledge discovery and data mining'
+  reliability: HIGH
+  short_quote: ''
+  source_id: crossref:a5cde89255a9000d
+  source_type: doi_metadata
+  title: Active sampling for entity matching
+  url: https://doi.org/10.1145/2339530.2339707
+- access_status: failed
+  digest: a7ea970c3005016f
+  extracted_facts:
+  - 'HTTP Error 403: Forbidden'
+  reliability: LOW
+  short_quote: ''
+  source_id: failed:53cafa6a42bc87f7
+  source_type: publisher_abstract
+  title: 'HTTP Error 403: Forbidden'
+  url: https://dl.acm.org/doi/10.1145/2339530.2339707
+web_query_attempts:
+- method: search_plan
+  query: Bellare Active Learning algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Bellare Active Learning algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Bellare Active Learning problem definition
+  status: recorded
+- method: search_plan
+  query: Bellare Active Learning site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Bellare Active Learning algorithm wiki
+  status: recorded
+- method: search_plan
+  query: https://dl.acm.org/doi/10.1145/2339530.2339707
+  status: recorded
+- method: crossref_doi_metadata
+  query: 10.1145/2339530.2339707
+  status: fetched
+- method: source_link_html_metadata
+  query: https://dl.acm.org/doi/10.1145/2339530.2339707
+  status: failed
+extracted_problem_statement: 'Bellare Active Learning is treated as a classical graph task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Bellare Active Learning. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: Pattern occurrence positions, matches, or the associated string-search report.'
+extracted_algorithm_summary: 'Bellare Active Learning is a graph algorithm record. Classical complexity metadata: time O(n^2 \log n c \log c). The stated classical model is Word RAM. Public metadata/source text adds: Bellare Active Learning unknown unknown n: number of records, k: number of features (can be up to O(\sqrt{n})) O(n^2 \log n c \log c) No public-ready summary is available because the row lacks enough task semantics.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

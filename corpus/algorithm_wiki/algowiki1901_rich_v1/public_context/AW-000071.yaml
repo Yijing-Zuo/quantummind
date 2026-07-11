@@ -1,0 +1,12 @@
+statement: 'Iterative Deepening A* (IDA*) is included as a named whole-algorithm context card for a classical graph task. The task is to analyze the classical input-output problem, not to certify an end-to-end improvement claim. Input semantics: An explicit graph instance with vertices, edges, weights, labels, or local adjacency as required by the named task. Output semantics: A path, path cost, or predecessor structure connecting the requested graph states. Classical algorithm summary: Iterative Deepening A* (IDA*) is a graph algorithm record. Classical complexity metadata: time O(b^d); space O(b^d). Public metadata/source text adds: Iterative Deepening A* (IDA*) graph graph b: branching factor (the average number of successors per state), d: the depth of the solution (the shortest path) O(b^d) Given an explicit graph instance, the concrete classical graph task associated with Iterative Deepening A* (IDA*). Classical steps or pseudocode-level structure: Maintain a frontier ordered by path
+  cost plus heuristic estimate, expand states, and return the recovered path when the target is reached. Classical complexity recorded for this row: time O(b^d); space O(b^d); computation model not stated. Dominant bottleneck: graph traversal, priority/frontier maintenance, and materializing graph outputs. The useful review questions are whether the named structure exposes a smaller decision, witness, estimation, or algebraic subproblem; whether the full output size dominates any asymptotic gain; and whether the stated access model is realistic for the original input. Provenance used for reconstruction includes public metadata or abstract sources such as Redirecting.'
+input_model: explicit_graph_problem
+access_model: adjacency_list_query
+output_contract: full_solution
+promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+size_parameters:
+- 'Parameter definition: b: branching factor (the average number of successors per state), d: the depth of the solution (the shortest path)'
+ambiguities:
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.

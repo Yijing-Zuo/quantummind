@@ -1,0 +1,46 @@
+id: AW-000992
+kind: context
+algorithm_id: AW-000992
+algorithm_name: Treap
+source_records:
+- access_status: metadata_only
+  digest: 18a08d41edf57334
+  extracted_facts:
+  - 'AlgorithmWiki row name: Treap'
+  - 'domain: data_structures'
+  - 'time complexity: O(nlogn)'
+  - 'space complexity: O(n)'
+  - 'computational model: Word RAM'
+  - 'parameter definitions: n: number of nodes'
+  - 'precard summary: Given an explicit collection of keys, items, or offline operations, construct or return the data-structure output targeted by the record. Baseline: time O(nlogn); space O(n). Bottleneck: updates, queries, balancing, and stored representation size dominate.'
+  reliability: HIGH
+  short_quote: ''
+  source_id: AW-000992:algorithm_wiki_metadata
+  source_type: algorithm_wiki
+  title: AlgorithmWiki metadata for Treap
+  url: http://faculty.washington.edu/aragon/pubs/rst89.pdf
+web_query_attempts:
+- method: search_plan
+  query: Treap algorithm input output complexity
+  status: recorded
+- method: search_plan
+  query: Treap algorithm pseudocode
+  status: recorded
+- method: search_plan
+  query: Treap problem definition
+  status: recorded
+- method: search_plan
+  query: Treap data structures algorithm
+  status: recorded
+- method: search_plan
+  query: Treap site:nist.gov DADS
+  status: recorded
+- method: search_plan
+  query: Treap algorithm wiki
+  status: recorded
+- method: search_plan
+  query: http://faculty.washington.edu/aragon/pubs/rst89.pdf
+  status: recorded
+extracted_problem_statement: 'Treap is treated as a classical data structures task for rich AlgorithmWiki discovery. Problem/task: analyze the concrete classical task associated with Treap. Input semantics: A set of records plus update/query operations for the named data structure. Output semantics: A maintained data structure representation and answers to its supported queries.'
+extracted_algorithm_summary: 'Treap is a data structures algorithm record. Classical complexity metadata: time O(nlogn); space O(n). The stated classical model is Word RAM. Public metadata/source text adds: Treap data_structures data_structures n: number of nodes O(nlogn) Given an explicit collection of keys, items, or offline operations, construct or return the data-structure output targeted by the record.'
+confirmation: Discovery input provenance only; no gold label, expected verdict, or hidden evidence is encoded.

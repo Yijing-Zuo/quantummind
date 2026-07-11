@@ -1,0 +1,60 @@
+algorithm_id: AW-000089
+canonical_name: Karatsuba Algorithm
+blind_name: Algorithm Wiki public task AW-000089
+year: '1962'
+domain: unknown
+family: unknown
+variation: ''
+problem_name: unknown
+algorithm_family: unknown
+time_complexity: O(n^{1.58})
+space_complexity: O(n)
+computational_model: Word RAM
+randomized: '0'
+approximate: '0'
+approximation_factor: ''
+parameter_definitions: 'n: length of one of the integers, in bits'
+span_depth: ''
+work: ''
+number_of_processors: ''
+source_link: http://www.mathnet.ru/php/archive.phtml?wshow=paper&jrnid=dan&paperid=26729&option_lang=eng
+source_link_type: unknown
+page_url: ''
+page_fetch_status: not_found
+page_digest: ''
+extracted_description: ''
+inferred_problem_statement: 'Karatsuba Algorithm is reconstructed as a classical combinatorics task. Problem/task: multiply large integers Input semantics: Two integers represented by n-bit or n-limb strings. Output semantics: The exact product integer.'
+inferred_input_model: explicit_combinatorial_problem
+inferred_access_model: random_access_string
+inferred_output_contract: full_solution
+inferred_size_parameters:
+- 'Parameter definition: n: length of one of the integers, in bits'
+inferred_promises:
+- source_backed_classical_context
+- whole_algorithm_analysis_input
+inferred_ambiguities:
+- Some details are reconstructed from AlgorithmWiki metadata rather than an independently fetched full public description.
+- The card is a discovery input and does not encode benchmark answers or evaluator labels.
+quality_score: 80
+quality_flags:
+- has_complexity_semantics
+- has_size_parameters
+- has_computational_model
+readiness: READY_PUBLIC_CONTEXT
+review_reasons:
+- missing_problem_statement
+- unknown_input_model
+- unknown_access_model
+- unknown_output_contract
+- insufficient_algorithm_level_structure
+extraction_version: algorithm-wiki-rich-second-pass-context-v1
+rich_card_kind: context_recovered
+source_records_used:
+- AW-000089:algorithm_wiki_metadata
+- failed:faadd65d2fbfee8c
+- crossref_search:b55f155f9c447298
+source_count: 3
+source_quality: HIGH
+confidence_score: 80
+card_digest: 08bd2af3e484b780
+second_pass_rule: integer_multiplication
