@@ -55,6 +55,7 @@ files:
   prompts/consistency_reviewer.md: 6159e2321bc252f2
   prompts/formalizer.md: 89c960bf4ed36e63
   prompts/literature_analyst.md: efe96341546a511a
+  prompts/open_discovery_judge.md: 42bf8dbd8789186a
   prompts/primitive_matcher.md: fefd640b648c19f4
   prompts/scheme_generator.md: 1721cbf204b7d825
   prompts/structure_analyst.md: d5189f84720e3778
