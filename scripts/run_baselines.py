@@ -4,26 +4,21 @@ import argparse
 import csv
 import json
 import os
+from dataclasses import dataclass
 from pathlib import Path
 from time import perf_counter
 from typing import Any
 
-from pydantic import Field, ValidationError
+from pydantic import ValidationError
 
-from quantummindlite.evaluation import PublicCase, load_manifest, load_public_case
+from quantummindlite.evaluation import load_manifest, load_public_case
 from quantummindlite.models import (
     AnalysisCard,
     BarrierAssessment,
     BarrierSpec,
     CandidateCard,
-    ClaimScope,
-    EvidenceState,
-    NoveltyStatus,
-    PrimitiveMatch,
-    PriorArtStatus,
     ProblemCard,
     RunState,
-    StrictModel,
 )
 from quantummindlite.registry import (
     barrier_catalog_public_view,
@@ -38,88 +33,41 @@ from quantummindlite.registry import (
 from quantummindlite.storage import digest_json
 from quantummindlite.validation import build_decision
 
-# Single-call baselines: the same base model and the same public knowledge the
-# system's agents can see, with none of the staged workflow, merge-time
-# normalization, or bounce-back machinery. The deterministic validator and all
-# downstream screening/scoring run unchanged on the resulting artifacts, per
-# docs/ODS_V1.md ("same task set, public registries, deterministic validators
-# ... to QuantumMind and every baseline").
+try:
+    from scripts.baseline_methods import STRATEGIES, BaselineOutput, mock_reply
+except ImportError:  # direct invocation: python scripts/run_baselines.py
+    from baseline_methods import STRATEGIES, BaselineOutput, mock_reply
+
+# Literature-derived baselines over the same tasks, public knowledge, and
+# artifact chain as QuantumMind (citations in baseline_methods.py). Task
+# sources: the frozen PaperBench cases (default) or any final-discovery-run
+# master manifest via --task-manifest, keyed by global_task_id so baseline
+# rows pair with QuantumMind rows in ODS scoring.
 
 _PROBLEM_FIELDS = ("statement", "input_model", "access_model", "output_contract", "promises", "size_parameters", "ambiguities")
 
-_SHARED_RULES = """
-Output exactly one BaselineOutput object.
-Use primitive_id values only from registry_public_view and barrier_id values
-only from barrier_catalog_public_view; if nothing fits, report no match rather
-than inventing an identifier.
-Select a candidate only when the represented access model, output contract,
-and promises support an asymptotic quantum speedup claim at the stated scope.
-Otherwise set selected_candidate to null and give a concrete no_candidate_reason.
-Report barriers honestly, including ones that block your own proposal.
-Do not overstate prior-art or novelty status: without a supporting public
-source, use UNKNOWN / UNASSESSED.
-"""
 
-ZERO_SHOT_PROMPT = (
-    "You are a single-call assessor. Given one public problem card plus public "
-    "registries of quantum primitives, barriers, and sources, decide in one shot "
-    "whether the problem supports an asymptotic quantum-speedup hypothesis, and "
-    "fill every BaselineOutput field." + _SHARED_RULES
-)
-
-COT_PROMPT = (
-    "You are a single-call assessor. Work through the problem step by step before "
-    "answering: formalize the task; identify canonical structures and the "
-    "classical baseline and bottleneck; compare each plausible primitive's "
-    "prerequisites against the represented access model, output contract, and "
-    "promises; assess applicable barriers; check prior art in the public source "
-    "catalog; only then commit to a scheme or a no-candidate verdict. After "
-    "reasoning, fill every BaselineOutput field." + _SHARED_RULES
-)
-
-BASELINES = {"zero_shot": ZERO_SHOT_PROMPT, "cot": COT_PROMPT}
-
-
-class BaselineBarrier(StrictModel):
-    barrier_id: str
-    applicable: EvidenceState
-    note: str = ""
-
-
-class BaselineOutput(StrictModel):
-    formalized_problem: str
-    canonical_structure_ids: list[str] = Field(default_factory=list)
-    absent_or_weak_structures: list[str] = Field(default_factory=list)
-    classical_baseline: str = "UNKNOWN"
-    bottleneck: str = ""
-    complexity_model: str = ""
-    primitive_matches: list[PrimitiveMatch] = Field(default_factory=list)
-    barriers: list[BaselineBarrier] = Field(default_factory=list)
-    selected_candidate: str | None = None
-    no_candidate_reason: str | None = None
-    scheme_steps: list[str] = Field(default_factory=list)
-    quantum_query_complexity: str | None = None
-    gate_complexity: str | None = None
-    total_complexity: str | None = None
-    claim_scope: ClaimScope = ClaimScope.NONE
-    limitations: list[str] = Field(default_factory=list)
-    expert_questions: list[str] = Field(default_factory=list)
-    prior_art_status: PriorArtStatus = PriorArtStatus.UNKNOWN
-    novelty_status: NoveltyStatus = NoveltyStatus.UNASSESSED
-    self_assessment: str = "diagnostic_only"
+@dataclass(frozen=True)
+class Task:
+    task_id: str
+    card: dict[str, Any]
 
 
 def main(argv: list[str] | None = None) -> int:
-    parser = argparse.ArgumentParser(description="Run single-call baselines over the PaperBench public cases.")
-    parser.add_argument("--baseline", choices=sorted(BASELINES), required=True)
+    parser = argparse.ArgumentParser(description="Run literature-derived baselines over PaperBench or discovery-manifest tasks.")
+    parser.add_argument("--baseline", choices=sorted(STRATEGIES), required=True)
     parser.add_argument("--provider", choices=["mock", "openai"], default=os.environ.get("QUANTUMMINDLITE_PROVIDER", "mock"))
     parser.add_argument("--model", default=None)
     parser.add_argument("--reasoning-effort", default=os.environ.get("QUANTUMMINDLITE_REASONING_EFFORT"))
     parser.add_argument("--timeout", type=float, default=None)
-    parser.add_argument("--case-id", action="append", help="Restrict to specific case IDs (repeatable). Default: all ready cases.")
+    parser.add_argument("--k", type=int, default=3, help="Sample count for self_consistency (ignored by other baselines).")
+    parser.add_argument("--case-id", action="append", help="Restrict PaperBench mode to specific case IDs (repeatable).")
+    parser.add_argument("--task-manifest", default=None, help="Master run manifest CSV; switches the task source to discovery tasks.")
+    parser.add_argument("--shard", action="append", help="With --task-manifest: restrict to these shard_id values (repeatable).")
+    parser.add_argument("--limit", type=int, default=None, help="With --task-manifest: run at most N tasks (pilot batches).")
     parser.add_argument("--system-id", default=None, help="Manifest system_id. Default: baseline_<name>_<provider>.")
-    parser.add_argument("--output-root", default="runs_baselines", help="Run directories land under <output-root>/<system-id>/<case-id>.")
-    parser.add_argument("--fresh", action="store_true", help="Re-run cases even when completed artifacts already exist.")
+    parser.add_argument("--output-root", default="runs_baselines", help="Run directories land under <output-root>/<system-id>/<task-id>.")
+    parser.add_argument("--fresh", action="store_true", help="Re-run tasks even when completed artifacts already exist.")
     parser.add_argument("--root", default=None, help="Project root override.")
     args = parser.parse_args(argv)
 
@@ -135,39 +83,40 @@ def main(argv: list[str] | None = None) -> int:
         "barrier_catalog_public_view": barrier_catalog_public_view(barrier_catalog),
         "source_catalog_public_view": source_catalog_public_view(load_source_catalog(root)),
     }
-    case_ids = args.case_id or list(load_manifest(root)["ready_cases"])
-    prompt = BASELINES[args.baseline]
+    tasks = _load_tasks(args, root)
+    strategy = STRATEGIES[args.baseline]
+    call, model_label = _make_call_fn(args)
 
     results: list[dict[str, Any]] = []
-    for case_id in case_ids:
-        public = load_public_case(case_id, root)
-        run_dir = output_root / system_id / case_id
+    for task in tasks:
+        run_dir = output_root / system_id / task.task_id
         if not args.fresh and (run_dir / "state.json").is_file() and (run_dir / "decision.json").is_file():
-            results.append({"case_id": case_id, "status": "cached", "run_dir": _portable(run_dir, root)})
+            results.append({"task_id": task.task_id, "status": "cached", "run_dir": _portable(run_dir, root)})
             continue
-        inputs = {"public_case": public.model_dump(mode="json"), **context_base}
+        inputs = {"public_case": task.card, **context_base}
         started = perf_counter()
         try:
-            output, trace = _generate(args, prompt, inputs, public)
+            output, stages = strategy(call, inputs, args.k)
         except Exception as exc:
-            results.append({"case_id": case_id, "status": "error", "error": f"{type(exc).__name__}: {exc}"})
+            results.append({"task_id": task.task_id, "status": "error", "error": f"{type(exc).__name__}: {exc}"})
             continue
-        state = _build_state(system_id, args.baseline, public, output, barrier_catalog)
+        state = _build_state(system_id, args.baseline, task.card, output, barrier_catalog)
         decision = build_decision(state, registry)
-        trace.update(
-            {
-                "baseline_id": args.baseline,
-                "case_id": case_id,
-                "latency": round(perf_counter() - started, 6),
-                "prompt_digest": digest_json(prompt),
-                "input_digest": digest_json(inputs),
-                "output_digest": digest_json(output.model_dump(mode="json")),
-            }
-        )
-        _write_run(run_dir, public, state, decision, trace)
+        summary_trace = {
+            "baseline_id": args.baseline,
+            "task_id": task.task_id,
+            "provider": args.provider,
+            "model": model_label,
+            "status": "ok",
+            "stage_count": len(stages),
+            "latency": round(perf_counter() - started, 6),
+            "input_digest": digest_json(inputs),
+            "output_digest": digest_json(output.model_dump(mode="json")),
+        }
+        _write_run(run_dir, task.card, state, decision, [*({"stage_detail": stage} for stage in stages), summary_trace])
         results.append(
             {
-                "case_id": case_id,
+                "task_id": task.task_id,
                 "status": "ok",
                 "run_dir": _portable(run_dir, root),
                 "verdict": decision.authoritative_verdict.value,
@@ -176,16 +125,18 @@ def main(argv: list[str] | None = None) -> int:
             }
         )
 
-    manifest_path = _write_manifest(output_root, system_id, root)
+    manifest_path = _write_ods_manifest(output_root, system_id, root)
     errors = [item for item in results if item["status"] == "error"]
     print(
         json.dumps(
             {
                 "system_id": system_id,
+                "baseline": args.baseline,
                 "provider": args.provider,
-                "model": args.model or os.environ.get("QUANTUMMINDLITE_OPENAI_MODEL", "") if args.provider == "openai" else "mock-baseline",
+                "model": model_label,
                 "benchmark_label": "fixture_self_test" if args.provider == "mock" else "live_model_run",
-                "cases": results,
+                "task_source": "task_manifest" if args.task_manifest else "paperbench",
+                "tasks": results,
                 "manifest_csv": _portable(manifest_path, root),
                 "completed": sum(1 for item in results if item["status"] in {"ok", "cached"}),
                 "errors": len(errors),
@@ -197,86 +148,100 @@ def main(argv: list[str] | None = None) -> int:
     return 2 if errors else 0
 
 
-def _generate(
-    args: argparse.Namespace,
-    prompt: str,
-    inputs: dict[str, Any],
-    public: PublicCase,
-) -> tuple[BaselineOutput, dict[str, Any]]:
+def _load_tasks(args: argparse.Namespace, root: Path) -> list[Task]:
+    if args.task_manifest is None:
+        case_ids = args.case_id or list(load_manifest(root)["ready_cases"])
+        tasks = []
+        for case_id in case_ids:
+            dump = load_public_case(case_id, root).model_dump(mode="json")
+            tasks.append(Task(task_id=case_id, card={key: dump[key] for key in _PROBLEM_FIELDS}))
+        return tasks
+    manifest_path = Path(args.task_manifest)
+    manifest_path = manifest_path if manifest_path.is_absolute() else root / manifest_path
+    shards = set(args.shard or [])
+    tasks = []
+    with manifest_path.open("r", encoding="utf-8-sig", newline="") as handle:
+        for row in csv.DictReader(handle):
+            if str(row.get("status", "")).strip().upper() not in {"", "READY"}:
+                continue
+            if shards and str(row.get("shard_id", "")) not in shards:
+                continue
+            task_id = str(row.get("global_task_id", "")).strip()
+            input_path = str(row.get("input_path", "")).strip().replace("\\", "/")
+            if not task_id or not input_path:
+                continue
+            tasks.append(Task(task_id=task_id, card=_load_card(root / input_path)))
+            if args.limit is not None and len(tasks) >= args.limit:
+                break
+    if not tasks:
+        raise SystemExit(f"no READY tasks matched in {manifest_path}")
+    return tasks
+
+
+def _load_card(path: Path) -> dict[str, Any]:
+    import yaml
+
+    data = yaml.safe_load(path.read_text(encoding="utf-8")) or {}
+    if not isinstance(data, dict):
+        raise ValueError(f"card {path} is not a mapping")
+    card = {key: data.get(key) for key in _PROBLEM_FIELDS}
+    ProblemCard.model_validate(card)
+    return card
+
+
+def _make_call_fn(args: argparse.Namespace) -> tuple[Any, str]:
     if args.provider == "mock":
-        return _mock_output(public), {"provider": "mock", "model": "mock-baseline", "status": "ok", "attempt_count": 1}
-    return _openai_output(args, prompt, inputs)
-
-
-def _mock_output(public: PublicCase) -> BaselineOutput:
-    return BaselineOutput(
-        formalized_problem=public.statement,
-        classical_baseline="UNKNOWN",
-        bottleneck="unspecified",
-        complexity_model=public.access_model,
-        no_candidate_reason="Mock baseline placeholder: no assessment was performed.",
-        limitations=["deterministic placeholder output for pipeline validation only"],
-        self_assessment="mock_placeholder",
-    )
-
-
-def _openai_output(args: argparse.Namespace, prompt: str, inputs: dict[str, Any]) -> tuple[BaselineOutput, dict[str, Any]]:
+        return mock_reply, "mock-baseline"
     if os.environ.get("QUANTUMMINDLITE_LIVE_OPENAI") != "1":
-        raise RuntimeError("live OpenAI calls require QUANTUMMINDLITE_LIVE_OPENAI=1")
+        raise SystemExit("live OpenAI calls require QUANTUMMINDLITE_LIVE_OPENAI=1")
     model = args.model or os.environ.get("QUANTUMMINDLITE_OPENAI_MODEL", "")
     if not model:
-        raise RuntimeError("openai provider requires --model or QUANTUMMINDLITE_OPENAI_MODEL")
+        raise SystemExit("openai provider requires --model or QUANTUMMINDLITE_OPENAI_MODEL")
     from openai import OpenAI
 
     client = OpenAI()
-    kwargs: dict[str, Any] = {
-        "model": model,
-        "instructions": prompt,
-        "input": json.dumps({"inputs": inputs}, sort_keys=True),
-        "text_format": BaselineOutput,
-        "store": False,
-    }
-    if args.reasoning_effort:
-        kwargs["reasoning"] = {"effort": args.reasoning_effort}
-    if args.timeout is not None:
-        kwargs["timeout"] = args.timeout
-    last_error: Exception | None = None
-    for attempt in (1, 2):
-        try:
-            response = client.responses.parse(**kwargs)
-        except Exception as exc:
-            last_error = exc
-            continue
-        parsed = getattr(response, "output_parsed", None)
-        if parsed is None:
-            last_error = RuntimeError("OpenAI response did not contain output_parsed")
-            continue
-        try:
-            output = parsed if isinstance(parsed, BaselineOutput) else BaselineOutput.model_validate(parsed)
-        except ValidationError as exc:
-            last_error = exc
-            continue
-        usage = getattr(response, "usage", None)
-        usage_dump = usage.model_dump(mode="json") if hasattr(usage, "model_dump") else None
-        return output, {
-            "provider": "openai",
-            "model": str(getattr(response, "model", model)),
-            "status": "ok",
-            "attempt_count": attempt,
-            "usage": usage_dump,
+
+    def call(instructions: str, inputs: dict[str, Any], schema: type[Any]) -> Any:
+        kwargs: dict[str, Any] = {
+            "model": model,
+            "instructions": instructions,
+            "input": json.dumps({"inputs": inputs}, sort_keys=True, default=str),
+            "text_format": schema,
+            "store": False,
         }
-    raise RuntimeError(f"baseline generation failed after 2 attempts: {last_error!r}")
+        if args.reasoning_effort:
+            kwargs["reasoning"] = {"effort": args.reasoning_effort}
+        if args.timeout is not None:
+            kwargs["timeout"] = args.timeout
+        last_error: Exception | None = None
+        for _attempt in (1, 2):
+            try:
+                response = client.responses.parse(**kwargs)
+            except Exception as exc:
+                last_error = exc
+                continue
+            parsed = getattr(response, "output_parsed", None)
+            if parsed is None:
+                last_error = RuntimeError("OpenAI response did not contain output_parsed")
+                continue
+            try:
+                return parsed if isinstance(parsed, schema) else schema.model_validate(parsed)
+            except ValidationError as exc:
+                last_error = exc
+                continue
+        raise RuntimeError(f"baseline call failed after 2 attempts: {last_error!r}")
+
+    return call, model
 
 
 def _build_state(
     system_id: str,
     baseline_id: str,
-    public: PublicCase,
+    card: dict[str, Any],
     output: BaselineOutput,
     barrier_catalog: dict[str, BarrierSpec],
 ) -> RunState:
-    public_dump = public.model_dump(mode="json")
-    problem = ProblemCard.model_validate({key: public_dump[key] for key in _PROBLEM_FIELDS})
+    problem = ProblemCard.model_validate(card)
     analysis = AnalysisCard(
         formalized_problem=output.formalized_problem,
         canonical_structure_ids=output.canonical_structure_ids,
@@ -316,26 +281,27 @@ def _build_state(
     message = {
         "baseline_system_id": system_id,
         "baseline_id": baseline_id,
-        "action": "baseline_single_call",
+        "action": "baseline_strategy_call",
         "payload_digest": digest_json(output.model_dump(mode="json")),
     }
     return RunState(problem_card=problem, analysis_card=analysis, candidate_card=candidate, messages=[message])
 
 
-def _write_run(run_dir: Path, public: PublicCase, state: RunState, decision: Any, trace: dict[str, Any]) -> None:
+def _write_run(run_dir: Path, card: dict[str, Any], state: RunState, decision: Any, trace_rows: list[dict[str, Any]]) -> None:
     run_dir.mkdir(parents=True, exist_ok=True)
-    _dump(run_dir / "input.json", public.model_dump(mode="json"))
+    _dump(run_dir / "input.json", card)
     _dump(run_dir / "state.json", state.model_dump(mode="json"))
     _dump(run_dir / "decision.json", decision.model_dump(mode="json"))
     with (run_dir / "trace.jsonl").open("w", encoding="utf-8") as handle:
-        handle.write(json.dumps(trace, sort_keys=True) + "\n")
+        for row in trace_rows:
+            handle.write(json.dumps(row, sort_keys=True, default=str) + "\n")
 
 
 def _dump(path: Path, data: Any) -> None:
     path.write_text(json.dumps(data, indent=2, sort_keys=True) + "\n", encoding="utf-8")
 
 
-def _write_manifest(output_root: Path, system_id: str, root: Path) -> Path:
+def _write_ods_manifest(output_root: Path, system_id: str, root: Path) -> Path:
     rows = []
     for state_path in sorted((output_root / system_id).glob("*/state.json")):
         run_dir = state_path.parent
