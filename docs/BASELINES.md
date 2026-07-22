@@ -58,6 +58,21 @@ python scripts/run_baselines.py --baseline multi_agent_dialogue --provider opena
   --task-manifest experiments/final_discovery_run_v1/manifests/master_run_manifest.csv
 ```
 
+**Pairing with the completed QuantumMind runs:** the master manifest lists all
+planned tasks (2525 READY rows), while the completed discovery set is smaller
+(628 runs). ODS requires identical task sets per system, so for the comparison
+pass `--task-ids-from <csv>` pointing at any CSV with a `global_task_id` or
+`task_id` column — typically the QuantumMind ODS manifest itself:
+
+```bash
+python scripts/run_baselines.py --baseline zero_shot --provider openai --model <model> \
+  --task-manifest experiments/final_discovery_run_v1/manifests/master_run_manifest.csv \
+  --task-ids-from experiments/ods_manifest_quantummind.csv
+```
+
+Without `--limit`, missing ids fail fast instead of silently shrinking the
+task set.
+
 Runs land in `runs_baselines/<system_id>/<task_id>/`, so the screening join
 key `(shard, run)` is `(<system_id>, <task_id>)`. A per-system ODS manifest
 CSV is written to `runs_baselines/<system_id>_manifest.csv`. Re-running skips

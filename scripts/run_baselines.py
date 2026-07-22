@@ -64,6 +64,12 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--case-id", action="append", help="Restrict PaperBench mode to specific case IDs (repeatable).")
     parser.add_argument("--task-manifest", default=None, help="Master run manifest CSV; switches the task source to discovery tasks.")
     parser.add_argument("--shard", action="append", help="With --task-manifest: restrict to these shard_id values (repeatable).")
+    parser.add_argument(
+        "--task-ids-from",
+        default=None,
+        help="With --task-manifest: CSV with a global_task_id or task_id column (e.g. the QuantumMind ODS manifest); "
+        "restricts tasks to exactly that set so baseline rows pair 1:1 with completed QuantumMind runs.",
+    )
     parser.add_argument("--limit", type=int, default=None, help="With --task-manifest: run at most N tasks (pilot batches).")
     parser.add_argument("--system-id", default=None, help="Manifest system_id. Default: baseline_<name>_<provider>.")
     parser.add_argument("--output-root", default="runs_baselines", help="Run directories land under <output-root>/<system-id>/<task-id>.")
@@ -159,6 +165,7 @@ def _load_tasks(args: argparse.Namespace, root: Path) -> list[Task]:
     manifest_path = Path(args.task_manifest)
     manifest_path = manifest_path if manifest_path.is_absolute() else root / manifest_path
     shards = set(args.shard or [])
+    wanted = _load_task_id_filter(args, root)
     tasks = []
     with manifest_path.open("r", encoding="utf-8-sig", newline="") as handle:
         for row in csv.DictReader(handle):
@@ -167,6 +174,8 @@ def _load_tasks(args: argparse.Namespace, root: Path) -> list[Task]:
             if shards and str(row.get("shard_id", "")) not in shards:
                 continue
             task_id = str(row.get("global_task_id", "")).strip()
+            if wanted is not None and task_id not in wanted:
+                continue
             input_path = str(row.get("input_path", "")).strip().replace("\\", "/")
             if not task_id or not input_path:
                 continue
@@ -175,7 +184,24 @@ def _load_tasks(args: argparse.Namespace, root: Path) -> list[Task]:
                 break
     if not tasks:
         raise SystemExit(f"no READY tasks matched in {manifest_path}")
+    if wanted is not None and args.limit is None:
+        missing = sorted(wanted - {task.task_id for task in tasks})
+        if missing:
+            raise SystemExit(f"{len(missing)} task ids from --task-ids-from not found in the manifest, e.g. {missing[:3]}")
     return tasks
+
+
+def _load_task_id_filter(args: argparse.Namespace, root: Path) -> set[str] | None:
+    if args.task_ids_from is None:
+        return None
+    path = Path(args.task_ids_from)
+    path = path if path.is_absolute() else root / path
+    with path.open("r", encoding="utf-8-sig", newline="") as handle:
+        ids = {str(row.get("global_task_id") or row.get("task_id") or "").strip() for row in csv.DictReader(handle)}
+    ids.discard("")
+    if not ids:
+        raise SystemExit(f"no global_task_id/task_id values found in {path}")
+    return ids
 
 
 def _load_card(path: Path) -> dict[str, Any]:
